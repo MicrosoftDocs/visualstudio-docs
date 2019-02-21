@@ -81,5 +81,5 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)

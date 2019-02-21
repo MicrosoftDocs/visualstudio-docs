@@ -42,5 +42,5 @@ Drop-down bar
  To attach a drop-down bar to the code window when it is created, a language service should attach to the drop-down bar when the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A> method is called. If a call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.GetDropdownBar%2A> method indicates that a drop-down bar does not already exist, then call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.AddDropdownBar%2A>. To access the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager> interface, call <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> from the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> pointer returned to you when your <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> implementation was attached.
 
 ## See also
- [Customize code windows by using the legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)
- [Support for the Navigation bar in a legacy language service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)
+- [Customize code windows by using the legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)
+- [Support for the Navigation bar in a legacy language service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)

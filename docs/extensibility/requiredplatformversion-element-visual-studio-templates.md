@@ -66,6 +66,6 @@ RequiredPlatformVersion
 ```
 
 ## See also
- [TargetPlatformName element (Visual Studio templates)](../extensibility/targetplatformname-element-visual-studio-templates.md)
- [Create project and item templates](../ide/creating-project-and-item-templates.md)
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [TargetPlatformName element (Visual Studio templates)](../extensibility/targetplatformname-element-visual-studio-templates.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

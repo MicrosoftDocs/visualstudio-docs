@@ -58,4 +58,4 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
 6.  If you have to use the <xref:EnvDTE80.DTE2> interface, you can cast the DTE object to it.
 
 ## See also
- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

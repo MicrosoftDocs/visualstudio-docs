@@ -59,4 +59,4 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
  Information about individual support requests can be found at [Individual Support Requests](http://go.microsoft.com/fwlink/?LinkID=82385).
 
 ## See Also
- [Talk to Us](../ide/talk-to-us.md)
+- [Talk to Us](../ide/talk-to-us.md)

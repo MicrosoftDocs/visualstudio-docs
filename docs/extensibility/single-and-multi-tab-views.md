@@ -107,6 +107,6 @@ Error:
 ```
 
 ## See Also
- [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)
- [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)
- [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)
+- [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)
+- [How to: Attach Views to Document Data](../extensibility/how-to-attach-views-to-document-data.md)
+- [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)

@@ -106,4 +106,4 @@ The association of a file name extension with an application generally has a pre
 >  If you plan to change the default verb for an extension in a side-by-side deployment, consider the impact on installation and removal. During installation the original default value is overwritten.
 
 ## See also
- [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)
+- [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)

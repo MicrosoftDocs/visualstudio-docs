@@ -39,5 +39,5 @@ SCCRTN SccBeginBatch(void);
  While a batch operation is in effect, the source control plug-in should present at most one dialog box for any question to the user and apply the response from that dialog box on all subsequent operations.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccEndBatch](../extensibility/sccendbatch-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccEndBatch](../extensibility/sccendbatch-function.md)

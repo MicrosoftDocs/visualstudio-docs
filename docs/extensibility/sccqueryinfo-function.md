@@ -29,16 +29,16 @@ SCCRTN SccQueryInfo(
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array and the length of the `lpStatus` array.
+- [in] Number of files specified in the `lpFileNames` array and the length of the `lpStatus` array.
 
  lpFileNames
- [in] An array of names of files to be queried.
+- [in] An array of names of files to be queried.
 
  lpStatus
- [in, out] An array in which the source control plug-in returns the status flags for each file. For more information, see [File Status Code](../extensibility/file-status-code-enumerator.md).
+- [in, out] An array in which the source control plug-in returns the status flags for each file. For more information, see [File Status Code](../extensibility/file-status-code-enumerator.md).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -66,5 +66,5 @@ SCCRTN SccQueryInfo(
 -   If the file is checked-out by the current user into a directory other than the working directory, `SCC_STATUS_OUTBYUSER` is set but `SCC_STATUS_CHECKEDOUT` is not.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
- [File Status Code](../extensibility/file-status-code-enumerator.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [File Status Code](../extensibility/file-status-code-enumerator.md)

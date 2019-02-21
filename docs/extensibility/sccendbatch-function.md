@@ -37,5 +37,5 @@ SCCRTN SccEndBatch(void);
  Source control batches are used to execute the same source control operations across multiple projects or multiple contexts. Batches can be used to eliminate redundant dialog boxes from the user experience during a batched operation. The [SccBeginBatch](../extensibility/sccbeginbatch-function.md) and the `SccEndBatch` function are used as a pair to indicate the beginning and end of an operation. They cannot be nested.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccBeginBatch](../extensibility/sccbeginbatch-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccBeginBatch](../extensibility/sccbeginbatch-function.md)

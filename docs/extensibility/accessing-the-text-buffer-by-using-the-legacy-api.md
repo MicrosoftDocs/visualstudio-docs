@@ -25,11 +25,11 @@ Text buffer object
  The text buffer's second responsibility is file persistence. To do this, the text buffer object implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and acts as the document data object component for project items and other environment components involved in persistence. For more information, see [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md).
 
 ## In this section
- [Change view settings by using the legacy API](../extensibility/changing-view-settings-by-using-the-legacy-api.md)
+- [Change view settings by using the legacy API](../extensibility/changing-view-settings-by-using-the-legacy-api.md)
  Explains how to change view settings using the legacy API.
 
- [Use the text manager to monitor global settings](../extensibility/using-the-text-manager-to-monitor-global-settings.md)
+- [Use the text manager to monitor global settings](../extensibility/using-the-text-manager-to-monitor-global-settings.md)
  Explains how to use the text manager to monitor global settings.
 
 ## See also
- [Inside the core editor](../extensibility/inside-the-core-editor.md)
+- [Inside the core editor](../extensibility/inside-the-core-editor.md)

@@ -27,20 +27,20 @@ A service is a contract between two VSPackages. One VSPackage offers a specific 
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>|Provides basic solution-related functionality, such as the ability to enumerate projects, create new projects, and monitor project changes.|
 
 ## In This Section
- [Service Essentials](../extensibility/internals/service-essentials.md)
+- [Service Essentials](../extensibility/internals/service-essentials.md)
  Presents the important elements of a Visual Studio service.
 
- [How to: Get a Service](../extensibility/how-to-get-a-service.md)
+- [How to: Get a Service](../extensibility/how-to-get-a-service.md)
  Discusses how to request (consume) a service.
 
- [How to: Provide a Service](../extensibility/how-to-provide-a-service.md)
+- [How to: Provide a Service](../extensibility/how-to-provide-a-service.md)
  Discusses how to provide a service.
 
- [How to: Provide an Asynchronous Visual Studio Service](../extensibility/how-to-provide-an-asynchronous-visual-studio-service.md)
+- [How to: Provide an Asynchronous Visual Studio Service](../extensibility/how-to-provide-an-asynchronous-visual-studio-service.md)
  Discusses how to provide an asynchronous service.
 
- [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md)
+- [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md)
  Discusses common problems and presents solutions to them.
 
 ## Related Sections
- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)

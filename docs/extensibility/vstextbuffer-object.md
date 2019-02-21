@@ -38,6 +38,6 @@ The text buffer object represents a stream of Unicode text, which is generally a
  The `VSTextBuffer` is usually found by a `QueryInterface` call on `IVsTextBuffer`. For more information, see [Text buffer](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md).
 
 ## See also
- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>
- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>
- [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>
+- [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)

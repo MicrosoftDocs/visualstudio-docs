@@ -100,4 +100,4 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
 ```
 
 ## See also
- [Extending menus and commands](../extensibility/extending-menus-and-commands.md)
+- [Extending menus and commands](../extensibility/extending-menus-and-commands.md)

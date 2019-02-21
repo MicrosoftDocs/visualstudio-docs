@@ -39,4 +39,4 @@ Extensions can impact startup and solution load performance. Learn how Visual St
  Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
 
 ## See also
- [VSPackages](../extensibility/internals/vspackages.md)
+- [VSPackages](../extensibility/internals/vspackages.md)

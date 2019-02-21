@@ -23,32 +23,32 @@ Commands are the way you add actions and processes to Visual Studio. In most cas
  The following topics explain how to add different kinds of commands, menus, and toolbars.
 
 ## In this section
- [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
+- [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
  Explains how to add a menu to the top Visual Studio menu bar.
 
- [Bind keyboard shortcuts to menu items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)
+- [Bind keyboard shortcuts to menu items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)
  Explains how to add a keyboard shortcut (such as CTRL + 3) to a menu item.
 
- [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md)
+- [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md)
  Explains how to add a submenu to the top menu.
 
- [Add a most recently used list to a submenu](../extensibility/adding-a-most-recently-used-list-to-a-submenu.md)
+- [Add a most recently used list to a submenu](../extensibility/adding-a-most-recently-used-list-to-a-submenu.md)
  Explains how to add a Most Recently Used list.
 
- [Create reusable groups of buttons](../extensibility/creating-reusable-groups-of-buttons.md)
+- [Create reusable groups of buttons](../extensibility/creating-reusable-groups-of-buttons.md)
  Describes how to group command items so that they can be included on multiple menus.
 
- [Add icons to menu commands](../extensibility/adding-icons-to-menu-commands.md)
+- [Add icons to menu commands](../extensibility/adding-icons-to-menu-commands.md)
  Describes how to add an icon to a command on both a toolbar and a menu.
 
- [Change the text of a menu command](../extensibility/changing-the-text-of-a-menu-command.md)
+- [Change the text of a menu command](../extensibility/changing-the-text-of-a-menu-command.md)
  Describes the use of the `TextChanges` flag to enable a menu item to be changed dynamically.
 
- [Change the appearance of a command](../extensibility/changing-the-appearance-of-a-command.md)
+- [Change the appearance of a command](../extensibility/changing-the-appearance-of-a-command.md)
  Describes how to dynamically enable or disable a command.
 
- [Update the user interface](../extensibility/updating-the-user-interface.md)
+- [Update the user interface](../extensibility/updating-the-user-interface.md)
  Describes how to force an update of the user interface to reflect recent changes.
 
- [Localize menu commands](../extensibility/localizing-menu-commands.md)
+- [Localize menu commands](../extensibility/localizing-menu-commands.md)
  Explains how to localize menu commands.

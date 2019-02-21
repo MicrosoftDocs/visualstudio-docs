@@ -78,8 +78,8 @@ You can create a custom Start Page by following the steps in this document.
 -   After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio
 
 ## See also
- [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
- [Add user control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
- [Add Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
- [Walkthrough: Save user settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)
- [Deploy custom Start Pages](../extensibility/deploying-custom-start-pages.md)
+- [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
+- [Add user control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
+- [Add Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
+- [Walkthrough: Save user settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)
+- [Deploy custom Start Pages](../extensibility/deploying-custom-start-pages.md)

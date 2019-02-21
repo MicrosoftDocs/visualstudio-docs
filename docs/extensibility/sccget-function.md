@@ -31,22 +31,22 @@ SCCRTN SccGet(
 
 ### Parameters
  pvContext
- [in] The context structure of the source control plug-in.
+- [in] The context structure of the source control plug-in.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array.
+- [in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
- [in] Array of fully qualified names of files to be retrieved.
+- [in] Array of fully qualified names of files to be retrieved.
 
  fOptions
- [in] Command flags (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).
+- [in] Command flags (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -95,5 +95,5 @@ SCCRTN SccGet(
     6.  The updated *b.txt* file can now be checked in.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)

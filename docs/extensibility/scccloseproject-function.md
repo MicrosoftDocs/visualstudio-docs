@@ -42,6 +42,6 @@ SCCRTN SccCloseProject (
  The [SccOpenProject](../extensibility/sccopenproject-function.md) is always called before this function. A call to this function is then followed by a call to either the `SccOpenProject` function or the [SccUninitialize](../extensibility/sccuninitialize-function.md), which ends the connection to the source control system completely.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccOpenProject](../extensibility/sccopenproject-function.md)
- [SccInitialize](../extensibility/sccinitialize-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccOpenProject](../extensibility/sccopenproject-function.md)
+- [SccInitialize](../extensibility/sccinitialize-function.md)

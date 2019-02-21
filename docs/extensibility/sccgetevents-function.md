@@ -29,16 +29,16 @@ SCCRTN SccGetEvents (
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  lpFileName
- [in, out] Buffer where the source control plug-in puts the returned file name (up to _MAX_PATH characters).
+- [in, out] Buffer where the source control plug-in puts the returned file name (up to _MAX_PATH characters).
 
  lpStatus
- [in, out] Returns status code (see [File status code](../extensibility/file-status-code-enumerator.md) for possible values).
+- [in, out] Returns status code (see [File status code](../extensibility/file-status-code-enumerator.md) for possible values).
 
  pnEventsRemaining
- [in, out] Returns number of entries left in the queue after this call. If this number is large, the caller may decide to call the [SccQueryInfo](../extensibility/sccqueryinfo-function.md) to get all the information at once.
+- [in, out] Returns number of entries left in the queue after this call. If this number is large, the caller may decide to call the [SccQueryInfo](../extensibility/sccqueryinfo-function.md) to get all the information at once.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -55,5 +55,5 @@ SCCRTN SccGetEvents (
  If there is no status update to report, the source control plug-in stores an empty string in the buffer pointed to by `lpFileName`. Otherwise, the plug-in stores the full path name of the file for which the status information has changed and returns the appropriate status code (one of the values detailed in [File status code](../extensibility/file-status-code-enumerator.md)).
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [File status code](../extensibility/file-status-code-enumerator.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [File status code](../extensibility/file-status-code-enumerator.md)

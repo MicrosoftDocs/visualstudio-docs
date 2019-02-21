@@ -30,22 +30,22 @@ SCCRTN SccBackgroundGet(
 
 ### Parameters
  pContext
- [in] The source control plug-in context pointer.
+- [in] The source control plug-in context pointer.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array.
+- [in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
- [in, out] Array of names of files to be retrieved.
+- [in, out] Array of names of files to be retrieved.
 
 > [!NOTE]
 >  The names must be fully qualified local filenames.
 
  dwFlags
- [in] Command flags (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).
+- [in] Command flags (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).
 
  dwBackgroundOperationID
- [in] A unique value associated with this operation.
+- [in] A unique value associated with this operation.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -62,5 +62,5 @@ SCCRTN SccBackgroundGet(
  The use of the `dwFlags` argument is the same as the [SccGet](../extensibility/sccget-function.md).
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccGet](../extensibility/sccget-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccGet](../extensibility/sccget-function.md)

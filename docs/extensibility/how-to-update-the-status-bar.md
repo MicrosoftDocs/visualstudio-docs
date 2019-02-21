@@ -41,4 +41,4 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.
 
 ## See also
- [Status bars](/cpp/mfc/status-bars)
+- [Status bars](/cpp/mfc/status-bars)

@@ -70,4 +70,4 @@ Modifies its parent element.
 |[Menus element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|
 
 ## See also
- [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

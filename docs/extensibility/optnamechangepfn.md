@@ -28,13 +28,13 @@ typedef void (*OPTNAMECHANGEPFN)(
 
 ## Parameters
  pvCallerData
- [in] User value specified in a previous call to the [SccSetOption](../extensibility/sccsetoption-function.md) (using option `SCC_OPT_USERDATA`).
+- [in] User value specified in a previous call to the [SccSetOption](../extensibility/sccsetoption-function.md) (using option `SCC_OPT_USERDATA`).
 
  pszOldName
- [in] The original name of the file.
+- [in] The original name of the file.
 
  pszNewName
- [in] The name the file was renamed to.
+- [in] The name the file was renamed to.
 
 ## Return value
  None.
@@ -45,5 +45,5 @@ typedef void (*OPTNAMECHANGEPFN)(
  If the IDE does not support this callback, it will not call the [SccSetOption](../extensibility/sccsetoption-function.md) to specify it. If the plug-in does not support this callback, it will return `SCC_E_OPNOTSUPPORTED` from the `SccSetOption` function when the IDE attempts to set the callback.
 
 ## See also
- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
- [SccSetOption](../extensibility/sccsetoption-function.md)
+- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
+- [SccSetOption](../extensibility/sccsetoption-function.md)

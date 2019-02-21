@@ -78,5 +78,5 @@ Specifies the name that the Visual Studio project system will generate for the p
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)

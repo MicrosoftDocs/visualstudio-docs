@@ -32,25 +32,25 @@ SCCRTN SccCheckout (
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files selected to be checked out.
+- [in] Number of files selected to be checked out.
 
  lpFileNames
- [in] Array of fully qualified local path names of files to be checked out.
+- [in] Array of fully qualified local path names of files to be checked out.
 
  lpComment
- [in] Comment to be applied to each of the selected files being checked out.
+- [in] Comment to be applied to each of the selected files being checked out.
 
  fOptions
- [in] Command flags (see [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)).
+- [in] Command flags (see [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)).
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -68,5 +68,5 @@ SCCRTN SccCheckout (
 |SCC_I_OPERATIONCANCELED|The operation was cancelled before completion.|
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Bitflags used by specific commands](../extensibility/bitflags-used-by-specific-commands.md)

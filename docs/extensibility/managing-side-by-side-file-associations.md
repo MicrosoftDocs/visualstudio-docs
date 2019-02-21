@@ -77,5 +77,5 @@ If your VSPackage provides file associations, you must decide how to handle side
 -   Provide a configuration options page or dialog box that lets users choose file associations and reclaim lost associations. Instruct users to run it after uninstallation.
 
 ## See also
- [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
- [Register verbs for file name extensions](../extensibility/registering-verbs-for-file-name-extensions.md)
+- [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
+- [Register verbs for file name extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

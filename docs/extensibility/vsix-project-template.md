@@ -75,5 +75,5 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
 
 ## See also
- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
- [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)
+- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
+- [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

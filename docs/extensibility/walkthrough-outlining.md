@@ -126,4 +126,4 @@ Set up language-based features such as outlining by defining the kinds of text r
 4.  There should be an outlining region that includes both brackets. You should be able to click the Minus Sign to the left of the open bracket to collapse the outlining region. When the region is collapsed, the ellipsis symbol (*...*) should appear to the left of the collapsed region, and a popup containing the text **hover text** should appear when you move the pointer over the ellipsis.
 
 ## See also
- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
+- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

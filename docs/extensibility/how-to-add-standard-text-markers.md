@@ -41,7 +41,7 @@ Use the following procedure to create one of the default text marker types provi
      Use this information from this call to execute whatever actions of the text marker your custom command dictates.
 
 ## See also
- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
- [How to: Implement error markers](../extensibility/how-to-implement-error-markers.md)
- [How to: Create custom text markers](../extensibility/how-to-create-custom-text-markers.md)
- [How to: Use text markers](../extensibility/how-to-use-text-markers.md)
+- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
+- [How to: Implement error markers](../extensibility/how-to-implement-error-markers.md)
+- [How to: Create custom text markers](../extensibility/how-to-create-custom-text-markers.md)
+- [How to: Use text markers](../extensibility/how-to-use-text-markers.md)

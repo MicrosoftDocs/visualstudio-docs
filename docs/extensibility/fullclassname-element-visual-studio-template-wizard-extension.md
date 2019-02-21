@@ -83,6 +83,6 @@ The fully qualified name of the class that implements the `IWizard` interface.
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Create project and item templates](../ide/creating-project-and-item-templates.md)
- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)

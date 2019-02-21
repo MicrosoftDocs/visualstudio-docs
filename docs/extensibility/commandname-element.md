@@ -37,4 +37,4 @@ The `CommandName` element specifies the text that appears in the keyboard catego
 |[Strings element](../extensibility/strings-element.md)|Groups text elements, such as `ButtonText` and `CommandName`.|
 
 ## See also
- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -91,4 +91,4 @@ You can use item templates that are included in the Visual Studio SDK to create 
 4.  Build this project and start debugging. The experimental instance appears. If you open a text file, a green margin that has the words **Hello EditorMargin1** is displayed below the horizontal scroll bar.
 
 ## See also
- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

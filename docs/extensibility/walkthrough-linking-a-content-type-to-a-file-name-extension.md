@@ -96,4 +96,4 @@ You can define your own content type and link a file name extension to it by usi
     ```
 
 ## See also
- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

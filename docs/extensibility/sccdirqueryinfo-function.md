@@ -29,16 +29,16 @@ LPLONG  lpStatus
 
 ### Parameters
  pContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  nDirs
- [in] The number of directories selected to be queried.
+- [in] The number of directories selected to be queried.
 
  lpDirNames
- [in] An array of fully qualified paths of the directories to be queried.
+- [in] An array of fully qualified paths of the directories to be queried.
 
  lpStatus
- [in, out] An array structure for the source control plug-in to return the status flags (see [Directory status code](../extensibility/directory-status-code-enumerator.md) for details).
+- [in, out] An array structure for the source control plug-in to return the status flags (see [Directory status code](../extensibility/directory-status-code-enumerator.md) for details).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -59,5 +59,5 @@ LPLONG  lpStatus
 >  If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [Directory status code](../extensibility/directory-status-code-enumerator.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Directory status code](../extensibility/directory-status-code-enumerator.md)

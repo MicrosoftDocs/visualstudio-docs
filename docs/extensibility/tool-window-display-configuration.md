@@ -102,4 +102,4 @@ HKEY_LOCAL_MACHINE\
 ```
 
 ## See Also
- [VSPackages](../extensibility/internals/vspackages.md)
+- [VSPackages](../extensibility/internals/vspackages.md)

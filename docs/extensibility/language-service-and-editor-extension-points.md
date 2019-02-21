@@ -537,11 +537,11 @@ internal class TestCompletionSourceProvider : ICompletionSourceProvider
 
  For more information about implementing IntelliSense sources, see the following walkthroughs:
 
- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
+- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
 
- [Walkthrough: Display Signature Help](../extensibility/walkthrough-displaying-signature-help.md)
+- [Walkthrough: Display Signature Help](../extensibility/walkthrough-displaying-signature-help.md)
 
- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
 
 ### Implement an IntelliSense controller
  To customize a controller, you must implement the <xref:Microsoft.VisualStudio.Language.Intellisense.IIntellisenseController> interface. In addition, you must implement a controller provider together with the following attributes:
@@ -564,4 +564,4 @@ internal class TestIntellisenseControllerProvider : IIntellisenseControllerProvi
 
  For more information about using IntelliSense controllers, see the following walkthroughs:
 
- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
+- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)

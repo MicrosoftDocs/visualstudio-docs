@@ -58,5 +58,5 @@ The VisibilityConstraints element determines the static visibility of groups of 
 ```
 
 ## See also
- [VisibilityItem element](../extensibility/visibilityitem-element.md)
- [Visual Studio command table (.Vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [VisibilityItem element](../extensibility/visibilityitem-element.md)
+- [Visual Studio command table (.Vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

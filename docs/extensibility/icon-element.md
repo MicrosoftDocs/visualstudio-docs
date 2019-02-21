@@ -44,4 +44,4 @@ The guid attribute of the Icon tag is the guid of a defined bitmap. The `id` att
 |[Buttons element](../extensibility/buttons-element.md)||
 
 ## See also
- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -30,19 +30,19 @@ SCCRTN SccQueryChanges(
 
 #### Parameters
  pContext
- [in] The source control plug-in context pointer.
+- [in] The source control plug-in context pointer.
 
  nFiles
- [in] Number of files in `lpFileNames` array.
+- [in] Number of files in `lpFileNames` array.
 
  lpFileNames
- [in] Array of file names to get information about.
+- [in] Array of file names to get information about.
 
  pfnCallback
- [in] Callback function to call for each file name in the list (see [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md) for details).
+- [in] Callback function to call for each file name in the list (see [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md) for details).
 
  pvCallerData
- [in] Value that will be passed unchanged to the callback function.
+- [in] Value that will be passed unchanged to the callback function.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -58,6 +58,6 @@ SCCRTN SccQueryChanges(
  Changes being queried for are to the namespace: specifically, renaming, adding, and removing a file.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
- [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)
- [Error Codes](../extensibility/error-codes.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)
+- [Error Codes](../extensibility/error-codes.md)

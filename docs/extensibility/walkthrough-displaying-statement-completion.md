@@ -196,4 +196,4 @@ You can implement language-based statement completion by defining the identifier
 4.  As you type first "a" and then "d", a list that contains "addition" and "adaptation" should appear. Notice that addition is selected. When you type another "d", the list should contain only "addition", which is now selected. You can commit "addition" by pressing the **Spacebar**, **Tab**, or **Enter** key, or dismiss the list by typing Esc or any other key.
 
 ## See also
- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
+- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

@@ -30,5 +30,5 @@ HKEY_CLASSES_ROOT\
  In certain cases, the ProgID associated with a file extension should not be changed. For example, the ProgID for the *.htm* file extension (progid = htmlfile) is hard-coded in a number of places in the operating system, and is widely known and used in association with *.htm* and *.html* files.
 
 ## See also
- [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
- [Specify file handlers for file name extensions](../extensibility/specifying-file-handlers-for-file-name-extensions.md)
+- [Register file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
+- [Specify file handlers for file name extensions](../extensibility/specifying-file-handlers-for-file-name-extensions.md)

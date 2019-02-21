@@ -61,5 +61,5 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
 ```
 
 ## See also
- [CommandPlacements element](../extensibility/commandplacements-element.md)
- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [CommandPlacements element](../extensibility/commandplacements-element.md)
+- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

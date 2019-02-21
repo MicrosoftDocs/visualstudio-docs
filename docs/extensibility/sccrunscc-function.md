@@ -29,16 +29,16 @@ SCCRTN SccRunScc(
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array.
+- [in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
- [in] Array of selected file names.
+- [in] Array of selected file names.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -61,7 +61,7 @@ SCCRTN SccRunScc(
  This function is typically invoked when the user selects the **Launch \<Source Control Server>** from the **File** -> **Source Control** menu. This **Launch** menu option can be always disabled or even hidden by setting a registry entry. See [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md) for details. This function is called only if [SccInitialize](../extensibility/sccinitialize-function.md) returns the `SCC_CAP_RUNSCC` capability bit (see [Capability Flags](../extensibility/capability-flags.md) for details on this and other capability bits).
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
- [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md)
- [Capability Flags](../extensibility/capability-flags.md)
- [SccInitialize](../extensibility/sccinitialize-function.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md)
+- [Capability Flags](../extensibility/capability-flags.md)
+- [SccInitialize](../extensibility/sccinitialize-function.md)

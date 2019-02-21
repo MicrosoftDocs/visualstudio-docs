@@ -77,6 +77,6 @@ if (sp != null)
 ```
 
 ## See also
- [How to: Provide a service](../extensibility/how-to-provide-a-service.md)
- [Use and provide services](../extensibility/using-and-providing-services.md)
- [Service essentials](../extensibility/internals/service-essentials.md)
+- [How to: Provide a service](../extensibility/how-to-provide-a-service.md)
+- [Use and provide services](../extensibility/using-and-providing-services.md)
+- [Service essentials](../extensibility/internals/service-essentials.md)

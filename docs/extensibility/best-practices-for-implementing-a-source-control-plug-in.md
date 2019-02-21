@@ -52,5 +52,5 @@ The following technical details can help you reliably implement a source control
  Most user-configurable setting options are not defined in this manner, because they vary widely among source control plug-ins. Therefore, the recommended mechanism is an **Advanced** button. For instance, in the **Get** dialog box, the IDE displays only information that it understands, but it also displays an **Advanced** button if the plug-in has options for this command. When the user clicks the **Advanced** button, the IDE calls the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) to enable the source control plug-in to prompt the user for information, such as bitflags or a date/time. The plug-in returns this information in a structure that is passed back during the `SccGet` command.
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
- [Create a source control plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Create a source control plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

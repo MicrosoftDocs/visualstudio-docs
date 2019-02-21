@@ -97,7 +97,7 @@ typedef struct {
  This structure is sent with the `SCC_MSG_BACKGROUND_ON_AFTER_GET_FILE` message. It is used to communicate the result of retrieving the specified file as well as the ID of the background operation that did the retrieving. See the return values for the [SccGet](../extensibility/sccget-function.md) for what can be given as a result.
 
 ###  <a name="LinkSccMsgDataOnMessage"></a> SccMsgDataOnMessage
- [C++]
+- [C++]
 
 ```cpp
 typedef struct {
@@ -132,5 +132,5 @@ LONG SendStatusMessage(
 ```
 
 ## See also
- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)

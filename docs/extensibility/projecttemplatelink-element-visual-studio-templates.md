@@ -91,6 +91,6 @@ Specifies the path to the *.vstemplate* file of one project in a multi-project t
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Create project and item templates](../ide/creating-project-and-item-templates.md)
- [How to: Create multi-project templates](../ide/how-to-create-multi-project-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create multi-project templates](../ide/how-to-create-multi-project-templates.md)

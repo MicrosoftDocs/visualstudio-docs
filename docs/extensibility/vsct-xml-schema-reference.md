@@ -36,36 +36,36 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
 ## Schema hierarchy
  A .vsct file has the following major elements.
 
- [CommandTable element](../extensibility/commandtable-element.md)
+- [CommandTable element](../extensibility/commandtable-element.md)
 
- [Extern element](../extensibility/extern-element.md)
+- [Extern element](../extensibility/extern-element.md)
 
- [Include element](../extensibility/include-element.md)
+- [Include element](../extensibility/include-element.md)
 
- [Define element](../extensibility/define-element.md)
+- [Define element](../extensibility/define-element.md)
 
- [Commands element](../extensibility/commands-element.md)
+- [Commands element](../extensibility/commands-element.md)
 
- [CommandPlacements element](../extensibility/commandplacements-element.md)
+- [CommandPlacements element](../extensibility/commandplacements-element.md)
 
- [VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)
+- [VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)
 
- [KeyBindings element](../extensibility/keybindings-element.md)
+- [KeyBindings element](../extensibility/keybindings-element.md)
 
- [UsedCommands element](../extensibility/usedcommands-element.md)
+- [UsedCommands element](../extensibility/usedcommands-element.md)
 
- [Parent element](../extensibility/parent-element.md)
+- [Parent element](../extensibility/parent-element.md)
 
- [Icon element](../extensibility/icon-element.md)
+- [Icon element](../extensibility/icon-element.md)
 
- [Strings element](../extensibility/strings-element.md)
+- [Strings element](../extensibility/strings-element.md)
 
- [Command Flag element](../extensibility/command-flag-element.md)
+- [Command Flag element](../extensibility/command-flag-element.md)
 
- [Symbols element](../extensibility/symbols-element.md)
+- [Symbols element](../extensibility/symbols-element.md)
 
- [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)
+- [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)
 
 ## See also
- [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
- [Command routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)
+- [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [Command routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)

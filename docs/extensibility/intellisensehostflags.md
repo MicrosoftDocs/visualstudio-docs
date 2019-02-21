@@ -44,4 +44,4 @@ enum IntellisenseHostFlags
  SingleFileeditor.idl
 
 ## See also
- <xref:Microsoft.VisualStudio.TextManager.Interop>
+- <xref:Microsoft.VisualStudio.TextManager.Interop>

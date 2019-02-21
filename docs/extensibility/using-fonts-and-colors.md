@@ -19,21 +19,21 @@ ms.workload:
 The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides support for using fonts and colors to display text.
 
 ## In This Section
- [Font and Color Overview](../extensibility/font-and-color-overview.md)
+- [Font and Color Overview](../extensibility/font-and-color-overview.md)
  Discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Also introduces the concepts of Categories and Display Items, and describes how VSPackages and the core editor use text attributes.
 
- [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
+- [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
  Provides guidelines for implementing text colorization in VSPackages that manage **Categories** other than **Text Editor**.
 
- [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)
+- [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)
  Explains how current font and color settings can be stored, retrieved, and applied.
 
- [Implementing Custom Categories and Display Items](../extensibility/implementing-custom-categories-and-display-items.md)
+- [Implementing Custom Categories and Display Items](../extensibility/implementing-custom-categories-and-display-items.md)
  Describes the basic steps by which a window can create and use its own of **Display Items** and **Categories** to support text display.
 
  This approach requires a VSPackage to implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider> interface and related interfaces.
 
- [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)
+- [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)
  Discusses how to define and register a category by using built-in fonts and colors, and initiate the use of system-provided fonts and colors.
 
 ## Reference
@@ -59,11 +59,11 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides suppor
  Controls the caching of font and color settings.
 
 ## Related Sections
- [Developing a Legacy Language Service](../extensibility/internals/developing-a-legacy-language-service.md)
+- [Developing a Legacy Language Service](../extensibility/internals/developing-a-legacy-language-service.md)
  Discusses how VSPackages can use language services to customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.
 
- [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)
+- [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)
  Descries how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor uses language services to implement syntax coloring.
 
- [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
  Explains how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

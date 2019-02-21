@@ -98,6 +98,6 @@ enum SccStatus {
  Reserved for internal use.
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
- [SccQueryInfo](../extensibility/sccqueryinfo-function.md)
- [POPLISTFUNC](../extensibility/poplistfunc.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [SccQueryInfo](../extensibility/sccqueryinfo-function.md)
+- [POPLISTFUNC](../extensibility/poplistfunc.md)

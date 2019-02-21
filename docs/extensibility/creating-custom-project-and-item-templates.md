@@ -78,5 +78,5 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 ## See also
 
-[Visual Studio template reference](../ide/creating-project-and-item-templates.md)
-[NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)
+- [Visual Studio template reference](../ide/creating-project-and-item-templates.md)
+- [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

@@ -39,5 +39,5 @@ Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize<br/>Microsof
 
 ## See also
 
-[Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)
-[Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
+- [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)
+- [Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)

@@ -31,22 +31,22 @@ SCCRTN SccUncheckout (
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array.
+- [in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
- [in] Array of fully qualified local path names of files for which to undo a checkout.
+- [in] Array of fully qualified local path names of files for which to undo a checkout.
 
  fOptions
- [in] Command flags (not used).
+- [in] Command flags (not used).
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -66,4 +66,4 @@ SCCRTN SccUncheckout (
  After this operation, the `SCC_STATUS_CHECKEDOUT` and `SCC_STATUS_MODIFIED` flags will both be cleared for the files on which the undo checkout was performed.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

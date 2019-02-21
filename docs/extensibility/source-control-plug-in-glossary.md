@@ -59,4 +59,4 @@ The following helpful terms and definitions pertain to the Source Control Plug-i
  A committed change in the history of a file or set of files. A revision is one snapshot in a continuously changing project.
 
 ## See Also
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
+- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

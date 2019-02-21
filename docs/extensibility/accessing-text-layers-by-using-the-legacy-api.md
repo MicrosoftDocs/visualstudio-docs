@@ -40,6 +40,6 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
 -   Besides <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer>, a text layer must implement <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> and fire the events in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents> interface.
 
 ## See also
- [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)
- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
- [Customize editor controls and menus by using the legacy API](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)
+- [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)
+- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
+- [Customize editor controls and menus by using the legacy API](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)

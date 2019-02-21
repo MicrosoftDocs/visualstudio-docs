@@ -62,5 +62,5 @@ enum { 
  Stops the cancel loop.
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
- [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)

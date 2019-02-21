@@ -100,4 +100,4 @@ The behavior of a number of functions in the Source Control Plug-in API can be m
 |`SCC_OPT_SCO_YES`|1L|No plug-in UI checkout, no working directory.|`SCC_OPT_SCCCHECKOUTONLY`|
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)

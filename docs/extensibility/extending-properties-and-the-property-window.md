@@ -21,8 +21,8 @@ The **Properties** window is used to view and edit the design-time properties an
  When you select an object in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties window overview](../extensibility/internals/properties-window-overview.md).
 
 ## In this section
- [Expose properties to the Properties window](../extensibility/exposing-properties-to-the-properties-window.md)
+- [Expose properties to the Properties window](../extensibility/exposing-properties-to-the-properties-window.md)
  Explains how you can have your custom properties displayed in the Properties window.
 
- [Get project properties](../extensibility/getting-project-properties.md)
+- [Get project properties](../extensibility/getting-project-properties.md)
  Explains how to get project properties.

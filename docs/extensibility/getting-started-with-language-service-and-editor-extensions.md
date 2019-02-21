@@ -81,4 +81,4 @@ You can use editor extensions to add language service features such as outlining
 -   [Walkthrough: Using a shortcut key with an editor extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
 
 ## See also
- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

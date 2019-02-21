@@ -36,23 +36,23 @@ When you place a Visual Studio solution or project under source control using th
 ## An illustration of the MSSCCPRJ.SCC file format
  Following is a sample of the *MSSCCPRJ.SCC* file format (the line numbers are only provided as a guide, and should not be included in the file body):
 
- [Line 1] `SCC = This is a Source Code Control file`
+- [Line 1] `SCC = This is a Source Code Control file`
 
- [Line 2]
+- [Line 2]
 
- [Line 3] `[TestApp.sln]`
+- [Line 3] `[TestApp.sln]`
 
- [Line 4] `SCC_Aux_Path = "\\server\vss\"`
+- [Line 4] `SCC_Aux_Path = "\\server\vss\"`
 
- [Line 5] `SCC_Project_Name = "$/TestApp"`
+- [Line 5] `SCC_Project_Name = "$/TestApp"`
 
- [Line 6]
+- [Line 6]
 
- [Line 7] `[TestApp.csproj]`
+- [Line 7] `[TestApp.csproj]`
 
- [Line 8] `SCC_Aux_Path = "\\server\vss\"`
+- [Line 8] `SCC_Aux_Path = "\\server\vss\"`
 
- [Line 9] `SCC_Project_Name = "$/TestApp"`
+- [Line 9] `SCC_Project_Name = "$/TestApp"`
 
  The first line states the purpose of the file and serves as the signature for all files of this type. This line should appear exactly like this in all *MSSCCPRJ.SCC* files:
 
@@ -67,5 +67,5 @@ When you place a Visual Studio solution or project under source control using th
  There is no end delimiter to this section. The name of the file, as well as all literals that appear in the file, are defined in the scc.h header file. For more information, see [Strings used as keys for finding a source control plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md).
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
- [Strings used as keys for finding a source control plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Strings used as keys for finding a source control plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)

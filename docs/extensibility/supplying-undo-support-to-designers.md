@@ -95,6 +95,6 @@ Designers, like editors, typically need to support undo operations so that users
 - The designer chooses to explicitly create undo units using either the standard undo unit provided by an implementation of <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> or the Visual Studio-specific implementation <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit>, which derives from <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> and also provides an implementation of both <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit>.
 
 ## See Also
- <xref:System.ComponentModel.Design.UndoEngine>
- <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>
- [Extending Design-Time Support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+- <xref:System.ComponentModel.Design.UndoEngine>
+- <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>
+- [Extending Design-Time Support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

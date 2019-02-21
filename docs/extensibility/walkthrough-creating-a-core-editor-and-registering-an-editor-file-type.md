@@ -388,5 +388,5 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
  For more information about the core editor, see [Inside the core editor](../extensibility/inside-the-core-editor.md).
 
 ## See also
- [Inside the core editor](../extensibility/inside-the-core-editor.md)
- [Instantiate the core editor by using the legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
+- [Inside the core editor](../extensibility/inside-the-core-editor.md)
+- [Instantiate the core editor by using the legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)

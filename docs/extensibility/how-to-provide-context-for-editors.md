@@ -76,12 +76,12 @@ For an editor, the context is active only when the editor has focus or had focus
  After providing context for activities within your editor or designer, you should provide a specific **F1** keyword to allow users to get help for the editor or designer itself.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A>
- <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A>
+- <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx>

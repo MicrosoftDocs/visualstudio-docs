@@ -258,6 +258,6 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     ```
 
 ## See also
- [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
- [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
- [Manage references in a project](../ide/managing-references-in-a-project.md)
+- [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
+- [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
+- [Manage references in a project](../ide/managing-references-in-a-project.md)

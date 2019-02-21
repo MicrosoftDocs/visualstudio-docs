@@ -82,5 +82,5 @@ Specifies the number of parent categories that will display the template in the 
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)

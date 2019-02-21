@@ -30,19 +30,19 @@ SCCRTN SccDirDiff(
 
 ### Parameters
  pContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpDirName
- [in] Fully qualified path to the local directory for which to show a visual difference.
+- [in] Fully qualified path to the local directory for which to show a visual difference.
 
  dwFlags
- [in] Command flags (see Remarks section).
+- [in] Command flags (see Remarks section).
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -75,4 +75,4 @@ SCCRTN SccDirDiff(
 >  This function uses the same command flags as the [SccDiff](../extensibility/sccdiff-function.md). However, a source control plug-in may choose to not support the "quick-diff" operation for directories.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

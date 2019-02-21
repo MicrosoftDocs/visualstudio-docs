@@ -72,6 +72,6 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
 >  While the undo manager object is used extensively by the text editor, it is a general component that has no specific support for the text editor. If you want to support multi-level undo or redo, you can use this object to do so.
 
 ## See also
- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>
- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLifetimeControlledObject>
- [How to: Clear the undo stack](../extensibility/how-to-clear-the-undo-stack.md)
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLifetimeControlledObject>
+- [How to: Clear the undo stack](../extensibility/how-to-clear-the-undo-stack.md)

@@ -91,6 +91,6 @@ Categorizes the project template so that it appears under the specified group in
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Create project and item templates](../ide/creating-project-and-item-templates.md)
- [ProjectSubType element (Visual Studio templates)](../extensibility/projectsubtype-element-visual-studio-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [ProjectSubType element (Visual Studio templates)](../extensibility/projectsubtype-element-visual-studio-templates.md)

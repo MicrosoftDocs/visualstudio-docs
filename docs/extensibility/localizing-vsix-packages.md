@@ -57,7 +57,7 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 
 ### Code
 
- [*Extension.vsixmanifest*]
+- [*Extension.vsixmanifest*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,7 +77,7 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 </PackageManifest>
 ```
 
- [*Extension.vsixlangpack*]
+- [*Extension.vsixlangpack*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

@@ -63,8 +63,8 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
  It is your responsibility to check for your command-line switches each time your package is loaded.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine>
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>
- [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)
- [CreatePkgDef utility](../extensibility/internals/createpkgdef-utility.md)
- [.Pkgdef files](/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>
+- [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)
+- [CreatePkgDef utility](../extensibility/internals/createpkgdef-utility.md)
+- [.Pkgdef files](/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file)

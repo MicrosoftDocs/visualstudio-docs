@@ -57,6 +57,6 @@ Groups the custom parameters that are to be passed to the template wizard when t
 ```
 
 ## See also
- [CustomParameter element (Visual Studio templates)](../extensibility/customparameter-element-visual-studio-templates.md)
- [Template parameters](../ide/template-parameters.md)
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [CustomParameter element (Visual Studio templates)](../extensibility/customparameter-element-visual-studio-templates.md)
+- [Template parameters](../ide/template-parameters.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

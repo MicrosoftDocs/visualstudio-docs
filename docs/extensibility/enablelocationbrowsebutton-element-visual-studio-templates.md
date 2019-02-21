@@ -81,5 +81,5 @@ Specifies whether the **Browse** button is available in the **New Project** dial
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)

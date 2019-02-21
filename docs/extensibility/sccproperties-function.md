@@ -28,13 +28,13 @@ SCCRTN SccProperties (
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpFileName
- [in] The fully qualified path name of the file or project.
+- [in] The fully qualified path name of the file or project.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -54,4 +54,4 @@ SCCRTN SccProperties (
  The properties are defined by the source control plug-in and may differ from plug-in to plug-in. If the plug-in allows the user to change the source control properties of a file, it should return `SCC_I_RELOAD` to signal the IDE that this file or project needs to be reloaded.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

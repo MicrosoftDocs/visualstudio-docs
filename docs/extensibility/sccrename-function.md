@@ -29,16 +29,16 @@ SCCRTN SccRename(
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpFileName
- [in] The fully qualified file name of the file being renamed.
+- [in] The fully qualified file name of the file being renamed.
 
  lpNewName
- [in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.
+- [in] The fully qualified new name. If the directory path is different, then the file has moved from one subdirectory to another.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -58,4 +58,4 @@ SCCRTN SccRename(
  This function can be used to rename a file or move it from one location to another in the source control system. The source control plug-in should not attempt to access the file on disk. It is the IDE's responsibility to rename the local file.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

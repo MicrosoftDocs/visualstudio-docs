@@ -66,4 +66,4 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
      Force loading should not be used for VSPackage communication. Use [Use and provide services](../extensibility/using-and-providing-services.md) instead.
 
 ## See also
- [VSPackages](../extensibility/internals/vspackages.md)
+- [VSPackages](../extensibility/internals/vspackages.md)

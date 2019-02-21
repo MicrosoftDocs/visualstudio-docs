@@ -41,4 +41,4 @@ Visual Studio provides several different types of windows, for example tool wind
  In a Visual Studio extension you should create modal dialog boxes by deriving them from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, which allows you to control them and the rest of the UI. For more information, see [Create and manage modal dialog boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).
 
 ## See also
- [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md)
+- [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md)

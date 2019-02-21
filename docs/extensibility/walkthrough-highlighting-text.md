@@ -400,4 +400,4 @@ You can add different visual effects to the editor by creating Managed Extensibi
 4.  Position the cursor in one of the occurrences of "hello". Every occurrence should be highlighted in blue.
 
 ## See also
- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
+- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

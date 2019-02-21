@@ -32,25 +32,25 @@ SCCRTN SccCreateSubProject(
 
 ### Parameters
  pContext
- [in] The source control plug-in context pointer.
+- [in] The source control plug-in context pointer.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
- [in, out] The username (up to SCC_USER_SIZE, including the NULL terminator).
+- [in, out] The username (up to SCC_USER_SIZE, including the NULL terminator).
 
  lpParentProjPath
- [in] A string identifying the path of the parent project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in] A string identifying the path of the parent project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpSubProjName
- [in] The suggested subproject name (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in] The suggested subproject name (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpAuxProjPath
- [in, out] Auxiliary string identifying the project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in, out] Auxiliary string identifying the project (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpSubProjPath
- [in, out] Output string identifying the path for the subproject (up to SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in, out] Output string identifying the path for the subproject (up to SCC_PRJPATH_SIZE, including the NULL terminator).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -86,6 +86,6 @@ SCCRTN SccCreateSubProject(
  If the registry entry is set to dword:00000001, Visual Studio does not attempt to use these new functions, and the operations of adding to source control work as they did in prior versions of Visual Studio.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccGetParentProjectPath](../extensibility/sccgetparentprojectpath-function.md)
- [SccGetProjPath](../extensibility/sccgetprojpath-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccGetParentProjectPath](../extensibility/sccgetparentprojectpath-function.md)
+- [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

@@ -15,17 +15,17 @@ A toolbar is a horizontal or vertical strip that contains buttons bound to comma
  This section shows a number of things you can do with commands on toolbars.
 
 ## In this Section
- [Add a toolbar](../extensibility/adding-a-toolbar.md)
+- [Add a toolbar](../extensibility/adding-a-toolbar.md)
  Explains how to add a toolbar to the set of toolbars in the main Visual Studio window.
 
- [Add a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
+- [Add a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
  Explains how to add a toolbar to a tool window.
 
- [Add a command to the Solution Explorer toolbar](../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
+- [Add a command to the Solution Explorer toolbar](../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
  Explains how to add a command to the toolbar on the Solution Explorer.
 
- [Add a menu controller to a toolbar](../extensibility/adding-a-menu-controller-to-a-toolbar.md)
+- [Add a menu controller to a toolbar](../extensibility/adding-a-menu-controller-to-a-toolbar.md)
  Explains how to add a menu controller to a toolbar.
 
- [Dynamically add menu items](../extensibility/dynamically-adding-menu-items.md)
+- [Dynamically add menu items](../extensibility/dynamically-adding-menu-items.md)
  Explains how to add menu items dynamically in different contexts.

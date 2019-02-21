@@ -271,5 +271,5 @@ A shortcut menu such as the one shown in this walkthrough lets the user select f
 4. Click a color on the shortcut menu. The tool window background color should be changed to the selected color.
 
 ## See also
-[Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-[Using and providing services](../extensibility/using-and-providing-services.md)
+- [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+- [Using and providing services](../extensibility/using-and-providing-services.md)

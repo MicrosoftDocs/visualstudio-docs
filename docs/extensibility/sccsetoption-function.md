@@ -28,13 +28,13 @@ SCCRTN SccSetOption(
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  nOption
- [in] The option that is being set.
+- [in] The option that is being set.
 
  dwVal
- [in] Settings for the option.
+- [in] Settings for the option.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -75,9 +75,9 @@ SCCRTN SccSetOption(
  If`nOption` is set to `SCC_OPT_SHARESUBPROJ`, the IDE is testing whether the source control plug-in can use a specified local folder when adding files from source control. The value of the `dwVal` parameter does not matter in this case. If the plug-in allows the IDE to specify the local destination folder where the files will be added from source control when the [SccAddFromScc](../extensibility/sccaddfromscc-function.md) is called, then the plug-in must return `SCC_I_SHARESUBPROJOK` when the `SccSetOption` function is called. The IDE then uses the `lplpFileNames` parameter of the `SccAddFromScc` function to pass in the destination folder. The plug-in uses that destination folder to place the files added from source control. If the plug-in does not return `SCC_I_SHARESUBPROJOK` when the `SCC_OPT_SHARESUBPROJ` option is set, the IDE assumes that the plug-in is able to add files only in the current local folder.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccInitialize](../extensibility/sccinitialize-function.md)
- [SccOpenProject](../extensibility/sccopenproject-function.md)
- [SccAddFromScc](../extensibility/sccaddfromscc-function.md)
- [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)
- [OPTNAMECHANGEPFN](../extensibility/optnamechangepfn.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccInitialize](../extensibility/sccinitialize-function.md)
+- [SccOpenProject](../extensibility/sccopenproject-function.md)
+- [SccAddFromScc](../extensibility/sccaddfromscc-function.md)
+- [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)
+- [OPTNAMECHANGEPFN](../extensibility/optnamechangepfn.md)

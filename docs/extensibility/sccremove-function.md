@@ -32,25 +32,25 @@ SCCRTN SccRemove(
 
 #### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files specified in the `lpFileNames` array.
+- [in] Number of files specified in the `lpFileNames` array.
 
  lpFileNames
- [in] Array of fully qualified local path names of files to be removed.
+- [in] Array of fully qualified local path names of files to be removed.
 
  lpComment
- [in] The comment to be applied to each file being removed.
+- [in] The comment to be applied to each file being removed.
 
  fOptions
- [in] Command flags (unused).
+- [in] Command flags (unused).
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -70,4 +70,4 @@ SCCRTN SccRemove(
  This function removes the files from the source control system but does not delete them from the user's local hard drive.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

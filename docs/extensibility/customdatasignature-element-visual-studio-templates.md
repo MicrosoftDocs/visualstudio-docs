@@ -50,5 +50,5 @@ Specifies the text signature to locate the custom data.
  `CustomDataSignature` is an optional element.
 
 ## See also
- [Visual Studio Template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio Template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)

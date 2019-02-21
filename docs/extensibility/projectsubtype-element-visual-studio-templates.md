@@ -92,6 +92,6 @@ Classifies the template into a subcategory of the value specified in the `Projec
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
- [ProjectType element (Visual Studio templates)](../extensibility/projecttype-element-visual-studio-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [ProjectType element (Visual Studio templates)](../extensibility/projecttype-element-visual-studio-templates.md)

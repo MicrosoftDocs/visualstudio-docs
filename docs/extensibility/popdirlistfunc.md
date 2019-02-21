@@ -30,13 +30,13 @@ typedef BOOL (*POPDIRLISTFUNC)(
 
 ## Parameters
  pvCallerData
- [in] User value given to [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md).
+- [in] User value given to [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md).
 
  bFolder
- [in] `TRUE` if the name in `lpDirectoryOrFileName` is a directory; otherwise the name is a file name.
+- [in] `TRUE` if the name in `lpDirectoryOrFileName` is a directory; otherwise the name is a file name.
 
  lpDirectoryOrFileName
- [in] Full local path to a directory or file name that is under source code control.
+- [in] Full local path to a directory or file name that is under source code control.
 
 ## Return value
  The IDE returns an appropriate error code:
@@ -51,6 +51,6 @@ typedef BOOL (*POPDIRLISTFUNC)(
  If the `fOptions` parameter of the `SccPopulateDirList` function contains the `SCC_PDL_INCLUDEFILES` flag, then the list will possibly contain file names as well as directory names.
 
 ## See also
- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
- [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md)
- [Error codes](../extensibility/error-codes.md)
+- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
+- [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md)
+- [Error codes](../extensibility/error-codes.md)

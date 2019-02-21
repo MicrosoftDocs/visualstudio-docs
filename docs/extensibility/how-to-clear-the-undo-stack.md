@@ -37,4 +37,4 @@ The following procedure below explains how to clear the undo stack.
     ```
 
 ## See also
- [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)
+- [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)

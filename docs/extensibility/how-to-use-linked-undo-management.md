@@ -26,7 +26,7 @@ Linked undo allows the user to simultaneously undo the same edits in multiple fi
     >  To implement linked undo management in an editor, add undo management. For more information on implementing linked undo management, see [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md).
 
 ## See also
- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>
- [IOleParentUndoUnit](/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit)
- [IOleUndoUnit](/windows/desktop/api/ocidl/nn-ocidl-ioleundounit)
- [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>
+- [IOleParentUndoUnit](/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit)
+- [IOleUndoUnit](/windows/desktop/api/ocidl/nn-ocidl-ioleundounit)
+- [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)

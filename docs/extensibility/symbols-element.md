@@ -64,4 +64,4 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
 ```
 
 ## See Also
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

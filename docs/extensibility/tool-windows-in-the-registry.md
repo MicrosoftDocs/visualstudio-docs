@@ -20,13 +20,13 @@ VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../cod
  Unmanaged tool window providers must register with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the ToolWindows section of the system registry. The following .reg file fragment shows how a dynamic tool window might be registered:
 
 ```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\<version number>\ToolWindows\{f0e1e9a1-9860-484d-ad5d-367d79aabf55}]
+- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\<version number>\ToolWindows\{f0e1e9a1-9860-484d-ad5d-367d79aabf55}]
 @="{01069cdd-95ce-4620-ac21-ddff6c57f012}"
 "Name"="Microsoft.Samples.VisualStudio.IDE.ToolWindow.DynamicWindowPane"
 "Float"="250, 250, 410, 430"
 "DontForceCreate"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\ToolWindows\{f0e1e9a1-9860-484d-ad5d-367d79aabf55}\Visibility]
+- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\ToolWindows\{f0e1e9a1-9860-484d-ad5d-367d79aabf55}\Visibility]
 "{f1536ef8-92ec-443c-9ed7-fdadf150da82}"=dword:00000000
 ```
 
@@ -35,4 +35,4 @@ VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../cod
  The second optional key, ToolWindows\Visibility, specifies the GUIDs of commands that require the tool window to be made visible. In this case, there are no commands specified. For more information, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).
 
 ## See Also
- [VSPackages](../extensibility/internals/vspackages.md)
+- [VSPackages](../extensibility/internals/vspackages.md)

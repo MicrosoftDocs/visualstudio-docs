@@ -54,8 +54,8 @@ VSPackages can write messages to the activity log. This feature is especially us
  You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.
 
 ## See also
- [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
- <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>
- [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)
- [VSPackages](../extensibility/internals/vspackages.md)
+- [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
+- <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>
+- [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)
+- [VSPackages](../extensibility/internals/vspackages.md)

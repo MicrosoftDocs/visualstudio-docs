@@ -48,7 +48,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
 -   All functions that return an error originated by another call must pass on the information that was received from the failing call in the `HRESULT` without modifying the `ErrorInfo` object.
 
 ## See also
- <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
- [SetErrorInfo (Component Automation)](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo)
- [GetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo)
- [ISupportErrorInfo Interface](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo)
+- <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
+- [SetErrorInfo (Component Automation)](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo)
+- [GetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo)
+- [ISupportErrorInfo Interface](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo)

@@ -82,7 +82,7 @@ If you want to create a custom text marker to emphasize or organize code, you mu
      A unique cookie identifying that your service is returned. You can later use this cookie to revoke your custom marker type service by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> method of the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface specifying this cookie value.
 
 ## See also
- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
- [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md)
- [How to: Implement error markers](../extensibility/how-to-implement-error-markers.md)
- [How to: Use text markers](../extensibility/how-to-use-text-markers.md)
+- [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)
+- [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md)
+- [How to: Implement error markers](../extensibility/how-to-implement-error-markers.md)
+- [How to: Use text markers](../extensibility/how-to-use-text-markers.md)

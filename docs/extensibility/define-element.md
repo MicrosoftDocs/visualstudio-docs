@@ -49,4 +49,4 @@ Defines a symbol name and value pair. This symbol can be evaluated by conditiona
 ```
 
 ## See also
- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

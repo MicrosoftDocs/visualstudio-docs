@@ -40,4 +40,4 @@ The log file contains the following columns:
 
 ## See also
 
-[Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Creating custom project and item templates](creating-custom-project-and-item-templates.md)

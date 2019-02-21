@@ -72,4 +72,4 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
 |`SCC_EXCAP_RENAME_CHECKEDOUT`|11|Can rename checked-out files.|
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)

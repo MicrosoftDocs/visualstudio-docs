@@ -72,5 +72,5 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   For more information on syntax coloring see [Syntax coloring in a legacy language service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).
 
 ## See also
- [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)
- [Syntax coloring in a legacy language service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+- [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)
+- [Syntax coloring in a legacy language service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)

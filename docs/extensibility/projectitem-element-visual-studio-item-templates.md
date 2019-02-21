@@ -96,7 +96,7 @@ Specifies a file that is included in the item template.
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
- [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)
- [Template parameters](../ide/template-parameters.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)
+- [Template parameters](../ide/template-parameters.md)

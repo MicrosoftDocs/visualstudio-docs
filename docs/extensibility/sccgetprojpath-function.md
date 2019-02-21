@@ -39,28 +39,28 @@ SCCRTN SccGetProjPath (
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  lpUser
- [in, out] The user name (not to exceed SCC_USER_SIZE, including the NULL terminator)
+- [in, out] The user name (not to exceed SCC_USER_SIZE, including the NULL terminator)
 
  lpProjName
- [in, out] The name of the IDE project, project workspace, or makefile (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in, out] The name of the IDE project, project workspace, or makefile (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
 
  lpLocalPath
- [in, out] The project's working path. If `bAllowChangePath` is `TRUE`, the source control plug-in can modify this string (not to exceed _MAX_PATH, including the null-terminator).
+- [in, out] The project's working path. If `bAllowChangePath` is `TRUE`, the source control plug-in can modify this string (not to exceed _MAX_PATH, including the null-terminator).
 
  lpAuxProjPath
- [in, out] A buffer for the returned project path (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
+- [in, out] A buffer for the returned project path (not to exceed SCC_PRJPATH_SIZE, including the NULL terminator).
 
  bAllowChangePath
- [in] If this is `TRUE`, the source control plug-in can prompt for and modify the `lpLocalPath` string.
+- [in] If this is `TRUE`, the source control plug-in can prompt for and modify the `lpLocalPath` string.
 
  pbNew
- [in, out] Value coming in indicates whether to create a new project. Value returned indicates success of creating a project:
+- [in, out] Value coming in indicates whether to create a new project. Value returned indicates success of creating a project:
 
 |Incoming|Interpretation|
 |--------------|--------------------|
@@ -100,5 +100,5 @@ SCCRTN SccGetProjPath (
  For example, if a user in the **New Project** wizard in Visual Studio adds his or her project to source control, Visual Studio calls this function, and the plug-in determines if it is okay to create a new project in the source control system to contain the Visual Studio project. If the user clicks **Cancel** before completing the wizard, the project is never created. If the user clicks **OK**, Visual Studio calls `SccOpenProject`, passing in `SCC_OPT_CREATEIFNEW`, and the source controlled project is created at that time.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccOpenProject](../extensibility/sccopenproject-function.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccOpenProject](../extensibility/sccopenproject-function.md)

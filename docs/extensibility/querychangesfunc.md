@@ -30,10 +30,10 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 
 ## Parameters
  pvCallerData
- [in] The `pvCallerData` parameter passed by the caller (the IDE) to [SccQueryChanges](../extensibility/sccquerychanges-function.md). The source control plug-in should make no assumptions about the contents of this value.
+- [in] The `pvCallerData` parameter passed by the caller (the IDE) to [SccQueryChanges](../extensibility/sccquerychanges-function.md). The source control plug-in should make no assumptions about the contents of this value.
 
  pChangesData
- [in] Pointer to a [QUERYCHANGESDATA Structure](#LinkQUERYCHANGESDATA) structure describing the changes to a file.
+- [in] Pointer to a [QUERYCHANGESDATA Structure](#LinkQUERYCHANGESDATA) structure describing the changes to a file.
 
 ## Return value
  The IDE returns an appropriate error code:
@@ -93,6 +93,6 @@ struct QUERYCHANGESDATA_W
  The current file name for this item.
 
 ## See also
- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
- [SccQueryChanges](../extensibility/sccquerychanges-function.md)
- [Error codes](../extensibility/error-codes.md)
+- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
+- [SccQueryChanges](../extensibility/sccquerychanges-function.md)
+- [Error codes](../extensibility/error-codes.md)

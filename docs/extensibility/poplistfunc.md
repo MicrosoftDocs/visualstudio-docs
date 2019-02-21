@@ -57,7 +57,7 @@ typedef BOOL (*POPLISTFUNC) (
 >  The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.
 
 ## See also
- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
- [SccPopulateList](../extensibility/sccpopulatelist-function.md)
- [File status code](../extensibility/file-status-code-enumerator.md)
+- [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [SccPopulateList](../extensibility/sccpopulatelist-function.md)
+- [File status code](../extensibility/file-status-code-enumerator.md)

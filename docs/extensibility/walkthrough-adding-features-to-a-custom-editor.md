@@ -147,5 +147,5 @@ After you create a custom editor, you can add more features to it.
   -   `Window.Object`
 
 ## See also
- [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
- [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md)
+- [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
+- [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md)

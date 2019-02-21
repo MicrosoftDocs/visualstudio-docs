@@ -58,5 +58,5 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
 ```
 
 ## See Also
- [UsedCommands Element](../extensibility/usedcommands-element.md)
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [UsedCommands Element](../extensibility/usedcommands-element.md)
+- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

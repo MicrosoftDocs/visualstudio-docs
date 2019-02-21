@@ -32,25 +32,25 @@ SCCRTN SccAdd(
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files selected to be added to the current project as given in the `lpFileNames` array.
+- [in] Number of files selected to be added to the current project as given in the `lpFileNames` array.
 
  lpFileNames
- [in] Array of fully qualified local names of files to be added.
+- [in] Array of fully qualified local names of files to be added.
 
  lpComment
- [in] The comment to be applied to all of the files being added.
+- [in] The comment to be applied to all of the files being added.
 
  pfOptions
- [in] Array of command flags, provided on a per-file basis.
+- [in] Array of command flags, provided on a per-file basis.
 
  pvOptions
- [in] Source control plug-in-specific options.
+- [in] Source control plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -88,4 +88,4 @@ SCCRTN SccAdd(
 |SCC_FILETYPE_UTF16BE|0x40|Treats the file as Unicode text in UTF16 Big Endian format.|
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

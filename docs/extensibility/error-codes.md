@@ -74,4 +74,4 @@ IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)
  The source control plug-in should make no assumptions regarding privileges on a file in the working folder, even if the plug-in had marked the file read-only during some operation. A file in the working folder can be moved, deleted, and changed outside the plug-in's control.
 
 ## See also
- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)

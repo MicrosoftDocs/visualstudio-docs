@@ -88,7 +88,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
 >  At the present time, the design surface only supports creating components, and therefore only components can have local metadata. In the example above, we were attempting to modify a property, such as the `Color` property of an object. If `false` was passed in for the global flag, `CustomBrowser` would never appear because the designer never actually creates an instance of `Color`. Setting the global flag to `false` is useful for components, such as controls, timers, and dialog boxes.
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>
- <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>
- <xref:System.ComponentModel.ToolboxItemFilterType>
- [Extend design-time support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+- <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>
+- <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>
+- <xref:System.ComponentModel.ToolboxItemFilterType>
+- [Extend design-time support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

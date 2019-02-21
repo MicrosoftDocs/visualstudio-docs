@@ -32,25 +32,25 @@ SCCRTN SccCheckin (
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the SCC plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the SCC plug-in can use as a parent for any dialog boxes that it provides.
 
  nFiles
- [in] Number of files selected to be checked in.
+- [in] Number of files selected to be checked in.
 
  lpFileNames
- [in] Array of fully qualified local path names of files to be checked in.
+- [in] Array of fully qualified local path names of files to be checked in.
 
  lpComment
- [in] Comment to be applied to each of the selected files being checked in. This parameter is `NULL` if the source control plug-in should prompt for a comment.
+- [in] Comment to be applied to each of the selected files being checked in. This parameter is `NULL` if the source control plug-in should prompt for a comment.
 
  fOptions
- [in] Command flags, either 0 or `SCC_KEEP_CHECKEDOUT`.
+- [in] Command flags, either 0 or `SCC_KEEP_CHECKEDOUT`.
 
  pvOptions
- [in] SCC plug-in-specific options.
+- [in] SCC plug-in-specific options.
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -76,4 +76,4 @@ SCCRTN SccCheckin (
  The `fOptions` argument can be given a value of the `SCC_KEEP_CHECKEDOUT` flag to indicate the user's intent to check the file in and check it out again.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

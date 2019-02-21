@@ -56,6 +56,6 @@ Contains a custom parameter name and value to use when a project or item is crea
 ```
 
 ## See also
- [CustomParameters element (Visual Studio templates)](../extensibility/customparameters-element-visual-studio-templates.md)
- [Template parameters](../ide/template-parameters.md)
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [CustomParameters element (Visual Studio templates)](../extensibility/customparameters-element-visual-studio-templates.md)
+- [Template parameters](../ide/template-parameters.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

@@ -686,4 +686,4 @@ From a VSPackage, you can add features such as menu commands to the editor. This
      Fourscore...
 
 ## See also
- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
+- [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

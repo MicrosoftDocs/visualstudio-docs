@@ -68,6 +68,6 @@ SCC_COMMAND_OPTIONS
 Corresponds to the [SccSetOption](../extensibility/sccsetoption-function.md).
 
 ## See also
-[Source control plug-ins](../extensibility/source-control-plug-ins.md)
-[SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)
-[SccPopulateList](../extensibility/sccpopulatelist-function.md)
+- [Source control plug-ins](../extensibility/source-control-plug-ins.md)
+- [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)
+- [SccPopulateList](../extensibility/sccpopulatelist-function.md)

@@ -59,5 +59,5 @@ The UsedCommands element groups UsedCommand elements and other UsedCommands grou
 ```
 
 ## See Also
- [UsedCommand Element](../extensibility/usedcommand-element.md)
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [UsedCommand Element](../extensibility/usedcommand-element.md)
+- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

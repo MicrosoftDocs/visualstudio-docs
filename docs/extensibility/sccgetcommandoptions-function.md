@@ -29,16 +29,16 @@ SCCRTN SccGetCommandOptions(
 
 ### Parameters
  pvContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  hWnd
- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
+- [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.
 
  iCommand
- [in] The command for which advanced options are requested (see [Command code](../extensibility/command-code-enumerator.md) for possible values).
+- [in] The command for which advanced options are requested (see [Command code](../extensibility/command-code-enumerator.md) for possible values).
 
  ppvOptions
- [in] The option structure (can also be `NULL`).
+- [in] The option structure (can also be `NULL`).
 
 ## Return value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -70,5 +70,5 @@ SCCRTN SccGetCommandOptions(
 >  The command `SCC_COMMAND_OPTIONS` is used when the IDE displays an **Options** dialog box that lets the user set preferences that control how the integration works. If the source control plug-in wants to supply its own preferences dialog box, it can display it from an **Advanced** button in the IDE's preferences dialog box. The plug-in is solely responsible for getting and persisting this information; the IDE does not use it or modify it.
 
 ## See also
- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
- [Command code](../extensibility/command-code-enumerator.md)
+- [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Command code](../extensibility/command-code-enumerator.md)

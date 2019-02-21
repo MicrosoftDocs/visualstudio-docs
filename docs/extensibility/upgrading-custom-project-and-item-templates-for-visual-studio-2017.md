@@ -183,5 +183,5 @@ You should create separate manifests for project and item templates, and they sh
 
 ## See also
 
-[Troubleshooting template discovery](troubleshooting-template-discovery.md)
-[Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Troubleshooting template discovery](troubleshooting-template-discovery.md)
+- [Creating custom project and item templates](creating-custom-project-and-item-templates.md)

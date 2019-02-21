@@ -168,5 +168,5 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 ## Next steps
 
 ## See also
- [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
- [Create a software development kit](../extensibility/creating-a-software-development-kit.md)
+- [Walkthrough: Create an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)
+- [Create a software development kit](../extensibility/creating-a-software-development-kit.md)

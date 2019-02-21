@@ -217,5 +217,5 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
     A dialog box appears with the message **You selected Menu controller Item 3**. Notice that the message corresponds to the text on the menu controller button. The menu controller button now displays **MC Item 3**.
 
 ## See also
-[Adding a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
-[Adding a toolbar](../extensibility/adding-a-toolbar.md)
+- [Adding a toolbar to a tool window](../extensibility/adding-a-toolbar-to-a-tool-window.md)
+- [Adding a toolbar](../extensibility/adding-a-toolbar.md)

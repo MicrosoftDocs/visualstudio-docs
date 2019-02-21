@@ -194,5 +194,5 @@ You can persist user settings for your Start Page. By following this walkthrough
  You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values don't overwrite one another in the registry.
 
 ## See also
- <xref:EnvDTE80.DTE2?displayProperty=fullName>
- [Adding Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
+- <xref:EnvDTE80.DTE2?displayProperty=fullName>
+- [Adding Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

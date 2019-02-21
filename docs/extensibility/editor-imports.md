@@ -36,19 +36,19 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
 
  For more examples of using imports, see the following walkthroughs:
 
- [Walkthrough: Create a margin glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)
+- [Walkthrough: Create a margin glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)
 
- [Walkthrough: Customize the text view](../extensibility/walkthrough-customizing-the-text-view.md)
+- [Walkthrough: Customize the text view](../extensibility/walkthrough-customizing-the-text-view.md)
 
- [Walkthrough: Highlight text](../extensibility/walkthrough-highlighting-text.md)
+- [Walkthrough: Highlight text](../extensibility/walkthrough-highlighting-text.md)
 
- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
+- [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
 
- [Walkthrough: Display Signature Help](../extensibility/walkthrough-displaying-signature-help.md)
+- [Walkthrough: Display Signature Help](../extensibility/walkthrough-displaying-signature-help.md)
 
- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
 
- [Walkthrough: Display light bulb suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)
+- [Walkthrough: Display light bulb suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)
 
 ## Import the service provider
  You can also import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> (found in the assembly Microsoft.VisualStudio.Shell.Immutable.10.0) in the same way to get access to Visual Studio services:
@@ -115,4 +115,4 @@ internal SVsServiceProvider ServiceProvider = null;
 |<xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpBroker>|An <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSession>.|
 
 ## See also
- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

@@ -55,4 +55,4 @@ The Strings element must contain at least a **ButtonText** child element. All ot
 |[Combo Element](../extensibility/combo-element.md)|Defines commands that appear in a combo box.|
 
 ## See Also
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

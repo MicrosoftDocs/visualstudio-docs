@@ -64,10 +64,10 @@ The `VisibilityItem` element determines the static visibility of commands and to
 ```
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A>
- <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus>
- <xref:Microsoft.VisualStudio.VSConstants>
- <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids>
- <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>
- [VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)
- [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A>
+- <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus>
+- <xref:Microsoft.VisualStudio.VSConstants>
+- <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids>
+- <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>
+- [VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)
+- [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -62,5 +62,5 @@ The CommandPlacements element groups CommandPlacement elements and other Command
 ```
 
 ## See also
- [CommandPlacement element](../extensibility/commandplacement-element.md)
- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+- [CommandPlacement element](../extensibility/commandplacement-element.md)
+- [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

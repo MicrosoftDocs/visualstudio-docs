@@ -96,7 +96,7 @@ Specifies the files or directories to add to the project.
 ```
 
 ## See also
- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
- [ProjectItem element (Visual Studio project templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)
- [Folder element (Visual Studio project templates)](../extensibility/folder-element-visual-studio-project-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [ProjectItem element (Visual Studio project templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)
+- [Folder element (Visual Studio project templates)](../extensibility/folder-element-visual-studio-project-templates.md)

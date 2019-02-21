@@ -27,10 +27,10 @@ SCCRTN SccIsMultiCheckoutEnabled(
 
 #### Parameters
  pContext
- [in] The source control plug-in context structure.
+- [in] The source control plug-in context structure.
 
  pbMultiCheckout
- [out] Specifies whether multiple checkouts are enabled for this project (nonzero means that multiple checkouts are supported).
+- [out] Specifies whether multiple checkouts are enabled for this project (nonzero means that multiple checkouts are supported).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -44,4 +44,4 @@ SCCRTN SccIsMultiCheckoutEnabled(
  The IDE makes two checks to determine if files can be checked out simultaneously by more than one user. First, the source control system must support multiple checkouts. The source control plug-in can specify this capability during initialization by specifying the `SCC_CAP_MULTICHECKOUT`. Thereafter, as a second check, the IDE calls this function to determine whether or not the current project supports multiple checkouts. If multiple checkouts are supported for the selected project, the plug-in returns a success code and sets `pbMultiCheckout` to nonzero (`TRUE`) or `FALSE`.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

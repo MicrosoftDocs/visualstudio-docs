@@ -64,33 +64,33 @@ The Visual Studio integrated development environment (IDE) can host different ty
    If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.
 
 ## In This Section
- [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md)
+- [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md)
  Explains how to create a custom editor.
 
- [Walkthrough: Add features to a custom editor](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)
+- [Walkthrough: Add features to a custom editor](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)
  Explains how to add features to a custom editor.
 
- [Designer initialization and metadata configuration](../extensibility/designer-initialization-and-metadata-configuration.md)
+- [Designer initialization and metadata configuration](../extensibility/designer-initialization-and-metadata-configuration.md)
  Explains how to initialize a designer.
 
- [Supply undo support to designers](../extensibility/supplying-undo-support-to-designers.md)
+- [Supply undo support to designers](../extensibility/supplying-undo-support-to-designers.md)
  Explains how to provide undo support for designers.
 
- [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)
+- [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)
  Explains the difference between syntax coloring in the core editor and in custom editors.
 
- [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)
+- [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)
  Explains how to implement document data and document views in custom editors.
 
 ## Related sections
- [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)
+- [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)
  Explains how to access the core editor by means of the legacy API.
 
- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)
+- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)
  Explains how to implement a language service.
 
- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
  Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
 ## See also
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

@@ -26,7 +26,7 @@ SCCRTN SccUninitialize (
 
 #### Parameters
  pvContext
- [in] The pointer to the source control plug-in context structure created in the [SccInitialize](../extensibility/sccinitialize-function.md).
+- [in] The pointer to the source control plug-in context structure created in the [SccInitialize](../extensibility/sccinitialize-function.md).
 
 ## Return Value
  The source control plug-in implementation of this function is expected to return one of the following values:
@@ -39,5 +39,5 @@ SCCRTN SccUninitialize (
  The source control plug-in is responsible for preparing to be shut down and for freeing memory that the plug-in has allocated for the context structure. The function is called once for each given instance of a plug-in. A call to the [SccInitialize](../extensibility/sccinitialize-function.md) precedes this call. No projects can still be open at the time of the call to `SccUninitialize`.
 
 ## See Also
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
- [SccInitialize](../extensibility/sccinitialize-function.md)
+- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+- [SccInitialize](../extensibility/sccinitialize-function.md)

@@ -27,16 +27,16 @@ Code window
  `Customizing Code Windows by Using the Legacy API`
  Explains how to customize code windows using the legacy API.
 
- [How to: Host an editor in another editor](../extensibility/how-to-host-an-editor-in-another-editor.md)
+- [How to: Host an editor in another editor](../extensibility/how-to-host-an-editor-in-another-editor.md)
  Explains how to host a second editor inside an editor window.
 
- [How to: Fire events when the editor loses focus](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)
+- [How to: Fire events when the editor loses focus](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)
  Explains how to attach a document view to a document data object.
 
 ## See also
- <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>
- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>
- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>
- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>
- [Instantiate the core editor by using the legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
- [Access theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
+- <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>
+- <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>
+- [Instantiate the core editor by using the legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
+- [Access theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
