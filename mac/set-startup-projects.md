@@ -32,5 +32,5 @@ Visual Studio for Mac allows you to specify how more than one project is started
 
 ## See also
 
-- [Compiling and building in Visual Studio for Mac](compiling-and-building)
-- [Understanding build configurations](configurations)
+- [Compiling and building in Visual Studio for Mac](compiling-and-building.md)
+- [Understanding build configurations](configurations.md)
