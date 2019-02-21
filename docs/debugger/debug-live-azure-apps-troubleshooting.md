@@ -3,13 +3,13 @@ title: "Troubleshooting snapshot debugging | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/07/2017"
 ms.topic: "troubleshooting"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger"
 ms.assetid: 511a0697-c68a-4988-9e29-8d0166ca044a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
@@ -90,8 +90,8 @@ Snapshot Debugging and Application Insights depend on an ICorProfiler, which loa
 
 ## See also
 
-[Debugging in Visual Studio](../debugger/index.md)  
-[Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)  
-[Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)  
-[Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)  
-[FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)  
+- [Debugging in Visual Studio](../debugger/index.md)
+- [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
+- [Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
+- [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
+- [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)

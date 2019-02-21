@@ -33,25 +33,25 @@ typedef enum THUNK_ORDINAL {
 ```
 
 ## Elements
-THUNK_ORDINAL_NOTYPE  
+THUNK_ORDINAL_NOTYPE
 Standard thunk.
 
-THUNK_ORDINAL_ADJUSTOR  
+THUNK_ORDINAL_ADJUSTOR
 A `this` adjustor thunk.
 
-THUNK_ORDINAL_VCALL  
+THUNK_ORDINAL_VCALL
 Virtual call thunk.
 
-THUNK_ORDINAL_PCODE  
+THUNK_ORDINAL_PCODE
 P-code thunk.
 
-THUNK_ORDINAL_LOAD  
+THUNK_ORDINAL_LOAD
 Delay load thunk.
 
-THUNK_ORDINAL_TRAMP_INCREMENTAL  
+THUNK_ORDINAL_TRAMP_INCREMENTAL
 Incremental trampoline thunk (a trampoline thunk is used to bounce calls from one memory space to another).
 
-THUNK_ORDINAL_TRAMP_BRANCHISLAND  
+THUNK_ORDINAL_TRAMP_BRANCHISLAND
 Branch point trampoline thunk.
 
 ## Remarks
@@ -61,5 +61,5 @@ The values in this enumeration are returned from a call to the [IDiaSymbol::get_
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_thunkOrdinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_thunkOrdinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md)

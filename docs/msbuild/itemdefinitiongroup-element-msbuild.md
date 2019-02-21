@@ -22,7 +22,7 @@ ms.workload:
 # ItemDefinitionGroup element (MSBuild)
 The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem task](../msbuild/createitem-task.md) and the [CreateProperty task](../msbuild/createproperty-task.md). For more information, see [Item definitions](../msbuild/item-definitions.md).
 
-\<Project>  
+\<Project>
 \<ItemDefinitionGroup>
 
 ## Syntax
@@ -77,5 +77,5 @@ The following code example defines two metadata items, m and n, in an ItemDefini
 ```
 
 ## See also
-[Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)   
-[Items](../msbuild/msbuild-items.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

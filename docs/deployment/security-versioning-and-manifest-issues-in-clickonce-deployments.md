@@ -2,11 +2,11 @@
 title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "versioning, ClickOnce applications"
   - "ClickOnce applications, Windows Vista User Account Control"
   - "ClickOnce applications, versioning issues"
@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
@@ -90,6 +90,6 @@ If you want to move or copy an application, you must also update the `deployment
 
 ## See also
 
-[Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)  
-[Securw ClickOnce applications](../deployment/securing-clickonce-applications.md)  
+[Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+[Securw ClickOnce applications](../deployment/securing-clickonce-applications.md)
 [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

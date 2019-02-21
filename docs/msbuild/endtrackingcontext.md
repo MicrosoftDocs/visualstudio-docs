@@ -32,4 +32,4 @@ An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.
 **Header:** *FileTracker.h*
 
 ## See also
-[StartTrackingContext](../msbuild/starttrackingcontext.md)
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)

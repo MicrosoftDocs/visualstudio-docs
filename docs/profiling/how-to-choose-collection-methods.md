@@ -2,14 +2,14 @@
 title: "How to: Choose Collection Methods | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "performance tools, choosing collection method"
   - "profiling tools, choosing collection method"
   - "performance collection methods"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Choose collection methods
@@ -85,6 +85,6 @@ You can use the performance session **Method** property to specify the most appr
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[Understand sampling data values](../profiling/understanding-sampling-data-values.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Understand sampling data values](../profiling/understanding-sampling-data-values.md)
 [Performance session properties](../profiling/performance-session-properties.md)

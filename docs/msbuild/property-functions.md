@@ -332,6 +332,6 @@ Output:
 
 ## See also
 
-[MSBuild properties](../msbuild/msbuild-properties.md)
+- [MSBuild properties](../msbuild/msbuild-properties.md)
 
-[MSBuild overview](../msbuild/msbuild.md)
+- [MSBuild overview](../msbuild/msbuild.md)

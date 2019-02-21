@@ -61,115 +61,115 @@ enum SymTagEnum {
 ```
 
 ## Elements
-`SymTagNull`  
+`SymTagNull`
 Indicates that the symbol has no type.
 
-`SymTagExe`  
+`SymTagExe`
 Indicates that the symbol is an .exe file. There is only one `SymTagExe` symbol per symbol store. It serves as the global scope and does not have a lexical parent.
 
-`SymTagCompiland`  
+`SymTagCompiland`
 Indicates the compiland symbol for each compiland component of the symbol store. For native applications, `SymTagCompiland` symbols correspond to the object files linked into the image. For some kinds of Microsoft Intermediate Language (MSIL) images, there is one compiland per class.
 
-`SymTagCompilandDetails`  
+`SymTagCompilandDetails`
 Indicates that the symbol contains extended attributes of the compiland. Retrieving these properties may require loading compiland symbols.
 
-`SymTagCompilandEnv`  
+`SymTagCompilandEnv`
 Indicates that the symbol is an environment string defined for the compiland.
 
-`SymTagFunction`  
+`SymTagFunction`
 Indicates that the symbol is a function.
 
-`SymTagBlock`  
+`SymTagBlock`
 Indicates that the symbol is a nested block.
 
-`SymTagData`  
+`SymTagData`
 Indicates that the symbol is data.
 
-`SymTagAnnotation`  
+`SymTagAnnotation`
 Indicates that the symbol is for a code annotation. Children of this symbol are constant data strings (`SymTagData`, `LocIsConstant`, `DataIsConstant`). Most clients ignore this symbol.
 
-`SymTagLabel`  
+`SymTagLabel`
 Indicates that the symbol is a label.
 
-`SymTagPublicSymbol`  
+`SymTagPublicSymbol`
 Indicates that the symbol is a public symbol. For native applications, this symbol is the COFF external symbol encountered while linking the image.
 
-`SymTagUDT`  
+`SymTagUDT`
 Indicates that the symbol is a user-defined type (structure, class, or union).
 
-`SymTagEnum`  
+`SymTagEnum`
 Indicates that the symbol is an enumeration.
 
-`SymTagFunctionType`  
+`SymTagFunctionType`
 Indicates that the symbol is a function signature type.
 
-`SymTagPointerType`  
+`SymTagPointerType`
 Indicates that the symbol is a pointer type.
 
-`SymTagArrayType`  
+`SymTagArrayType`
 Indicates that the symbol is an array type.
 
-`SymTagBaseType`  
+`SymTagBaseType`
 Indicates that the symbol is a base type.
 
-`SymTagTypedef`  
+`SymTagTypedef`
 Indicates that the symbol is a `typedef`, that is, an alias for another type.
 
-`SymTagBaseClass`  
+`SymTagBaseClass`
 Indicates that the symbol is a base class of a user-defined type.
 
-`SymTagFriend`  
+`SymTagFriend`
 Indicates that the symbol is a friend of a user-defined type.
 
-`SymTagFunctionArgType`  
+`SymTagFunctionArgType`
 Indicates that the symbol is a function argument.
 
-`SymTagFuncDebugStart`  
+`SymTagFuncDebugStart`
 Indicates that the symbol is the end location of the function's prologue code.
 
-`SymTagFuncDebugEnd`  
+`SymTagFuncDebugEnd`
 Indicates that the symbol is the beginning location of the function's epilogue code.
 
-`SymTagUsingNamespace`  
+`SymTagUsingNamespace`
 Indicates that the symbol is a namespace name, active in the current scope.
 
-`SymTagVTableShape`  
+`SymTagVTableShape`
 Indicates that the symbol is a virtual table description.
 
-`SymTagVTable`  
+`SymTagVTable`
 Indicates that the symbol is a virtual table pointer.
 
-`SymTagCustom`  
+`SymTagCustom`
 Indicates that the symbol is a custom symbol and is not interpreted by DIA.
 
-`SymTagThunk`  
+`SymTagThunk`
 Indicates that the symbol is a thunk used for sharing data between 16 and 32 bit code.
 
-`SymTagCustomType`  
+`SymTagCustomType`
 Indicates that the symbol is a custom compiler symbol.
 
-`SymTagManagedType`  
+`SymTagManagedType`
 Indicates that the symbol is in metadata.
 
-`SymTagDimension`  
+`SymTagDimension`
 Indicates that the symbol is a FORTRAN multi-dimensional array.
 
-`SymTagCallSite`  
+`SymTagCallSite`
 Indicates that the symbol represents the call site.
 
-`SymTagInlineSite`  
+`SymTagInlineSite`
 Indicates that the symbol represents the inline site.
 
-`SymTagBaseInterface`  
+`SymTagBaseInterface`
 Indicates that the symbol is a base interface.
 
-`SymTagVectorType`  
+`SymTagVectorType`
 Indicates that the symbol is a vector type.
 
-`SymTagMatrixType`  
+`SymTagMatrixType`
 Indicates that the symbol is a matrix type.
 
-`SymTagHLSLType`  
+`SymTagHLSLType`
 Indicates that the symbol is a High Level Shader Language type.
 
 ## Remarks
@@ -199,13 +199,13 @@ The values in this enumeration are passed to the following methods to limit the 
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)  
-[IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)  
-[IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)  
-[IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)  
-[IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)  
-[IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)  
-[IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)  
-[IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
-[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
+- [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)
+- [IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)
+- [IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)
+- [IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)
+- [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)
+- [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)
+- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
