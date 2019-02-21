@@ -29,7 +29,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web Application project
 
-1. In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
+In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
   
 ::: moniker range="vs-2017"
    ![Screenshot of creating the webfrontend project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
@@ -42,7 +42,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web API project
 
-1. Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Therefore, only *webfrontend* needs HTTPS.
+Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Therefore, only *webfrontend* needs HTTPS.
 
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
@@ -127,67 +127,6 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
    Look at the **Container Tools** section of the output pane for details of the commands being run.  You can see the command-line tool docker-compose is used to configure and create the runtime containers.
 
-    ```
-    ========== Preparing Containers ==========
-    Getting Docker containers ready...
-    docker-compose  -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.override.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\obj\Docker\docker-compose.vs.debug.g.yml" -p dockercompose10243089518349574417 --no-ansi config
-    services:
-      webfrontend1:
-        build:
-          context: C:\Users\ghogen\Source\Repos\WebFrontEnd1
-          dockerfile: WebFrontEnd1/Dockerfile
-          target: base
-        entrypoint: tail -f /dev/null
-        environment:
-          ASPNETCORE_ENVIRONMENT: Development
-          ASPNETCORE_HTTPS_PORT: '44363'
-          ASPNETCORE_URLS: https://+:443;http://+:80
-          DOTNET_USE_POLLING_FILE_WATCHER: '1'
-          NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
-        image: webfrontend1:dev
-        labels:
-          com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-            --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.2/WebFrontEnd1.dll'
-          com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
-            dotnet); then kill $$PID; fi"
-          com.microsoft.visualstudio.debuggee.program: dotnet
-          com.microsoft.visualstudio.debuggee.workingdirectory: /app
-        ports:
-        - published: 65023
-          target: 80
-        - published: 44363
-          target: 443
-        volumes:
-        - C:\Users\ghogen\Source\Repos\WebFrontEnd1\WebFrontEnd1:/app:rw
-        - C:\Users\ghogen\vsdbg\vs2017u5:/remote_debugger:ro
-        - C:\Users\ghogen\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-        - C:\Users\ghogen\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-        - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-        - C:\Users\ghogen\.nuget\packages:/root/.nuget/packages:ro
-    version: '3.4'
-    docker ps --filter "status=running" --filter "name=dockercompose10243089518349574417_webfrontend1_" --format {{.ID}} -n 1
-    docker-compose  -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.override.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\obj\Docker\docker-compose.vs.debug.g.yml" -p dockercompose10243089518349574417 --no-ansi build 
-    Building webfrontend1
-    Step 1/4 : FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
-     ---> 1546a743482d
-    Step 2/4 : WORKDIR /app
-     ---> Using cache
-     ---> e253ced0bf5a
-    Step 3/4 : EXPOSE 80
-     ---> Using cache
-     ---> 657e4ee51594
-    Step 4/4 : EXPOSE 443
-     ---> Using cache
-     ---> cfc72ff38d00
-    Successfully built cfc72ff38d00
-    Successfully tagged webfrontend1:dev
-    docker-compose  -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\docker-compose.override.yml" -f "C:\Users\ghogen\Source\Repos\WebFrontEnd1\obj\Docker\docker-compose.vs.debug.g.yml" -p dockercompose10243089518349574417 --no-ansi up -d --no-build --force-recreate --remove-orphans
-    Creating network "dockercompose10243089518349574417_default" with the default driver
-    Creating dockercompose10243089518349574417_webfrontend1_1 ... 
-    Creating dockercompose10243089518349574417_webfrontend1_1 ... done
-    Done!  Docker containers are ready.
-    ```
-
 1. In the Web API project, again right-click on the project node, and choose **Add** > **Container Orchestrator Support**. Choose **Docker Compose**, and then select the same target OS.  When prompted whether you want to overwrite the existing Dockerfile, choose yes.
 
     Visual Studio makes some changes to your docker compose YML file. Now both containers are included.
@@ -197,7 +136,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
     
     services:
       webfrontend1:
-        image: ${DOCKER_REGISTRY-}webfrontend1
+        image: ${DOCKER_REGISTRY-}webfrontend
         build:
           context: .
           dockerfile: WebFrontEnd1/Dockerfile
