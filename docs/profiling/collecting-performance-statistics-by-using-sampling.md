@@ -2,13 +2,13 @@
 title: "Collecting Performance Statistics by Using Sampling | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,sampling"
   - "sampling profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Collect performance statistics by using sampling

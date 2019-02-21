@@ -61,5 +61,5 @@ The following example uses the `CreateProperty` task to create the `NewFile` pro
 After running the project, the value of the `NewFile` property is *Module1.vb*.
 
 ## See also
-[Task reference](../msbuild/msbuild-task-reference.md)  
-[Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)

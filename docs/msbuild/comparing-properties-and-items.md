@@ -174,4 +174,4 @@ KeyFileVersion: 1.0.0.3
 ```
 
 ## See also
-[Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
