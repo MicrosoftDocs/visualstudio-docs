@@ -19,7 +19,7 @@ After you've finished developing your extension, you can install it on other mac
 ## Working with VSIX Extensions
  You can create a VSIX extensions by creating a blank VSIX Project, and then adding different item templates to it. For more information, see [VSIX Project Template](../extensibility/vsix-project-template.md).
 
- You can use the VSIX format to package project templates, item templates, VSPackages, Managed Extensibility Framework (MEF) components, **Toolbox** controls, assemblies, and custom types (this includes custom Start Pages). The VSIX format uses file-based deployment. For more information about VSIX packages, see [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md).
+ You can use the VSIX format to package project templates, item templates, VSPackages, Managed Extensibility Framework (MEF) components, **Toolbox** controls, assemblies, and custom types (this includes custom Start Pages for Visual Studio 2017). The VSIX format uses file-based deployment. For more information about VSIX packages, see [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md).
 
  The VSIX format does not support the installation of code snippets. It also does not support certain other scenarios such as writing to the Global Assembly Cache (GAC) or to the system registry. If you need to write to the GAC or the registry in the installation, you must use the Windows Installer. For more information, see [Preparing Extensions for Windows Installer Deployment](../extensibility/preparing-extensions-for-windows-installer-deployment.md).
 

@@ -7,6 +7,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.date: 11/13/2018
+ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -16,6 +17,7 @@ ms.service:
 ms.assetid: 58494fc3-12de-4761-bd4a-74b54f72bfb3
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Community 2017 component directory
 
@@ -40,10 +42,22 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 ### Components included by this workload
 
+::: moniker range="vs-2017"
+
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
 Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Component ID | Name | Version | Dependency type
+--- | --- | --- | ---
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
+
+::: moniker-end
 
 ## Azure development
 

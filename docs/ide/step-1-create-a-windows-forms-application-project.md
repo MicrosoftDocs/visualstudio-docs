@@ -31,20 +31,21 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
      Visual Studio creates a solution for your program. A solution acts as a container for all of the projects and files needed by your program. These terms will be explained in more detail later in this tutorial.
 
-4. The following illustration shows what you should now see in the Visual Studio interface.
-
-    > [!NOTE]
-    > Your window layout may not look exactly like this illustration. The precise window layout depends on the version of Visual Studio, the programming language you are using, and other factors. However, you should verify that all three windows appear.
-
-     ![IDE window](../ide/media/express_ideoverview_visio.png)<br/>***IDE** window*
-
-     The interface contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
+4. The development environment contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
 
      If any of these windows are missing, restore the default window layout by, on the menu bar, choosing **Window** > **Reset Window Layout**. You can also display windows by using menu commands. On the menu bar, choose **View** > **Properties Window** or **Solution Explorer**. If any other windows are open, close them by choosing the **Close** (x) button in their upper-right corners.
 
-5. The illustration shows the following windows (going clockwise from the upper-left corner):
+    ::: moniker range="vs-2017"
 
-    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. In the illustration, the window shows a form in the **Form Editor**. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
+    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
+
+    ::: moniker-end
+
+    ::: moniker range=">=vs-2019"
+
+    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**. At the top of the window, you see the **Form1.cs [Design]** tab. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
+
+    :::
 
     - **Solution Explorer window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
 
