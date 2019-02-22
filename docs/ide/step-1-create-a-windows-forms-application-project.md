@@ -45,7 +45,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
     - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**.
 
-    :::
+    ::: moniker-end
 
     - **Solution Explorer window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in *.cs* in Visual C# and *.vb* in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the **Windows Forms Designer**.
 
