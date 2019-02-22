@@ -43,7 +43,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
     ::: moniker range=">=vs-2019"
 
-    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**. At the top of the window, you see the **Form1.cs [Design]** tab. (In Visual Basic, the tab name ends with *.vb* instead of *.cs*.)
+    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. The window shows a form in the **Form Editor**.
 
     :::
 

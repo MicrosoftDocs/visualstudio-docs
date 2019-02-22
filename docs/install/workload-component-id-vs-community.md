@@ -42,22 +42,10 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 ### Components included by this workload
 
-::: moniker range="vs-2017"
-
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
 Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
-
-::: moniker-end
 
 ## Azure development
 
