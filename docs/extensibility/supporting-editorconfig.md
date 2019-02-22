@@ -2,13 +2,13 @@
 title: "Extending a language service to support EditorConfig in Visual Studio | Microsoft Docs"
 ms.date: "11/22/2017"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "editorconfig [extensibility]"
   - "editorconfig, supporting in a language service"
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Supporting EditorConfig for your language service
@@ -39,5 +39,5 @@ Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize<br/>Microsof
 
 ## See also
 
-[Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)  
-[Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
+- [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)
+- [Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)

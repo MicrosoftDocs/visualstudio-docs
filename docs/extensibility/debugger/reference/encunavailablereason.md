@@ -1,7 +1,7 @@
 ---
 title: "EncUnavailableReason | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "EncUnavailableReason"
 helpviewer_keywords:
@@ -44,25 +44,25 @@ public enum EncUnavailableReason {
 ```
 
 #### Parameters
-ENCUN_NONE  
+ENCUN_NONE
 No specific reason why Edit and Continue is not available.
 
-ENCUN_INTEROP  
+ENCUN_INTEROP
 Edit and Continue is not available during an InterOp call.
 
-ENCUN_SQLCLR  
+ENCUN_SQLCLR
 Edit and Continue is not available during an SQL procedure call that uses the Common Language Runtime (CLR).
 
-ENCUN_MINIDUMP  
+ENCUN_MINIDUMP
 Edit and Continue is not available while processing a mini-dump.
 
-ENCUN_EMBEDDED  
+ENCUN_EMBEDDED
 Edit and Continue is not available when processing embedded code.
 
-ENCUN_ATTACH  
+ENCUN_ATTACH
 Edit and Continue is not available because the session was attached to, not launched by, the debugger.
 
-ENCUN_WIN64  
+ENCUN_WIN64
 Edit and Continue is not available while processing 64-bit Windows code.
 
 ## Remarks
@@ -76,9 +76,8 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 
-[DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)
+- [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)
 
-[GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md)
-
+- [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md)

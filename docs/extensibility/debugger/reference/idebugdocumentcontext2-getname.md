@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentContext2::GetName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugDocumentContext2::GetName"
 helpviewer_keywords:
@@ -33,11 +33,13 @@ int GetName(
 ```
 
 #### Parameters
-`gnType`  
-[in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
+`gnType`
 
-`pbstrFileName`  
-[out] Returns the name of the file.
+ [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
+
+`pbstrFileName`
+
+ [out] Returns the name of the file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -86,5 +88,5 @@ HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 ```
 
 ## See Also
-[IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)  
-[GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)
+- [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
+- [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

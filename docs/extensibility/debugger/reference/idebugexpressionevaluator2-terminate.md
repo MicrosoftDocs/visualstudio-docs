@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluator2::Terminate | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "Terminate"
   - "IDebugExpressionEvaluator2::Terminate"
@@ -51,4 +51,4 @@ STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)
 ```
 
 ## See Also
-[IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

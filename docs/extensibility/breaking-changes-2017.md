@@ -6,7 +6,7 @@ ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Changes in Visual Studio 2017 extensibility
@@ -97,6 +97,6 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 ### Reacting to this breaking change
 
 * External code should be converted to use Registration-Free activation for COM components as well.
-* External components can find the Visual Studio location [by following the guidance here](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup).
+* External components can find the Visual Studio location [by following the guidance here](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup).
 * We recommend that external components use the [External Settings Manager](/dotnet/api/microsoft.visualstudio.settings.externalsettingsmanager) instead of reading/writing directly to Visual Studio registry keys.
 * Check whether the components your extension is using may have implemented another technique for registration. For example, debugger extensions may be able to take advantage of the new [msvsmon JSON-file COM registration](migrate-debugger-COM-registration.md).

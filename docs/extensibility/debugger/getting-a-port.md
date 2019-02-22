@@ -91,7 +91,7 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
 ```
 
 ## See also
-[Registering the program](../../extensibility/debugger/registering-the-program.md)  
-[Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)  
-[Port suppliers](../../extensibility/debugger/port-suppliers.md)  
-[Ports](../../extensibility/debugger/ports.md)
+- [Registering the program](../../extensibility/debugger/registering-the-program.md)
+- [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
+- [Port suppliers](../../extensibility/debugger/port-suppliers.md)
+- [Ports](../../extensibility/debugger/ports.md)

@@ -1,7 +1,7 @@
 ---
 title: "LAUNCH_FLAGS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "LAUNCH_FLAGS"
 helpviewer_keywords:
@@ -38,16 +38,16 @@ public enum enum_LAUNCH_FLAGS {
 ```
 
 ## Members
-LAUNCH_DEBUG  
+LAUNCH_DEBUG
 Launches the process for debugging.
 
-LAUNCH_NODEBUG  
+LAUNCH_NODEBUG
 Launches the process without debugging it.
 
-LAUNCH_ENABLE_ENC  
+LAUNCH_ENABLE_ENC
 DEPRECATED, DO NOT USE.
 
-LAUNCH_MERGE_ENV  
+LAUNCH_MERGE_ENV
 Launches the process and merges the environment with the launching host.
 
 ## Remarks
@@ -63,5 +63,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)

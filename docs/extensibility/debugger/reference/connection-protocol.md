@@ -1,7 +1,7 @@
 ---
 title: "CONNECTION_PROTOCOL | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "CONNECTION_PROTOCOL"
 helpviewer_keywords:
@@ -43,25 +43,25 @@ public enum CONNECTION_PROTOCOL {
 ```
 
 #### Parameters
-CONNECTION_NONE  
+CONNECTION_NONE
 No connection has been made to a server.
 
-CONNECTION_UNKNOWN  
+CONNECTION_UNKNOWN
 A connection has been made, but it is of an unknown type.
 
-CONNECTION_LOCAL  
+CONNECTION_LOCAL
 Connection is to a local server.
 
-CONNECTION_PIPE  
+CONNECTION_PIPE
 Connection is through a named pipe.
 
-CONNECTION_TCPIP  
+CONNECTION_TCPIP
 Connection uses TCP/IP.
 
-CONNECTION_HTTP  
+CONNECTION_HTTP
 Connection uses HTTP (through a Web server).
 
-CONNECTION_OTHER  
+CONNECTION_OTHER
 Some other type of connection has been established (this value is not currently used).
 
 ## Remarks
@@ -75,5 +75,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetConnectionProtocol](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetConnectionProtocol](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDebugClassField::GetEnclosingClass | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugClassField::GetEnclosingClass"
 helpviewer_keywords:
@@ -31,8 +31,9 @@ int GetEnclosingClass(
 ```
 
 #### Parameters
-`ppClassField`  
-[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
+`ppClassField`
+
+ [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
 
 ## Return Value
 If successful, returns S_OK; otherwise, returns an error code.
@@ -49,4 +50,4 @@ class RootClass {
 Calling the `GetEnclosingClass` method on the `IDebugClassField` object representing the `NestedClass` class returns an `IDebugClassField` object representing the class `RootClass`.
 
 ## See Also
-[IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
+- [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

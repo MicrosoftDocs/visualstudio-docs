@@ -1,7 +1,7 @@
 ---
 title: "PDB_TYPE | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "PDB_TYPE"
 helpviewer_keywords:
@@ -14,6 +14,7 @@ ms.workload:
   - "vssdk"
 ---
 # PDB_TYPE
+
 This structure specifies information about a field type taken from a PDB symbol.
 
 ## Syntax
@@ -34,27 +35,34 @@ public struct PDB_TYPE {
 };
 ```
 
-#### Parameters
-ulAppDomainID  
+## Parameters
+
+`ulAppDomainID`
+
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
-guidModule  
+`guidModule`
+
 The GUID of the module that contains this field.
 
-symid  
+`symid`
+
 The ID of the symbol that corresponds to this field.
 
 ## Remarks
+
 This structure appears as part of the union in the [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure when the `dwKind` field of the `TYPE_INFO` structure is set to `TYPE_KIND_PDB` (a value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration).
 
 ## Requirements
+
 Header: sh.h
 
 Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)  
-[dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
+## See also
+
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
+- [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

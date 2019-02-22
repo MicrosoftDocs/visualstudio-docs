@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetEntryPoint"
   - "GetEntryPoint"
@@ -34,14 +34,17 @@ int GetEntryPoint(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier for the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier for the module.
+ [in] Identifier for the application domain.
 
-`ppAddress`  
-[out] Returns the entry point represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`guidModule`
+
+ [in] Unique identifier for the module.
+
+`ppAddress`
+
+ [out] Returns the entry point represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -82,4 +85,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

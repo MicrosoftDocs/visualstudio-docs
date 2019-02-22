@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpression2::EvaluateSync | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugExpression2::EvaluateSync"
 helpviewer_keywords:
@@ -37,17 +37,21 @@ int EvaluateSync(
 ```
 
 #### Parameters
-`dwFlags`  
-[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
+`dwFlags`
 
-`dwTimeout`  
-[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+ [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
-`pExprCallback`  
-[in]This parameter is always a null value.
+`dwTimeout`
 
-`ppResult`  
-[out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that contains the result of the expression evaluation.
+ [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+
+`pExprCallback`
+
+ [in]This parameter is always a null value.
+
+`ppResult`
+
+ [out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that contains the result of the expression evaluation.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. Some typical error codes are:
@@ -109,7 +113,7 @@ HRESULT CExpression::EvalExpression(BOOL bSynchronous,
 ```
 
 ## See Also
-[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)  
-[EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)  
-[IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)  
-[IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
+- [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+- [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
+- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
+- [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

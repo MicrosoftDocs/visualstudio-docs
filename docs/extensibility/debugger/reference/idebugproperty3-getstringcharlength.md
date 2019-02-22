@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty3::GetStringCharLength | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProperty3::GetStringCharLength"
 helpviewer_keywords:
@@ -86,5 +86,5 @@ STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)
 ```
 
 ## See Also
-[GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)  
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+- [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)
+- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

@@ -1,7 +1,7 @@
 ---
 title: "BP_RES_DATA_FLAGS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_RES_DATA_FLAGS"
 helpviewer_keywords:
@@ -32,7 +32,7 @@ public enum enum_BP_RES_DATA_FLAGS {
 ```
 
 ## Members
-BP_RES_DATA_EMULATED  
+BP_RES_DATA_EMULATED
 Specifies that the data breakpoint is being emulated.
 
 ## Remarks
@@ -46,5 +46,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md)

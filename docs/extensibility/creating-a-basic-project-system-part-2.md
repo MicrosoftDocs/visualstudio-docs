@@ -34,7 +34,7 @@ This walkthrough teaches how to accomplish these tasks:
 > The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.
 
 ## Create a Visual Studio template
-[Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the *\\Templates\Projects\SimpleProject\\* folder in the system registry.
+- [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the *\\Templates\Projects\SimpleProject\\* folder in the system registry.
 
 By using a Visual Studio template (*.vstemplate* file) instead of a basic project template, you can control how the template appears in the **New Project** dialog box and how template parameters are substituted. A *.vstemplate* file is an XML file that describes how source files are to be included when a project is created by using the project system template. The project system itself is built by collecting the *.vstemplate* file and the source files in a *.zip* file, and deployed by copying the *.zip* file to a location that is known to Visual Studio. This process is explained in more detail later in this walkthrough.
 
@@ -265,7 +265,7 @@ Test the modified project file to see whether the **Console** child node appears
     ![Simple Project Console Node](../extensibility/media/simpproj2_subfolder.png "SimpProj2_Subfolder")
 
 ## Substitute project template parameters
-[Creating a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) showed how to overwrite the `ProjectNode.AddFileFromTemplate` method to do a basic kind of template parameter substitution. This section teaches how to use the more sophisticated Visual Studio template parameters.
+- [Creating a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) showed how to overwrite the `ProjectNode.AddFileFromTemplate` method to do a basic kind of template parameter substitution. This section teaches how to use the more sophisticated Visual Studio template parameters.
 
 When you create a project by using a Visual Studio template in the **New Project** dialog box, template parameters are replaced with strings to customize the project. A template parameter is a special token that begins and ends with a dollar sign, for example, $time$. The following two parameters are especially useful for enabling customization in projects that are based on the template:
 

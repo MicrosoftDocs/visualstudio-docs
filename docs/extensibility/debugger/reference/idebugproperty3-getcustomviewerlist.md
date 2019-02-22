@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty3::GetCustomViewerList | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProperty3::GetCustomViewerList"
 helpviewer_keywords:
@@ -37,17 +37,21 @@ int GetCustomViewerList(
 ```
 
 #### Parameters
-`celtSkip`  
-[in] The number of viewers to skip over.
+`celtSkip`
 
-`celtRequested`  
-[in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
+ [in] The number of viewers to skip over.
 
-`rgViewers`  
-[in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
+`celtRequested`
 
-`pceltFetched`  
-[out] The actual number of viewers returned.
+ [in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
+
+`rgViewers`
+
+ [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
+
+`pceltFetched`
+
+ [out] The actual number of viewers returned.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -80,7 +84,7 @@ STDMETHODIMP CProperty::GetCustomViewerList(ULONG celtSkip, ULONG celtRequested,
 ```
 
 ## See Also
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)  
-[DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)  
-[GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)  
-[Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
+- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+- [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
+- [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)
+- [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

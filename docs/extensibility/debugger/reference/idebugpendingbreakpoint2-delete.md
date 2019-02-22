@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::Delete | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPendingBreakpoint2::Delete"
 helpviewer_keywords:
@@ -76,4 +76,4 @@ HRESULT CPendingBreakpoint::Delete(void)
 ```
 
 ## See Also
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

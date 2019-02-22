@@ -1,7 +1,7 @@
 ---
 title: "METADATA_ADDRESS_ARRAYELEM | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "METADATA_ADDRESS_ARRAYELEM"
 helpviewer_keywords:
@@ -14,6 +14,7 @@ ms.workload:
   - "vssdk"
 ---
 # METADATA_ADDRESS_ARRAYELEM
+
 This structure represents an array element within an array.
 
 ## Syntax
@@ -33,12 +34,15 @@ public struct METADATA_ADDRESS_ARRAYELEM {
 ```
 
 ## Terms
-tokMethod  
+
+tokMethod
+
 The ID of the array this element is a part of.
 
 [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
-dwIndex  
+dwIndex
+
 The index of this element within the array.
 
 ## Remarks
@@ -52,6 +56,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)  
-[ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

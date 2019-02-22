@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericParamField::GetFlags | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetFlags"
   - "IDebugGenericParamField::GetFlags"
@@ -30,8 +30,9 @@ int GetFlags(
 ```
 
 #### Parameters
-`pdwFlags`  
-[out] Returns the flags for this generic parameter.
+`pdwFlags`
+
+ [out] Returns the flags for this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -61,4 +62,4 @@ Error:
 ```
 
 ## See Also
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
