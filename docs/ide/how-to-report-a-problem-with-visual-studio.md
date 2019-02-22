@@ -1,7 +1,7 @@
 ---
 title: "How to report a problem with Visual Studio"
 titleSuffix: ""
-description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
+description: "Find out how to report a problem with Visual Studio to Microsoft so that we can diagnose and fix it."
 ms.date: 03/11/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# How to report a problem with Visual Studio 2017
+# How to report a problem with Visual Studio
 
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
 
