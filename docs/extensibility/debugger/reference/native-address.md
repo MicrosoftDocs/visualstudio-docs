@@ -14,36 +14,42 @@ ms.workload:
   - "vssdk"
 ---
 # NATIVE_ADDRESS
+
 This structure represents a native address.
 
 ## Syntax
 
 ```cpp
 typedef struct _tagNATIVE_ADDRESS {
-   DWORD unknown;
+    DWORD unknown;
 } NATIVE_ADDRESS;
 ```
 
 ```csharp
 public struct NATIVE_ADDRESS {
-   public uint unknown;
+    public uint unknown;
 }
 ```
 
 ## Terms
- unknown
- The native address (the meaning of this depends on the runtime and operating system).
+
+`unknown`
+
+The native address (the meaning of this depends on the runtime and operating system).
 
 ## Remarks
- This structure is part of the union in the [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_NATIVE` (a value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration).
+
+This structure is part of the union in the [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_NATIVE` (a value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration).
 
 ## Requirements
- Header: sh.h
 
- Namespace: Microsoft.VisualStudio.Debugger.Interop
+Header: sh.h
 
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+Namespace: Microsoft.VisualStudio.Debugger.Interop
 
-## See Also
+Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## See also
+
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

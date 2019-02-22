@@ -14,6 +14,7 @@ ms.workload:
   - "vssdk"
 ---
 # MODULE_SYMBOL_SEARCH_INFO
+
 Contains status information about symbol search paths that have been searched.
 
 ## Syntax
@@ -21,49 +22,55 @@ Contains status information about symbol search paths that have been searched.
 ```cpp
 typedef struct _tagSYMBOL_SEARCH_INFO
 {
-   SYMBOL_SEARCH_INFO_FIELDS dwValidFields;
-   BSTR                      bstrVerboseSearchInfo;
+    SYMBOL_SEARCH_INFO_FIELDS dwValidFields;
+    BSTR                      bstrVerboseSearchInfo;
 } MODULE_SYMBOL_SEARCH_INFO;
 ```
 
 ```csharp
 public struct MODULE_SYMBOL_SEARCH_INFO {
-   public uint   dwValidFields;
-   public string bstrVerboseSearchInfo;
+    public uint   dwValidFields;
+    public string bstrVerboseSearchInfo;
 }
 ```
 
-#### Parameters
- `dwValidFields`
- A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying the kind of search information described in this structure.
+## Parameters
 
- `bstrVerboseSearchInfo`
- Search path and results concatenated into a single string.
+`dwValidFields`
+
+A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying the kind of search information described in this structure.
+
+`bstrVerboseSearchInfo`
+
+Search path and results concatenated into a single string.
 
 ## Remarks
- This structure is returned from a call to the [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) method.
 
- If the `bstrVerboseSearchInfo` field is not empty, then it contains a list of paths searched and the results of that search. The list is formatted with a path, followed by an ellipsis ("..."), followed by the result. If there is more than one path result pair, then each pair is separated by a "\r\n" (carriage-return/linefeed) pair. The pattern looks like this:
+This structure is returned from a call to the [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) method.
 
- \<path>...\<result>\r\n\<path>...\<result>\r\n\<path>...\<result>
+If the `bstrVerboseSearchInfo` field is not empty, then it contains a list of paths searched and the results of that search. The list is formatted with a path, followed by an ellipsis ("..."), followed by the result. If there is more than one path result pair, then each pair is separated by a "\r\n" (carriage-return/linefeed) pair. The pattern looks like this:
 
- Note that the last entry does not have a \r\n sequence.
+\<path>...\<result>\r\n\<path>...\<result>\r\n\<path>...\<result>
 
- Here is a possible `bstrVerboseSearchInfo` string that has been sent to standard out.
+Note that the last entry does not have a \r\n sequence.
 
- `c:\symbols\user32.pdb... File not found.`
+Here is a possible `bstrVerboseSearchInfo` string that has been sent to standard out.
 
- `c:\winnt\symbols\user32.pdb... Version does not match.`
+`c:\symbols\user32.pdb... File not found.`
 
- `\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... Symbols loaded.`
+`c:\winnt\symbols\user32.pdb... Version does not match.`
+
+`\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... Symbols loaded.`
 
 ## Requirements
- Header: msdbg.h
 
- Namespace: Microsoft.VisualStudio.Debugger.Interop
+Header: msdbg.h
 
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+Namespace: Microsoft.VisualStudio.Debugger.Interop
 
-## See Also
+Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## See also
+
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md)

@@ -14,47 +14,55 @@ ms.workload:
   - "vssdk"
 ---
 # PDB_TYPE
+
 This structure specifies information about a field type taken from a PDB symbol.
 
 ## Syntax
 
 ```cpp
 typedef struct _tagTYPE_PDB {
-   ULONG32 ulAppDomainID;
-   GUID    guidModule;
-   DWORD   symid;
+    ULONG32 ulAppDomainID;
+    GUID    guidModule;
+    DWORD   symid;
 } PDB_TYPE;
 ```
 
 ```csharp
 public struct PDB_TYPE {
-   public uint ulAppDomainID;
-   public Guid guidModule;
-   public uint symid;
+    public uint ulAppDomainID;
+    public Guid guidModule;
+    public uint symid;
 };
 ```
 
-#### Parameters
- ulAppDomainID
- ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
+## Parameters
 
- guidModule
- The GUID of the module that contains this field.
+`ulAppDomainID`
 
- symid
- The ID of the symbol that corresponds to this field.
+ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
+
+`guidModule`
+
+The GUID of the module that contains this field.
+
+`symid`
+
+The ID of the symbol that corresponds to this field.
 
 ## Remarks
- This structure appears as part of the union in the [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure when the `dwKind` field of the `TYPE_INFO` structure is set to `TYPE_KIND_PDB` (a value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration).
+
+This structure appears as part of the union in the [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure when the `dwKind` field of the `TYPE_INFO` structure is set to `TYPE_KIND_PDB` (a value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration).
 
 ## Requirements
- Header: sh.h
 
- Namespace: Microsoft.VisualStudio.Debugger.Interop
+Header: sh.h
 
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+Namespace: Microsoft.VisualStudio.Debugger.Interop
 
-## See Also
+Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## See also
+
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

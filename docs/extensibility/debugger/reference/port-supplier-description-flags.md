@@ -12,6 +12,7 @@ ms.workload:
   - "vssdk"
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
+
 Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax
@@ -19,7 +20,7 @@ Defines the metadata that can be retrieved about a port supplier.
 ```cpp
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 {
-   PSDFLAG_SHOW_WARNING_ICON = 0x1
+    PSDFLAG_SHOW_WARNING_ICON = 0x1
 };
 typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```
@@ -27,24 +28,29 @@ typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```csharp
 public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 {
-   PSDFLAG_SHOW_WARNING_ICON = 0x1
+    PSDFLAG_SHOW_WARNING_ICON = 0x1
 };
 ```
 
 ## Terms
- PSDFLAG_SHOW_WARNING_ICON
- If selected, the warning icon will be displayed in the UI.
+
+`PSDFLAG_SHOW_WARNING_ICON`
+
+If selected, the warning icon will be displayed in the UI.
 
 ## Remarks
- This enumeration is returned by the [GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md) method.
+
+This enumeration is returned by the [GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md) method.
 
 ## Requirements
- Header: Msdbg.h
 
- Namespace: Microsoft.VisualStudio.Debugger.Interop
+Header: Msdbg.h
 
- Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+Namespace: Microsoft.VisualStudio.Debugger.Interop
 
-## See Also
+Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
+
+## See also
+
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md)
