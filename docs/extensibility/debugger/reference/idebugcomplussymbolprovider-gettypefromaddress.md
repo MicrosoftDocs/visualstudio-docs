@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetTypeFromAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetTypeFromAddress"
   - "GetTypeFromAddress"
@@ -32,11 +32,13 @@ int GetTypeFromAddress(
 ```
 
 #### Parameters
-`pAddress`  
-[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pAddress`
 
-`ppField`  
-[out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
+ [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+
+`ppField`
+
+ [out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -110,4 +112,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -1,7 +1,7 @@
 ---
 title: "ATTACH_REASON | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "ATTACH_REASON"
 helpviewer_keywords:
@@ -36,13 +36,13 @@ public enum enum_ATTACH_REASON {
 ```
 
 ## Members
-ATTACH_REASON_AUTO  
+ATTACH_REASON_AUTO
 Attach because the process is currently in debug mode.
 
-ATTACH_REASON_LAUNCH  
+ATTACH_REASON_LAUNCH
 Attach because the process has been launched.
 
-ATTACH_REASON_USER  
+ATTACH_REASON_USER
 Attach because of a user request.
 
 ## Remarks
@@ -56,6 +56,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)  
-[Attach](../../../extensibility/debugger/reference/idebugprogramex2-attach.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)
+- [Attach](../../../extensibility/debugger/reference/idebugprogramex2-attach.md)

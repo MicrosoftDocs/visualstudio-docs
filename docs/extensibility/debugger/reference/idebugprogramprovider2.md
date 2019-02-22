@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramProvider2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramProvider2"
 helpviewer_keywords:
@@ -77,6 +77,6 @@ IDebugProgramProvider2 *GetProgramProvider(GUID *pDebugEngineGuid)
 ```
 
 ## See Also
-[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)  
-[IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)  
-[SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
+- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

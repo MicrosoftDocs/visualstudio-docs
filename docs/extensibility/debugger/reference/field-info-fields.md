@@ -1,7 +1,7 @@
 ---
 title: "FIELD_INFO_FIELDS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "FIELD_INFO_FIELDS"
 helpviewer_keywords:
@@ -42,16 +42,16 @@ public enum enum_FIELD_INFO_FIELDS {
 ```
 
 ## Members
-FIF_FULLNAME  
+FIF_FULLNAME
 Initialize/use the `bstrFullName` field in the [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) structure.
 
-FIF_NAME  
+FIF_NAME
 Initialize/use the `bstrName` field in the `FIELD_INFO` structure.
 
-FIF_TYPE  
+FIF_TYPE
 Initialize/use the `bstrType` field in the `FIELD_INFO` structure.
 
-FIF_MODIFIERS  
+FIF_MODIFIERS
 Initialize/use the `bstrModifiers` field in the `FIELD_INFO` structure.
 
 ## Remarks
@@ -69,7 +69,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)  
-[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)  
-[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)
+- [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
+- [GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)

@@ -2,35 +2,35 @@
 title: "How to: Create an Atom Feed for a Private Gallery | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Atom feed, VSIX private galleries"
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # How to: Create an Atom feed for a private gallery
-You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to **Extensions and Updates** as a private gallery. For more information, see [Private galleries](../extensibility/private-galleries.md).  
-  
-## Create an Atom feed  
- To create an Atom feed as a private gallery, you first gather your extensions (*.vsix* files) into a folder. You can organize them into subfolders if you want. You will also need the following resources:  
-  
-- An *atom.xml* file that makes the extensions available as a private gallery. For information about how to connect the *atom.xml* file to **Extensions and Updates**, see [Private galleries](../extensibility/private-galleries.md).  
-  
-- A folder that contains any image files that were extracted from the extensions (for example, screen shots). The *atom.xml* file contains relative links to these images so that they are available in **Extensions and Updates**.  
-  
-  For example, assume that you have gathered the following two extensions into a folder:  
-  
-- *Template_Wizard_239.vsix*, which is an empty VSIX project template.  
-  
-- *SelectionHighlight.vsix*, which is a tool to highlight all instances of a selected word.  
-  
-  The contents of the *atom.xml* file would resemble the following example:  
-  
-```xml  
+You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to **Extensions and Updates** as a private gallery. For more information, see [Private galleries](../extensibility/private-galleries.md).
+
+## Create an Atom feed
+ To create an Atom feed as a private gallery, you first gather your extensions (*.vsix* files) into a folder. You can organize them into subfolders if you want. You will also need the following resources:
+
+- An *atom.xml* file that makes the extensions available as a private gallery. For information about how to connect the *atom.xml* file to **Extensions and Updates**, see [Private galleries](../extensibility/private-galleries.md).
+
+- A folder that contains any image files that were extracted from the extensions (for example, screen shots). The *atom.xml* file contains relative links to these images so that they are available in **Extensions and Updates**.
+
+  For example, assume that you have gathered the following two extensions into a folder:
+
+- *Template_Wizard_239.vsix*, which is an empty VSIX project template.
+
+- *SelectionHighlight.vsix*, which is a tool to highlight all instances of a selected word.
+
+  The contents of the *atom.xml* file would resemble the following example:
+
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text" />
@@ -62,9 +62,9 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
     ...
   </entry>
 </feed>
-```  
-  
- Notice that the two link tags refer to screen shots in the generated folder of images.  
-  
-## See also  
- [Private galleries](../extensibility/private-galleries.md)
+```
+
+ Notice that the two link tags refer to screen shots in the generated folder of images.
+
+## See also
+- [Private galleries](../extensibility/private-galleries.md)

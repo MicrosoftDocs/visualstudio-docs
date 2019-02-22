@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentText2::GetText | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugDocumentText2::GetText"
 helpviewer_keywords:
@@ -37,17 +37,21 @@ int GetText(
 ```
 
 #### Parameters
-`pos`  
-[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
+`pos`
 
-`cMaxChars`  
-[in] The maximum number of characters of the text to be retrieved.
+ [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
 
-`pText`  
-[in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
+`cMaxChars`
 
-`pcNumChars`  
-[out] Returns the number of characters actually retrieved.
+ [in] The maximum number of characters of the text to be retrieved.
+
+`pText`
+
+ [in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
+
+`pcNumChars`
+
+ [out] Returns the number of characters actually retrieved.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -92,5 +96,5 @@ namespace Mynamespace
 ```
 
 ## See Also
-[IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)  
-[TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
+- [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
+- [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

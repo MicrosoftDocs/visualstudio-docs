@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomViewer | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugCustomViewer"
 helpviewer_keywords:
@@ -99,7 +99,7 @@ IDebugCustomViewer *GetFirstCustomViewer(IDebugProperty2 *pProperty)
 ```
 
 ## See Also
-[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)  
-[GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)  
-[SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)  
-[IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
+- [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+- [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugEngine2::ContinueFromSynchronousEvent"
 helpviewer_keywords:
@@ -31,8 +31,9 @@ HRESULT ContinueFromSynchronousEvent(
 ```
 
 #### Parameters
-`pEvent`  
-[in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the previously sent synchronous event from which the debugger should now continue.
+`pEvent`
+
+ [in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the previously sent synchronous event from which the debugger should now continue.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -80,5 +81,5 @@ HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)
 ```
 
 ## See Also
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)  
-[IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

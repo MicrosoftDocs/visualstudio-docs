@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsFunctionStale"
 ms.assetid: dcffc090-4ed8-47b2-ba51-bce1a6b6428d
@@ -29,8 +29,9 @@ int IsFunctionStale(
 ```
 
 #### Parameters
-`pAddress`  
-[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+`pAddress`
+
+ [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If the function is considered stale, returns `S_OK`. If the function is not stale, returns `S_FALSE`.
@@ -83,4 +84,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

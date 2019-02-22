@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionContext2::ParseText | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugExpressionContext2::ParseText"
 helpviewer_keywords:
@@ -41,23 +41,29 @@ int ParseText(
 ```
 
 #### Parameters
-`pszCode`  
-[in] The expression to be parsed.
+`pszCode`
 
-`dwFlags`  
-[in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
+ [in] The expression to be parsed.
 
-`nRadix`  
-[in] The radix to be used in parsing any numerical information in `pszCode`.
+`dwFlags`
 
-`ppExpr`  
-[out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
+ [in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
 
-`pbstrError`  
-[out] Returns the error message if the expression contains an error.
+`nRadix`
 
-`pichError`  
-[out] Returns the character index of the error in `pszCode` if the expression contains an error.
+ [in] The radix to be used in parsing any numerical information in `pszCode`.
+
+`ppExpr`
+
+ [out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
+
+`pbstrError`
+
+ [out] Returns the error message if the expression contains an error.
+
+`pichError`
+
+ [out] Returns the character index of the error in `pszCode` if the expression contains an error.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -117,8 +123,8 @@ HRESULT CEnvBlock::ParseText(
 ```
 
 ## See Also
-[IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)  
-[PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)  
-[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)  
-[EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)  
-[EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)
+- [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
+- [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
+- [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+- [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)
+- [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)

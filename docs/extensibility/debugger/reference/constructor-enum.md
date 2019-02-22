@@ -1,7 +1,7 @@
 ---
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "CONSTRUCTOR_ENUM"
 helpviewer_keywords:
@@ -35,13 +35,13 @@ public enum ConstructorMatchOptions {
 ```
 
 ## Members
-crAll  
+crAll
 Selects all constructors.
 
-crNonStatic  
+crNonStatic
 Selects non-static constructors.
 
-crStatic  
+crStatic
 Selects static constructors.
 
 ## Remarks
@@ -55,5 +55,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)

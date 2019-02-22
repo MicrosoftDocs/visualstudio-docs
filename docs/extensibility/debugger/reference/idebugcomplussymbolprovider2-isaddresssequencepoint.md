@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider2::IsAddressSequencePoint | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::IsAddressSequencePoint"
   - "IsAddressSequencePoint"
@@ -30,8 +30,9 @@ int IsAddressSequencePoint(
 ```
 
 #### Parameters
-`pAddress`  
-[in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pAddress`
+
+ [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value
 If the debug address is a sequence point, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -78,4 +79,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
