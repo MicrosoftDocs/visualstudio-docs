@@ -41,7 +41,8 @@ HRESULT ReadExecutableAt ( 
 [out] Returns the number of bytes read.
 
  data[]
-- [in, out] An array that is filled in with bytes read from file.
+
+[in, out] An array that is filled in with bytes read from file.
 
 ## Remarks
  This method is called by the DIA support code to load data bytes from an executable using an absolute file offset. This method is called in support of the [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) method.

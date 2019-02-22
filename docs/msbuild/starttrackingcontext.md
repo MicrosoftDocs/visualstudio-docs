@@ -26,10 +26,12 @@ HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskN
 ```
 
 #### Parameters
-- [in] `intermediateDirectory`
+[in] `intermediateDirectory`
+
  The directory in which to store the tracking log.
 
-- [in] `taskName`
+[in] `taskName`
+
  Identifies the tracking context. This name is used to create the log file name.
 
 ## Return value

@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::Virtualize | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPendingBreakpoint2::Virtualize"
 helpviewer_keywords:
@@ -32,8 +32,9 @@ int Virtualize(
 ```
 
 #### Parameters
-`fVirtualize`  
-[in] Set to nonzero (`TRUE`) to virtualize the pending breakpoint, or to zero (`FALSE`) to turn off virtualization.
+`fVirtualize`
+
+ [in] Set to nonzero (`TRUE`) to virtualize the pending breakpoint, or to zero (`FALSE`) to turn off virtualization.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.
@@ -77,4 +78,4 @@ HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)
 ```
 
 ## See Also
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

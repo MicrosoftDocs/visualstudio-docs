@@ -6,7 +6,7 @@ author: gregvanl
 ms.author: gregvanl
 ms.date: 10/31/2018
 ms.topic: landing-page
-ms.workload: 
+ms.workload:
   - apexprodleads
 ---
 # Visual Studio extensibility documentation

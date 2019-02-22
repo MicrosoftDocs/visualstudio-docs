@@ -6,29 +6,29 @@ ms.assetid: ef60eb8d-1ac2-4e3a-9b4b-f6da0bdd9da8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Reference (Programmatic Capture)
-Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.  
+Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.
 
-## Programmatic Capture APIs  
+## Programmatic Capture APIs
 
-### Classes  
+### Classes
 
-|Name|Description|  
-|----------|-----------------|  
-|[VsgDbg Class](vsgdbg-class.md)|Represents the interface through which the in-app component of graphics diagnostics is controlled programmatically.|  
+|Name|Description|
+|----------|-----------------|
+|[VsgDbg Class](vsgdbg-class.md)|Represents the interface through which the in-app component of graphics diagnostics is controlled programmatically.|
 
-### Preprocessor Symbols  
+### Preprocessor Symbols
 
-|Name|Description|  
-|----------|-----------------|  
-|[DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)|Defines by its presence whether the graphics log file is saved to the user's temporary files directory.|  
-|[VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)|Defines the default file name of the graphics log file.|  
-|[VSG_NODEFAULT_INSTANCE](vsg-nodefault-instance.md)|Defines by its presence whether a default instance of the `VsgDbg` class is provided.|  
+|Name|Description|
+|----------|-----------------|
+|[DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)|Defines by its presence whether the graphics log file is saved to the user's temporary files directory.|
+|[VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)|Defines the default file name of the graphics log file.|
+|[VSG_NODEFAULT_INSTANCE](vsg-nodefault-instance.md)|Defines by its presence whether a default instance of the `VsgDbg` class is provided.|
 
-## Related Articles  
+## Related Articles
 
 | Title | Description |
 | - | - |

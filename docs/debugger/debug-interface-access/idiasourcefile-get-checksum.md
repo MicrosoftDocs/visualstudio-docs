@@ -36,7 +36,8 @@ HRESULT get_checksum ( 
 [out] Returns the number of checksum bytes. This parameter cannot be `NULL`.
 
  `data`
-- [in, out] A buffer that is filled with the checksum bytes. If this parameter is `NULL`, then `pcbData` returns the number of bytes required.
+
+[in, out] A buffer that is filled with the checksum bytes. If this parameter is `NULL`, then `pcbData` returns the number of bytes required.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::GetEngineID | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugEngine2::GetEngineID"
 helpviewer_keywords:
@@ -31,8 +31,9 @@ int GetEngineID(
 ```
 
 #### Parameters
-`pguidEngine`  
-[out] Returns the GUID of the DE.
+`pguidEngine`
+
+ [out] Returns the GUID of the DE.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -58,4 +59,4 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine) {
 ```
 
 ## See Also
-[IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

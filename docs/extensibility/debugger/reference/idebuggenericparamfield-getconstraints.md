@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericParamField::GetConstraints | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugGenericParamField::GetConstraints"
   - "GetConstraints"
@@ -34,14 +34,17 @@ int GetConstraints(
 ```
 
 #### Parameters
-`cConstraints`  
-[in] Number of constraints.
+`cConstraints`
 
-`ppConstraints`  
-[out] Returns an array that contains the constraints associated with this field.
+ [in] Number of constraints.
 
-`pcConstraints`  
-[in, out] Number of constraints in the `ppConstraints` array.
+`ppConstraints`
+
+ [out] Returns an array that contains the constraints associated with this field.
+
+`pcConstraints`
+
+ [in, out] Number of constraints in the `ppConstraints` array.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -143,4 +146,4 @@ Error:
 ```
 
 ## See Also
-[IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
+- [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

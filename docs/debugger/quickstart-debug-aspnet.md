@@ -4,20 +4,20 @@ description: "Debug ASP.NET using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger"
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "aspnet"
 ---
 # Quickstart: Debug ASP.NET with the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
-## Create a new project 
+## Create a new project
 
 1. In Visual Studio, choose **File > New Project**.
 
@@ -104,7 +104,7 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
     ![View a datatip](../debugger/media/dbg-qs-data-tip-aspnet.png)
 
-    The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code. 
+    The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
 2. Expand the datatip to look at the current property values of the `c2` object.
 

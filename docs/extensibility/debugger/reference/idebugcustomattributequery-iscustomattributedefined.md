@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomAttributeQuery::IsCustomAttributeDefined | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugCustomAttributeQuery::IsCustomAttributeDefined"
   - "IsCustomAttributeDefined"
@@ -30,8 +30,9 @@ int IsCustomAttributeDefined(
 ```
 
 #### Parameters
-`pszCustomAttributeName`  
-[in] Name of the custom attribute.
+`pszCustomAttributeName`
+
+ [in] Name of the custom attribute.
 
 ## Return Value
 If the custom attribute is defined, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -77,4 +78,4 @@ Error:
 ```
 
 ## See Also
-[IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)
+- [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

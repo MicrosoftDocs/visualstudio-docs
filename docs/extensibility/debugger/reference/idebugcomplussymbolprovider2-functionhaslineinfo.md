@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "FunctionHasLineInfo"
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
@@ -30,8 +30,9 @@ int FunctionHasLineInfo(
 ```
 
 #### Parameters
-`pAddress`  
-[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+`pAddress`
+
+ [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE`.
@@ -77,4 +78,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
+- [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

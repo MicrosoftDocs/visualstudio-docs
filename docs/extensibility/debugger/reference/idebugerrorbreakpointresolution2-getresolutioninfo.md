@@ -1,7 +1,7 @@
 ---
 title: "IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
 helpviewer_keywords:
@@ -33,10 +33,12 @@ int GetResolutionInfo( 
 ```
 
 #### Parameters
-`dwFields`  
+`dwFields`
+
 [in] A combination of flags from the [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md) enumeration that determine which fields of `pErrorResolutionInfo` are to be filled out.
 
-`pErrorResolutionInfo`  
+`pErrorResolutionInfo`
+
 [in, out] The [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) structure that is filled in with the description of the breakpoint resolution.
 
 ## Return Value
@@ -45,7 +47,7 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 ## Example
 The following example implements this method for a simple `CDebugErrorBreakpointResolution` object that exposes the [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md) interface.
 
-```
+```cpp
 HRESULT CDebugErrorBreakpointResolution::GetResolutionInfo(
     BPERESI_FIELDS dwFields,
     BP_ERROR_RESOLUTION_INFO* pBPErrorResolutionInfo)
@@ -144,6 +146,7 @@ HRESULT CDebugErrorBreakpointResolution::CopyBP_ERROR_RESOLUTION_INFO(
 ```
 
 ## See Also
-[IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)  
-[BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md)  
-[BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
+
+- [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
+- [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md)
+- [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)

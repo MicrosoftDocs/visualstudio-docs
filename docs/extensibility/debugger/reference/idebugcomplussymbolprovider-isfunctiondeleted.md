@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::IsFunctionDeleted"
 ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
@@ -29,8 +29,9 @@ int IsFunctionDeleted(
 ```
 
 #### Parameters
-`pAddress`  
-[in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+`pAddress`
+
+ [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If the function is deleted, returns `S_OK`. If the function is exists, returns `S_FALSE`.
@@ -84,4 +85,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

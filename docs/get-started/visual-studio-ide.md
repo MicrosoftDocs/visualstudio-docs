@@ -1,7 +1,7 @@
 ---
 title: Overview of Visual Studio 2017
 titleSuffix: ""
-ms.date: 10/26/2018
+ms.date: 2/21/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
@@ -56,6 +56,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
 - [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md)
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
+
+   You can find the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
    ![Quick Launch search box in Visual Studio](media/quick-launch-nuget.png)
 

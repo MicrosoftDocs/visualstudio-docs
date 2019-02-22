@@ -12,13 +12,16 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Add user control to the Start Page
+
 This walkthrough shows how to add a DLL reference to a custom Start Page. The example adds a user control to the solution, builds the user control, and then references the built assembly from the Start Page *.xaml* file. A new tab hosts the user control, which functions as a basic Web browser.
 
 You can use the same process to add any assembly that can be called from a *.xaml* file.
 
 ## Add a WPF user control to the solution
+
 First, add a Windows Presentation Foundation (WPF) user control to the Start Page solution.
 
 1. Create a Start Page by using we created in [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md).
@@ -30,6 +33,7 @@ First, add a Windows Presentation Foundation (WPF) user control to the Start Pag
 4. Name the control `WebUserControl` and then click **OK**.
 
 ## Implement the user control
+
 To implement a WPF user control, build the user interface (UI) in XAML and then write the code-behind events in C# or another .NET language.
 
 ### To write the XAML for the user control
@@ -126,7 +130,8 @@ To implement a WPF user control, build the user interface (UI) in XAML and then 
 4. Build the solution.
 
 ## Add the user control to the Start Page
- To make this control available to the Start Page project, in the Start Page project file, add a reference to the new control library. Then you can add the control to the Start Page XAML markup.
+
+To make this control available to the Start Page project, in the Start Page project file, add a reference to the new control library. Then you can add the control to the Start Page XAML markup.
 
 1. In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.
 
@@ -179,5 +184,6 @@ To implement a WPF user control, build the user interface (UI) in XAML and then 
     Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.
 
 ## See also
-[WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)  
-[Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
+
+- [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

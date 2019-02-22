@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomAttributeQuery::GetCustomAttributeByName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugCustomAttributeQuery::GetCustomAttributeByName"
   - "GetCustomAttributeByName"
@@ -34,14 +34,17 @@ int GetCustomAttributeByName(
 ```
 
 #### Parameters
-`pszCustomAttributeName`  
-[in] Name of the custom attribute.
+`pszCustomAttributeName`
 
-`ppBlob`  
+ [in] Name of the custom attribute.
+
+`ppBlob`
+
 [in,out] Array of bytes that contain the custom attribute data.
 
-`pdwLen`  
-[out] Length in bytes of the `ppBlob` parameter.
+`pdwLen`
+
+ [out] Length in bytes of the `ppBlob` parameter.
 
 ## Return Value
 If successful, returns `S_OK`. If custom attribute does not exist, returns `S_FALSE`. Otherwise, returns an error code.
@@ -85,4 +88,4 @@ Error:
 ```
 
 ## See Also
-[IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)
+- [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

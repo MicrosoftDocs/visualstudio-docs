@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Develop code in Visual Studio without projects or solutions
 
-In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
+You can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
 After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
@@ -23,9 +23,19 @@ After you open your code files in Visual Studio, **Solution Explorer** displays 
 You can open code into Visual Studio in any of the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
+
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
+
+::: moniker range="vs-2017"
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- Choose the **Open Folder** link on the Start window.
+::: moniker-end
+
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
+
 - Open code from a cloned GitHub repo.
 
 ### To open code from a cloned GitHub repo

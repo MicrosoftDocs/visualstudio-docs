@@ -15,7 +15,7 @@ When UI becomes unresponsive, Visual Studio examines the call-stack of the UI th
 
 The notification informs the user that the UI delay (that is, the unresponsiveness in the UI) might have been the result of code from an extension. It also provides the user with options to disable the extension or future notifications for that extension.
 
-This document describes how you can diagnose what in your extension code is causing UI delay notifications. 
+This document describes how you can diagnose what in your extension code is causing UI delay notifications.
 
 > [!NOTE]
 > Do not use the Visual Studio experimental instance to diagnose UI delays. Some parts of the call-stack analysis required for UI delay notifications are turned off when using the experimental instance, meaning that UI delay notifications may not be shown.
@@ -96,7 +96,7 @@ Next, open the trace file. You can do this either using the same instance of Per
 Then, select the trace file in the left pane and open it by choosing **Open** from the right-click or context menu.
 
 > [!NOTE]
-> By default PerfView outputs a Zip archive. When you open *trace.zip*, it automatically decompresses the archive and opens the trace. You can skip this by unchecking the **Zip** box during trace collection. However, if you are planning to transfer and use traces across different machines, we strongly recommend against unchecking the **Zip** box. Without this option, the required PDBs for Ngen assemblies will not accompany the trace and thus symbols from Ngen assemblies will not be resolved on the destination machine. (See [this blog post](https://devblogs.microsoft.com/devops/creating-ngen-pdbs-for-profiling-reports/) for more information on PDBs for Ngen assemblies.) 
+> By default PerfView outputs a Zip archive. When you open *trace.zip*, it automatically decompresses the archive and opens the trace. You can skip this by unchecking the **Zip** box during trace collection. However, if you are planning to transfer and use traces across different machines, we strongly recommend against unchecking the **Zip** box. Without this option, the required PDBs for Ngen assemblies will not accompany the trace and thus symbols from Ngen assemblies will not be resolved on the destination machine. (See [this blog post](https://devblogs.microsoft.com/devops/creating-ngen-pdbs-for-profiling-reports/) for more information on PDBs for Ngen assemblies.)
 
 It can take several minutes for PerfView to process and open the trace. Once the trace is open, a list of various "views" appear under it.
 

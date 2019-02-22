@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramPublisher2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramPublisher2"
 helpviewer_keywords:
@@ -84,5 +84,5 @@ void CProgram::Start(IDebugEngine2 * pEngine)
 ```
 
 ## See Also
-[Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)  
-[IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
+- [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
+- [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
