@@ -11,6 +11,7 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Deploy custom Start Pages
 
@@ -37,13 +38,13 @@ You can obtain the Start Page project template by using **Extension Manager** or
 
 - By manually creating a *.vsix* file. To create a *.vsix* file manually:
 
-  1.  Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
+   1. Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
 
-  2.  In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
+   2. In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
 
-  For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
+For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
 
-  If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
+If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
 
 ```
 [$RootKey$\BindingPaths\{Insert a new GUID here}]

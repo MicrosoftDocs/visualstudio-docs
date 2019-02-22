@@ -2,12 +2,12 @@
 title: "Locating Visual Studio | Microsoft Docs"
 ms.date: "08/21/2017"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, VSIX"
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
 ms.author: "heaths"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Locate Visual Studio
@@ -35,4 +35,4 @@ To find Visual Studio and other tools in build environments, PowerShell scripts,
 
 ## See also
 
-* [Changes to Visual Studio 2017 setup](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup/)
+* [Changes to Visual Studio 2017 setup](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup/)

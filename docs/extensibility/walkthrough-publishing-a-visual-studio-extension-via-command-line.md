@@ -2,14 +2,14 @@
 title: "Walkthrough: Publishing a Visual Studio Extension via command line | Microsoft Docs"
 ms.date: "07/12/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "publishing extensions"
   - "extension, publishing"
 ms.assetid: 6ff9efc4-919d-4071-a80d-6dbdd2ceb2f8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
@@ -28,7 +28,7 @@ Publishes an extension to the Marketplace. The extension can be a vsix, an exe/m
 |---------|---------|
 |payload (required) | Either a path to the payload to publish or a link to use as the "more info URL". |
 |publishManifest (required) | Path to the publish manifest file to use. |
-|ignoreWarnings | List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
+|ignoreWarnings | List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")
 |personalAccessToken | Personal Access Token (PAT) that's used to authenticate the publisher. If not provided, the PAT is acquired from the logged-in users. |
 
 ```

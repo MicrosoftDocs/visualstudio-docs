@@ -5,6 +5,7 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
+ms.custom: video
 ---
 # Refactoring
 
@@ -99,6 +100,10 @@ You can view all results of the source analysis for any file, at any time, by vi
 If you click on the circle at the top, you can iterate through each suggestion, with the highest severity issues showing first. Hovering over an individual result or line displays the issue, which can be fixed through context actions:
 
 ![Source Analysis Item](media/refactoring-image5.png)
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Refactoring-Code/player]
 
 ## See also
 

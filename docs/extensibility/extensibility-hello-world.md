@@ -44,7 +44,11 @@ Step 2. From the **Templates** menu, click **Visual C#**, click **Extensibility*
 
 You should now see the Getting Started page and some sample resources.
 
+::: moniker range="vs-2017"
+
 If you need to leave this tutorial and come back to it, you can find your new HelloWorld project on the **Start Page** in the **Recent** section.
+
+::: moniker-end
 
 ## Add a custom command
 

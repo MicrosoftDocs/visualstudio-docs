@@ -182,6 +182,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

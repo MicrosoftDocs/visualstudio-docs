@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Create UML modeling projects and diagrams
 
-Starting with Visual Studio 2017, the UML Designers have been removed from Visual Studio. For more information, see this [blog post](https://blogs.msdn.microsoft.com/devops/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
+Starting with Visual Studio 2017, the UML Designers have been removed from Visual Studio. For more information, see this [blog post](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
 
 If you still need to use UML, you can use Visual Studio 2015 Enterprise edition, which is side-by-side compatible with later versions of Visual Studio.
 

@@ -6,7 +6,7 @@ ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # What&#39;s New in the Visual Studio 2017 SDK

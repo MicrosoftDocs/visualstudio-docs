@@ -3,7 +3,7 @@ title: "Deployment overview | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: 06/22/2018
 ms.topic: "overview"
-dev_langs: 
+dev_langs:
   - "FSharp"
   - "VB"
   - "CSharp"
@@ -11,7 +11,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 

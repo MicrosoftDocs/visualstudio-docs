@@ -4,7 +4,7 @@ description: "Learn how to start the Visual Studio debugger, step through code, 
 ms.custom: "debug-experiment"
 ms.date: "08/01/2018"
 ms.topic: "tutorial"
-dev_langs: 
+dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger"
@@ -177,7 +177,7 @@ In this tutorial, you will:
 
     A red circle appears where you set the breakpoint.
 
-    Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
+    Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging", the app starts, and the debugger runs to the line of code where you set the breakpoint.
 

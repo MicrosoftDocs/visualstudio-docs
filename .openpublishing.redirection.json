@@ -7147,7 +7147,7 @@
             "redirect_url": "/visualstudio/containers/docker-tools",
             "redirect_document_id": true
         },
-        {  
+        {
             "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
             "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-hosting-web-apps-in-docker",
             "redirect_document_id": true
@@ -7161,7 +7161,46 @@
             "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
             "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-troubleshooting-docker-errors",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/globalizing-applications.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/hierarchical-organization-of-resources-for-localization.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/introduction-to-international-applications-based-on-the-dotnet-framework.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/localizing-applications.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/neutral-resources-languages-for-localization.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/security-and-localized-satellite-assemblies.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/version-numbers-for-main-and-localized-satellite-assemblies.md",
+            "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+            "redirect_document_id": false
         }
-           
     ]
 }

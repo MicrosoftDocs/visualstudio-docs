@@ -2,14 +2,14 @@
 title: "Tier Interactions View | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.view.tierinteraction"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Tier Interactions view"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Tier Interactions View
