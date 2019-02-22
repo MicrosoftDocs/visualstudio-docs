@@ -15,7 +15,7 @@ Visual Studio for Mac allows you to specify how more than one project is started
 
    ![Set startup projects context menu](media/startup-proj-ctx-menu.png)
 
-3. The **Create Solution Run Configuration** dialog appears. This will create a new named Solution Run Configuration for your solution. You can give any name you like, the default name is `Multiple Projects`.
+3. The **Create Solution Run Configuration** dialog appears. This dialog will create a new named Solution Run Configuration for your solution. You can give any name you like, the default name is `Multiple Projects`.
 
    ![Create Solution Run Configuration dialog](media/create-sln-run-config.png)
 
@@ -27,10 +27,10 @@ Visual Studio for Mac allows you to specify how more than one project is started
 
    ![Solution options dialog with configured run configuration](media/sln-options-run-config-multi-projects-configured.png)
 
-6. Click **OK**. The dialog will be dimissed, and the new Solution Run Configuration is set as the active run configuration.
+6. Click **OK**. The dialog will be dismissed, and the new Solution Run Configuration is set as the active run configuration.
 
    ![Solution with multiple projects configured to start on debug or run](media/startup-project-configured.png)
-   Here you can see that two projects are configured to start on debug, or run, because both projects are in **bold** in the **Solution Pad**. In the toolbar the new run configuration is configured as the current Solution Run Configuration.
+   You can see that two projects are configured to start because both projects are in **bold** in the **Solution Pad**. In the toolbar, the new run configuration is configured as the current Solution Run Configuration.
 
 ## See also
 
