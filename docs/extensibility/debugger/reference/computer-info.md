@@ -1,7 +1,7 @@
 ---
 title: "COMPUTER_INFO | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "COMPUTER_INFO structure"
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
@@ -35,13 +35,13 @@ public struct COMPUTER_INFO
 ```
 
 ## Terms
-wProcessorArchitecture  
+wProcessorArchitecture
 Identifies the architecture of the microprocessor.
 
-wSuiteMask  
+wSuiteMask
 Identifies the suite mask.
 
-dwOperatingSystemVersion  
+dwOperatingSystemVersion
 Operating system version number.
 
 ## Remarks
@@ -55,5 +55,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)

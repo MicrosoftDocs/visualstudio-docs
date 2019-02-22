@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_CODE_CONTEXT | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_LOCATION_CODE_CONTEXT"
 helpviewer_keywords:
@@ -25,7 +25,7 @@ typedef struct _BP_LOCATION_CODE_CONTEXT {
 ```
 
 ## Members
-pCodeContext  
+pCodeContext
 The [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that identifies the position of the breakpoint in the code.
 
 ## Remarks
@@ -39,6 +39,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
-[IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

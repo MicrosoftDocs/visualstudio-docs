@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpression2::EvaluateAsync | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugExpression2::EvaluateAsync"
 helpviewer_keywords:
@@ -33,11 +33,13 @@ int EvaluateAsync(
 ```
 
 #### Parameters
-`dwFlags`  
-[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
+`dwFlags`
 
-`pExprCallback`  
-[in] This parameter is always a null value.
+ [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
+
+`pExprCallback`
+
+ [in] This parameter is always a null value.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. A typical error code is:
@@ -67,7 +69,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 ```
 
 ## See Also
-[IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)  
-[IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)  
-[EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)  
-[IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
+- [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
+- [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
+- [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
+- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

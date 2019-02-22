@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugExpressionEvaluator2::SetCallback"
   - "SetCallback"
@@ -30,8 +30,9 @@ int SetCallback (
 ```
 
 #### Parameters
-`pCallback`  
-[in] Interface to use for the settings callback.
+`pCallback`
+
+ [in] Interface to use for the settings callback.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -68,4 +69,4 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
 ```
 
 ## See Also
-[IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

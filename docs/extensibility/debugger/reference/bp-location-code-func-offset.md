@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_CODE_FUNC_OFFSET | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_LOCATION_CODE_FUNC_OFFSET"
 helpviewer_keywords:
@@ -26,10 +26,10 @@ typedef struct _BP_LOCATION_CODE_FUNC_OFFSET {
 ```
 
 ## Members
-`bstrContext`  
+`bstrContext`
 The context of the breakpoint, typically a method or function name as seen on a call stack.
 
-`pFuncPos`  
+`pFuncPos`
 The [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md) object that describes the name of the function and the relative position from the beginning of the function.
 
 ## Remarks
@@ -45,6 +45,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
-[IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)

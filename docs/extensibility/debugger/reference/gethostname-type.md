@@ -1,7 +1,7 @@
 ---
 title: "GETHOSTNAME_TYPE | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "GETHOSTNAME_TYPE"
 helpviewer_keywords:
@@ -34,10 +34,10 @@ public enum enum_GETHOSTNAME_TYPE {
 ```
 
 ## Members
-GHN_FRIENDLY_NAME  
+GHN_FRIENDLY_NAME
 Specifies a friendly name of the host.
 
-GHN_FILE_NAME  
+GHN_FILE_NAME
 Specifies a file name of the host.
 
 ## Remarks
@@ -51,5 +51,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[GetHostName](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [GetHostName](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md)

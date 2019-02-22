@@ -28,7 +28,7 @@ To view Python options, use the **Tools** > **Options** menu command, make sure 
 There are also additional Python-specific options on the **Text Editor** > **Python** > **Advanced** tab, and on the **Environment** > **Fonts and Colors** tab within the **Text Editor** group.
 
 > [!Note]
-> The **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
+> The **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://devblogs.microsoft.com/python/).
 
 ## General options
 

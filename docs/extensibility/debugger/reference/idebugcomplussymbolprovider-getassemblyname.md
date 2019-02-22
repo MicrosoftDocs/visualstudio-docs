@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAssemblyName"
   - "GetAssemblyName"
@@ -17,8 +17,7 @@ Retrieves the name of the assembly given its module and application domain.
 
 ## Syntax
 
-```
-[C++]
+```cpp
 HRESULT GetAssemblyName(
     ULONG32 ulAppDomainID,
     GUID    guidModule,
@@ -26,8 +25,7 @@ HRESULT GetAssemblyName(
 );
 ```
 
-```
-[C#]
+```csharp
 int GetAssemblyName(
     uint   ulAppDomainID,
     Guid   guidModule,
@@ -36,14 +34,17 @@ int GetAssemblyName(
 ```
 
 #### Parameters
-`ulAppDomainID`  
-[in] Identifier for the application domain.
+`ulAppDomainID`
 
-`guidModule`  
-[in] Unique identifier for the module.
+ [in] Identifier for the application domain.
 
-`pbstrName`  
-[out] Returns the name of the assembly.
+`guidModule`
+
+ [in] Unique identifier for the module.
+
+`pbstrName`
+
+ [out] Returns the name of the assembly.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -78,4 +79,4 @@ Error:
 ```
 
 ## See Also
-[IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
+- [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

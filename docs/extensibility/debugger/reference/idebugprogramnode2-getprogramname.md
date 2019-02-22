@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNode2::GetProgramName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramNode2::GetProgramName"
 helpviewer_keywords:
@@ -31,8 +31,9 @@ int GetProgramName (
 ```
 
 #### Parameters
-`pbstrProgramName`  
-[out] Returns the name of the program.
+`pbstrProgramName`
+
+ [out] Returns the name of the program.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -55,4 +56,4 @@ HRESULT CProgram::GetProgramName(BSTR* pbstrProgramName) {
 ```
 
 ## See Also
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

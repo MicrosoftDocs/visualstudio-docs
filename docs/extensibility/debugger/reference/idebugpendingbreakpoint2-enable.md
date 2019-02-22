@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::Enable | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugPendingBreakpoint2::Enable"
 helpviewer_keywords:
@@ -32,8 +32,9 @@ int Enable(
 ```
 
 #### Parameters
-`fEnable`  
-[in] Set to nonzero (`TRUE`) to enable a pending breakpoint, or to zero (`FALSE`) to disable.
+`fEnable`
+
+ [in] Set to nonzero (`TRUE`) to enable a pending breakpoint, or to zero (`FALSE`) to disable.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.
@@ -77,4 +78,4 @@ HRESULT CPendingBreakpoint::Enable(BOOL fEnable)
 ```
 
 ## See Also
-[IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+- [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

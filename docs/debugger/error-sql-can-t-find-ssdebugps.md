@@ -2,9 +2,9 @@
 title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
@@ -13,7 +13,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS

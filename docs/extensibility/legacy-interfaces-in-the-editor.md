@@ -2,19 +2,19 @@
 title: "Legacy Interfaces in the Editor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy"
 ms.assetid: 741d45f5-0ea3-4614-972a-8728fe054e07
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Legacy interfaces in the editor
-You can access the Visual Studio editor from legacy interfaces. The Visual Studio SDK includes adapters known as *shims*, which enable these interfaces to interact with the new editor. Nevertheless, we recommend that you update your legacy code to use the new editor API. Your code will perform better and you can use new technologies such as the Windows Presentation Foundation (WPF) and the Managed Extensibility Framework (MEF).  
+You can access the Visual Studio editor from legacy interfaces. The Visual Studio SDK includes adapters known as *shims*, which enable these interfaces to interact with the new editor. Nevertheless, we recommend that you update your legacy code to use the new editor API. Your code will perform better and you can use new technologies such as the Windows Presentation Foundation (WPF) and the Managed Extensibility Framework (MEF).
 
-## Related topics  
+## Related topics
 
 | Title | Description |
 | - | - |

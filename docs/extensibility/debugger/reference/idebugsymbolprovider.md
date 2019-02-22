@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugSymbolProvider"
 helpviewer_keywords:
@@ -98,4 +98,4 @@ IDebugSymbolProvider *GetSymbolProvider(GUID *pSymbolProviderGuid)
 ```
 
 ## See Also
-[Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
+- [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

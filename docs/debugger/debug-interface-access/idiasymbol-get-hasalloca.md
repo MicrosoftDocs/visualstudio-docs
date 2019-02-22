@@ -18,8 +18,8 @@ Retrieves a flag that specifies whether the function contains a call to `alloca`
 
 ## Syntax
 
-```
-- [C++]HRESULT get_hasAlloca(   BOOL *pFlag);
+```cpp
+HRESULT get_hasAlloca(   BOOL *pFlag);
 ```
 
 #### Parameters

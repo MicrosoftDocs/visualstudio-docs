@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "IDebugExpressionEvaluator2::PreloadModules"
   - "PreloadModules"
@@ -30,8 +30,9 @@ int PreloadModules (
 ```
 
 #### Parameters
-`pSym`  
-[in] Symbol provider for which the modules will be preloaded.
+`pSym`
+
+ [in] Symbol provider for which the modules will be preloaded.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -69,4 +70,4 @@ Error:
 ```
 
 ## See Also
-[IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
+- [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
