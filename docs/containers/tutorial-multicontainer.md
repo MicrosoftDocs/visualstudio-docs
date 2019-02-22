@@ -18,7 +18,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ::: moniker range="vs-2017"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) with the **Web Development**, **Azure Tools** workload, or **.NET Core cross-platform development** workload installed
-* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
+
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
@@ -51,7 +51,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/web-api-project.png)
 ::: moniker-end
 
-## Add code to call the web api
+## Add code to call the Web API
 
 1. In the *WebFrontEnd* project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
@@ -162,7 +162,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 When you're ready to deploy the multicontainer app, you'll need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container) or [Azure Kubernetes Service (AKS)](/azure/aks).
 
-## See Also
+## See also
   
 [Docker Compose](https://docs.docker.com/compose/)  
 [Service Fabric Overview](/azure/service-fabric/service-fabric-overview)  
