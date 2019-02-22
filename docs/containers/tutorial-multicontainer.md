@@ -100,7 +100,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 1. Choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
 
-1. Choose **Docker**.
+1. Choose **Docker Compose**.
 
 1. Choose your Target OS, for example, Linux.
 
@@ -149,6 +149,14 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     ```
 
 1. Run the site locally now (F5 or Ctrl+F5) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
+
+   The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.
+
+   ![Screenshot of docker-compose project properties](media/tutorial-multicontainer/launch-action.png)
+
+   Here's what you see when launched:
+
+   ![Screenshot of running web app](media/tutorial-multicontainer/webfrontend.png)
 
 ## Next steps
 
