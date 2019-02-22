@@ -22,7 +22,6 @@
 ## [Managing references in a project](managing-references-in-a-project.md)
 ### [Walkthrough - Including a NuGet package in your project](nuget-walkthrough.md)
 ## [Managing App Resources](managing-app-resources.md)
-## [How to: Set multiple startup projects](set-startup-projects.md)
 ## [How to: Open multiple solutions or instances](open-multiple-solutions.md)
 
 # [Source Editor](source-editor.md)
@@ -42,6 +41,7 @@
 # [Compiling and Building](compiling-and-building.md)
 ## [Building and Cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md)
 ## [Build Actions](build-actions.md)
+## [How to: Set multiple startup projects](set-startup-projects.md)
 ## [Customizing the Build System](customizing-build-system.md)
 ## [Configurations](configurations.md)
 ### [Create and Edit configurations](create-and-edit-configurations.md)
