@@ -20,17 +20,17 @@ This structure represents the address of a local variable within a scope (usuall
 
 ```cpp
 typedef struct _tagMETADATA_ADDRESS_LOCAL {
-   _mdToken  tokMethod;
-   IUnknown* pLocal;
-   DWORD     dwIndex;
+    _mdToken  tokMethod;
+    IUnknown* pLocal;
+    DWORD     dwIndex;
 } METADATA_ADDRESS_LOCAL;
 ```
 
 ```csharp
 public struct METADATA_ADDRESS_LOCAL {
-   public int    tokMethod;
-   public object pLocal;
-   public uint   dwIndex;
+    public int    tokMethod;
+    public object pLocal;
+    public uint   dwIndex;
 }
 ```
 
