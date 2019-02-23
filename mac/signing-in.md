@@ -28,7 +28,7 @@ To sign in to Visual Studio for Mac, do the following steps:
 
     You cannot use Xamarin credentials to log into Visual Studio for Mac.
 
-3.	After you've logged in, you'll see your license type. From this dialog, you can add additional Microsoft accounts that you might wish you use:
+3. After you've logged in, you'll see your license type. From this dialog, you can add additional Microsoft accounts that you might wish you use:
 
     ![Sign in successful](media/signing-in-image14.png)
 

@@ -63,10 +63,10 @@ Once you have your Contract ID and Access ID set up, when you need support you c
 
 8. Provide your contact information and preferred contact method, and click **Continue**.
 9. Provide a title for your support incident, and then describe your issue.
-10.	Answer a brief series of questions to determine the severity of the issue.
-11.	Click the checkbox to accept the terms of service.
-12.	Click **Submit** to submit your issue.
-13.	You’ll see a confirmation that your incident has been successfully submitted. An agent will be assigned to your incident and will reach out to you to resolve it using contact method you selected. Response time for non-critical issues is eight hours. They will provide you with a service request number, and will work with you to resolve your issue.
+10. Answer a brief series of questions to determine the severity of the issue.
+11. Click the checkbox to accept the terms of service.
+12. Click **Submit** to submit your issue.
+13. You’ll see a confirmation that your incident has been successfully submitted. An agent will be assigned to your incident and will reach out to you to resolve it using contact method you selected. Response time for non-critical issues is eight hours. They will provide you with a service request number, and will work with you to resolve your issue.
 
 ### Submit an incident by phone
 
@@ -78,9 +78,9 @@ Please ensure you have your Contract ID and Access ID available when you call.
 
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you will need to link your Contract ID and Access ID to your Azure subscription.
 
-1.	Visit https://portal.azure.com and sign in
-2.	From the left-hand navigation click **Help + Support**
-3.	Under “Support” click **New Support Request**
+1. Visit https://portal.azure.com and sign in
+2. From the left-hand navigation click **Help + Support**
+3. Under “Support” click **New Support Request**
 
 ## Eligibility
 
