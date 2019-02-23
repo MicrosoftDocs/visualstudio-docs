@@ -163,7 +163,7 @@ Debugging dynamically generated files is not automatic. You cannot automatically
    For Chrome, go to **Solution Explorer > Script Documents > YourPageName**.
 
     > [!NOTE]
-    > When using Chrome, you might get a message `no source is available between `<script>` tags.` This is OK, just continue debugging.
+    > When using Chrome, you might get a message ``no source is available between `<script>` tags.`` This is OK, just continue debugging.
 
    For Internet Explorer, go to **Solution Explorer > Script Documents > Windows Internet Explorer > YourPageName**.
 
