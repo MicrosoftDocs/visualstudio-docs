@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot network or proxy errors"
 description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
-ms.date: 02/12/2018
+ms.date: 02/23/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -57,6 +57,9 @@ This error generally occurs when users are connected to the internet through a p
       ```
 
       You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
+
+     > [!NOTE]
+     > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
 
   -OR-
 
