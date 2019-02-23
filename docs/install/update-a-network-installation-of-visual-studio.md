@@ -53,7 +53,7 @@ Let's walk through a few examples of how to create and then update a layout:
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components, even if you include these components in an "add" section of a [response file](automated-installation-with-response-file.md). This occurs because the add operation isn't used during an update.
+    > An update operation doesn't install newly added optional components, even if you include these components in an "add" section of a [response file](automated-installation-with-response-file.md). This occurs because the add operation isn't used during an update.<br>
     > **Workaround**: Run a separate modify operation after an upgrade to install the missing components.
 
 * And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the ASP.NET & Web workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
