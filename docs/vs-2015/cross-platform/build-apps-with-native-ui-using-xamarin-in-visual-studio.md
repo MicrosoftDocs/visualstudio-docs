@@ -640,4 +640,4 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 ## See Also
  [Xamarin Developer site](http://developer.xamarin.com/)
  [Windows Dev Center](https://dev.windows.com/en-us)
- [Swift and C# Quick Reference Poster](http://aka.ms/scposter)
+ [Swift and C# Quick Reference Poster](https://aka.ms/scposter)
