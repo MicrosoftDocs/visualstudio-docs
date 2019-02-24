@@ -1,7 +1,7 @@
 ---
 title: "Enable debugging for ASP.NET apps | Microsoft Docs"
 ms.custom: "H1HackMay2017"
-ms.date: "09/21/18"
+ms.date: "09/21/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
