@@ -37,7 +37,7 @@ ms.workload:
 ## Customize a SharePoint site
  For this example, you will create and customize a SharePoint subsite by adding a new site column to it and by creating another subsite for use later. Later, you will export the first subsite to a .wsp file and then import the custom site column into the second subsite by using the .wsp Import project.
 
-#### To create and customize a SharePoint site
+### To create and customize a SharePoint site
 
 1. Open a SharePoint site using a Web browser, such as http://<em>system name</em>/SitePages/Home.aspx.
 
@@ -71,7 +71,7 @@ ms.workload:
 > [!IMPORTANT]
 >  If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
 
-#### To export an existing SharePoint site
+### To export an existing SharePoint site
 
 1.  In the SharePoint site, choose **Site Settings** on the **Site Actions** tab to display the Site Settings page.
 
@@ -94,7 +94,7 @@ ms.workload:
 ## Import the .wsp file
  Now that you have a *.wsp* file that contains an item that you want to reuse (the custom site column Test Column), import the *.wsp* file to access it.
 
-#### To import a .wsp file
+### To import a .wsp file
 
 1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.
 
@@ -122,7 +122,7 @@ ms.workload:
 ## Deploy the project
  Finally, deploy **WspImportProject1** to the second SharePoint subsite that you created earlier to view the custom site column.
 
-#### To deploy the project
+### To deploy the project
 
 1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to deploy and run the *.wsp* import project.
 
