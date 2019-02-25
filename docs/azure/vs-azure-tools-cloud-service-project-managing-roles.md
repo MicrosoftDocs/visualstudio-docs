@@ -23,7 +23,7 @@ The following steps guide you through adding a web or worker role to an Azure cl
 
 1. Right-click the **Roles** node to display the context menu. From the context menu, select **Add**, then select an existing web role or worker role from the current solution, or create a web or worker role project. You can also select an appropriate project, such as an ASP.NET web application project, and associate it with a role project.
 
-  ![Menu options to add a role to an Azure cloud service project](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
+   ![Menu options to add a role to an Azure cloud service project](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
 
 ## Removing a role from an Azure cloud service
 The following steps guide you through removing a web or worker role from an Azure cloud service project in Visual Studio.
