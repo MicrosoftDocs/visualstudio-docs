@@ -1,6 +1,6 @@
 ---
 title: "Configurations and Platforms for Coded UI Tests"
-ms.date: 2015-10-04
+ms.date: 10/04/2015
 ms.topic: reference
 helpviewer_keywords:
   - "coded UI tests"

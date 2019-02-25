@@ -74,6 +74,7 @@ Let's start with some integer math in C#.
             Console.WriteLine(c);
             Console.ReadKey();
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
@@ -145,6 +146,7 @@ Let's continue by adding a more complex set of calculator code to your project.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
@@ -376,6 +378,7 @@ Let's get started.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
 1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following:
@@ -398,7 +401,7 @@ Let's get started.
 
 ## Code complete
 
-During this tutortial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
+During this tutorial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
 
 Here's the complete code, all in one place:
 
