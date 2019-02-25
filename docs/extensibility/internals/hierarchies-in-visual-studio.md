@@ -29,4 +29,4 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 ## See also
 - [Project types](../../extensibility/internals/project-types.md)
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
-- [VSSDK samples](http://aka.ms/vs2015sdksamples)
+- [VSSDK samples](https://aka.ms/vs2015sdksamples)

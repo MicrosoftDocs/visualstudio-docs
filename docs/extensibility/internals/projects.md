@@ -35,7 +35,7 @@ In Visual Studio, projects are the containers that developers use to organize so
 
  Explains what actually occurs when you create a new project.
 
-- [VSSDK Samples](http://aka.ms/vs2015sdksamples)
+- [VSSDK Samples](https://aka.ms/vs2015sdksamples)
  Contains the samples in the VSSDK that deal with projects and solutions.
 
 ## Related Sections

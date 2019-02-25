@@ -29,7 +29,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  This walkthrough shows you how to create a project type that has the project file name extension *.myproj*. This walkthrough borrows from the existing Visual C# project system.
 
 > [!NOTE]
->  For more examples of extension projects, see [VSSDK samples](http://aka.ms/vs2015sdksamples).
+>  For more examples of extension projects, see [VSSDK samples](https://aka.ms/vs2015sdksamples).
 
  This walkthrough teaches how to accomplish these tasks:
 
