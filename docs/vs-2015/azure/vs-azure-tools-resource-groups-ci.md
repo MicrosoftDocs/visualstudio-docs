@@ -4,7 +4,6 @@ description: Describes how to set up continuous integration in Azure DevOps Serv
 author: mlearned
 manager: jillfra
 ms.assetid: b81c172a-be87-4adc-861e-d20b94be9e38
-ms.service: azure-resource-manager
 ms.topic: article
 ms.workload: azure-vs
 ms.date: 08/01/2016
