@@ -41,7 +41,7 @@ ms.workload:
 ## Create a SharePoint project
  First, create a SharePoint project.
 
-#### To create a SharePoint project
+### To create a SharePoint project
 
 1. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.
 
@@ -64,7 +64,7 @@ ms.workload:
 ## Add a feature and feature event receiver
  Next, add a feature to the project along with an event receiver for the feature. This event receiver will contain the code to be profiled.
 
-#### To add a feature and feature event receiver
+### To add a feature and feature event receiver
 
 1.  In **Solution Explorer**, open the shortcut menu for the **Features** node, choose **Add Feature**, and leave the name at the default value, **Feature1**.
 
@@ -185,7 +185,7 @@ ms.workload:
 ## Configure and Deploy the SharePoint application
  Now that the SharePoint project is ready, configure it and deploy it to the SharePoint server.
 
-#### To configure and deploy the SharePoint application
+### To configure and deploy the SharePoint application
 
 1.  On the **Analyze** menu, choose **Launch Performance Wizard**.
 
@@ -208,7 +208,7 @@ ms.workload:
 ## Run the SharePoint application
  Activate the feature in SharePoint, triggering the `FeatureActivation` event code to run.
 
-#### To run the SharePoint application
+### To run the SharePoint application
 
 1.  In SharePoint, open the **Site Actions** menu, and then choose **Site Settings**.
 
@@ -229,7 +229,7 @@ ms.workload:
 ## View and interpret the Profile results
  Now that you have run and profiled the SharePoint application, view the test results.
 
-#### To view and interpret the Profile results
+### To view and interpret the Profile results
 
 1.  In the **Functions Doing the Most Individual Work** section of the Sample Profiling Report, notice that `TimeCounter` is near the top of the list.
 
@@ -250,7 +250,7 @@ ms.workload:
 ## Fix the code and reprofile the application
  Now that hotspot function in the SharePoint application has been identified, fix it.
 
-#### To fix the code and reprofile the application
+### To fix the code and reprofile the application
 
 1.  In the feature event receiver code, comment out the `TimeCounter` method call in `FeatureActivated` to prevent it from being called.
 
