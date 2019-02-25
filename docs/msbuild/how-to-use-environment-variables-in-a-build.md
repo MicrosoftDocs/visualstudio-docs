@@ -57,6 +57,6 @@ When you build projects, it is often necessary to set build options using inform
 ```
 
 ## See also
-- [MSBuild ](../msbuild/msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)
 - [MSBuild properties](../msbuild/msbuild-properties.md)
 - [How to: Build the same source files with different options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
