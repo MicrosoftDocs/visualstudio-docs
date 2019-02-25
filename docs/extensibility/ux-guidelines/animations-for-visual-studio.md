@@ -299,7 +299,7 @@ As an animated transition when a UI element changes size from one context to ano
 
 -   Architecture Explorer panel expand and collapse
 
--   Start Page item expand and collapse
+-   Visual Studio 2017 Start Page item expand and collapse
 
 #### X-Y position change
 With this pattern, a UI element changes its X or Y position or both.

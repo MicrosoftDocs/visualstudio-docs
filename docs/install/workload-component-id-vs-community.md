@@ -7,6 +7,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.date: 11/13/2018
+ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -16,6 +17,7 @@ ms.service:
 ms.assetid: 58494fc3-12de-4761-bd4a-74b54f72bfb3
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Community 2017 component directory
 

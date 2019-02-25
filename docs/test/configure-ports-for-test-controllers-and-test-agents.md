@@ -22,7 +22,7 @@ You can change the default incoming ports used by the test controller, the test 
 
 The following illustration shows the connection points between the test controller, test agent and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
 
-![Test contoller and test agent ports and security](../test/media/test-controller-agent-firewall.png)
+![Test controller and test agent ports and security](../test/media/test-controller-agent-firewall.png)
 
 ## Incoming connections
 
