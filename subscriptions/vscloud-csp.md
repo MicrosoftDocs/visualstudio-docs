@@ -139,5 +139,5 @@ A:  No, prices for Visual Studio subscriptions are flat. The same price is offer
 
 ### Q: Are there Azure dev/test pricing options for CSPs?
 
-A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](http://aka.ms/azuredevtestpricing), but we do not have anything
+A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://aka.ms/azuredevtestpricing), but we do not have anything
 specifically for CSPs.

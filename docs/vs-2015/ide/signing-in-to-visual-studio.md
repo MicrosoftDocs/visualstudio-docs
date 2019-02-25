@@ -19,7 +19,7 @@ You can personalize and optimize your development experience in Visual Studio if
 ## Why should I sign in to Visual Studio?
  You gain the following benefits by signing in to Visual Studio:
 
--   **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.
+-   **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) for more information.
 
 -   **Synchronizes your Visual Studio settings** – Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](http://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx).
 
