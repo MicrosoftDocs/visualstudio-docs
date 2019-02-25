@@ -6,12 +6,12 @@
   href: starting-to-develop-visual-studio-extensions.md
 - name: "Create your First Extension: Hello World"
   href: extensibility-hello-world.md
-- name: What's New in the Visual Studio 2019 SDK
-  href: what-s-new-in-the-visual-studio-2019-sdk.md
+- name: What's New Visual Studio 2019 SDK
+  href: whats-new-visual-studio-2019-sdk.md
   items:
   - name: Synchronously autoloaded extensions
     href: synchronously-autoloaded-extensions.md
-- name: What's New in the Visual Studio 2017 SDK
+- name: What's New Visual Studio 2017 SDK
   href: what-s-new-in-the-visual-studio-2017-sdk.md
   items:
   - name: Breaking Changes in Extensibility

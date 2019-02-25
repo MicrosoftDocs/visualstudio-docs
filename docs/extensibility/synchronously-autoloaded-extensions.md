@@ -19,7 +19,10 @@ Synchronously autoloaded extensions have a negative impact on the performance of
 
 3. Users can click on **Manage performance** to open the [Performance Manager dialog](#performance-manager-dialog) that shows performance issues with extensions and tool windows.
 
-3. Users can click on **Don't show this message again** to dismiss the notification. Note choosing this option will also prevent all future notifications from synchronously autoloaded extensions. Users will continue to get notifications on other Visual Studio features.
+3. Users can click on **Don't show this message again** to dismiss the notification.
+
+[!NOTE]
+Choosing this option will also prevent all future notifications from synchronously autoloaded extensions. Users will continue to get notifications on other Visual Studio features.
 
 ### Performance Manager dialog
 
