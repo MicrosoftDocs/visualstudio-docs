@@ -10,6 +10,7 @@ ms.date: 08/01/2016
 ms.author: mlearned
 ---
 # Continuous integration in Azure DevOps Services using Azure Resource Group deployment projects
+
 To deploy an Azure template, you perform tasks in various stages: Build, Test, Copy to Azure (also called "Staging"), and Deploy Template. There are two different ways to deploy templates to Azure DevOps Services. Both methods provide the same results, so choose the one that best fits your workflow.
 
 1. Add a single step to your build pipeline that runs the PowerShell script that’s included in the Azure Resource Group deployment project (Deploy-AzureResourceGroup.ps1). The script copies artifacts and then deploys the template.
