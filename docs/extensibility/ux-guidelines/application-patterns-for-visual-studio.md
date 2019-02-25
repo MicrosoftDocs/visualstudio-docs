@@ -122,10 +122,22 @@ Examples of navigable list tool windows are the Solution Explorer and the Find R
 
 **Other tool windows**
 
+::: moniker range="vs-2017"
+
 | Tool window | Function |
 | --- | --- |
 | Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-| Start Page | The user's portal to Visual Studio 2017, with access to feeds of developer news, Visual Studio help, and recent projects. Users can also create custom start pages by copying the StartPage.xaml file from the "Common7\IDE\StartPages\" Visual Studio program files directory to the StartPages folder in the Visual Studio documents directory, and then either editing the XAML by hand or opening it in Visual Studio or another code editor. |
+| Start Page | The user's portal to Visual Studio, with access to feeds of developer news, Visual Studio help, and recent projects. Users can also create custom start pages by copying the StartPage.xaml file from the "Common7\IDE\StartPages\" Visual Studio program files directory to the StartPages folder in the Visual Studio documents directory, and then either editing the XAML by hand or opening it in Visual Studio or another code editor. |
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+| Tool window | Function |
+| --- | --- |
+| Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
+
+::: moniker-end
 
 **Debugger tool windows**
 

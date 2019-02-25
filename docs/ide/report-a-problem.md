@@ -46,7 +46,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio-2017.md#when-further-information-is-needed-need-more-info)
+**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed-need-more-info)
 
 - - -
 
@@ -104,7 +104,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 We recommend using search to ensure that the problem you're about to report hasn't already been reported. If you find an existing item matching your problem, follow and vote on that problem ticket.
 
- Provide all the information you can to help our teams reproduce what you're experiencing.  This information includes  necessary repro steps, code fragments, screenshots, repro recordings, log files, and other artifacts.  Here is [how to report a problem in Visual Studio](./how-to-report-a-problem-with-visual-studio-2017.md).
+ Provide all the information you can to help our teams reproduce what you're experiencing.  This information includes  necessary repro steps, code fragments, screenshots, repro recordings, log files, and other artifacts.  Here is [how to report a problem in Visual Studio](./how-to-report-a-problem-with-visual-studio.md).
 
 ### How is my feedback prioritized?
 
