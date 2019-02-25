@@ -111,6 +111,7 @@ There are three attributes available for the Code element:
    |`CPP`|Identifies a C++ code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
+   |`TypeScript`|Identifies a TypeScript code snippet.|
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
