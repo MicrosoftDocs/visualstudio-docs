@@ -13,7 +13,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
+
 # span::~span destructor
+
 Destroys the `span` object and releases its resources.
 
 ## Syntax
@@ -23,9 +25,11 @@ Destroys the `span` object and releases its resources.
 ```
 
 ## Requirements
- **Header:** *cvmarkersobj.h*
 
- **Namespace:** Concurrency::diagnostic
+**Header:** *cvmarkersobj.h*
 
- ## See also
+**Namespace:** Concurrency::diagnostic
+
+## See also
+
 - [span class](../profiling/span-class.md)
