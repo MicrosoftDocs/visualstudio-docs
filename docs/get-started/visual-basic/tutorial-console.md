@@ -32,7 +32,7 @@ First, we'll create a Visual Basic application project. The project type comes w
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
 
-### Add a workgroup (optional)
+### Add a workload (optional)
 
 If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
 
