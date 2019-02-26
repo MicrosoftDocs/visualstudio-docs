@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 02/12/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the benefits included in your Visual Studio subscription
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -40,4 +38,3 @@ As a Visual Studio subscriber, you also have access to various types of support 
 > Your subscription may also come with access to software downloads.  For more information about downloads, including which downloads are included with your subscription, visit [https://my.visualstudio.com/downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs).
 
 For more information about the benefits included in your subscription, check out the [Visual Studio pricing page](https://visualstudio.microsoft.com/vs/pricing/).  Information about the specific benefits, including which subscriptions feature them, is available in the **Using Subscriber Benefits** topic below.
-

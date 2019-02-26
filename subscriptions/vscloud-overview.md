@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
@@ -18,14 +16,14 @@ You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptio
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. You can still purchase new monthly cloud subscriptions. 
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. You can still purchase new monthly cloud subscriptions.
 
 ## Before you start
 
 *	To bill your purchases, you need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/). You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## Who can buy Visual Studio cloud subscriptions?
-Anyone with [owner and contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase cloud subscriptions.  
+Anyone with [owner and contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase cloud subscriptions.
 
 ## How to buy cloud subscriptions
 
@@ -79,43 +77,43 @@ If you purchased more than one subscription, proceed to the
 
 ### For new customers:
 #### Q:  I was considering the Annual Cloud subscription, and now I can’t find it.  What should I do?
-A: Please go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options. 
+A: Please go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options.
 
 #### Q: What purchasing options are available to me?
-A:  We provide monthly subscriptions and standard subscriptions in our direct sales channels. For more information, check out [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).  
-There are also many options through our volume licensing program. You can research the options and prices on  
+A:  We provide monthly subscriptions and standard subscriptions in our direct sales channels. For more information, check out [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
+There are also many options through our volume licensing program. You can research the options and prices on
 [https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy).
 
-#### Q: The price for a retail subscription is higher. What additional benefits am I receiving? 
-A:  You will receive perpetual license rights for the Visual Studio IDE that came with the subscription. When it is time to renew, you only pay the software assurance price, which is significantly less.  
+#### Q: The price for a retail subscription is higher. What additional benefits am I receiving?
+A:  You will receive perpetual license rights for the Visual Studio IDE that came with the subscription. When it is time to renew, you only pay the software assurance price, which is significantly less.
 
 ### For existing annual cloud subscribers
 #### Q:  How will this change impact me?
-A:  This change will not impact existing subscribers. 
+A:  This change will not impact existing subscribers.
 
 #### Q:  Do I need to do anything as a result of these changes?
-A:  No.  Your subscriptions will remain in place and you will be able to manage them as you do today.  
+A:  No.  Your subscriptions will remain in place and you will be able to manage them as you do today.
 
 #### Q: What if I want to increase the number of subscriptions my company owns?
 A:  Your administrator can still increase the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to increase subscription counts.
 
-#### Q: What if I want to decrease the number of subscriptions my company owns? 
+#### Q: What if I want to decrease the number of subscriptions my company owns?
 A:  Your administrator can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts.
 
 #### Q: If I cancel my subscription, will I be able to buy another Annual Cloud subscription later?
 A:  Although you will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
 
 ### For Cloud Solution Providers (CSP)
-#### Q: How will this change impact my customers? 
-A:  Your customers will not be able to purchase new Visual Studio Cloud Annual subscriptions. 
+#### Q: How will this change impact my customers?
+A:  Your customers will not be able to purchase new Visual Studio Cloud Annual subscriptions.
 
-#### Q: Do my customers need to do anything because of these changes? 
+#### Q: Do my customers need to do anything because of these changes?
 A:  Existing customers will not be impacted. New customers will need to decide whether they want to purchase Visual Studio Monthly subscriptions or go to another channel such as volume licensing to purchase Visual Studio Subscriptions.
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
 A:  Your administrator can still increase the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to increase subscription counts.
 
-#### Q: What if I want to decrease the number of subscriptions for my customers? 
+#### Q: What if I want to decrease the number of subscriptions for my customers?
 A:  Your administrator can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts.
 
 #### Q: If my customers cancel their subscriptions, will they be able to buy more Annual Cloud subscriptions later?
