@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/25/2019
+ms.date: 02/26/2019
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -33,7 +33,7 @@ To start, we'll create a C# application project. The project type comes with all
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
-### Add a workgroup (optional)
+### Add a workload (optional)
 
 If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
 
