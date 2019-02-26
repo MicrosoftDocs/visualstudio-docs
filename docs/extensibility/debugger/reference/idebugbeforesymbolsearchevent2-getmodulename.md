@@ -1,7 +1,7 @@
 ---
 title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetModuleName"
   - "IDebugBeforeSymbolSearchEvent2::GetModuleName"
@@ -30,8 +30,9 @@ public int GetModuleName (
 ```
 
 #### Parameters
-`pbstrModuleName`  
-[out] Name of the module.
+`pbstrModuleName`
+
+ [out] Name of the module.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -60,4 +61,4 @@ STDMETHODIMP CDebugBeforeSymbolSearchEventBase::GetModuleName(BSTR *pbstrModuleN
 ```
 
 ## See Also
-[IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md)
+- [IDebugBeforeSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2.md)

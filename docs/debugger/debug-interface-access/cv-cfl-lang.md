@@ -41,55 +41,55 @@ typedef enum CV_CFL_LANG {
 ```
 
 ## Elements
-CV_CFL_C  
+CV_CFL_C
 Application language is C.
 
-CV_CFL_CXX  
+CV_CFL_CXX
 Application language is C++.
 
-CV_CFL_FORTRAN  
+CV_CFL_FORTRAN
 Application language is FORTRAN.
 
-CV_CFL_MASM  
+CV_CFL_MASM
 Application language is Microsoft Macro Assembler.
 
-CV_CFL_PASCAL  
+CV_CFL_PASCAL
 Application language is Pascal.
 
-CV_CFL_BASIC  
+CV_CFL_BASIC
 Application language is BASIC.
 
-CV_CFL_COBOL  
+CV_CFL_COBOL
 Application language is COBOL.
 
-CV_CFL_LINK  
+CV_CFL_LINK
 Application is a linker-generated module.
 
-CV_CFL_CVTRES  
+CV_CFL_CVTRES
 Application is a resource module converted with CVTRES tool.
 
-CV_CFL_CVTPGD  
+CV_CFL_CVTPGD
 Application is a POGO optimized module generated with CVTPGD tool.
 
-CV_CFL_CSHARP  
+CV_CFL_CSHARP
 Application language is C#.
 
-CV_CFL_VB  
+CV_CFL_VB
 Application language is Visual Basic.
 
-CV_CFL_ILASM  
+CV_CFL_ILASM
 Application language is intermediate language assembly (that is, Common Language Runtime (CLR) assembly).
 
-CV_CFL_JAVA  
+CV_CFL_JAVA
 Application language is Java.
 
-CV_CFL_JSCRIPT  
+CV_CFL_JSCRIPT
 Application language is Jscript.
 
-CV_CFL_MSIL  
+CV_CFL_MSIL
 Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation) switch.
 
-CV_CFL_HLSL  
+CV_CFL_HLSL
 Application language is High Level Shader Language.
 
 ## Remarks
@@ -99,5 +99,5 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_la
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)

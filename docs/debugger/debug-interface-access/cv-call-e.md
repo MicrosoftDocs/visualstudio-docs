@@ -33,22 +33,22 @@ typedef enum CV_call_e {
 ```
 
 ## Elements
-CV_CALL_NEAR_C  
+CV_CALL_NEAR_C
 Specifies a function-calling convention using a near right-to-left push. The calling function clears the stack.
 
-CV_CALL_NEAR_FAST  
+CV_CALL_NEAR_FAST
 Specifies a function-calling convention using a near left-to-right push with registers. The called function uses the sum of parameter bytes to clear the stack.
 
-CV_CALL_NEAR_STD  
+CV_CALL_NEAR_STD
 Specifies a function-calling convention using a near standard call (right-to-left push).
 
-CV_CALL_NEAR_SYS  
+CV_CALL_NEAR_SYS
 Specifies a function-calling convention using a near system call.
 
-CV_CALL_THISCALL  
+CV_CALL_THISCALL
 Specifies a function-calling convention using `this` call (`this` pointer passed in register).
 
-CV_CALL_CLRCALL  
+CV_CALL_CLRCALL
 Specifies a function-calling convention used by the Common Language Runtime (CLR) (also known as a managed code calling convention).
 
 ## Remarks
@@ -58,5 +58,5 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_ca
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md)

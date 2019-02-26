@@ -2,13 +2,13 @@
 title: "Graphics Frame Validation | Microsoft Docs"
 ms.date: "03/02/2017"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.graphics.FrameValidation"
 ms.assetid: 1e639182-1301-4e28-9c1e-b5df732f3f1b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Graphics Frame Validation
@@ -28,6 +28,6 @@ Click the **Run Validation** button at the top left corner to initiate the analy
 | Message | The message associated with the event. |
 | Event | The event associated with the error or warning. |
 
-## See Also  
-[Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
+## See Also
+[Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 <!-- /VERSIONLESS -->

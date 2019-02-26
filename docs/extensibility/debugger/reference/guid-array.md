@@ -1,7 +1,7 @@
 ---
 title: "GUID_ARRAY | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GUID_ARRAY structure"
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
@@ -33,10 +33,10 @@ public struct GUID_ARRAY
 ```
 
 ## Terms
-dwCount  
+dwCount
 Number of unique identifiers in the array.
 
-Members  
+Members
 Array that contains unique identifiers.
 
 ## Remarks
@@ -50,5 +50,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetEngineFilter](../../../extensibility/debugger/reference/idebugprocess3-getenginefilter.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetEngineFilter](../../../extensibility/debugger/reference/idebugprocess3-getenginefilter.md)

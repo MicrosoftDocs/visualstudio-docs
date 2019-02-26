@@ -67,6 +67,6 @@ The following example uses the `FindUnderPath` task to determine if the files co
 ```
 
 ## See also
-[Task reference](../msbuild/msbuild-task-reference.md)  
-[Tasks](../msbuild/msbuild-tasks.md)  
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)

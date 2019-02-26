@@ -1,7 +1,7 @@
 ---
 title: "DEBUG_ADDRESS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "DEBUG_ADDRESS"
 helpviewer_keywords:
@@ -37,13 +37,13 @@ public struct DEBUG_ADDRESS {
 ```
 
 ## Terms
-ulAppDomainID  
+ulAppDomainID
 The process ID.
 
-guidModule  
+guidModule
 The GUID of the module that contains this address.
 
-tokClass  
+tokClass
 The token identifying the class or type of this address.
 
 > [!NOTE]
@@ -74,7 +74,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)  
-[DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)  
-[ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)
+- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
+- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

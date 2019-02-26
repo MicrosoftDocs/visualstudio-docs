@@ -2,15 +2,15 @@
 title: "Noise Reduction Percentage | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.cv.threads.filter"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Concurrency Visualizer, Noise Reduction Percentage"
 ms.assetid: 1c10cd4c-2fdd-48c9-b562-a334b3b2df6c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Noise Reduction Percentage

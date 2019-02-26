@@ -36,40 +36,40 @@ enum LocationType {
 ```
 
 ## Elements
-`LocIsNull`  
+`LocIsNull`
 Location information is unavailable.
 
-`LocIsStatic`  
+`LocIsStatic`
 Location is static.
 
-`LocIsTLS`  
+`LocIsTLS`
 Location is in thread local storage.
 
-`LocIsRegRel`  
+`LocIsRegRel`
 Location is register-relative.
 
-`LocIsThisRel`  
+`LocIsThisRel`
 Location is `this`-relative.
 
-`LocIsEnregistered`  
+`LocIsEnregistered`
 Location is in a register.
 
-`LocIsBitField`  
+`LocIsBitField`
 Location is in a bit field.
 
-`LocIsSlot`  
+`LocIsSlot`
 Location is a Microsoft Intermediate Language (MSIL) slot.
 
-`LocIsIlRel`  
+`LocIsIlRel`
 Location is MSIL-relative.
 
-`LocInMetaData`  
+`LocInMetaData`
 Location is in metadata.
 
-`LocIsConstant`  
+`LocIsConstant`
 Location is in a constant value.
 
-`LocTypeMax`  
+`LocTypeMax`
 The number of location types in this enumeration.
 
 ## Remarks
@@ -81,7 +81,7 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_lo
 Header: cvconst.h
 
 ## See Also
-[Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)  
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)  
-[Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
+- [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
+- [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

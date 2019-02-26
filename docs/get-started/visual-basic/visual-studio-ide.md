@@ -100,6 +100,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
+   > [!TIP]
+   > Press **Ctrl**+**Q** as a shortcut to the **Quick Launch** search box.
+
    ::: moniker range="vs-2017"
 
    ![Quick Launch search box in Visual Studio 2017](../media/quick-launch-nuget.png)

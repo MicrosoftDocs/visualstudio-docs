@@ -2,12 +2,12 @@
 title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.date: "01/18/2018"
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "msbuild, common properties"
   - "msbuild, project file properties"
   - "ExcludeDeploymentUrl property"
@@ -16,16 +16,16 @@ ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Common MSBuild project properties
-The following table lists frequently used properties that are defined in the Visual Studio project files or included in *.targets* files that MSBuild provides.  
-  
- Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).  
-  
-## List of common properties and parameters  
-  
+The following table lists frequently used properties that are defined in the Visual Studio project files or included in *.targets* files that MSBuild provides.
+
+ Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
+
+## List of common properties and parameters
+
 | Property or parameter name | Description |
 |------------------------------------| - |
 | AdditionalLibPaths | Specifies additional folders in which compilers should look for reference assemblies. |
@@ -122,6 +122,6 @@ The following table lists frequently used properties that are defined in the Vis
 | WarningsNotAsErrors | Specifies a list of warnings that are not treated as errors. This parameter is equivalent to the `/warnaserror` compiler switch. |
 | Win32Manifest | The name of the manifest file that should be embedded in the final assembly. This parameter is equivalent to the `/win32Manifest` compiler switch. |
 | Win32Resource | The file name of the Win32 resource to be embedded in the final assembly. This parameter is equivalent to the `/win32resource` compiler switch. |
-  
-## See also  
- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+
+## See also
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

@@ -94,4 +94,4 @@ The following example shows how to use intrinsic item functions.
 ```
 
 ## See also
-[Items](../msbuild/msbuild-items.md)
+- [Items](../msbuild/msbuild-items.md)

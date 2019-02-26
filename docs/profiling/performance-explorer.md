@@ -2,15 +2,15 @@
 title: "Performance Explorer | Microsoft Docs"
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance"
   - "vs.performance.wizard.website"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Performance Explorer

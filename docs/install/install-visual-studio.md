@@ -2,7 +2,7 @@
 title: "Install Visual Studio"
 titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 05/07/2018
+ms.date: 02/11/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Install Visual Studio 2017
 
-Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation).

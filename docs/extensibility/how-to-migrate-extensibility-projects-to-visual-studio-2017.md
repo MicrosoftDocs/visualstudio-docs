@@ -6,7 +6,7 @@ ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017

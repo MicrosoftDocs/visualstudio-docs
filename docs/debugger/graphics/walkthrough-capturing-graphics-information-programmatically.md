@@ -109,6 +109,6 @@ This walkthrough demonstrated how to capture graphics information programmatical
 - Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
 ## See Also
-[Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)  
-[Capturing Graphics Information](capturing-graphics-information.md)  
-[Command-Line Capture Tool](command-line-capture-tool.md)
+- [Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)
+- [Capturing Graphics Information](capturing-graphics-information.md)
+- [Command-Line Capture Tool](command-line-capture-tool.md)

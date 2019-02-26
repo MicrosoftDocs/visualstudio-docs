@@ -12,10 +12,10 @@ helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
 ms.assetid: 55aea29b-1066-4e5a-aa99-fc87d4efb6d5
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Test Agent 2017 component directory
 

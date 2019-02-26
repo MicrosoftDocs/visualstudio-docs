@@ -45,7 +45,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) (MSDN Library)|
 |[Application Lifecycle Management (ALM) with Xamarin apps](../cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md) (MSDN Library)|
 |[Learn about universal Windows apps in Visual Studio](https://www.visualstudio.com/vs/universal-windows-platform/) (VisualStudio.com)|
-|[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|
+|[Learn about the similarities between Swift and C#](https://aka.ms/scposter) (download.microsoft.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
 ###  <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base

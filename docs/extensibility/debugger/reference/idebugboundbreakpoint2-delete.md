@@ -1,7 +1,7 @@
 ---
 title: "IDebugBoundBreakpoint2::Delete | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugBoundBreakpoint2::Delete"
 helpviewer_keywords:
@@ -60,5 +60,5 @@ HRESULT CBoundBreakpoint::Delete(void)
 ```
 
 ## See Also
-[IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)  
-[BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
+- [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
+- [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

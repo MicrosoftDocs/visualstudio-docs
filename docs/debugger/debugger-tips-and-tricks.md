@@ -12,7 +12,7 @@ ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio

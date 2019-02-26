@@ -7,7 +7,7 @@ ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
@@ -34,7 +34,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
-## Create the ASP.NET Core application on the Visual Studio 2017 computer 
+## Create the ASP.NET Core application on the Visual Studio 2017 computer
 
 1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**).
 
@@ -141,7 +141,7 @@ You can also publish and deploy the app using the file system or other tools.
 In this tutorial, we are using Visual Studio 2017.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-  
+
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
@@ -157,7 +157,7 @@ For information on running the remote debugger as a service, see [Run the remote
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P). 
+    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -175,7 +175,7 @@ For information on running the remote debugger as a service, see [Run the remote
 7. Click **Attach**.
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
-    
+
     You should see the ASP.NET web page.
 
 9. In the running ASP.NET application, click the link to the **About** page.
