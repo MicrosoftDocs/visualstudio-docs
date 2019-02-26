@@ -86,6 +86,8 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - *Add Null-Check*
   - *Add Parameter*
   - *Remove Unnecessary Usings*
+  - *Foreach Loop to LINQ Query or to LINQ method*
+  - *Pull Members Up Refactoring with Dialog Options*
   - See more in our [documentation](https://aka.ms/refactorings)
 - Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 - Several community members have written free extensions which add additional code inspections:
@@ -102,7 +104,7 @@ Visual Studio 2017 has many features to help you search and navigate your codeba
 
 | Feature | Shortcut | Details/Improvements |
 |- | - | -|
-| Find All References | **Shift**+**F12**| Results are colorized and can be grouped by project, definition, etc. You can also 'lock' results. |
+| Find All References | **Shift**+**F12**| Results are colorized and can be grouped by project, definition, and reference type such as read or write. You can also 'lock' results. |
 | Go To Implementation | **Ctrl**+**F12** | You can use Go To Definition on the `override` keyword to navigate to the overridden member |
 | Go To Definition | **F12** or **Ctrl**+**Click**| You can hold **Ctrl** while clicking to navgiate to definition |
 | Peek Definition | **Alt**+**F12** | Inline view of a definition |

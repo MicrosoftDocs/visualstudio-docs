@@ -2,10 +2,10 @@
 title: "Custom document properties overview"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom properties"
   - "custom document properties"
   - "document-level customizations [Office development in Visual Studio], custom properties"
@@ -15,7 +15,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Custom document properties overview

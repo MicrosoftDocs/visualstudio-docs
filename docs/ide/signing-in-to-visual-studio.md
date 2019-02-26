@@ -24,7 +24,7 @@ When you sign in, you enrich your Visual Studio experience. For example, after y
 
 Here's a full list of what you can expect and what you can do after you sign in:
 
-- **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.
+- **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) for more information.
 
 - **Synchronize your Visual Studio settings** - Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).
 

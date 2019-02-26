@@ -59,6 +59,6 @@ The following example uses the `GetFileHash` task to determine and print the che
 
 ## See also
 
-[Tasks](../msbuild/msbuild-tasks.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
 
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

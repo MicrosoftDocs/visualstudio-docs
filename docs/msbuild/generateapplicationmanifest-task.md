@@ -2,14 +2,14 @@
 title: "GenerateApplicationManifest Task | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, GenerateApplicationManifest task"
   - "HostInBrowser property (MSBuild)"
   - "GenerateApplicationManifest task [MSBuild]"
@@ -17,7 +17,7 @@ ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # GenerateApplicationManifest task
@@ -82,7 +82,7 @@ This illustrates the simplest possible manifest generation scenario where [!INCL
 
 > [!NOTE]
 > In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
-> 
+>
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
@@ -135,7 +135,7 @@ This example is similar to previous example except the name and identity of the 
 
 > [!NOTE]
 > In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
-> 
+>
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
@@ -193,7 +193,7 @@ This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManif
 
 > [!NOTE]
 > In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
-> 
+>
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
@@ -344,7 +344,7 @@ This example produces the *Test.exe.manifest*, making the application XCOPY depl
 ```
 
 ## See also
-[Tasks](../msbuild/msbuild-tasks.md)  
-[GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)  
-[SignFile task](../msbuild/signfile-task.md)  
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)
+- [SignFile task](../msbuild/signfile-task.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

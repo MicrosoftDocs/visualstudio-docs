@@ -7,7 +7,7 @@ ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "aspnet"
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
@@ -39,7 +39,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
-  
+
 1. Create a new MVC ASP.NET application. (**File > New > Project**, then select <strong>Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2</strong> templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
 
 2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
@@ -139,7 +139,7 @@ You can use this option to deploy your app if you want to copy the app to IIS us
 You can also publish and deploy the app using the file system or other tools.
 
 1. (ASP.NET 4.5.2) Make sure that the web.config file lists the correct version of the .NET Framework.  For example, if you are targeting ASP.NET 4.5.2, make sure this version is listed in web.config.
-  
+
     ```xml
     <system.web>
       <compilation debug="true" targetFramework="4.5.2" />
@@ -148,7 +148,7 @@ You can also publish and deploy the app using the file system or other tools.
         <add name="ApplicationInsightsWebTracking" type="Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule, Microsoft.AI.Web" />
       </httpModules>
     </system.web>
-  
+
     ```
 
     For example, the version should be 4.0 if you install ASP.NET 4 instead of 4.5.2.
@@ -160,7 +160,7 @@ You can also publish and deploy the app using the file system or other tools.
 In this tutorial, we are using Visual Studio 2017.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-  
+
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
@@ -176,7 +176,7 @@ For information on running the remote debugger as a service, see [Run the remote
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P). 
+    > In Visual Studio 2017, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.
@@ -192,7 +192,7 @@ For information on running the remote debugger as a service, see [Run the remote
 7. Click **Attach**
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
-    
+
     You should see the ASP.NET web page.
 9. In the running ASP.NET application, click the link to the **About** page.
 
@@ -203,7 +203,7 @@ For information on running the remote debugger as a service, see [Run the remote
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
 > [!NOTE]
-> On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic). 
+> On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic).
 
 Required ports:
 

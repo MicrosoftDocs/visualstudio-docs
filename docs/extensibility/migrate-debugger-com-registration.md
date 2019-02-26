@@ -6,7 +6,7 @@ ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a
 author: "gregg-miskelly"
 ms.author: "greggm"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "greggm"
 ---
 # Migrate 64-bit debugger COM class registration

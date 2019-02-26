@@ -48,20 +48,19 @@ For example, a fully charged battery in a tablet has a certain amount of stored 
 
  **Add marks to C#, Visual Basic, C++ code**
 
- To add a user mark to C#, Visual Basic, C++ code, first create a <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=fullName> object. Then insert calls to <xref:Windows.Foundation.Diagnostics.LoggingChannel.LogMessage%2A?displayProperty=nameWithType> methods at the points in your code that you want to mark. Use [LoggingLevel.Information](<xref:Windows.Foundation.Diagnostics.LoggingLevel>) in the calls.
+ To add a user mark to C#, Visual Basic, C++ code, first create a <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=fullName> object. Then insert calls to <xref:Windows.Foundation.Diagnostics.LoggingChannel.LogMessage%2A?displayProperty=nameWithType> methods at the points in your code that you want to mark. Use [LoggingLevel.Information](xref:Windows.Foundation.Diagnostics.LoggingLevel) in the calls.
 
  When the method executes, a user mark is added to the profiling data along with a message.
 
 > [!NOTE]
-
-> - <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=nameWithType> implements the [Windows.Foundation.IClosable](/uwp/api/windows.foundation.iclosable) interface (projected as <xref:System.IDisposable?displayProperty=nameWithType]> in C# and VB). To avoid leaking operating system resources, call <xref:Windows.Foundation.Diagnostics.LoggingChannel.Close%2A?displayProperty=nameWithType> (<xref:Windows.Foundation.Diagnostics.LoggingChannel.Dispose%2A?displayProperty=nameWithType> in C# and VB) when you're finished with a logging channel.
+> - <xref:Windows.Foundation.Diagnostics.LoggingChannel?displayProperty=nameWithType> implements the <xref:Windows.Foundation.IClosable?displayProperty=nameWithType> interface (projected as <xref:System.IDisposable?displayProperty=nameWithType> in C# and VB). To avoid leaking operating system resources, call <xref:Windows.Foundation.Diagnostics.LoggingChannel.Close%2A?displayProperty=nameWithType> (<xref:Windows.Foundation.Diagnostics.LoggingChannel.Dispose%2A?displayProperty=nameWithType> in C# and VB) when you're finished with a logging channel.
 > - Each open logging channel must have a unique name. If you attempt to create a new logging channel with the same name as an undisposed channel, an exception is thrown.
 
 For example code, see the Windows SDK Sample [LoggingSession sample](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336).
 
- **Add marks to JavaScript code**
+**Add marks to JavaScript code**
 
- To add user marks add the following code at the points in your code that you want to mark:
+To add user marks add the following code at the points in your code that you want to mark:
 
 ```JavaScript
 if (performance && performance.mark) {
@@ -69,7 +68,7 @@ if (performance && performance.mark) {
 }
 ```
 
- *markDescription* is a string that contains the message to display in the user mark tooltip.
+*markDescription* is a string that contains the message to display in the user mark tooltip.
 
 ## Configure your environment for profiling
  To obtain the good estimates, you'll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you'll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.

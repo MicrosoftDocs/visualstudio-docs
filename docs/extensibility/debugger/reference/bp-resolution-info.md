@@ -1,7 +1,7 @@
 ---
 title: "BP_RESOLUTION_INFO | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_RESOLUTION_INFO"
 helpviewer_keywords:
@@ -37,16 +37,16 @@ public struct BP_RESOLUTION_INFO {
 ```
 
 ## Members
-`dwFields`  
+`dwFields`
 A collection of flags from the [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md) enumerations that specifies which fields are filled out.
 
-`bpResLocation`  
+`bpResLocation`
 The [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md) structure that specifies the location of the breakpoint in code or data.
 
-`pProgram`  
+`pProgram`
 The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the application in which the breakpoint error occurred.
 
-`pThread`  
+`pThread`
 The [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread in which the application that contains the breakpoint error is running.
 
 ## Remarks
@@ -60,9 +60,9 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)  
-[BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)  
-[BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)  
-[IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)  
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)
+- [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)
+- [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

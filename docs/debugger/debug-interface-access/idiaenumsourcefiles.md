@@ -81,7 +81,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See Also
-[Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
-[IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
-[IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
-[IDiaTable](../../debugger/debug-interface-access/idiatable.md)
+- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
+- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
+- [IDiaTable](../../debugger/debug-interface-access/idiatable.md)

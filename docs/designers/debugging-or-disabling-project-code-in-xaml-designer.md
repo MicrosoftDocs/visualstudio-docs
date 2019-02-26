@@ -82,7 +82,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 ## Control display options
 
 > [!NOTE]
-> **Control Display Options** is only available for Universal Windows Platform applications that target the Windows 10 Fall Creators Update (build 16299) or later. The **Control Display Options** feature is available in Visual Studio 2017 version 15.9 or later. 
+> **Control Display Options** is only available for Universal Windows Platform applications that target the Windows 10 Fall Creators Update (build 16299) or later. The **Control Display Options** feature is available in Visual Studio 2017 version 15.9 or later.
 
 In the XAML designer, you can change your control display options to only display platform controls from the Windows SDK. This may improve reliability of the XAML designer.
 

@@ -2,14 +2,14 @@
 title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.cv.threads.tools.gallery"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Common patterns for poorly-behaved multithreaded applications

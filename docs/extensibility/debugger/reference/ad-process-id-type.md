@@ -1,7 +1,7 @@
 ---
 title: "AD_PROCESS_ID_TYPE | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "AD_PROCESS_ID_TYPE"
 helpviewer_keywords:
@@ -51,5 +51,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)  
-[AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
+- [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
+- [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
