@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Print command
 
-Evaluates an expression, or displays specified text.
+Evaluates an expression or displays specified text.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ Both versions of this command return the current value of the expression `expA`.
 ## Example
 
 ```cmd
->Debug.Print varA
+>Debug.Print DateTime.Now.Day
 ```
 
 ## See Also

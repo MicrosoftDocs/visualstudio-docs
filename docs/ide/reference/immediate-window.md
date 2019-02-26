@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Immediate window
 
-Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window enables you to enter expressions to be evaluated or executed by the development language during debugging.
+Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 
 To display the **Immediate** window, open a project for editing, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter **Debug.Immediate** in the **Command** window.
 
@@ -42,7 +42,7 @@ The question mark (?) is an alias for `Debug.Print`, so this command can also be
 Both versions of this command return the value of the variable `varA`.
 
 > [!TIP]
-> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the **Command** window.
+> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the [Command window](command-window.md).
 
 ## Design-time expression evaluation
 
@@ -95,13 +95,20 @@ Enter the greater than sign (>) when issuing Visual Studio commands in the **Imm
 
 When you click on any previous line in the **Immediate** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
 
-## The equals sign (=)
+## Examples
 
-The equals sign (=) can be interpreted as an assignment operator or as a comparison operator, depending on the programming language of the currently selected project.
+The following example shows four expressions and their result in the **Immediate** window for a Visual Basic project.
 
-For example, for a Visual Basic project, the **Immediate** window interprets an equals sign (=) as a comparison operator. So, for example, the command `? 1=2` returns a value of `False`.
-
-For a C# project, the **Immediate** window interprets an equals sign (=) as an assignment operator. The command `? 1=2` returns **error CS0131: The left-hand side of an assignment must be a variable, property or indexer**.
+```cmd
+j = 2
+Expression has been evaluated and has no value
+? j
+2
+j = DateTime.Now.Day
+Expression has been evaluated and has no value
+? j
+26
+```
 
 ## First-chance exception notifications
 
