@@ -38,9 +38,9 @@ After completion, the **Add Connected Services** dialog automatically displays d
 
 1. In the **Azure Storage** dialog, select an existing storage account, and select **Add**.
 
-	If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
+    If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
 
-	![Add existing storage account to project](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
+    ![Add existing storage account to project](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
 
 1. To create a storage account:
 

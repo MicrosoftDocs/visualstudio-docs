@@ -155,14 +155,14 @@ You can use the command line option to temporarily disable all code analysis for
 
 Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
 
-1.	In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
-2.	Start Visual Studio from the command shell to inherit these variables.
-3.	Load your project and open its properties.
-4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
-5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
-6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
-7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
-8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
+1. In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
+2. Start Visual Studio from the command shell to inherit these variables.
+3. Load your project and open its properties.
+4. Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
+5. Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
+6. Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
+7. Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
+8. Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
 
 ## How to use the C++ Core Guidelines Checker outside of Visual Studio
 You can use the C++ Core Guidelines checks in automated builds.

@@ -79,9 +79,9 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     extern "C"
     {
-    	__declspec(dllexport) int __stdcall mixed_mode_multiply(int a, int b) {
-    		return a * b;
-    	}
+      __declspec(dllexport) int __stdcall mixed_mode_multiply(int a, int b) {
+        return a * b;
+      }
     }
     #endif
     ```
