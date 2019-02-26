@@ -6,14 +6,12 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the CloudPilot benefit available in selected Visual Studio subscriptions
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
 # The CloudPilot benefit in Visual Studio subscriptions
 
-Move your apps to Microsoft Azure in a few easy steps. In minutes, identify all required code changes down to the line of code for successful migration to: Containers, VMs, App Services, SQL Azure, and/or SQL MI. Then, migrate apps to Azure using wizards leveraging ASR, DMA, and DMS. 
+Move your apps to Microsoft Azure in a few easy steps. In minutes, identify all required code changes down to the line of code for successful migration to: Containers, VMs, App Services, SQL Azure, and/or SQL MI. Then, migrate apps to Azure using wizards leveraging ASR, DMA, and DMS.
 
 CloudPilot, by UnifyCloud, is designed to help developers quickly and easily move applications to Azure.  In a fraction of time a manual assessment would take, CloudPilot accurately determines Azure PaaS & IaaS migration costs and provides detailed recommendations, down to the line of code, on what code changes need to be made for the application to run in the Cloud. CloudPilot assists in the initial assessment of the Cloud migration effort and in development planning, in the re-factoring process by offering detailed code-level changes for the Cloud, and in the final testing against enterprise technology controls and policies.
 
@@ -25,10 +23,10 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 
    > [!div class="mx-imgBorder"]
    > ![CloudPilot Benefit Tile](_img/vs-cloudpilot/vs-cloudpilot-tile-ent.png)
-   
+
 0. You will see a message letting you know your code has been retrieved successfully.  Click **Activate**, at which point you'll be redirected to the CloudPilot page where you can continue the activation process.  (If you do not choose to activate now, you can always come back to the CloudPilot tile in the subscription portal.  The "Get Code" link will change to "Activate", and clicking it will take you to the next step in the activation process.)
 
-0. Check out the benefits of CloudPilot for your development efforts.  When you're ready, click the **Activate** button. 
+0. Check out the benefits of CloudPilot for your development efforts.  When you're ready, click the **Activate** button.
 
    > [!div class="mx-imgBorder"]
    > ![CloudPilot Landing Page](_img/vs-cloudpilot/vs-cloudpilot-landing.png)
@@ -41,14 +39,14 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
    > [!NOTE]
    > Activations of the CloudPilot benefit are limited to ten per organization, redeemed from any combination of Visual Studio Enterprise or Visual Studio Professional subscriptions.  If your organization's ten activations have already been consumed, you will be unable to activate the CloudPilot benefit and you'll receive an email from UnifyCloud with further information.
 
- 0. Next, you'll see a product page designed to familiarize you with CloudPilot.  Click the **Navigate to CloudPilot** in the upper right corner to go to the CloudPilot portal.  
+ 0. Next, you'll see a product page designed to familiarize you with CloudPilot.  Click the **Navigate to CloudPilot** in the upper right corner to go to the CloudPilot portal.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Product Page](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0.  That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure. 
+0.  That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure.
 
-0.  As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account. 
+0.  As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Confirmation Email](_img/vs-cloudpilot/vs-cloudpilot-email.png)
@@ -79,7 +77,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 -  Need help with using CloudPilot?  Check out these resources:
-    - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products. 
+    - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products.
     - [CloudPilot User Manual](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
     - [Submit a support request](https://support.datacamp.com/hc/requests/new)
 

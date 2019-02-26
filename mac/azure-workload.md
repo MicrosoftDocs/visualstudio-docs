@@ -12,5 +12,5 @@ ms.date: 05/06/2018
 Visual Studio for Mac allows you to connect to Azure in a variety of ways:
 
 - [Azure Functions](azure-functions.md)
-- [Publishing to Azure](https://blog.xamarin.com/publish-azure-visual-studio-mac/)
+- [Publishing to Azure](publish-app-svc.md)
 - [Mobile App Services](connected-services.md)
