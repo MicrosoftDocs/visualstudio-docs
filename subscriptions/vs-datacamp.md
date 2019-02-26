@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -28,7 +26,7 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
    > [!div class="mx-imgBorder"]
    > ![DataCamp Create New Account](_img/vs-datacamp/vs-datacamp-create-account.png)
-   > 
+   >
    > [!NOTE]
    > When you begin creating your account, you may receive the following error message: "OOPS!  Your promo code is invalid or expired."  This happens because when your promo code is created, it expires after a few minutes.  If you receive this message, simply return to the [Benefits](https://my.visualstudio.com/benefits) page and click on the **Activate** link on the DataCamp benefit tile.
 
@@ -57,7 +55,7 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
 
 You can stop at any point, and resume your training in your next session.  Just visit [http://www.datacamp.com](http://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
 
-> [!div class="mx-imgBorder"]   
+> [!div class="mx-imgBorder"]
 > ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png)
 
 ## Eligibility

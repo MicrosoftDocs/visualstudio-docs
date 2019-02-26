@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 

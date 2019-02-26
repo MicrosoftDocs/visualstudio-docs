@@ -8,7 +8,6 @@ manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.devlang: multiple
-ms.service: multiple
 ms.workload:
   - "multiple"
 ---

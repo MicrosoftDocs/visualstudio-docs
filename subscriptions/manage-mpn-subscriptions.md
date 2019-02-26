@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/11/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 

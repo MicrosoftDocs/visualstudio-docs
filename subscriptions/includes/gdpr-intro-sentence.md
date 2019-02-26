@@ -1,7 +1,6 @@
 ---
 title: include file
 ms.date: 04/24/2018
-ms.prod: vs-subscription
 ms.topic: include
 author: eross-msft
 ms.author: lizross
