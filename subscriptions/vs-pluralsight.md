@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/25/2019
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -24,29 +22,29 @@ The table below details what Pluralsight subscription benefits are available to 
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the Pluralsight benefit tile, located in the Professional Development section.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-3month-tile.png)
-   > 
+   >
    > [!IMPORTANT]
    > When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message:
-   > 
+   >
    > **"Please note:   If you have previously activated a different Pluralsight offer through your Visual Studio subscription, this code may not enable you to create a new Pluralsight account."**
 
 2. You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Activate](_img/vs-pluralsight/vs-pluralsight-activate.png)
 
-3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.  
+3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use and privacy policy
    - Click **I agree, activate benefit**.
      > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
+     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)
      > [!div class="mx-imgBorder"]
      > ![Pluralsight Benefit Terms](_img/vs-pluralsight/vs-pluralsight-terms.png)
 
 5. It may take a moment to set up your account.  Once that's complete, you'll see a confirmation on the page, and will receive an email with your login information.  The email will be sent to the alias you specified when you created the account.  Be sure to check your junk or spam mail folders if you have trouble finding the message.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Confirmation](_img/vs-pluralsight/vs-pluralsight-confirmation-vse.png)
-   > 
+   >
    > [!NOTE]
    > If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account.
 
@@ -108,4 +106,4 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 -  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](http://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress. 
+Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](http://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.

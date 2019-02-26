@@ -1,13 +1,8 @@
 ---
-title: "JavaScript in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: JavaScript
 ms.date: "01/15/2019"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - vs-nodejs
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-nodejs
+ms.topic: conceptual
 dev_langs:
   - "JavaScript"
   - "TypeScript"

@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the Office 365 benefit included in some Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -18,9 +16,9 @@ Create your best work. Work anywhere with apps that are always updated. Office 3
 ## Getting started with Office 365 Pro Plus
 
 Follow these steps to download and activate Office 365 Pro Plus:
-1. Sign in to your Visual Studio Enterprise subscription.  
+1. Sign in to your Visual Studio Enterprise subscription.
 2. Click on **Downloads** tab.
-3. You'll see a list of featured downloads. In the Office list, choose **Office 365**. 
+3. You'll see a list of featured downloads. In the Office list, choose **Office 365**.
    > [!div class="mx-imgBorder"]
    > ![Office 365 Downloads](_img/vs-office365/vs-office365-downloads.png)
 0. To install Office 365, you'll need a product key.  Click on the **Get key** link under the Office 365 listing.
@@ -31,7 +29,7 @@ Follow these steps to download and activate Office 365 Pro Plus:
    > ![Office 365 Claim Product Key](_img/vs-office365/vs-office365-claim-key.png)
 0. Record the key you just claimed. (You can always return to this list to see it again.)
 0. Close the fly-out window.
-0. Click the **Download** button. 
+0. Click the **Download** button.
    > [!div class="mx-imgBorder"]
    > ![Office 365 Start Download](_img/vs-office365/vs-office365-download-button.png)
 0. Sign in with your Microsoft account. (If you're already signed in, click **Next**.)
@@ -39,7 +37,7 @@ Follow these steps to download and activate Office 365 Pro Plus:
    > [!div class="mx-imgBorder"]
    > ![Office 365 Enter Product Key](_img/vs-office365/vs-office365-enter-key.png)
 0. Click **Next** again.
-0. Click **Install** to install the Office applications. 
+0. Click **Install** to install the Office applications.
 
 ## Next steps
 

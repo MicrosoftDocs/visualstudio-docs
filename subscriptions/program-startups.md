@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/20/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Details on what subscriptions are offered through the Microsoft for Startups program.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 

@@ -32,7 +32,7 @@ The environment provides automation on a tool window by returning a standard <xr
 
 A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the <xref:EnvDTE.Document> object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.
 
-In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](http://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.
+In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.
 
 ## See also
 

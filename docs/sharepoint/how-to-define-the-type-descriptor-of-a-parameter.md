@@ -89,7 +89,7 @@ ms.workload:
 
       The following example sets the value of the **TypeName** property to a collection of classes in your project.
 
-      `System.Collections.Generic.IEnumerable`1 [MyBDCNamespace.` `BdcModel1.Contact, BdcModel1]`
+      `System.Collections.Generic.IEnumerable`1 [MyBDCNamespace.BdcModel1.Contact, BdcModel1]`
 
    - For a type located in an assembly in your solution, the fully qualified name includes the name of the type, the name of the assembly, the version number, the culture, and the public key token.
 
