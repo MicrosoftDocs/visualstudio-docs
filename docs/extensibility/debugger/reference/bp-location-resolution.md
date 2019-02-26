@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_RESOLUTION | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_LOCATION_RESOLUTION"
 helpviewer_keywords:
@@ -25,7 +25,7 @@ typedef struct _BP_LOCATION_RESOLUTION {
 ```
 
 ## Members
-pResolution  
+pResolution
 The [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) object that determines the type of the breakpoint and its resolution information.
 
 ## Remarks
@@ -39,6 +39,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)  
-[IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)

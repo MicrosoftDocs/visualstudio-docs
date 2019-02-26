@@ -48,7 +48,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
-1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import `. A list of modules appears when you type the space:
+1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import`. A list of modules appears when you type the space:
 
     ![IntellSense showing available modules for an import statement](media/vs-getting-started-python-08-import1.png)
 

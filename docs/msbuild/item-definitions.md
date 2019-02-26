@@ -246,4 +246,4 @@ Beginning in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecms
 ```
 
 ## See also
-[Batching](../msbuild/msbuild-batching.md)
+- [Batching](../msbuild/msbuild-batching.md)

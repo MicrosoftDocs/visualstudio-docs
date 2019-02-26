@@ -6,7 +6,7 @@ ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: "willbrown"
 ms.author: gregvanl
 manager: "justinclareburt"
-ms.workload: 
+ms.workload:
   - "willbrown"
 ---
 # How to: Make extensions compatible with Visual Studio 2017 and Visual Studio 2015

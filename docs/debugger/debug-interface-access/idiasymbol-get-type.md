@@ -25,7 +25,8 @@ HRESULT get_type (
 ```
 
 #### Parameters
-`pRetVal`  
+`pRetVal`
+
 [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that represents the type of this symbol.
 
 ## Return Value
@@ -51,6 +52,6 @@ if (SUCCEEDED(pType->get_type( &pBaseType ))) {
 ```
 
 ## See Also
-[IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
-[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)  
-[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)
+- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

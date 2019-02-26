@@ -801,8 +801,8 @@ The sections in the following table include commands that are global in that you
 | Edit.HideSelection | **Ctrl+M, Ctrl+H** |
 | Edit.IncreaseFilterLevel | **Alt+.** |
 | Edit.IncrementalSearch | **Ctrl+I** |
-| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** | 
-| Edit.InsertNextMatchingCaret | **Shift+Alt+.** | 
+| Edit.InsertCaretsatAllMatching | **Shift+Alt+;** |
+| Edit.InsertNextMatchingCaret | **Shift+Alt+.** |
 | Edit.InsertTab | **Tab** |
 | Edit.LineCut | **Ctrl+L** |
 | Edit.LineDelete | **Ctrl+Shift+L** |

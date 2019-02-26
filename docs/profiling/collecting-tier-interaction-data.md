@@ -2,9 +2,9 @@
 title: "Collecting tier interaction data | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.tierinteraction"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,ADO.NET profiling"
   - "tier interaction profiling method"
   - "Profiling Tools,tier-interaction method"
@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Collect tier interaction data

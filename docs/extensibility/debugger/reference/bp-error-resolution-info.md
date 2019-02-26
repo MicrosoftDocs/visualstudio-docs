@@ -1,7 +1,7 @@
 ---
 title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_ERROR_RESOLUTION_INFO"
 helpviewer_keywords:
@@ -41,22 +41,22 @@ public struct BP_ERROR_RESOLUTION_INFO {
 ```
 
 ## Members
-`dwFields`  
+`dwFields`
 A combination of values from the [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md) enumeration specifying which fields of this structure are filled out.
 
-`bpResLocation`  
+`bpResLocation`
 The [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md) union, which specifies the breakpoint resolution location.
 
-`pProgram`  
+`pProgram`
 The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the application in which the breakpoint error occurred.
 
-`pThread`  
+`pThread`
 The [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread on which the application that generated the breakpoint error is running.
 
-`bstrMessage`  
+`bstrMessage`
 A string containing any warning or error message resulting from this error resolution.
 
-`dwType`  
+`dwType`
 A value from the [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) enumeration that specifies the breakpoint error type.
 
 ## Remarks
@@ -70,10 +70,10 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)  
-[BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)  
-[BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)  
-[IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)  
-[IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)  
-[BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)
+- [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)
+- [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
+- [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md)

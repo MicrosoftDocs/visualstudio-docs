@@ -143,4 +143,4 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
  You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
 ## See Also
- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

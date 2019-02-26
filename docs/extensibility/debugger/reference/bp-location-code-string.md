@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_CODE_STRING | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "BP_LOCATION_CODE_STRING"
 helpviewer_keywords:
@@ -26,10 +26,10 @@ typedef struct _BP_LOCATION_CODE_STRING {
 ```
 
 ## Members
-`bstrContext`  
+`bstrContext`
 The context of the breakpoint within the code, typically a method or function name as seen on a call stack.
 
-`bstrCodeExpr`  
+`bstrCodeExpr`
 The string that the user types in to describe the code breakpoint.
 
 ## Remarks
@@ -43,5 +43,5 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See Also
-[Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)  
-[BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
+- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
+- [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDebugBinder3::GetMemoryContext64 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "GetMemoryContext64"
   - "IDebugBinder3::GetMemoryContext64"
@@ -34,14 +34,17 @@ int GetMemoryContext64 (
 ```
 
 #### Parameters
-`pField`  
-[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that describes the object to locate. If `NULL`, then use `dwConstant` instead.
+`pField`
 
-`uConstant`  
-[in] A 64-bit memory address, such as 0x50000000.
+ [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that describes the object to locate. If `NULL`, then use `dwConstant` instead.
 
-`ppMemCxt`  
-[out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
+`uConstant`
+
+ [in] A 64-bit memory address, such as 0x50000000.
+
+`ppMemCxt`
+
+ [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -121,4 +124,4 @@ HRESULT CValueProperty::GetMemoryContext ( IDebugMemoryContext2** out_ppMemoryCo
 ```
 
 ## See Also
-[IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
+- [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

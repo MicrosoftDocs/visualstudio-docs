@@ -2,10 +2,10 @@
 title: "Walkthrough: Creating an External List in SharePoint by Using Business Data | Microsoft Docs"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], business data in a Web Part"
   - "BDC [SharePoint development in Visual Studio], external list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], business data in a SharePoint list"
@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create an external list in SharePoint by using business data
@@ -270,7 +270,7 @@ You can learn more about how to design models for the BDC service in SharePoint 
 
 ## See also
 
-[Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-[Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)  
-[BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)  
+[Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+[Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+[BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
 [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

@@ -1,14 +1,9 @@
 ---
 title: "Expected '-' | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1012"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: a31d161a-4a51-43a9-9d65-d8b765ce3c19
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

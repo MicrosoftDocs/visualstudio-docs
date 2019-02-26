@@ -15,7 +15,6 @@ helpviewer_keywords:
   - "menus, customizing"
   - "Windows menu customizing"
   - "status bars, displaying"
-  - "Visual Studio Start page, setting"
   - "IDE, startup options"
   - "editors, autocompletion"
   - "Options dialog box, General Environment"

@@ -1,14 +1,9 @@
 ---
 title: "Invalid range in character set (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5021"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 971e9d5a-f88a-47a8-af94-f3c7c4aed5ab
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

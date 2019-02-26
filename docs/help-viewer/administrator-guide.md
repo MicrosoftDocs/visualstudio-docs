@@ -116,7 +116,7 @@ Next, you need to package the content so it can be deployed to client computers.
 
 4.  Type the following:
 
-     `Xcopy %ProgramData%\Microsoft\HelpLibrary2 \<*foldername*>\ /y /e /k /o `
+     `Xcopy %ProgramData%\Microsoft\HelpLibrary2 \<*foldername*>\ /y /e /k /o`
 
      For example: `Xcopy %ProgramData%\Microsoft\HelpLibrary2 c:\VSHelp\ /y /e /k /o`
 
