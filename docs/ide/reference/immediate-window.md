@@ -102,10 +102,13 @@ The following example shows four expressions and their result in the **Immediate
 ```cmd
 j = 2
 Expression has been evaluated and has no value
+
 ? j
 2
+
 j = DateTime.Now.Day
 Expression has been evaluated and has no value
+
 ? j
 26
 ```
