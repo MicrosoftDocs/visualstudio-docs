@@ -12,7 +12,7 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Quickstart: Use Visual Studio to create your first ASP.NET Core web service in F#
+# Quickstart: Use Visual Studio to create your first ASP.NET Core web service in F\#
 
 In this 5-10 minute introduction to F# in Visual Studio , you'll create an F# ASP.NET Core web application.
 
