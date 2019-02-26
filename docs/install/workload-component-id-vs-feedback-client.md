@@ -15,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7392a100-100c-458c-9394-828695109015
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Feedback Client 2017 component directory
 

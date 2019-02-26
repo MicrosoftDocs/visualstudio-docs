@@ -15,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: a3c0cc76-e3ce-435c-a1af-a6318b5a4dbe
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio 2017 Desktop Express component directory
 
