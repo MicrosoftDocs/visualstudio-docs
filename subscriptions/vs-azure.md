@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
@@ -22,7 +20,7 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 |--------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
 |              Visual Studio Enterprise Standard               |     $150 monthly credit     |                             Yes                             ||
 |               Visual Studio Enterprise monthly               |        Not available        |                                                             |
-|             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes                            
+|             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |

@@ -13,7 +13,6 @@ helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
 ms.assetid: 5719032b-2c2e-416e-a281-a4573ec74e38
 ms.workload:
   - "multiple"

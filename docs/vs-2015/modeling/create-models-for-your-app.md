@@ -3,7 +3,6 @@ title: "Create models for your app | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling
-ms.technology: "vs-devops-techdebt"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"

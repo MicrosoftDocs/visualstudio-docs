@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the Skill Me Up - Powered by Opsgility training benefit included with selected Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscriptions
 ---
 
@@ -27,7 +25,7 @@ Selected Visual Studio subscriptions include up to six months of access to exper
    > [!div class="mx-imgBorder"]
    > ![Opsgility Benefit Landing Page](_img/vs-opsgility/vs-vse-landing-page.png)
 
-4. That’s all there is to it!  You’re ready to start learning!  
+4. That’s all there is to it!  You’re ready to start learning!
 
 
 ## Eligibility

@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -42,9 +40,9 @@ Our research shows that most subscribers are covered by the number of product ke
 
 ## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
-> [!div class="mx-imgBorder"]   
+> [!div class="mx-imgBorder"]
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
-    
+
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
 
