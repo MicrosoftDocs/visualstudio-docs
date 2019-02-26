@@ -40,9 +40,9 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 ```  
 {  
-	    int my_var1 = 0x0065;  
-	    int my_var2 = 0x0066;  
-    	int my_var3 = 0x0067;  
+    int my_var1 = 0x0065;  
+    int my_var2 = 0x0066;  
+    int my_var3 = 0x0067;  
 }  
 ```  
   
