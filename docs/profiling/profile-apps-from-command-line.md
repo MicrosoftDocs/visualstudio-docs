@@ -1,6 +1,6 @@
 ---
-title: "Measure CPU usage from the command-line"
-description: "Measure CPU performance in your application from the command-line."
+title: "Measure CPU usage from the command line"
+description: "Measure CPU performance in your application from the command line."
 ms.custom: ""
 ms.date: "02/19/2019"
 ms.topic: "conceptual"
@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Measure application performance from the command-line
+# Measure application performance from the command line
 
 You can collect performance information about an application by using command-line tools.
 
@@ -34,7 +34,7 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Start Notepad, and then open Task Manager to get its process ID (PID). In Task Manager, find the PID in the **Details** tab.
 
-1. Open a command prompt and find the collection agent executable, typically here.
+1. Open a command prompt and change to the directory with the collection agent executable, typically here.
 
    ```<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\```
 
@@ -50,7 +50,7 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    * \<*pid*>, PID of the process you wish to profile, in this case the PID you found in step 1
    * \<*configFile*>, configuration file for the collection agent you wish to launch. For more information, see [Configuration files for agents](#config_file).
 
-1. Resize Notepad, or type something in it in order to make sure that some interesting profilng information is collected.
+1. Resize Notepad, or type something in it in order to make sure that some interesting profiling information is collected.
 
 1. Stop the collection session and send output to a file by typing the following command.
 
