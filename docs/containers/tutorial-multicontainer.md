@@ -29,7 +29,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web Application project
 
-In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. 
+In Visual Studio, create an **ASP.NET Core Web Application** project, named `WebFrontEnd`. Select **Web Application** to create a web application with Razor pages. 
   
 ::: moniker range="vs-2017"
 
@@ -51,7 +51,7 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ## Create a Web API project
 
-Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only *webfrontend* needs HTTPS.
+Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS.
 
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
@@ -62,7 +62,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 ## Add code to call the Web API
 
-1. In the *WebFrontEnd* project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
+1. In the `WebFrontEnd` project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
    ```csharp
     public async Task OnGet()
@@ -107,7 +107,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-1. In the WebFrontEnd project, choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
+1. In the `WebFrontEnd` project, choose **Add > Container Orchestrator Support**. The **Docker Support Options** dialog appears.
 
 1. Choose **Docker Compose**.
 
@@ -170,25 +170,25 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    ![Screenshot of running web app](media/tutorial-multicontainer/webfrontend.png)
 
-## Deploy to App Service
+## Deploy to Azure App Service
 
-You can now deploy to Azure.  Using App Services is the easiest way to deploy a multicontainer service. You can also use [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
+You can now deploy to Azure.  Using App Service is the easiest way to deploy a multicontainer service. You can also use [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
 
 To deploy to App Service, you'll publish each web project separately. First, publish the Web API project.  Right-click on the Web API project node and choose Publish.  On the **Publish** screen, choose **App Service Linux**, and **Create new App Service for Containers**.
 
-![Screenshot of Publish dialog box](./media/multicontainer-publish-app-service-linux.png)
+![Screenshot of Publish dialog box](./media/tutorial-multicontainer/multicontainer-publish-app-service-linux.png)
 
 On the next screen, verify or change your Azure subscription information, and choose **Create**. The project is deployed to Azure.
 
-![Screenshot of Publish dialog box screen 2](./media/multicontainer-publish-app-service-webapi.png)
+![Screenshot of Publish dialog box screen 2](./media/tutorial-multicontainer/multicontainer-publish-app-service-webapi.png)
 
 The **Publish** screen in Visual Studio shows the URL of the published service.
 
-![Screenshot of Publish screen in VS](./media/multicontainer-publish-screen.png)
+![Screenshot of Publish screen in VS](./media/tutorial-multicontainer/multicontainer-publish-screen.png)
 
-Then, update the `OnGet` method in *Index.cshtml.cs* in the WebFrontEnd project to use the URL from the published Web API project, which you can copy from the screen shown previously.  You can use HTTP rather than HTTPS if you set the Web API project to not use HTTPS, as recommended in a previous step. The following code shows an example.
+Then, update the `OnGet` method in *Index.cshtml.cs* in the `WebFrontEnd` project to use the URL from the published Web API project, which you can copy from the screen shown previously.  You can use HTTP rather than HTTPS if you set the Web API project to not use HTTPS, as recommended in a previous step. The following code shows an example.
 
 ```csharp
         public async Task OnGet()
@@ -206,17 +206,17 @@ Then, update the `OnGet` method in *Index.cshtml.cs* in the WebFrontEnd project 
         }
 ```
 
-Then, build and publish the WebFrontEnd project, using the same steps you used for the Web API project.
+Then, build and publish the `WebFrontEnd` project, using the same steps you used for the Web API project.
 
 You can verify that the app is working by navigating to the URL shown in the **Publish** page.
 
-![Screenshot of the URL in the Publish screen](./media/multicontainer-publish-app-service-linux-completed.png)
+![Screenshot of the URL in the Publish screen](./media/tutorial-multicontainer/multicontainer-publish-app-service-linux-completed.png)
 
-![Screenshot of app running in Azure](./media/webfrontend-azure.png)
+![Screenshot of app running in Azure](./media/tutorial-multicontainer/webfrontend-azure.png)
 
 ## Next steps
 
-Explore Azure App Services further by trying a tutorial in the [App Services](/azure/app-service/) documentation.
+Explore Azure App Service further by trying a tutorial in the [App Service](/azure/app-service/) documentation.
 
 ## See also
   
