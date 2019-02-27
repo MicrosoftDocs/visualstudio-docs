@@ -165,9 +165,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
-## Visual Studio 2019 Preview
+## Visual Studio 2019
 
-The following table lists the build numbers and release dates for Visual Studio 2019 Preview, to date.
+The following table lists the build numbers and release dates for Visual Studio 2019, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
