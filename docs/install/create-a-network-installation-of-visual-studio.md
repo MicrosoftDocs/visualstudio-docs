@@ -1,7 +1,7 @@
 ---
 title: "Create a network-based installation"
 description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
-ms.date: 02/12/2019
+ms.date: 02/27/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -204,6 +204,7 @@ We have other support options available, too. For a list, see our [Talk to us](.
 ## See also
 
 * [Update a network-based installation of Visual Studio 2017](update-a-network-installation-of-visual-studio.md)
+* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
