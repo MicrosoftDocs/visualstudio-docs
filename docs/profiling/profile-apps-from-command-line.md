@@ -26,7 +26,7 @@ In the example described in this article, you collect performance information fo
 
 * Visual Studio 2019 Preview 3 or later versions
 
-* Intermediate knowledge of command-line tools
+* Familiarity with command-line tools
 
 ## Collect performance data
 
@@ -36,36 +36,40 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Open a command prompt and find the collection agent executable, typically here.
 
-   ```*<Visual Studio installation folder>*\2019\Preview\Team Tools\DiagnosticsHub\Collector\```
+   ```<*Visual Studio installation folder*>\2019\Preview\Team Tools\DiagnosticsHub\Collector\```
 
 1. Start *VSDiagnostics.exe* by typing the following command.
 
-   ```VSDiagnostics.exe start \<id> /attach:\<pid> /loadConfig:\<configFile>```
+   ```VSDiagnostics.exe start <*id*> /attach:<*pid*> /loadConfig:<*configFile*>```
 
    The arguments that must be included are:
 
-   * \<id> Identifies the collection session. The ID must be a number between 1-255.
-   * \<pid>, PID of the process you wish to profile, in this case the PID you found in step 1
-   * \<configFile>, configuration file for the collection agent you wish to launch. For more information, see [Configuration files for agents](#config_file).
+   * \<*id*> Identifies the collection session. The ID must be a number between 1-255.
+   * \<*pid*>, PID of the process you wish to profile, in this case the PID you found in step 1
+   * \<*configFile*>, configuration file for the collection agent you wish to launch. For more information, see [Configuration files for agents](#config_file).
 
 1. Resize Notepad, or type something in it in order to make sure that some interesting profilng information is collected.
 
 1. Stop the collection session and send output to a file by typing the following command.
 
-   ```VSDiagnostics.exe stop \<id> /output:\<path to file>```
+   ```VSDiagnostics.exe stop <id> /output:<path to file>```
 
 1. Go to the file output from the previous command, and open it in Visual Studio to examine the information collected.
 
-## <a name="config_file"></a> Configuration files for agents
+## <a name="config_file"></a> Agent configuration files
 
-Collection Agents are interchangeable components that collect different types of data depending on what one is trying to measure i.e. the CPU Agent for CPU Usage and the Object Allocation Agent for Object Allocations.
+Collection Agents are interchangeable components that collect different types of data depending on what you are trying to measure. For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well.
 
-In order for the VSDiagnostics.exe tool to work with a collection agent, it requires both a .dll and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well.
-For convenience, you have the option to store that information in an agent configuration file. Which is a .json file that contains at minimum the name of the .dll and its COM CLSID. An example of this is the configuration file found at AgentConfigs\CpuUsageHigh.json
+For convenience, you can store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. Here are the example configuration files that you can find in the *\<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\AgentConfigs\* folder.
+
+* CpuUsage configurations (Base/High/Low), which corresponds to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
+* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the .NET Object Allocation tool.
+
+Base/Low/High configurations refer to the sampling rates. For example, Low is 100 samples/second and High is 4000 samples/second.
 
 ## Permissions
 
-If you're planning to profile an application with elevated permissions, you must do so from an elevated command prompt.
+To profile an application that requires elevated permissions, you must do so from an elevated command prompt.
 
 ## See also
 
