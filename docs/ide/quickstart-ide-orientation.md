@@ -8,14 +8,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-experimental: true
-experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker range="vs-2017"
 
 ## Start Page
 
@@ -26,6 +26,24 @@ The first thing you'll see after you launch Visual Studio is most likely the **S
 If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
 
 ![File menu in Visual Studio](media/quickstart-IDE-file-menu-large.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+## Start window
+
+The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+
+![Start window in Visual Studio 2019](media/vs-2019/start-window-labeled.png)
+
+If this is the first time you're using Visual Studio, your recent projects list will be empty.
+
+If you work with non-MSBuild based codebases, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+
+The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
+
+::: moniker-end
 
 ## Create a project
 
