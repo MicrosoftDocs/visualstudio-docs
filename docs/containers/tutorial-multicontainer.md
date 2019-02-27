@@ -29,7 +29,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web Application project
 
-In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Be sure that **Enable Docker Support** is selected, and that the container OS matches the OS selected in Docker Desktop.
+In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Do not select **Enable Docker Support**. You'll add Docker support later.
   
 ::: moniker range="vs-2017"
    ![Screenshot of creating the web project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
@@ -61,13 +61,13 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        ViewData["Message"] = "Hello from webfrontend";
 
        using (var client = new System.Net.Http.HttpClient())
-             {
-                 // Call *mywebapi*, and display its response in the page
-                 var request = new System.Net.Http.HttpRequestMessage();
-                 request.RequestUri = new Uri("http://mywebapi/api/values/1");
-                 var response = await client.SendAsync(request);
-                 ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
-             }
+       {
+          // Call *mywebapi*, and display its response in the page
+          var request = new System.Net.Http.HttpRequestMessage();
+          request.RequestUri = new Uri("http://mywebapi/api/values/1");
+          var response = await client.SendAsync(request);
+          ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
+       }
     }
    ```
 
@@ -98,7 +98,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-1. Choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
+1. In the WebFrontEnd project, choose **Add > Container Orchestrator Support**. The Docker Support Options dialog appears.
 
 1. Choose **Docker Compose**.
 
@@ -127,9 +127,12 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    Look at the **Container Tools** section of the output pane for details of the commands being run.  You can see the command-line tool docker-compose is used to configure and create the runtime containers.
 
-1. In the Web API project, again right-click on the project node, and choose **Add** > **Container Orchestrator Support**. Choose **Docker Compose**, and then select the same target OS.  When prompted whether you want to overwrite the existing Dockerfile, choose yes.
+1. In the Web API project, again right-click on the project node, and choose **Add** > **Container Orchestrator Support**. Choose **Docker Compose**, and then select the same target OS.  
 
-    Visual Studio makes some changes to your docker compose YML file. Now both containers are included.
+    > [!NOTE]
+    > In this step, Visual Studio will offer to create a Dockerfile. If you do this on a project that already has Docker support, you are prompted whether you want to overwrite the existing Dockerfile. If you've made changes in your Dockerfile that you want to keep, choose no.
+
+    Visual Studio makes some changes to your docker compose YML file. Now both services are included.
 
     ```yaml
     version: '3.4'
@@ -160,10 +163,9 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 ## Next steps
 
-When you're ready to deploy the multicontainer app, you'll need to decide what container orchestrator to use. You can use [Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container) or [Azure Kubernetes Service (AKS)](/azure/aks).
+When you're ready to deploy the multicontainer app, you can deploy to [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker).
 
 ## See also
   
 [Docker Compose](https://docs.docker.com/compose/)  
-[Service Fabric Overview](/azure/service-fabric/service-fabric-overview)  
 [Azure Kubernetes Service](/azure/aks)  
