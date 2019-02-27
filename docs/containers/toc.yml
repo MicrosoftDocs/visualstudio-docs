@@ -1,4 +1,4 @@
-- name: Visual Studio Tools for Docker
+- name: Visual Studio Container Tools
   href: index.yml
   expanded: true
   items:

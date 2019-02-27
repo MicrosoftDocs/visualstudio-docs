@@ -180,9 +180,21 @@ To deploy to App Service, you'll publish each web project separately. First, pub
 
 ![Screenshot of Publish dialog box](./media/tutorial-multicontainer/multicontainer-publish-app-service-linux.png)
 
-On the next screen, verify or change your Azure subscription information, and choose **Create**. The project is deployed to Azure.
+On the next screen, verify or change your Azure subscription information, and choose **Create**. The project is deployed to Azure. This takes a few minutes.
+
+::: moniker range="vs-2017"
+
+![Screenshot of Publish dialog box screen 2](./media/tutorial-multicontainer/multicontainer-publish-app-service-linux-2017.PNG)
+
+::: moniker-end
+
+::: moniker range=">= vs-2019"
 
 ![Screenshot of Publish dialog box screen 2](./media/tutorial-multicontainer/multicontainer-publish-app-service-webapi.png)
+
+::: moniker-end
+
+
 
 The **Publish** screen in Visual Studio shows the URL of the published service.
 
