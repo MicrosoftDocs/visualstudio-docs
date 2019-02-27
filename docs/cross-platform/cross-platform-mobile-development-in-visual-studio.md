@@ -32,7 +32,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Xamarin mobile app development documentation](/xamarin/) |
 |[DevOps with Xamarin apps](/xamarin/tools/ci/devops/) |
 |[Learn about Universal Windows apps in Visual Studio](https://visualstudio.microsoft.com/vs/universal-windows-platform/) (VisualStudio.com)|
-|[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|
+|[Learn about the similarities between Swift and C#](https://aka.ms/scposter) (download.microsoft.com)|
 
 ###  <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
 

@@ -1,7 +1,7 @@
 ---
 title: "How to report a problem with Visual Studio"
 titleSuffix: ""
-description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
+description: "Find out how to report a problem with Visual Studio to Microsoft so that we can diagnose and fix it."
 ms.date: 03/11/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# How to report a problem with Visual Studio 2017
+# How to report a problem with Visual Studio
 
 If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
 
@@ -38,7 +38,7 @@ To report a problem for Visual Studio, you must initiate the report from Visual 
 
 1. Once signed in, you will be able to see your **Problems** and **Activity** in the **Items I follow** screen
 
-	![Items I Follow](../ide/media/items-i-follow.png)
+    ![Items I Follow](../ide/media/items-i-follow.png)
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
    > [!NOTE]

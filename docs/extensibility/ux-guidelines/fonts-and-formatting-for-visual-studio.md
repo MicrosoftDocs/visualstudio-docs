@@ -95,10 +95,22 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 ```
 
 #### 375% Environment font + Light
- **Appears as:** 34 pt Segoe UI Light
- **Use for:** (rare) unique branded UI, like in the Visual Studio 2017 Start Page
 
- **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:
+**Appears as:** 34 pt Segoe UI Light
+
+::: moniker range="vs-2017"
+
+**Use for:** (rare) unique branded UI, like in the Start Page
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+**Use for:** (rare) unique branded UI
+
+::: moniker-end
+
+**Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:
 
 ```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,  
@@ -107,7 +119,7 @@ label.SetResourceReference(Label.StyleProperty,  
         VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey);
 ```
 
- **XAML:** Set the style of the TextBlock or Label as shown.
+**XAML:** Set the style of the TextBlock or Label as shown.
 
 ```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey}}">TextBlock: 375 Percent Scaling</TextBlock> 
@@ -407,9 +419,21 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### 310% Environment font + Light
 
+::: moniker range="vs-2017"
+
 |||
 |-|-|
 |**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+|||
+|-|-|
+|**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|
+
+::: moniker-end
 
 #### 200% Environment font + Semilight
 

@@ -73,7 +73,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="/appcenter/" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -111,7 +111,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="/azure/devops/" title="Azure DevOps Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">

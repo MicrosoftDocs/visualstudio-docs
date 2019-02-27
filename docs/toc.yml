@@ -3,7 +3,7 @@
 - name: Overview
   expanded: true
   items:
-    - name: About Visual Studio 2017
+    - name: About Visual Studio
       href: get-started/visual-studio-ide.md
     - name: About the code editor
       href: get-started/tutorial-editor.md
@@ -1119,7 +1119,7 @@
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
   - name: How to report a problem in Visual Studio
-    href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    href: ide/how-to-report-a-problem-with-visual-studio.md
     items:
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md
