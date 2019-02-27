@@ -35,15 +35,18 @@ In Visual Studio, create an **ASP.NET Core Web Application** project, named *Web
 
 Do not select **Enable Docker Support**. You'll add Docker support later.
 
-   ![Screenshot of creating the web project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
+![Screenshot of creating the web project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-    ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+
+![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
 
 Do not select **Enable Docker Support**. You'll add Docker support later.
 
-    ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+
 ::: moniker-end
 
 ## Create a Web API project
