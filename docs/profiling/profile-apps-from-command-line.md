@@ -36,11 +36,13 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Open a command prompt and find the collection agent executable, typically here.
 
-   ```<*Visual Studio installation folder*>\2019\Preview\Team Tools\DiagnosticsHub\Collector\```
+   ```<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\```
 
 1. Start *VSDiagnostics.exe* by typing the following command.
 
-   ```VSDiagnostics.exe start <*id*> /attach:<*pid*> /loadConfig:<*configFile*>```
+   ```cmd
+   VSDiagnostics.exe start <id> /attach:<pid> /loadConfig:<configFile>
+   ```
 
    The arguments that must be included are:
 
@@ -52,7 +54,9 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Stop the collection session and send output to a file by typing the following command.
 
-   ```VSDiagnostics.exe stop <id> /output:<path to file>```
+   ```cmd
+   VSDiagnostics.exe stop <id> /output:<path to file>
+   ```
 
 1. Go to the file output from the previous command, and open it in Visual Studio to examine the information collected.
 
@@ -67,9 +71,11 @@ For convenience, you can store that information in an agent configuration file. 
 
 Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
 
-For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well. If you use an agent without a configuration file, use this format in the command.
+For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well. If you use an agent without a configuration file, use the format in the following command.
 
-  ```VSDiagnostics.exe start <*id*> /attach:<*pid*> /loadAgent:<agentCLSID>;<agentName>[;<config>]```
+```cmd
+VSDiagnostics.exe start <id> /attach:<pid> /loadAgent:<agentCLSID>;<agentName>[;<config>]
+```
 
 ## Permissions
 
