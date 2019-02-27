@@ -5,19 +5,19 @@ titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vst.project.vbawrongversion"
   - "VST.Project.VBASecurityGenericError"
   - "VST.Project.VBASecurityPermissions"
   - "VST.SelectDocWizard.MissingCOM"
   - "VST.Project.VBASecurityNotSet"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
@@ -120,5 +120,4 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 5. Select **Detect and Repair errors in my Office installation**, and then click **Install**.
 
 ## See also
-
- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)

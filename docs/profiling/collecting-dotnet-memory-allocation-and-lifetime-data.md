@@ -2,13 +2,13 @@
 title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".NET memory profiling method"
   - "Profiling Tools,.NET memory method"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Collect .NET memory allocation and lifetime data
@@ -73,6 +73,6 @@ The tasks in the following table are options in the **Property Pages** dialog bo
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
 [Performance session properties](../profiling/performance-session-properties.md)

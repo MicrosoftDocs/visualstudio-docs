@@ -6,7 +6,7 @@ ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017
@@ -156,9 +156,9 @@ When looking up your dependencies, you will find that one dependency could map t
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 
-Extension Type | Display Name |	Id
+Extension Type | Display Name | Id
 --- | --- | ---
-Editor | Visual Studio core editor	| Microsoft.VisualStudio.Component.CoreEditor
+Editor | Visual Studio core editor | Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
 WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime

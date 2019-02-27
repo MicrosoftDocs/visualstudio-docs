@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/22/2018
-ms.topic: Get-Started-Article
-description:  Visual Studio Subscriptions - Locating the Primary Contact 
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
+ms.topic: conceptual
+description:  Visual Studio Subscriptions - Locating the Primary Contact
 searchscope: VS Subscription
 ---
 
@@ -20,13 +18,11 @@ In order to complete the onboarding of your organization to the subscriptions ad
 2. From the Licenses tab, select **Relationship Summary** in the dropdown.
     > [!div class="mx-imgBorder"]
     > ![Choose relationship](_img/locate-primary-contact/vlsc-relationship.png)
-   
-3. Select the applicable agreement number. 
+
+3. Select the applicable agreement number.
     > [!div class="mx-imgBorder"]
     > ![Choose agreement](_img/locate-primary-contact/vlsc-agreement.png)
 
-4. Select the **Contacts** tab.  The Primary Contact will be listed in the list of contacts associated with the agreement. 
+4. Select the **Contacts** tab.  The Primary Contact will be listed in the list of contacts associated with the agreement.
     > [!div class="mx-imgBorder"]
     > ![Choose contacts](_img/locate-primary-contact/vlsc-contacts.png)
-
-

@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Troubleshooting template installation
@@ -40,4 +40,4 @@ The log file contains the following columns:
 
 ## See also
 
-[Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Creating custom project and item templates](creating-custom-project-and-item-templates.md)

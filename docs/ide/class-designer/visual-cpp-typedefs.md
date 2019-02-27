@@ -53,8 +53,8 @@ typedef B MyB;
 ```cpp
 typedef struct mystructtag
 {
-	int   i;
-	double f;
+    int   i;
+    double f;
 } mystruct;
 ```
 

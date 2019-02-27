@@ -274,7 +274,7 @@ private void RecordHighScore(string playerName)
 private void Start ()
     {
         ShowCallerInfo("Something happened.");
-	}
+    }
     public void ShowCallerInfo(string message,
             [System.Runtime.CompilerServices.CallerMemberName] string memberName = "",
             [System.Runtime.CompilerServices.CallerFilePath] string sourceFilePath = "",

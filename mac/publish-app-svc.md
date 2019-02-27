@@ -1,5 +1,5 @@
 ---
-title: Publish to Azure App Service - Visual Studio for Mac
+title: Publish to Azure App Service
 ms.date: 01/17/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -8,12 +8,11 @@ ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
 author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
-ms.prod: visual-studio-mac-dev15
+ms.prod: visual-studio-mac
 ms.custom: video
 ms.workload:
   - "azure"
 ---
-
 # Publish a Web app to Azure App Service using Visual Studio for Mac
 
 You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
@@ -40,7 +39,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
     ![Publish to Azure App Service dialog](media/publish-to-app-service-dialog.png)
 
- 5. To create a new App Service, click the **New** button. 
+ 5. To create a new App Service, click the **New** button.
 
     ![Publish to App Service Dialog](media/publish-to-app-service-dialog-new-selected.png)
 

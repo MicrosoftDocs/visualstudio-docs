@@ -44,7 +44,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 4. Add 1 plus 2, pause the recorder, and generate the test method. Later we'll replace the values of this user input with values from a data file.
 
-    ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
+    ![Generate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
 
     Close the test builder. The method is added to the test:
 

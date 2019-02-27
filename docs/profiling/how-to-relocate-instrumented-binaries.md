@@ -2,9 +2,9 @@
 title: "How to: Relocate Instrumented Binaries | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.binaries"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "binaries, instrumented"
   - "instrumentation, instrumented binaries"
   - "instrumented binaries and relocating"
@@ -12,7 +12,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Relocate instrumented binaries
@@ -31,5 +31,5 @@ During instrumentation, probes are inserted into the binary to measure applicati
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [VSInstr](../profiling/vsinstr.md)

@@ -50,6 +50,7 @@ If your codebase uses custom build tools that Visual Studio doesn't recognize, t
 
 Consider a codebase that consists of a single C# file called *hello.cs*. The *makefile* for such a codebase might look like this:
 
+<!-- markdownlint-disable MD010 -->
 ```makefile
 build: directory hello.exe
 
@@ -66,6 +67,7 @@ directory: bin
 bin:
 	md bin
 ```
+<!-- markdownlint-enable MD010 -->
 
 For such a *makefile* that contains build, clean, and rebuild targets, you can define the following *tasks.vs.json* file. It contains three build tasks for building, rebuilding, and cleaning the codebase, using NMAKE as the build tool.
 

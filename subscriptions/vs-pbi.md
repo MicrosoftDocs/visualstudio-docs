@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/19/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -89,14 +87,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Frequently asked questions
 ### Q:  If the benefit is free, why do I have to supply a credit card number?
-A:  The benefit is free, but activation uses the same system used to process paid orders.  There are two payment types available. 
-- Credit card.  If you provide a credit card number, your card will NOT be charged. 
-- Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.  
+A:  The benefit is free, but activation uses the same system used to process paid orders.  There are two payment types available.
+- Credit card.  If you provide a credit card number, your card will NOT be charged.
+- Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.
 
 ### Q:  Is the Power BI Pro benefit included in my subscription licensed for use in a production environment?
 A:  Yes, you can use it in a production, with two important caveats:
-- This offer requires installation on its own tenant.  If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license. 
-- This Power BI Pro benefit cannot be used on government tenants.  
+- This offer requires installation on its own tenant.  If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
+- This Power BI Pro benefit cannot be used on government tenants.
 
 ### Q:  When I try to activate Power BI Pro, I get a message "You already have an account through work".  Can I still use the benefit?
 A:  Yes.  The message indicates that you're logged on to a domain that already has active Office 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
@@ -107,12 +105,12 @@ A:  Yes.  The message indicates that you're logged on to a domain that already h
 3.  Create your user ID and password.  To take advantage of the free offer, make sure you select **.onmicrosoft.com** as the domain. Click **Create my account**.
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro Benefit create private tenant userID](_img/vs-pbi/vs-pbi-work-userid.png)
-    
+
 4.  The rest of the steps in the process are identical to those listed in the body of the article, beginning with step 6.
 
 
-### Q:  I'm on a government tenant.  Can I use the benefit? 
-A:  No.  The Power BI Pro benefit cannot be added to government tenants. 
+### Q:  I'm on a government tenant.  Can I use the benefit?
+A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Support resources
 -  Need help with Power BI Pro?

@@ -83,18 +83,18 @@ Some other types that also have their own inline visualizers are listed below:
 
 ![Other Visualization](media/data-visualizations-image23.png)
 
-*	**Primitives**
-	*	This will show the raw value of the primitive type.
-*	**Enum**
-	*	This will display the field value without the enum Type qualifier.
-*	**Tuple**
-	*	Displayed in the format (,)
-*	**Null**
-	*	Shows "null" value.
-*	**URL**
-	*	This will display a clickable hyperlink.
-*	**IntPtr**
-	*	This will display a hexadecimal representation of the IntPtr.
+* **Primitives**
+  * This will show the raw value of the primitive type.
+* **Enum**
+  * This will display the field value without the enum Type qualifier.
+* **Tuple**
+  * Displayed in the format (,)
+* **Null**
+  * Shows "null" value.
+* **URL**
+  * This will display a clickable hyperlink.
+* **IntPtr**
+  * This will display a hexadecimal representation of the IntPtr.
 
 ## See also
 

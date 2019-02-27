@@ -50,13 +50,13 @@ Generalized view of the Visual Studio architecture
 
  Tool windows typically offer various controls with which the user can interact. For instance, the **Properties** window lets the user set properties of objects that serve a particular purpose. The **Properties** window is specialized in this sense, but also general because it can be used in many different situations. Similarly, the **Output** window is specialized because it provides text-based output, but general because many subsystems in Visual Studio can use it to provide output to the Visual Studio user.
 
- Consider the following picture of Visual Studio, which contains several tool windows.
+ Consider the following picture of Visual Studio, which contains several tool windows:
 
  ![Screen shot](../../extensibility/internals/media/t1gui.png "T1gui")
 
  Some of the tool windows are docked together on a single pane that displays the Solution Explorer tool window and hides the other tool windows but makes them available by clicking tabs. The picture shows two other tool windows, the **Error List** and **Output** window, docked together on a single pane.
 
- Also shown is the main document pane, which shows several editor windows. Although tool windows typically have just one instance (for example, you can open only one **Solution Explorer**), editor windows can have multiple instances, each of which is used to edit a separate document but all of which are docked in the same pane. The picture shows a document pane that has two editor windows, one form designer window, and a browser window that shows the Start Page. All the windows in the document pane are available by clicking tabs, but the editor window that contains EditorPane.cs file is visible and active.
+ Also shown is the main document pane, which shows several editor windows. Although tool windows typically have just one instance (for example, you can open only one **Solution Explorer**), editor windows can have multiple instances, each of which is used to edit a separate document but all of which are docked in the same pane. The picture shows a document pane that has two editor windows, one form designer window. All the windows in the document pane are available by clicking tabs, but the editor window that contains EditorPane.cs file is visible and active.
 
  When you extend Visual Studio, you can create tool windows that let Visual Studio users interact with your extension. You can also create your own editors that let Visual Studio users edit documents. Because your tool windows and editors will be integrated into Visual Studio, you do not have to program them to dock or appear on a tab correctly. When they are correctly registered in Visual Studio, they will automatically have the typical features of tool windows and document windows in Visual Studio. For more information, see [Extending and Customizing Tool Windows](../../extensibility/extending-and-customizing-tool-windows.md).
 

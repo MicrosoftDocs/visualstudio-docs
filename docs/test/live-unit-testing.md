@@ -173,8 +173,8 @@ For solutions with many test projects, you can control what projects and what in
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
-1.	Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
-1.	Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
+1. Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
 
 **Excluding individual tests from the code editor window**
 

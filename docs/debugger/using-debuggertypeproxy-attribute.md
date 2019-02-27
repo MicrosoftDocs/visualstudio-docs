@@ -2,12 +2,12 @@
 title: "Using DebuggerTypeProxy Attribute | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "attributes [C#], debugger"
   - "DebuggerTypeProxyAttribute class"
   - "DebuggerTypeProxy attribute"
@@ -15,7 +15,7 @@ ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
