@@ -29,14 +29,20 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web Application project
 
-In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. Do not select **Enable Docker Support**. You'll add Docker support later.
+In Visual Studio, create an **ASP.NET Core Web Application** project, named *WebFrontEnd*. Select **Web Application** to create a web application with Razor pages. 
   
 ::: moniker range="vs-2017"
+
+Do not select **Enable Docker Support**. You'll add Docker support later.
+
    ![Screenshot of creating the web project](./media/tutorial-multicontainer/docker-tutorial-enable-docker-support.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
     ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+
+Do not select **Enable Docker Support**. You'll add Docker support later.
+
     ![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
 ::: moniker-end
 
@@ -163,9 +169,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 ## Next steps
 
-When you're ready to deploy the multicontainer app, you can deploy to [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker).
+When you're ready to deploy the multicontainer app, you can deploy to [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
 
 ## See also
   
 [Docker Compose](https://docs.docker.com/compose/)  
-[Azure Kubernetes Service](/azure/aks)  
