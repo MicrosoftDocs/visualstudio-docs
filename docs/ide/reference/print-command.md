@@ -1,5 +1,5 @@
 ---
-title: Print Command
+title: Debug.Print
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -15,39 +15,42 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Print Command
-Evaluates an expression, or displays specified text.
+# Print command
+
+Evaluates an expression or displays specified text.
 
 ## Syntax
 
 ```cmd
-Debug.Print text
+>Debug.Print text
 ```
 
 ## Arguments
- `text`
 
- Required. The expression to evaluate or the text to display.
+`text`
+
+Required. The expression to evaluate or the text to display.
 
 ## Remarks
- You can use the question mark (?) as an alias for this command. So, for example, the command
+
+You can use the question mark (?) as an alias for this command. So, for example, the command
 
 ```cmd
 >Debug.Print expA
 ```
 
- can also be written
+can also be written as
 
 ```cmd
->? expA
+? expA
 ```
 
- Both versions of this command will return the current value of the expression `expA`.
+Both versions of this command return the current value of the expression `expA`.
 
 ## Example
 
 ```cmd
->Debug.Print varA
+>Debug.Print DateTime.Now.Day
 ```
 
 ## See Also

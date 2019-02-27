@@ -14,10 +14,11 @@ As an administrator, you have the ability to manage subscriptions for your organ
 
 ## Roles & responsibilities
 A Visual Studio administrator has four key responsibilities:
-1.	**Understand the benefits and restrictions of Visual Studio subscriptions.** Correctly understanding your benefits can enable you to reduce hardware costs by using cloud services, and reduce software costs with per-user licenses for pre-production environments.
-2.	**Assign Visual Studio subscriptions to specific, named individuals and encourage usage.** Your contract requires that Visual Studio subscriptions be assigned to specific, named individuals. Follow up with your assigned individuals to ensure they access and take full advantage of the benefits included in their Visual Studio subscription.
-3.	**Accurately inventory your pre-production environment.** This is essential to ensure all users who interact with Visual Studio-licensed software are appropriately licensed with their own Visual Studio subscription.
-4.	**Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you are expected to track changes to software usage and user assignments and process orders for additional licenses on the schedule outlined in the agreement.
+
+1. **Understand the benefits and restrictions of Visual Studio subscriptions.** Correctly understanding your benefits can enable you to reduce hardware costs by using cloud services, and reduce software costs with per-user licenses for pre-production environments. 
+2. **Assign Visual Studio subscriptions to specific, named individuals and encourage usage.** Your contract requires that Visual Studio subscriptions be assigned to specific, named individuals. Follow up with your assigned individuals to ensure they access and take full advantage of the benefits included in their Visual Studio subscription.
+3. **Accurately inventory your pre-production environment.** This is essential to ensure all users who interact with Visual Studio-licensed software are appropriately licensed with their own Visual Studio subscription. 
+4. **Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you are expected to track changes to software usage and user assignments and process orders for additional licenses on the schedule outlined in the agreement.
 
 ## Benefits and limitations
 Visual Studio subscriptions allow development team members to install and use software to design, develop, test, evaluate, and demonstrate other software. Visual Studio Subscriptions software is not licensed for production environments.
@@ -66,9 +67,10 @@ Visual Studio subscriptions administrators are expected to track Visual Studio u
 
 Your complete purchase obligation is determined by the **high watermark of usage**. This watermark is
 the high point either in daily user assignments or in users interacting with Visual Studio software, whichever is higher.
-1.	Visual Studio subscriptions administrators may increase the high watermark of usage by assigning Visual Studio Subscriptions to individuals.
-2.	Visual Studio subscriptions administrators may reassign subscriptions from one subscriber to another if 90 days have passed since the time of the original assignment. To avoid an artificially high watermark, always do this by first removing the existing subscription and then adding the new one.
-3.	Visual Studio subscriptions administrators may change the assigned subscription level for an individual, which would constitute a decrease in one assignment and an increase in another. When you lower a subscriber’s assigned subscription level, the individual must immediately stop using and uninstall anything that is only in the higher-level subscription.
+
+1. Visual Studio subscriptions administrators may increase the high watermark of usage by assigning Visual Studio Subscriptions to individuals.
+2. Visual Studio subscriptions administrators may reassign subscriptions from one subscriber to another if 90 days have passed since the time of the original assignment. To avoid an artificially high watermark, always do this by first removing the existing subscription and then adding the new one.
+3. Visual Studio subscriptions administrators may change the assigned subscription level for an individual, which would constitute a decrease in one assignment and an increase in another. When you lower a subscriber’s assigned subscription level, the individual must immediately stop using and uninstall anything that is only in the higher-level subscription. 
 
 ### Cloud Subscriptions, Open License or Open Value
 You may be assigning subscriptions through a program like Microsoft Cloud subscriptions, Open License or Open Value. If so, then you must process your order for additional users during the month in which users (employees or external contractors) begin interacting with Visual Studio-licensed software.

@@ -39,21 +39,21 @@ Yes.  There are two phases in this process. Setting up (or onboarding) your orga
 ### What is the onboarding process?
 An email is sent to the Primary and Notices Contacts inviting them to complete the onboarding process.
 See below for instructions on the process.
-1.	**Locating your PCN and signing in:**
+1. **Locating your PCN and signing in:**
 
-    a.	In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN).*
+    a. In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN).*
 
-    b.	In order to obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found below).
+    b. In order to obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found below).
 
-    c.	After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on Azure AD) or a Microsoft Account (MSA) if your organization is not on Azure AD.
+    c. After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on Azure AD) or a Microsoft Account (MSA) if your organization is not on Azure AD.
 
-    d.	Next, they will be prompted to enter the PCN.
+    d. Next, they will be prompted to enter the PCN.
 
-2.	**Set up your administrators:**
+2. **Set up your administrators:**
 
     After entering the PCN, they will be taken to the page where they are able to add super admins and administrators (previously known as Subscription Managers). Ideally this should be completed prior to your organization’s migration date so you don’t have any interruption in managing your subscriptions.
 
-3.	**Accessing the new subscription management portal:**
+3. **Accessing the new subscription management portal:**
     Once your organization is migrated, emails will be sent to the super admins and administrators inviting them to access the new portal and begin managing subscriptions.
 
 > [!NOTE]

@@ -55,6 +55,6 @@ For more information about the information collected, processed, or transmitted 
 
 * [Diagnostic information collected by Visual Studio](diagnostic-data-collection.md)
 * [Talk to us](../ide/talk-to-us.md)
-* [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+* [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)

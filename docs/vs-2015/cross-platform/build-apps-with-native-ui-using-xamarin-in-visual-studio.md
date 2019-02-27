@@ -452,10 +452,10 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     ```
     protected override void OnCreate (Bundle bundle)
     {
-    	base.OnCreate (bundle);
+        base.OnCreate (bundle);
 
-    	// Set our view from the "main" layout resource
-    	SetContentView (Resource.Layout.Main);
+        // Set our view from the "main" layout resource
+        SetContentView (Resource.Layout.Main);
     }
     ```
 

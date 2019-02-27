@@ -99,10 +99,10 @@ Visual Studio subscribers can increase the number of users who can access a Wind
 Five keys of each type are available for Windows Server 2008 R2, and each key will support 20 connections. For Windows Server 2012 R2, four keys for each type are provide and will support 50 connections each.
 
 #### To enable additional connections in Windows Server:
-1.	Open Server Manager.
-2.	Open the Servers list in the left nav pane.
-3.	Right click on your license server and choose “Install Licenses”.
-4.	Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
+1. Open Server Manager.
+2. Open the Servers list in the left nav pane.
+3. Right click on your license server and choose “Install Licenses”.
+4. Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
 
 End users can connect to access applications via RDS if the following conditions are met:
 - Users must be anonymous (in a non-authenticated state).

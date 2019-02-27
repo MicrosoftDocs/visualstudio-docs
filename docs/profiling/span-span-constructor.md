@@ -13,7 +13,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
+
 # span::span Constructor
+
 Initializes a new instance of the `span` class.
 
 ## Syntax
@@ -46,22 +48,25 @@ span(
 ```
 
 #### Parameters
- `_Series`
- Valid marker series context.
 
- `_Format`
- A composite format string that contains text intermixed with zero or more format items, which correspond to objects in the argument list.
+`_Series`
+Valid marker series context.
 
- `_Importance`
- Importance level.
+`_Format`
+A composite format string that contains text intermixed with zero or more format items, which correspond to objects in the argument list.
 
- `_Category`
- Category.
+`_Importance`
+Importance level.
+
+`_Category`
+Category.
 
 ## Requirements
- **Header:** *cvmarkersobj.h*
 
- **Namespace:** Concurrency::diagnostic
+**Header:** *cvmarkersobj.h*
 
- ## See also
+**Namespace:** Concurrency::diagnostic
+
+## See also
+
 - [span class](../profiling/span-class.md)

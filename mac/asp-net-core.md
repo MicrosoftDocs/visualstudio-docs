@@ -48,14 +48,14 @@ Open and inspect the **Program.cs** file in your project. Notice that two things
 ```csharp
 public static void Main(string[] args)
 {
-	var host = new WebHostBuilder()
-		.UseKestrel()
-		.UseContentRoot(Directory.GetCurrentDirectory())
-		.UseIISIntegration()
-		.UseStartup<Startup>()
-		.Build();
+    var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
 
-	host.Run();
+    host.Run();
 }
 ```
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:

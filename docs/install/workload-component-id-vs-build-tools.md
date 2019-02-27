@@ -15,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Build Tools 2017 component directory
 
