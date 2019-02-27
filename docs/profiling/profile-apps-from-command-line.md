@@ -30,7 +30,7 @@ In the example described in this article, you collect performance information fo
 
 ## Collect performance data
 
-Profiling using the Visual Studio Diagnostics CLI tools works by attaching the profiling tool, along with one of the collector agents, to a process. When you attach the profiling tool, you initiate a diagnostic session that captures and store profiling data until the tool is stopped, at which point that data is exported into a *.diagsession* file. Then you can open this file in Visual Studio to analyze results.
+Profiling using the Visual Studio Diagnostics CLI tools works by attaching the profiling tool, along with one of the collector agents, to a process. When you attach the profiling tool, you begin a diagnostic session that captures and stores profiling data until the tool is stopped, at which point that data is exported into a *.diagsession* file. Then you can open this file in Visual Studio to analyze results.
 
 1. Start Notepad, and then open Task Manager to get its process ID (PID). In Task Manager, find the PID in the **Details** tab.
 
@@ -58,20 +58,22 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 ## <a name="config_file"></a> Agent configuration files
 
-Collection Agents are interchangeable components that collect different types of data depending on what you are trying to measure. For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well.
+Collection Agents are interchangeable components that collect different types of data depending on what you are trying to measure.
 
 For convenience, you can store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. Here are the example configuration files that you can find in the *\<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\AgentConfigs\* folder.
 
 * CpuUsage configurations (Base/High/Low), which corresponds to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
-* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the .NET Object Allocation tool.
+* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [.NET Object Allocation tool](https://devblogs.microsoft.com/visualstudio/visual-studio-2017-version-15-8-preview-3/#tooling).
 
-Base/Low/High configurations refer to the sampling rates. For example, Low is 100 samples/second and High is 4000 samples/second.
+Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
+
+For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well. If you use an agent without a configuration file, use this format in the command.
+
+  ```VSDiagnostics.exe start <*id*> /attach:<*pid*> /loadAgent:<agentCLSID>;<agentName>[;<config>]```
 
 ## Permissions
 
 To profile an application that requires elevated permissions, you must do so from an elevated command prompt.
-
-## See also
 
 
 
