@@ -162,7 +162,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 1. Run the site locally now (F5 or Ctrl+F5) to verify that it works as expected. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1)."
 
-   The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.
+   The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
    ![Screenshot of docker-compose project properties](media/tutorial-multicontainer/launch-action.png)
 
@@ -170,10 +170,55 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    ![Screenshot of running web app](media/tutorial-multicontainer/webfrontend.png)
 
+## Deploy to App Service
+
+You can now deploy to Azure.  Using App Services is the easiest way to deploy a multicontainer service. You can also use [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
+
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
+
+To deploy to App Service, you'll publish each web project separately. First, publish the Web API project.  Right-click on the Web API project node and choose Publish.  On the **Publish** screen, choose **App Service Linux**, and **Create new App Service for Containers**.
+
+![Screenshot of Publish dialog box](./media/multicontainer-publish-app-service-linux.png)
+
+On the next screen, verify or change your Azure subscription information, and choose **Create**. The project is deployed to Azure.
+
+![Screenshot of Publish dialog box screen 2](./media/multicontainer-publish-app-service-webapi.png)
+
+The **Publish** screen in Visual Studio shows the URL of the published service.
+
+![Screenshot of Publish screen in VS](./media/multicontainer-publish-screen.png)
+
+Then, update the `OnGet` method in *Index.cshtml.cs* in the WebFrontEnd project to use the URL from the published Web API project, which you can copy from the screen shown previously.  You can use HTTP rather than HTTPS if you set the Web API project to not use HTTPS, as recommended in a previous step. The following code shows an example.
+
+```csharp
+        public async Task OnGet()
+        {
+            ViewData["Message"] = "Hello from webfrontend";
+
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                // Call *mywebapi*, and display its response in the page
+                var request = new System.Net.Http.HttpRequestMessage();
+                request.RequestUri = new Uri("http://mywebapi20190227122832.azurewebsites.net/api/values/1");
+                var response = await client.SendAsync(request);
+                ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
+            }
+        }
+```
+
+Then, build and publish the WebFrontEnd project, using the same steps you used for the Web API project.
+
+You can verify that the app is working by navigating to the URL shown in the **Publish** page.
+
+![Screenshot of the URL in the Publish screen](./media/multicontainer-publish-app-service-linux-completed.png)
+
+![Screenshot of app running in Azure](./media/webfrontend-azure.png)
+
 ## Next steps
 
-When you're ready to deploy the multicontainer app, you can deploy to [Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
+Explore Azure App Services further by trying a tutorial in the [App Services](/azure/app-service/) documentation.
 
 ## See also
   
 [Docker Compose](https://docs.docker.com/compose/)  
+[Container Tools](/visualstudio/containers/)
