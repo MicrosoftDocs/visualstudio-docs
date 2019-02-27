@@ -2,16 +2,16 @@
 title: "How to: Specify the Binary to Start | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.itemlaunch"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profiling tools, launching"
   - "performance tools, launching"
   - "performance sessions, launching"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Specify the binary to start

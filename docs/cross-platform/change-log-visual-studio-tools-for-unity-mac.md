@@ -28,11 +28,11 @@ Visual Studio Tools for Unity change log.
 -   **Debugger:**
 
      -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
-     
+
 -   **Integration:**
 
      -   Fixed Unity plugin activation when another default editor was selected.
-     
+
      -   Fixed Unity file template creation.
 
 ## 1.6.0.2
@@ -43,7 +43,7 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
      -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
-     
+
 ## 1.6.0.1
  Released July 10, 2018
 
@@ -52,7 +52,7 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
      -   Fixed Shader code coloration support.
-     
+
 ## 1.6.0.0
  Released June 26, 2018
 
@@ -65,23 +65,23 @@ Visual Studio Tools for Unity change log.
 -   **Project Generation:**
 
      -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
-     
+
      -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
-     
+
 ## 1.5.0.2
  Released April 18, 2018
- 
+
 ### New Features
 
 -   **Integration:**
 
     -   Added support for basic Shader code completion.
-    
+
     -   Added support for toggling comments in Shader files.
 
 ## 1.5.0.1
  Released March 28, 2018
- 
+
 ### New Features
 
 -   **Integration:**
@@ -90,7 +90,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.5.0.0
  Released March 21, 2018
- 
+
 ### New Features
 
 -   **Integration:**
@@ -99,7 +99,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.4.0.3
  Released March 5, 2018
- 
+
 ### New Features
 
 -   **Project Generation:**
@@ -112,7 +112,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.4.0.2
  Released January 24, 2018
- 
+
 ### Bug fixes
 
 -   **Project Generation:**
@@ -127,7 +127,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.4.0.1
  Released January 23, 2018
- 
+
 ### Bug fixes
 
 -   **Integration:**
@@ -136,7 +136,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.4.0.0
  Released December 13, 2017
- 
+
 ### New Features
 
 -   **Project Generation:**
@@ -151,7 +151,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.3.0.1
  Released December 12, 2017
- 
+
 ### Bug fixes
 
 -   **Integration:**
@@ -164,7 +164,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.3.0.0
  Released November 20, 2017
- 
+
 ### New Features
 
 -   **Wizards:**
@@ -175,7 +175,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.2.0.0
  Released October 23, 2017
- 
+
 ### New Features
 
 -   **Debugger:**
@@ -192,7 +192,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.1.0.3
  Released October 23, 2017
- 
+
 ### New Features
 
 -   **Project Generation:**
@@ -201,7 +201,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.1.0.2
  Released August 8, 2017
- 
+
 ### New Features
 
 -   **Debugger:**
@@ -214,7 +214,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.1.0.1
  Released July 20, 2017
- 
+
 ### New Features
 
 -   **Integration:**
@@ -223,7 +223,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.1.0.0
  Released July 12, 2017
- 
+
 ### New Features
 
 -   **Integration:**
@@ -234,9 +234,9 @@ Visual Studio Tools for Unity change log.
 
     -   Fixed assembly name references with mcs.rsp files.
 
-    -   Added support for assembly.json compilation units.    
+    -   Added support for assembly.json compilation units.
 
-    -   Fixed defines with API levels.    
+    -   Fixed defines with API levels.
 
 ### Bug fixes
 
@@ -246,7 +246,7 @@ Visual Studio Tools for Unity change log.
 
 ## 1.0.0.1
  Released May 4, 2017
- 
+
 ### Bug fixes
 
 -   **Integration:**

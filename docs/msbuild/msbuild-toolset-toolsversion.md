@@ -110,5 +110,5 @@ MSBuild provides overloads for the `ToolLocationHelper` methods that add a `Visu
 Sub-toolsets were introduced in the .NET Framework 4.5.
 
 ## See also
- [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
- [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
+- [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
+- [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

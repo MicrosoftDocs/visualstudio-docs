@@ -3,7 +3,7 @@
 - name: Overview
   expanded: true
   items:
-    - name: About Visual Studio 2017
+    - name: About Visual Studio
       href: get-started/visual-studio-ide.md
     - name: About the code editor
       href: get-started/tutorial-editor.md
@@ -321,6 +321,10 @@
           items:
           - name: Change method signature
             href: ide/reference/change-method-signature.md
+          - name: Convert anonymous type to class
+            href: ide/reference/convert-anonymous-type-to-class.md
+          - name: Convert anonymous type to tuple
+            href: ide/reference/convert-anonymous-type-to-tuple.md
           - name: Convert between for loop and foreach statement
             href: ide/reference/convert-for-loop-to-foreach.md
           - name: Convert between Get method and property
@@ -339,6 +343,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Pull member up
+            href: ide/reference/pull-members-up.md
           - name: Remove unreachable code
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
@@ -347,6 +353,8 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
+          - name: Wrap, indent, and align parameters
+            href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
       - name: Productivity tips
@@ -507,6 +515,11 @@
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
       href: xml-tools/xml-tools-in-visual-studio.md
+    - name: Develop international apps
+      href: ide/globalizing-and-localizing-applications.md
+      items:
+      - name: Bidirectional languages
+        href: ide/creating-applications-in-bi-directional-languages.md
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
@@ -659,15 +672,15 @@
       href: ide/environment-settings.md
     - name: Synchronized settings
       href: ide/synchronized-settings-in-visual-studio.md
-    - name: Change fonts and colors
+    - name: Fonts and colors
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
-    - name: Customize menus and toolbars
+    - name: Menus and toolbars
       href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-    - name: Customize window layouts
+    - name: Window layouts
       href: ide/customizing-window-layouts-in-visual-studio.md
-    - name: Customize file nesting in Solution Explorer
+    - name: File nesting in Solution Explorer
       href: ide/file-nesting-solution-explorer.md
-    - name: Customize the Start page
+    - name: Startup behavior
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Find and use Visual Studio extensions
       href: ide/finding-and-using-visual-studio-extensions.md
@@ -695,29 +708,6 @@
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
     - name: Resources for designing accessible apps
       href: ide/reference/resources-for-designing-accessible-applications.md
-  - name: Globalize and localize apps
-    href: ide/globalizing-and-localizing-applications.md
-    items:
-    - name: Intro to international .NET Framework apps
-      href: ide/introduction-to-international-applications-based-on-the-dotnet-framework.md
-    - name: Localize apps
-      href: ide/localizing-applications.md
-      items:
-      - name: Hierarchical Organization of Resources for Localization
-        href: ide/hierarchical-organization-of-resources-for-localization.md
-      - name: Security and Localized Satellite Assemblies
-        href: ide/security-and-localized-satellite-assemblies.md
-      - name: Version Numbers for Main and Localized Satellite Assemblies
-        href: ide/version-numbers-for-main-and-localized-satellite-assemblies.md
-      - name: Neutral Resources Languages for Localization
-        href: ide/neutral-resources-languages-for-localization.md
-    - name: Globalize apps
-      href: ide/globalizing-applications.md
-      items:
-      - name: Culture-Specific Classes for Global Windows Forms and Web Forms
-        href: ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md
-    - name: Create apps in bi-directional languages
-      href: ide/creating-applications-in-bi-directional-languages.md
 - name: Reference
   items:
   - name: General User Interface Elements
@@ -1129,7 +1119,7 @@
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
   - name: How to report a problem in Visual Studio
-    href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    href: ide/how-to-report-a-problem-with-visual-studio.md
     items:
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md

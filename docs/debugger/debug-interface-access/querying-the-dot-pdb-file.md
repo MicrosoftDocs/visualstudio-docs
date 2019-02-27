@@ -85,4 +85,4 @@ A program database file (extension .pdb) is a binary file that contains type and
     ```
 
 ## See Also
-[IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)

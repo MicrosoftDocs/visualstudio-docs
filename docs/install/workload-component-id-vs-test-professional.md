@@ -16,6 +16,7 @@ ms.service:
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Test Professional 2017 component directory
 

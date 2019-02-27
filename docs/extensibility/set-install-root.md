@@ -6,7 +6,7 @@ ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Installing outside the extensions folder

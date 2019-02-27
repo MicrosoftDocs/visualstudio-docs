@@ -39,9 +39,9 @@ Additionally, do not run your solution from a USB drive. Copy it to your HDD or 
 
 ## Help us improve
 
-Your feedback helps us improve. Use the **Report a Problem** feature to “record” a trace and send to us. Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
+Your feedback helps us improve. Use the **Report a Problem** feature to “record” a trace and send to us. Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## See also
 
 - [Performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)
