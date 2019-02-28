@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Unused parameters are faded out and unused expression values have a warning.
+**What:** Fades out unused parameters and generates a warning for unused expression values.
 
 **When:** You have parameters or expression values that are never used.
 

@@ -5,6 +5,8 @@ ms.topic: reference
 author: kendrahavens
 ms.author: kendrahavens
 manager: jillfra
+dev_langs:
+  - CSharp
 ms.workload:
   - "dotnet"
 ---
@@ -14,15 +16,15 @@ This code generation applies to:
 
 - C#
 
-**What:** Lets you immediately add the necessary imports or "usings statements" of copy and pasted code.
+**What:** **What:** Lets you immediately add the necessary imports or [using statements](/dotnet/csharp/language-reference/keywords/using-statement) of copy-and-pasted code.
 
-**When:** It's common practice to copy and paste code from different places in your project or other code sources. This quick action analyzes missing imports of copy and pasted code and then prompts you to add them.
+**When:** It's common practice to copy and paste code from different places in your project or other code sources. This quick action analyzes missing imports for copy-and-pasted code and then prompts you to add them.
 
-**Why:** By automatically adding necessary imports, the user doesn't need to go back and also copy the needed using statements.
+**Why:** By automatically adding necessary imports, the user doesn't need to manually copy the needed `using` statements.
 
 ## How-to
 
-1. Copy and paste code from a different file without including the necessary using statements. The error is now accompanied by a codefix that adds the missing using statements.
+1. Copy and paste code from a different file without including the necessary `using` statements. The error is now accompanied by a code fix that adds the missing `using` statements.
 
     > [!NOTE] This suggestion needs to be turned on in **Tools > Options > Text Editor > C# > Advanced > Using Directives**.
 

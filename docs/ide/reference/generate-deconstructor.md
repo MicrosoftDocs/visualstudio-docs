@@ -5,6 +5,8 @@ ms.topic: reference
 author: kendrahavens
 ms.author: kendrahavens
 manager: jillfra
+dev_langs:
+  - CSharp
 ms.workload:
   - "dotnet"
 ---
