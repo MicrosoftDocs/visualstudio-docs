@@ -43,6 +43,3 @@ For more information, see:
 - [C++ Edit and Continue blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/)
 - [Supported code changes (C++)](../debugger/supported-code-changes-cpp.md)
 - [Edit and Continue](../debugger/edit-and-continue.md)
-- 
-- 
-- https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/
