@@ -13,9 +13,11 @@ manager: jillfra
 ms.workload: 
   - "multiple"
 ---
-# Write and debug live XAML code with XAML hot reload in Visual Studio
+# Write and debug running XAML code with XAML hot reload in Visual Studio
 
-Visual Studio XAML hot reload is a feature that helps you build your WPF or UWP app UI while your real app is running. This enables developers to build the UI with the benefits of the running state’s data context, authentication, and other real-world complexity that’s hard to simulate during design-time. XAML hot reload is especially helpful in these scenarios:
+Visual Studio XAML hot reload helps you build your WPF or UWP app UI by letting you make changes to XAML code while your app is running. This feature enables you to incrementally build and test XAML code with the benefit of the running app's data context, authentication state, and other real-world complexity that’s hard to simulate during design-time.
+
+XAML hot reload is especially helpful in these scenarios:
 
 * Fixing UI problems found in your XAML code after the app was started in debug mode.
 
@@ -31,22 +33,22 @@ Visual Studio XAML hot reload is a feature that helps you build your WPF or UWP 
 
 ## Known limitations
 
-The following are known limitations of XAML hot reload. To work around any limitation that you run into, simply stop the debugger, and then complete the operation.
+The following are known limitations of XAML hot reload. To work around any limitation that you run into, just stop the debugger, and then complete the operation.
 
 |Limitation|WPF|UWP|Notes|
 |-|-|-|-|
 |Wiring events to controls while the app is running|Not Supported|Not supported|See error: *Ensure Event Failed*|
-|Creating resource objects in a resource dictionary such as those in your app's Page/Window or *App.xaml*|Not Supported|Supported|Example: adding a ```SolidColorBrush``` into a resource dictionary for use as a ```StaticResource```.</br>Note: Static resources, style converters, and other elements written into a resource dictionary can be applied/used while using XAML hot reload. Only the creation of the resource is not supported.</br>Changing the resource dictionary ```Source``` property.| 
+|Creating resource objects in a resource dictionary such as those in your app's Page/Window or *App.xaml*|Not Supported|Supported|Example: adding a ```SolidColorBrush``` into a resource dictionary for use as a ```StaticResource```.</br>Note: Static resources, style converters, and other elements written into a resource dictionary can be applied/used while using XAML hot reload. Only the creation of the resource is not supported.</br> Changing the resource dictionary ```Source``` property.| 
 |Adding new controls, classes, windows, or other files to your project while the app is running|Not Supported|Not Supported|None|
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
 |Changing data binding that uses the {x:Bind} markup extension|N/A|Supported in Visual Studio 2019 and later versions|Not supported in Visual Studio 2018 or previous versions|
 
 ## Error messages
 
-You may encounter the following errors while using XAML hot reload.
+You may come across the following errors while using XAML hot reload.
 
 |Error message|Description|
 |-|-|-|
 |Ensure Event Failed|Error indicates you are attempting to wire an event to one of your controls, which isn’t supported while your application is running.|
-|Xaml Edit and Continue did not find any elements to update.|Error occurs when you are editing XAML that hot reload cannot update in your app.</br>This can sometimes be solved by using your running app to navigate to a view where the XAML is used.</br>Sometimes, this error means that the specific change can't be applied until you restart the debugging session. |
+|XAML Edit and Continue did not find any elements to update.|Error occurs when you are editing XAML that hot reload cannot update in your app.</br> This error can sometimes be fixed by using your running app to navigate to a view where the XAML is used.</br> Sometimes, this error means that the specific change can't be applied until you restart the debugging session. |
 |This change is not supported during a debugging session.|Error indicates that the change you are attempting is not supported by XAML hot reload. Stop the debugging session, make the change, and then restart the debugging session.|
