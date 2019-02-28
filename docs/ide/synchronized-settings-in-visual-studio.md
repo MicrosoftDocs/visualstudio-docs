@@ -58,18 +58,8 @@ Settings are synchronized across versions and editions of Visual Studio installe
 
 Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2017\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*.
 
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
-
-::: moniker-end
-
 > [!NOTE]
 > To use the new installation-specific settings, do a fresh installation. When you upgrade an existing Visual Studio installation, it uses the existing shared location.
-
-::: moniker range="vs-2017"
 
 If you currently have side-by-side installations of Visual Studio and want to use the new installation-specific settings file location, follow these steps:
 
@@ -80,6 +70,12 @@ If you currently have side-by-side installations of Visual Studio and want to us
 3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
 1. Launch Visual Studio and import the saved settings from the exported settings file.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
 
 ::: moniker-end
 

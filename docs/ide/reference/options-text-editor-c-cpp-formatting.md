@@ -21,7 +21,7 @@ ms.workload:
 
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
-[C++ Formatting property pages](media/cpp-formatting.png)
+![C++ Formatting property pages](media/cpp-formatting.png)
 
 To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then click **Formatting**.
 
