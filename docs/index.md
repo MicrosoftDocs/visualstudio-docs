@@ -584,7 +584,7 @@ ms.custom: seodec18
                                             <div class="cardText">
                                                 <a href="/visualstudio/rtvs/">
                                                     <h3>R</h3>
-                                                    <p>An extensible programming language typically used for statistical computing and graphics.</p>
+                                                    <p>(Visual Studio 2017 only) An extensible programming language typically used for statistical computing and graphics.</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -703,7 +703,7 @@ ms.custom: seodec18
                                 </a>
                             </li>
                             <li>
-                                <a href="rtvs/data-science-and-analytical-applications-workload.md">
+                                <a href="python/data-science-and-analytical-applications-workload.md">
                                   <div class="cardSize">
                                     <div class="cardPadding">
                                       <div class="card">
@@ -714,7 +714,7 @@ ms.custom: seodec18
                                         </div>
                                           <div class="cardText">
                                             <h3>Data science and analytical applications</h3>
-                                            <p>Languages and tooling for creating data science applications, including Python, R, and F#.</p>
+                                            <p>Languages and tooling for creating data science applications, including Python and F#. (Also support R in Visual Studio 2017 only.)</p>
                                         </div>
                                       </div>
                                     </div>
