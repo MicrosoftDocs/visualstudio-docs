@@ -104,8 +104,7 @@ The preview release of Visual Studio 2019 supports building [.NET Core 3](https:
 For more information, see the following pages:
 
 * [.NET Core 3 Preview 1](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview1.md) and [.NET Core 3 Preview 2](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview2.md) release notes
-* [Announcing .NET Core 3 Preview 1](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/
-) and [Announcing .NET Core 3 Preview 2](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-2/) blog posts
+* [Announcing .NET Core 3 Preview 1](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) and [Announcing .NET Core 3 Preview 2](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-2/) blog posts
 
 ## Continuous innovation
 
