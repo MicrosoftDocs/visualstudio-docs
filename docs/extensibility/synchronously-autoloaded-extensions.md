@@ -6,26 +6,28 @@ ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Synchronously autoloaded extensions
 
-Synchronously autoloaded extensions have a negative impact on the performance of Visual Studio and should be converted to use asynchronous autoload instead. Starting in Visual Studio 2019 Preview 2, users will be notified when an extension is being synchronously autoloaded. The extension will load and work as normal.
+Synchronously autoloaded extensions have a negative impact on the performance of Visual Studio and should be converted to use asynchronous autoload instead. Starting in Visual Studio 2019 Preview 2, users are notified when an extension is being synchronously autoloaded. The extension will load and work as normal.
 
 ![extension compatibility warning](media/extension-compatibility-warning.png)
 
-1. Users can click on **Learn more** to get to this information page.
+Users can:
 
-3. Users can click on **Manage performance** to open the [Performance Manager dialog](#performance-manager-dialog) that shows performance issues with extensions and tool windows.
+- Click on **Learn more** to get to this information page.
 
-3. Users can click on **Don't show this message again** to dismiss the notification. Choosing this option will also prevent all future notifications from synchronously autoloaded extensions. Users will continue to get notifications on other Visual Studio features.
+- Click on **Manage performance** to open the [Performance Manager dialog](#performance-manager-dialog) that shows performance issues with extensions and tool windows.
+
+- Click on **Don't show this message again** to dismiss the notification. Choosing this option also prevents all future notifications from synchronously autoloaded extensions. Users will continue to get notifications about other Visual Studio features.
 
 ### Performance Manager dialog
 
-  ![performance manager dialog](media/performance-manager.png)
+![performance manager dialog](media/performance-manager.png)
 
-All extensions that synchronously loaded any packages in any user sessions will show up in the **Deprecated APIs** tab.
+All extensions that synchronously loaded any packages in any user sessions appear in the **Deprecated APIs** tab.
 
 * Users can click on the **More information about this issue** to gather more information about the deprecated APIs.
 * Users can contact their extension vendors for the migration progress.

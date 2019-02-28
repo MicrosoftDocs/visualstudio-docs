@@ -20,6 +20,8 @@ In addition, you can install a [NuGet package](https://dotnet.myget.org/feed/ros
 
 ## Visual Studio IDE code metrics
 
+Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
+
 ### Generate code metrics results for an entire solution
 
 You can generate code metrics results for an entire solution in any of the following ways:
@@ -39,6 +41,16 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
+
+::: moniker range="vs-2017"
+
+> [!NOTE]
+> The **Calculate Code Metrics** command does not work for .NET Core and .NET Standard projects. To calculate code metrics for a .NET Core or .NET Standard project, you can:
+>
+> - calculate code metrics from the [command line](#command-line-code-metrics) instead
+> - upgrade to Visual Studio 2019
+
+::: moniker-end
 
 ## Command-line code metrics
 

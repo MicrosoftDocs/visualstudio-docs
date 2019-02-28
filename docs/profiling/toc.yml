@@ -33,6 +33,8 @@
       href: custom-native-etw-heap-events.md
     - name: Memory usage without the debugger
       href: memory-usage-without-debugging2.md
+  - name: Measure performance from the command-line
+    href: profile-apps-from-command-line.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption

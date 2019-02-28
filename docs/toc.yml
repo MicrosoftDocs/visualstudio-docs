@@ -1092,7 +1092,7 @@
   items:
   - name: What's new in Visual Studio 2017
     href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019 Preview
+  - name: What's new in Visual Studio 2019 RC
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
     items:
