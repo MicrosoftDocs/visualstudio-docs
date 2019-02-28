@@ -167,4 +167,4 @@ Debugging dynamically generated files is not automatic. You cannot automatically
 
    For Internet Explorer, go to **Solution Explorer > Script Documents > Windows Internet Explorer > YourPageName**.
 
-For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://blogs.msdn.microsoft.com/webdev/2016/11/21/client-side-debugging-of-asp-net-projects-in-google-chrome/).
+For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).

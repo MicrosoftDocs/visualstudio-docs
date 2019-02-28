@@ -40,6 +40,9 @@ Possible reasons for this error message include:
 -   Starting to debug an old version of an app, because the latest version has build errors.
 
 For more information, see:
-- [C++ Edit and Continue blog post](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/)
+- [C++ Edit and Continue blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/)
 - [Supported code changes (C++)](../debugger/supported-code-changes-cpp.md)
 - [Edit and Continue](../debugger/edit-and-continue.md)
+- 
+- 
+- https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/
