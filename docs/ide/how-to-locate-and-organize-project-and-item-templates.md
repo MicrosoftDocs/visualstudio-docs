@@ -24,13 +24,29 @@ Installed templates and user templates are stored in two different locations.
 
 If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the **New Project** or **Add New Item** dialog box. By default, user templates are located in:
 
-- *%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates*
+::: moniker range="vs-2017"
 
-- *%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates*
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*
 
 For example, the following directory has user project templates for C#:
 
 - *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
 
 > [!TIP]
 > You can set the location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.

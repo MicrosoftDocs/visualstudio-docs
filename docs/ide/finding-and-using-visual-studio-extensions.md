@@ -55,9 +55,9 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 ## Extension crash and unresponsiveness notifications
 
-New in **Visual Studio 2017 version 15.3**, Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
+Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
-New in **Visual Studio 2017 version 15.6**, Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
+Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
 
 When these notifications are shown, you can ignore the notification or take one of the following actions:
 
