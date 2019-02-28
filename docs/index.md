@@ -714,7 +714,7 @@ ms.custom: seodec18
                                         </div>
                                           <div class="cardText">
                                             <h3>Data science and analytical applications</h3>
-                                            <p>Languages and tooling for creating data science applications, including Python and F#. (Also support R in Visual Studio 2017 only.)</p>
+                                            <p>Languages and tooling for creating data science applications, including Python and F# (and R in Visual Studio 2017 only).</p>
                                         </div>
                                       </div>
                                     </div>
