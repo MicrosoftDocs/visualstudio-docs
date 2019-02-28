@@ -63,7 +63,7 @@ To take full advantage of SQL Server integration, use the Visual Studio installe
 
 For more information:
 
-- [Work with SQL Server and R](integrating-sql-server-with-r.md)
+- [Work with SQL Server and R](../rtvs/integrating-sql-server-with-r.md)
 - [Python in SQL Server 2017: enhanced in-database machine learning (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/)
 - [In-database Advanced Analytics with R in SQL Server 2016 (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2016/03/29/in-database-advanced-analytics-with-r-in-sql-server-2016/)
 
