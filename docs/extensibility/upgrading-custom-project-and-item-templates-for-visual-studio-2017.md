@@ -8,6 +8,7 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Upgrading Custom Project and Item Templates for Visual Studio 2017
 

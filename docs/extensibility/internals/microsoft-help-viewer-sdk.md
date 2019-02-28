@@ -334,9 +334,22 @@ A user can then register CustomLibrary as the namespace under the Partners hive,
 
 Add the following registry key and value:
 
-HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help key: Display Debug Output in Retail value: YES
+::: moniker range="vs-2017"
 
-In the IDE, under the Help menu item, select "Debug Help Context"
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Dynamic Help**
+
+::: moniker-end
+
+Value: Display Debug Output in Retail
+Data: YES
+
+In the IDE, under the Help menu item, select **Debug Help Context**.
 
 **Content Metadata**
 
