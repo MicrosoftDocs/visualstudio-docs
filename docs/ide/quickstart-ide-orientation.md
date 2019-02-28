@@ -35,7 +35,7 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-![Start window in Visual Studio 2019](media/vs-2019/start-window-labeled.png)
+[![](media/vs-2019/start-window-labeled.png "Start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -71,7 +71,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![New project dialog in Visual Studio 2019](media/vs-2019/create-a-new-project.png)
 
-1. If you selected C# or Visual Basic as your language, select the **Console App (.NET Framework)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Framework)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
 
 1. On the **Configure your new project** page, accept the default project name and location, and then choose **Create**.
 
@@ -99,7 +99,7 @@ The menu bar along the top of Visual Studio groups commands into categories. For
 
 ::: moniker range=">=vs-2019"
 
-![Menu bar in Visual Studio 2019](media/vs-2019/gsmenu-bar.png)
+![Menu bar in Visual Studio 2019](media/vs-2019/menu-bar.png)
 
 ::: moniker-end
 
@@ -127,9 +127,11 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 1. Locate the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
-1. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch search box in Visual Studio 2017](media/quickstart-IDE-quick-launch.png)
+
+   The **Options** dialog box opens to the **Build and Run** options page.
 
 ::: moniker-end
 
@@ -137,17 +139,17 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 1. Locate the **Quick Launch** search box in the upper part of the IDE, just to the right of the menus. (Alternatively, press **Ctrl**+**Q** to access it.)
 
-1. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Change MSBuild verbosity**.
+2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Change MSBuild verbosity**.
 
    ![Quick launch search box in Visual Studio 2019](media/vs-2019/quick-launch-verbosity.png)
 
-::: moniker-end
-
    The **Options** dialog box opens to the **Build and Run** options page.
 
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
+::: moniker-end
 
-1. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
+3. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
+
+4. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
 
    This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
 
