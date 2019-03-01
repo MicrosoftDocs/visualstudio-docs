@@ -68,7 +68,7 @@ There are two common ways in which this problem manifests in Visual Studio:
 
 To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/ide/hint-files).
 
-**Visual Studio 2017 version 15.7** Tag Parser errors appear in the Error List window.
+Tag parser errors appear in the **Error List** window.
 
 ## Validate project settings with diagnostic logging
 
@@ -101,7 +101,7 @@ However, in some cases Visual Studio might not update the IntelliSense database 
 
 ## Troubleshooting IntelliSense build failures
 
-An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In  Visual Studio 2017 version 15.6, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
+An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In Visual Studio 2017 version 15.6 and later, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
 
 ![Output window for solution errors](media/vcpp-intellisense-output-window.png)
 

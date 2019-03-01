@@ -18,7 +18,7 @@ The XSLT Profiler is part of Visual Studio and is available from the **XML** men
 ![XSLT Profiler](../xml-tools/media/profile-xslt-menu.png)
 
 > [!NOTE]
-> The XSLT Profiler is only available in the Enterprise edition of Visual Studio 2017.
+> The XSLT Profiler is only available in the Enterprise edition of Visual Studio.
 
 ## See also
 

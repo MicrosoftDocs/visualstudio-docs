@@ -630,7 +630,7 @@ To disable project upgrades, use a `NoUpgrade` value:
 
 ## Project cache and extensibility
 
-To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
+To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
 
 Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
 
