@@ -6,8 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 11/13/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/29/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -28,30 +27,17 @@ Also note the following about the page:
 * If you choose to, you can also install the **Recommended** and **Optional** components.
 * We've also added a section that lists the additional components that are not affiliated with any workload.
 
-When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+::: moniker range="vs-2017"
 
-For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
+[!include[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
 
-## Visual Studio core editor (included with Visual Studio Team Explorer 2017)
+::: moniker-end
 
-**ID:** Microsoft.VisualStudio.Workload.CoreEditor
+::: moniker range=">= vs-2019"
 
-**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control and work item management.
+[!include[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
 
-### Components included by this workload
-
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
-Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
-
-## Unaffiliated components
-
-These are components that are not included with any workload, but may be selected as an individual component.
-
-Component ID | Name | Version
---- | --- | ---
-n/a | n/a | n/a
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
