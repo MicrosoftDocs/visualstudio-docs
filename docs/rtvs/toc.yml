@@ -3,7 +3,7 @@
   - name: R Tools for Visual Studio
     href: index.md
   - name: Data science and analytical applications workload
-    href: data-science-and-analytical-applications-workload.md
+    href: ../python/data-science-and-analytical-applications-workload.md
 - name: Quickstarts
   items:
   - name: Installation
