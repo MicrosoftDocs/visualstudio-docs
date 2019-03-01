@@ -99,7 +99,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\ProjectComponents\
 
-    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v150\
+    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\
 
     - %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETCore\v4.5\
 
@@ -286,7 +286,7 @@ MSBuild requires some additional assemblies to be installed to the GAC on the bu
 
 1. Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn't matter where you put them on the build computer.
 
-    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v150\Microsoft.Build.CPPTasks.Common.v150.dll
+    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll
 
     - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\CommonExtensions\Microsoft\VC\Project\Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.dll
 
@@ -328,23 +328,23 @@ You can create a build environment that can be deployed to various computers and
 
 3. When the files are pasted in *%Depot%*, make these changes:
 
-    - In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v150\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of
+    - In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of
 
-         AssemblyName="Microsoft.Build.CppTasks.Common.v150, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+         AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
 
          to
 
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v150.dll".
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll".
 
          The former naming relies on the assembly being GAC'ed.
 
-    - In %Depot% \MSBuild\Microsoft.Cpp\v4.0\v150\Microsoft.CPPClean.Targets, change every instance of
+    - In %Depot% \MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPPClean.Targets, change every instance of
 
-         AssemblyName="Microsoft.Build.CppTasks.Common.v150, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+         AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
 
          to
 
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v150.dll".
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll".
 
 4. Create a *.props* file—for example, *Partner.AutoImports.props*—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other *.props* files and *.targets* files that rely on registry values. Because we aren't setting any registry values, these variables would be empty and the build would fail. Instead, add this to *Partner.AutoImports.props*:
 
@@ -354,8 +354,8 @@ You can create a build environment that can be deployed to various computers and
     <Project ToolsVersion="4.0"
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-    <VCTargetsPath>$(DepotRoot)MSBuild\Microsoft.Cpp\v4.0\v150\</VCTargetsPath>
-    <VCTargetsPath11>$(DepotRoot)MSBuild\Microsoft.Cpp\v4.0\v150\</VCTargetsPath11>
+    <VCTargetsPath>$(DepotRoot)MSBuild\Microsoft.Cpp\v4.0\v110\</VCTargetsPath>
+    <VCTargetsPath11>$(DepotRoot)MSBuild\Microsoft.Cpp\v4.0\v110\</VCTargetsPath11>
     <MSBuildExtensionsPath>$(DepotRoot)MSBuild</MSBuildExtensionsPath>
     <MSBuildExtensionsPath32>$(DepotRoot)MSBuild</MSBuildExtensionsPath32>
     <VCInstallDir_110>$(DepotRoot)Microsoft Visual Studio\2017\Enterprise\VC\</VCInstallDir_110>
