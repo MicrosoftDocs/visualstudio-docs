@@ -35,7 +35,7 @@ Also note the following about the page:
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Build Tools 2019](includes/vs-2019/dworkload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
 
 ::: moniker-end
 

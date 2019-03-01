@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Team Explorer 2017 workload and component IDs
+title: Visual Studio Team Explorer workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
@@ -17,7 +17,7 @@ ms.assetid: c6ef9a3b-d13d-49b4-9faa-51fa06b21e1f
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Visual Studio Team Explorer 2017 component directory
+# Visual Studio Team Explorer component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 
