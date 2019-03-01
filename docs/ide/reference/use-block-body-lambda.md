@@ -22,7 +22,7 @@ This refactoring applies to:
 
 **Why:** Lambda expressions can be refactored to improve readability according to your user preference.
 
-## How-to
+## Lambda expression body or block body refactoring
 
 1. Place your cursor on the right of a lambda operator.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -34,3 +34,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

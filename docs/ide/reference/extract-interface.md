@@ -27,7 +27,7 @@ This refactoring applies to:
 
 **Why:** Interfaces are great constructs for object-oriented designs. Imagine having classes for various animals (Dog, Cat, Bird) which might all have common methods, such as Eat, Drink, Sleep. Using an interface like IAnimal would allow Dog, Cat, and Bird to have a common "signature" for these methods.
 
-## How-to
+## Extract an interface refactoring
 
 1. Place your cursor in the class name.
 
@@ -77,3 +77,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

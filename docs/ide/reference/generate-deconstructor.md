@@ -47,3 +47,4 @@ This code generation applies to:
 
 - [Code generation](../code-generation-in-visual-studio.md)
 - [Preview changes](../../ide/preview-changes.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

@@ -24,7 +24,7 @@ This refactoring applies to:
 
 **Why:** Inverting an `if` or `if else` statement by hand can take much longer and possibly introduce errors. This code fix helps you do this refactoring automatically.
 
-## How-to
+## Invert if statement refactoring
 
 1. Place your cursor in an `if` or `if else` statement.
 
@@ -41,3 +41,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

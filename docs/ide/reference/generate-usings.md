@@ -22,7 +22,7 @@ This code generation applies to:
 
 **Why:** By automatically adding necessary imports, the user doesn't need to manually copy the needed `using` statements.
 
-## How-to
+## Generate usings refactoring
 
 1. Copy and paste code from a different file without including the necessary `using` statements. The error is now accompanied by a code fix that adds the missing `using` statements.
 
@@ -41,3 +41,4 @@ This code generation applies to:
 
 - [Code Generation](../code-generation-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

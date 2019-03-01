@@ -24,7 +24,7 @@ This refactoring applies to:
 
 **Why:** You may want to convert a local function to a method so you can call it outside of your local context. You may want to convert to a method when your local function is getting too long. Defining it in a separate method makes your code easier to read.
 
-## How-to
+## Convert local function to method refactoring
 
 1. Place your cursor in a local function.
 
@@ -41,3 +41,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

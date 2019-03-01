@@ -25,7 +25,7 @@ This refactoring applies to:
 > [!NOTE]
 > LINQ syntax is typically less performant than foreach loops. It's good to be aware of any performace trade off you may cause when improving the readability of your code with LINQ.
 
-## How-to
+## Convert foreach loop to LINQ refactoring
 
 1. Place your cursor in the `foreach` keyword.
 
@@ -45,3 +45,4 @@ This refactoring applies to:
 
 - [Refactoring](../refactoring-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

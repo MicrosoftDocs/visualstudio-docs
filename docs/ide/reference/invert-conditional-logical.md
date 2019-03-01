@@ -24,7 +24,7 @@ This refactoring applies to:
 
 **Why:** Inverting an expression or conditional AND/OR operator by hand can take much longer and possibly introduce errors. This code fix helps you do this refactoring automatically.
 
-## How-to
+## Invert conditional expressions and conditional AND/OR operators refactoring
 
 1. Place your cursor in a conditional expression or a conditional AND/OR operator.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -37,3 +37,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)

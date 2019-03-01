@@ -24,7 +24,7 @@ This refactoring applies to:
 
 **Why:** Sometimes it's difficult to tell if a value or parameter is no longer being used. By fading out these values or giving a warning, you get a visual cue of what code you can delete.
 
-## How-to
+## Unused expression values and parameters diagnostic
 
 1. Have any expression value or parameter that isn't used.
 2. The unused parameter appears faded out. The unused expression value receives a warning.
@@ -35,3 +35,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
+- [Tips for .NET Developers](../visual-studio-2017-for-dotnet-developers)
