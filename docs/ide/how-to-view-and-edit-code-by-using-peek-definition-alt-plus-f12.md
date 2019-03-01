@@ -18,7 +18,7 @@ You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual B
 
 ### To open a Peek Definition window
 
-1. You can peek a definition by choosing **Peek Definition** from the right-click menu for a type or member that you want to explore. In Visual Studio 2017 version 15.4 and later, if the option is enabled, you can also peek a definition using the mouse, by pressing **Ctrl** (or another modifier) and clicking the member name. Or, from the keyboard, press **Alt**+**F12**.
+1. You can peek a definition by choosing **Peek Definition** from the right-click menu for a type or member that you want to explore. If the option is enabled, you can also peek a definition using the mouse, by pressing **Ctrl** (or another modifier) and clicking the member name. Or, from the keyboard, press **Alt**+**F12**.
 
      This illustration shows the **Peek Definition** window for a method that's named `Print()`:
 
