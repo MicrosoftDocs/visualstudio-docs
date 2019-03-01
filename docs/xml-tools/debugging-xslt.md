@@ -14,7 +14,7 @@ ms.workload:
 You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on.
 
 > [!NOTE]
-> The XSLT debugger is only available in the Enterprise edition of Visual Studio 2017.
+> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
 
 ## XSLT profiler
 
