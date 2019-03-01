@@ -15,10 +15,15 @@ ms.workload:
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together several languages and their respective runtime distributions:
 
+::: moniker range="vs-2017"
 - [Python and Anaconda](../python/overview-of-python-tools-for-visual-studio.md)
 - [F# with the .NET framework](/dotnet/fsharp/)
-::: moniker range="vs-2017"
 - [R and Microsoft R Client](../rtvs/index.md)
+::: moniker-end
+
+::: moniker range="vs-2019"
+- [Python](../python/overview-of-python-tools-for-visual-studio.md)
+- [F# with the .NET framework](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)
