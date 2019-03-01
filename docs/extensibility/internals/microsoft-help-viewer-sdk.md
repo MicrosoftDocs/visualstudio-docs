@@ -135,7 +135,7 @@ The body (not including the header and footer) of the topic will contain page li
 
 5.  Add code language-specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that `devLangnu=` allows you to enter other languages. For example, `devLangnu="Fortran"` displays Fortran when the code snippet DisplayLanguage = Fortran
 
-6.  Add page links: `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
+6.  Add page links: `<a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
 >  Note: for non-supported new "Display Language" (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
@@ -251,7 +251,7 @@ some F# code
 
     <div id="seeAlsoSection" class="section">
     <div class="seeAlsoStyle">
-        <a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>
+        <a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>
     </div>
  </div>
 </div>
