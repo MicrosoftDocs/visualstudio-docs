@@ -85,7 +85,6 @@
       "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
-      "monikerRange": "vs-2017",
       "searchScope": [
         "VS IDE"
       ],
@@ -125,9 +124,6 @@
       "titleSuffix": {
         "ai/**/**.md": "AI tools for Visual Studio",
         "vs-2015/**/**.md": "Visual Studio 2015"
-      },
-      "monikerRange": {
-        "vs-2015/**/**.md": "vs-2015"
       },
       "breadcrumb_path": {
         "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
