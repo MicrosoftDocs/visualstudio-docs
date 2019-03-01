@@ -1109,13 +1109,3 @@ Microsoft.VisualStudio.Component.VC.Tools.14.12 | VC++ 2017 version 15.5 v14.12 
 Microsoft.VisualStudio.Component.VC.Tools.14.13 | VC++ 2017 version 15.6 v14.13 toolset | 15.0.27924.0
 Microsoft.VisualStudio.Component.VC.Tools.14.14 | VC++ 2017 version 15.7 v14.14 toolset | 15.0.27924.0
 Microsoft.VisualStudio.Component.VC.Tools.14.15 | VC++ 2017 version 15.8 v14.15 toolset | 15.0.28230.55
-
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-## See also
-
-* [Visual Studio workload and component IDs](workload-and-component-ids.md)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-  * [Command-line parameter examples](command-line-parameter-examples.md)
-* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)

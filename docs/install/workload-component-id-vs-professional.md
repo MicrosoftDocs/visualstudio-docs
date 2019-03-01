@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Professional 2017 workload and component IDs
+title: Visual Studio Professional workload and component IDs
 titleSuffix: ""
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
 keywords:
@@ -29,13 +29,13 @@ Also note the following about the page:
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Professional 2017](includes/vs-2017/workload-component-id-vs-professional.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Professional 2019](includes/vs-2019/workload-component-id-vs-professional.md)]
 
 ::: moniker-end
 

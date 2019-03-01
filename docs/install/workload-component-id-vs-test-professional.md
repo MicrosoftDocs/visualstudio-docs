@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Test 2017 Professional workload and component IDs
+title: Visual Studio Test Professional workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
@@ -18,7 +18,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: vs-2017
 ---
-# Visual Studio Test Professional 2017 component directory
+# Visual Studio Test Professional component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 

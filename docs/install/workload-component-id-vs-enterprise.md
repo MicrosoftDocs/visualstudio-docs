@@ -29,13 +29,13 @@ Also note the following about the page:
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Enterprise 2017](includes/vs-2017/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Enterprise 2019](includes/vs-2019/workload-component-id-enterprise.md)]
 
 ::: moniker-end
 

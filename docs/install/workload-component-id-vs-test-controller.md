@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Test Controller 2017 workload and component IDs
+title: Visual Studio Test Controller workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
 keywords:
@@ -16,7 +16,7 @@ ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Visual Studio Test Controller 2017 component directory
+# Visual Studio Test Controller component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 
@@ -29,13 +29,13 @@ Also note the following about the page:
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Test Controller 2017](includes/vs-2017/workload-component-id-vs-test-controller.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
+[!include[Visual Studio Test Controller 2019](includes/vs-2019/workload-component-id-vs-test-controller.md)]
 
 ::: moniker-end
 
