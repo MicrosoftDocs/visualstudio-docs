@@ -13,7 +13,7 @@ ms.workload:
 
 You can declutter a build log by filtering out one or more kinds of compiler warnings. For example, you might want to review only some of the output that's generated when you set the build log verbosity to **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
-## Suppress specific warnings for Visual C# or F# #
+## Suppress specific warnings for Visual C# or F\#
 
 Use the **Build** property page to suppress specific warnings for C# and F# projects.
 
