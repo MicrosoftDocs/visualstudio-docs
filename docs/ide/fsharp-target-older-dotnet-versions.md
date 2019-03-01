@@ -47,7 +47,7 @@ To resolve this error, you can either:
 
 ### To install the F# 2.0 runtime
 
-Follow the [steps to repair Visual Studio 2017](../install/repair-visual-studio.md).
+Follow the [steps to repair Visual Studio](../install/repair-visual-studio.md).
 
 ## See also
 

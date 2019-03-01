@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Overview of .NET Compiler Platform analyzers
 
-Visual Studio 2017 includes a built-in set of .NET Compiler Platform analyzers that analyze your C# or Visual Basic code as you type. Analyzers look at code style, code quality and maintainability, code design, and other issues. You can install additional analyzers as a Visual Studio extension, or on a per-project basis as a NuGet package.
+Visual Studio includes a built-in set of .NET Compiler Platform analyzers that analyze your C# or Visual Basic code as you type. Analyzers look at code style, code quality and maintainability, code design, and other issues. You can install additional analyzers as a Visual Studio extension, or on a per-project basis as a NuGet package.
 
 If rule violations are found by an analyzer, they are reported both in the code editor as a *squiggly* under the offending code, and in the **Error List**.
 

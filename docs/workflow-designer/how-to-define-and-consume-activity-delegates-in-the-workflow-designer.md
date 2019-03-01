@@ -20,7 +20,7 @@ author: gewarren
 2. In the **New Project** dialog box, select the **Workflow** category on the left, and then select the **Workflow Console Application** project template. Name the project (if desired) and click **Ok**.
 
    > [!NOTE]
-   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
 3. Right-click on the project in **Solution Explorer** and select **Add** > **New Item**. Select the **Workflow** category, and then select the **Activity** item template. Name the new activity **MyForEach.xaml** and then select **OK**.
 

@@ -28,13 +28,13 @@ The complete Visual Basic solution can be downloaded from the [MicrosoftDocs/vis
 
 ## Prerequisites
 
-This tutorial requires that you've installed Visual Studio 2017 Enterprise Edition version 15.3 with the .NET Core 2.0 workload.
+This tutorial requires that you've installed Visual Studio Enterprise Edition with the .NET Core 2.0 workload.
 
 ## Create the solution and the class library project
 
 Begin by creating a Visual Studio solution named `UtilityLibraries` that consists of a single .NET Standard class library project, `StringLibrary`. You can write `StringLibrary` in either C# or Visual Basic.
 
-The solution is just a container for one or more projects. To create the solution, open Visual Studio 2017 and do the following:
+The solution is just a container for one or more projects. To create the solution, open Visual Studio and do the following:
 
 1. Select **File** > **New** > **Project** from the top-level Visual Studio menu.
 

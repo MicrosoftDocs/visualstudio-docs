@@ -65,7 +65,7 @@ For information about how to access this property programmatically, see <xref:VS
 
 **Auto-generate binding redirects**
 
-Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**. This checkbox was introduced in Visual Studio 2017 version 15.7.
+Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**.
 
 For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
 
