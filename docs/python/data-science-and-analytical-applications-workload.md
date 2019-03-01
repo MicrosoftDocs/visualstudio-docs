@@ -17,23 +17,18 @@ The Data Science and Analytical Applications workload, which you select and inst
 
 - [Python and Anaconda](../python/overview-of-python-tools-for-visual-studio.md)
 - [F# with the .NET framework](/dotnet/fsharp/)
-
 ::: moniker range="vs-2017"
 - [R and Microsoft R Client](../rtvs/index.md)
 ::: moniker-end
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)
 
-::: moniker range="vs-2019"
-(For R we recommend [Azure Notebooks](https://notebooks.azure.com) for R work.)
-::: moniker-end
-
 ::: moniker range="vs-2017"
 Python and R are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
+Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks. (For the R language we recommend [Azure Notebooks](https://notebooks.azure.com).)
 ::: moniker-end
 
 <!--Note link on the image because this one is large -->
@@ -43,14 +38,21 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio installer:
 
+::: moniker range="vs-2019"
 - F# desktop language support
 - Python:
   - Python language support
-  - [Anaconda3 64-bit](https://www.continuum.io) (Visual Studio 2017 only), a Python distro that includes extensive data science libraries and a Python interpreter.
   - Python web support
+::: moniker-end
+
 ::: moniker range="vs-2017"
-  - Cookiecutter template support (Visual Studio 2017 only)
-- R (Visual Studio 2017 only):
+- F# language support
+- Python:
+  - Python language support
+  - [Anaconda3 64-bit](https://www.continuum.io), a Python distro that includes extensive data science libraries and a Python interpreter.
+  - Python web support
+  - Cookiecutter template support
+- R:
   - R language support
   - Runtime support for R development tools
   - [Microsoft R Client](/machine-learning-server/r-client/what-is-microsoft-r-client) (Microsoft’s fully compatible, community-supported R interpreter with ScaleR libraries for faster computation on single nodes or clusters. You can also use any R from [CRAN](https://cran.r-project.org/).)
