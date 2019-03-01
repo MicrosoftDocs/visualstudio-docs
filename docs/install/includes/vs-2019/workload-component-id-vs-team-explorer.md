@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Team Explorer 2017 workload and component IDs
+title: Visual Studio Team Explorer 2019 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
@@ -16,7 +16,7 @@ When you set dependencies in your VSIX manifest, you must specify Component IDs 
 
 For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 
-## Visual Studio core editor (included with Visual Studio Team Explorer 2017)
+## Visual Studio core editor (included with Visual Studio Team Explorer 2019)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
@@ -26,8 +26,8 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
-Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 16.0.28315.86 | Required
+Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 16.0.28315.86 | Optional
 
 ## Unaffiliated components
 
@@ -36,13 +36,3 @@ These are components that are not included with any workload, but may be selecte
 Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
-
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-## See also
-
-* [Visual Studio workload and component IDs](workload-and-component-ids.md)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-  * [Command-line parameter examples](command-line-parameter-examples.md)
-* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
