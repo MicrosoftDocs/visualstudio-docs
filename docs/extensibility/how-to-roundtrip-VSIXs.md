@@ -82,7 +82,7 @@ We need to tell Visual Studio what versions to target for building a VSIX. Typic
 
 * Open the *source.extension.vsixmanifest* file in Visual Studio.
 * Open the **Install Targets** tab.
-* Change the **Version Range** to [14.0, 17.0). The '[' tells Visual Studio to include 14.0 and all versions past it. The  ')' tells Visual Studio to include all versions up to, but not including version 17.0.
+* Change the **Version Range** to [14.0, 17.0). The '[' tells Visual Studio to include 14.0 and all versions past it. The  ')' tells Visual Studio to include all versions up to, but not including, version 17.0.
 * Save all changes and close all instances of Visual Studio.
 
 ![Installation Targets Image](media/visual-studio-installation-targets-example.png)

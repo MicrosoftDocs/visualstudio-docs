@@ -25,8 +25,10 @@ Visual Studio 2017 introduced the VSIX v3 (version 3) format to support the ligh
 Changes to the VSIX format include:
 
 * Declaration of setup prerequisites. To deliver on the promise of a lightweight, fast-installing Visual Studio, the installer now offers more configuration options to users. As a result, to ensure that the features and components required by an extension are installed, extensions need to declare their dependencies.
+
   * The Visual Studio 2017 installer automatically offers to acquire and install the necessary components for the user as part of installing your extension.
   * Users are also warned when trying to install an extension that was not built using the new VSIX v3 format, even if they have been marked in their manifest as targeting version 15.0.
+
 * Enhanced capabilities for the VSIX format. To deliver on a [low-impact install](https://devblogs.microsoft.com/visualstudio/anatomy-of-a-low-impact-visual-studio-install) of Visual Studio that also supports side-by-side installs, we no longer save most configuration data to the system registry and have moved Visual Studio-specific assemblies out of the GAC. We also increased the capabilities of the VSIX format and VSIX installation engine, allowing you to use it rather than an MSI or EXE to install your extensions for some installation types.
 
 The new capabilities include:
@@ -97,11 +99,12 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 ### Visual Studio registry
 
 * Previously, Visual Studio installed many registry keys into the system's **HKEY_LOCAL_MACHINE** and **HKEY_CURRENT_USER** hives under a Visual Studio-specific key:
+
   * **HKLM\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by MSI installers and per-machine extensions.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by Visual Studio to store user-specific settings.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}_Config**: A copy of Visual Studio HKLM key above, plus the registry keys merged from *.pkgdef* files by extensions.
-* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](/windows/desktop/api/winreg/nf-winreg-regloadappkeya) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
 
+* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](/windows/desktop/api/winreg/nf-winreg-regloadappkeya) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
 * Existing code running inside the Visual Studio process is not impacted. Visual Studio will redirect all registry operations under the HKCU Visual Studio-specific key to the private registry. Reading and writing to other registry locations will continue to use the system registry.
 * External code will need to load and read from this file for Visual Studio registry entries.
 

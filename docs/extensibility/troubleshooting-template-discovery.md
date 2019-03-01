@@ -12,24 +12,28 @@ ms.workload:
 
 If you run into problems deploying your project or item templates, you can enable diagnostic logging.
 
-1. Create a pkgdef file in the Common7\IDE\CommonExtensions folder for your installation (e.g. C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef) with the following contents:
+1. Create a pkgdef file in the *Common7\IDE\CommonExtensions* folder for your installation (for example, *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef*) with the following contents:
 
     ```
     [$RootKey$\VsTemplate]
     "EnableTemplateDiscoveryLog"=dword:00000001
     ```
 
-2. Open a "Developer Command Prompt" for your installation by searching for it in Windows search, and run `devenv /updateConfiguration`.
+2. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for your installation and run `devenv /updateConfiguration`.
 
 ::: moniker range="vs-2017"
 
-3. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
+3. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees.
+
+   The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
+3. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees.
+
+   The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
 
 ::: moniker-end
 
