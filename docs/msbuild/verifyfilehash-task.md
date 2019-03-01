@@ -58,6 +58,5 @@ The following example uses the `VerifyFileHash` task to verify its own checksum.
 
 ## See also
 
-[Tasks](../msbuild/msbuild-tasks.md)
-
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

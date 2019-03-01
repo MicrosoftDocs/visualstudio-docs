@@ -1,7 +1,6 @@
 ---
 title: Viewing type definitions
 ms.date: 01/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, view definition"
@@ -25,17 +24,19 @@ The **Go To Definition** feature navigates to the source of a type or member, an
 
 ### Ctrl-click Go To Definition
 
-In Visual Studio 2017 version 15.4, there's an easier way for mouse users to quickly access **Go To Definition**. Symbols become clickable when you press **Ctrl** and hover over the type or member. To quickly navigate to the definition of a symbol, press the **Ctrl** key and then click on it. It's that easy!
+**Ctrl**+**click** is a shortcut for mouse users to quickly access **Go To Definition**. Symbols become clickable when you press **Ctrl** and hover over the type or member. To quickly navigate to the definition of a symbol, press the **Ctrl** key and then click on it. It's that easy!
 
 ![Mouse click go to definition animation](../ide/media/click_gotodef.gif)
 
-You can change the modifier key for mouse-click **Go To Definition** by going to **Tools** > **Options** > **Text Editor** > **General**, and selecting either **Alt** or **Ctrl+Alt** from the **Use modifier key** drop-down. You can also disable mouse-click **Go To Definition** by unchecking the **Enable mouse click to perform Go To Definition** checkbox.
+You can change the modifier key for mouse-click **Go To Definition** by going to **Tools** > **Options** > **Text Editor** > **General**, and selecting either **Alt** or **Ctrl**+**Alt** from the **Use modifier key** drop-down. You can also disable mouse-click **Go To Definition** by unchecking the **Enable mouse click to perform Go To Definition** checkbox.
 
 ![Enabling mouse-click go to definition](../ide/media/editor_options_mouse_click_gotodef.png)
 
 ## Peek Definition
 
-The **Peek Definition** feature lets you preview the definition of a type without leaving your current location in the editor. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, you can select **Peek Definition** from the right-click menu. In Visual Studio 2017 version 15.4 and later, there is a new way to peek view a definition by using the mouse. First, go to **Tools** > **Options** > **Text Editor** > **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.
+The **Peek Definition** feature lets you preview the definition of a type without leaving your current location in the editor. If you are a keyboard user, place your text cursor somewhere inside the type or member name and press **Alt + F12**. If you are a mouse user, you can select **Peek Definition** from the right-click menu.
+
+To enable **Ctrl**+**click** functionality, go to **Tools** > **Options** > **Text Editor** > **General**. Select the option **Open definition in peek view** and click **OK** to close the **Options** dialog box.
 
 ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
 
@@ -43,7 +44,7 @@ Then, press **Ctrl** (or whichever modifier key is selected in **Options**), and
 
 ![Peek definition animation](../ide/media/peek_definition.gif)
 
-If you peek another definition from the popup window, you will start a breadcrumb path, which you can navigate using the circles and arrows that appear above the popup.
+If you peek another definition from the popup window, you start a breadcrumb path that you can navigate using the circles and arrows that appear above the popup.
 
 For more information, see [How to: View and edit code by using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
@@ -62,7 +63,7 @@ For example, if you run the **Go To Definition** command for <xref:System.Consol
 
 ### View decompiled source definitions instead of metadata (C#)
 
-New in Visual Studio 2017 version 15.6, you can set an option to see decompiled source code when you view the definition of a C# type or member whose source code is unavailable. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** > **C#** > **Advanced**, and select **Enable navigation to decompiled sources**.
+You can set an option to see decompiled source code when you view the definition of a C# type or member whose source code is unavailable. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** > **C#** > **Advanced**, and select **Enable navigation to decompiled sources**.
 
 ![Viewing a decompiled definition](media/go-to-definition-decompiled-sources.png)
 

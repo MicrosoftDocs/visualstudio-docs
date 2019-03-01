@@ -1,7 +1,6 @@
 ---
 title: Preview code changes
 ms.date: 12/16/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

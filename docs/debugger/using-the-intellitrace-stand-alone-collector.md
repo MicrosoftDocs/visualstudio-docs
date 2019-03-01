@@ -166,7 +166,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
    > [!NOTE]
    > - To avoid slowing down your app, choose a location on a local high-speed disk that's not very active.
    >   -   You can put .iTrace files and the collector files in the same place. However, if you have a Web app or SharePoint application, make sure this place is outside the directory that hosts the application.
-   > 
+   >
    > [!IMPORTANT]
    > - Restrict the .iTrace file directory only to those identities that must work with the collector. An .iTrace file might contain sensitive information, such as data from users, databases, other source locations, and connection strings because IntelliTrace can record any data that passes into method parameters or as return values.
    >   -   Make sure those who can open .iTrace files have the authority to view sensitive data. Use caution when sharing .iTrace files. If other people must have access, copy the files to a secure shared location.
@@ -387,7 +387,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
  [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233)
 
- [Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+ [Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### Forums
  [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)

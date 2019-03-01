@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Class Diagrams to Projects (Class Designer)"
 ms.date: 05/08/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "class diagrams, creating"
@@ -21,7 +20,7 @@ You can't create class diagrams from projects that share code across multiple ap
 
 ## Install the Class Designer component
 
-If you are running Visual Studio 2017 and you haven't installed the **Class Designer** component, follow these steps to install it.
+If you haven't installed the **Class Designer** component, follow these steps to install it.
 
 1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
 

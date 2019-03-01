@@ -2,7 +2,6 @@
 title: "Workflow Designer - How to: Add a New Item to a Workflow Project"
 ms.date: 06/25/2018
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 author: gewarren
 ms.author: gewarren
@@ -33,7 +32,7 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 1. In the left-hand pane, select the **Workflow** category, and then select a workflow item template.
 
    > [!NOTE]
-   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
 1. Enter a name for the item in the **Name** box at the bottom of the dialog box.
 

@@ -1,7 +1,6 @@
 ---
 title: "CA1063: Implement IDisposable correctly"
 ms.date: 02/12/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "ImplementIDisposableCorrectly"

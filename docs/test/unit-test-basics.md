@@ -1,7 +1,6 @@
 ---
 title: "Unit Test Basics"
-ms.date: 2016-01-07
-ms.prod: visual-studio-dev15
+ms.date: 01/07/2016
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"

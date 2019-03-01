@@ -1,5 +1,5 @@
 ---
-title: Publish to Azure App Service - Visual Studio for Mac
+title: Publish to Azure App Service
 ms.date: 01/17/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -8,18 +8,18 @@ ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
 author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
-ms.prod: visual-studio-mac-dev15
+ms.prod: visual-studio-mac
+ms.custom: video
 ms.workload:
   - "azure"
 ---
-
 # Publish a Web app to Azure App Service using Visual Studio for Mac
 
 You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Prerequisites
 
- - [Visual Studio 2017 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs4mac2017) installed with ASP.NET Core enabled.
+ - [Visual Studio 2017 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2017) installed with ASP.NET Core enabled.
  - An Azure Subscription. If you do not already have a subscription, [sign up for free](https://azure.microsoft.com/free/dotnet/), which includes $200 in credit for 30 days and 12 months of popular free services.
  - An ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2017).
 
@@ -39,7 +39,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
     ![Publish to Azure App Service dialog](media/publish-to-app-service-dialog.png)
 
- 5. To create a new App Service, click the **New** button. 
+ 5. To create a new App Service, click the **New** button.
 
     ![Publish to App Service Dialog](media/publish-to-app-service-dialog-new-selected.png)
 
@@ -62,3 +62,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
       ![Create App Service Message](media/publish-create-app-service-message.png)
 
     After clicking **OK** the message is dismissed, and you can continue working on your project. You can watch the status of the publish process with the status bar at the top of the IDE. Once your web app is successfully published, the site is opened with your default browser.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player]

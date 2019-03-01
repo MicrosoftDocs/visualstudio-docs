@@ -5,6 +5,7 @@ author: conceptdev
 ms.author: crdun
 ms.date: 07/13/2017
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
+ms.custom: video
 ---
 
 # Getting Started with ASP.NET Core
@@ -47,14 +48,14 @@ Open and inspect the **Program.cs** file in your project. Notice that two things
 ```csharp
 public static void Main(string[] args)
 {
-	var host = new WebHostBuilder()
-		.UseKestrel()
-		.UseContentRoot(Directory.GetCurrentDirectory())
-		.UseIISIntegration()
-		.UseStartup<Startup>()
-		.Build();
+    var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
 
-	host.Run();
+    host.Run();
 }
 ```
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
@@ -231,3 +232,7 @@ For more information on the next steps from here, refer to the following guides:
 - [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]

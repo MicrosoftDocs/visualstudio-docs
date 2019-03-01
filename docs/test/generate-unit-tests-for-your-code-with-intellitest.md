@@ -1,7 +1,6 @@
 ---
 title: "Generate unit tests for your code with IntelliTest"
 ms.date: 10/05/2015
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
@@ -153,4 +152,4 @@ Then run IntelliTest to generate individual unit tests in their corresponding *.
 
 ### Q: Can I learn more about how the tests are generated?
 
-**A:** Yes, to get a high-level overview, read this [blog post](https://blogs.msdn.microsoft.com/devops/2015/07/05/intellitest-one-test-to-rule-them-all/).
+**A:** Yes, to get a high-level overview, read this [blog post](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/).

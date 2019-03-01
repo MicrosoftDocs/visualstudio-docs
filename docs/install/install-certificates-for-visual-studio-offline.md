@@ -3,7 +3,6 @@ title: "Install certificates required for an offline installation"
 description: "Learn how to install certificates for a Visual Studio offline installation."
 ms.date: 01/15/2019
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
@@ -56,6 +55,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
    certmgr.exe -add -c certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
+
    **Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, create the batch file with the following commands:
 
    ```cmd
@@ -118,7 +118,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
+After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

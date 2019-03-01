@@ -1,7 +1,6 @@
 ---
 title: "CA1404: Call GetLastError immediately after P-Invoke"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "CallGetLastErrorImmediatelyAfterPInvoke"

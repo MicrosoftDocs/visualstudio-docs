@@ -1,8 +1,7 @@
 ---
 title: Quickstart - Create a Python project using Cookiecutter
 description: In this quickstart, you create a Visual Studio project for Python using a Cookiecutter template.
-ms.date: 12/06/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/25/2019
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
@@ -25,13 +24,13 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
     ![New Project from Cookiecutter template](media/projects-from-cookiecutter1.png)
 
-1. Selected the **Microsoft/python-sklearn-classifier-cookiecutter** template, then select **Next**. (The process may take several minutes the first time you use Cookiecutter.)
+1. Selected the **Microsoft/python-sklearn-classifier-cookiecutter** template, then select **Next**. (The process may take several minutes the first time you use a particular template, as Visual Studio installs the required Python packages.)
 
-1. In the next step, set a location for the new project in the **Create To** field, then select **Create**.
+1. In the next step, set a location for the new project in the **Create To** field, then select **Create and Open Project**.
 
     ![Second step using Cookiecutter, setting project properties](media/projects-from-cookiecutter2.png)
 
-1. When the process is complete, you see the message **Files created successfully.** Select the command **Open in Solution Explorer** to open the project.
+1. When the process is complete, you see the message **Successfully created files using template...**. The project is opened in Solution Explorer automatically.
 
 1. Press **Ctrl**+**F5** or select **Debug** > **Start without Debugging** to run the program.
 

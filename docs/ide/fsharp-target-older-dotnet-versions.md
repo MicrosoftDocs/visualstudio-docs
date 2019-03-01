@@ -2,7 +2,6 @@
 title: Target previous .NET Framework versions for F#
 description: Learn about targeting older version of the .NET Framework when using F# in Visual Studio.
 ms.date: 07/11/2018
-ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 author: gewarren
 ms.author: gewarren
@@ -48,7 +47,7 @@ To resolve this error, you can either:
 
 ### To install the F# 2.0 runtime
 
-Follow the [steps to repair Visual Studio 2017](../install/repair-visual-studio.md).
+Follow the [steps to repair Visual Studio](../install/repair-visual-studio.md).
 
 ## See also
 

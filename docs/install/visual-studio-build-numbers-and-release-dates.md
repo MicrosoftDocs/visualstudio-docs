@@ -6,10 +6,9 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 02/01/2019
+ms.date: 02/27/2019
 ms.topic: reference
 helpviewer_keywords:
-ms.prod: visual-studio-dev15
 ms.custom: "seodec18"
 ms.workload:
   - "multiple"
@@ -22,6 +21,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.7 | Release | February 12, 2019 | 15.9.28307.423 |
+| 15.0.21 | Release | February 12, 2019 | 15.0.26228.73 |
 | 15.9.6 | Release | January 24, 2019 | 15.9.28307.344 |
 | 15.9.5 | Release | January 8, 2019 | 15.9.28307.280 |
 | 15.9.4 | Release | December 11, 2018 | 15.9.28307.222 |
@@ -164,12 +165,16 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
-## Visual Studio 2019 Preview
+## Visual Studio 2019
 
-The following table lists the build numbers and release dates for Visual Studio 2019 Preview, to date.
+The following table lists the build numbers and release dates for Visual Studio 2019, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Release Candidate (RC) | February 27, 2019 | 16.0.28625.133 |
+| 16.0.0 | Preview 4 | February 27, 2019 | 16.0.28625.133 |
+| 16.0.0 | Preview 3 | February 13, 2019 | 16.0.28608.199 |
+| 16.0.0 | Preview 2.2 | February 5, 2019 | 16.0.28602.52 |
 | 16.0.0 | Preview 2.1 | January 31, 2019 | 16.0.28529.54 |
 | 16.0.0 | Preview 2 | January 23, 2019 | 16.0.28522.59 |
 | 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
@@ -179,6 +184,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

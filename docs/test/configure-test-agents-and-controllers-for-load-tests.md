@@ -7,7 +7,6 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ---
 # Configure test agents and test controllers for running load tests
 
@@ -72,7 +71,7 @@ The test agent runs as a service that listens for requests from the test control
 
 The following illustration shows the connection points between the test controller, the test agent, and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
 
- ![Test contoller and test agent ports and security](./media/test-controller-agent-firewall.png)
+ ![Test controller and test agent ports and security](./media/test-controller-agent-firewall.png)
 
  For more information see [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md).
 

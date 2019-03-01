@@ -1,7 +1,6 @@
 ---
 title: -Command (devenv.exe)
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /Command switch"
@@ -26,13 +25,19 @@ devenv /Command CommandName
 
 ## Arguments
 
-- *CommandName*
+*CommandName*
 
-  Required. The complete name of a Visual Studio command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
+Required. The complete name of a Visual Studio command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../../ide/reference/visual-studio-commands.md).
 
 ## Remarks
 
-After startup is complete, the IDE executes the named command. If you use this switch, the IDE doesn't display the Visual Studio Start Page on startup.
+After startup is complete, the IDE executes the named command.
+
+::: moniker range="vs-2017"
+
+If you use this switch, the IDE doesn't display the Start Page on startup.
+
+::: moniker-end
 
 If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 

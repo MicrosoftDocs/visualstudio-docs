@@ -1,7 +1,6 @@
 ---
 title: "XML Schema Explorer - search the schema set"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
 author: gewarren

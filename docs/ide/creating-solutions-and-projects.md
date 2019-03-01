@@ -1,7 +1,6 @@
 ---
 title: Create solutions and projects
 ms.date: 02/06/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.openprojectfromweb"
@@ -48,7 +47,7 @@ That being said, solutions and projects are not required to develop apps in Visu
    ![New project dialog box](./media/vside-newproject-templates-list.png)
 
    > [!NOTE]
-   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio.md).
+   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio by adding or removing workloads and components](../install/modify-visual-studio.md).
 
 2. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
 

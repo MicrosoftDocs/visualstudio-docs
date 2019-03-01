@@ -7,7 +7,6 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.prod: visual-studio-dev15
 ms.workload:
   - "data-storage"
 ---
@@ -192,7 +191,7 @@ Next, replace the entire outer Grid with this markup:
          <Label Content="Contact Name:" Grid.Row="2" Style="{StaticResource Label}"/>
          <TextBox x:Name="contactNameTextBox" Grid.Row="2" Style="{StaticResource CustTextBox}"
                   Text="{Binding ContactName, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
-         <Label Content="Contact Title:" Grid.Row="3" Style="{StaticResource Label}"/>
+         <Label Content="Contact title:" Grid.Row="3" Style="{StaticResource Label}"/>
          <TextBox x:Name="contactTitleTextBox" Grid.Row="3" Style="{StaticResource CustTextBox}"
                   Text="{Binding ContactTitle, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
          <Label Content="Address:" Grid.Row="4" Style="{StaticResource Label}"/>
@@ -239,7 +238,7 @@ Next, replace the entire outer Grid with this markup:
          <Label Content="Contact Name:" Grid.Row="2" Style="{StaticResource Label}"/>
          <TextBox x:Name="add_contactNameTextBox" Grid.Row="2" Style="{StaticResource CustTextBox}"
                   Text="{Binding ContactName, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
-         <Label Content="Contact Title:" Grid.Row="3" Style="{StaticResource Label}"/>
+         <Label Content="Contact title:" Grid.Row="3" Style="{StaticResource Label}"/>
          <TextBox x:Name="add_contactTitleTextBox" Grid.Row="3" Style="{StaticResource CustTextBox}"
                   Text="{Binding ContactTitle, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
          <Label Content="Address:" Grid.Row="4" Style="{StaticResource Label}"/>

@@ -1,7 +1,6 @@
 ---
 title: Web Browser, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.Environment.Web Browser"
@@ -10,7 +9,6 @@ f1_keywords:
 helpviewer_keywords:
   - "browsers, customizing"
   - "searching, search page for Web browser"
-  - "Visual Studio Start page, default URL"
   - "Web browsers, customizing"
   - "searches, default Web browser search page"
   - "URLs, specifying VS home page"

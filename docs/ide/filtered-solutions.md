@@ -1,21 +1,21 @@
 ---
 title: Load a subset of projects
 ms.date: 12/04/2018
-ms.topic: conceptual
 ms.prod: visual-studio-dev16
+ms.topic: conceptual
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
 author: gewarren
 ms.author: stsu
 manager: jillfra
-monikerRange: vs-2019
+monikerRange: ">= vs-2019"
 ---
 # Filtered solutions in Visual Studio
 
-**New in Visual Studio 2019 Preview 1**
+**New in Visual Studio 2019**
 
-Large development teams often collaborate by using a single large solution with many projects. However, individual developers typically work on a small subset of these projects. To improve performance when opening large solutions, Visual Studio 2019 Preview 1 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
+Large development teams often collaborate by using a single large solution with many projects. However, individual developers typically work on a small subset of these projects. To improve performance when opening large solutions, Visual Studio 2019 introduces *solution filtering*. Solution filtering lets you open a solution with only selective projects loaded. Loading a subset of projects in a solution decreases solution load, build, and test run time, and enables more focused review.
 
 The following features are available:
 

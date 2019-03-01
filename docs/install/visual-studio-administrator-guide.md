@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.date: 05/29/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -49,7 +48,7 @@ You can deploy Visual Studio 2017 to client workstations as long as each target 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
 
 > [!TIP]
-> In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+> In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is the [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
 
 ## Specify customer feedback settings
 

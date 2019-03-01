@@ -8,7 +8,6 @@ manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.devlang: multiple
-ms.service: multiple
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +19,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 

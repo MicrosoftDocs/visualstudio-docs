@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, HTML (Web Forms), Validation
 ms.date: 1/15/2019
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

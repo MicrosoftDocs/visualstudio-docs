@@ -1,7 +1,6 @@
 ---
 title: Create item templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "item templates [Visual Studio], creating"
@@ -104,19 +103,29 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Create a project and project item.
 
-1. Modify the project item until it is ready to be saved as a template.
+2. Modify the project item until it is ready to be saved as a template.
 
-1. Modify the code file to indicate where parameter replacement should occur, if anywhere. For more information about parameter replacement, see [How to: Substitute parameters in a template.](../ide/how-to-substitute-parameters-in-a-template.md)
+3. Modify the code file to indicate where parameter replacement should occur, if anywhere. For more information about parameter replacement, see [How to: Substitute parameters in a template.](../ide/how-to-substitute-parameters-in-a-template.md)
 
-1. Create an XML file and save it with a *.vstemplate* file extension in the same directory as your project item file.
+4. Create an XML file and save it with a *.vstemplate* file extension in the same directory as your project item file.
 
-1. Edit the *.vstemplate* XML file to provide item template metadata. For more information, see [Template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.
+5. Edit the *.vstemplate* XML file to provide item template metadata. For more information, see [Template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.
 
-1. Save the *.vstemplate* file and close it.
+6. Save the *.vstemplate* file and close it.
 
-1. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
+7. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 
-1. Copy the *.zip* file and paste it in the user item template location. In Visual Studio 2017, the default directory is *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+::: moniker range="vs-2017"
+
+8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+
+::: moniker-end
 
 ## See also
 

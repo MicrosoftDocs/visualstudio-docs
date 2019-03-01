@@ -1,7 +1,6 @@
 ---
 title: Customize the IDE
 ms.date: 11/20/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -45,9 +44,13 @@ You can change the main menu casing between **Title Case** ("File") and **All Ca
 
 To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
+::: moniker range="vs-2017"
+
 ## Start page
 
 To create a custom start page for you and your team, see [Customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
+
+::: moniker-end
 
 ## Window layouts
 

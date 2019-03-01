@@ -1,7 +1,6 @@
 ---
 title: Overview for C# developers
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
@@ -117,18 +116,6 @@ Let's configure Visual Studio to use environment settings tailored to C# develop
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a program
-
-First, we'll configure Visual Studio to use environment settings tailored to C# developers.
-
-1. On the menu bar, choose **Tools** > **Import and Export Settings**.
-
-2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
-
-3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
-
-4. On the **Choose a Default Collection of Settings** page, choose **Visual C#** and then choose **Finish**.
-
-5. On the **Reset Complete** page, choose **Close**.
 
 Let's dive in and create a simple program.
 
@@ -298,5 +285,4 @@ Explore Visual Studio further by following along with one of these introductory 
 
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)

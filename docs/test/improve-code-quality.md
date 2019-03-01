@@ -1,7 +1,6 @@
 ---
 title: "Testing tools"
 ms.date: 03/16/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
@@ -31,7 +30,7 @@ Visual Studio testing tools can help you and your team develop and sustain high 
 - [Load testing](../test/quickstart-create-a-load-test-project.md) simulates load on a server application by running unit tests and web performance tests.
 
 > [!NOTE]
-> Unit testing is available in all editions of Visual Studio. Other testing tools, such as live unit testing, IntelliTest, and Coded UI Test are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/).
+> Unit testing is available in all editions of Visual Studio. Other testing tools, such as live unit testing, IntelliTest, and Coded UI Test are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/).
 
 ## Related scenarios
 

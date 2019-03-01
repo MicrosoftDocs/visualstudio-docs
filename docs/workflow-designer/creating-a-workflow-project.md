@@ -2,7 +2,6 @@
 title: Create a Workflow Foundation project
 ms.date: 06/25/2018
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
 helpviewer_keywords:
   - "Workflow Designer, creating a workflow project"
   - "creating a workflow project"
@@ -29,7 +28,7 @@ Visual Studio provides four different Workflow project templates:
 
 - Activity designer library
 
-To access these templates, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+To access these templates, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
 1. After you've installed the **Windows Workflow Foundation** component, open the **New Project** dialog by selecting **File** > **New** > **Project**.
 

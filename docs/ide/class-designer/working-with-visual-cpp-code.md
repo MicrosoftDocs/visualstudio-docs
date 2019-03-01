@@ -1,7 +1,6 @@
 ---
 title: Working with Visual C++ Code (Class Designer)
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.cpplimitation"

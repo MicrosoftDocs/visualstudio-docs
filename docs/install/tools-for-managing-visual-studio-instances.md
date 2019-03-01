@@ -4,7 +4,6 @@ titleSuffix: ""
 description: "Learn about the tools that you can use to detect and manage Visual Studio installations on client machines."
 ms.date: 08/14/2017
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
@@ -39,7 +38,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 ```
 
 >[!TIP]
->For more information about Visual Studio 2017 installation, see [Heath Stewart's blog articles](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+>For more information about Visual Studio 2017 installation, see [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
 
 ## Editing the registry for a Visual Studio instance
 

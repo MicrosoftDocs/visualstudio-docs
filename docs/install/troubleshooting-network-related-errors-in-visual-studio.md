@@ -1,8 +1,7 @@
 ---
 title: "Troubleshoot network or proxy errors"
 description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
-ms.date: 02/12/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/23/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -43,7 +42,7 @@ This error generally occurs when users are connected to the internet through a p
 
 - You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the whitelist so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 
-    OR
+  -OR-
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
@@ -53,13 +52,16 @@ This error generally occurs when users are connected to the internet through a p
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
-          <proxy bypassonlocal="True" proxyaddress=" HYPERLINK "http://<yourproxy:port#>" http://<yourproxy:port#>"/>
+          <proxy bypassonlocal="True" proxyaddress="http://<yourproxy:port#>"/>
       </defaultProxy>
       ```
 
       You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
 
-     OR
+     > [!NOTE]
+     > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
+
+  -OR-
 
 - You can also follow the instructions in the [How to connect through an authenticated Web Proxy](https://blogs.msdn.microsoft.com/rido/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy/) blog post, which shows you how to add code that will allow you to use the proxy.
 

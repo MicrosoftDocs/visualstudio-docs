@@ -6,12 +6,12 @@ ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Changes in Visual Studio 2017 extensibility
 
-With Visual Studio 2017, we're offering a [faster, lighter-weight Visual Studio installation experience](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we've made changes to the extensibility model, and have made some breaking changes to Visual Studio extensibility. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
+With Visual Studio 2017, we're offering a [faster, lighter-weight Visual Studio installation experience](https://devblogs.microsoft.com/visualstudio/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems, while giving users greater choice over the workloads and features that are installed. To support these improvements, we've made changes to the extensibility model, and have made some breaking changes to Visual Studio extensibility. This document will describe the technical details of these changes, and what can be done to address them. Please note that some information is point-in-time implementation details and may be changed later.
 
 ## Changes affecting VSIX format and installation
 
@@ -22,7 +22,7 @@ Changes to the VSIX format include:
 * Declaration of setup prerequisites. To deliver on the promise of a lightweight, fast-installing Visual Studio, the installer now offers more configuration options to users. As a result, to ensure that the features and components required by an extension are installed, extensions will need to declare their dependencies.
   * The Visual Studio 2017 installer will automatically offer to acquire and install the necessary components for the user as part of installing your extension.
   * Users will also be warned when trying to install an extension that was not built using the new VSIX v3 format, even if they have been marked in their manifest as targeting version 15.0.
-* Enhanced capabilities for the VSIX format. To deliver on a [low-impact install](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install) of Visual Studio that also supports side-by-side installs, we no longer save most configuration data to the system registry and have moved Visual Studio-specific assemblies out of the GAC. We also increased the capabilities of the VSIX format and VSIX installation engine, allowing you to use it rather than an MSI or EXE to install your extensions for some installation types.
+* Enhanced capabilities for the VSIX format. To deliver on a [low-impact install](https://devblogs.microsoft.com/visualstudio/anatomy-of-a-low-impact-visual-studio-install) of Visual Studio that also supports side-by-side installs, we no longer save most configuration data to the system registry and have moved Visual Studio-specific assemblies out of the GAC. We also increased the capabilities of the VSIX format and VSIX installation engine, allowing you to use it rather than an MSI or EXE to install your extensions for some installation types.
 
   The new capabilities include:
 
@@ -97,6 +97,6 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 ### Reacting to this breaking change
 
 * External code should be converted to use Registration-Free activation for COM components as well.
-* External components can find the Visual Studio location [by following the guidance here](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup).
+* External components can find the Visual Studio location [by following the guidance here](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup).
 * We recommend that external components use the [External Settings Manager](/dotnet/api/microsoft.visualstudio.settings.externalsettingsmanager) instead of reading/writing directly to Visual Studio registry keys.
 * Check whether the components your extension is using may have implemented another technique for registration. For example, debugger extensions may be able to take advantage of the new [msvsmon JSON-file COM registration](migrate-debugger-COM-registration.md).

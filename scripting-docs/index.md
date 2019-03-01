@@ -3,7 +3,7 @@ layout: LandingPage
 title: Create JavaScript apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to create applications.
 ms.topic: landing-page
-ms.prod: visual-studio-dev15
+ms.prod: visual-studio-windows
 ms.technology: vs-ide-nodejs
 ms.author: "mikejo"
 author: "mikejo5000"

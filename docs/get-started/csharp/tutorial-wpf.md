@@ -3,9 +3,7 @@ title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in 
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
 ms.date: 10/03/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -28,9 +26,19 @@ When you start Visual Studio for the first time, you'll be prompted to sign in. 
 
 ![Choose settings dialog box](../media/exploreide-settings.png)
 
+::: moniker range="vs-2017"
+
 After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.
 
-![IDE with General Settings Applied](../media/exploreide-idewithgeneralsettings.png)
+![Visual Studio 2017 IDE with General Settings Applied](../media/exploreide-idewithgeneralsettings.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+When you launch Visual Studio, the **Start** window opens first. Select **Contine without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+
+::: moniker-end
 
 ## Create the project
 

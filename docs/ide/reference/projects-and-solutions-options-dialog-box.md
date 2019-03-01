@@ -1,7 +1,6 @@
 ---
 title: Projects and Solutions, Options Dialog Box
 ms.date: 07/14/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"
@@ -66,7 +65,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ### Reopen documents on solution load
 
-**New in Visual Studio 2017 version 15.8 preview 2 and later**
+**Introduced in Visual Studio 2017 version 15.8**
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 

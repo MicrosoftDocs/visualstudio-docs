@@ -10,7 +10,7 @@ manager: jillfra
 ---
 # Measure app performance in Visual Studio
 
-Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate data (such as variable values, function calls, and events) over the time you run your application in the debugger. You can view the state of your application at different points during the execution of your code. 
+Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate data (such as variable values, function calls, and events) over the time you run your application in the debugger. You can view the state of your application at different points during the execution of your code.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,24 +43,6 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                     </div>
                     <div class="cardText">
                         <h3>Get Started with the Diagnostics Tools (CPU Usage)</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="Watch a Video on the Diagnostics Tools">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Watch a Video on the Diagnostics Tools</h3>
                     </div>
                 </div>
             </div>

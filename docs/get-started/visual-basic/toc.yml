@@ -3,7 +3,7 @@
   items:
   - name: Overview
     items:
-    - name: About Visual Studio 2017
+    - name: About Visual Studio
       href: visual-studio-ide.md
     - name: About the code editor
       href: tutorial-editor.md

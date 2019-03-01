@@ -1,7 +1,6 @@
 ---
 title: "Install third-party unit test frameworks"
 ms.date: 06/07/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
@@ -53,7 +52,7 @@ To browse a list of frameworks along with other testing tools:
 
 ## Update to the latest test adapters
 
-Update to the latest stable test adapter to experience better test discovery and execution. For more information about updates to MSTest, NUnit, and xUnit test adapters, see the [Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/2017/11/16/test-experience-improvements/).
+Update to the latest stable test adapter to experience better test discovery and execution. For more information about updates to MSTest, NUnit, and xUnit test adapters, see the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/test-experience-improvements/).
 
 ### To update to the latest stable test adapter version
 

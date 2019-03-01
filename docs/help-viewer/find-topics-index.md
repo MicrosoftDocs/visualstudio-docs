@@ -1,7 +1,6 @@
 ---
 title: Use Help Viewer index
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Index tab [Help Viewer]"

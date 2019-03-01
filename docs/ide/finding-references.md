@@ -1,7 +1,6 @@
 ---
 title: Finding references in your code
 ms.date: 09/26/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, find all references"
@@ -41,6 +40,11 @@ You can use the following methods to navigate to references in the **references*
 By default, references are grouped by project, then by definition. However, you can change this grouping order by changing the setting in the **Group by:** drop-down list box on the toolbar. For example, you can change it from the default setting of **Project then definition** to **Definition then project**, as well to other settings.
 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
+
+## Filter by reference type in .NET
+In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, and NameOnly.
+
+![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
 
 ## See also
 

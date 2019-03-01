@@ -1,7 +1,6 @@
 ---
 title: Convert Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "jlca_Conversion_F1_3"

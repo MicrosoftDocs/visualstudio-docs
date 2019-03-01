@@ -4,7 +4,6 @@ description: Learn how to configure an Azure cloud service project in Visual Stu
 author: ghogen
 manager: jillfra
 assetId: 609d6965-05cc-47b1-82dc-c76a92d4f295
-ms.prod: visual-studio-dev15
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -26,7 +25,7 @@ You can configure an Azure cloud service project, depending on your requirements
 
 1. In the project's properties page, select the **Development** tab.
 
-	![Project properties menu](./media/vs-azure-tools-configuring-an-azure-project/solution-explorer-project-properties-menu.png)
+    ![Project properties menu](./media/vs-azure-tools-configuring-an-azure-project/solution-explorer-project-properties-menu.png)
 
 1. Set **Prompt before deleting an existing deployment** to **True**. This setting helps to ensure you don't accidentally delete an existing deployment in Azure
 

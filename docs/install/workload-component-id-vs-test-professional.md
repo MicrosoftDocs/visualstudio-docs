@@ -13,10 +13,10 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.service:
-ms.prod: visual-studio-dev15
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Visual Studio Test Professional 2017 component directory
 

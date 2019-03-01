@@ -1,7 +1,6 @@
 ---
 title: Code snippets schema reference
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
+ms.date: 02/25/2019
 ms.topic: reference
 helpviewer_keywords:
   - "schema reference [Visual Studio]"
@@ -112,6 +111,7 @@ There are three attributes available for the Code element:
    |`CPP`|Identifies a C++ code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
+   |`TypeScript`|Identifies a TypeScript code snippet.|
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 

@@ -1,7 +1,6 @@
 ---
 title: "Live Unit Testing"
-ms.date: 2017-03-07
-ms.prod: visual-studio-dev15
+ms.date: "03/07/2017"
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"
@@ -11,12 +10,12 @@ ms.author: "ronpet"
 ms.workload:
   - "dotnet"
 ---
-# Live Unit Testing with Visual Studio 2017
+# Live Unit Testing with Visual Studio
 
 As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
 
 > [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio 2017.
+> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio.
 
 When you use Live Unit Testing for your tests, Live Unit Testing persists data about the status of your tests. Its ability to use persisted data allows Live Unit Testing to offer superior performance while running your tests dynamically in response to code changes.
 
@@ -46,7 +45,7 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 </tr>
 </table>
 
-If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4.
+If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4 or later.
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build** > **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing.
 
@@ -174,8 +173,8 @@ For solutions with many test projects, you can control what projects and what in
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
-1.	Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
-1.	Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
+1. Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
 
 **Excluding individual tests from the code editor window**
 
@@ -196,4 +195,4 @@ You can also use the following attributes to exclude individual methods from Liv
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
 - [Live Unit Testing FAQ](live-unit-testing-faq.md)
-- [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
+- [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)

@@ -1,7 +1,6 @@
 ---
 title: Private data for problem reports
 ms.date: 06/21/2018
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - developer community privacy
@@ -80,5 +79,5 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 ## See also
 
-- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
+- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 - [C++ problem report data privacy](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

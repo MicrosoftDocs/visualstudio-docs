@@ -2,9 +2,8 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 01/25/2019
+ms.date: 02/26/2019
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
@@ -34,7 +33,7 @@ To start, we'll create a C# application project. The project type comes with all
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
-### Add a workgroup (optional)
+### Add a workload (optional)
 
 If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
 
@@ -75,6 +74,7 @@ Let's start with some integer math in C#.
             Console.WriteLine(c);
             Console.ReadKey();
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
@@ -146,6 +146,7 @@ Let's continue by adding a more complex set of calculator code to your project.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
@@ -377,6 +378,7 @@ Let's get started.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
 1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following:
@@ -399,7 +401,7 @@ Let's get started.
 
 ## Code complete
 
-During this tutortial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
+During this tutorial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
 
 Here's the complete code, all in one place:
 
@@ -528,5 +530,4 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [Video course: C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
 * [Learn to debug C# code in Visual Studio](tutorial-debugger.md)

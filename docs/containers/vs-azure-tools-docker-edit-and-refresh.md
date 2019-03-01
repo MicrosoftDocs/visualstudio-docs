@@ -82,9 +82,9 @@ with the production realism of developing within a Docker container.
 
 ## More about Docker with Visual Studio, Windows, and Azure
 * [Container development with Visual Studio](/visualstudio/containers) - a container development hub page
-* [Docker Integration for Azure Pipelines](http://aka.ms/dockertoolsforvsts) - Build and Deploy docker containers
-* [Docker Tools for Visual Studio Code](http://aka.ms/dockertoolsforvscode) - Language services for editing docker files, with more e2e scenarios coming
-* [Windows Container Information](http://aka.ms/containers)- Windows Server and Nano Server information
+* [Docker Integration for Azure Pipelines](https://aka.ms/dockertoolsforvsts) - Build and Deploy docker containers
+* [Docker Tools for Visual Studio Code](https://aka.ms/dockertoolsforvscode) - Language services for editing docker files, with more e2e scenarios coming
+* [Windows Container Information](https://aka.ms/containers)- Windows Server and Nano Server information
 * [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) - [Azure Kubernetes Service Documentation](/azure/aks)
 
 ## Various Docker tools

@@ -1,7 +1,6 @@
 ---
 title: Environment Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "VS.OptionsDialog.Environment"
@@ -30,7 +29,7 @@ You can use the pages in the **Environment** folder in the **Options** dialog bo
 |To set keyboard-mapping options.|[Keyboard, Environment, Options Dialog Box](../../ide/reference/keyboard-environment-options-dialog-box.md)|
 |To specify whether notifications are enabled.|[Notifications, Environment, Options Dialog Box](../../ide/reference/notifications-environment-options-dialog-box.md)|
 |To specify options for Quick Launch window.|[Quick Launch, Environment, Options Dialog Box](../../ide/reference/quick-launch-environment-options-dialog-box.md)|
-|To specify start page options.|[Startup, Environment, Options Dialog Box](../../ide/reference/startup-environment-options-dialog-box.md)|
+|To specify startup options.|[Startup, Environment, Options Dialog Box](../../ide/reference/startup-environment-options-dialog-box.md)|
 |To specify whether to roam settings across machines.|[Synchronized Settings, Environment, Options Dialog Box](../../ide/reference/accounts-environment-options-dialog-box.md)|
 |Learn how to set options for tasks and task lists|[Task List, Environment, Options Dialog Box](../../ide/reference/task-list-environment-options-dialog-box.md)|
 |Change your default Home and Search pages, changing the system source editor, and configuring Internet Explorer options.|[Web Browser, Environment, Options Dialog Box](../../ide/reference/web-browser-environment-options-dialog-box.md)|

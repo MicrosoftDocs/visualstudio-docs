@@ -16,7 +16,7 @@
         ]
       },
       {
-        "group": "vs-2017",
+        "group": "vs-2017-2019",
         "src": "./",
         "files": [
           "**/*.md",
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "group": "vs-2017",
+        "group": "vs-2017-2019",
         "src": "./",
         "files": [
           "**/*.png",
@@ -75,14 +75,14 @@
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ROBOTS": "INDEX,FOLLOW",
+      "manager": "jillfra",
       "author": "jillre",
       "ms.author": "jillfra",
-      "manager": "jillfra",
       "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
       "defaultDevLang": "csharp",
-      "ms.prod": "visual-studio-dev15",
+      "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
       "monikerRange": "vs-2017",
@@ -94,6 +94,10 @@
       ]
     },
     "fileMetadata": {
+      "ms.prod": {
+        "rtvs/**/**.md": "visual-studio-dev15",
+        "vs-2015/**/**.md": "visual-studio-dev14"
+      },
       "ms.technology": {
         "ai/**/**.md": "vs-ai-tools",
         "azure/**/**.md": "vs-azure",
@@ -149,11 +153,11 @@
     "groups": {
       "vs-2015": {
         "moniker_range": "vs-2015",
-        "dest": "temp2015"
+        "dest": "vs-2015-dest"
       },
-      "vs-2017": {
+      "vs-2017-2019": {
         "moniker_range": ">= vs-2017",
-        "dest": "temp2017"
+        "dest": "vs-2017-2019-dest"
       }
     },
     "markdownEngineName": "markdig"

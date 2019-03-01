@@ -1,7 +1,6 @@
 ---
 title: Add parameter to a method quick action
 ms.date: 09/28/2018
-ms.prod: visual-studio-dev15
 ms.topic: reference
 author: gewarren
 ms.author: gewarren

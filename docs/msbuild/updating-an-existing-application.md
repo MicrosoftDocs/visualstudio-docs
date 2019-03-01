@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Update an existing application for MSBuild 15
@@ -71,7 +71,7 @@ Add a NuGet package reference to [Microsoft.Build.Locator](https://www.nuget.org
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
-      <Version>1.0.7-preview-ge60d679b53</Version>
+      <Version>1.1.2</Version>
     </PackageReference>
 ```
 

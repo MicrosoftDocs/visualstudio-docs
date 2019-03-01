@@ -2,8 +2,6 @@
 title: "Quickstart: Create an ASP.NET Core web service in F#"
 description: "Learn how to create an ASP.NET Core web service in Visual Studio with F#, step-by-step."
 ms.date: 08/24/2018
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: quickstart
 author: "cartermp"
 ms.author: "phcart"
@@ -24,7 +22,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 First, you'll create an ASP.NET Core Web API project. The project type comes with template files that constitute a functional web service, before you've even added anything!
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 

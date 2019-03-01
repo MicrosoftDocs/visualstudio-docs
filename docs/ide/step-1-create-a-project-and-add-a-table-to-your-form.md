@@ -1,8 +1,6 @@
 ---
 title: "Step 1: Create a project and add a table to your form"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 author: TerryGLee

@@ -16,7 +16,6 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
 ---
 # Map dependencies with code maps
 
@@ -42,7 +41,7 @@ You can map dependencies for code in these languages:
 
 ## Install Code Map and Live Dependency Validation
 
-To create a code map in Visual Studio 2017, first install the **Code Map** and **Live Dependency Validation** components:
+To create a code map in Visual Studio, first install the **Code Map** and **Live Dependency Validation** components:
 
 1. Open **Visual Studio Installer**. You can open it from the Windows Start menu, or within Visual Studio by selecting **Tools** > **Get Tools and Features**.
 
