@@ -19,12 +19,12 @@ The Data Science and Analytical Applications workload, which you select and inst
 - [F# with the .NET framework](/dotnet/fsharp/)
 - [R and Microsoft R Client](../rtvs/index.md) (Visual Studio 2017 only; otherwise we recommend [Azure Notebooks](https://notebooks.azure.com) for R work.)
 
-![Data Science and Analytics Applications workload in the Visual Studio installer](/media/workload/data-science-workload.png)
+![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)
 
 Python and R are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 
 <!--Note link on the image because this one is large -->
-[![Screenshots of Visual Studio with R, Python, and F#](/media/workload/data-science-workload-screens.png)](/media/workload/data-science-workload-screens.png#lightbox)
+[![Screenshots of Visual Studio with R, Python, and F#](media/workload/data-science-workload-screens.png)](media/workload/data-science-workload-screens.png#lightbox)
 
 ## Workload options
 
@@ -59,7 +59,7 @@ You enjoy the following advantages by running your code where your data already 
 
 To take full advantage of SQL Server integration, use the Visual Studio installer to install the **Data storage and processing** workload with the **SQL Server Data Tools** option. The latter option enables SQL IntelliSense, syntax highlighting, and deployment.
 
-![Data storage and processing workload](/media/workload/data-storage-workload.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Data storage and processing workload options](/media/workload/data-storage-workload-options.png)
+![Data storage and processing workload](media/workload/data-storage-workload.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Data storage and processing workload options](media/workload/data-storage-workload-options.png)
 
 For more information:
 
@@ -76,4 +76,4 @@ The Azure SDK for Python makes it easy to consume and manage Microsoft Azure ser
 Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. Visit [notebooks.azure.com](https://notebooks.azure.com/).
 
 <!--Note link on the image because this one is large -->
-[![Screenshots of Azure Notebooks with the Introduction to R sample](/media/workload/data-science-workload-notebooks.png)](/media/workload/data-science-workload-notebooks.png#lightbox)
+[![Screenshots of Azure Notebooks with the Introduction to R sample](media/workload/data-science-workload-notebooks.png)](media/workload/data-science-workload-notebooks.png#lightbox)
