@@ -14,16 +14,20 @@ helpviewer_keywords:
   - "install Visual Studio, administrator guide"
 ms.custom: "seodec18"
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
-ms.workload:
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Visual Studio workload and component IDs
 
 ::: moniker range="vs-2017"
 
-**Updated for the [15.9 release](/visualstudio/releasenotes/vs2017-relnotes/)**
+When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+
+For more information about how to use these IDs, see [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
+
+**Updated for the [15.9 release](/visualstudio/releasenotes/vs2017-relnotes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
@@ -44,9 +48,13 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for the [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
+When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate extensibility projects to Visual Studio 2019](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2019.md) page.
+
+For more information about how to use these IDs, see [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
+
+**Updated for the [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

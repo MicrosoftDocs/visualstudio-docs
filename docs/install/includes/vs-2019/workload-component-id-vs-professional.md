@@ -7,26 +7,10 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.date: 11/13/2018
-ms.prod: visual-studio-dev15
-ms.topic: reference
-helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
-ms.assetid: 5719032b-2c2e-416e-a281-a4573ec74e38
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+ms.topic: include
 ---
-# Visual Studio Professional 2017 component directory
-
-The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
-
-Also note the following about the page:
-
-* Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
-* By default, the **Required** components will be installed when you install the workload.
-* If you choose to, you can also install the **Recommended** and **Optional** components.
-* We've also added a section that lists the additional components that are not affiliated with any workload.
 
 When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
 

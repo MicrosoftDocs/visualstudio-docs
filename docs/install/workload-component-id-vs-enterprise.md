@@ -14,9 +14,8 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.assetid: be73e3af-d87b-4d14-bd08-2e4bda074fb3
-ms.workload:
-  - "multiple"
-monikerRange: vs-2017
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Visual Studio Enterprise 2017 component directory
 

@@ -13,9 +13,8 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
-ms.workload:
-  - "multiple"
-monikerRange: vs-2017
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Visual Studio Test Controller 2017 component directory
 

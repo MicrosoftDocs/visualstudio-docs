@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Test Professional 2017 workload and component IDs
+title: Visual Studio Test 2017 Professional workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "install Visual Studio, administrator guide"
 ms.service:
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
-ms.workload:
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 monikerRange: vs-2017
 ---
 # Visual Studio Test Professional 2017 component directory
