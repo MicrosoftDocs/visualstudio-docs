@@ -32,7 +32,7 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
     ```xml  
     <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"   
-    	xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">  
   
     ```  
   

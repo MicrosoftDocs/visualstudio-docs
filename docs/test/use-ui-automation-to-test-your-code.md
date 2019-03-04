@@ -42,7 +42,7 @@ For more information about which platforms and configurations are supported by c
 
 ## Install the coded UI test component
 
-To access the coded UI test tools and templates, install the **Coded UI test** component of Visual Studio 2017.
+To access the coded UI test tools and templates, install the **Coded UI test** component of Visual Studio.
 
 1. Launch **Visual Studio Installer** by choosing **Tools** > **Get Tools and Features**.
 

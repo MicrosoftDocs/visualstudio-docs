@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 02/14/2019
+ms.date: 02/27/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -15,14 +15,14 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-# What's new in Visual Studio 2019 Preview
+# What's new in Visual Studio 2019
 
-**Updated for the [Preview 3 release](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)**
+**Updated for the [Release Candidate (RC)](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview)
+>[Download RC](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+rc)
 
-Visual Studio 2019 Preview includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.<br/><br/>
+Visual Studio 2019 includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.<br/><br/>
 
 >[!VIDEO https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/D190/player]
 
@@ -33,7 +33,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 * **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019 Preview, see the [release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017).
+> For a complete list of new features and functionality in Visual Studio 2019, see the [RC release notes](/visualstudio/releases/2019/release-notes/) and the [Preview 4 release notes](/visualstudio/releases/2019/release-notes-preview/). For more information about both of these recent releases, see the [Visual Studio 2019 Release Candidate now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-release-candidate-rc-now-available/) blog post.
 
 ## Personal and team productivity
 
@@ -69,7 +69,7 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 #### Search within a Watch window, and format Watch values
 
-You've probably been there before, looking in the Watch window for a string amongst a set of values. In Visual Studio 2019 Preview, we've added search in the Watch, Locals, and Autos windows to help you find the objects and values you're looking for.
+You've probably been there before, looking in the Watch window for a string amongst a set of values. In Visual Studio 2019, we've added search in the Watch, Locals, and Autos windows to help you find the objects and values you're looking for.
 
 You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
@@ -81,7 +81,7 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a developer service that allows you to share a codebase and its context with a teammate and get instant bidirectional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.
 
-And with Visual Studio 2019 Preview, this service is installed by default.
+And with Visual Studio 2019, this service is installed by default.
 
 ![An animated GIF file that shows the Live Share collaboration feature in Visual Studio 2019](media/live-share-collaboration.gif)
 
@@ -91,7 +91,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 ### Manage pull requests (PRs) from the IDE
 
-We're introducing a new extension that you can download to use with Visual Studio 2019 Preview. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
+We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
 
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
@@ -104,7 +104,7 @@ The preview release of Visual Studio 2019 supports building [.NET Core 3](https:
 For more information, see the following pages:
 
 * [.NET Core 3 Preview 1](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview1.md) and [.NET Core 3 Preview 2](https://github.com/dotnet/core/blob/master/release-notes/3.0/preview/3.0.0-preview2.md) release notes
-* [Announcing .NET Core 3 Preview 1](https://blogs.msdn.microsoft.com/dotnet/2018/12/04/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) and [Announcing .NET Core 3 Preview 2](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2/) blog posts
+* [Announcing .NET Core 3 Preview 1](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-1-and-open-sourcing-windows-desktop-frameworks/) and [Announcing .NET Core 3 Preview 2](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-2/) blog posts
 
 ## Continuous innovation
 
@@ -112,7 +112,7 @@ For more information, see the following pages:
 
 If you use monitors that are configured with different display scale factors, or connect remotely to a machine with display scale factors that are different from your main device, you might notice that Visual Studio looks blurry or renders at the wrong scale.
 
-With the release of Visual Studio 2019 Preview, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
+With the release of Visual Studio 2019, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
 
@@ -147,6 +147,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes-preview?context=visualstudio/default&contextView=vs-2017)
+* [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
+* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
 * [What's new in Visual Studio 2017](whats-new-visual-studio-2017.md)

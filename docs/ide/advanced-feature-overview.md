@@ -1,6 +1,5 @@
 ---
-title: Advanced features of Visual Studio 2017
-titleSuffix: ""
+title: Advanced features
 ms.date: 06/01/2018
 ms.topic: conceptual
 author: gewarren
@@ -9,7 +8,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Features of Visual Studio 2017
+# Features of Visual Studio
 
 The [Visual Studio IDE overview](../get-started/visual-studio-ide.md) article gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 
@@ -17,9 +16,19 @@ The [Visual Studio IDE overview](../get-started/visual-studio-ide.md) article gi
 
 Visual Studio's modular installer enables you to choose and install *workloads*. Workloads are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too.
 
-If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
 
-To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
+
+To learn more about setting up Visual Studio on your system, see [Install Visual Studio](../install/install-visual-studio.md).
 
 ## Create cloud-enabled apps for Azure
 
@@ -93,7 +102,7 @@ When your application is ready to deploy to users or customers, Visual Studio pr
 
 ## Manage your source code and collaborate with others
 
-You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Azure DevOps Services](/azure/devops/index) to manage code alongside bugs and work items for your whole project. See [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git features in Visual Studio 2017 (blog)](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/).
+You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Azure DevOps Services](/azure/devops/index) to manage code alongside bugs and work items for your whole project. See [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git features in Visual Studio (blog)](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/).
 
 Azure DevOps Services are cloud-based services to plan, host, automate, and deploy software and enable collaboration in teams. Azure DevOps Services support both Git repos (distributed version control) and Team Foundation Version Control (centralized version control). They support pipelines for continuous build and release (CI/CD) of code stored in version control systems. Azure DevOps Services also support Scrum, CMMI and Agile development methodologies.
 
@@ -121,4 +130,4 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio 2017](../ide/whats-new-visual-studio-2017.md)
-- [What's new in Visual Studio 2019 Preview](../ide/whats-new-visual-studio-2019.md)
+- [What's new in Visual Studio 2019](../ide/whats-new-visual-studio-2019.md)

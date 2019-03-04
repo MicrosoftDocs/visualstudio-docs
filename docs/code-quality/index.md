@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: Code analysis
-description: Learn how to use Visual Studio 2017 to analyze code quality.
+description: Learn how to use Visual Studio to analyze code quality.
 ms.date: 12/03/2018
 ms.topic: landing-page
 ms.author: gewarren

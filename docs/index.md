@@ -3,7 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation | Microsoft Docs
 titleSuffix: ""
-description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ms.topic: hub-page
 ms.custom: seodec18
 ---
@@ -49,7 +49,7 @@ ms.custom: seodec18
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/whats-new-in-visual-studio">
+                <a href="/visualstudio/ide/whats-new-visual-studio-2017">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -59,7 +59,7 @@ ms.custom: seodec18
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>What&#39;s New in Visual Studio 2017</h3>
+                                    <h3>What&#39;s New in Visual Studio</h3>
                                 </div>
                             </div>
                         </div>
@@ -584,7 +584,7 @@ ms.custom: seodec18
                                             <div class="cardText">
                                                 <a href="/visualstudio/rtvs/">
                                                     <h3>R</h3>
-                                                    <p>An extensible programming language typically used for statistical computing and graphics.</p>
+                                                    <p>(Visual Studio 2017 only) An extensible programming language typically used for statistical computing and graphics.</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -703,7 +703,7 @@ ms.custom: seodec18
                                 </a>
                             </li>
                             <li>
-                                <a href="rtvs/data-science-and-analytical-applications-workload.md">
+                                <a href="python/data-science-and-analytical-applications-workload.md">
                                   <div class="cardSize">
                                     <div class="cardPadding">
                                       <div class="card">
@@ -714,7 +714,7 @@ ms.custom: seodec18
                                         </div>
                                           <div class="cardText">
                                             <h3>Data science and analytical applications</h3>
-                                            <p>Languages and tooling for creating data science applications, including Python, R, and F#.</p>
+                                            <p>Languages and tooling for creating data science applications, including Python and F# (and R in Visual Studio 2017 only).</p>
                                         </div>
                                       </div>
                                     </div>

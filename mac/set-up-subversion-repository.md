@@ -48,7 +48,7 @@ Once Subversion is installed on your machine, use the following steps to publish
 
     ![Entering credentials for subversion repo](media/version-control-subversion5.png)
 
-8.	All the version control commands available should now be visible in the version control menu.
+8. All the version control commands available should now be visible in the version control menu.
 
 ## See also
 

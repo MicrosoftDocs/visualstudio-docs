@@ -8,6 +8,9 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
+dev_langs:
+- CSharp
+- VB
 ms.workload:
   - "multiple"
 ---
@@ -70,8 +73,8 @@ After that line, insert the Text Templating import:
 ```xml
 <!-- Optionally make the import portable across VS versions -->
   <PropertyGroup>
-    <!-- Get the Visual Studio version - defaults to 10: -->
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Get the Visual Studio version: -->
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
     <!-- Keep the next element all on one line: -->
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
@@ -288,5 +291,16 @@ If you update an included file, or another file read by the template, Visual Stu
 
 ## See also
 
-- There is good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+::: moniker range="vs-2017"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

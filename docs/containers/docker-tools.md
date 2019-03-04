@@ -7,7 +7,7 @@ ms.date: 02/01/2019
 ms.technology: vs-azure
 ms.topic: include
 ---
-# Quickstart: Visual Studio Tools for Docker
+# Quickstart: Docker in Visual Studio
 
 ::: moniker range="vs-2017"
 

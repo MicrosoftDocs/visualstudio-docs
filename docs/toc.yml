@@ -3,7 +3,7 @@
 - name: Overview
   expanded: true
   items:
-    - name: About Visual Studio 2017
+    - name: About Visual Studio
       href: get-started/visual-studio-ide.md
     - name: About the code editor
       href: get-started/tutorial-editor.md
@@ -94,25 +94,25 @@
       - name: Visual Studio workload and component IDs
         href: install/workload-and-component-ids.md
         items:
-        - name: Visual Studio Enterprise 2017
+        - name: Visual Studio Enterprise
           href: install/workload-component-id-vs-enterprise.md
-        - name: Visual Studio Professional 2017
+        - name: Visual Studio Professional
           href: install/workload-component-id-vs-professional.md
-        - name: Visual Studio Community 2017
+        - name: Visual Studio Community
           href: install/workload-component-id-vs-community.md
-        - name: Visual Studio Team Explorer 2017
+        - name: Visual Studio Team Explorer
           href: install/workload-component-id-vs-team-explorer.md
-        - name: Visual Studio Desktop Express 2017
+        - name: Visual Studio Desktop Express
           href: install/workload-component-id-vs-express.md
-        - name: Visual Studio Build Tools 2017
+        - name: Visual Studio Build Tools
           href: install/workload-component-id-vs-build-tools.md
-        - name: Visual Studio Test Agent 2017
+        - name: Visual Studio Test Agent
           href: install/workload-component-id-vs-test-agent.md
-        - name: Visual Studio Test Controller 2017
+        - name: Visual Studio Test Controller
           href: install/workload-component-id-vs-test-controller.md
-        - name: Visual Studio Test Professional 2017
+        - name: Visual Studio Test Professional
           href: install/workload-component-id-vs-test-professional.md
-        - name: Visual Studio Feedback Client 2017
+        - name: Visual Studio Feedback Client
           href: install/workload-component-id-vs-feedback-client.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
@@ -171,7 +171,7 @@
         href: ide/creating-solutions-and-projects.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
-      - name: Port, migrate, and upgrade projects in Visual Studio 2019 Preview
+      - name: Port, migrate, and upgrade projects in Visual Studio 2019
         href: porting/port-migrate-upgrade-visual-studio-projects-2019.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
@@ -304,12 +304,16 @@
             href: ide/reference/generate-field-property-local.md
           - name: Generate constructor
             href: ide/reference/generate-constructor.md
+          - name: Generate deconstructor
+            href: ide/reference/generate-deconstructor.md
           - name: Add parameter to method
             href: ide/reference/add-parameter.md
           - name: Generate override
             href: ide/reference/generate-override.md
           - name: Generate Equals and GetHashCode method overrides
             href: ide/reference/generate-equals-gethashcode-methods.md
+          - name: Generate usings
+            href: ide/reference/generate-usings.md
           - name: Implement abstract class
             href: ide/reference/implement-abstract-class.md
           - name: Implement interface
@@ -329,6 +333,10 @@
             href: ide/reference/convert-for-loop-to-foreach.md
           - name: Convert between Get method and property
             href: ide/reference/convert-get-method-to-property.md
+          - name: Convert local function to method
+            href: ide/reference/convert-local-function-method.md
+          - name: Convert foreach loop to LINQ
+            href: ide/reference/convert-foreach-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
           - name: Encapsulate field
@@ -339,6 +347,10 @@
             href: ide/reference/extract-method.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: Invert conditional expressions and logical operations
+            href: ide/reference/invert-conditional-logical.md
+          - name: Invert if statement
+            href: ide/reference/invert-if-statement.md
           - name: Move declaration near reference
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
@@ -353,6 +365,10 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
+          - name: Use lambda expression or block body
+            href: ide/reference/use-block-body-lambda.md
+          - name: Unused values and parameters
+            href: ide/reference/unused-values-parameters.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
@@ -1092,7 +1108,7 @@
   items:
   - name: What's new in Visual Studio 2017
     href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019 Preview
+  - name: What's new in Visual Studio 2019 RC
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
     items:

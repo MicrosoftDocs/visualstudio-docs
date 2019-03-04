@@ -33,13 +33,14 @@ In order to use the administrator portal to manage your organization's subscript
 ### Onboarding
 
 When your organization is ready to be onboarded to the Visual Studio Subscriptions Administration Portal an email will be sent to the Primary and Notices Contacts inviting them to complete the onboarding process. The below details are the steps that will need to be taken to onboard to the new portal. If you’d like a walkthrough of the process, check out this [administrator onboarding video](https://channel9.msdn.com/Series/Visual-Studio-Subscriptions-Administration/Onboarding-your-organization-to-the-new-Visual-Studio-Subscription-Administration-Portal-and-setting) or this [support article](https://support.microsoft.com/help/4013931/visual-studio-subscriptions-administrator-migration-process "Visual Studio Subscriptions Administrator Migration Process").
-1.	**Locating your PCN and signing in:**
-    - In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN). *
-    - To obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found there).
-    - After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on AAD) or a Microsoft Account (MSA) if your organization is not on AAD.
-    - Next, they will need to enter the PCN.
-2.	**Set up your administrators.** After entering the PCN, they will be registered as a super admin in the new system and will be able to add other super admins and administrators (previously known as Subscription Managers). To avoid losing access this should be completed prior to your organization’s migration date.
-3.	**Accessing the new subscription management portal.**  Once your organization is migrated, emails will be sent to the newly added super admins and administrators inviting them to access the new portal and begin managing subscriptions.
+
+1. **Locating your PCN and signing in:**
+    - In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN). * 
+    - To obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found there). 
+    - After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on AAD) or a Microsoft Account (MSA) if your organization is not on AAD. 
+    - Next, they will need to enter the PCN. 
+2. **Set up your administrators.** After entering the PCN, they will be registered as a super admin in the new system and will be able to add other super admins and administrators (previously known as Subscription Managers). To avoid losing access this should be completed prior to your organization’s migration date. 
+3. **Accessing the new subscription management portal.**  Once your organization is migrated, emails will be sent to the newly added super admins and administrators inviting them to access the new portal and begin managing subscriptions.  
 
 > [!NOTE]
 > If the Primary or Notices Contacts receive more than one email, this means that they have more than one PCN. They will need to complete the process using the unique link for the PCN referenced in each email.*
