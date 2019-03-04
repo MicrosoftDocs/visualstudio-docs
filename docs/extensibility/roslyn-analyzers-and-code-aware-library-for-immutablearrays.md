@@ -292,7 +292,7 @@ Next, the method fetches the root of the document, and because this can involve 
 
 You can now press **F5** to execute your analyzer in a second instance of Visual Studio. Open the console project you used before. Now you should see the light bulb appear where your new object creation expression is for `ImmutableArray<int>`. If you press **Ctrl**+**.** (period), then you will see your code fix, and you will see an automatically generated code difference preview in the light bulb UI. Roslyn creates this for you.
 
-**Pro Tip:** If you launch the second instance of Visual Studio, and you don't see the light bulb with your code fix, then you may need to clear the Visual Studio component cache. Clearing the cache forces Visual Studio to re-examine the components, so Visual Studio should then pick up your latest component. First, shut down the second instance of Visual Studio. Then, in **Windows Explorer**, navigate to *%LOCALAPPDATA%\Microsoft\VisualStudio\15.0Roslyn\\*. (The "15.0" changes from version to version with Visual Studio). Delete the subdirectory *ComponentModelCache*.
+**Pro Tip:** If you launch the second instance of Visual Studio, and you don't see the light bulb with your code fix, then you may need to clear the Visual Studio component cache. Clearing the cache forces Visual Studio to re-examine the components, so Visual Studio should then pick up your latest component. First, shut down the second instance of Visual Studio. Then, in **Windows Explorer**, navigate to *%LOCALAPPDATA%\Microsoft\VisualStudio\16.0Roslyn\\*. (The "16.0" changes from version to version with Visual Studio.) Delete the subdirectory *ComponentModelCache*.
 
 ## Talk video and finish code project
 

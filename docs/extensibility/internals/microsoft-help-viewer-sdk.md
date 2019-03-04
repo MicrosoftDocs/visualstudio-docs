@@ -23,7 +23,8 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
 
 -   Additional Resources
 
-### Creating a topic (F1 support)
+## Create a topic (F1 support)
+
 This section provides an overview of the components of a presented topic, topic requirements, a short description for how to create a topic (including F1 support requirements) and finally, an example topic with its rendered result.
 
 **Help Viewer Topic Overview**
@@ -85,17 +86,17 @@ Create a new XHTML document named ContosoTopic4.htm, and include the title tag (
 
 ```
 
-Next, add data to define how the topic is to be presented (self branded or not), how to reference this topic for F1, where this topic exists within the TOC, its ID (for link reference by other topics), etc.  See the "Content Metadata" table below for a complete list of supported metadata.
+Next, add data to define how the topic is to be presented (self branded or not), how to reference this topic for F1, where this topic exists within the TOC, its ID (for link reference by other topics), etc. See the "Content Metadata" table below for a complete list of supported metadata.
 
 -   In this case, we will use our own branding package, a variant of the Visual Studio Help Viewer branding package.
 
--   Add the F1 meta name and value ("Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag.  (See the F1 Support section for more information.)   This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.
+-   Add the F1 meta name and value ("Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag. (See the F1 Support section for more information.) This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.
 
--   Add the topic ID. This is the string that is used by other topics to link to this topic.  It is the Help Viewer ID for this topic.
+-   Add the topic ID. This is the string that is used by other topics to link to this topic. It is the Help Viewer ID for this topic.
 
 -   For the TOC, add this topic's parent node to define where this topic TOC node will appear.
 
--   For the TOC, add this topic's node order. When the parent node has n number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.)
+-   For the TOC, add this topic's node order. When the parent node has `n` number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.
 
 Example metadata section:
 
@@ -118,7 +119,6 @@ Example metadata section:
 
 </body>
 </html>
-
 ```
 
 **The Topic Body**
@@ -138,7 +138,7 @@ The body (not including the header and footer) of the topic will contain page li
 6.  Add page links: `<a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
->  Note: for non-supported new "Display Language" (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
+> Note: for non-supported new "Display Language" (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
 
 **Example Help Viewer Topic** The code illustrates how to define metadata, a code snippet, a collapsible area, and language-specific text.
 
@@ -334,9 +334,22 @@ A user can then register CustomLibrary as the namespace under the Partners hive,
 
 Add the following registry key and value:
 
-HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help key: Display Debug Output in Retail value: YES
+::: moniker range="vs-2017"
 
-In the IDE, under the Help menu item, select "Debug Help Context"
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Dynamic Help**
+
+::: moniker-end
+
+Value: Display Debug Output in Retail
+Data: YES
+
+In the IDE, under the Help menu item, select **Debug Help Context**.
 
 **Content Metadata**
 
@@ -360,7 +373,8 @@ In the following table, any string that appears between brackets is a placeholde
 | \< meta name="Microsoft.Help.TopicVersion content="[topic version number]"/> | Specifies this version of the topic when multiple versions exist in a catalog. Because Microsoft.Help.Id is not guaranteed to be unique, this tag is required when more than one version of a topic exists in a catalog, for example, when a catalog contains a topic for the .NET Framework 3.5 and a topic for the .NET Framework 4 and both have the same Microsoft.Help.Id. |
 | \< meta name="SelfBranded" content="[TRUE or FALSE]"/> | Specifies whether this topic uses the Help Library Manager start-up branding package or a branding package that is specific to the topic. This tag must be either TRUE or FALSE. If it is TRUE, then the branding package for the associated topic overrides the branding package that is set when Help Library Manager starts so that the topic is rendered as intended even if it differs from the rendering of other content. If it is FALSE, the current topic is rendered according to the branding package that is set when Help Library Manager starts. By default, Help Library Manager assumes self-branding to be false unless the SelfBranded variable is declared as TRUE; therefore, you do not have to declare \<meta name="SelfBranded" content="FALSE"/>. |
 
-### Creating a branding package
+## Create a branding package
+
 The Visual Studio release encompasses a number of different Visual Studio products, including the Isolated and Integrated shells for Visual Studio Partners.  Each of these products requires some degree of topic-based Help content branding support, unique to the product.  For example, Visual Studio topics need to have a consistent brand presentation, whereas SQL Studio, which wraps ISO Shell, requires its own unique Help content branding for each topic.  An Integrated Shell Partner may want their Help topics to be within the parent Visual Studio product Help content while maintaining their own topic branding.
 
 Branding packages are installed by the product containing the Help Viewer.  For Visual Studio products:
@@ -426,7 +440,6 @@ The Branding.xml file contains a list of elements used for consistently renderin
 Note: variables noted by "{n}" have code dependencies - removing or changing these values will cause errors and possibly application crash. Localization identifiers (example _locID="codesnippet.n") are included in the Visual Studio Branding Package.
 
 **Branding.xml**
-
 
 | | |
 | - | - |
@@ -597,7 +610,8 @@ Visual Studio content displays a Visual Studio logo as well as other graphics.  
 |ccOn.png|Captioning graphic||
 |ImageSprite.png|Used to render Collapsible Area|expanded or collapse graphic|
 
-### Deploying a set of topics
+## Deploy a set of topics
+
 This is a simple and quick tutorial for creating a Help Viewer content deployment set comprised of an MSHA file and the set of cabs or MSHCs containing the topics. The MSHA is an XML file that describes a set of cabs or MSHC files. The Help Viewer can read the MSHA to obtain a list of content (the .CAB or .MSHC files) available for local installation.
 
 This is only a primer describing the very basic XML schema for the Help Viewer MSHA.  There is an example implementation below this brief overview and sample HelpContentSetup.msha.
@@ -671,14 +685,14 @@ To obtain the Visual Studio branding package, copy Branding_en-US.mshc file at C
 </div>
 </body>
 </html>
-
 ```
 
 **Summary**
 
 Using and extending the above steps will enable VSPs to deploy their content sets for the Visual Studio Help Viewer.
 
-### Adding help to the Visual Studio Shell (Integrated and Isolated)
+### Add help to the Visual Studio Shell (Integrated and Isolated)
+
 **Introduction**
 
 This walkthrough demonstrates how to incorporate Help content into a Visual Studio Shell application and then deploy it.
@@ -780,7 +794,7 @@ To test this as if deployed:
 
 6. Create CatalogType.xml and add to the content store (previous step) containing:
 
-   ```
+   ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <catalogType>UserManaged</catalogType>
    ```
@@ -811,7 +825,7 @@ To test this as if deployed:
 
 12. Within the Contoso IDE, choose the F1 key to test F1 functionality.
 
-### Additional resources
+## Additional resources
 
 For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).
 
