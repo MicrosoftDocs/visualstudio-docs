@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/04/2019
+ms.date: 02/29/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -18,24 +18,17 @@ ms.technology: vs-installation
 ---
 # Visual Studio Enterprise component directory
 
-The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
-
-Also note the following about the page:
-
-* Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
-* By default, the **Required** components will be installed when you install the workload.
-* If you choose to, you can also install the **Recommended** and **Optional** components.
-* We've also added a section that lists the additional components that are not affiliated with any workload.
+[!INCLUDE[install_get_support_md](includes/workloads-components-universal-header_md.md)]
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Community 2017](includes/vs-2017/workload-component-id-vs-community.md)]
+[!include[Visual Studio Community 2017](includes/vs-2017/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Community 2019](includes/vs-2019/workload-component-id-vs-community.md)]
+[!include[Visual Studio Community 2019](includes/vs-2019/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 

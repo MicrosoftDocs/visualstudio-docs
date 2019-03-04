@@ -38,7 +38,7 @@ Click the edition names in the following table to see the available workload and
 | [Visual&nbsp;Studio Test&nbsp;Professional&nbsp;2017](workload-component-id-vs-test-professional.md) | Microsoft.VisualStudio.Product.TestProfessional | Visual Studio Test Professional 2017 |
 | [Visual&nbsp;Studio Feedback&nbsp;Client&nbsp;2017](workload-component-id-vs-feedback-client.md) | Microsoft.VisualStudio.Product.FeedbackClient | Visual Studio Feedback Client 2017 |
 
-For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page and the [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md?view=vs-2017) page and the [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md?view=vs-2017) page.
 
 ::: moniker-end
 
@@ -56,7 +56,7 @@ For more information about how to use these lists, see the [Use command-line par
 | [Visual&nbsp;Studio Test&nbsp;Agent&nbsp;2019](includes/vs-2019/workload-component-id-vs-test-agent.md)  | Microsoft.VisualStudio.Product.TestAgent | Supports running automated tests and load tests remotely |
 | [Visual&nbsp;Studio Load&nbsp;Test&nbsp;Controller 2019](includes/vs-2019/workload-component-id-vs-test-controller.md) | Microsoft.VisualStudio.Product.TestController | Distribute automated tests to multiple machines |
 
-For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page and the [How to: Migrate extensibility projects to Visual Studio](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) page and the [How to: Migrate extensibility projects to Visual Studio](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md?view=vs-2019) page.
 
 ::: moniker-end
 
