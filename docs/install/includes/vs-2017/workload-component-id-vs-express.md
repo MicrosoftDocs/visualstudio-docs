@@ -11,7 +11,6 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-
 ## Express for Windows Desktop
 
 **ID:** Microsoft.VisualStudio.Workload.WDExpress

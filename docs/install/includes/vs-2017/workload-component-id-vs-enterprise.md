@@ -11,7 +11,6 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-
 ## Visual Studio core editor (included with Visual Studio Enterprise 2017)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor

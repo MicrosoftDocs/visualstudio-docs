@@ -6,7 +6,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
+The tables on this page list the IDs that you can use to install Visual Studio from the command line, or that you can specify as a dependency in a VSIX manifest. We'll add additional components when we release updates to Visual Studio.
 
 Also note the following about the page:
 

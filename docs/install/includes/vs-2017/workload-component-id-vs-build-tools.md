@@ -10,7 +10,6 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-
 ## Azure development build tools
 
 **ID:** Microsoft.VisualStudio.Workload.AzureBuildTools

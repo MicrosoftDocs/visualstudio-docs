@@ -18,15 +18,19 @@ ms.technology: vs-installation
 ---
 # Visual Studio Team Explorer component directory
 
-[!INCLUDE[install_get_support_md](includes/workloads-components-universal-header_md.md)]
+[!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
 ::: moniker range="vs-2017"
+
+[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
 
 [!include[Visual Studio Team Explorer 2017](includes/vs-2017/workload-component-id-vs-team-explorer.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
+
+[!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 [!include[Visual Studio Team Explorer 2019](includes/vs-2019/workload-component-id-vs-team-explorer.md)]
 
