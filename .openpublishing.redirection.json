@@ -2072,7 +2072,12 @@
         },
         {
             "source_path": "docs/rtvs/data-science-workload.md",
-            "redirect_url": "/visualstudio/rtvs/data-science-and-analytical-applications-workload",
+            "redirect_url": "/visualstudio/python/data-science-and-analytical-applications-workload",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/data-science-and-analytical-applications-workload.md",
+            "redirect_url": "/visualstudio/python/data-science-and-analytical-applications-workload",
             "redirect_document_id": false
         },
         {
