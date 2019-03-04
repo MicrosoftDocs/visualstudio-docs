@@ -15,7 +15,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
-::: monikier range='>= vs-2019'
+::: moniker range='>= vs-2019'
 
 ## Start Window
 
@@ -27,7 +27,7 @@ If you close the **Start Window** and want to see it again, you can reopen it fr
 
 ::: moniker-end
 
-::: monikier range='vs-2017'
+::: moniker range='vs-2017'
 
 ## Start Page
 
