@@ -46,11 +46,25 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
 For remote debugging, the following ports must be open on the remote computer:
 
+::: moniker range="vs-2017"
+
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
 |4022|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
+
+::: moniker-end
+
+::: moniker range=">= vs-2019"
+
+|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
+|-|-|-|-|
+|4024|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
+
+::: moniker-end
 
 If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
 
