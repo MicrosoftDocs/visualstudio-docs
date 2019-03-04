@@ -15,6 +15,20 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
+::: moniker range=">= vs-2019"
+
+## Start Window
+
+The first thing you'll see after you launch Visual Studio is most likely the **Start Window**. The **Start Window** is designed as a "hub" to help you find the commands and project files you need faster. The **Open recent** section displays projects and folders you've worked on recently. In the right section, you can **Close or check out code**, **Open a project or solution**, **Open a local folder**, or **Create a new project**.
+
+![Start Window in Visual Studio](media/start-window.png)
+
+If you close the **Start Window** and want to see it again, you can reopen it from the **File** menu.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 ## Start Page
 
 The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
@@ -25,11 +39,13 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 ![File menu in Visual Studio](media/quickstart-IDE-file-menu-large.png)
 
+::: moniker-end
+
 ## Create a project
 
 To continue exploring Visual Studio's features, let's create a new project.
 
-1. On the **Start Page**, in the search box under **New project**, type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+1. On the **Start Page** or **Start Window**, in the search box under **New project**, type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
    ![Search project templates on Visual Studio Start Page](media/start-page-search-templates.png)
 
