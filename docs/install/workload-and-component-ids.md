@@ -44,7 +44,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for the [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
+**Updated for [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
@@ -59,8 +59,6 @@ For more information about how to use these lists, see the [Use command-line par
 For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) page and the [How to: Migrate extensibility projects to Visual Studio](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md?view=vs-2019) page.
 
 ::: moniker-end
-
-## Get support
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
