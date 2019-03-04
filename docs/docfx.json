@@ -97,6 +97,9 @@
         "rtvs/**/**.md": "visual-studio-dev15",
         "vs-2015/**/**.md": "visual-studio-dev14"
       },
+      "monikerRange": {
+        "rtvs/**/**.md": "vs-2017"
+      },
       "ms.technology": {
         "ai/**/**.md": "vs-ai-tools",
         "azure/**/**.md": "vs-azure",

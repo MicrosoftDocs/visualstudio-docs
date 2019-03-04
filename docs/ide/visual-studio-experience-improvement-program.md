@@ -25,8 +25,7 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
    The **Visual Studio Experience Improvement Program** dialog box opens.
 
-1. To opt out, select **No, I would not like to participate**, and then select **OK**.
-   To opt in, select **Yes, I am willing to participate**, and then select **OK**.
+1. To opt out, select **No, I would not like to participate**, and then select **OK**. To opt in, select **Yes, I am willing to participate**, and then select **OK**.
 
    ![Visual Studio Experience Improvement Program dialog](media/experience-improvement-program.png)
 
@@ -36,13 +35,26 @@ If you install the [Build Tools for Visual Studio](https://visualstudio.microsof
 
 The relevant registry key and settings are as follows:
 
-On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\15.0\SQM**
-On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\15.0\SQM**
-When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+::: moniker range="vs-2017"
+
+- On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\15.0\SQM**
+- On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\15.0\SQM**
+- When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\16.0\SQM**
+- On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\16.0\SQM**
+- When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+
+::: moniker-end
 
 Entry = **OptIn**
 
 Value = (DWORD)
+
 - **0** is opted out (turn off the VSCEIP)
 - **1** is opted in (turn on the VSCEIP)
 
