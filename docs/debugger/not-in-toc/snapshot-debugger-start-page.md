@@ -64,6 +64,6 @@ You can find more information about the Snapshot Debugger on the [docs page](../
 
 ## Don't' Show Me This Again
 
-To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the **Show 'Getting Started' page on session start** option in **Tools** > **Options** > **Snapshot Debugger**.
+To never show the Snapshot Debugger Start page again when you connect the Snapshot Debugger, change the **Show 'Getting Started' page on session start** option in **Tools** > **Options** > **Snapshot Debugger**.
 
 ![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tools-options.png)

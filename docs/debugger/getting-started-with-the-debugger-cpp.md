@@ -29,11 +29,20 @@ In this tutorial, you will:
 
 ## Prerequisites
 
+::: moniker range=">=vs-2019"
+
+* You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
+
+::: moniker-end
+::: moniker range="vs-2017"
+
 * You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker-end
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
 ## Create a project
 
@@ -212,7 +221,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
+   > The **Run to Click** button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
 
 2. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
