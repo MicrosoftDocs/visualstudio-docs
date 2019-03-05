@@ -30,7 +30,7 @@ This property is visible only when an XSLT file is currently active in the Edito
 
 The file that is generated when transforming an XML document.
 
-If a file is not specified, a default file name is generated based on the `method` attribute on the `xsl:output` element which determines the file extension. The default file is located in the current user's temporary directory.
+If a file is not specified, a default file name is generated based on the `method` attribute on the `xsl:output` element, which determines the file extension. The default file is located in the current user's temporary directory.
 
 **Schemas**
 

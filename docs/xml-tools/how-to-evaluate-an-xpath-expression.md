@@ -40,7 +40,7 @@ The following procedure uses the *below-average.xsl* and *books.xml* files from 
 
    The price of the current book node appears in the **Value** box.
 
-   ![Evalute an XPath expression in the Quickwatch window](media/quickwatch-price.png)
+   ![Evaluate an XPath expression in the Quickwatch window](media/quickwatch-price.png)
 
 5. Change the XPath expression to `./price/text() < $bookAverage` and click **Reevaluate**.
 
