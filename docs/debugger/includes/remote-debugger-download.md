@@ -17,7 +17,7 @@ On the remote device or server that you want to debug on, rather than the Visual
 
 ::: moniker range=">=vs-2019"
 
-* Until the standalone version of the Visual Studio 2019 remote debugger is released, you need to [find the remote debugger](https://docs.microsoft.com/visualstudio/debugger/remote-debugging?view=vs-2017#fileshare_msvsmon) in your own installation of Visual Studio, and either copy and run it on your remote machine or run it from a fileshare.
+Until the standalone version of the Visual Studio 2019 remote debugger is released, you need to [find the remote debugger](https://docs.microsoft.com/visualstudio/debugger/remote-debugging?view=vs-2017#fileshare_msvsmon) in your own installation of Visual Studio, and either copy and run it on your remote machine or run it from a fileshare.
 
 ::: moniker-end
 
