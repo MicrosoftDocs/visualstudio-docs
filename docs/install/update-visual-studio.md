@@ -2,20 +2,23 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 04/23/2018
+ms.date: 03/05/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 helpviewer_keywords:
-  - "update Visual Studio"
-  - "change visual studio"
-  - "changing Visual Studio"
+  - "update [Visual Studio]"
+  - "change [Visual Studio]"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Update Visual Studio 2017 to the most recent release
+# Update Visual Studio to the most recent release
+
+::: moniker range="vs-2017"
 
 We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
