@@ -55,7 +55,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
 
-   ![Search project templates on Visual Studio start window](media/create-new-project.png)
+   ![Search project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
 
 1. Choose a **Blank Node.js Web Application** project template and click **Next**. 
 
