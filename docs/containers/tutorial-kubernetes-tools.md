@@ -55,18 +55,18 @@ To leverage this new functionality, you'll need:
 
 Once you have the appropriate tools installed, launch Visual Studio and create a new project. Under **Cloud**, choose the **Container Application for Kubernetes** project type. Select this project type and choose **OK**.
 
-![Screenshot of creating a new Kubernetes app project](media/k8s-tools-new-k8s-app.png)
+![Screenshot of creating a new Kubernetes app project](media/tutorial-kubernetes-tools/k8s-tools-new-k8s-app.png)
 
 ::: moniker-end
 ::: moniker range=">= vs-2019"
 
 In the Visual Studio Start Window, search for *Kubernetes*, and choose the **Container Application for Kubernetes**.
 
-![Screenshot of creating a new Kubernetes app project](media/vs-2019/k8s-tools-new-k8s-app1.png)
+![Screenshot of creating a new Kubernetes app project](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-new-k8s-app1.png)
 
 Provide the project name.
 
-![Screenshot of creating a new Kubernetes app project](media/vs-2019/k8s-tools-new-k8s-app2.png)
+![Screenshot of creating a new Kubernetes app project](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-new-k8s-app2.png)
 
 ::: moniker-end
 
@@ -74,12 +74,12 @@ You can then choose which type of ASP.NET Core web application to create. Choose
 
 ::: moniker range="vs-2017"
 
-![Screenshot of web app selection](media/k8s-tools-web-app-selection-screen.png)
+![Screenshot of web app selection](media/tutorial-kubernetes-tools/k8s-tools-web-app-selection-screen.png)
 
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 
-![Screenshot of web app selection](media/vs-2019/k8s-tools-web-app-selection-screen-2019.png)
+![Screenshot of web app selection](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-web-app-selection-screen-2019.png)
 
 ::: moniker-end
 
@@ -89,18 +89,18 @@ Alternatively, you can add Kubernetes support to an existing ASP.NET Core web ap
 
 ::: moniker range="vs-2017"
 
-![Screenshot of Add Container Orchestrator menu item](media/k8s-tools-add-container-orchestrator.png)
+![Screenshot of Add Container Orchestrator menu item](media/tutorial-kubernetes-tools/k8s-tools-add-container-orchestrator.png)
 
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 
-![Screenshot of Add Container Orchestrator menu item](media/vs-2019/k8s-tools-add-container-orchestrator-2019.png)
+![Screenshot of Add Container Orchestrator menu item](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-add-container-orchestrator-2019.png)
 
 ::: moniker-end
 
 In the dialog box, select **Kubernetes/Helm** and choose **OK**.
 
-![Screenshot of Add Container Orchestrator dialog box](media/k8s-tools-add-container-orchestrator-dialog-box.PNG)
+![Screenshot of Add Container Orchestrator dialog box](media/tutorial-kubernetes-tools/k8s-tools-add-container-orchestrator-dialog-box.PNG)
 
 ## What Visual Studio creates for you
 
@@ -108,12 +108,12 @@ After creating a new **Container Application for Kubernetes** project or adding 
 
 ::: moniker range="vs-2017"
 
-![Screenshot of Solution Explorer after adding Container Orchestrator support](media/k8s-tools-solution-explorer.png)
+![Screenshot of Solution Explorer after adding Container Orchestrator support](media/tutorial-kubernetes-tools/k8s-tools-solution-explorer.png)
 
 ::: moniker-end
 ::: moniker range="vs-2019"
 
-![Screenshot of Solution Explorer after adding Container Orchestrator support](media/vs-2019/k8s-tools-solution-explorer-2019.png)
+![Screenshot of Solution Explorer after adding Container Orchestrator support](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-solution-explorer-2019.png)
 
 ::: moniker-end
 
@@ -121,7 +121,7 @@ The added files are:
 
 - a Dockerfile, which allows you to generate a Docker container image hosting this web application. As you'll see, the Visual Studio tooling leverages this Dockerfile when debugging and deploying to Kubernetes. If you prefer to work directly with the Docker image, you can right-click on the Dockerfile and choose **Build Docker Image**.
 
-   ![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
+   ![Screenshot of Build Docker Image option](media/tutorial-kubernetes-tools/k8s-tools-build-docker-image.png)
 
 - a Helm chart, and a *charts* folder. These yaml files make up the Helm chart for the application, which you can use to deploy it to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
 
@@ -139,33 +139,33 @@ To do this, you first need to double-check that you've installed everything as d
 
 1. In **Solution Explorer**, right-click on your *project* and choose **Publish**.
 
-   ![Screenshot of Publish menu item](media/k8s-tools-publish-project.png)
+   ![Screenshot of Publish menu item](media/tutorial-kubernetes-tools/k8s-tools-publish-project.png)
 
 2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](#publish-your-container-to-azure-container-registry).
 
-   ![Screenshot of Pick a publish target screen](media/k8s-tools-publish-to-acr.png)
+   ![Screenshot of Pick a publish target screen](media/tutorial-kubernetes-tools/k8s-tools-publish-to-acr.png)
 
 3. Back in Solution Explorer, right click on your *solution* and click **Publish to Azure AKS**.
 
-   ![Screenshot of Publish to Azure AKS menu item](media/k8s-tools-publish-solution.png)
+   ![Screenshot of Publish to Azure AKS menu item](media/tutorial-kubernetes-tools/k8s-tools-publish-solution.png)
 
 4. Choose your subscription and your AKS cluster, along with the ACR publish profile that you just created. Then click **OK**.
 
-   ![Screenshot of Publish to AKS screen](media/k8s-tools-publish-to-aks.png)
+   ![Screenshot of Publish to AKS screen](media/tutorial-kubernetes-tools/k8s-tools-publish-to-aks.png)
 
    This takes you to the **Publish to Azure AKS** screen.
 
 5. Choose the **Configure Helm** link to update the command line used to install the Helm charts on the server.
 
-   ![Screenshot of Configure Helm link](media/k8s-tools-configure-helm.png)
+   ![Screenshot of Configure Helm link](media/tutorial-kubernetes-tools/k8s-tools-configure-helm.png)
 
    Updating the command line is useful if there are custom command line arguments that you wish to specify, such as a different Kubernetes context or chart name.
 
-   ![Screenshoot of Helm configure screen](media/k8s-tools-helm-configure-screen.png)
+   ![Screenshoot of Helm configure screen](media/tutorial-kubernetes-tools/k8s-tools-helm-configure-screen.png)
 
 6. When you are ready to deploy, click the **Publish** button to publish your application to AKS.
 
-   ![Screenshot of publish to Azure AKS screen](media/k8s-tools-publish-screen.png)
+   ![Screenshot of publish to Azure AKS screen](media/tutorial-kubernetes-tools/k8s-tools-publish-screen.png)
 
 ::: moniker-end
 
