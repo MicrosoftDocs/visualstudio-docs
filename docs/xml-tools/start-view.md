@@ -19,7 +19,7 @@ The Start View contains two main sections, the *watermark* and the **Schema Set 
 
 ## Watermark
 
-The watermark pane contains a list of links to all the XSD Designer views, XML Editor, and **XML Schema Explorer**. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
+The watermark pane contains a list of links to all the XSD Designer views, XML editor, and **XML Schema Explorer**. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
 ## Schema set details
 
@@ -44,4 +44,4 @@ The following buttons are enabled in the XSD Designer toolbar when the Start Vie
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
 - [Graph View](../xml-tools/graph-view.md)
 - [Content Model View](../xml-tools/content-model-view.md)
-- [XML Editor](../xml-tools/xml-editor.md)
+- [XML editor](../xml-tools/xml-editor.md)
