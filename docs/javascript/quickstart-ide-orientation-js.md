@@ -15,15 +15,19 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
-::: moniker range=">= vs-2019"
+::: moniker range=">=vs-2019"
 
-## Start Window
+## Start window
 
-The first thing you'll see after you launch Visual Studio is most likely the **Start Window**. The **Start Window** is designed as a "hub" to help you find the commands and project files you need faster. The **Open recent** section displays projects and folders you've worked on recently. In the right section, you can **Close or check out code**, **Open a project or solution**, **Open a local folder**, or **Create a new project**.
+The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-![Start Window in Visual Studio](media/start-window.png)
+[![](media/vs-2019/start-window.png "Start window in Visual Studio 2019")](media/vs-2019/start-window.png)
 
-If you close the **Start Window** and want to see it again, you can reopen it from the **File** menu.
+If this is the first time you're using Visual Studio, your recent projects list will be empty.
+
+If you work with non-MSBuild based codebases, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-javascript-code-without-solutions-projects.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+
+The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
 ::: moniker-end
 
