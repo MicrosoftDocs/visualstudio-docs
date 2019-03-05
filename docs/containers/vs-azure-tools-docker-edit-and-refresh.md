@@ -60,7 +60,7 @@ To quickly iterate changes, you can start your application within a container, a
     Once the container image has been built and is running in a Docker container, Visual Studio launches the web app in your default browser.
 
 2. Go to the Index page, which is where we're going to make our changes.
-3. Return to Visual Studio and open `Views\Home\Index.cshtml`.
+3. Return to Visual Studio and open `Index.cshtml`.
 4. Add the following HTML content to the end of the file and save the changes.
 
     ```html
