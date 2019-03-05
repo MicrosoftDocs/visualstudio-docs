@@ -29,7 +29,16 @@ In this tutorial, you will:
 
 ## Prerequisites
 
+::: moniker range=">=vs-2019"
+
+* You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
+
+::: moniker-end
+::: moniker range="vs-2017"
+
 * You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
+
+::: moniker-end
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
