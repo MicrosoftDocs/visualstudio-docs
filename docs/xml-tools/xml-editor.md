@@ -1,5 +1,5 @@
 ---
-title: "XML editor"
+title: XML editor
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
@@ -10,7 +10,9 @@ ms.workload:
 ---
 # XML editor
 
-The XML editor is based on the Visual Studio text editor, and includes additional support for the XML languages. The XML editor includes the following features:
+The XML editor in Visual Studio is based on the text editor and includes additional support for the XML languages. When you open an XML file in Visual Studio, it opens in the XML editor.
+
+The XML editor includes the following features:
 
 - XML 1.0 syntax checking.
 
@@ -32,7 +34,7 @@ The XML editor is based on the Visual Studio text editor, and includes additiona
 
 - Integration with the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). This provides a hierarchal view of XML schemas.
 
-The XML editor is invoked for well-known file extensions, such as *.xml*, *.xsd*, *.xsl*, and *.config*. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML editor by using the **Open With** option and selecting the XML editor from the list.
+The XML editor is invoked for well-known file extensions, such as *.xml*, *.xsd*, *.xsl*, and *.config*. It is also invoked on any unknown file extension if the file appears to contain XML.
 
 ## XSLT IntelliSense
 
@@ -48,6 +50,8 @@ The [XSLT hierarchy tool](../xml-tools/walkthrough-using-xslt-hierarchy.md) allo
 
 ## See also
 
-- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) provides information about the text editor.
-- [XML standards reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema Definition language (XSD), and XSLT.
+- [XML editor options - formatting](../ide/reference/options-text-editor-xml-formatting.md)
+- [XML editor options - miscellaneous](../ide/reference/options-text-editor-xml-miscellaneous.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [XML standards reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
 - [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

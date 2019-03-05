@@ -67,7 +67,3 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
       </BillTo>
     </PurchaseOrder>
     ```
-
-## See also
-
-- [Working with XML data](../xml-tools/working-with-xml-data.md)

@@ -30,7 +30,3 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 2. Copy the XML Schema sample code from [Purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
    The **XML Schema Explorer** is updated with the new schema set.
-
-## See also
-
-- [Working with XML data](../xml-tools/working-with-xml-data.md)

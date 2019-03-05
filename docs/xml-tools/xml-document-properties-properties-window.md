@@ -16,35 +16,34 @@ The **Properties** window provides basic information about the document that is 
 > [!NOTE]
 > All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.
 
- **Encoding**
+**Encoding**
 
- The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding will be used to encode the file when you save the file.
+The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding will be used to encode the file when you save the file.
 
- **Input**
+**Input**
 
- The input document associated with the XSLT style sheet. It is used by the **ShowXSLT Output** command. A document can be selected using the browse (**...**) button.
+The input document associated with the XSLT style sheet. It is used by the **ShowXSLT Output** command. A document can be selected using the browse (**...**) button.
 
- This property is visible only when an XSLT file is currently active in the Editor window.
+This property is visible only when an XSLT file is currently active in the Editor window.
 
- **Output**
+**Output**
 
- The file that is generated when transforming an XML document.
+The file that is generated when transforming an XML document.
 
- If a file is not specified, a default file name is generated based on the `method` attribute on the `xsl:output` element which determines the file extension. The default file is located in the current user's temporary directory.
+If a file is not specified, a default file name is generated based on the `method` attribute on the `xsl:output` element which determines the file extension. The default file is located in the current user's temporary directory.
 
- **Schemas**
+**Schemas**
 
- The schemas to use for validation. The button opens the **XSD Schemas** dialog box, which can be used to select the schemas to use.
+The schemas to use for validation. The button opens the **XSD Schemas** dialog box, which can be used to select the schemas to use.
 
- You can also enter the path to the schemas. If multiple schemas are specified, each schema path must be enclosed in double quotes.
+You can also enter the path to the schemas. If multiple schemas are specified, each schema path must be enclosed in double quotes.
 
- **Stylesheet**
+**Stylesheet**
 
- The XSLT file that is used to transform the document when the **Show XSLT Output** command is used. If this field is blank when the **Show XSLT Output** command is used, the editor uses the value provided in the `xml-stylesheet` processing instruction of the document, or it prompts you for the filename.
+The XSLT file that is used to transform the document when the **Show XSLT Output** command is used. If this field is blank when the **Show XSLT Output** command is used, the editor uses the value provided in the `xml-stylesheet` processing instruction of the document, or it prompts you for the filename.
 
- When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Debug XSLT** command is selected. For example, you may want to do this when you are editing a style sheet that is included in a parent style sheet.
+When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Debug XSLT** command is selected. For example, you may want to do this when you are editing a style sheet that is included in a parent style sheet.
 
 ## See also
 
-- [XML Editor](../xml-tools/xml-editor.md)
-- [XML Editor components](../xml-tools/xml-editor-components.md)
+- [XML editor](../xml-tools/xml-editor.md)
