@@ -198,7 +198,7 @@ You can add the exception to **Exception Settings** using the previous procedure
 Use the **Exception Settings** window to set conditions on exceptions. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on certain code modules. You may also choose to avoid breaking on particular modules.
 
 > [!NOTE]
-> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> Adding conditions to an exception is supported starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 To add conditional exceptions:
 
