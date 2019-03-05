@@ -90,7 +90,7 @@ Often, changes will need further inspection, leveraging the debugging features o
 3. Set a breakpoint to the left of the code line.
 4. Hit F5 to start debugging.
 5. Navigate to the About page to hit your breakpoint.
-6. Switch to Visual Studio to view the breakpoint, and inspect the value of message.
+6. Switch to Visual Studio to view the breakpoint, inspect values, and so on.
 
    ![Breakpoint](media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png)
 
