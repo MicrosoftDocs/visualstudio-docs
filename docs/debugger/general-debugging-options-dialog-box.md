@@ -55,7 +55,7 @@ Enables advanced features for debugging at the address level (the **Disassembly*
 Enables you to set filters on breakpoints so that they will affect only specific processes, threads, or computers.
 
 **Use the new Exception Helper**:
-Enables the Exception Helper (Visual Studio 2017) that replaces the exception assistant.
+Enables the Exception Helper that replaces the exception assistant. (Exception Helper is supported starting in Visual Studio 2017)
 
 > [!NOTE]
 > For managed code, this option was previously called **Enable the exception assistant** .
@@ -200,7 +200,7 @@ Tells Visual Studio to close the console at the end of a debugging session.
 If you're using an older version of Visual Studio, some additional options might be present.
 
 **Enable the exception assistant**:
-For managed code, enables the exception assistant. In Visual Studio 2017, the Exception Helper replaced the exception assistant.
+For managed code, enables the exception assistant. Starting in Visual Studio 2017, the Exception Helper replaced the exception assistant.
 
 **Unwind the call stack on unhandled exceptions**:
 Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.
