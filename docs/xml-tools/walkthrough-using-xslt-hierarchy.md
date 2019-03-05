@@ -105,4 +105,4 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 ## See also
 
-- [Walkthrough: XSLT profiler](../xml-tools/walkthrough-xslt-profiler.md)
+- [XSLT profiler](../xml-tools/xslt-profiler.md)

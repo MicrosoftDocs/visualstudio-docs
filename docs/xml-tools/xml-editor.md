@@ -42,7 +42,7 @@ The XML editor is invoked for well-known file extensions, such as *.xml*, *.xsd*
 
 ## XSLT profiler
 
-The [XSLT profiler](../xml-tools/walkthrough-xslt-profiler.md) creates detailed XSLT performance reports that help you measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler also includes useful hints for XSL and XSLT style sheet optimizations.
+The [XSLT profiler](../xml-tools/xslt-profiler.md) creates detailed XSLT performance reports that help you measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler also includes useful hints for XSL and XSLT style sheet optimizations.
 
 ## XSLT hierarchy
 
