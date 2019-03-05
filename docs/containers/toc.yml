@@ -8,7 +8,7 @@
     href: docker-tools.md
   - name: 'Tutorial: Multi-container app with Docker Compose'
     href: tutorial-multicontainer.md
-  - name: 'Tutorial: Kubernetes Tools'
+  - name: 'Tutorial: Kubernetes in Visual Studio'
     href: tutorial-kubernetes-tools.md
   - name: Debugging apps in a local Docker container
     href: vs-azure-tools-docker-edit-and-refresh.md
