@@ -49,7 +49,17 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 To continue exploring Visual Studio's features, let's create a new project.
 
-1. On the **Start Page** or **Start Window**, in the search box under **New project**, type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+::: moniker range="vs-2017"
+
+1. On the **Start Window**, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+1. On the **Start Page**, in the search box under **New project**, type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+
+::: moniker-end
 
    ![Search project templates on Visual Studio Start Page](media/start-page-search-templates.png)
 
