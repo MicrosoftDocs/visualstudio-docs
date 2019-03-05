@@ -131,8 +131,6 @@ ms.workload:
 
 - [Word, InfoPath, and PowerPoint](#WordAndInfoPath)
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Manage task panes in Word VSTO Add-ins?](http://go.microsoft.com/fwlink/?LinkId=136781).
-
 ##  <a name="Outlook"></a> Outlook
  When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.
 
