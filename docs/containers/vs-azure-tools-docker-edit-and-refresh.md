@@ -67,7 +67,7 @@ To quickly iterate changes, you can start your application within a container, a
     <h1>Hello from a Docker Container!</h1>
     ```
 
-5. Viewing the output window, when the .NET build is completed and you see these lines, switch back to your browser and refresh the About page.
+5. Viewing the output window, when the .NET build is completed and you see these lines, switch back to your browser and refresh the page.
 
    ```output
    Now listening on: http://*:80
