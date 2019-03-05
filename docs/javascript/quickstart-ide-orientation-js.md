@@ -53,7 +53,13 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 1. On the **Start Window**, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
-1. In the **Create a new project** dialog box that appears, accept the default project name and choose **OK**.
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
+
+   ![Search project templates on Visual Studio start window](media/create-new-project.png)
+
+1. Choose a **Blank Node.js Web Application** project template and click **Next**. 
+
+1. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
 
 ::: moniker-end
 
