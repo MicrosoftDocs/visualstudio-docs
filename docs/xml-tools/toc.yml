@@ -39,8 +39,6 @@
           href: walkthrough-using-xslt-intellisense.md
         - name: XSLT hierarchy
           href: walkthrough-using-xslt-hierarchy.md
-        - name: XSLT profiler
-          href: walkthrough-xslt-profiler.md
     - name: XML file properties
       href: xml-document-properties-properties-window.md
     - name: XML Schemas dialog box
@@ -104,18 +102,14 @@
   - name: XSLT debugging
     href: debugging-xslt.md
     items:
-    - name: Debug XSLT
-      href: how-to-start-debugging-xslt.md
-    - name: Use breakpoints with XSLT
-      href: how-to-use-breakpoints-with-xslt.md
-    - name: Evaluate an XPath expression
-      href: how-to-evaluate-an-xpath-expression.md
     - name: "Walkthrough: Debug an XSLT style sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md
-    - name: XSLT default templates
-      href: xslt-default-templates.md
+    - name: Evaluate an XPath expression
+      href: how-to-evaluate-an-xpath-expression.md
     - name: XSLT debugger user interface
       href: debugger-user-interface-xslt.md
+    - name: XSLT default template
+      href: xslt-default-templates.md
     - name: XSLT profiler
       href: xslt-profiler.md
   - name: Security considerations for XML

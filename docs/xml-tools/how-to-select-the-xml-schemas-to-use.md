@@ -11,7 +11,7 @@ ms.workload:
 ---
 # How to: Select the XML schemas to use
 
-The XML Editor provides a schema cache located in the *%VSInstallDir%\xml\Schemas* directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.
+The XML editor provides a schema cache located in the *%VSInstallDir%\xml\Schemas* directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.
 
 Use the **Schemas** document property to select one or more XML schema definition language (XSD) schemas. You can select schemas from the schema cache or elsewhere.
 
@@ -24,9 +24,11 @@ The schemas you specify are saved in a (hidden) solution user options file (.*su
 
 1. Open a file in the XML editor.
 
-2. In the document properties window, click the button on the **Schemas** field.
+2. In the document properties window, click in the **Schemas** field. When the browse button (...) appears, click it.
 
-    The [XML Schemas dialog box](xml-schemas-dialog-box.md) opens. The dialog box lists all schemas with an .*xsd* extension in the schema cache (including schemas referenced in the *catalog.xml* file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.
+   ![Schemas property for an XML file](media/properties-schemas.png)
+
+   The [XML Schemas dialog box](xml-schemas-dialog-box.md) opens. The dialog box lists all schemas with an .*xsd* extension in the schema cache (including schemas referenced in the *catalog.xml* file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.
 
 3. Select the schemas to use for validation by doing one of the following:
 
@@ -34,11 +36,11 @@ The schemas you specify are saved in a (hidden) solution user options file (.*su
 
      -or-
 
-   - Select multiple schemas listed in the **XML Schemas** dialog, right-click and select **Use this schema**.
+   - Select multiple schemas listed in the **XML Schemas** dialog, and then right-click and select **Use this schema**.
 
-4. Click **OK**.
+4. Choose **OK**.
 
-    The list of selected schemas is copied back to the **Schemas** document property.
+   The list of selected schemas is copied back to the **Schemas** document property.
 
 ## To add an XML schema to the schema cache
 
@@ -46,13 +48,13 @@ The schemas you specify are saved in a (hidden) solution user options file (.*su
 
 2. Click **Add**.
 
-     This opens the **Open XSD Schema** dialog.
+   The **Open XSD Schema** dialog opens.
 
 3. Browse and select the schema(s) to add to the schema cache.
 
 4. Click **Open**.
 
-     The schema(s) added to the schema cache and is the **Use** column value is set to **Use this schema**.
+   The schemas are added to the schema cache and the **Use** column value is set to **Use this schema**.
 
 ## To delete an XML schema from the schema cache
 

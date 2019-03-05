@@ -11,7 +11,7 @@ ms.workload:
 ---
 # XML document properties, Properties window
 
-The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.
+The **Properties** window provides basic information about the document that is active in the XML editor. The properties that are available vary depending on the type of XML document that is currently active.
 
 > [!NOTE]
 > All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.
@@ -42,7 +42,7 @@ You can also enter the path to the schemas. If multiple schemas are specified, e
 
 The XSLT file that is used to transform the document when the **Show XSLT Output** command is used. If this field is blank when the **Show XSLT Output** command is used, the editor uses the value provided in the `xml-stylesheet` processing instruction of the document, or it prompts you for the filename.
 
-When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Debug XSLT** command is selected. For example, you may want to do this when you are editing a style sheet that is included in a parent style sheet.
+When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Start XSLT Debugging** command is selected. For example, you may want to do this when you're editing a style sheet that's included in a parent style sheet.
 
 ## See also
 
