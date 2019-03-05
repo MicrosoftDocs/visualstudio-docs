@@ -1,6 +1,6 @@
 ---
 title: "XML Document Properties, Properties Window"
-ms.date: 11/04/2016
+ms.date: 03/05/2019
 ms.topic: reference
 ms.assetid: 9dbb34d9-02ea-4201-b445-c98a0eb0d6db
 author: gewarren
@@ -18,13 +18,13 @@ The **Properties** window provides basic information about the document that is 
 
 **Encoding**
 
-The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding will be used to encode the file when you save the file.
+The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding is used to encode the file when you save the file.
 
 **Input**
 
-The input document associated with the XSLT style sheet. It is used by the **ShowXSLT Output** command. A document can be selected using the browse (**...**) button.
+The input document associated with the XSLT style sheet. It is used by the **Start XSLT** commands, for example, **XML** > **Start XSLT Without Debugging**. A document can be selected using the browse (**...**) button.
 
-This property is visible only when an XSLT file is currently active in the Editor window.
+This property is visible only when an XSLT file is open in the editor.
 
 **Output**
 
@@ -40,9 +40,9 @@ You can also enter the path to the schemas. If multiple schemas are specified, e
 
 **Stylesheet**
 
-The XSLT file that is used to transform the document when the **Show XSLT Output** command is used. If this field is blank when the **Show XSLT Output** command is used, the editor uses the value provided in the `xml-stylesheet` processing instruction of the document, or it prompts you for the filename.
+The XSLT file that is used to transform the document when the **Start XSLT Debugging** and **Start XSLT Without Debugging** commands are used. If this field is blank, the editor uses the value provided in the `xml-stylesheet` processing instruction of the document or it prompts you for a filename.
 
-When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Start XSLT Debugging** command is selected. For example, you may want to do this when you're editing a style sheet that's included in a parent style sheet.
+When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Start XSLT Debugging** or **Start XSLT Without Debugging** command is selected. For example, you may want to do this when you're editing a style sheet that's included in a parent style sheet.
 
 ## See also
 

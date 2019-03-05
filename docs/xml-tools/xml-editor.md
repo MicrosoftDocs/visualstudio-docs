@@ -28,7 +28,7 @@ The XML editor includes the following features:
 
 - Converting a DTD or XML-Data Reduced (XDR) schema into an XML Schema.
 
-- XSLT 1.0 syntax checking.
+- XSLT syntax checking.
 
 - Document outlining, so that elements can be expanded and collapsed.
 

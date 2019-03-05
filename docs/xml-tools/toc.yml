@@ -11,9 +11,9 @@
     - name: XML snippets
       href: xml-snippets.md
       items:
-      - name: How to use XML snippets
+      - name: Use XML snippets
         href: how-to-use-xml-snippets.md
-      - name: Generate an XML snippet from an XML schema
+      - name: Generate snippet from an XML schema
         href: how-to-generate-an-xml-snippet-from-an-xml-schema.md
       - name: Create XML snippets
         href: how-to-create-xml-snippets.md

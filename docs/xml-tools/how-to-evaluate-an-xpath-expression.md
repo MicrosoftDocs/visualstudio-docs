@@ -24,7 +24,7 @@ When evaluating an XPath expression:
 
 ## Evaluate an XPath expression
 
-The following procedure uses the *below-average.xsl* and *books.xml* files from the [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) page.
+The following procedure uses the *below-average.xsl* and *books.xml* files from the [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md#sample-files) page.
 
 1. Insert a breakpoint at the `xsl:if` start tag.
 

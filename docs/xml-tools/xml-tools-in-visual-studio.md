@@ -39,7 +39,7 @@ ms.workload:
 
 ## XML editor
 
-The XML editor is used to edit XML documents. It provides full XML 1.0 syntax checking, schema validation while you type, color-coding, and IntelliSense. If a schema or document type definition is provided, it is used by IntelliSense to list allowable elements and attributes.
+The [XML editor](xml-editor.md) is used to edit XML documents. It provides full XML syntax checking, schema validation while you type, color-coding, and IntelliSense. If a schema or document type definition is provided, it is used by IntelliSense to list allowable elements and attributes.
 
 Additional features include:
 
@@ -63,10 +63,13 @@ The [XML Schema Designer](xml-schema-designer.md) is integrated with Visual Stud
 
 Visual Studio supports [debugging XSLT style sheets](../xml-tools/debugging-xslt.md). Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.
 
+> [!NOTE]
+> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
+
 ## See also
 
 - <xref:System.Xml?displayProperty=fullName>
-- [XML Document Object Model (DOM)](/dotnet/standard/data/xml/xml-document-object-model-dom)
 - [XSLT transformations](/dotnet/standard/data/xml/xslt-transformations)
 - [Process XML data using the XPath data model](/dotnet/standard/data/xml/process-xml-data-using-the-xpath-data-model)
+- [XML Document Object Model (DOM)](/dotnet/standard/data/xml/xml-document-object-model-dom)
 - [XML Schema Object Model (SOM)](/dotnet/standard/data/xml/xml-schema-object-model-som)
