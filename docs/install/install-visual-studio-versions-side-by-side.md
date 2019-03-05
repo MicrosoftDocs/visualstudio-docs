@@ -18,9 +18,6 @@ You can install Visual Studio on a computer that has an earlier or later version
 
 ::: moniker range="vs-2017"
 
-> [!NOTE]
-> For optimal performance, we recommend that you install Visual Studio versions in the order in which they were released. For example, install Visual Studio 2015 before you install Visual Studio 2017.
-
 Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2017 to open a solution that was created in Visual Studio 2015, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2017.
@@ -30,9 +27,6 @@ Before you install versions side-by-side, review the following conditions:
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
-
-> [!NOTE]
-> For optimal performance, we recommend that you install Visual Studio versions in the order in which they were released. For example, install Visual Studio 2017 before you install Visual Studio 2019.
 
 Before you install versions side-by-side, review the following conditions:
 
