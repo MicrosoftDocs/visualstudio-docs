@@ -93,11 +93,21 @@ The *.natvis* files are evaluated in the following order:
 
 1. Any *.natvis* files that are embedded in a *.pdb* you're debugging, unless a file of the same name exists in the loaded project.
 
-1. Any *.natvis* files that are in a loaded C++ project or top-level solution. This group includes all loaded C++ projects, including class libraries, but not projects in other languages.
+2. Any *.natvis* files that are in a loaded C++ project or top-level solution. This group includes all loaded C++ projects, including class libraries, but not projects in other languages.
 
-1.  The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+::: moniker range="vs-2017"
 
-1.  The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
+3.  The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+
+::: moniker-end
+
+::: moniker range=">= vs-2019"
+
+3.  The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
+
+::: moniker-end
+
+4.  The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging
 

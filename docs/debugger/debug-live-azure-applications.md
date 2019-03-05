@@ -44,7 +44,7 @@ In this tutorial, you will:
 
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
-::: moniker range="< vs-2019"
+::: moniker range="vs-2019"
 
 2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
 
