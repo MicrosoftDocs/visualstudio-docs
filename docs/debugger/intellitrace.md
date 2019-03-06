@@ -63,7 +63,7 @@ IntelliTrace can also help you debug errors that are hard to reproduce or that h
 
 You can save IntelliTrace data from these sources:
 
-- An IntelliTrace session in Visual Studio 2017 Enterprise, Visual Studio 2015 Enterprise, or previous versions of Visual Studio Ultimate.
+- An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
 - A test session in Microsoft Test Manager
 
@@ -125,7 +125,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
-     You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2017, Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.
+     You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.
 
      When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.
 

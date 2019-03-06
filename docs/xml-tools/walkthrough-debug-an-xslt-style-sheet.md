@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Debug an XSLT Style Sheet"
-ms.date: 11/04/2016
+title: Debug XSLT style sheets
+ms.date: 03/05/2019
 ms.topic: conceptual
 ms.assetid: 3db9fa5a-f619-4cb6-86e7-64b364e58e5d
 author: gewarren
@@ -11,88 +11,90 @@ ms.workload:
 ---
 # Walkthrough: Debug an XSLT style sheet
 
-The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps include viewing variables, setting breakpoints, and stepping through the code. The style sheet finds all books that cost below the average book price.
+The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps include viewing variables, setting breakpoints, and stepping through the code. The debugger lets you execute code one line at a time.
 
-## To prepare for this walkthrough
+To prepare for this walkthrough, first copy the two [sample files](#sample-files) to your local computer. One is the style sheet, and one is the XML file we'll use as input to the style sheet. In this walkthrough, the style sheet we use finds all books whose cost is below the average book price.
 
-1.  Close any open solutions.
-
-2.  Copy the two sample files to your local computer.
+> [!NOTE]
+> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
 
 ## Start debugging
 
-### To start debugging
+1. From the **File** menu, choose **Open** > **File**.
 
-1.  From the **File** menu, point to **Open**, and click **File**.
+2. Locate the *below-average.xsl* file and choose **Open**.
 
-2.  Locate the *belowAvg.xsl* file and click **Open**.
+   The style sheet opens in the XML editor.
 
-     The style sheet is opened in the XML Editor.
+3. Click the browse button (**...**) on the **Input** field of the document properties window. (If the **Properties** window is not visible, right-click anywhere on the open file in the editor, and then choose **Properties**.)
 
-3.  Click the browse button (**...**) on the **Input** field of the document properties window.
+4. Locate the *books.xml* file, and then choose **Open**.
 
-4.  Locate the *books.xml* file and click **Open**.
+   This sets the source document file that's used for the XSLT transformation.
 
-     This sets the source document file that is used for the XSLT transformation.
+5. Set a [breakpoint](../debugger/using-breakpoints.md) on line 12 of *below-average.xsl*. You can do this in one of multiple ways:
 
-5.  Right-click the `xsl:if` start tag, point to **Breakpoint**, and click **Insert Breakpoint**.
+   - Click in the margin of the editor on line 12.
 
-6.  Click the **Debug XSL** button on the XML Editor toolbar.
+   - Click anywhere on line 12, and then press **F9**.
 
-This starts the debugging process and opens several new windows that are used by the debugger.
+   - Right-click the `xsl:if` start tag, and then choose **Breakpoint** > **Insert Breakpoint**.
 
-There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the *books.xml* file.
+      ![Insert breakpoint in XSL file in Visual Studio](media/insert-breakpoint.PNG)
 
-The **Locals** window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.
+6. On the menu bar, choose **XML** > **Start XSLT Debugging** (or, press **Alt**+**F5**).
 
-The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.
+   The debugging process starts.
+
+   In the editor, the debugger is positioned on the `xsl:if` element of the style sheet. Another file named *below-average.xml* opens in the editor; this is the output file that will be populated as each node in the input file *books.xml* is processed.
+
+   The **Autos**, **Locals**, and **Watch 1** windows appear at the bottom of the Visual Studio window. The **Locals** window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.
 
 ## Watch window
 
-### To use the Watch window
+We'll add two variables to the **Watch 1** window so we can examine their values as the input file is processed. (You can also use the **Locals** window to examine values if the variables you want to watch are already there.)
 
-1.  From the **Debug** menu, point to **Windows**, point to **Watch**, and click **Watch 1**.
+1. From the **Debug** menu, choose **Windows** > **Watch** > **Watch 1**.
 
-     This makes the **Watch 1** window visible.
+   The **Watch 1** window becomes visible.
 
-2.  Type `$bookAverage` in the **Name** field and press **Enter**.
+2. Type `$bookAverage` in the **Name** field, and then press **Enter**.
 
-     The value of the `$bookAverage` variable is displayed in the window.
+   The value of the `$bookAverage` variable displays in the **Value** field.
 
-3.  Type `self::node()` in the **Name** field and press **Enter**.
+3. On the next line, type `self::node()` in the **Name** field, and then press **Enter**.
 
-     `self::node()` is an XPath expression that evaluates to the current context node. The value of the `self::node()` XPath expression is the first book node. This changes as we progress through the transformation.
+   `self::node()` is an XPath expression that evaluates to the current context node. The value of the `self::node()` XPath expression is the first book node. This changes as we progress through the transformation.
 
-4.  Expand the `self::node()` node, and then expand the `price` node.
+4. Expand the `self::node()` node, and then expand the node who's value is `price`.
 
-     This allows you to see the value of the book price and you can easily compare it to the `$bookAverage` value. Because the book price is below the average, the `xsl:if` condition should succeed.
+   ![Watch window during XSLT debugging in Visual Studio](media/xslt-debugging-watch-window.png)
+
+   You can see the value of the book price for the current book node and compare it to the `$bookAverage` value. Because the book price is below the average, the `xsl:if` condition should succeed when you continue the debugging process.
 
 ## Step through the code
- The debugger enables you to execute code one line at a time.
 
-### To step through the code
+1. Press **F5** to continue.
 
-1.  Press **F5** to continue.
+   Because the first book node satisfied the `xsl:if` condition, the book node is added to the *below-average.xml* output file. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the second book node in the *books.xml* file.
 
-     Because the first book node satisfied the `xsl:if` condition, the book node is added to the **XSL Output** window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the second book node in the *books.xml* file.
+   In the **Watch 1** window, the `self::node()` value changes to the second book node. By examining the value of the price element, you can determine that the price is above the average, thus the `xsl:if` condition should fail.
 
-     In the **Watch 1** window the `self::node()` value changes to the second book node. By examining the value of the price element, you can determine that the price is above the average, thus the `xsl:if` condition should fail.
+2. Press **F5** to continue.
 
-2.  Press **F5** to continue.
+   Because the second book node does not meet the `xsl:if` condition, the book node is not added to the *below-average.xml* output file. The debugger continues to execute until it's positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the third `book` node in the *books.xml* file.
 
-     Because the second book node does not meet the `xsl:if` condition, the book node is not added to the **XSL Output** window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the third `book` node in the *books.xml* file.
+   In the **Watch 1** window, the `self::node()` value changes to the third book node. By examining the value of the `price` element, you can determine that the price is below the average. The `xsl:if` condition should succeed.
 
-     In the **Watch 1** window the `self::node()` value changes to the third book node. By examining the value of the `price` element, you can determine that the price is below the average, thus the `xsl:if` condition should succeed.
+3. Press **F5** to continue.
 
-3.  Press **F5** to continue.
-
-     Because the `xsl:if` condition was satisfied, the third book is added to the **XSL Output** window. All books in the XML document have been processed and the debugger stops.
+   Because the `xsl:if` condition was satisfied, the third book is added to the *below-average.xml* output file. All books in the XML document have been processed and the debugger stops.
 
 ## Sample files
 
 The following two files are used by the walkthrough.
 
-### belowAvg.xsl
+### below-average.xsl
 
 ```xml
 <?xml version='1.0'?>
@@ -106,7 +108,7 @@ The following two files are used by the walkthrough.
     <books>
       <!--Books That Cost Below Average-->
       <xsl:for-each select="/bookstore/book">
-        <xsl:if test="price < $bookAverage">
+        <xsl:if test="price &lt; $bookAverage">
           <xsl:copy-of select="."/>
         </xsl:if>
       </xsl:for-each>

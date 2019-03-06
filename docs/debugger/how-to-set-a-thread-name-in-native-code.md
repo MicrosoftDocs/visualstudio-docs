@@ -34,7 +34,7 @@ Benefits:
 * Thread names are also visible when using other tools, such as the [WinDbg](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
 
 Caveats:
-* Thread names are only visible in Visual Studio 2017 version 15.6 and later.
+* Thread names are only visible in Visual Studio 2017 version 15.6 and later versions.
 * When post-mortem debugging a crash dump file, thread names are only visible if the crash was created on Windows 10 version 1607, Windows Server 2016 or later versions of Windows.
 
 *Example:*

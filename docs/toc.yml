@@ -28,6 +28,8 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
+  - name: Install Visual Studio versions side-by-side
+    href: install/install-visual-studio-versions-side-by-side.md    
   - name: Select installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
