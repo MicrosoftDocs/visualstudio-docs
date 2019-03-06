@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to build classic Wind
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 11/13/2018
+ms.date: 2/12/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -23,7 +23,7 @@ Component ID | Name | Version | Dependency type
 Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 15.6.27406.0 | Required
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pack | 15.6.27406.0 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 development tools | 15.8.27825.0 | Required
-Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 15.8.27825.0 | Required
+Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 15.9.28307.421 | Required
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 15.0.26208.0 | Required
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 15.7.27617.1 | Required
 Microsoft.VisualStudio.Component.DockerTools.BuildTools | Container development tools - Build Tools | 15.7.27617.1 | Required
@@ -220,7 +220,7 @@ Microsoft.VisualStudio.Component.Static.Analysis.Tools | Static analysis tools |
 Microsoft.VisualStudio.Component.VC.Tools.ARM | Visual C++ compilers and libraries for ARM | 15.8.27825.0 | Required
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | VC++ 2017 version 15.9 v14.16 latest v141 tools | 15.9.28230.55 | Required
 Microsoft.VisualStudio.ComponentGroup.UWP.BuildTools | Universal Windows Platform build prerequisites | 15.8.27705.0 | Required
-Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.8.27924.0 | Recommended
+Microsoft.VisualStudio.Component.Windows10SDK.17763 | Windows 10 SDK (10.0.17763.0) | 15.9.28307.102 | Recommended
 Microsoft.VisualStudio.Component.Windows10SDK.10240 | Windows 10 SDK (10.0.10240.0) | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.10586 | Windows 10 SDK (10.0.10586.0) | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.14393 | Windows 10 SDK (10.0.14393.0) | 15.6.27406.0 | Optional
@@ -231,6 +231,7 @@ Microsoft.VisualStudio.Component.Windows10SDK.16299.Desktop | Windows 10 SDK (10
 Microsoft.VisualStudio.Component.Windows10SDK.16299.Desktop.arm | Windows 10 SDK (10.0.16299.0) for Desktop C++ [ARM and ARM64] | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299.UWP | Windows 10 SDK (10.0.16299.0) for UWP: C#, VB, JS | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299.UWP.Native | Windows 10 SDK (10.0.16299.0) for UWP: C++ | 15.6.27406.0 | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.9.28307.102 | Optional
 Microsoft.VisualStudio.ComponentGroup.Windows10SDK.15063 | Windows 10 SDK (10.0.15063.0) | 15.8.27825.0 | Optional
 Microsoft.VisualStudio.ComponentGroup.Windows10SDK.16299 | Windows 10 SDK (10.0.16299.0) | 15.8.27825.0 | Optional
 
@@ -250,8 +251,8 @@ Microsoft.VisualStudio.Component.VC.Redist.14.Latest | Visual C++ 2017 Redistrib
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | VC++ 2017 version 15.9 v14.16 latest v141 tools | 15.9.28230.55 | Required
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 15.6.27406.0 | Required
 Microsoft.VisualStudio.Component.TestTools.BuildTools | Testing tools core features - Build Tools | 15.7.27625.0 | Recommended
-Microsoft.VisualStudio.Component.VC.CMake.Project | Visual C++ tools for CMake | 15.8.27906.1 | Recommended
-Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.8.27924.0 | Recommended
+Microsoft.VisualStudio.Component.VC.CMake.Project | Visual C++ tools for CMake | 15.9.28307.102 | Recommended
+Microsoft.VisualStudio.Component.Windows10SDK.17763 | Windows 10 SDK (10.0.17763.0) | 15.9.28307.102 | Recommended
 Microsoft.Component.VC.Runtime.UCRTSDK | Windows Universal CRT SDK | 15.6.27309.0 | Optional
 Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 15.6.27406.0 | Optional
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pack | 15.6.27406.0 | Optional
@@ -272,6 +273,7 @@ Microsoft.VisualStudio.Component.Windows10SDK.16299.Desktop | Windows 10 SDK (10
 Microsoft.VisualStudio.Component.Windows10SDK.16299.Desktop.arm | Windows 10 SDK (10.0.16299.0) for Desktop C++ [ARM and ARM64] | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299.UWP | Windows 10 SDK (10.0.16299.0) for UWP: C#, VB, JS | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299.UWP.Native | Windows 10 SDK (10.0.16299.0) for UWP: C++ | 15.6.27406.0 | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK (10.0.17134.0) | 15.9.28307.102 | Optional
 Microsoft.VisualStudio.Component.Windows81SDK | Windows 8.1 SDK | 15.6.27406.0 | Optional
 Microsoft.VisualStudio.Component.WinXP | Windows XP support for C++ | 15.8.27924.0 | Optional
 Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81 | Windows 8.1 SDK and UCRT SDK | 15.6.27406.0 | Optional

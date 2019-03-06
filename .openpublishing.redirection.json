@@ -2702,6 +2702,41 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/xml-tools/working-with-xml-data.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-editor-components.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/formatting-xml-text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-xml-formatting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/miscellaneous-xml-text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-xml-miscellaneous",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/how-to-start-debugging-xslt.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/how-to-use-breakpoints-with-xslt.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/walkthrough-xslt-profiler.md",
+            "redirect_url": "/visualstudio/xml-tools/xslt-profiler",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/javascript-language-reference.md",
             "redirect_url": "/microsoft-edge/dev-guide/whats-new/javascript-version-information",
             "redirect_document_id": false
@@ -7211,6 +7246,11 @@
             "source_path": "docs/ide/version-numbers-for-main-and-localized-satellite-assemblies.md",
             "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
+            "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
+            "redirect_document_id": true
         }
     ]
 }
