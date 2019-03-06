@@ -55,7 +55,7 @@ For language-specific information, see the appropriate topic in the following ta
 | Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
 | Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017) |
 | Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2017) |
-|C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset.md?view=vs-2017) |
+|C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -63,7 +63,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2017)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
-* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assembiles.md?view=vs-2017)
+* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assembiles/)
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ For language-specific information, see the appropriate topic in the following ta
 | Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2019) |
 | Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2019) |
 | Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2019) |
-| C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset.md?view=vs-2019) |
+| C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -82,6 +82,6 @@ For language-specific information, see the appropriate topic in the following ta
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2019)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
-* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assembiles.md?view=vs-2019)
+* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assembiles/)
 
 ::: moniker-end
