@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Fades out unused parameters and generates a warning for unused expression values. The compiler also does a flow analysis to find any unused value assignments. Unused value assingments fade out and have a codefix to remove the redundant assignment.
+**What:** Fades out unused parameters and generates a warning for unused expression values. The compiler also does a flow analysis to find any unused value assignments. Unused value assignments fade out and have a code fix to remove the redundant assignment.
 
 **When:** You have value assignments, parameters, or expression values that are never used.
 
