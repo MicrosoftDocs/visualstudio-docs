@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 ms.custom: ['remotedebugging"=', 'seodec18']
-ms.date: "08/14/2017"
+ms.date: "08/14/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"

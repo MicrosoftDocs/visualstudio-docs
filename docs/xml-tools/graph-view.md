@@ -21,11 +21,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  The design surface of the Graph View displays the contents of the [XML schema designer workspace](../xml-tools/xml-schema-designer-workspace.md). If the workspace contains any global nodes from the schema set, the nodes are shown on the Graph View design surface and arrows are drawn between the nodes that have relationships.
 
- Double-clicking a node in the Graph View will bring up XML Editor.
+ Double-clicking a node in the Graph View will bring up XML editor.
 
  To delete selected nodes from the workspace, use the XSD Designer toolbar or the **Delete** key.
 
- If the design surface is blank, the XML Editor, the **XML Schema Explorer**, and the watermark are shown. The *watermark* is a list of links to all the XSD Designer views.
+ If the design surface is blank, the XML editor, the **XML Schema Explorer**, and the watermark are shown. The *watermark* is a list of links to all the XSD Designer views.
 
  ![XSD Designer; Graph View](../xml-tools/media/xsdgraphviewwatermark.gif)
 
@@ -49,7 +49,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Remove all but selection from Workspace**|Removes nodes that are not selected from the workspace and the design surface.|
 |**Export Diagram as Image**|Saves the design surface to an XPS file.|
 |**Select All**|Selects all the nodes on the design surface.|
-|**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the **XML Schema Explorer** is also selected in the XML Editor.|
+|**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the **XML Schema Explorer** is also selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
  In addition to the common options described above, the context menu for global elements also has the following options:
@@ -134,9 +134,9 @@ The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** wit
 
 ## XML editor integration
 
- You can switch back and forth between the Graph View and the XML Editor by clicking a node and using the View Code context (right-click) menu.
+ You can switch back and forth between the Graph View and the XML editor by clicking a node and using the View Code context (right-click) menu.
 
- If you make changes to the schema set in the XML Editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
+ If you make changes to the schema set in the XML editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
 
 ## See also
 

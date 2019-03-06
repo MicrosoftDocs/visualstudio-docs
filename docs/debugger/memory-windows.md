@@ -1,6 +1,6 @@
 ---
 title: "View memory for variables in the debugger | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: ""
 ms.date: "10/04/2018"
 ms.topic: "conceptual"
 f1_keywords:
