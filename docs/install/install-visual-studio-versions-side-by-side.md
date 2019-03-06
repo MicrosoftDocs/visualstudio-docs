@@ -59,7 +59,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See Also
+## See also
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2017)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
@@ -78,7 +78,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See Also
+## See also
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2019)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
