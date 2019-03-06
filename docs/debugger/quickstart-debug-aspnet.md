@@ -88,7 +88,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
 While paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
 

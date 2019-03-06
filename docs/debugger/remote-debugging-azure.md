@@ -193,7 +193,7 @@ In this tutorial, we are using Visual Studio 2017.
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
-    > In Visual Studio 2017, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
+    > In Visual Studio 2017 and later versions, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
 
 3. Set the Qualifier field to **\<remote computer name>:4022**.
 4. Click **Refresh**.

@@ -1,6 +1,6 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
-ms.date: "10/11/2017"
+ms.date: "10/11/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"

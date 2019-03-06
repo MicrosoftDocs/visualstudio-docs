@@ -11,7 +11,7 @@ manager: jillfra
 ---
 # Options, Text Editor, XML, Formatting
 
-Use the **Formatting** property page to specify how elements and attributes are formatted in your XML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor** > **XML** > **Formatting** node.
+Use the **Formatting** options page to specify how elements and attributes are formatted in your XML documents. To access XML formatting options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Formatting**.
 
 ## Attributes
 
@@ -24,7 +24,7 @@ Do not reformat attributes. This setting is the default.
 
 **Align attributes each on a separate line**
 
-Align the second and subsequent attributes vertically to match the indentation of the first attribute. The following XML text is an example of how the attributes would be aligned.
+Align the second and subsequent attributes vertically to match the indentation of the first attribute. The following XML text is an example of how the attributes would be aligned:
 
 ```xml
 <item id = "123-A"
@@ -60,5 +60,5 @@ If an element contains a mix of text and markup, the contents are considered to 
 
 ## See also
 
-- [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
-- [Code generation](../code-generation-in-visual-studio.md)
+- [XML options - miscellaneous](options-text-editor-xml-miscellaneous.md)
+- [XML tools in Visual Studio](../../xml-tools/xml-tools-in-visual-studio.md)
