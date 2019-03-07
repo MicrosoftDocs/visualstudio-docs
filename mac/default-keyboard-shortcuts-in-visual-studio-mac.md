@@ -1,18 +1,22 @@
 ---
-title: Default Keyboard Shortcuts
+title: "Default Keyboard Shortcuts"
+description: "This article lists the default keyboard shortcuts in Visual Studio for Mac"
 ms.date: 02/27/2019
 author: byetsguy
 ms.author: adhartle
+ms.assetid:
 ---
+
+# Default keyboard shortcuts in Visual Studio for Mac
 
 For information about keyboard accessibility, see [How to: Use Keyboard Navigation](../mac/accessibility#how-to-use-keyboard-navigation).
 
 You can access a variety of commands in Visual Studio for Mac by using the appropriate keyboard shortcut. This document lists the default shortcuts for the **Visual Sutdio** key binding scheme which is activated by default when you install Visual Studio for Mac. For more information about how to change your key binding scheme, see [Customizing the IDE](../mac/customizing-the-ide#key-bindings). No matter which scheme you choose, you can identify and customise shortcuts for a command by going to the Menu Bar and navigating to **Visual Studio for Mac** > **Preferences** > **Key Bindings**.
 
-### Key Symbols
+## macOS Key Symbols
 
 > [!TIP]
-> The keyboard shortcuts displayed in this document, and the key binding preferences in Visual Studio for Mac, are presented using the symbols commonly used in macOS. If you are unsure of a symbol, check out the table below
+> The keyboard shortcuts displayed in this document, and the key binding preferences in Visual Studio for Mac, are presented using the symbols commonly used in macOS. If you are unsure of a symbol, check out the table below:
 
 |Symbol|Key|
 |-|-|
