@@ -34,7 +34,7 @@ The name of an externally visible interface does not start with an uppercase 'I'
 
 -or-
 
-The name of a generic type parameter on an externally visible type or method does not start with an uppercase 'T'.
+The name of a [generic type parameter](/dotnet/csharp/programming-guide/generics/generic-type-parameters) on an externally visible type or method does not start with an uppercase 'T'.
 
 ## Rule description
 
