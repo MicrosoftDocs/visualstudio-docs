@@ -27,7 +27,7 @@ It is often said that the price of security is constant vigilance. Despite your 
  [Security, Privacy, and Accounts](http://go.microsoft.com/fwlink/?LinkId=72881)  
  Get help with security, privacy, and user accounts, including info about viruses, passwords, parental controls, firewalls, and drive encryption..  
   
- [Microsoft Security Bulletin Search](http://go.microsoft.com/fwlink/?LinkId=110396)  
+ [Microsoft Security Bulletin Search](https://docs.microsoft.com/security-updates/)  
  This page makes it easy to find previously released bulletins. Intended for IT professionals, security bulletins provide detailed information regarding security updates.  
   
  [Windows Server 2003 Security Guide](http://go.microsoft.com/fwlink/?LinkId=65300)  
