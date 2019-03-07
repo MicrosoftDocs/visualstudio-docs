@@ -46,6 +46,16 @@ Generic type parameter names should start with an uppercase 'T' and optionally m
 
 Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
+## Configuration
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure whether or not to allow single-character type parameters in your codebase. For example, to specify that single-character type parameters are allowed, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.CA1715.allow_single_letter_type_parameters = true
+```
+
+For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
 ## How to fix violations
 
 Rename the identifier so that it is correctly prefixed.
