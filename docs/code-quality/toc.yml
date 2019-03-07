@@ -28,13 +28,16 @@
   items:
   - name: Code analysis for managed code
     items:
-    - name: FAQ for FxCop analyzers
-      href: fxcop-analyzers-faq.md
-    - name: Migrate from FxCop
-      href: fxcop-analyzers.yml
+    - name: FxCop analyzers
       items:
+      - name: FAQ for FxCop analyzers
+        href: fxcop-analyzers-faq.md
       - name: Install FxCop analyzers
         href: install-fxcop-analyzers.md
+      - name: Configure FxCop analyzers
+        href: configure-fxcop-analyzers.md
+      - name: Migrate from static code analysis
+        href: fxcop-analyzers.yml
     - name: Install Roslyn analyzers
       href: install-roslyn-analyzers.md
     - name: Configure and use Roslyn analyzers

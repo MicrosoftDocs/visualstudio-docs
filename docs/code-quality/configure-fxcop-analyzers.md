@@ -21,13 +21,13 @@ The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important 
 
 ## Configure analyzers using .editorconfig
 
-You can refine how the FxCop analyzers analyze your code by configuring certain [options](#options). Each option can be configured for a specific rule, for a category of rules (for example, `Naming` or `Design`), or for all rules. The syntax is as follows:
+You can refine how the FxCop analyzers analyze your code by configuring certain [options](#options). Each option can be configured for all rules, for a category of rules (for example, `Naming` or `Design`), or for a specific rule. The syntax is as follows:
 
 | Scope | Syntax | Example |
 | - | - |
-| A specific rule | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
-| A category of rules | dotnet_code_quality.RuleCategory.OptionName = OptionValue | `dotnet_code_quality.Naming.api_surface = public` |
 | All rules | dotnet_code_quality.OptionName = OptionValue | `dotnet_code_quality.api_surface = public` |
+| A category of rules | dotnet_code_quality.RuleCategory.OptionName = OptionValue | `dotnet_code_quality.Naming.api_surface = public` |
+| A specific rule | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
 
 ### Options
 
