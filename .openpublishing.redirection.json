@@ -1,4 +1,4 @@
-{
+﻿{
     "redirections": [
         {
             "source_path": "docs/debugger/debug-interface-access/dia2dump-cpp-source-file.md",
@@ -1097,7 +1097,7 @@
         },
         {
             "source_path": "docs/ide/how-to-restore-csharp-refactoring-snippets.md",
-            "redirect_url": "/visualstudio/ide/reference/refactoring-in-visual-studio",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -2282,7 +2282,7 @@
         },
         {
             "source_path": "docs/test/using-microsoft-visualstudio-testtools-cppunittestframework.md",
-            "redirect_url": "/visualstudio/test/microsoft.visualstudio.testtools.cppunittestframework-api-reference",
+            "redirect_url": "/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference",
             "redirect_document_id": false
         },
         {
@@ -6894,7 +6894,12 @@
         },
         {
             "source_path": "docs/vs-2015/debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md",
-            "redirect_url": "/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015",
+            "redirect_url": "/visualstudio/releasenotes/vs2015-rtm-vs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/what-s-new-for-the-debugger-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/releasenotes/vs2015-rtm-vs",
             "redirect_document_id": false
         },
         {

@@ -91,7 +91,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 |||||
 |-|-|-|-|
 |[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](http://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|
-|[What’s new for C++](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[What's New for Visual Basic](http://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](/visualstudio/scripting-docs/javascript/what-s-new-in-javascript)||
+|[What’s new for C++](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[What's New for Visual Basic](http://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](javascript/javascript-in-visual-studio.md#whats-new-in-javascript)||
 |[Python](./python/getting-started-with-python.md)||||
 
 ## In this section
