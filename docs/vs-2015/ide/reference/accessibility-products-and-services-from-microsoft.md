@@ -57,7 +57,7 @@ Microsoft is committed to making its products and services easier for everyone t
   
 |Recording for the Blind & Dyslexic, Inc.|  
 |----------------------------------------------|  
-|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Telephone number from within the United States: (800) 221-4792<br /><br /> Telephone number from outside the United States and Canada: (609) 452-0606<br /><br /> Fax: (609) 987-8116<br /><br /> Recording for the Blind & Dyslexic website: [http://www.rfbd.org](http://go.microsoft.com/fwlink/?LinkId=62504).|  
+|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Telephone number from within the United States: (800) 221-4792<br /><br /> Telephone number from outside the United States and Canada: (609) 452-0606<br /><br /> Fax: (609) 987-8116<br /><br /> Recording for the Blind & Dyslexic website: [http://ddtp.cpuc.ca.gov/default1.aspx?id=490](http://ddtp.cpuc.ca.gov/default1.aspx?id=490).|  
   
  Web addresses can change, so you might be unable to connect to the website or sites mentioned here.  
   

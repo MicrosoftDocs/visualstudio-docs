@@ -30,11 +30,11 @@ It is often said that the price of security is constant vigilance. Despite your 
  [Microsoft Security Bulletin Search](https://docs.microsoft.com/security-updates/)  
  This page makes it easy to find previously released bulletins. Intended for IT professionals, security bulletins provide detailed information regarding security updates.  
   
- [Windows Server 2003 Security Guide](http://go.microsoft.com/fwlink/?LinkId=65300)  
+ [Windows Server 2003 Security Guide](https://docs.microsoft.com/previous-versions/tn-archive/cc163140(v=technet.10))  
  Delivers the guidance necessary for IT Professionals to securely operate a Windows Server 2003 environment while ensuring the right access to the right content by the right people.  
   
- [Best Practices for Enterprise Security](http://go.microsoft.com/fwlink/?LinkId=72879)  
+ [Best Practices for Enterprise Security](https://docs.microsoft.com/previous-versions/tn-archive/cc750076%28v%3dtechnet.10%29)  
  A collection of whitepapers focusing on the different aspects of security in enterprise networks.  
   
- [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?LinkId=9173)  
+ [Microsoft Baseline Security Analyzer](https://docs.microsoft.com/windows/security/threat-protection/mbsa-removal-and-guidance)  
  The Microsoft Baseline Security Analyzer (MBSA) is a tool that enables an individual home user, a corporate user, or an administrator to scan one or more Windows-based computers for common security configuration mistakes.
