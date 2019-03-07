@@ -18,7 +18,7 @@ ms.workload:
 # Get started (SharePoint development in Visual Studio)
   This section helps you start working with [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to develop SharePoint solutions that take advantage of [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
 
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
  SharePoint offers a Web-based collaboration platform. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides many project templates for creating SharePoint sites and content, including list definitions, workflows, business data connectivity models, and site definitions. In addition, you can create extensions for the SharePoint projects and tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
