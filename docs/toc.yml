@@ -1134,36 +1134,49 @@
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
     items:
-    - name: Current release notes
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: Preview release notes
-      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: Release notes history
-      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default&contextView=vs-2017
     - name: Release rhythm
-      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default&contextView=vs-2017
-    - name: Visual Studio roadmap
-      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default&contextView=vs-2017
-    - name: System requirements
-      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Platform compatibility
-      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Licensing
+      href: /visualstudio/productinfo/release-rhythm/
+    - name: Visual Studio 2017
+      items:
+      - name: Current release notes
+        href: /visualstudio/releasenotes/vs2017-relnotes/
+      - name: Preview release notes
+        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
+      - name: Release notes history
+        href: /visualstudio/releasenotes/vs2017-relnotes-history/
+      - name: Distributable code
+        href: /visualstudio/productinfo/2017-redistribution-vs/
+      - name: Platform compatibility
+        href: /visualstudio/productinfo/vs2017-compatibility-vs/
+      - name: System requirements
+        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
+    - name: Visual Studio 2019
+      items:
+      - name: Current release notes
+        href: /visualstudio/releases/2019/release-notes/
+      - name: Preview release notes
+        href: /visualstudio/releases/2019/release-notes-preview/
+      - name: Release notes history
+        href: /visualstudio/releases/2019/release-notes-history/
+      - name: Distributable code
+        href: /visualstudio/releases/2019/redistribution/
+      - name: Platform compatibility
+        href: /visualstudio/releases/2019/compatibility/
+      - name: System requirements
+        href: /visualstudio/releases/2019/system-requirements/
+    - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
-    - name: Distributable code
-      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Developer Community data privacy
-      href: ide/developer-community-privacy.md
+      href: /visualstudio/productinfo/vs-servicing-vs/
   - name: How to report a problem in Visual Studio
-    displayName: Developer Community
     href: ide/how-to-report-a-problem-with-visual-studio.md
     items:
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
+  - name: Developer Community data privacy
+    href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:
