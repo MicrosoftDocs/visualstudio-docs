@@ -1133,6 +1133,7 @@
   - name: What's new in Visual Studio 2019 RC
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
+    items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
       name: Visual Studio 2017
