@@ -34,6 +34,10 @@ The following steps create an empty project that serves as a container for the a
     If you don't see the Python project templates, run the **Visual Studio Installer**, select **More** > **Modify**, select the **Python development** workload, then choose **Modify**.
 
     ![Python development workload in the Visual Studio installer](../python/media/installation-python-workload.png)
+
+1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
+
+    ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -50,18 +54,12 @@ The following steps create an empty project that serves as a container for the a
 1. In the **Configure your new project** dialog that follows, enter "HelloPython" for **Project name**, specify a location, and select **Create**. (The **Solution name** is automatically set to match the **Project name**.)
 
     ![Configure your new project dialog](media/quickstart-python-00-web-project-2019b.png)
-::: moniker-end
 
-::: moniker range="vs-2017"
 1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
-    ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project.png)
+    ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project-2019.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
-1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
-    ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project=2019.png)
-::: moniker-end
 
 **Question: What's the advantage of creating a project in Visual Studio for a Python application?**
 
@@ -87,6 +85,10 @@ Here, you use the following steps to install the Flask library into the default 
 1. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package.png)
+
+1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
+
+    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Expand the **Python Environments** node in the project to see the default environment for the project.
@@ -98,14 +100,7 @@ Here, you use the following steps to install the Flask library into the default 
 1. Enter "flask" in the search field. If **Flask** appears below the search box, you can skip this step. Otherwise select **Run command: pip install flask**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package-2019.png)
-::: moniker-end
 
-::: moniker range="vs-2017"
-1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
-
-    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
     ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed-2019.png)
