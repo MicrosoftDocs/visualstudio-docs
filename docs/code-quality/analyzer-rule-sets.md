@@ -35,7 +35,7 @@ The predefined analyzer rule sets include three rulesets that affect all the rul
 
 Additionally, there are two rule sets for each category of rules in the package, such as performance or security. One rule set enables all rules for the category, and one rule set honors the default severity and enablement settings for each rule in the category.
 
- The [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet analyzer package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) includes rule sets for the following categories, to match the rule sets available for legacy "FxCop" static code analysis:
+The [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet analyzer package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) includes rule sets for the following categories, which match the rule sets available for legacy "FxCop" static code analysis:
 
 - design
 - documentation

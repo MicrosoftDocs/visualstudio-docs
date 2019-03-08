@@ -30,11 +30,11 @@
     items:
     - name: FxCop analyzers
       items:
-      - name: FAQ for FxCop analyzers
+      - name: FAQ
         href: fxcop-analyzers-faq.md
-      - name: Install FxCop analyzers
+      - name: Install
         href: install-fxcop-analyzers.md
-      - name: Configure FxCop analyzers
+      - name: Configure
         href: configure-fxcop-analyzers.md
       - name: Migrate from static code analysis
         href: fxcop-analyzers.yml

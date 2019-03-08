@@ -48,11 +48,14 @@ Naming conventions provide a common look for libraries that target the common la
 
 ## Configuration
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure whether or not to allow single-character type parameters in your codebase. For example, to specify that single-character type parameters are allowed, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure whether or not to exclude single-character type parameters from this rule. For example, to specify that this rule *should not* analyze single-character type parameters, add the following key-value pair to an .editorconfig file in your project:
 
 ```
 dotnet_code_quality.CA1715.allow_single_letter_type_parameters = true
 ```
+
+> [!NOTE]
+> This rule never fires for a type parameter named `T`.
 
 For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
