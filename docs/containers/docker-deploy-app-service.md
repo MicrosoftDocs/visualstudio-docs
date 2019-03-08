@@ -11,9 +11,6 @@ ms.author: ghogen
 ---
 # Deploy an ASP.NET container to Azure App Service using Visual Studio
 
-## Overview
-
-Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure App Service](/azure/app-service).
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
