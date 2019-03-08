@@ -35,7 +35,7 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
  The best protection against Office macro viruses is to run Office at the High or Very High security level, to only trust macros from verified, known sources, and to stay up-to-date with security patches and virus scanners.
 
- For more information about protecting your PC from viruses and other malicious code, see [http://www.microsoft.com/protect](http://www.microsoft.com/protect).
+ For more information about protecting your PC from viruses and other malicious code, see [https://www.microsoft.com/security/pc-security/protect-pc.aspx](https://www.microsoft.com/security/pc-security/protect-pc.aspx).
 
  You can enable or disable the option **Trust Access to Visual Basic Project** manually.
 

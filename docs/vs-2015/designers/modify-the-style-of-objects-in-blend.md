@@ -86,9 +86,9 @@ The easiest way to customize an object is to set properties in the **Properties*
 >   
 >  ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
   
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](http://www.microsoft.com/showcase/details.aspx?uuid=9b8e86e2-8e90-4d61-81af-fa5b5afb3e95).  
+ **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](https://www.youtube.com/watch?v=W8YdXDPeKdc).  
   
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Creating a Control Template in Expression Blend](http://msdn.microsoft.com/expression/cc263912.aspx).  
+ **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Creating a Control Template in Expression Blend](https://www.bing.com/videos/search?q=Creating+a+Control+Template+in+Expression+Blend&&view=detail&mid=C8D85DA202D34D65CE83C8D85DA202D34D65CE83&&FORM=VRDGAR).  
   
 ### Apply a style or template to a control  
  Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
