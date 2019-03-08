@@ -41,8 +41,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 ## Publish your container to Azure App Service Linux
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select the **Container Registry** tab.
-1. Choose **App Service Linux**.
+1. On the publish target dialog, choose **App Service Linux**.
 1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
 
    ![Screenshot of publish dialog](media/docker-deploy-app-service/publish-app-service-linux.PNG)
