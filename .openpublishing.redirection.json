@@ -7256,6 +7256,11 @@
             "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
             "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
+            "redirect_url": "/visualstudio/containers/",
+            "redirect_document_id": false
         }
     ]
 }
