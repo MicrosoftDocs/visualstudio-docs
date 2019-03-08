@@ -28,13 +28,17 @@ An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await
 
 ## Rule description
 
-When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, the result is returned in the same thread that created the task. This can be costly in terms of performance and can result in a deadlock for a UI app. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to return the result in a new thread. Otherwise, consumers of the library can face deadlocks if they consume the asynchronous method in a blocking fashion.
+When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation.
 
 This rule was introduced with [FxCop analyzers](install-fxcop-analyzers.md) and doesn't exist in "legacy" (static code analysis) FxCop.
 
 ## How to fix violations
 
-To fix violations, call <xref:System.Threading.Tasks.Task.ConfigureAwait%2A> on the awaited <xref:System.Threading.Tasks.Task>, passing `false` for the `continueOnCapturedContext` parameter.
+To fix violations, call <xref:System.Threading.Tasks.Task.ConfigureAwait%2A> on the awaited <xref:System.Threading.Tasks.Task>. You can pass either `true` or `false` for the `continueOnCapturedContext` parameter.
+
+- Calling `ConfigureAwait(true)` on the task has the same behavior as not explicitly calling <xref:System.Threading.Tasks.Task.ConfigureAwait%2A>. By explicitly calling this method, you're letting readers know you intentionally want to perform the continuation on the original synchronization context.
+
+- Call `ConfigureAwait(false)` on the task to schedule continuations to the threadpool, thereby avoiding a deadlock on the UI thread. This is a good option for app-independent libraries.
 
 ## When to suppress warnings
 
@@ -64,4 +68,5 @@ public async Task Execute()
 
 ## See also
 
+- [Should I await a task with ConfigureAwait(false)?](https://github.com/Microsoft/vs-threading/blob/master/doc/cookbook_vs.md#should-i-await-a-task-with-configureawaitfalse)
 - [Install FxCop analyzers in Visual Studio](install-fxcop-analyzers.md)
