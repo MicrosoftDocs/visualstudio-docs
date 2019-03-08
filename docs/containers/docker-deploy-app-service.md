@@ -1,5 +1,5 @@
 ---
-title: Deploy an ASP.NET Docker container to Azure App Service | Microsoft Docs
+title: Deploy an ASP.NET Core Docker container to Azure App Service | Microsoft Docs
 description: Learn how to use Visual Studio Tools for Docker to deploy an ASP.NET Core web app to Azure App Service
 author: ghogen
 manager: jillfra
@@ -9,9 +9,9 @@ ms.topic: article
 ms.date: 03/08/2019
 ms.author: ghogen
 ---
-# Deploy an ASP.NET container to Azure App Service using Visual Studio
+# Deploy an ASP.NET Core container to Azure App Service using Visual Studio
 
-This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure App Service](/azure/app-service).
+This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
 
@@ -65,8 +65,6 @@ Follow the appropriate steps in the next sections, depending on whether you are 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
 
-   ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
-
 ## Windows container
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
@@ -93,6 +91,26 @@ Follow the appropriate steps in the next sections, depending on whether you are 
 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
+
+## Clean up resources
+
+To remove all Azure artifacts associated with this tutorial, delete the resource group using the [Azure Portal](https://portal.azure.com) or the Azure CLI. To find the resource group associated with a published web application, choose **View** > **Other Windows** > **Web Publish Activity**, and then choose the gear icon. The **Publish** tab opens, which contains the resource group.
+
+In the Azure portal, choose **Resource groups**, select the resource group to open its details page. Verify that this is the correct resource group, and then choose **Remove resource group**, type the name, and choose **Delete**.
+
+To use the Azure CLI, follow these steps.
+
+Stop the container instance with the [az container delete][az-container-delete] command:
+
+```azurecli-interactive
+az container delete --resource-group $RES_GROUP --name acr-tasks
+```
+
+To remove *all* resources you've created in this tutorial, including the container registry, issue the following command.
+
+```azurecli-interactive
+az group delete --resource-group $RES_GROUP
+```
 
 ## Next steps
 
