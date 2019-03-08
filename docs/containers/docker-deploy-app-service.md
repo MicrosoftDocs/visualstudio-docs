@@ -106,7 +106,7 @@ Stop the container instance with the [az container delete][az-container-delete] 
 az container delete --resource-group $RES_GROUP --name acr-tasks
 ```
 
-To remove *all* resources you've created in this tutorial, including the container registry, issue the following command.
+To remove the resources you've created in this tutorial, issue the following command.
 
 ```azurecli-interactive
 az group delete --resource-group $RES_GROUP
