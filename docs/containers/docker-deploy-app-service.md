@@ -61,15 +61,14 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
    ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
-1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** icon on the Web Publish Activity section of the **Output** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
+1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
 
    ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
 
 ## Publish your container to Azure App Service Windows
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select the **Container Registry** tab.
-1. Choose **App Service**, and **Create new**.
+1. On the publish target dialog, choose **App Service**, and **Create new**.
 
    ![Screenshot of publish dialog](media/docker-deploy-app-service/publish-app-service-windows.png)
 
@@ -91,7 +90,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
    ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
-1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** icon on the Web Publish Activity section of the **Output** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
+1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
 
 ## Next steps
 
