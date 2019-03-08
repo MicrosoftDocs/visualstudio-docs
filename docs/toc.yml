@@ -1136,7 +1136,7 @@
     items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
-      name: Visual Studio 2017
+    - name: Visual Studio 2017
       items:
       - name: Current release notes
         href: /visualstudio/releasenotes/vs2017-relnotes/
@@ -1150,7 +1150,7 @@
         href: /visualstudio/productinfo/vs2017-compatibility-vs/
       - name: System requirements
         href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-      name: Visual Studio 2019
+    - name: Visual Studio 2019
       items:
       - name: Current release notes
         href: /visualstudio/releases/2019/release-notes/
