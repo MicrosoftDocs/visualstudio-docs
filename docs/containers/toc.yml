@@ -14,5 +14,5 @@
     href: vs-azure-tools-docker-edit-and-refresh.md
   - name: Deploy an ASP.NET container to a container registry using Visual Studio
     href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
-  - name: Troubleshoot Visual Studio 2017 development with Docker
+  - name: Troubleshoot Visual Studio development with Docker
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md
