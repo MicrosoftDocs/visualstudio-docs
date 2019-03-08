@@ -38,7 +38,9 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
 
-## Publish your container to Azure App Service Linux
+Follow the appropriate steps in the next sections, depending on whether you are using a [Linux container](#linux-container) or a [Windows container](#windows-container).
+
+## Linux container
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the publish target dialog, choose **App Service Linux**.
@@ -65,7 +67,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
 
-## Publish your container to Azure App Service Windows
+## Windows container
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the publish target dialog, choose **App Service**, and **Create new**.
