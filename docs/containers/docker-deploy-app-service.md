@@ -94,23 +94,9 @@ Follow the appropriate steps in the next sections, depending on whether you are 
 
 ## Clean up resources
 
-To remove all Azure artifacts associated with this tutorial, delete the resource group using the [Azure Portal](https://portal.azure.com) or the Azure CLI. To find the resource group associated with a published web application, choose **View** > **Other Windows** > **Web Publish Activity**, and then choose the gear icon. The **Publish** tab opens, which contains the resource group.
+To remove all Azure artifacts associated with this tutorial, delete the resource group using the [Azure Portal](https://portal.azure.com). To find the resource group associated with a published web application, choose **View** > **Other Windows** > **Web Publish Activity**, and then choose the gear icon. The **Publish** tab opens, which contains the resource group.
 
 In the Azure portal, choose **Resource groups**, select the resource group to open its details page. Verify that this is the correct resource group, and then choose **Remove resource group**, type the name, and choose **Delete**.
-
-To use the Azure CLI, follow these steps.
-
-Stop the container instance with the [az container delete][az-container-delete] command:
-
-```azurecli-interactive
-az container delete --resource-group $RES_GROUP --name acr-tasks
-```
-
-To remove the resources you've created in this tutorial, issue the following command.
-
-```azurecli-interactive
-az group delete --resource-group $RES_GROUP
-```
 
 ## Next steps
 
