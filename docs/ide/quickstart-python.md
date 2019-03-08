@@ -25,9 +25,9 @@ The following steps create an empty project that serves as a container for the a
 ::: moniker range="vs-2017"
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File > New > Project**.
+2. From the top menu bar, choose **File > New > Project**.
 
-1. In the **New Project** dialog box, enter "Python Web Project" in the search field on the upper right, choose **Web project** in the middle list, give the project a name like "HelloPython", then choose **OK**.
+3. In the **New Project** dialog box, enter "Python Web Project" in the search field on the upper right, choose **Web project** in the middle list, give the project a name like "HelloPython", then choose **OK**.
 
     ![New project dialog with Python Web Project selected](media/quickstart-python-00-web-project.png)
 
@@ -35,15 +35,15 @@ The following steps create an empty project that serves as a container for the a
 
     ![Python development workload in the Visual Studio installer](../python/media/installation-python-workload.png)
 
-1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
+4. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
     ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 1. Open Visual Studio 2019.
-1. On the start screen, select **Create a new project**.
-1. In the **Create a new project** dialog box, enter "Python web" in the search field at the top, choose **Web Project** in the middle list, then select **Next**:
+2. On the start screen, select **Create a new project**.
+3. In the **Create a new project** dialog box, enter "Python web" in the search field at the top, choose **Web Project** in the middle list, then select **Next**:
 
     ![Create a new project screen with Python Web Project selected](media/quickstart-python-00-web-project-2019a.png)
 
@@ -51,11 +51,11 @@ The following steps create an empty project that serves as a container for the a
 
     ![Python development workload in the Visual Studio installer](../python/media/installation-python-workload.png)
 
-1. In the **Configure your new project** dialog that follows, enter "HelloPython" for **Project name**, specify a location, and select **Create**. (The **Solution name** is automatically set to match the **Project name**.)
+4. In the **Configure your new project** dialog that follows, enter "HelloPython" for **Project name**, specify a location, and select **Create**. (The **Solution name** is automatically set to match the **Project name**.)
 
     ![Configure your new project dialog](media/quickstart-python-00-web-project-2019b.png)
 
-1. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
+5. The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
     ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project-2019.png)
 ::: moniker-end
@@ -79,9 +79,9 @@ Here, you use the following steps to install the Flask library into the default 
 
     ![Solution explorer showing the default environment](media/quickstart-python-02-default-environment.png)
 
-1. Right-click the environment and select **Install Python Package**. This command opens the **Python Environments** window on the **Packages** tab.
+2. Right-click the environment and select **Install Python Package**. This command opens the **Python Environments** window on the **Packages** tab.
 
-1. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
+3. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package.png)
 ::: moniker-end
@@ -90,14 +90,14 @@ Here, you use the following steps to install the Flask library into the default 
 
     ![Solution explorer showing the default environment](media/quickstart-python-02-default-environment-2019.png)
 
-1. Right-click the environment and select **Manage Python Packages...**. This command opens the **Python Environments** window on the **Packages (PyPI)** tab.
+2. Right-click the environment and select **Manage Python Packages...**. This command opens the **Python Environments** window on the **Packages (PyPI)** tab.
 
-1. Enter "flask" in the search field. If **Flask** appears below the search box, you can skip this step. Otherwise select **Run command: pip install flask**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
+3. Enter "flask" in the search field. If **Flask** appears below the search box, you can skip this step. Otherwise select **Run command: pip install flask**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package-2019.png)
 ::: moniker-end
 
-1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
+4. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
     ::: moniker range="vs-2017"
     ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
