@@ -25,23 +25,26 @@ Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https:/
 
 The configuration syntax is as follows:
 
-||||
-|-|-|-|
-| Scope | All rules |
-| Syntax | dotnet_code_quality.OptionName = OptionValue |
-| Example | `dotnet_code_quality.api_surface = public` |
+### Scope: All rules
 
-||||
-|-|-|-|
-| Scope | A category of rules, such as `Naming`, `Design`, `Performance`, `Security` |
-| Syntax | dotnet_code_quality.RuleCategory.OptionName = OptionValue |
-| Example | `dotnet_code_quality.Naming.api_surface = public` |
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.OptionName = OptionValue | `dotnet_code_quality.api_surface = public` |
 
-||||
-|-|-|-|
-| Scope | A specific rule |
-| Syntax | dotnet_code_quality.RuleId.OptionName = OptionValue |
-| Example | `dotnet_code_quality.CA1040.api_surface = public` |
+### Scope: A category of rules, such as `Naming`, `Design`, `Performance`, `Security`
+
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.RuleCategory.OptionName = OptionValue | `dotnet_code_quality.Naming.api_surface = public` |
+
+### Scope: A specific rule
+
+|Syntax|Example|
+|-|-|
+| dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
+
+> [!NOTE]
+> You cannot configure legacy FxCop rules (static code analysis FxCop) by using an .editorconfig file.
 
 ### Per-project configuration
 
@@ -83,9 +86,6 @@ You can share an .editorconfig file for analyzer configuration between two or mo
    ```
 
 4. Reload the project.
-
-> [!NOTE]
-> You cannot configure legacy FxCop rules (static code analysis FxCop) by using an .editorconfig file.
 
 ### Options
 
