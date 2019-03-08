@@ -60,7 +60,6 @@ The following steps create an empty project that serves as a container for the a
     ![Solution explorer showing the newly created empty project](media/quickstart-python-01-empty-project-2019.png)
 ::: moniker-end
 
-
 **Question: What's the advantage of creating a project in Visual Studio for a Python application?**
 
 **Answer**: Python applications are typically defined using only folders and files, but this simple structure can become burdensome as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a *.pyproj* file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
@@ -85,10 +84,6 @@ Here, you use the following steps to install the Flask library into the default 
 1. Enter "flask" in the search field and select **pip install flask from PyPI**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package.png)
-
-1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
-
-    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Expand the **Python Environments** node in the project to see the default environment for the project.
@@ -100,11 +95,16 @@ Here, you use the following steps to install the Flask library into the default 
 1. Enter "flask" in the search field. If **Flask** appears below the search box, you can skip this step. Otherwise select **Run command: pip install flask**. Accept any prompts for administrator privileges and observe the **Output** window in Visual Studio for progress. (A prompt for elevation happens when the packages folder for the global environment is located within a protected area like *C:\Program Files*.)
 
     ![Installing the Flask library using pip install](media/quickstart-python-03-install-package-2019.png)
+::: moniker-end
 
 1. Once installed, the library appears in the environment in **Solution Explorer**, which means that you can make use of it in Python code.
 
+    ::: moniker range="vs-2017"
+    ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed.png)
+    ::: moniker-end
+    ::: moniker range=">=vs-2019"
     ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed-2019.png)
-::: moniker-end
+    ::: moniker-end
 
 > [!Note]
 > Instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed in [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md).
@@ -154,16 +154,16 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 ## Run the application
 
-::: moniker range="vs-2017"
 1. Right-click *app.py* in **Solution Explorer** and select **Set as startup file**. This command identifies the code file to launch in Python when running the app.
 
+    ::: moniker range="vs-2017"
     ![Setting the startup file for a project in Solution Explorer](media/quickstart-python-05-set-as-startup-file.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
-1. Right-click *app.py* in **Solution Explorer** and select **Set as startup file**. This command identifies the code file to launch in Python when running the app.
-
+    ::: moniker-end
+    ::: moniker range=">=vs-2019"
     ![Setting the startup file for a project in Solution Explorer](media/quickstart-python-05-set-as-startup-file-2019.png)
-::: moniker-end
+    ::: moniker-end
+
+1. Right-click *app.py* in **Solution Explorer** and select **Set as startup file**. This command identifies the code file to launch in Python when running the app.
 
 2. Right-click the project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `4449`. This step ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.
 
