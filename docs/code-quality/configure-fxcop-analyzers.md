@@ -21,7 +21,7 @@ The [FxCop analyzers](install-fxcop-analyzers.md) consist of the most important 
 
 ## Configure analyzers using .editorconfig
 
-You can refine how the FxCop analyzers analyze your code by configuring certain [options](#options). Each option can be configured for all rules, for a category of rules (for example, `Naming` or `Design`), or for a specific rule.
+Starting in version 2.6.3 of the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package, you can refine how the analyzers analyze your code by configuring certain [options](#options). Each option can be configured for all rules, for a category of rules (for example, `Naming` or `Design`), or for a specific rule.
 
 The configuration syntax is as follows:
 
