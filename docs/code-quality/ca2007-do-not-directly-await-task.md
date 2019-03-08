@@ -28,7 +28,7 @@ An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await
 
 ## Rule description
 
-When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation.
+When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation.
 
 This rule was introduced with [FxCop analyzers](install-fxcop-analyzers.md) and doesn't exist in "legacy" (static code analysis) FxCop.
 
@@ -38,7 +38,7 @@ To fix violations, call <xref:System.Threading.Tasks.Task.ConfigureAwait%2A> on 
 
 - Calling `ConfigureAwait(true)` on the task has the same behavior as not explicitly calling <xref:System.Threading.Tasks.Task.ConfigureAwait%2A>. By explicitly calling this method, you're letting readers know you intentionally want to perform the continuation on the original synchronization context.
 
-- Call `ConfigureAwait(false)` on the task to schedule continuations to the threadpool, thereby avoiding a deadlock on the UI thread. This is a good option for app-independent libraries.
+- Call `ConfigureAwait(false)` on the task to schedule continuations to the thread pool, thereby avoiding a deadlock on the UI thread. Passing `false` is a good option for app-independent libraries.
 
 ## When to suppress warnings
 
