@@ -34,7 +34,7 @@ This rule was introduced with [FxCop analyzers](install-fxcop-analyzers.md) and 
 
 ## How to fix violations
 
-To fix violations, await <xref:System.Threading.Tasks.Task.ConfigureAwait%2A> on the <xref:System.Threading.Tasks.Task>, passing `false` for the `continueOnCapturedContext` parameter.
+To fix violations, call <xref:System.Threading.Tasks.Task.ConfigureAwait%2A> on the awaited <xref:System.Threading.Tasks.Task>, passing `false` for the `continueOnCapturedContext` parameter.
 
 ## When to suppress warnings
 
