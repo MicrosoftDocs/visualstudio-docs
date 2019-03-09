@@ -20,13 +20,13 @@ ms.workload:
 
  This topic provides the following information:
 
--   [Creating Features and Packages](#Creating)
+-   [Creating Features and Packages](#create-features-and-packages)
 
--   [Feature and Packaging Tool Support](#Tools)
+-   [Feature and Packaging Tool Support](#feature-and-packaging-tool-support)
 
--   [Deploying SharePoint Solutions](#Deploying)
+-   [Deploying SharePoint Solutions](#deploy-sharepoint-solutions)
 
--   [Deploying Files in SharePoint Solutions](#DeployingFiles)
+-   [Deploying Files in SharePoint Solutions](#deploy-sharepoint-solutionsFiles)
 
 ## Create features and packages
  You can use Visual Studio to group related SharePoint elements into a *Feature*. For example, a Feature for a Contacts list definition may include the list instance and the list definition. You can combine these two elements into a single Feature for deployment purposes. For more information about features, see [Building Block: Features](http://go.microsoft.com/fwlink/?LinkID=169183).

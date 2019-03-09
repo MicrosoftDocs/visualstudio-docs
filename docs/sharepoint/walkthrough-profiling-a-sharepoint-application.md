@@ -21,13 +21,13 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- [Adding a Feature and Feature Event Receiver](#BKMK_AddFtrandFtrEvntReceiver).
+- [Adding a Feature and Feature Event Receiver](#add-a-feature-and-feature event receiver).
 
-- [Configuring and Deploying the SharePoint Application](#BKMK_ConfigSharePointApp).
+- [Configuring and Deploying the SharePoint Application](#configure-and-deploy-the-sharepoint-application).
 
-- [Running the SharePoint Application](#BKMK_RunSPApp).
+- [Running the SharePoint Application](#run-the-sharepoint-application).
 
-- [Viewing and Interpreting the Profiling Results](#BKMK_ViewResults).
+- [Viewing and Interpreting the Profiling Results](#view-and-interpret-the-profile-results).
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
