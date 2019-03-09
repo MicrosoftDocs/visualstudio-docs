@@ -171,4 +171,4 @@ The following procedures walk you through the steps necessary to configure conti
 
 ## Next steps
 
-Read [Azure Resource Manager overview](/azure-resource-manager/resource-group-overview) to learn more about Azure Resource Manager and Azure resource groups.
+Read [Azure Resource Manager overview](/azure/azure-resource-manager/resource-group-overview) to learn more about Azure Resource Manager and Azure resource groups.
