@@ -22,7 +22,7 @@ ms.workload:
 
 We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
-And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes/) of the next version, too.
+And if you'd like to try out the next version of Visual Studio, consider downloading the [preview release](//visualstudio/releases/2019/release-notes/), too.
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
