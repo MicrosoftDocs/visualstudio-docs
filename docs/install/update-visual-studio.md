@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/05/2019
+ms.date: 03/09/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -20,9 +20,9 @@ ms.workload:
 
 ::: moniker range="vs-2017"
 
-We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
-And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
+And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes/) of the next version, too.
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -145,6 +145,42 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
    Choose the **Update** button to install the updates.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+We encourage you to update to the most [recent version](/visualstudio/releases/2019/release-notes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+
+And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releases/2019/release-notes-preview/) of the next version, too.
+
+> [!IMPORTANT]
+> You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+>
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
+
+## Update Visual Studio 2019
+
+Here's how to use the Visual Studio Installer to update Visual Studio 2019 Preview or Visual Studio 2019 RC.
+
+1. Open the installer.
+
+     ![Open the Visual Studio Installer](media/vs2019-visual-studio-installer.png "Open the Visual Studio Installer")
+
+   You might have to update the installer before continuing. If this is the case, you're prompted to do so.
+
+2. On the **Product** page in the installer, look for the edition of Visual Studio that you've previously installed.
+
+   For example, if you installed Visual Studio Community 2019 RC and there was an update for it, the following information appears in the installer:
+
+     ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
+
+3. Choose the **Update** button to install the updates.
+
+    ![Select the Update button to install the updates](media/vs2019-update-visual-studio-community-rc.png "Select the Update button to install the updates")
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
