@@ -146,6 +146,14 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+
+## See also
+
+* [Modify Visual Studio 2017](modify-visual-studio.md)
+* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Update Visual Studio for Mac](/visualstudio/mac/update)
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -162,30 +170,32 @@ And if you'd like to try out anything before we release it, consider downloading
 
 ## Update Visual Studio 2019
 
-Here's how to use the Visual Studio Installer to update Visual Studio 2019 Preview or Visual Studio 2019 RC.
+Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
 
 1. Open the installer.
 
      ![Open the Visual Studio Installer](media/vs2019-visual-studio-installer.png "Open the Visual Studio Installer")
 
-   You might have to update the installer before continuing. If this is the case, you're prompted to do so.
+   You might have to update the installer before continuing. If so, follow the prompts.
 
-2. On the **Product** page in the installer, look for the edition of Visual Studio that you've previously installed.
+1. In the installer, look for the edition of Visual Studio that you installed.
 
-   For example, if you installed Visual Studio Community 2019 RC and there was an update for it, the following information appears in the installer:
+   For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019&nbsp;RC and there is an update for it, then an **Update available** message appears in the installer:
 
      ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
 
-3. Choose the **Update** button to install the updates.
+1. Choose the **Update** button to install the updates.
 
-    ![Select the Update button to install the updates](media/vs2019-update-visual-studio-community-rc.png "Select the Update button to install the updates")
+    ![Select the Update button to install the updates](media/vs2019-choose-update-visual-studio-community-rc.png "Select the Update button to install the updates")
 
-::: moniker-end
+1. After the update is complete, select **Launch** to start Visual Studio.
+
+    ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Modify Visual Studio 2017](modify-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
+
+::: moniker-end
