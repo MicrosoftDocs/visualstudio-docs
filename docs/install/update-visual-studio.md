@@ -178,7 +178,7 @@ Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;
 
 1. In the installer, look for the edition of Visual Studio that you installed.
 
-   For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019&nbsp;RC and there is an update for it, then an **Update available** message appears in the installer:
+   For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019&nbsp;RC and there is an update for it, then an **Update available** message appears in the installer.
 
      ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
 
