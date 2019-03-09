@@ -32,9 +32,11 @@ ms.workload:
 
 A value type overrides <xref:System.Object.Equals%2A?displayProperty=fullName> but does not implement the equality operator.
 
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
+
 ## Rule description
 
-In most programming languages there is no default implementation of the equality operator (==) for value types. If your programming language supports operator overloads, you should consider implementing the equality operator. Its behavior should be identical to that of <xref:System.Object.Equals%2A>.
+In most programming languages, there is no default implementation of the equality operator (==) for value types. If your programming language supports operator overloads, you should consider implementing the equality operator. Its behavior should be identical to that of <xref:System.Object.Equals%2A>.
 
 You cannot use the default equality operator in an overloaded implementation of the equality operator. Doing so will cause a stack overflow. To implement the equality operator, use the Object.Equals method in your implementation. For example:
 

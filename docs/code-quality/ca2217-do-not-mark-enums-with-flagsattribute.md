@@ -30,7 +30,9 @@ ms.workload:
 
 ## Cause
 
-An externally visible enumeration is marked with <xref:System.FlagsAttribute>, and it has one or more values that are not powers of two or a combination of the other defined values on the enumeration.
+An enumeration is marked with <xref:System.FlagsAttribute> and it has one or more values that are not powers of two or a combination of the other defined values on the enumeration.
+
+By default, this rule only looks at externally visible enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 

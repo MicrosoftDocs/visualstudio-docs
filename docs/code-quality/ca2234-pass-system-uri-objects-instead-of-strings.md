@@ -30,7 +30,9 @@ ms.workload:
 
 ## Cause
 
-A call is made to a method that has a string parameter whose name contains "uri", "Uri", "urn", "Urn", "url", or "Url", and the declaring type of the method contains a corresponding method overload that has a <xref:System.Uri?displayProperty=fullName> parameter.
+A call is made to a method that has a string parameter whose name contains "uri", "Uri", "urn", "Urn", "url", or "Url" and the declaring type of the method contains a corresponding method overload that has a <xref:System.Uri?displayProperty=fullName> parameter.
+
+By default, this rule only looks at externally visible methods and types, but this is [configurable](#configurability).
 
 ## Rule description
 

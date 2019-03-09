@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-An externally visible generic type contains a `static` (`Shared` in Visual Basic) member.
+A generic type contains a `static` (`Shared` in Visual Basic) member.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

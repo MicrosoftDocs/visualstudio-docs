@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-An operator overload was detected, and the expected named alternative method was not found.
+An operator overload was detected and the expected named alternative method was not found.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

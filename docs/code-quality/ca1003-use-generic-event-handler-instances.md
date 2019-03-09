@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-A type contains a delegate that returns void, whose signature contains two parameters (the first an object and the second a type that is assignable to EventArgs), and the containing assembly targets .NET.
+A type contains a delegate that returns void and whose signature contains two parameters (the first an object and the second a type that is assignable to EventArgs), and the containing assembly targets .NET.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

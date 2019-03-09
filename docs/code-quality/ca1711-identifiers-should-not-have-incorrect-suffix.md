@@ -28,6 +28,8 @@ ms.workload:
 
 An identifier has an incorrect suffix.
 
+By default, this rule only looks at externally visible identifiers, but this is [configurable](#configurability).
+
 ## Rule description
 
 By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.

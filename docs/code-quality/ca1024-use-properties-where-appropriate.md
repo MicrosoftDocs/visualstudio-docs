@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-A public or protected method has a name that starts with `Get`, takes no parameters, and returns a value that is not an array.
+A method has a name that starts with `Get`, takes no parameters, and returns a value that is not an array.
+
+By default, this rule only looks at public and protected methods, but this is [configurable](#configurability).
 
 ## Rule description
 

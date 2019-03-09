@@ -30,7 +30,9 @@ ms.workload:
 
 ## Cause
 
-A public or protected type contains a public or protected indexer that uses an index type other than <xref:System.Int32?displayProperty=fullName>, <xref:System.Int64?displayProperty=fullName>, <xref:System.Object?displayProperty=fullName>, or <xref:System.String?displayProperty=fullName>.
+A type contains an indexer that uses an index type other than <xref:System.Int32?displayProperty=fullName>, <xref:System.Int64?displayProperty=fullName>, <xref:System.Object?displayProperty=fullName>, or <xref:System.String?displayProperty=fullName>.
+
+By default, this rule only looks at public and protected types, but this is [configurable](#configurability).
 
 ## Rule description
 

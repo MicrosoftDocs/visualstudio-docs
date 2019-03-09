@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-A public enumeration has the <xref:System.FlagsAttribute?displayProperty=fullName> and its name does not end in 's'.
+An enumeration has the <xref:System.FlagsAttribute?displayProperty=fullName> and its name does not end in 's'.
+
+By default, this rule only looks at externally visible enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 

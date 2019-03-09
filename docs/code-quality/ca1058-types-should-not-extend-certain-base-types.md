@@ -26,7 +26,7 @@ ms.workload:
 
 ## Cause
 
-An externally visible type extends certain base types. Currently, this rule reports types that derive from the following types:
+A type extends one of the following base types:
 
 - <xref:System.ApplicationException?displayProperty=fullName>
 - <xref:System.Xml.XmlDocument?displayProperty=fullName>
@@ -36,6 +36,8 @@ An externally visible type extends certain base types. Currently, this rule repo
 - <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
 - <xref:System.Collections.SortedList?displayProperty=fullName>
 - <xref:System.Collections.Stack?displayProperty=fullName>
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

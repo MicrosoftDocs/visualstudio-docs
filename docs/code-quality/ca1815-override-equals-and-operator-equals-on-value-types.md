@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-A public value type does not override <xref:System.Object.Equals%2A?displayProperty=fullName>, or does not implement the equality operator (==). This rule does not check enumerations.
+A value type does not override <xref:System.Object.Equals%2A?displayProperty=fullName> or does not implement the equality operator (==). This rule does not check enumerations.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

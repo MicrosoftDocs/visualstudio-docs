@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-An externally visible type has an externally visible instance field.
+A type has a non-private instance field.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

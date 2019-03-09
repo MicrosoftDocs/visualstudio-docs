@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-The names of two types, members, parameters, or fully qualified namespaces are identical when they are converted to lowercase.
+The names of two types, members, parameters, or fully qualified namespaces are identical when they're converted to lowercase.
+
+By default, this rule only looks at externally visible types, members, and namespaces, but this is [configurable](#configurability).
 
 ## Rule description
 

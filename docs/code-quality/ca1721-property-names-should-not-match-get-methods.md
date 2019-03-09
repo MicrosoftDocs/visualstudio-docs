@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-The name of a public or protected member starts with 'Get' and otherwise matches the name of a public or protected property. For example, a type that contains a method that is named 'GetColor' and a property that is named 'Color' violates this rule.
+The name of a member starts with 'Get' and otherwise matches the name of a property. For example, a type that contains a method that is named 'GetColor' and a property that is named 'Color' cause a rule violation.
+
+By default, this rule only looks at externally visible members and properties, but this is [configurable](#configurability).
 
 ## Rule description
 

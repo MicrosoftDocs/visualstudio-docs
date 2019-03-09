@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-The public or protected property has a set accessor but does not have a get accessor.
+A property has a set accessor but not a get accessor.
+
+By default, this rule only looks at public types, but this is [configurable](#configurability).
 
 ## Rule description
 

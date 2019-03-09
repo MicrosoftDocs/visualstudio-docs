@@ -30,11 +30,13 @@ ms.workload:
 
 ## Cause
 
-The name of an externally visible interface does not start with an uppercase 'I'.
+The name of an interface does not start with an uppercase 'I'.
 
 -or-
 
-The name of a [generic type parameter](/dotnet/csharp/programming-guide/generics/generic-type-parameters) on an externally visible type or method does not start with an uppercase 'T'.
+The name of a [generic type parameter](/dotnet/csharp/programming-guide/generics/generic-type-parameters) on a type or method does not start with an uppercase 'T'.
+
+By default, this rule only looks at externally visible interfaces, types, and methods, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -51,7 +53,11 @@ Naming conventions provide a common look for libraries that target the common la
 If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure whether or not to exclude single-character type parameters from this rule. For example, to specify that this rule *should not* analyze single-character type parameters, add the following key-value pair to an .editorconfig file in your project:
 
 ```
-dotnet_code_quality.CA1715.allow_single_letter_type_parameters = true
+# Package version 2.9.0 and later
+dotnet_code_quality.CA1715.exclude_single_letter_type_parameters = true
+
+# Package version 2.6.3 and earlier
+dotnet_code_quality.CA2007.allow_single_letter_type_parameters = true
 ```
 
 > [!NOTE]

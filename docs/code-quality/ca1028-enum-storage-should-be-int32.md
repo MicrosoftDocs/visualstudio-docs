@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-The underlying type of a public enumeration is not <xref:System.Int32?displayProperty=fullName>.
+The underlying type of an enumeration is not <xref:System.Int32?displayProperty=fullName>.
+
+By default, this rule only looks at public enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 

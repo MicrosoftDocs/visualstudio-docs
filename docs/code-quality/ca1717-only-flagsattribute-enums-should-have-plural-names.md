@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-The name of an externally visible enumeration ends in a plural word and the enumeration is not marked with the <xref:System.FlagsAttribute?displayProperty=fullName> attribute.
+The name of an enumeration ends in a plural word and the enumeration is not marked with the <xref:System.FlagsAttribute?displayProperty=fullName> attribute.
+
+By default, this rule only looks at externally visible enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 

@@ -29,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-A public or protected property in a public type returns an array.
+A property returns an array.
+
+By default, this rule only looks at externally visible properties and types, but this is [configurable](#configurability).
 
 ## Rule description
 

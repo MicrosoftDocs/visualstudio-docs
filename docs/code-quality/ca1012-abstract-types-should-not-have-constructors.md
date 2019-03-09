@@ -28,7 +28,9 @@ ms.workload:
 
 ## Cause
 
-A public type is abstract and has a public constructor.
+A type is abstract and has a constructor.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-The values of a public enumeration are powers of two or are combinations of other values that are defined in the enumeration, and the <xref:System.FlagsAttribute?displayProperty=fullName> attribute is not present. To reduce false positives, this rule does not report a violation for enumerations that have contiguous values.
+The values of an enumeration are powers of two or are combinations of other values that are defined in the enumeration, and the <xref:System.FlagsAttribute?displayProperty=fullName> attribute is not present. To reduce false positives, this rule does not report a violation for enumerations that have contiguous values.
+
+By default, this rule only looks at public enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 

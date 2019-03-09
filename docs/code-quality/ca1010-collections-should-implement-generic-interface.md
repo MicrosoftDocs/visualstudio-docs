@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-An externally visible type implements the <xref:System.Collections.IEnumerable?displayProperty=fullName> interface but does not implement the <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> interface, and the containing assembly targets .NET. This rule ignores types that implement <xref:System.Collections.IDictionary?displayProperty=fullName>.
+A type implements the <xref:System.Collections.IEnumerable?displayProperty=fullName> interface but does not implement the <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> interface, and the containing assembly targets .NET. This rule ignores types that implement <xref:System.Collections.IDictionary?displayProperty=fullName>.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 

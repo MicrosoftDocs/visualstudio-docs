@@ -26,11 +26,13 @@ ms.workload:
 
 ## Cause
 
-The name of a parameter in an externally visible member contains a data type name.
+The name of a parameter in a member contains a data type name.
 
 -or-
 
-The name of an externally visible member contains a language-specific data type name.
+The name of a member contains a language-specific data type name.
+
+By default, this rule only looks at externally visible members, but this is [configurable](#configurability).
 
 ## Rule description
 

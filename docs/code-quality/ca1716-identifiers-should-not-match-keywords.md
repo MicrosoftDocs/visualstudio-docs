@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-A name of a namespace, a type, or a virtual or interface member matches a reserved keyword in a programming language.
+The name of a namespace, type, or virtual or interface member matches a reserved keyword in a programming language.
+
+By default, this rule only looks at externally visible namespaces, types, and members, but this is [configurable](#configurability).
 
 ## Rule description
 

@@ -26,12 +26,14 @@ ms.workload:
 
 ## Cause
 
-A public, protected, or private method name begins with one of the following:
+A method name begins with one of the following:
 
 - AddOn
 - RemoveOn
 - Fire
 - Raise
+
+By default, this rule only looks at externally visible methods, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -41,11 +43,11 @@ Some common examples of events are found in user interface applications where a 
 
 ## How to fix violations
 
-If the method is called when the state of an object changes, you should consider changing the design to use the .NET Framework event model.
+If the method is called when the state of an object changes, you should consider changing the design to use the .NET event model.
 
 ## When to suppress warnings
 
-Suppress a warning from this rule if the method does not work with the .NET Framework event model.
+Suppress a warning from this rule if the method does not work with the .NET event model.
 
 ## Configurability
 

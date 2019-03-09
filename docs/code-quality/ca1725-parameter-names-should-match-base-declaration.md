@@ -26,7 +26,9 @@ ms.workload:
 
 ## Cause
 
-The name of a parameter in an externally visible method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method.
+The name of a parameter in a method override does not match the name of the parameter in the base declaration of the method or the name of the parameter in the interface declaration of the method.
+
+By default, this rule only looks at externally visible methods, but this is [configurable](#configurability).
 
 ## Rule description
 

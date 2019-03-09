@@ -28,6 +28,8 @@ ms.workload:
 
 A type implements the equality or inequality operator and does not implement the opposite operator.
 
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
+
 ## Rule description
 
 There are no circumstances where either equality or inequality is applicable to instances of a type, and the opposite operator is undefined. Types typically implement the inequality operator by returning the negated value of the equality operator.

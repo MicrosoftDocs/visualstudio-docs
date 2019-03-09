@@ -32,6 +32,8 @@ ms.workload:
 
 The name of a method contains "uri", "Uri", "urn", "Urn", "url", or "Url", and the method returns a string.
 
+By default, this rule only looks at public methods, but this is [configurable](#configurability).
+
 ## Rule description
 
 This rule splits the method name into tokens based on the Pascal casing convention and checks whether each token equals "uri", "Uri", "urn", "Urn", "url", or "Url". If there is a match, the rule assumes that the method returns a uniform resource identifier (URI). A string representation of a URI is prone to parsing and encoding errors, and can lead to security vulnerabilities. The <xref:System.Uri?displayProperty=fullName> class provides these services in a safe and secure manner.

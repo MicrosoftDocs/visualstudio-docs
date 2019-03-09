@@ -32,6 +32,8 @@ ms.workload:
 
 The interface does not declare any members or implement two or more other interfaces.
 
+By default, this rule only looks at externally visible interfaces, but this is [configurable](#configurability).
+
 ## Rule description
 
 Interfaces define members that provide a behavior or usage contract. The functionality that is described by the interface can be adopted by any type, regardless of where the type appears in the inheritance hierarchy. A type implements an interface by providing implementations for the members of the interface. An empty interface does not define any members. Therefore, it does not define a contract that can be implemented.

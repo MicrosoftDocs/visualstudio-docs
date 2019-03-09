@@ -31,6 +31,8 @@ ms.workload:
 
 A field is declared `static` and `readonly` (`Shared` and `ReadOnly` in Visual Basic), and is initialized with a value that is computable at compile time.
 
+By default, this rule only looks at externally visible fields, but this is [configurable](#configurability).
+
 ## Rule description
 
 The value of a `static readonly` field is computed at runtime when the static constructor for the declaring type is called. If the `static readonly` field is initialized when it is declared and a static constructor is not declared explicitly, the compiler emits a static constructor to initialize the field.

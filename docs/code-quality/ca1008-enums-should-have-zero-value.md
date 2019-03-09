@@ -30,7 +30,9 @@ ms.workload:
 
 ## Cause
 
-An enumeration without an applied <xref:System.FlagsAttribute?displayProperty=fullName> does not define a member that has a value of zero; or an enumeration that has an applied <xref:System.FlagsAttribute> defines a member that has a value of zero but its name is not 'None', or the enumeration defines multiple zero-valued members.
+An enumeration without an applied <xref:System.FlagsAttribute?displayProperty=fullName> does not define a member that has a value of zero. Or, an enumeration that has an applied <xref:System.FlagsAttribute> defines a member that has a value of zero but its name is not 'None'. Or, the enumeration defines multiple, zero-valued members.
+
+By default, this rule only looks at externally visible enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 
