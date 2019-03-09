@@ -44,17 +44,25 @@ To fix a violation of this rule, remove <xref:System.FlagsAttribute> from the en
 
 Do not suppress a warning from this rule.
 
-## Example that should not have the attribute
+## Configurability
 
-The following example shows an enumeration, `Color`, that contains the value 3. 3 is not a power of two, or a combination of any of the defined values. The `Color` enumeration shouldn't be marked with <xref:System.FlagsAttribute>.
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca2217.api_surface = private, internal
+```
+
+You can also configure this option for all rules or for all rules in this category (`Usage`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
+## Examples
+
+The following code shows an enumeration, `Color`, that contains the value 3. 3 is not a power of two, or a combination of any of the defined values. The `Color` enumeration shouldn't be marked with <xref:System.FlagsAttribute>.
 
 [!code-cpp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217-do-not-mark-enums-with-flagsattribute_1.cpp)]
 [!code-csharp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217-do-not-mark-enums-with-flagsattribute_1.cs)]
 [!code-vb[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/VisualBasic/ca2217-do-not-mark-enums-with-flagsattribute_1.vb)]
 
-## Example that should have the attribute
-
-The following example shows an enumeration, `Days`, that meets the requirements for being marked with <xref:System.FlagsAttribute>.
+The following code shows an enumeration, `Days`, that meets the requirements for being marked with <xref:System.FlagsAttribute>:
 
 [!code-cpp[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CPP/ca2217-do-not-mark-enums-with-flagsattribute_2.cpp)]
 [!code-csharp[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CSharp/ca2217-do-not-mark-enums-with-flagsattribute_2.cs)]

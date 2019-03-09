@@ -85,6 +85,16 @@ It is safe to suppress a warning to use the 'Collection' suffix if the type is a
 
 For other suffixes, do not suppress a warning from this rule. The suffix allows the intended usage to be evident from the type name.
 
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1710.api_surface = private, internal
+```
+
+You can also configure this option for all rules or for all rules in this category (`Naming`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
 ## Related rules
 
 [CA1711: Identifiers should not have incorrect suffix](../code-quality/ca1711-identifiers-should-not-have-incorrect-suffix.md)

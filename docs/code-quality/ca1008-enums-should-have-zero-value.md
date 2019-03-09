@@ -46,7 +46,7 @@ To fix a violation of this rule for non-flags-attributed enumerations, define a 
 
 Do not suppress a warning from this rule except for flags-attributed enumerations that have previously shipped.
 
-## Configuration
+## Configurability
 
 If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
@@ -54,7 +54,7 @@ If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (
 dotnet_code_quality.ca1008.api_surface = private, internal
 ```
 
-You can also configure this option for all rules, or for all rules in this category (`Design`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+You can also configure this option for all rules or for all rules in this category (`Design`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Example
 

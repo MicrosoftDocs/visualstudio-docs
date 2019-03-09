@@ -67,6 +67,16 @@ Remove the suffix from the type name.
 
 Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
 
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1711.api_surface = private, internal
+```
+
+You can also configure this option for all rules or for all rules in this category (`Naming`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
 ## Related rules
 
 - [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
