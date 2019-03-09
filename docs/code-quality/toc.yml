@@ -36,6 +36,9 @@
         href: install-fxcop-analyzers.md
       - name: Configure
         href: configure-fxcop-analyzers.md
+        items:
+        - name: Configuration options
+          href: fxcop-analyzer-options.md
       - name: Migrate from static code analysis
         href: fxcop-analyzers.yml
     - name: Install Roslyn analyzers
