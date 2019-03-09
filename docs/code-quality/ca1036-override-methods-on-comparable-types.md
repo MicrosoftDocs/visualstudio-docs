@@ -1,6 +1,6 @@
 ---
 title: "CA1036: Override methods on comparable types"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1036"

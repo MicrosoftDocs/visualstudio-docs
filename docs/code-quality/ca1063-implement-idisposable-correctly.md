@@ -1,6 +1,6 @@
 ---
 title: "CA1063: Implement IDisposable correctly"
-ms.date: 02/12/2018
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "ImplementIDisposableCorrectly"

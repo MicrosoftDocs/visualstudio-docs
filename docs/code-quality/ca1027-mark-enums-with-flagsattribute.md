@@ -1,6 +1,6 @@
 ---
 title: "CA1027: Mark enums with FlagsAttribute"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "MarkEnumsWithFlags"

@@ -1,6 +1,6 @@
 ---
 title: "CA1055: URI return values should not be strings"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1055"

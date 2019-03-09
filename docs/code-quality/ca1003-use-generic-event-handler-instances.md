@@ -1,6 +1,6 @@
 ---
 title: "CA1003: Use generic event handler instances"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "UseGenericEventHandlerInstances"

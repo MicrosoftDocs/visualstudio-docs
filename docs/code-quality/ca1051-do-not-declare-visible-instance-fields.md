@@ -1,6 +1,6 @@
 ---
 title: "CA1051: Do not declare visible instance fields"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1051"

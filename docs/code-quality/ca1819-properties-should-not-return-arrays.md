@@ -1,6 +1,6 @@
 ---
 title: "CA1819: Properties should not return arrays"
-ms.date: 09/28/2018
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "PropertiesShouldNotReturnArrays"

@@ -1,6 +1,6 @@
 ---
 title: "CA1708: Identifiers should differ by more than case"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldDifferByMoreThanCase"
