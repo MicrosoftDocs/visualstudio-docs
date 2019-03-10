@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 02/26/2019
+ms.date: 03/12/2019
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -29,7 +29,7 @@ To start, we'll create a C# application project. The project type comes with all
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
+3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
@@ -55,9 +55,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ## Create the app
 
-First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
+First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. Next, . After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
-Let's start with some integer math in C#.
+### Explore integer math
+
+Let's start with some basic integer math in C#.
 
 1. In the code editor, delete the default "Hello World" code.
 
@@ -75,15 +77,21 @@ Let's start with some integer math in C#.
             Console.ReadKey();
     ```
 
+    Notice that when you do so, the IntelliSense feature in Visual Studio IDE offers you the ability to autocomplete the entry.
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
    A console window opens that reveals the sum of 42 + 119.
 
-1. Now try changing the `int c = a + b;` line of code by using a different operator, such as `-` for subtraction, `*` for multiplication, or */* for division.
+    ![Console window showing the results of integer math](./media/csharp-console-integer-math.png)
 
-    Notice that when you change the operator and run the program, the result changes, too.
+1. (Optional) You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or */* for division. Then, when you run the program, the result changes, too.
+
+1. Close the console window.
+
+### Add code to create a calculator
 
 Let's continue by adding a more complex set of calculator code to your project.
 
@@ -158,6 +166,10 @@ Let's continue by adding a more complex set of calculator code to your project.
    Your app should look similar to the following screenshot:
 
     ![Console window showing the Calculator app and includes prompts on which actions to take](./media/csharp-console-calculator.png)
+
+### Add functionality to the calculator
+
+Let's tweak the code to add further functionality.
 
 ### Add decimals
 
@@ -530,4 +542,5 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
+* [C# IntelliSense](../../ide/visual-csharp-intellisense?view=vs-2017)
 * [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
