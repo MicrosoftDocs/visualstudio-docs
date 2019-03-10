@@ -79,11 +79,13 @@ Let's start with some basic integer math in C#.
 
     Notice that when you do so, the IntelliSense feature in Visual Studio IDE offers you the ability to autocomplete the entry.
 
+    ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
-   A console window opens that reveals the sum of 42 + 119.
+   A console window opens that reveals the sum of 42 + 119, which is 161.
 
     ![Console window showing the results of integer math](./media/csharp-console-integer-math.png)
 
@@ -183,7 +185,7 @@ Let's fix the code so that it handles decimals.
 
 1. Press **Ctrl** + **F** to open the **Find and Replace** control.
 
-1. Change each instance of the `int` variable to `float`.
+1. Change each instance of the `int` variable to `float`. Make sure that you toggle **Match case** (**Alt**+**C**) and **Match whole word** (**Alt**+**W**) in the **Find and Replace** control.
 
     ![Animation of the Find and Replace control showing how to change the int variable to float](./media/find-replace-control-animation.gif)
 
