@@ -27,7 +27,7 @@ To start, we'll create a C# application project. The project type comes with all
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project**.
+2. From the top menu bar, choose **File** > **New** > **Project**.<br />   (Alternatively, press **Ctrl**+**Shift**+**N**).
 
 3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
 
@@ -85,11 +85,11 @@ Let's start with some basic integer math in C#.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
-   A console window opens that reveals the sum of 42 + 119, which is 161.
+   A console window opens that reveals the sum of 42 + 119, which is **161**.
 
     ![Console window showing the results of integer math](./media/csharp-console-integer-math.png)
 
-1. (Optional) You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or */* for division. Then, when you run the program, the result changes, too.
+1. **(Optional)** You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or `/` for division. Then, when you run the program, the result changes, too.
 
 1. Close the console window.
 
@@ -185,7 +185,9 @@ Let's fix the code so that it handles decimals.
 
 1. Press **Ctrl** + **F** to open the **Find and Replace** control.
 
-1. Change each instance of the `int` variable to `float`. Make sure that you toggle **Match case** (**Alt**+**C**) and **Match whole word** (**Alt**+**W**) in the **Find and Replace** control.
+1. Change each instance of the `int` variable to `float`.
+
+   Make sure that you toggle **Match case** (**Alt**+**C**) and **Match whole word** (**Alt**+**W**) in the **Find and Replace** control.
 
     ![Animation of the Find and Replace control showing how to change the int variable to float](./media/find-replace-control-animation.gif)
 
