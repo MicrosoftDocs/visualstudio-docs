@@ -93,4 +93,4 @@ The WPF (Windows Presentation Framework) Toolbox Control template lets you creat
   
 3.  Upload the .vsix file to a network or to a Web site.  
   
-     If you upload the file to the [Visual Studio Gallery](https://marketplace.visualstudio.com/) Web site, other users can use **Tools / Extensions and Updates** in Visual Studio to find the control online and install it.
+     If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Tools / Extensions and Updates** in Visual Studio to find the control online and install it.
