@@ -53,7 +53,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 3. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 
-![Screenshot of Create a new project screen](media/vs-2019/create-a-new-project.png)
+![Screenshot of Create a new project screen](media/vs-2019/uwp-create-new-project.png)
 
 4. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
@@ -76,7 +76,7 @@ It's time to start developing. You'll add a button control, add an action to the
    ::: moniker range="vs-2017"
    ![Open MainPage.xaml from the Solution Explorer ](media/uwp-solution-explorer-MainPage-xaml.png)
    ::: moniker-end
-   ::: moniker range=">-vs-2019"
+   ::: moniker range=">=vs-2019"
    ![Open MainPage.xaml from the Solution Explorer](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
    ::: moniker-end
 
@@ -153,7 +153,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    ![Click Local Machine to start and debug your UWP app](media/uwp-start-or-debug.png)
 
-   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
 
 2. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
