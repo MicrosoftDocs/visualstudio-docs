@@ -61,6 +61,7 @@ The following command-line switches display the IDE and do the described task.
 |[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.<br /><br /> `devenv /command "nav https://docs.microsoft.com/"`|
 |[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch isn't available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).<br /><br /> `devenv /debugexe mysln.exe`|
 |[/Diff](diff.md)|Compares two files. Takes four parameters: *SourceFile*, *TargetFile*, *SourceDisplayName* (optional), and *TargetDisplayName* (optional).<br /><br /> `devenv /diff File1 File2 Alias1 Alias2`|
+|[/DoNotLoadProjects](donotloadprojects-devenv-exe.md)|Opens the specified solution without loading any projects.<br /><br /> `devenv /donotloadprojects mysln.sln`|
 |[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.<br /><br /> `devenv /edit File1 File2`|
 |[/LCID or /L](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language isn't included in your installation of Visual Studio, this setting is ignored.<br /><br /> `devenv /l 1033`|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.<br /><br /> `devenv /log mylogfile.xml`|
