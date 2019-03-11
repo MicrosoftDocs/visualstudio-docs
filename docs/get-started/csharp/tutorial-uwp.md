@@ -2,7 +2,7 @@
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
 ms.custom: "seodec18, get-started"
-ms.date: "04/04/2018"
+ms.date: "03/11/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -24,7 +24,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
+
+::: moniker range="vs-2017"
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
@@ -35,9 +37,24 @@ First, create a Universal Windows Platform project. The project type comes with 
    > [!NOTE]
    > If you don't see the **Blank App (Universal Windows)** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.<br><br>![Click the Open Visual Studio Installer link from the New Project dialog box](../../ide/media/vb-open-visual-studio-installer-hello-world.png)<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.<br><br>![Universal Windows Platform development workload in the Visual Studio Installer](media/uwp-dev-workload.png)
 
-4. When the **New Universal Windows Platform Project** dialog box appears, choose **OK**.
+4. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-   ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
+![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
+::: moniker-end
+
+::: monker range=">=vs-2019"
+
+2. Start Visual Studio, and on the **Start Window**, choose **Create a new project**.
+
+3. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
+
+![Screenshot of Create a new project screen](media/vs-2019/create-a-new-project.png)
+
+4. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
+
+![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+::: moniker-end
+   
 
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
