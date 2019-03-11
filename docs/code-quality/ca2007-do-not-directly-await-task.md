@@ -66,6 +66,26 @@ public async Task Execute()
 }
 ```
 
+## Configurability
+
+You can configure whether you want to exclude asynchronous methods that don't return a value from this rule. To exclude these kinds of methods, add the following key-value pair to an .editorconfig file in your project:
+
+```
+# Package version 2.9.0 and later
+dotnet_code_quality.CA2007.exclude_async_void_methods = true
+
+# Package version 2.6.3 and earlier
+dotnet_code_quality.CA2007.skip_async_void_methods = true
+```
+
+You can also configure which output assembly kinds to apply this rule to. For example, to only apply this rule to code that produces a console application or a dynamically linked library (that is, not a UI app), add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.CA2007.output_kind = ConsoleApplication, DynamicallyLinkedLibrary
+```
+
+For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
 ## See also
 
 - [Should I await a task with ConfigureAwait(false)?](https://github.com/Microsoft/vs-threading/blob/master/doc/cookbook_vs.md#should-i-await-a-task-with-configureawaitfalse)
