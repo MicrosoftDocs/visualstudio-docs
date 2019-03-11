@@ -18,7 +18,7 @@ Quick Actions let you easily refactor, generate, or otherwise modify code with a
 Quick Actions can be used to:
 
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
-- [Suppress](../code-quality/use-roslyn-analyzers.md) a code analyzer rule violation
+- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 - Generate code (for example, [introduce a local variable](../ide/reference/introduce-local-variable.md))
 

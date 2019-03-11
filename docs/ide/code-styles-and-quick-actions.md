@@ -28,7 +28,7 @@ For each item, you can set the **Preference** and **Severity** values using the 
 
 ## EditorConfig files
 
-Code style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. Settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. You can use an EditorConfig file to enforce and configure the coding style for your entire repo or project.
+Code style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. EditorConfig files are associated with a codebase rather than a Visual Studio account. Settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
 ## Format Document command
 
@@ -39,7 +39,7 @@ Code cleanup respects settings configured in an *.editorconfig* file, or lacking
 The first time you trigger the **Format Document** command in Visual Studio, a yellow info bar prompts you to configure your code cleanup settings.
 
 > [!TIP]
-> Rules configured as **none** in an *.editorconfig* file don't participate in code cleanup, but can be individually applied via the **Quick Actions and Refactorings** menu.
+> Rules configured with a severity of **None** don't participate in code cleanup, but can be individually applied via the **Quick Actions and Refactorings** menu.
 
 ## See also
 

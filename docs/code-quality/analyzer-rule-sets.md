@@ -48,7 +48,8 @@ The [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet analyzer package](https://www.n
 
 ## See also
 
+- [Analyzers FAQ](analyzers-faq.md)
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
-- [Install .NET Compiler Platform analyzers](install-roslyn-analyzers.md)
-- [Configure and use Roslyn analyzer rules](use-roslyn-analyzers.md)
+- [Install analyzers](install-roslyn-analyzers.md)
+- [Use analyzers](use-roslyn-analyzers.md)
 - [Use rule sets to group code analysis rules](using-rule-sets-to-group-code-analysis-rules.md)
