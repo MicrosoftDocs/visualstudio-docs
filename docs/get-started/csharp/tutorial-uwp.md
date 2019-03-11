@@ -47,7 +47,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
-::: monker range=">=vs-2019"
+::: moniker range=">=vs-2019"
 
 2. Start Visual Studio, and on the **Start Window**, choose **Create a new project**.
 
