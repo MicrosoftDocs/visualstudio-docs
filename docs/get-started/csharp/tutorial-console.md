@@ -77,7 +77,7 @@ Let's start with some basic integer math in C#.
             Console.ReadKey();
     ```
 
-    Notice that when you do so, the IntelliSense feature in Visual Studio IDE offers you the ability to autocomplete the entry.
+    Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
