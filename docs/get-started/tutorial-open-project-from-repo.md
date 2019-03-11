@@ -34,17 +34,34 @@ Here's how.
 
 1. Then, in the **Solutions** section of the **Home|vs-tutorials-sample** window, 
 
-1. Press **F5** to run the app and take it for a spin!
+### Review your work
 
-Here's what it looks like.
+Here's an example of what it looks like when you open a project from GitHub in Visual Studio 2017:
+
+   ![Animation of opening a project in GitHub within the Visual Studio IDE](./media/open-project-from-github.gif)
+
+## Open a project from Azure DevOps
+
+1. Open Visual Studio 2017.
+
+1. From the top menu bar, choose **File** > **Open** > **Open from Source Control**.
+
+   The **Team Explorer - Connect** pane opens.
+
+1. 
+
+
 
 ## Next steps
 
-Congratulations on completing this section of the C# Console tutorial! To continue with the tutorial, choose the following button.
+If you're ready to code with Visual Studio, dive into any of the following language-specific tutorial sets:
 
-> [!div class="nextstepaction"]
-> [Add decimals to your calculator app](/visualstudio/get-started/csharp/tutorial-console&view+vs-2017#add-decimals/)
+- [Visual Studio tutorials | C#](./csharp/index.yml)
+- [Visual Studio tutorials | Visual Basic](./visual-basic/index.yml)
+- [Visual Studio | C++](/cpp/get-started/)
+- [Visual Studio tutorials | Python](/visualstudio/python/)
+- [Visual Studio tutorials | JavaScript, TypeScript, Node.js](/visualstudio/javascript/)
 
 ## See also
 
-* [Visual Studio tutorials | C#](index.yml)
+- [Visual Studio tutorials | C#](index.yml)
