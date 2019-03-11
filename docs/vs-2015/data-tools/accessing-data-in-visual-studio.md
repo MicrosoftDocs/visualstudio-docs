@@ -124,7 +124,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [Data, Devices, and Analytics](https://msdn.microsoft.com/data-and-devices)
  Provides an introduction to the Microsoft intelligent cloud, including Cortana Analytics Suite and support for Internet of Things.
 
- [Microsoft Azure Storage](https://docs.microsoft.com/azure/storage/)
+ [Microsoft Azure Storage](/azure/storage/)
  Describes Azure Storage, and how to create applications by  using Azure blobs, tables, queues, and files.
 
  [Azure SQL Database](https://azure.microsoft.com/documentation/services/sql-database/)
