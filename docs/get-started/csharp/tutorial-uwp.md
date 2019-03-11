@@ -18,7 +18,12 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
+::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker-end
+::: moniker range="vs-2019"
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+::: moniker-end
 
 ## Create a project
 
@@ -68,7 +73,12 @@ It's time to start developing. You'll add a button control, add an action to the
 
 1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
 
+   ::: moniker range="vs-2017"
    ![Open MainPage.xaml from the Solution Explorer ](media/uwp-solution-explorer-MainPage-xaml.png)
+   ::: moniker-end
+   ::: moniker range=">-vs-2019"
+   ![Open MainPage.xaml from the Solution Explorer](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
+   ::: moniker-end
 
    There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
 
@@ -116,7 +126,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Let's change it, so it looks like this:
 
-    ![The new async Button_Click event handler ](media/uwp-add-hello-world-async-code.png)
+   ![The new async Button_Click event handler ](media/uwp-add-hello-world-async-code.png)
 
    Here's the code to copy and paste:
 
@@ -139,7 +149,7 @@ The code uses some Windows APIs to create a speech synthesis object and then giv
 
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
-1. Choose **Local Machine** to start the application.
+1. Use the Play button (it has the text **Local Machine**) to start the application on the local machine.
 
    ![Click Local Machine to start and debug your UWP app](media/uwp-start-or-debug.png)
 
@@ -153,11 +163,11 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    Your Windows 10 device will literally say, "Hello, World!"
 
-4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift**+**F5**.)
+4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
 
 ## Next steps
 
-Congratulations on completing this Quickstart! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
+Congratulations on completing this tutorial! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Create a user interface](/windows/uwp/design/basics/xaml-basics-ui)
