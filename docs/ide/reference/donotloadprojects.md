@@ -6,7 +6,6 @@ helpviewer_keywords:
   - "Devenv, /DoNotLoadProjects switch"
   - "/DoNotLoadProjects Devenv switch"
   - "DoNotLoadProjects Devenv switch"
-ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
