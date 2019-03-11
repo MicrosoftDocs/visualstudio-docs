@@ -56,7 +56,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Using --wait
 
-* Use in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an`%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following is an example of the additional parameters used with the powershell script command 'Start-Process':
+* Use in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an`%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following is an example of the additional parameters used with the PowerShell script command 'Start-Process':
 
   ```cmd
   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
