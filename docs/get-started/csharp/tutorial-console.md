@@ -27,7 +27,8 @@ To start, we'll create a C# application project. The project type comes with all
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project**.<br />   (Alternatively, press **Ctrl**+**Shift**+**N**).
+2. From the top menu bar, choose **File** > **New** > **Project**.
+   (Alternatively, press **Ctrl**+**Shift**+**N**).
 
 3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
 
