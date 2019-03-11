@@ -65,6 +65,16 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
    certmgr.exe -add [layout path]\certificates\vs_installer_opc.RootCertificate.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
+   
+   Alternatively, create a batch file that uses certutil.exe, which ships with Windows, with the following commands:
+   
+      ```cmd
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer
+
+   certutil.exe -addstore -f "Root" [layout path]\certificates\manifestCounterSignRootCertificate.cer"
+
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\vs_installer_opc.RootCertificate.cer"
+   ```
 
 3. Deploy the batch file to the client. This command should be run from an elevated process.
 
