@@ -97,7 +97,7 @@ If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (
 dotnet_code_quality.ca2225.api_surface = private, internal
 ```
 
-You can also configure this option for all rules or for all rules in this category (`Usage`). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+You can configure this option for just this rule, for all rules, or for all rules in this category (Usage). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Example
 

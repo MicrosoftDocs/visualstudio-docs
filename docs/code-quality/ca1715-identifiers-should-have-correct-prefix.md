@@ -50,7 +50,11 @@ Naming conventions provide a common look for libraries that target the common la
 
 ## Configurability
 
-If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure whether or not to exclude single-character type parameters from this rule. For example, to specify that this rule *should not* analyze single-character type parameters, add the following key-value pair to an .editorconfig file in your project:
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your code this rule analyzes. For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+
+### Single-character type parameters
+
+You can configure whether or not to exclude single-character type parameters from this rule. For example, to specify that this rule *should not* analyze single-character type parameters, add one of the following key-value pairs to an .editorconfig file in your project:
 
 ```
 # Package version 2.9.0 and later
@@ -61,17 +65,17 @@ dotnet_code_quality.CA2007.allow_single_letter_type_parameters = true
 ```
 
 > [!NOTE]
-> This rule never fires for a type parameter named `T`.
+> This rule never fires for a type parameter named `T`, for example, `Collection<T>`.
 
-You can also configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+### API surface
+
+You can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
 
 ```
 dotnet_code_quality.ca1715.api_surface = private, internal
 ```
 
-You can also configure this option for all rules or for all rules in this category (`Naming`).
-
-For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
+You can configure this option for just this rule, for all rules, or for all rules in this category (Naming).
 
 ## How to fix violations
 
