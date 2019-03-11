@@ -223,7 +223,7 @@ ms.workload:
 
 #### When naming commands:
 
--   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](../../ide/globalizing-and-localizing-applications.md).
+-   Construct text so that it is easily localizable. For more about localizing text, see [Localization best practices](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps#localization-best-practices).
 
 -   Be concise. Commands should use no more than three words.
 
