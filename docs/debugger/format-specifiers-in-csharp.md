@@ -50,7 +50,7 @@ Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > 
 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
 
-![FormatSpecCSharp](../debugger/media/vs-2019/format-specs-csharp.jpg "FormatSpecCSharp")
+![FormatSpecCSharp](../debugger/media/vs-2019/format-specs-csharp.png "FormatSpecCSharp")
 
 ::: moniker-end
 
