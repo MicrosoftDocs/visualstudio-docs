@@ -546,5 +546,5 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 ## See also
 
-* [C# IntelliSense](../../ide/visual-csharp-intellisense?view=vs-2017)
+* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
 * [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
