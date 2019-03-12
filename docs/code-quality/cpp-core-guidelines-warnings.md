@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Using the C++ Core Guidelines checkers
 
-The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).
+The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017 and Visual Studio 2019, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).
 
 ## The C++ Core Guidelines Project
 
@@ -155,14 +155,14 @@ You can use the command line option to temporarily disable all code analysis for
 
 Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
 
-1.	In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
-2.	Start Visual Studio from the command shell to inherit these variables.
-3.	Load your project and open its properties.
-4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
-5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
-6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
-7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
-8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
+1. In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
+2. Start Visual Studio from the command shell to inherit these variables.
+3. Load your project and open its properties.
+4. Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
+5. Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
+6. Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
+7. Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header and if the latter was compiled with default project options, it will not be compatible.
+8. Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file which is configured to use it.
 
 ## How to use the C++ Core Guidelines Checker outside of Visual Studio
 You can use the C++ Core Guidelines checks in automated builds.
@@ -181,7 +181,7 @@ The Native Code Analysis checker (PREfast) is integrated into MSBuild environmen
 
 Make sure you add these properties before the import of the Microsoft.Cpp.targets file. You can pick specific rule sets or create a custom rule set or use the default rule set that includes other PREfast checks.
 
-You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#coreckeck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
+You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#corecheck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
 
 ```xml
 <ItemGroup>

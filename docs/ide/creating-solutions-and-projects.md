@@ -47,7 +47,7 @@ That being said, solutions and projects are not required to develop apps in Visu
    ![New project dialog box](./media/vside-newproject-templates-list.png)
 
    > [!NOTE]
-   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio.md).
+   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio by adding or removing workloads and components](../install/modify-visual-studio.md).
 
 2. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
 
@@ -107,11 +107,17 @@ After you create an empty solution, you can add new or existing projects or item
 
 As mentioned earlier, you can also open code files without needing a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-## Create a temporary project (C# and Visual Basic)
+::: moniker range="vs-2017"
+
+## Create a temporary project
+
+(C# and Visual Basic only)
 
 If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
 
 To create a temporary project, first go to **Tools** > **Options** > **Projects and Solutions** > **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
+
+::: moniker-end
 
 ## Delete a solution, project, or item
 

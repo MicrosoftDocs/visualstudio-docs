@@ -13,13 +13,17 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # PromptForSaveOnCreation element (Visual Studio templates)
-Specifies whether the user is prompted for a project save location via the **New Project** dialog box when creating a project. If this element is set to `true`, then the user is prompted for a save location; if `false`, then they are not prompted. (That is, a temporary project is created.)
 
- \<VSTemplate>
- \<TemplateData>
- \<PromptForSaveOnCreation>
+Specifies whether the user is prompted for a project save location via the **New Project** dialog box when creating a project. If this element is set to `true`, then the user is prompted for a save location. If `false`, then they are not prompted (that is, a temporary project is created).
+
+```xml
+\<VSTemplate>
+\<TemplateData>
+\<PromptForSaveOnCreation>
+```
 
 ## Syntax
 
@@ -55,7 +59,7 @@ Specifies whether the user is prompted for a project save location via the **New
 ## Example
  The following example sets the value of `PromptForSaveOnCreation` equal to `false`, which specifies to allow the project to be created as a temporary project.
 
-```
+```xml
 <VSTemplate Type="Project" Version="3.0.0"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
@@ -81,5 +85,6 @@ Specifies whether the user is prompted for a project save location via the **New
 ```
 
 ## See also
+
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)

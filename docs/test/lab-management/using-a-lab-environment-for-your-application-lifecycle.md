@@ -49,7 +49,7 @@ For more information, see [Use Build or Release management](use-build-or-rm-inst
 
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
-You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio 2017 Enterprise edition.
+You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise edition.
 
 Lab Management automatically installs test agents on every machine in your environment.
 

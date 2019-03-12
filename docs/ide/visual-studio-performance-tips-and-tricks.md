@@ -19,7 +19,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
 If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
 
-For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Disable automatic file restore
 
@@ -35,9 +35,9 @@ If you disable automatic file restore, a quick way to navigate to files you want
 
 - For the general **Go To** functionality, select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
 
-- In Visual Studio 2017 version 15.8 and later, you can jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
+- Jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
 
-- In Visual Studio 2017 version 15.8 and later, use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
+- Use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
 
 ## Configure debugging options
 

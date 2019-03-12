@@ -238,7 +238,7 @@ Create your first app in Visual Studio.
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-uwp-csharp">
+        <a href="/visualstudio/get-started/csharp/tutorial-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

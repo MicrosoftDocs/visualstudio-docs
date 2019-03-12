@@ -12,7 +12,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Welcome to the Visual Studio IDE | C#
+# Welcome to the Visual Studio IDE | C\#
 
 [!INCLUDE [overview-part-1](../includes/ide-overview.md)]
 

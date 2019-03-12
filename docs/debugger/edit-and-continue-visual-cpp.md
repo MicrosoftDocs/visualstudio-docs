@@ -1,6 +1,6 @@
 ---
 title: "Edit and Continue (Visual C++) | Microsoft Docs"
-ms.date: "05/31/2017"
+ms.date: "05/31/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -21,7 +21,7 @@ ms.workload:
 # Edit and Continue (Visual C++)
 You can use Edit and Continue in Visual C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
 
-For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/).
+For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).
 
  The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option that was introduced in Visual Studio 2013 Update 3 adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](https://msdn.microsoft.com/library/aafb762y.aspx) option.
 
@@ -31,7 +31,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
  You may want to  disable the automatic invocation of Edit and Continue if you are making edits to the code that you do not want applied during the current debugging session. You can also re-enable automatic Edit and Continue.
 
 > [!IMPORTANT]
-> For required build settings and other information about feature compatibility, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://blogs.msdn.microsoft.com/vcblog/2016/07/01/c-edit-and-continue-in-visual-studio-2015-update-3/.
+> For required build settings and other information about feature compatibility, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).
 
 1. If you are in a debugging session, stop debugging (**Shift + F5**).
 

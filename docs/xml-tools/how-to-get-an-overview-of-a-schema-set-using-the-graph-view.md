@@ -17,11 +17,11 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 1.  Create a new XML Schema file and save the file as *Relationships.xsd*.
 
-2.  Click the **Use XML Editor to view and edit the underlying XML Schema file** link on the Start View.
+2.  Click the **Use XML editor to view and edit the underlying XML Schema file** link on the Start View.
 
 3.  Copy the XML Schema sample code from [Sample XML schema: relationships](../xml-tools/sample-xsd-file-relationships.md) and paste it to replace the code that was added to the new XSD file by default.
 
-4.  Right-click anywhere in the XML Editor and select **View Designer**.
+4.  Right-click anywhere in the XML editor and select **View Designer**.
 
 5.  Select the Graph View from the **XSD Toolbar**.
 

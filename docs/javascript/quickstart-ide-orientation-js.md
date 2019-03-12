@@ -15,6 +15,24 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
+::: moniker range=">=vs-2019"
+
+## Start window
+
+The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+
+[![](media/vs-2019/start-window.png "Start window in Visual Studio 2019")](media/vs-2019/start-window.png)
+
+If this is the first time you're using Visual Studio, your recent projects list will be empty.
+
+If you work with non-MSBuild based codebases, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-javascript-code-without-solutions-projects.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+
+The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 ## Start Page
 
 The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
@@ -25,9 +43,27 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 ![File menu in Visual Studio](media/quickstart-IDE-file-menu-large.png)
 
+::: moniker-end
+
 ## Create a project
 
 To continue exploring Visual Studio's features, let's create a new project.
+
+::: moniker range=">=vs-2019"
+
+1. On the **Start Window**, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
+
+   ![Search project templates on Visual Studio start window](media/vs-2019/create-new-project.png)
+
+1. Choose a **Blank Node.js Web Application** project template and click **Next**. 
+
+1. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
 
 1. On the **Start Page**, in the search box under **New project**, type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
@@ -36,6 +72,7 @@ To continue exploring Visual Studio's features, let's create a new project.
    Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a **Blank Node.js Web Application** project template. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
 
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
+::: moniker-end
 
    The project is created and a file named *server.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 

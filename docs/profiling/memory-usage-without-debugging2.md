@@ -1,6 +1,6 @@
 ---
 title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: ""
 ms.date: "11/15/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -66,7 +66,7 @@ After you stop data collection, the **Memory Usage** tool stops the app and disp
 
 The numbers in the **Snapshot** panes show the bytes and objects in memory when each snapshot was taken, and the difference between the snapshot and the previous one.
 
-The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-report) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
+The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
 
   ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
 

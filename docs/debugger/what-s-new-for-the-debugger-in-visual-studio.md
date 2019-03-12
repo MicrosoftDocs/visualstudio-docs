@@ -60,7 +60,7 @@ The debugger includes these new features:
 
     ![Search in Attach to Process](../debugger/media/dbg-attach-to-process-search.png "DbgAttachToProcessSearch")
 
-For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes#debuggingdiag).
+For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes).
 
 ## See also
 

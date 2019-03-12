@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting snapshot debugging | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "11/07/2017"
+ms.date: "11/07/2018"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "debugger"

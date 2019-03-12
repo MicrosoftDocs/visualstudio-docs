@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using XML Editor Features"
+title: "Walkthrough: Using XML editor Features"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Walkthrough: Use XML editor features
 
-The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.
+The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML editor that make it valuable for XML authoring.
 
 > [!NOTE]
 > Before starting the walkthrough, save the *hireDate.xsd* file (included below in this topic) to your local computer.
@@ -90,9 +90,11 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 ## To format the XML document
 
-- Select the **Format Document** button from the XML Editor toolbar.
+- Select the **Format Document** button on the XML editor toolbar, or press **Ctrl**+**E**,**D**.
 
-    The XML document is reformatted.
+   ![Format XML document button in Visual Studio](media/format-xml-document.png)
+
+   The XML document is reformatted.
 
 ## To save the XML document
 
@@ -103,7 +105,8 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 2.  Enter the file name and location for the XML document and click **Save**.
 
 ## hireDate.xsd file
- The following schema file is used by the walkthrough.
+
+The following schema file is used in this walkthrough:
 
 ```xml
 <?xml version="1.0"?>
@@ -123,4 +126,4 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 ## See also
 
-- [XML Editor](../xml-tools/xml-editor.md)
+- [XML editor](../xml-tools/xml-editor.md)

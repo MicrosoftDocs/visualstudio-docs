@@ -43,9 +43,13 @@ When unselected, the commands on the **Build** menu, such as **Build Solution**,
 
 When selected, the solution and all commands that act on solutions are always shown in the IDE. When cleared, all projects are created as stand-alone projects and you do not see the solution in Solution Explorer or commands that act on solutions in the IDE if the solution contains only one project.
 
+::: moniker range="vs-2017"
+
 ### Save new projects when created
 
 When selected, you can specify a location for your project in the **New Project** dialog box. When cleared, all new projects are created as temporary projects. When you are working with temporary projects, you can create and experiment with a project without having to specify a disk location.
+
+::: moniker-end
 
 ### Warn user when the project location is not trusted
 
@@ -65,7 +69,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ### Reopen documents on solution load
 
-**New in Visual Studio 2017 version 15.8 preview 2 and later**
+**Introduced in Visual Studio 2017 version 15.8**
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 

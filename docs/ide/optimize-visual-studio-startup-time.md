@@ -21,7 +21,7 @@ Visual Studio is designed to start up as quickly and efficiently as possible. Ho
 
 ## Startup behavior
 
-To avoid extending startup time, Visual Studio 2017 loads extensions using an _on demand_ approach. This behavior means that extensions don't open immediately after Visual Studio starts, but on an as-needed basis. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
+To avoid extending startup time, Visual Studio loads extensions using an _on demand_ approach. This behavior means that extensions don't open immediately after Visual Studio starts, but on an as-needed basis. Also, because tool windows left open in a prior Visual Studio session can slow startup time, Visual Studio opens tool windows in a more intelligent way to avoid impacting startup time.
 
 If Visual Studio detects slow startup, a pop-up message appears, alerting you to the extension or tool window that's causing the slowdown. The message provides a link to the **Manage Visual Studio Performance** dialog box. You can also access this dialog box by choosing **Help** > **Manage Visual Studio Performance** from the menu bar.
 
@@ -60,7 +60,7 @@ You can always re-enable the extension for future sessions by using the **Extens
      ![Manage Visual Studio performance - tool windows view](../ide/media/vside_perfdialog_toolwindows.png)
 
 > [!NOTE]
-> Some earlier versions of Visual Studio 2017 had a feature called **lightweight solution load**. This feature is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
+> Some earlier versions of Visual Studio 2017 had a feature called **lightweight solution load**. In current versions, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
 
 ## See also
 

@@ -56,7 +56,7 @@ If you don't have access to a calling app's project, you can debug the DLL from 
    ![Enable native code debugging](../debugger/media/dbg-mixed-mode-from-csharp.png "Enable native code debugging")
 
 > [!NOTE]
-> In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. For details, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
+> In most versions of Visual Studio starting in Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. For details, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
 
 ## See also
 

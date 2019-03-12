@@ -73,10 +73,10 @@ When a breakpoint has been reached, the Debug tools enable you to get control ov
 
 Here are the four buttons:
 
-*	**Play** - This will begin executing the code, until the next breakpoint.
-*	**Step Over** - This will execute the next line of code. If the next line is a function call, Step Over will execute the function, and will stop at the next line of code *after* the function.
-*	**Step Into** - This will also execute the next line of code. If the next line is a function call, Step Into will stop at the first line of the function, allowing you to continue line-by-line debugging of the function. If the next line is not a function, it will behave the same as Step Over.
-*	**Step Out** - This will return to the line where the current function was called.
+* **Play** - This will begin executing the code, until the next breakpoint.
+* **Step Over** - This will execute the next line of code. If the next line is a function call, Step Over will execute the function, and will stop at the next line of code *after* the function.
+* **Step Into** - This will also execute the next line of code. If the next line is a function call, Step Into will stop at the first line of the function, allowing you to continue line-by-line debugging of the function. If the next line is not a function, it will behave the same as Step Over.
+* **Step Out** - This will return to the line where the current function was called.
 
 ## Debugging Mono's class libraries
 

@@ -82,7 +82,7 @@ This walkthrough shows how to create a custom Visual Studio Start Page that cont
 1.  In **Tools / Options / Environment**, select **Startup**. On the **Customize Start Page** list, select your .xaml file, and click **OK**.  
   
 ## Next Steps  
- The Visual Studio Start Page now contains a tab that displays a Web browser tab and a MyButton tab. You can create custom Start Pages that have other functionality by using the *code-behind* model to add a custom .dll, as shown in [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md). You can share custom Start Pages with other users by publishing the resulting .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or to another Web site or network share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).  
+ The Visual Studio Start Page now contains a tab that displays a Web browser tab and a MyButton tab. You can create custom Start Pages that have other functionality by using the *code-behind* model to add a custom .dll, as shown in [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md). You can share custom Start Pages with other users by publishing the resulting .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or to another Web site or network share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).  
   
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   

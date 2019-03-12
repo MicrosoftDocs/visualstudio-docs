@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a Visual C++ Project | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "08/14/2017"
+ms.date: "08/14/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"

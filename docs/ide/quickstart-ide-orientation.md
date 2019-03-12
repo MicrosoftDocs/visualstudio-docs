@@ -184,5 +184,5 @@ We've looked at just a few of the features of Visual Studio to get acquainted wi
 ## See also
 
 - [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
-- [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [More features of Visual Studio](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

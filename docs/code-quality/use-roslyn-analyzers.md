@@ -1,5 +1,5 @@
 ---
-title: Use and configure Roslyn analyzers
+title: Analyzer rule severity and suppression
 ms.date: 03/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Configure and use Roslyn analyzer rules
+# Use Roslyn analyzers
 
 .NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, analyze your C# or Visual Basic code as you type. Each diagnostic has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
 
@@ -85,7 +85,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ### To set rule severity in the rule set file
 
-1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
 1. Browse to the rule by expanding its containing assembly.
 

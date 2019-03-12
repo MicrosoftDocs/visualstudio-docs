@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Tools for Docker with ASP.NET Core
 author: ghogen
-description: Learn how to use Visual Studio 2017 tooling and Docker for Windows
+description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 02/01/2019
 ms.prod: visual-studio-dev16
@@ -14,7 +14,7 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 ## Prerequisites
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2019 Preview](https://visualstudio.microsoft.com/vs/preview/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+preview) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
 
@@ -24,16 +24,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. From the Visual Studio menu, select **File > New > Project**.
-1. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
-1. Select **ASP.NET Core Web Application**.
-1. Give your new application a name (or take the default) and select **OK**.
-1. Select **Web Application**.
-1. Check the **Enable Docker Support** checkbox.
+1. Create a new project using the **ASP.NET Core Web Application** template.
+1. Select **Web Application**, and make sure the **Enable Docker Support** checkbox is selected.
 
-   ![Enable Docker Support check box](../../media/docker-tools/enable-docker-support.PNG)
+   ![Enable Docker Support check box](../../media/docker-tools/vs-2019/create-new-web-application.PNG)
 
-1. Select the type of container you want (Windows or Linux) and click **OK**.
+1. Select the type of container you want (Windows or Linux) and click **Create**.
 
 ## Dockerfile overview
 

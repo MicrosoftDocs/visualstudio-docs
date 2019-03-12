@@ -59,7 +59,7 @@ Output message 5 (from top template).
 
 ```
    Output Message 2 (from included file).
-<#@include file="TextFile2.t4" #>
+<#@ include file="TextFile2.t4" #>
    Output Message 4 (from included file).
 <#+ // Start of class feature control block.
 void GenerateMessage(int n)

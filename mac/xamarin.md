@@ -24,7 +24,7 @@ For more information on the Android Designer, see the [Xamarin.Android Designer 
 
 ## iOS
 
-The iOS Designer is fully integrated with Visual Studio for Mac and enables visual editing of .xib and Storyboard files to create iOS, tvOS, and WatchOS UIs and transitions. The entire user interface can be built using drag-and-drop functionality between the Toolbox and Design Surface, while using an intuitive approach to handling events. The iOS Designer also supports [custom controls/xamarin/ios/user-interface/designer/ios-designable-controls-overview) with the added benefit of design-time rendering.
+The iOS Designer is fully integrated with Visual Studio for Mac and enables visual editing of .xib and Storyboard files to create iOS, tvOS, and WatchOS UIs and transitions. The entire user interface can be built using drag-and-drop functionality between the Toolbox and Design Surface, while using an intuitive approach to handling events. The iOS Designer also supports [custom controls](/xamarin/ios/user-interface/designer/ios-designable-controls-overview) with the added benefit of design-time rendering.
 
 ![iOS Storyboard designer](media/intro-image30.png)
 
