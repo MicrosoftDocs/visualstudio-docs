@@ -86,7 +86,7 @@ Open a command prompt and use one of the commands from the following examples. T
 - To create a complete local layout with all features (this will take a long time&mdash;we have _lots_ of features!), run:
 
    ```cmd
-    vs_community.exe --layout c:\vs2017layout --lang en-US
+    vs_community.exe --layout c:\vs2017layout --lang en-US --all
     ```
 
   > [!NOTE]
