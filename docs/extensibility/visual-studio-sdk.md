@@ -48,7 +48,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  Take advantage of the [Image service and catalog](../extensibility/image-service-and-catalog.md) for great image management and support for high DPI and theming.
 
 ## Find and install existing Visual Studio extensions
- You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Find and Use Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio marketplace](https://marketplace.visualstudio.com/)
+ You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Find and Use Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 
 ## Visual Studio SDK reference
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).

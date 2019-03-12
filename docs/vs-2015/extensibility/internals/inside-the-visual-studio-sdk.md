@@ -87,7 +87,7 @@ Generalized view of the Visual Studio architecture
  For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions.md).  
   
 ## Project and Item Templates  
- Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?ProjectSearchText=visual%20studio) is the place to go for templates and extensions.  
+ Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](https://code.msdn.microsoft.com/site/search?query=visual%20studio) is the place to go for templates and extensions.  
   
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.  
   
