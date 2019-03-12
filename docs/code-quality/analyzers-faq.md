@@ -18,7 +18,7 @@ This page contains answers to some frequently asked questions about Roslyn analy
 
 **Q**: Should I use Roslyn analyzers or .editorconfig for code style?
 
-**A**: Roslyn analyzers and .editorconfig files work hand-in-hand. When you [define code styles](../ide/editorconfig-code-style-settings-reference.md) in an .editorconfig file, you're actually configuring the Roslyn analyzers that are built into Visual Studio. EditorConfig files can also be used to [configure third-party analyzer packages](configure-fxcop-analyzers.md), such as [FxCop analyzers](install-fxcop-analyzers.md) and [StyleCop analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers).
+**A**: Roslyn analyzers and .editorconfig files work hand-in-hand. When you define code styles [in an .editorconfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-quick-actions.md) page, you're actually configuring the Roslyn analyzers that are built into Visual Studio. EditorConfig files can also be used to [configure third-party analyzer packages](configure-fxcop-analyzers.md), such as [FxCop analyzers](install-fxcop-analyzers.md) and [StyleCop analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers).
 
 ## EditorConfig versus rule sets
 
@@ -41,7 +41,9 @@ In addition to rule sets and .editorconfig files, some third-party analyzers are
 
 **Q**: What's the difference between the Visual Studio IDE code analyzers and StyleCop analyzers?
 
-**A**: The Visual Studio IDE includes built-in analyzers that look for both code style and quality issues. These rules help you use new language features as they're introduced and improve the maintainability of your code. IDE analyzers are updated with each Visual Studio release. [StyleCop analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) are third-party analyzers installed as a NuGet package that check for style consistency in your code. In general, StyleCop rules let you set personal preferences for a code base without recommending one style over another.
+**A**: The Visual Studio IDE includes built-in analyzers that look for both code style and quality issues. These rules help you use new language features as they're introduced and improve the maintainability of your code. IDE analyzers are continually updated with each Visual Studio release.
+
+[StyleCop analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) are third-party analyzers installed as a NuGet package that check for style consistency in your code. In general, StyleCop rules let you set personal preferences for a code base without recommending one style over another.
 
 ## Analyzers versus static code analysis
 
