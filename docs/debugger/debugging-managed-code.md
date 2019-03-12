@@ -55,7 +55,8 @@ Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows
 
 ## Related Sections
 
-[IntelliTrace](../debugger/intellitrace.md)   Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Enterprise.
+[IntelliTrace](../debugger/intellitrace.md)
+Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Enterprise.
 
 [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)
 Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.
@@ -72,7 +73,7 @@ Discusses debugging .NET Framework applications and the configuration requiremen
 [Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
-[What's New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)
+[What's New for the Debugger](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)
 Description of new debugging features added in this release of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
 [Debugging Home Page](../debugger/debugger-feature-tour.md)
@@ -80,7 +81,7 @@ Provides links to the larger sections of the debugging documentation. Informatio
 
 ## See also
 
-[Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
-[Debugger Security](../debugger/debugger-security.md)
-[Debugging in Visual Studio](../debugger/index.md)
-[First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging in Visual Studio](../debugger/index.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
