@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Code style preferences
 
-Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Options set in this window are applicable to the local machine only.
+Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Options set in this window are applicable to your Visual Studio personalization account only, meaning they don't travel with your project or codebase.
 
 Each item in the list shows a preview of the preference when selected:
 
@@ -28,7 +28,7 @@ For each item, you can set the **Preference** and **Severity** values using the 
 
 ## EditorConfig files
 
-Code style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. EditorConfig files are associated with a codebase rather than a Visual Studio account. Settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
+Code style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
 ## Format Document command
 
