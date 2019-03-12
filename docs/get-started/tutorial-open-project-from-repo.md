@@ -4,6 +4,7 @@ description: "Learn how to open a project in a GitHub or Azure DevOps repository
 ms.custom: "get-started"
 ms.date: 03/13/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: tutorial
 author: TerryGLee
 ms.author: tglee
@@ -28,9 +29,19 @@ Here's how.
 
    The **Team Explorer - Connect** pane opens.
 
-1. In the **Local Git Repositories** section, choose **Clone**. Then, in the box that says ***Enter the URL of a Git repo to clone***, type enter or paste the URL for your repo.
+1. In the **Local Git Repositories** section, choose **Clone**. 
 
-1. After you clone your repo, a message appears in the Solution Explorer that says, ***Click on Solutions and Folders above to view a list of Solutions***. In that message, the words "Solutions and Folders" are linked. Click to select **Solutions and Folders**.
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo.
+
+1. After you clone your repo, Team Explorer closes and Solution Explorer opens. A message appears that says ***Click on Solutions and Folders above to view a list of Solutions***. In that message, the text "Solutions and Folders" is linked. Click to select **Solutions and Folders**.
+
+   If you choose the folder for your repo, nothing happens because the folder structure is already displayed.
+
+   If you have a solution file available and you want to open it, choose it here. Visual Studio opens the solution.
+
+  To view the code, choose **Program.cs**
+
+1. If a solution file is or a solution file. (In the following example, you could choose either )
 
 1. Then, in the **Solutions** section of the **Home|vs-tutorials-sample** window, 
 
@@ -56,12 +67,14 @@ Here's an example of what it looks like when you open a project from GitHub in V
 
 If you're ready to code with Visual Studio, dive into any of the following language-specific tutorial sets:
 
-- [Visual Studio tutorials | C#](./csharp/index.yml)
-- [Visual Studio tutorials | Visual Basic](./visual-basic/index.yml)
-- [Visual Studio | C++](/cpp/get-started/)
-- [Visual Studio tutorials | Python](/visualstudio/python/)
-- [Visual Studio tutorials | JavaScript, TypeScript, Node.js](/visualstudio/javascript/)
+- [Visual Studio tutorials | **C#**](./csharp/index.yml)
+- [Visual Studio tutorials | **Visual Basic**](./visual-basic/index.yml)
+- [Visual Studio tutorials | **C++**](/cpp/get-started/)
+- [Visual Studio tutorials | **Python**](/visualstudio/python/)
+- [Visual Studio tutorials | **JavaScript**, **TypeScript**, **Node.js**](/visualstudio/javascript/)
 
 ## See also
 
-- [Visual Studio tutorials | C#](index.yml)
+- [Visual Studio: Connect to projects by using Team Explorer](./ide/connect-team-project)
+- [Azure DevOps Services: Connect to a project in Azure DevOps](/azure/devops/organizations/projects/connect-to-projects/)
+- [Azure DevOps Services: Connect Azure Boards to GitHub](/azure/devops/boards/github/connect-to-github/)
