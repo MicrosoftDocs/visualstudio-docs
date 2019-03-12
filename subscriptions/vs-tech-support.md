@@ -112,7 +112,7 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
+<sup>1</sup> *Includes: Imagine Premium, BizSpark. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
 
 <sup>2</sup> *Includes: Imagine Standard.*
 
