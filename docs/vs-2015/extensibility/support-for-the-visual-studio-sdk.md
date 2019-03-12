@@ -53,7 +53,7 @@ Several support options are available for customers who have questions about how
  Customers who want to use the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Partner Advantage Support](http://www.microsoft.com/services/microsoftservices/srv_mspa.mspx) may be an attractive alternative to a traditional Premier Support offering.  
   
 > [!NOTE]
->  Standard support cannot be used for consultation or to obtain advice.  
+> Standard support cannot be used for consultation or to obtain advice.  
   
  Questions about Premier Support offerings in conjunction with the VSIP program can be sent to [vsipsvs@microsoft.com](mailto:vsipsvs@microsoft.com). Questions about the new Partner Advantage program can be sent to [advantg@microsoft.com](mailto:advantg@microsoft.com).  
   

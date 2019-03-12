@@ -64,7 +64,7 @@ You can create a build environment within your organization by installing Visual
   
 -   A licensed copy of Visual Studio Ultimate, Visual Studio Premium, or Visual Studio Professional  
   
--   A copy of the .NET Framework 4.5.1, which you can download from the [Visual Studio](http://www.microsoft.com/visualstudio/eng/downloads#d-additional-software) website.  
+-   A copy of the .NET Framework 4.5.1, which you can download from the [Microsoft](https://www.microsoft.com/download/details.aspx?id=40779) website.  
   
 ##  <a name="InstallingSoftware"></a> Installing software on the computers  
  First, set up the host computer and then set up the build computer.  
