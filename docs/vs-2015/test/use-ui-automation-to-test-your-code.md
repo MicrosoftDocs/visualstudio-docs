@@ -291,7 +291,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 -   **Code Editor:**
 
-    -   Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#VerifyingCodeCUITActionsandProperties) section in this topic.
+    -   Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#actions) section in this topic.
 
     -   After you create a coded UI test, you can modify it to be data-driven. For more information, see [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md).
 

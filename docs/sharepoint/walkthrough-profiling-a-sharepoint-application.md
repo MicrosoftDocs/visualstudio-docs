@@ -21,13 +21,13 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- [Adding a Feature and Feature Event Receiver](#BKMK_AddFtrandFtrEvntReceiver).
+- [Addg a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
 
-- [Configuring and Deploying the SharePoint Application](#BKMK_ConfigSharePointApp).
+- [Configure and Deploy the SharePoint application](#configure-and-deploy-the-sharepoint-application).
 
-- [Running the SharePoint Application](#BKMK_RunSPApp).
+- [Run the SharePoint Application](#run-the-sharepoint-application).
 
-- [Viewing and Interpreting the Profiling Results](#BKMK_ViewResults).
+- [View and interpret the profile results](#view-and-interpret-the-profile-results).
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
@@ -226,10 +226,10 @@ ms.workload:
 
      After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project's folder.
 
-## View and interpret the Profile results
+## View and interpret the profile results
  Now that you have run and profiled the SharePoint application, view the test results.
 
-### To view and interpret the Profile results
+### To view and interpret the profile results
 
 1.  In the **Functions Doing the Most Individual Work** section of the Sample Profiling Report, notice that `TimeCounter` is near the top of the list.
 

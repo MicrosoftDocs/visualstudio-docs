@@ -42,7 +42,7 @@ Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/r
 You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
    > [!IMPORTANT]
-   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
+   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
    >
    > [!TIP]
    > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
