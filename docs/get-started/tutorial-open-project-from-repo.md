@@ -33,21 +33,21 @@ Here's how.
 
 1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo.
 
-1. After you clone your repo, Team Explorer closes and Solution Explorer opens. A message appears that says ***Click on Solutions and Folders above to view a list of Solutions***. In that message, the text "Solutions and Folders" is linked. Click to select **Solutions and Folders**.
+1. After you clone your repo, Team Explorer closes and Solution Explorer opens. A message appears that says ***Click on Solutions and Folders above to view a list of Solutions***. Click to select **Solutions and Folders** in that message.
 
    If you choose the folder for your repo, nothing happens because the folder structure is already displayed.
 
-   If you have a solution file available and you want to open it, choose it here. Visual Studio opens the solution.
+   If you have a solution file available, it will appear here. Click to select it. Visual Studio opens the solution.
 
   To view the code, choose **Program.cs**
 
-1. If a solution file is or a solution file. (In the following example, you could choose either )
+1. 
 
-1. Then, in the **Solutions** section of the **Home|vs-tutorials-sample** window, 
+1. 
 
 ### Review your work
 
-Here's an example of what it looks like when you open a project from GitHub in Visual Studio 2017:
+View the following animation to see an example of what it looks like when you open a project from GitHub in Visual Studio 2017:
 
    ![Animation of opening a project in GitHub within the Visual Studio IDE](./media/open-project-from-github.gif)
 
@@ -59,7 +59,9 @@ Here's an example of what it looks like when you open a project from GitHub in V
 
    The **Team Explorer - Connect** pane opens.
 
-1. 
+1. In the **Hosted Service Providers** section, choose **Connect...**. 
+
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo.
 
 
 
