@@ -24,7 +24,7 @@ manager: jillfra
 
 -   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
 
--   [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754)
+-   [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)
 
 ##  <a name="provide"></a> Providing Access to a DSL
  Before you can create ModelBus references to a model or its elements, you must define a ModelBusAdapter for the DSL. The easiest way to do this is to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Bus Extension, which adds commands to the DSL Designer.

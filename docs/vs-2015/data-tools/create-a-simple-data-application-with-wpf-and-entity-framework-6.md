@@ -21,7 +21,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Install and connect to Northwind  
  This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well if the ADO.NET data provider for that product supports Entity Framework.  
   
-1.  If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/server-cloud/Products/sql-server-editions/sql-server-express.aspx).  
+1.  If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/sql-server/sql-server-editions-express).  
   
 2.  Install the Northwind sample database by following the instructions here: [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   

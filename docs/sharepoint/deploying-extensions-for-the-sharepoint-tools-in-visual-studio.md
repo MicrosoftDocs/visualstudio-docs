@@ -17,9 +17,9 @@ ms.workload:
 
 To deploy a SharePoint tools extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package that contains the extension assembly and any other files that you want to distribute with the extension. A VSIX package is a compressed file that follows the Open Packaging Conventions (OPC) standard. VSIX packages have the *.vsix* extension.
 
-After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.
+After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.
 
-For more information about creating VSIX packages and deploying them to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847), see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
+For more information about creating VSIX packages and deploying them to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
 
  You can create a VSIX package by using the **VSIX Project** template in Visual Studio, or you can create a VSIX package manually.
 

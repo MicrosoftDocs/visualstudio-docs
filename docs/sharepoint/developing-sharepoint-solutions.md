@@ -19,7 +19,7 @@ ms.workload:
 # Develop SharePoint solutions
   Several SharePoint project type templates are available in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
 
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 ## Elements of a SharePoint project
  The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] configuration files, .aspx forms, and more.

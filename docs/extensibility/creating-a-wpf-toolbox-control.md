@@ -91,4 +91,4 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. Upload the *.vsix* file to a network or to a Web site.
 
-    If you upload the file to the [Visual Studio gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, other users can use **Tools** > **Extensions and Updates** in Visual Studio to find the control online and install it.
+    If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Tools** > **Extensions and Updates** in Visual Studio to find the control online and install it.

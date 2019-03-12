@@ -1,6 +1,6 @@
 ---
 title: "CA2226: Operators should have symmetrical overloads"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "OperatorsShouldHaveSymmetricalOverloads"
@@ -25,26 +25,39 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A type implements the equality or inequality operator and does not implement the opposite operator.
+
+A type implements the equality or inequality operator and does not implement the opposite operator.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
- There are no circumstances where either equality or inequality is applicable to instances of a type, and the opposite operator is undefined. Types typically implement the inequality operator by returning the negated value of the equality operator.
 
- The C# compiler issues an error for violations of this rule.
+There are no circumstances where either equality or inequality is applicable to instances of a type, and the opposite operator is undefined. Types typically implement the inequality operator by returning the negated value of the equality operator.
+
+The C# compiler issues an error for violations of this rule.
 
 ## How to fix violations
- To fix a violation of this rule, implement both the equality and inequality operators, or remove the one that is present.
+
+To fix a violation of this rule, implement both the equality and inequality operators, or remove the one that's present.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. Your type will not work in a manner that is consistent with the .NET Framework.
+
+Do not suppress a warning from this rule. If you do, your type will not work in a manner that's consistent with .NET.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca2226.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Usage). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Related rules
- [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)
 
- [CA2225: Operator overloads have named alternates](../code-quality/ca2225-operator-overloads-have-named-alternates.md)
-
- [CA2224: Override equals on overloading operator equals](../code-quality/ca2224-override-equals-on-overloading-operator-equals.md)
-
- [CA2218: Override GetHashCode on overriding Equals](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)
-
- [CA2231: Overload operator equals on overriding ValueType.Equals](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)
+- [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)
+- [CA2225: Operator overloads have named alternates](../code-quality/ca2225-operator-overloads-have-named-alternates.md)
+- [CA2224: Override equals on overloading operator equals](../code-quality/ca2224-override-equals-on-overloading-operator-equals.md)
+- [CA2218: Override GetHashCode on overriding Equals](../code-quality/ca2218-override-gethashcode-on-overriding-equals.md)
+- [CA2231: Overload operator equals on overriding ValueType.Equals](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)

@@ -1,6 +1,6 @@
 ---
 title: "CA1063: Implement IDisposable correctly"
-ms.date: 02/12/2018
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "ImplementIDisposableCorrectly"
@@ -46,7 +46,9 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 Violation of any one of these patterns triggers warning CA1063.
 
-Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true), and the finalizer should call Dispose(false). If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define Dispose(bool) and call it. For more information, see [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged) and [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern).
+Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own `protected virtual void Dispose(bool)` method. `Dispose()` should call `Dipose(true)`, and the finalizer should call `Dispose(false)`. If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define `Dispose(bool)` and call it. For more information, see [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged) and [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern).
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -77,6 +79,16 @@ Examine your code and determine which of the following resolutions will fix this
 ## When to suppress warnings
 
 Do not suppress a warning from this rule.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1063.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Design). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Pseudo-code example
 

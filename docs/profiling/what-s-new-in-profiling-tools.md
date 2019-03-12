@@ -16,9 +16,9 @@ ms.workload:
 
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.
 
-For additional information, see the [Release notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes#debuggingdiag).
+For additional information, see the [Release notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes).
 
-A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application insights](/azure/azure-monitor/app/visual-studio) or [UI analysis](/visualstudio/releasenotes/vs2017-relnotes#UIAnalysis) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
+A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application insights](/azure/azure-monitor/app/visual-studio) or [UI analysis](/visualstudio/releasenotes/vs2017-relnotes) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
 
 ![Diagnostics Tools Summary tab](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
 

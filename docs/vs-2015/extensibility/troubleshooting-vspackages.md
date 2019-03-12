@@ -37,7 +37,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
 3.  Check your VSPackage registry entries.  
   
-     For more information, see [Registering VSPackages](http://msdn.microsoft.com/31e6050f-1457-4849-944a-a3c36b76f3dd) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
+     For more information, see [Registering VSPackages](internals/registering-vspackages.md) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
   
 4.  Open the **Output** window of the instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that is failing to load the VSPackage. Information about why the VSPackage is failing to load may be displayed in that window.  
   
