@@ -20,7 +20,7 @@ ms.workload:
 
 ### To install the stand-alone profiler
 
-1. Download the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio-2017).
+1. Download the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/?q=performance+tools#performance-tools-for-visual-studio).
 
 1. Locate the stand-alone profile installer (*vs_standaloneprofiler.exe*) where you downloaded the performance tools and run it.
 
