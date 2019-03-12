@@ -92,7 +92,7 @@ Formatting options (including turning off formatting) are set through **Tools** 
 
 ## Inserting Roxygen comments
 
-RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
+RTVS provides a shortcut for generating [Roxygen](https://cran.r-project.org/web/packages/roxygen2/index.html) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
 
 ![Animation of inserting a Roxygen comment](media/editing-roxygen-comments.gif)
 

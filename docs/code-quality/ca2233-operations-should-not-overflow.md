@@ -43,7 +43,7 @@ To fix a violation of this rule, validate the operands before you perform the op
 
 It is safe to suppress a warning from this rule if the possible values of the operands will never cause the arithmetic operation to overflow.
 
-## Example of a Violation
+## Example of a violation
 
 A method in the following example manipulates an integer that violates this rule. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] requires the **Remove** integer overflow option to be disabled for this to fire.
 

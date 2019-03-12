@@ -34,7 +34,7 @@ By deploying an application, service, or component, you distribute it for instal
   
 |Deployment Scenario|Supporting Content|  
 |-------------------------|------------------------|  
-|**Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](http://msdn.microsoft.com/library/windowsazure/ee460772.aspx)|  
+|**Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](/visualstudio/deployment/quickstart-deploy-to-azure)|  
 |**Publish a Windows Store app:** You can easily build, submit, and sell your apps from the Windows Store to customers around the world.|[Packaging, deployment, and query of Windows Store apps](http://msdn.microsoft.com/library/hh446593\(v=vs.85\).aspx)|  
 |**Publish a Windows Phone app:** You can submit a new app or an update to an existing app for certification on the Windows Phone Dev Center.|[Publish a Windows Phone App](http://dev.windowsphone.com/publish)|  
 |**Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment)|  

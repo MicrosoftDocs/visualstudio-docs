@@ -57,7 +57,7 @@ Hyper-V requirements
 ## System requirements
  Your computer must meet the following requirements:
 
-- Hyper-V support (see [Hyper-V requirements](#HyperV))
+- Hyper-V support (see [Hyper-V requirements](#hyper-v-requirements))
 
 - 6 GB or more of RAM.
 

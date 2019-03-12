@@ -37,7 +37,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 |-|-|  
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
-|Modeling SDK for Visual Studio|[Download MSDK](http://www.microsoft.com/download/details.aspx?id=40754)|  
+|Modeling SDK for Visual Studio|[Download MSDK](https://www.microsoft.com/download/details.aspx?id=48148)|  
   
 ## Creating a DSL Solution  
  To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution by using the Domain-Specific Language project template.  
