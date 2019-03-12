@@ -19,6 +19,7 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # What's New for the Debugger in Visual Studio 2017
 
