@@ -41,9 +41,11 @@
           href: fxcop-analyzer-options.md
       - name: Migrate from static code analysis
         href: fxcop-analyzers.yml
+    - name: Analyzers FAQ
+      href: analyzers-faq.md
     - name: Install Roslyn analyzers
       href: install-roslyn-analyzers.md
-    - name: Configure and use Roslyn analyzers
+    - name: Use and configure Roslyn analyzers
       href: use-roslyn-analyzers.md
     - name: Enable automatic code analysis
       href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
