@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 ms.date: "01/15/2019"
-ms.technology: vs-nodejs
+ms.technology: vs-javascript
 ms.topic: conceptual
 dev_langs:
   - "JavaScript"
