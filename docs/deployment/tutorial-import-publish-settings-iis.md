@@ -15,7 +15,7 @@ ms.workload:
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for [Azure App Service](../deployment/tutorial-import-publish-settings-azure.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to IIS for each installation of Visual Studio.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. The steps correspond to Visual Studio 2017 version 15.6.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
 
 In this tutorial, you will:
 
