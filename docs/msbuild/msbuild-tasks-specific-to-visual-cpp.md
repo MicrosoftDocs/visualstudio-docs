@@ -21,7 +21,6 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 
  In addition to the parameters for each task, every task also has the following parameters.
 
-
 | Parameter | Description |
 |-------------------| - |
 | `Condition` | Optional `String` parameter.<br /><br /> A `Boolean` expression that the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine uses to determine whether this task will be executed. For information about the conditions that are supported by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Conditions](../msbuild/msbuild-conditions.md). |
@@ -34,10 +33,16 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[BscMake task](../msbuild/bscmake-task.md)|Wraps the Microsoft Browse Information Maintenance Utility tool (*bscmake.exe*).|
 |[CL task](../msbuild/cl-task.md)|Wraps the Visual C++ compiler tool (*cl.exe*).|
 |[CPPClean task](../msbuild/cppclean-task.md)|Deletes the temporary files that MSBuild creates when a Visual C++ project is built.|
+|[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the Visual C++ compiler tool (*clang.exe*).|
+|[CustomBuild task](../msbuild/custombuild-task.md)||
+|[FXC task](../msbuild/fxc-task.md)||
+|[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Helper task that reads old tlogs, writes new tlogs and returns set of items which are not up-to-date.|
+|[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Helper task to get output file name for cl and other tools, which allow specifying only output directory or full file name or nothing.|
 |[LIB task](../msbuild/lib-task.md)|Wraps the Microsoft 32-Bit Library Manager tool (*lib.exe*).|
 |[Link task](../msbuild/link-task.md)|Wraps the Visual C++ linker tool (*link.exe*).|
 |[MIDL task](../msbuild/midl-task.md)|Wraps the Microsoft Interface Definition Language (MIDL) compiler tool (*midl.exe*).|
 |[MT task](../msbuild/mt-task.md)|Wraps the Microsoft Manifest Tool (*mt.exe*).|
+|[MultiToolTask task](../msbuild/multitooltask-task.md)|invokes other vc tasks in parallel. Currently only works for tasks derived from TrackedVCToolTask.(helper task)|
 |[RC task](../msbuild/rc-task.md)|Wraps the Microsoft Windows Resource Compiler tool (*rc.exe*).|
 |[SetEnv task](../msbuild/setenv-task.md)|Sets or deletes the value of a specified environment variable.|
 |[VCMessage task](../msbuild/vcmessage-task.md)|Logs warning messages and error messages during a build. (Not extendable. Internal use only.)|
