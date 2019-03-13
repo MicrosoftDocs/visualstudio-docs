@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Open a project from a repo"
-description: "Learn how to open a project in a GitHub or Azure DevOps repository by using Visual Studio."
+description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio."
 ms.custom: "get-started"
 ms.date: 03/13/2019
 ms.technology: vs-ide-general
@@ -17,9 +17,10 @@ ms.workload:
 ---
 # Tutorial: Open a project from a repo
 
-In this tutorial, you'll use Visual Studio to open a solution from a repo in either GitHub or Azure DevOps.
+In this tutorial, you'll use Visual Studio to connect to a Git or Azure DevOps repository and then open a project.
 
-Here's how.
+> [!NOTE]
+> If you've already connected to a repository by using Visual Studio, the user interface (UI) might look different than what appears in this tutorial.
 
 ## Open a project from GitHub
 
@@ -29,27 +30,31 @@ Here's how.
 
    The **Team Explorer - Connect** pane opens.
 
-1. In the **Local Git Repositories** section, choose **Clone**. 
+    ![The Team Explorer window within the Visual Studio IDE](./media/open-proj-repo-team-explorer.png)
 
-1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo.
+1. In the **Local Git Repositories** section, choose **Clone**.
 
-1. After you clone your repo, Team Explorer closes and Solution Explorer opens. A message appears that says ***Click on Solutions and Folders above to view a list of Solutions***. Click to select **Solutions and Folders** in that message.
+    ![Choose Clone from the Local Git Repositories section](./media/open-proj-repo-local-git-repo-clone.png)
 
-   If you choose the folder for your repo, nothing happens because the folder structure is already displayed.
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to log in to your Git repo; if so, do so.)
 
-   If you have a solution file available, it will appear here. Click to select it. Visual Studio opens the solution.
+   After Visual Studio clones your repo, Team Explorer closes and Solution Explorer opens. A message appears that says *Click on Solutions and Folders above to view a list of Solutions*.
 
-  To view the code, choose **Program.cs**
+   ![Choose Solutions And Folders from the Solution Explorer](./media/open-proj-repo-github-solutions-folders.png)
 
-1. 
+1. Choose **Solutions and Folders**. Then, make your selection from the drop-down list that appears.
 
-1. 
+   ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png)
+
+   If you have a solution file available, it will appear here. Choose it, and Visual Studio opens your solution. (Alternatively, you can use the folder structure within Solution Explorer to navigate to and then open your solution file.)
+
+1. To view your code in the Visual Studio code editor, choose Choose **Program.cs**.
 
 ### Review your work
 
-View the following animation to see an example of what it looks like when you open a project from GitHub in Visual Studio 2017:
+View the following animation to see an example of what it looks like when you open a project from a GitHub repo in Visual Studio 2017:
 
-   ![Animation of opening a project in GitHub within the Visual Studio IDE](./media/open-project-from-github.gif)
+   ![Animation of opening a project in a GitHub repo by using Visual Studi](./media/open-project-from-github.gif)
 
 ## Open a project from Azure DevOps
 
@@ -59,15 +64,19 @@ View the following animation to see an example of what it looks like when you op
 
    The **Team Explorer - Connect** pane opens.
 
-1. In the **Hosted Service Providers** section, choose **Connect...**. 
+    ![The Team Explorer window within the Visual Studio IDE](./media/open-proj-repo-team-explorer.png)
+
+1. In the **Hosted Service Providers** section, choose **Connect...**.
+
+   If you are logged in to the account that you use 
 
 1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo.
 
-
+   Visual Studio opens your project.
 
 ## Next steps
 
-If you're ready to code with Visual Studio, dive into any of the following language-specific tutorial sets:
+If you're ready to code with Visual Studio, dive into any of the following language-specific tutorials:
 
 - [Visual Studio tutorials | **C#**](./csharp/index.yml)
 - [Visual Studio tutorials | **Visual Basic**](./visual-basic/index.yml)
