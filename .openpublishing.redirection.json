@@ -2417,12 +2417,12 @@
         },
         {
             "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xslt-debugger.md",
-            "redirect_url": "/visualstudio/vs-2015/xml-tools/debugging-xslt",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt?view=vs-2015",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xml-editor.md",
-            "redirect_url": "/visualstudio/vs-2015/xml-tools/xml-editor",
+            "redirect_url": "/visualstudio/xml-tools/xml-editor?view=vs-2015",
             "redirect_document_id": false
         },
         {
