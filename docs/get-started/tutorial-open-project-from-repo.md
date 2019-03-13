@@ -45,23 +45,23 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
     ![Choose Clone from the Local Git Repositories section](./media/open-proj-repo-local-git-repo-clone.png)
 
-1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to log in to your Git repo; if so, do so.)
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to sign in to your Git repo; if so, do so.)
 
    After Visual Studio clones your repo, Team Explorer closes and Solution Explorer opens. A message appears that says *Click on Solutions and Folders above to view a list of Solutions*. Choose **Solutions and Folders**.
 
-   ![Choose "Solutions snd Folders" from the Solution Explorer](./media/open-proj-repo-github-solutions-folders.png)
+   ![Choose "Solutions and Folders" from the Solution Explorer](./media/open-proj-repo-github-solutions-folders.png)
 
 1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png)
 
-   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ### Review your work
 
 View the following animation to check the work that you completed in the previous section.
 
-   ![Animation of opening a project in a GitHub repo by using Visual Studi](./media/open-project-from-github.gif)
+   ![Animation of opening a project in a GitHub repo by using Visual Studio](./media/open-project-from-github.gif)
 
 ## Open a project from an Azure DevOps repo
 
@@ -94,7 +94,7 @@ View the following animation to check the work that you completed in the previou
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
-   A solution file (specifically, an .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+   A solution file (specifically, a .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
   
