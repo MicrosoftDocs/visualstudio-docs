@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Tutorial: Open a project from a repo
 
-In this tutorial, you'll use Visual Studio to connect to a repository and then open a project.
+In this tutorial, you'll use Visual Studio to connect to a repository for the first time and then open a project from it.
 
 ::: moniker range="vs-2017"
 
@@ -31,7 +31,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-## Open a project from a Git repo
+## Open a project from a GitHub repo
 
 1. Open Visual Studio 2017.
 
@@ -57,9 +57,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
    If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
-### Open a project from a GitHub repo
+### Review your work
 
-You can use the same procedure as detailed in the previous section to open a project from GitHub. To see what it looks like to open a project in GitHub by using Visual Studio 2017, view the following animation.
+View the following animation to check the work that you completed in the previous section.
 
    ![Animation of opening a project in a GitHub repo by using Visual Studi](./media/open-project-from-github.gif)
 
