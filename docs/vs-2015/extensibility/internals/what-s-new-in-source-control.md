@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Source Control | Microsoft Docs"
+title: "What's New in Source Control"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "vs-ide-sdk"
@@ -12,7 +12,8 @@ caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
 ---
-# What&#39;s New in Source Control
+# What&#39;s New in Source Control in Visual Studio 2015
+
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 In [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  
