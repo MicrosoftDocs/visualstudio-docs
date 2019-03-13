@@ -24,7 +24,7 @@ This image shows Visual Studio with an open Python project and several key tool 
     - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
 
     ::: moniker range=">=vs-2019"
-    - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-pythong-visual-studio-open-folder.md).
+    - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
     ::: moniker-end
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).
