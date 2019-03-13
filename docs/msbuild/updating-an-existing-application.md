@@ -36,7 +36,7 @@ These instructions assume that you're using [PackageReference-style NuGet refere
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 
-The major and minor version of the MSBuild packages must be less than or equal to the minimum version of Visual Studio you wish to support. If you wish to support Visual Studio 2017 or later versions, reference package version `15.1.548`.
+The major and minor version of the MSBuild packages must be less than or equal to the minimum version of Visual Studio you wish to support. For example, if you wish to support Visual Studio 2017 and later versions, reference package version `15.1.548`.
 
 For example, you can use this XML:
 
