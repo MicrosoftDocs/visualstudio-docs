@@ -67,6 +67,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - private
 - protected
 - protected\_internal or protected_friend
+- private\_protected
 - local
 
 > [!NOTE]
