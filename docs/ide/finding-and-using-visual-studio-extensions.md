@@ -95,7 +95,7 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 - To disable automatic updates for all extensions, choose the **Change your settings for Extensions** link in the **Manage Extensions** dialog. In the **Options** dialog, uncheck **Automatically update extensions**.
 
-- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extensions and Updates** dialog.
+- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Manage Extensions** dialog.
 
 ::: moniker-end
 

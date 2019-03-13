@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Extensions, Options dialog box
+# Extensions, Environment, Options dialog box
 
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 
