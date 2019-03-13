@@ -11,7 +11,8 @@ monikerRange: ">=vs-2019"
 ---
 # What's new in MSBuild 16.0
 
-This article describes updated features and properties in MSBuild 16.0.
+This article describes updated features and properties in MSBuild 16.0. For the detailed release notes (draft only), see [
+MSBuild 16.0](https://gist.github.com/rainersigwald/009627466f03964d0028e16fda633d9c).
 
 ## Changed path
 
