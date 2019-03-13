@@ -19,9 +19,6 @@ ms.workload:
 
 In this tutorial, you'll use Visual Studio to connect to a repository and then open a project.
 
-> [!NOTE]
-> If you've already connected to a repository by using Visual Studio, the user interface (UI) might look different than what appears in this tutorial.
-
 ::: moniker range="vs-2017"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
@@ -97,9 +94,9 @@ You can use the same procedure as detailed in the previous section to open a pro
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
-   - If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+   A solution file (specifically, an .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
-   - If you do not have a solution file (specifically, an .sln file), the fly-out menu will say "No Solutions Found." However, if you have a code file that you want to open, such as a Program.cs file, choose it from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
   
 ## Next steps
 
@@ -113,5 +110,5 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 ## See also
 
-- [Azure DevOps Services: Get started with Azure repos and Visual Studio quickstart](/azure/devops/repos/git/gitquickstart/)
-- [Microsoft Learn: Get started with Azure DevOps tutorial](/learn/modules/get-started-with-devops/)
+- [Azure DevOps Services: Get started with Azure repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+- [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
