@@ -81,7 +81,7 @@ To start debugging, set an initial breakpoint in your code, then right-click the
 
 ![Debugging a test](media/unit-test-debugging.png)
 
-You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of Visual Studio (see the [Features matrix](overview-of-python-tools-for-visual-studio.md#features-matrix)).
+You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands.
 
 ### Known issues
 
