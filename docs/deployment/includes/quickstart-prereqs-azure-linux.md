@@ -1,12 +1,14 @@
 ## Prerequisites
 
 ::: moniker range=">=vs-2019"
+
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) installed with the appropriate workloads for your language of choice:
+  * ASP.NET: **ASP.NET and web development**
 ::: moniker-end
 ::: moniker range="vs-2017"
 * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) installed with the appropriate workloads for your language of choice:
-::: moniker-end
   * ASP.NET: **ASP.NET and web development**
+::: moniker-end
 
 * An Azure subscription. If you do not already have subscription, [sign up for free](https://azure.microsoft.com/free/dotnet/), which includes $200 in credit for 30 days and 12 months of popular free services.
 
