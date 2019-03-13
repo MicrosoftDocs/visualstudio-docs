@@ -55,7 +55,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
    ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png)
 
-   If you do not have a solution file (specifically, an .sln file), the fly-out menu will say "No Solutions Found." However, if you have a code file that you want to open, such as a Program.cs file, choose it from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ### Open a project from a GitHub repo
 
@@ -96,7 +96,7 @@ You can use the same procedure as detailed in the previous section to open a pro
 
    A solution file (specifically, an .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
-   If you do not have a solution file, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
   
 ## Next steps
 
