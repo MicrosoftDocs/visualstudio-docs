@@ -1,5 +1,6 @@
 ---
-title: "What's New in Profiling | Microsoft Docs"
+title: "What's New in Profiling in Visual Studio 2017 | Microsoft Docs"
+titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -11,6 +12,7 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # What's new in profiling tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
