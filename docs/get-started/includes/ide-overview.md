@@ -230,7 +230,7 @@ Let's dive in and create a simple program.
 
 1. Choose **Create a new project**.
 
-   ![Visual Studio Start window create a new project](../media/vs-2019/start-window.png)
+   ![Visual Studio Start window create a new project](../media/vs-2019/start-window-create-new-project.png)
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
 
