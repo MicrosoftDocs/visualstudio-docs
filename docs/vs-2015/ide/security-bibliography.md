@@ -18,7 +18,7 @@ manager: jillfra
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  
   
 ## Microsoft Web sites  
- [Microsoft Security](http://go.microsoft.com/fwlink/?LinkId=55529)  
+ [Microsoft Security](https://www.microsoft.com/security)  
  Learn how Microsoft is working to help you keep your applications and systems secure, from the desktop to network-level systems, with links to security resources for IT professionals, developers, and home users.  
   
  [Security Resources on MSDN](https://www.microsoft.com/msrc?rtc=1)  

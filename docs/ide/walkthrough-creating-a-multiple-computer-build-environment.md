@@ -258,7 +258,7 @@ This table describes the supported arguments for *vcvarsall.bat*:
 |x86_amd64|x64 Cross|x86, x64|x64|
 |amd64|x64 Native|x64|x64|
 
-If *vcvarsall.bat* runs successfully—that is, no error message is displayed—you can skip the next step and continue at the [Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC) section of this document.
+If *vcvarsall.bat* runs successfully—that is, no error message is displayed—you can skip the next step and continue at the [Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](#install-msbuild-assemblies-to-the-global-assembly-cache-gac-on-the-build-computer) section of this document.
 
 ### Manually set environment variables
 
