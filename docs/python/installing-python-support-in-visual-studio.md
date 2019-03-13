@@ -29,7 +29,7 @@ To quickly test Python support after following the installation steps, open the 
 > Python support is not presently available in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
 <a name="visual-studio-2017"></a>
-## Visual Studio 2017 and Visual Studio 2019
+## Visual Studio 2017and Visual Studio 2017
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
@@ -56,7 +56,13 @@ To quickly test Python support after following the installation steps, open the 
 
 1. On the right side of the installer, chose additional options if desired. Skip this step to accept the default options.
 
+    ::: moniker range="vs-2017"
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)
+    ::: moniker-end
+
+    ::: moniker range=">=vs-2019"
+    ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
+    ::: moniker-end
 
     | Option | Description |
     | --- | --- |

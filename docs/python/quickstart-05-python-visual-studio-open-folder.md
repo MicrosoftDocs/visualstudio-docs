@@ -20,11 +20,11 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
 > [!Note]
 > Visual Studio 2017 and earlier required you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
 
-1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the https://github.com/gregmalcolm/python_koans repository to a folder on your computer (using the command, `git clone https://github.com/gregmalcolm/python_koans`.)
+1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
 1. Launch Visual Studio 2019 and on the start screen, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
 
-    ![The Visual Studio startup screen](media/quickstart-open-folder/01-continue-without-code.png)
+    ![The Visual Studio startup screen](media/quickstart-open-folder/01-open-local-folder.png)
 
 1. Navigate to the folder containing your Python code, then choose **Select Folder**. If you're using the python_koans code, make sure to select the `python3` folder within the clone folder.
 
@@ -36,8 +36,6 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
 
 1. When opening a Python folder, Visual Studio creates several hidden folders to manage settings related to the project. To see these folders (and any other hidden files and folders, such as the *.git* folder), select the **Show All Files** toolbar button:
 
-    ![Show All Items toolbar button in Solution Explorer](media/quickstart-open-folder/04-show-all-items-toolbar-button.png)
-
     ![A view of hidden folders in Solution Explorer](media/quickstart-open-folder/05-view-hidden-folders.png)
 
 1. To run the code, you first need to identify the startup or primary program file. In the example shown here, the startup file *contemplate-koans.py*. Right-click that file and select **Set as Startup Item**.
@@ -45,7 +43,7 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
     ![Setting a startup item in Solution Explorer](media/quickstart-open-folder/06-set-as-startup-item-command.png)
 
     > [!Important]
-    > If your startup item is not located in the root of the folder you opened, you must also add a line to the launch configuration JSON file as described in the section [Set a working directory](#set-a-working-directory).
+    > If your startup item is not located in the root of the folder you opened, you must also add a line to the launch configuration JSON file as described in the section, [Set a working directory](#set-a-working-directory).
 
 1. Run the code by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging**. You can also select the toolbar button that shows the startup item with a play button, which runs code in the Visual Studio debugger. In all cases, Visual Studio detects that your startup item is a Python file, so it automatically runs the code in the default Python environment. (That environment is shown to the right of the startup item on the toolbar.)
 
