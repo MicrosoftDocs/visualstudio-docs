@@ -1,6 +1,6 @@
 ---
 title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
-ms.date: "06/27/2018"
+ms.date: "03/10/2019"
 ms.topic: "reference"
 dev_langs:
   - "VB"
@@ -34,8 +34,8 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[CL task](../msbuild/cl-task.md)|Wraps the Visual C++ compiler tool (*cl.exe*).|
 |[CPPClean task](../msbuild/cppclean-task.md)|Deletes the temporary files that MSBuild creates when a Visual C++ project is built.|
 |[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the Visual C++ compiler tool (*clang.exe*).|
-|[CustomBuild task](../msbuild/custombuild-task.md)||
-|[FXC task](../msbuild/fxc-task.md)||
+|[CustomBuild task](../msbuild/custombuild-task.md)|Wraps the Visual C++ compiler tool (*cmd.exe*).|
+|[FXC task](../msbuild/fxc-task.md)|Use HLSL shader compilers in the build process.|
 |[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Helper task that reads old tlogs, writes new tlogs and returns set of items which are not up-to-date.|
 |[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Helper task to get output file name for cl and other tools, which allow specifying only output directory or full file name or nothing.|
 |[LIB task](../msbuild/lib-task.md)|Wraps the Microsoft 32-Bit Library Manager tool (*lib.exe*).|
@@ -45,7 +45,9 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[MultiToolTask task](../msbuild/multitooltask-task.md)|invokes other vc tasks in parallel. Currently only works for tasks derived from TrackedVCToolTask.(helper task)|
 |[RC task](../msbuild/rc-task.md)|Wraps the Microsoft Windows Resource Compiler tool (*rc.exe*).|
 |[SetEnv task](../msbuild/setenv-task.md)|Sets or deletes the value of a specified environment variable.|
+|[TrackedVCToolTask base class](../msbuild/trackedvctooltask-base-class.md)|Inherits from [VCToolTask](../msbuild/vctooltask-base-class.md).|
 |[VCMessage task](../msbuild/vcmessage-task.md)|Logs warning messages and error messages during a build. (Not extendable. Internal use only.)|
+|[VCToolTask base class](../msbuild/vctooltask-base-class.md)|Inherits from [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask).|
 |[XDCMake task](../msbuild/xdcmake-task.md)|Wraps the XML Documentation tool (*xdcmake.exe*), which merges XML document comment (*.xdc*) files into an *.xml* file.|
 |[XSD task](../msbuild/xsd-task.md)|Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source. *See note below.*|
 |[MSBuild reference](../msbuild/msbuild-reference.md)|Describes the elements of the MSBuild system.|

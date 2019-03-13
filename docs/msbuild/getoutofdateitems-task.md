@@ -1,9 +1,9 @@
 ---
-title: "CPPClean Task | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "GetOutOfDateItems Task | Microsoft Docs"
+ms.date: "03/10/2019"
 ms.topic: "reference"
 f1_keywords:
-  - "vc.task.cppclean"
+  - "vc.task.getoutofdateitems"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,28 +11,46 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), CPPClean task"
-  - "CPPClean task (MSBuild (Visual C++))"
+  - "MSBuild (Visual C++), GetOutOfDateItems task"
+  - "GetOutOfDateItems task (MSBuild (Visual C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: mikeblome
+ms.author: Michael.Blome
 ms.workload:
   - "multiple"
 ---
-# CPPClean Task
-Deletes the temporary files that MSBuild creates when a Visual C++ project is built. The process of deleting build files is known as *cleaning*.
+# GetOutOfDateItems task
 
-## Parameters
- The following table describes the parameters of the **CPPClean** task.
+Helper task that reads old tlogs, writes new tlogs and returns set of items which are not up-to-date.
 
-|Parameter|Description|
+## Methods
+
+The following tables describe the methods of the **GetOutOfDateItems** task.
+
+### Public
+
+All methods as `public`:
+
+|Method|Description (Return Value)|
 |---------------|-----------------|
-|**DeletedFiles**|Optional `ITaskItem[]` output parameter.<br /><br /> Defines an array of MSBuild output file items that can be consumed and emitted by tasks.|
-|**DoDelete**|Optional **Boolean** parameter.<br /><br /> If `true`, clean temporary build files.|
-|**FilePatternsToDeleteOnClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of file extensions of files to clean.|
-|**FilesExcludedFromClean**|Optional `String` parameter.<br /><br /> Specifies a semicolon-delimited list of files not to clean.|
-|**FoldersToClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of directories to clean. You can specify a full or a relative path, and the path can contain the wildcard symbol (*).|
+|**CheckForInterdependencies**|(**bool**)|
+|**CommandMetadataName**|(**string**)|
+|**DependenciesMetadataName**|(**string**)|
+|**HasInterdependencies**|*output* (**bool**)|
+|**OutOfDateSources**|*output* (**ITaskItem[]**)|
+|**OutputsMetadataName**|*required* (**string**)|
+|**Sources**|(**ITaskItem[]**)|
+|**TLogDirectory**|*required* (**string**)|
+|**TLogNamePrefix**|*required* (**string**)|
+
+#### Public Override
+
+All methods as `public override`:
+
+|Method|Description (Return Value)|
+|---------------|-----------------|
+|**Execute**|(**bool**)|
 
 ## See also
-- [Task reference](../msbuild/msbuild-task-reference.md)
+
+[Task reference](../msbuild/msbuild-task-reference.md)
