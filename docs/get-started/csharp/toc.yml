@@ -26,7 +26,7 @@
     expanded: true
     items:
     - name: Open a project from a repo
-      href: ./tutorial-open-project-from-repo.md
+      href: ../tutorial-open-project-from-repo.md
     - name: Write and edit code
       href: tutorial-editor.md
     - name: Compile and build
