@@ -29,7 +29,19 @@ This article assumes you're already familiar with C#. If you aren't, we suggest 
 
 Start by creating a new file and adding some code to it.
 
-1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File**.
+::: moniker range="vs-2017"
+
+1. Open Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio. Press **Esc** or click **Continue without code** on the Start window to open the development environment.
+
+::: moniker-end
+
+1. From the **File** menu on the menu bar, choose **New** > **File**.
 
 1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 

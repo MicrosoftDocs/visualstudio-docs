@@ -29,28 +29,38 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 ## Create a project to test
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio.
 
 2. On the **File** menu, select **New** > **Project**.
 
    The **New Project** dialog box appears.
 
-3. Under **Installed Templates**, click **Visual C#**.
+::: moniker-end
 
-4. In the list of application types, click **Class Library**.
+::: moniker range=">=vs-2019"
 
-5. In the **Name** box, type **Bank** and then click **OK**.
+1. Open Visual Studio.
 
-   The new Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+2. On the Start window, choose **Create a new project**.
+
+::: moniker-end
+
+3. Choose the C# Class Library project template.
+
+4. Name the project **Bank**, and then click **OK** or **Create**.
+
+   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
 
    > [!NOTE]
    > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
 
-6. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
+5. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
 
-7. Save the file as *BankAccount.cs*.
+6. Save the file as *BankAccount.cs*.
 
-8. On the **Build** menu, click **Build Solution**.
+7. On the **Build** menu, click **Build Solution**.
 
 You now have a project named Bank. It contains source code to test and tools to test it with. The namespace for Bank, BankAccountNS, contains the public class BankAccount, whose methods you'll test in the following procedures.
 

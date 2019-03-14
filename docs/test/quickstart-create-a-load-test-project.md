@@ -36,17 +36,35 @@ If you don't already have the web performance and load testing tools component i
 
 In this section, we'll create a C# load test project. You can also create a Visual Basic load test project, if you prefer.
 
-1. Open Visual Studio, and choose **File** > **New** > **Project** from the menu bar.
+::: moniker range="vs-2017"
+
+1. Open Visual Studio.
+
+2. Choose **File** > **New** > **Project** from the menu bar.
 
    The **New Project** dialog box opens.
 
-1. In the **New Project** dialog box, expand **Installed** and **Visual C#**, and then select the **Test** category. Choose the **Web Performance and Load Test Project** template.
+3. In the **New Project** dialog box, expand **Installed** and **Visual C#**, and then select the **Test** category. Choose the **Web Performance and Load Test Project** template.
 
    ![Web performance and load test project template](media/web-perf-load-test-project-template.png)
 
-1. Enter a name for the project if you don't want to use the default name, and then choose **OK**.
+4. Enter a name for the project if you don't want to use the default name, and then choose **OK**.
 
-   Visual Studio creates the project, and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio.
+
+2. On the Start window, choose **Create a new project**.
+
+3. In the **Create a new project** dialog, type **web test** into the search box, and then select the **Web Performance and Load Test Project\[Deprecated]** template for C#. Choose **Next**.
+
+4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
+
+::: moniker-end
+
+   Visual Studio creates the project and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
 
 ## Add a load test to the project
 
