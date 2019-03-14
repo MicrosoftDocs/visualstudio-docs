@@ -44,12 +44,12 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 4. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
+   ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-2. Start Visual Studio, and on the **Start Window**, choose **Create a new project**.
+2. Start Visual Studio, and on the **Start** window, choose **Create a new project**.
 
 3. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 
