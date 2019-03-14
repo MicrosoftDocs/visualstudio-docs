@@ -110,5 +110,5 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 ## See also
 
-- [Azure DevOps Services: Get started with Azure repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+- [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
