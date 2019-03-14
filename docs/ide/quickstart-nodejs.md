@@ -37,7 +37,6 @@ First, you'll create an Node.js web application project.
 ::: moniker range="vs-2017"
 4. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.
 ::: moniker-end
-
 5. If you don't see the **Blank Node.js Web application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
