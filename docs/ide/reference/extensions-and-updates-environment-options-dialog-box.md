@@ -1,5 +1,5 @@
 ---
-title: Extensions and Updates, Environment, Options Dialog Box
+title: Extensions, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Extensions and Updates, Environment, Options Dialog Box
+# Extensions, Environment, Options dialog box
 
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 
@@ -29,7 +29,7 @@ For more information, see [Finding and Using Visual Studio Extensions](../../ide
 
 ## Additional Extension Galleries
 
-An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private Galleries](../../extensibility/private-galleries.md).
+An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private galleries](../../extensibility/private-galleries.md).
 
 ## See Also
 
