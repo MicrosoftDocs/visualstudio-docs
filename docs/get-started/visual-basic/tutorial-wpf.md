@@ -220,15 +220,11 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 #### Start debugging and find the error
 
-1. Start the debugger by selecting **Debug**, then **Start Debugging**.
+1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-     ![Start Debugging command on the Debug menu](../media/exploreide-startdebugging.png)
-
-     A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
-
-     ![Stop Debugging command on the Debug menu](../media/exploreide-stopdebugging.png)
 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
