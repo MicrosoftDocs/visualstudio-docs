@@ -38,9 +38,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
 
-Follow the appropriate steps in the next sections, depending on whether you are using a [Linux container](#linux-container) or a [Windows container](#windows-container).
-
-## Linux container
+## Deploy the container to Azure
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the publish target dialog, choose **App Service Linux**.
@@ -57,33 +55,6 @@ Follow the appropriate steps in the next sections, depending on whether you are 
 1. Choose **Create**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 
    ![Screenshot of publish tab](media/docker-deploy-app-service/publish-succeeded.PNG)
-
-1. Click on the site link to verify your app works as expected in Azure.
-
-   ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
-
-1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
-1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
-
-## Windows container
-
-1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, choose **App Service**, and **Create new**.
-
-   ![Screenshot of publish dialog](media/docker-deploy-app-service/publish-app-service-windows.png)
-
-1. If you want to deploy a build configuration other than **Release**, or customize your .NET Core deployment details (version, target architecture, or deployment mode), choose **Advanced**.
-
-   ![Screenshot of advanced settings](media/docker-deploy-app-service/advanced-settings.png)
-
-1. Choose **Publish**.
-1. Check that you're signed in with the account that's associated with your Azure subscription, and choose a unique name, the subscription, resource group, hosting plan, and container registry (if applicable), or accept the defaults.
-
-   ![Screenshot of publish settings](media/docker-deploy-app-service/publish-app-service-windows2.png)
-
-1. Choose **Create**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
-
-   ![Screenshot of publish tab](media/docker-deploy-app-service/publish-succeeded-windows.png)
 
 1. Click on the site link to verify your app works as expected in Azure.
 
