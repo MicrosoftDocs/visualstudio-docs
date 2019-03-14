@@ -1,6 +1,6 @@
 ---
 title: "Hello World extension tutorial | Microsoft Docs"
-ms.date: "07/10/2017"
+ms.date: "03/14/2019"
 ms.topic: "conceptual"
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
 author: "gregvanl"
