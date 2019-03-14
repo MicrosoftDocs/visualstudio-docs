@@ -13,7 +13,6 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (Visual C++), GetOutOfDateItems task"
   - "GetOutOfDateItems task (MSBuild (Visual C++))"
-ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 author: mikeblome
 ms.author: Michael.Blome
 ms.workload:
@@ -21,35 +20,23 @@ ms.workload:
 ---
 # GetOutOfDateItems task
 
-Helper task that reads old tlogs, writes new tlogs and returns set of items which are not up-to-date.
+Helper task that reads old tlogs, writes new tlogs, and returns set of items that are not up-to-date.
 
-## Methods
+## Parameters
 
-The following tables describe the methods of the **GetOutOfDateItems** task.
+The following tables describe the parameters of the **GetOutOfDateItems** task.
 
-### Public
-
-All methods as `public`:
-
-|Method|Description (Return Value)|
+|Parameter|Description|
 |---------------|-----------------|
-|**CheckForInterdependencies**|(**bool**)|
-|**CommandMetadataName**|(**string**)|
-|**DependenciesMetadataName**|(**string**)|
-|**HasInterdependencies**|*output* (**bool**)|
-|**OutOfDateSources**|*output* (**ITaskItem[]**)|
-|**OutputsMetadataName**|*required* (**string**)|
-|**Sources**|(**ITaskItem[]**)|
-|**TLogDirectory**|*required* (**string**)|
-|**TLogNamePrefix**|*required* (**string**)|
-
-#### Public Override
-
-All methods as `public override`:
-
-|Method|Description (Return Value)|
-|---------------|-----------------|
-|**Execute**|(**bool**)|
+|**CheckForInterdependencies**|Optional **bool** parameter.|
+|**CommandMetadataName**|Optional **string** parameter.|
+|**DependenciesMetadataName**|Optional **string** parameter.|
+|**HasInterdependencies**|Optional **bool** output parameter.|
+|**OutOfDateSources**|Optional **ITaskItem[]** output parameter.|
+|**OutputsMetadataName**|Required **string** parameter.|
+|**Sources**|Optional **ITaskItem[]** parameter.|
+|**TLogDirectory**|Required **string** parameter.|
+|**TLogNamePrefix**|Required **string** parameter.|
 
 ## See also
 

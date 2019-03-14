@@ -13,7 +13,6 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (Visual C++), GetOutputFileName task"
   - "GetOutputFileName task (MSBuild (Visual C++))"
-ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 author: mikeblome
 ms.author: Michael.Blome
 ms.workload:
@@ -23,28 +22,16 @@ ms.workload:
 
 Helper task to get output file name for cl and other tools, which allow specifying only output directory or full file name or nothing.
 
-## Methods
+## Parameters
 
-The following tables describe the methods of the **GetOutputFileName** task.
+The following tables describe the parameters of the **GetOutputFileName** task.
 
-### Public
-
-All methods as `public`:
-
-|Method|Description (Return Value)|
+|Parameter|Description|
 |---------------|-----------------|
-|**OutputExtension**|*required* (**string**)|
-|**OutputFile**|*output* (**string**)|
-|**OutputPath**|(**string**)|
-|**SourceFile**|*required* (**string**)|
-
-#### Public Override
-
-All methods as `public override`:
-
-|Method|Description (Return Value)|
-|---------------|-----------------|
-|**Execute**|(**bool**)|
+|**OutputExtension**|Required **string** parameter.|
+|**OutputFile**|Optional **string** output parameter.|
+|**OutputPath**|Optional **string** parameter.|
+|**SourceFile**|Required **string** parameter.|
 
 ## See also
 

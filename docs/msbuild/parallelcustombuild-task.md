@@ -13,7 +13,6 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (Visual C++), ParallelCustomBuild task"
   - "ParallelCustomBuild task (MSBuild (Visual C++))"
-ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 author: mikeblome
 ms.author: Michael.Blome
 ms.workload:
@@ -23,29 +22,16 @@ ms.workload:
 
 Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md).
 
-## Methods
+## Parameters
 
-The following tables describe the methods of the **ParallelCustomBuild** task.
+The following tables describe the parameters of the **ParallelCustomBuild** task.
 
-### Public
-
-All methods as `public`:
-
-|Method|Description (Return Value)|
+|Parameter|Description|
 |---------------|-----------------|
-|**BreakOnFirstFailure**|(**bool**)|
-|**Cancel**|(**void**)|
-|**MaxItemsInBatch**|(**int**)|
-|**MaxProcesses**|(**int**)|
-|**Sources**|*required* (**ITaskItem[]**)|
-
-#### Public Override
-
-All methods as `public override`:
-
-|Method|Description (Return Value)|
-|---------------|-----------------|
-|**Execute**|(**bool**)|
+|**BreakOnFirstFailure**|Optional **bool** parameter.|
+|**MaxItemsInBatch**|Optional **int** parameter.|
+|**MaxProcesses**|Optional **int** parameter.|
+|**Sources**|Required **ITaskItem[]** parameter.|
 
 ## See also
 
