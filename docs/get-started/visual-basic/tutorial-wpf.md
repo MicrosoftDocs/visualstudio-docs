@@ -2,7 +2,7 @@
 title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 10/03/2017
+ms.date: 03/14/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 dev_langs:
@@ -54,7 +54,7 @@ When you create an application in Visual Studio, you first create a project and 
      ::: moniker range="vs-2017"
      ![On the menu bar, choose File, New, Project](../media/exploreide-filenewproject.png)
      ::: moniker-end
-     ::: moniker range="vs-2017"
+     ::: moniker range=">=vs-2019"
      ![On the menu bar, choose File, New, Project](../media/vs-2019/exploreide-filenewproject-vs2019.png)
      ::: moniker-end
 
@@ -294,7 +294,7 @@ Now that you've verified that everything works, you can prepare a release build 
 
      ![Build Solution command on the Build menu](../media/exploreide-buildsolution.png)
 
-Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
+Congratulations on completing this tutorial! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
 ## See also
 
