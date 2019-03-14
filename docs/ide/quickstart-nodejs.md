@@ -16,7 +16,14 @@ ms.workload:
 ---
 # Quickstart: Use Visual Studio to create your first Node.js app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application.
+
+::: moniker range=">=vs-2019"
+If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
+::: moniker range="vs-2017"
+If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+::: moniker-end
 
 ## Create a project
 
@@ -33,7 +40,6 @@ First, you'll create an Node.js web application project.
 ::: moniker range=">=vs-2019"
 4. In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web application**, and then choose **OK**.
 ::: moniker-end
-
 ::: moniker range="vs-2017"
 4. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.
 ::: moniker-end

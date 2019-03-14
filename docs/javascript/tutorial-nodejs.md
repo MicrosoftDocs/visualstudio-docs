@@ -42,11 +42,18 @@ Express is a web application framework, used as a server framework for Node.js t
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the Node.js development workload.
+::: moniker range=">=vs-2019"
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+* You must have Visual Studio 2019 installed and the Node.js development workload.
+::: moniker-end
+::: moniker range="vs-2017"
+* You must have Visual Studio 2019 installed and the Node.js development workload.
+::: moniker-end
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
