@@ -12,7 +12,16 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-# Tutorial: Create a Node.js and Express app in Visual Studio
+::: moniker range=">=vs-2019"
+
+# Tutorial: Create a Node.js and Express app in Visual Studio 2019
+
+::: moniker-end
+::: moniker range="vs-2017"
+
+# Tutorial: Create a Node.js and Express app in Visual Studio 2017
+
+::: moniker-end
 
 In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017).
 
@@ -42,14 +51,15 @@ Express is a web application framework, used as a server framework for Node.js t
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
+* You must have Visual Studio installed and the Node.js development workload.
+    ::: moniker range=">=vs-2019"
 
-* You must have Visual Studio 2019 installed and the Node.js development workload.
-::: moniker-end
-::: moniker range="vs-2017"
-* You must have Visual Studio 2019 installed and the Node.js development workload.
-::: moniker-end
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
