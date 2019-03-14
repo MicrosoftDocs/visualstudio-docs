@@ -60,7 +60,7 @@ First, you'll create a Vue.js web application project.
     ::: moniker range="vs-2017"
     In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Vue.js Web application**, then choose **OK**.
     ::: moniker-end
-    If you don't see the **Basic Vue.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
+    If you don't see the **Basic Vue.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     ![Vue.js template](../javascript/media/vuejs-template.png)
 

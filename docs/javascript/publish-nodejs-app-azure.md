@@ -66,7 +66,7 @@ In this tutorial, you learn how to:
 
     ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
     ::: moniker-end
-    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
+    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the project and opens it in Solution Explorer (right pane).
 
