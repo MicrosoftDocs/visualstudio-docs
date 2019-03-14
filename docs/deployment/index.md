@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: Deploy your apps | Microsoft Docs
-description: Learn how use Visual Studio 2017 to deploy applications, services, and components.
+description: Learn how use Visual Studio to deploy applications, services, and components.
 ms.custom: "seodec18"
 ms.topic: landing-page
 ms.author: "mikejo"

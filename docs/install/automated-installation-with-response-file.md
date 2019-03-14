@@ -93,4 +93,4 @@ The following example installs Visual Studio Enterprise with six common workload
 
 ## See also
 
-* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+* [Visual Studio workload and component IDs](workload-and-component-ids.md)
