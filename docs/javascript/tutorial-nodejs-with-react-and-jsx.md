@@ -51,11 +51,18 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the Node.js development workload.
+* You must have Visual Studio installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
 
-    If you need to install the workload but already have Visual Studio, select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
@@ -67,13 +74,19 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 First, create a Node.js web application project.
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
+1. Create a new project.
 
-     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload.
+    ::: moniker range=">=vs-2019"
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web Application**, and then choose **OK**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
+    ::: moniker-end
+    If you don't see the **Blank Node.js Web Application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
 
     Visual Studio creates the new solution and opens your project.
 

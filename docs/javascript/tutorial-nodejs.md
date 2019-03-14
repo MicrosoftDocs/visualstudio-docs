@@ -12,16 +12,7 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-::: moniker range=">=vs-2019"
-
-# Tutorial: Create a Node.js and Express app in Visual Studio 2019
-
-::: moniker-end
-::: moniker range="vs-2017"
-
-# Tutorial: Create a Node.js and Express app in Visual Studio 2017
-
-::: moniker-end
+# Tutorial: Create a Node.js and Express app in Visual Studio
 
 In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017).
 
@@ -52,10 +43,9 @@ Express is a web application framework, used as a server framework for Node.js t
 ## Prerequisites
 
 * You must have Visual Studio installed and the Node.js development workload.
+
     ::: moniker range=">=vs-2019"
-
     If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-
     ::: moniker-end
     ::: moniker range="vs-2017"
     If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
@@ -77,13 +67,19 @@ Visual Studio manages files for a single application in a *project*. The project
 
 In this tutorial, you begin with a simple project containing code for a Node.js and express app.
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application** and then choose **OK**.
+1. Create a new project.
 
-     If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first (see the Prerequisites for instructions).
+    ::: moniker range=">=vs-2019"
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Basic Azure Node.js Express 4 application**, and then choose **OK**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
+    ::: moniker-end
+    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
 
     Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
 

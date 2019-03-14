@@ -18,12 +18,24 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application.
 
-::: moniker range=">=vs-2019"
-If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-::: moniker-end
-::: moniker range="vs-2017"
-If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-::: moniker-end
+## Prerequisites
+
+* You must have Visual Studio installed and the Node.js development workload.
+
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+
+* You must have the Node.js runtime installed.
+
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 ## Create a project
 
@@ -33,19 +45,19 @@ First, you'll create an Node.js web application project.
 
     In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
-2. Open Visual Studio.
+1. Open Visual Studio.
 
-3. From the top menu bar, choose **File** > **New** > **Project**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
 
-::: moniker range=">=vs-2019"
-4. In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web application**, and then choose **OK**.
-::: moniker-end
-::: moniker range="vs-2017"
-4. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.
-::: moniker-end
-5. If you don't see the **Blank Node.js Web application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+1. Create a new project.
 
-     ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+    ::: moniker range=">=vs-2019"
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web application**, and then choose **OK**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.
+    ::: moniker-end
+    If you don't see the **Blank Node.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
 
     After you choose the **Blank Node.js Web Application** template and click **OK**, Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
 

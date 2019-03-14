@@ -31,15 +31,44 @@ In this tutorial, you learn how to:
 > * Create a Linux App Service on Azure
 > * Deploy to Linux
 
+## Prerequisites
+
+* You must have Visual Studio installed and the Node.js development workload.
+
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+
+* You must have the Node.js runtime installed.
+
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+
 ## Create a Node.js project to run in Azure
 
-1. Create a new TypeScript Express app using the **File** > **New Project** dialog box.
+1. Open Visual Studio.
 
-1. Under the **TypeScript** node, select **Basic Node.js Express 4 Application**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
+
+1. Create a new TypeScript Express app.
+
+    ::: moniker range=">=vs-2019"
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Basic Azure Node.js Express 4 application**, and then choose **OK**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
 
     ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
+    ::: moniker-end
+    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#Prerequisites).
 
-1. Click **OK** to create the project in Visual Studio.
+    Visual Studio creates the project and opens it in Solution Explorer (right pane).
 
 1. Press **F5** to build and run the app, and make sure that everything is running as expected.
 
