@@ -8,7 +8,7 @@ ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
 ---
 
-# Visual Studio 2017 for Mac Preview tour
+# Visual Studio 2017 for Mac tour
 
 > [!NOTE]
 > Visual Studio 2019 for Mac is [now available](installation.md) as a preview for testing.
