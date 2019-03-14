@@ -137,7 +137,7 @@ c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDe
 
 ## See also
 
-- [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md)
+- [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-- [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+- [Visual Studio workload and component IDs](workload-and-component-ids.md)

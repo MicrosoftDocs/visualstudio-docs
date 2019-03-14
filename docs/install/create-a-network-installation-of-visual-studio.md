@@ -203,7 +203,7 @@ We have other support options available, too. For a list, see our [Talk to us](.
 
 ## See also
 
-* [Update a network-based installation of Visual Studio 2017](update-a-network-installation-of-visual-studio.md)
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

@@ -41,7 +41,7 @@ You can deploy Visual Studio to client workstations as long as each target compu
 8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
 > [!IMPORTANT]
-> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio clients running in your organization.
 
 ## Use Visual Studio tools
 
@@ -68,8 +68,8 @@ For more information about customer feedback settings, see the [Visual Studio Cu
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
   * [Workload and Component ID reference](workload-and-component-ids.md)
 * [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)

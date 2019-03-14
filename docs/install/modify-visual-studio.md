@@ -63,6 +63,6 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)

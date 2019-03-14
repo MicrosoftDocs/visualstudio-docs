@@ -76,7 +76,7 @@ You can check for an update and then install the update from the menu bar in Vis
 
 ### Use the Visual Studio Installer
 
-As in earlier versions of Visual Studio 2017, you can use the Visual Studio Installer to install an update.
+As in earlier versions of Visual Studio, you can use the Visual Studio Installer to install an update.
 
 1. Save your work.
 
@@ -144,14 +144,14 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
    Choose the **Update** button to install the updates.
 
-     ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
+     ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio by using the Visual Studio Installer")
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Modify Visual Studio 2017](modify-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Modify Visual Studio](modify-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
 
 ::: moniker-end

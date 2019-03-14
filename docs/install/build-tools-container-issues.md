@@ -46,4 +46,4 @@ The following known issues might occur when you use a Build Tools container. To 
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Advanced Example for Containers](advanced-build-tools-container.md)
-* [Visual Studio Build Tools 2017 workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)
