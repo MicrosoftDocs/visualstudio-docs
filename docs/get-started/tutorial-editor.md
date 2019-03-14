@@ -37,9 +37,9 @@ Start by creating a new file and adding some code to it.
 
 ::: moniker-end
 
-1. From the **File** menu on the menu bar, choose **New** > **File**.
+2. From the **File** menu on the menu bar, choose **New** > **File**.
 
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
+3. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
    A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 

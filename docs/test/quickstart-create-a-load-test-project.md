@@ -58,7 +58,7 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
 2. On the Start window, choose **Create a new project**.
 
-3. In the **Create a new project** dialog, type **web test** into the search box, and then select the **Web Performance and Load Test Project\[Deprecated]** template for C#. Choose **Next**.
+3. In the **Create a new project** dialog, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
 
 4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
 

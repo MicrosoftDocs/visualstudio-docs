@@ -19,7 +19,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Start Page
 
-The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
+The first thing you'll see after you open Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
 
 ![Start Page in Visual Studio](media/start-page.png)
 
@@ -33,7 +33,7 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 ## Start window
 
-The first thing you'll see after you launch Visual Studio is the Start window. The Start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you'll see after you open Visual Studio is the Start window. The Start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
 [![](media/vs-2019/start-window-labeled.png "Start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
 
