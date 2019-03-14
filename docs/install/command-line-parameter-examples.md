@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Command-line parameter examples for Visual Studio 2017 installation
+# Command-line parameter examples for Visual Studio installation
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
@@ -172,5 +172,5 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)

@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Update a network-based installation of Visual Studio 2017
+# Update a network-based installation of Visual Studio
 
 It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 
