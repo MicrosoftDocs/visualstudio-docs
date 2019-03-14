@@ -29,30 +29,42 @@ For this example, you'll use Visual C# to add a custom menu button named "Say He
 
 ## Prerequisites
 
-Before you start, make sure you have installed the **Visual Studio extension development** workload which includes the VSIX template you'll need and sample code.
+Before you start, make sure you have installed the **Visual Studio extension development** workload, which includes the VSIX template you'll need and sample code.
 
 > [!NOTE]
 > You can use any edition of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio extensibility project.
 
 ## Create an extensibility project
 
-Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, enter the name of your project.
+::: moniker range="vs-2017"
 
-Step 2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
+Step 1. From the **File** menu, select **New Project**.
+
+Step 2. In the search box in the upper right, type "vsix" and select the C# **VSIX Project**. Enter "HelloWorld" for the **Name** at the bottom of the dialog and select **OK**.
 
 ![new project](media/hello-world-new-project.png)
 
 You should now see the Getting Started page and some sample resources.
 
-::: moniker range="vs-2017"
-
 If you need to leave this tutorial and come back to it, you can find your new HelloWorld project on the **Start Page** in the **Recent** section.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Step 1. From the **File** menu, select **New Project**. Search for "vsix" and select the C# **VSIX Project** and then **Next**.
+
+Step 2. Enter "HelloWorld" for the **Project name** and select **Create**.
+
+![new project](media/hello-world-new-project-2019.png)
+
+You should now see the HelloWorld project in the **Solution Explorer**.
 
 ::: moniker-end
 
 ## Add a custom command
 
-Step 1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
+Step 1. If you select the `.vsixmanifest` manifest file, you can see what options are changeable, for instance, metadata, description, and version.
 
 Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item**.
 
@@ -62,19 +74,31 @@ Step 4. In the **Name** field at the bottom, give it a name, for instance *Comma
 
 ![custom command](media/hello-world-custom-command.png)
 
-Your new command is listed in **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
+Your new command file is visible in the **Solution Explorer**. Under the **Resources** node, you'll find other files related to your command, such as the PNG file if you wish to modify the image.
 
 ## Modify the source code
 
 At this point, the Button you're adding is pretty generic. You'll have to modify the VSCT file and CS file if you want to make changes.
 
-* The VSCT file is where you can rename your commands, as well as define where they go in the Visual Studio command system. As you explore the VSCT file, you will notice a lot of commented code that explains what each section of code controls.
+* The VSCT file is where you can rename your commands, as well as define where they go in the Visual Studio command system. As you explore the VSCT file, you will notice commented code that explains what each section of code controls.
 
 * The CS file is where you can define actions, such as the click handler.
+
+::: moniker range="vs-2017"
 
 Step 1. In **Solution Explorer**, find the VSCT file for your new command. In this case, it will be called *CommandPackage.vsct*.
 
 ![command package vsct](media/hello-world-command-package-vsct.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Step 1. In **Solution Explorer**, find the VSCT file for your extension VS package. In this case, it will be called *HelloWorldPackage.vsct*.
+
+![command package vsct](media/hello-world-command-package-vsct-2019.png)
+
+::: moniker-end
 
 Step 2. Change the `ButtonText` parameter to `Say Hello World!`.
 
@@ -117,11 +141,15 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-Step 1. Click **Start** in the Toolbar. This builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+Step 1. Press **F5** to run the **Start Debugging** command. This  command builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+
+::: moniker range="vs-2017"
 
 You will see the words **Experimental Instance** in the Visual Studio title bar.
 
 ![experimental instance title bar](media/hello-world-exp-instance.png)
+
+::: moniker-end
 
 Step 2. On the **Tools** menu of the **Experimental Instance**, click **Say Hello World!**.
 
