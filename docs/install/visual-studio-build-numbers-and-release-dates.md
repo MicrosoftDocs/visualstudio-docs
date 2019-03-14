@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/07/2019
+ms.date: 03/13/2019
 ms.topic: reference
 helpviewer_keywords:
 ms.custom: "seodec18"
@@ -21,6 +21,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.9 | Release | March 12, 2019 | 15.9.28307.518 |
+| 15.0.21 | Release | March 12, 2019 | 15.0.26228.76 |
 | 15.9.8 | Release | March 5, 2019 | 15.9.28307.481 |
 | 15.9.7 | Release | February 12, 2019 | 15.9.28307.423 |
 | 15.0.21 | Release | February 12, 2019 | 15.0.26228.73 |
@@ -172,6 +174,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Release Candidate 2 (RC.2) | March 12, 2019 | 16.0.28711.60 |
+| 16.0.0 | Preview 4.2 | March 12, 2019 | 16.0.28711.60 |
 | 16.0.0 | Release Candidate 1 Svc1 (RC.1 Svc1) | March 6, 2019 | 16.0.28705.295 |
 | 16.0.0 | Preview 4.1 Svc1 | March 6, 2019 | 16.0.28705.295 |
 | 16.0.0 | Release Candidate 1 (RC.1) | March 5, 2019 | 16.0.28701.123 |
@@ -189,7 +193,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
-* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
-* [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

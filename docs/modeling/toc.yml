@@ -1,7 +1,7 @@
 - name: Analyze and model your architecture
   href: analyze-and-model-your-architecture.md
   items:
-  - name: What's new for design in Visual Studio
+  - name: What's new for design in Visual Studio 2017
     href: what-s-new-for-design-in-visual-studio.md
   - name: Change your design using visualization and modeling
     href: scenario-change-your-design-using-visualization-and-modeling.md

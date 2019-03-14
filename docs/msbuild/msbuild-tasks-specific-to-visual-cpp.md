@@ -48,4 +48,4 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[Task writing](../msbuild/task-writing.md)|Describes how to create a task.|
 
 > [!NOTE]
-> In Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
+> Starting in Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
