@@ -37,7 +37,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 
 |Feature|Description|
 |-------------|-----------------|
-|Classes|New syntax supports declaration of [classes](https://developer.mozilla.org/docs/Web/SVG/Attribute/class).|
+|Classes|New syntax supports declaration of [classes](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/class).|
 |Promises|[Promises](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) allow easier and cleaner asynchronous coding. Promise constructors are supported, along with the `all` and `race` utility methods.|
 |Iterators|Now you can iterate over iterable objects (including arrays, array-like objects, and iterators), invoking a custom iteration hook with statements to be executed for the value of each distinct property. For more information, see [Iterators and Generators](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Iterators_and_Generators). **Note:**  Generators are not yet supported.|
 |Arrow functions|The arrow function (=>) provides shorthand syntax for the `function` keyword which features a lexical `this` binding.|
