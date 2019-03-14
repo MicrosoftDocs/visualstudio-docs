@@ -141,7 +141,7 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-Step 1. Press **F5** to run the **Start Debugging** command. This  command builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+Step 1. Press **F5** to run the **Start Debugging** command. This command builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
 
 ::: moniker range="vs-2017"
 
@@ -162,5 +162,10 @@ You should see the output from your new custom command, in this case the dialog 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
 * [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension
+::: moniker range="vs-2017"
 * [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
+::: moniker-end
+::: moniker range="vs-2019"
+* [What's new in the Visual Studio 2019 SDK](whats-new-in-the-visual-studio-2019-sdk.md) -New extensibility features in Visual Studio 2019
+::: moniker-end
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
