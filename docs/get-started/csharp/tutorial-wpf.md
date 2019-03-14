@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with C\#
 
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
@@ -230,7 +230,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 #### Specify Greetings.xaml as the startup URI
 
@@ -250,8 +250,6 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
 
-     ![Toggle Breakpoint command on the Debug menu](../media/exploreide-togglebreakpoint.png)
-
      A red circle appears next to the line of code in the far left margin of the editor window.
 
 3. Select the following line: `MessageBox.Show("Goodbye.")`.
@@ -260,7 +258,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-     The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
+    The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
 
 6. On the menu bar, choose **Debug** > **Step Out**.
 
@@ -284,15 +282,9 @@ Now that you've verified that everything works, you can prepare a release build 
 
 1. On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 
-     ![The Clean Solution command on the Build menu](../media/exploreide-cleansolution.png)
-
 2. Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
 
-     ![The Standard toolbar with Release selected](../media/exploreide-releaseversion.png)
-
 3. Build the solution by choosing **Build** > **Build Solution**.
-
-     ![Build Solution command on the Build menu](../media/exploreide-buildsolution.png)
 
 Congratulations on completing this tutorial! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 

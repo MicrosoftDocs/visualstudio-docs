@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with Visual Basic
 
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
@@ -226,7 +226,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 #### Specify Greetings.xaml as the startup URI
 
@@ -278,15 +278,9 @@ Now that you've verified that everything works, you can prepare a release build 
 
 1. On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 
-     ![The Clean Solution command on the Build menu](../media/exploreide-cleansolution.png)
-
 2. Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
 
-     ![The Standard toolbar with Release selected](../media/exploreide-releaseversion.png)
-
 3. Build the solution by choosing **Build** > **Build Solution**.
-
-     ![Build Solution command on the Build menu](../media/exploreide-buildsolution.png)
 
 Congratulations on completing this tutorial! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
