@@ -19,9 +19,7 @@ The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed t
 
 The VSCEIP is turned on by default. You can turn it off, or back on again, by following these instructions:
 
-1. Start Visual Studio.
-
-1. From the **Help** menu, point to **Send Feedback**, and then select **Settings**.
+1. In Visual Studio, choose **Help** > **Send Feedback**, and then select **Settings**.
 
    The **Visual Studio Experience Improvement Program** dialog box opens.
 
