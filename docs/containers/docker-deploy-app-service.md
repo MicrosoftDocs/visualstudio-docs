@@ -32,10 +32,22 @@ To complete this tutorial:
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
 ::: moniker range="vs-2017"
-[!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
+1. From the Visual Studio menu, select **File > New > Project**.
+2. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
+3. Select **ASP.NET Core Web Application**.
+4. Give your new application a name (or take the default) and select **OK**.
+5. Select **Web Application**.
+6. Check the **Enable Docker Support** checkbox.
+7. Select the **Linux** container type and click **OK**. Windows containers are not supported to deploy to Azure App Service as a container.
 ::: moniker-end
 ::: moniker range=">= vs-2019"
-[!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
+1. From the Visual Studio **Start** window, choose **Create a new project**.
+1. Choose **ASP.NET Core Web Application**, and choose **Next**.
+1. Give your new application a name (or take the default) and choose **Create**.
+1. Choose **Web Application**.
+1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
+1. Check the **Enable Docker Support** checkbox.
+1. Select the **Linux** container type, and click **Create**. Windows containers are not supported to deploy to Azure App Service as a container.
 ::: moniker-end
 
 ## Deploy the container to Azure
