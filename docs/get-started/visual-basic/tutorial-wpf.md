@@ -103,7 +103,7 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 ### Add a TextBlock control
 
-1. Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
+1.  Enter **Ctrl**+**Q** to invoke **Quick Launch** and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
@@ -244,11 +244,9 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 1. Open *Greetings.xaml.vb*, and select the following line: `MessageBox.Show("Hello.")`
 
-2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
+2. Add a breakpoint by pressing **F9** or from the menu by selecting **Debug**, then **Toggle Breakpoint**.
 
-     ![Toggle Breakpoint command on the Debug menu](../media/exploreide-togglebreakpoint.png)
-
-     A red circle appears next to the line of code in the far left margin of the editor window.
+   A red circle appears next to the line of code in the far left margin of the editor window.
 
 3. Select the following line: `MessageBox.Show("Goodbye.")`.
 
@@ -256,7 +254,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-     The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
+   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
 
 6. On the menu bar, choose **Debug** > **Step Out**.
 

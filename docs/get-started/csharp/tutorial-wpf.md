@@ -103,7 +103,7 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 ### Add a TextBlock control
 
-1. Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
+1. Enter **Ctrl**+**Q** to invoke **Quick Launch** and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
