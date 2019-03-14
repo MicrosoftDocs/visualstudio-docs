@@ -18,7 +18,12 @@ ms.workload:
 
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
+::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+::: moniker-end
+::: moniker range=">=vs-2019"
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+::: moniker-end
 
 ## Configure the IDE
 
@@ -36,7 +41,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 
 ::: moniker range=">=vs-2019"
 
-When you launch Visual Studio, the **Start** window opens first. Select **Contine without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+When you launch Visual Studio, the **Start** window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
 
 ::: moniker-end
 
@@ -46,20 +51,37 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. Create a new project. On the menu bar, select **File** > **New** > **Project**.
 
+     ::: moniker range="vs-2017"
      ![On the menu bar, choose File, New, Project](../media/exploreide-filenewproject.png)
+     ::: moniker-end
+     ::: moniker range="vs-2017"
+     ![On the menu bar, choose File, New, Project](../media/vs-2019/exploreide-filenewproject-vs2019.png)
+     ::: moniker-end
 
-1. In the **New Project** dialog, select the **Installed** > **Visual Basic** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**.
+::: moniker range="vs-2017"
+2. In the **New Project** dialog, select the **Installed** > **Visual Basic** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
 
      ![WPF app template in Visual Studio New Project dialog](media/exploreide-newproject-vb.png)
+:: moniker-end
+::: moniker range=">=vs-2019"
+3. On the **Create a new project** screen, choose **WPF App (.NET Framework)**, and then choose **Next**.
 
-1. Select **OK**.
+   ![WPF app template in Visual Studio New Project dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png)
 
-   Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
+4. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
+::: moniker-end
 
-   ![Solution Explorer with HelloWPFApp files loaded](../media/exploreide-hellowpfappfiles.png)
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
 
-   > [!NOTE]
-   > For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
+::: moniker range="vs-2017"
+![Solution Explorer with HelloWPFApp files loaded](../media/exploreide-hellowpfappfiles.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Solution Explorer with HelloWPFApp files loaded](../media/vs-2019/exploreide-hellowpfappfiles.png)
+::: moniker-end
+
+> [!NOTE]
+> For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
 
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
@@ -107,7 +129,7 @@ The XAML markup should look something like the following example:
    Text="Select a message option and then choose the Display button."
    ```
 
-2. Center the TextBlock again if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
+2. Center the TextBlock again if necessary, and save your changes by pressing Ctrl+S or using the **File** menu item.
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
