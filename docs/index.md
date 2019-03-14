@@ -85,7 +85,7 @@ ms.custom: seodec18
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="get-started/visual-studio-ide.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Guided tour icon" />Start a guided tour</a></li>
-                                                    <li><a class="barLink" href="get-started/open-project-from-repo"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_pull-request.svg" alt="Repo icon" />Open code from a repo</a></li>
+                                                    <li><a class="barLink" href="get-started/open-project-from-repo.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_pull-request.svg" alt="Repo icon" />Open code from a repo</a></li>
                                                     <li><a class="barLink" href="ide/index-writing-code.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="Pencil icon" />Write and edit code</a></li>
                                                     <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_build.svg" alt="Crane icon" />Build your code</a></li>
                                                     <li><a class="barLink" href="debugger/debugger-feature-tour.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_debug.svg" alt="Debug icon" />Debug your code</a></li>
