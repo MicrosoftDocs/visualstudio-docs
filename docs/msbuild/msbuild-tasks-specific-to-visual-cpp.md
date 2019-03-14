@@ -36,13 +36,14 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the Visual C++ compiler tool (*clang.exe*).|
 |[CustomBuild task](../msbuild/custombuild-task.md)|Wraps the Visual C++ compiler tool (*cmd.exe*).|
 |[FXC task](../msbuild/fxc-task.md)|Use HLSL shader compilers in the build process.|
-|[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Helper task that reads old tlogs, writes new tlogs and returns set of items which are not up-to-date.|
-|[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Helper task to get output file name for cl and other tools, which allow specifying only output directory or full file name or nothing.|
+|[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Reads old tlogs, writes new tlogs and returns set of items which are not up-to-date. (helper task)|
+|[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Gets output file name for cl and other tools, which allow specifying only output directory or full file name or nothing. (helper task)|
 |[LIB task](../msbuild/lib-task.md)|Wraps the Microsoft 32-Bit Library Manager tool (*lib.exe*).|
 |[Link task](../msbuild/link-task.md)|Wraps the Visual C++ linker tool (*link.exe*).|
 |[MIDL task](../msbuild/midl-task.md)|Wraps the Microsoft Interface Definition Language (MIDL) compiler tool (*midl.exe*).|
 |[MT task](../msbuild/mt-task.md)|Wraps the Microsoft Manifest Tool (*mt.exe*).|
-|[MultiToolTask task](../msbuild/multitooltask-task.md)|invokes other vc tasks in parallel. Currently only works for tasks derived from TrackedVCToolTask.(helper task)|
+|[MultiToolTask task](../msbuild/multitooltask-task.md)|Invokes other VC tasks in parallel. Currently only works for tasks derived from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md). (helper task)|
+|[ParallelCustomBuild task](../msbuild/parallelcustombuild-task.md)|Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md).|
 |[RC task](../msbuild/rc-task.md)|Wraps the Microsoft Windows Resource Compiler tool (*rc.exe*).|
 |[SetEnv task](../msbuild/setenv-task.md)|Sets or deletes the value of a specified environment variable.|
 |[TrackedVCToolTask base class](../msbuild/trackedvctooltask-base-class.md)|Inherits from [VCToolTask](../msbuild/vctooltask-base-class.md).|

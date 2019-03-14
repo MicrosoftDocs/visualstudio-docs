@@ -15,7 +15,7 @@ ms.workload:
 ---
 # VCToolTask base class
 
-Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class and <xref:Microsoft.Build.Utilites.ToolTask> class. This class adds several methods to the tasks that derive from them. These methods are listed in this document.
+Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class and [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class. This class adds several methods to the tasks that derive from them. These methods are listed in this document.
 
 ## Class
 

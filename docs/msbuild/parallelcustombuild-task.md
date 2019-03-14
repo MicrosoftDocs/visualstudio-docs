@@ -21,7 +21,7 @@ ms.workload:
 ---
 # ParallelCustomBuild task
 
-No description.
+Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md).
 
 ## Methods
 
