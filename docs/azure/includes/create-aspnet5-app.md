@@ -2,9 +2,9 @@
 title: "include file"
 description: "include file"
 services: container-registry
-author: mlearned
+author: ghogen
 ms.service: container-registry
-ms.author: mlearned
+ms.author: ghogen
 ms.topic: "include"
 ms.date: 05/21/2018
 ms.custom: "include file"
