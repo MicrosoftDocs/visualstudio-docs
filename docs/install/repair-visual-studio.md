@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Repair Visual Studio 2017
+# Repair Visual Studio
 
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair can fix this.
 

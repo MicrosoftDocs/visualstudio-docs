@@ -17,7 +17,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Set defaults for enterprise deployments of Visual Studio 2017
+# Set defaults for enterprise deployments of Visual Studio
 
 You can set registry policies that affect the deployment of Visual Studio. These policies are global for the new installer and affect:
 

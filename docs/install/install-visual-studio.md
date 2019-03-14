@@ -19,7 +19,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Install Visual Studio 2017
+# Install Visual Studio
 
 Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 

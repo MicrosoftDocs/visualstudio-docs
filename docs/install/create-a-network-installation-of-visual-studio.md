@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Create a network installation of Visual Studio 2017
+# Create a network installation of Visual Studio
 
 Typically, an enterprise administrator creates a network install point to deploy to client workstations. We've designed Visual Studio 2017 to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.) 
 
@@ -121,7 +121,7 @@ Here are a few examples of how to create a custom partial layout.
     vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
     ```
 
-### New in 15.3
+### New in version 15.3
 
 When you run a layout command, the options that you specify are saved (such as the workloads and languages). Subsequent layout commands will include all of the previous options.  Here is an example of a layout with one workload for English only:
 

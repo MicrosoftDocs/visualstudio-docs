@@ -16,9 +16,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Use command-line parameters to install Visual Studio 2017
+# Use command-line parameters to install Visual Studio
 
-When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
+When you install Visual Studio from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
 
 - Start the install with certain options preselected.
 - Automate the installation process.

@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Command-line parameter examples for Visual Studio 2017 installation
+# Command-line parameter examples for Visual Studio installation
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 

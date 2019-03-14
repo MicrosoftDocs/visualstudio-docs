@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Troubleshoot Visual Studio 2017 installation and upgrade issues
+# Troubleshoot Visual Studio installation and upgrade issues
 
 > [!IMPORTANT]
 > Having a problem installing? We can help. We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.

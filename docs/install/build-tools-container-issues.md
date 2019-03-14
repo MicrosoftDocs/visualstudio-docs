@@ -1,6 +1,6 @@
 ---
 title: "Known issues for containers"
-description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools 2017 into a Windows container."
+description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools into a Windows container."
 ms.date: 04/18/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -14,6 +14,8 @@ ms.workload:
 # Known issues for containers
 
 There are a few issues when installing Visual Studio into a Docker container.
+
+::: moniker range="vs-2017"
 
 ## Windows container
 
@@ -29,6 +31,8 @@ The following known issues occur when you install Visual Studio Build Tools 2017
   > C:\BuildTools\MSBuild\15.0\bin\Roslyn\Microsoft.CSharp.Core.targets(84,5): error MSB6003: The specified task executable "csc.exe" could not be run. Could not load file or assembly 'System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
 
 * You cannot install Visual Studio 2017 version 15.8 or earlier (any product) on mcr<span></span>.microsoft.com/windows/servercore:1809 or later. See https://aka.ms/setup/containers/servercore1809 for more information.
+
+::: moniker-end
 
 ## Build Tools container
 

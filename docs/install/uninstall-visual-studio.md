@@ -15,7 +15,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Uninstall Visual Studio 2017
+# Uninstall Visual Studio
 
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 

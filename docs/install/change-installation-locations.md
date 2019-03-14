@@ -15,9 +15,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Select the installation locations in Visual Studio 2017
+# Select the installation locations in Visual Studio
 
-**New in 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
+**New in version 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
 
    > [!NOTE]
    > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
