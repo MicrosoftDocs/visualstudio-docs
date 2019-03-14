@@ -62,13 +62,13 @@ When you create an application in Visual Studio, you first create a project and 
 2. In the **New Project** dialog, select the **Installed** > **Visual Basic** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
 
      ![WPF app template in Visual Studio New Project dialog](media/exploreide-newproject-vb.png)
-:: moniker-end
+::: moniker-end
 ::: moniker range=">=vs-2019"
-3. On the **Create a new project** screen, choose **WPF App (.NET Framework)**, and then choose **Next**.
+2. On the **Create a new project** screen, search for "WPF", and choose **WPF App (.NET Framework)**, and then choose **Next**.
 
-   ![WPF app template in Visual Studio New Project dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png)
+   ![WPF app template in Visual Studio New Project dialog](media/vs-2019/exploreide-newprojectvb-vs2019.png)
 
-4. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
+3. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
 ::: moniker-end
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
