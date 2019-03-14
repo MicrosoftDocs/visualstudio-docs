@@ -96,8 +96,6 @@ Step 1. In **Solution Explorer**, find the VSCT file for your new command. In th
 
 Step 1. In **Solution Explorer**, find the VSCT file for your extension VS package. In this case, it will be called *HelloWorldPackage.vsct*.
 
-![command package vsct](media/hello-world-command-package-vsct-2019.png)
-
 ::: moniker-end
 
 Step 2. Change the `ButtonText` parameter to `Say Hello World!`.
