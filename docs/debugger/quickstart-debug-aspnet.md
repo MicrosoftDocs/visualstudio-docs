@@ -27,7 +27,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     ::: moniker range="vs-2017"
     The **New project** dialog box opens. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**. Type a name like **MyDbgApp** and click **OK**.
 
-    In the dialog box that appears, choose **Web Application (Model-View-Controller)** in the middle pane, and then click **OK**.
+    In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
 
     ![Choose a Web application](../debugger/media/dbg-qs-aspnet-choose-web-app.png)
     ::: moniker-end
