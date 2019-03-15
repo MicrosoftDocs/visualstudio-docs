@@ -21,24 +21,22 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In Visual Studio, choose **File > New > Project**.
 
-::: moniker range=">=vs-2019"
-2. In the **Create a new project** dialog box, type **asp.net** in the search box to filter results, choose **ASP.NET Core Web Application**, and then click **Next**.
-::: moniker-end
-::: moniker range="vs-2017"
-2. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**.
-::: moniker-end
+    ::: moniker range=">=vs-2019"
+    The **Create a new project** dialog box opens. Type **asp.net** in the search box to filter results, choose **ASP.NET Core Web Application**, and then click **Next**. Then, type a name like **MyDbgApp** and choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    The **New project** dialog box opens. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**. Type a name like **MyDbgApp** and click **OK**.
 
-3. Type a name like **MyDbgApp** and click **OK**.
-
-4. In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
-
-     If you don't see the **Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+    In the dialog box that appears, choose **Web Application (Model-View-Controller)** in the middle pane, and then click **OK**.
 
     ![Choose a Web application](../debugger/media/dbg-qs-aspnet-choose-web-app.png)
+    ::: moniker-end
+
+    If you don't see the **ASP.NET Core Web Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-5. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
+1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
     ```csharp
     public void OnGet()
