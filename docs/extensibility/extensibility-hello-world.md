@@ -64,7 +64,7 @@ You should now see the HelloWorld project in **Solution Explorer**.
 
 ## Add a custom command
 
-Step 1. If you select the `.vsixmanifest` manifest file, you can see what options are changeable, such as description, author, and version.
+Step 1. If you select the *.vsixmanifest* manifest file, you can see what options are changeable, such as description, author, and version.
 
 Step 2. Right-click the project (not the solution). On the context menu, select **Add**, and then **New Item**.
 
@@ -161,10 +161,6 @@ You should see the output from your new custom command, in this case the dialog 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
 * [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension
-::: moniker range="vs-2017"
 * [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) - New extensibility features in Visual Studio 2017
-::: moniker-end
-::: moniker range="vs-2019"
 * [What's new in the Visual Studio 2019 SDK](whats-new-visual-studio-2019-sdk.md) - New extensibility features in Visual Studio 2019
-::: moniker-end
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
