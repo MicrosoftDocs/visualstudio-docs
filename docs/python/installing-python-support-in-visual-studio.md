@@ -11,7 +11,6 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:

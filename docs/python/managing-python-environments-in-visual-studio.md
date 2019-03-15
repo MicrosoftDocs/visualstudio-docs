@@ -10,7 +10,6 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How to create and manage Python environments in Visual Studio
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
@@ -101,7 +100,7 @@ Visual Studio also provides a command to generate a *requirements.txt* file from
 
 #### Conda environments
 
-A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda; Anaconda is available through the Visual Studio installer, see [Installation - Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017).)
+A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda; Anaconda is available through the Visual Studio installer, see [Installation - Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017-and-2019).)
 
 1. Select **+ Create conda environment** in the **Python Environments** window, which opens a **Create new conda environment** tab:
 
