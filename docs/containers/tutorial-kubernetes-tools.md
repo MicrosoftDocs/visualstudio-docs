@@ -5,6 +5,7 @@ ms.topic: "conceptual"
 author: ghogen
 ms.author: ghogen
 manager: jillfra
+ms.technology: vs-azure
 ms.workload:
   - "azure"
 ---

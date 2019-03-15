@@ -3,7 +3,7 @@ title: "include file"
 description: "include file"
 services: container-registry
 author: ghogen
-ms.service: container-registry
+ms.technology: vs-azure
 ms.author: ghogen
 ms.topic: "include"
 ms.date: 05/21/2018
