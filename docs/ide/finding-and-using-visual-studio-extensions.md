@@ -79,7 +79,7 @@ To protect your system against extensions that may contain errors or malicious c
 
 ## Automatic extension updates
 
-Extensions are automatically updated when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you start Visual Studio, the new version of the extension will be running.
+Extensions are automatically updated when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
 If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.
 
