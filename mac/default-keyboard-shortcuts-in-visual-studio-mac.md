@@ -1,7 +1,7 @@
 ---
-title: "Default Keyboard Shortcuts"
+title: "Default Keyboard Shortcuts in Visual Studio for Mac"
 description: "This article lists the default keyboard shortcuts in Visual Studio for Mac"
-ms.date: 02/27/2019
+ms.date: 03/14/2019
 author: bytesguy
 ms.author: adhartle
 ms.assetid: 9883B6FC-1427-4240-A6DB-88F332F00BDC
@@ -11,33 +11,12 @@ ms.assetid: 9883B6FC-1427-4240-A6DB-88F332F00BDC
 
 For information about keyboard accessibility, see [How to: Use Keyboard Navigation](~/accessibility.md#how-to-use-keyboard-navigation).
 
-You can access a variety of commands in Visual Studio for Mac by using the appropriate keyboard shortcut. This document lists the default shortcuts for the **Visual Studio** key binding scheme which is activated by default when you install Visual Studio for Mac. For more information about how to change your key binding scheme, see [Customizing the IDE](~/customizing-the-ide.md#key-bindings). No matter which scheme you choose, you can identify and customize shortcuts for a command by going to the Menu Bar and navigating to **Visual Studio for Mac** > **Preferences** > **Key Bindings**.
-
-## macOS Key Symbols
+You can access a variety of commands in Visual Studio for Mac by using the appropriate keyboard shortcut. This document lists the default shortcuts for the **Visual Studio** key binding scheme. For more information about how to change the key binding scheme, see [Customizing the IDE](~/customizing-the-ide.md#key-bindings). You can also customize shortcuts for a command using **Visual Studio for Mac** > **Preferences** > **Key Bindings**.
 
 > [!TIP]
-> The keyboard shortcuts displayed in this document, and the key binding preferences in Visual Studio for Mac, are presented using the symbols commonly used in macOS. If you are unsure of a symbol, review the table below:
+> The keyboard shortcuts displayed in this document, and the key binding preferences in Visual Studio for Mac, are presented using the symbols commonly used in macOS. If you are unsure of a symbol, review the [macOS key symbols loopkup table](#macos-key-symbols-lookup).
 
-|Symbol|Key|
-|-|-|
-|⌘|**Command** (**cmd**)|
-|⌥|**Option** (**alt**)|
-|⇧|**Shift**|
-|⌃|**Control** (**ctrl**)
-|⇟|**Page Down** (**Pg Dn**)|
-|⇞|**Page Up** (**Pg Up**)|
-|⌫|**Delete** (**Backspace**)|
-|⌦|**Forward Delete**|
-|⏎|**Return**|
-|←→↑↓|**Arrow Keys**|
-|↖|**Home**|
-|↘|**End**|
-|␣|**Space Bar**|
-|⇥|**Tab**|
-
-## Default Keyboard Shortcuts
-
-### Code Navigation
+## Code Navigation
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -48,7 +27,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Previous Error|**⌥⇧⇞**|
 |Previous Issue in File|**⌥⇞**|
 
-### Debug
+## Debug
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -64,13 +43,13 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Toggle Breakpoint|**⌘\\**, **F9**|
 |View Breakpoints|**⌥⌘B**|
 
-### Designer
+## Designer
 
 |Commands|Keyboard shortcuts|
 |-|-|
 |Switch between related files|**⌃⌘↑**|
 
-### Edit
+## Edit
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -94,7 +73,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Unindent Selection|**⌘[**|
 |Update Frame from Constraints|**⇧⌘R**|
 
-### F# Integration
+## F# Integration
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -105,7 +84,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Send references to F# Interactive|**⌃⌥P**|
 |Send selection to F# Interactive|**⌃⏎**|
 
-### File
+## File
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -121,14 +100,14 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Save|**⌘S**|
 |Save All|**⇧⌘S**|
 
-### Help
+## Help
 
 |Commands|Keyboard shortcuts|
 |-|-|
 |API Documentation|**⌥⌘?**|
 |Unity API Reference|**⌘'**|
 
-### Other
+## Other
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -136,7 +115,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Inspect|**⌥⌘I**|
 |Live Run Current View|**⌥⇧L**|
 
-### Project
+## Project
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -150,14 +129,14 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Start Without Debugging|**⌥⌘⏎**, **⌃F5**|
 |Stop|**⇧⌘⏎**, **⇧F5**|
 
-### Refactoring
+## Refactoring
 
 |Commands|Keyboard shortcuts|
 |-|-|
 |Import Symbol|**⌃⌥␣**|
 |Quick Fix|**⌥⏎**|
 
-### Search
+## Search
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -175,7 +154,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Replace in Files|**⌥⇧⌘F**|
 |Replace|**⌥⌘F**|
 
-### Text Editor
+## Text Editor
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -226,7 +205,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Transpose characters|**⌃T**|
 |Wrap with &lt;div&gt;|**⌥⇧W**|
 
-### View
+## View
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -245,7 +224,7 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Zoom In|**⌘+**, **⌘=**|
 |Zoom Out|**⌘-**, **⌘_**|
 
-### Window
+## Window
 
 |Commands|Keyboard shortcuts|
 |-|-|
@@ -267,3 +246,22 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Switch to next pad|**⌃⌥⇥**|
 |Switch to previous document|**⌃⇧⇥**|
 |Switch to previous pad|**⌃⌥⇧⇥**|
+
+## macOS key symbols lookup
+
+|Symbol|Key|
+|-|-|
+|⌘|**Command** (**cmd**)|
+|⌥|**Option** (**alt**)|
+|⇧|**Shift**|
+|⌃|**Control** (**ctrl**)
+|⇟|**Page Down** (**Pg Dn**)|
+|⇞|**Page Up** (**Pg Up**)|
+|⌫|**Delete** (**Backspace**)|
+|⌦|**Forward Delete**|
+|⏎|**Return**|
+|←→↑↓|**Arrow Keys**|
+|↖|**Home**|
+|↘|**End**|
+|␣|**Space Bar**|
+|⇥|**Tab**|
