@@ -74,7 +74,7 @@ Step 4. In the **Name** field at the bottom, enter a filename such as *Command.c
 
 ![custom command](media/hello-world-custom-command.png)
 
-Your new command file is visible in the **Solution Explorer**. Under the **Resources** node, you'll find other files related to your command, such as the PNG file if you wish to modify the image.
+Your new command file is visible in **Solution Explorer**. Under the **Resources** node, you'll find other files related to your command. For example, if you wish to modify the image, the PNG file is here.
 
 ## Modify the source code
 
