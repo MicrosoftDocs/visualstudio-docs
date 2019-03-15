@@ -11,7 +11,6 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
@@ -28,7 +27,7 @@ To quickly test Python support after following the installation steps, open the 
 > [!Note]
 > Python support is not presently available in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
-<a name="visual-studio-2017"></a>
+<a name="visual-studio-2017-and-2019"></a>
 ## Visual Studio 2019 and Visual Studio 2017
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
