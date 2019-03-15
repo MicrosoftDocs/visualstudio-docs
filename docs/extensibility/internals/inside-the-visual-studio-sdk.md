@@ -84,7 +84,7 @@ In Visual Studio, projects are the containers that developers use to organize an
 
 Projects may also be gathered together in a *solution*, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based [solution (.sln) file](solution-dot-sln-file.md) and the binary [solution user option (.suo) file](solution-user-options-dot-suo-file.md). These files are similar to the group (.vbg) files that were used in earlier versions of Visual Basic, and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of C++.
 
-For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions.md).
+For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions-overview.md).
 
 ## Project and Item Templates
  Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](https://code.msdn.microsoft.com/site/search?query=visual%20studio) is the place to go for templates and extensions.
