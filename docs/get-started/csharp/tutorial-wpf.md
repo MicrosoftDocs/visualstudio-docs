@@ -228,6 +228,8 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
    A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
+   ![Screenshot of IOException message](media/exploreide-ioexception.png)
+
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
@@ -258,7 +260,9 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-    The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
+    The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Exception Settings, Command, Immediate, and Output windows are docked together on the right side.
+
+    ![Screenshot of breakpoint in the debugger](media/exploreide-debugbreakpoint.png)
 
 6. On the menu bar, choose **Debug** > **Step Out**.
 
