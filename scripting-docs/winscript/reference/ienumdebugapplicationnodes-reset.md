@@ -2,15 +2,16 @@
 title: "IEnumDebugApplicationNodes::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "IEnumDebugApplicationNodes.Reset"
-apilocation:
+apilocation: 
   - "pdm.dll"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "IEnumDebugApplicationNodes::Reset"
 ms.assetid: 56ecdafe-ff11-461a-92e1-93254a49f1a1
 caps.latest.revision: 8
@@ -19,26 +20,26 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IEnumDebugApplicationNodes::Reset
-Resets an enumeration sequence to the beginning.
-
-## Syntax
-
+Resets an enumeration sequence to the beginning.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT Reset();
-```
-
-#### Parameters
- This method takes no parameters.
-
-## Return Value
- The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.
-
-|Value|Description|
-|-----------|-----------------|
-|`S_OK`|The method succeeded.|
-
-## Remarks
- This method resets an enumeration sequence to the beginning.
-
-## See Also
+HRESULT Reset();  
+```  
+  
+#### Parameters  
+ This method takes no parameters.  
+  
+## Return Value  
+ The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.  
+  
+|Value|Description|  
+|-----------|-----------------|  
+|`S_OK`|The method succeeded.|  
+  
+## Remarks  
+ This method resets an enumeration sequence to the beginning.  
+  
+## See Also  
  [IEnumDebugApplicationNodes Interface](../../winscript/reference/ienumdebugapplicationnodes-interface.md)

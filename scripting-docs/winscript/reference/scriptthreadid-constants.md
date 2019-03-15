@@ -2,15 +2,16 @@
 title: "SCRIPTTHREADID Constants | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "SCRIPTTHREADID"
-apilocation:
+apilocation: 
   - "scrobj.dll"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "SCRIPTTHREADID"
 ms.assetid: 1df9940c-ad0c-42d8-96b9-6a6abe2382e6
 caps.latest.revision: 9
@@ -19,27 +20,27 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # SCRIPTTHREADID Constants
-Used to specify the type of thread.
-
-## Syntax
-
+Used to specify the type of thread.  
+  
+## Syntax  
+  
 ```cpp
-typedef DWORD SCRIPTTHREADID;
-```
-
-## Constants
-
-|Constant|Value|Meaning|
-|--------------|-----------|-------------|
-|SCRIPTTHREADID_CURRENT|0xFFFFFFFD|The currently executing thread.|
-|SCRIPTTHREADID_BASE|0xFFFFFFFE|The base thread; that is, the thread in which the scripting engine was instantiated.|
-|SCRIPTTHREADID_ALL|0xFFFFFFFF|All threads.|
-
-## Remarks
- The `SCRIPTTHREADID` type is used by `IActiveScript::GetCurrentScriptThreadID`, `IActiveScript::GetScriptThreadID`, `IActiveScript::GetScriptThreadState`, and `IActiveScript::InterruptScriptThread`, but the constants can only be used by `IActiveScript::GetScriptThreadState` and `IActiveScript::InterruptScriptThread`.
-
-## See Also
- [IActiveScript::GetCurrentScriptThreadID](../../winscript/reference/iactivescript-getcurrentscriptthreadid.md)
- [IActiveScript::GetScriptThreadID](../../winscript/reference/iactivescript-getscriptthreadid.md)
- [IActiveScript::GetScriptThreadState](../../winscript/reference/iactivescript-getscriptthreadstate.md)
+typedef DWORD SCRIPTTHREADID;  
+```  
+  
+## Constants  
+  
+|Constant|Value|Meaning|  
+|--------------|-----------|-------------|  
+|SCRIPTTHREADID_CURRENT|0xFFFFFFFD|The currently executing thread.|  
+|SCRIPTTHREADID_BASE|0xFFFFFFFE|The base thread; that is, the thread in which the scripting engine was instantiated.|  
+|SCRIPTTHREADID_ALL|0xFFFFFFFF|All threads.|  
+  
+## Remarks  
+ The `SCRIPTTHREADID` type is used by `IActiveScript::GetCurrentScriptThreadID`, `IActiveScript::GetScriptThreadID`, `IActiveScript::GetScriptThreadState`, and `IActiveScript::InterruptScriptThread`, but the constants can only be used by `IActiveScript::GetScriptThreadState` and `IActiveScript::InterruptScriptThread`.  
+  
+## See Also  
+ [IActiveScript::GetCurrentScriptThreadID](../../winscript/reference/iactivescript-getcurrentscriptthreadid.md)   
+ [IActiveScript::GetScriptThreadID](../../winscript/reference/iactivescript-getscriptthreadid.md)   
+ [IActiveScript::GetScriptThreadState](../../winscript/reference/iactivescript-getscriptthreadstate.md)   
  [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)

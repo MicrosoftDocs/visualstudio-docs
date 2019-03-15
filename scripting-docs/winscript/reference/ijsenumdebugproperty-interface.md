@@ -2,6 +2,7 @@
 title: "IJsEnumDebugProperty Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,25 +14,25 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsEnumDebugProperty Interface
-Provides property browsing operations.
-
-## Syntax
-
+Provides property browsing operations.  
+  
+## Syntax  
+  
 ```cpp
-IJsEnumDebugProperty : public IUnknown;
-```
-
-## Members
-
-### Public Methods
-
-|Name|Description|
-|----------|-----------------|
-|[IJsEnumDebugProperty::GetCount Method](../../winscript/reference/ijsenumdebugproperty-getcount-method.md)|Gets the number of properties of the object.|
-|[IJsEnumDebugProperty::Next Method](../../winscript/reference/ijsenumdebugproperty-next-method.md)|Reads properties for this object.|
-
-## Requirements
- **Header:** jscript9diag.h
-
-## See Also
+IJsEnumDebugProperty : public IUnknown;  
+```  
+  
+## Members  
+  
+### Public Methods  
+  
+|Name|Description|  
+|----------|-----------------|  
+|[IJsEnumDebugProperty::GetCount Method](../../winscript/reference/ijsenumdebugproperty-getcount-method.md)|Gets the number of properties of the object.|  
+|[IJsEnumDebugProperty::Next Method](../../winscript/reference/ijsenumdebugproperty-next-method.md)|Reads properties for this object.|  
+  
+## Requirements  
+ **Header:** jscript9diag.h  
+  
+## See Also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

@@ -2,13 +2,14 @@
 title: "IJsDebugBreakPoint::Enable Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "IJSDebugBreakPoint.Enable"
-apilocation:
+apilocation: 
   - "jscript9diag.dll"
 ms.assetid: f7164fc6-4463-41aa-bc79-439d61535c46
 caps.latest.revision: 4
@@ -17,21 +18,21 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsDebugBreakPoint::Enable Method
-Enables the breakpoint.
-
-## Syntax
-
+Enables the breakpoint.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT Enable(void);
-```
-
-## Return Value
-
-## Remarks
- Returns E_UNEXPECTED if called on a deleted breakpoint.
-
-## Requirements
- **Header:** jscript9diag.h
-
-## See Also
+HRESULT Enable(void);  
+```  
+  
+## Return Value  
+  
+## Remarks  
+ Returns E_UNEXPECTED if called on a deleted breakpoint.  
+  
+## Requirements  
+ **Header:** jscript9diag.h  
+  
+## See Also  
  [IJsDebugBreakPoint Interface](../../winscript/reference/ijsdebugbreakpoint-interface.md)

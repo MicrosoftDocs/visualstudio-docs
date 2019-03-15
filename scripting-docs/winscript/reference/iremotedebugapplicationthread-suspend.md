@@ -2,15 +2,16 @@
 title: "IRemoteDebugApplicationThread::Suspend | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "IRemoteDebugApplicationThread.Suspend"
-apilocation:
+apilocation: 
   - "pdm.dll"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "IRemoteDebugApplicationThread::Suspend"
 ms.assetid: fd5cc874-2970-4092-b1cd-e638775b0e20
 caps.latest.revision: 8
@@ -19,29 +20,29 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IRemoteDebugApplicationThread::Suspend
-Suspends the thread.
-
-## Syntax
-
+Suspends the thread.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT Suspend(
-   DWORD*  pdwCount
-);
-```
-
-#### Parameters
- `pdwCount`
- [out] The suspend count for the thread.
-
-## Return Value
- The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.
-
-|Value|Description|
-|-----------|-----------------|
-|`S_OK`|The method succeeded.|
-
-## Remarks
- When this method suspends the thread, it increments the suspend count.
-
-## See Also
+HRESULT Suspend(  
+   DWORD*  pdwCount  
+);  
+```  
+  
+#### Parameters  
+ `pdwCount`  
+ [out] The suspend count for the thread.  
+  
+## Return Value  
+ The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.  
+  
+|Value|Description|  
+|-----------|-----------------|  
+|`S_OK`|The method succeeded.|  
+  
+## Remarks  
+ When this method suspends the thread, it increments the suspend count.  
+  
+## See Also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

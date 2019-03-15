@@ -2,13 +2,14 @@
 title: "IJsDebugBreakPoint::Disable Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "IJSDebugBreakPoint.Disable"
-apilocation:
+apilocation: 
   - "jscript9diag.dll"
 ms.assetid: f6f2889c-c001-4ee5-8e3f-4f36235e4fad
 caps.latest.revision: 4
@@ -17,21 +18,21 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsDebugBreakPoint::Disable Method
-Disables the breakpoint.
-
-## Syntax
-
+Disables the breakpoint.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT Disable(void);
-```
-
-## Return Value
-
-## Remarks
- Returns E_UNEXPECTED if called on a deleted breakpoint. Returns S_FALSE if called on an already disabled breakpoint.
-
-## Requirements
- **Header:** jscript9diag.h
-
-## See Also
+HRESULT Disable(void);  
+```  
+  
+## Return Value  
+  
+## Remarks  
+ Returns E_UNEXPECTED if called on a deleted breakpoint. Returns S_FALSE if called on an already disabled breakpoint.  
+  
+## Requirements  
+ **Header:** jscript9diag.h  
+  
+## See Also  
  [IJsDebugBreakPoint Interface](../../winscript/reference/ijsdebugbreakpoint-interface.md)

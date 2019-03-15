@@ -2,6 +2,7 @@
 title: "IActiveScriptTraceInfo::StopScriptTracing Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,20 +14,20 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptTraceInfo::StopScriptTracing Method
-Stops script tracing.
-
-## Syntax
-
+Stops script tracing.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT StopScriptTracing(void); }
-```
-
-#### Parameters
- This method has no parameters.
-
-## Return Value
- The possible return values for this method are as follows:
-
-1.  S_OK: Success.
-
+HRESULT StopScriptTracing(void); }  
+```  
+  
+#### Parameters  
+ This method has no parameters.  
+  
+## Return Value  
+ The possible return values for this method are as follows:  
+  
+1.  S_OK: Success.  
+  
 2.  E_NOTIMPL: Not implemented.

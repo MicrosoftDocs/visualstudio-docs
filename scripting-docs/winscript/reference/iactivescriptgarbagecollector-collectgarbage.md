@@ -2,6 +2,7 @@
 title: "IActiveScriptGarbageCollector::CollectGarbage | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,20 +14,20 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptGarbageCollector::CollectGarbage
-The Active Script host calls this method to start garbage collection.
-
-## Syntax
-
+The Active Script host calls this method to start garbage collection.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT CollectGarbage(        SCRIPTGCTYPE scriptgctype    );
-```
-
-#### Parameters
- `scriptgctype`
- [in] The [SCRIPTGCTYPE Enumeration](../../winscript/reference/scriptgctype-enumeration.md) that specifies whether to do normal or exhaustive garbage collection.
-
-## Return Value
- Returns an HRESULT.
-
-## See Also
+HRESULT CollectGarbage(        SCRIPTGCTYPE scriptgctype    );  
+```  
+  
+#### Parameters  
+ `scriptgctype`  
+ [in] The [SCRIPTGCTYPE Enumeration](../../winscript/reference/scriptgctype-enumeration.md) that specifies whether to do normal or exhaustive garbage collection.  
+  
+## Return Value  
+ Returns an HRESULT.  
+  
+## See Also  
  [IActiveScriptGarbageCollector Interface](../../winscript/reference/iactivescriptgarbagecollector-interface.md)

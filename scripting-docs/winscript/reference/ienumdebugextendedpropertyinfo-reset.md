@@ -2,15 +2,16 @@
 title: "IEnumDebugExtendedPropertyInfo::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname:
+apiname: 
   - "IEnumDebugExtendedPropertyInfo.Reset"
-apilocation:
+apilocation: 
   - "scrobj.dll"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "IEnumDebugExtendedPropertyInfo::Reset"
 ms.assetid: a10715a4-1418-40e4-a887-72f5b5d5b92d
 caps.latest.revision: 8
@@ -19,18 +20,18 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IEnumDebugExtendedPropertyInfo::Reset
-Resets an enumeration sequence to the beginning.
-
-## Syntax
-
+Resets an enumeration sequence to the beginning.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT Reset (
-void
-);
-```
-
-## Return Value
- Returns a valid `HRESULT`, typically `S_OK`.
-
-## See Also
+HRESULT Reset (  
+void  
+);  
+```  
+  
+## Return Value  
+ Returns a valid `HRESULT`, typically `S_OK`.  
+  
+## See Also  
  [IEnumDebugExtendedPropertyInfo Interface](../../winscript/reference/ienumdebugextendedpropertyinfo-interface.md)

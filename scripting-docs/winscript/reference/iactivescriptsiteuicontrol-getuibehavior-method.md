@@ -2,6 +2,7 @@
 title: "IActiveScriptSiteUIControl::GetUIBehavior Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,17 +14,17 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptSiteUIControl::GetUIBehavior Method
-Gets a [SCRIPTUICHANDLING Enumeration](../../winscript/reference/scriptuichandling-enumeration.md) that represents the way that a UI control should be handled.
-
-## Syntax
-
+Gets a [SCRIPTUICHANDLING Enumeration](../../winscript/reference/scriptuichandling-enumeration.md) that represents the way that a UI control should be handled.  
+  
+## Syntax  
+  
 ```cpp
-HRESULT GetUIBehavior(     [in] SCRIPTUICITEM UicItem,     [out] SCRIPTUICHANDLING * pUicHandling );
-```
-
-#### Parameters
- `UicItem`
- The type of the control.
-
- `pUicHandling`
+HRESULT GetUIBehavior(     [in] SCRIPTUICITEM UicItem,     [out] SCRIPTUICHANDLING * pUicHandling );   
+```  
+  
+#### Parameters  
+ `UicItem`  
+ The type of the control.  
+  
+ `pUicHandling`  
  The way the control should be handled.

@@ -2,6 +2,7 @@
 title: "IEnumJsStackFrames Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
+ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,25 +14,25 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IEnumJsStackFrames Interface
-Implemented by the debugger to provide stack unwind to jscript9diag.dll for JavaScript.
-
-## Syntax
-
+Implemented by the debugger to provide stack unwind to jscript9diag.dll for JavaScript.  
+  
+## Syntax  
+  
 ```cpp
-IEnumJsStackFrames : public IUnknown;
-```
-
-## Members
-
-### Public Methods
-
-|Name|Description|
-|----------|-----------------|
-|[IEnumJsStackFrames::Next Method](../../winscript/reference/ienumjsstackframes-next-method.md)|Gets the specified number of frames.|
-|[IEnumJsStackFrames::Reset Method](../../winscript/reference/ienumjsstackframes-reset-method.md)|Resets the stack frame to the position before the first element.|
-
-## Requirements
- **Header:** jscript9diag.h
-
-## See Also
+IEnumJsStackFrames : public IUnknown;  
+```  
+  
+## Members  
+  
+### Public Methods  
+  
+|Name|Description|  
+|----------|-----------------|  
+|[IEnumJsStackFrames::Next Method](../../winscript/reference/ienumjsstackframes-next-method.md)|Gets the specified number of frames.|  
+|[IEnumJsStackFrames::Reset Method](../../winscript/reference/ienumjsstackframes-reset-method.md)|Resets the stack frame to the position before the first element.|  
+  
+## Requirements  
+ **Header:** jscript9diag.h  
+  
+## See Also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)
