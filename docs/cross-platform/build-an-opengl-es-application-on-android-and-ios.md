@@ -25,11 +25,9 @@ Before you can create an OpenGL ES app for iOS and Android, you must make sure y
 
 In this tutorial, you first create a new OpenGL ES Application project and then build and run the default app in the Visual Studio Emulator for Android. Next you build the app for iOS and run the app in the iOS Simulator.
 
-### To create a new project
+1. In Visual Studio, choose **File** > **New** > **Project**.
 
-1. Open Visual Studio. On the menu bar, choose **File**, **New**, **Project**.
-
-2. In the **New Project** dialog box, under **Templates**, choose **Visual C++**, **Cross Platform**, and then choose the **OpenGLES Application (Android, iOS)** template.
+2. In the **New Project** dialog box, under **Templates**, choose **Visual C++** > **Cross Platform**, and then choose the **OpenGLES Application (Android, iOS)** template.
 
 3. Give the app a name like `MyOpenGLESApp`, and then choose **OK**.
 

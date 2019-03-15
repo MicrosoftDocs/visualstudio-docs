@@ -302,6 +302,7 @@
               href: ide/troubleshooting-snippets.md
         - name: Quick Actions
           href: ide/quick-actions.md
+          displayName: light bulb screwdriver suggestions
           items:
           - name: Common Quick Actions
             href: ide/common-quick-actions.md
