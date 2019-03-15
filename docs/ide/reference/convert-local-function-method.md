@@ -32,7 +32,7 @@ This refactoring applies to:
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-    ![Convert local function to method codefix](media/convert-local-function-to-method-codefix.png)
+    ![Convert local function to method code fix](media/convert-local-function-to-method-codefix.png)
 
 2. Press **Enter** to accept the refactoring.
 
