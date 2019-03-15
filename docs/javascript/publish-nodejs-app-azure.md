@@ -108,7 +108,7 @@ to the following illustration.
 
 ## Create a Linux App Service in Azure
 
-1. Log in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
 2. Select **App Services** from the list of services on the left, and then click **Add**.
 
@@ -135,7 +135,7 @@ to the following illustration.
 
 8. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
 
-    ![GitHub permisions](../javascript/media/azure-choose-source.png)
+    ![GitHub permissions](../javascript/media/azure-choose-source.png)
 
 9. Select the repository and branch to publish, and then select **OK**.
 
@@ -174,7 +174,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 * When the container starts up, it runs through various heuristics to figure out
 how to start the Node.js process. Details of the implementation can be seen at
 [generateStartupCommand.js](https://github.com/Azure-App-Service/node/blob/master/8.9.4/startup/generateStartupCommand.js).
-* You can connect to the running container via SSH for investigations. This is easily done using the Azure Portal. Select the App Service, and scroll down
+* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
 from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).

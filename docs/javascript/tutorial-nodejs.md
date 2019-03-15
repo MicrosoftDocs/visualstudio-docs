@@ -198,7 +198,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 ## Run the application
 
-1. Select the debug target in the Debug toolbar, such as Edge or Chrome.
+1. Select the debug target in the Debug toolbar, such as Microsoft Edge or Chrome.
 
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
 
