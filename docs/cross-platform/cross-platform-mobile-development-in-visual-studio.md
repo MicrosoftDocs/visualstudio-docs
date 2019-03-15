@@ -90,7 +90,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  ![Multi-device hybrid apps with Javascript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with Javascript")
 
- To get started, install Visual Studio 2017 and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
+ To get started, install Visual Studio and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
 
  After you've installed the extension, open Visual Studio and create a **Blank App (Apache Cordova)** project. Then, you can develop your app by using JavaScript or Typescript. You can also add plug-ins to extend the functionality of your app, and APIs from plug-ins appear in IntelliSense as you write code.
 
