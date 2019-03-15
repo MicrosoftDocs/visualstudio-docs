@@ -1,7 +1,7 @@
 ---
 title: Select a Python interpreter and environment for a project
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
-ms.date: 03/13/2019
+ms.date: 02/11/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -20,7 +20,6 @@ All new Python projects in Visual Studio are initially configured to use the def
 
 ![Global default Python environment shown in Solution Explorer](media/environments-project.png)
 
-::: moniker-range="vs-2017"
 To change the environment for a project, right-click the **Python Environments** node and select **Add/Remove Python Environments**. From the displayed list, which includes global, virtual, and conda environments, select all the ones you want to appear under the **Python Environments** node:
 
 ![Add/Remove Python Environments dialog](media/environments-add-remove.png)
@@ -38,12 +37,6 @@ The context menu on the **Python Environments** node also provides additional co
 | **Add Virtual Environment** | Begins the process of creating a new virtual environment in the project. See [Create a virtual environment](#create-a-virtual-environment). |
 | **Add Existing Virtual Environment** | Prompts you to select a folder containing a virtual environment and adds it to the list under **Python Environments**, but does not activate it. See [Activate an existing virtual environment](#activate-an-existing-virtual-environment). |
 | **Create Conda environment** | Switches to the **Python Environments** *window* in which you enter a name for the environment and specify its base interpreter. See [Conda environments](managing-python-environments-in-visual-studio.md#conda-environments). |
-::: moniker-end
-
-::: moniker-range=">=vs-2019"
-To change the environment for a project, right-click the **Python Environments** node and select **Add/Remove Python Environments**. From the displayed list, which includes global, virtual, and conda environments, select all the ones you want to appear under the **Python Environments** node:
- TODO
-::: moniker-end
 
 ## Use virtual environments
 

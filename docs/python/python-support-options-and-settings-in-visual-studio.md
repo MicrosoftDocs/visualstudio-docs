@@ -23,7 +23,12 @@ ms.workload:
 
 To view Python options, use the **Tools** > **Options** menu command, make sure **Show all settings** is selected, and then navigate to **Python**:
 
+::: moniker range="vs-2017"
 ![Python options dialog, General tab](media/options-general.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Python options dialog, General tab](media/options-general-2019.png)
+::: moniker-end
 
 There are also additional Python-specific options on the **Text Editor** > **Python** > **Advanced** tab, and on the **Environment** > **Fonts and Colors** tab within the **Text Editor** group.
 
@@ -57,7 +62,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-# Conda options
+## Conda options
 
 (**Tools** > **Options** > **Python** > **Conda** tab.)
 
@@ -116,7 +121,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 ![Python options dialog, Interactive Windows tab](media/options-interactive-windows.png)
 
 ::: moniker range=">=vs-2019"
-# Language server options
+## Language server options
 
 (**Tools** > **Options** > **Python** > **Language server** tab.)
 

@@ -26,10 +26,10 @@ Visual Studio thus provides a means to specify search paths directly in both env
 
 To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, select **Add Folder to Search Path**:
 
-::: moniker-range="vs-2017"
+::: moniker range="vs-2017"
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command.png)
 ::: moniker-end
-::: moniker-range=">=vs-2019"
+::: moniker range=">=vs-2019"
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command-2019.png)
 ::: moniker-end
 
