@@ -17,7 +17,7 @@ An Extension Pack is a set of extensions that can be installed together. Extensi
 
 ## Prerequisites
 
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+Starting in Visual Studio 2015, the Visual Studio SDK is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 The Extension Pack feature is available starting with Visual Studio 15.8 Preview 2.
 
