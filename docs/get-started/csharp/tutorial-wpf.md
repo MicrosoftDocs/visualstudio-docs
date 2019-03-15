@@ -228,7 +228,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
    A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
-   ![Screenshot of IOException message](media/exploreide-ioexception.png)
+   ![Screenshot of IOException message](../media/exploreide-ioexception.png)
 
 2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
