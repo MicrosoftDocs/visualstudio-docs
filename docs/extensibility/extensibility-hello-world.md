@@ -58,7 +58,7 @@ Step 2. Enter "HelloWorld" for the **Project name** and select **Create**.
 
 ![new project](media/hello-world-new-project-2019.png)
 
-You should now see the HelloWorld project in the **Solution Explorer**.
+You should now see the HelloWorld project in **Solution Explorer**.
 
 ::: moniker-end
 
