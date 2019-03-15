@@ -132,7 +132,7 @@ To do this, you first need to double-check that you've installed everything as d
 
    ![Screenshot of Publish menu item](media/tutorial-kubernetes-tools/k8s-tools-publish-project.png)
 
-2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](vs-azure-tools-hosting-web-apps-in-docker.md).
+2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
 
    ![Screenshot of Pick a publish target screen](media/tutorial-kubernetes-tools/k8s-tools-publish-to-acr.png)
 
