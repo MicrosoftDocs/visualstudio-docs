@@ -81,7 +81,7 @@ First, create a Node.js web application project.
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web Application**, and then choose **OK**.
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Blank Node.js Web Application**, and then choose **Next**. Then, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
