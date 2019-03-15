@@ -123,7 +123,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | Option | Default | Description |
 | --- | --- | --- |
 | **Disable completions from Typeshed** | Off | Visual Studio IntelliSense normally uses a bundled version of Typeshed (a set of *.pyi* files) to find type hints for standard library and third-party libraries for both Python 2 and Python 3. Setting this option disables the bundled TypeShed behavior. |
-| **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Setting this path overrides **Disable completions from Typeshed**. |
+| **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. |
 
 ![Python options dialog, Language server tab](media/options-language-server.png)
 
