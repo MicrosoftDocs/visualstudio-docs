@@ -212,7 +212,7 @@ Items can inherit the foreground color from other display items such as **Plain 
 
 **Default**
 
-The color that appears for the item the first time you start Visual Studio. Clicking the **Use Defaults** button resets to this color.
+The color that appears for the item the first time you open Visual Studio. Clicking the **Use Defaults** button resets to this color.
 
 **Custom**
 
@@ -231,7 +231,7 @@ Items can inherit the background color from other display items such as **Plain 
 
 **Default**
 
-The color that appears for the item the first time you start Visual Studio. Clicking the **Use Defaults** button resets to this color.
+The color that appears for the item the first time you open Visual Studio. Clicking the **Use Defaults** button resets to this color.
 
 **Custom**
 
