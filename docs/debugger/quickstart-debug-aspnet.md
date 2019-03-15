@@ -19,13 +19,18 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File > New > Project**.
 
-1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**.
+::: moniker range=">=vs-2019"
+2. In the **Create a new project** dialog box, type **asp.net** in the search box to filter results, choose **ASP.NET Core Web Application**, and then click **Next**.
+::: moniker-end
+::: moniker range="vs-2017"
+2. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**.
+::: moniker-end
 
-1. Type a name like **MyDbgApp** and click **OK**.
+3. Type a name like **MyDbgApp** and click **OK**.
 
-1. In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
+4. In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
 
      If you don't see the **Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
@@ -33,7 +38,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     Visual Studio creates the project.
 
-1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
+5. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
     ```csharp
     public void OnGet()
