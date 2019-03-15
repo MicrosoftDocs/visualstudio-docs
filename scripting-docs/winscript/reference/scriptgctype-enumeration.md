@@ -2,7 +2,6 @@
 title: "SCRIPTGCTYPE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +13,20 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # SCRIPTGCTYPE Enumeration
-The type of garbage collection to perform. Used in the [IActiveScriptGarbageCollector::CollectGarbage](../../winscript/reference/iactivescriptgarbagecollector-collectgarbage.md) method.  
-  
-## Syntax  
-  
-```cpp  
-typedef enum tagSCRIPTGCTYPE {    SCRIPTGCTYPE_NORMAL           = 0,    SCRIPTGCTYPE_EXHAUSTIVE       = 1,} SCRIPTGCTYPE;  
-```  
-  
-## Enumeration Values  
-  
-|||  
-|-|-|  
-|SCRIPTGCTYPE_NORMAL|Do normal garbage collection. The integer value is 0.|  
-|SCRIPTGCTYPE_EXHAUSTIVE|Do exhaustive garbage collection. The integer value is 1.|  
-  
-## See Also  
+The type of garbage collection to perform. Used in the [IActiveScriptGarbageCollector::CollectGarbage](../../winscript/reference/iactivescriptgarbagecollector-collectgarbage.md) method.
+
+## Syntax
+
+```cpp
+typedef enum tagSCRIPTGCTYPE {    SCRIPTGCTYPE_NORMAL           = 0,    SCRIPTGCTYPE_EXHAUSTIVE       = 1,} SCRIPTGCTYPE;
+```
+
+## Enumeration Values
+
+|||
+|-|-|
+|SCRIPTGCTYPE_NORMAL|Do normal garbage collection. The integer value is 0.|
+|SCRIPTGCTYPE_EXHAUSTIVE|Do exhaustive garbage collection. The integer value is 1.|
+
+## See Also
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

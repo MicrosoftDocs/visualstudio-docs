@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteTraceInfo Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,11 +13,11 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptSiteTraceInfo Interface
-Provides a method to send script trace information.  
-  
-## Methods  
-  
-|||  
-|-|-|  
-|Method|Description|  
+Provides a method to send script trace information.
+
+## Methods
+
+|||
+|-|-|
+|Method|Description|
 |[IActiveScriptSiteTraceInfo::SendScriptTraceInfo Method](../../winscript/reference/iactivescriptsitetraceinfo-sendscripttraceinfo-method.md)|Sends trace information that includes the event type, context, and the script statement.|

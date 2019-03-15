@@ -2,16 +2,15 @@
 title: "IDebugProperty::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname: 
+apiname:
   - "IDebugProperty.GetParent"
-apilocation: 
+apilocation:
   - "scrobj.dll"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProperty::GetParent"
 ms.assetid: 673d625b-acca-45c4-88f4-b72275042f8f
 caps.latest.revision: 8
@@ -20,22 +19,22 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IDebugProperty::GetParent
-Gets the parent property of a property.  
-  
-## Syntax  
-  
+Gets the parent property of a property.
+
+## Syntax
+
 ```cpp
-HRESULT GetParent (  
-   IDebugProperty** ppParent  
-);  
-```  
-  
-#### Parameters  
- `ppParent`  
- [out] Returns the `IDebugProperty` interface that represents the parent of the property.  
-  
-## Return Value  
- Returns a valid `HRESULT`, typically `S_OK`.  
-  
-## See Also  
+HRESULT GetParent (
+   IDebugProperty** ppParent
+);
+```
+
+#### Parameters
+ `ppParent`
+ [out] Returns the `IDebugProperty` interface that represents the parent of the property.
+
+## Return Value
+ Returns a valid `HRESULT`, typically `S_OK`.
+
+## See Also
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

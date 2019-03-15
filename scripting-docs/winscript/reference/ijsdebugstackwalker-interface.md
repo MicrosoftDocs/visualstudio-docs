@@ -2,7 +2,6 @@
 title: "IJsDebugStackWalker Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,27 +13,27 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsDebugStackWalker Interface
-Represents a stack walker for a specified thread.  
-  
-## Syntax  
-  
+Represents a stack walker for a specified thread.
+
+## Syntax
+
 ```cpp
-IJsDebugStackWalker : public IUnknown;  
-```  
-  
-## Members  
-  
-### Public Methods  
-  
-|Name|Description|  
-|----------|-----------------|  
-|[IJsDebugStackWalker::GetNext Method](../../winscript/reference/ijsdebugstackwalker-getnext-method.md)|Gets the next frame.|  
-  
-## Remarks  
- Stack walkers can only be created while the target is stopped, and are invalid once the target process has been continued again.  
-  
-## Requirements  
- **Header:** jscript9diag.h  
-  
-## See Also  
+IJsDebugStackWalker : public IUnknown;
+```
+
+## Members
+
+### Public Methods
+
+|Name|Description|
+|----------|-----------------|
+|[IJsDebugStackWalker::GetNext Method](../../winscript/reference/ijsdebugstackwalker-getnext-method.md)|Gets the next frame.|
+
+## Remarks
+ Stack walkers can only be created while the target is stopped, and are invalid once the target process has been continued again.
+
+## Requirements
+ **Header:** jscript9diag.h
+
+## See Also
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

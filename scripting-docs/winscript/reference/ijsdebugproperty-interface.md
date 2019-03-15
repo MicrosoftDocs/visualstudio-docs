@@ -2,7 +2,6 @@
 title: "IJsDebugProperty Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,25 +13,25 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsDebugProperty Interface
-Represents a property browser.  
-  
-## Syntax  
-  
+Represents a property browser.
+
+## Syntax
+
 ```cpp
-IJsDebugProperty : public IUnknown;  
-```  
-  
-## Members  
-  
-### Public Methods  
-  
-|Name|Description|  
-|----------|-----------------|  
-|[IJsDebugProperty::GetMembers Method](../../winscript/reference/ijsdebugproperty-getmembers-method.md)|Gets the members of this object.|  
-|[IJsDebugProperty::GetPropertyInfo Method](../../winscript/reference/ijsdebugproperty-getpropertyinfo-method.md)|Gets Information for this object.|  
-  
-## Requirements  
- **Header:** jscript9diag.h  
-  
-## See Also  
+IJsDebugProperty : public IUnknown;
+```
+
+## Members
+
+### Public Methods
+
+|Name|Description|
+|----------|-----------------|
+|[IJsDebugProperty::GetMembers Method](../../winscript/reference/ijsdebugproperty-getmembers-method.md)|Gets the members of this object.|
+|[IJsDebugProperty::GetPropertyInfo Method](../../winscript/reference/ijsdebugproperty-getpropertyinfo-method.md)|Gets Information for this object.|
+
+## Requirements
+ **Header:** jscript9diag.h
+
+## See Also
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

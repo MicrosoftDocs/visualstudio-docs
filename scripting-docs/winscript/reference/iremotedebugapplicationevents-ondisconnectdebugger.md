@@ -2,16 +2,15 @@
 title: "IRemoteDebugApplicationEvents::OnDisconnectDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname: 
+apiname:
   - "IRemoteDebugApplicationEvents.OnDisconnectDebugger"
-apilocation: 
+apilocation:
   - "jscript.dll"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IRemoteDebugApplicationEvents::OnDisconnectDebugger"
 ms.assetid: ea11cde0-1484-4181-a5dd-a1f6cf788892
 caps.latest.revision: 8
@@ -20,26 +19,26 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IRemoteDebugApplicationEvents::OnDisconnectDebugger
-Handles a debugger disconnect event.  
-  
-## Syntax  
-  
+Handles a debugger disconnect event.
+
+## Syntax
+
 ```cpp
-HRESULT OnDisconnectDebugger();  
-```  
-  
-#### Parameters  
- This method takes no parameters.  
-  
-## Return Value  
- The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.  
-  
-|Value|Description|  
-|-----------|-----------------|  
-|`S_OK`|The method succeeded.|  
-  
-## Remarks  
- This method handles the debugger disconnect event.  
-  
-## See Also  
+HRESULT OnDisconnectDebugger();
+```
+
+#### Parameters
+ This method takes no parameters.
+
+## Return Value
+ The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.
+
+|Value|Description|
+|-----------|-----------------|
+|`S_OK`|The method succeeded.|
+
+## Remarks
+ This method handles the debugger disconnect event.
+
+## See Also
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

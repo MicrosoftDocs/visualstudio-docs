@@ -2,7 +2,6 @@
 title: "IJsDebug Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,24 +13,24 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IJsDebug Interface
-Entry point for JavaScript debugging.  
-  
-## Syntax  
-  
+Entry point for JavaScript debugging.
+
+## Syntax
+
 ```cpp
-IJsDebug : public IUnknown;  
-```  
-  
-## Members  
-  
-### Public Methods  
-  
-|Name|Description|  
-|----------|-----------------|  
-|[IJsDebug::OpenVirtualProcess Method](../../winscript/reference/ijsdebug-openvirtualprocess-method.md)|Factory method used to create a new virtual process object.|  
-  
-## Requirements  
- **Header:** jscript9diag.h  
-  
-## See Also  
+IJsDebug : public IUnknown;
+```
+
+## Members
+
+### Public Methods
+
+|Name|Description|
+|----------|-----------------|
+|[IJsDebug::OpenVirtualProcess Method](../../winscript/reference/ijsdebug-openvirtualprocess-method.md)|Factory method used to create a new virtual process object.|
+
+## Requirements
+ **Header:** jscript9diag.h
+
+## See Also
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

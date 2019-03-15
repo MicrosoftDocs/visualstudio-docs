@@ -2,7 +2,6 @@
 title: "SCRIPTUICITEM Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,17 +13,17 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # SCRIPTUICITEM Enumeration
-Represents the type of UI item. Used in the [IActiveScriptSiteUIControl::GetUIBehavior Method](../../winscript/reference/iactivescriptsiteuicontrol-getuibehavior-method.md).  
-  
-## Syntax  
-  
-```vb  
-typedef enum tagSCRIPTUICITEM {     SCRIPTUICITEM_INPUTBOX = 1,     SCRIPTUICITEM_MSGBOX = 2,     } SCRIPTUICITEM;   
-```  
-  
-## Enumeration Values  
-  
-|||  
-|-|-|  
-|SCRIPTUICITEM_INPUTBOX|An input control.|  
+Represents the type of UI item. Used in the [IActiveScriptSiteUIControl::GetUIBehavior Method](../../winscript/reference/iactivescriptsiteuicontrol-getuibehavior-method.md).
+
+## Syntax
+
+```vb
+typedef enum tagSCRIPTUICITEM {     SCRIPTUICITEM_INPUTBOX = 1,     SCRIPTUICITEM_MSGBOX = 2,     } SCRIPTUICITEM;
+```
+
+## Enumeration Values
+
+|||
+|-|-|
+|SCRIPTUICITEM_INPUTBOX|An input control.|
 |SCRIPTUICITEM_MSGBOX|A message box.|

@@ -2,16 +2,15 @@
 title: "IRemoteDebugApplicationEvents::OnDestroyThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname: 
+apiname:
   - "IRemoteDebugApplicationEvents.OnDestroyThread"
-apilocation: 
+apilocation:
   - "jscript.dll"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IRemoteDebugApplicationEvents::OnDestroyThread"
 ms.assetid: 7c716ccc-7b82-41b2-9a16-d0366999dee8
 caps.latest.revision: 8
@@ -20,29 +19,29 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IRemoteDebugApplicationEvents::OnDestroyThread
-Handles a thread-destroyed event.  
-  
-## Syntax  
-  
+Handles a thread-destroyed event.
+
+## Syntax
+
 ```cpp
-HRESULT OnDestroyThread(  
-   IRemoteDebugApplicationThread*  prdat  
-);  
-```  
-  
-#### Parameters  
- `prdat`  
- [in] The thread that was destroyed.  
-  
-## Return Value  
- The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.  
-  
-|Value|Description|  
-|-----------|-----------------|  
-|`S_OK`|The method succeeded.|  
-  
-## Remarks  
- This method handles the thread-destroyed event.  
-  
-## See Also  
+HRESULT OnDestroyThread(
+   IRemoteDebugApplicationThread*  prdat
+);
+```
+
+#### Parameters
+ `prdat`
+ [in] The thread that was destroyed.
+
+## Return Value
+ The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.
+
+|Value|Description|
+|-----------|-----------------|
+|`S_OK`|The method succeeded.|
+
+## Remarks
+ This method handles the thread-destroyed event.
+
+## See Also
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

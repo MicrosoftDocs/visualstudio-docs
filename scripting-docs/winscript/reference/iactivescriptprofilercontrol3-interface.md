@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl3 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,14 +13,14 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptProfilerControl3 Interface
-Provides a method to enumerate over the GC heap objects associated with a script engine.  
-  
-## Syntax  
-  
+Provides a method to enumerate over the GC heap objects associated with a script engine.
+
+## Syntax
+
 ```cpp
-interface IActiveScriptProfilerControl3 : IActiveScriptProfilerControl2  
-```  
-  
-## Methods  
- [IActiveScriptProfilerControl3::EnumHeap Method](../../winscript/reference/iactivescriptprofilercontrol3-enumheap-method.md)  
+interface IActiveScriptProfilerControl3 : IActiveScriptProfilerControl2
+```
+
+## Methods
+ [IActiveScriptProfilerControl3::EnumHeap Method](../../winscript/reference/iactivescriptprofilercontrol3-enumheap-method.md)
  Returns an interface ([IActiveScriptProfilerHeapEnum Interface](../../winscript/reference/iactivescriptprofilerheapenum-interface.md)) that can be used to iterate over the GC heap objects in the context of the associated script engine.

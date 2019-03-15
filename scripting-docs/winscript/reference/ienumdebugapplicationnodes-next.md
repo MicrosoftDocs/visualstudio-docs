@@ -2,16 +2,15 @@
 title: "IEnumDebugApplicationNodes::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-apiname: 
+apiname:
   - "IEnumDebugApplicationNodes.Next"
-apilocation: 
+apilocation:
   - "pdm.dll"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IEnumDebugApplicationNodes::Next"
 ms.assetid: 925511c8-4f11-423d-ba2d-01589457050c
 caps.latest.revision: 8
@@ -20,37 +19,37 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IEnumDebugApplicationNodes::Next
-Retrieves a specified number of segments in the enumeration sequence.  
-  
-## Syntax  
-  
+Retrieves a specified number of segments in the enumeration sequence.
+
+## Syntax
+
 ```cpp
-HRESULT Next(  
-   ULONG                    celt,  
-   IDebugApplicationNode**  pprddp,  
-   ULONG*                   pceltFetched  
-);  
-```  
-  
-#### Parameters  
- `celt`  
- [in] The number of segments to retrieve.  
-  
- `pprddp`  
- [out] Returns an array of `IDebugApplicationNode` interfaces that represents the segments being retrieved.  
-  
- `pceltFetched`  
- [out] The actual number of segments fetched by the enumerator.  
-  
-## Return Value  
- The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.  
-  
-|Value|Description|  
-|-----------|-----------------|  
-|`S_OK`|The method succeeded.|  
-  
-## Remarks  
- This method retrieves a specified number of segments in the enumeration sequence.  
-  
-## See Also  
+HRESULT Next(
+   ULONG                    celt,
+   IDebugApplicationNode**  pprddp,
+   ULONG*                   pceltFetched
+);
+```
+
+#### Parameters
+ `celt`
+ [in] The number of segments to retrieve.
+
+ `pprddp`
+ [out] Returns an array of `IDebugApplicationNode` interfaces that represents the segments being retrieved.
+
+ `pceltFetched`
+ [out] The actual number of segments fetched by the enumerator.
+
+## Return Value
+ The method returns an `HRESULT`. Possible values include, but are not limited to, those in the following table.
+
+|Value|Description|
+|-----------|-----------------|
+|`S_OK`|The method succeeded.|
+
+## Remarks
+ This method retrieves a specified number of segments in the enumeration sequence.
+
+## See Also
  [IEnumDebugApplicationNodes Interface](../../winscript/reference/ienumdebugapplicationnodes-interface.md)

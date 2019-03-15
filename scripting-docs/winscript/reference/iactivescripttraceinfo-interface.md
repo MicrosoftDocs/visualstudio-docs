@@ -2,7 +2,6 @@
 title: "IActiveScriptTraceInfo Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,11 +13,11 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IActiveScriptTraceInfo Interface
-Provides methods to start and stop tracing.  
-  
-## Methods  
-  
-|Method|Description|  
-|------------|-----------------|  
-|[IActiveScriptTraceInfo::StartScriptTracing Method](../../winscript/reference/iactivescripttraceinfo-startscripttracing-method.md)|Starts script tracing.|  
+Provides methods to start and stop tracing.
+
+## Methods
+
+|Method|Description|
+|------------|-----------------|
+|[IActiveScriptTraceInfo::StartScriptTracing Method](../../winscript/reference/iactivescripttraceinfo-startscripttracing-method.md)|Starts script tracing.|
 |[IActiveScriptTraceInfo::StopScriptTracing Method](../../winscript/reference/iactivescripttraceinfo-stopscripttracing-method.md)|Stops tracing.|
