@@ -143,7 +143,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
      Your window should look like this:
 
-     ![Greetings form with textblock and two radiobuttons](../media/exploreide-greetingswithradiobuttons.png)
+     ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png)
 
 3. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
