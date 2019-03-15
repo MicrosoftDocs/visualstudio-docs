@@ -931,6 +931,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/extensibility/solutions.md",
+            "redirect_url": "/visualstudio/extensibility/solutions-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/adding-and-removing-project-items.md",
             "redirect_url": "/visualstudio/ide/creating-solutions-and-projects",
             "redirect_document_id": false
