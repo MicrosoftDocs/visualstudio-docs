@@ -4,8 +4,8 @@ ms.date: "10/24/2017"
 ms.technology: vs-ide-general
 ms.topic: "conceptual"
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "uwp"
