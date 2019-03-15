@@ -73,7 +73,7 @@ After you have run your load test and collected the virtual user activity data, 
 
 7.  A tool tip is displayed with the following information:
 
-    -   **User Id**
+    -   **User ID**
 
     -   **Scenario**
 
