@@ -79,7 +79,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
-1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
 2. Select `Test Extension Pack` and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 

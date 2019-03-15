@@ -20,6 +20,8 @@
     maintainContext: true
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
+  - name: Open and run Python code in a folder
+    href: quickstart-05-python-visual-studio-open-folder.md  
   - name: Create a project from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository

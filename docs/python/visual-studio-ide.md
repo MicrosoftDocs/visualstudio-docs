@@ -1,7 +1,7 @@
 ---
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
-ms.date: 12/14/2018
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -22,6 +22,10 @@ This image shows Visual Studio with an open Python project and several key tool 
 
 - [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](/visualstudio/get-started/tutorial-projects-solutions).
     - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
+
+    ::: moniker range=">=vs-2019"
+    - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
+    ::: moniker-end
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).
 
@@ -77,6 +81,12 @@ Some of the popular features in Visual Studio that help you to be more productiv
    ![Code navigation commands](media/tour-ide-navigation-commands.png)
 
 ## Powerful features for Python
+
+::: moniker range=">=vs-2019"
+- [Run code without a project](quickstart-05-python-visual-studio-open-folder.md)
+
+    Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
+::: moniker-end
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 

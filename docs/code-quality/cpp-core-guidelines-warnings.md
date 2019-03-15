@@ -181,7 +181,7 @@ The Native Code Analysis checker (PREfast) is integrated into MSBuild environmen
 
 Make sure you add these properties before the import of the Microsoft.Cpp.targets file. You can pick specific rule sets or create a custom rule set or use the default rule set that includes other PREfast checks.
 
-You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#coreckeck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
+You can run the C++ Core Checker only on specified files by using the same approach as [described earlier](#corecheck_per_file), but using MSBuild files. The environment variables can be set by using the `BuildMacro` item:
 
 ```xml
 <ItemGroup>

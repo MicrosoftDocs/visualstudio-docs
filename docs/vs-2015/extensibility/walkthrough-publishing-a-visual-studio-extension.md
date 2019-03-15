@@ -42,7 +42,7 @@ This walkthrough shows you how to publish a Visual Studio extension to the Visua
 
 1.  Make sure that you have built the Release version of your extension and that it is up-to-date.
 
-2.  In a web browser, open the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=194329) website.
+2.  In a web browser, open the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) website.
 
 3.  In the upper-right corner, click **SIGN IN**.
 
@@ -80,7 +80,7 @@ This walkthrough shows you how to publish a Visual Studio extension to the Visua
 
 #### To remove the extension from the Visual Studio Gallery
 
-1.  Open the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=194329) website.
+1.  Open the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) website.
 
 2.  In the upper-right corner, click **My Extenions**. The listing for TestPublish is displayed.
 

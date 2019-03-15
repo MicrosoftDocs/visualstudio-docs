@@ -292,7 +292,7 @@ MSBuild requires some additional assemblies to be installed to the GAC on the bu
 
     - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll
 
-2. To install the assemblies to the GAC, locate *gacutil.exe* on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.
+2. To install the assemblies to the GAC, locate *gacutil.exe* on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#copy-files-from-the-host-computer-to-the-build-computer) section of this walkthrough.
 
      Open a **Command Prompt** window that has administrative rights and run this command for each file:
 
@@ -324,7 +324,7 @@ You can create a build environment that can be deployed to various computers and
 
      These steps refer to the directory as %Depot%.
 
-2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the *%Depot%* directory that you just created. For example, copy from *%ProgramFiles%\Windows Kits\8.0\bin* to *%Depot%\Windows Kits\8.0\bin*.
+2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#copy-files-from-the-host-computer-to-the-build-computer) section of this walkthrough, except paste them under the *%Depot%* directory that you just created. For example, copy from *%ProgramFiles%\Windows Kits\8.0\bin* to *%Depot%\Windows Kits\8.0\bin*.
 
 3. When the files are pasted in *%Depot%*, make these changes:
 

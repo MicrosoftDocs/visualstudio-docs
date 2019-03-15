@@ -341,6 +341,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/xaml-edit-and-continue.md",
+            "redirect_url": "/visualstudio/debugger/xaml-hot-reload",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/how-to-debug-com-servers.md",
             "redirect_url": "/visualstudio/debugger/com-server-and-container-debugging",
             "redirect_document_id": false
@@ -2408,6 +2413,16 @@
         {
             "source_path": "docs/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-overwrite-the-reference-file.md",
             "redirect_url": "/visualstudio/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xslt-debugger.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xml-editor.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-editor?view=vs-2015",
             "redirect_document_id": false
         },
         {

@@ -25,15 +25,13 @@ ms.workload:
 
  This walkthrough includes the following tasks:
 
-- [Creating Custom Site Columns](#BKMK_CreatingCustSiteCols).
+- [Create custom site columns](#create-custom-site-columns).
 
-- [Creating a Custom Content Type](#BKMK_CreateCustContType).
+- [Create a custom content type](#create-a-custom-content-type).
 
-- [Creating a List](#BKMK_CreateList).
+- [Create a list](#create-a-list).
 
-- [Creating a List](#BKMK_CreateList).
-
-- [Testing the Application](#BKMK_TestApp).
+- [Test the application](#test-the-application).
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 

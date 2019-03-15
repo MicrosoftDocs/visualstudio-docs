@@ -28,16 +28,24 @@
   items:
   - name: Code analysis for managed code
     items:
-    - name: FAQ for FxCop analyzers
-      href: fxcop-analyzers-faq.md
-    - name: Migrate from FxCop
-      href: fxcop-analyzers.yml
+    - name: FxCop analyzers
       items:
-      - name: Install FxCop analyzers
+      - name: FAQ
+        href: fxcop-analyzers-faq.md
+      - name: Install
         href: install-fxcop-analyzers.md
+      - name: Configure
+        href: configure-fxcop-analyzers.md
+        items:
+        - name: Configuration options
+          href: fxcop-analyzer-options.md
+      - name: Migrate from static code analysis
+        href: fxcop-analyzers.yml
+    - name: Analyzers FAQ
+      href: analyzers-faq.md
     - name: Install Roslyn analyzers
       href: install-roslyn-analyzers.md
-    - name: Configure and use Roslyn analyzers
+    - name: Use and configure Roslyn analyzers
       href: use-roslyn-analyzers.md
     - name: Enable automatic code analysis
       href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
@@ -152,9 +160,9 @@
   - name: Code analysis for managed code warnings
     href: code-analysis-for-managed-code-warnings.md
     items:
-    - name: Code Analysis Warnings for Managed Code by CheckId
+    - name: Code Analysis warnings for Managed Code by CheckId
       href: code-analysis-warnings-for-managed-code-by-checkid.md
-    - name: Cryptography Warnings
+    - name: Cryptography warnings
       href: cryptography-warnings.md
       items:
       - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
@@ -288,7 +296,7 @@
         href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
       - name: "CA2210: Assemblies should have valid strong names"
         href: ca2210-assemblies-should-have-valid-strong-names.md
-    - name: Globalization Warnings
+    - name: Globalization warnings
       href: globalization-warnings.md
       items:
       - name: "CA1300: Specify MessageBoxOptions"
@@ -313,7 +321,7 @@
         href: ca1309-use-ordinal-stringcomparison.md
       - name: "CA2101: Specify marshaling for P-Invoke string arguments"
         href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
-    - name: Interoperability Warnings
+    - name: Interoperability warnings
       href: interoperability-warnings.md
       items:
       - name: "CA1400: P-Invoke entry points should exist"
@@ -348,7 +356,7 @@
         href: ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md
       - name: "CA1415: Declare P-Invokes correctly"
         href: ca1415-declare-p-invokes-correctly.md
-    - name: Maintainability Warnings
+    - name: Maintainability warnings
       href: maintainability-warnings.md
       items:
       - name: "CA1500: Variable names should not match field names"
@@ -363,14 +371,14 @@
         href: ca1505-avoid-unmaintainable-code.md
       - name: "CA1506: Avoid excessive class coupling"
         href: ca1506-avoid-excessive-class-coupling.md
-    - name: Mobility Warnings
+    - name: Mobility warnings
       href: mobility-warnings.md
       items:
       - name: "CA1600: Do not use idle process priority"
         href: ca1600-do-not-use-idle-process-priority.md
       - name: "CA1601: Do not use timers that prevent power state changes"
         href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
-    - name: Naming Warnings
+    - name: Naming warnings
       href: naming-warnings.md
       items:
       - name: "CA1700: Do not name enum values 'Reserved'"
@@ -419,7 +427,7 @@
         href: ca1724-type-names-should-not-match-namespaces.md
       - name: "CA1726: Use preferred terms"
         href: ca1726-use-preferred-terms.md
-    - name: Performance Warnings
+    - name: Performance warnings
       href: performance-warnings.md
       items:
       - name: "CA1800: Do not cast unnecessarily"
@@ -454,7 +462,7 @@
         href: ca1823-avoid-unused-private-fields.md
       - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
         href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
-    - name: Portability Warnings
+    - name: Portability warnings
       href: portability-warnings.md
       items:
       - name: "CA1900: Value type fields should be portable"
@@ -463,7 +471,7 @@
         href: ca1901-p-invoke-declarations-should-be-portable.md
       - name: "CA1903: Use only API from targeted framework"
         href: ca1903-use-only-api-from-targeted-framework.md
-    - name: Reliability Warnings
+    - name: Reliability warnings
       href: reliability-warnings.md
       items:
       - name: "CA2000: Dispose objects before losing scope"
@@ -478,7 +486,9 @@
         href: ca2004-remove-calls-to-gc-keepalive.md
       - name: "CA2006: Use SafeHandle to encapsulate native resources"
         href: ca2006-use-safehandle-to-encapsulate-native-resources.md
-    - name: Security Warnings
+      - name: "CA2007: Do not directly await a Task"
+        href: ca2007-do-not-directly-await-task.md
+    - name: Security warnings
       href: security-warnings.md
       items:
       - name: "CA2100: Review SQL queries for security vulnerabilities"
@@ -579,7 +589,7 @@
         href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
       - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
         href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
-    - name: Usage Warnings
+    - name: Usage warnings
       href: usage-warnings.md
       items:
       - name: "CA1801: Review unused parameters"
@@ -670,7 +680,7 @@
         href: ca2243-attribute-string-literals-should-parse-correctly.md
     - name: Code Analysis Policy Errors
       href: code-analysis-policy-errors.md
-  - name: C++ Core Guidelines Checker Warnings
+  - name: C++ Core Guidelines Checker warnings
     href: code-analysis-for-cpp-corecheck.md
     items:
     - name: C26400
@@ -827,7 +837,7 @@
       href: C26497.md
     - name: C26498
       href: C26498.md
-  - name: Code Analysis for C/C++ Warnings
+  - name: Code Analysis for C/C++ warnings
     href: code-analysis-for-c-cpp-warnings.md
     items:
     - name: C1250

@@ -102,6 +102,6 @@ A profiling session is created for each instance of a role in your cloud service
 4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](https://msdn.microsoft.com/library/azure/bb385755.aspx).
 
 ## Next steps
-[Debugging Cloud Services](https://msdn.microsoft.com/library/azure/ee405479.aspx)
+[Debugging Cloud Services](vs-azure-tools-debugging-cloud-services-overview.md)
 
-[Publishing to an Azure Cloud Service from Visual Studio](https://msdn.microsoft.com/library/azure/ee460772.aspx)
+[Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)

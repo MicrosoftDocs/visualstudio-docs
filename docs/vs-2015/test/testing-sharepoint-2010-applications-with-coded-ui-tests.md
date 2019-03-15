@@ -102,7 +102,7 @@ uiGridKeyboardInputEdit.Text=value;
   
 3. Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.  
   
-4. Download the [fiddlerXap project](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-36-48-70/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
+4. Download the [fiddlerXap project](https://40jajy3iyl373v772m19fybm-wpengine.netdna-ssl.com/wp-content/uploads/sites/6/2019/02/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
   
    After setting up your machine, to start testing your SharePoint 2010 app with Silverlight web parts, follow these steps:  
   

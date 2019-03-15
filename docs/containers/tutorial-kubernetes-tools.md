@@ -32,7 +32,7 @@ To leverage this new functionality, you'll need:
     1.  The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
 
     1.  An Azure Kubernetes Service cluster. For more information, see
-        [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
+        [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
 
     1.  Helm CLI installed on your development workstation. For more information
         see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
