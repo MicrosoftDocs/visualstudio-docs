@@ -80,7 +80,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Tee program output to Debug Output window** | On | Displays program output in both a separate console window and the Visual Studio **Output** window. Clear this option to show output only in the separate console window. |
 | **Break on SystemExit exception with exit code of zero** | Off | If set, stops the debugger on this exception. When clear, the debugger exits without breaking. |
 | **Enable debugging of the Python standard library** | Off | Makes it possible to step into the standard library source code while debugging, but increases the time it takes for the debugger to start.|
-| **Show function return value** | On | *Visual Studio 2019 only.* Displays function return values in the **Watch** window then stepping over a function call in the debugger (F10) |
+| **Show function return value** | On | *Visual Studio 2019 only.* Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |
 | **Use legacy debugger** | Off | *Visual Studio 2019 only.* Instructs Visual Studio to use the legacy debugger by default. For more information, see [Debugging - Use the legacy debugger](debugging-python-in-visual-studio.md#use-the-legacy-debugger). |
 
 ::: moniker range="vs-2017"
