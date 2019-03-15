@@ -160,17 +160,17 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | --- | --- | --- |
 | `$continue`, `$cont`, `$c` | Starts running the program from the current statement. |
 | `$down`, `$d` | Move the current frame one level down in the stack trace. |
-| `$frame` | | Displays the current frame id.
-| `$frame` | frame id | Switches the current frame to the specified frame id.
+| `$frame` | | Displays the current frame ID.
+| `$frame` | frame ID | Switches the current frame to the specified frame ID.
 | `$load` | Loads commands from file and executes until complete |
-| `$proc` |  | Displays the current process id. |
-| `$proc` | process id | Switches the current process to the specified process id. |
+| `$proc` |  | Displays the current process ID. |
+| `$proc` | process ID | Switches the current process to the specified process ID. |
 | `$procs` | | Lists the processes currently being debugged. |
 | `$stepin`, `$step`, `$s` | Steps into the next function call, if possible. |
 | `$stepout`, `$return`, `$r` | Steps out of the current function. |
 | `$stepover`, `$until`, `$unt` | Steps over the next function call. |
-| `$thread` | | Displays the current thread id. |
-| `$thread` | thread id | Switches the current thread to the specified thread id. |
+| `$thread` | | Displays the current thread ID. |
+| `$thread` | thread ID | Switches the current thread to the specified thread ID. |
 | `$threads` | | Lists the threads currently being debugged. |
 | `$up`, `$u` | | Move the current frame one level up in the stack trace. |
 | `$where`, `$w`, `$bt` | Lists the frames for the current thread. |
