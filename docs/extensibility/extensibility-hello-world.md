@@ -40,7 +40,7 @@ Before you start, make sure you have installed the **Visual Studio extension dev
 
 Step 1. From the **File** menu, select **New Project**.
 
-Step 2. In the search box in the upper right, type "vsix" and select the C# **VSIX Project**. Enter "HelloWorld" for the **Name** at the bottom of the dialog and select **OK**.
+Step 2. In the search box in the upper right, type "vsix" and select the Visual C# **VSIX Project**. Enter "HelloWorld" for the **Name** at the bottom of the dialog and select **OK**.
 
 ![new project](media/hello-world-new-project.png)
 
@@ -52,7 +52,7 @@ If you need to leave this tutorial and come back to it, you can find your new He
 
 ::: moniker range=">=vs-2019"
 
-Step 1. From the **File** menu, select **New Project**. Search for "vsix" and select the C# **VSIX Project** and then **Next**.
+Step 1. From the **File** menu, select **New Project**. Search for "vsix" and select the Visual C# **VSIX Project** and then **Next**.
 
 Step 2. Enter "HelloWorld" for the **Project name** and select **Create**.
 
@@ -64,13 +64,13 @@ You should now see the HelloWorld project in the **Solution Explorer**.
 
 ## Add a custom command
 
-Step 1. If you select the `.vsixmanifest` manifest file, you can see what options are changeable, for instance, metadata, description, and version.
+Step 1. If you select the `.vsixmanifest` manifest file, you can see what options are changeable, such as description, author, and version.
 
-Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item**.
+Step 2. Right-click the project (not the solution). On the context menu, select **Add**, and then **New Item**.
 
-Step 3. Select the **Extensibility** section, and then click **Custom Command**.
+Step 3. Select the **Extensibility** section, and then choose **Custom Command**.
 
-Step 4. In the **Name** field at the bottom, give it a name, for instance *Command.cs*.
+Step 4. In the **Name** field at the bottom, enter a filename such as *Command.cs*.
 
 ![custom command](media/hello-world-custom-command.png)
 
@@ -78,9 +78,9 @@ Your new command file is visible in the **Solution Explorer**. Under the **Resou
 
 ## Modify the source code
 
-At this point, the Button you're adding is pretty generic. You'll have to modify the VSCT file and CS file if you want to make changes.
+At this point, the command and Button text is auto-generated and not very interesting. You can modify the VSCT file and CS file if you want to make changes.
 
-* The VSCT file is where you can rename your commands, as well as define where they go in the Visual Studio command system. As you explore the VSCT file, you will notice commented code that explains what each section of code controls.
+* The VSCT file is where you can rename your commands, as well as define where they go in the Visual Studio command system. As you explore the VSCT file, you will notice comments that explain what each section of the VSCT code controls.
 
 * The CS file is where you can define actions, such as the click handler.
 
@@ -112,14 +112,15 @@ Step 2. Change the `ButtonText` parameter to `Say Hello World!`.
   ...
 ```
 
-Step 3. Go back to **Solution Explorer** and find the *Command.cs* file. Change the string `message` for the command `string.Format(..)` to `Hello World!`.
+Step 3. Go back to **Solution Explorer** and find the *Command.cs* file. In the `Execute` method, change the string `message` from `string.Format(..)` to `Hello World!`.
 
 ```csharp
   ...
-  private void MenuItemCallback(object sender, EventArgs e)
+  private void Execute(object sender, EventArgs e)
   {
+    ThreadHelper.ThrowIfNotOnUIThread();
     string message = "Hello World!";
-    string title = "Command1";
+    string title = "Command";
 
     // Show a message box to prove we were here
     VsShellUtilities.ShowMessageBox(
@@ -161,9 +162,9 @@ Now that you know the basics of working with Visual Studio Extensibility, here's
 
 * [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension
 ::: moniker range="vs-2017"
-* [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
+* [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) - New extensibility features in Visual Studio 2017
 ::: moniker-end
 ::: moniker range="vs-2019"
-* [What's new in the Visual Studio 2019 SDK](whats-new-in-the-visual-studio-2019-sdk.md) -New extensibility features in Visual Studio 2019
+* [What's new in the Visual Studio 2019 SDK](whats-new-visual-studio-2019-sdk.md) - New extensibility features in Visual Studio 2019
 ::: moniker-end
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility
