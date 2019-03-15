@@ -18,7 +18,7 @@ Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> cla
 
 ## Parameters
 
-The following tables describe the parameters of the **TrackedVCToolTask** base class.
+The following table describes the parameters of the **TrackedVCToolTask** base class.
 
 |Parameter|Description|
 |---------------|-----------------|

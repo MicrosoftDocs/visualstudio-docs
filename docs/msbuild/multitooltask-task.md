@@ -1,9 +1,9 @@
 ---
-title: "MultiTool Task | Microsoft Docs"
+title: "MultiToolTask Task | Microsoft Docs"
 ms.date: "03/10/2019"
 ms.topic: "reference"
 f1_keywords:
-  - "vc.task.multitool"
+  - "vc.task.multitooltask"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,20 +11,20 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), MultiTool task"
-  - "MultiTool task (MSBuild (Visual C++))"
+  - "MSBuild (Visual C++), MultiToolTask task"
+  - "MultiToolTask task (MSBuild (Visual C++))"
 author: mikeblome
 ms.author: Michael.Blome
 ms.workload:
   - "multiple"
 ---
-# MultiTool task
+# MultiToolTask task
 
 No description.
 
 ## Parameters
 
-The following table describes the parameters of the **MultiTool** task.
+The following table describes the parameters of the **MultiToolTask** task.
 
 |Parameter|Description|
 |---------------|-----------------|

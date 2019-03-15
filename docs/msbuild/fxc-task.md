@@ -24,7 +24,7 @@ Use HLSL shader compilers in the build process.
 
 ## Parameters
 
-The following tables describe the parameters of the **FXC** task.
+The following table describes the parameters of the **FXC** task.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -46,7 +46,7 @@ The following tables describe the parameters of the **FXC** task.
 |**PreprocessorDefinitions**|Optional **string[]** parameter.<br/><br/>Defines preprocessing symbols for your source file.|
 |**SetRootSignature**|Optional **string** parameter.<br/><br/>Attach root signature to shader bytecode. Available for Shader Model 5.0 and above.<br/><br/>Use `/setrootsignature`.|
 |**ShaderModel**|Optional **string** parameter.<br/><br/>Specifies the shader model. Some shader types can only be used with recent shader models.<br/><br/>Use `/T [type]_[model]`.|
-|**ShaderType**|Optional **string** parameter.<br/><br/>Specifies the type of shader.<br/><br/>Use `/T [type]_[model]`.<br/><br/>**Effect**, use `fx`.<br/>**Vertex**, use `vs`.br/>**Pixel**, use `ps`.<br/>**Geometry**, use `gs`.<br/>**Hull**, use `hs`.<br/>**Domain**, use `ds`.<br/>**Compute**, use `cs`.<br/>**Library**, use `lib`.<br/>**RootSignature**, generate Root Signature Object.|
+|**ShaderType**|Optional **string** parameter.<br/><br/>Specifies the type of shader.<br/><br/>Use `/T [type]_[model]`.<br/><br/>**Effect**, use `fx`.<br/>**Vertex**, use `vs`.<br/>**Pixel**, use `ps`.<br/>**Geometry**, use `gs`.<br/>**Hull**, use `hs`.<br/>**Domain**, use `ds`.<br/>**Compute**, use `cs`.<br/>**Library**, use `lib`.<br/>**RootSignature**, generate Root Signature Object.|
 |**Source**|Required **ITaskItem** parameter.|
 |**SuppressStartupBanner**|Optional **bool** parameter.<br/><br/>Suppresses the display of the startup banner and information message.<br/><br/>Use `/nologo`.|
 |**TrackerLogDirectory**|Optional **string** parameter.|

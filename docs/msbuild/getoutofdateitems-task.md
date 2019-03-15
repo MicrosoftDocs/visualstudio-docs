@@ -24,7 +24,7 @@ Helper task that reads old tlogs, writes new tlogs, and returns set of items tha
 
 ## Parameters
 
-The following tables describe the parameters of the **GetOutOfDateItems** task.
+The following table describes the parameters of the **GetOutOfDateItems** task.
 
 |Parameter|Description|
 |---------------|-----------------|

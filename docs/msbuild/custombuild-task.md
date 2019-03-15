@@ -24,7 +24,7 @@ Wraps the Visual C++ compiler tool, cmd.exe.
 
 ## Parameters
 
-The following tables describe the parameters of the **CustomBuild** task.
+The following table describes the parameters of the **CustomBuild** task.
 
 |Parameter|Description|
 |---------------|-----------------|

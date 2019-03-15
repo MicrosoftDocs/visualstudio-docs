@@ -42,7 +42,7 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[Link task](../msbuild/link-task.md)|Wraps the Visual C++ linker tool (*link.exe*).|
 |[MIDL task](../msbuild/midl-task.md)|Wraps the Microsoft Interface Definition Language (MIDL) compiler tool (*midl.exe*).|
 |[MT task](../msbuild/mt-task.md)|Wraps the Microsoft Manifest Tool (*mt.exe*).|
-|[MultiToolTask task](../msbuild/multitooltask-task.md)|Invokes other VC tasks in parallel. Currently only works for tasks derived from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md). (helper task)|
+|[MultiToolTask task](../msbuild/multitooltask-task.md)|No description.|
 |[ParallelCustomBuild task](../msbuild/parallelcustombuild-task.md)|Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md).|
 |[RC task](../msbuild/rc-task.md)|Wraps the Microsoft Windows Resource Compiler tool (*rc.exe*).|
 |[SetEnv task](../msbuild/setenv-task.md)|Sets or deletes the value of a specified environment variable.|

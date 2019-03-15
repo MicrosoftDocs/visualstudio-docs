@@ -18,18 +18,18 @@ Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> cla
 
 ## Parameters
 
-The following tables describe the parameters of the **VCToolTask** base class.
+The following table describes the parameters of the **VCToolTask** base class.
 
 |Parameter|Description|
 |---------------|-----------------|
-|**ActiveToolSwitchesValues**|(**Dictionary\<string, ToolSwitch>** parameter.|
-|**AdditionalOptions**|(**string** parameter.|
-|**EffectiveWorkingDirectory**|(**string** parameter.|
-|**EnableErrorListRegex**|Default is `true`. (**bool** parameter.|
-|**ErrorListRegex**|(**ITaskItem[]** parameter.|
-|**ErrorListListExclusion**|(**ITaskItem[]** parameter.|
-|**GenerateCommandLine**|(**string**)<br/><br/>Use parameters **CommandLineFormat** *format* [default = CommandLineFormat.ForBuildLog] and **EscapeFormat** *escapeFormat* [default = EscapeFormat.Default].|
-|**GenerateCommandLineExceptSwitches**|(**string**)<br/><br/>Use parameters **string[]** *switchesToRemove*, **CommandLineFormat** *format* [default = CommandLineFormat.ForBuildLog], and **EscapeFormat** *escapeFormat* [default = EscapeFormat.Default].|
+|**ActiveToolSwitchesValues**|Optional **Dictionary\<string, ToolSwitch>** parameter.|
+|**AdditionalOptions**|Optional **string** parameter.|
+|**EffectiveWorkingDirectory**|Optional **string** parameter.|
+|**EnableErrorListRegex**|Optional **bool** parameter.<br/><br/>Default is `true`.|
+|**ErrorListRegex**|Optional **ITaskItem[]** parameter.|
+|**ErrorListListExclusion**|Optional **ITaskItem[]** parameter.|
+|**GenerateCommandLine**|Optional **string** parameter.<br/><br/>Uses values **CommandLineFormat** *format* [default = CommandLineFormat.ForBuildLog] and **EscapeFormat** *escapeFormat* [default = EscapeFormat.Default].|
+|**GenerateCommandLineExceptSwitches**|Optional **string** parameter.<br/><br/>Uses values **string[]** *switchesToRemove*, **CommandLineFormat** *format* [default = CommandLineFormat.ForBuildLog], and **EscapeFormat** *escapeFormat* [default = EscapeFormat.Default].|
 
 ## See also
 

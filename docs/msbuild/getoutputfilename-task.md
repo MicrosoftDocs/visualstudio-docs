@@ -24,7 +24,7 @@ Helper task to get output file name for cl and other tools, which allow specifyi
 
 ## Parameters
 
-The following tables describe the parameters of the **GetOutputFileName** task.
+The following table describes the parameters of the **GetOutputFileName** task.
 
 |Parameter|Description|
 |---------------|-----------------|

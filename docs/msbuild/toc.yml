@@ -246,7 +246,7 @@
         - name: MT Task
           href: mt-task.md
         - name: MultiTool Task
-          href: multitool-task.md
+          href: multitooltask-task.md
         - name: ParallelCustomBuild Task
           href: parallelcustombuild-task.md
         - name: RC Task

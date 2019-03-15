@@ -24,7 +24,7 @@ Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md)
 
 ## Parameters
 
-The following tables describe the parameters of the **ParallelCustomBuild** task.
+The following table describes the parameters of the **ParallelCustomBuild** task.
 
 |Parameter|Description|
 |---------------|-----------------|
