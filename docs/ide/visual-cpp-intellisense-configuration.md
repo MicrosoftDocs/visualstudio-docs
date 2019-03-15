@@ -66,7 +66,7 @@ There are two common ways in which this problem manifests in Visual Studio:
 
    ![Tag parser offers to define existing function](media/vcpp-intellisense-tag-parser-function.png)
 
-To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/ide/hint-files).
+To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/build/reference/hint-files).
 
 Tag parser errors appear in the **Error List** window.
 
