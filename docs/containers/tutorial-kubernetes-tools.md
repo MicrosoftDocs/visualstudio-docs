@@ -152,7 +152,7 @@ To do this, you first need to double-check that you've installed everything as d
 
    Updating the command line is useful if there are custom command line arguments that you wish to specify, such as a different Kubernetes context or chart name.
 
-   ![Screenshoot of Helm configure screen](media/tutorial-kubernetes-tools/k8s-tools-helm-configure-screen.png)
+   ![Screenshot of Helm configure screen](media/tutorial-kubernetes-tools/k8s-tools-helm-configure-screen.png)
 
 6. When you are ready to deploy, click the **Publish** button to publish your application to AKS.
 
