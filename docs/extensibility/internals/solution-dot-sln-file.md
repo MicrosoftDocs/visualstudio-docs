@@ -17,9 +17,9 @@ ms.workload:
 
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
 
-- .sln (text-based, shared)
+- .sln file (text-based, shared)
 
-- .suo (binary, user-specific solution options)
+- .suo file (binary, user-specific solution options)
 
 For more information about .suo files, see [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
 
@@ -31,9 +31,9 @@ Each project's file contains additional information read by the environment to p
 
 ## File header
 
-::: moniker range="vs-2017"
-
 The header of a .sln file looks like this:
+
+::: moniker range="vs-2017"
 
 ```
 Microsoft Visual Studio Solution File, Format Version 12.00
@@ -42,29 +42,23 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 ```
 
-Here's what each part of the header is for:
+### Definitions
 
-- `Microsoft Visual Studio Solution File, Format Version 12.00`
+`Microsoft Visual Studio Solution File, Format Version 12.00`\
+Standard header that defines the file format version.
 
-   Standard header that defines the file format version.
+`# Visual Studio 15`\
+The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
 
-- `# Visual Studio 15`
+`VisualStudioVersion = 15.0.26730.15`\
+The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in solution files.
 
-   The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
-
-- `VisualStudioVersion = 15.0.26730.15`
-
-   The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in solution files.
-
-- `MinimumVisualStudioVersion = 10.0.40219.1`
-
-   The minimum (oldest) version of Visual Studio that can open this solution file.
+`MinimumVisualStudioVersion = 10.0.40219.1`\
+The minimum (oldest) version of Visual Studio that can open this solution file.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-
-The header of a .sln file looks like this:
 
 ```
 Microsoft Visual Studio Solution File, Format Version 12.00
@@ -73,29 +67,25 @@ VisualStudioVersion = 16.0.28701.123
 MinimumVisualStudioVersion = 10.0.40219.1
 ```
 
-Here's what each part of the header is for:
+### Definitions
 
-- `Microsoft Visual Studio Solution File, Format Version 12.00`
+`Microsoft Visual Studio Solution File, Format Version 12.00`\
+Standard header that defines the file format version.
 
-   Standard header that defines the file format version.
+`# Visual Studio Version 16`\
+The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
 
-- `# Visual Studio Version 16`
+`VisualStudioVersion = 16.0.28701.123`\
+The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in the file.
 
-   The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
-
-- `VisualStudioVersion = 16.0.28701.123`
-
-   The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in solution files.
-
-- `MinimumVisualStudioVersion = 10.0.40219.1`
-
-   The minimum (oldest) version of Visual Studio that can open this solution file.
+`MinimumVisualStudioVersion = 10.0.40219.1`\
+The minimum (oldest) version of Visual Studio that can open this solution file.
 
 ::: moniker-end
 
-## File contents
+## File body
 
-The .sln file consists of several sections labeled `GlobalSection`, as shown in this example .sln file:
+The body of an .sln file consists of several sections labeled `GlobalSection`, like this:
 
 ```
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Project1", "Project1.vbproj", "{8CDD8387-B905-44A8-B5D5-07BB50E05BEA}"
