@@ -931,8 +931,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/extensibility/solutions.md",
-            "redirect_url": "/visualstudio/extensibility/solutions-overview",
+            "source_path": "docs/extensibility/internals/solutions.md",
+            "redirect_url": "/visualstudio/extensibility/internals/solutions-overview",
             "redirect_document_id": false
         },
         {
