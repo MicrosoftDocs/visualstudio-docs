@@ -112,7 +112,6 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |-|-|
 |Implement Unity Messages|**⇧⌘M**|
 |Inspect|**⌥⌘I**|
-|Live Run Current View|**⌥⇧L**|
 
 ## Project
 
@@ -254,8 +253,8 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |⌥|**Option** (**alt**)|
 |⇧|**Shift**|
 |⌃|**Control** (**ctrl**)
-|⇟|**Page Down** (**Pg Dn**)|
 |⇞|**Page Up** (**Pg Up**)|
+|⇟|**Page Down** (**Pg Dn**)|
 |⌫|**Delete** (**Backspace**)|
 |⌦|**Forward Delete**|
 |⏎|**Return**|
