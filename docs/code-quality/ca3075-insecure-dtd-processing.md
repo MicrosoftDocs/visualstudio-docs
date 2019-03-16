@@ -24,7 +24,7 @@ If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> instanc
 
 ## Rule description
 
-A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:
+A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, or which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:
 
 - DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.
 
@@ -44,7 +44,7 @@ In each of these cases, the outcome is the same: the contents from either the fi
 
 - Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .
 
-- Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.
+- Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources that the XmlTextReader can access.
 
 - Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.
 
@@ -198,7 +198,7 @@ public static void TestMethod(string xml)
 {
     XmlDocument doc = new XmlDocument() { XmlResolver = null };
     System.IO.StringReader sreader = new System.IO.StringReader(xml);
-    XmlTextReader reader = new XmlTextReader(sreader) { DtdProcessing = DtdProcessing.Prohibit };
+    XmlReader reader = XmlReader.Create(sreader, new XmlReaderSettings() { XmlResolver = null });
     doc.Load(reader);
 }
 ```
@@ -237,7 +237,7 @@ namespace TestNamespace
         public void TestMethod(Stream stream)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(UseXmlReaderForDeserialize));
-            XmlTextReader reader = new XmlTextReader(stream) { DtdProcessing = DtdProcessing.Prohibit } ;
+            XmlReader reader = XmlReader.Create(stream, new XmlReaderSettings() { XmlResolver = null });
             serializer.Deserialize(reader );
         }
     }
@@ -274,7 +274,7 @@ namespace TestNamespace
     {
         public void TestMethod(string path)
         {
-            XmlTextReader reader = new XmlTextReader(path) { DtdProcessing = DtdProcessing.Prohibit };
+            XmlReader reader = XmlReader.Create(path, new XmlReaderSettings() { XmlResolver = null });
             XPathDocument doc = new XPathDocument(reader);
         }
     }
@@ -310,22 +310,6 @@ namespace TestNamespace
 ```
 
 ### Violations
-
-```csharp
-using System.Xml;
-
-namespace TestNamespace
-{
-    public class TestClass
-    {
-        public void TestMethod(string path)
-        {
-            XmlReaderSettings settings = new XmlReaderSettings(){ DtdProcessing = DtdProcessing.Parse };
-            XmlReader reader = XmlReader.Create(path, settings); // warn
-        }
-    }
-}
-```
 
 ```csharp
 using System.Xml;
@@ -372,7 +356,7 @@ namespace TestNamespace
     {
         public void TestMethod(string path)
         {
-            XmlReaderSettings settings = new XmlReaderSettings(){ DtdProcessing = DtdProcessing.Prohibit };
+            XmlReaderSettings settings = new XmlReaderSettings() { XmlResolver = null };
             XmlReader reader = XmlReader.Create(path, settings);
         }
     }
