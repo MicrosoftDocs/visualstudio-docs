@@ -88,16 +88,16 @@ Now let's update the command handler to start Notepad.
 
 ## Clean up the experimental environment
 
-If you are developing multiple extensions, or just exploring outcomes with different versions of your extension code, your experimental environment may stop working the way it should. In this case, you should run the reset script. It's called **Reset the Visual Studio 2015 Experimental Instance**, and it ships as part of the Visual Studio SDK. This script removes all references to your extensions from the experimental environment, so you can start from scratch.
+If you are developing multiple extensions, or just exploring outcomes with different versions of your extension code, your experimental environment may stop working the way it should. In this case, you should run the reset script. It's called **Reset the Visual Studio Experimental Instance**, and it ships as part of the Visual Studio SDK. This script removes all references to your extensions from the experimental environment, so you can start from scratch.
 
 You can get to this script in one of two ways:
 
-1. From the desktop, find **Reset the Visual Studio 2015 Experimental Instance**.
+1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
 
 2. From the command line, run the following:
 
     ```xml
-    <VSSDK installation>\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe /Reset /VSInstance=14.0 /RootSuffix=Exp && PAUSE
+    <VSSDK installation>\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
 
     ```
 
@@ -109,7 +109,7 @@ You can find the *.vsix* file for this extension in the *FirstMenuCommand* bin d
 
 *\<code directory>\FirstMenuCommand\FirstMenuCommand\bin\Release\ FirstMenuCommand.vsix*
 
-To install the extension, your friend needs to close all open instances of Visual Studio, then double-click the *.vsix* file, which brings up the **VSIX Installer**. The files are copied to the *%LocalAppData%\Microsoft\VisualStudio\14.0\Extensions* directory.
+To install the extension, your friend needs to close all open instances of Visual Studio, then double-click the *.vsix* file, which brings up the **VSIX Installer**. The files are copied to the *%LocalAppData%\Microsoft\VisualStudio\<version>\Extensions* directory.
 
 When your friend brings up Visual Studio again, they'll find the FirstMenuCommand extension in **Tools** > **Extensions and Updates**. They can go to **Extensions and Updates** to uninstall or disable the extension, too.
 
