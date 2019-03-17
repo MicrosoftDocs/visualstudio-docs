@@ -1,6 +1,6 @@
 ---
 title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "3/16/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "menus, creating top level"
@@ -13,22 +13,24 @@ ms.workload:
   - "vssdk"
 ---
 # Add a menu to the Visual Studio menu bar
+
 This walkthrough shows how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE). The IDE menu bar contains menu categories such as **File**, **Edit**, **View**, **Window**, and **Help**.
 
- Before adding a new menu to the Visual Studio menu bar, consider whether your commands should be placed within an existing menu. For more information about command placement, see [Menus and commands for Visual Studio](../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md).
+Before adding a new menu to the Visual Studio menu bar, consider whether your commands should be placed within an existing menu. For more information about command placement, see [Menus and commands for Visual Studio](../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md).
 
- Menus are declared in the *.vsct* file of the project. For more information about menus and *.vsct* files, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).
+Menus are declared in the *.vsct* file of the project. For more information about menus and *.vsct* files, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).
 
- By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.
+By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.
 
 ## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+
+Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create a VSIX project that has a custom command item template
 
-1.  Create a VSIX project named `TopLevelMenu`. You can find the VSIX project template in the **New Project** dialog under **Visual C#** / **Extensibility**.  For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
+1. Create a VSIX project named `TopLevelMenu`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".  For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
-2.  When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
+2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
 
 ## Create a menu on the IDE menu bar
 
@@ -40,7 +42,7 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
    <IDSymbol name="TopLevelMenu" value="0x1021"/>
    ```
 
-2. Create an empty \<Menus> node in the \<Commands> node, just before \<Groups>. In the \<Menus> node, add a \<Menu> node , as follows:
+2. Create an empty \<Menus> node in the \<Commands> node, just before \<Groups>. In the \<Menus> node, add a \<Menu> node, as follows:
 
    ```xml
    <Menus>
@@ -77,13 +79,14 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
 
 ## Build and test the extension
 
-1.  Build the project and start debugging. An instance of the experimental instance should appear.
+1. Build the project and start debugging. An instance of the experimental instance should appear.
 
-2.  The menu bar in the experimental instance should contain a **TestMenu** menu.
+2. The menu bar in the experimental instance should contain a **TestMenu** menu.
 
-3.  On the **TestMenu** menu, click **Invoke Test Command**.
+3. On the **TestMenu** menu, click **Invoke Test Command**.
 
-     A message box should appear and display the message "TestCommand Package Inside TopLevelMenu.TestCommand.MenuItemCallback()". This indicates that the new command works.
+     A message box should appear and display the message "TestCommand Package Inside TopLevelMenu.TestCommand.MenuItemCallback()".
 
 ## See also
+
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
