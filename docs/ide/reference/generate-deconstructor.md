@@ -3,7 +3,7 @@ title: Generate a deconstructor quick action
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp
@@ -36,7 +36,7 @@ This code generation applies to:
       - Right-click and select the **Quick Actions and Refactorings** menu.
       - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the empty line in the class.
 
-      ![Generate deconstructor codefix](media/deconstruct-codefix.png)
+      ![Generate deconstructor code fix](media/deconstruct-codefix.png)
 
 3. Select **Generate method 'MyInternalClass.Deconstruct'** to generate the deconstructor.
 

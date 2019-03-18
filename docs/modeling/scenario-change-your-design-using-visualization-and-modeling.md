@@ -65,7 +65,7 @@ Both teams use modeling diagrams in Visual Studio to help them develop systems t
 
 For more information about Team Foundation Server, see:
 
-- [Planning and tracking work](#planning-and-tracking-work)
+- [Plan and track work](#plan-and-track-work)
 
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
 

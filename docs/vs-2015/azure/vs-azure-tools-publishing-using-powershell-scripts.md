@@ -150,7 +150,7 @@ If you have never run a Windows PowerShell script before, you must first set the
 
    ![Create Web Deploy Package](./media/vs-azure-tools-publishing-using-powershell-scripts/IC767885.png)
 
-   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-publish-scripts).
+   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
 
 1. In **Solution Explorer**, open the context menu for the script, and then choose **Open with PowerShell ISE**.
 1. If running Windows PowerShell scripts on this computer for the first time, open a command prompt window with Administrator privileges and type the following command:

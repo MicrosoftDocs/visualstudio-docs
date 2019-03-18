@@ -284,7 +284,7 @@ You can remove the extension from the Visual Studio Marketplace and from your co
 
 ### To remove the extension from your computer
 
-1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
 2. Select "MyVsixExtension" and then click **Uninstall**. The extension will then be scheduled for uninstall.
 

@@ -48,7 +48,17 @@ The quickest method of creating an extension is to use the project template. Thi
 
     [Defining a Gesture Handler](#gesture)
 
+::: moniker range="vs-2017"
+
 6. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+6. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
+
+::: moniker-end
 
 ## Adding a Command or Gesture to a separate VSIX
 
@@ -98,11 +108,9 @@ If you want to create one VSIX that contains commands, layer validators, and oth
 
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
 
-6.  To test the feature, press CTRL+F5 or F5. An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.
+6.  To test the feature, press **Ctrl**+**F5** or **F5**. An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.
 
 7.  To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.
-
-     To uninstall it, use **Extensions and Updates** on the **Tools** menu.
 
 ##  <a name="command"></a> Defining a Menu Command
 

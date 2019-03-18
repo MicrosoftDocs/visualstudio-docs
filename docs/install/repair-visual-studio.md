@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Repair Visual Studio 2017
+# Repair Visual Studio
 
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair can fix this.
 
@@ -34,7 +34,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)
+* [Troubleshooting Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md)

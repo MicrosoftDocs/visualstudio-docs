@@ -15,19 +15,33 @@ ms.workload:
   - "multiple"
 ---
 # MSBuild Toolset (ToolsVersion)
+
 MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typically, a MSBuild Toolset includes a *microsoft.common.tasks* file, a *microsoft.common.targets* file, and compilers such as *csc.exe* and *vbc.exe*. Most Toolsets can be used to compile applications to more than one version of the .NET Framework and more than one system platform. However, the MSBuild 2.0 Toolset can be used to target only the .NET Framework 2.0.
 
 ## ToolsVersion attribute
+::: moniker range=">=vs-2019"
+ Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild "Current" Toolset.
+
+```xml
+<Project ToolsVersion="Current" ... </Project>
+```
+
+::: moniker-end
+
+::: moniker range="vs-2017"
  Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild 15.0 Toolset.
 
 ```xml
 <Project ToolsVersion="15.0" ... </Project>
 ```
 
+::: moniker-end
+
 > [!NOTE]
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Packages, metadata, and frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 
 ## How the ToolsVersion attribute works
+
  When you create a project in Visual Studio, or upgrade an existing project, an attribute named `ToolsVersion` is automatically included in the project file and its value corresponds to the version of MSBuild that is included in the Visual Studio edition. For more information, see [Targeting a specific .NET Framework version](../ide/visual-studio-multi-targeting-overview.md).
 
  When a `ToolsVersion` value is defined in a project file, MSBuild uses that value to determine the values of the Toolset properties that are available to the project. One Toolset property is `$(MSBuildToolsPath)`, which specifies the path of the .NET Framework tools. Only that Toolset property (or `$(MSBuildBinPath)`), is required.
@@ -51,6 +65,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
  Sub-toolsets, which are described later in this topic, allow MSBuild to automatically switch which set of tools to use based on the context in which the build is being run. For example, MSBuild uses a newer set of tools when it's run in Visual Studio 2012 than when it's run in Visual Studio 2010, without your having to explicitly change the project file.
 
 ## Toolset implementation
+
  Implement a Toolset by selecting the paths of the various tools, targets, and tasks that make up the Toolset. The tools in the Toolset that MSBuild defines come from the following sources:
 
 - The .NET Framework folder.
@@ -88,6 +103,7 @@ Alternately, you can determine the Toolset programmatically by calling the metho
 -   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.
 
 ### Sub-toolsets
+
  For versions MSBuild prior to 15.0, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.
 
 > [!NOTE]
@@ -110,5 +126,6 @@ MSBuild provides overloads for the `ToolLocationHelper` methods that add a `Visu
 Sub-toolsets were introduced in the .NET Framework 4.5.
 
 ## See also
+
 - [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

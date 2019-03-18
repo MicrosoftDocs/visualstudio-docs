@@ -45,11 +45,23 @@ By testing your web application using a variety of web browser types, you better
 
 ### Install Selenium components
 
-1.  On the **Tools** menu, choose **Extensions and Updates**.
+::: moniker range="vs-2017"
 
-2.  In the **Extension and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+1. On the **Tools** menu, choose **Extensions and Updates**.
 
-3.  Highlight the extension and choose **Download**.
+2. In the **Extensions and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. On the **Extensions** menu, choose **Manage Extensions**.
+
+2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+3. Highlight the extension and choose **Download**.
 
     > [!TIP]
     > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).

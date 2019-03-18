@@ -31,9 +31,19 @@ Your extension is compiled to a VSIX file, which you can install on other comput
 
 ### To uninstall the extension
 
-1.  In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
+::: moniker range="vs-2017"
 
-2.  Click the name of the extension and then click **Uninstall**.
+1. In Visual Studio, choose **Tools** > **Extensions and Updates**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, choose **Extensions** > **Manage Extensions**.
+
+::: moniker-end
+
+2. Click the name of the extension and then click **Uninstall**.
 
 ## Install an Extension on Team Foundation Server
 

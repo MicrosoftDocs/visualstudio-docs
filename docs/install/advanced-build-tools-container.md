@@ -118,4 +118,4 @@ After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Known Issues for Containers](build-tools-container-issues.md)
-* [Visual Studio Build Tools 2017 workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)

@@ -35,7 +35,7 @@ By default, the following settings are synchronized:
 
    - All settings on the **Environment** > **StartUp** options page.
 
-   - All settings on the **Text Editor** options pages.
+   - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-quick-actions.md).
 
    - All settings on the **XAML Designer** options pages.
 
@@ -69,7 +69,7 @@ If you currently have side-by-side installations of Visual Studio and want to us
 
 3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
-1. Launch Visual Studio and import the saved settings from the exported settings file.
+1. Open Visual Studio and import the saved settings from the exported settings file.
 
 ::: moniker-end
 

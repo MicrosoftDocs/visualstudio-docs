@@ -193,4 +193,4 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
 
 * [Advanced Example for Containers](advanced-build-tools-container.md)
 * [Known Issues for Containers](build-tools-container-issues.md)
-* [Visual Studio Build Tools 2017 workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)

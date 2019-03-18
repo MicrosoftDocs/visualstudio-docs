@@ -150,7 +150,7 @@ To make your subscription even more useful, we add and update the subscription b
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li>Team Foundation Server and TFS CAL</li>
+                            <li>Azure DevOps Server and CAL</li>
                         </ul>
                     </div>
                 </div>
