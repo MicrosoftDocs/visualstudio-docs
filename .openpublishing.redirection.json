@@ -931,6 +931,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/extensibility/internals/solutions.md",
+            "redirect_url": "/visualstudio/extensibility/internals/solutions-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/adding-and-removing-project-items.md",
             "redirect_url": "/visualstudio/ide/creating-solutions-and-projects",
             "redirect_document_id": false
@@ -7271,6 +7276,11 @@
             "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
             "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
+            "redirect_url": "/visualstudio/containers/",
+            "redirect_document_id": false
         }
     ]
 }

@@ -1,15 +1,14 @@
 ---
-title: "Visual Language Dictionary for Visual Studio | Microsoft Docs"
+title: Visual language reference
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
-ms.author: "v-brickg"
+ms.author: brgeorge
 manager: jillfra
-ms.workload:
-  - "v-brickg"
 ---
-# Visual Language Dictionary for Visual Studio
+# Visual language dictionary
+
 Visual Studio uses a common visual language to illustrate the concepts that are the building blocks of its iconography and other imagery. When designing new icons, use this dictionary to identify the concepts that you want to convey in your own image.
 
 ## General guidelines

@@ -55,7 +55,7 @@ First, you'll create a Vue.js web application project.
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    In the **Create a new project** dialog box, type **javascript** or **typescript** in the search box to filter results, then choose **Basic Vue.js Web application**, and then choose **OK**.
+    In the **Create a new project** dialog box, type **javascript** or **typescript** in the search box to filter results, then choose **Basic Vue.js Web application**, and then choose **Next**. Then, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Vue.js Web application**, then choose **OK**.
