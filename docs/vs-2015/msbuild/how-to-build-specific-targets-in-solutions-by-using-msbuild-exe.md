@@ -36,5 +36,5 @@ msbuild SlnFolders.sln /t:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clea
 ## See Also  
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [ MSBuild](msbuild.md)  
+ [MSBuild](msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)
