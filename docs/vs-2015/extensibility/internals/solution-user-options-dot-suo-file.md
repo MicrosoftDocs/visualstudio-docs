@@ -34,4 +34,4 @@ The solution user options (.suo) file contains per-user solution options. This f
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>   
- [Solutions](../../extensibility/internals/solutions.md)
+ [Solutions](../../extensibility/internals/solutions-overview.md)

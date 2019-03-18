@@ -59,7 +59,7 @@ In this tutorial, you learn how to:
 1. Create a new TypeScript Express app.
 
     ::: moniker range=">=vs-2019"
-    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Basic Azure Node.js Express 4 application**, and then choose **OK**.
+    In the **Create a new project** dialog box, type **javascript** in the search box to filter results, then choose **Basic Azure Node.js Express 4 application**, and then choose **Next**. Then, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.

@@ -31,7 +31,7 @@ You must complete several tasks to create a new project type. The following chec
 
     -   Project items management, including adding your project to the **New Project** dialog box. For more information, see [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md).
 
-    -   Persistence of project state and individual items. For more information, see [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions.md).
+    -   Persistence of project state and individual items. For more information, see [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions-overview.md).
 
     -   Configuration-independent properties to display in the Properties window. For more information, see [Extend properties](../../extensibility/internals/extending-properties.md).
 
