@@ -30,7 +30,7 @@ A *Document Type Definition (DTD)* is one of two ways an XML parser can determin
 
 - The <xref:System.Xml.XmlNode.InnerXml%2A> property in the XML is set.
 
-- <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> property is set  to Parse.
+- <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> property is set to Parse.
 
 - Untrusted input is processed using <xref:System.Xml.XmlResolver> instead of <xref:System.Xml.XmlSecureResolver>.
 
@@ -38,7 +38,7 @@ A *Document Type Definition (DTD)* is one of two ways an XML parser can determin
 
 - <xref:System.Xml.XmlReader> is created with insecure default settings or values.
 
-In each of these cases, the outcome is the same: the contents from either the file system or network shares from the machine where the XML is processed will be exposed to the attacker, which may then be used as a DoS vector.
+In each of these cases, the outcome is the same: the contents from either the file system or network shares from the machine where the XML is processed will be exposed to the attacker, or DTD processing can be used as a DoS vector.
 
 ## How to fix violations
 
@@ -52,7 +52,7 @@ In each of these cases, the outcome is the same: the contents from either the fi
 
 **.NET 3.5 and earlier**
 
-- Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .
+- Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true**.
 
 - XmlTextReader class has a full trust inheritance demand.
 
