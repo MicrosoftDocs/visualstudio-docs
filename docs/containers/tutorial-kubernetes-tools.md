@@ -5,6 +5,7 @@ ms.topic: "conceptual"
 author: ghogen
 ms.author: ghogen
 manager: jillfra
+ms.technology: vs-azure
 ms.workload:
   - "azure"
 ---
@@ -32,7 +33,7 @@ To leverage this new functionality, you'll need:
     1.  The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
 
     1.  An Azure Kubernetes Service cluster. For more information, see
-        [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
+        [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
 
     1.  Helm CLI installed on your development workstation. For more information
         see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
@@ -132,7 +133,7 @@ To do this, you first need to double-check that you've installed everything as d
 
    ![Screenshot of Publish menu item](media/tutorial-kubernetes-tools/k8s-tools-publish-project.png)
 
-2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](#publish-your-container-to-azure-container-registry).
+2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
 
    ![Screenshot of Pick a publish target screen](media/tutorial-kubernetes-tools/k8s-tools-publish-to-acr.png)
 
@@ -152,7 +153,7 @@ To do this, you first need to double-check that you've installed everything as d
 
    Updating the command line is useful if there are custom command line arguments that you wish to specify, such as a different Kubernetes context or chart name.
 
-   ![Screenshoot of Helm configure screen](media/tutorial-kubernetes-tools/k8s-tools-helm-configure-screen.png)
+   ![Screenshot of Helm configure screen](media/tutorial-kubernetes-tools/k8s-tools-helm-configure-screen.png)
 
 6. When you are ready to deploy, click the **Publish** button to publish your application to AKS.
 

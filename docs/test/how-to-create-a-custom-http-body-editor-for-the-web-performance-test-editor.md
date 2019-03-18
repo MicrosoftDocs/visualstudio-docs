@@ -25,9 +25,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 ## Create a Windows Control Library project
 
-### Create a user control by using a Windows Control Library project
-
-1. In Visual Studio, on the **File** menu, choose **New** and then select **Project**.
+1. In Visual Studio, on the **File** menu, choose **New** > **Project**.
 
     The **New Project** dialog box is displayed.
 
@@ -131,27 +129,27 @@ private MessageEditorControl messageEditorControl
 
  When editing of the string body is completed and the user clicks **OK** in the plug-in dialog box, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*> is called to get the edited text as a string and update the **String Body** in the request in the Web Test Performance Editor.
 
-### To create a class and implement the IStringHttpBodyEditorPlugin interface code
+### Create a class and implement the IStringHttpBodyEditorPlugin interface
 
-1.  In **Solution Explorer**, right-click the Windows Forms Control Library project and select **Add New Item**.
+1. In **Solution Explorer**, right-click the Windows Forms Control Library project and select **Add New Item**.
 
-2.  The **Add New Item** dialog box is displayed.
+   The **Add New Item** dialog box is displayed.
 
-3.  Select **Class**.
+2. Select **Class**.
 
-4.  In the **Name** text box, type a meaningful name for the class, for example, `MessageEditorPlugins`.
+3. In the **Name** text box, type a meaningful name for the class, for example, `MessageEditorPlugins`.
 
-5.  Choose **Add**.
+4. Choose **Add**.
 
-     Class1 is added to the project and presented in the Code Editor.
+   Class1 is added to the project and presented in the Code Editor.
 
-6.  In the Code Editor, add the following using statement:
+5. In the code editor, add the following `using` statement:
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     ```
 
-7.  Write or copy the following code to instantiate the XmlMessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface and implement the required methods:
+6. Paste in the following code to implement the interface:
 
     ```csharp
     /// <summary>
@@ -179,7 +177,7 @@ private MessageEditorControl messageEditorControl
         /// plugin dialog which provides OK and Cancel buttons.
         /// </summary>
         /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-        /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+        /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
         /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
         public object CreateEditor(string contentType, string initialValue)
         {
@@ -246,11 +244,11 @@ When editing of the string body is completed and the user clicks **OK** in the p
             }
 
             /// <summary>
-            /// Create a UserControl to edit the specified bytes.  This control will be hosted in the
+            /// Create a UserControl to edit the specified bytes. This control will be hosted in the
             /// plugin dialog which provides OK and Cancel buttons.
             /// </summary>
             /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-            /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+            /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
             /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
             public object CreateEditor(string contentType, byte[] initialValue)
             {
@@ -274,36 +272,32 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 ## Build and deploy the plug-ins
 
-### To build and deploy the resulting dll for the IStringHttpBodyEditorPlugin and IBinaryHttpBodyEditorPlugin
+1. On the **Build** menu, choose **Build \<Windows Form Control Library project name>**.
 
-1.  On the **Build** menu, choose **Build \<Windows Form Control Library project name>**.
+2. Close all instances of Visual Studio.
 
-2.  Close all instances of Visual Studio.
+   > [!NOTE]
+   > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
 
-    > [!NOTE]
-    > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
+3. Copy the resulting *.dll* file from your project's *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
 
-3.  Copy the resulting *.dll* file from your projects *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
+4. Open Visual Studio.
 
-4.  Open Visual Studio.
-
-     The *.dll* is now registered with Visual Studio.
+   The *.dll* is now registered with Visual Studio.
 
 ## Verify the plug-ins using a Web Performance Test
 
-### To test your plug-ins
+1. Create a test project.
 
-1.  Create a Test Project.
+2. Create a web performance test and enter a URL in the browser to a web service.
 
-2.  Create a web performance test and enter a URL in the browser to a web service.
+3. When you finish the recording, in the Web Performance Test Editor, expand the request for the web service and select either a **String Body** or a **Binary Body**.
 
-3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the web service and select either a **String Body** or a **Binary Body**.
+4. In the **Properties** window, select either String Body or Binary Body and choose the ellipsis **(…)**.
 
-4.  In the Properties window, Select either String Body or Binary Body and choose the ellipsis **(…)**.
+   The **Edit HTTP Body Data** dialog box is displayed.
 
-     The **Edit HTTP Body Data** dialog box is displayed.
-
-5.  You can now edit the data and choose **OK**. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
+5. You can now edit the data and choose **OK**. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
 
 ## Compile the code
 

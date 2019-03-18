@@ -2,7 +2,7 @@
 title: "Install Visual Studio versions side-by-side"
 ms.date: 03/05/2019
 ms.prod: "visual-studio-windows"
-ms.technology: "vs-isntallation"
+ms.technology: "vs-installation"
 ms.topic: conceptual
 helpviewer_keywords:
   - "side-by-side installations [Visual Studio]"
@@ -63,7 +63,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2017)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
-* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assemblies/)
+* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end
 
@@ -82,6 +82,6 @@ For language-specific information, see the appropriate topic in the following ta
 
 * [Install Visual Studio](install-visual-studio.md?view=vs-2019)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
-* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-side-by-side-assemblies/)
+* [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end

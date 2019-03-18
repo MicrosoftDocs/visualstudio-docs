@@ -10,7 +10,6 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How to create and manage Python environments in Visual Studio
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.

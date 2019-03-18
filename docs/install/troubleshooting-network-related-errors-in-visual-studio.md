@@ -112,4 +112,4 @@ Enable connections for the following URLs:
 
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
-* [Install Visual Studio 2017](install-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)

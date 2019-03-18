@@ -16,7 +16,7 @@ manager: jillfra
 # Install Multiple Language Versions of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Install language packs in Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio#install-language-packs).
+For the latest documentation for Visual Studio 2017, see [Install language packs in Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio#step-6---install-language-packs-optional).
 
 By installing one or more language packages, you can run Visual Studio 2015 in other languages on the same computer. You must obtain a separate language package for each language that you want to install.
 

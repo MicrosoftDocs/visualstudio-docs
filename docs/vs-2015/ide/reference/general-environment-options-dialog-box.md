@@ -41,7 +41,7 @@ Use this page to change color themes, status bar settings, and file extension as
  **Color theme**  
  Choose the **Blue**, **Light** or **Dark** color theme for the IDE.  
   
- You can install additional predefined  themes, and create custom themes, by downloading and installing the **Visual Studio 2015 Color Theme Editor** from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=tools). After you install this tool, additional color themes appear in the Color theme list box.  
+ You can install additional predefined  themes, and create custom themes, by downloading and installing the **Visual Studio 2015 Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). After you install this tool, additional color themes appear in the Color theme list box.  
   
  Apply title casing in menu bar  
  Menus are in **Title Casing** by default in Visual Studio 2015. Un-check this option to set them to **ALL CAPS**.  

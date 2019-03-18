@@ -1,6 +1,6 @@
 ---
 title: "Known issues for containers"
-description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools 2017 into a Windows container."
+description: "Learn more about the known issues that might occur when you install Visual Studio Build Tools into a Windows container."
 ms.date: 04/18/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -14,6 +14,8 @@ ms.workload:
 # Known issues for containers
 
 There are a few issues when installing Visual Studio into a Docker container.
+
+::: moniker range="vs-2017"
 
 ## Windows container
 
@@ -30,6 +32,8 @@ The following known issues occur when you install Visual Studio Build Tools 2017
 
 * You cannot install Visual Studio 2017 version 15.8 or earlier (any product) on mcr<span></span>.microsoft.com/windows/servercore:1809 or later. See https://aka.ms/setup/containers/servercore1809 for more information.
 
+::: moniker-end
+
 ## Build Tools container
 
 The following known issues might occur when you use a Build Tools container. To see whether issues have been fixed or if there are other known issues, visit https://developercommunity.visualstudio.com.
@@ -42,4 +46,4 @@ The following known issues might occur when you use a Build Tools container. To 
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Advanced Example for Containers](advanced-build-tools-container.md)
-* [Visual Studio Build Tools 2017 workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)

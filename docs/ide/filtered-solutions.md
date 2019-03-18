@@ -31,7 +31,7 @@ To open a solution with only some of its projects loaded, follow these steps:
 
 1. Choose **File** > **Open** > **Project/Solution** from the menu bar.
 
-2. In the **New Project** dialog, select the solution, and then select **Do not load projects**.
+2. In the **Open Project** dialog, select the solution, and then select **Do not load projects**.
 
    ![Visual Studio Open Project dialog with do not load projects checked](media/filtered-solutions/do-not-load-projects.png)
 

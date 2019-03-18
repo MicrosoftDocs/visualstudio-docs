@@ -1,5 +1,6 @@
 ---
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
+titleSuffix: ""
 ms.date: "01/22/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,12 +19,13 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
-# What's New for the Debugger in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+# What's New for the Debugger in Visual Studio 2017
 
 The debugger includes these new features:
 
-- New in 15.5, the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+- New in version 15.5, the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
     Snapshot collection is available for the following web apps running in Azure App Service:
 
@@ -32,7 +34,7 @@ The debugger includes these new features:
 
     For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
 
-- New in 15.5 in Visual Studio Enterprise only, **IntelliTrace step-back** automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
+- New in version 15.5 in Visual Studio Enterprise only, **IntelliTrace step-back** automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
     You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window.
 
@@ -60,7 +62,7 @@ The debugger includes these new features:
 
     ![Search in Attach to Process](../debugger/media/dbg-attach-to-process-search.png "DbgAttachToProcessSearch")
 
-For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes#debuggingdiag).
+For more information on these new features, see the [Release Notes for [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]](/visualstudio/releasenotes/vs2017-relnotes).
 
 ## See also
 

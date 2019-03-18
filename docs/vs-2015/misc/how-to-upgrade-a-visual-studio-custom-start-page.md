@@ -16,7 +16,7 @@ You can upgrade a Visual Studio 2010 or Visual Studio 2012 custom start page to 
 
 ### To upgrade a custom start page to Visual Studio 2015
 
-1.  Make sure that Visual Studio 2015 and the Visual Studio 2015 SDK are installed. You can download the VSSDK from [Microsoft Visual Studio 2013 SDK](http://go.microsoft.com/?linkid=9863867).
+1.  Make sure that Visual Studio 2015 and the Visual Studio 2015 SDK are installed. You can download the VSSDK from [Microsoft Visual Studio 2013 SDK](https://my.visualstudio.com/Downloads?pid=1436).
 
 2.  Open your custom template project. You will see a message notifying you that the project is to be upgraded. Click **OK** and wait for the upgrade to complete.
 

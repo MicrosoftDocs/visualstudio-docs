@@ -115,6 +115,8 @@
       items:
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
+    - name: Write and debug running XAML code
+      href: xaml-hot-reload.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data

@@ -32,17 +32,28 @@ To get started, select a method, a type, or a namespace in the code editor in th
 
 ![Using the Create unit tests command](media/createunittestcommand.png)
 
-## Setting unit test traits
+## Set unit test traits
 
 If you plan to run these tests as part of the test automation process, you might consider having the test created in another test project (the second option in the dialog above) and setting unit test traits for the unit test. This enables you to more easily include or exclude these specific tests as part of a continuous integration or continuous deployment pipeline. The traits are set by adding metadata to the unit test directly, as shown below.
 
 ![Setting unit test traits](media/createunittest.png)
 
-## Using third-party unit test frameworks
+## Use third-party unit test frameworks
 
 With Visual Studio, you can easily have unit tests created for you using any test framework. To install other test frameworks:
 
+::: moniker range="vs-2017"
+
 1. Choose **Tools** > **Extensions and Updates**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Choose **Extensions** > **Manage Extensions**.
+
+::: moniker-end
+
 2. Expand **Online** > **Visual Studio Marketplace** > **Tools**, and then choose **Testing**.
 
 ![Using third party test frameworks](media/createunittestfx.png)

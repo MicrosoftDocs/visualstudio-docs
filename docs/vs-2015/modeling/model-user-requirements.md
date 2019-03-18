@@ -176,7 +176,6 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More detailed information about recording quality of service requirements|[Guidelines for Defining Quality of Service Requirements](http://msdn.microsoft.com/9677a437-c2cb-4ac4-8c2d-4e3350005f06)|  
 |Attaching additional documents to use cases|[Link a use case to documents and diagrams](../modeling/link-a-use-case-to-documents-and-diagrams.md)|  
 |How to develop code that adheres to quality of service requirements|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   

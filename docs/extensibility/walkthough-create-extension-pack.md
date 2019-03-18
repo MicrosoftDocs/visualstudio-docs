@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
-author: "chitray"
-ms.author: "chitray"
+author: "gregvanl"
+ms.author: "gregvanl"
 manager: Meng
 ms.workload:
   - "vssdk"
@@ -17,7 +17,7 @@ An Extension Pack is a set of extensions that can be installed together. Extensi
 
 ## Prerequisites
 
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+Starting in Visual Studio 2015, the Visual Studio SDK is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 The Extension Pack feature is available starting with Visual Studio 15.8 Preview 2.
 
@@ -79,7 +79,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
-1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
 2. Select `Test Extension Pack` and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 

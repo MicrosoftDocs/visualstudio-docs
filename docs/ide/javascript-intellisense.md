@@ -2,6 +2,7 @@
 title: JavaScript IntelliSense
 ms.date: 06/28/2017
 ms.topic: conceptual
+ms.technology: vs-javascript
 helpviewer_keywords:
   - "IntelliSense [JavaScript]"
   - "<reference> JavaScript XML tag"
