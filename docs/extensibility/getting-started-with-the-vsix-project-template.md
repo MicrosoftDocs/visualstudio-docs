@@ -29,7 +29,7 @@ You can use the VSIX Project template to create an extension or to package an ex
 
     2. On the **Project** menu, click **Export Template**. Complete the steps of the wizard.
 
-         A *.zip* file is created in *%USERPROFILE%\My Documents\Visual Studio <version>\My Exported Templates\\*.
+         A *.zip* file is created in *%USERPROFILE%\My Documents\Visual Studio {version}\My Exported Templates\\*.
 
 2. Create an empty VSIX project.
 
@@ -75,7 +75,7 @@ You can use the VSIX Project template to create an extension or to package an ex
 
 ### To specify the location of the template in the New Project Dialog box
 
-1. Template folders are located in the *{Visual Studio Installation Path}\Common7\IDE\ProjectTemplates* and *{Visual Studio Installation Path}\Common7\IDE\ItemTemplates}* directories. The names of the top-level sections in the **New Project** dialog do not exactly match the names of the template folders. Where they differ, use the name of the template folder.
+1. Template folders are located in the *{Visual Studio Installation Path}\Common7\IDE\ProjectTemplates* and *{Visual Studio Installation Path}\Common7\IDE\ItemTemplates* directories. The names of the top-level sections in the **New Project** dialog do not exactly match the names of the template folders. Where they differ, use the name of the template folder.
 
     Change the *.vsix* file extension to *.zip*, and then open the file.
 

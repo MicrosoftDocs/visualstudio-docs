@@ -25,7 +25,7 @@ The Extension Pack feature is available starting with Visual Studio 15.8 Preview
 
 The Extension Pack item template creates an Extension Pack with set of extensions that can be installed together.
 
-1. In the **New Project** dialog box, search for "vsix" and select **VSIX Project**. In the **Project name** box, type "Test Extension Pack". Select **Create**.
+1. In the **New Project** dialog, search for "vsix" and select **VSIX Project**. For **Project name**, type "Test Extension Pack". Select **Create**.
 
 2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Extension Pack**. Leave the default file name (ExtensionPack1.cs).
 

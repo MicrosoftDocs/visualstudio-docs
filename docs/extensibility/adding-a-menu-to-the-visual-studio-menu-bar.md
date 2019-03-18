@@ -133,7 +133,17 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Build the project and start debugging. An instance of the experimental instance should appear.
 
+::: moniker range="vs-2017"
+
 2. The menu bar in the experimental instance should contain a **TestMenu** menu.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. The **Extensions** menu in the experimental instance should contain a **TestMenu** menu.
+
+::: moniker-end
 
 3. On the **TestMenu** menu, click **Invoke Test Command**.
 
