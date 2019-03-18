@@ -2,7 +2,7 @@
 title: "Cannot assign to 'this' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
-ms.technology: "javascript"
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
   - "VS.WebClient.Help.SCRIPT5000"

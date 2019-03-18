@@ -6,7 +6,7 @@ ms.technology: "devlang-csharp"
 ms.topic: conceptual
 ms.assetid: 9d3186f3-07d2-441f-b33e-435e95d8a0b8
 caps.latest.revision: 11
-ms.author: v-brickg
+ms.author: brgeorge
 ---
 # Shared colors
 Insert introduction here.  
