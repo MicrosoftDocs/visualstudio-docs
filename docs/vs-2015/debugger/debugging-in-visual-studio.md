@@ -25,8 +25,6 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
 
  For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/features/debugging-and-diagnostics-vs).
 
--   [What’s New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio-2015.md) Describes new functionality in Visual Studio 2015.
-
 -   [Debugger Windows](../debugger/debugger-windows.md) Lists the different debugger windows.
 
 -   [Debugger Basics](../debugger/debugger-basics.md) Discusses the fundamentals of using the Visual Studio debugger. Topics include debugging basics, execution control, attaching to a running program, Just-In-Time debugging, launching the debugger automatically, dumps, breakpoints, inspecting your program, handling exceptions, Edit and Continue, and using expressions in the debugger.
