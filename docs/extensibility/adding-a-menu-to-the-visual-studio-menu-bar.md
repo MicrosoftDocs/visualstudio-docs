@@ -23,7 +23,7 @@ Menus are declared in the *.vsct* file of the project. For more information abou
 By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.
 
 > [!NOTE]
-> In VS 2019, top level menus from extensionsThis article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
+> In VS 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
 
 ## Prerequisites
 
