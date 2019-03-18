@@ -49,10 +49,10 @@ Each Python project has one assigned start-up file, shown in boldface in **Solut
 >
 > If you want to keep the output window open for any reason, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
 
-::: moniker-range="vs-2017"
+::: moniker range="vs-2017"
 A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want.
 ::: moniker-end
-::: moniker-range=">=vs-2019"
+::: moniker range=">=vs-2019"
 A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add Environment..**, and select the ones you want. You can also use the environments drop-down control on the toolbar to select and environment or add another one to the project.
 
 ![Add Environment command on the Python toolbar](media/environments/environments-toolbar-2019.png)

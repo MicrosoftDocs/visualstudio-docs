@@ -116,6 +116,8 @@ You can create a new virtual environment directly in Visual Studio as follows:
 
 1. Review the other options in the dialog:
 
+    | Option | Description |
+    | --- | --- |
     | Set as current environment | Activates the new environment in the selected project after the environment is created. |
     | Set as default environment for new projects | Automatically sets and activates the virtual environment in any new projects created in Visual Studio. When using this option, the virtual environment should be placed in a location outside of a specific project.  |
     | View in Python Environments window | Specifies whether to open the **Python Environments** window after creating the environment. |

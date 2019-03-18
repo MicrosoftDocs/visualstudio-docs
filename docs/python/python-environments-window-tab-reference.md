@@ -32,7 +32,12 @@ If you expand the **Python Environments** window wide enough, these options are 
 
 Provides basic information and commands for the environment:
 
+::: moniker range="vs-2017"
 ![Python Environments overview tab](media/environments/environments-overview-tab.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Python Environments overview tab](media/environments/environments-overview-tab-2019.png)
+::: moniker-end
 
 | Command | Description |
 | --- | --- |
@@ -58,7 +63,12 @@ Startup scripts contain code that the **Interactive** window loads and runs auto
 
 If available, the **Configure** tab contains details as described in the table below. If this tab isn't present, it means that Visual Studio is managing all the details automatically.
 
+::: moniker range="vs-2017"
 ![Python Environments configure tab](media/environments/environments-configure-tab.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Python Environments configure tab](media/environments/environments-configure-tab-2019.png)
+::: moniker-end
 
 | Field | Description |
 | --- | --- |
@@ -83,15 +93,30 @@ Packages that are already installed appear with controls to update (an up arrow)
 
 Entering a search term filters the list of installed packages as well as packages that can be installed from PyPI.
 
+::: moniker range="vs-2017"
 ![Python environments packages tab with a search on "num"](media/environments/environments-pip-tab.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Python environments packages tab with a search on "num"](media/environments/environments-pip-tab-2019.png)
+::: moniker-end
 
 As you can see in the image above, the search results show a number of packages that match the search term; the first entry in the list, however, is a command to run **pip install \<name>** directly. If you're on the **Packages (Conda)** tab, you instead see **conda install \<name>**:
 
+::: moniker range="vs-2017"
 ![Conda packages tab showing a conda install command](media/environments/environments-conda-tab-install.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Conda packages tab showing a conda install command](media/environments/environments-conda-tab-install-2019.png)
+::: moniker-end
 
 In both cases, you can customize the install by adding arguments in the search box after the name of the package. When you include arguments, the search results shows **pip install** or **conda install** followed by the contents of the search box:
 
+::: moniker range="vs-2017"
 ![Using arguments on pip and conda install commands](media/environments/environments-pip-tab-arguments.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Using arguments on pip and conda install commands](media/environments/environments-pip-tab-arguments-2019.png)
+::: moniker-end
 
 Installing a package creates subfolders within the environment's *Lib* folder on the file system. For example, if you have Python 3.6 installed in *c:\Python36*, packages are installed in *c:\Python36\Lib*; if you have Anaconda3 installed in *c:\Program Files\Anaconda3* then packages are installed in *c:\Program Files\Anaconda3\Lib*. For conda environments, packages are installed in that environment's folder.
 

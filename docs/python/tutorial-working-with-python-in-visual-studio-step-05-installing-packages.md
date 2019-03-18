@@ -21,12 +21,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer** and shows the different environments available to you. The list includes both environments that you installed using the Visual Studio installer and those you installed separately. The environment in bold is the default environment that's used for new projects.
 
-  ::: moniker range="vs-2017"
    ![Python Environments window](media/environments/environments-default-view-blue.png)
-  ::: moniker-end
-  ::: moniker range=">=vs-2019"
-   ![Python Environments window](media/environments/environments-default-view-2019.png)
-  ::: moniker-end
 
 2. The environment's **Overview** tab provides quick access to an **Interactive** window for that environment along with the environment's installation folder and interpreters. For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 

@@ -67,14 +67,14 @@ Selecting an environment doesn't change its relation to any projects. The defaul
 To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database.)
 
 ::: moniker range="vs-2017"
-> [!Tip]media/environments/environments-
+> [!Tip]
 > When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
 >
 > ![Python Environments window expanded view](media/environments/environments-expanded-view.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-> [!Tip]media/environments/environments-
+> [!Tip]
 > When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
 >
 > ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
