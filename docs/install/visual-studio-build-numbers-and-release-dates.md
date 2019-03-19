@@ -174,7 +174,7 @@ For more information about build numbers and release dates for the next version 
 
 ::: moniker-end
 
-::: moniker range=">vs-2019"
+::: moniker range="vs-2019"
 
 ## Visual Studio 2019
 
