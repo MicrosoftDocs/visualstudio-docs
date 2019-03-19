@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Visual Studio build numbers and release dates
 
+::: moniker range="vs-2017"
+
 ## Visual Studio 2017
 
 The following table lists the build numbers and release dates for Visual Studio 2017, to date.
@@ -168,6 +170,12 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
+For more information about build numbers and release dates for the next version of Visual Studio, see [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019)
+
+::: moniker-end
+
+::: moniker range=">vs-2019"
+
 ## Visual Studio 2019
 
 The following table lists the build numbers and release dates for Visual Studio 2019, to date.
@@ -188,6 +196,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 2 | January 23, 2019 | 16.0.28522.59 |
 | 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
