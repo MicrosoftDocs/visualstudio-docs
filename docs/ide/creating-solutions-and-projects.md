@@ -55,12 +55,26 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
+When you create a project, you can specify a specific version of the .NET Framework that you want the project to use.
+
+::: moniker range="vs-2017"
+
+To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
 
 ![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
 > [!NOTE]
 > You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To specify a .NET framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
+
+![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
+
+::: moniker-end
 
 ## Create empty solutions
 
@@ -68,13 +82,27 @@ You can also create empty solutions that have no projects. This might be prefera
 
 ### To create an empty solution
 
-1. On the menu, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
+::: moniker range="vs-2017"
 
-1. In the middle pane, choose **Blank Solution**.
+2. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
 
-1. Enter **Name** and **Location** values for your solution, then choose **OK**.
+3. In the middle pane, choose **Blank Solution**.
+
+4. Enter **Name** and **Location** values for your solution, and then choose **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. On the **Create a new project** page, type **solution** into the search box.
+
+3. Select the **Blank Solution** template, and then click **Next**.
+
+4. Enter **Name** and **Location** values for your solution, and then choose **Create**.
+
+::: moniker-end
 
 After you create an empty solution, you can add new or existing projects or items to it by choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
 

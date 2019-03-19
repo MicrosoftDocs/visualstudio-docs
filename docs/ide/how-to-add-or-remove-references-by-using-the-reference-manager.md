@@ -40,9 +40,7 @@ The **Reference Manager** dialog box shows different categories on the left side
 
 - **Browse**, with the **Recent** subgroup.
 
-## Add and remove a reference
-
-### To add a reference
+## Add a reference
 
 1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
 
