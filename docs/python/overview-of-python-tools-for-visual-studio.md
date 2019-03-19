@@ -37,7 +37,12 @@ To get started:
 
 Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 
-![Expanded view of the Python Environments window](media/environments-expanded-view.png)
+::: moniker range="vs-2017"
+![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
+::: moniker-end
+::: moniker range=">=vs-2019"
+![Expanded view of the Python Environments window](media/environments/environments-expanded-view-2019.png)
+::: moniker-end
 
 Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
