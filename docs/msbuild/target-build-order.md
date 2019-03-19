@@ -108,11 +108,11 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 4.  Before a target is executed or skipped, if its `Condition` attribute was absent or did not evaluate to `false`, its `DependsOnTargets` targets are run.
 
-5.  Before a target is executed or skipped, any target that lists it in a `BeforeTargets` attribute is run.
+5.  Before a target is executed or skipped, any target that lists it in a `AfterTargets` attribute is run.
 
 6.  Before a target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.
 
-7.  After a target is executed or skipped, any target that lists it in an `AfterTargets` attribute is run.
+7.  After a target is executed or skipped, any target that lists it in an `BeforeTargets` attribute is run.
 
 ## See also
 - [Targets](../msbuild/msbuild-targets.md)
