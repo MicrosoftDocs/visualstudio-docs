@@ -201,6 +201,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
+            "redirect_url": "/visualstudio/containers/",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
             "redirect_url": "/xamarin/tools/ci/devops/",
             "redirect_document_id": true
@@ -906,6 +911,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/xaml-edit-and-continue.md",
+            "redirect_url": "/visualstudio/debugger/xaml-hot-reload",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/deploy-iis-with-web-deploy.md",
             "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
             "redirect_document_id": false
@@ -919,6 +929,11 @@
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
+            "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
+            "redirect_document_id": true
         },
         {
             "source_path": "docs/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
@@ -982,7 +997,7 @@
         },
         {
             "source_path": "docs/docker/vs-azure-tools-docker-setup.md",
-            "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-setup",
+            "redirect_url": "/visualstudio/containers/",
             "redirect_document_id": true
         },
         {
@@ -1033,6 +1048,11 @@
         {
             "source_path": "docs/extensibility/internals/index.md",
             "redirect_url": "/visualstudio/extensibility/internals/inside-the-visual-studio-sdk",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/internals/solutions.md",
+            "redirect_url": "/visualstudio/extensibility/internals/solutions-overview",
             "redirect_document_id": false
         },
         {
@@ -1447,7 +1467,7 @@
         },
         {
             "source_path": "docs/ide/how-to-restore-csharp-refactoring-snippets.md",
-            "redirect_url": "/visualstudio/ide/reference/refactoring-in-visual-studio",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -2566,8 +2586,13 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/rtvs/data-science-and-analytical-applications-workload.md",
+            "redirect_url": "/visualstudio/python/data-science-and-analytical-applications-workload",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/rtvs/data-science-workload.md",
-            "redirect_url": "/visualstudio/rtvs/data-science-and-analytical-applications-workload",
+            "redirect_url": "/visualstudio/python/data-science-and-analytical-applications-workload",
             "redirect_document_id": false
         },
         {
@@ -2847,7 +2872,7 @@
         },
         {
             "source_path": "docs/test/using-microsoft-visualstudio-testtools-cppunittestframework.md",
-            "redirect_url": "/visualstudio/test/microsoft.visualstudio.testtools.cppunittestframework-api-reference",
+            "redirect_url": "/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference",
             "redirect_document_id": false
         },
         {
@@ -3011,6 +3036,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vs-2015/debugger/whats-new-for-the-debugger-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/releasenotes/vs2015-rtm-vs",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vs-2015/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
             "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015",
             "redirect_document_id": false
@@ -3143,6 +3173,16 @@
         {
             "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xml-editor.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-editor?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/xml-tools/what-s-new-in-the-xslt-debugger.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt?view=vs-2015",
             "redirect_document_id": false
         },
         {
@@ -3421,8 +3461,33 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/xml-tools/formatting-xml-text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-xml-formatting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/how-to-start-debugging-xslt.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/how-to-use-breakpoints-with-xslt.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/xml-tools/index.md",
             "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/miscellaneous-xml-text-editor-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/options-text-editor-xml-miscellaneous",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/walkthrough-xslt-profiler.md",
+            "redirect_url": "/visualstudio/xml-tools/xslt-profiler",
             "redirect_document_id": false
         },
         {
@@ -3433,6 +3498,16 @@
         {
             "source_path": "docs/xml-tools/what-s-new-in-the-xslt-debugger.md",
             "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/working-with-xml-data.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-editor-components.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
             "redirect_document_id": false
         },
         {
