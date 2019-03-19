@@ -25,9 +25,9 @@ The Extension Pack feature is available starting with Visual Studio 15.8 Preview
 
 The Extension Pack item template creates an Extension Pack with set of extensions that can be installed together.
 
-1. In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `Test Extension Pack`. Click **OK**.
+1. In the **New Project** dialog, search for "vsix" and select **VSIX Project**. For **Project name**, type "Test Extension Pack". Select **Create**.
 
-2. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. Go to the Visual C# **Extensibility** node and select **Extension Pack**. Leave the default file name (ExtensionPack1.cs).
+2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Extension Pack**. Leave the default file name (ExtensionPack1.cs).
 
 3. ExtensionPack1.vsext file is added which contains the following code
 
@@ -63,13 +63,23 @@ The Extension Pack item template creates an Extension Pack with set of extension
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates...**.
+::: moniker range="vs-2017"
 
-2. Click **Online** and then search for `Test Extension Pack`.
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
+
+::: moniker-end
+
+2. Click **Online** and then search for "Test Extension Pack".
 
 3. Click **Download**. The extension and its list of extensions included in the Extension Pack will then be scheduled for install.
 
-4. Below is a sample Extension Pack download view of the **Extensions and Updates** dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in **Scheduled For Install**.
+4. Below is a sample Extension Pack download view of the **Manage Extensions** dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in **Scheduled For Install**.
 
     ![Download Extension Pack from Marketplace](media/vside-extensionpack.png)
 
@@ -79,8 +89,18 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
+::: moniker range="vs-2017"
+
 1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
-2. Select `Test Extension Pack` and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
+
+::: moniker-end
+
+2. Select **Test Extension Pack** and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 
 3. To complete the uninstallation, close all instances of Visual Studio.
