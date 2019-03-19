@@ -166,9 +166,9 @@ We encourage you to update to the most [recent version](/visualstudio/releases/2
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-## Update Visual Studio 2019
+Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
 
-Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
+## Use the Visual Studio Installer
 
 1. Open the installer.
 
@@ -189,6 +189,24 @@ Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;
 1. After the update is complete, select **Launch** to start Visual Studio.
 
     ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
+
+## Use the IDE
+
+1. Open Visual Studio. 
+ 
+    ![Open the Visual Studio 2019 RC](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
+
+1. Under **Get started**, choose any option to open the IDE.
+
+    ![Open the Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Open the Visual Studio Installer")
+
+    Visual Studio opens. Notice that in the IDE, there's a Visual Studio 2019 update message.
+ 
+1. In the **Visual Studio 2019 update** message, choose **View details**.
+
+    ![Choose "View details" in the Visual Studio 2019 update message](media/vs2019-update-visual-studio-ide-message.png "Choose "View details" in the Visual Studio 2019 update message")
+1. 
+1. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
