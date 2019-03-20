@@ -51,7 +51,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 ::: moniker range=">=vs-2019"
 
-1. On the start window**, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
+1. On the start window, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
    Visual Studio provides various kinds of project templates that help you get started coding quickly. (Alternatively, if you're a TypeScript developer, feel free to create a project in that language. The UI we'll be looking at is similar for all programming languages.)
 

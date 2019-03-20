@@ -50,7 +50,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 ::: moniker range=">=vs-2019"
 
-2. Start Visual Studio, and on the start window, choose **Create a new project**.
+2. Open Visual Studio, and on the start window, choose **Create a new project**.
 
 3. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 

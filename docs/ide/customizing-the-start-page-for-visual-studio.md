@@ -38,7 +38,7 @@ You can also show a custom start page, which is a Windows Presentation Foundatio
 
 ::: moniker range=">=vs-2019"
 
-3. In the **On startup, open** list, choose what you want to happen after Visual Studio launches. You can choose from start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
+3. In the **On startup, open** list, choose what you want to happen after Visual Studio launches. You can choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 
 ::: moniker-end
 
