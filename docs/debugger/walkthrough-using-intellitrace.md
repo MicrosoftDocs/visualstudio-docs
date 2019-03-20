@@ -47,7 +47,7 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
 ## Start debugging and view IntelliTrace events
 
-1. Start debugging as usual. (Press **F5** or click **Debug > Start Debugging**.
+1. Start debugging as usual. (Press **F5** or click **Debug > Start Debugging**.)
 
     > [!TIP]
     > Keep the **Locals** and **Autos** windows open while you're debugging to see and record the values in those windows.
