@@ -36,9 +36,13 @@ Visual Studio offers a suite of tools that enable you to easily create cloud-ena
 
 ![Azure development workload](../data-tools/media/azure-development-workload.png)
 
+::: moniker range="vs-2017"
+
 After you install the **Azure development** workload, the following **Cloud** templates for C# are available in the **New Project** dialog:
 
 ![Cloud project templates for Visual Studio](media/cloud-project-templates.png)
+
+::: moniker-end
 
 Visual Studio's [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure-based cloud resources within Visual Studio. These resources may include virtual machines, tables, SQL databases, and more. **Cloud Explorer** shows the Azure resources in all the accounts managed under the Azure subscription you're logged into. And if a particular operation requires the Azure portal, **Cloud Explorer** provides links that take you to the place in the portal where you need to go.
 
