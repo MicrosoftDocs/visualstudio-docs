@@ -52,7 +52,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. Open Visual Studio.
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
 3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
 

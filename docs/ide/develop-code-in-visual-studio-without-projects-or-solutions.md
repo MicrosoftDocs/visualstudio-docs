@@ -31,7 +31,7 @@ You can open code into Visual Studio in any of the following ways:
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-- Choose the **Open Folder** link on the Start window.
+- Choose the **Open Folder** link on the start window.
 ::: moniker-end
 
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.

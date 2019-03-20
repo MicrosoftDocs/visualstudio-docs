@@ -34,7 +34,7 @@ This section walks you through creating an Azure cloud service project in Visual
 1. Select **OK**.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-1. From the **Start** window, choose **Create a new project**.
+1. From the start window, choose **Create a new project**.
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Service**.
 
    ![New Azure cloud service](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)

@@ -21,7 +21,7 @@ Use this page to customize the Visual Studio start page or set a different defau
 
 ::: moniker range=">=vs-2019"
 
-Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
+Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 
 ::: moniker-end
 
