@@ -18,10 +18,6 @@ The tools included in Visual Studio 2019 for developing with containers are easy
 > [!NOTE]
 > This article applies to Visual Studio on Windows, and not Visual Studio for Mac.
 
-## Configure your local environment
-
-With the latest versions of Docker Desktop for Windows, it's easier than ever to develop Docker applications because the setup is straightforward, as explained in the following references.
-
 > [!TIP]
 > To learn more about installing Docker for Windows, see [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/).
 
@@ -36,17 +32,17 @@ There are two levels of Docker support you can add to a project. In ASP.NET Core
 
 The **Add > Docker Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
 
-![Add Docker Support menu option in Visual Studio](./media/add-docker-support-menu.png)
+![Add Docker Support menu option in Visual Studio](./media/visual-studio-tools-for-docker/add-docker-support-menu.png)
 
 ### Add Docker support
 
 You can add Docker support to an existing ASP.NET Core project by selecting **Add** > **Docker Support** in **Solution Explorer**. You can also enable Docker support during project creation by selecting **Enable Docker Support** in the **New ASP.NET Core Web Application** dialog box that opens after you click **OK** in the **New Project** dialog box, as shown in the following screenshot.
 
 ::: moniker range="vs-2017"
-![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/enable-docker-support-visual-studio.png)
+![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/visual-studio-tools-for-docker/enable-docker-support-visual-studio.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/vs-2019/enable-docker-support-visual-studio.png)
+![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/visual-studio-tools-for-docker/vs-2019/enable-docker-support-visual-studio.png)
 ::: moniker-end
 
 When you add or enable Docker support, Visual Studio adds a *Dockerfile* file to the project.
@@ -55,7 +51,7 @@ When you add or enable Docker support, Visual Studio adds a *Dockerfile* file to
 > [!NOTE]
 > When you enable Docker Compose support during project creation for a ASP.NET project (.NET Framework, not a .NET Core project) as shown in the following screenshot, container orchestration support is also added.
 
-![Enable Docker compose support for an ASP.NET project](media/enable-docker-compose-support.png)
+![Enable Docker compose support for an ASP.NET project](media/visual-studio-tools-for-docker/enable-docker-compose-support.png)
 ::: moniker-end
 
 ### Add container orchestration support
@@ -66,7 +62,7 @@ To add container orchestration support, right-click on the solution or project n
 
 After you add container orchestration support to your project, you see a *Dockerfile* added to the project and a **docker-compose** folder added to the solution in **Solution Explorer**, as shown here:
 
-![Docker files in Solution Explorer in Visual Studio](media/docker-support-solution-explorer.png)
+![Docker files in Solution Explorer in Visual Studio](media/visual-studio-tools-for-docker/docker-support-solution-explorer.png)
 
 If *docker-compose.yml* already exists, Visual Studio just adds the required lines of configuration code to it.
 
@@ -74,7 +70,7 @@ If *docker-compose.yml* already exists, Visual Studio just adds the required lin
 
 From the main menu, choose **Tools > Options**, and expand **Container Tools > Settings**. The container tools settings appear.
 
-![Visual Studio Docker tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/visual-studio-docker-tools-options.png)
+![Visual Studio Docker tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/visual-studio-tools-for-docker/visual-studio-docker-tools-options.png)
 
 The following table might help you decide how to set these options.
 

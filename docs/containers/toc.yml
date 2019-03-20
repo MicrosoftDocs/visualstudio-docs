@@ -3,7 +3,7 @@
   expanded: true
   items:
   - name: 'Overview'
-    href: visual-studio-tools-for-docker
+    href: visual-studio-tools-for-docker.md
   - name: 'Quickstart: Docker in Visual Studio'
     href: docker-tools.md
   - name: 'Tutorial: Multi-container app with Docker Compose'
