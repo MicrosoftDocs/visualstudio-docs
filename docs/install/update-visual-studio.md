@@ -182,11 +182,11 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
 
      ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
 
-1. Choose the **Update** button to install the updates.
+1. Choose **Update** to install the updates.
 
     ![Select the Update button to install the updates](media/vs2019-choose-update-visual-studio-community-rc.png "Select the Update button to install the updates")
 
-1. After the update is complete, select **Launch** to start Visual Studio.
+1. After the update is complete, choose **Launch** to start Visual Studio.
 
     ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
 
@@ -201,11 +201,13 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
     ![Open the Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Open the Visual Studio Installer")
 
     Visual Studio opens. Notice that in the IDE, there's a Visual Studio 2019 update message.
+
+    ![Choose the Update ](media/vs2019-update-visual-studio-ide-message.png "")
  
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
     ![Choose "View details" in the Visual Studio 2019 update message](media/vs2019-update-visual-studio-ide-message.png "Choose "View details" in the Visual Studio 2019 update message")
-1. 
+
 1. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
