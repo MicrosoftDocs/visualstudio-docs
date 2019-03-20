@@ -200,13 +200,19 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
 
     ![Open the Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Open the Visual Studio Installer")
 
-    Visual Studio opens. Notice that in the IDE, there's a Visual Studio 2019 update message.
+    Visual Studio opens. In the IDE, a Visual Studio 2019 update message appears.
 
-    ![Choose the Update ](media/vs2019-update-visual-studio-ide-message.png "")
+    ![The Visual Studio 2019 update message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The Visual Studio 2019 update message in the IDE")
  
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
-    ![Choose "View details" in the Visual Studio 2019 update message](media/vs2019-update-visual-studio-ide-message.png "Choose "View details" in the Visual Studio 2019 update message")
+   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
+
+1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+
+   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the View Details button in the Visual Studio 2019 update message")
+
+## Use the Notifications hub
 
 1. 
 
