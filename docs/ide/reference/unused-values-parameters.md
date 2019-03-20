@@ -3,7 +3,7 @@ title: Unused values and parameters
 ms.date: 02/15/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp

@@ -136,4 +136,4 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [Code Center Premium](https://www.microsoft.com/sharedsource/code-center-premium.aspx)
+ [Code Center Premium](https://www.microsoft.com/en-us/sharedsource/code-center-premium.aspx)

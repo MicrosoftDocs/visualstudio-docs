@@ -125,7 +125,7 @@ Automated testing is a key part of any DevOps pipeline. It allows you to consist
 
 For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
 
-And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-commit-time-code-quality-information-updated/) blog post.
+And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-getting-code-quality-information-at-commit-time/) blog post.
 
 ### Visual Studio IDE enhancements
 
@@ -182,7 +182,7 @@ We've refreshed the navigation experience to help you get from A to B with great
 
   ![Visual Studio 2017 structure visualizer](media/vsIDE-StructureVisualizer.png)
 
-For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://devblogs.microsoft.com/visualstudio/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
+For more information about the new productivity features, see the [Visual Studio 2017: Productivity, Performance, and Partners](https://devblogs.microsoft.com/visualstudio/visual-studio-2017-productivity-performance-and-partners/) blog post.
 
 ### Visual C++
 
@@ -375,8 +375,8 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ## See also
 
-* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)
-* [What's New in the Visual Studio 2017 SDK](/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk?view=vs-2017)
+* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes)
+* [What's New in the Visual Studio 2017 SDK](/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)

@@ -3,7 +3,7 @@ title: Use lambda expression or block body
 ms.date: 02/14/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp

@@ -150,7 +150,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ![.NET Core cross-platform development workload in Visual Studio Installer](../media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
+When you open Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
 
 ## Create a program
 

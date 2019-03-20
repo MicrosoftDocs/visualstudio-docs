@@ -478,7 +478,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
     > [!NOTE]
     >  You may need to change the numeric portion of the URL. Microsoft Azure requires a unique URL for each mobile service.  
   
-     This sets the URL for the service to *https://wpfquickstart01.azure-mobile.net/*.  
+     This sets the URL for the service to `https://wpfquickstart01.azure-mobile.net/`.  
   
 4.  In the **DATABASE** list, choose a database option. Since this is an application that probably won’t get a lot of usage, you might want to choose the **Create a free 20MB SQL database** option, or choose the free database already associated with your subscription.  
   

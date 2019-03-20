@@ -40,7 +40,7 @@ To run Docker containers locally, you'll need a local docker client.
 You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled,
 or you can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V, and requires Windows 10.
 
-If using Docker Toolbox, you'll need to [configure the Docker client](vs-azure-tools-docker-setup.md)
+If using Docker Toolbox, you'll need to configure the Docker client.
 
 ## 1. Create a web app
 
