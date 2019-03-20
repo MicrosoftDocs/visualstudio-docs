@@ -27,17 +27,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 
 ## Create a new project
 
-In this step, you create a Visual Basic or Visual C# project.
-
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **ReadingXML**, and then choose **OK**.
-
-   The **ReadingXML** project is created and added to **Solution Explorer**.
+Create a new **Windows Forms App** project for either C# or Visual Basic. Name the project **ReadingXML**.
 
 ## Generate the XML file to be read into the dataset
 
@@ -117,15 +107,15 @@ Because this walkthrough focuses on reading XML data into a dataset, the content
 
 The user interface for this application consists of the following:
 
--   A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.
+- A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.
 
--   A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.
+- A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.
 
--   Two <xref:System.Windows.Forms.Button> controls.
+- Two <xref:System.Windows.Forms.Button> controls.
 
-    -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
+    - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.
 
-    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
+    - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.
 
 ### To add controls to the form
 
@@ -133,11 +123,11 @@ The user interface for this application consists of the following:
 
 2.  From the **Toolbox**, drag the following controls onto the form:
 
-    -   One <xref:System.Windows.Forms.DataGridView> control
+    - One <xref:System.Windows.Forms.DataGridView> control
 
-    -   One <xref:System.Windows.Forms.TextBox> control
+    - One <xref:System.Windows.Forms.TextBox> control
 
-    -   Two <xref:System.Windows.Forms.Button> controls
+    - Two <xref:System.Windows.Forms.Button> controls
 
 3.  Set the following properties:
 
@@ -214,9 +204,9 @@ You can now test the form to make sure it behaves as expected.
 
 This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:
 
--   Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.
+- Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.
 
--   Edit the data in the dataset and write it out to a database.
+- Edit the data in the dataset and write it out to a database.
 
 ## See also
 

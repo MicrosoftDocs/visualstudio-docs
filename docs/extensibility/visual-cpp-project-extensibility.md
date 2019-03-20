@@ -441,7 +441,7 @@ The Visual C++ project system is based on the [VS Project System](https://github
 
 ### Project property pages
 
-For general design information, see [Platform Extensibility - Part 1](https://blogs.msdn.microsoft.com/vsproject/2009/06/09/platform-extensibility-part-1/) and [Platform extensibility - Part 2](https://blogs.msdn.microsoft.com/vsproject/2009/06/18/platform-extensibility-part-2/).
+For general design information, see [Framework Multi-Targeting for VC++ Projects](https://devblogs.microsoft.com/visualstudio/framework-multi-targeting-for-vc-projects/).
 
 In simple terms, the property pages you see in the **Project Properties** dialog for a C++ project are defined by *rule* files. A rule file specifies a set of properties to show on a property page, and how and where they should be saved in the project file. Rule files are .xml files that use Xaml format. The types used to serialize them are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in projects, see [Property Page XML rule files](/cpp/build/reference/property-page-xml-files).
 
