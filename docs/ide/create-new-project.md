@@ -16,7 +16,7 @@ ms.workload:
 
 ::: moniker range="vs-2017"
 
-## Open the Create a new project page
+## Open the New Project dialog
 
 There are multiple ways to create a new project in Visual Studio 2017. On the Start page, you can type in the name of a project template in the **Search project templates** box or choose the **Create new project** link to open the **New Project** dialog box. Aside from the Start page, you can also choose **File** > **New** > **Project** on the menu bar or click the **New Project** button on the toolbar.
 
