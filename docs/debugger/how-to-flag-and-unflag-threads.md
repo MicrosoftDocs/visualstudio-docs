@@ -25,7 +25,7 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 ### To flag or unflag a thread
 
 - In the **Threads** or **Parallel Watch** window, find the thread you are interested in and click the flag icon to select or clear the flag.
-- In the **Parallel Stacks** window, right-click on a thread or group of threads and select **Flag / <thread>** or **Unflag / <thread>**.
+- In the **Parallel Stacks** window, right-click on a thread or group of threads and select **Flag / \<thread>** or **Unflag / \<thread>**.
 
 ### To unflag all threads
 

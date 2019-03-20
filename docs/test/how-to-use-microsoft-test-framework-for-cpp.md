@@ -24,7 +24,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    1. In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
 
-   2. Click on the down arrow in the following rows and choose **<Edit>** :
+   2. Click on the down arrow in the following rows and choose **\<Edit>** :
 
 
       | Directory | Property |

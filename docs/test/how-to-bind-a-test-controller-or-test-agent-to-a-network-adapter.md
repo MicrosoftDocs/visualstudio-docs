@@ -49,7 +49,7 @@ If a computer that has the test controller or the test agent software installed 
 
      `net stop vsttcontroller`
 
-3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 
@@ -95,7 +95,7 @@ If a computer that has the test controller or the test agent software installed 
 
      **net stop vsttagent**
 
-3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 

@@ -109,7 +109,7 @@ The following procedure shows how to set the minimum operating system version in
    End Sub
    ```
 
-   The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically *<Projectname>.publish*). The second argument is the new operating system version.
+   The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically *\<ProjectName>.publish*). The second argument is the new operating system version.
 
 5. On the **Build** menu, click **Build Solution**.
 

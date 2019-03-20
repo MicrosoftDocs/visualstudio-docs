@@ -7,6 +7,7 @@ description: Learn how to use Visual Studio to develop applications, services, a
 ms.topic: hub-page
 ms.custom: seodec18
 ---
+<!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
@@ -1012,3 +1013,4 @@ ms.custom: seodec18
         </ul>
     </div>
 </div>
+<!-- markdown-ensable MD033 -->

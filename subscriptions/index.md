@@ -19,6 +19,7 @@ Visual Studio subscriptions is a comprehensive set of resources for you to creat
 Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team.<br>
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/">

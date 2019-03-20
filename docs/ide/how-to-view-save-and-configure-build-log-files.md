@@ -47,7 +47,7 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
      For more information, see [Options dialog box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.
 
     > [!IMPORTANT]
-    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *<ProjectName>.txt* file (C++ projects only).
+    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
 
 ## See also
 

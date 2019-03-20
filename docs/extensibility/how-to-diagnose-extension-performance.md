@@ -68,7 +68,7 @@ Using asynchronous package loading and asynchronous IO APIs should make sure tha
 
 One of the common patterns in package initialization is to initialize services either used by or provided by that package in the package `constructor` or `initialize` method. While this ensures services are ready to be used, it can also add unnecessary cost to package loading if those services are not used immediately. Instead such services should be initialized on demand to minimize the work done in package initialization.
 
-For global services provided by a package, you can use `AddService` methods that take a function to lazily initialize the service only when it is requested by a component. For services used within the package, you can use Lazy<T> or AsyncLazy<T> to make sure that services are initialized/queried on first use.
+For global services provided by a package, you can use `AddService` methods that take a function to lazily initialize the service only when it is requested by a component. For services used within the package, you can use Lazy\<T> or AsyncLazy\<T> to make sure that services are initialized/queried on first use.
 
 ## Measuring impact of auto loaded extensions using Activity log
 
