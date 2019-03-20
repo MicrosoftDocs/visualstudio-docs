@@ -53,7 +53,7 @@ There are multiple ways to create a new project in Visual Studio 2019. When you 
 
 ![Create a new project from the Start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
 
-If the Visual Studio development environment is already open, you can create a new project by chooosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
+If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
 
 ![New Project button in Visual Studio 2019](media/vs-2019/new-project-button.png)
 
