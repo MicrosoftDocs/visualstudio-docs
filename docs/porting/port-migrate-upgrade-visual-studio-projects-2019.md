@@ -2,8 +2,8 @@
 title: Port, migrate, and upgrade projects in Visual Studio 2019
 titleSuffix: ""
 description: A reference for the support in Visual Studio 2019 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when to migrate a project.
-ms.date: 02/26/2019
-ms.prod: visual-studio-dev16
+ms.date: 03/20/2019
+ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: TerryGLee
@@ -23,7 +23,7 @@ helpviewer_keywords:
 ---
 # Project migration and upgrade reference for Visual Studio 2019
 
-Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releases/2019/release-notes-preview) for which features are specific to which versions.)
+Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Visual Studio 2019 Preview release notes](/visualstudio/releases/2019/release-notes-preview) and the [Visual Studio 2019 RC release notes](/visualstudio/releases/2019/release-notes/) for which features are specific to which versions.)
 
 Support for some project types also changes over time. A newer version of Visual Studio might no longer support certain projects at all, or it might require updating a project so that it's no longer backwards-compatible. For current status on migration issues, refer to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com).
 
@@ -80,13 +80,13 @@ If you don't see a project or file type listed here that should be, consult the 
 
 ## How Visual Studio decides when to migrate a project
 
-Each new version of Visual Studio generally seeks to maintain compatibility with previous versions, such that the same project can be opened, modified, and built across different versions. However, there are inevitable changes over time such that some project types may no longer be supported. (See [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) for which project types are supported in Visual Studio 2019 Prevew.) In these cases, a newer version of Visual Studio won't load the project and doesn't offer a migration path; you need to maintain that project in a previous version of Visual Studio that does support it.
+Each new version of Visual Studio generally seeks to maintain compatibility with previous versions, such that the same project can be opened, modified, and built across different versions. However, there are inevitable changes over time such that some project types may no longer be supported. (See [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) for which project types are supported in Visual Studio 2019.) In these cases, a newer version of Visual Studio won't load the project and doesn't offer a migration path; you need to maintain that project in a previous version of Visual Studio that does support it.
 
 In other cases, the newer version of Visual Studio can open a project, but must update or migrate the project in such a way that might render it incompatible with previous versions. Visual Studio uses a number of criteria to determine whether such migration is necessary:
 
 - Compatibility with the target versions of platforms, back to Visual Studio 2013 RTM.​
 
-- Compatibility of design-time assets with previous versions of Visual Studio. (Namely different channels of Visual Studio 2019, Visual Studio 2017; Visual Studio 2015 RTM & Update 3; Visual Studio 2013 RTM & Update 5; Visual Studio 2012 Update 4; Visual Studio 2010 SP 1.) Visual Studio 2019 aims to fail gracefully with deprecated design-time assets without corrupting them, such that previous versions can still open the project.
+- Compatibility of design-time assets with previous versions of Visual Studio. (Namely different channels of Visual Studio 2019, Visual Studio 2017; Visual Studio 2015 RTM & Update 3; Visual Studio 2013 RTM & Update 5; Visual Studio 2012 Update 4; Visual Studio 2010 SP1.) Visual Studio 2019 aims to fail gracefully with deprecated design-time assets without corrupting them, such that previous versions can still open the project.
 
 - Whether new design time assets would break compatibility with previous versions down to Visual Studio 2013 RTM & Update 5.
 
