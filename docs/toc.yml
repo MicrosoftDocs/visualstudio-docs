@@ -171,6 +171,8 @@
     - name: Work with solutions and projects
       href: ide/solutions-and-projects-in-visual-studio.md
       items:
+      - name: Open a project from a repo
+        href: get-started/tutorial-open-project-from-repo.md
       - name: Create solutions and projects
         href: ide/creating-solutions-and-projects.md
       - name: Port, migrate, and upgrade projects
