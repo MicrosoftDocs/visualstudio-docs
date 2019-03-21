@@ -16,6 +16,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Set defaults for enterprise deployments of Visual Studio
 
