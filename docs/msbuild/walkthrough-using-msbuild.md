@@ -119,7 +119,7 @@ The Message task takes the string value of the Text attribute as input and displ
 
    (Windows 10) In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
 
-   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder>\<version>\Common7\Tools* folder.
+   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder\>\<version>\Common7\Tools* folder.
 
 2. From the command window, navigate to the folder containing the project file, in this case, *D:\BuildApp\BuildApp*.
 

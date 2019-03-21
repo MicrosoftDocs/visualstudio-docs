@@ -12,6 +12,8 @@ manager: jillfra
 
 Visual Studio provides several different tools to help you deploy your apps.
 
+<!-- markdownlint-disable MD033 -->
+
 <h2>Experience Visual Studio deployment with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">

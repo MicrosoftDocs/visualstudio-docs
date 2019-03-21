@@ -75,7 +75,7 @@ Reference topics for most rules are under
 [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md).
 
 As of Visual Studio 2017 version 15.3, the supported rule sets are:
-- **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+- **Owner Pointer Rules** enforce [resource-management checks related to owner\<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
 - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
 

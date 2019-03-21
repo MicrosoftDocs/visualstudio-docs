@@ -14,6 +14,8 @@ ms.workload:
 
 Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsF">
     <li>
         <a href="/visualstudio/cross-platform/install-visual-cpp-for-cross-platform-mobile-development">

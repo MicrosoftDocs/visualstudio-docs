@@ -280,29 +280,29 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
     This expression uses the following Backus-Naur Form (BNF) syntax:
 
-    <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>
+    \<Expression> ::= \<BinaryExpression> &#124; \<UnaryExpression> &#124; "("\<Expression>")" &#124; \<MemberBindings> &#124; \<Literal> &#124; \<Number>
 
-    <BinaryExpression> ::= <Expression> <Operator> <Expression>
+    \<BinaryExpression> ::= \<Expression> \<Operator> \<Expression>
 
-    <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>
+    \<UnaryExpression> ::= "!" \<Expression> &#124; "+" \<Expression> &#124; "-" \<Expression>
 
-    <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
+    \<Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
 
-    <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>
+    \<MemberBindings> ::= \<MemberBindings> &#124; \<MemberBinding> "." \<MemberBinding>
 
-    <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>
+    \<MemberBinding> ::= \<MethodCall> &#124; \<PropertyGet>
 
-    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"
+    \<MethodCall> ::= \<Identifier> "(" \<MethodArgs> ")"
 
-    <PropertyGet> ::= Identifier
+    \<PropertyGet> ::= Identifier
 
-    <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>
+    \<MethodArgs> ::= \<Expression> &#124; \<Expression> "," \<MethodArgs> &#124; \<empty>
 
-    <Identifier> ::= [^. ]*
+    \<Identifier> ::= [^. ]*
 
-    <Literal> ::= single or double-quoted string literal
+    \<Literal> ::= single or double-quoted string literal
 
-    <Number> ::= string of digits with optional decimal point
+    \<Number> ::= string of digits with optional decimal point
 
     You can specify multiple `<Condition/>` elements, which must all be true to apply the style.
 
