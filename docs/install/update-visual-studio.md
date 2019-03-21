@@ -220,4 +220,4 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
 
-::: moniker-en
+::: moniker-end
