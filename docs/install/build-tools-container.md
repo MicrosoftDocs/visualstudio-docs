@@ -24,7 +24,7 @@ If Visual Studio Build Tools does not have what you require to build your source
 
 ## Overview
 
-Using [Docker](https://www.docker.com/what-docker) you create an image from which you can create containers that build your source code. The example Dockerfile installs the latest Visual Studio Build Tools 2017 and some other helpful programs often used for building source code. You can further modify your own Dockerfile to include other tools and scripts to run tests, publish build output, and more.
+Using [Docker](https://www.docker.com/what-docker), you create an image from which you can create containers that build your source code. The example Dockerfile installs the latest Visual Studio Build Tools and some other helpful programs often used for building source code. You can further modify your own Dockerfile to include other tools and scripts to run tests, publish build output, and more.
 
 If you have already installed Docker for Windows, you can skip to step 3.
 
@@ -40,11 +40,11 @@ Hyper-V is not enabled by default. It must be enabled to start Docker for Window
 
 ## Step 2. Install Docker for Windows
 
-If using Windows 10, you can [download and install Docker Community Edition](https://docs.docker.com/docker-for-windows/install). If using Windows Server 2016, follow [instructions to install Docker Enterprise Edition](https://docs.docker.com/install/windows/docker-ee).
+If you use Windows 10, you can [download and install Docker Community Edition](https://docs.docker.com/docker-for-windows/install). If you use Windows Server 2016, follow [instructions to install Docker Enterprise Edition](https://docs.docker.com/install/windows/docker-ee).
 
 ## Step 3. Switch to Windows Containers
 
-You can only install Build Tools 2017 on Windows, which requires you [switch to Windows containers](https://docs.docker.com/docker-for-windows/#getting-started-with-windows-containers). Windows containers on Windows 10 support only [Hyper-V isolation](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/hyperv-container), while Windows containers on Windows Server 2016 support both Hyper-V and process isolation.
+You can install Build Tools only on Windows, which requires you [switch to Windows containers](https://docs.docker.com/docker-for-windows/#getting-started-with-windows-containers). Windows containers on Windows 10 support only [Hyper-V isolation](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/hyperv-container), while Windows containers on Windows Server 2016 support both Hyper-V and process isolation.
 
 ## Step 4. Expand maximum container disk size
 
@@ -113,22 +113,23 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 Save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
 
 > [!WARNING]
-> This example Dockerfile only excludes earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
+> This example Dockerfile excludes only earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
 
 1. Open a command prompt.
-2. Create a new directory (recommended):
+
+1. Create a new directory (recommended):
 
    ```shell
    mkdir C:\BuildTools
    ```
 
-3. Change directories to this new directory:
+1. Change directories to this new directory:
 
    ```shell
    cd C:\BuildTools
    ```
 
-3. Save the following content to C:\BuildTools\Dockerfile.
+1. Save the following content to C:\BuildTools\Dockerfile.
 
    ```dockerfile
    # escape=`
@@ -136,7 +137,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # Use the latest Windows Server Core image with .NET Framework 4.7.1.
    FROM microsoft/dotnet-framework:4.7.1
 
-   # Restore the default Windows shell for correct batch processing below.
+   # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
 
    # Download the Build Tools bootstrapper.
@@ -160,7 +161,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images tagged version 4.7.1 or later may use PowerShell as the default `SHELL` which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.7.1 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
    > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr\.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
    >
@@ -172,7 +173,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    docker build -t buildtools2017:latest -m 2GB .
    ```
 
-   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you may be able to build with only 1 GB of memory depending on your build requirements.
+   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
 
    The final image is tagged "buildtools2017:latest" so you can easily run it in a container as "buildtools2017" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2017 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
@@ -181,13 +182,14 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 Now that you have created an image, you can run it in a container to do both interactive and automated builds. The example uses the Developer Command Prompt, so your PATH and other environment variables are already configured.
 
 1. Open a command prompt.
-2. Run the container to start a PowerShell environment with all developer environment variables set:
+
+1. Run the container to start a PowerShell environment with all developer environment variables set:
 
    ```shell
    docker run -it buildtools2017
    ```
 
-To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers only need to pull it.
+To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers need only to pull it.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
