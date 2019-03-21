@@ -40,14 +40,14 @@ ms.workload:
 
 -   Supported editions of Windows and SharePoint.
 
--   Visual Studio.
+-   [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
 
 ## Create custom site columns
  This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and add site columns to it, as follows.
 
 #### To create the project
 
-1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]**File** menu, choose **New** > **Project**.
+1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
 
 2.  In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose **2010**.
 

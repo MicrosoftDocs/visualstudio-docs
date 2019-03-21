@@ -33,6 +33,7 @@ ms.workload:
 |Topic|Description|
 |-----------|-----------------|
 |[Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)|Describes SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Set up a general development environment for SharePoint](../../sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint)|Describes the required installations for creating a SharePoint Solution|
 |[Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)|Describes how to create custom site columns, content types, and lists for SharePoint by using the Visual Studio tools for SharePoint development.|
 |[Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)|Describes workflow design and development.|
 |[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Describes how to connect to Business Data Connectivity (BDC) models to integrate business data.|
