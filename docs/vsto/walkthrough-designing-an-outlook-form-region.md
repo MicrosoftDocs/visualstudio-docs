@@ -38,7 +38,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or greater.
+- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).
 
