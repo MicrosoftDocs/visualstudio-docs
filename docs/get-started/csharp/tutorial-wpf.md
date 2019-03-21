@@ -29,7 +29,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2017"
 
-When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this tutorial. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
+When you open Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this tutorial. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
 
 ![Choose settings dialog box](../media/exploreide-settings.png)
 
@@ -41,7 +41,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 
 ::: moniker range=">=vs-2019"
 
-When you launch Visual Studio, the **Start** window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
 
 ::: moniker-end
 

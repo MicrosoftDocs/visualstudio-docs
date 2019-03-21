@@ -41,7 +41,7 @@ This walkthrough demonstrates how to create a simple Windows Communication Found
 
 ::: moniker range=">=vs-2019"
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
 3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then click **Next**.
 

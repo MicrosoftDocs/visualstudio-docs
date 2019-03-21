@@ -72,7 +72,7 @@ For global services provided by a package, you can use `AddService` methods that
 
 ## Measuring impact of auto loaded extensions using Activity log
 
-Beginning in Visual Studio 2017 Update 3, Visual Studio activity log will now contain entries for performance impact of packages during startup and solution load. In order to see these measurements, you have to start Visual Studio with /log switch and open *ActivityLog.xml* file.
+Beginning in Visual Studio 2017 Update 3, Visual Studio activity log will now contain entries for performance impact of packages during startup and solution load. In order to see these measurements, you have to open Visual Studio with /log switch and open *ActivityLog.xml* file.
 
 In the activity log, the entries will be under "Manage Visual Studio Performance" source, and will look like the following example:
 
@@ -135,9 +135,9 @@ Once you set up your Visual Studio environment with your extension installed, yo
 
 ![perfview collect menu](media/perfview-collect-menu.png)
 
-The default options will provide call stacks for CPU consumption but since we are interested in blocking time as well, you also should enable **Thread Time** stacks. Once the settings are ready you can click on **Start Collection** and start Visual Studio once recording is started.
+The default options will provide call stacks for CPU consumption but since we are interested in blocking time as well, you also should enable **Thread Time** stacks. Once the settings are ready, you can click on **Start Collection** and then open Visual Studio after recording starts.
 
-Before you stop collection, you want to make sure Visual Studio is fully initialized, the main window is completely visible and if your extension has any UI pieces that automatically show,  they are also visible. Once Visual Studio is completely loaded and your extension is initialized, you can stop recording to analyze the trace.
+Before you stop collection, you want to make sure Visual Studio is fully initialized, the main window is completely visible and if your extension has any UI pieces that automatically show, they are also visible. When Visual Studio is completely loaded and your extension is initialized, you can stop recording to analyze the trace.
 
 **Analyzing a trace with PerfView:**
 
