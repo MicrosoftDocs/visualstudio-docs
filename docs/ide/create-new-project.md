@@ -59,7 +59,7 @@ If the Visual Studio development environment is already open, you can create a n
 
 ## Select a template type
 
-On the **Create a new project** page, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*, and only the first 10 templates are displayed.
+On the **Create a new project** page, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
 
 If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
@@ -91,7 +91,7 @@ Click **Create** to create the new project.
 
 ## Add additional projects to a solution
 
-If you want to add an additional project to a solution, select the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
+If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and choose **Add** > **New Project**.
 
 ## See also
 
