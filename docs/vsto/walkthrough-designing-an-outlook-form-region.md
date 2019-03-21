@@ -155,7 +155,7 @@ ms.workload:
 
 5.  Reopen the **Ann Beebe** contact item.
 
-    In Outlook 365, this can be done in the **Find** group by either opening the Address Book for Contacts or typing Ann Beebe into **Search People**.
+    In Outlook, this can be done in the **Find** group by either opening the Address Book for Contacts or typing Ann Beebe into **Search People**.
 
 6.  In the **Show** group of the item's Ribbon, click **Map It** to open the Map It form region.
 
