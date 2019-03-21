@@ -49,9 +49,9 @@ Click **OK** to create the solution and project.
 
 ## Open the Create a new project page
 
-There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the Start window appears, and from there, you can choose **Create a new project**.
+There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can choose **Create a new project**.
 
-![Create a new project from the Start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
+![Create a new project from the start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
 
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
 

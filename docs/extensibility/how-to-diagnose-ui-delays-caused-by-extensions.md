@@ -37,7 +37,7 @@ To do diagnose a UI delay, you first need to identify what (sequence of actions)
 
 ## Restart VS with activity logging on
 
-Visual Studio can generate an "activity log" that provides information helpful when debugging an issue. To turn on activity logging in Visual Studio, start Visual Studio with the `/log` command line option. After Visual Studio starts, the activity log is stored in the following location:
+Visual Studio can generate an "activity log" that provides information helpful when debugging an issue. To turn on activity logging in Visual Studio, open Visual Studio with the `/log` command line option. After Visual Studio starts, the activity log is stored in the following location:
 
 ```DOS
 %APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml

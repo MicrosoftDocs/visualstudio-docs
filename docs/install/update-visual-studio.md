@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/09/2019
+ms.date: 03/21/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -15,6 +15,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Update Visual Studio to the most recent release
 
@@ -166,9 +168,9 @@ We encourage you to update to the most [recent version](/visualstudio/releases/2
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-## Update Visual Studio 2019
+Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
 
-Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
+## Use the Visual Studio Installer
 
 1. Open the installer.
 
@@ -182,13 +184,37 @@ Here's how to use the Visual Studio Installer to update Visual&nbsp;Studio&nbsp;
 
      ![Select the edition of Visual Studio 2019 that you want to update](media/vs2019-update-visual-studio-community-rc.png "Select the edition of Visual Studio 2019 that you want to update")
 
-1. Choose the **Update** button to install the updates.
+1. Choose **Update** to install the updates.
 
     ![Select the Update button to install the updates](media/vs2019-choose-update-visual-studio-community-rc.png "Select the Update button to install the updates")
 
-1. After the update is complete, select **Launch** to start Visual Studio.
+1. After the update is complete, choose **Launch** to start Visual Studio.
 
     ![Select the Launch button to start Visual Studio](media/vs2019-choose-launch-visual-studio-community-rc.png "Select the Launch button to start Visual Studio")
+
+## Use the IDE
+
+1. Open Visual Studio. 
+ 
+    ![Open the Visual Studio 2019 RC](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
+
+1. Under **Get started**, choose any option to open the IDE.
+
+    ![Open the Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Open the Visual Studio Installer")
+
+    Visual Studio opens. In the IDE, a **Visual Studio 2019 update** message appears.
+
+    ![The 'Visual Studio 2019 update' message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
+ 
+1. In the **Visual Studio 2019 update** message, choose **View details**.
+
+   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
+
+1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+
+   Visual Studio closes, and then reopens.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

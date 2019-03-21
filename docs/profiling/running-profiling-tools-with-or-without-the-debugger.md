@@ -61,7 +61,7 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 ## Collect profiling data without debugging
 
-To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
+To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can open Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
 
 1. With a project open in Visual Studio, select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
