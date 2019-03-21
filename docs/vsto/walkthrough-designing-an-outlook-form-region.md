@@ -38,7 +38,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].
+- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).
 
@@ -108,7 +108,7 @@ ms.workload:
 
 ### To customize the behavior of the form region
 
-1. In **Solution Explorer**, right click *MapIt.cs* or *MapIt.vb*, and then click **View Code**.
+1. In **Solution Explorer**, right-click *MapIt.cs* or *MapIt.vb*, and then click **View Code**.
 
     *MapIt.cs* or *MapIt.vb* opens in the Code Editor.
 
@@ -154,6 +154,8 @@ ms.workload:
 4.  Save and close the contact item.
 
 5.  Reopen the **Ann Beebe** contact item.
+
+    In Outlook, this can be done in the **Find** group by either opening the Address Book for Contacts or typing Ann Beebe into **Search People**.
 
 6.  In the **Show** group of the item's Ribbon, click **Map It** to open the Map It form region.
 
