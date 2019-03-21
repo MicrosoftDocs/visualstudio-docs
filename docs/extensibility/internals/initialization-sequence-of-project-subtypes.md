@@ -25,7 +25,7 @@ The environment constructs a project by calling the base project factory impleme
 
     1.  The environment's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> method calls the `HrCreateInnerProj` method with the following function declaration:
 
-         <CodeContentPlaceHolder>0</CodeContentPlaceHolder>
+         \<CodeContentPlaceHolder>0</CodeContentPlaceHolder>
 
          When this function is called for the first time, that is, for the outermost project subtype, the parameters `pOuter` and `pOwner` are passed in as `null` and the function sets the outermost project subtype `IUnknown` to `pOuter`.
 
