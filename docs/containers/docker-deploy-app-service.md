@@ -41,7 +41,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 7. Select the **Linux** container type and click **OK**. Windows containers are not supported to deploy to Azure App Service as a container.
 ::: moniker-end
 ::: moniker range=">= vs-2019"
-1. From the Visual Studio **Start** window, choose **Create a new project**.
+1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web Application**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Create**.
 1. Choose **Web Application**.

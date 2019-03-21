@@ -14,6 +14,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Tools for detecting and managing Visual Studio instances
 
@@ -31,7 +33,7 @@ In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Co
 
 ## Using vswhere.exe
 
-`vswhere.exe` is automatically included in Visual Studio 2017 version 15.2 or higher, or you may download it from [the releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including old versions of the product and prereleases, and outputs the results in JSON format:
+`vswhere.exe` is automatically included in Visual Studio 2017 version 15.2 or later, or you can download it from [the releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json

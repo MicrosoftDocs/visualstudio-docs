@@ -78,7 +78,7 @@ The C++ Core Guidelines are there to help you write better and safer code. Howev
 
 As new rules are added to the C++ Core Guidelines Checker, the number of warnings that are produced for pre-existing code may increase. You can use predefined rule sets to filter which kinds of rules to enable. As of Visual Studio 2017 version 15.3, the supported rule sets are:
 
-  - **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+  - **Owner Pointer Rules** enforce [resource-management checks related to owner\<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
   - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
 
@@ -156,7 +156,7 @@ You can use the command line option to temporarily disable all code analysis for
 Sometimes it may be useful to do focused code analysis and still leverage the Visual Studio IDE. Below is a sample scenario which can be used for large projects to save build time and to make it easier to filter results.
 
 1. In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
-2. Start Visual Studio from the command shell to inherit these variables.
+2. Open Visual Studio from the command shell to inherit these variables.
 3. Load your project and open its properties.
 4. Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
 5. Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
