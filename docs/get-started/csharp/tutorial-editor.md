@@ -37,7 +37,7 @@ Start by creating a new file and adding some code to it.
 
 ::: moniker range=">=vs-2019"
 
-1. Open Visual Studio. Press **Esc** or click **Continue without code** on the Start window to open the development environment.
+1. Open Visual Studio. Press **Esc** or click **Continue without code** on the start window to open the development environment.
 
 ::: moniker-end
 

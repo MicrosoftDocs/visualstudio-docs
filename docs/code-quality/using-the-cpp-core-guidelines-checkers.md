@@ -8,7 +8,7 @@ manager: wpickett
 dev_langs:
  - CPP
 ---
-# Using the C++ Core Guidelines checkers
+# Use the C++ Core Guidelines checkers
 
 The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers. Visual Studio currently supports a subset of these rules as part of its code analysis tools for C++. The core guideline checkers are installed by default in Visual Studio 2017 and Visual Studio 2019, and are [available as a NuGet package for Visual Studio 2015](#vs2015_corecheck).
 
@@ -75,7 +75,7 @@ Reference topics for most rules are under
 [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md).
 
 As of Visual Studio 2017 version 15.3, the supported rule sets are:
-- **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+- **Owner Pointer Rules** enforce [resource-management checks related to owner\<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
 - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
 
@@ -148,7 +148,7 @@ The Microsoft Visual C++ compiler has a limited support for the GSL suppress att
 }
 ```
 
-## Suppressing analysis by using command-line options
+## Suppress analysis by using command-line options
 
 Instead of #pragmas, you can use command-line options in the file's property page to suppress warnings for a project or a single file. For example, to disable the warning 26400 for a file:
 
@@ -160,12 +160,12 @@ Instead of #pragmas, you can use command-line options in the file's property pag
 
 You can use the command-line option to temporarily disable all code analysis for a file by specifying `/analyze-`. This produces warning *D9025 overriding '/analyze' with '/analyze-'*, which reminds you to re-enable code analysis later.
 
-## <a name="corecheck_per_file"></a> Enabling the C++ Core Guidelines Checker on specific project files
+## <a name="corecheck_per_file"></a> Enable the C++ Core Guidelines Checker on specific project files
 
 Sometimes it may be useful to do focused code analysis and still use the Visual Studio IDE. The following sample scenario can be used for large projects to save build time and to make it easier to filter results:
 
 1. In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
-2. To inherit these variables, start Visual Studio from the command shell.
+2. To inherit these variables, open Visual Studio from the command shell.
 3. Load your project and open its properties.
 4. Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
 5. Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.

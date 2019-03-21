@@ -19,13 +19,13 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Create a new project
 
-1. In Visual Studio, choose **File > New > Project**.
+1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    The **Create a new project** dialog box opens. Type **.net** in the search box to filter results, choose **Console App (.NET Core)**, and then click **Next**. Then, enter a name like **MyDbgApp** and choose **Create**.
+    Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Core) project**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    The **New project** dialog box opens. Under **Visual C#**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**. Then, type a name like **MyDbgApp** and click **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**. Then, type a name like **MyDbgApp** and click **OK**.
     ::: moniker-end
 
      If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** and **.NET Core** workload, then choose **Modify**.

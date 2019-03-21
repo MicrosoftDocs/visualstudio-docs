@@ -112,7 +112,7 @@
 ### [Error: You do not have permission to inspect the process's identity](error-you-do-not-have-permission-to-inspect-the-process-s-identity.md)
 ### [Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer](error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md)
 ### [Error: Web site worker process has been terminated by IIS](error-web-site-worker-process-has-been-terminated-by-iis.md)
-### [Error: Unable to connect to the machine <name>. The machine cannot be found on the network.](error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
+### [Error: Unable to connect to the machine \<name>. The machine cannot be found on the network.](error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md)
 ### [Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater](error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md)
 ### [Error: Mixed mode debugging for IA64 processes is unsupported](error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md)
 ### [Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater](error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md)

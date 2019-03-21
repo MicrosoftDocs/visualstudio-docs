@@ -52,7 +52,7 @@ Once you have the appropriate tools installed, launch Visual Studio and create a
 ::: moniker-end
 ::: moniker range=">= vs-2019"
 
-In the Visual Studio Start Window, search for *Kubernetes*, and choose the **Container Application for Kubernetes**.
+In the Visual Studio start window, search for *Kubernetes*, and choose the **Container Application for Kubernetes**.
 
 ![Screenshot of creating a new Kubernetes app project](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-new-k8s-app1.png)
 

@@ -21,6 +21,7 @@ Version control systems help you track changes to code over time. As you make ch
 
 Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/devops/git/what-is-git">

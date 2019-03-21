@@ -68,7 +68,7 @@ Create a new WPF project to display product records.
 
 1. Open Visual Studio.
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
 3. Search for the C# **WPF App** project template and follow the steps to create the project, naming the project **AdventureWorksProductsEditor**.
 

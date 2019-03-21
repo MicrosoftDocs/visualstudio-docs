@@ -14,6 +14,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Uninstall Visual Studio
 

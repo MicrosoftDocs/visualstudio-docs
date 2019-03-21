@@ -47,6 +47,7 @@ TypeScript uses several sources to build up this information:
 - [Automatic acquisition of type definitions](#Auto)
 
 <a name="TypeInference"></a>
+
 ### IntelliSense based on type inference
 
 In JavaScript, most of the time there is no explicit type information available. Luckily, it is usually fairly easy to figure out a type given the surrounding code context.
@@ -84,6 +85,7 @@ exports.Foo = Foo;
 ```
 
 <a name="JsDoc"></a>
+
 ### IntelliSense based on JSDoc
 
 Where type inference does not provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
@@ -117,7 +119,7 @@ Because JavaScript and TypeScript are now based on the same language service, th
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
 
-<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640" alt="TypeScript definition file" />
+![TypeScript definition file](https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png)
 
 <a name="Auto"></a>
 ### Automatic acquisition of type definitions

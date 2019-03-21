@@ -49,9 +49,9 @@ Click **OK** to create the solution and project.
 
 ## Open the Create a new project page
 
-There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the Start window appears, and from there, you can choose **Create a new project**.
+There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can choose **Create a new project**.
 
-![Create a new project from the Start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
+![Create a new project from the start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
 
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
 
@@ -59,17 +59,31 @@ If the Visual Studio development environment is already open, you can create a n
 
 ## Select a template type
 
-On the **Create a new project** page, you can filter the available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
+On the **Create a new project** page, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
+
+If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
 ![Project template filters in Visual Studio 2019](media/vs-2019/create-new-project-filters.png)
+
+The tags that appear under each template correspond to the three dropdown filters (Language, Platform, and Project type).
+
+> [!TIP]
+> If you don't see the template you're looking for, you may be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then choose **Modify**. After that, additional project templates will be available to choose from.
+>
+> ![Install more tools and features link in VS 2019](media/vs-2019/install-more-tools-features.png)
 
 Select a template and then click **Next**.
 
 ## Configure your project
 
-The **Configure your new project** page has options to name your project (and solution), choose a location where to save it, and select a Framework version (if applicable to the template you chose).
+The **Configure your new project** page has options to name your project (and solution), choose a disk location, and select a Framework version (if applicable to the template you chose).
 
 ![Configure your new project page in VS 2019](media/vs-2019/configure-new-project.png)
+
+> [!NOTE]
+> If you create a new project when you already have a project or solution open in Visual Studio, an extra configuration option is available. You can choose to create a new solution or add the new project to the solution that's already open.
+>
+> ![Create new solution or add to existing solution in VS 2019](media/vs-2019/configure-new-project-solution.png)
 
 Click **Create** to create the new project.
 
@@ -77,7 +91,7 @@ Click **Create** to create the new project.
 
 ## Add additional projects to a solution
 
-If you want to add an additional project to a solution, select the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
+If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and choose **Add** > **New Project**.
 
 ## See also
 
