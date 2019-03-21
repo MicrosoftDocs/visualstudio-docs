@@ -166,7 +166,7 @@ We encourage you to update to the most [recent version](/visualstudio/releases/2
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
+Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio&nbsp;2019&nbsp;RC.
 
 ## Use the Visual Studio Installer
 
@@ -212,10 +212,12 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
 
      ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
+   Visual Studio closes, and then reopens.
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
 
-::: moniker-end
+::: moniker-en
