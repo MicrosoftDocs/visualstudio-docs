@@ -95,14 +95,14 @@ For more complete instructions for debugging ASP.NET applications that have been
      > [!NOTE]
      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
-	 ::: moniker-end
-	 
-	 ::: moniker range=">= vs-2019"
+     ::: moniker-end
+
+     ::: moniker range=">= vs-2019"
 
      > [!NOTE]
      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
-	 ::: moniker-end
+     ::: moniker-end
 
    - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
 

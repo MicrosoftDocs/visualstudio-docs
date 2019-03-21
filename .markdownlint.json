@@ -8,7 +8,6 @@
     "MD006": false,
     "MD007": false,
     "MD009": false,
-    "MD010": false,
     "MD011": false,
     "MD012": false,
     "MD013": false,
@@ -24,7 +23,19 @@
     "MD030": false,
     "MD031": false,
     "MD032": false,
-    "MD033": false,
+    "MD033": {
+        "allowed_elements": [
+            "a",
+            "br",
+            "em",
+            "kbd",
+            "li",
+            "ol",
+            "strong",
+            "sup",
+            "ul"
+        ]
+    },
     "MD034": false,
     "MD036": false,
     "MD040": false,

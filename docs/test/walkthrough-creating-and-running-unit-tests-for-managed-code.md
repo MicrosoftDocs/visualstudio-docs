@@ -43,7 +43,7 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 1. Open Visual Studio.
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
 ::: moniker-end
 

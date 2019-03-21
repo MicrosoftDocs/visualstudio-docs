@@ -171,7 +171,7 @@ The rules are as follows:
   to internal members that were visible to the
   enclosing [PexClass](attribute-glossary.md#pexclass).
   .NET has the **InternalsVisibleToAttribute** to
-  extend the visibility of internal members to other assemblies.<p />
+  extend the visibility of internal members to other assemblies.
 
 * **Visibility of private and family (protected in C#) members of the
   [PexClass](attribute-glossary.md#pexclass)**
@@ -184,7 +184,7 @@ The rules are as follows:
     the [PexClass](attribute-glossary.md#pexclass)
     (usually by using partial classes), IntelliTest
     assumes that it may also use all private members of the
-    [PexClass](attribute-glossary.md#pexclass).<p />
+    [PexClass](attribute-glossary.md#pexclass).
 
 * **Visibility of public members**
   * IntelliTest assumes that it may use all exported members visible in the context of the [PexClass](attribute-glossary.md#pexclass).

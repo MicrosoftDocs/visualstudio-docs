@@ -5,11 +5,13 @@ description: "Learn how to repair an installation of Visual Studio 2017"
 ms.date: 01/15/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
-author: PoulChapman
+author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 
 # Repair Visual Studio

@@ -61,7 +61,7 @@ The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the
   
     A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
   
-    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
+    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the \<ProjectType> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
   
    ```xml  
    <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  

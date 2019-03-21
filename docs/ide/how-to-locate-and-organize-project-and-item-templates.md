@@ -55,9 +55,9 @@ For example, the following directory has user project templates for C#:
 
 By default, templates installed with Visual Studio are located in:
 
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID>*
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID\>*
 
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID>*
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID\>*
 
 For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
