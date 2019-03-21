@@ -55,7 +55,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
     In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Select **MVC** and choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    To do this in Visual Studio 2017, choose **File > New > Project**, then select <strong>Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2</strong> templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+    To do this in Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application**. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
     ::: moniker-end
 
 2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
