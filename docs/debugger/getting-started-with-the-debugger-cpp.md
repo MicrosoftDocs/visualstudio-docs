@@ -31,12 +31,12 @@ In this tutorial, you will:
 
 ::: moniker range=">=vs-2019"
 
-* You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
+You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
 
 ::: moniker-end
 ::: moniker range="vs-2017"
 
-* You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
+You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
 
 ::: moniker-end
 
