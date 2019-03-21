@@ -16,6 +16,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Modify Visual Studio by adding or removing workloads and components
 
