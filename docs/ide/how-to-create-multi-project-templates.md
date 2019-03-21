@@ -24,7 +24,7 @@ Multi-project templates behave differently than single project templates. They h
 
 A multi-project template must include the following items, compressed into a *.zip* file:
 
-- A root *vstemplate* file for the entire multi-project template. This root *vstemplate* file contains metadata that the **New Project** or **Create a new project** window displays. It also specifies where to find the *vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
+- A root *vstemplate* file for the entire multi-project template. This root *vstemplate* file contains metadata that's displayed in the dialog box where you create a new project. It also specifies where to find the *vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
 
 - Two or more folders that contain the files that are required for a complete project template. The folders include all code files for the project, and also a *vstemplate* file for the project.
 
@@ -104,7 +104,7 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 
 ::: moniker range=">=vs-2019"
 
-11. In Visual Studio, open the **Create a new project** window and verify that your template appears.
+11. In Visual Studio, open the dialog box where you create a new project and verify that your template appears.
 
 ::: moniker-end
 

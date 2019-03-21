@@ -41,19 +41,19 @@ To find your template in the **New Project** dialog box, expand **Installed** an
 
 ::: moniker range=">=vs-2019"
 
-5. On the **Select Template Options** page, enter a name, and optional description, icon, and preview image for your template. These items will appear in the **Create a new project** window. Choose **Finish**.
+5. On the **Select Template Options** page, enter a name, and optional description, icon, and preview image for your template. These items will appear in the dialog box where you create a new project. Choose **Finish**.
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-To find your template in the **Create a new project** window, you can filter the displayed templates based the `ProjectType` element in the *.vstemplate* file. For example, if your *.vstemplate* file contains `<ProjectType>CSharp</ProjectType>`, you can filter the language to **C#** using the **Languages** dropdown.
+To find your template in the dialog box where you create a new project, you can filter the displayed templates based the `ProjectType` element in the *.vstemplate* file. For example, if your *.vstemplate* file contains `<ProjectType>CSharp</ProjectType>`, you can filter the language to **C#** using the **Languages** dropdown.
 
 ::: moniker-end
 
 ## Other ways to create project templates
 
-You can create project templates manually by gathering the files that constitute the project into a folder, and then creating a *.vstemplate* XML file with the appropriate metadata. For more information, see [How to: Manually create web templates](../ide/how-to-manually-create-web-templates.md).
+You can create project templates manually by gathering the files that constitute the project into a folder and creating a *.vstemplate* XML file with the appropriate metadata. For more information, see [How to: Manually create web templates](../ide/how-to-manually-create-web-templates.md).
 
-If you have the Visual Studio SDK installed, you can wrap the finished template in a VSIX file for deployment by using the **VSIX Project** template. For more information, see [Getting started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
+If you have the Visual Studio SDK installed, you can wrap the finished template in a VSIX file for deployment by using the **VSIX Project** template. For more information, see [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md).
 
 ## See also
 
