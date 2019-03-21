@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/09/2019
+ms.date: 03/21/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -200,9 +200,9 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
 
     ![Open the Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Open the Visual Studio Installer")
 
-    Visual Studio opens. In the IDE, a Visual Studio 2019 update message appears.
+    Visual Studio opens. In the IDE, a **Visual Studio 2019 update** message appears.
 
-    ![The Visual Studio 2019 update message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The Visual Studio 2019 update message in the IDE")
+    ![The 'Visual Studio 2019 update' message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
  
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
@@ -210,11 +210,7 @@ Here's to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;Studio
 
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
-   ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the View Details button in the Visual Studio 2019 update message")
-
-## Use the Notifications hub
-
-1. 
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
