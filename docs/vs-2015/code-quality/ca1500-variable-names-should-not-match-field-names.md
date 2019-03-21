@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1500: Variable names should not match field names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1500: Variable names should not match field names](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1500: Variable names should not match field names](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) on docs.microsoft.com.  
   
 |||  
 |-|-|  
