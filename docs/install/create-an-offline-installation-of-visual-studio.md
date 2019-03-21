@@ -50,7 +50,7 @@ For example, you might have an unreliable internet connection or one that has lo
 
 Now, you can set the **Download all, then install** option from the Options menu in Visual Studio. Here's how.
 
-1. Use Search (Ctrl+Q) and enter the phrase "Download".
+1. In the Visual Studio IDE, use Search (Ctrl+Q) and enter the phrase "Download".
 
 1. In the **Options** window, choose  
 
