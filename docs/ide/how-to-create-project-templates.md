@@ -14,7 +14,7 @@ manager: jillfra
 
 This topic shows you how to create a template using the **Export Template Wizard**, which packages your template in a *.zip* file.
 
-## To create a user project template by using the Export Template Wizard
+## Use the Export Template Wizard
 
 1. Create a project.
 
@@ -45,7 +45,7 @@ To find your template in the **New Project** dialog box, expand **Installed** an
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-To find your template in the dialog box where you create a new project, you can filter the displayed templates based the `ProjectType` element in the *.vstemplate* file. For example, if your *.vstemplate* file contains `<ProjectType>CSharp</ProjectType>`, you can filter the language to **C#** using the **Languages** dropdown.
+To find your template in the dialog box where you create a new project, search for it by name.
 
 ::: moniker-end
 

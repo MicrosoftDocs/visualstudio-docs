@@ -14,7 +14,13 @@ manager: jillfra
 ---
 # How to: Locate and organize project and item templates
 
-Template files must be placed in a location that Visual Studio recognizes for the templates to appear in the **New Project** and **Add New Item** dialog boxes. You can also create custom subcategories in the user template location, and the categories are shown in the **New Project** and **Add New Item** dialog boxes.
+Template files must be placed in a location that Visual Studio recognizes for the templates to be available for you to select when you create a new project or item.
+
+::: moniker range="vs-2017"
+
+You can also create custom subcategories in the user template location, and the categories are shown in the **New Project** and **Add New Item** dialog boxes.
+
+::: moniker-end
 
 ## Locate templates
 
@@ -22,7 +28,7 @@ Installed templates and user templates are stored in two different locations.
 
 ### User templates
 
-If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the **New Project** or **Add New Item** dialog box. By default, user templates are located in:
+If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the new project and new item dialog boxes. By default, user templates are located in:
 
 ::: moniker range="vs-2017"
 
@@ -63,6 +69,8 @@ For example, the following directory has the Visual Basic item templates for Eng
 
 - *C:\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\VisualBasic\1033*
 
+::: moniker range="vs-2017"
+
 ## Organize templates
 
 The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed template and user template locations. User templates can be organized into their own categories by adding new folders to the user template directory. The **New Project** and **Add New Item** dialog boxes show any changes you make to your user template categories.
@@ -70,7 +78,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 > [!NOTE]
 > You cannot create a new category at the programming language level. New categories can only be created within each language.
 
-### To create new user project template categories
+### Create new user project template categories
 
 1. Create a folder in the programming language folder in the user project template directory. For example, to establish a **HelloWorld** category for C# project templates, create the following directory:
 
@@ -82,7 +90,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
    The **HelloWorld** category appears in the **New Project** dialog box, under **Installed** > **Visual C#**.
 
-### To create new user item template categories
+### Create new user item template categories
 
 1. Create a folder in the programming language folder in the user item template directory. For example, to establish a **HelloWorld** category for C# item templates, create the following directory:
 
@@ -97,8 +105,6 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 ### Display templates in parent categories
 
 You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the *.vstemplate* file. These steps are the same for project templates and item templates.
-
-#### To display templates in parent categories
 
 1. Locate the *.zip* file that contains the template.
 
@@ -127,6 +133,8 @@ You can enable templates in subcategories to be displayed in their parent catego
 1. Delete the extracted template files and the old template *.zip* file.
 
 1. Put the new *.zip* file in the directory that had the deleted *.zip* file.
+
+::: moniker-end
 
 ## See also
 
