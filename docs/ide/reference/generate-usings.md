@@ -16,7 +16,7 @@ This code generation applies to:
 
 - C#
 
-**What:** **What:** Lets you immediately add the necessary imports or [using statements](/dotnet/csharp/language-reference/keywords/using-statement) of copy-and-pasted code.
+**What:** Lets you immediately add the necessary imports or [using statements](/dotnet/csharp/language-reference/keywords/using-statement) of copy-and-pasted code.
 
 **When:** It's common practice to copy and paste code from different places in your project or other code sources. This quick action analyzes missing imports for copy-and-pasted code and then prompts you to add them.
 
