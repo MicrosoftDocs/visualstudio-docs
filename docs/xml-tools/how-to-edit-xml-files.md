@@ -48,17 +48,31 @@ The XML editor is the new editor for XML files. It can be used on a stand-alone 
 
 3.  Click **Open**.
 
-## To create a project for XML files
+## Create an empty project for XML files
 
-1.  From the **File** menu, select **New**, and then select **Project**.
+1. From the **File** menu, select **New** > **Project**.
 
-     The **New Project** dialog box appears.
+::: moniker range="vs-2017"
 
-2.  Select the code language of your choice, select **Empty Project**, and click **OK**.
+   The **New Project** dialog box appears.
 
-3.  Add XML files to the project.
+2. Select the code language of your choice, select **Empty Project**.
 
-     The XML editor finds the schemas you add to this project and uses them for validation and IntelliSense in any XML, schema, or XSLT files that you edit while this project is open.
+3. Click **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then click **Next**.
+
+3. Click **Create**.
+
+::: moniker-end
+
+3. Add XML files to the project.
+
+   The XML editor finds the schemas you add to this project and uses them for validation and IntelliSense in any XML, schema, or XSLT files that you edit while this project is open.
 
 ## See also
 
