@@ -85,11 +85,11 @@ Specifies the default location where Visual Studio creates new projects and solu
 
 ### User project templates location
 
-Specifies the default location that the **New Project** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
+Specifies the default location that's used to search for user-created project templates. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ### User item templates location
 
-Specifies the default location that the **Add New Item** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
+Specifies the default location that's used to search for user-created item templates. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ## See also
 

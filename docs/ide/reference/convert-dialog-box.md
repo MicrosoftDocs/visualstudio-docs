@@ -17,15 +17,15 @@ ms.workload:
 ---
 # Convert Dialog Box
 
-The **Convert** dialog box allows you to select a conversion tool to create a new project from an old one, such as creating a [!INCLUDE[vbprvblong](../../ide/reference/includes/vbprvblong_md.md)] project from a Visual Basic 6 project. You can also use the [Visual Studio Project Converter](https://github.com/ssvaidya/VSProjectConverter) to upgrade projects created in previous versions of Visual Studio.
+The **Convert** dialog box lets you select a conversion tool to create a new project from an old one. For example, you can create a Visual Basic 2005 project from a Visual Basic 6 project.
 
 ## Open the Convert Dialog Box
 
-1.  On the menu bar, choose **File**, **Open**, **Convert**.
+1. On the menu bar, choose **File** > **Open** > **Convert**.
 
-     You will see a list of the code-conversion tools that are currently available.
+   A list of the code-conversion tools that are currently available is displayed.
 
-2.  Select the tool that is appropriate for your application.
+2. Select the tool that is appropriate for your application.
 
 ## See Also
 

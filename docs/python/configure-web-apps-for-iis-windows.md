@@ -32,7 +32,7 @@ When using a dedicated host, you can use the global Python environment to run yo
 
 ## Set web.config to point to the Python interpreter
 
-Your app's *web.config* file instructs the IIS (7+) web server running on Windows about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI. Visual Studio versions 2015 and earlier make these modifications automatically. When using Visual Studio 2017, you must modify *web.config* manually.
+Your app's *web.config* file instructs the IIS (7+) web server running on Windows about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI. Visual Studio versions 2015 and earlier make these modifications automatically. When using Visual Studio 2017 and later, you must modify *web.config* manually.
 
 ### Configure the HttpPlatform handler
 

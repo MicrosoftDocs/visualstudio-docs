@@ -26,7 +26,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
  You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
- A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code and allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
+ A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
 ## Creating a Design-Time T4 Text Template
 
@@ -135,7 +135,7 @@ Design-time T4 text templates let you generate program code and other files in y
 >  But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
 
 ## Generating Code or Resources for Your Solution
- You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files are from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
+ You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
 
 #### To generate program code or resources
 

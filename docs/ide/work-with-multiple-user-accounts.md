@@ -49,7 +49,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
 
-To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
+To see this in action, create a new **ASP.NET Web Application** project. In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
 
 ![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
 

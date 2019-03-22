@@ -14,9 +14,9 @@ ms.workload:
 
 # Quickstart: Create a Python project from a template in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md).
+Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md).
 
-1. Open Visual Studio 2017.
+1. Start Visual Studio.
 
 1. From the top menu bar, choose **File** > **New** > **Project**, then in the **New Project** dialog search for "blank flask", select the **Blank Flask Web Project** template in the middle list, give the project a name, and select **OK**:
 
