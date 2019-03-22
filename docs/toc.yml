@@ -228,7 +228,7 @@
           href: ide/how-to-manually-create-web-templates.md
         - name: Troubleshoot templates
           href: ide/how-to-troubleshoot-templates.md
-      - name: Locate and organize project and item templates
+      - name: Locate project and item templates
         href: ide/how-to-locate-and-organize-project-and-item-templates.md
       - name: Customize project and item templates
         href: ide/customizing-project-and-item-templates.md
