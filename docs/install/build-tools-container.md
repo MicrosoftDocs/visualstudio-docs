@@ -53,9 +53,12 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 **On Windows 10**:
 
 1. [Right-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings**.
-2. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
-3. [Toggle the **Basic**](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file) button to **Advanced**.
-4. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
+
+1. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
+
+1. [Toggle the **Basic**](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file) button to **Advanced**.
+
+1. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
 
    ```json
    {
@@ -79,7 +82,7 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
    }
    ```
 
-5. Click **Apply**.
+1. Click **Apply**.
 
 **On Windows Server 2016**:
 
@@ -89,8 +92,9 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
    sc.exe stop docker
    ```
 
-2. From an elevated command prompt, edit "%ProgramData%\Docker\config\daemon.json" (or whatever you specified to `dockerd --config-file`).
-3. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
+1. From an elevated command prompt, edit "%ProgramData%\Docker\config\daemon.json" (or whatever you specified to `dockerd --config-file`).
+
+1. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
 
    ```json
    {
@@ -101,8 +105,10 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
    ```
 
    This property is added to anything you already have.
-4. Save and close the file.
-5. Start the "docker" service:
+ 
+1. Save and close the file.
+
+1. Start the "docker" service:
 
    ```shell
    sc.exe start docker
@@ -167,7 +173,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
    > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
-4. Run the following command within that directory.
+1. Run the following command within that directory.
+
+::: moniker range="vs-2017"
 
    ```shell
    docker build -t buildtools2017:latest -m 2GB .
@@ -177,6 +185,20 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    The final image is tagged "buildtools2017:latest" so you can easily run it in a container as "buildtools2017" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2017 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   ```shell
+   docker build -t buildtools2019:latest -m 2GB .
+   ```
+
+   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
+
+   The final image is tagged "buildtools2019:latest" so you can easily run it in a container as "buildtools2019" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
+
+::: moniker-end
+
 ## Step 6. Using the built image
 
 Now that you have created an image, you can run it in a container to do both interactive and automated builds. The example uses the Developer Command Prompt, so your PATH and other environment variables are already configured.
@@ -185,9 +207,21 @@ Now that you have created an image, you can run it in a container to do both int
 
 1. Run the container to start a PowerShell environment with all developer environment variables set:
 
+::: moniker range="vs-2017"
+
    ```shell
    docker run -it buildtools2017
    ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   ```shell
+   docker run -it buildtools2019
+   ```
+
+::: moniker-end
 
 To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers need only to pull it.
 
