@@ -17,14 +17,14 @@ manager: jillfra
 
 You can create a load test plug-in to run code at different times while the load test is running. You create a plug-in to expand upon or modify the built in functionality of the load test. For example, you can code a load test plug-in to set or modify the load test pattern while the load test is running. To do this, you must create a class that inherits the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin> interface. This class must implement the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin.Initialize*> method of this interface. For more information, see <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin>.
 
-> [!NOTE]
+> [!TIP]
 > You can also create plug-ins for web performance tests. For more information, see [How to: Create a web performance test plug-in](../test/how-to-create-a-web-performance-test-plug-in.md)
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To create a load test plug-in in C#
 
-Open a web performance and load test project that contains a web performance test.
+1. Open a web performance and load test project that contains a web performance test.
 
 2. Add a load test to the test project and configure it to run a web performance test.
 

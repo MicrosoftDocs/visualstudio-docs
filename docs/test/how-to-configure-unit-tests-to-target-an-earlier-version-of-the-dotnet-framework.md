@@ -58,11 +58,11 @@ The following limitations apply when you re-target your test projects to use ear
 
 ## Retargeting for C# unit test projects
 
-1. Create a new Visual C# **Unit Test Project** project.
+1. Create a new C# **Unit Test Project** project.
 
-2. In **Solution Explorer**, choose **Properties** from the right-click menu of your new Visual C# test project.
+2. In **Solution Explorer**, choose **Properties** from the right-click menu of your new C# test project.
 
-   The properties for your Visual C# test project are displayed.
+   The properties for your C# test project are displayed.
 
 3. On the **Application** tab, choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
 
@@ -70,14 +70,14 @@ The following limitations apply when you re-target your test projects to use ear
 
 ## Retargeting for C++/CLI unit test projects
 
-Create a new C++ **Unit Test Project** project.
+1. Create a new C++ **Unit Test Project** project.
 
-    > [!WARNING]
-    > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio. For example, to target the .NET Framework 3.5, you must install Visual Studio 2008 and Visual Studio 2008 Service Pack 1.
+   > [!WARNING]
+   > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio.
 
-2. In **Solution Explorer**, choose **Unload Project** from your new Visual C++ test project.
+2. In **Solution Explorer**, choose **Unload Project** from your new C++ test project.
 
-3. In **Solution Explorer**, choose the unloaded Visual C++ test project and then choose **Edit \<project name>.vcxproj**.
+3. In **Solution Explorer**, choose the unloaded C++ test project and then choose **Edit \<project name>.vcxproj**.
 
    The *.vcxproj* file opens in the editor.
 
@@ -96,7 +96,7 @@ Create a new C++ **Unit Test Project** project.
 
 5. Save and close the *.vcxproj* file.
 
-6. In **Solution Explorer**, choose select **Reload Project** from the right-click menu of your new Visual C++ test project.
+6. In **Solution Explorer**, choose select **Reload Project** from the right-click menu of your new C++ test project.
 
 ## See also
 

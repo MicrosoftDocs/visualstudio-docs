@@ -27,15 +27,15 @@ You can use customized web performance test plug-ins with the web performance te
 
 ## To create a custom web performance test plug-in
 
-1.  Open a web performance and load test project that contains a web performance test.
+1. Open a web performance and load test project that contains a web performance test.
 
-2.  In **Solution Explorer**, right-click on the solution and select **Add** and then choose **New Project**.
+2. In **Solution Explorer**, right-click on the solution and select **Add** and then choose **New Project**.
 
-3.  Create a new **Class Library** project.
+3. Create a new **Class Library** project.
 
    The new class library project is added to **Solution Explorer** and the new class appears in the **Code Editor**.
 
-4.  In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
+4. In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
 
    The **Add Reference** dialog box is displayed.
 

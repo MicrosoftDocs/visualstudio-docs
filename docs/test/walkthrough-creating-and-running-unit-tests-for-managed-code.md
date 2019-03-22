@@ -41,6 +41,11 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 4. Name the project **Bank**, and then click **OK**.
 
+   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+
+   > [!NOTE]
+   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -53,12 +58,12 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 4. Name the project **Bank**, and then click **Create**.
 
-::: moniker-end
-
    The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
 
    > [!NOTE]
    > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+
+::: moniker-end
 
 5. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
 
@@ -101,17 +106,21 @@ public void Debit(double amount)
 
 4. In the **Name** box, enter `BankTests`, and then select **OK**.
 
+   The **BankTests** project is added to the **Bank** solution.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
 2. Search for and select the C# **Unit Test Project** project template, and then click **Next**.
 
-4. Name the project `BankTests`, and then click **Create**.
+3. Name the project `BankTests`.
 
-::: moniker-end
+4. Click **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
+
+::: moniker-end
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 

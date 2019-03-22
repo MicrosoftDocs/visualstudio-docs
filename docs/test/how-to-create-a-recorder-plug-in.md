@@ -107,9 +107,7 @@ This sample demonstrates how to create a customized web performance test recorde
 > [!NOTE]
 > A complete listing of the sample code is located at the bottom of this topic.
 
-**Reviewing the Sample Code**
-
-## Iterate through the result to find first page with ReportSession
+### Iterate through the result to find first page with ReportSession
 
 This part of the code sample iterates through each recorded object and searches the response body for ReportSession.
 
@@ -126,7 +124,7 @@ foreach (WebTestResultUnit unit in e.RecordedWebTestResult.Children)
              {
 ```
 
-## Add an extraction rule
+### Add an extraction rule
 
 Now that a response has been found, you need to add an extraction rule. This part of the code sample creates the extraction rule using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRuleReference> class and then finds the correct request in the web performance test to add the extraction rule to. Each result object has a new property added called DeclarativeWebTestItemId which is what is being used in the code to get correct request from the web performance test.
 
@@ -150,7 +148,7 @@ ExtractionRuleReference ruleReference = new ExtractionRuleReference();
      }
 ```
 
-## Replace query string parameters
+### Replace query string parameters
 
 Now the code finds all the query string parameters that have ReportSession as name and change the value to {{SessionId}} as shown in this part of the code sample:
 
