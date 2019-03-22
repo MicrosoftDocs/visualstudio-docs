@@ -55,7 +55,7 @@ As you use interactive windows in your everyday workflow, you likely develop hel
 
 Startup scripts contain code that the **Interactive** window loads and runs automatically, including imports, function definitions, and literally anything else. Such scripts are referenced in two ways:
 
-1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio 2017\Python Scripts\\\<environment>* where &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive** window for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
+1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio <version>\Python Scripts\\\<environment>* where &lt;version&gt; is the Visual Studio version (such as 2017 or 2019) and &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive** window for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
 
 1. The **Scripts** control in **Tools** > **Options** > **Python** > **Interactive Windows** tab (see [Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options)) is intended to specify an additional folder for startup scripts that are loaded and run in all environments. However, this feature doesn't work at present.
 
@@ -151,8 +151,8 @@ Shows the current status of the IntelliSense completion database:
 
 ![Python Environments IntelliSense tab](media/environments/environments-intellisense-tab.png)
 
-- In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code.
-- **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database by default. For this reason the tab is labeled **IntelliSense [database disabled]**. You can enable the database by clearing the option  **Tools** > **Options** > **Python** > **Experimental** > **Use new style IntelliSense for environments**.
+- In Visual Studio 2017 version 15.5 and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code.
+- Visual Studio 2017 version 15.6 and later uses a faster method to provide completions that do not depend on the database by default. For this reason the tab is labeled **IntelliSense [database disabled]**. You can enable the database by clearing the option  **Tools** > **Options** > **Python** > **Experimental** > **Use new style IntelliSense for environments**.
 
 When Visual Studio detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you get detailed IntelliSense and don't need to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 

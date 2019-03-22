@@ -117,7 +117,7 @@ Visual Studio also provides a command to generate a *requirements.txt* file from
 
 #### Conda environments
 
-A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda; Anaconda is available through the Visual Studio installer, see [Installation](installing-python-support-in-visual-studio.md#visual-studio-2019-and-visual-studio-2017).)
+A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Installation](installing-python-support-in-visual-studio.md#visual-studio-2019-and-visual-studio-2017).)
 
 ::: moniker range="vs-2017"
 
