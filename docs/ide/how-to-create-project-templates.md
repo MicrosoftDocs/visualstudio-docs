@@ -45,7 +45,7 @@ To find your template in the **New Project** dialog box, expand **Installed** an
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type is not currently possible for custom templates.)
+To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type is not currently possible for user templates.)
 
 ::: moniker-end
 

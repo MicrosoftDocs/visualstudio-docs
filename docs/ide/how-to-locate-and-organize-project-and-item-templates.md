@@ -1,20 +1,18 @@
 ---
-title: Organize templates
+title: Locate templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "project templates [Visual Studio], locations"
   - "item templates [Visual Studio], locations"
   - "template locations [Visual Studio]"
-  - "Visual Studio templates, organizing"
-  - "templates [Visual Studio], organizing"
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
 # How to: Locate and organize project and item templates
 
-Template files must be placed in a location that Visual Studio recognizes for the templates to be available for you to select when you create a new project or item.
+Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 
 ::: moniker range="vs-2017"
 
@@ -25,6 +23,18 @@ You can also create custom subcategories in the user template location, and the 
 ## Locate templates
 
 Installed templates and user templates are stored in two different locations.
+
+### Installed templates
+
+By default, templates installed with Visual Studio are located in:
+
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID\>*
+
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+- *C:\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\VisualBasic\1033*
 
 ### User templates
 
@@ -55,19 +65,7 @@ For example, the following directory has user project templates for C#:
 ::: moniker-end
 
 > [!TIP]
-> You can set the location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
-
-### Installed templates
-
-By default, templates installed with Visual Studio are located in:
-
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID\>*
-
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID\>*
-
-For example, the following directory has the Visual Basic item templates for English (LCID 1033):
-
-- *C:\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\VisualBasic\1033*
+> You can change the known location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
 
 ::: moniker range="vs-2017"
 
