@@ -26,9 +26,9 @@ You can also use the Visual Studio **Object Browser** (**View** > **Other Window
 
 IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring). Visual Studio 2017 versions 15.7 and later also support [type hints](#type-hints).
 
-To improve performance, IntelliSense in **Visual Studio 2017 version 15.5** and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of **Solution Explorer**) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab)).
+To improve performance, IntelliSense in Visual Studio 2017 version 15.5 and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of **Solution Explorer**) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab)).
 
-**Visual Studio 2017 version 15.6** and later uses a different means to provide IntelliSense completions that are not dependent on the database.
+Visual Studio 2017 version 15.6 and later uses a different means to provide IntelliSense completions that are not dependent on the database.
 
 ### Completions
 
