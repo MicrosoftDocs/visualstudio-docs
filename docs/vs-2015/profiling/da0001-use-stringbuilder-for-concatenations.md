@@ -18,7 +18,7 @@ manager: jillfra
 # DA0001: Use StringBuilder for concatenations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [DA0001: Use StringBuilder for concatenations](https://docs.microsoft.com/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0001: Use StringBuilder for concatenations](https://docs.microsoft.com/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations) on docs.microsoft.com.  
   
 |||  
 |-|-|  

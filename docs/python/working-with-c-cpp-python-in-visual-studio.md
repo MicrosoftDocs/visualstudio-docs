@@ -33,7 +33,7 @@ The completed sample from this walkthrough can be found on [python-samples-vs-cp
 
 ## Prerequisites
 
-- Visual Studio 2017 with both the **Desktop Development with C++** and **Python Development** workloads installed with default options.
+- Visual Studio 2017 or later with both the **Desktop Development with C++** and **Python Development** workloads installed with default options.
 - In the **Python Development** workload, also select the box on the right for **Python native development tools**. This option sets up most of the configuration described in this article. (This option also includes the C++ workload automatically.)
 
     ![Selecting the Python native development tools option](media/cpp-install-native.png)
@@ -102,7 +102,7 @@ Follow the instructions in this section to create two identical C++ projects nam
 1. Search on "C++", select **Empty project**, specify the name "superfastcode" ("superfastcode2" for the second project), and select **OK**.
 
     > [!Tip]
-    > With the **Python native development tools** installed in Visual Studio 2017, you can start with the **Python Extension Module** template instead, which has much of what's described below already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step. Once you understand the process, the template saves you time when writing your own extensions.
+    > With the **Python native development tools** installed in Visual Studio, you can start with the **Python Extension Module** template instead, which has much of what's described below already in place. For this walkthrough, though, starting with an empty project demonstrates building the extension module step by step. Once you understand the process, the template saves you time when writing your own extensions.
 
 1. Create a C++ file in the new project by right-clicking the **Source Files** node, then select **Add** > **New Item**, select **C++ File**, name it `module.cpp`, and select **OK**.
 
@@ -279,7 +279,7 @@ The first method works if the Python project and the C++ project are in the same
 
 The alternate method, described in the following steps, installs the module in the global Python environment, making it available to other Python projects as well. (Doing so typically requires that you refresh the IntelliSense completion database for that environment in Visual Studio 2017 version 15.5 and earlier. Refreshing is also necessary when removing the module from the environment.)
 
-1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components** > **Compilers, build tools, and runtimes** > **Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
+1. If you're using Visual Studio 2017 or later, run the Visual Studio installer, select **Modify**, select **Individual Components** > **Compilers, build tools, and runtimes** > **Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
 
 1. Create a file named *setup.py* in the C++ project by right-clicking the project and selecting **Add** > **New Item**. Then select **C++ File (.cpp)**, name the file `setup.py`, and select **OK** (naming the file with the *.py* extension makes Visual Studio recognize it as Python despite using the C++ file template). When the file appears in the editor, paste the following code into it as appropriate to the extension method:
 

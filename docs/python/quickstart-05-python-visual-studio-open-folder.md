@@ -18,11 +18,11 @@ monikerRange: ">= vs-2019"
 Once you've [installed Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2019 without creating a Visual Studio project.
 
 > [!Note]
-> Visual Studio 2017 and earlier required you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
+> Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
 
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
-1. Launch Visual Studio 2019 and on the start screen, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
+1. Launch Visual Studio 2019 and in the start window, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
 
     ![The Visual Studio startup screen](media/quickstart-open-folder/01-open-local-folder.png)
 
