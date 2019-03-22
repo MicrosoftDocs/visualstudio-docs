@@ -2721,6 +2721,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/how-to-specify-the-maximum-size-for-the-log-file.md",
+            "redirect_url": "/visualstudio/test/modify-load-test-logging-settings",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/how-to-analyze-threshold-violations-using-the-counters-panel.md",
             "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
             "redirect_document_id": false
@@ -2833,6 +2838,16 @@
         {
             "source_path": "docs/test/test-windows-store-8-1-apps-with-coded-ui-tests.md",
             "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md",
+            "redirect_url": "/visualstudio/test/using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/testing-sharepoint-2010-applications-with-coded-ui-tests.md",
+            "redirect_url": "/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests?view=vs-2015",
             "redirect_document_id": false
         },
         {
