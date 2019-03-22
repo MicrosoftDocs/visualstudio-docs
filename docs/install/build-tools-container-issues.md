@@ -24,6 +24,7 @@ The following known issues occur when you install Visual Studio Build Tools into
 ::: moniker range="vs-2017"
 
 * You cannot install Visual Studio into a container based on image microsoft/windowsservercore:10.0.14393.1593. Images tagged with Windows versions before or after 10.0.14393 should work.
+
 * You cannot install Windows SDK version 10.0.14393 or earlier. Certain packages fail to install and workloads that depend on those packages will not work.
 
 ::: moniker-end
