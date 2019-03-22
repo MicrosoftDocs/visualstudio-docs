@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Fades out unused parameters and generates a warning for unused expression values. The compiler also does a flow analysis to find any unused value assignments. Unused value assignments fade out and have a code fix to remove the redundant assignment. Unused variables with unknown values get a suggestion to use [discards](/dotnet/csharp/discards). Discards are temporary, dummy variables that are intentionally unused in application code. They can reduce memory allocation and make your code easier to read.
+**What:** Fades out unused parameters and generates a warning for unused expression values. The compiler also performs a flow analysis to find any unused value assignments. Unused value assignments fade out and a light bulb appears with a [Quick Action](../quick-actions.md) to remove the redundant assignment. Unused variables with unknown values show a [Quick Action](../quick-actions.md) suggestion to use [discards](/dotnet/csharp/discards) instead. (Discards are temporary, dummy variables that are intentionally unused in application code. They can reduce memory allocation and make your code easier to read.)
 
 **When:** You have value assignments, parameters, or expression values that are never used.
 
