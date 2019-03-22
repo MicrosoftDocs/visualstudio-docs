@@ -37,6 +37,10 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
    The **New Project** dialog box appears.
 
+3. Choose the C# **Class Library** project template.
+
+4. Name the project **Bank**, and then click **OK**.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -45,11 +49,11 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 2. On the start window, choose **Create a new project**.
 
+3. Search for and select the C# **Class Library** project template, and then click **Next**.
+
+4. Name the project **Bank**, and then click **Create**.
+
 ::: moniker-end
-
-3. Choose the C# Class Library project template.
-
-4. Name the project **Bank**, and then click **OK** or **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
 
@@ -87,15 +91,25 @@ public void Debit(double amount)
 1. On the **File** menu, select **Add** > **New Project**.
 
    > [!TIP]
-   > There are a couple other ways to add an additional project to an existing solution. You can right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**. Or, you can select **File** > **New** > **Project**, and then, in the **New Project** dialog, select the **Add to solution** option:
-   >
-   > ![Add to solution option in New Project dialog](media/add-to-solution.png)
+   > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
+
+::: moniker range="vs-2017"
 
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
 3. From the list of templates, select **Unit Test Project**.
 
 4. In the **Name** box, enter `BankTests`, and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Search for and select the C# **Unit Test Project** project template, and then click **Next**.
+
+4. Name the project `BankTests`, and then click **Create**.
+
+::: moniker-end
 
    The **BankTests** project is added to the **Bank** solution.
 

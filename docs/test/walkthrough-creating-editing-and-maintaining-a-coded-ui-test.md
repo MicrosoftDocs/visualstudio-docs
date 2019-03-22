@@ -16,41 +16,27 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Create a WPF app
 
-1.  On the **File** menu, point to **New**, and then select **Project**.
+1. Create a new **WPF App (.NET Framework)** project and name it **SimpleWPFApp**.
 
-     The **New Project** dialog box appears.
+     The **WPF Designer** opens and displays MainWindow of the project.
 
-2.  In the **Installed** pane, expand **Visual C#**, and then select **Windows Desktop**.
+2. If the toolbox is not currently open, open it. Choose the **View** menu, and then choose **Toolbox**.
 
-3.  Above the middle pane, verify that the target framework drop-down list is set to **.NET Framework 4.5**.
+3. Under the **All WPF Controls** section, drag a **Button**, **CheckBox** and **ProgressBar** control onto the MainWindow in the design surface.
 
-4.  In the middle pane, select the **WPF Application** template.
+4. Select the **Button** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to button1. Then change the value for the **Content** property from Button to Start.
 
-5.  In the **Name** text box, type **SimpleWPFApp**.
+5. Select the **ProgressBar** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to progressBar1. Then change the value for the **Maximum** property from **100** to **10000**.
 
-6.  Choose a folder where you will save the project. In the **Location** text box, type the name of the folder.
-
-7.  Choose **OK**.
-
-     The **WPF Designer for Visual Studio** opens and displays MainWindow of the project.
-
-8.  If the toolbox is not currently open, open it. Choose the **View** menu, and then choose **Toolbox**.
-
-9. Under the **All WPF Controls** section, drag a **Button**, **CheckBox** and **ProgressBar** control onto the MainWindow in the design surface.
-
-10. Select the **Button** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to button1. Then change the value for the **Content** property from Button to Start.
-
-11. Select the **ProgressBar** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to progressBar1. Then change the value for the **Maximum** property from **100** to **10000**.
-
-12. Select the **Checkbox** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to checkBox1 and clear the **IsEnabled** property.
+6. Select the **Checkbox** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to checkBox1 and clear the **IsEnabled** property.
 
      ![Simple WPF Application](../test/media/codedui_wpfapp.png)
 
-13. Double-click the button control to add a click event handler.
+7. Double-click the button control to add a click event handler.
 
      The *MainWindow.xmal.cs* is displayed in the Code Editor with the cursor in the new button1_Click method.
 
-14. At the top of the MainWindow class, add a delegate. The delegate will be used for the progress bar. To add the delegate, add the following code:
+8. At the top of the MainWindow class, add a delegate. The delegate will be used for the progress bar. To add the delegate, add the following code:
 
     ```csharp
     public partial class MainWindow : Window
@@ -64,7 +50,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
         }
     ```
 
-15. In the button1_Click method, add the following code:
+9. In the button1_Click method, add the following code:
 
     ```csharp
     private void button1_Click(object sender, RoutedEventArgs e)
@@ -89,7 +75,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
     }
     ```
 
-16. Save the file.
+10. Save the file.
 
 ### Run the WPF app
 
@@ -114,22 +100,14 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Create a coded UI test for SimpleWPFApp
 
-1. In **Solution Explorer**, right-click the solution, choose **Add** and then select **New Project**.
+1. In **Solution Explorer**, right-click the solution and choose **Add** > **New Project**.
 
-     The **Add New Project** dialog box appears.
-
-1. In the **Installed** pane, expand **Visual C#**, and then select **Test**.
-
-1. In the middle pane, select the **Coded UI Test Project** template.
+2. Search for and select the **Coded UI Test Project** project template, and continue through the steps until the project is created.
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
-1. Choose **OK**.
-
-     The new coded UI test project named **CodedUITestProject1** is added to your solution.
-
-     The **Generate Code for Coded UI Test** dialog box appears.
+     The new coded UI test project named **CodedUITestProject1** is added to your solution and the **Generate Code for Coded UI Test** dialog box appears.
 
 1. Select the **Record actions, edit UI map or add assertions** option and choose **OK**.
 

@@ -29,34 +29,24 @@ The following procedures describe how to create the rudimentary code for a recor
 
 1.  Open a solution that contains the web performance and load test project with the web performance test for which you want to create a recorder plug-in.
 
-2.  In **Solution Explorer**, right-click the solution, select **Add**, and then choose **New Project**.
+2.  Add a new **Class Library** project to the solution.
 
-     The **Add New Project** dialog box is displayed.
-
-3.  Under **Installed Templates**, select **Visual C#**.
-
-4.  In the list of templates, select **Class Library**.
-
-5.  In the **Name** text box, type a name for the recorder plug-in.
-
-     The class library is added to the **Solution Explorer** and the new class is opened in the **Code Editor**.
-
-6.  In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
+3.  In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
 
     > [!TIP]
     > An example of a new class library project folder is **RecorderPlugins**.
 
      The **Add Reference** dialog box is displayed.
 
-7.  Select the **.NET** tab.
+4.  Select the **.NET** tab.
 
-8.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
+5.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
      The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in **Solution Explorer**.
 
-9. Write the code for your recorder plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin>.
+6. Write the code for your recorder plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin>.
 
-10. Override the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin.PostWebTestRecording*> method.
+7. Override the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin.PostWebTestRecording*> method.
 
     ```csharp
     public class Class1 : WebTestRecorderPlugin
@@ -73,11 +63,11 @@ The following procedures describe how to create the rudimentary code for a recor
     > [!NOTE]
     > If you do modify the web performance test, you will also need to set the <xref:Microsoft.VisualStudio.TestTools.WebTesting.PostWebTestRecordingEventArgs.RecordedWebTestModified*> property to true: `e.RecordedWebTestModified = true;`
 
-11. Add more code according to what you want the recorder plug-in to execute after the web recording occurs. For example, you can add code to handle custom correlation as shown in the sample below. You can also create a recorder plug-in for such things as converting comments to transactions or adding validation rules to the web performance test.
+8. Add more code according to what you want the recorder plug-in to execute after the web recording occurs. For example, you can add code to handle custom correlation as shown in the sample below. You can also create a recorder plug-in for such things as converting comments to transactions or adding validation rules to the web performance test.
 
-12. On the **Build** menu, choose **Build \<class library project name>**.
+9. On the **Build** menu, choose **Build \<class library project name>**.
 
-13. Next, you must deploy the recorder plug-in in order for it to register with Visual Studio.
+Next, deploy the recorder plug-in in order for it to register with Visual Studio.
 
 ### Deploy the recorder plug-in
 
@@ -90,7 +80,7 @@ After you compile the recorder plug-in, place the resulting DLL in one of two lo
 > [!WARNING]
 > After you copy the recorder plug-in to one of the two locations, you must restart Visual Studio for the recorder plug-in to be registered.
 
-### To execute the recorder plug-in
+### Execute the recorder plug-in
 
 1.  Create a new web performance test.
 

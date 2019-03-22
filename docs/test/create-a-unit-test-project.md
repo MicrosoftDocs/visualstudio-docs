@@ -17,11 +17,23 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 ## To create a unit test project
 
-1. On the **File** menu, choose **New** and then choose **Project**. Or, press **Ctrl**+**Shift**+**N**.
+1. On the **File** menu, choose **New** > **Project**, or press **Ctrl**+**Shift**+**N**.
+
+::: moniker range="vs-2017"
 
 2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
 3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. Name the project, and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. On the **Create a new project** page, type **unit test** into the search box. Select the **Unit Test Project (.NET Framework)** project template, and then click **Next**.
+
+3. On the **Configure your new project** page, enter a name for your project, and then click **Create**.
+
+::: moniker-end
 
 4. In your unit test project, add a reference to the code under test. To add a reference to a code project in the same solution:
 
