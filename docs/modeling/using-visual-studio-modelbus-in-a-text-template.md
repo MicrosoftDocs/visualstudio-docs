@@ -51,7 +51,7 @@ If you write text templates that read a model that contains Visual Studio ModelB
 
     4.  In each `*.tt` file of the new project, change the namespace.
 
-    5.  Right-click the new project in Solution Explorer and then click Properties. In the properties editor, change the names of the generated assembly and the default namespace.
+    5.  Right-click the new project in **Solution Explorer** and then click **Properties**. In the properties editor, change the names of the generated assembly and the default namespace.
 
     6.  In the DslPackage project, add a reference to the new adapter project so that it has references to both adapters.
 

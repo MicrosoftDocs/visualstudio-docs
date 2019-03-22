@@ -23,27 +23,28 @@ To define a domain-specific language (DSL), you create a Visual Studio solution 
 If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## <a name="templates"></a> Selecting a Template Solution
- To define a DSL, you must have installed the following components:
 
+To define a DSL, you must have installed the following components:
 
-| | |
-|-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
-| Visual Studio Visualization and Modeling SDK | |
+- Visual Studio
+- Visual Studio extension development workload (includes the Visual Studio SDK)
+- Modeling SDK (install it as an individual component in Visual Studio)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
+To create a new domain-specific language, you create a new Visual Studio solution using the Domain-Specific Language project template.
 
- To create a new domain-specific language, you create a new Visual Studio solution using the Domain-Specific Language project template.
+### To create a DSL solution
 
-#### To create a DSL solution
+1. Create a new **Domain-Specific Language** project.
 
-1. Create a solution with the **Domain-Specific Language** template, which can be found under **Other Project Types/Extensibility** in the **New Project** dialog box.
+   ::: moniker range="vs-2017"
 
     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
 
-    When you click **OK**, the **Domain-Specific Language Wizard** opens and displays a list of template DSL solutions.
+   ::: moniker-end
+
+    The **Domain-Specific Language Wizard** opens and displays a list of template DSL solutions.
 
 2. Click each template to see a description. Choose the solution that most closely resembles what you want to create.
 
