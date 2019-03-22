@@ -1,5 +1,5 @@
 ---
-title: Convert Dialog Box
+title: Project converters
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -15,18 +15,10 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Convert Dialog Box
+# Convert dialog box
 
-The **Convert** dialog box lets you select a conversion tool to create a new project from an old one. For example, you can create a Visual Basic 2005 project from a Visual Basic 6 project.
+The **Convert** dialog box was used in previous versions of Visual Studio and is now deprecated.
 
-## Open the Convert Dialog Box
-
-1. On the menu bar, choose **File** > **Open** > **Convert**.
-
-   A list of the code-conversion tools that are currently available is displayed.
-
-2. Select the tool that is appropriate for your application.
-
-## See Also
+## See also
 
 - [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
