@@ -381,7 +381,7 @@
             href: ide/reference/convert-var-to-explicit-type.md
           - name: Use lambda expression or block body
             href: ide/reference/use-block-body-lambda.md
-          - name: Unused values and parameters
+          - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
