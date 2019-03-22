@@ -22,7 +22,7 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
 
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
-1. Launch Visual Studio 2019 and on the start screen, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
+1. Launch Visual Studio 2019 and in the start window, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
 
     ![The Visual Studio startup screen](media/quickstart-open-folder/01-open-local-folder.png)
 
