@@ -279,7 +279,7 @@ When editing of the string body is completed and the user clicks **OK** in the p
    > [!NOTE]
    > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
 
-3. Copy the resulting *.dll* file from your project's *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
+3. Copy the resulting *.dll* file from your project's *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
 
 4. Open Visual Studio.
 

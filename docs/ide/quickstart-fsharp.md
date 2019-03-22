@@ -42,7 +42,7 @@ First, you'll create an ASP.NET Core Web API project. The project type comes wit
 
 1. Open Visual Studio.
 
-2. On the Start window, choose **Create a new project**.
+2. On the start window, choose **Create a new project**.
 
 3. On the **Create a new project** page, type **f# web** into the search box, and then choose the **ASP.NET Core Web Application** project template. Choose **Next**.
 

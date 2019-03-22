@@ -28,15 +28,19 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 ### Create a Windows Class Library project and a Test project
 
-1. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], create a new **Windows Class Library** project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.
+1. In C# or Visual Basic, create a new **Windows Class Library** project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.
 
-2. In **Solution Explorer**, right-click the solution icon at the top, choose **Add**, and then choose **New Project**. In the left pane of the **New Project** dialog box, choose **Test**.
+2. In **Solution Explorer**, right-click the solution icon at the top, choose **Add** > **New Project**.
 
-3. In the middle pane, choose **Unit Test Project** and accept the default name of `UnitTestProject1`. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the dialog box looks similar.
+3. Create a new **Unit Test Project (.NET Framework)** project.
 
-    ![New Test Project dialog](../ide/media/newproject_test.png)
+   ::: moniker range="vs-2017"
 
-4. Choose **OK** to close the **New Project** dialog box.
+   The following illustration shows the **New Project** dialog box for C# templates.
+
+   ![Unit Test Project template](../ide/media/newproject_test.png)
+
+   ::: moniker-end
 
 ### Add a reference to the Class Library project
 

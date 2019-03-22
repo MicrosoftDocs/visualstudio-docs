@@ -199,7 +199,7 @@ Parameter rows contain the following items:
 
 - **\<add parameter>**
 
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
+     The last parameter row of a member contains the text **<add parameter\>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
 
 The **Properties** window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 

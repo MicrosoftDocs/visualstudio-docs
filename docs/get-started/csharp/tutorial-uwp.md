@@ -50,12 +50,12 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 ::: moniker range=">=vs-2019"
 
-2. Start Visual Studio, and on the **Start** window, choose **Create a new project**.
+2. Open Visual Studio, and on the start window, choose **Create a new project**.
 
 3. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 
    ![Screenshot of Create a new project screen](media/vs-2019/uwp-create-new-project.png)
-  
+
    > [!NOTE]
    > If you don't see the **Blank App (Universal Windows)** project template, click the **Install more tools and features** link.<br><br>![Click the Install more tools and features link](media/vs-2019/uwp-not-finding.png)<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.<br><br>![Universal Windows Platform development workload in the Visual Studio Installer](media/uwp-dev-workload.png)
 
@@ -63,7 +63,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
-   
+
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
    ![Enable the Developer Mode in the UWP Settings dialog box](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.

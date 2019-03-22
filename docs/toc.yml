@@ -171,8 +171,12 @@
     - name: Work with solutions and projects
       href: ide/solutions-and-projects-in-visual-studio.md
       items:
+      - name: Create a new project
+        href: ide/create-new-project.md
       - name: Create solutions and projects
         href: ide/creating-solutions-and-projects.md
+      - name: Open a project from a repo
+        href: get-started/tutorial-open-project-from-repo.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
       - name: Port, migrate, and upgrade projects in Visual Studio 2019

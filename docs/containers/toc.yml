@@ -3,7 +3,7 @@
   expanded: true
   items:
   - name: 'Overview'
-    href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/containers/toc.json&bc=/visualstudio/containers/breadcrumb/toc.json
+    href: visual-studio-tools-for-docker.md
   - name: 'Quickstart: Docker in Visual Studio'
     href: docker-tools.md
   - name: 'Tutorial: Multi-container app with Docker Compose'

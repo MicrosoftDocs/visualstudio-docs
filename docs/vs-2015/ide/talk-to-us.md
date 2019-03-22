@@ -15,7 +15,7 @@ manager: jillfra
 # Talk to Us
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us) on docs.microsoft.com.  
 
   
 
