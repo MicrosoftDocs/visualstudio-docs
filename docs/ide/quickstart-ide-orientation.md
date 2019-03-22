@@ -65,7 +65,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 1. On the start window, choose **Create a new project**.
 
-   A window opens that says **Create a new project**. This window is sometimes referred to as the **New Project** dialog, and this is where you can browse and pick a project template. It also keeps a list of recently used project templates.
+   A dialog box opens that says **Create a new project**. Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
 
 1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **Language** picker.
 

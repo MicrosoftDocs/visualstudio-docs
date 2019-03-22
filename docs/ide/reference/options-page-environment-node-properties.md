@@ -114,7 +114,7 @@ This article describes the pages (or properties collections) that are associated
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
 |OnRunOrPreview|Get/Set (String)|Determines whether the IDE saves everything before previewing or running a built project.|
-|ProjectsLocation|Get/Set (String)|Determines the default directory where the **Add Project** dialog box saves new projects.|
+|ProjectsLocation|Get/Set (String)|Determines the default directory where new projects are saved.|
 |ShowOutputWindowBeforeBuild|Get/Set (Boolean)|Determines whether starting a build displays the **Output** window.|
 |ShowTaskListAfterBuild|Get/Set (Boolean)|Determines whether an unsuccessful build operation displays the **Task List** when the build is done.|
 |TrackFileSelectionInExplorer|Get/Set (Boolean)|Determines whether the current item is tracked in **Solution Explorer**.|

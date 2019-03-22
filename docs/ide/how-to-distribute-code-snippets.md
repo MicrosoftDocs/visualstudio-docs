@@ -1,6 +1,6 @@
 ---
-title: "How to: Distribute code snippets"
-ms.date: 11/04/2016
+title: Distribute code snippets as an extension
+ms.date: 03/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, distributing"
@@ -15,15 +15,19 @@ ms.workload:
 ---
 # How to: Distribute code snippets
 
-You can give your code snippets to your friends and have them install the snippets on their own computers by using **Code Snippets Manager**. However, if you have several snippets to distribute or would like to distribute them more widely, you include your snippet file in a Visual Studio extension. Visual Studio users can then install the extension.
+You can give your code snippets to your friends and have them install the snippets on their own computers by using **Code Snippets Manager**. However, if you have several snippets to distribute or would like to distribute them more widely, you can include your snippet files in a Visual Studio extension. Visual Studio users can then install the extension to obtain the snippets.
 
-You must install the Visual Studio SDK in order to create Visual Studio extensions. Find the version of the VSSDK that matches your Visual Studio installation at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017).
+## Prerequisites
+
+Install the **Visual Studio extension development** workload to get access to the **VSIX Project** project templates.
+
+![Visual Studio extension development workload](media/vs-2019/extension-development-workload.png)
 
 ## Set up the extension
 
-In this procedure we'll use the same Hello World code snippet that's created in [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md). We'll supply the *.snippet* text, so you don't have to go back and make one.
+In this procedure, you'll use the same Hello World code snippet that's created in [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md). This article provides the snippet XML, so you don't have to go back and create a snippet.
 
-1. Create a new VSIX project named **TestSnippet**. (**File** > **New** > **Project** > **Visual C# (or Visual Basic)** > **Extensibility**.)
+1. Create a new project from the **Empty VSIX Project** template and name the project **TestSnippet**.
 
 2. In the **TestSnippet** project, add a new XML file and call it *VBCodeSnippet.snippet*. Replace the content with the following XML:
 
@@ -105,7 +109,9 @@ In this procedure we'll use the same Hello World code snippet that's created in 
 
 4. Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Insert Snippet**.
 
-5. You should see *HelloWorldVB* as one of the folders. Double-click it. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Click the **HelloWorldVB** dropdown. You should see the following line added to the file:
+5. You should see *HelloWorldVB* as one of the folders. Double-click it. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Click the **HelloWorldVB** dropdown.
+
+   The following line is added to the code file:
 
     ```vb
     Console.WriteLine("Hello, World!")
