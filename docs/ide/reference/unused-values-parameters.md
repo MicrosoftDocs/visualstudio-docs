@@ -22,12 +22,12 @@ This refactoring applies to:
 
 **When:** You have value assignments, parameters, or expression values that are never used.
 
-**Why:** Sometimes it's difficult to tell if a value assignment, variable, or parameter is no longer being used. By fading out these values or giving a warning, you get a visual cue of what code you can delete.
+**Why:** Sometimes it's difficult to tell if a value assignment, variable, or parameter is no longer being used. By fading out these values or generating a warning, you get a visual cue of what code you can delete.
 
 ## Unused expression values and parameters diagnostic
 
 1. Have any value assignment, variable, or parameter that isn't used.
-2. The unused value assignment or parameter appears faded out. The unused expression value receives a warning.
+2. The unused value assignment or parameter appears faded out. The unused expression value generates a warning.
 
   ![Unused parameter](media/unused-parameter.png)
   ![Unused value](media/unused-value.png)
