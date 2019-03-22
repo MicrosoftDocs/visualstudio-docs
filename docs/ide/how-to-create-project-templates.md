@@ -31,7 +31,7 @@ This topic shows you how to create a template using the **Export Template Wizard
 
 ::: moniker range="vs-2017"
 
-5. On the **Select Template Options** page, enter a name, and optional description, icon, and preview image for your template. These items will appear in the **New Project** dialog box. Choose **Finish**.
+5. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. These items will appear in the **New Project** dialog box. Choose **Finish**.
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
@@ -41,11 +41,11 @@ To find your template in the **New Project** dialog box, expand **Installed** an
 
 ::: moniker range=">=vs-2019"
 
-5. On the **Select Template Options** page, enter a name, and optional description, icon, and preview image for your template. These items will appear in the dialog box where you create a new project. Choose **Finish**.
+5. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. These items will appear in the dialog box where you create a new project. Choose **Finish**.
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-To find your template in the dialog box where you create a new project, search for it by name.
+To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type is not currently possible for custom templates.)
 
 ::: moniker-end
 

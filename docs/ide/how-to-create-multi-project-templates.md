@@ -96,17 +96,7 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 
 10. Copy the *.zip* file into the user project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*.
 
-::: moniker range="vs-2017"
-
-11. In Visual Studio, open the **New Project** dialog box and verify that your template appears.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-11. In Visual Studio, open the dialog box where you create a new project and verify that your template appears.
-
-::: moniker-end
+11. In Visual Studio, choose **File** > **New** > **Project** and verify that your template appears.
 
 ## Two-project example
 
