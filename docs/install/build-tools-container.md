@@ -137,7 +137,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
 1. Save the following content to C:\BuildTools\Dockerfile.
  
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2017"
 
    ```dockerfile
    # escape=`
