@@ -1846,6 +1846,41 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/deploy-a-layer-model-extension.md",
+            "redirect_url": "/visualstudio/modeling/deploy-a-layer-model-extension?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/customizing-element-tools.md",
+            "redirect_url": "/visualstudio/modeling/customizing-element-tools?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/customizing-deletion-behavior.md",
+            "redirect_url": "/visualstudio/modeling/customizing-deletion-behavior?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-and-update-layer-models-in-program-code.md",
+            "redirect_url": "/visualstudio/modeling/navigate-and-update-layer-models-in-program-code?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/troubleshoot-extensions-for-layer-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/troubleshoot-extensions-for-layer-diagrams?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/debugging-by-using-the-store-viewer.md",
+            "redirect_url": "/visualstudio/modeling/debugging-by-using-the-store-viewer?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/boundsrules-constrain-shape-location-and-size.md",
+            "redirect_url": "/visualstudio/modeling/boundsrules-constrain-shape-location-and-size?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false

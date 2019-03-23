@@ -71,7 +71,7 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
 1. Create a new **Class Library** project. This project will contain the layer validation class.
 
-Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**.
+2. Find or create a **VSIX Project** in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**.
 
 3. In **Solution Explorer**, on the right-click menu of the VSIX project, choose **Set as Startup Project**.
 

@@ -36,7 +36,7 @@ The quickest method of creating an extension is to use the project template. Thi
 
     An experimental instance of Visual Studio starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.
 
-3. Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+3. Close the experimental instance and modify the sample code.
 
 4. You can add more command or gesture handlers to the same project. For more information, see one of the following sections:
 
@@ -96,8 +96,6 @@ If you want to create one VSIX that contains commands, layer validators, and oth
 
      [Defining a Gesture Handler](#gesture)
 
-     See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
-
 7. To test the feature, press **Ctrl**+**F5** or **F5**.
 
    An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.
@@ -135,8 +133,6 @@ You can add more menu command definitions to an existing gesture or command proj
    `...`
 
    `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`
-
-For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
 
 To add a new command, create a new code file that contains the following sample. Then test and edit it.
 
@@ -261,5 +257,4 @@ Notice the following points about gesture handlers:
 
 ## See Also
 
-- [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)
 - [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)

@@ -18,14 +18,12 @@ ms.workload:
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
 
 ## Prerequisites
- Before you can start this procedure, you must first install these components:
 
+Before you can start this procedure, install these components:
 
-| | |
-|-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580) |
-| Visual Studio Visualization and Modeling SDK | |
+- Visual Studio
+- Visual Studio SDK (installed as part of the **Visual Studio extension development** workload)
+- Modeling SDK (installed as a Visual Studio component)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
