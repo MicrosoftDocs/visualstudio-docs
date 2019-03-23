@@ -44,6 +44,7 @@ For example, you can use this XML:
 <ItemGroup>
   <PackageReference Include="Microsoft.Build" Version="15.1.548" ExcludeAssets="runtime" />
   <PackageReference Include="Microsoft.Build.Utilities" Version="15.1.548" ExcludeAssets="runtime" />
+  <PackageReference Include="Microsoft.Build.Locator" Version="1.1.2"  />
 </ItemGroup>
 ```
 
