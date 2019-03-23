@@ -175,9 +175,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
    > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2019"
+   ::: moniker range="vs-2019"
 
    ```dockerfile
    # escape=`
@@ -213,11 +213,11 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    >
    > See [Known issues for containers](build-tools-container-issues.md) for more information.
 
-::: moniker-end
+   ::: moniker-end
 
 1. Run the following command within that directory.
 
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2017"
 
    ```shell
    docker build -t buildtools2017:latest -m 2GB .
@@ -227,9 +227,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    The final image is tagged "buildtools2017:latest" so you can easily run it in a container as "buildtools2017" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2017 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2019"
+   ::: moniker range="vs-2019"
 
    ```shell
    docker build -t buildtools2019:latest -m 2GB .
@@ -239,7 +239,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    The final image is tagged "buildtools2019:latest" so you can easily run it in a container as "buildtools2019" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
-::: moniker-end
+   ::: moniker-end
 
 ## Step 6. Using the built image
 
