@@ -249,21 +249,21 @@ Now that you have created an image, you can run it in a container to do both int
 
 1. Run the container to start a PowerShell environment with all developer environment variables set:
 
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2017"
 
    ```shell
    docker run -it buildtools2017
    ```
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2019"
+   ::: moniker range="vs-2019"
 
    ```shell
    docker run -it buildtools2019
    ```
 
-::: moniker-end
+   ::: moniker-end
 
 To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers need only to pull it.
 
