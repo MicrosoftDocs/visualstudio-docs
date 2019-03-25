@@ -75,7 +75,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. On the start window, choose **Create a new project**.
 
-   ![View the 'Create a new project' screen](../get-started/csharp/media/vs-2019/csharp-create-new-project.png)
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
 1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
