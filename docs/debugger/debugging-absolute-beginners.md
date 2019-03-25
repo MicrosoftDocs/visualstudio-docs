@@ -76,17 +76,16 @@ Next, we will create an application that has a few bugs.
 
     If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** (or **.NET Core cross platform development**) workload, then choose **Modify**.
 
-1. Open Visual Studio, and then choose **File** > **New** > **Project**.
+1. Open Visual Studio.
 
-1. Choose a template for your application code.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Framework)** or **Create new Console App (.NET Core)**. In the dialog box that appears, choose **Create**. Type a name like **ConsoleApp-FirstApp** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Framework)** or **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
+    ::: moniker-end
 
-    For .NET Framework, in the **New Project** dialog box, choose **Visual C#**, **Windows Desktop** from the installed templates section, and then in the middle pane select **Console App (.NET Framework)**.
-
-    For .NET Core, in the **New Project** dialog box, choose **Visual C#**, **.NET Core** from the installed templates section, and then in the middle pane select **Console App (.NET Core)**.
-
-    If you don't see these templates, you must install the appropriate workload (see earlier steps).
-
-1. In the **Name** field, type **ConsoleApp-FirstApp** and click **OK**.
+    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload or the **.NET Core cross platform development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

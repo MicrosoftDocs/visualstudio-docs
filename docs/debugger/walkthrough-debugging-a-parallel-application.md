@@ -56,23 +56,39 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 #### To create the sample project
 
-1. In Visual Studio, on the **File** menu, point to **New** and then click **Project**.
+1. Open Visual Studio and create a new project.
 
-2. Select either **Visual C#**, **Visual Basic**, or **Visual C++**. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+    
+    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
+    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
 
-3. Under **Windows Desktop**, choose **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.
+    Then, type a name or use the default name and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-4. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
+    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
 
-5. Paste the following code for your chosen language into the empty code file.
+    Then, type a name or use the default name and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+1. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
+
+1. Paste the following code for your chosen language into the empty code file.
 
    [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
    [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
    [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]
 
-6. On the **File** menu, click **Save All**.
+1. On the **File** menu, click **Save All**.
 
-7. On the **Build** menu, click **Rebuild Solution**.
+1. On the **Build** menu, click **Rebuild Solution**.
 
     Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.
 
