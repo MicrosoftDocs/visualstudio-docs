@@ -71,13 +71,44 @@ To start, you'll create an ASP.NET Core web application project. The project typ
    > [!NOTE]
    > If you don't see **ASP.NET Core 2.1** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio  to the most recent release](../install/update-visual-studio.md) page.
 
+Soon after, Visual Studio opens your project file.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-::: moniker-end
+1. On the start window, choose **Create a new project**.
 
-Soon after, Visual Studio opens your project file.
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
+
+   ![Choose the C# template for the ASP.NET Core Web Application](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
+   >
+   > ![ASP.NET Core Web Application workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
+
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** or later appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+
+   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+
+   Visual Studio opens your new project.
+
+::: moniker-end
 
 ## Create and run the app
 

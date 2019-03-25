@@ -96,34 +96,38 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ::: moniker-end
 
+::: moniker range="vs-2019"
+
 1. On the start window, choose **Create a new project**.
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+   ![Choose the C# template for the ASP.NET Core Web Application](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
-   > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
    >
-   > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
 
-   Visual Studio opens your new project, which includes default "Hello World" code.
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** or later appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
-::: moniker range="vs-2019"
+   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+
+   Visual Studio opens your new project.
 
 ::: moniker-end
 
