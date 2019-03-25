@@ -121,7 +121,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 1. Edit the event handler code in *MainPage.xaml.cs*, the code-behind page.
 
-   This is where things get interesting. The default event handler looks like this:
+   Here is where things get interesting. The default event handler looks like this:
 
    ![The default Button_Click event handler ](media/uwp-button-click-code.png)
 
