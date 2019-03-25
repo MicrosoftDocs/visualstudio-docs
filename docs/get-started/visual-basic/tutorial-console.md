@@ -107,7 +107,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 Let's create an app that prompts you for your name and then displays it along with the date and time. Here's how:
 
-::: moniker range="vs-2017"
+ ::: moniker range="vs-2017"
 
 1. If it is not already open, then open your *WhatIsYourName* project.
 
@@ -126,9 +126,9 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
 
-::: moniker-end
+ ::: moniker-end
 
-::: moniker range="vs-2019"
+ ::: moniker range="vs-2019"
 
 1. In the *WhatIsYourName* project, enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
 
@@ -145,7 +145,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
 
-     ::: moniker-end
+ ::: moniker-end
 
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
@@ -155,15 +155,15 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 ## Create a "Calculate This" application
 
-   ::: moniker range="vs-2017"
+ ::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
 
-   ::: moniker-end 
+ ::: moniker-end 
 
-   ::: moniker range="vs-2019"
+ ::: moniker range="vs-2019"
 
 1. On the start window, choose **Create a new project**. 
 
@@ -173,7 +173,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
 
-   ::: moniker-end
+ ::: moniker-end
 
 1. Enter the following code between the `Module Program` line and `End Module` line:
 
