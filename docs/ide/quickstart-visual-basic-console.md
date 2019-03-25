@@ -56,7 +56,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 ::: moniker range="vs-2019"
 
-> ![NOTE]
+> [!NOTE]
 > Some of the screenshots in this Quickstart use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
 
 1. Open Visual Studio 2019.

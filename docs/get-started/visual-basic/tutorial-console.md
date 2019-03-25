@@ -69,7 +69,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ::: moniker range="vs-2019"
 
-> ![NOTE]
+> [!NOTE]
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
 
 1. Open Visual Studio 2019.
