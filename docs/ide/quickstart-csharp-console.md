@@ -103,13 +103,13 @@ Visual Studio includes default "Hello World" code in your project.
 
 ::: moniker-end
 
-(To do this, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
+(To do so, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
 
    ![View the default Hello World code from the template](../ide/media/csharp-console-helloworld-template.png)
 
 If you press **F5**, you can run the program in Debug mode. However, the console window is visible only for a moment before it closes.
 
-(This happens because the `Main` method terminates after its single statement executes, and so the application ends.)
+(This behavior happens because the `Main` method terminates after its single statement executes, and so the application ends.)
 
 ### Add some code
 

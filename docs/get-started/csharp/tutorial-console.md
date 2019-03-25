@@ -224,7 +224,7 @@ Let's tweak the code to add further functionality.
 
 ### Add decimals
 
-The calculator app currently accepts and returns whole numbers. But, it'll be more precise if we add code that allows for decimals.
+The calculator app currently accepts and returns whole numbers. But, it will be more precise if we add code that allows for decimals.
 
 As in the following screenshot, if you run the app and divide number 42 by the number 119, your result is 0 (zero), which isn't exact.
 
@@ -260,7 +260,7 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 ## Debug the app
 
-We've improved on our basic calculator app, but it doesn't yet have failsafes in place to handle exceptions, such as user input errors.
+We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
@@ -446,7 +446,7 @@ Let's get started.
 
 1. Choose **Calculator** to run your program, or press **F5**.
 
-1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following:
+1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following screenshot:
 
     ![Console window showing the refactored Calculator app that includes prompts on which actions to take and error handling for incorrect inputs](./media/csharp-console-calculator-refactored.png)
 
