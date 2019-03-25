@@ -126,9 +126,15 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
 
- ::: moniker-end
+1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
- ::: moniker range="vs-2019"
+   ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](media/vb-console-what-name.png)
+
+1. Press any key to close the console window.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 1. In the *WhatIsYourName* project, enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
 
@@ -145,35 +151,21 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
 
- ::: moniker-end
-
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
    ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](media/vb-console-what-name.png)
 
 1. Press any key to close the console window.
 
+ ::: moniker-end
+
 ## Create a "Calculate This" application
 
- ::: moniker range="vs-2017"
+::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
-
- ::: moniker-end 
-
- ::: moniker range="vs-2019"
-
-1. On the start window, choose **Create a new project**. 
-
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
-
-1. After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
-
-   Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
-
- ::: moniker-end
 
 1. Enter the following code between the `Module Program` line and `End Module` line:
 
@@ -194,11 +186,50 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    Your code window should look like the following screenshot:
 
-   ![Code window showing the Calculate This code](media/vb-codewindow-calculate-this.png)
+   ![Code window showing the CalculateThis code](media/vb-codewindow-calculate-this.png)
 
 1. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
 
-    ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
+    ![Console window showing the CalculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
+
+::: moniker-end 
+
+::: moniker range="vs-2019"
+
+1. On the start window, choose **Create a new project**. 
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+
+1. After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
+
+1. Enter the following code between the `Module Program` line and `End Module` line:
+
+   ```vb
+   Public num1 As Integer
+   Public num2 As Integer
+   Public answer As Integer
+   Sub Main()
+       Console.WriteLine("Type a number and press Enter")
+       num1 = Console.ReadLine()
+       Console.WriteLine("Type another number to add to it and press Enter")
+       num2 = Console.ReadLine()
+       answer = num1 + num2
+       Console.WriteLine("The answer is " & answer)
+       Console.ReadLine()
+   End Sub
+   ```
+
+   Your code window should look like the following screenshot:
+
+   ![Code window showing the CalculateThis code](media/vb-codewindow-calculate-this.png)
+
+1. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
+
+    ![Console window showing the CalculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
+
+::: moniker-end
 
 ## Quick answers FAQ
 
