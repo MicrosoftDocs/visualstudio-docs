@@ -3,7 +3,7 @@ title: Create a Universal Windows Platform (UWP) App with Visual Studio and C#
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
 ms.custom: "seodec18, get-started"
-ms.date: "03/11/2019"
+ms.date: "03/23/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -30,9 +30,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
 
-1. Open Visual Studio.
-
 ::: moniker range="vs-2017"
+
+1. Open Visual Studio.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
