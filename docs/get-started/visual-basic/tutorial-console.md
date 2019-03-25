@@ -78,11 +78,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
    After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+   ![Choose the Visual Basic template for the Console App (.NET Framework)](./media/vs-2019/vb-create-new-project-search-console-net-core-filtered.png)
 
    > [!NOTE]
    > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -91,21 +91,23 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    > 
    > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
    >
-   > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](../../get-started/media/dot-net-core-xplat-dev-workload.png)
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](./media/vs-2019/vb-name-your-project.-whatname.png)
 
-   Visual Studio opens your new project, which includes default "Hello World" code.
+   Visual Studio opens your new project.
 
 ::: moniker-end
 
 ## Create a "What Is Your Name" application
 
 Let's create an app that prompts you for your name and then displays it along with the date and time. Here's how:
+
+::: moniker range="vs-2017"
 
 1. If it is not already open, then open your *WhatIsYourName* project.
 
@@ -122,7 +124,28 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
 
-   ![Code window showing the What Is Your Name code](media/vb-codewindow-what-name.png)
+   ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. In the *WhatIsYourName* project, enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
+
+     ```vb
+     Console.WriteLine(vbCrLf + "What is your name? ")
+     Dim name = Console.ReadLine()
+     Dim currentDate = DateTime.Now
+     Console.WriteLine($"{vbCrLf}Hello, {name}, on {currentDate:d} at {currentDate:t}")
+     Console.Write(vbCrLf + "Press any key to exit... ")
+     Console.ReadKey(True)
+    ```
+
+    This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
+
+   ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
+
+     ::: moniker-end
 
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
@@ -132,9 +155,25 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 ## Create a "Calculate This" application
 
+   ::: moniker range="vs-2017"
+
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
+
+   ::: moniker-end 
+
+   ::: moniker range="vs-2019"
+
+1. On the start window, choose **Create a new project**. 
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+
+1. After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
+
+   ::: moniker-end
 
 1. Enter the following code between the `Module Program` line and `End Module` line:
 
