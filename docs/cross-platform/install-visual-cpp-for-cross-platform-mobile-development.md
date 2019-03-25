@@ -65,7 +65,7 @@ The Visual Studio Installer for Visual Studio 2017 includes a **Mobile developme
    > [!IMPORTANT]
    > You must restart to make sure everything is installed correctly.
 
-1. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, check for any updates and install them.
+1. Open Visual Studio.
 
 > [!NOTE]
 > If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](/cross-platform/install-visual-cpp-for-cross-platform-mobile-development?view=vs-2015)

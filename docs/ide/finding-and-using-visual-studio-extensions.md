@@ -79,7 +79,7 @@ To protect your system against extensions that may contain errors or malicious c
 
 ## Automatic extension updates
 
-Extensions are automatically updated when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you start Visual Studio, the new version of the extension will be running.
+Extensions are automatically updated when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
 If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.
 
@@ -135,7 +135,7 @@ When these notifications are shown, you can ignore the notification or take one 
 
 When you install an online sample, the solution is stored in two locations:
 
-- A working copy is stored in the location that you specified in the **New Project** dialog box.
+- A working copy is stored in the location that you specified when you created the project.
 
 - A separate master copy is stored on your computer.
 
@@ -157,7 +157,7 @@ You can use the **Manage Extensions** window to perform these samples-related ta
 
 - Install Sample Packs, which are collections of samples that relate to a technology or feature.
 
-- Install individual online samples. (You can also do this in the **New Project** dialog box.)
+- Install individual online samples.
 
 - View update notifications when source code changes are published for installed samples.
 

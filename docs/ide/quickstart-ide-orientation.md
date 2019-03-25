@@ -19,7 +19,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Start Page
 
-The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
+The first thing you'll see after you open Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
 
 ![Start Page in Visual Studio](media/start-page.png)
 
@@ -33,9 +33,9 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 ## Start window
 
-The first thing you'll see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![](media/vs-2019/start-window-labeled.png "Start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
+[![](media/vs-2019/start-window-labeled.png "The start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -65,7 +65,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 1. On the start window, choose **Create a new project**.
 
-   A window opens that says **Create a new project**. This window is sometimes referred to as the **New Project** dialog, and this is where you can browse and pick a project template. It also keeps a list of recently used project templates.
+   A dialog box opens that says **Create a new project**. Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
 
 1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **Language** picker.
 

@@ -3,18 +3,18 @@
   expanded: true
   items:
   - name: 'Overview'
-    href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/containers/toc.json&bc=/visualstudio/containers/breadcrumb/toc.json
+    href: visual-studio-tools-for-docker.md
   - name: 'Quickstart: Docker in Visual Studio'
     href: docker-tools.md
   - name: 'Tutorial: Multi-container app with Docker Compose'
     href: tutorial-multicontainer.md
   - name: 'Tutorial: Kubernetes in Visual Studio'
     href: tutorial-kubernetes-tools.md
-  - name: Debugging apps in a local Docker container
+  - name: Debug app in a local Docker container
     href: vs-azure-tools-docker-edit-and-refresh.md
-  - name: Deploy an ASP.NET container to a container registry using Visual Studio
+  - name: Deploy to a container registry
     href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
-  - name: Configure a Docker Host with VirtualBox
-    href: vs-azure-tools-docker-setup.md
-  - name: Troubleshoot Visual Studio 2017 development with Docker
+  - name: Deploy to Azure App Service
+    href: docker-deploy-app-service.md
+  - name: Troubleshoot Visual Studio development with Docker
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md

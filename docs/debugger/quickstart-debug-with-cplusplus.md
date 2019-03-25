@@ -19,17 +19,20 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio.
 
-2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**. Then, type a name like **MyDbgApp** and click **OK**.
+    ::: moniker-end
 
-    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
-
-3. Type a name like **MyDbgApp** and click **OK**.
+    If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-4. In MyDbgApp.cpp, replace the following code
+1. In MyDbgApp.cpp, replace the following code
 
     ```c++
     int main()

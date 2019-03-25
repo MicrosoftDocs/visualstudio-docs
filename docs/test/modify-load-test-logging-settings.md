@@ -20,7 +20,7 @@ The *test controller* spools all collected load test sample data to a database l
 |Task|Associated topics|
 |-|-----------------------|
 |**Save logs if a load test fails:** You can specify if you want to save the test log whenever a load test fails.|-   [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
-|**Set the maximum file size for the log file:** You can edit the XML configuration file that is associated with the test controller service to specify the maximum file size you want to use for the log file.|[How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)|
+|**Set the maximum file size for the log file:** You can edit the XML configuration file that is associated with the test controller service to specify the maximum file size you want to use for the log file.|Modify `<add key="LogSizeLimitInMegs" value="20"/>` in the *QTCcontroller.exe.config* XML configuration file.|
 
 ## See also
 

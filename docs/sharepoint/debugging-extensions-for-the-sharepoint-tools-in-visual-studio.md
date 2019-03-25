@@ -50,7 +50,7 @@ ms.workload:
 
 #### To debug the extension
 
-1.  Start Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
+1.  Open Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
 
 2.  Start another instance of Visual Studio with administrator privileges. The following steps refer to this instance of Visual Studio as the *second instance*.
 

@@ -69,7 +69,7 @@ If you currently have side-by-side installations of Visual Studio and want to us
 
 3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
-1. Launch Visual Studio and import the saved settings from the exported settings file.
+1. Open Visual Studio and import the saved settings from the exported settings file.
 
 ::: moniker-end
 

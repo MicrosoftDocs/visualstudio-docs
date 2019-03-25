@@ -171,8 +171,12 @@
     - name: Work with solutions and projects
       href: ide/solutions-and-projects-in-visual-studio.md
       items:
+      - name: Create a new project
+        href: ide/create-new-project.md
       - name: Create solutions and projects
         href: ide/creating-solutions-and-projects.md
+      - name: Open a project from a repo
+        href: get-started/tutorial-open-project-from-repo.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
       - name: Port, migrate, and upgrade projects in Visual Studio 2019
@@ -224,7 +228,7 @@
           href: ide/how-to-manually-create-web-templates.md
         - name: Troubleshoot templates
           href: ide/how-to-troubleshoot-templates.md
-      - name: Locate and organize project and item templates
+      - name: Locate project and item templates
         href: ide/how-to-locate-and-organize-project-and-item-templates.md
       - name: Customize project and item templates
         href: ide/customizing-project-and-item-templates.md
@@ -302,6 +306,7 @@
               href: ide/troubleshooting-snippets.md
         - name: Quick Actions
           href: ide/quick-actions.md
+          displayName: light bulb screwdriver suggestions
           items:
           - name: Common Quick Actions
             href: ide/common-quick-actions.md
@@ -376,7 +381,7 @@
             href: ide/reference/convert-var-to-explicit-type.md
           - name: Use lambda expression or block body
             href: ide/reference/use-block-body-lambda.md
-          - name: Unused values and parameters
+          - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md

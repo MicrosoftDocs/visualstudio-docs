@@ -30,20 +30,14 @@ Visual Studio provides four different Workflow project templates:
 
 To access these templates, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
-1. After you've installed the **Windows Workflow Foundation** component, open the **New Project** dialog by selecting **File** > **New** > **Project**.
+1. After you've installed the **Windows Workflow Foundation** component, select **File** > **New** > **Project**.
 
-1. In the left-hand pane, select the **Visual C#** > **Workflow** category (or **Visual Basic** > **Workflow** if you prefer Visual Basic).
+1. Search for and select a workflow project template, for example, the **Workflow Console Application** template.
 
-1. In the middle pane, select a project template, such as **Workflow Console Application**.
-
-1. In the **Name** box, enter a descriptive name for your project to make it easy to identify.
-
-1. In the **Location** box, enter the directory in which you want to save your project, or select **Browse** to navigate to it.
-
-1. In the **Solution** box, enter the name for the new solution. Select **OK** to create the application.
+1. Continue through to create the project.
 
    > [!NOTE]
-   > If you want to add a new project to an existing solution, open that solution in Visual Studio, right-click the solution in **Solution Explorer**, and select **Add** > **New Project** to open the **New Project** dialog box.
+   > If you want to add a new project to an existing solution, open that solution in Visual Studio, right-click the solution in **Solution Explorer**, and select **Add** > **New Project**.
 
 ## Workflow console app
 

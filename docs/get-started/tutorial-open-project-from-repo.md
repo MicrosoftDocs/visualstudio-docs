@@ -45,7 +45,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
     ![Choose Clone from the Local Git Repositories section](./media/open-proj-repo-local-git-repo-clone.png)
 
-1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to sign in to your Git repo; if so, do so.)
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to sign in to GitHub; if so, do so.)
 
    After Visual Studio clones your repo, Team Explorer closes and Solution Explorer opens. A message appears that says *Click on Solutions and Folders above to view a list of Solutions*. Choose **Solutions and Folders**.
 

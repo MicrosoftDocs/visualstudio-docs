@@ -150,7 +150,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ![.NET Core cross-platform development workload in Visual Studio Installer](../media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
+When you open Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
 
 ## Create a program
 
@@ -226,11 +226,11 @@ Let's dive in and create a simple program.
 
 1. Open Visual Studio.
 
-   The Start window appears with various options for cloning a repo, opening a recent project, or creating a brand new project.
+   The start window appears with various options for cloning a repo, opening a recent project, or creating a brand new project.
 
 1. Choose **Create a new project**.
 
-   ![Visual Studio Start window create a new project](../media/vs-2019/start-window-create-new-project.png)
+   ![Visual Studio start window create a new project](../media/vs-2019/start-window-create-new-project.png)
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
 

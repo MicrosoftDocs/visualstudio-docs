@@ -17,7 +17,7 @@ manager: jillfra
 
 Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.  
   
- Templates for projects are passed to the project factory. The templates should support the initialization of all project items according to the requirements of the specific project type. These templates can later be saved as project files and managed by the IDE through the solution. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) and [Solutions](../../extensibility/internals/solutions.md).  
+ Templates for projects are passed to the project factory. The templates should support the initialization of all project items according to the requirements of the specific project type. These templates can later be saved as project files and managed by the IDE through the solution. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) and [Solutions](../../extensibility/internals/solutions-overview.md).  
   
  Project items can be file-based or non-file-based:  
   

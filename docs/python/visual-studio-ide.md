@@ -38,7 +38,7 @@ This image shows Visual Studio with an open Python project and several key tool 
 
 Visual Studio is available for Windows and Mac; however, Python support is available only on Visual Studio for Windows.
 
-There are three editions of Visual Studio 2017 on Windows: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+There are three editions of Visual Studio on Windows: Community, Professional, and Enterprise. See [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
 
 ## Popular productivity features
 

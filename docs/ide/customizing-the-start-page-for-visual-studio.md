@@ -59,7 +59,7 @@ To install a custom start page, open the *.vsix* file, or copy and paste the sta
 1. In the **Customize Start Page** list, choose the page that you want.
 
 > [!TIP]
-> If an error in a custom start page causes Visual Studio to crash, you can start Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../ide/reference/safemode-devenv-exe.md).
+> If an error in a custom start page causes Visual Studio to crash, you can open Visual Studio in safe mode and then set it to use the default start page. See [/SafeMode (devenv.exe)](../ide/reference/safemode-devenv-exe.md).
 
 ## See also
 

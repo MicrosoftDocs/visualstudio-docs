@@ -11,7 +11,6 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
@@ -28,7 +27,7 @@ To quickly test Python support after following the installation steps, open the 
 > [!Note]
 > Python support is not presently available in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
-<a name="visual-studio-2017"></a>
+<a name="visual-studio-2017-and-2019"></a>
 ## Visual Studio 2019 and Visual Studio 2017
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
@@ -44,15 +43,15 @@ To quickly test Python support after following the installation steps, open the 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
 
     ::: moniker range="vs-2017"
-    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R,  and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+
+    > [!Note]
+    > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"
     Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
     ::: moniker-end
-
-    > [!Note]
-    > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
 
 1. On the right side of the installer, chose additional options if desired. Skip this step to accept the default options.
 

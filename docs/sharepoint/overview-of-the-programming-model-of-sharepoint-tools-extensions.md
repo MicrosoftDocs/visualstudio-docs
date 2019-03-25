@@ -77,7 +77,7 @@ ms.workload:
 ### Visual Studio automation object model
  The Visual Studio automation object model provides APIs that you can use to automate Visual Studio projects and the IDE. Use the Visual Studio object model to perform project-related tasks that are not specific to SharePoint projects, or to perform other general automation tasks in Visual Studio. Traditionally, this object model is often used in Visual Studio add-ins and macros, but you can also use it in SharePoint tools extensions.
 
- The main part of the Visual Studio automation object model is defined in the *EnvDTE.dll* assembly. The *EnvDTE\\<version>.dll* assemblies provide additional functionality that was introduced in specific versions of Visual Studio. These assemblies are included with Visual Studio.
+ The main part of the Visual Studio automation object model is defined in the *EnvDTE.dll* assembly. The *EnvDTE\\\<version>.dll* assemblies provide additional functionality that was introduced in specific versions of Visual Studio. These assemblies are included with Visual Studio.
 
  For more information about the automation object model, see [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
 

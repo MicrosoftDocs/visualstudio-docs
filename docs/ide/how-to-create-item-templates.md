@@ -12,7 +12,7 @@ manager: jillfra
 
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
-## To add a user item template to the Add New Item dialog box
+## Add an item template to the Add New Item dialog box
 
 1. Create or open a project in Visual Studio.
 
@@ -40,7 +40,7 @@ This article shows you how to create an item template by using the **Export Temp
 
    The item template appears in the **Add New Item** dialog box. If you added a description in the **Export Template Wizard**, the description appears on the right side of the dialog box.
 
-## To enable the item template to be used in a Universal Windows App project
+## Enable the item template to be used in a Universal Windows App project
 
 The wizard does much of the work to create a basic template, but in many cases you need to manually modify the *.vstemplate* file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a Universal Windows App project, you have to perform a few extra steps.
 
@@ -62,7 +62,7 @@ The wizard does much of the work to create a basic template, but in many cases y
 
 You can now add an item based on this template to a Universal Windows project from the **Add New Item** dialog box.
 
-## To enable templates for specific project subtypes
+## Enable templates for specific project subtypes
 
 You can specify that your template should only appear for only certain project subtypes, such as Windows, Office, Database, or Web.
 
@@ -97,7 +97,7 @@ The following example shows an item template for **Office** projects.
 </VSTemplate>
 ```
 
-## To manually create an item template without using the Export Template wizard
+## Manually create an item template
 
 In some cases you may want to create an item template manually, from scratch.
 

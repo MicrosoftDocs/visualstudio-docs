@@ -9,7 +9,7 @@ description: Learn about the full range of benefits available to you on the Visu
 searchscope: VS Subscription
 ---
 
-# Using the subscriber portal - my.<span></span>visualstudio<span></span>.com
+# Using the subscriber portal - my.visualstudio.com
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 

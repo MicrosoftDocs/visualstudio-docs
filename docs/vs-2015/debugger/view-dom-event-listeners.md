@@ -78,7 +78,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 -   If `removeEventListener` fails to remove the specified listener, it might be getting called on a different instance of the object. You can use the [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) method to resolve this issue when you add the listener.
 
--   To remove an event listener that was added by using either [bind Method (Function)](/visualstudio/scripting-docs/javascript/reference/bind-method-function-javascript) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:
+-   To remove an event listener that was added by using either [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:
 
     ```javascript
     // You could use the following code within the constructor function of an object, or

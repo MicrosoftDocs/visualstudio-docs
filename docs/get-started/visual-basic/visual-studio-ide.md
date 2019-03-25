@@ -201,7 +201,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ![.NET Core cross-platform development workload in Visual Studio Installer](../media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
+When you open Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
 
 ## Customize Visual Studio
 
@@ -219,9 +219,9 @@ To change to the **Dark** theme:
 
 ::: moniker range=">=vs-2019"
 
-1. Open Visual Studio. On the Start window, choose **Continue without code**.
+1. Open Visual Studio. On the start window, choose **Continue without code**.
 
-   ![Start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
+   ![The start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
 
    The IDE opens.
 

@@ -30,7 +30,7 @@ The Virtual User Activity Chart lets you visualize the virtual user activity tha
 
 ## Open the ColorWebApp solution created in the previous walkthroughs
 
-1.  Start Visual Studio.
+1.  Open Visual Studio.
 
 2.  Open the **ColorWebApp** solution that contains the *LoadTest1.loadtest*. This load test results from conducting the steps in the three walkthroughs that are listed at the beginning of this topic in the prerequisites section.
 
@@ -73,7 +73,7 @@ After you have run your load test and collected the virtual user activity data, 
 
 7.  A tool tip is displayed with the following information:
 
-    -   **User Id**
+    -   **User ID**
 
     -   **Scenario**
 

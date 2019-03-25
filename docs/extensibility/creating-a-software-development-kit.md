@@ -59,17 +59,17 @@ A software development kit (SDK) is a collection of APIs that you can reference 
 ### Installation
  Extension SDKs can be installed for a specific user or for all users without specifying a registry key. To install an SDK for all users, use the following path:
 
- *%Program Files%\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs*
+ *%Program Files%\Microsoft SDKs\<target platform\>\v<platform version number\>\ExtensionSDKs*
 
  For a user-specific installation, use the following path:
 
- *%USERPROFILE%\AppData\Local\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs*
+ *%USERPROFILE%\AppData\Local\Microsoft SDKs\<target platform\>\v<platform version number\>\ExtensionSDKs*
 
  If you want to use a different location, you must do one of two things:
 
 1.  Specify it in a registry key:
 
-     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
+     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
 
      and add a (Default) subkey that has a value of `<path to SDK><SDKName><SDKVersion>`.
 

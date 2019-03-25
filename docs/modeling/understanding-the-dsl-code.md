@@ -11,17 +11,19 @@ ms.workload:
   - "multiple"
 ---
 # Understanding the DSL Code
+
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
 
 ## The example solution: Component Diagrams
- To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.
+
+To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.
 
 > [!NOTE]
->  The Component Diagrams DSL template is not related to the UML component diagrams that you can create by using the Architecture menu in Visual Studio. In the **New Project** dialog box, expand **Other Project Types\Extensibility** and then click **Domain-Specific Language Designer**.
+> The Component Diagrams DSL template is called **Domain-Specific Language Designer**.
 
- Press F5 and experiment, if you are not familiar with this solution template. Notice in particular that you create ports by dragging a port tool onto a component, and that you can connect ports.
+Press **F5** and experiment if you are not familiar with this solution template. Notice in particular that you create ports by dragging a port tool onto a component, and that you can connect ports.
 
- ![Components and interconnected ports](../modeling/media/componentsample.png)
+![Components and interconnected ports](../modeling/media/componentsample.png)
 
 ## The Structure of the DSL Solution
  The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with Visual Studio. You can also add your own projects, which can also contain code generated from the model.
@@ -341,4 +343,4 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
 - [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

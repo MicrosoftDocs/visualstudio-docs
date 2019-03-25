@@ -3,7 +3,7 @@ title: Convert foreach loop to LINQ
 ms.date: 02/20/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp

@@ -25,9 +25,7 @@ Before you can create an Android Native Activity app, you must make sure you've 
 
 In this tutorial, you'll first create a new Android Native Activity project and then build and run the default app in the Visual Studio Emulator for Android.
 
-### To create a new project
-
-1. Open Visual Studio. On the menu bar, choose **File** > **New** > **Project**.
+1. In Visual Studio, choose **File** > **New** > **Project**.
 
 2. In the **New Project** dialog box, under **Templates**, choose **Visual C++** > **Cross Platform**, and then choose the **Native-Activity Application (Android)** template.
 

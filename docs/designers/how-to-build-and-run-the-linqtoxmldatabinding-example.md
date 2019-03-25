@@ -14,11 +14,9 @@ This topic shows how to create and build the LinqToXmlDataBinding Visual Studio 
 
 For more information about Visual Studio, see [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
-## Create and populate the project
+## Create the project
 
-### To create the starting project
-
-1. Start Visual Studio and create a C# WPF application named LinqToXmlDataBinding. The project must use the .NET Framework 3.5 (or later).
+1. Open Visual Studio and create a C# **WPF App** named **LinqToXmlDataBinding**. The project should target the .NET Framework 3.5 (or later).
 
 1. If not already present, add project references for the following .NET assemblies:
 
@@ -32,9 +30,9 @@ For more information about Visual Studio, see [Visual Studio IDE overview](../ge
 
 1. Build the solution by pressing **Ctrl**+**Shift**+**B**, then run it by pressing **F5**. The project should compile without errors and run as a generic WPF application.
 
-### To add custom code to the project
+## Add code to the project
 
-1. In Solution Explorer, rename the source file **Window1.xaml** to **L2XDBForm.xaml**. The dependent source file **Window1.xaml.cs** should automatically be renamed to **L2XDBForm.xaml.cs**.
+1. In **Solution Explorer**, rename the source file **Window1.xaml** to **L2XDBForm.xaml**. The dependent source file **Window1.xaml.cs** should automatically be renamed to **L2XDBForm.xaml.cs**.
 
 1. Replace the source code found in the file **L2XDBForm.xaml** with the code section from the topic [L2DBForm.xaml source code](../designers/l2dbform-xaml-source-code.md). Use the XAML source view to work with this file.
 
@@ -50,9 +48,7 @@ The LinqToXmlDataBinding program enables the user to view and manipulate a list 
 
 ### To run the program and view the book list
 
-- Run LinqToXmlDataBinding by pressing **F5** (**Start Debugging**) or **Ctrl**+**F5** (**Start Without Debugging**).
-
-   A program window with the title **WPF Data Binding using LINQ to XML** appears.
+Run LinqToXmlDataBinding by pressing **F5** (**Start Debugging**) or **Ctrl**+**F5** (**Start Without Debugging**). A program window with the title **WPF Data Binding using LINQ to XML** appears.
 
 - Notice the top section of the UI, which displays the raw **XML** that represents the book list. It is displayed using a WPF <xref:System.Windows.Controls.TextBlock> control, which does not enable interaction through the mouse or keyboard.
 
