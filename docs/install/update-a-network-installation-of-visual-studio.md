@@ -97,6 +97,9 @@ The vs_enterprise.exe can be invoked inside the layoutDir.
 
 Microsoft ships updates to Visual Studio periodically, so the new layout that you create might not be the same version as the initial layout.
 
+> [!NOTE]
+> Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
+
 ## How to fix a layout
 
 Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an Internet connection, so make sure your machine is connected to the Internet before you invoke `--fix`.
