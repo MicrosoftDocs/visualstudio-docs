@@ -32,7 +32,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 ## The MyBank solution example
 
-In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
+In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
 
@@ -96,14 +96,26 @@ A unit test project usually mirrors the structure of a single code project. In t
 
 **To add a unit test project to a solution:**
 
-1. On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
+1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-2. On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+::: moniker range="vs-2017"
+
+2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
 3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
-   > [!WARNING]
+   > [!NOTE]
    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Use the project template search box to find a unit test project template for the test framework that you want to use.
+
+3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
+
+::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 

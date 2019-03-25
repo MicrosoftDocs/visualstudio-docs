@@ -12,30 +12,25 @@ author: gewarren
 
 We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.
 
- Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:
+Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:
 
--   Run .NET, unmanaged, database and other kinds of tests using a single interface.
+- Run .NET, unmanaged, database and other kinds of tests using a single interface.
 
--   Use the unit test framework of your choice, such as NUnit or MSTest frameworks.
+- Use the unit test framework of your choice, such as NUnit or MSTest frameworks.
 
--   See in one window all the information that you need.
+- See in one window all the information that you need.
 
 ## Use Test Explorer
- ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
+
+![Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
 
 ### To run unit tests by using Test Explorer
 
-1. Create unit tests that use the test frameworks of your choice.
+1. Create unit tests that use the test frameworks of your choice. For example, to create a test that uses the MSTest Framework:
 
-    For example, to create a test that uses the MSTest Framework:
+   1. Create **Unit Test Project** project for C#, Visual Basic, or C++.
 
-   1.  Create a test project.
-
-        In the **New Project** dialog box, expand **Visual Basic** or **Visual C#** or **Visual C++**, and then choose **Test**.
-
-        Select **Unit Test Project**.
-
-   2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
+   2. Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
 
 2. If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -60,19 +55,17 @@ We recommend that you create unit tests to help keep your code working correctly
 > [!NOTE]
 > If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
+## Walkthrough: Using unit tests to develop a method
 
-##  Walkthrough: Using unit tests to develop a method
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 ### Create the test and method
 
-1. Create a Visual C# Class Library project. This project will contain the code that we want to deliver. In this example, it is named `MyMath`.
+1. Create a C# **Class Library** project. This project will contain the code that we want to deliver. In this example, it's named `MyMath`.
 
-2. Create a Test project.
+2. Create a new **Unit Test Project** project.
 
-   -   In the **New Project** dialog, choose **Visual C#** > **Test** and then choose **Unit Test Project**.
-
-        ![New code and test projects](../test/media/unittestexplorerwalk1.png)
+   ![New code and test projects](../test/media/unittestexplorerwalk1.png)
 
 3. Write a basic test method. Verify the result obtained for a specific input:
 

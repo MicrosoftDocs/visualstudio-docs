@@ -1,28 +1,60 @@
 ---
-title: Organize templates
+title: Locate templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "project templates [Visual Studio], locations"
   - "item templates [Visual Studio], locations"
   - "template locations [Visual Studio]"
-  - "Visual Studio templates, organizing"
-  - "templates [Visual Studio], organizing"
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
 # How to: Locate and organize project and item templates
 
-Template files must be placed in a location that Visual Studio recognizes for the templates to appear in the **New Project** and **Add New Item** dialog boxes. You can also create custom subcategories in the user template location, and the categories are shown in the **New Project** and **Add New Item** dialog boxes.
+Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
+
+::: moniker range="vs-2017"
+
+You can also create custom subcategories in the user template location, and the categories are shown in the **New Project** and **Add New Item** dialog boxes.
+
+::: moniker-end
 
 ## Locate templates
 
 Installed templates and user templates are stored in two different locations.
 
+### Installed templates
+
+By default, templates installed with Visual Studio are located in:
+
+::: moniker range="vs-2017"
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2017\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2017\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
+
 ### User templates
 
-If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the **New Project** or **Add New Item** dialog box. By default, user templates are located in:
+If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the new project and new item dialog boxes. By default, user templates are located in:
 
 ::: moniker range="vs-2017"
 
@@ -49,19 +81,9 @@ For example, the following directory has user project templates for C#:
 ::: moniker-end
 
 > [!TIP]
-> You can set the location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
+> You can change the known location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
 
-### Installed templates
-
-By default, templates installed with Visual Studio are located in:
-
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID\>*
-
-- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID\>*
-
-For example, the following directory has the Visual Basic item templates for English (LCID 1033):
-
-- *C:\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\VisualBasic\1033*
+::: moniker range="vs-2017"
 
 ## Organize templates
 
@@ -70,7 +92,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 > [!NOTE]
 > You cannot create a new category at the programming language level. New categories can only be created within each language.
 
-### To create new user project template categories
+### Create new user project template categories
 
 1. Create a folder in the programming language folder in the user project template directory. For example, to establish a **HelloWorld** category for C# project templates, create the following directory:
 
@@ -82,7 +104,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
    The **HelloWorld** category appears in the **New Project** dialog box, under **Installed** > **Visual C#**.
 
-### To create new user item template categories
+### Create new user item template categories
 
 1. Create a folder in the programming language folder in the user item template directory. For example, to establish a **HelloWorld** category for C# item templates, create the following directory:
 
@@ -97,8 +119,6 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 ### Display templates in parent categories
 
 You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the *.vstemplate* file. These steps are the same for project templates and item templates.
-
-#### To display templates in parent categories
 
 1. Locate the *.zip* file that contains the template.
 
@@ -127,6 +147,8 @@ You can enable templates in subcategories to be displayed in their parent catego
 1. Delete the extracted template files and the old template *.zip* file.
 
 1. Put the new *.zip* file in the directory that had the deleted *.zip* file.
+
+::: moniker-end
 
 ## See also
 
