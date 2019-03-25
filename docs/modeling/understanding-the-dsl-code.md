@@ -343,4 +343,4 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
 - [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
