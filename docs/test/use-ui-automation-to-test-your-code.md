@@ -56,9 +56,13 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 1. Create a Coded UI Test project.
 
-   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project** to open the **New Project** dialog box. In the categories pane on the left, expand **Installed** > **Visual Basic** *or* **Visual C#** > **Test**. Select the **Coded UI Test Project** template, and then choose **OK**.
+   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project**. Search for and select the **Coded UI Test Project** project template.
+
+   ::: moniker range="vs-2017"
 
    ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
+
+   ::: moniker-end
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).

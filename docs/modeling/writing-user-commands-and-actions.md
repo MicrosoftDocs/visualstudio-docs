@@ -23,8 +23,6 @@ You can customize a domain-specific language by adding commands to the diagram, 
 
 -   [How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)
 
--   [Customizing Element Tools](../modeling/customizing-element-tools.md)
-
 ## See Also
 
 - [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)

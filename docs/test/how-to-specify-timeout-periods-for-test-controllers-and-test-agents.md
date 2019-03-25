@@ -111,5 +111,4 @@ To edit a test controller or a test agent’s various timeout settings, modify t
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Bind a test controller or test agent to a network adapter](../test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md)

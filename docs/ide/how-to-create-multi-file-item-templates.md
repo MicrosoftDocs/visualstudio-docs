@@ -22,11 +22,11 @@ Item templates may only specify one item, but sometimes the item is made up of m
 
 Multi-file item templates require parameters to ensure that the correct file extensions are used when the item is created. If you create a multi-file item template by using the **Export Template Wizard**, these parameters are automatically generated, and no further editing is required.
 
-## To create a multi-file item template by using the Export Template Wizard
+## Use the Export Template Wizard
 
 You can create a multi-file item template in the same manner as you would a single-file item template. See [How to: Create item templates](../ide/how-to-create-item-templates.md). On the **Select Item To Export** page of the wizard, select the file that has dependent files (for example, a Windows Forms form file). The wizard automatically includes any dependent files, such as designer and resource files, in the template.
 
-## To manually create a multi-file item template
+## Manually create a multi-file item template
 
 1. Create the item template as you would manually create a single-file item template, but include each file that constitutes the multi-file item.
 

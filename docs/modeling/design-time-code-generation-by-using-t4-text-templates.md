@@ -28,13 +28,9 @@ Design-time T4 text templates let you generate program code and other files in y
 
  A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
-## Creating a Design-Time T4 Text Template
+## Create a Design-Time T4 Text Template
 
-#### To create a design-time T4 template in Visual Studio
-
-1. Create a Visual Studio project, or open an existing one.
-
-    For example, on the **File** menu, choose **New** > **Project**.
+1. Create a new Visual Studio project, or open an existing one.
 
 2. Add a text template file to your project and give it a name that has the extension **.tt**.
 
@@ -64,10 +60,11 @@ Design-time T4 text templates let you generate program code and other files in y
 6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
 
    > [!NOTE]
-   >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
+   > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
 
-### Regenerating the code
- A template will be executed, generating the subsidiary file, in any of the following cases:
+### Regenerate the code
+
+A template will be executed, generating the subsidiary file, in any of the following cases:
 
 - Edit the template and then change focus to a different Visual Studio window.
 
@@ -77,12 +74,11 @@ Design-time T4 text templates let you generate program code and other files in y
 
 - In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
 
-  You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
+You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
 
-## Generating Variable Text
- Text templates let you use program code to vary the content of the generated file.
+## Generate Variable Text
 
-#### To generate text by using program code
+Text templates let you use program code to vary the content of the generated file.
 
 1. Change the content of the `.tt` file:
 

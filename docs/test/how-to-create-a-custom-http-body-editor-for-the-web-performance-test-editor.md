@@ -25,49 +25,35 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 ## Create a Windows Control Library project
 
-1. In Visual Studio, on the **File** menu, choose **New** > **Project**.
+1. In Visual Studio, create a new **Windows Forms Control Library** project. Name the project **MessageEditors**.
 
-    The **New Project** dialog box is displayed.
+   The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
 
-2. Under **Installed Templates**, select either **Visual Basic** or **Visual C#** depending on your programming preference, and then select **Windows**.
+1. From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
-   > [!NOTE]
-   > This sample uses Visual C#.
+1. Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
-3. In the list of templates, select **Windows Forms Control Library**.
+1. In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
 
-4. In the **Name** text box, type a name, for example, `MessageEditors`, and choose **OK**.
+1. In the **Properties**, select the **Application** tab.
 
-   > [!NOTE]
-   > This sample uses MessageEditors.
+1. In the **Target framework** drop-down list, select **.NET Framework 4**.
 
-    The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
+1. The **Target Framework Change** dialog box is displayed.
 
-5. From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
+1. Choose **Yes**.
 
-6. Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
+1. In **Solution Explorer**, right-click the **References** node and select **Add Reference**.
 
-7. In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
+1. The **Add Reference** dialog box is displayed.
 
-8. In the **Properties**, select the **Application** tab.
+1. Choose the .**NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
-9. In the **Target framework** drop-down list, select **.NET Framework 4**.
+1. If **View Designer** is not still open, in **Solution Explorer**, right-click **UserControl1.cs** and then select **View Designer**.
 
-10. The **Target Framework Change** dialog box is displayed.
+1. On the design surface, right-click and select **View Code**.
 
-11. Choose **Yes**.
-
-12. In **Solution Explorer**, right-click the **References** node and select **Add Reference**.
-
-13. The **Add Reference** dialog box is displayed.
-
-14. Choose the .**NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
-
-15. If **View Designer** is not still open, in **Solution Explorer**, right-click **UserControl1.cs** and then select **View Designer**.
-
-16. On the design surface, right-click and select **View Code**.
-
-17. (Optional) Change the name of the class and the constructor from UserControl1 to a meaningful name, for example, MessageEditorControl:
+1. (Optional) Change the name of the class and the constructor from UserControl1 to a meaningful name, for example, MessageEditorControl:
 
     > [!NOTE]
     > The sample uses MessageEditorControl.
@@ -85,7 +71,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
     }
     ```
 
-18. Add the following properties to enable getting and setting the text in RichTextBox1. The <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface will use EditString and the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> will use EditByteArray:
+1. Add the following properties to enable getting and setting the text in RichTextBox1. The <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface will use EditString and the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> will use EditByteArray:
 
     ```csharp
     public String EditString

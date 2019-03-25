@@ -111,8 +111,6 @@
       href: customizing-code-coverage-analysis.md
     - name: Troubleshoot code coverage
       href: troubleshooting-code-coverage.md
-  - name: Use emulators to isolate unit tests for Sharepoint 2010 applications
-    href: using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md
 - name: Live unit testing
   href: live-unit-testing-intro.md
   items:
@@ -338,8 +336,6 @@
     href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
   - name: Use HTML5 Controls in Coded UI Tests
     href: using-html5-controls-in-coded-ui-tests.md
-  - name: Test SharePoint 2010 Applications with Coded UI Tests
-    href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
   - name: Create a Data-Driven Coded UI Test
     href: creating-a-data-driven-coded-ui-test.md
   - name: Wait For Specific Events During Playback

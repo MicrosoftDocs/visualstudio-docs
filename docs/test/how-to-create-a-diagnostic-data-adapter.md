@@ -42,21 +42,9 @@ Use the following procedure to create diagnostic data adapter that collects a da
 
 For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
-##  Create and install a diagnostic data adapter
+## Create and install a diagnostic data adapter
 
-### To create and install a diagnostic data adapter
-
-1. Create a new class library.
-
-   1.  On the **File** menu, choose **New**, and then point to **New Project**.
-
-   2.  From **Project types**, select the language to use.
-
-   3.  From **Visual Studio installed templates**, select **Class Library**.
-
-   4.  Type a name for your Diagnostic Data Adapter.
-
-   5.  Choose **OK**.
+1. Create a new **Class Library** project.
 
 2. Add the assembly **Microsoft.VisualStudio.QualityTools.ExecutionCommon**.
 
