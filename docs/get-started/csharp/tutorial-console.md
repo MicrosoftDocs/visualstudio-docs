@@ -36,6 +36,8 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 To start, we'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio 2017.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
@@ -65,9 +67,44 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+1. On the start window, choose **Create a new project**.
+
+   !['Create a new project' screen](../get-started/csharp/media/vs-2019/csharp-create-new-project.png)
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply your filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+
+   > ![NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   >
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+   >
+   > Choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+
+   Visual Studio opens your new project, which includes default "Hello World" code.
+   
+::: moniker-end
+
 ## Create the app
 
-First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. Next, . After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
+First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
 ### Explore integer math
 
