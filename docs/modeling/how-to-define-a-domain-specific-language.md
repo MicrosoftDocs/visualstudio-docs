@@ -20,7 +20,7 @@ ms.workload:
 # How to Define a Domain-Specific Language
 To define a domain-specific language (DSL), you create a Visual Studio solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## <a name="templates"></a> Selecting a Template Solution
 
@@ -589,7 +589,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
-2.  Extend your modeling tools by using program code to achieve more advanced effects. For example, you can create menu commands that can change the model, and you can create tools that integrate two or more DSLs. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+2.  Extend your modeling tools by using program code to achieve more advanced effects. For example, you can create menu commands that can change the model, and you can create tools that integrate two or more DSLs. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ### Changing the DSL Definition
  When you create any item in a DSL definition, many default values are set automatically. After they have been set, you can change them. This simplifies the development of a DSL, while still allowing for powerful customizations.
@@ -601,7 +601,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
  See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).
 
 ## <a name="trouble"></a> Troubleshooting
- The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibililty Forum](http://go.microsoft.com/fwlink/?LinkId=186074).
+ The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibility Forum](http://go.microsoft.com/fwlink/?LinkId=186074).
 
 
 | Problem | Suggestion |
