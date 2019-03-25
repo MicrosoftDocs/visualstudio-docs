@@ -184,7 +184,7 @@ ms.workload:
 ##  <a name="Put"></a> Put the document of a solution onto the end user's computer (document-level customizations only)
  You can copy the document of your solution onto the end user's computer for them by creating a post-deployment action. That way, the user doesn't have to manually copy the document from the installation location to their computer after they install your solution. You'll have to create a class that defines the post-deployment action, build and publish the solution, modify the application manifest, and re-sign the application and deployment manifest.
 
- The following procedures assume that your project name is **ExcelWorkbook** and that you publish the solution to the **C:\publish** directory on your computer.
+ The following procedures assume that your project name is **ExcelWorkbook** and that you publish the solution into a created folder named **C:\publish** on your computer.
 
 ### Create a class that defines the post-deployment action
 
@@ -247,7 +247,7 @@ ms.workload:
 
 ### Modify the application manifest
 
-1.  Open the **c:\publish** directory by using **File Explorer**.
+1.  Open the solution directory, **c:\publish**, by using **File Explorer**.
 
 2.  Open the **Application Files** folder, and then open the folder that corresponds to the most recent published version of your solution.
 
