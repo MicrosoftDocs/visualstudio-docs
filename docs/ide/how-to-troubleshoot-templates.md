@@ -14,7 +14,17 @@ If a template fails to load in the development environment, there are several wa
 
 ## Validate the vstemplate file
 
+::: moniker range="vs-2017"
+
 If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the **New Project** dialog box.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the dialog box where you create new projects.
+
+::: moniker-end
 
 ### To validate the vstemplate file
 

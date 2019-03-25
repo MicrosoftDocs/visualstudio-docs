@@ -37,7 +37,7 @@ All project and item templates, whether installed with Visual Studio or created 
 
 ::: moniker range=">=vs-2019"
 
-- A *.vstemplate* file, which contains the metadata needed to create a project or item from the template and to display the template on the **Create a new project** page or in the **Add New Item** window.
+- A *.vstemplate* file, which contains the metadata needed to create a project or item from the template and to display the template on the **Create a new project** page or in the **Add New Item** dialog box.
 
 ::: moniker-end
 

@@ -37,6 +37,15 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
    The **New Project** dialog box appears.
 
+3. Choose the C# **Class Library** project template.
+
+4. Name the project **Bank**, and then click **OK**.
+
+   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+
+   > [!NOTE]
+   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -45,16 +54,16 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 2. On the start window, choose **Create a new project**.
 
-::: moniker-end
+3. Search for and select the C# **Class Library** project template, and then click **Next**.
 
-3. Choose the C# Class Library project template.
-
-4. Name the project **Bank**, and then click **OK** or **Create**.
+4. Name the project **Bank**, and then click **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
 
    > [!NOTE]
    > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+
+::: moniker-end
 
 5. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
 
@@ -87,9 +96,9 @@ public void Debit(double amount)
 1. On the **File** menu, select **Add** > **New Project**.
 
    > [!TIP]
-   > There are a couple other ways to add an additional project to an existing solution. You can right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**. Or, you can select **File** > **New** > **Project**, and then, in the **New Project** dialog, select the **Add to solution** option:
-   >
-   > ![Add to solution option in New Project dialog](media/add-to-solution.png)
+   > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
+
+::: moniker range="vs-2017"
 
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
@@ -98,6 +107,20 @@ public void Debit(double amount)
 4. In the **Name** box, enter `BankTests`, and then select **OK**.
 
    The **BankTests** project is added to the **Bank** solution.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Search for and select the C# **Unit Test Project** project template, and then click **Next**.
+
+3. Name the project `BankTests`.
+
+4. Click **Create**.
+
+   The **BankTests** project is added to the **Bank** solution.
+
+::: moniker-end
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 

@@ -1846,6 +1846,41 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/deploy-a-layer-model-extension.md",
+            "redirect_url": "/visualstudio/modeling/deploy-a-layer-model-extension?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/customizing-element-tools.md",
+            "redirect_url": "/visualstudio/modeling/customizing-element-tools?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/customizing-deletion-behavior.md",
+            "redirect_url": "/visualstudio/modeling/customizing-deletion-behavior?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/navigate-and-update-layer-models-in-program-code.md",
+            "redirect_url": "/visualstudio/modeling/navigate-and-update-layer-models-in-program-code?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/troubleshoot-extensions-for-layer-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/troubleshoot-extensions-for-layer-diagrams?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/debugging-by-using-the-store-viewer.md",
+            "redirect_url": "/visualstudio/modeling/debugging-by-using-the-store-viewer?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/boundsrules-constrain-shape-location-and-size.md",
+            "redirect_url": "/visualstudio/modeling/boundsrules-constrain-shape-location-and-size?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
@@ -2721,6 +2756,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/how-to-specify-the-maximum-size-for-the-log-file.md",
+            "redirect_url": "/visualstudio/test/modify-load-test-logging-settings",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/how-to-analyze-threshold-violations-using-the-counters-panel.md",
             "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
             "redirect_document_id": false
@@ -2833,6 +2873,16 @@
         {
             "source_path": "docs/test/test-windows-store-8-1-apps-with-coded-ui-tests.md",
             "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md",
+            "redirect_url": "/visualstudio/test/using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/testing-sharepoint-2010-applications-with-coded-ui-tests.md",
+            "redirect_url": "/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests?view=vs-2015",
             "redirect_document_id": false
         },
         {

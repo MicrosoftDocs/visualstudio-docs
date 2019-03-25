@@ -2,8 +2,9 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 03/12/2019
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
@@ -19,11 +20,23 @@ ms.workload:
 
 In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so.
 
+::: moniker range="vs-2017"
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+
+::: moniker-end
 
 ## Create a project
 
 To start, we'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017.
 
@@ -54,9 +67,44 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   >
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+
+   Visual Studio opens your new project, which includes default "Hello World" code.
+   
+::: moniker-end
+
 ## Create the app
 
-First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. Next, . After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
+First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
 ### Explore integer math
 
@@ -176,7 +224,7 @@ Let's tweak the code to add further functionality.
 
 ### Add decimals
 
-The calculator app currently accepts and returns whole numbers. But, it'll be more precise if we add code that allows for decimals.
+The calculator app currently accepts and returns whole numbers. But, it will be more precise if we add code that allows for decimals.
 
 As in the following screenshot, if you run the app and divide number 42 by the number 119, your result is 0 (zero), which isn't exact.
 
@@ -212,7 +260,7 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 ## Debug the app
 
-We've improved on our basic calculator app, but it doesn't yet have failsafes in place to handle exceptions, such as user input errors.
+We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
@@ -398,7 +446,7 @@ Let's get started.
 
 1. Choose **Calculator** to run your program, or press **F5**.
 
-1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following:
+1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following screenshot:
 
     ![Console window showing the refactored Calculator app that includes prompts on which actions to take and error handling for incorrect inputs](./media/csharp-console-calculator-refactored.png)
 
