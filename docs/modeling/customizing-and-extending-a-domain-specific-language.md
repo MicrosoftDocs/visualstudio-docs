@@ -19,7 +19,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 
 2.  Fine-tune the DSL by using more advanced features of the DSL Definition. For example, you can make additional links appear when the user creates an element. These techniques are mostly achieved in the DSL Definition, and some require a few lines of program code.
 
-3.  Extend your modeling tools by using program code. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+3.  Extend your modeling tools by using program code. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 > [!NOTE]
 >  When you have updated the DSL Definitions file, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before rebuilding your solution.
@@ -66,7 +66,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 ## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
