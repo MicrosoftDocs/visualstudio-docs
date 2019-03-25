@@ -1,8 +1,10 @@
 ---
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
-ms.date: 02/01/2019
 ms.custom: "mvc,seodec18"
+ms.date: 03/23/201
+ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
@@ -21,7 +23,17 @@ In this 5-10 minute introduction to how to use Visual Studio, you'll create a si
 
 ### Install Visual Studio
 
+::: moniker range="vs-2017"
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+
+::: moniker-end
 
 ### Choose your theme (optional)
 
@@ -30,6 +42,8 @@ This quickstart tutorial includes screenshots that use the dark theme. If you ar
 ## Create a project
 
 To start, you'll create an ASP.NET Core web application project. The project type comes with all template files to create a web app, before you've even added anything!
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017.
 
@@ -55,7 +69,13 @@ To start, you'll create an ASP.NET Core web application project. The project typ
    ![New ASP.NET Core Web Application dialog box](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
-   > If you don't see **ASP.NET Core 2.1** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+   > If you don't see **ASP.NET Core 2.1** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio  to the most recent release](../install/update-visual-studio.md) page.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+::: moniker-end
 
 Soon after, Visual Studio opens your project file.
 
