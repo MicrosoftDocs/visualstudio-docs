@@ -34,6 +34,8 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio 2017.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
@@ -49,6 +51,17 @@ First, you'll create a Visual Basic application project. The project type comes 
      The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
      ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> ![NOTE]
+> Some of the screenshots in this Quickstart use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
+
+
+
+::: moniker-end
 
 ## Create the application
 
