@@ -32,21 +32,33 @@ You'll first need a multithreaded application project. An example follows.
 
 ## Create a multithreaded app project
 
-1.  On the **File** menu, select **New** > **Project**.
+1. Open Visual Studio and create a new project.
 
-     The **New Project** dialog box appears.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+    
+    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
+    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
 
-2.  Select a language: **Visual C#**, **Visual C++**, or **Visual Basic**.
+    Then, type a name like **MyThreadWalkthroughApp** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-3.  Under **Windows Desktop**, choose **Console App**.
+    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
 
-4.  In the **Name** field, enter MyThreadWalkthroughApp.
+    Then, type a name like **MyThreadWalkthroughApp** and click **OK**.
+    ::: moniker-end
 
-5.  Select **OK**.
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
-     A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
+1. Select **OK**.
 
-6.  Delete the code that appears in the source file and replace it with the appropriate example code listing below.
+    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
+
+1. Delete the code that appears in the source file and replace it with the appropriate example code listing below.
 
     ```csharp
     using System;
@@ -181,9 +193,9 @@ You'll first need a multithreaded application project. An example follows.
     End Class
     ```
 
-7.  On the **File** menu, select **Save All**.
+1. On the **File** menu, select **Save All**.
 
-8. (Visual Basic only) In Solution Explorer (right pane), right-click the project node, choose **Properties**. Under the **Application** tab, change the **Startup object** to **Simple**.
+1. (Visual Basic only) In Solution Explorer (right pane), right-click the project node, choose **Properties**. Under the **Application** tab, change the **Startup object** to **Simple**.
 
 ## Debug the multithreaded app
 
