@@ -99,11 +99,12 @@ After you select your Visual Basic project template and name your file, Visual S
 2. Click the **Pin** icon to dock the **Toolbox** window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)
+
 3. Click the **Button** control and then drag it onto the form.
 
      ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
 
-4. In the **Appearance** section of the **Properties** window, type `Click this`, and then press **Enter**.
+4. In the **Appearance** section (or the **Fonts** section) of the **Properties** window, type `Click this`, and then press **Enter**.
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)
 
@@ -127,7 +128,7 @@ Now that we've added a button control to create an action, let's add a label con
 
       (Alternatively, you can expand **Form1.vb** in **Solution Explorer**, and then click **Form1**.)
 
-2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
+2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
 
      ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
 

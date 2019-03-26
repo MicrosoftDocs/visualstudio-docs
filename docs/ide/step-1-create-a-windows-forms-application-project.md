@@ -1,6 +1,8 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 01/26/2019
+ms.date: 03/23/2019
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 author: TerryGLee
