@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), CustomBuild task"
   - "CustomBuild task (MSBuild (Visual C++))"
 author: mikeblome
-ms.author: Michael.Blome
+ms.author: mblome
 ms.workload:
   - "multiple"
 ---
