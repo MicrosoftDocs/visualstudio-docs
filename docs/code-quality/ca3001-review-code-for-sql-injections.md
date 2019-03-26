@@ -31,7 +31,7 @@ When working with untrusted input and SQL commands, be mindful of SQL injection 
 This rule attempts to find input from HTTP requests reaching an SQL command's text.
 
 > [!NOTE]
-> This rule can't track data across assemblies.  For example, if one assembly reads the HTTP request input, and passes that input data to another assembly, which executes an SQL command whose text is formed from that input, then this rule will not produce a warning.
+> This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that executes the SQL command, this rule will not produce a warning.
 
 > [!NOTE]
 > There is a configurable limit to how deep this rule will analyze data flow across method calls.  See blahblahblah for how to configure the limit.
