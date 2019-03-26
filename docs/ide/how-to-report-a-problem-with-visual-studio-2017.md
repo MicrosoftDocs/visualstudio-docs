@@ -1,6 +1,6 @@
 ---
-title: "How to report a problem with Visual Studio 2017"
-description: "Find out how to report a problem with Visual Studio 2017"
+title: "How to report a problem with Visual Studio"
+description: "Find out how to report a problem with Visual Studio"
 ms.custom: ""
 ms.date: 03/11/2018
 ms.prod: visual-studio-dev15
@@ -16,19 +16,19 @@ ms.workload:
 ---
 # How to report a problem with Visual Studio or Visual Studio Installer
 
-Visual Studio problems are reported from within Visual Studio or its installer using the Feedback Tool included in them.  The Feedback Tool enables you to easily include diagnostic information in the feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
+You can report a problem from either Visual Studio or its installer by using the Feedback Tool included in them. The Feedback Tool enables you to easily include diagnostic information in your feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
 
 
-1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You may also access the feedback tool  from the menu Help > Send Feedback > Report a Problem.
+1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu Help > Send Feedback > Report a Problem.
 ![Report an issue pop-up on Visual Studio Developer Community](media/vsfeedbackentry.png)
 Alternatively, report a problem in **Visual Studio Installer** if you can't install Visual Studio or unable to access the feedback tool within Visual Studio.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
 ![Report an issue pop-up on Visual Studio Developer Community](media/installer.png)
 
-1. If not signed in, select **Sign In** as shown in the below screenshot. Follow the instructions on-screen to sign in.
+1. If not signed in, select **Sign In** as shown in the following screenshot. Follow the instructions on-screen to sign in.
 
    ![Sign in to report a problem](../ide/media/sign-in-new-ux.png)
 
-   When signed in, you can not only report a problem but also you can vote and comment on any existing feedback.
+   Not only can you report a problem when you are signed in, but you can also vote and comment on any existing feedback.
 
 1. Once signed in, you will be able to see your **Problems** and **Activity** on the **Items I follow** screen
 
