@@ -8,7 +8,7 @@ ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
-author: Sean Iyer
+author: seiyer
 ms.author: seiyer
 manager: douge
 ms.workload:
