@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to report a problem with Visual Studio or Visual Studio Installer
 
-Visual Studio problems are reported from within Visual Studio or its installer using the Feedback Tool included in them.  The Feedback Tool enables you to easily include diagnostic information in the feedback and helps Visual Studio teams to diagnose and fixes issues much more effectively. Here are the steps to report a problem.
+Visual Studio problems are reported from within Visual Studio or its installer using the Feedback Tool included in them.  The Feedback Tool enables you to easily include diagnostic information in the feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
 
 
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You may also access the feedback tool  from the menu Help > Send Feedback > Report a Problem.
