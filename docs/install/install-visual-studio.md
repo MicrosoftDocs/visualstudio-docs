@@ -112,6 +112,8 @@ For more information, see the [Change installation locations in Visual Studio](c
 
 ## Step 8 - Start developing
 
+::: moniker range="vs-2017"
+
 1. After Visual Studio installation is complete, click the **Launch** button to get started developing with Visual Studio.
 
 2. Click **File**, and then click **New Project**.
@@ -121,6 +123,23 @@ For more information, see the [Change installation locations in Visual Studio](c
    For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
 
    To [build a C# app](../get-started/csharp/tutorial-wpf.md), click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. After Visual Studio installation is complete, click the **Launch** button to get started developing with Visual Studio.
+
+1. On the start window, choose **Create a new project**.
+
+1. On the **Create a new project** window, enter the type of app you want to create to see a list of templates.
+
+  > [!TIP]
+  > On the **Create a new project** window, you can filter your search to a specific programming language by using the **Language** drop-down list. You can also filter by using **Platform** list and the **Project type** list. 
+
+1. Visual Studio opens your new project, and you're ready to code!
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
