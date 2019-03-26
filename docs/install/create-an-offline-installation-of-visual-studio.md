@@ -14,8 +14,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Create an offline installation of Visual Studio 2017
+# Create an offline installation of Visual Studio
 
 We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
@@ -26,7 +28,7 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ## Use the "Download all, then install" feature
 
-[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
+[**New in version 15.8**](/visualstudio/releasenotes/vs2017-relnotes-v15.8#install): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
    ![The "Download all, then install" option](media/download-all-then-install.png)
 
@@ -137,7 +139,7 @@ c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDe
 
 ## See also
 
-- [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md)
+- [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-- [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+- [Visual Studio workload and component IDs](workload-and-component-ids.md)

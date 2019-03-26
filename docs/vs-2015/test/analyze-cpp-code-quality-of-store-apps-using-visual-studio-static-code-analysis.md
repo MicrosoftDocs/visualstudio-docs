@@ -122,7 +122,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                       [C6516](../code-quality/c6516.md)                        |                                          No Properties On Attribute                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       Valid Size On Non-Readable Buffer                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     Writable Size On Non-Writable Buffer                                      |
-| [C6519](http://msdn.microsoft.com/2b6326b0-0539-4d26-8fb1-720114933232)  |                  Invalid annotation: value of the 'NeedsRelease' property must be Yes or No                   |
 | [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        Invalid Size String Dereference                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           Invalid Size String Type                                            |
 | [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         Invalid Size String Parameter                                         |
@@ -188,7 +187,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                      [C28254](../code-quality/c28254.md)                       |                               dynamic_cast<>() is not supported in annotations                                |
 |                      [C28262](../code-quality/c28262.md)                       |                    A syntax error in the annotation was found in function, for annotation                     |
 |                      [C28263](../code-quality/c28263.md)                       |                 A syntax error in a conditional annotation was found for Intrinsic annotation                 |
-| [C28264](http://msdn.microsoft.com/bf6ea983-a06e-4752-a042-747a7dbf338c) |                                    Result lists values must be constants.                                     |
 |                      [C28267](../code-quality/c28267.md)                       |                    A syntax error in the annotations was found annotation in the function.                    |
 |                      [C28272](../code-quality/c28272.md)                       |      The annotation for function, parameter when examining is inconsistent with the function declaration      |
 |                      [C28273](../code-quality/c28273.md)                       |                    For function, the clues are inconsistent with the function declaration                     |

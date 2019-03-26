@@ -25,7 +25,7 @@ ms.workload:
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.
 
 > [!NOTE]
-> In Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
+> Starting in Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
 
 ## Parameters
  The following table describes the parameters of the **XSD** task.

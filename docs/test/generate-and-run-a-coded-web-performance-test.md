@@ -23,7 +23,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
 ## Generate a coded web performance test
 
-1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project?view=vsts).
+1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project).
 
 2.  Generate the coded test.
 

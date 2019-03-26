@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 ms.date: "01/15/2019"
-ms.technology: vs-nodejs
+ms.technology: vs-javascript
 ms.topic: conceptual
 dev_langs:
   - "JavaScript"
@@ -26,7 +26,7 @@ Visual Studio now supports syntax for ECMAScript language updates such as ECMASc
 
 ### What is ECMAScript 2015?
 
-JavaScript is still evolving as a programming language and [TC39](http://www.ecma-international.org/memento/TC39.htm) is the committee responsible for making updates.
+JavaScript is still evolving as a programming language and [TC39](https://www.ecma-international.org/memento/tc39-m.htm) is the committee responsible for making updates.
 ECMAScript 2015 is an update to the JavaScript language that brings helpful new syntax and functionality. For a deep dive on ES6 features, check out [this](http://es6-features.org) reference site.
 
 In addition to support for ECMAScript 2015, Visual Studio also supports ECMAScript 2016 and will have support for future versions of ECMAScript as they are released. To keep up with TC39 and the latest changes in ECMAScript, follow their work on [github](https://github.com/tc39).

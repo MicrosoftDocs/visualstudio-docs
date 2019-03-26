@@ -153,10 +153,10 @@ The following image shows a queue that contains two messages:
 
 ![Viewing a queue](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
-For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
+For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
 
 > [!NOTE]
-> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
+> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
 
 ## Work with table resources
 
@@ -215,7 +215,7 @@ You can customize the set of entities that appear in a table if you use the quer
 1. When you’re done building the query, close the dialog box. The resulting text form of the query appears in a text box as a WCF Data Services filter.
 1. To run the query, select the green triangle icon.
 
-You can also filter entity data that appears in Table Designer if you enter a WCF Data Services filter string directly in the filter text box. This kind of string is similar to a SQL WHERE clause but is sent to the server as an HTTP request. For information about how to construct filter strings, see [Constructing filter strings for the table designer](https://docs.microsoft.com/azure/vs-azure-tools-table-designer-construct-filter-strings).
+You can also filter entity data that appears in Table Designer if you enter a WCF Data Services filter string directly in the filter text box. This kind of string is similar to a SQL WHERE clause but is sent to the server as an HTTP request. For information about how to construct filter strings, see [Constructing filter strings for the table designer](/azure/vs-azure-tools-table-designer-construct-filter-strings).
 
 The following illustration shows an example of a valid filter string:
 
@@ -291,4 +291,4 @@ If you delete a storage account from Server Explorer, it doesn’t affect your s
 
 ## Next steps
 
-To learn more about how to use Azure storage services, see [Accessing the Azure Storage Services](https://msdn.microsoft.com/library/azure/ee405490.aspx).
+To learn more about how to use Azure storage services, see [Introduction to Azure Storage](/azure/storage/common/storage-introduction).

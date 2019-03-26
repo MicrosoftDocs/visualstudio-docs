@@ -60,7 +60,7 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
 >  In Express editions of Visual Studio, you cannot set the target framework in the **New Project** dialog box.
 
 ## Resolving System and User Assembly References
- To target a .NET Framework version, you must first install the appropriate assembly references. Assembly references for the .NET Framework versions 2.0, 3.0, and 3.5 are included in the .NET Framework 3.5 SP1, which you can download from the [Microsoft Download Center, Microsoft Visual Studio](http://go.microsoft.com/fwlink/?LinkId=227602) website. Assembly references for the .NET Framework 3.5 Client Profile, the .NET Framework 4, the .NET Framework 4 Client Profile, and Silverlight are also available from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=179687) website.
+ To target a .NET Framework version, you must first install the appropriate assembly references. Assembly references for the .NET Framework versions 2.0, 3.0, and 3.5 are included in the .NET Framework 3.5 SP1, which you can download from the [Microsoft Download Center, Microsoft Visual Studio](https://www.microsoft.com/download/details.aspx?id=25150) website. Assembly references for the .NET Framework 3.5 Client Profile, the .NET Framework 4, the .NET Framework 4 Client Profile, and Silverlight are also available from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=179687) website.
 
 > [!NOTE]
 >  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).
@@ -73,6 +73,6 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
  When you target the .NET Framework 3.5 or later, a reference to System.Core and a project-level import for System.Linq (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn Option Infer on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [How to: Create a LINQ Project](http://msdn.microsoft.com/library/a929e653-09a3-44be-881f-68ca33f192b2).
 
 ## See Also
- [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)
- [Platform compatibility and system requirements](http://www.microsoft.com/visualstudio/eng/products/compatibility)
+[Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
+[.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)
+[Platform compatibility and system requirements](/visualstudio/productinfo/vs2015-compatibility-vs)

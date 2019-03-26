@@ -20,7 +20,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 4
     items:
     - href: ../install/install-visual-studio.md
       html: <p></p>
@@ -37,6 +37,11 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_whats-new.svg
       title: What's New in Visual Studio 2017
+    - href: ../ide/whats-new-visual-studio-2019.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_whats-new.svg
+      title: What's New in Visual Studio 2019
 - title: Tutorials
   items:
   - type: paragraph

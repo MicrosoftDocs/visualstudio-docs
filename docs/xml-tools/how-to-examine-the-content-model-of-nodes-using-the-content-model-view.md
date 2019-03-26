@@ -17,11 +17,11 @@ This topic describes how to explore your nodes using the [Content Model View](..
 
 1.  Create a new XML Schema file.
 
-2.  Click **Use XML Editor to view and edit the underlying XML Schema file** on the Start View.
+2.  Click **Use XML editor to view and edit the underlying XML Schema file** on the Start View.
 
 3.  Copy the XML Schema sample code from [Sample XML schema: purchase order schema](../xml-tools/sample-xsd-file-purchase-order-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
-4.  Select the `purchaseOrder` element in the Schema Explorer by right-clicking the `purchaseOrder` element in the XML Editor and selecting **Show in XML Explorer**.
+4.  Select the `purchaseOrder` element in the Schema Explorer by right-clicking the `purchaseOrder` element in the XML editor and selecting **Show in XML Explorer**.
 
 5.  Right-click the `purchaseOrder` in the XML Explorer and select **Show in Content Model View**.
 

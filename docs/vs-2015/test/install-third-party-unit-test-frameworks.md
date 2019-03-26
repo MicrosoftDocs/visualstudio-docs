@@ -36,7 +36,7 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
 ### Installing from the web  
  If you know the framework you are interested in:  
   
-1. Open [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=236267) on the MSDN website.  
+1. Open [Visual Studio Marketplace](https://marketplace.visualstudio.com).  
   
 2. Type the name of the framework in the **Find** box.  
   
@@ -44,7 +44,7 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
    To browse a list of frameworks along with other testing tools:  
   
-4. Open [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=236267) on the MSDN website.  
+4. Open [Visual Studio Marketplace](https://marketplace.visualstudio.com).  
   
 5. Choose **Browse**.  
   

@@ -16,6 +16,22 @@ ms.workload:
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)
 
 ## Standard Toolset configurations
+
+::: moniker range=">=vs-2019"
+ MSBuild 16.0 includes the following standard Toolsets:
+
+|ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|
+|------------------| - |
+|2.0|*\<Windows installation path>\Microsoft.Net\Framework\v2.0.50727\\*|
+|3.5|*\<Windows installation path>\Microsoft.NET\Framework\v3.5\\*|
+|4.0|*\<Windows installation path>\Microsoft.NET\Framework\v4.0.30319\\*|
+|Current|*\<Visual Studio installation path>\MSBuild\Current\bin*|
+
+ The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2019, the default value is "Current" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
+
+ ::: moniker-end
+
+::: moniker range="vs-2017"
  MSBuild 15.0 includes the following standard Toolsets:
 
 |ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|
@@ -26,8 +42,9 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 |15.0|*\<Visual Studio installation path>\MSBuild\15.0\bin*|
 
  The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2017, the default value is "15.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
+ ::: moniker-end
 
- Visual Studio 2017 does not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.
+Visual Studio 2017 and later versions do not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.
 
 |Registry key|Key name|String key value|
 |------------------|--------------|----------------------|
@@ -50,11 +67,11 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 ## Custom Toolset definitions
  When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run *MSBuild.exe*. By doing this, you can also use the `$(MSBuildToolsPath)` property to import *.targets* files from that directory, as well as defining your own custom Toolset properties that can be used for any project that uses that Toolset.
 
- Specify a custom Toolset in the configuration file for *MSBuild.exe* (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for *MSBuild.exe* could include the following Toolset definition if you wished to override the default behavior of ToolsVersion 15.0.
+ Specify a custom Toolset in the configuration file for *MSBuild.exe* (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for *MSBuild.exe* could include the following Toolset definition if you wished to define a toolset named *MyCustomToolset*.
 
 ```xml
-<msbuildToolsets default="15.0">
-   <toolset toolsVersion="15.0">
+<msbuildToolsets default="MyCustomToolset">
+   <toolset toolsVersion="MyCustomToolset">
       <property name="MSBuildToolsPath"
         value="C:\SpecialPath" />
    </toolset>

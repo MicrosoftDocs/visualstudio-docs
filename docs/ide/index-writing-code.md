@@ -13,6 +13,8 @@ ms.workload:
 
 Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/visualstudio/ide/solutions-and-projects-in-visual-studio">
@@ -238,7 +240,7 @@ Create your first app in Visual Studio.
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-uwp-csharp">
+        <a href="/visualstudio/get-started/csharp/tutorial-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -1,6 +1,6 @@
 ---
 title: "CA1710: Identifiers should have correct suffix"
-ms.date: 11/04/2016
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1710"
@@ -27,6 +27,8 @@ ms.workload:
 ## Cause
 
 An identifier does not have the correct suffix.
+
+By default, this rule only looks at externally visible identifiers, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -84,6 +86,16 @@ Rename the type so that it is suffixed with the correct term.
 It is safe to suppress a warning to use the 'Collection' suffix if the type is a generalized data structure that might be extended or that will hold an arbitrary set of diverse items. In this case, a name that provides meaningful information about the implementation, performance, or other characteristics of the data structure might make sense (for example, BinaryTree). In cases where the type represents a collection of a specific type (for example, StringCollection), do not suppress a warning from this rule because the suffix indicates that the type can be enumerated by using a `foreach` statement.
 
 For other suffixes, do not suppress a warning from this rule. The suffix allows the intended usage to be evident from the type name.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1710.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Naming). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Related rules
 

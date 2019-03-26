@@ -14,6 +14,7 @@ ms.prod: visual-studio-dev16
 ms.topic: conceptual
 ms.workload:
   - "multiple"
+monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
 

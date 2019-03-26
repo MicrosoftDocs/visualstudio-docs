@@ -48,12 +48,27 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 
 On Visual Studio 2017 version 15.5 and later, you can install the [Microsoft Code Analysis 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) extension that contains all of the FxCop analyzers for managed projects.
 
+::: moniker range="vs-2017"
+
 1. In Visual Studio, select **Tools** > **Extensions and Updates**.
 
    The **Extensions and Updates** dialog box opens.
 
    > [!NOTE]
    > Alternatively, download the extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, select **Extensions** > **Manage Extensions**.
+
+   The **Manage Extensions** dialog box opens.
+
+   > [!NOTE]
+   > Alternatively, download the extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017).
+
+::: moniker-end
 
 1. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
 
@@ -77,7 +92,17 @@ On Visual Studio 2017 version 15.5 and later, you can install the [Microsoft Cod
 
 1. Open Visual Studio again.
 
+::: moniker range="vs-2017"
+
 If you want to check whether the extension is installed, select **Tools** > **Extensions and Updates**. In the **Extensions and Updates** dialog box, select the **Installed** category on the left, and then search for the extension by name.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you want to check whether the extension is installed, select **Extensions** > **Manage Extensions**. In the **Manage Extensions** dialog box, select the **Installed** category on the left, and then search for the extension by name.
+
+::: moniker-end
 
 ## See also
 

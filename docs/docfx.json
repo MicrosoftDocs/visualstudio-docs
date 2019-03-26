@@ -93,6 +93,9 @@
       ]
     },
     "fileMetadata": {
+      "open_to_public_contributors": {
+        "vs-2015/**/**.md": false
+      },
       "ms.prod": {
         "rtvs/**/**.md": "visual-studio-dev15",
         "vs-2015/**/**.md": "visual-studio-dev14"
@@ -112,7 +115,7 @@
         "help-viewer/**/**.md": "vs-help-viewer",
         "ide/**/**.md": "vs-ide-general",
         "install/**/**.md": "vs-installation",
-        "javascript/**/**.md": "vs-nodejs",
+        "javascript/**/**.md": "vs-javascript",
         "modeling/**/**.md": "vs-ide-modeling",
         "msbuild/**/**.md": "msbuild",
         "profiling/**/**.md": "vs-ide-debug",

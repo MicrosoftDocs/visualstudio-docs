@@ -1,7 +1,7 @@
 ---
 title: Manage Python application projects
 description: Projects in Visual Studio manage dependencies between files and the complexity of relationships in an application.
-ms.date: 01/28/2019
+ms.date: 03/18/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
@@ -24,8 +24,13 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 <a name="lightweight-usage-project-free"></a>
 
+::: moniker range=">=vs-2019"
 > [!Tip]
-> Even without a project, Visual Studio works well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start with Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
+::: moniker-end
+
+> [!Tip]
+> Without a project, all versions of Visual Studio work well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start with Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described in [Create a project from existing files](#create-project-from-existing-files).
 
@@ -37,14 +42,23 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by right-clicking the project and selecting **Add** > **Existing Item** with which you browse for a file to add, or **Add** > **New Item**, which brings up a dialog with a variety of item templates. As described on the [item templates](python-item-templates.md) reference, options include empty Python files, a Python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version of Visual Studio.
 
-Each Python project has one assigned start-up file, shown in boldface in **Solution Explorer**. The startup file is the file that's run when you start debugging (**F5** or **Debug** > **Start Debugging**) or when you run your project in the **Interactive** window (**Shift**+**Alt**+**F5** or **Debug** > **Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+Each Python project has one assigned start-up file, shown in boldface in **Solution Explorer**. The startup file is the file that's run when you start debugging (**F5** or **Debug** > **Start Debugging**) or when you run your project in the **Interactive** window (**Shift**+**Alt**+**F5** or **Debug** > **Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup Item** (or **Set as Startup File** in older versions of Visual Studio).
 
 > [!Tip]
-> If you remove the selected startup file from a project and don't select a new one, Visual Studio won't know what Python file to start with when you try to run the project. In this case, Visual Studio 2017 version 15.6 and later shows an error; earlier versions either open an output window with the Python interpreter running, or you see the output window appear but then disappear almost immediately. If you encounter any of these behaviors, check that you have an assigned startup file.
+> If you remove the selected startup file from a project and don't select a new one, Visual Studio doesn't know what Python file to start with when you try to run the project. In this case, Visual Studio 2017 version 15.6 and later shows an error; earlier versions either open an output window with the Python interpreter running, or you see the output window appear but then disappear almost immediately. If you encounter any of these behaviors, check that you have an assigned startup file.
 >
 > If you want to keep the output window open for any reason, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
+::: moniker range="vs-2017"
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want.
+::: moniker-end
+::: moniker range=">=vs-2019"
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add Environment..**, and select the ones you want. You can also use the environments drop-down control on the toolbar to select and environment or add another one to the project.
+
+![Add Environment command on the Python toolbar](media/environments/environments-toolbar-2019.png)
+::: moniker-end
+
+To change the active environment, right-click the desired environment in **Solution Explorer** and select **Activate Environment** as shown below. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -56,7 +70,7 @@ Visual Studio gives you a number of ways to set up a Python project, either from
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
-The following table summarizes the templates available in Visual Studio 2017 (not all templates are available in all previous versions):
+The following table summarizes the templates available in Visual Studio 2017 and later (not all templates are available in all previous versions):
 
 | Template | Description |
 | --- | --- |
@@ -69,7 +83,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | **IronPython Silverlight Web Page** | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code that initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
 | **IronPython Windows Forms Application** | A project structure using IronPython with UI created using code with Windows Forms. The application runs without displaying a console. |
 | **Background Application (IoT)** | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
-| **Python Extension Module** | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 (see [Installation](installing-python-support-in-visual-studio.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
+| **Python Extension Module** | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 or later (see [Installation](installing-python-support-in-visual-studio.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
 
 > [!Note]
 > Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).

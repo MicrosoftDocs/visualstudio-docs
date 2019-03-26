@@ -28,7 +28,7 @@ ms.workload:
 3.  If you have an English version of Visual Studio but use non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] language pack to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. Non-English versions of Visual Studio automatically install the language pack. The language pack is available from the [Microsoft download center](http://go.microsoft.com/fwlink/?LinkId=140386).
 
 ## See also
-- [What's new in Office development](https://msdn.microsoft.com/bf054af2-c896-4723-aa15-6381145b14bb)
+
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)
 - [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)
 - [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)

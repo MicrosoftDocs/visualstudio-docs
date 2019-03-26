@@ -39,6 +39,11 @@ sections:
     className: cardsM
     columns: 3
     items:
+    - href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_pull-request.svg
+      title: Open code from a repo
     - href: tutorial-console.md
       html: <p></p>
       image:
@@ -68,7 +73,7 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: quickstart-editor.md
+    - href: tutorial-editor.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg

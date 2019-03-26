@@ -30,9 +30,9 @@ You can use the following shortcuts to limit your search to specific categories.
 |Category|Shortcut|Shortcut Description|
 |--------------|--------------| - |
 |Most recently used|@mru<br /><br /> For example, `@mru font`|Displays up to five of the items that you **Most Recently Used**.|
-|Menus|@menu<br /><br /> For example, `@menu font`|Limits the search to menu items.|
+|Menus|@menu<br /><br /> For example, `@menu project`|Limits the search to menu items.|
 |Options|@opt<br /><br /> For example, `@opt font`|Limits the search to settings in the **Options** dialog box.|
-|Documents|@doc<br /><br /> For example, `@doc font`|Limits the search to file names and paths of open documents for the search criteria, but doesn't search the text inside the files themselves.|
+|Documents|@doc<br /><br /> For example, `@doc program.cs`|Limits the search to file names and paths of open documents for the search criteria, but doesn't search the text inside the files themselves.|
 
 > [!NOTE]
 > You can change the shortcut keys on the **General**, **Keyboard** page in the **Options** dialog box.

@@ -3,8 +3,9 @@ title: "Tutorial: Get started with C# and ASP.NET Core"
 titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 10/29/2018
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
@@ -24,11 +25,21 @@ In this tutorial for C# development with ASP.NET Core using Visual Studio, you'l
 
 ### Install Visual Studio
 
+::: moniker range="vs-2017"
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+
+::: moniker-end
 
 ### Update Visual Studio
 
-If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../../install/update-visual-studio.md) page.
+If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
 
 ### Choose your theme (optional)
 
@@ -37,6 +48,8 @@ This tutorial includes screenshots that use the dark theme. If you aren't using 
 ## Create a project
 
 First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a fully functional website, before you've even added anything!
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017.
 
@@ -79,7 +92,44 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    ![New ASP.NET Core Web Application dialog box](media/new-project-csharp-aspnet-razor-web-app.png)
 
    > [!NOTE]
-   > If you don't see **ASP.NET Core 2.0** or later from the top drop-down menu, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../../install/update-visual-studio.md) page.
+   > If you don't see **ASP.NET Core 2.1** or later from the top drop-down menu, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
+
+   ![Choose the C# template for the ASP.NET Core Web Application](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
+   >
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](../../get-started/media/aspnet-core-web-dev-workload.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
+
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** or later appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+
+   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+
+   Visual Studio opens your new project.
+
+::: moniker-end
 
 ### About your solution
 
@@ -125,10 +175,15 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
      > [!NOTE]
      > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+     >
+     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, choose **Yes**, and then choose **Yes** if you receive a follow-up security warning message. 
 
 1. Visual Studio launches a browser window. You should then see **Home**, **About**, and **Contact** pages in the menu bar. (If you do not, choose the "hamburger" menu item to view them.)
 
     ![Select the "hamburger" menu item from the menu bar in your web app](media/csharp-aspnet-razor-browser-page.png)
+
+     > [!TIP]
+     > You cannot edit code in the Visual Studio code editor when your project is open in a browser window. 
 
 1. Choose **About** from the menu bar.
 

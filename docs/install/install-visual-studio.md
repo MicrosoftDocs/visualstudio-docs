@@ -18,8 +18,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Install Visual Studio 2017
+# Install Visual Studio
 
 Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
@@ -124,9 +126,9 @@ For more information, see the [Change installation locations in Visual Studio](c
 
 ## See also
 
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Modify Visual Studio 2017](modify-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Modify Visual Studio](modify-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)
+* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
+* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Install Visual Studio for Mac](/visualstudio/mac/installation)

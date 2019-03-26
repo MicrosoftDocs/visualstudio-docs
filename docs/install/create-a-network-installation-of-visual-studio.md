@@ -13,8 +13,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Create a network installation of Visual Studio 2017
+# Create a network installation of Visual Studio
 
 Typically, an enterprise administrator creates a network install point to deploy to client workstations. We've designed Visual Studio 2017 to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.) 
 
@@ -42,7 +44,7 @@ Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/r
 You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
    > [!IMPORTANT]
-   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customizing the network layout](#customizing-the-network-layout) section for details on how to create a layout with only the components you want to install.
+   > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download.  See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
    >
    > [!TIP]
    > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
@@ -121,7 +123,7 @@ Here are a few examples of how to create a custom partial layout.
     vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
     ```
 
-### New in 15.3
+### New in version 15.3
 
 When you run a layout command, the options that you specify are saved (such as the workloads and languages). Subsequent layout commands will include all of the previous options.  Here is an example of a layout with one workload for English only:
 
@@ -203,7 +205,7 @@ We have other support options available, too. For a list, see our [Talk to us](.
 
 ## See also
 
-* [Update a network-based installation of Visual Studio 2017](update-a-network-installation-of-visual-studio.md)
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

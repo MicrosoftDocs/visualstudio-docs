@@ -19,17 +19,17 @@ ms.workload:
 # Debug SharePoint solutions
   You can debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. When you start debugging, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
--   [Enabling Debugging](#EnableDebug)
+-   [Enable debugging](#enable-debugging)
 
--   [F5 Debugging and Deployment Process](#Deployment)
+-   [F5 debug and deployment process](#f5-debug-and-deployment-process)
 
--   [SharePoint Project Features](#Features)
+-   [SharePoint project features](#sharepoint-project-features)
 
--   [Debugging Workflows](#Workflow)
+-   [Debug workflows](#debug-workflows)
 
--   [Debugging Feature Event Receivers](#FeatureEvents)
+-   [Debug feature event receivers](#debug-feature-event-receivers)
 
--   [Enabling Enhanced Debugging Information](#EnhancedDebug)
+-   [Enable ehanced debugging information](#enable-enhanced-debugging-information)
 
 ## Enable debugging
  When you first debug a SharePoint solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](http://go.microsoft.com/fwlink/?LinkID=149266).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:
@@ -131,7 +131,7 @@ ms.workload:
 
  To disable the automatic activation of the feature in SharePoint and allow proper debugging of Feature Event Receivers, set the value of the project's **Active Deployment Configuration** property to **No Activation** before debugging. Then, after you start to debug your SharePoint application in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], manually activate the feature in SharePoint. To activate the feature, open the **Site Actions** menu in SharePoint, choose **Site Settings**, choose the **Manage Site Features** link, and then choose the **Activate** button next to the feature, to continue debugging as normal.
 
-## Enable enhanced debug information
+## Enable enhanced debugging information
  Due to the sometimes complex interactions between the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] process (devenv.exe), the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint host process (*vssphost4.exe*), SharePoint, and the WCF layer, diagnosing errors that occur while building, deploying, and so forth can be a challenge. To help you resolve such errors, you can enable enhanced debugging information. To do this, go to the following registry key in the Windows registry:
 
  **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\11.0\SharePointTools**

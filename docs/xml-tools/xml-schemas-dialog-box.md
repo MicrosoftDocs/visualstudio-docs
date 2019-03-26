@@ -1,7 +1,9 @@
 ---
-title: "XML Schemas Dialog Box"
+title: XML schemas
 ms.date: 11/04/2016
 ms.topic: reference
+f1_keywords:
+  - vs.xmleditor.schemasdialog
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
 author: gewarren
 ms.author: gewarren
@@ -16,15 +18,16 @@ The **XML Schemas** dialog box is used to select which XML schema definition lan
 You can access the **XML Schemas** dialog box by either clicking the **Schemas** button on the document properties window, or by selecting **Schemas** from the **XML** menu.
 
 ## UIElement List
- **Use**
 
- Select how the XML Schema is to be used.
+**Use**
 
--   **Automatic**. This schema is not in use by the current document but is available for automatic association. If the XML document declares a namespace that matches the `targetNamespace` of this schema, the schema will be automatically associated and is included in the schema set.
+Select how the XML Schema is to be used.
 
--   **Use this schema**. This schema is being used by the current document. Either the user has explicitly requested that this schema be used by clicking on this column, or the schema was automatically associated based on a matching `targetNamespace`.
+- **Automatic**. This schema is not in use by the current document but is available for automatic association. If the XML document declares a namespace that matches the `targetNamespace` of this schema, the schema will be automatically associated and is included in the schema set.
 
--   **Do not use selected schemas**. This schema is not used by the current document, even if the schema has a matching `targetNamespace`. This setting can be useful for resolving conflicts when there is more than one version of the same schema in the schema cache or solution.
+- **Use this schema**. This schema is being used by the current document. Either the user has explicitly requested that this schema be used by clicking on this column, or the schema was automatically associated based on a matching `targetNamespace`.
+
+- **Do not use selected schemas**. This schema is not used by the current document, even if the schema has a matching `targetNamespace`. This setting can be useful for resolving conflicts when there is more than one version of the same schema in the schema cache or solution.
 
 **Target Namespace**
 
@@ -44,6 +47,5 @@ Removes the currently selected schema from the schema set. This removes the sche
 
 ## See also
 
-- [XML Editor components](../xml-tools/xml-editor-components.md)
 - [How to: Select the XML schemas to use](../xml-tools/how-to-select-the-xml-schemas-to-use.md)
 - [Schema cache](../xml-tools/schema-cache.md)

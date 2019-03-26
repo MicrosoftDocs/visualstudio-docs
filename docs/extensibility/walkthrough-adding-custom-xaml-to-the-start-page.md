@@ -79,7 +79,7 @@ To apply the custom start page, in **Tools** > **Options** > **Environment**, se
 
 ## Next steps
 
-The Visual Studio start page now contains a tab that displays a Web browser tab and a MyButton tab. You can create custom start pages that have other functionality by using the *code-behind* model to add a custom .dll, as shown in [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md). You can share custom start pages with other users by publishing the resulting .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or to another Web site or network share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).
+The Visual Studio start page now contains a tab that displays a Web browser tab and a MyButton tab. You can create custom start pages that have other functionality by using the *code-behind* model to add a custom .dll, as shown in [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md). You can share custom start pages with other users by publishing the resulting .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or to another Web site or network share. For more information, see [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md).
 
 ## See also
 

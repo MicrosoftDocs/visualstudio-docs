@@ -288,7 +288,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 - Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
-  Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
+  Go [here](https://developer.microsoft.com/windows/downloads/sdk-archive) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

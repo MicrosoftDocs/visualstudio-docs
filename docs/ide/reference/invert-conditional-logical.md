@@ -3,7 +3,7 @@ title: Invert conditional expressions and logical operations
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kendrahavens
+ms.author: kehavens
 manager: jillfra
 dev_langs:
   - CSharp

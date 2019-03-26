@@ -31,12 +31,27 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 ## To install VSIX analyzers
 
+::: moniker range="vs-2017"
+
 1. In Visual Studio, select **Tools** > **Extensions and Updates**.
 
    The **Extensions and Updates** dialog box opens.
 
    > [!NOTE]
    > Alternatively, you can find and download the analyzer extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, select **Extensions** > **Manage Extensions**.
+
+   The **Manage Extensions** dialog box opens.
+
+   > [!NOTE]
+   > Alternatively, you can find and download the analyzer extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com).
+
+::: moniker-end
 
 2. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
 
@@ -58,7 +73,17 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 8. Open Visual Studio again.
 
+::: moniker range="vs-2017"
+
 If you want to check whether the extension is installed, select **Tools** > **Extensions and Updates**. In the **Extensions and Updates** dialog box, select the **Installed** category on the left, and then search for the extension by name.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you want to check whether the extension is installed, select **Extensions** > **Manage Extensions**. In the **Manage Extensions** dialog box, select the **Installed** category on the left, and then search for the extension by name.
+
+::: moniker-end
 
 ## Next steps
 

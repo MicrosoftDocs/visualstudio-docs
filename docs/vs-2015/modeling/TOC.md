@@ -81,6 +81,7 @@
 #### [Update a UML model from a background thread](update-a-uml-model-from-a-background-thread.md)
 #### [UML model element types](uml-model-element-types.md)
 #### [Run unit tests on UML extensions](run-unit-tests-on-uml-extensions.md)
+#### [Respond to changes in a UML model](../misc/how-to-respond-to-changes-in-a-uml-model.md)
 ### [API Reference for UML Modeling Extensibility](api-reference-for-uml-modeling-extensibility.md)
 ## [Extend layer diagrams](extend-layer-diagrams.md)
 ### [Add commands and gestures to layer diagrams](add-commands-and-gestures-to-layer-diagrams.md)

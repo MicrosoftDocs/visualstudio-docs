@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 ms.custom: ['remotedebugging"=', 'seodec18']
-ms.date: "08/14/2017"
+ms.date: "08/14/2018"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -63,7 +63,15 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 5. Make sure the **Working directory** text box is empty.
 
-6. Choose **Use remote machine**, and type **MJO-DL:4022** in the text box. (4022 is the port number shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
+6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. (The port number is shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
+
+    In this example, use:
+    ::: moniker range=">=vs-2019"
+    **MJO-DL:4024** on Visual Studio 2019
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **MJO-DL:4022** on Visual Studio 2017
+    ::: moniker-end
 
 7. Make sure that **Enable native code debugging** is not selected.
 

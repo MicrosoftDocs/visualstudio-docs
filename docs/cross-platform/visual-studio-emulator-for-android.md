@@ -19,7 +19,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 > In most scenarios, the Google Android emulator is recommended for use instead of the Visual Studio Emulator for Android:
 > - Visual Studio Emulator for Android is not supported after Visual Studio 2015.
 > - Emulator images later than Android version 6.0 are not available for Visual Studio Emulator for Android.
-> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration#hyper-v).
+> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration#accelerating-with-hyper-v).
 > - Visual Studio Tools for Apache Cordova works with the Google Android Emulator. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#google-android-emulator) (note that you no longer have to disable Hyper-V as explained in this article).
 >
 > For more information about configuring and using the Google Android Emulator, see

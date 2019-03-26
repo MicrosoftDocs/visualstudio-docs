@@ -64,7 +64,7 @@ In the new file, define a partial class for the shape or diagram class that shou
 
      For more information, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).
 
-Define `IsAcceptableDropItem(e)` to determine whether the dragged item is acceptable, and ProcessDragDropItem(e) to update your model when the item is dropped. These methods must first extract the item from the event arguments. For information about how to do that, see [How to get a reference to the dragged item](#extracting).
+Define `IsAcceptableDropItem(e)` to determine whether the dragged item is acceptable, and ProcessDragDropItem(e) to update your model when the item is dropped. These methods must first extract the item from the event arguments. For information about how to do that, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
 
 ## Define Gesture Handlers by using MEF
 
@@ -108,7 +108,7 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
      You can create more than one gesture handler component, such as when you have different types of dragged objects.
 
-3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#extracting).
+3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
 
 ## How to decode the dragged item
 
@@ -126,7 +126,7 @@ To discover the formats in which your drag source information is available, run 
 
          `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
-         You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#mbr).
+         You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#to-send-an-object-from-a-source-dsl).
 
 -   <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` - Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:
 
@@ -152,13 +152,13 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 ### To prepare a DSL project for Model Bus
 
-1.  Make the source DSL accessible by Visual Studio Model Bus:
+Make the source DSL accessible by Visual Studio Model Bus:
 
-    1.  Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
-    2.  Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
+2. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
 
-    3.  Click **Transform All Templates** and rebuild the solution.
+3. Click **Transform All Templates** and rebuild the solution.
 
 ### To send an object from a source DSL
 

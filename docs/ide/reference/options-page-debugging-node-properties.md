@@ -78,5 +78,5 @@ The following tables describe the pages (or properties collections) that are ass
 - [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
 - [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)
 - [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md)
-- [Edit and Continue, Debugging, Options Dialog Box](../../debugger/edit-and-continue.md?view=vs-2015)
+- [Edit and Continue debugging](../../debugger/edit-and-continue.md)
 - [Just-In-Time, Debugging, Options Dialog Box](../../debugger/just-in-time-debugging-options-dialog-box.md)

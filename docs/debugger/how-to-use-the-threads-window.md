@@ -28,15 +28,27 @@ Completing this tutorial takes only a few minutes, and familiarizes you with the
 
 Create the following multithreaded app project to use in this tutorial:
 
-1. In Visual Studio, select **File** > **New** > **Project**.
+1. Open Visual Studio and create a new project.
 
-1. In the **New Project** dialog box:
-   - For a C# app, select **Visual C#**  > **Console App (.NET Framework)**.
-   - For a C++ app, select **Visual C++** > **Windows Console Application**.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+    
+    - For C#, choose **Create new Console App (.NET Framework) project** for C#. In the dialog box that appears, choose **Create**.
+    - For C++, choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
 
-1. Name the app MyThreadWalkthroughApp, and then select **OK**.
+    Then, type a name like **MyThreadWalkthroughApp** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
 
-   The new project appears in **Solution Explorer**, and a source file called *Program.cs* or *MyThreadWalkthroughApp.cpp* opens in the source code window.
+    Then, type a name like **MyThreadWalkthroughApp** and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+    The new project appears in **Solution Explorer**, and a source file called *Program.cs* or *MyThreadWalkthroughApp.cpp* opens in the source code window.
 
 1. Replace the code in the source file with the C# or C++ example code from [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
 

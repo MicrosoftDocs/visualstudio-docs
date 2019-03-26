@@ -17,7 +17,7 @@ This topic describes how to add global nodes to the [XML Schema Designer workspa
 
 1.  Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2.  Right-click in the XML Editor and select **View Designer**.
+2.  Right-click in the XML editor and select **View Designer**.
 
      The Start View appears.
 

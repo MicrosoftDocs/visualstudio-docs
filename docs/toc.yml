@@ -1,5 +1,6 @@
 - name: Visual Studio documentation
   href: ide/index.yml
+  pdf_name: Visual Studio documentation
 - name: Overview
   expanded: true
   items:
@@ -28,6 +29,8 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
+  - name: Install Visual Studio versions side-by-side
+    href: install/install-visual-studio-versions-side-by-side.md
   - name: Select installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
@@ -128,6 +131,7 @@
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
+    displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
     href: ide/getting-started-with-cpp-in-visual-studio.md
@@ -167,8 +171,12 @@
     - name: Work with solutions and projects
       href: ide/solutions-and-projects-in-visual-studio.md
       items:
+      - name: Create a new project
+        href: ide/create-new-project.md
       - name: Create solutions and projects
         href: ide/creating-solutions-and-projects.md
+      - name: Open a project from a repo
+        href: get-started/tutorial-open-project-from-repo.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
       - name: Port, migrate, and upgrade projects in Visual Studio 2019
@@ -220,7 +228,7 @@
           href: ide/how-to-manually-create-web-templates.md
         - name: Troubleshoot templates
           href: ide/how-to-troubleshoot-templates.md
-      - name: Locate and organize project and item templates
+      - name: Locate project and item templates
         href: ide/how-to-locate-and-organize-project-and-item-templates.md
       - name: Customize project and item templates
         href: ide/customizing-project-and-item-templates.md
@@ -233,12 +241,15 @@
           href: ide/template-parameters.md
       - name: 64-bit support
         href: ide/visual-studio-ide-64-bit-support.md
-    - name: Develop without projects or solutions ("Open Folder")
+    - name: Develop without projects or solutions
+      displayName: Open folder
       href: ide/develop-code-in-visual-studio-without-projects-or-solutions.md
       items:
       - name: Customize build and debug tasks
+        displayName: makefile tasks.vs.json
         href: ide/customize-build-and-debug-tasks-in-visual-studio.md
     - name: Connect to a project or repo
+      displayName: Azure DevOps VSTS GitHub
       href: ide/connect-team-project.md
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
@@ -247,6 +258,7 @@
         href: ide/finding-and-replacing-text.md
         items:
         - name: Use regular expressions
+          dispayName: RegEx
           href: ide/using-regular-expressions-in-visual-studio.md
         - name: Find-Command box
           href: ide/find-command-box.md
@@ -260,6 +272,7 @@
         - name: Save and open files with encoding
           href: ide/how-to-save-and-open-files-with-encoding.md
       - name: Outlining
+        displayName: Expand and collapse
         href: ide/outlining.md
       - name: Generate and fix code
         href: ide/code-generation-in-visual-studio.md
@@ -293,6 +306,7 @@
               href: ide/troubleshooting-snippets.md
         - name: Quick Actions
           href: ide/quick-actions.md
+          displayName: light bulb screwdriver suggestions
           items:
           - name: Common Quick Actions
             href: ide/common-quick-actions.md
@@ -367,7 +381,7 @@
             href: ide/reference/convert-var-to-explicit-type.md
           - name: Use lambda expression or block body
             href: ide/reference/use-block-body-lambda.md
-          - name: Unused values and parameters
+          - name: Unused value assignments, variables, and parameters
             href: ide/reference/unused-values-parameters.md
           - name: Wrap, indent, and align parameters
             href: ide/reference/wrap-align-indent-parameters.md
@@ -386,6 +400,7 @@
           - name: All keyboard shortcuts
             href: ide/default-keyboard-shortcuts-in-visual-studio.md
         - name: Tips for .NET developers
+          displayName: ReSharper
           href: ide/visual-studio-2017-for-dotnet-developers.md
       - name: Use IntelliSense
         href: ide/using-intellisense.md
@@ -435,6 +450,7 @@
         href: ide/code-styles-and-quick-actions.md
         items:
         - name: Use EditorConfig files for code style
+          displayName: Configure code style analyzers
           href: ide/create-portable-custom-editor-options.md
           items:
           - name: .NET language and formatting conventions
@@ -527,11 +543,12 @@
       items:
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
-    - name: Office and Sharepoint development
+    - name: Office and SharePoint development
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: Develop international apps
+      displayName: Globalization localization world-ready
       href: ide/globalizing-and-localizing-applications.md
       items:
       - name: Bidirectional languages
@@ -608,8 +625,10 @@
           - name: "Step 9: Try Other Features"
             href: ide/step-9-try-other-features.md
   - name: Access data...
+    displayName: Data connections
     href: data-tools/accessing-data-in-visual-studio.md
   - name: Design user interfaces...
+    displayName: XAML designer
     href: designers/designing-user-interfaces.md
   - name: Compile and build
     href: ide/compiling-and-building-in-visual-studio.md
@@ -656,6 +675,7 @@
     - name: MSBuild...
       href: msbuild/msbuild.md
     - name: Azure Pipelines and TFS...
+      displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
       href: /azure/devops/pipelines/index?view=vsts
     - name: Specify build events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
@@ -668,14 +688,18 @@
   - name: Debug...
     href: debugger/index.md
   - name: Test...
+    displayName: Unit testing
     href: test/improve-code-quality.md
   - name: Measure performance...
+    displayName: Profiling
     href: profiling/index.md
   - name: Analyze code quality...
+    displayName: Code analysis FxCop Analyzers
     href: code-quality/index.md
   - name: Deploy...
     href: deployment/index.md
   - name: Extend Visual Studio...
+    displayName: Visual Studio SDK
     href: extensibility/visual-studio-sdk.md
   - name: Analyze and Model Architecture...
     href: modeling/analyze-and-model-your-architecture.md
@@ -697,6 +721,7 @@
     - name: File nesting in Solution Explorer
       href: ide/file-nesting-solution-explorer.md
     - name: Startup behavior
+      displayName: Start page window
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Find and use Visual Studio extensions
       href: ide/finding-and-using-visual-studio-extensions.md
@@ -727,6 +752,7 @@
 - name: Reference
   items:
   - name: General User Interface Elements
+    displayName: Windows and dialogs
     items:
     - name: Call Hierarchy
       href: ide/reference/call-hierarchy.md
@@ -762,7 +788,7 @@
           href: ide/reference/autorecover-environment-options-dialog-box.md
         - name: Environment - Documents
           href: ide/reference/documents-environment-options-dialog-box.md
-        - name: Environment - Extensions and Updates
+        - name: Environment - Extensions
           href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
         - name: Environment - Find and Replace
           href: ide/reference/find-and-replace-environment-options-dialog-box.md
@@ -962,6 +988,8 @@
       href: ide/reference/deploy-devenv-exe.md
     - name: -Diff (devenv.exe)
       href: ide/reference/diff.md
+    - name: -DoNotLoadProjects (devenv.exe)
+      href: ide/reference/donotloadprojects-devenv-exe.md
     - name: -Edit (devenv.exe)
       href: ide/reference/edit-devenv-exe.md
     - name: -LCID (devenv.exe)
@@ -1075,6 +1103,7 @@
     href: help-viewer/overview.md
     items:
     - name: Install and Manage Local Content
+      displayName: Offline books docs
       href: help-viewer/install-manage-local-content.md
     - name: Find topics in Help Viewer
       items:
@@ -1112,28 +1141,40 @@
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
     items:
-    - name: Current release notes
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: Preview release notes
-      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017
-    - name: Release notes history
-      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default&contextView=vs-2017
     - name: Release rhythm
-      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default&contextView=vs-2017
-    - name: Visual Studio roadmap
-      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default&contextView=vs-2017
-    - name: System requirements
-      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Platform compatibility
-      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Licensing
+      href: /visualstudio/productinfo/release-rhythm/
+    - name: Visual Studio 2017
+      items:
+      - name: Current release notes
+        href: /visualstudio/releasenotes/vs2017-relnotes/
+      - name: Preview release notes
+        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
+      - name: Release notes history
+        href: /visualstudio/releasenotes/vs2017-relnotes-history/
+      - name: Distributable code
+        href: /visualstudio/productinfo/2017-redistribution-vs/
+      - name: Platform compatibility
+        href: /visualstudio/productinfo/vs2017-compatibility-vs/
+      - name: System requirements
+        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
+    - name: Visual Studio 2019
+      items:
+      - name: Current release notes
+        href: /visualstudio/releases/2019/release-notes/
+      - name: Preview release notes
+        href: /visualstudio/releases/2019/release-notes-preview/
+      - name: Release notes history
+        href: /visualstudio/releases/2019/release-notes-history/
+      - name: Distributable code
+        href: /visualstudio/releases/2019/redistribution/
+      - name: Platform compatibility
+        href: /visualstudio/releases/2019/compatibility/
+      - name: System requirements
+        href: /visualstudio/releases/2019/system-requirements/
+    - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
-    - name: Distributable code
-      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
-    - name: Developer Community data privacy
-      href: ide/developer-community-privacy.md
+      href: /visualstudio/productinfo/vs-servicing-vs/
   - name: How to report a problem in Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio.md
     items:
@@ -1141,6 +1182,8 @@
       href: ide/report-a-problem.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
+  - name: Developer Community data privacy
+    href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:
@@ -1149,4 +1192,5 @@
   - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
   - name: Talk to us
+    displayName: Feedback
     href: ide/talk-to-us.md

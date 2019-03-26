@@ -16,7 +16,7 @@ When you write extension code for dependency diagrams, you can store values with
 
 ## Non-visible properties
 
-If you just want your code to attach values to any element in a dependency diagram, you don't need to define a MEF component. There is a dictionary named `Properties` in <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the dependency diagram. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+If you just want your code to attach values to any element in a dependency diagram, you don't need to define a MEF component. There is a dictionary named `Properties` in <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the dependency diagram.
 
 ## Editable properties
 

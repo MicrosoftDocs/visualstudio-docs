@@ -72,7 +72,7 @@ Creating a source-control plug-in involves three steps:
 
 4. Create a subkey named **InstalledSCCProviders** under the **SourceCodeControlProvider** subkey, and then place one entry under that subkey.
 
-    The name of this entry is the user-readable name of the provider (the same as the value specified for the SCCServerName entry), and the value is, once again, the subkey created in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\<display name>** = *SOFTWARE\\<company name\>\\<product name\>*.
+    The name of this entry is the user-readable name of the provider (the same as the value specified for the SCCServerName entry), and the value is, once again, the subkey created in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\<display name\>** = *SOFTWARE\\<company name\>\\<product name\>*.
 
     For example:
 

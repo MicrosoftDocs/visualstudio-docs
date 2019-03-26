@@ -240,7 +240,7 @@ The `ClCompile` target should not have any dependencies except the `SelectClComp
 
 ## MSBuild tasks to use in toolset targets
 
-To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](../msbuild/exec-task.md) that allows you to specify a command line to run. However, build tools usually have many options, inputs. and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for later incremental builds. For more information, see [incremental build and up-to-date check](#incremental-build-and-up-to-date-check).
+To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](../msbuild/exec-task.md) that allows you to specify a command line to run. However, build tools usually have many options, inputs. and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for later incremental builds. For more information, see [Incremental builds and up-to-date checks](#incremental-builds-and-up-to-date-checks).
 
 The Microsoft.Cpp.Common.Tasks.dll implements these tasks:
 
@@ -441,9 +441,9 @@ The Visual C++ project system is based on the [VS Project System](https://github
 
 ### Project property pages
 
-For general design information, see [Platform Extensibility - Part 1](https://blogs.msdn.microsoft.com/vsproject/2009/06/09/platform-extensibility-part-1/) and [Platform extensibility - Part 2](https://blogs.msdn.microsoft.com/vsproject/2009/06/18/platform-extensibility-part-2/).
+For general design information, see [Framework Multi-Targeting for VC++ Projects](https://devblogs.microsoft.com/visualstudio/framework-multi-targeting-for-vc-projects/).
 
-In simple terms, the property pages you see in the **Project Properties** dialog for a C++ project are defined by *rule* files. A rule file specifies a set of properties to show on a property page, and how and where they should be saved in the project file. Rule files are .xml files that use Xaml format. The types used to serialize them are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in projects, see [Property Page XML rule files](/cpp/ide/property-page-xml-files).
+In simple terms, the property pages you see in the **Project Properties** dialog for a C++ project are defined by *rule* files. A rule file specifies a set of properties to show on a property page, and how and where they should be saved in the project file. Rule files are .xml files that use Xaml format. The types used to serialize them are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in projects, see [Property Page XML rule files](/cpp/build/reference/property-page-xml-files).
 
 The rule files must be added to the `PropertyPageSchema` item group:
 
@@ -662,8 +662,8 @@ For information on how to create VSIX files, see [Shipping Visual Studio Extensi
 
 ## Additional resources
 
-The Microsoft Build System ([MSBuild](../msbuild/msbuild.md)) provides the build engine and the extensible XML-based format for project files. You should be familiar with basic [MSBuild concepts](../msbuild/msbuild-concepts.md) and with how [MSBuild for Visual C++](/cpp/build/msbuild-visual-cpp-overview) works in order to extend the Visual C++ project system.
+The Microsoft Build System ([MSBuild](../msbuild/msbuild.md)) provides the build engine and the extensible XML-based format for project files. You should be familiar with basic [MSBuild concepts](../msbuild/msbuild-concepts.md) and with how [MSBuild for Visual C++](/cpp/build/reference/msbuild-visual-cpp-overview) works in order to extend the Visual C++ project system.
 
 The Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) provides the extension APIs that are used by CPS and the Visual C++ project system. For an overview of how MEF is used by CPS, see [CPS and MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md#cps-and-mef) in the [VSProjectSystem overview of MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md).
 
-You can customize the existing build system to add build steps or new file types. For more information, see [MSBuild (Visual C++) Overview](/cpp/build/msbuild-visual-cpp-overview) and [Working with project properties](/cpp/ide/working-with-project-properties).
+You can customize the existing build system to add build steps or new file types. For more information, see [MSBuild (Visual C++) Overview](/cpp/build/reference/msbuild-visual-cpp-overview) and [Working with project properties](/cpp/build/working-with-project-properties).

@@ -81,4 +81,4 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 ## See Also
 
-- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+- [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

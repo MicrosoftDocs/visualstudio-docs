@@ -5,13 +5,15 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 02/21/2019
 ms.topic: conceptual
-ms.prod: visual-studio-mac-dev16
+ms.prod: visual-studio-mac
 ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
 ---
 # How to: Set multiple startup projects
+
 Visual Studio for Mac allows you to specify how more than one project is started when you debug, or run, your solution.
 
 ## To set multiple startup projects
+
 1.  In **Solution Pad**, select the solution (the top node).
 
 2. Choose the solution node's context (right-click) menu and then choose **Set Startup Projects...**.

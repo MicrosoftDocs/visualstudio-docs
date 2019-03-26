@@ -106,26 +106,40 @@ You can run unit tests in Visual Studio by using third-party test frameworks suc
 
 Following are the steps to enable third-party test frameworks:
 
+::: moniker range="vs-2017"
+
 1. Choose **Tools** > **Extensions and Updates** from the menu bar.
 
-1. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
+2. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
 
    ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
 
-1. Select the framework or adapter you want to install, and then choose **Download**.
+::: moniker-end
 
-1. Create a class library project and add it to your solution.
+::: moniker range=">=vs-2019"
+
+1. Choose **Extensions** > **Manage Extensions** from the menu bar.
+
+2. In the **Manage Extensions** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
+
+   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
+
+::: moniker-end
+
+3. Select the framework or adapter you want to install, and then choose **Download**.
+
+4. Create a class library project and add it to your solution.
 
    ![Name the class library project and add it](media/create3rdpartyunittest3.png)
 
-1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
+5. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
 
    ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png)
 
    [NuGet](https://www.nuget.org/) is an extension of Visual Studio
    that you can use to add and update libraries and tools for your projects.
 
-1. In the **NuGet Package Manager** window, search for and select the plug-in, and then choose **Install**.
+6. In the **NuGet Package Manager** window, search for and select the plug-in, and then choose **Install**.
 
    ![Install your 3rd-party framework](media/create3rdpartyunittest4.png)
 
@@ -133,15 +147,15 @@ Following are the steps to enable third-party test frameworks:
 
    ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png)
 
-1. From the class library project's **References** node, select **Add Reference**.
+7. From the class library project's **References** node, select **Add Reference**.
 
    ![Add a reference to the project](media/createunittest6.png)
 
-1. In the **Reference Manager** dialog box, select the project that contains the code you'll test.
+8. In the **Reference Manager** dialog box, select the project that contains the code you'll test.
 
    ![Select the code project for you to test](media/createunittest7.png)
 
-1. Code your unit test.
+9. Code your unit test.
 
    ![Add code to your unit test code file](media/create3rdpartyunittest7.png)
 

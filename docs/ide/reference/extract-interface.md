@@ -23,7 +23,7 @@ This refactoring applies to:
 
 **What:** Lets you create an interface using existing members from a class, struct, or interface.
 
-**When:** You have members in a class, struct, or interface that could be inherited by other classes, structs or interfaces.
+**When:** You have members in a class, struct, or interface that could be inherited by other classes, structs, or interfaces.
 
 **Why:** Interfaces are great constructs for object-oriented designs. Imagine having classes for various animals (Dog, Cat, Bird) which might all have common methods, such as Eat, Drink, Sleep. Using an interface like IAnimal would allow Dog, Cat, and Bird to have a common "signature" for these methods.
 
@@ -67,11 +67,15 @@ This refactoring applies to:
    - C#:
 
       ![Resulting Class - C#](media/extractinterface-class-cs.png)
+      
+      
       ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
       ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+      
+      
       ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## See also

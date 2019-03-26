@@ -42,4 +42,4 @@ The following issues are known limitations of Emulator Express:
 - Any limitations that apply to the Azure Compute Emulator also apply to Emulator Express. For example, you can't have more than 50 role instances per deployment. For more information about the Azure Compute Emulator, see [Run an Azure Application in the Compute Emulator](http://go.microsoft.com/fwlink/p/?LinkId=623050).
 
 ## Next steps
-[Debugging Azure cloud services](https://msdn.microsoft.com/library/azure/ee405479.aspx)
+[Debugging Azure cloud services](vs-azure-tools-debugging-cloud-services-overview.md)

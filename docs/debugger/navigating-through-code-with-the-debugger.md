@@ -127,7 +127,7 @@ While paused in the debugger, you can hover over a statement in source code or t
 ![Run to Click](../debugger/media/dbg-run-to-click.png "Run to Click")
 
 > [!NOTE]
-> **Run to Click** is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> **Run to Click** is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 ### Manually break into code
 

@@ -19,17 +19,20 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio and create a new project.
 
-2. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Core) project**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**. Then, type a name like **MyDbgApp** and click **OK**.
+    ::: moniker-end
 
-     If you don't see the **Console App (.NET Core)** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET desktop development** and **.NET Core** workload, then choose **Modify**.
-
-3. Type a name like **MyDbgApp** and click **OK**.
+     If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** and **.NET Core** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
-4. In *Program.cs* or *Module1.vb*, replace the following code
+1. In *Program.cs* or *Module1.vb*, replace the following code
 
     ```csharp
     class Program
@@ -136,7 +139,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
 While paused at the breakpoint, hover over the statement `c1.AddLast(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
 

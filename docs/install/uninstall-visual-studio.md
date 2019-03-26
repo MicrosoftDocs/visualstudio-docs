@@ -14,8 +14,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Uninstall Visual Studio 2017
+# Uninstall Visual Studio
 
 This page walks you through uninstalling Visual Studio, our integrated suite of productivity tools for developers.
 
@@ -33,7 +35,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 2. Click to start the installer, click the ![Details icon](media/vs2017uninstall-UninstallIcon.png "Select the Options icon") icon, and then click **Uninstall**.
 
-     ![Modifying Visual Studio 2017; Modify, Launch, Repair, or Uninstall](media/vs2017-uninstall.PNG "Repair or Uninstall Visual Studio 2017")
+     ![Modifying Visual Studio; Modify, Launch, Repair, or Uninstall](media/vs2017-uninstall.PNG "Repair or Uninstall Visual Studio 2017")
 
 3. Click **OK** to confirm your choice.
 
@@ -53,6 +55,6 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 
 ## See also
 
-* [Modify Visual Studio 2017](modify-visual-studio.md)
+* [Modify Visual Studio](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall)

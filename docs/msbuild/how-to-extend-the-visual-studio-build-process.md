@@ -54,7 +54,7 @@ The following table shows all of the targets in *Microsoft.Common.targets* that 
 |`BeforeRebuild`, `AfterRebuild`|Tasks that are inserted in one of these targets run before or after the core rebuild functionality is invoked. The order of target execution in *Microsoft.Common.targets* is: `BeforeRebuild`, `Clean`, `Build`, and then `AfterRebuild`.|
 |`BeforeClean`, `AfterClean`|Tasks that are inserted in one of these targets run before or after the core clean functionality is invoked.|
 |`BeforePublish`, `AfterPublish`|Tasks that are inserted in one of these targets run before or after the core publish functionality is invoked.|
-|`BeforeResolveReference`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
+|`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
 
 ## Override DependsOn properties

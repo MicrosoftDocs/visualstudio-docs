@@ -189,7 +189,7 @@ ms.workload:
 
 - The project signing manager.
 
-  For more information about these components, see [Understanding the Wizard Components](#wizardcomponents).
+  For more information about these components, see [Understand the wizard components](#understand-the-wizard-components).
 
 #### To define the SharePoint command IDs
 

@@ -39,7 +39,7 @@
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment
     - name: Publish to Kubernetes with Visual Studio Kubernetes tools
-      href: tutorial-kubernetes-tools.md
+      href: ../containers/tutorial-kubernetes-tools.md?toc=/visualstudio/deployment/toc.json
   - name: C++
     items:
     - name: Deploy a C/C++ app

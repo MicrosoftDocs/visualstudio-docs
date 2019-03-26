@@ -49,7 +49,7 @@ If a computer that has the test controller or the test agent software installed 
 
      `net stop vsttcontroller`
 
-3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 
@@ -95,7 +95,7 @@ If a computer that has the test controller or the test agent software installed 
 
      **net stop vsttagent**
 
-3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 
@@ -127,5 +127,4 @@ If a computer that has the test controller or the test agent software installed 
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Specify timeout periods for test controllers and test agents](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)

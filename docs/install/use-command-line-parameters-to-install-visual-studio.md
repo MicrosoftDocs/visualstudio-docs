@@ -15,10 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Use command-line parameters to install Visual Studio 2017
+# Use command-line parameters to install Visual Studio
 
-When you install Visual Studio 2017 from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
+When you install Visual Studio from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
 
 - Start the install with certain options preselected.
 - Automate the installation process.
@@ -39,7 +41,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 (Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
 
 >[!TIP]
-> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
+> For more examples of how to use the command line to install Visual Studio, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -48,7 +50,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
-| `export` | **New in 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
+| `export` | **New in version 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
 ## Install options
 
@@ -109,7 +111,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 ## List of workload IDs and component IDs
 
-For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
+For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
 ## List of language locales
 
@@ -149,7 +151,7 @@ Each operation generates several log files in the `%TEMP%` directory that indica
 
 ## See also
 
-- [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
-- [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+- [Command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md)
+- [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 - [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
-- [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+- [Visual Studio workload and component IDs](workload-and-component-ids.md)

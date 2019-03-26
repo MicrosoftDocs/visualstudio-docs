@@ -46,7 +46,7 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
 
-By default, the value is the same as the target framework that you selected in the **New Project** dialog box.
+By default, the value is the same as the target framework that you selected when you created the project.
 
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.

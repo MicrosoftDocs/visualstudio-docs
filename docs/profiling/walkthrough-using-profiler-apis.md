@@ -24,7 +24,12 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
 
  The Visual Studio profiler allows you to limit the collection of data. This walkthrough offers an example of how to limit the collection of data by using the profiler APIs. The Visual Studio profiler provides an API for controlling data collection from within an application.
 
+ ::: moniker range=">=vs-2019"
+ For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio\2019\Team Tools\Performance Tools\PerfSDK* directory.  For 64-bit apps, the folder is *Microsoft Visual Studio\2019\Team Tools\Performance Tools\x64\PerfSDK*
+ ::: moniker-end
+ ::: moniker range="vs-2017"
  For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* directory.  For 64-bit apps, the folder is *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK*
+ ::: moniker-end
 
  For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory. For 64-bit apps, the folder is *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*. For more information, see <xref:Microsoft.VisualStudio.Profiler>.
 

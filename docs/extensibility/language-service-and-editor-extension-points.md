@@ -254,7 +254,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 
   The following example shows export attributes on a tagger provider.
 
-<CodeContentPlaceHolder>8</CodeContentPlaceHolder>
+\<CodeContentPlaceHolder>8</CodeContentPlaceHolder>
  The following kinds of tag are built-in:
 
 - <xref:Microsoft.VisualStudio.Text.Tagging.ClassificationTag>: associated with an <xref:Microsoft.VisualStudio.Text.Classification.IClassificationType>.

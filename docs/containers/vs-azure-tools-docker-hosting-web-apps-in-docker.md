@@ -1,18 +1,16 @@
 ---
 title: Deploy an ASP.NET Docker container to Azure Container Registry (ACR) | Microsoft Docs
 description: Learn how to use Visual Studio Tools for Docker to deploy an ASP.NET Core web app to a container registry
+ms.prod: ""
 services: azure-container-service
-documentationcenter: .net
-author: mlearned
+author: ghogen
 manager: jillfra
 ms.assetid: e5e81c5e-dd18-4d5a-a24d-a932036e78b9
-ms.service: azure-container-service
 ms.devlang: dotnet
 ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: NA
-ms.date: 05/21/2018
-ms.author: mlearned
+ms.technology: vs-azure
+ms.date: 03/14/2019
+ms.author: ghogen
 ---
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
@@ -27,15 +25,25 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 To complete this tutorial:
 
-* Install the latest version of [Visual Studio 2017](https://azure.microsoft.com/downloads/) with the "ASP.NET and web development" workload
+::: moniker range="vs-2017"
+* Install the latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)with the "ASP.NET and web development" workload
+::: moniker-end
+::: moniker range=">=vs-2019"
+* Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) with the "ASP.NET and web development" workload
+::: moniker-end
 * Install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
 
-## 1. Create an ASP.NET Core web app
+## Create an ASP.NET Core web app
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
+::: moniker range="vs-2017"
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
+::: moniker-end
+::: moniker range=">=vs-2019"
+[!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
+::: moniker-end
 
-## 2. Publish your container to Azure Container Registry
+## Publish your container to Azure Container Registry
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 2. On the publish target dialog, select the **Container Registry** tab.
 3. Choose **New Azure Container Registry** and click **Publish**.

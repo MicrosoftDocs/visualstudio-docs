@@ -97,10 +97,10 @@ ms.workload:
 
      For example, assume that your file contains the following line of code that handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> event in a project that targets the .NET Framework 3.5.
 
-    <CodeContentPlaceHolder>8</CodeContentPlaceHolder>
+    \<CodeContentPlaceHolder>8</CodeContentPlaceHolder>
      In a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must use the following code instead.
 
-    <CodeContentPlaceHolder>9</CodeContentPlaceHolder>
+    \<CodeContentPlaceHolder>9</CodeContentPlaceHolder>
      For a full list of the Ribbon delegates, see [Handle Ribbon events](#ribbonevents).
 
 5.  In Visual Basic projects, locate the `ThisRibbonCollection` class at the end of the file. Modify the declaration of this class so that it no longer inherits from `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`.
@@ -116,8 +116,8 @@ ms.workload:
 
   The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
-<CodeContentPlaceHolder>10</CodeContentPlaceHolder>
-<CodeContentPlaceHolder>11</CodeContentPlaceHolder>
+\<CodeContentPlaceHolder>10</CodeContentPlaceHolder>
+\<CodeContentPlaceHolder>11</CodeContentPlaceHolder>
  The following table lists the controls you can create programmatically and the method to use to create the controls in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
 |Control|RibbonFactory method to use in [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later projects|

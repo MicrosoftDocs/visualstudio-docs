@@ -6,7 +6,7 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "Office development in Visual Studio, what's new"
+  - "Office development in Visual Studio 2010, what's new"
   - "what's new [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart

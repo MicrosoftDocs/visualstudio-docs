@@ -11,7 +11,7 @@ ms.workload:
 ---
 # XML Schema Explorer
 
-The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
+The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
 
  The **XML Schema Explorer** enables you to do the following:
 
@@ -25,7 +25,7 @@ The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the X
 
 -   Sort the tree by document order, type, or name. For more information, see [Sorting, filtering, and grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md).
 
--   Open the XML Editor and jump to code locations in the XSD file. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).
+-   Open the XML editor and jump to code locations in the XSD file. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
 
 -   Generate sample XML for global elements.
 

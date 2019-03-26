@@ -8,6 +8,7 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: "vs-2017"
 ---
 # What's new in MSBuild 15
 

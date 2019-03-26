@@ -38,7 +38,7 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 
  Starting out, just use **Debug** and **x86** as your build configuration and platform, respectively. When you’re done coding and debugging, change the configuration to **Release** and target a specific platform. (Older versions of Visual Studio provided an **AnyCPU** default platform for .Net code projects.)
 
- Note: When you build your project, the configuration and platform values are also used to determine what project directory path is created to store the executable. Typically, this is **\<path-to-project>\\<project-name>\\<configuration\>\\<platform\>**. For example, a project with a configuration of `Debug` and a platform of `x86` would be found under `Projects\MyProjectNameHere\MyProjectNameHere\bin\Debug\x86`. This can be useful if you have your own tools or scripts that manage these built executables.
+ Note: When you build your project, the configuration and platform values are also used to determine what project directory path is created to store the executable. Typically, this is **\<path-to-project>\\<project-name\>\\<configuration\>\\<platform\>**. For example, a project with a configuration of `Debug` and a platform of `x86` would be found under `Projects\MyProjectNameHere\MyProjectNameHere\bin\Debug\x86`. This can be useful if you have your own tools or scripts that manage these built executables.
 
 ### Building your Code
  With your build configured, it’s time to actually build your project. The easiest way to do it to press F7, but you can also start the build by selecting **Build->Build Solution** from the main menu.

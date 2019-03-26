@@ -25,7 +25,7 @@ manager: jillfra
 # Profiling on HPC (High Performance Computing) Clusters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
+You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Big Compute: HPC & Batch](https://azure.microsoft.com/solutions/big-compute/) on the Microsoft Web site.  
   
 ## Prerequisites  
  To profile on a HPC compute node, you must do the following:  

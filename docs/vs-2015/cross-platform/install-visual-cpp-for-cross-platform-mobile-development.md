@@ -110,7 +110,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
    By default, the installer puts Apache Ant in C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps.  
   
-- [Microsoft Visual Studio Emulator for Android](http://go.microsoft.com/fwlink/p/?LinkId=536390)  
+- [Microsoft Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/)  
   
    You can install and update the Microsoft Visual Studio Emulator for Android from the Visual Studio Gallery.  
   

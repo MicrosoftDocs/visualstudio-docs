@@ -1,6 +1,6 @@
 ---
 title: "Getting Project Properties | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "3/16/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "project properties, displaying in tool window"
@@ -13,14 +13,16 @@ ms.workload:
   - "vssdk"
 ---
 # Get project properties
+
 This walkthrough shows how to displays project properties in a tool window.
 
 ## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+
+Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ### To create a VSIX Project and add a tool window
 
-1. Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `ProjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C#** > **Extensibility**.
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `ProjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Add a tool window by adding a Custom Tool Window item template named `ProjectPropertiesToolWindow`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item dialog**, go to **Visual C# Items** > **Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the dialog, change the file name to `ProjectPropertiesToolWindow.cs`. For more information about how to create a custom tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).
 
@@ -28,7 +30,7 @@ This walkthrough shows how to displays project properties in a tool window.
 
 ### To display project properties in a tool window
 
-1.  In the ProjectPropertiesToolWindowCommand.cs file add the following using statements.
+1. In the ProjectPropertiesToolWindowCommand.cs file, add the following using statements.
 
     ```csharp
     using EnvDTE;
@@ -36,9 +38,9 @@ This walkthrough shows how to displays project properties in a tool window.
 
     ```
 
-2.  In *ProjectPropertiesToolWindowControl.xaml*, remove the existing button and add a TreeView from the Toolbox. You can also remove the click event handler from the *ProjectPropertiesToolWindowControl.xaml.cs* file.
+2. In *ProjectPropertiesToolWindowControl.xaml*, remove the existing button and add a TreeView from the Toolbox. You can also remove the click event handler from the *ProjectPropertiesToolWindowControl.xaml.cs* file.
 
-3.  In *ProjectPropertiesToolWindowCommand.cs*, use the `ShowToolWindow()` method to open the project and read its properties, then add the properties to the TreeView. The code for ShowToolWindow should look like the following:
+3. In *ProjectPropertiesToolWindowCommand.cs*, use the `ShowToolWindow()` method to open the project and read its properties, then add the properties to the TreeView. The code for ShowToolWindow should look like the following:
 
     ```csharp
     private void ShowToolWindow(object sender, EventArgs e)
@@ -85,10 +87,10 @@ This walkthrough shows how to displays project properties in a tool window.
     }
     ```
 
-4.  Build the project and start debugging. The experimental instance should appear.
+4. Build the project and start debugging. The experimental instance should appear.
 
-5.  In the experimental instance open a project.
+5. In the experimental instance, open a project.
 
-6.  In the **View** > **Other Windows** click **ProjectPropertiesToolWindow**.
+6. In the **View** > **Other Windows** click **ProjectPropertiesToolWindow**.
 
-     You should see the tree control in the tool window together with the name of the first project and of all its project properties.
+  You should see the tree control in the tool window together with the name of the first project and of all its project properties.

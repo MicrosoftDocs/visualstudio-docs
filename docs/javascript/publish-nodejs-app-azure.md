@@ -31,15 +31,42 @@ In this tutorial, you learn how to:
 > * Create a Linux App Service on Azure
 > * Deploy to Linux
 
+## Prerequisites
+
+* You must have Visual Studio installed and the Node.js development workload. 
+
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+
+* You must have the Node.js runtime installed.
+
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+
 ## Create a Node.js project to run in Azure
 
-1. Create a new TypeScript Express app using the **File** > **New Project** dialog box.
+1. Open Visual Studio.
 
-1. Under the **TypeScript** node, select **Basic Node.js Express 4 Application**.
+1. Create a new TypeScript Express app.
+
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Create new Basic Azure Node.js Express 4 application** (TypeScript). In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **TypeScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
 
     ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
+    ::: moniker-end
+    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
-1. Click **OK** to create the project in Visual Studio.
+    Visual Studio creates the project and opens it in Solution Explorer (right pane).
 
 1. Press **F5** to build and run the app, and make sure that everything is running as expected.
 
@@ -79,7 +106,7 @@ to the following illustration.
 
 ## Create a Linux App Service in Azure
 
-1. Log in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
 2. Select **App Services** from the list of services on the left, and then click **Add**.
 
@@ -106,7 +133,7 @@ to the following illustration.
 
 8. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
 
-    ![GitHub permisions](../javascript/media/azure-choose-source.png)
+    ![GitHub permissions](../javascript/media/azure-choose-source.png)
 
 9. Select the repository and branch to publish, and then select **OK**.
 
@@ -145,7 +172,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 * When the container starts up, it runs through various heuristics to figure out
 how to start the Node.js process. Details of the implementation can be seen at
 [generateStartupCommand.js](https://github.com/Azure-App-Service/node/blob/master/8.9.4/startup/generateStartupCommand.js).
-* You can connect to the running container via SSH for investigations. This is easily done using the Azure Portal. Select the App Service, and scroll down
+* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
 from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).

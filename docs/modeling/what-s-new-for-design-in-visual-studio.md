@@ -1,18 +1,20 @@
 ---
-title: What's new for design
+title: What's new for design in Visual Studio 2017
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "what's new [VIsual Studio ALM], architecture and modeling"
-  - "architecture [Visual Studio Ultimate], modeling"
-  - "modeling software [Visual Studio ALM], What's New"
+  - "what's new [Visual Studio], architecture and modeling"
+  - "architecture [Visual Studio], modeling"
+  - "modeling software [Visual Studio], What's New"
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
-# What's new for design in Visual Studio
+# What's new for design in Visual Studio 2017
 
 ## Live dependency validation
 

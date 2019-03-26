@@ -34,9 +34,7 @@ The quickest method of creating a validator is to use the project template. This
 
 ### To define an extension by using a project template
 
-1. Create a project in a new solution, by using the **New Project** command on the **File** menu.
-
-2. In the **New Project** dialog box, under **Modeling Projects**, select **Layer Designer Validation Extension**.
+1. Create a new **Layer Designer Validation Extension** project.
 
     The template creates a project that contains a small example.
 
@@ -46,14 +44,24 @@ The quickest method of creating a validator is to use the project template. This
    > - Edit calls to `LogValidationError` to remove the optional arguments `errorSourceNodes` and `errorTargetNodes`.
    > - If you use custom properties, apply the update mentioned in [Add custom properties to dependency diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).
 
-3. Edit the code to define your validation. For more information, see [Programming Validation](#programming).
+2. Edit the code to define your validation. For more information, see [Programming Validation](#programming).
 
-4. To test the extension, see [Debugging Layer Validation](#debugging).
+3. To test the extension, see [Debugging Layer Validation](#debugging).
 
    > [!NOTE]
    > Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).
 
-5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
+::: moniker range="vs-2017"
+
+4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
+
+::: moniker-end
 
 ## Adding a Layer Validator to a Separate VSIX
 
@@ -61,15 +69,13 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
 ### To add layer validation to a separate VSIX
 
-1.  Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain the layer validation class.
+1. Create a new **Class Library** project. This project will contain the layer validation class.
 
-2.  Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. If you have to add a VSIX project, follow these steps:
+2. Find or create a **VSIX Project** in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**.
 
-    1.  In the **New Project** dialog box, choose **Visual C#**, **Extensibility**, **VSIX Project**.
+3. In **Solution Explorer**, on the right-click menu of the VSIX project, choose **Set as Startup Project**.
 
-    2.  In **Solution Explorer**, on the shortcut menu of the VSIX project, **Set as Startup Project**.
-
-3.  In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:
+4. In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:
 
     1.  Choose **New**.
 
@@ -81,7 +87,7 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
          **Project** = *your validator project*
 
-4.  You must also add it as a layer validation:
+5. You must also add it as a layer validation:
 
     1.  Choose **New**.
 
@@ -93,7 +99,7 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
          **Project** = *your validator project*
 
-5.  Return to the layer validation project, and add the following project references:
+6. Return to the layer validation project, and add the following project references:
 
     |**Reference**|**What this allows you to do**|
     |-|-|
@@ -104,16 +110,14 @@ If you want to create one VSIX that contains layer validators, commands, and oth
     |System.ComponentModel.Composition|Define the validation component using Managed Extensibility Framework (MEF)|
     |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define modeling extensions|
 
-6.  Copy the example code at the end of this topic into the class file in the validator library project to contain the code for your validation. For more information, see [Programming Validation](#programming).
+7. Copy the example code at the end of this topic into the class file in the validator library project to contain the code for your validation. For more information, see [Programming Validation](#programming).
 
-7.  To test the extension, see [Debugging Layer Validation](#debugging).
+8. To test the extension, see [Debugging Layer Validation](#debugging).
 
     > [!NOTE]
     > Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).
 
-8.  To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.
-
-     To uninstall it, use **Extensions and Updates** on the **Tools** menu.
+9. To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.
 
 ##  <a name="programming"></a> Programming Validation
 

@@ -34,7 +34,7 @@ You can customize and extend all of these features. Your extensions are integrat
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-[Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+[Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
 
 For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).
 

@@ -20,9 +20,19 @@ You can download and install third-party unit test frameworks by using the Visua
 
 ### Install from Visual Studio
 
-1. Choose **Tools** on the standard menu, and then choose **Extensions and Updates**.
+::: moniker range="vs-2017"
 
-2. Expand **Online** > **Visual Studio Marketplace** > **Tools**. Choose **Testing**.
+1. Choose **Tools** > **Extensions and Updates**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Choose **Extensions** > **Manage Extensions**.
+
+::: moniker-end
+
+2. Expand **Online** > **Visual Studio Marketplace** > **Tools**, and then choose **Testing**.
 
 3. Browse the list to find the framework.
 

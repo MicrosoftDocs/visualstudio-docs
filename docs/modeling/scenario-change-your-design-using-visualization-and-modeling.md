@@ -65,7 +65,7 @@ Both teams use modeling diagrams in Visual Studio to help them develop systems t
 
 For more information about Team Foundation Server, see:
 
-- [Planning and tracking work](#planning-and-tracking-work)
+- [Plan and track work](#plan-and-track-work)
 
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
 
@@ -208,7 +208,7 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 

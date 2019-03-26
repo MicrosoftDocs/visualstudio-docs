@@ -1,6 +1,6 @@
 ---
 title: "Creating a WPF Toolbox Control | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "3/16/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "toolbox control"
@@ -14,15 +14,16 @@ ms.workload:
   - "vssdk"
 ---
 # Create a WPF Toolbox Control
-The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users.
+
+The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This walkthrough shows how to use the template to create a **Toolbox** control that you can distribute to other users.
 
 Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
-## Create a WPF Toolbox Control
+## Create the Toolbox Control
 
 ### Create an extension with a WPF Toolbox Control
 
-1. Create a VSIX project named `MyToolboxControl`. You can find the VSIX project template in the **New Project** dialog under **Visual C#** > **Extensibility**.
+1. Create a VSIX project named `MyToolboxControl`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. When the project opens, add a **WPF Toolbox Control** item template named `MyToolboxControl`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **WPF Toolbox Control**. In the **Name** field at the bottom of the window, change the command file name to *MyToolboxControl.cs*.
 
@@ -47,6 +48,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
     ```
 
 ## Renaming the control
+
  By default, your control will appear in the **Toolbox** as **MyToolboxControl** in a group named **MyToolboxControl.MyToolboxControl**. You can change these names in the *MyToolboxControl.xaml.cs* file.
 
 1. Open *MyToolboxControl.xaml.cs* in the code view.
@@ -68,7 +70,8 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
     }
     ```
 
-## Build, Test, and Deployment
+## Build, test, and deployment
+
  When you debug the project, you should find the control installed in the **Toolbox** of the experimental instance of Visual Studio.
 
 ### To build and test the control
@@ -91,4 +94,4 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. Upload the *.vsix* file to a network or to a Web site.
 
-    If you upload the file to the [Visual Studio gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, other users can use **Tools** > **Extensions and Updates** in Visual Studio to find the control online and install it.
+    If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Tools** > **Extensions and Updates** in Visual Studio to find the control online and install it.

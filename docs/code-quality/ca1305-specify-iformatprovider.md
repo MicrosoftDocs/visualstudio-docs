@@ -79,4 +79,4 @@ string example3 = FormattableString.Invariant($"Hello {name}");
 
 ## See also
 
-- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
+- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#work-with-culture-specific-settings)

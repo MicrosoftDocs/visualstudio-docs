@@ -1,6 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
-ms.date: "02/07/2017"
+ms.date: "02/07/2018"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.expressions"

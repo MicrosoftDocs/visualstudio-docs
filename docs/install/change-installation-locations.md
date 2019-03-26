@@ -14,10 +14,22 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Select the installation locations in Visual Studio 2017
+# Select the installation locations in Visual Studio
 
-**New in 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
+::: moniker range="vs-2017"
+
+**New in version 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
+
+::: moniker-end
 
    > [!NOTE]
    > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
@@ -58,7 +70,7 @@ Ready to get started? Here's how.
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Modify Visual Studio 2017](update-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Modify Visual Studio](update-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)

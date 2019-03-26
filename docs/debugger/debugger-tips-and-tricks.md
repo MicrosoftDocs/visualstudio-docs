@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 ms.custom: "seodec18"
-ms.date: "06/15/2017"
+ms.date: "06/15/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"

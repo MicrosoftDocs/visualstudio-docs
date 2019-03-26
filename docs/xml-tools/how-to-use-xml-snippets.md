@@ -11,7 +11,7 @@ ms.workload:
 ---
 # How to: Use XML snippets
 
-You can invoke XML snippets by using the following two commands on the XML Editor shortcut menu. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Each XML snippet has designated snippet types. The snippet types determine whether the snippet is available with the **Insert Snippet** command, the **Surround With** command, or both.
+You can invoke XML snippets by using the following two commands on the XML editor shortcut menu. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Each XML snippet has designated snippet types. The snippet types determine whether the snippet is available with the **Insert Snippet** command, the **Surround With** command, or both.
 
 After the XML snippet has been added to the editor, any editable fields in the snippet are highlighted in yellow, and the cursor is positioned on the first editable field.
 
@@ -74,7 +74,7 @@ The following procedures describe how to access the **Surround With** command.
 
 ### To use Surround With from the context menu
 
-1. Select the text to surround in the XML Editor.
+1. Select the text to surround in the XML editor.
 
 2. Right-click and select **Surround With**.
 
@@ -84,7 +84,7 @@ The following procedures describe how to access the **Surround With** command.
 
 ### To use Surround With from the IntelliSense menu
 
-1. Select the text to surround in the XML Editor.
+1. Select the text to surround in the XML editor.
 
 2. From the **Edit** menu, point to **IntelliSense**, and then select **Surround With**.
 

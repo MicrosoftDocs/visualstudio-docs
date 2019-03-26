@@ -2,7 +2,7 @@
 title: "Using Visual Studio on an Azure Virtual Machine"
 titleSuffix: ""
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 02/19/2019
+ms.date: 03/25/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +15,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # <a id="top"> </a> Visual Studio images on Azure
 
@@ -28,9 +30,9 @@ Images for the most recent major versions, Visual Studio 2017 and Visual Studio 
 
 | Release version                                              | Editions                     |     Product version      |
 |:------------------------------------------------------------:|:----------------------------:|:------------------------:|
-|    Visual Studio 2019: Preview (Preview 3)                   |           Enterprise         | Version 16.0.0 Preview 3 |
-| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.7      |
-|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.20     |
+|       Visual Studio 2019: Preview (RC3)                      |           Enterprise         |    Version 16.0.0 RC3    |
+| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.9      |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.22     |
 |   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01   |
 |         Visual Studio 2015: RTW                              |             None             | (Expired for servicing)  |
 
@@ -95,7 +97,9 @@ The spectrum of development environments is huge, and there’s real cost associ
 
 A quick summary: Use the System Preparation tool (Sysprep) and shut down the running VM, and then capture *(Figure 1)* the VM as an image through the UI in the Azure portal. Azure saves the `.vhd` file that contains the image in the storage account of your choosing. The new image then shows up as an Image resource in your subscription’s list of resources.
 
-<img src="media/capture-vm.png" alt="Capture an image through the Azure portal’s UI" style="border:3px solid Silver; display: block; margin: auto;"><center>*(Figure 1) Capture an image through the Azure portal’s UI.*</center>
+![Capture an image through the Azure portal’s UI](media/capture-vm.png)
+
+*(Figure 1) Capture an image through the Azure portal’s UI.*
 
 For more information, see [Create a managed image of a generalized VM in Azure](/azure/virtual-machines/windows/capture-image-resource).
 

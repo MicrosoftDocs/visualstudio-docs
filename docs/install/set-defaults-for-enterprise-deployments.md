@@ -16,8 +16,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Set defaults for enterprise deployments of Visual Studio 2017
+# Set defaults for enterprise deployments of Visual Studio
 
 You can set registry policies that affect the deployment of Visual Studio. These policies are global for the new installer and affect:
 
@@ -56,6 +58,6 @@ You can set the following registry values:
 
 ## See also
 
- * [Install Visual Studio](install-visual-studio.md)
- * [Disable or move the package cache](disable-or-move-the-package-cache.md)
- * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+- [Install Visual Studio](install-visual-studio.md)
+- [Disable or move the package cache](disable-or-move-the-package-cache.md)
+- [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

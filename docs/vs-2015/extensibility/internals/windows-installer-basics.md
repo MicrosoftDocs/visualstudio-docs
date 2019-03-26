@@ -17,7 +17,7 @@ manager: jillfra
 
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.  
   
- For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](http://msdn.microsoft.com/library/aa372866.aspx).  
+ For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).  
   
 ## Authoring a VSPackage  
  Windows Installer uses installation packages, which contain information that Windows Installer needs to install, uninstall, or repair a product and to run the setup user interface (UI). Each installation package includes an .msi file, which contains an installation database, a summary information stream, and data streams for various parts of the installation. To use the installer, you must author an installation. Because the installer organizes installations around the concept of components and stores information about the installation in a relational database, the process of authoring an installation package broadly entails the following steps:  

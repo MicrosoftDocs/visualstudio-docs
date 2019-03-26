@@ -1,19 +1,23 @@
 ---
 title: Visual Studio build numbers and release dates
 titleSuffix: ""
-description: "A list of released versions and build numbers for Visual Studio 2017 and later, sorted by date."
+description: "A list of released versions and build numbers for Visual Studio, sorted by date."
 keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 02/27/2019
+ms.date: 03/26/2019
 ms.topic: reference
 helpviewer_keywords:
 ms.custom: "seodec18"
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Visual Studio build numbers and release dates
+
+::: moniker range="vs-2017"
 
 ## Visual Studio 2017
 
@@ -21,6 +25,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.10 | Release | March 25, 2019 | 15.9.28307.557 |
+| 15.9.9 | Release | March 12, 2019 | 15.9.28307.518 |
+| 15.0.21 | Release | March 12, 2019 | 15.0.26228.76 |
+| 15.9.8 | Release | March 5, 2019 | 15.9.28307.481 |
 | 15.9.7 | Release | February 12, 2019 | 15.9.28307.423 |
 | 15.0.21 | Release | February 12, 2019 | 15.0.26228.73 |
 | 15.9.6 | Release | January 24, 2019 | 15.9.28307.344 |
@@ -165,12 +173,27 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
+> [!NOTE]
+> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019) page.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ## Visual Studio 2019
 
 The following table lists the build numbers and release dates for Visual Studio 2019, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.0.0 | Release Candidate 3 (RC.3) | March 19, 2019 | 16.0.28714.193 |
+| 16.0.0 | Preview 4.3 | March 19, 2019 | 16.0.28714.193 |
+| 16.0.0 | Release Candidate 2 (RC.2) | March 12, 2019 | 16.0.28711.60 |
+| 16.0.0 | Preview 4.2 | March 12, 2019 | 16.0.28711.60 |
+| 16.0.0 | Release Candidate 1 Svc1 (RC.1 Svc1) | March 6, 2019 | 16.0.28705.295 |
+| 16.0.0 | Preview 4.1 Svc1 | March 6, 2019 | 16.0.28705.295 |
+| 16.0.0 | Release Candidate 1 (RC.1) | March 5, 2019 | 16.0.28701.123 |
+| 16.0.0 | Preview 4.1 | March 5, 2019 | 16.0.28701.123 |
 | 16.0.0 | Release Candidate (RC) | February 27, 2019 | 16.0.28625.133 |
 | 16.0.0 | Preview 4 | February 27, 2019 | 16.0.28625.133 |
 | 16.0.0 | Preview 3 | February 13, 2019 | 16.0.28608.199 |
@@ -180,11 +203,13 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
+::: moniker-end
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
-* [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

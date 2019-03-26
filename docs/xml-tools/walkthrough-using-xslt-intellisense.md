@@ -156,4 +156,4 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## See also
 
-- [XML Editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)
+- [XML editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)

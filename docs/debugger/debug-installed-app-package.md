@@ -1,6 +1,6 @@
 ---
 title: "Debug an installed UWP app package | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+ms.custom: ""
 ms.date: "11/07/2018"
 ms.topic: "conceptual"
 f1_keywords:

@@ -233,7 +233,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
      Again, don't forget the quotation marks. You should see a line in the output like this  
   
-     **Public key token is <token>**  
+     **Public key token is \<token>**  
   
      Make a note of this value.  
   

@@ -16,11 +16,21 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
+::: moniker range="vs-2017"
+
 ![The Visual Studio IDE](../media/visual-studio-ide.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+[![](media/vs-2019/ide-overview.png "The Visual Studio IDE")](media/vs-2019/ide-overview.png#lightbox)
+
+::: moniker-end
 
 This image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
+- [Solution Explorer](../../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
 
 - The [editor window](../../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
@@ -38,66 +48,160 @@ There are three editions of Visual Studio 2017: Community, Professional, and Ent
 
 Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
+- Squiggles and [Quick Actions](../../ide/quick-actions.md)
+
+   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
+
+   ::: moniker range="vs-2017"
+
+   ![Squiggles in Visual Studio](media/squiggles-error.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Squiggles in Visual Studio](media/vs-2019/squiggles-error.png)
+
+   ::: moniker-end
+
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
-   ![Refactoring in Visual Studio](media/refactoring-menu.png)
+   ::: moniker range="vs-2017"
+
+   ![Refactoring menu in Visual Studio](media/refactoring-menu.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Refactoring menu in Visual Studio](media/vs-2019/refactorings-menu.png)
+
+   ::: moniker-end
 
 - [IntelliSense](../../ide/using-intellisense.md)
 
    IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
 
+   ::: moniker range="vs-2017"
+
    ![Visual Studio Member List](media/intellisense-list-members.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Visual Studio Member List](media/vs-2019/intellisense-list-members.png)
+
+   ::: moniker-end
 
 - [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md)
 
    Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Quick Launch search box in Visual Studio](../media/quick-launch-nuget.png)
+   > [!TIP]
+   > Press **Ctrl**+**Q** as a shortcut to the **Quick Launch** search box.
 
-- Squiggles and [Quick Actions](../../ide/quick-actions.md)
+   ::: moniker range="vs-2017"
 
-   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
+   ![Quick Launch search box in Visual Studio 2017](../media/quick-launch-nuget.png)
 
-   ![Squiggles in Visual Studio](media/squiggles-error.png)
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Quick Launch search box in Visual Studio 2019](media/vs-2019/quick-launch.png)
+
+   ::: moniker-end
+
+- [Live Share](/visualstudio/liveshare/)
+
+   Collaboratively edit and debug with others in real time, regardless of what your app type or programming language. You can instantly and securely share your project and, as needed, debugging sessions, terminal instances, localhost web apps, voice calls, and more.
 
 - [Call Hierarchy](../../ide/reference/call-hierarchy.md)
 
    The **Call Hierarchy** window shows the methods that call a selected method. This can be useful information when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
+   ::: moniker range="vs-2017"
+
    ![Call Hierarchy window in Visual Studio](media/call-hierarchy.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Call Hierarchy window in Visual Studio](media/vs-2019/call-hierarchy.png)
+
+   ::: moniker-end
 
 - [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
    CodeLens helps you find references to your code, changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
 
+   ::: moniker range="vs-2017"
+
    ![CodeLens in Visual Studio](media/codelens.png)
 
-   > [!NOTE]
-   > CodeLens is not available in Visual Studio 2017 Community edition.
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![CodeLens in Visual Studio](media/vs-2019/codelens.png)
+
+   ::: moniker-end
 
 - [Go To Definition](../../ide/go-to-and-peek-definition.md)
 
    The Go To Definition feature takes you directly to the location where a function or type is defined.
 
-   ![Go to Definition in Visual Studio](media/go-to-definition-menu.png)
+   ::: moniker range="vs-2017"
+
+   ![Go to Definition in Visual Studio 2017](media/go-to-definition-menu.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Go to Definition in Visual Studio 2019](media/vs-2019/go-to-definition-menu.png)
+
+   ::: moniker-end
 
 - [Peek Definition](../../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
+   ::: moniker range="vs-2017"
+
    ![Peek Definition in Visual Studio](media/peek-definition.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Peek Definition in Visual Studio](media/vs-2019/peek-definition.png)
+
+   ::: moniker-end
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like changing the color theme, using [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
+In this section, you'll create a simple project to try out some of the things you can do with Visual Studio. You'll  change the color theme, use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debug an app to see the value of a variable during the program's execution.
 
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+::: moniker range="vs-2017"
+
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+
+::: moniker-end
 
 ![.NET Core cross-platform development workload in Visual Studio Installer](../media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
+When you open Visual Studio for the first time, you can optionally [sign in](../../ide/signing-in-to-visual-studio.md) using your Microsoft account or your work or school account.
 
 ## Customize Visual Studio
 
@@ -107,15 +211,41 @@ You can personalize the Visual Studio user interface, including change the defau
 
 To change to the **Dark** theme:
 
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+::: moniker range="vs-2017"
 
-2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+1. Open Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio. On the start window, choose **Continue without code**.
+
+   ![The start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
+
+   The IDE opens.
+
+::: moniker-end
+
+2. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
+3. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    ![Change color theme to dark in Visual Studio](media/change-color-theme.png)
 
    The color theme for the entire IDE changes to **Dark**.
 
+   ::: moniker range="vs-2017"
+
    ![Visual Studio in dark theme](../../ide/media/quickstart-personalize-dark-theme.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Visual Studio in dark theme](media/vs-2019/dark-theme.png)
+
+   ::: moniker-end
 
 ### Select environment settings
 
@@ -137,11 +267,15 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 
 Let's dive in and create a simple program.
 
-1. Open Visual Studio. On the menu bar, choose **File** > **New Project**.
+::: moniker range="vs-2017"
+
+1. On the Visual Studio menu bar, choose **File** > **New Project**.
 
    ![File > New Project on menu bar](media/file-new-project-menu.png)
 
-2. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual Basic**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
+   The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type.
+
+1. Choose the **.NET Core** category under **Visual Basic**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
 
    ![.NET Core app template](media/overview-npd.png)
 
@@ -160,15 +294,17 @@ Let's dive in and create a simple program.
 
    There are other menus and tool windows available, but let's move on for now.
 
-3. Now, start the app by pressing **Ctrl**+**F5**.
+1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+
+   ![Debug > Start without debugging menu](../media/overview-start-without-debugging.png)
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
    ![Console window](../media/overview-console-window.png)
 
-4. To close the console window, press any key on your keyboard.
+1. To close the console window, press any key on your keyboard.
 
-5. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
+1. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
 
    ```vb
    Console.WriteLine("What is your name?")
@@ -177,23 +313,90 @@ Let's dive in and create a simple program.
 
    This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
 
-6. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
+1. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
 
    ```vb
    Console.WriteLine("Hello " + name + "!")
    ```
 
-7. Run the app again by pressing **Ctrl**+**F5**.
+1. Run the app again by pressing **Ctrl**+**F5**.
 
    Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
 
-8. Enter your name in the console window and press **Enter**.
+1. Enter your name in the console window and press **Enter**.
 
-   The program greets you by name.
+   ![Console window input](../media/overview-console-input.png)
 
-   ![Console window input](media/overview-console-input.png)
+1. Press any key to close the console window and stop the running program.
 
-9. Press any key to close the console window and stop the running program.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. On the Visual Studio menu bar, choose **File** > **New Project**.
+
+   ![File > New Project on menu bar](media/vs-2019/file-new-project.png)
+
+   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
+
+1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **Language** drop-down list.
+
+1. Select the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
+
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
+
+   ![Configure new project in Visual Studio](media/vs-2019/configure-new-project.png)
+
+   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
+
+   Shortly, you should see something like the following:
+
+   ![Visual Studio IDE](media/overview-ide-console-app.png)
+
+   The Visual Basic code for the app appears in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
+
+   ![Visual Studio IDE with red boxes](media/overview-ide-console-app-red-boxes.png)
+
+   There are other menus and tool windows available, but let's move on for now.
+
+1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+
+   ![Debug > Start without debugging menu](media/vs-2019/start-without-debugging.png)
+
+   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
+
+   ![Console window](../media/vs-2019/overview-console-window.png)
+
+1. To close the console window, press any key on your keyboard.
+
+1. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
+
+   ```vb
+   Console.WriteLine("What is your name?")
+   Dim name = Console.ReadLine()
+   ```
+
+   This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
+
+1. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
+
+   ```vb
+   Console.WriteLine("Hello " + name + "!")
+   ```
+
+1. Run the app again by pressing **Ctrl**+**F5**.
+
+   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
+
+1. Enter your name in the console window and press **Enter**.
+
+   ![Console window](../media/vs-2019/overview-console-input.png)
+
+1. Press any key to close the console window and stop the running program.
+
+::: moniker-end
 
 ## Use refactoring and IntelliSense
 
@@ -246,9 +449,21 @@ First, let's rename the `name` variable:
 
 9. Click **Inline temporary variable** to refactor the code.
 
+::: moniker range="vs-2017"
+
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-    ![Console window with program output](media/overview-console-final.png)
+    ![Console window with program output](../media/overview-console-final.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+
+    ![Console window with program output](../media/vs-2019/overview-console-final.png)
+
+::: moniker-end
 
 ## Debug code
 

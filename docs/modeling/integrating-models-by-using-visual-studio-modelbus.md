@@ -21,7 +21,7 @@ For additional information and sample code, see:
 
 -   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
 
--   [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754)
+-   [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

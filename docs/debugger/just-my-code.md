@@ -113,7 +113,7 @@ If the debugger hits an exception, it stops on the exception, whether it is in u
 For C++ projects, you can specify the modules, source files, and functions the **Call Stack** window treats as non-user code by specifying them in *\*.natjmc* files. This customization also applies to code stepping if you are using the latest compiler (see [C++ Just My Code](#BKMK_CPP_User_and_non_user_code)).
 
 - To specify non-user code for all users of the Visual Studio machine, add the *.natjmc* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-- To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.
+- To specify non-user code for an individual user, add the *.natjmc* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
 
 A *.natjmc* file is an XML file with this syntax:
 
@@ -163,7 +163,7 @@ A *.natjmc* file is an XML file with this syntax:
 In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings.
 
 - To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
-- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers* folder.
+- To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
 
 A *.natstepfilter* file is an XML file with this syntax:
 

@@ -160,7 +160,7 @@ Here is a list of MSBuild property functions:
 |int BitwiseXor(int first, int second)|Perform a bitwise `XOR` on the first and second (first ^ second).|
 |int BitwiseNot(int first)|Perform a bitwise `NOT` (~first).|
 |bool IsOsPlatform(string platformString)|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
-|bool IsOSUnixLike|True if current OS is a Unix system.|
+|bool IsOSUnixLike()|True if current OS is a Unix system.|
 |string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
 |string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
 |string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|

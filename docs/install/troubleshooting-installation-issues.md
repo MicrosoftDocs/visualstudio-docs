@@ -13,8 +13,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Troubleshoot Visual Studio 2017 installation and upgrade issues
+# Troubleshoot Visual Studio installation and upgrade issues
 
 > [!IMPORTANT]
 > Having a problem installing? We can help. We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
@@ -80,7 +82,7 @@ Here is a table of known issues and some workarounds that might help you when yo
 
 Setup logs are needed to troubleshoot most installation issues. When you submit an issue by using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the Visual Studio Installer, these logs are automatically included in your report.
 
-If you contact Microsoft Support, you might need to provide these setup logs by using the [Microsoft Visual Studio and .NET Framework Log Collection Tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio 2017, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for Visual Studio Installer, Windows Installer, and System Restore.
+If you contact Microsoft Support, you might need to provide these setup logs by using the [Microsoft Visual Studio and .NET Framework Log Collection Tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for Visual Studio Installer, Windows Installer, and System Restore.
 
 To collect the logs:
 
@@ -98,7 +100,7 @@ If the solutions listed in this troubleshooting guide do not help you to success
 
 ## See also
 
-* [Remove Visual Studio 2017](remove-visual-studio.md)
+* [Remove Visual Studio](remove-visual-studio.md)
 * [Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

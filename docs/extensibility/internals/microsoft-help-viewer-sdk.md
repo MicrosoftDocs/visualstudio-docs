@@ -701,7 +701,7 @@ This walkthrough demonstrates how to incorporate Help content into a Visual Stud
 
 1.  [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]
 
-2.  [Visual Studio 2013 Isolated Shell Redist](http://www.microsoft.com/visualstudio/11/downloads#vs-shell)
+2.  [Visual Studio 2013 Isolated Shell Redist](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
 **Overview**
 

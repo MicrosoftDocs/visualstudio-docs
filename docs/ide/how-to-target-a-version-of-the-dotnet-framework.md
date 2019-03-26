@@ -1,6 +1,6 @@
 ---
 title: Target a .NET Framework version
-ms.date: 02/06/2018
+ms.date: 03/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
@@ -13,32 +13,40 @@ ms.workload:
 ---
 # How to: Target a version of the .NET Framework
 
-This document describes how to target a version of the .NET Framework when you create a project, and how to change the targeted version in an existing Visual Basic, C#, or Visual F# project.
+This article describes how to target a version of the .NET Framework when you create a project. It also describes how to change the targeted version in an existing Visual Basic, C#, or F# project.
 
 > [!IMPORTANT]
 > For information about how to change the target version for C++ projects, see [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
 
-## To target a version when you create a project
+## Target a version when you create a project
 
-When you create a project, the available .NET Framework versions depend on which versions are installed, and the selected template in the **New Project** dialog box.
+When you create a project, the available .NET Framework versions depend on which versions are installed and on the selected project template.
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. In the list of installed templates, choose the type of project that you want to create, and enter a name for the project.
+1. Choose a template for the type of project that you want to create. Enter a name for the project.
 
-1. From the **Framework** drop-down list at the bottom of the **New Project** dialog box, choose the version of the .NET Framework that you want your project to target.
+1. From the **Framework** drop-down list at the bottom of the dialog box, choose the version of the .NET Framework that you want your project to target.
 
-    The list of frameworks shows only those versions that are applicable to the template that you chose. Some project types, such as .NET Core, do not require .NET Framework. In such instances, the **Framework** drop-down list is hidden.
+   The list of frameworks shows only those versions that are applicable to the template that you chose. Some project types, such as .NET Core, do not require .NET Framework. In such instances, the **Framework** drop-down list is hidden.
 
-    ![Framework drop-down in New Project dialog](media/vside-newproject-framework.png)
+   ::: moniker range="vs-2017"
 
-1. Choose the **OK** button.
+   ![Framework drop-down in New Project dialog](media/vside-newproject-framework.png)
 
-## To change the targeted version
+   ::: moniker-end
 
-You can change the targeted version of the .NET Framework in a Visual Basic, C#, or Visual F# project by following this procedure.
+   ::: moniker range=">=vs-2019"
 
-For information about how to change the target version for C++ projects, see [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
+   ![Framework selector in VS 2019](media/vs-2019/configure-new-project-framework.png)
+
+   ::: moniker-end
+
+1. Continue with [project creation](create-new-project.md).
+
+## Change the targeted version
+
+You can change the targeted version of the .NET Framework in a Visual Basic, C#, or F# project by following this procedure.
 
 1. In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.
 

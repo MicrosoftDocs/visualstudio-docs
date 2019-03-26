@@ -14,8 +14,12 @@ ms.workload:
 
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
+::: moniker range="vs-2017"
+
 > [!NOTE]
 > CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.
+
+::: moniker-end
 
 See where and how the individual parts of your code are used in your solution:
 
@@ -56,7 +60,7 @@ Inspect your code's history to find out what happened to your code. Or, review c
 
 You need:
 
-- Visual Studio Enterprise or Visual Studio Professional
+- Visual Studio 2019 (or Visual Studio 2017 Enterprise or Professional edition)
 
 - Team Foundation Server 2013 or later, Azure DevOps Services, or Git
 

@@ -422,4 +422,4 @@ End material for DerivedTemplate1.
 ## See Also  
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)   
- [Understanding T4: Preprocessed Text Templates by Oleg Sych](http://www.olegsych.com/2009/09/t4-preprocessed-text-templates/)
+ [Understanding T4: Preprocessed Text Templates by Oleg Sych](https://github.com/olegsych/T4Toolbox)

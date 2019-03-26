@@ -23,7 +23,7 @@ This means that you can’t access things like project file names in the same wa
 
 ##  <a name="buildserver"></a> Configure your machines
 
-To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754).
+To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148).
 
 If [your build server](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.
 
@@ -279,4 +279,4 @@ There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating
 
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
 - [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)
-- [Oleg Sych: Understanding T4:MSBuild Integration](http://www.olegsych.com/2010/04/understanding-t4-msbuild-integration/)
+- [Oleg Sych: Understanding T4:MSBuild Integration](https://github.com/olegsych/T4Toolbox)

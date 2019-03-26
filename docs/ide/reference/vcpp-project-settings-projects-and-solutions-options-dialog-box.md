@@ -87,5 +87,5 @@ Do not use cached project data. Parse the project files each time the project lo
 
 ## See also
 
-- [Building C/C++ Programs](/cpp/build/building-c-cpp-programs)
+- [Building C/C++ Programs](/cpp/build/projects-and-build-systems-cpp)
 - [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)

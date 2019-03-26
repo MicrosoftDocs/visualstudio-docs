@@ -81,7 +81,7 @@ The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vss
   
 2.  Upload the .vsix file to a network or to a Web site.  
   
-     If you upload the file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, other users can use **Extension Manager** in Visual Studio to find the control and install it.  
+     If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Extension Manager** in Visual Studio to find the control and install it.  
   
 ## See Also  
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)

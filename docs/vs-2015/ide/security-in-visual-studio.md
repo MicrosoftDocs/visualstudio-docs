@@ -24,9 +24,6 @@ You should consider security in all aspects of your application development, fro
  [Security](http://msdn.microsoft.com/library/9a9621d7-8883-4a4f-a874-65e8e09e20a6)
  Describes .NET Framework code access security, role-based security, security policy, and security tools.
 
- [Defend Your Code with Top Ten Security Tips Every Developer Must Know](http://go.microsoft.com/fwlink/?LinkId=72877)
- Describes the issues that you should watch out for so that you don't compromise your data or your system.
-
 ## Coding for Security
  Most coding errors that result in security vulnerabilities occur because developers make incorrect assumptions when working with user input or because they don't fully understand the platform for which they're developing.
 

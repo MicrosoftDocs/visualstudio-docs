@@ -89,9 +89,20 @@ For more complete instructions for debugging ASP.NET applications that have been
 
    - Select the drop-down arrow next to **Connection target**, and select the computer name from the drop-down list.
    - Type the computer name in the **Connection target** box.
+   
+     ::: moniker range="vs-2017"
 
      > [!NOTE]
      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+
+     ::: moniker-end
+
+     ::: moniker range=">= vs-2019"
+
+     > [!NOTE]
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+
+     ::: moniker-end
 
    - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
 
@@ -136,7 +147,7 @@ If neither of those workarounds is possible, a third option is to attach to the 
 You can quickly reattach to processes that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
 
 > [!NOTE]
-> The **Reattach to Process** command is new in Visual Studio 2017.
+> The **Reattach to Process** command is available starting in Visual Studio 2017.
 
 ## <a name="BKMK_Scenarios"></a> Common debugging scenarios
 

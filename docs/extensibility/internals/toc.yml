@@ -370,10 +370,8 @@
     - name: Automation for Configuration and SelectedItem Objects
       href: automation-for-configuration-and-selecteditem-objects.md
 - name: Solutions
-  href: solutions.md
+  href: solutions-overview.md
   items:
-  - name: Solutions Overview
-    href: solutions-overview.md
   - name: Solution (.Sln) File
     href: solution-dot-sln-file.md
   - name: Solution User Options (.Suo) File

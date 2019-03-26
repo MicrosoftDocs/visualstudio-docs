@@ -1,6 +1,6 @@
 ---
 title: "Debug Azure services | Microsoft Docs"
-ms.date: "09/14/2017"
+ms.date: "09/14/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"

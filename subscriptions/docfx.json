@@ -35,7 +35,7 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
-      "ms.prod": "visual-studio-windows",
+      "ms.prod": "visual-studio-family",
       "ms.technology": "vs-subscriptions"
     },
     "fileMetadata": {},

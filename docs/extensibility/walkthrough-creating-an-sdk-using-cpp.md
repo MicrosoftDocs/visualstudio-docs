@@ -129,7 +129,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 17. In **File Explorer**, navigate to the *$SolutionRoot$\NativeMathVSIX\bin\Debug* folder, and then run *NativeMathVSIX.vsix* to begin the installation.
 
-18. Choose the **Install** button, wait for the installation to finish, and then start Visual Studio.
+18. Choose the **Install** button, wait for the installation to finish, and then open Visual Studio.
 
 ##  <a name="createSample"></a> To create a sample app that uses the class library
 

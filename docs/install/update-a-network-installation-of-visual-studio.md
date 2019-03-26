@@ -13,8 +13,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Update a network-based installation of Visual Studio 2017
+# Update a network-based installation of Visual Studio
 
 It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 
@@ -94,6 +96,9 @@ The vs_enterprise.exe can be invoked inside the layoutDir.
 > Some important metadata files that are needed by the `--verify` option must be in the layout offline cache. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, re-create a new offline layout to a different folder (or to the same offline cache folder. To so do, run the same layout command that you used to create the initial offline layout. For example, `Vs_enterprise.exe --layout <layoutDir>`.
 
 Microsoft ships updates to Visual Studio periodically, so the new layout that you create might not be the same version as the initial layout.
+
+> [!NOTE]
+> Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
 
 ## How to fix a layout
 

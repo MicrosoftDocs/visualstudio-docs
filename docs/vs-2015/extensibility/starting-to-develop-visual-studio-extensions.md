@@ -29,7 +29,7 @@ If you’ve never written a Visual Studio extension before, you probably have so
 
 - Domain-specific designers for scenarios like data design or cloud support
 
-  For examples of extensions, check out the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).
+  For examples of extensions, check out the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).
 
 ## Which Visual Studio features can I extend?
  In theory, you can extend just about any part of Visual Studio: menus, toolbars, commands, windows, solutions, projects, editors, and so on.
