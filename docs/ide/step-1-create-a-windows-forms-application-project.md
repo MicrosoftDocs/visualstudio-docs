@@ -13,9 +13,12 @@ ms.workload:
 
 When you create a picture viewer, the first step is to create a Windows Forms Application project.
 
- ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+ > [!TIP]
+ > ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
-## To create a Windows Forms Application project
+::: moniker range="vs-2017"
+
+## Open Visual Studio 2017
 
 1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.
 
@@ -29,9 +32,44 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
     >[!NOTE]
     >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
-     Visual Studio creates a solution for your program. A solution acts as a container for all of the projects and files needed by your program. These terms will be explained in more detail later in this tutorial.
+::: moniker-end
 
-4. The development environment contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
+::: moniker range="vs-2019"
+
+## Open Visual Studio 2019
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > 
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+
+::: moniker-end
+
+Visual Studio creates a solution for your program. A solution acts as a container for all of the projects and files needed by your program. These terms will be explained in more detail later in this tutorial.
+
+## About the Windows Forms Application project
+
+1. The development environment contains three windows: a main window, **Solution Explorer**, and the **Properties** window.
 
      If any of these windows are missing, restore the default window layout by, on the menu bar, choosing **Window** > **Reset Window Layout**. You can also display windows by using menu commands. On the menu bar, choose **View** > **Properties Window** or **Solution Explorer**. If any other windows are open, close them by choosing the **Close** (x) button in their upper-right corners.
 
@@ -54,12 +92,12 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
     > [!NOTE]
     > The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.
 
-6. On the menu bar, choose **File** > **Save All**.
+1. On the menu bar, choose **File** > **Save All**.
 
      As an alternative, choose the **Save All** button on the toolbar, which the following illustration shows.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)<br/>
-***Save All** toolbar button*
+     ***Save All** toolbar button*
 
      Visual Studio automatically fills in the folder name and the project name and then saves the project in your projects folder.
 
