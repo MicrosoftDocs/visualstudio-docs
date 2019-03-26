@@ -4,6 +4,7 @@ description: Create a simple Windows Desktop .NET app in Visual Basic with Visua
 ms.custom: "seodec18, get-started"
 ms.date: 03/14/2019
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: conceptual
 dev_langs:
   - "VB"
