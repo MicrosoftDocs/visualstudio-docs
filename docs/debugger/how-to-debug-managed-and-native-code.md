@@ -46,7 +46,18 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 **To create the files for the DLL project:**
 
-1. In Visual Studio, select **File** > **New** > **Project**.
+1. Open Visual Studio and create a project.
+
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Create new Empty Project project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Other**, and then in the middle pane choose **Empty Project**. Then, type a name like **Mixed_Mode_Debugging** and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+
+    Visual Studio creates the project.
 
 1. In the **New Project** dialog box, under **Visual C++**, select **Other**, and then select **Empty Project** in the middle pane.
 
@@ -65,6 +76,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ```cpp
     #include "Mixed_Mode.h"
     ```
+
 1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**.
 
 1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
@@ -111,18 +123,23 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 ## Create a simple managed app to call the DLL
 
-1. In Visual Studio, choose **File** > **New** > **Project**.
+1. Open Visual Studio and create a new project.
 
-   > [!NOTE]
-   > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Create new Console App (.NET Framework) project** for C#. In the dialog box that appears, choose **Create**.
 
-1. In the **New Project** dialog box, select **Visual C#**, and in the middle pane:
+    Then, type a name like **Mixed_Mode_Calling_App** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.
 
-   - For a .NET Framework app, select **Console App (.NET Framework)**.
+    Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
+    ::: moniker-end
 
-   - For a .NET Core app, select **Console App (.NET Core)**.
+    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
-1. In the **Name** field, type **Mixed_Mode_Calling_App**, and then select **OK**.
+    > [!NOTE]
+    > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
 
    Visual Studio creates the empty project and displays it in **Solution Explorer**.
 
