@@ -40,17 +40,17 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule sets
 
-A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics. By default, C# and Visual Basic projects are configured to use [MinimumRecommendedRules.ruleset](managed-minimum-rules-rule-set-for-managed-code.md).
+A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics.
 
 > [!NOTE]
-> Rule sets include rules from both static (binary) code analysis and Roslyn analyzers.
+> Rule sets can include rules from both static (binary) code analysis and Roslyn analyzers.
 
-To edit the active rule set in the rule set editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the [MinimumRecommendedRules.ruleset](managed-minimum-rules-rule-set-for-managed-code.md) file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
+To edit the active rule set in the rule set editor, right-click on the **References** > **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
 
-You can change the active rule set for a project on the **Code Analysis** tab of a project's properties. Select the rule set in the **Run this rule set** dropdown list. You can also open the rule set from the **Code Analysis** property page by selecting **Open**.
+To change the active rule set for a project, navigate to the **Code Analysis** tab of a project's properties. Select the rule set from the list under **Run this rule set**. To open the rule set, select **Open**.
 
 > [!NOTE]
-> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property to the project file](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project). After you add the property, you can configure the rule set in the Visual Studio rule set editor UI.
+> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property to the project file](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project). You can configure the rules within the rule set in the Visual Studio rule set editor UI.
 
 ## Rule severity
 
