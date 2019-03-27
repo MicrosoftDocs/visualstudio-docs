@@ -22,7 +22,7 @@ ms.workload:
 # How to: Create a product manifest
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.
 
- For more information about product manifests, see [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md).
+ For more information about package manifests, see [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md).
 
 ## Create the product manifest
 
