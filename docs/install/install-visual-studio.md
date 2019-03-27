@@ -45,7 +45,7 @@ For questions about running previous versions of Visual Studio side by side with
 
 ## Step 2 - Download Visual Studio
 
-Next, download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click **Save**, and then click **Open folder**.
+Next, download the Visual Studio bootstrapper file. To do so, choose the following button, select the edition of Visual Studio 2017 that you want, choose **Save**, and then choose **Open folder**.
 
  > [!div class="button"]
  > [Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
@@ -61,9 +61,9 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
    * **vs_professional.exe** for Visual Studio Professional
    * **vs_community.exe** for Visual Studio Community  <br><br>
 
-   If you receive a User Account Control notice, click **Yes**.
+   If you receive a User Account Control notice, choose **Yes**.
 
-2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Click **Continue**.
+2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Choose **Continue**.
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")
 
@@ -77,24 +77,24 @@ After the installer is installed, you can use it to customize your installation 
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
-2. After you select the workload(s) you want, click **Install**.
+2. After you select the workload(s) you want, choose **Install**.
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
-3. After the new workloads and components are installed, click **Launch**.
+3. After the new workloads and components are installed, choose **Launch**.
 
 > [!TIP]
-> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.
+> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then choose **Modify**.
 
 ## Step 5 - Select individual components (Optional)
 
-If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To select individual components, click the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To select individual components, choose the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
 
   ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
 
 ## Step 6 - Install language packs (Optional)
 
-By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio 2017 in a language of your choosing, click the **Language packs** option from the Visual Studio Installer, and follow the prompts.
+By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio 2017 in a language of your choosing, choose the **Language packs** option from the Visual Studio Installer, and follow the prompts.
 
   ![Visual Studio 2017 - Install language packs](media/vs2017-languages.PNG "Install Visual Studio language packs")
 
@@ -112,15 +112,34 @@ For more information, see the [Change installation locations in Visual Studio](c
 
 ## Step 8 - Start developing
 
-1. After Visual Studio installation is complete, click the **Launch** button to get started developing with Visual Studio.
+::: moniker range="vs-2017"
 
-2. Click **File**, and then click **New Project**.
+1. After Visual Studio installation is complete, choose the **Launch** button to get started developing with Visual Studio.
+
+2. Choose **File**, and then choose **New Project**.
 
 3. Select a project type.
 
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
+   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
 
-   To [build a C# app](../get-started/csharp/tutorial-wpf.md), click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+   To [build a C# app](../get-started/csharp/tutorial-wpf.md), choose **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. After Visual Studio installation is complete, choose the **Launch** button to get started developing with Visual Studio.
+
+1. On the start window, choose **Create a new project**.
+
+1. In the search box, enter the type of app you want to create to see a list of templates. (For example, enter *WFP*.)
+
+  > [!TIP]
+  > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
+
+1. Visual Studio opens your new project, and you're ready to code!
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

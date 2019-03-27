@@ -8,7 +8,7 @@ dev_langs:
   - "C++"
   - "jsharp"
 author: mikeblome
-ms.author: Michael.Blome
+ms.author: mblome
 ms.workload:
   - "multiple"
 ---
