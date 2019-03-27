@@ -113,7 +113,7 @@ For more information, see the following pages:
 
 If you use monitors that are configured with different display scale factors, or connect remotely to a machine with display scale factors that are different from your main device, you might notice that Visual Studio looks blurry or renders at the wrong scale.
 
-With the release of Visual Studio 2019, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of what display scale factors you use.
+With the release of Visual Studio 2019, we are taking the first steps towards making Visual Studio a per-monitor aware (PMA) application. We're laying the foundational work that will allow Visual Studio to render correctly regardless of the display scale factors you use.
 
    ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/per-monitor-aware-dpi-scaling.png)
 
@@ -121,7 +121,7 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 ### Visual Studio IntelliCode
 
-[Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artifical intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
+[Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
