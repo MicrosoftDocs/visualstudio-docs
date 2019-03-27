@@ -53,7 +53,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
  For more information, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).
 
 ## Registry properties
- You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, **HKEY_LOCAL_MACHINE**), `Key` is the key name, `SubKey` is the subkey name, and `Value` is the value of the subkey.
+ You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, **HKEY_LOCAL_MACHINE**), `MyKey` is the key name, `MySubKey` is the subkey name, and `Value` is the value of the subkey.
 
 ```xml
 $(registry:Hive\MyKey\MySubKey@Value)
