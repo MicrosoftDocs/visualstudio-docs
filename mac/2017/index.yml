@@ -32,7 +32,7 @@ sections:
     - href: ~/installation.md?view=vsmac-2019
       html: <p></p>
       image:
-        src: ~/media/index-2019-preview.png
+        src: media/index-2019-preview.png
       title: Try 2019 Preview!
 - title: What apps can I build?
   items:
