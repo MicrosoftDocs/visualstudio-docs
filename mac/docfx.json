@@ -93,7 +93,8 @@
         "2017/**/*.yml": "/visualstudio/mac/_breadcrumb/toc.json"
       },
       "titleSuffix": {
-        "2017/**/*.md": "Visual Studio 2017 for Mac"
+        "2017/**/*.md": "Visual Studio 2017 for Mac",
+        "2017/**/*.yml": "Visual Studio 2017 for Mac"
       }
     },
     "template": [],
