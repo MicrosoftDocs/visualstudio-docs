@@ -12,7 +12,7 @@ searchscope: VS Subscription
 
 A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
 
-## Viewing the maximum usage for all subscription levels on an agreement
+## Viewing maximum usage
 
 To see the peak number of subscriptions assigned for any agreement and subscription level:
 
@@ -28,7 +28,7 @@ To see the peak number of subscriptions assigned for any agreement and subscript
 
 4.  To see the maximum number of subscriptions assigned for the life of the agreement, click the **Full-Term** tab.
 
-## Viewing the assignment history for an agreement 
+## Viewing assignment history
 
 In addition to seeing the peak assignments for each subscription level, you can see a running account of the activity on the agreement, including purchases and assignments, by clicking the **Export full report** button.  
 
