@@ -132,7 +132,7 @@ For more information, see the [Change installation locations in Visual Studio](c
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, enter the type of app you want to create to see a list of templates. (For example, type *WFP*.)
+1. In the search box, enter the type of app you want to create to see a list of templates. (For example, enter *WFP*.)
 
   > [!TIP]
   > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
