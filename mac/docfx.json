@@ -32,21 +32,6 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      },{
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "2017/**",
-          "2019/**",
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
       }
     ],
     "resource": [

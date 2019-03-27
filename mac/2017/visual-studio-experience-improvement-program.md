@@ -25,7 +25,7 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
     ![Select a radio button to reflect your participation preference](media/visual-studio-experience-improvement-program-image1.png)
 
-[!INCLUDE [GDPR-related guidance](../docs/misc/includes/gdpr-hybrid-note.md)]
+[!INCLUDE [GDPR-related guidance](../../docs/misc/includes/gdpr-hybrid-note.md)]
 
 ## See also
 
