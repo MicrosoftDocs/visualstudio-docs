@@ -22,7 +22,7 @@ ms.workload:
 
 ## Cause
 
-Potentially untrusted HTTP request input reaches web output.
+Potentially untrusted HTTP request input reaches raw HTML output.
 
 ## Rule description
 
