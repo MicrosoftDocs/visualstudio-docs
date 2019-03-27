@@ -26,15 +26,15 @@ Potentially untrusted HTTP request input reaches an SQL command's text.
 
 ## Rule description
 
-When working with untrusted input and SQL commands, be mindful of SQL injection attacks.  An SQL injection attack can execute malicious SQL commands, compromising the security and integrity of your application.  For more information, see [SQL Injection](/sql/relational-databases/security/sql-injection).
+When working with untrusted input and SQL commands, be mindful of SQL injection attacks. An SQL injection attack can execute malicious SQL commands, compromising the security and integrity of your application. Typical techniques include injection of a single quotation mark or apostrophe, which is the SQL literal string delimiter; two dashes, which signifies a SQL comment; and a semicolon, which indicates that a new command follows. For more information, see [SQL Injection](/sql/relational-databases/security/sql-injection).
 
 This rule attempts to find input from HTTP requests reaching an SQL command's text.
 
 > [!NOTE]
-> This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that executes the SQL command, this rule will not produce a warning.
+> This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that executes the SQL command, this rule won't produce a warning.
 
 > [!NOTE]
-> There is a configurable limit to how deep this rule will analyze data flow across method calls.  See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
+> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
 
 ## How to fix violations
 
@@ -42,7 +42,7 @@ Use parameterized SQL commands, or stored procedures, with parameters containing
 
 ## When to suppress warnings
 
-It's safe to suppress a warning from this rule if you know that the input is validated against a known safe set of characters.
+It's safe to suppress a warning from this rule if you know that the input is always validated against a known safe set of characters.
 
 ## Pseudo-code examples
 
@@ -101,7 +101,7 @@ Namespace VulnerableWebApp
 End Namespace
 ```
 
-### Parameterized Solution
+### Parameterized solution
 
 ```csharp
 using System;
@@ -159,7 +159,7 @@ Namespace VulnerableWebApp
 End Namespace
 ```
 
-### Stored Procedure Solution
+### Stored procedure solution
 
 ```csharp
 using System;
