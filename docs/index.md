@@ -868,7 +868,7 @@ ms.custom: seodec18
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Mobile development with JavaScript</h3>
-                                                    <p>Build cross-platform applications for iOS, Android, or Windows using the Apache Cordova framework.</p>
+                                                    <p>(Visual Studio 2017 and Visual Studio 2015 only) Build cross-platform applications for iOS, Android, or Windows using the Apache Cordova framework.</p>
                                                 </div>
                                             </div>
                                         </div>
