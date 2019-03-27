@@ -33,7 +33,7 @@ The following new features support Vue.js application development in Visual Stud
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
 * To create the ASP.NET Core project, you must have the ASP.NET and web development and .NET Core cross-platform development workloads installed.
 
@@ -58,9 +58,14 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 
 #### Create an Empty project
 
-1. Open Visual Studio and choose **File** > **New** > **Project** from the main menu.
+1. Open Visual Studio and create a new project.
 
-1. Under **Visual C#** > **Web**, choose **ASP.NET Core Web Application**, and then click **OK**.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
+    ::: moniker-end
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
 
