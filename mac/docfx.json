@@ -18,27 +18,13 @@
         ]
       },{
         "group": "vsmac-2019",
-        "src": "2019",
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },{
+        "src": "./",
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
         "exclude": [
           "2017/**",
-          "2019/**",
           "**/obj/**",
           "**/includes/**",
           "README.md",
@@ -64,18 +50,7 @@
         ]
       },{
         "group": "vsmac-2019",
-        "src": "2019",
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.svg",
-          "**/*.gif"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },{
+        "src": "./",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -84,7 +59,6 @@
         ],
         "exclude": [
           "2017/**",
-          "2019/**",
           "**/obj/**",
           "**/includes/**"
         ]
@@ -104,7 +78,7 @@
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "extendBreadcrumb": true,
       "manager": "crdun",
-      "titleSuffix": "Visual Studio for Mac",
+      "titleSuffix": "Visual Studio 2019 for Mac",
       "ms.topic": "conceptual",
       "audience": "developer",
       "ms.prod": "visual-studio-mac",
@@ -116,11 +90,11 @@
     "fileMetadata": {
       "breadcrumb_path": {
         "2017/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json",
-        "2019/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json"
+        "2017/**/*.yml": "/visualstudio/mac/_breadcrumb/toc.json"
       },
       "titleSuffix": {
         "2017/**/*.md": "Visual Studio 2017 for Mac",
-        "2019/**/*.md": "Visual Studio 2019 for Mac"
+        "2017/**/*.yml": "Visual Studio 2017 for Mac"
       }
     },
     "template": [],
