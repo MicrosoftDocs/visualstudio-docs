@@ -1,20 +1,15 @@
 ---
 title: "Designing XML Command Table (.Vsct) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, designing"
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 caps.latest.revision: 28
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Designing XML Command Table (.Vsct) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -124,4 +119,3 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
 ## See Also  
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)
-

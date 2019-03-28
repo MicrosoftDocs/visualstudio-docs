@@ -1,14 +1,9 @@
 ---
 title: "Services Page, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesServices"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 6dd9e0fa-acba-4d7d-b081-705b0fc86ff5
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Services Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -73,7 +68,4 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  [How to: Configure Client Application Services](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)   
  [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)   
- [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)
-
-
-
+ [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)

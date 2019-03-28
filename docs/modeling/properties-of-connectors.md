@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, connectors"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.
@@ -46,4 +44,4 @@ Connectors represent domain relationships in a generated designer.
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -1,5 +1,5 @@
 ---
-title: "Add Counters to Counter Sets for load testing in Visual Studio"
+title: "Add Counters to Counter Sets for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,19 +9,18 @@ helpviewer_keywords:
 ms.assetid: e17d0e71-f982-4fc1-a2df-a1065d37473d
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add counters to counter sets using the Load Test Editor
 
 When you create a load test with the **Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. For more information, see [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!NOTE]
 > If your load tests are distributed across remote machines, controller and agent counters are mapped to the controller and agent counter sets. For more information about how to use remote machines in your load test, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
-
- You manage your counters in the **Load Test Editor**. The counter sets that are already added to the test are visible in the **Counter Sets** node of the load test. After you create a load test, you can add new counters to existing counter sets.
+You manage your counters in the **Load Test Editor**. The counter sets that are already added to the test are visible in the **Counter Sets** node of the load test. After you create a load test, you can add new counters to existing counter sets.
 
 ## To add counters to a counter set
 

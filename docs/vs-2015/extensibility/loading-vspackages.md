@@ -1,21 +1,16 @@
 ---
 title: "Loading VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, autoloading"
   - "VSPackages, loading"
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Loading VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,4 +123,3 @@ public override void Unregister(RegistrationContext context)
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)
-

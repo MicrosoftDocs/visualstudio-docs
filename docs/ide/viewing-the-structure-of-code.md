@@ -1,8 +1,6 @@
 ---
 title: View code structure using class view, call hierarchy, object browser, and code definition window
 ms.date: 05/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.documentoutline.window"
@@ -24,7 +22,7 @@ helpviewer_keywords:
   - "object browser"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -122,7 +120,19 @@ The shortcut menu in the **Call Hierarchy** window contains the following comman
 
 The **Object Browser** window displays descriptions of the code in your projects.
 
-You can filter the components you want to view by using the drop-down list at the top of the window. Custom components can include managed code executables, library assemblies, type libraries, and *.ocx* files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat*.
+You can filter the components you want to view by using the drop-down list at the top of the window. Custom components can include managed code executables, library assemblies, type libraries, and *.ocx* files. It is not possible to add C++ custom components.
+
+::: moniker range="vs-2017"
+
+Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat*.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\16.0\ObjBrowEX.dat*.
+
+::: moniker-end
 
 The left pane of the **Object Browser** shows assemblies. You can expand the assemblies to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.
 

@@ -1,19 +1,14 @@
 ---
 title: "Step 3: Add a Countdown Timer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 3: Add a Countdown Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ Math quiz in progress
 -   To go to the next tutorial step, see [Step 4: Add the CheckTheAnswer() Method](../ide/step-4-add-the-checktheanswer-parens-method.md).  
   
 -   To return to the previous tutorial step, see [Step 2: Create a Random Addition Problem](../ide/step-2-create-a-random-addition-problem.md).
-
-
-

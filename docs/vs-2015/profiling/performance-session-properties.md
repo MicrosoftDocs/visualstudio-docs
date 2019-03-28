@@ -1,23 +1,18 @@
 ---
 title: "Performance Session Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools,properties"
   - "property pages,Profiling Tools"
   - "performance tools, performance session properties"
 ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Session Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,6 +109,3 @@ A **Performance Session** enables you to configure settings that determine how t
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Controlling Data Collection](../profiling/controlling-data-collection.md)
-
-
-

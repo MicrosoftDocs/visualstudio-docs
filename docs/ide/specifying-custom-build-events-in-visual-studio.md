@@ -1,7 +1,6 @@
 ---
-title: Specify custom build events in Visual Studio
+title: Specify custom build events
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

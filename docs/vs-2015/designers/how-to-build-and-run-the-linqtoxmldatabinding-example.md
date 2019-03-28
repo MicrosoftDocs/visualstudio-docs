@@ -1,26 +1,21 @@
 ---
 title: "How to: Build and Run the LinqToXmlDataBinding Example | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 3943deaf-80e2-4968-ac04-d3ef56cfad6c
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Build and Run the LinqToXmlDataBinding Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 This topic shows how to create and build the LinqToXmlDataBinding Visual Studio project, and how to run the resulting LinqToXmlDataBinding Windows Presentation Foundation (WPF) example program.  
   
- For more information about using Visual Studio to create projects, see [Application Development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68).  
+ For more information about using Visual Studio to create projects, see [Application Development in Visual Studio](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68).  
   
 ## Creating and Populating the Project  
   
@@ -78,7 +73,4 @@ This topic shows how to create and build the LinqToXmlDataBinding Visual Studio 
 ## See Also  
  [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)   
- [Application Development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68)
-
-
-
+ [Application Development in Visual Studio](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)

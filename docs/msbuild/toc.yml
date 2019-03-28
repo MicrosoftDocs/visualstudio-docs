@@ -1,6 +1,8 @@
 - name: MsBuild
   href: msbuild.md
   items:
+  - name: What's New in MSBuild 16.0
+    href: whats-new-msbuild-16-0.md
   - name: What's New in MSBuild 15.0
     href: what-s-new-in-msbuild-15-0.md
   - name: MSBuild Concepts
@@ -30,27 +32,6 @@
         href: item-definitions.md
       - name: Item Functions
         href: item-functions.md
-      - name: File Tracking
-        href: file-tracking.md
-        items:
-        - name: EndTrackingContext
-          href: endtrackingcontext.md
-        - name: ResumeTracking
-          href: resumetracking.md
-        - name: SetThreadCount
-          href: setthreadcount.md
-        - name: StartTrackingContext
-          href: starttrackingcontext.md
-        - name: StartTrackingContextWithRoot
-          href: starttrackingcontextwithroot.md
-        - name: StopTrackingAndCleanup
-          href: stoptrackingandcleanup.md
-        - name: SuspendTracking
-          href: suspendtracking.md
-        - name: WriteAllTLogs
-          href: writealltlogs.md
-        - name: WriteContextTLogs
-          href: writecontexttlogs.md
     - name: MSBuild Targets
       href: msbuild-targets.md
       items:
@@ -144,6 +125,27 @@
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshooting .NET Framework Targeting Errors
         href: troubleshooting-dotnet-framework-targeting-errors.md
+    - name: File Tracking
+      href: file-tracking.md
+      items:
+      - name: EndTrackingContext
+        href: endtrackingcontext.md
+      - name: ResumeTracking
+        href: resumetracking.md
+      - name: SetThreadCount
+        href: setthreadcount.md
+      - name: StartTrackingContext
+        href: starttrackingcontext.md
+      - name: StartTrackingContextWithRoot
+        href: starttrackingcontextwithroot.md
+      - name: StopTrackingAndCleanup
+        href: stoptrackingandcleanup.md
+      - name: SuspendTracking
+        href: suspendtracking.md
+      - name: WriteAllTLogs
+        href: writealltlogs.md
+      - name: WriteContextTLogs
+        href: writecontexttlogs.md
     - name: Customize your build
       href: customize-your-build.md
     - name: MSBuild Best Practices
@@ -227,6 +229,16 @@
           href: cl-task.md
         - name: CPPClean Task
           href: cppclean-task.md
+        - name: ClangCompile Task
+          href: clangcompile-task.md
+        - name: CustomBuild Task
+          href: custombuild-task.md
+        - name: FXC Task
+          href: fxc-task.md
+        - name: GetOutOfDateItems Task
+          href: getoutofdateitems-task.md
+        - name: GetOutputFileName Task
+          href: getoutputfilename-task.md
         - name: LIB Task
           href: lib-task.md
         - name: Link Task
@@ -235,12 +247,20 @@
           href: midl-task.md
         - name: MT Task
           href: mt-task.md
+        - name: MultiTool Task
+          href: multitooltask-task.md
+        - name: ParallelCustomBuild Task
+          href: parallelcustombuild-task.md
         - name: RC Task
           href: rc-task.md
         - name: SetEnv Task
           href: setenv-task.md
+        - name: TrackedVCToolTask Base Class
+          href: trackedvctooltask-base-class.md
         - name: VCMessage Task
           href: vcmessage-task.md
+        - name: VCToolTask Base Class
+          href: vctooltask-base-class.md
         - name: XDCMake Task
           href: xdcmake-task.md
         - name: XSD Task
@@ -309,6 +329,8 @@
         href: generatetrustinfo-task.md
       - name: GetAssemblyIdentity Task
         href: getassemblyidentity-task.md
+      - name: GetFileHash Task
+        href: getfilehash-task.md
       - name: GetFrameworkPath Task
         href: getframeworkpath-task.md
       - name: GetFrameworkSdkPath Task
@@ -361,6 +383,8 @@
         href: updatemanifest-task.md
       - name: Vbc Task
         href: vbc-task.md
+      - name: VerifyFileHash Task
+        href: verifyfilehash-task.md
       - name: Warning Task
         href: warning-task.md
       - name: WriteCodeFragment Task

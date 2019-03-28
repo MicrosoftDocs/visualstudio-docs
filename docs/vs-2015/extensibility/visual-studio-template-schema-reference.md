@@ -1,22 +1,17 @@
 ---
 title: "Visual Studio Template Schema Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "VSTEMPLATE files"
   - "Visual Studio templates, schema"
   - ".vstemplate files"
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Visual Studio Template Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

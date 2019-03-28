@@ -1,14 +1,9 @@
 ---
 title: "How to: Create a Custom Rule Set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords: 
@@ -113,6 +108,3 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)
-
-
-

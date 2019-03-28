@@ -1,31 +1,27 @@
 ---
-title: "How to: Manage build configurations with Visual Basic developer settings applied"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
+title: Manage build configurations with Visual Basic developer settings
+ms.date: 11/21/2018
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio, building with Visual Basic settings"
-  - "MSBuild, debug build"
   - "advanced build configurations"
-  - "building with Visual Basic developer settings"
+  - "building with Visual Basic developer settings (Visual Studio)"
   - "debug builds"
-  - "MSBuild, release build"
   - "release builds"
 ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # How to: Manage build configurations with Visual Basic developer settings applied
 
-By default, all advanced build configuration options are hidden with Visual Basic developer settings applied. This topic explains how to manually enable these settings.
+By default, all advanced build configuration options are hidden when Visual Basic developer settings are applied. This article explains how to manually enable these build settings.
 
 ## Enable advanced build configurations
 
-By default, the Visual Basic developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](..//ide/reference/application-page-project-designer-visual-basic.md).
+By default, the Visual Basic developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](../ide/reference/application-page-project-designer-visual-basic.md).
 
 1.  On the **Tools** menu, click **Options**.
 
@@ -38,9 +34,10 @@ By default, the Visual Basic developer settings hide the option to open the **Co
 
 4.  Click **OK**.
 
-     On the **Build** menu, **Configuration Manager** is now available, and the **Configuration** and **Platform** lists are visible in the **Project Designer**.
+     **Configuration Manager** is now available on the **Build** menu, and the **Configuration** and **Platform** lists are visible in the **Project Designer**.
 
 ## See also
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
+- [Environment settings](../ide/environment-settings.md)

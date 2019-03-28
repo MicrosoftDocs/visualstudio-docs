@@ -39,14 +39,14 @@
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment
     - name: Publish to Kubernetes with Visual Studio Kubernetes tools
-      href: tutorial-kubernetes-tools.md
-  - name: Native
+      href: ../containers/tutorial-kubernetes-tools.md?toc=/visualstudio/deployment/toc.json
+  - name: C++
     items:
-    - name: Deployment in Visual C++...
-      href: /cpp/ide/deployment-in-visual-cpp
+    - name: Deploy a C/C++ app
+      href: /cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
     - name: Package a desktop app for Microsoft Store (Desktop Bridge)
       href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
-    - name: Deploy a native app using ClickOnce...
+    - name: Deploy a C++/CLR app using ClickOnce...
       href: /cpp/ide/clickonce-deployment-for-visual-cpp-applications
   - name: UWP
     items:
@@ -106,6 +106,8 @@
     - name: Publish ClickOnce Applications
       href: publishing-clickonce-applications.md
       items:
+      - name: Publish a ClickOnce Application using the Publish Wizard
+        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
       - name: Create ClickOnce Applications for Others to Deploy
         href: creating-clickonce-applications-for-others-to-deploy.md
       - name: Deploy Apps For Test and Production Servers without Resigning
@@ -116,8 +118,6 @@
         href: deploying-com-components-with-clickonce.md
       - name: Build ClickOnce Applications from the Command Line
         href: building-clickonce-applications-from-the-command-line.md
-      - name: Publish a ClickOnce Application using the Publish Wizard
-        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
       - name: Specify Where Visual Studio Copies the Files
         href: how-to-specify-where-visual-studio-copies-the-files.md
       - name: Specify the Location Where End Users Will Install From

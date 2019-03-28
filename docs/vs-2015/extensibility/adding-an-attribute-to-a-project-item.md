@@ -1,20 +1,15 @@
 ---
 title: "Adding an Attribute to a Project Item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "attributes [Visual Studio], adding to a project item"
 ms.assetid: 404a71d5-cce5-44e7-9eaf-d747c794fedb
 caps.latest.revision: 5
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding an Attribute to a Project Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.G
   
 ## See Also  
  [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)
-

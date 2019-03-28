@@ -1,19 +1,14 @@
 ---
 title: "Step 9: Try Other Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 9: Try Other Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic Fundamentals: Development for Absolute Beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# Fundamentals: Development for Absolute Beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).  
   
 -   To return to the previous tutorial step, see [Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).
-
-
-

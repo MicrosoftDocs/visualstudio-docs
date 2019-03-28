@@ -1,15 +1,13 @@
 ---
 title: "CA2133: Delegates must bind to methods with consistent transparency"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2133"
 ms.assetid: a09672e2-63cb-4abd-9e8f-dff515e101ce
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

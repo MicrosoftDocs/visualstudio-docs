@@ -1,20 +1,15 @@
 ---
 title: "Restrictions on String Lengths | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, restrictions on string lengths"
 ms.assetid: 877173d2-ca27-43b3-b1f4-8379f7c5e268
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Restrictions on String Lengths
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ The Source Control Plug-in API limits the lengths of strings used in various fun
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
-

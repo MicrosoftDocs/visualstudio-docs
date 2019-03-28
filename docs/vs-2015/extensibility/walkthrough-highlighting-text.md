@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Highlighting Text | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - highlight text"
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 caps.latest.revision: 43
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Highlighting Text
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -408,4 +403,3 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
-

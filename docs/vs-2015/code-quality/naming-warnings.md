@@ -1,14 +1,9 @@
 ---
 title: "Naming Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.namingrules"
 helpviewer_keywords: 
@@ -53,6 +48,3 @@ Naming warnings support adherence to the naming conventions of the [!INCLUDE[dnp
 |[CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)|The name of an identifier contains multiple words, and at least one of the words appears to be a compound word that is not cased correctly.|  
 |[CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)|Names of enumeration members are not prefixed with the type name because type information is expected to be provided by development tools.|  
 |[CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)|By convention, the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, have a suffix that is associated with the base type or interface.|
-
-
-

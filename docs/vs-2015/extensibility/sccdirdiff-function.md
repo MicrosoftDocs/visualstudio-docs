@@ -1,22 +1,17 @@
 ---
 title: "SccDirDiff Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccDirDiff"
 helpviewer_keywords: 
   - "SccDirDiff function"
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccDirDiff Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ SCCRTN SccDirDiff(
   
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
-

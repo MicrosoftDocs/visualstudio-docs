@@ -1,14 +1,9 @@
 ---
 title: "How to: Restore Hidden Debugger Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "commands, debugger"
 ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Restore Hidden Debugger Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugger Basics](../debugger/debugger-basics.md)
-
-
-

@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_types method"
 ms.assetid: 5f056e0c-e15b-4e00-8f78-aadc8574f7ea
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ HRESULT get_types ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

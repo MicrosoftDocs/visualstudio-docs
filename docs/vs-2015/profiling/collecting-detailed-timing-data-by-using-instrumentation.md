@@ -1,22 +1,17 @@
 ---
 title: "Collecting Detailed Timing Data by Using Instrumentation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools,instrumentation method"
   - "instrumentation profiling method"
 ms.assetid: e9deb370-c459-45ac-84d3-14d646590d05
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Detailed Timing Data by Using Instrumentation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation
 |On the **Windows Events** page, select one or more Event Tracing for Windows (ETW) events to collect with the sampling data.|-   [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)|  
 |On the **Windows Counters** page, specify one or more operating system performance counters to add to the profiling data as marks.|-   [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)|  
 |On the **Advanced** page, specify any additional options that you want to pass to the VSInstr instrumentation program, such as options to include or exclude specific functions.|-   [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)<br />-   [How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)<br />-   [VSInstr](../profiling/vsinstr.md)|
-
-
-

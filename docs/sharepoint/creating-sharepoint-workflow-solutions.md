@@ -1,9 +1,6 @@
 ---
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.NewSharePointWorkflowWizard.Page3"
@@ -18,9 +15,9 @@ dev_langs:
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflows"
   - "workflows [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -121,7 +118,7 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 ## Debug a SharePoint workflow template
  You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named *w3wp.exe*.
 
- To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/debugging-web-applications-and-script.md).
+ To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/how-to-enable-debugging-for-aspnet-applications.md).
 
 ## Deploy a SharePoint workflow template
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow projects deploy just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. For more information, see [Package and Deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).

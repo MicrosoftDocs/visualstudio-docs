@@ -1,22 +1,17 @@
 ---
 title: "Changing the Text of a Menu Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "menus, changing text"
   - "text, menus"
   - "commands, changing text"
 ms.assetid: 5cb676a0-c6e2-47e5-bd2b-133dc8842e46
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Changing the Text of a Menu Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,4 +82,3 @@ The following steps show how to change the text label of a menu command by using
 6.  On the **Tools** menu you should see a command named **Invoke ChangeMenuText**.  
   
 7.  Click the command. You should see the message box announcing that MenuItemCallback has been called. When you dismiss the message box, you should see that the name of the command on the Tools menu is now **New Text**.
-

@@ -1,19 +1,17 @@
 ---
 title: "How to: Create XML Snippets"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # How to: Create XML snippets
 
-The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
+The XML editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
 
 ## To create a new XML snippet
 
@@ -76,7 +74,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 
 - $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.
 
-- $selected$ is a predefined variable. It represents the text that was selected in the XML Editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.
+- $selected$ is a predefined variable. It represents the text that was selected in the XML editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.
 
 - $end$ is a predefined variable. When the user presses **Enter** to finish editing the code snippet fields, this variable determines where the caret (^) is moved to.
 
@@ -101,7 +99,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 </Literal
 ```
 
- Literals can also refer to functions. The XML Editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.
+ Literals can also refer to functions. The XML editor includes a function named **LookupPrefix**. The **LookupPrefix** function looks up the given namespace URI from the location in the XML document that this snippet is invoked from and returns the namespace prefix that is defined for that namespace, if any, and it includes the colon (:) in that name. The following is an example of a `Literal` element that uses the **LookupPrefix** function.
 
 ```xml
 <Literal Editable="false">

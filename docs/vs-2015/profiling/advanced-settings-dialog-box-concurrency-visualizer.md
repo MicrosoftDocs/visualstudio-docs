@@ -1,21 +1,16 @@
 ---
 title: "Advanced Settings Dialog Box (Concurrency Visualizer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.settings"
 ms.assetid: bb3d90aa-5f08-4953-9be0-be6cea11633d
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Advanced Settings Dialog Box (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,6 +83,3 @@ By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you
 ## See Also  
  [Just My Code](../profiling/just-my-code-threads-view.md)   
  [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)
-
-
-

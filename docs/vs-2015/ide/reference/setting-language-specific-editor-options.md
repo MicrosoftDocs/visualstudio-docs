@@ -1,14 +1,9 @@
 ---
 title: "Setting Language-Specific Editor Options | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "editor options"
   - "configure editor"
@@ -17,7 +12,7 @@ ms.assetid: ba64d517-a60d-409b-9860-5d75065a5bb7
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Setting Language-Specific Editor Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,8 +52,5 @@ manager: "ghogen"
  [Customizing the Editor](../../ide/customizing-the-editor.md)  
  Provides links to topics that explain the many aspects of the editor that you can set preferences for.  
   
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
  Provides links to topics that explain how to customize your settings, key bindings, and other features of the integrated development environment (IDE).
-
-
-

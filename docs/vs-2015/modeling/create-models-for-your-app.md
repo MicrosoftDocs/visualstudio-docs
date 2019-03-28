@@ -1,14 +1,9 @@
 ---
 title: "Create models for your app | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"
   - "vs.teamarch.UMLModelExplorer.dependency"
@@ -39,9 +34,9 @@ helpviewer_keywords:
   - "UML diagrams"
 ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
 caps.latest.revision: 60
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create models for your app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,7 +85,7 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 |[Model user requirements](../modeling/model-user-requirements.md)|Use models to clarify and communicate the users' needs.|  
 |[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|Use models to describe the overall structure and behavior of your system and to make sure that it meets the users' needs.|  
 |[Validate your system during development](../modeling/validate-your-system-during-development.md)|Make sure that your software stays consistent with your users' needs and the overall architecture of your system.|  
-|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
+|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Organize models in a large or medium project.|  
   
 ## External Resources  
@@ -98,6 +93,3 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 |**Category**|**Links**|  
 |------------------|---------------|  
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-
-
-

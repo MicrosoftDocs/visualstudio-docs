@@ -1,19 +1,14 @@
 ---
 title: "Unit testing a Visual C++ DLL for Store apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 24afc90a-8774-4699-ab01-6602a7e6feb2
 caps.latest.revision: 15
 author: "alexhomer1"
 ms.author: gewarren
-manager: "robinr"
+manager: jillfra
 ---
 # Unit testing a Visual C++ DLL for Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -348,6 +343,3 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
     >  A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
     >   
     >  Keep refactoring separate from other changes.
-
-
-

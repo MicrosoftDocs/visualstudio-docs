@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Accessing the DTE Object from an Editor Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - getting the DTE object"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Accessing the DTE Object from an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

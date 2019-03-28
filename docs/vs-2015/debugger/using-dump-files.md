@@ -1,14 +1,9 @@
 ---
 title: "Using Dump Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.crashdump"
 dev_langs: 
@@ -27,9 +22,9 @@ helpviewer_keywords:
   - "dumps"
 ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 caps.latest.revision: 56
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using Dump Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +72,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 - To debug [kernel-mode](http://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) dump files in Visual Studio 2013, download the [Windows 8.1 Version of Debugging Tools for Windows](http://msdn.microsoft.com/windows/hardware/gg463009). See [Kernel Debugging in Visual Studio](http://msdn.microsoft.com/library/windows/hardware/jj149675.aspx).  
   
-- Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx). Note that a full user-mode dump is not the same a dump with heap.  
+- Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](/windows-hardware/drivers/debugger/user-mode-dump-files#full). Note that a full user-mode dump is not the same a dump with heap.  
   
 - To debug with the [SOS.dll (SOS Debugging Extension)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) in Visual Studio, you must install the Debugging Tools for Windows that is part of the Windows Driver Kit (WDK). See [Windows 8.1 Preview: Download kits, bits, and tools](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx).  
   
@@ -141,4 +136,3 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)
-

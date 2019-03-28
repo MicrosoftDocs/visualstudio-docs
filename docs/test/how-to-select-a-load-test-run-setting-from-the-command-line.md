@@ -1,5 +1,5 @@
 ---
-title: "Set Visual Studio load test run settings from the command line"
+title: "Set load test run settings from the command line"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,15 +8,15 @@ helpviewer_keywords:
 ms.assetid: 175d1d58-f09a-4449-b132-a29a394a7c8e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Select a load test run setting to use from the command line
 
 A load test can include *run settings*, which are properties that influence the way a load test runs. Run settings are organized by categories in the **Properties** window. When a load test is run, it uses the run setting that is currently set as active.
 
- If your load test contains only one run setting, it is always the active node. If your load test contains multiple run settings nodes, you can select the one to use when you run a load test from the command line. See [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md).
+If your load test contains only one run setting, it is always the active node. If your load test contains multiple run settings nodes, you can select the one to use when you run a load test from the command line. See [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To change the run setting from the command line
 

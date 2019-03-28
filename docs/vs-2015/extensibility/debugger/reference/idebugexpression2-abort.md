@@ -1,22 +1,17 @@
 ---
 title: "IDebugExpression2::Abort | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugExpression2::Abort"
 helpviewer_keywords: 
   - "IDebugExpression2::Abort"
 ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpression2::Abort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ int Abort();
  [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)   
  [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)   
  [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)
-

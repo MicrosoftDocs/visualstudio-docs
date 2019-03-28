@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD Files"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: 6a3d0ab6-825e-42fa-8df0-37fbc5da9e73
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

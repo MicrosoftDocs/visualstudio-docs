@@ -1,21 +1,18 @@
 ---
 title: "Model user requirements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "requirements"
   - "stories"
   - "UML, modeling requirements"
 ms.assetid: 359900f8-6d69-493d-bfdf-2c9069c74a26
 caps.latest.revision: 30
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Model user requirements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -179,7 +176,6 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More detailed information about recording quality of service requirements|[Guidelines for Defining Quality of Service Requirements](http://msdn.microsoft.com/en-us/9677a437-c2cb-4ac4-8c2d-4e3350005f06)|  
 |Attaching additional documents to use cases|[Link a use case to documents and diagrams](../modeling/link-a-use-case-to-documents-and-diagrams.md)|  
 |How to develop code that adheres to quality of service requirements|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
@@ -246,6 +242,3 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
  [Sample VS Extension: Link UML Elements to Diagrams, Files, and other Elements](http://go.microsoft.com/fwlink/?LinkID=213813)   
  [Sample VS Extension: Align Shapes on a UML Diagram](http://go.microsoft.com/fwlink/?LinkID=213809)   
  [Video: Modeling the Business Domain](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-3-Modeling-the-Business-Domain/)
-
-
-

@@ -1,19 +1,16 @@
 ---
 title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugProgramNode2::DetachDebugger"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProgramNode2::DetachDebugger"
   - "IDebugProgramNode2::DetachDebugger_V7"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugProgramNode2::DetachDebugger_V7
@@ -46,4 +43,4 @@ This method is called when the debugger unexpectedly quits. When this method is 
 
 ## See Also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

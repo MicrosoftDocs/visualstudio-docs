@@ -1,24 +1,21 @@
 ---
 title: "Custom document properties overview"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom properties"
   - "custom document properties"
   - "document-level customizations [Office development in Visual Studio], custom properties"
   - "Office documents [Office development in Visual Studio], custom properties"
   - "_AssemblyLocation property"
   - "_AssemblyName property"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Custom document properties overview
@@ -35,7 +32,7 @@ This property contains the CLSID of an interface in the Office solution loader c
 
 This property contains a string that provides details about the deployment manifest for the customization. For more information about manifests, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 
- The_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
+ The \_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
 
 - If the solution is published to be installed from a Web site, UNC path, or a CD or USB drive, the _AssemblyLocation property has the format *DeploymentManifestPath*|*SolutionID*. The following string is an example:
 

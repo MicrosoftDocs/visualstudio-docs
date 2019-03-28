@@ -1,22 +1,17 @@
 ---
 title: "IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IPropertyProxyEESide::InitSourceDataProvider"
 helpviewer_keywords: 
   - "IPropertyProxyEESide::InitSourceDataProvider"
 ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IPropertyProxyEESide::InitSourceDataProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int InitSourceDataProvider(
 ## See Also  
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
-

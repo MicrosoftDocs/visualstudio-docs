@@ -1,20 +1,17 @@
 ---
 title: "Programming with the UML API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, API"
   - "UML model, extending"
 ms.assetid: c5937139-49d0-4439-8a9f-89f5e0474618
 caps.latest.revision: 21
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Programming with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,6 +65,3 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md)
-
-
-

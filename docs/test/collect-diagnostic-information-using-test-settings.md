@@ -1,5 +1,5 @@
 ---
-title: "Collect diagnostic information using test settings in Visual Studio"
+title: "Collect diagnostic information using test settings"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Collect diagnostic information using test settings
 
@@ -26,6 +24,8 @@ You can use *Test settings* in Visual Studio to collect extra data when you run 
 -   Collect IntelliTrace data to help isolate non-reproducible bugs
 
 Diagnostic data adapters can also be used to change the behavior of a test machine. For example, with a test setting in Visual Studio, you can emulate various network topology bottlenecks to evaluate the performance of your team’s application.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Use test settings with Visual Studio
 

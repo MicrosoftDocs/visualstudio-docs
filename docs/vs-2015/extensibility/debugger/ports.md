@@ -1,21 +1,16 @@
 ---
 title: "Ports | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "ports"
   - "debugging [Debugging SDK], ports"
 ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Ports
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ In terms of the debugger architecture, a **port**:
  [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md)   
  [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md)   
  [AddPort](../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
-

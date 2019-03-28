@@ -1,18 +1,13 @@
 ---
 title: "Quick Start: Test Driven Development with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
 caps.latest.revision: 17
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Quick Start: Test Driven Development with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,10 +59,10 @@ We recommend that you create unit tests to help keep your code working correctly
 >  The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.  
   
 > [!NOTE]
->  If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Using Different Test Frameworks with Test Explorer](#frameworks).  
+>  If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Use a different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework).  
   
 ##  <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method  
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Using Different Test Frameworks](#frameworks).  
+ This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Usa different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework).  
   
 #### Creating the Test and Method  
   
@@ -287,6 +282,3 @@ We recommend that you create unit tests to help keep your code working correctly
      All the tests still pass.  
   
      ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png "UnitTestExplorerWalkthrough4")
-
-
-

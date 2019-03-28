@@ -1,22 +1,17 @@
 ---
 title: "DisassemblyData | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "DisassemblyData"
 helpviewer_keywords: 
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # DisassemblyData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -231,4 +226,3 @@ namespace MyNamespace
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)   
  [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)
-

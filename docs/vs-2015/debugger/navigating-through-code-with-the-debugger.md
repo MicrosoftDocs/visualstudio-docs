@@ -1,13 +1,8 @@
 ---
 title: "Navigating through Code with the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.execution"
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "execution, controlling in debugger"
 ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
 caps.latest.revision: 47
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Navigating through Code with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -185,8 +180,3 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** / **Options**. On the **Debugging** / **General** page, clear the **Step over properties and operators (Managed only)** check box
-
-
-
-
-

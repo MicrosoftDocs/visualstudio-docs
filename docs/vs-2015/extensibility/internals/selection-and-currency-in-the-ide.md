@@ -1,14 +1,9 @@
 ---
 title: "Selection and Currency in the IDE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "currency, Visual Studio IDE"
   - "IDE, selection"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDE, currency"
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Selection and Currency in the IDE
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
 ## See Also  
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)
-

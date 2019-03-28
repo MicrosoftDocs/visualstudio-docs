@@ -1,14 +1,9 @@
 ---
 title: "CA1032: Implement standard exception constructors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1032"
   - "ImplementStandardExceptionConstructors"
@@ -57,6 +52,3 @@ manager: "wpickett"
  The following example contains an exception type that violates this rule and an exception type that is correctly implemented.
 
  [!code-csharp[FxCop.Design.ExceptionMultipleCtors#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Design.ExceptionMultipleCtors/cs/FxCop.Design.ExceptionMultipleCtors.cs#1)]
-
-
-

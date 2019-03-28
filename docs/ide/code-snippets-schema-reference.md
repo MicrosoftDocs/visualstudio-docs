@@ -1,8 +1,6 @@
 ---
 title: Code snippets schema reference
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 02/25/2019
 ms.topic: reference
 helpviewer_keywords:
   - "schema reference [Visual Studio]"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -113,6 +111,7 @@ There are three attributes available for the Code element:
    |`CPP`|Identifies a C++ code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
+   |`TypeScript`|Identifies a TypeScript code snippet.|
    |`SQL`|Identifies a SQL code snippet.|
    |`HTML`|Identifies an HTML code snippet.|
 
@@ -542,7 +541,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 |[Code element](../ide/code-snippets-schema-reference.md#code-element)|Required element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
 |[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
-||Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
+|[References element](../ide/code-snippets-schema-reference.md#references-element)|Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
 
 |Parent element|Description|
 | - |-----------------|

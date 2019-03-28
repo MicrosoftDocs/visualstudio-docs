@@ -1,21 +1,16 @@
 ---
 title: "IDiaSymbol::get_isSdl | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: 6aa0e116-da75-4643-a4d7-d8e142231e21
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_isSdl
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ HRESULT get_isSdl(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

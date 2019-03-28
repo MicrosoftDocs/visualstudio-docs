@@ -1,21 +1,16 @@
 ---
 title: "Creating Project Instances By Using Project Factories | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project factories"
   - "projects [Visual Studio SDK], project factories"
 ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating Project Instances By Using Project Factories
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ Project types in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] use a *project 
   
  You can implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface in a class in your project. Typically, it resides in its own module.  
   
- For an example of an implementation of the `IVsProjectFactory` interface, see PrjFac.cpp that is contained in the [Basic Project](http://msdn.microsoft.com/en-us/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) sample directory.  
+ For an example of an implementation of the `IVsProjectFactory` interface, see PrjFac.cpp that is contained in the [Basic Project](http://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) sample directory.  
   
  Projects that support being aggregated by an owner must persist an owner key in their project file. When the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A> method is called on a project with an owner key, the owned project converts its owner key to a project factory GUID then calls the `CreateProject` method on this project factory to do the actual creation.  
   
@@ -52,4 +47,3 @@ Project types in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] use a *project 
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterProjectTypes>   
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
-

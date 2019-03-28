@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue (Visual C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "C/C++, Edit and Continue"
 ms.assetid: 1815251e-a877-433e-9e5e-69bd9ba254c7
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Edit and Continue (Visual C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ You can use Edit and Continue in Visual C++ projects. See [Supported Code Change
   
 ## See Also  
  [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)
-
-
-

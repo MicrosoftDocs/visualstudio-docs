@@ -1,17 +1,14 @@
 ---
 title: "State Machine Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
 caps.latest.revision: 5
 author: "steved0x"
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # State Machine Activity Designers
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.  

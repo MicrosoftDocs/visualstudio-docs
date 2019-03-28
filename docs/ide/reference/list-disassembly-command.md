@@ -1,8 +1,6 @@
 ---
 title: List Disassembly Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.listdisassembly"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_isDataAligned | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_isDataAligned method"
 ms.assetid: ddd11a41-6c00-4829-acf4-aa1ace8c21a7
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_isDataAligned
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ HRESULT get_isDataAligned(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

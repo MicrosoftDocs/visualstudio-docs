@@ -1,24 +1,22 @@
 ---
 title: "How to: Save and open files with encoding"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Unicode, bi-directional language support"
+  - "Unicode, bidirectional language support"
   - "files, encoding"
-  - "bi-directional language support, encoded files"
-  - "file encoding, bi-directional languages"
+  - "bidirectional language support, encoded files"
+  - "file encoding, bidirectional languages"
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # How to: Save and open files with encoding
 
-You can save files with specific character encoding to support bi-directional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
+You can save files with specific character encoding to support bidirectional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
 
 ## To save a file with encoding
 

@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing Copy Behavior
 In a domain-specific language (DSL) created with the Visual Studio Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.
@@ -552,7 +550,6 @@ namespace Company.MyDsl
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
-- [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)
 - [Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

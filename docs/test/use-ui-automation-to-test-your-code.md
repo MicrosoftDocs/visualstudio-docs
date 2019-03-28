@@ -1,8 +1,6 @@
 ---
-title: "Automated UI tests"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: Automated UI tests
+ms.date: 12/04/2018
 ms.topic: conceptual
 f1_keywords:
   - "vs.codedUITest"
@@ -15,13 +13,15 @@ helpviewer_keywords:
   - "coded UI test"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Use UI automation to test your code
 
 Automated tests that drive your application through its user interface (UI) are known as *coded UI tests* (CUITs) in Visual Studio. These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI Tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application and click through the UI controls to verify that things are working correctly. Then you might decide to create an automated test so that you don't need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test or for an integration test that might or might not include testing at the UI level. If you want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can verify that code churn does not impact the functionality of your application.
 
@@ -42,7 +42,7 @@ For more information about which platforms and configurations are supported by c
 
 ## Install the coded UI test component
 
-To access the coded UI test tools and templates, install the **Coded UI test** component of Visual Studio 2017.
+To access the coded UI test tools and templates, install the **Coded UI test** component of Visual Studio.
 
 1. Launch **Visual Studio Installer** by choosing **Tools** > **Get Tools and Features**.
 
@@ -56,9 +56,13 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 1. Create a Coded UI Test project.
 
-   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project** to open the **New Project** dialog box. In the categories pane on the left, expand **Installed** > **Visual Basic** *or* **Visual C#** > **Test**. Select the **Coded UI Test Project** template, and then choose **OK**.
+   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project**. Search for and select the **Coded UI Test Project** project template.
+
+   ::: moniker range="vs-2017"
 
    ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
+
+   ::: moniker-end
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
@@ -134,7 +138,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 8. Run the test.
 
-   Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What's next?](#what's-next?) section at the end of this topic.
+   Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What's next?](#whats-next?) section at the end of this topic.
 
 The remaining sections in this topic provide more detail about the steps in this procedure.
 
@@ -209,7 +213,7 @@ To generate the code for your assertions and add the control to the UI map, choo
 
 If the control you want to select loses focus and disappears when you select the **Add Assertions** tool from the **Coded UI Test Builder**:
 
-Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a context menu control, the list of menu items in the control will lose focus and disappear when you try to select the **Add Assertions** tool from the **Coded UI Test Builder**. This is demonstrated in the following illustration, where the context menu in Internet Explorer loses focus and disappears if you try to select it with the **Add Assertions** tool.
+Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a right-click menu control, the list of menu items in the control will lose focus and disappear when you try to select the **Add Assertions** tool from the **Coded UI Test Builder**. This is demonstrated in the following illustration, where the right-click menu in Internet Explorer loses focus and disappears if you try to select it with the **Add Assertions** tool.
 
 ![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
 
@@ -396,7 +400,7 @@ To get and set UI control specific property values, you can directly get or set 
 
 ### To get or set properties from UI test controls directly
 
-With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as [HtmlList](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.htmlcontrols.htmllist.aspx) or [WinComboBox](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.wincontrols.wincombobox.aspx), you can get or set their property values directly. The following code shows some examples:
+With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as [HtmlList](xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList) or [WinComboBox](xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox), you can get or set their property values directly. The following code shows some examples:
 
  ```csharp
  int i = myHtmlList.ItemCount;
@@ -437,7 +441,7 @@ You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filt
 
 - [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
 
-- [How to: Set up your test agent to run tests that interact with the desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
+- [How to: Set up your test agent to run tests that interact with the desktop](https://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
 
 **Adding support for custom controls:**  The coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a coded UI test of the UI for Microsoft Excel. However, you can create an extension to the coded UI testing framework that will support a custom control.
 

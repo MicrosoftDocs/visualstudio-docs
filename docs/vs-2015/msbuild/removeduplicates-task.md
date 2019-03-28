@@ -1,14 +1,9 @@
 ---
 title: "RemoveDuplicates Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#RemoveDuplicates"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 481cbab6-73ff-488c-aba5-2c09f9eb1e04
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # RemoveDuplicates Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +68,3 @@ Removes duplicate items from the specified item collection.
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

@@ -171,7 +171,7 @@ namespace NorthwindClient
         {
         }
 
-        // Public constructors with propeties.
+        // Public constructors with properties.
         public CustomerAddress(
         string customerID,
         string address,

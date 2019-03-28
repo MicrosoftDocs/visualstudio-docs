@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Controlling the Visibility of an Icon or Decorator
 A *decorator* is an icon or line of text that appears on a shape in a domain-specific language (DSL). You can make the decorator appear and disappear depending on the state of properties in the model. For example, on a shape representing a Person, you could have different icons that appear depending on the person's gender, number of children, and so on.

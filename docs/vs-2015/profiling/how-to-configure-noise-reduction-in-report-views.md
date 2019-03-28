@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure Noise Reduction in Report Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.noisereduction.dialog"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "profiling tools, folding"
 ms.assetid: b07e0375-bb73-47e3-8d1d-b9b492fb16c9
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Configure Noise Reduction in Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ Performance reports can be configured for noise reduction by limiting the amount
  [How to: Exclude or Include Short Functions from Instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)   
  [Call Tree View](../profiling/call-tree-view.md)   
  [Allocations View](../profiling/dotnet-memory-allocations-view.md)
-
-
-

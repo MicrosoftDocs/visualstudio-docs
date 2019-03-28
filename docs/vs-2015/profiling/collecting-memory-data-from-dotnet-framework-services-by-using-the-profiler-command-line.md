@@ -1,19 +1,14 @@
 ---
 title: "Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: b1361333-8a09-4a65-87a9-4ac94ceb2d9f
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ This section describes the procedures and options for collecting memory allocati
   
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control packages, interfaces"
   - "interfaces, source control packages"
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ This section lists all the source control VSPackage-related interfaces in the [!
   
 ## See Also  
  [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: fb222cc5-8aeb-4b94-8c49-b93e342f5f69
 caps.latest.revision: 36
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Installer for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ Any ClickOnce application based on an .exe file can be silently installed and up
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<entryPoint> Element](../deployment/entrypoint-element-clickonce-application.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "How to: Create a .Vsct File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, creating"
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Create a .Vsct File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -99,4 +94,3 @@ There are several ways to create an XML-based Visual Studio Command Table config
  [How to: Create a .Vsct File from an Existing .Ctc File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file.md)   
  [How to: Create a .Vsct File from an Existing .Cto File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md)   
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)
-

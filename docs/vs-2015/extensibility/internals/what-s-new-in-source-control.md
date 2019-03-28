@@ -1,23 +1,19 @@
 ---
-title: "What&#39;s New in Source Control | Microsoft Docs"
-ms.custom: ""
+title: "What's New in Source Control"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "what's new [Visual Studio SDK], source control"
   - "source control [Visual Studio SDK], what's new"
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
 caps.latest.revision: 28
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
-# What&#39;s New in Source Control
+# What&#39;s New in Source Control in Visual Studio 2015
+
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 In [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  
@@ -50,4 +46,3 @@ In [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] you can provide a deeply in
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>   
  [Overview](../../extensibility/internals/source-control-integration-overview.md)   
  [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
-

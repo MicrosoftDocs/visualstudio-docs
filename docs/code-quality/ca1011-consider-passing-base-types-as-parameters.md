@@ -1,8 +1,6 @@
 ---
 title: "CA1011: Consider passing base types as parameters"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "ConsiderPassingBaseTypesAsParameters"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ce1e1241-dcf4-419b-9363-1d5bc4989279
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

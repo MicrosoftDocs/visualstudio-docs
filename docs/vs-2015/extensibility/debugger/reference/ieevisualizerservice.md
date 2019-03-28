@@ -1,22 +1,17 @@
 ---
 title: "IEEVisualizerService | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerService"
 helpviewer_keywords: 
   - "IEEVisualizerService interface"
 ms.assetid: 3bdb124b-c582-47ba-b465-13c6a1cdb702
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEEVisualizerService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ IEEVisualizerService : IUnknown
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

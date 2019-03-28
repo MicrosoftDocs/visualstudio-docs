@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Responding to and Propagating Changes
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.
@@ -26,7 +24,7 @@ When an element is created, deleted or updated, you can write code that propagat
 |Rules|You can define rules that are queued for execution just before the end of a transaction in which a change has happened. They are not executed on Undo or Redo. Use them to keep one part of the store in synch with another.|[Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md)|
 |Store Events|The modeling store provides notifications of events such as adding or deleting an element or link, or changing the value of a property. The event is also executed on Undo and Redo. Use store events to update values that are not in the store.|[Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)|
 |.NET Events|Shapes have event handlers that respond to mouse clicks and other gestures. You have to register for these events for each object. Registration is typically done in an override of InitializeInstanceResources, and must be done for each element.<br /><br /> These events usually occur outside a transaction.|[How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)|
-|Bounds Rules|A bounds rule is used specifically to constrain the bounds of a shape.|[BoundsRules Constrain Shape Location and Size](../modeling/boundsrules-constrain-shape-location-and-size.md)|
+|Bounds Rules|A bounds rule is used specifically to constrain the bounds of a shape.|[BoundsRules Constrain Shape Location and Size](/visualstudio/modeling/boundsrules-constrain-shape-location-and-size?view=vs-2015)|
 |Selection rules|Selection rules specifically constrain what the user can select.|[How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)|
 |OnAssocatedPropertyChanged|Indicate the model elements' states using features of shapes and connectors such as shadow, arrowheads, color, and line widths and style.|[Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)|
 
@@ -41,11 +39,11 @@ When an element is created, deleted or updated, you can write code that propagat
 
 -   **Subscribing to Events** Before you can subscribe to an event, create an event handler and delegate. Then use the <xref:Microsoft.VisualStudio.Modeling.Store.EventManagerDirectory%2A>property to subscribe to the event. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
 
--   **Undoing Changes** When you undo a transaction, events are raised, but rules are not applied. If a rule changes a value and you undo that change, the value is reset to the original value during the undo action. When an event is raised, you must manually change the value back to its original value. To learn more about transactons and undo, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
+-   **Undoing Changes** When you undo a transaction, events are raised, but rules are not applied. If a rule changes a value and you undo that change, the value is reset to the original value during the undo action. When an event is raised, you must manually change the value back to its original value. To learn more about transactions and undo, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
 
 -   **Passing Event Arguments to Rules and Events** Both events and rules are passed an `EventArgs` parameter that has information about how the model changed.
 
 ## See Also
 
 - [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

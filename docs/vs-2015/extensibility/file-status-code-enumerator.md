@@ -1,14 +1,9 @@
 ---
 title: "File Status Code Enumerator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "named constants, SccStatus enumerator"
   - "source control plug-ins, file status enumeration"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "file status code enumerator"
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # File Status Code Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,4 +103,3 @@ enum SccStatus {
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccQueryInfo](../extensibility/sccqueryinfo-function.md)   
  [POPLISTFUNC](../extensibility/poplistfunc.md)
-

@@ -1,12 +1,9 @@
 ---
 title: "Installing database systems, tools, and samples | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Installing database systems, tools, and samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,12 +26,12 @@ Visual Studio itself does not include any database systems other than those it u
   
  For SQL development, ensure that you have SQL Server Data Tools installed in Visual Studio. Click the **View** menu. If you don't see SQL Server Object Explorer, go to Control Panel and change Visual Studio. In the installer, select **Microsoft SQL Server Data Tools**.  
   
- If you are using Azure Storage APIs,   install the Azure storage emulators on your local machine during development in order to avoid charges until you are ready to deploy to production. For more information, see [Use the Azure Storage Emulator for Development and Testing](https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/).  
+ If you are using Azure Storage APIs,   install the Azure storage emulators on your local machine during development in order to avoid charges until you are ready to deploy to production. For more information, see [Use the Azure Storage Emulator for Development and Testing](https://azure.microsoft.com/documentation/articles/storage-use-emulator/).  
   
  The following list includes some of the more popular database systems that can be used in Visual Studio projects. The list is not exhaustive. For a list of third-party vendors that offer ADO.NET data providers that enable deep integration with Visual Studio tooling, see [ADO.NET Data Providers](https://msdn.microsoft.com/library/dd363565.aspx).  
   
 ### Microsoft SQL Server  
- SQL Server is the Microsoft flagship database offering. SQL Server 2016 delivers breakthrough performance, advanced security, and rich, integrated reporting and analytics. It ships in various editions that are designed for different uses: from highly scalable, high-performance business analytics, to use on a single computer. SQL Server Express is a full-featured edition of SQL Server that is tailored for redistribution and embedding.  LocalDB is a simplified edition of SQL Server Express that requires no configuration and runs in your application's process. You can download either or both products from [the SQL Server Express download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx).    Many of the SQL examples in this section use SQL Server LocalDB. SQL Server Management Studio (SSMS) is a stand-alone database management application that has more functionality than what is provided in Visual Studio SQL Server Object Explorer. You can get SSMS from the previous link.  
+ SQL Server is the Microsoft flagship database offering. SQL Server 2016 delivers breakthrough performance, advanced security, and rich, integrated reporting and analytics. It ships in various editions that are designed for different uses: from highly scalable, high-performance business analytics, to use on a single computer. SQL Server Express is a full-featured edition of SQL Server that is tailored for redistribution and embedding.  LocalDB is a simplified edition of SQL Server Express that requires no configuration and runs in your application's process. You can download either or both products from [the SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express). Many of the SQL examples in this section use SQL Server LocalDB. SQL Server Management Studio (SSMS) is a stand-alone database management application that has more functionality than what is provided in Visual Studio SQL Server Object Explorer. You can get SSMS from the previous link.  
   
 ### Oracle  
  You can download a paid or free edition of the Oracle database from the [Oracle Technology Network](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html) page. For design-time support for Entity Framework and TableAdapters, you will need the [Oracle Developer Tools for Visual Studio](http://www.oracle.com/technetwork/developer-tools/visual-studio/overview/index.html). Other official Oracle products, including the Oracle Instant Client, are available through the NuGet Package Manager.  You can download Oracle sample schemas by following the instructions in the [Oracle Online Documentation](http://docs.oracle.com/cd/E11882_01/server.112/e10831/toc.htm).  
@@ -53,4 +50,3 @@ Visual Studio itself does not include any database systems other than those it u
   
 ## See Also  
  [How to determine the version and edition of SQL Server and its components](http://support.microsoft.com/kb/321185)
-

@@ -1,21 +1,16 @@
 ---
 title: "Strings Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "Strings element (VSCT XML schema)"
   - "VSCT XML schema elements, Strings"
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Strings Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ The Strings element must contain at least a **ButtonText** child element. All ot
   
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

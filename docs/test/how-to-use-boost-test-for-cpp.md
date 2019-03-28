@@ -1,12 +1,10 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio"
+title: "How to use Boost.Test for C++"
 ms.date: 01/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
@@ -26,11 +24,11 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. Install the Boost.Test dynamic or static library:
 
-	- Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
+    - Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
 
-	   -OR-
+       -OR-
 
-	- Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
+    - Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
 
 1. Run **vcpkg integrate install** to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
@@ -109,12 +107,12 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 
 BOOST_AUTO_TEST_CASE(my_boost_test)
 {
-	std::string expected_value = "Bill";
+    std::string expected_value = "Bill";
 
     // assume MyClass is defined in MyClass.h
     // and get_value() has public accessibility
     MyClass mc;
-	BOOST_CHECK(expected_value == mc.get_value());
+    BOOST_CHECK(expected_value == mc.get_value());
 }
 ```
 

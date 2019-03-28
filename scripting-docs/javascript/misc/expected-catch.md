@@ -1,14 +1,9 @@
 ---
-title: "Expected &#39;catch&#39; | Microsoft Docs"
-ms.custom: ""
+title: "Expected 'catch' | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1033"
 dev_langs: 
@@ -16,12 +11,11 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: f1cd947f-eba2-411e-8e84-8ca86f608643
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;catch&#39;
+# Expected 'catch'
 You used the exception handling **try** block, but did not write the associated **catch** statement. The exception handling mechanism requires that the code that can fail, along with the code that should not execute if an exception occurs, be wrapped inside a **try** block. Exceptions are thrown from within the **try** block using the **throw** statement, and caught outside the **try** block with one or more **catch** statements.  
   
 ### To correct this error  

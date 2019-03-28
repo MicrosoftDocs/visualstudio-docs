@@ -1,22 +1,17 @@
 ---
 title: "SccOpenProject Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccOpenProject"
 helpviewer_keywords: 
   - "SccOpenProject function"
 ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccOpenProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,4 +109,3 @@ SCCRTN SccOpenProject (
  [SccUninitialize](../extensibility/sccuninitialize-function.md)   
  [Restrictions on String Lengths](../extensibility/restrictions-on-string-lengths.md)   
  [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)
-

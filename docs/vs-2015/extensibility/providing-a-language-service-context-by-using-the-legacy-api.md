@@ -1,20 +1,15 @@
 ---
 title: "Providing a Language Service Context by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - language service context"
 ms.assetid: daa2df22-9181-4bad-b007-a7d40302bce1
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Providing a Language Service Context by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ There are two options for a language service to provide user context using the [
   
 ## Context Guidelines for Editors and Designers  
  Designers and editors must supply a general keyword for the editor or designer window. This is done so that a generic, but appropriate, Help topic will display for the designer or editor when a user presses F1. An editor must, in addition to this, supply the current keyword at the cursor or supply a key term based on the current selection. This is done to ensure that a Help topic for the text or UI element pointed to or selected displays when the user presses F1. A designer supplies context for an item selected in a designer, such as a button on a form. Editors and designers must also connect to a language service as outlined in [Legacy Language Service Essentials](../extensibility/internals/legacy-language-service-essentials.md).
-

@@ -1,14 +1,9 @@
 ---
 title: "Error: Workgroup Remote Logon Failure | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "remote debugging, logon failure"
 ms.assetid: 7be2c5bb-40fe-48d6-8cfc-c231fbd3d64e
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Workgroup Remote Logon Failure
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ This error reads:
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

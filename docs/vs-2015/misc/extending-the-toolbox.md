@@ -1,20 +1,15 @@
 ---
 title: "Extending the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tools [Visual Studio], Toolbox"
   - "Toolbox [Visual Studio SDK]"
 ms.assetid: bb84a79e-cd4c-4a58-8871-2513e7119b6e
 caps.latest.revision: 38
-manager: "douge"
+manager: jillfra
 ---
 # Extending the Toolbox
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox** provides a collection of objects that provide functionality to editors and designers through the IDE's drag-and-drop mechanism.  
@@ -36,7 +31,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox** provides a collecti
  Describes how a VSPackage can manage the content and appearance of the **Toolbox**.  
   
 ## Related Sections  
- [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+ [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
  Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE).  
   
  [How to: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  

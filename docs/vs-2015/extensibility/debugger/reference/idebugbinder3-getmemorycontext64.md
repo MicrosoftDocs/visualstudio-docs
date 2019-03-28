@@ -1,21 +1,16 @@
 ---
 title: "IDebugBinder3::GetMemoryContext64 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "GetMemoryContext64"
   - "IDebugBinder3::GetMemoryContext64"
 ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBinder3::GetMemoryContext64
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -129,4 +124,3 @@ HRESULT CValueProperty::GetMemoryContext ( IDebugMemoryContext2** out_ppMemoryCo
   
 ## See Also  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
-

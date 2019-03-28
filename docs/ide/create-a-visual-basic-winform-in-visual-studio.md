@@ -1,16 +1,14 @@
 ---
-title: "Create a Windows Forms app in Visual Studio with Visual Basic"
+title: "Create a Windows Forms app with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
-ms.custom: ""
-ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
-ms.topic: conceptual
+ms.date: 03/23/2019
+ms.topic: tutorial
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.devlang: vb
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - vb
 ms.workload:
@@ -20,11 +18,26 @@ ms.workload:
 
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+
+> [!NOTE]
+> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
+
+::: moniker-end
 
 ## Create a project
 
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything.
+
+::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017.
 
@@ -36,6 +49,41 @@ First, you'll create a Visual Basic application project. The project type comes 
 
      ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > 
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
 ## Create the application
 
 After you select your Visual Basic project template and name your file, Visual Studio opens a form for you. A form is a Windows user interface. We'll create a "Hello World" application by adding controls to the form, and then we'll run the application.
@@ -46,16 +94,17 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)
 
-     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open by pressing **Ctrl**+**Alt**+**X**.)
 
 2. Click the **Pin** icon to dock the **Toolbox** window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)
+
 3. Click the **Button** control and then drag it onto the form.
 
      ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
 
-4. In the **Appearance** section of the **Properties** window, type `Click this`, and then press **Enter**.
+4. In the **Appearance** section (or the **Fonts** section) of the **Properties** window, type `Click this`, and then press **Enter**.
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)
 
@@ -79,7 +128,7 @@ Now that we've added a button control to create an action, let's add a label con
 
       (Alternatively, you can expand **Form1.vb** in **Solution Explorer**, and then click **Form1**.)
 
-2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
+2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line (or between the **Public Class Form1** line and the **End Class** line), type the following code.
 
      ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
 

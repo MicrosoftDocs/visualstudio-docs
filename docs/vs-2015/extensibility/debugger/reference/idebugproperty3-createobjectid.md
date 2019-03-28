@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty3::CreateObjectID | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3::CreateObjectID"
 helpviewer_keywords: 
   - "IDebugProperty3::CreateObjectID"
 ms.assetid: f2fa81e7-822f-456e-8729-a96a18eea771
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty3::CreateObjectID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int CreateObjectID();
 ## See Also  
  [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)   
  [DestroyObjectID](../../../extensibility/debugger/reference/idebugproperty3-destroyobjectid.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Extending JavaScript IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "JavaScript, intellisense object"
   - "extending JavaScript IntelliSense"
@@ -19,7 +14,7 @@ ms.assetid: 004e1ab6-bd7a-4327-9e01-89b9be96ba2f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Extending JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -547,6 +542,3 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   
  [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)
-
-
-

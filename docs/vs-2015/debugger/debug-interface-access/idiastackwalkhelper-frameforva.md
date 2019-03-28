@@ -1,23 +1,18 @@
 ---
 title: "IDiaStackWalkHelper::frameForVA | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkHelper2::frameForVA method"
 ms.assetid: f35fc61b-f8dd-473a-b583-82c304059422
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaStackWalkHelper::frameForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ HRESULT frameForVA( 
 ## See Also  
  [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)   
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
-
-
-

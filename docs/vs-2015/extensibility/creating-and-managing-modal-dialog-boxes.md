@@ -1,20 +1,15 @@
 ---
 title: "Creating and Managing Modal Dialog Boxes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "dialog boxes, managing in Visual Studio"
 ms.assetid: 491bc0de-7dba-478c-a76b-923440e090f3
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating and Managing Modal Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -127,4 +122,3 @@ When you create a modal dialog box inside Visual Studio, you must make sure that
     ```  
   
 7.  Build and run the application. On the **Tools** menu you should see a command named **Invoke OpenDialog**. When you click this command, you should see the dialog window.
-

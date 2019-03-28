@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_editAndContinueEnabled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_editAndContinueEnabled method"
 ms.assetid: cd703c64-9ff8-4654-8493-8cde9309cb22
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_editAndContinueEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ HRESULT get_editAndContinueEnabled ( 
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [/Z7, /Zi, /ZI (Debug Information Format)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)
-
-
-

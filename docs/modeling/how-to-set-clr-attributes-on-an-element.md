@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Set CLR Attributes on an Element
 Custom attributes are special attributes that can be added to domain elements, shapes, connectors, and diagrams. You can add any attribute that inherits from the `System.Attribute` class.
@@ -39,4 +37,4 @@ Custom attributes are special attributes that can be added to domain elements, s
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

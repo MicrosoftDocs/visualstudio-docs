@@ -1,14 +1,9 @@
 ---
 title: "LC Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#LC"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # LC Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +27,7 @@ manager: "ghogen"
 Wraps LC.exe, which generates a .license file from a .licx file. For more information on LC.exe, see [Lc.exe (License Compiler)](http://msdn.microsoft.com/library/2de803b8-495e-4982-b209-19a72aba0460).  
   
 ## Parameters  
- The following table describes the paramters for the `LC` task.  
+ The following table describes the parameters for the `LC` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -72,6 +67,3 @@ Wraps LC.exe, which generates a .license file from a .licx file. For more inform
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

@@ -1,14 +1,10 @@
 ---
 title: "Setup, install, and verifications for Mac users | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
 caps.latest.revision: 14
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Setup, install, and verifications for Mac users
@@ -51,7 +47,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 ##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)  
   
-1.  Using the Windows desktop that you’ve configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.  
+1.  Using the Windows desktop that you’ve configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.  
   
 2.  Within the installer, select a **Custom** install:  
   
@@ -132,4 +128,3 @@ This topic is meant for developers working primarily on a Mac who will optionall
    3.  Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio.  
   
         ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")
-

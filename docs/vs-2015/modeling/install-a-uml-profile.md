@@ -1,19 +1,16 @@
 ---
 title: "Install a UML profile | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML - extending, profiles"
 ms.assetid: 586f9ba5-4d01-4a1d-b001-32e2efaa4f24
 caps.latest.revision: 13
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Install a UML profile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +42,3 @@ You can extend Visual Studio with a UML profile. A profile lets you add stereoty
 ## See Also  
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)
-
-
-

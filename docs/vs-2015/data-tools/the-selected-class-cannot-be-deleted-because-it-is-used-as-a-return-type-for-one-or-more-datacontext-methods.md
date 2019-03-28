@@ -1,17 +1,14 @@
 ---
 title: "The selected class cannot be deleted because it is used as a return type for one or more DataContext methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,4 +29,3 @@ The return type of one or more <xref:System.Data.Linq.DataContext> methods is th
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [How to: Change the return type of a DataContext method (O/R Designer)](../data-tools/how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md)
-

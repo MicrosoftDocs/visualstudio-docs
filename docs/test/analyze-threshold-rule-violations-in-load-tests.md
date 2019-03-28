@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Threshold Rule Violations in Load Tests in Visual Studio"
+title: "Analyzing Threshold Rule Violations in Load Tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: 969ed346-cf2e-4d48-82b3-edb3e075e1c0
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Analyzing threshold rule violations in load tests Using the Load Test Analyzer
 
 Threshold rules are associated with specific performance counters, and violations indicate that a performance counter exceeded or fell below a set value. When you run a load test, you can analyze violations that occur for the threshold rules you set up previously.
 
 If any violations occurred, a **threshold violations** hyperlink appears on the **Load Test Analyzer** status bar and specifies the number of violations that occurred. You choose the hyperlink to display the threshold violations table. You can also view threshold violations in the **Counters** window, and on the graph.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## View threshold violations in the table
 
@@ -61,8 +61,6 @@ If any violations occurred, a **threshold violations** hyperlink appears on the 
  Optionally, threshold violations can be shown on the graph also. The threshold icon appears on the graph next to the data point where the threshold violation occurred.
 
  In the counter tree, the icon for a threshold violation is propagated from the specific counter node, up to the root node. This alerts you to a violation on a counter that may not be visible in the tree because the tree has not been expanded.
-
- For more information, see [Using the Counters panel in Graphs view and Tables view](../test/counters-panel-in-load-test-analyzer.md).
 
 ## View threshold violations on the graph
 

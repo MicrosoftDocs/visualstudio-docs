@@ -1,20 +1,15 @@
 ---
 title: "Project Priority | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Priority
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ A project item usually is a member of only one project in the solution. Therefor
  [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md)   
  [How to: Open Editors for Open Documents](../../extensibility/how-to-open-editors-for-open-documents.md)   
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
-

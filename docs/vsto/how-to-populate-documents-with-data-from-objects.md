@@ -1,9 +1,6 @@
 ---
 title: "How to: Populate documents with data from objects"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -11,9 +8,9 @@ dev_langs:
 helpviewer_keywords:
   - "documents [Office development in Visual Studio], populating with data"
   - "data [Office development in Visual Studio], adding to documents"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -1,8 +1,6 @@
 ---
 title: "Persisting the Property of a Project Item | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "properties, adding to a project item"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

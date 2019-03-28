@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "text templates, custom directive hosts"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Process Text Templates by using a Custom Host
 

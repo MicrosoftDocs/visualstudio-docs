@@ -1,10 +1,9 @@
 ---
-title: "Remove Visual Studio 2017 | Microsoft Docs"
+title: "Remove Visual Studio"
+titleSuffix: ""
 description: "Learn how to completely remove Visual Studio from your computer, step-by-step."
-ms.custom: ""
 ms.date: 09/12/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
   - "uninstall"
@@ -18,13 +17,15 @@ f1_keywords:
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: heaths
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Remove Visual Studio
 
-If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 and newer. Running this tool is to be done as a last resort if repair or uninstall fail, and may uninstall features from other Visual Studio installations or other products which need to be repaired.
+If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 and later versions. Running this tool is to be done as a last resort if repair or uninstall fail, and may uninstall features from other Visual Studio installations or other products which need to be repaired.
 
 In the instructions below, you can run the tool with different command-line switches with the following behavior:
 
@@ -49,7 +50,7 @@ If you do not find `InstallCleanup.exe` under the Visual Studio Installer direct
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Modify Visual Studio 2017](modify-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Modify Visual Studio](modify-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)

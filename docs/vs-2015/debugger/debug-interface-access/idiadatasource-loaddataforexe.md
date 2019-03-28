@@ -1,23 +1,18 @@
 ---
 title: "IDiaDataSource::loadDataForExe | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaDataSource::loadDataForExe method"
 ms.assetid: d94a1068-f53f-44b5-b6fb-00dec361a7f2
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaDataSource::loadDataForExe
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -95,6 +90,3 @@ if (FAILED(hr))
  [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)   
  [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)   
  [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
-
-
-

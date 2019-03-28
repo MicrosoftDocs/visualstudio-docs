@@ -1,14 +1,9 @@
 ---
 title: "ClickOnce Cache Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: e379921e-9ef1-4326-bbf3-53ba67925526
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # ClickOnce Cache Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, whether
   
 ## See Also  
  [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
-
-
-

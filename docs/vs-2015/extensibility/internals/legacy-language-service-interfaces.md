@@ -1,21 +1,16 @@
 ---
 title: "Legacy Language Service Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IVsLanguageInfo interface"
   - "language services, objects"
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Legacy Language Service Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ For any particular programming language, there can be only one instance of a lan
 ## See Also  
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)   
  [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)
-

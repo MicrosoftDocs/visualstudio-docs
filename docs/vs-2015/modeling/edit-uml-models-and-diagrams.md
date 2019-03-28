@@ -1,12 +1,9 @@
 ---
 title: "Edit UML models and diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.modelingproject"
   - "vs.teamarch.UMLModelExplorer"
@@ -21,9 +18,9 @@ helpviewer_keywords:
   - "UML, diagrams"
 ms.assetid: 87affd40-8127-4ee9-9d3a-ad977abe2ed6
 caps.latest.revision: 86
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Edit UML models and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -339,6 +336,3 @@ You can create and edit a UML model through the views provided by several differ
  [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

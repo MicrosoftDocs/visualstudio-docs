@@ -1,14 +1,9 @@
 ---
 title: "A DCOM error occurred trying to contact the remote computer. Access is denied. | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.remote.dcom_access_denied"
 dev_langs: 
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "DCOM, access errors"
 ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

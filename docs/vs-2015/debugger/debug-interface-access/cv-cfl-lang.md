@@ -1,23 +1,18 @@
 ---
 title: "CV_CFL_LANG | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "CV_CFL_LANG enumeration"
 ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CV_CFL_LANG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ typedef enum CV_CFL_LANG { 
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)
-
-
-

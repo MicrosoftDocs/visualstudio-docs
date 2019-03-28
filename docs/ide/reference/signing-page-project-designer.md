@@ -1,8 +1,6 @@
 ---
 title: Signing Page, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.AddNewStrongNameKey"
@@ -18,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

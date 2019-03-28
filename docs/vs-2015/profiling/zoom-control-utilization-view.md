@@ -1,23 +1,18 @@
 ---
 title: "Zoom Control (Utilization View) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.cpu.zoom"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Zoom Control (CPU Utilization View)"
 ms.assetid: 8aeff804-0183-4588-8218-52e107a5382e
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Zoom Control (Utilization View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,6 +23,3 @@ The zoom control helps you zoom in on the CPU utilization chart in order to focu
   
 ## See Also  
  [Utilization View](../profiling/utilization-view.md)
-
-
-

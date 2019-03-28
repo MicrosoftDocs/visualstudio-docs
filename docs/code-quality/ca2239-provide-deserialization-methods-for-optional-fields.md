@@ -1,8 +1,6 @@
 ---
 title: "CA2239: Provide deserialization methods for optional fields"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2239"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6480ff5e-0caa-4707-814e-2f927cdafef5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

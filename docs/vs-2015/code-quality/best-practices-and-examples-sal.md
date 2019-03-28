@@ -1,19 +1,14 @@
 ---
 title: "Best Practices and Examples (SAL) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 666276fb-99c2-4dc9-8bac-d74861c203ea
 caps.latest.revision: 14
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Best Practices and Examples (SAL)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -248,6 +243,3 @@ _Ret_maybenull_ void *MightReturnNullPtr2();
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)
-
-
-

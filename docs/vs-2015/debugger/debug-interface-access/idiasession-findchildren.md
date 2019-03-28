@@ -1,23 +1,18 @@
 ---
 title: "IDiaSession::findChildren | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::findChildren method"
 ms.assetid: 5d19046f-f668-4aa9-8788-95cda9a98997
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSession::findChildren
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -70,6 +65,3 @@ pSession->findChildren( pFunc, SymTagData, szVarName, nsCaseSensitive, &pEnum );
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
-
-
-

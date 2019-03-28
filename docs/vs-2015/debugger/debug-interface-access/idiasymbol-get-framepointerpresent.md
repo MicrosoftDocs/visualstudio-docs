@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_framePointerPresent | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_framePointerPresent method"
 ms.assetid: d036090a-1651-454d-9130-b798f58ba053
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_framePointerPresent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ HRESULT get_framePointerPresent( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

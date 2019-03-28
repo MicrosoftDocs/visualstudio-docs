@@ -1,15 +1,13 @@
 ---
 title: Options Dialog Box, Projects and Solutions, Web Projects
 ms.date: 07/14/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.WebProjects"
 ms.assetid: ea813046-1ae6-4c9f-9784-dc41494101b9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -18,9 +16,6 @@ ms.workload:
 Sets the web server that web projects will use for development within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
 
 By default, running a web project in Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](/previous-versions/aspnet/58wxa9w5\(v\=vs.120\)).
-
-> [!NOTE]
-> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **Web settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Settings
 

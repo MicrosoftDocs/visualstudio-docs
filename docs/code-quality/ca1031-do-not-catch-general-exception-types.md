@@ -1,8 +1,6 @@
 ---
 title: "CA1031: Do not catch general exception types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1031"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cbc283ae-2a46-4ec0-940e-85aa189b118f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

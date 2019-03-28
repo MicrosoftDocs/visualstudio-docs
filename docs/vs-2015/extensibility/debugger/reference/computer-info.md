@@ -1,20 +1,15 @@
 ---
 title: "COMPUTER_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "COMPUTER_INFO structure"
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # COMPUTER_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ public struct COMPUTER_INFO
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)
-

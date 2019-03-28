@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Well-known Item Metadata | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Well-known Item Metadata
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ The following table describes the metadata assigned to every item upon creation.
  [Items](../msbuild/msbuild-items.md)   
  [Batching](../msbuild/msbuild-batching.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-
-

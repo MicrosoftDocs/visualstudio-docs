@@ -1,21 +1,16 @@
 ---
 title: "Caller - Callee View -  Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Caller/Callee view"
 ms.assetid: a18a1b1b-9b39-43c7-b1f3-708fd20376f6
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Caller / Callee View -  Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ The Caller/Callee view displays contention information for a selected function a
  [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   
  [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
  [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)
-
-
-

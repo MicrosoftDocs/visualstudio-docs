@@ -1,14 +1,9 @@
 ---
 title: "Supplying XML Code Comments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vc.tools.viewing.comments"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: f36b46af-443a-4fa6-a2c3-0c4962bbd4aa
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Supplying XML Code Comments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ You can make the comments in source code files available as IntelliSense. When y
   
 ## See Also  
  [Using IntelliSense](../ide/using-intellisense.md)
-
-
-

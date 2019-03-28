@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_type method"
 ms.assetid: 1c6a4176-dd4e-4c22-8b8f-0e559fc078ba
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ if (SUCCEEDED(pType->get_type( &pBaseType ))) {
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)   
  [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
-
-
-

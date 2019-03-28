@@ -1,22 +1,17 @@
 ---
 title: "IDebugBinder3::GetAllAliases | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3::GetAllAliases"
 helpviewer_keywords: 
   - "IDebugBinder3::GetAllAliases method"
 ms.assetid: 1f9ab2ee-2ab3-4a61-8b99-95dd7fdf3511
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBinder3::GetAllAliases
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ int GetAllAliases(
   
 ## See Also  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
-

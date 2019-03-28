@@ -1,5 +1,5 @@
 ---
-title: "Configure Network Emulation Using Test Settings in Visual Studio"
+title: "Configure Network Emulation Using Test Settings"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Configure network emulation using test settings in Visual Studio
 
@@ -18,7 +16,9 @@ You can configure the diagnostic data adapter to test your application under var
 > [!WARNING]
 > If you run your tests on a real network that is a slower type than the network you are emulating, the test will still run at the slower network speed. The emulation can only slow down the network environment, not speed it up.
 
- The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in Microsoft Test Manager and Visual Studio.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in Microsoft Test Manager and Visual Studio.
 
 > [!NOTE]
 > The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager.
@@ -28,9 +28,9 @@ An account that has administrator privileges must be used for network emulation.
 > [!NOTE]
 > The Network Service account, which is the default account for the test agent, is not a member of the administrators group.
 
- **True Network Emulation**
+**True Network Emulation**
 
- Visual Studio uses software-based true network emulation for all test types. This includes load tests. True network emulation simulates network conditions by direct manipulation of the network packets. The true network emulator can emulate the behavior of both wired and wireless networks by using a reliable physical link, such as an Ethernet. The following network attributes are incorporated into true network emulation:
+Visual Studio uses software-based true network emulation for all test types. This includes load tests. True network emulation simulates network conditions by direct manipulation of the network packets. The true network emulator can emulate the behavior of both wired and wireless networks by using a reliable physical link, such as an Ethernet. The following network attributes are incorporated into true network emulation:
 
 - Round-trip time across the network (latency)
 
@@ -44,12 +44,13 @@ An account that has administrator privileges must be used for network emulation.
 
 - Error propagations.
 
-  True network emulation also provides flexibility in filtering network packets based on IP addresses or protocols such as TCP, UDP, and ICMP.
+True network emulation also provides flexibility in filtering network packets based on IP addresses or protocols such as TCP, UDP, and ICMP.
 
-  True network emulation can be used by network-based developers and testers to emulate a desired test environment, assess performance, predict the effect of change, or make decisions about technology optimization. When compared to hardware test beds, true network emulation is a much cheaper and more flexible solution.
+True network emulation can be used by network-based developers and testers to emulate a desired test environment, assess performance, predict the effect of change, or make decisions about technology optimization. When compared to hardware test beds, true network emulation is a much cheaper and more flexible solution.
 
 ## Configure network emulation for your test settings
- Before you perform the steps in this procedure, you must open your test settings from Visual Studio and then select the **Data and Diagnostics** page.
+
+Before you perform the steps in this procedure, you must open your test settings from Visual Studio and then select the **Data and Diagnostics** page.
 
 ### To configure network emulation for your test settings
 

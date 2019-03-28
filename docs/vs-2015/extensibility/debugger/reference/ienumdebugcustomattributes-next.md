@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugCustomAttributes::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumCustomAttributes::Next"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes::Next"
 ms.assetid: e36f856b-2619-42d1-b73e-4f2390fc22bd
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugCustomAttributes::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ int Next(
 ## See Also  
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)   
  [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
-

@@ -4,13 +4,10 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/13/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Volume License Service Center Admin Migration FAQs
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
-
 # Visual Studio subscriptions administration migration
 
 Over the next few months, changes are coming to the management of Visual Studio subscriptions (formerly MSDN Subscriptions). Today, you can purchase Visual Studio subscriptions through Volume Licensing and the subscriptions are managed within the Volume License Service Center portal (VLSC). A new management portal is being created and Visual Studio subscriptions will be managed in this new portal in the future. In addition to the existing operations provided by the VLSC, the new portal will allow bulk assignment with no limits, tracking and filtering of subscriptions, and the ability to utilize Azure Active Directory (Azure AD) to manage access. The new Visual Studio Administration Portal will be located at: [https://manage.visualstudio.com](https://manage.visualstudio.com).
@@ -33,7 +30,7 @@ This is a massive transition and will be completed in phases until all customers
 Your organization does not need to sign up for Azure AD, but you can do so at any time. If you choose to onboard to Azure AD, you can do so at no cost by using the free tier for Azure AD. With Azure Active Directory, you will be protecting your organization with increased security, control, and long-term reliability. However, if you are not ready for Azure AD, you will be able to continue using your Microsoft Accounts (MSAs) as you do today.
 
 ### How do I know when my organization will be migrated?
-Primary/Notices Contacts will receive an email from us inviting them to complete the onboarding process one week before your organization is migrated. Subscription Managers will also receive an email letting them know that we’ve contacted the Primary/Notices Contacts and provided details on how to help ensure successful onboarding. Learn how to [locate your organization’s Primary/Notices Contacts](#How-do-I-find-out-who-my-Primary-or-Notices-Contact-is?).
+Primary/Notices Contacts will receive an email from us inviting them to complete the onboarding process one week before your organization is migrated. Subscription Managers will also receive an email letting them know that we’ve contacted the Primary/Notices Contacts and provided details on how to help ensure successful onboarding. Learn how to [locate your organization’s Primary/Notices Contacts](#how-do-i-find-out-who-my-primary-or-notices-contact-is?).
 
 ### Is onboarding different from migration?
 Yes.  There are two phases in this process. Setting up (or onboarding) your organization in advance of migration ensures that there is no interruption in your work as an administrator. Once we migrate your organization’s information, you will then be able to manage Visual Studio subscriptions in the new portal. If the Primary/Notices Contacts don’t onboard before being migrated, the Subscription Managers will be blocked and will not be able to manage subscriptions until you complete the onboarding process.
@@ -41,21 +38,21 @@ Yes.  There are two phases in this process. Setting up (or onboarding) your orga
 ### What is the onboarding process?
 An email is sent to the Primary and Notices Contacts inviting them to complete the onboarding process.
 See below for instructions on the process.
-1.	**Locating your PCN and signing in:**
+1. **Locating your PCN and signing in:**
 
-    a.	In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN).*
+    a. In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN).*
 
-    b.	In order to obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found below).
+    b. In order to obtain the entire PCN, the Primary Contact will need to sign in to the VLSC (instructions for locating the PCN can be found below).
 
-    c.	After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on Azure AD) or a Microsoft Account (MSA) if your organization is not on Azure AD.
+    c. After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on Azure AD) or a Microsoft Account (MSA) if your organization is not on Azure AD.
 
-    d.	Next, they will be prompted to enter the PCN.
+    d. Next, they will be prompted to enter the PCN.
 
-2.	**Set up your administrators:**
+2. **Set up your administrators:**
 
     After entering the PCN, they will be taken to the page where they are able to add super admins and administrators (previously known as Subscription Managers). Ideally this should be completed prior to your organization’s migration date so you don’t have any interruption in managing your subscriptions.
 
-3.	**Accessing the new subscription management portal:**
+3. **Accessing the new subscription management portal:**
     Once your organization is migrated, emails will be sent to the super admins and administrators inviting them to access the new portal and begin managing subscriptions.
 
 > [!NOTE]

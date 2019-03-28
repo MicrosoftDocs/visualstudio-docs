@@ -2,15 +2,13 @@
 title: "Workflow Designer - Browse and Select a .NET Type Dialog Box"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "TypeBrowser.UI"
   - "ActivityTypeResolver.UI"
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -3,11 +3,9 @@ title: MSDN Magazine Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/13/2018
-ms.topic: Get-Started-Article
+ms.date: 12/19/2018
+ms.topic: conceptual
 description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -46,8 +44,8 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> |Printed edition       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Printed edition                                                            |No.  Available to new subscribers only         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> |Printed edition       |  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Printed edition                                                            |No.  Available to new subscribers only         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Printed edition                                             |  No.  Available to new subscribers only         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Printed edition                                              | No.  Available to new subscribers only         |
 |Visual Studio Enterprise, Visual Studio Professional (monthly cloud)   | Azure |Not available      |  NA         |
@@ -55,9 +53,12 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 
 <sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*
 
-*Digital Edition: MCT Software & Services, Microsoft Valued Professional (Professional), Region Director (RD).*
+*Digital Edition: MCT Software & Services, Most Valuable Professional (MVP), Regional Director (RD).*
 
 *Excludes:  Imagine (Standard), BizSpark, MCT Software & Services Developer*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

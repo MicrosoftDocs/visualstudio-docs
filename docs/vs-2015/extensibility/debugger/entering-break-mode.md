@@ -1,21 +1,16 @@
 ---
 title: "Entering Break Mode | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "break mode"
   - "debugging [Debugging SDK], entering break mode"
 ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Entering Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ The following describes the process that occurs when a breakpoint is encountered
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
-

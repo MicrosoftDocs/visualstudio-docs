@@ -1,14 +1,9 @@
 ---
 title: "FunctionType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "FunctionType symbol"
 ms.assetid: 646a07e7-9d4f-4e21-95e3-3e403cdd4843
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # FunctionType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ Each unique function signature is identified by a `SymTagFunctionType` symbol. E
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)   
  [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)   
  [FunctionArgType](../../debugger/debug-interface-access/functionargtype.md)
-
-
-

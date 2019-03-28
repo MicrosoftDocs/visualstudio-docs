@@ -1,14 +1,9 @@
 ---
 title: "How to: Start and End Performance Data Collection | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.summarypage"
 helpviewer_keywords: 
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "profiling tools, ending sessions"
 ms.assetid: 9f6eb0d5-d9e9-4bec-b627-445065610bce
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Start and End Performance Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ You must add the target binary that you want to profile to the performance sessi
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md)
-
-
-

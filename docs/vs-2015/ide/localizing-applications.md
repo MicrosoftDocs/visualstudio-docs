@@ -1,14 +1,9 @@
 ---
 title: "Localizing Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
   - "globalization [Visual Studio], localizing applications"
@@ -19,7 +14,7 @@ ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Localizing Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ manager: "ghogen"
   
  [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  Provides information on programming for an international audience, such as design issues and terminology.
-

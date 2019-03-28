@@ -28,20 +28,20 @@ Namespace SDKSample
 			AddHandler SignatureDef.Click, AddressOf SignatureDefinitionCommandHandler
 			AddHandler Sign.Click, AddressOf SignCommandHandler
 			AddHandler Done.Click, AddressOf DoneCommandHandler
-			_signatureUtilities = New SignatureUtilites()
+			_signatureUtilities = New SignatureUtilities()
 			InitializeSignatureDisplay()
 
 		End Sub
 		#End Region
 		#Region "Public Methods"
-		Public Function AddSignatureItem(ByVal signatureDefintion As XpsSignatureDefinition) As SignatureDisplayItem
+		Public Function AddSignatureItem(ByVal signatureDefinition As XpsSignatureDefinition) As SignatureDisplayItem
 			Dim item As New SignatureDisplayItem()
-			If signatureDefintion IsNot Nothing Then
-				item.Request = signatureDefintion.RequestedSigner
-				item.Intent = signatureDefintion.Intent
-				item.SignBy = signatureDefintion.SignBy.ToString()
-				item.Location = signatureDefintion.SigningLocale
-				item.SigId = signatureDefintion.SpotId
+			If signatureDefinition IsNot Nothing Then
+				item.Request = signatureDefinition.RequestedSigner
+				item.Intent = signatureDefinition.Intent
+				item.SignBy = signatureDefinition.SignBy.ToString()
+				item.Location = signatureDefinition.SigningLocale
+				item.SigId = signatureDefinition.SpotId
 			End If
 			Me.SignatureList.Items.Add(item)
 			Return item
@@ -138,7 +138,7 @@ Namespace SDKSample
 		End Function
 		#End Region ' Private Methods
 		#Region "Private Members"
-		Private _signatureUtilities As SignatureUtilites
+		Private _signatureUtilities As SignatureUtilities
 		Private _xpsDocument As XpsDocument
 		#End Region
 

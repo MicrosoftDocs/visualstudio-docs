@@ -1,8 +1,6 @@
 ---
 title: Rename and move classes and types in Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ClassDesigner.OverrideMembersDialog"
@@ -18,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -84,5 +82,4 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
 ## See also
 
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
-- [Designing Classes and Types](designing-classes-and-types.md)
+- [Designing Classes and Types](designing-and-viewing-classes-and-types.md)

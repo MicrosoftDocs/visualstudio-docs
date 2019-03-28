@@ -1,21 +1,16 @@
 ---
 title: "Handling Specialized Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "deploying applications [Visual Studio SDK]"
   - "specialized deployment"
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
 caps.latest.revision: 33
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Handling Specialized Deployment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -294,4 +289,3 @@ A deployment is an optional operation for projects. A Web project, for example, 
   
 ## See Also  
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)
-

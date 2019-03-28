@@ -1,21 +1,16 @@
 ---
 title: "RegPkg Utility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "regpkg, registration utility"
   - "registration, regpkg utility"
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # RegPkg Utility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 ## See Also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)   
  [Troubleshooting RegPkg Package Registration](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)
-

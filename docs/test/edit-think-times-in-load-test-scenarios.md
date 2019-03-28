@@ -1,5 +1,5 @@
 ---
-title: "Think Times for load testing in Visual Studio"
+title: "Think Times for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,19 +9,19 @@ helpviewer_keywords:
 ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Edit think times to simulate website human interaction delays in load tests scenarios
 
 Think times are used to simulate human behavior that causes people to wait between interactions with a website. Think times occur between requests in a web performance test and between test iterations in a load test scenario. Using think times in a load test can be useful in creating more accurate load simulations. You can change whether think times are used or ignored in load tests. You change whether think times are used in your load tests in the **Load Test Editor**.
 
- The *think profile* is a setting that applies to a scenario in a load test. The setting determines whether the think times that are saved in the individual web performance tests are used during the load test. If you want to use think times in some web performance tests but not in others, you must place them in different scenarios. For more information about scenarios, see [Edit load test scenarios](../test/edit-load-test-scenarios.md).
+The *think profile* is a setting that applies to a scenario in a load test. The setting determines whether the think times that are saved in the individual web performance tests are used during the load test. If you want to use think times in some web performance tests but not in others, you must place them in different scenarios. For more information about scenarios, see [Edit load test scenarios](../test/edit-load-test-scenarios.md).
 
- Initially, you set whether you use think times in your load tests when you create the load test using the **New Load Test Wizard**. For more information, see [Edit load test scenarios](../test/edit-load-test-scenarios.md).
+Initially, you set whether you use think times in your load tests when you create the load test using the **New Load Test Wizard**. For more information, see [Edit load test scenarios](../test/edit-load-test-scenarios.md).
 
- The **Think Profile** options are described in the following list:
+The **Think Profile** options are described in the following list:
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 **Off**
 

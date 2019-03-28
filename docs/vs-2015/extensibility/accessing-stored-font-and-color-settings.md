@@ -1,22 +1,17 @@
 ---
 title: "Accessing Stored Font and Color Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "fonts, accessing stored settings"
   - "font and color control [Visual Studio SDK], persistence"
   - "colors, accessing stored settings"
 ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Accessing Stored Font and Color Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environm
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>   
  [Implementing Custom Categories and Display Items](../extensibility/implementing-custom-categories-and-display-items.md)
-

@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Capturing Graphics Information | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 48f12f6e-57b4-48ec-a145-89fa71a42424
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Capturing Graphics Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
 ## See Also  
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)
-
-
-

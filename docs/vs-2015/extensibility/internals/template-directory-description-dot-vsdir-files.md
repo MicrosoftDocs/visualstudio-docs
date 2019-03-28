@@ -1,22 +1,17 @@
 ---
 title: "Template Directory Description (.Vsdir) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".vsdir files"
   - "VSDIR files"
   - "template directory description files"
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Template Directory Description (.Vsdir) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 ## See Also  
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

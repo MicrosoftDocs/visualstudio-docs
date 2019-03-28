@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Structure your modeling solution
 
@@ -100,7 +98,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 ## Watch a video
 
-[Organize and manage Your models](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-9-Organizing-and-Managing-Your-Models/)
+[Organize and manage your models](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-9-organizing-and-managing-your-models)
 
 ## See Also
 

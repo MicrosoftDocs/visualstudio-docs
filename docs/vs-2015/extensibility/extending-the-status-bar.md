@@ -1,21 +1,16 @@
 ---
 title: "Extending the Status Bar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "status bars, about status bars"
   - "status bars, overview"
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Status Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,4 +138,3 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
 4.  Open the **Tools** menu in the experimental instance of Visual Studio and click **Invoke TestStatusBarCommand**.  
   
      When you see the message box, you should also see the animation in the status bar on the far right. When you dismiss the message box, the animation disappears.
-

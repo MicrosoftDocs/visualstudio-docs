@@ -1,17 +1,12 @@
 ---
 title: "Visual Studio Emulator for Android | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 caps.latest.revision: 7
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Visual Studio Emulator for Android
@@ -113,4 +108,3 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 ## See Also  
  [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)   
  [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md)
-

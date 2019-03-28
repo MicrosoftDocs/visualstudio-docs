@@ -1,18 +1,14 @@
 ---
 title: Command-line build for Azure | Microsoft Docs
 description: Command-line build for Azure
-
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 94b35d0d-0d35-48b6-b48b-3641377867fd
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/05/2017
 ms.author: ghogen
-
 ---
 # Building Azure projects from the command line
 Using the Microsoft Build Engine (MSBuild), you can build products in build-lab environments where Visual Studio is not installed. MSBuild uses an XML format for project files that's extensible and fully supported by Microsoft. Using the MSBuild file format, you can describe what items must be built for one or more platforms and configurations.

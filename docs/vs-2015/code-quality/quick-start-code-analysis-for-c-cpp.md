@@ -1,22 +1,17 @@
 ---
 title: "Quick Start: Code Analysis for C-C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "C/C++ code analysis"
   - "code analysis,C/C++"
 ms.assetid: 6110b8ba-0af6-4acd-b1ba-bb0551f90e44
 caps.latest.revision: 10
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Quick Start: Code Analysis for C/C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -129,6 +124,3 @@ You can improve the quality of your application by running code analysis regular
 2.  **To filter warnings by project**: In a multi-project solution, choose one or more projects in the list at the top right of the Code Analysis window. Choose the solution name to display all warnings.  
   
 3.  **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. Choose either **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **All** to display all messages.
-
-
-

@@ -1,23 +1,18 @@
 ---
 title: "IDiaFrameData::get_program | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaFrameData::get_program method"
 ms.assetid: 9201409e-b4b1-4e2e-a9f8-d17678ac538b
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaFrameData::get_program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ HRESULT get_program ( 
   
 ## See Also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
-
-
-

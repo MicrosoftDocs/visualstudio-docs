@@ -1,8 +1,6 @@
 ---
 title: "CA2211: Non-constant fields should not be visible"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2211"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e1e42c40-0acd-4312-af29-70133739a304
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

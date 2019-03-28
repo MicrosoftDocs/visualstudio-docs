@@ -9,11 +9,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Dependency diagrams: guidelines
 
@@ -22,7 +20,7 @@ Describe your app's architecture at a high level by creating *dependency diagram
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 ## What is a dependency diagram?
 

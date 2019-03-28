@@ -1,22 +1,17 @@
 ---
 title: "CONTEXT_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "CONTEXT_INFO_FIELDS"
 helpviewer_keywords: 
   - "CONTEXT_INFO_FIELDS enumeration"
 ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CONTEXT_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -87,4 +82,3 @@ public enum enum_CONTEXT_INFO_FIELDS {
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)   
  [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
-

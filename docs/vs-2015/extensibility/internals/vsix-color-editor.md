@@ -1,15 +1,11 @@
 ---
 title: "VSIX Color Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 70879c5d-e0f0-4845-993c-2f4229869706
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSIX Color Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -291,4 +287,3 @@ namespace MyNamespace
   <Color x:Key="{x:Static colors:MyColors.ColorName4TextColorKey}" A="255" R="255" G="255" B="255" />  
 </ResourceDictionary>  
 ```
-

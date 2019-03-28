@@ -1,17 +1,14 @@
 ---
 title: "You have selected a database object from an unsupported database provider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # You have selected a database object from an unsupported database provider
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,5 +32,3 @@ The [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCL
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [.NET Framework Data Providers](http://msdn.microsoft.com/library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131)   
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)
-

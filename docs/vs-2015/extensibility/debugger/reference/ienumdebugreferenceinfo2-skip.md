@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugReferenceInfo2::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugReferenceInfo2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugReferenceInfo2::Skip"
 ms.assetid: 12f07ed8-92bd-47b5-9113-f73fec5bdde6
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugReferenceInfo2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Skip(
   
 ## See Also  
  [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)
-

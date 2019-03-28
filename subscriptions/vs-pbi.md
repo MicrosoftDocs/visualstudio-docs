@@ -3,17 +3,18 @@ title: Power BI Pro Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/12/2018
-ms.topic: Get-Started-Article
+ms.date: 12/19/2018
+ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
 # Power BI Pro in Visual Studio subscriptions
 
 Transform your data into rich visuals for you to collect and organize.
+
+> [!Note]
+> This Power BI license is made available to learn about and experiment with Power BI capabilities, in a safe place, without impacting larger Production/Dev/Test environments.  The current offer of Power BI requires the subscriber to create their own tenant to enforce separation. If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
 
 ## Activation steps
 To use Power BI Pro, you’ll need to set up an account or sign in using an existing account.
@@ -68,14 +69,17 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes|
-| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes|
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
 | Visual Studio Dev Essentials | NA  | Not available |NA|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Professional (MVP), Region Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
@@ -83,12 +87,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Frequently asked questions
 ### Q:  If the benefit is free, why do I have to supply a credit card number?
-A:  The benefit is free, but activation uses the same system used to process paid orders.  There are two payment types available. 
-- Credit card.  If you provide a credit card number, your card will NOT be charged. 
-- Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.  
+A:  The benefit is free, but activation uses the same system used to process paid orders.  There are two payment types available.
+- Credit card.  If you provide a credit card number, your card will NOT be charged.
+- Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.
 
-### Q:  Is the Power BI Pro benefit included in my subscription licenses for use in a production environment?
-A:  Yes.  
+### Q:  Is the Power BI Pro benefit included in my subscription licensed for use in a production environment?
+A:  Yes, you can use it in a production, with two important caveats:
+- This offer requires installation on its own tenant.  If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
+- This Power BI Pro benefit cannot be used on government tenants.
 
 ### Q:  When I try to activate Power BI Pro, I get a message "You already have an account through work".  Can I still use the benefit?
 A:  Yes.  The message indicates that you're logged on to a domain that already has active Office 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
@@ -99,12 +105,12 @@ A:  Yes.  The message indicates that you're logged on to a domain that already h
 3.  Create your user ID and password.  To take advantage of the free offer, make sure you select **.onmicrosoft.com** as the domain. Click **Create my account**.
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro Benefit create private tenant userID](_img/vs-pbi/vs-pbi-work-userid.png)
-    
+
 4.  The rest of the steps in the process are identical to those listed in the body of the article, beginning with step 6.
 
 
-### Q:  I'm on a government domain.  Can I use the benefit? 
-A:  No.  The Power BI Pro benefit cannot be added to tenants on a government domain. 
+### Q:  I'm on a government tenant.  Can I use the benefit?
+A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Support resources
 -  Need help with Power BI Pro?

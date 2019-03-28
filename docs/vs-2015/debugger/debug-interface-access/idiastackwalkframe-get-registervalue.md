@@ -1,23 +1,18 @@
 ---
 title: "IDiaStackWalkFrame::get_registerValue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkFrame::get_registerValue method"
 ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaStackWalkFrame::get_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ HRESULT get_registerValue ( 
 ## See Also  
  [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)   
  [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
-
-
-

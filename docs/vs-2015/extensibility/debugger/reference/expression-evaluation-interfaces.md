@@ -1,20 +1,15 @@
 ---
 title: "Expression Evaluation Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "expression evaluation, interfaces"
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Expression Evaluation Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ manager: "ghogen"
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)   
  [Writing a CLR Expression Evaluator](../../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

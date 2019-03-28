@@ -1,14 +1,9 @@
 ---
 title: "Options Page, Fonts and Colors Node Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Tools Options settings, Fonts and Colors node properties"
   - "automation [Visual Studio], controlling Tools Options"
@@ -16,7 +11,7 @@ ms.assetid: 8e1ab784-5f85-4e2b-8ef9-e5d59ca4dbcb
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Page, Fonts and Colors Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ This document describes font and color properties for a tool window that is regi
  [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   
  [Options Page, Text Editor Node Properties](../../ide/reference/options-page-text-editor-node-properties.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: "Customize code maps by editing the DGML files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "dependency graphs, creating path aliases"
   - "dependency graphs, linking items to nodes"
@@ -22,9 +19,9 @@ helpviewer_keywords:
   - "dependency graphs, assigning categories and properties"
 ms.assetid: a2e141f4-4fd8-4611-b236-6b9e7bc54fc1
 caps.latest.revision: 93
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customize code maps by editing the DGML files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -286,29 +283,29 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
     This expression uses the following Backus-Naur Form (BNF) syntax:  
   
-    <Expression> ::= <BinaryExpression> &#124; <UnaryExpression> &#124; "("<Expression>")" &#124; <MemberBindings> &#124; <Literal> &#124; <Number>  
+    \<Expression> ::= \<BinaryExpression> &#124; \<UnaryExpression> &#124; "("\<Expression>")" &#124; \<MemberBindings> &#124; \<Literal> &#124; \<Number>  
   
-    <BinaryExpression> ::= <Expression> <Operator> <Expression>  
+    \<BinaryExpression> ::= \<Expression> \<Operator> \<Expression>  
   
-    <UnaryExpression> ::= "!" <Expression> &#124; "+" <Expression> &#124; "-" <Expression>  
+    \<UnaryExpression> ::= "!" \<Expression> &#124; "+" \<Expression> &#124; "-" \<Expression>  
   
-    <Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"  
+    \<Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"  
   
-    <MemberBindings> ::= <MemberBindings> &#124; <MemberBinding> "." <MemberBinding>  
+    \<MemberBindings> ::= \<MemberBindings> &#124; \<MemberBinding> "." \<MemberBinding>  
   
-    <MemberBinding> ::= <MethodCall> &#124; <PropertyGet>  
+    \<MemberBinding> ::= \<MethodCall> &#124; \<PropertyGet>  
   
-    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"  
+    \<MethodCall> ::= \<Identifier> "(" \<MethodArgs> ")"  
   
-    <PropertyGet> ::= Identifier  
+    \<PropertyGet> ::= Identifier  
   
-    <MethodArgs> ::= <Expression> &#124; <Expression> "," <MethodArgs> &#124; <empty>  
+    \<MethodArgs> ::= \<Expression> &#124; \<Expression> "," \<MethodArgs> &#124; \<empty>  
   
-    <Identifier> ::= [^. ]*  
+    \<Identifier> ::= [^. ]*  
   
-    <Literal> ::= single or double-quoted string literal  
+    \<Literal> ::= single or double-quoted string literal  
   
-    <Number> ::= string of digits with optional decimal point  
+    \<Number> ::= string of digits with optional decimal point  
   
     You can specify multiple `<Condition/>` elements, which must all be true to apply the style.  
   

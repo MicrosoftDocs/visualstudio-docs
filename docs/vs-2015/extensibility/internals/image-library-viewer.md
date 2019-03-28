@@ -1,15 +1,11 @@
 ---
 title: "Image Library Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Image Library Viewer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -228,4 +224,3 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
   
 ## Sample Output  
  This tool does not generate any output.
-

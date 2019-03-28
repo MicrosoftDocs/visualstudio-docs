@@ -17,11 +17,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Dependency diagrams: reference
 
@@ -30,7 +28,7 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
 

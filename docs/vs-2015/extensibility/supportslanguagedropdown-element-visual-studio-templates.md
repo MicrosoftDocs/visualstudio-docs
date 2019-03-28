@@ -1,14 +1,9 @@
 ---
 title: "SupportsLanguageDropDown Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#SupportsLanguageDropDown"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "<SupportsLanguageDropDown> element [Visual Studio Templates]"
 ms.assetid: 641197d5-f724-4c06-bc47-2e22dad3fbfb
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SupportsLanguageDropDown Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,4 +84,3 @@ Specifies whether the Web item template is identical for multiple languages, and
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
-

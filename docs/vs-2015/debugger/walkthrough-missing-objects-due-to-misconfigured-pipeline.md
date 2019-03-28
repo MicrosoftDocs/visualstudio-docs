@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: ed8ac02d-b38f-4055-82fb-67757c2ccbb9
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,6 +99,3 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
    After you fix the code, you can rebuild it and run the app again to verify that the rendering issue is solved:  
   
    ![The object is now displayed](../debugger/media/gfx-diag-demo-misconfigured-pipeline-resolution.jpg "gfx_diag_demo_misconfigured_pipeline_resolution")
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "1x1 Viewport Size Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 3dbc3247-00f5-4644-8ff9-72e9febcf09a
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # 1x1 Viewport Size Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ viewport.Width = 1;
 viewport.Height = 1;  
 d3d_context->RSSetViewports(1, &viewport);  
 ```
-
-
-

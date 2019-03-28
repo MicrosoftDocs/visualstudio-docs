@@ -1,23 +1,18 @@
 ---
 title: "DA0503: Average Working Set in Bytes for the Process being profiled | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.503"
   - "vs.performance.DA0503"
   - "vs.performance.rules.DA0503"
 ms.assetid: 9047a494-eaaf-4679-b422-c64e8bde77a4
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0503: Average Working Set in Bytes for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ Rule Id|DA0503|
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.  
   
  Double-click the message in the Errors List window to navigate to the [Marks View](../profiling/marks-view.md) view of the profiling data. Find the **Process\Working Set** and the **Memory\Pages/sec** columns. Compare the two columns and determine if there are specific phases of program execution that appear to be associated with increased paging IO activity.
-
-
-

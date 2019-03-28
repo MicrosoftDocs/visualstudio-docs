@@ -1,21 +1,16 @@
 ---
 title: "Project Configuration Object | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project configurations, object"
   - "objects, project configuration"
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Configuration Object
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ Project configuration property pages
  [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)   
  [Property Pages](../../extensibility/internals/property-pages.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)
-

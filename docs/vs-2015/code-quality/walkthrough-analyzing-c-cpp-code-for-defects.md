@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Analyzing C-C++ Code for Defects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "C/C++, code analysis"
   - "code analysis, walkthroughs"
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "code analysis tool, walkthroughs"
 ms.assetid: eaee55b8-85fe-47c7-a489-9be0c46ae8af
 caps.latest.revision: 37
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -195,6 +190,3 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 ## See Also  
  [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
-
-
-

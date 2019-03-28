@@ -1,21 +1,16 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.frameanalysis"
 ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Frame Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,7 +92,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
   
- ![The statistical relevence of the draw call variant](../debugger/media/pix-frame-analysis-summary-stats.png "pix_frame_analysis_summary_stats")  
+ ![The statistical relevance of the draw call variant](../debugger/media/pix-frame-analysis-summary-stats.png "pix_frame_analysis_summary_stats")  
   
  To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).  
   
@@ -201,6 +196,3 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 |**BC Texture Compression**|Enables block compression on all textures that have a B8G8R8X8, B8G8R8A8, or R8G8B8A8 pixel format variant. B8G8R8X8 format variants are compressed by using BC1; B8G8R8A8 and R8G8B8A8 format variants are compressed by using BC3.<br /><br /> For more information, see [BC Texture Compression Variant](../debugger/bc-texture-compression-variant.md).|  
   
  The result for most variants is prescriptive: "Reducing texture size by half is 25 percent faster" or "Enabling 2x MSAA is only 2 percent slower". Other variants might require more interpretation—for example, if the variant that changes the viewport dimensions to 1x1 shows a large performance gain, it might indicate that rendering is bottlenecked by a low fill rate; alternatively, if there's no significant change in performance, it might indicate that rendering is bottlenecked by vertex processing.
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Performance Rules by ID | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 9a1c934c-4798-4df9-a8ef-eb17ef06b6a2
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Rules by ID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ Warning|Description|
 |[DA0006: Override Equals() for value types](../profiling/da0006-override-equals-parens-for-value-types.md)|Calls to the Equals method or the equality operators of a public value type are a significant proportion of the profiling data. Consider implementing a more efficient method.|  
 |[DA0007: Avoid using exceptions for control flow](../profiling/da0007-avoid-using-exceptions-for-control-flow.md)|A high rate of .NET Framework exception handlers were called in the profiling data. Consider using other control flow logic to reduce the number of exceptions that are thrown.|  
 |[DA0008: Few samples collected](../profiling/da0008-few-samples-collected.md)|Only a few samples were collected in the profiling run. Consider a longer run or faster sampling rate for more significant results.|  
-|[DA0009: High % time in JIT](http://msdn.microsoft.com/en-us/b60c1767-515c-41d9-81c2-c70d0b7024fd)|A significant percentage of application execution time was spent in the Just In Time (JIT) compiler.|  
+|[DA0009: High % time in JIT](http://msdn.microsoft.com/b60c1767-515c-41d9-81c2-c70d0b7024fd)|A significant percentage of application execution time was spent in the Just In Time (JIT) compiler.|  
 |[DA0010: Expensive GetHashCode](../profiling/da0010-expensive-gethashcode.md)|Calls to the GetHashCode method of the type are a significant proportion of the profiling data or the method allocates memory.|  
 |[DA0011: Expensive CompareTo](../profiling/da0011-expensive-compareto.md)|The CompareTo method of the type is expensive or allocates memory.|  
 |[DA0012: Significant amount of Reflection](../profiling/da0012-significant-amount-of-reflection.md)|Calls to the System.Reflection methods such as InvokeMember and GetMember or to Type methods such as MemberInvoke are a significant proportion of the profiling data. When you can, consider replacing these methods with early binding to the methods of dependent assemblies.|  
@@ -51,6 +46,3 @@ Warning|Description|
 |[DA0504: Maximum Working Set in Bytes for the Process being profiled](../profiling/da0504-maximum-working-set-in-bytes-for-the-process-being-profiled.md)|This message reports the maximum amount of physical memory that the process is currently using in bytes. The process working set represents pages from the process address space that currently reside in physical memory. This rule reports the maximum value for the process working set while profiling was active.|  
 |[DA0505: Average Private Bytes allocated for the Process being profiled](../profiling/da0505-average-private-bytes-allocated-for-the-process-being-profiled.md)|This message reports the average amount of virtual memory that the process has currently allocated in bytes (Private bytes). Private bytes represents virtual memory locations that were allocated by the process that can only be accessed by threads running inside the process.|  
 |[DA0506: Maximum Private Bytes allocated for the Process being profiled](../profiling/da0506-maximum-private-bytes-allocated-for-the-process-being-profiled.md)|This message reports the maximum amount of virtual memory that the process has currently allocated in bytes (Private bytes). Private bytes represents virtual memory locations that were allocated by the process that can only be accessed by threads running inside the process.|
-
-
-

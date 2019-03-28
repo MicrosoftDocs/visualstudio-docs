@@ -1,21 +1,16 @@
 ---
 title: "Verifying Subtypes of a Project at Run Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project subtypes"
   - "check subtypes"
 ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Verifying Subtypes of a Project at Run Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ A VSPackage that depends on a custom project subtype should include logic to loo
  [Project Subtypes](../extensibility/internals/project-subtypes.md)   
  [Project Subtypes Design](../extensibility/internals/project-subtypes-design.md)   
  [Properties and Methods Extended by Project Subtypes](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)
-

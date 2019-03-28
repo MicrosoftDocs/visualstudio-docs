@@ -1,8 +1,6 @@
 ---
-title: Code analysis for managed code in Visual Studio
+title: Static code analysis for managed code
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.projectpropertypages.codeanalysis"
@@ -11,13 +9,13 @@ helpviewer_keywords:
   - "managed code, code analysis"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Overview of code analysis for managed code
+# Overview of static code analysis for managed code in Visual Studio
 
-Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static analysis of managed assemblies, and with .NET Compiler Platform *analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using .NET Compiler Platform analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio can perform code analysis of managed code in two ways: with *FxCop* static analysis of managed assemblies, and with the more modern *Roslyn analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using code analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
@@ -45,7 +43,7 @@ Frequently, it is useful to indicate that a warning is non-applicable. This info
 In-source suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:
 
 ```csharp
-[System.Diagnosis.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
 Public class MyClass
 {
    // code
@@ -55,7 +53,7 @@ Public class MyClass
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
 
 ## Run code analysis as part of check-in policy
 
@@ -65,7 +63,7 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
 
 ## Team build integration
 

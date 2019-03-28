@@ -1,22 +1,17 @@
 ---
 title: "IDebugDisassemblyStream2::GetScope | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetScope"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::GetScope"
 ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDisassemblyStream2::GetScope
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int GetScope( 
 ## See Also  
  [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)   
  [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md)
-

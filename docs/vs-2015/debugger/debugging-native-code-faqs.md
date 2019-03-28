@@ -1,14 +1,9 @@
 ---
 title: "Debugging Native Code FAQs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.faq"
 dev_langs: 
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "debugging [C++], FAQs"
 ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Native Code FAQs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ The following topics contain answers to some frequently asked questions:
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

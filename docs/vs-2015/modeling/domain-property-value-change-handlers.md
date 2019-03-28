@@ -1,19 +1,16 @@
 ---
 title: "Domain Property Value Change Handlers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, overriding event handlers"
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Domain Property Value Change Handlers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -171,6 +168,3 @@ namespace msft.FieldChangeSample
   }  
 }  
 ```  
-  
-
-

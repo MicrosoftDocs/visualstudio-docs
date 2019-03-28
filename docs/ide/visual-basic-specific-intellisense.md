@@ -1,8 +1,6 @@
 ---
 title: Visual Basic IntelliSense
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Basic.IntelliSense"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "IntelliSense [Visual Studio], Visual Basic"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,12 +1,9 @@
 ---
 title: "Layer Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.layerdiagram.layerexplorer.artifactlink"
   - "vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties"
@@ -22,9 +19,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 ms.assetid: f26c986c-1e79-420e-b29a-a283e6d8a71d
 caps.latest.revision: 35
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Layer Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +90,3 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
 ## See Also  
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

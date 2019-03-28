@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugCustomAttributes::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumCustomAttributes::Reset"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes::Reset"
 ms.assetid: e0db6518-5a71-4adb-a407-4d2ac7a3e369
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugCustomAttributes::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ int Reset();
 ## See Also  
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)   
  [Next](../../../extensibility/debugger/reference/ienumdebugcustomattributes-next.md)
-

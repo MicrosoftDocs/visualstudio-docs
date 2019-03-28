@@ -1,22 +1,17 @@
 ---
 title: "IDebugPointerObject::Dereference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPointerObject::Dereference"
 helpviewer_keywords: 
   - "IDebugPointerObject::Dereference method"
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPointerObject::Dereference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ int Dereference(
   
 ## See Also  
  [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
-

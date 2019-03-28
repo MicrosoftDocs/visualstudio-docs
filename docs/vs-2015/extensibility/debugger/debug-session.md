@@ -1,20 +1,15 @@
 ---
 title: "Debug Session | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], sessions"
 ms.assetid: 18d82199-b2d4-47a9-924f-ab64faf60ca1
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Debug Session
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,4 +23,3 @@ In terms of the debugger architecture, a **session**:
 ## See Also  
  [Session Debug Manager](../../extensibility/debugger/session-debug-manager.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)
-

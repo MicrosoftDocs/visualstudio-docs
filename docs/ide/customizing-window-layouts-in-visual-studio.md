@@ -1,8 +1,6 @@
 ---
-title: Customize window layouts in Visual Studio
+title: Customize window layouts
 ms.date: 01/23/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.windows"
@@ -22,13 +20,15 @@ helpviewer_keywords:
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Customize window layouts in Visual Studio
 
-In Visual Studio you can customize the position, size and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you start, even if you are working on another computer, **Solution Explorer** will be docked in that same location. You can also give a custom layout a name and save it, and then switch between layouts with a single command. For example you could create a layout for editing, and another for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
+In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
+
+You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
 
 ## Kinds of windows
 
@@ -60,30 +60,27 @@ A document window or tool window can be *docked*, so that it has a position and 
 
 You can arrange windows in the following ways:
 
--   Pin document windows to the left of the tab well.
+- Pin document windows to the left of the tab well.
 
--   Tab-dock windows to the editing frame.
+- Tab-dock windows to the editing frame.
 
--   Dock tool windows to the edge of a frame in the IDE.
+- Dock tool windows to the edge of a frame in the IDE.
 
--   Float document or tool windows over or outside the IDE.
+- Float document or tool windows over or outside the IDE.
 
--   Hide tool windows along the edge of the IDE.
+- Hide tool windows along the edge of the IDE.
 
--   Display windows on different monitors.
+- Display windows on different monitors.
 
--   Reset window placement to the default layout or to a saved custom layout.
+- Reset window placement to the default layout or to a saved custom layout.
 
-Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.
-
-> [!NOTE]
-> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+Arrange tool and document windows by dragging, using commands on the **Window** menu, or by right-clicking the title bar of the window to be arranged.
 
 ### Dock windows
 
 When you click and drag the title bar of a tool window, or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area will appear that shows you where the window will be docked if you release the mouse button now.
 
-To move a dockable window without snapping it into place, choose the **Ctrl** key while you drag the window.
+To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
 
 To return a tool window or document window to its most recent docked location, press **Ctrl** while you double-click the title bar or tab of the window.
 
@@ -91,19 +88,17 @@ The following illustration shows the guide diamond for document windows, which c
 
 ![Document window guide diamond](../ide/media/documentwindowguidediamonds.png)
 
-Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily re-dock the window.
-
-Guide diamond for tool windows
+Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
 ![Tool Window Guide Diamonds](../ide/media/vs10guidediamond.png)
 
-The following illustration shows **Solution Explorer** being docked in a new location, which is shown by the blue shaded area:
+The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by the blue shaded area:
 
 ![Docking Solution Explorer in a new position](../ide/media/vs2015_dock_diamond.png)
 
 ### Close and auto-hide tool windows
 
-You can close a tool window by clicking the **X** in the upper right of the title bar; to reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto-hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
+You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is autohidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
 
 ![Auto hide](../ide/media/vs2015_auto_hide.png)
 
@@ -124,11 +119,11 @@ If you have a second monitor and your operating system supports it, you can choo
 
 You can return the IDE to the original window layout for your settings collection by using the **Reset Window Layout** command. When you run this command, the following actions occur:
 
--   All windows are moved to their default positions.
+- All windows are moved to their default positions.
 
--   Windows that are closed in the default window layout are closed.
+- Windows that are closed in the default window layout are closed.
 
--   Windows that are open in the default window layout are opened.
+- Windows that are open in the default window layout are opened.
 
 ### Create and save custom layouts
 
@@ -138,25 +133,25 @@ First, create a test solution that has two projects, each with a different optim
 
 #### Create a UI project and customize the layout
 
-1.  In the **New Project** dialog, create a **C# WPF Desktop Application** and call it whatever you like. Pretend that this is the project where we'll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.
+1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 
-2.  If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
+2. If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
-3.  Press **Ctrl + Alt + X** to display the **Toolbox**. If the window is docked, drag it so that it floats somewhere where you'd like to position it, on either monitor.
+3. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
 
-4.  Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack** and **Output** debugging windows the way you want them. The layout you are about to create will apply to both editing mode and debugging mode.
+4. Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack**, and **Output** debugging windows the way you want them. The layout you're about to create will apply to both editing mode and debugging mode.
 
-5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window** > **Save Window Layout**. Call this layout "Designer."
+5. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
 
-     Note that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl** + **Alt** + **1...0**.
+     Note that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
 
 #### Create a database project and layout
 
-1.  Add a new **SQL Server Database** project to the solution.
+1. Add a new **SQL Server Database** project to the solution.
 
-2.  Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+2. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
 
-3.  When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
+3. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
 
 #### Switch between the layouts
 

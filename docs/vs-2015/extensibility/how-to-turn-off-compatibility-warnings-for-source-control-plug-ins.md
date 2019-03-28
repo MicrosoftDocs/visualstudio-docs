@@ -1,21 +1,16 @@
 ---
 title: "How to: Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, turning off compatibility warnings"
   - "compatibility warnings, turning off"
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Turn Off Compatibility Warnings for Source Control Plug-ins
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ A user may see several compatibility warnings when employing source control in [
   
 ## See Also  
  [Capability Flags](../extensibility/capability-flags.md)
-

@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 
@@ -146,5 +144,4 @@ For more information about how to navigate from element to element and about how
 - [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)
-- [VMSDK - Circuit Diagrams sample. Extensive DSL Customization](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [VMSDK - Circuit Diagrams sample. Extensive DSL Customization](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

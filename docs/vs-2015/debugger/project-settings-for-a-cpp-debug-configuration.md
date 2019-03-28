@@ -1,14 +1,9 @@
 ---
 title: "Project Settings for a C++ Debug Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
   - "VC.Project.IVCGPUDebugPageObject.EnvironmentMerge"
@@ -114,9 +109,9 @@ helpviewer_keywords:
   - "/MAP linker option"
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 caps.latest.revision: 52
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Project Settings for a C++ Debug Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -186,6 +181,3 @@ You can change the project settings for a C or Visual C++ debug configuration in
  [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)   
  [/ASSEMBLYDEBUG (Add DebuggableAttribute)](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982)   
  [Common Macros for Build Commands and Properties](http://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)
-
-
-

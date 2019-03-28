@@ -1,23 +1,18 @@
 ---
 title: "IDiaEnumStackFrames | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumStackFrames interface"
 ms.assetid: 3d1e8403-c9fc-42ff-ae35-0ab9a5ed2ad7
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaEnumStackFrames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,6 +71,3 @@ void DumpStackFrames(IDiaStackWalker*     pStackWalker,
  [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)   
  [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md)   
  [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md)
-
-
-

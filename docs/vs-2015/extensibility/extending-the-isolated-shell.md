@@ -1,20 +1,15 @@
 ---
 title: "Extending the Isolated Shell | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode"
 ms.assetid: 9a641d8f-211e-4486-a1b1-4a89fafe7ee8
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,4 +116,3 @@ You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed
   
 ## See Also  
  [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
-

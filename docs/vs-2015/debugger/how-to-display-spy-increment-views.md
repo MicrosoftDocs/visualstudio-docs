@@ -1,21 +1,16 @@
 ---
 title: "How to: Display Spy++ Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++, viewing code"
 ms.assetid: 38c88663-1f73-48e9-8b47-52a3e8451c98
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Display Spy++ Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,6 +20,3 @@ When Spy++ starts, it opens in [Windows View](../debugger/windows-view.md), a tr
 ## See Also  
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)
-
-
-

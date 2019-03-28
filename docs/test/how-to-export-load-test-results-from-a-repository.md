@@ -1,5 +1,5 @@
 ---
-title: "Export Load Test Results in Visual Studio"
+title: "Export Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 716c2af5-8737-4d31-956f-a0273f7c5c0c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Export load test results from a repository
 
 When you run a load test, information gathered during the run is stored in the Load Test Results Repository. The Load Test Results Repository contains performance counter data and information about any errors. For more information, see [Manage load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md).
 
 You can manage load test results from the Load Test Editor by using the **Open and Manage Load Test Results** dialog box. You can open, import, export, and remove load test results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To export results from a repository
 

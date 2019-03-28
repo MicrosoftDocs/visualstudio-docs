@@ -1,21 +1,16 @@
 ---
 title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 dev_langs: 
   - "C++"
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
 caps.latest.revision: 7
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: corob-msft
+ms.author: corob
+manager: jillfra
 ---
 # Build an OpenGL ES Application on Android and iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -151,4 +146,3 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
  ![Project Context Switcher dropdown in Editor](../cross-platform/media/cppmdd-opengles-contextswitcher.png "CPPMDD_OpenGLES_ContextSwitcher")  
   
  IntelliSense issues in the current project are marked with a red wavy line. Issues in other projects are marked with a purple wavy line. By default, Visual Studio does not support code colorization or IntelliSense for Java or Objective-C files. However, you can still modify the source files and change the resources to set your application name, icon, and other implementation details.
-

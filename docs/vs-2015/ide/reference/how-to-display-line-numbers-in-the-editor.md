@@ -1,14 +1,9 @@
 ---
 title: "How to: Display Line Numbers in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "line numbers, displaying"
   - "Code Editor, line numbers"
@@ -18,7 +13,7 @@ ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Display Line Numbers in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +22,7 @@ manager: "ghogen"
 You can display or hide line numbering in your code.  
   
 > [!NOTE]
->  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Display Line Numbers in Code  
  Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.  
@@ -45,6 +40,3 @@ You can display or hide line numbering in your code.
  [Customizing the Editor](../../ide/customizing-the-editor.md)   
  [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)
-
-
-

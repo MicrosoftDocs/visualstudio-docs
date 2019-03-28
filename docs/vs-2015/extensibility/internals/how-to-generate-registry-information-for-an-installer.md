@@ -1,22 +1,17 @@
 ---
 title: "How to: Generate Registry Information for an Installer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "registration, VSPackages"
   - "VSPackages, registering"
   - "VSPackages, registration manifests"
 ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Generate Registry Information for an Installer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -182,6 +177,5 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
     ```  
   
 ## See Also  
- [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Registering VSPackages](registering-vspackages.md)   
  [VSPackages](../../extensibility/internals/vspackages.md)
-

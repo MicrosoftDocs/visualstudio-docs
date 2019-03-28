@@ -1,21 +1,16 @@
 ---
 title: "Enumerating Locals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], enumerating locals"
   - "expression evaluation, enumerating locals"
 ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Enumerating Locals
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -250,4 +245,3 @@ STDMETHODIMP CFieldProperty::EnumChildren(
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

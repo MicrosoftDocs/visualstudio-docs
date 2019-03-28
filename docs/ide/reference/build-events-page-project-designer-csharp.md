@@ -1,8 +1,6 @@
 ---
 title: Build Events Page, Project Designer (C#)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEvents"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

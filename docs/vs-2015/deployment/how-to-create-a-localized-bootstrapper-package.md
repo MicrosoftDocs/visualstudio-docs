@@ -1,14 +1,9 @@
 ---
 title: "How to: Create a Localized Bootstrapper Package | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "localized bootstrapper packages"
   - "dependencies, creating localized bootstrapper packages"
@@ -17,7 +12,7 @@ ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Create a Localized Bootstrapper Package
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -96,6 +91,3 @@ After you create a bootstrapper package, you can create localized versions of th
  [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md)   
  [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)   
  [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md)
-
-
-

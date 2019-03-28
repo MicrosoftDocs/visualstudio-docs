@@ -1,14 +1,9 @@
 ---
 title: "How to: Set a Security Zone for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: d3dac454-518a-44d7-a76e-ccb7b9c3a150
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Set a Security Zone for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ When setting code access security permissions for a ClickOnce application, you n
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
-
-
-

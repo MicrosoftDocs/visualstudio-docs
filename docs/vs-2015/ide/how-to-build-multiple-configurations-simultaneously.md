@@ -1,19 +1,14 @@
 ---
 title: "How to: Build Multiple Configurations Simultaneously | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: ba830937-3317-4674-8cc2-c0cd565603c5
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Build Multiple Configurations Simultaneously
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ You can build most types of projects with multiple, or even all, of their build 
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
-
-
-

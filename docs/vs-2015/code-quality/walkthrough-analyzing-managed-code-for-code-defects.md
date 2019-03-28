@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Analyzing Managed Code for Code Defects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, walkthroughs"
   - "managed code, analyzing"
@@ -207,6 +202,3 @@ namespace TestCode
 2. Rebuild the project.  
   
     The project builds without any warnings or errors.
-
-
-

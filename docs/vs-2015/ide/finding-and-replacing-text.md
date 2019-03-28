@@ -1,14 +1,9 @@
 ---
 title: "Finding and Replacing Text | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.find"
   - "vs.findreplacecontrol"
@@ -41,7 +36,7 @@ ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Finding and Replacing Text
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ You can find and replace text in the Visual Studio code editor, and certain text
   
 ## See Also  
  [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
-
-
-

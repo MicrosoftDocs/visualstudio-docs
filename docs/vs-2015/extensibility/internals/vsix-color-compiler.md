@@ -1,15 +1,11 @@
 ---
 title: "VSIX Color Compiler | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 99395da7-ec34-491d-9baa-0590d23283ce
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSIX Color Compiler
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -167,4 +163,3 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 [$RootKey$\Themes\{de3dbbcd-f642-433c-8353-8f1df4370aba}\TreeView]  
 "Data"=hex:38,00,00,00,0b,00,00,00,01,00,00,00,8e,f0,ec,92,13,8b,f4,4c,99,e9,ae,26,92,38,21,85,01,00,00,00,0a,00,00,00,42,61,63,6b,67,72,6f,75,6e,64,01,f5,f5,f5,ff,01,1e,1e,1e,ff  
 ```
-

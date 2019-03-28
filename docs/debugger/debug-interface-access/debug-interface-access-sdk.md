@@ -1,20 +1,18 @@
 ---
 title: "Debug Interface Access SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: "07/24/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [DIA SDK]"
   - "debugger [DIA SDK]"
   - "DIA SDK"
 ms.assetid: 4c0abe53-11d3-4b7a-bdc7-b054f85aaf40
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Debug Interface Access SDK
@@ -23,17 +21,22 @@ The Microsoft Debug Interface Access Software Development Kit (DIA SDK) provides
 
 ## In this section
 
-[Getting Started](../../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md)  
+[Getting Started](../../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md)
+
 Gives an overview of the DIA SDK features and specifies where the DIA SDK is installed as well as the required header and library files.
 
-[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)  
+[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
+
 Provides instructions on how to use the DIA API to query the .pdb file.
 
-[Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)  
+[Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
+
 Discusses how symbols and symbol tags are used in the DIA API.
 
-[Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)  
+[Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
+
 Contains the interfaces, methods, enumerations, and structures of the DIA API.
 
-[Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md)  
+[Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md)
+
 Illustrates how to use the DIA API to search for and browse debug information.

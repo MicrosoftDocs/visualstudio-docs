@@ -1,11 +1,8 @@
 ---
 title: "How to: Create Sequential Workflow Console Applications (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "workflows, console applications"
@@ -15,7 +12,7 @@ ms.assetid: 9f7be7fa-551f-42c6-a9bb-f5ae8ab83625
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Create Sequential Workflow Console Applications (Legacy)
 Follow these steps to create a Sequential Workflow Console Application project using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] provided by [!INCLUDE[vs2010](../includes/vs2010-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when you need to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
@@ -51,4 +48,4 @@ Follow these steps to create a Sequential Workflow Console Application project u
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)   
- [Developing Workflows](http://msdn.microsoft.com/en-us/557bcb1f-a7ab-49f6-8df7-2706b7001301)
+ [Developing Workflows](http://msdn.microsoft.com/557bcb1f-a7ab-49f6-8df7-2706b7001301)

@@ -1,14 +1,9 @@
 ---
 title: "Design Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.designrules"
 helpviewer_keywords: 
@@ -92,6 +87,3 @@ Design warnings support adherence to the .NET Framework Design Guidelines.
 |[CA1064: Exceptions should be public](../code-quality/ca1064-exceptions-should-be-public.md)|An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception?displayProperty=fullName>, <xref:System.SystemException?displayProperty=fullName>, or <xref:System.ApplicationException?displayProperty=fullName>, the external code will not have sufficient information to know what to do with the exception.|  
 |[CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md)|A method that is not expected to throw exceptions throws an exception.|  
 |[CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|The strong name protects clients from unknowingly loading an assembly that has been tampered with. Assemblies without strong names should not be deployed outside very limited scenarios. If you share or distribute assemblies that are not correctly signed, the assembly can be tampered with, the common language runtime might not load the assembly, or the user might have to disable verification on his or her computer.|
-
-
-

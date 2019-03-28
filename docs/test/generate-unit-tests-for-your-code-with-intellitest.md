@@ -1,27 +1,26 @@
 ---
-title: "Generate unit tests for your code with IntelliTest in Visual Studio"
-ms.date: 2015-10-05
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: "Generate unit tests for your code with IntelliTest"
+ms.date: 10/05/2015
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
 ---
 # Generate unit tests for your code with IntelliTest
+
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage.
 
- When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes.
+When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes.
 
 ## Availability and extensions
 
 The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
-* Are available in only the Enterprise Edition of Visual Studio 2015 and later.
+* Are available only in the Enterprise Edition of Visual Studio 2015 and later.
 
 * Support only C# code that targets the .NET Framework.
 
@@ -31,7 +30,8 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 * Do not support x64 configuration.
 
 ## Explore: Use IntelliTest to explore your code and generate unit tests
- To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.
+
+To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.
 
 1.  Open your solution in Visual Studio. Then open the class file that has methods you want to test.
 
@@ -152,4 +152,4 @@ Then run IntelliTest to generate individual unit tests in their corresponding *.
 
 ### Q: Can I learn more about how the tests are generated?
 
-**A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
+**A:** Yes, to get a high-level overview, read this [blog post](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/).

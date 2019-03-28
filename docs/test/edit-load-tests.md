@@ -1,5 +1,5 @@
 ---
-title: "Editing Load Tests in Visual Studio"
+title: "Editing Load Tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,20 +8,21 @@ helpviewer_keywords:
 ms.assetid: ba16ed02-137e-40bf-a4cb-45d87d922d37
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Edit load tests
 
 Load tests run web performance tests or unit tests to simulate many users accessing a server at the same time. A load test gives you access to application stress and performance data. A load test can be configured to emulate various load conditions such as user loads and network types.
 
-> [!NOTE]
-> Load testing is available only in the Enterprise edition of Visual Studio 2017.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 A load test is defined by *scenarios*, *counter sets*, and *run settings*. The following illustration explains the differences between [scenarios](../test/edit-load-test-scenarios.md), [counter sets](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md), and [run settings](../test/load-test-run-settings-properties.md):
 
 ![Load Test Architecture](../test/media/load_test_editor.png)
+
+## Software requirements
+
+Web performance and load test projects are only available in the Enterprise edition of Visual Studio.
 
 ## Edit load test scenario settings
 

@@ -1,19 +1,14 @@
 ---
 title: "WPF Data Binding with LINQ to XML | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 356c2cef-3468-495d-b4bd-f6b7f883446b
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # WPF Data Binding with LINQ to XML
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ This section provides information about how to use LINQ to XML as the data sourc
   
 ## See Also  
  [Advanced LINQ to XML Programming](http://msdn.microsoft.com/library/88c4a6ea-700b-4468-9a29-0ea18fc63dd0)
-
-
-

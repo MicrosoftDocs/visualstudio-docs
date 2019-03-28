@@ -1,15 +1,13 @@
 ---
 title: Tabs and Windows, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 ms.assetid: f5167564-0a4e-4f98-9580-fc6cb7d9dd8d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

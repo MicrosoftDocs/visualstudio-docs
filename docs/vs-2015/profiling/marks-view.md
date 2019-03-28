@@ -1,14 +1,9 @@
 ---
 title: "Marks View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.marks"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "profiling tools reports, Marks view"
 ms.assetid: b2773344-8081-4116-85a1-58f770448f6a
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Marks View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +45,4 @@ The Marks view displays sampling and ETW events that were inserted into the appl
  [<PAVE_OVER> How to: Configure Profiling Marks](http://msdn.microsoft.com/library/65a23880-e5e8-4d5a-82b3-6498b9ef8975)   
  [<PAVE_OVER> How to: Insert Marks in a Profiler Data File](http://msdn.microsoft.com/library/856bfc81-a60f-42e5-a9bc-71b986c1e09d)   
  [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)   
- [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)
-
-
-
+ [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/98d740d8-459f-4605-bf04-fb17aafaaa8f)

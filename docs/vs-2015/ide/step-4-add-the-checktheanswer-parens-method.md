@@ -1,19 +1,14 @@
 ---
 title: "Step 4: Add the CheckTheAnswer() Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 4: Add the CheckTheAnswer() Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 -   To go to the next tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
   
 -   To return to the previous tutorial step, see [Step 3: Add a Countdown Timer](../ide/step-3-add-a-countdown-timer.md).
-
-
-

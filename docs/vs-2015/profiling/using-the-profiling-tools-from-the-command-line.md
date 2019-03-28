@@ -1,14 +1,9 @@
 ---
 title: "Using the Profiling Tools From the Command-Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "command line, performance tools"
   - "command-line tools, performance tools"
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "command line, tools"
 ms.assetid: 6593fa82-181e-4009-a0ed-02aa24c2c063
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using the Profiling Tools From the Command-Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ You can use the command-line tools of [!INCLUDE[vsprvs](../includes/vsprvs-md.md
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

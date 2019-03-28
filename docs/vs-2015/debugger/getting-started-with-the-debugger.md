@@ -1,13 +1,8 @@
 ---
 title: "Getting Started with the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 dev_langs: 
   - "FSharp"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Getting Started with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,8 +87,3 @@ private static void Method1()
  Stop debugging and start again, and when execution breaks at the breakpoint, click **Debug / Step Over** (or **Step Over** on the toolbar, or **F10**). Execution breaks again at `Console.WriteLine("end");`.  
   
  If you want to know more about navigating code with the debugger, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md).
-
-
-
-
-

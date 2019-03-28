@@ -1,20 +1,15 @@
 ---
 title: "Creating an Options Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Tools Options pages [Visual Studio SDK], creating"
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 caps.latest.revision: 63
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating an Options Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -264,4 +259,3 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 ## See Also  
  [Options and Options Pages](../extensibility/internals/options-and-options-pages.md)
-

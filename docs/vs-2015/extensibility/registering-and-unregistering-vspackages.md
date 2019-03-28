@@ -1,21 +1,16 @@
 ---
 title: "Registering and Unregistering VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "registration, VSPackages"
   - "VSPackages, registering"
 ms.assetid: e25e7a46-6a55-4726-8def-ca316f553d6b
 caps.latest.revision: 36
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering and Unregistering VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ public sealed class BasicPackage : Package
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)
-

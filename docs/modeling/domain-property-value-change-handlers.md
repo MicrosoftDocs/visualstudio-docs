@@ -1,16 +1,14 @@
 ---
-title: Domain Property Value Change Handlers in Visual Studio
+title: Domain Property Value Change Handlers
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, overriding event handlers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Domain property value change handlers
 

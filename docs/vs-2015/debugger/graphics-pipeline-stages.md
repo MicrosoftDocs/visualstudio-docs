@@ -1,21 +1,16 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.pipeline"
 ms.assetid: 2bf5c12e-2a00-401c-8163-4e373d08ad3f
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Pipeline Stages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +123,3 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
 ## See Also  
  [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
  [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
-
-
-

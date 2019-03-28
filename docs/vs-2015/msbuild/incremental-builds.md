@@ -1,21 +1,16 @@
 ---
 title: "Incremental Builds | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, incremental builds"
 ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Incremental Builds
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
 ## See Also  
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

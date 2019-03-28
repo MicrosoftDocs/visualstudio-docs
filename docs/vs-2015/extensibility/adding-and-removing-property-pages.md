@@ -1,22 +1,17 @@
 ---
 title: "Adding and Removing Property Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "property pages, adding"
   - "property pages, project subtypes"
   - "property pages, removing"
 ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding and Removing Property Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -208,4 +203,3 @@ The Project Designer provides a centralized location for managing project proper
   
 ## See Also  
  [Project Subtypes](../extensibility/internals/project-subtypes.md)
-

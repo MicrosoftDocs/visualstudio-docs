@@ -1,32 +1,29 @@
 ---
 title: "Csc Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Csc"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Csc task [MSBuild]"
   - "MSBuild, Csc task"
 ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Csc task
-Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries (*.dll* files), or code modules (*.netmodule* files). For more information about *csc.exe*, see [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index).  
+Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries (*.dll* files), or code modules (*.netmodule* files). For more information about *csc.exe*, see [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index).
 
-## Parameters  
- The following table describes the parameters of the `Csc` task.  
-
+## Parameters
+The following table describes the parameters of the `Csc` task.
 
 | Parameter | Description |
 |------------------------------| - |
@@ -77,19 +74,19 @@ Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries
 | `Win32Manifest` | Optional `String` parameter.<br /><br /> Specifies the Win32 manifest to be included. |
 | `Win32Resource` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. For more information, see [-win32res (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/win32res-compiler-option). |
 
-## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the `Microsoft.Build.Tasks.ManagedCompiler` class, which inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
+## Remarks
+In addition to the parameters listed above, this task inherits parameters from the `Microsoft.Build.Tasks.ManagedCompiler` class, which inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
-## Example  
- The following example uses the `Csc` task to compile an executable from the source files in the `Compile` item collection.  
+## Example
+The following example uses the `Csc` task to compile an executable from the source files in the `Compile` item collection.
 
-```xml  
-<CSC  
-    Sources="@(Compile)"  
-    OutputAssembly="$(AppName).exe"  
-    EmitDebugInformation="true" />  
-```  
+```xml
+<CSC
+    Sources="@(Compile)"
+    OutputAssembly="$(AppName).exe"
+    EmitDebugInformation="true" />
+```
 
-## See also  
- [Task reference](../msbuild/msbuild-task-reference.md)   
- [Tasks](../msbuild/msbuild-tasks.md)
+## See also
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)

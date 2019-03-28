@@ -1,8 +1,6 @@
 ---
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "MarkAssembliesWithAssemblyVersion"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4340aed8-d92b-4cde-a398-cb6963c6da5a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

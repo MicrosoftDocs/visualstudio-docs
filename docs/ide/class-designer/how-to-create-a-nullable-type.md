@@ -1,8 +1,6 @@
 ---
 title: "How to: Create a Nullable Type (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "nullable types, Class Designer"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

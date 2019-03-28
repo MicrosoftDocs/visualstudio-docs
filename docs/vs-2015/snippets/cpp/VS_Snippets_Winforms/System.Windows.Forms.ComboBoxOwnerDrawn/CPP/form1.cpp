@@ -40,7 +40,7 @@ private:
 
    // This method initializes the owner-drawn combo box.
    // The drop-down width is set much wider than the size of the combo box
-   // to accomodate the large items in the list.  The drop-down style is set to 
+   // to accommodate the large items in the list.  The drop-down style is set to 
    // ComboBox.DropDown, which requires the user to click on the arrow to 
    // see the list.
    void InitializeComboBox()

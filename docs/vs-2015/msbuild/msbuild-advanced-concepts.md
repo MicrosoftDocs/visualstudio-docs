@@ -1,21 +1,16 @@
 ---
 title: "MSBuild Advanced Concepts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, advanced concepts"
 ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Advanced Concepts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ The documents in this section describe how to use advanced techniques to improve
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
-
-
-

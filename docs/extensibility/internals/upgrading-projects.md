@@ -1,9 +1,6 @@
 ---
 title: "Upgrading Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "upgrading VSPackages"
@@ -12,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -61,7 +58,7 @@ If you change the information persisted in the project file between different Vi
 
 The old mechanism that uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> interface is still supported, but conceptually upgrades the project system as a part of the project open. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> interface is therefore called by the Visual Studio environment even if the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface is called or implemented. This approach allows you to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> to implement the copy and project only portions of the upgrade, and delegate the rest of the work to be done in-place (possibly at the new location) by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> interface.
 
-For a sample implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>, see [VSSDK Samples](http://aka.ms/vs2015sdksamples).
+For a sample implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>, see [VSSDK Samples](https://aka.ms/vs2015sdksamples).
 
 The following scenarios arise with project upgrades:
 

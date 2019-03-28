@@ -1,21 +1,16 @@
 ---
 title: "Brace Matching in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "brace matching"
   - "language services [managed package framework], brace matching"
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 caps.latest.revision: 28
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Brace Matching in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -139,4 +134,3 @@ namespace TestLanguagePackage
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)   
  [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
-

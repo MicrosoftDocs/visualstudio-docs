@@ -1,20 +1,15 @@
 ---
 title: "Source Control Configuration Details | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], configuration details"
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Source Control Configuration Details
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ In order to implement source control, you need to properly configure your projec
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SaveDocDataToFile%2A>   
  <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackProjectDocuments>   
  [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)
-

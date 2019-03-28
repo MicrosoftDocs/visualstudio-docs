@@ -1,22 +1,17 @@
 ---
 title: "IDebugEngine3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEngine3"
 helpviewer_keywords: 
   - "IDebugEngine3 interface"
 ms.assetid: 8bdf4bb7-3b5d-4991-8981-772d4f6bb656
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEngine3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ IDebugEngine3 : IDebugEngine2
   
 ## See Also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
-

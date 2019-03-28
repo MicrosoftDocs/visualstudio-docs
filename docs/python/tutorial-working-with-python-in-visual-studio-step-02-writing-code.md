@@ -1,14 +1,14 @@
 ---
-title: Working with Python Tutorial, Step 2, write and run code
+title: Python in Visual Studio tutorial step 2, write and run code
+titleSuffix: ""
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio, including editing code and running a project.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/28/2019
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -40,7 +40,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
     ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3b.png)
 
     > [!Tip]
-    > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools** > **Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. 
+    > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools** > **Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box.
 
 1. Run the code you've written to this point by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
 
@@ -48,7 +48,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
-1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import `. A list of modules appears when you type the space:
+1. In addition to completions for statements and functions, IntelliSense provide completions for Python `import` and `from` statements. These completions help you easily discover what modules are available in your environment and the members of those modules. In the editor, delete the `print` line and start typing `import`. A list of modules appears when you type the space:
 
     ![IntellSense showing available modules for an import statement](media/vs-getting-started-python-08-import1.png)
 

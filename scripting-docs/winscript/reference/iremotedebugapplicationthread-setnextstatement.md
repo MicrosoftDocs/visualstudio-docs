@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::SetNextStatement | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Forces execution to continue as close as possible to the given code context, in 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetNextStatement(  
    IDebugStackFrame*   pStackFrame,  
    IDebugCodeContext*  pCodeContext  

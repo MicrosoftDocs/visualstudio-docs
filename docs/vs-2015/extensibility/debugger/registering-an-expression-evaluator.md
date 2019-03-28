@@ -1,21 +1,16 @@
 ---
 title: "Registering an Expression Evaluator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluators, registering"
 ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering an Expression Evaluator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -214,4 +209,3 @@ static HRESULT RegisterMetric( bool registerIt )
 ## See Also  
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
-

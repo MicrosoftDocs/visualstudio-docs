@@ -1,8 +1,6 @@
 ---
 title: Application page of C# project properties
 ms.date: 10/30/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesApplicationWPF"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -48,7 +46,7 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
 
-By default, the value is the same as the target framework that you selected in the **New Project** dialog box.
+By default, the value is the same as the target framework that you selected when you created the project.
 
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.
@@ -67,7 +65,7 @@ For information about how to access this property programmatically, see <xref:VS
 
 **Auto-generate binding redirects**
 
-Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**. This checkbox was introduced in Visual Studio 2017 version 15.7.
+Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**.
 
 For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
 

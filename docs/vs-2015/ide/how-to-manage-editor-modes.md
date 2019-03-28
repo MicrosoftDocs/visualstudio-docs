@@ -1,14 +1,9 @@
 ---
 title: "How to: Manage Editor Modes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "word wrap"
   - "views, virtual space"
@@ -29,7 +24,7 @@ ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Manage Editor Modes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ manager: "ghogen"
 You can display the Visual Studio Code Editor in various display modes.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Enabling Full Screen mode  
  You can choose to hide all tool windows and view only document windows by enabling **Full Screen** mode.  
@@ -68,6 +63,3 @@ You can display the Visual Studio Code Editor in various display modes.
  [Customizing the Editor](../ide/customizing-the-editor.md)   
  [How to: Arrange and Dock Windows](../misc/how-to-arrange-and-dock-windows.md)   
  [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
-
-
-

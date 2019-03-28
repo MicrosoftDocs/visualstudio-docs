@@ -11,15 +11,13 @@ helpviewer_keywords:
   - "user controls [Visual Studio], complex data binding"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Create a Windows Forms user control that supports complex data binding
 
-When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.
+When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**. Or, you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.
 
 For more information on control authoring, see [Developing Windows Forms controls at design time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
 
@@ -33,9 +31,7 @@ When authoring controls for use in data-binding scenarios you need to implement 
 
 This walkthrough creates a complex control that displays rows of data from a table. This example uses the `Customers` table from the Northwind sample database. The complex user control will display the customers table in a <xref:System.Windows.Forms.DataGridView> in the custom control.
 
-During this walkthrough, you will learn how to:
-
-- Create a new **Windows Forms Application**.
+During this walkthrough, you'll learn how to:
 
 - Add a new **User Control** to your project.
 
@@ -45,9 +41,9 @@ During this walkthrough, you will learn how to:
 
 - Create a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
-- Set the **Customers** table in the [Data Sources Window](add-new-data-sources.md) to use the new complex control.
+- Set the **Customers** table in the [Data Sources window](add-new-data-sources.md#data-sources-window) to use the new complex control.
 
-- Add the new control by dragging it from the **Data Sources Window** onto **Form1**.
+- Add the new control by dragging it from the **Data Sources** window onto **Form1**.
 
 ## Prerequisites
 
@@ -67,19 +63,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes running and the Northwind database is created.
 
-## Create a Windows Forms application
+## Create a Windows Forms app project
 
-The first step is to create a **Windows Forms Application**:
-
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-1. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-1. In the middle pane, select the **Windows Forms App** project type.
-
-1. Name the project **ComplexControlWalkthrough**, and then choose **OK**.
-
-    The **ComplexControlWalkthrough** project is created, and added to **Solution Explorer**.
+The first step is to create a **Windows Forms App** project for either C# or Visual Basic. Name the project **ComplexControlWalkthrough**.
 
 ## Add a user control to the project
 
@@ -112,27 +98,27 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 Use the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database:
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
 
-4.  On the **Choose your Data Connection** page do one of the following:
+4. On the **Choose your Data Connection** page do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+   - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
-    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+   - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.
+7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8.  Select the `Customers` table, and then click **Finish**.
+8. Select the `Customers` table, and then click **Finish**.
 
-    The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
+   The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
 
 ## Set the Customers table to use the ComplexDataGridView control
 

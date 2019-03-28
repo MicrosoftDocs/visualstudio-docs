@@ -55,13 +55,13 @@ Namespace StrokeSnippets_VB
 
 
         Protected Overrides Sub DrawCore(ByVal context As System.Windows.Media.DrawingContext, _
-                    ByVal overridedAttributes As DrawingAttributes)
-            Dim strokeBrush As New SolidColorBrush(overridedAttributes.Color)
+                    ByVal overriddenAttributes As DrawingAttributes)
+            Dim strokeBrush As New SolidColorBrush(overriddenAttributes.Color)
 
             ' If strokeMode it set to Solid, draw the strokes regularly.
             ' Otherwise, draw the stylus points.
             If strokeMode = DrawingMode.Solid Then
-                Dim geometry As Geometry = GetGeometry(overridedAttributes)
+                Dim geometry As Geometry = GetGeometry(overriddenAttributes)
                 context.DrawGeometry(strokeBrush, Nothing, geometry)
                 ' strokeMode == DrawingMode.StylusPoints
             Else

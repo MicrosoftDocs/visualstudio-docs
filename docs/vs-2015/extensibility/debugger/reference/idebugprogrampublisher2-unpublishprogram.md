@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgram"
 helpviewer_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgram"
 ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramPublisher2::UnpublishProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int UnpublishProgram(
 ## See Also  
  [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)   
  [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)
-

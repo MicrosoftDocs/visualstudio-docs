@@ -987,7 +987,7 @@ BOOL CPropertySection::WriteToStream( IStream* pIStream )
 		return FALSE;
 	}
 
-	// Now seek to end of of the now written section
+	// Now seek to end of the now written section
 	LISet32(li, ulSeek.LowPart);
 	pIStream->Seek(li, STREAM_SEEK_SET, NULL);
 
@@ -1517,7 +1517,7 @@ BOOL CPropertySet::ReadFromStream( IStream* pIStream )
 	// Now we're pointing at the first of the FormatID/Offset pairs
 	//(FIDOs).   To get to each section we use a cloned stream
 	// to stay back and point at the FIDOs(pIStrFIDO).  We seek
-	// pIStream to each of the sections, creating CProperitySection
+	// pIStream to each of the sections, creating CPropertySection
 	// and so forth as we go...
 	//
 	pIStream->Clone( &pIStrFIDO );

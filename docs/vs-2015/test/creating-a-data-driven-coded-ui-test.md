@@ -1,20 +1,15 @@
 ---
 title: "Creating a Data-Driven Coded UI Test | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests, data-driven"
 ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 58
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Creating a Data-Driven Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ To test different conditions, you can run your tests multiple times with differe
   
 4.  Add 1 plus 2, pause the recorder, and generate the test method. Later we’ll replace the values of this user input with values from a data file.  
   
-     ![Genetate test method](../test/media/cuit-datadriven-cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
+     ![Generate test method](../test/media/cuit-datadriven-cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
   
      Close the test builder. The method is added to the test:  
   
@@ -256,6 +251,3 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

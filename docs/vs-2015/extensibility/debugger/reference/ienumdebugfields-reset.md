@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugFields::Reset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugFields::Reset"
 helpviewer_keywords: 
   - "IEnumDebugFields::Reset method"
 ms.assetid: 38ff61e4-0120-42e8-971a-16be6050b425
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugFields::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ int Reset();
 ## See Also  
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)   
  [Next](../../../extensibility/debugger/reference/ienumdebugfields-next.md)
-

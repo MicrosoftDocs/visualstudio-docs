@@ -1,20 +1,15 @@
 ---
 title: "Implementing Command Handling for Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "nested projects, implementing command handling"
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Implementing Command Handling for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ The IDE can pass commands that are passed through the <xref:Microsoft.VisualStud
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
  [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-

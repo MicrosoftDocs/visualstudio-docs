@@ -1,14 +1,9 @@
 ---
 title: "Default Command, Group, and Toolbar Placement | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands [Visual Studio], default groups"
   - "toolbars [Visual Studio], default"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "commands [Visual Studio], default product"
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
 caps.latest.revision: 31
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Default Command, Group, and Toolbar Placement
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ For product uniformity and stability, the UI displays certain command groups by 
 ## See Also  
  [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-

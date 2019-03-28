@@ -1,68 +1,69 @@
 ---
 title: "IEEVisualizerService::GetCustomViewerList | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IEEVisualizerService::GetCustomViewerList"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerList method"
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IEEVisualizerService::GetCustomViewerList
-This method returns a list of type visualizers that this service knows about.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetCustomViewerList(  
-   ULONG                celtSkip,  
-   ULONG                celtRequested,  
-   DEBUG_CUSTOM_VIEWER* rgViewers,  
-   ULONG*               pceltFetched  
-);  
-```  
-  
-```csharp  
-int GetCustomViewerList(  
-   uint                  celtSkip,  
-   uint                  celtRequested,  
-   DEBUG_CUSTOM_VIEWER[] rgViewers,  
-   out uint              pceltFetched  
-);  
-```  
-  
-#### Parameters  
- `celtSkip`  
- [in] Number of visualizers to skip over.  
-  
- `celRequested`  
- [in] Number of visualizers to retrieve (also specifies size of the `rgViewers` array).  
-  
- `rgViewers`  
- [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.  
-  
- `pceltFetched`  
- [out] Number of visualizers actually retrieved.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) passes the request to this method as part of its support for type visualizers. If the expression evaluator also supplies custom viewers for the same type, it can append appropriately filled-out [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures for those custom viewers to the list. Make sure that [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) reflects those additional viewers.  
-  
- See [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) for details on the differences between visualizers and viewers.  
-  
-## See Also  
- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)   
- [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)   
- [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)   
- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)   
- [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
+This method returns a list of type visualizers that this service knows about.
+
+## Syntax
+
+```cpp
+HRESULT GetCustomViewerList(
+   ULONG                celtSkip,
+   ULONG                celtRequested,
+   DEBUG_CUSTOM_VIEWER* rgViewers,
+   ULONG*               pceltFetched
+);
+```
+
+```csharp
+int GetCustomViewerList(
+   uint                  celtSkip,
+   uint                  celtRequested,
+   DEBUG_CUSTOM_VIEWER[] rgViewers,
+   out uint              pceltFetched
+);
+```
+
+#### Parameters
+ `celtSkip`
+
+ [in] Number of visualizers to skip over.
+
+ `celRequested`
+
+ [in] Number of visualizers to retrieve (also specifies size of the `rgViewers` array).
+
+ `rgViewers`
+
+ [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
+
+ `pceltFetched`
+
+ [out] Number of visualizers actually retrieved.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+- [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) passes the request to this method as part of its support for type visualizers. If the expression evaluator also supplies custom viewers for the same type, it can append appropriately filled-out [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures for those custom viewers to the list. Make sure that [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) reflects those additional viewers.
+
+ See [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) for details on the differences between visualizers and viewers.
+
+## See Also
+- [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
+- [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
+- [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
+- [GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)
+- [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

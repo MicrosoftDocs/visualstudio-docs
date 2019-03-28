@@ -1,21 +1,16 @@
 ---
 title: "How to: Create Starter Kits | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Starter Kits, creating"
 ms.assetid: ed7d1844-7c01-424a-a831-5003efe0f7bc
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Starter Kits
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ A Starter Kit contains code for a complete application and documentation on how 
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
-
-
-

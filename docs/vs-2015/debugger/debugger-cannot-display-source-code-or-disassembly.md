@@ -1,14 +1,9 @@
 ---
 title: "Debugger Cannot Display Source Code or Disassembly | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "disassembly code, errors"
 ms.assetid: 112d3ea3-fdd2-4bce-92b4-167a76258934
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugger Cannot Display Source Code or Disassembly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ This error reads:
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-
-
-

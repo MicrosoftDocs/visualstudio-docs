@@ -1,23 +1,18 @@
 ---
 title: "Current Tab | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.reportnav.current"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Callstack at Selection Point"
 ms.assetid: 2c7b1ae5-3756-4795-bc59-f6bb113f2ba5
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Current Tab
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,6 +23,3 @@ By clicking the **Current** tab, you can see a call stack (if available) that is
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

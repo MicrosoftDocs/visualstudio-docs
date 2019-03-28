@@ -1,23 +1,18 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designer"
   - "Web Parts [SharePoint development in Visual Studio], creating"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create a web part for SharePoint by using a designer
@@ -186,6 +181,6 @@ Events from all calendars that you specified appear in the monthly calendar view
 
 ## See also
 
-[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
+[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)
 [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)

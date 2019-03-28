@@ -1,12 +1,9 @@
 ---
 title: "Filter and sort data in a Windows Forms application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Filter and sort data in a Windows Forms application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,4 +50,3 @@ You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter%2
   
 ## See Also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
-

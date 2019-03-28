@@ -1,8 +1,6 @@
 ---
 title: "CA1304: Specify CultureInfo"
 ms.date: 06/30/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "SpecifyCultureInfo"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b912d76a-54fd-4c93-b25d-16491e0ae319
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -82,4 +80,4 @@ This example produces the following output:
 
 ## See also
 
-- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
+- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#work-with-culture-specific-settings)

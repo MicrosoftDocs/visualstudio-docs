@@ -1,14 +1,9 @@
 ---
 title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ItemDefinitionGroup Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,6 +83,3 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Items](../msbuild/msbuild-items.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Command Routing in VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, routing"
   - "command routing, Visual Studio SDK"
 ms.assetid: a9c7f9ae-3594-4557-a314-8cf76f5f8772
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Routing in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ A command is routed in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] based on 
   
  [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)  
  Explains how to create a UI that includes menus, toolbars, and command combo boxes.
-

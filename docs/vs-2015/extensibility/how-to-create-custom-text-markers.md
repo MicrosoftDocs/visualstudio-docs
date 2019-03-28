@@ -1,20 +1,15 @@
 ---
 title: "How to: Create Custom Text Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - custom text markers"
 ms.assetid: 6e32ed81-c604-4a32-9012-8db3bec7c846
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Create Custom Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,4 +88,3 @@ If you want to create a custom text marker to emphasize or organize code, you mu
  [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
  [How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)   
  [How to: Use Text Markers](../extensibility/how-to-use-text-markers.md)
-

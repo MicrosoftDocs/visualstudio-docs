@@ -1,14 +1,9 @@
 ---
 title: "Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_to_old"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: f607af6f-57fe-472a-a32e-b6202067aa96
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,10 +48,7 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
 ### To correct this error  
   
--   See [Setting Up SQL Debugging](http://msdn.microsoft.com/en-us/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
+-   See [Setting Up SQL Debugging](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
   
 ## See Also  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
-
-
-

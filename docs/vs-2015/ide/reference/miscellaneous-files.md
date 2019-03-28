@@ -1,14 +1,9 @@
 ---
 title: "Miscellaneous Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.newfile"
   - "VS.OpenWith"
@@ -25,7 +20,7 @@ ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Miscellaneous Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ You might want to use the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editor
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)   
  [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)
-
-
-

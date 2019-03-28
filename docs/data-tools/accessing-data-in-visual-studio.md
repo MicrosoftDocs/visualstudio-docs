@@ -11,9 +11,7 @@ helpviewer_keywords:
  - "ADO.NET, data access"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
  - "data-storage"
 ---
@@ -23,7 +21,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
-The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) enables you to work with Azure data stores directly from Visual Studio.
+The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) enables you to work with Azure data stores directly from Visual Studio.
 
 ![Azure development workload](media/azure-development-workload.png)
 
@@ -31,43 +29,56 @@ Most of the other SQL and NoSQL database products that are listed here can be ho
 
 **Microsoft Azure**
 
-||||
-|-|-|-|
-|SQL Database|Azure Cosmos DB|Storage (blobs, tables, queues, files)|
-|SQL Data Warehouse|SQL Server Stretch Database|StorSimple|
-
-And more...
+- SQL Database
+- Azure Cosmos DB
+- Storage (blobs, tables, queues, files)
+- SQL Data Warehouse
+- SQL Server Stretch Database
+- StorSimple
+- And more...
 
 **SQL**
 
-||||
-|-|-|-|
-|SQL Server 2005-2016, including Express and LocalDB|Firebird|MariaDB|
-|MySQL|Oracle|PostgreSQL|
-|SQLite|||
-
-And more...
+- SQL Server 2005-2016 (includes Express and LocalDB)
+- Firebird
+- MariaDB
+- MySQL
+- Oracle
+- PostgreSQL
+- SQLite
+- And more...
 
 **NoSQL**
 
-||||
-|-|-|-|
-|Apache Cassandra|CouchDB|MongoDB|
-|NDatabase|OrientDB|RavenDB|
-|VelocityDB|||
+- Apache Cassandra
+- CouchDB
+- MongoDB
+- NDatabase
+- OrientDB|
+- RavenDB
+- VelocityDB
+- And more...
 
-And more...
+::: moniker range="vs-2017"
 
-Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension. You can browse these offerings in the Visual Studio Marketplace by navigating to **Tools**, **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box. For more information, see [Compatible database systems for Visual Studio](../data-tools/installing-database-systems-tools-and-samples.md).
+Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension. You can browse these offerings in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or by navigating to **Tools** > **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box. For more information, see [Compatible database systems for Visual Studio](../data-tools/installing-database-systems-tools-and-samples.md).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension. You can browse these offerings in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or by navigating to **Extensions** > **Manage Extensions** and then selecting **Online** in the left pane of the dialog box. For more information, see [Compatible database systems for Visual Studio](../data-tools/installing-database-systems-tools-and-samples.md).
+
+::: moniker-end
 
 > [!NOTE]
-> Extended support for SQL Server 2005 ended on April 12, 2016. There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/sql-server/sql-server-2005).
+> Extended support for SQL Server 2005 ended on April 12, 2016. There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/sql-server/sql-server-2005).
 
 ## .NET languages
 
 All .NET data access, including in .NET Core, is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](/dotnet/framework/data/adonet/index).
 
-For data-access documentation related to ASP.NET, see [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
+For data-access documentation related to ASP.NET, see [Working with Data](https://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
 Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).
 
@@ -100,9 +111,9 @@ C++ applications that connect to SQL Server should use the [Microsoft® ODBC Dri
 
 C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).
 
-C++ programs that work with Microsoft Azure Storage can use the [Microsoft Azure Storage Client](http://www.nuget.org/packages/wastorage).
+C++ programs that work with Microsoft Azure Storage can use the [Microsoft Azure Storage Client](https://www.nuget.org/packages/Microsoft.Azure.Storage.CPP).
 
-Data modeling&mdash;Visual Studio does not provide an ORM layer for C++. [ODB](http://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
+Data modeling&mdash;Visual Studio does not provide an ORM layer for C++. [ODB](https://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
 
 To learn more about connecting to databases from C++ apps, see [Visual Studio data tools for C++](../data-tools/visual-studio-data-tools-for-cpp.md). For more information about legacy Visual C++ data-access technologies, see [Data Access](/cpp/data/data-access-in-cpp).
 
@@ -132,7 +143,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [ADO.NET Entity Framework](https://docs.microsoft.com/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
-[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).
+[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 
 [Data in Office Solutions](../vsto/data-in-office-solutions.md)&mdash;Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 

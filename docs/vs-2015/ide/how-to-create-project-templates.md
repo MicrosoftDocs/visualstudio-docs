@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Project Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ExportTemplateWizard"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: a1a6999d-a34c-48a8-b1cf-027eb5c76398
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ This procedure enables you to create a template using the **Export Template** wi
 ## See Also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Item Templates](../ide/how-to-create-item-templates.md)
-
-
-

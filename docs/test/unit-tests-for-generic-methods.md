@@ -1,15 +1,13 @@
 ---
-title: "Unit tests for Generic Methods in Visual Studio"
+title: "Unit tests for Generic Methods"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "generics, and unit tests"
   - "unit tests, and generics"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -111,7 +109,7 @@ public void SizeOfLinkedListTest()
 ```
 
 > [!NOTE]
-> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](http://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).
+> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](https://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).
 
 
 ###  <a name="TypeConstraintNotSatisfied"></a> Example 2: Using a type constraint

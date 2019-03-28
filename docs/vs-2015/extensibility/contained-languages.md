@@ -1,20 +1,15 @@
 ---
 title: "Contained Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - contained languages"
 ms.assetid: b75bbb51-8e42-41b1-bece-09ab0b1f03cc
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Contained Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)] 
@@ -38,4 +33,3 @@ manager: "ghogen"
      The language passes in an array of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewSpanMapping> structure, which currently only includes a primary and a secondary span.  
   
 5.  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator.MapPrimaryToSecondarySpan%2A> method and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator.MapSecondaryToPrimarySpan%2A> method provide the mapping from primary to secondary buffer and vice versa.
-

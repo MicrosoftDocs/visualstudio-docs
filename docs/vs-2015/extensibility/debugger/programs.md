@@ -1,21 +1,16 @@
 ---
 title: "Programs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], programs"
   - "programs, debugging"
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Programs
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ In terms of the debugger architecture, a **program**:
  [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)
-

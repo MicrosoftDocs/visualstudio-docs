@@ -1,19 +1,16 @@
 ---
 title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
 ms.assetid: 1427ae91-be8a-4ce7-85df-00038faa2cbb
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Navigating and Updating a Model in Program Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -522,6 +519,3 @@ partial class MyDiagram
  [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md)   
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
-
-
-

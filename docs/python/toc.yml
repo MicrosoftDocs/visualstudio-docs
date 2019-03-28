@@ -1,5 +1,13 @@
+- name: Python in Visual Studio
+  href: index.yml
 - name: Overview
-  href: overview-of-python-tools-for-visual-studio.md
+  items:
+    - name: Overview of Python support
+      href: overview-of-python-tools-for-visual-studio.md
+    - name: Tour the Visual Studio IDE
+      href: visual-studio-ide.md
+    - name: Data science and analytical applications workload
+      href: data-science-and-analytical-applications-workload.md
 - name: Installation
   href: installing-python-support-in-visual-studio.md
   items:
@@ -12,6 +20,8 @@
     maintainContext: true
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
+  - name: Open and run Python code in a folder
+    href: quickstart-05-python-visual-studio-open-folder.md  
   - name: Create a project from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository
@@ -75,10 +85,10 @@
     - name: Azure cloud service template
       href: python-azure-cloud-service-project-template.md
   - name: Azure SDK for Python
-    href: azure-sdk-for-python.md
+    href: /python/azure/?view=azure-python
 - name: How-to guides
   items:
-  - name: Managing environments
+  - name: Manage Python environments
     href: managing-python-environments-in-visual-studio.md
     items:
     - name: Select an interpreter for a project

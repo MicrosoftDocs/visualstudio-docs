@@ -1,20 +1,15 @@
 ---
 title: "IDebugPrimitiveTypeField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugPrimitiveTypeField interface"
 ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPrimitiveTypeField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ IDebugPrimitiveTypeField : IDebugField
  Namespace: Microsoft.VisualStudio.Debugger.Interop  
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
-

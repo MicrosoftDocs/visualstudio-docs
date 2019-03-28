@@ -2,14 +2,12 @@
 title: "Workflow Designer - StateMachine Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "StateMachine Designer"
   - "System.Activities.Statements.StateMachine.UI"
 ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

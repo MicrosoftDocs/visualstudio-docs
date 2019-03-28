@@ -1,14 +1,9 @@
 ---
 title: "How Can I Find Out Who Is Passing a Wrong Parameter Value? | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.parameters"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "parameter values, troubleshooting"
 ms.assetid: 1f1ae455-0e25-4e9d-b33f-53908f5bd6ce
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How Can I Find Out Who Is Passing a Wrong Parameter Value?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,8 +50,5 @@ Problem Description
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
- [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583)   
+ [Breakpoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

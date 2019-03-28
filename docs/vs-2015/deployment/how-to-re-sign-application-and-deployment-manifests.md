@@ -1,14 +1,9 @@
 ---
 title: "How to: Re-sign Application and Deployment Manifests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Re-sign Application and Deployment Manifests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ After you make changes to deployment properties in the application manifest for 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.  
   
 ## Re-signing the Application and Deployment Manifests  
- This procedure assumes that you have already made changes to your application manifest file (.manifest). For more information, see [How to: Change Deployment Properties](http://msdn.microsoft.com/en-us/66052a3a-8127-4964-8147-2477ef5d1472).  
+ This procedure assumes that you have already made changes to your application manifest file (.manifest). For more information, see [How to: Change Deployment Properties](http://msdn.microsoft.com/66052a3a-8127-4964-8147-2477ef5d1472).  
   
 #### To re-sign the application and deployment manifests with Mage.exe  
   
@@ -125,6 +120,3 @@ After you make changes to deployment properties in the application manifest for 
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
  [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)
-
-
-

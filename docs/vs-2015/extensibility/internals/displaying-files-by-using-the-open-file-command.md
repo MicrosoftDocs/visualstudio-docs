@@ -1,22 +1,17 @@
 ---
 title: "Displaying Files By Using the Open File Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project types, supporting Open File command"
   - "Open File command"
   - "persistence, supporting Open File command"
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Displaying Files By Using the Open File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ The following steps describe how the IDE handles the **Open File** command, whic
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)   
  [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md)   
  [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)
-

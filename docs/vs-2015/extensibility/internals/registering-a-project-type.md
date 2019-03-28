@@ -1,22 +1,17 @@
 ---
 title: "Registering a Project Type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], new project registry entries"
   - "registry, new project types"
   - "registration, new project types"
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering a Project Type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -269,4 +264,3 @@ When you create a new project type, you must create registry entries that enable
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)   
  [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

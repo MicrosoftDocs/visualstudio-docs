@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugCodeContexts2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugCodeContexts2"
 helpviewer_keywords: 
   - "IEnumDebugCodeContexts2"
 ms.assetid: 72915146-215f-4c99-a034-131b2b474e0e
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugCodeContexts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ IEnumDebugCodeContexts2 : IUnknown
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [EnumCodeContexts](../../../extensibility/debugger/reference/idebugprogram2-enumcodecontexts.md)   
  [EnumCodeContexts](../../../extensibility/debugger/reference/idebugdocumentcontext2-enumcodecontexts.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "PENDING_BP_STATE_FLAGS"
 helpviewer_keywords: 
   - "PENDING_BP_STATE_FLAGS enumeration"
 ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # PENDING_BP_STATE_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ public enum enum_PENDING_BP_STATE_FLAGS { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)
-

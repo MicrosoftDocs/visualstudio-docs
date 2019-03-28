@@ -1,20 +1,15 @@
 ---
 title: "Troubleshooting RegPkg Package Registration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "RegPkg"
 ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Troubleshooting RegPkg Package Registration
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ manager: "ghogen"
   
 ## See Also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)
-

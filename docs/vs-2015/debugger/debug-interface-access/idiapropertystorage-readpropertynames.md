@@ -1,23 +1,18 @@
 ---
 title: "IDiaPropertyStorage::ReadPropertyNames | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaPropertyStorage::ReadPropertyNames"
 ms.assetid: f8bcab77-afca-4a8f-8710-697842f8a518
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaPropertyStorage::ReadPropertyNames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ HRESULT ReadPropertyNames (
   
 ## See Also  
  [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
-
-
-

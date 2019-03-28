@@ -1,20 +1,15 @@
 ---
 title: "Accessing Text Layers by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - text layers"
 ms.assetid: 2258fcdd-38d1-479d-b8f8-1d4e6525f72c
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Accessing Text Layers by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
  [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)   
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [Customizing Editor Controls and Menus by Using the Legacy API](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)
-

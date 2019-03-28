@@ -1,10 +1,7 @@
 ---
 title: "IDebugProgramNode2::Attach_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "IDebugProgramNode2::Attach"
 helpviewer_keywords:
@@ -12,7 +9,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::Attach"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -42,12 +39,15 @@ int Attach_V7 (
 #### Parameters
 
 `pMDMProgram`
+
  [in] The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface that represents the program to attach to.
 
  `pCallback`
+
  [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) interface to be used to send debug events to the SDM.
 
  `dwReason`
+
  [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching.
 
 ## Return Value
@@ -69,13 +69,13 @@ The DE must call the [GetProgramId](../../../extensibility/debugger/reference/id
 
 ## See Also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)  
-[IDebugProgramNodeAttach2](../../../extensibility/debugger/reference/idebugprogramnodeattach2.md)  
-[Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)  
-[IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)  
-[IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)  
-[IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md)  
-[IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md)  
-[IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)  
-[IDebugEntryPointEvent2](../../../extensibility/debugger/reference/idebugentrypointevent2.md)  
-[ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNodeAttach2](../../../extensibility/debugger/reference/idebugprogramnodeattach2.md)
+- [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
+- [IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md)
+- [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md)
+- [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)
+- [IDebugEntryPointEvent2](../../../extensibility/debugger/reference/idebugentrypointevent2.md)
+- [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md)

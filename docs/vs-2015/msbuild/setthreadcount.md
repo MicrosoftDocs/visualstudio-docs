@@ -1,14 +1,9 @@
 ---
 title: "SetThreadCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "SetThreadCount"
 api_location: 
@@ -21,7 +16,7 @@ ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # SetThreadCount
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT WINAPI SetThreadCount(int threadCount);
   
 ## Requirements  
  **Header:** FileTracker.h
-
-
-

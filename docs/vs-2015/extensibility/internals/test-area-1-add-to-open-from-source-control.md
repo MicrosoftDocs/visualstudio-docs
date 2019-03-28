@@ -1,21 +1,16 @@
 ---
 title: "Test Area 1: Add To-Open From Source Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], adding and opening solutions"
   - "source control plug-ins, adding and opening solutions"
 ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Test Area 1: Add To/Open From Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ This source-control plug-in test area covers placing solutions or projects under
   
 ## See Also  
  [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
-

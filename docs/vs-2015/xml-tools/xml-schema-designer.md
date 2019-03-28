@@ -1,19 +1,14 @@
 ---
 title: "XML Schema Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: ffdf63ee-faa6-45b7-bbf9-a5644dc8aca2
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Schema Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ The XML Schema Designer (XSD Designer) is a graphical tool that allows you to vi
   
  [XML Schema Designer Tasks](../xml-tools/xml-schema-designer-tasks.md)  
  Describes how to complete common tasks with the XML Schema Designer tools.
-
-
-

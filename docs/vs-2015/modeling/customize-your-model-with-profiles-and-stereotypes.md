@@ -1,21 +1,18 @@
 ---
 title: "Customize your model with profiles and stereotypes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, profiles"
   - "UML model, stereotypes"
   - "UML model, customizing"
 ms.assetid: fd607157-0d3a-4583-a84e-427a4b2a5acb
 caps.latest.revision: 20
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customize your model with profiles and stereotypes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +40,3 @@ In Visual Studio, you can adapt the standard UML model elements, such as classes
 |[Install a UML profile](../modeling/install-a-uml-profile.md)|If someone has given you a UML Profile, you can install it on your computer.|  
 |[Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md)|A custom toolbox item saves you from repeatedly setting a stereotype on new elements.|  
 |[Color UML Classes by Stereotype](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|This sample code extends the UML diagrams. It automatically sets the color of a UML shape according to the stereotype of the element.|
-
-
-

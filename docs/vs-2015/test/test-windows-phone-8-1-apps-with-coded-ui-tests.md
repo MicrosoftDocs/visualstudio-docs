@@ -1,18 +1,13 @@
 ---
 title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 7b866776-f2d5-4823-8d15-919f889db26f
 caps.latest.revision: 31
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -385,6 +380,3 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-
-
-

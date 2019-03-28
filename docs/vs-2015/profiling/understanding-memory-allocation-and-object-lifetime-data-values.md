@@ -1,22 +1,17 @@
 ---
 title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".NET memory profiling method"
   - "Profiling Tools, .NET memory method"
 ms.assetid: a22445b3-39a6-4919-8506-2b5b0ceaf77e
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Understanding Memory Allocation and Object Lifetime Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../includes/v
  The garbage collector of the .NET Framework manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The run-time's garbage collector stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  
   
  The garbage collector reclaims memory by deallocating a whole generation of objects. For objects that the profiled application created, the Object Lifetime view displays the number and size of the objects and the generation when they are reclaimed.
-
-
-

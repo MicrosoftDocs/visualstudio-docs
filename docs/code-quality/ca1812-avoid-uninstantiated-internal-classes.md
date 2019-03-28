@@ -1,8 +1,6 @@
 ---
 title: "CA1812: Avoid uninstantiated internal classes"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1812"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

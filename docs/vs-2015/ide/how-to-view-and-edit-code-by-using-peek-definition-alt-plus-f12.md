@@ -1,19 +1,14 @@
 ---
 title: "How to: View and Edit Code by Using Peek Definition (Alt+F12) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 45f3dd20-902a-4047-8cca-9f18216123f4
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: View and Edit Code by Using Peek Definition (Alt+F12)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ You can use the **Peek Definition** command to view and edit code without switch
   
 ## See Also  
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
-
-
-

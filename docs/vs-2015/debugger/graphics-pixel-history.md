@@ -1,21 +1,16 @@
 ---
 title: "Graphics Pixel History | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.pixelhistory"
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Pixel History
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
 ## See Also  
  [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)   
  [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
-
-
-

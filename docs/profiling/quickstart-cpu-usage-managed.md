@@ -3,14 +3,13 @@ title: "Analyze CPU usage data (managed code)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "CA1721: Property names should not match get methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1721"
   - "PropertyNamesShouldNotMatchGetMethods"
@@ -56,6 +51,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1024: Use properties where appropriate](../code-quality/ca1024-use-properties-where-appropriate.md)
-
-
-

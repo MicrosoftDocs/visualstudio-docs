@@ -10,7 +10,7 @@ metadata:
   ms.topic: landing-page
   ms.author: gewarren
   author: gewarren
-  manager: douge
+  manager: jillfra
 abstract:
   description: Learn how to analyze code for the first time, or how to migrate from FxCop to the new way of analyzing managed code using analyzers.
   aside:
@@ -43,10 +43,10 @@ sections:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install analyzers
       - href: use-roslyn-analyzers.md
-        html: <p>Learn how to configure analyzers for your C# or Visual Basic code.</p>
+        html: <p>Learn how to use analyzers and suppress violations for C# or Visual Basic code.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_config-tools.svg
-        title: Configure and use analyzers
+        title: Set rule severity and and suppress errors
       - href: use-roslyn-analyzers.md#command-line-usage
         html: <p>Learn how to use analyzers from the command line.</p>
         image:

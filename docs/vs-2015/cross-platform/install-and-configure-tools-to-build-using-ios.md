@@ -1,21 +1,16 @@
 ---
 title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 dev_langs: 
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 caps.latest.revision: 13
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: corob-msft
+ms.author: corob
+manager: jillfra
 ---
 # Install And Configure Tools to Build using iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ manager: "ghogen"
 You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.  
   
 > [!NOTE]
->  For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/en-us/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
+>  For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
   
  Once you have installed the tools to build using iOS, refer to this topic for ways to quickly configure and update the remote agent for iOS development in Visual Studio and on your Mac.  
   
@@ -241,4 +236,3 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 ## See Also  
  [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
-

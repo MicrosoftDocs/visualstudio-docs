@@ -9,11 +9,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, image shape"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Image Shapes
 
@@ -69,4 +67,4 @@ Image shapes have the properties that are listed in the following table.
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

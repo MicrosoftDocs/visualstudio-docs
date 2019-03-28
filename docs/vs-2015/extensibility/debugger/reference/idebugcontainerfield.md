@@ -1,22 +1,17 @@
 ---
 title: "IDebugContainerField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugContainerField"
 helpviewer_keywords: 
   - "IDebugContainerField interface"
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugContainerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ IDebugContainerField : IDebugField
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
-

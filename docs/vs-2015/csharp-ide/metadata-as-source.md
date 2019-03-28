@@ -1,14 +1,9 @@
 ---
 title: "Metadata as Source | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: 4945a07f-b3be-4f05-a587-fc29058aa8fa
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Metadata as Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

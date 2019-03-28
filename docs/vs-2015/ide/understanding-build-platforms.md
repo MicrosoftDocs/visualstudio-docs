@@ -1,14 +1,9 @@
 ---
 title: "Understanding Build Platforms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.build.newsolutionplatform"
   - "vs.build.editprojectplatforms"
@@ -21,7 +16,7 @@ ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Understanding Build Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ You can store different versions of solution and project properties that apply t
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "IDebugPendingBreakpoint2::Enable | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Enable"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "Enable method"
 ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPendingBreakpoint2::Enable
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -85,4 +80,3 @@ HRESULT CPendingBreakpoint::Enable(BOOL fEnable)
   
 ## See Also  
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
-

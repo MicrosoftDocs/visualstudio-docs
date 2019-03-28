@@ -1,8 +1,6 @@
 ---
 title: Analyze and model your architecture
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio Ultimate, exploring code"
@@ -29,7 +27,7 @@ helpviewer_keywords:
   - "applications, designing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -49,7 +47,7 @@ See [Scenario: Change your design using visualization and modeling](../modeling/
 
 |||
 |-|-|
-|**Visualize code**:<br /><br /> -   See the code's organization and relationships by creating code maps. Visualize dependencies between assemblies, namespaces, classes, methods, and so on.<br />-   See the class structure and members for a specific project by creating class diagrams from code.<br />-   Find conflicts between your code and its design by creating dependency diagrams to validate code.|-   [Visualize code](../modeling/visualize-code.md)<br />-   [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)<br />-   [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)<br />-   [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)|
+|**Visualize code**:<br /><br /> -   See the code's organization and relationships by creating code maps. Visualize dependencies between assemblies, namespaces, classes, methods, and so on.<br />-   See the class structure and members for a specific project by creating class diagrams from code.<br />-   Find conflicts between your code and its design by creating dependency diagrams to validate code.|-   [Visualize code](../modeling/visualize-code.md)<br />-   [Working with Classes and Other Types (Class Designer)](../ide/class-designer/designing-and-viewing-classes-and-types.md)<br />-   [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)<br />-   [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)|
 |**Define the architecture**:<br /><br /> -   Define and enforce constraints on dependencies between the components of your code by creating dependency diagrams.|-   [Video: Validate architecture dependencies with Visual Studio (Channel 9)](https://channel9.msdn.com/Events/Connect/2016/170)|
 |**Validate your system with the requirements and intended design:**<br /><br /> -   Validate code dependencies with dependency diagrams that describe the intended architecture and prevent changes that might conflict with the design.|-   [Video: Validate architecture dependencies with Visual Studio (Channel 9)](https://channel9.msdn.com/Events/Connect/2016/170)|
 |**Customize models and diagrams**:<br /><br /> -   Create your own domain-specific languages.|-   [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)|
@@ -105,5 +103,5 @@ A DSL is a notation that you design for a specific purpose. In Visual Studio, it
 
 ## See also
 
-- [What's new](../modeling/what-s-new-for-design-in-visual-studio.md)
-- [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/Library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
+- [What's new for modeling in Visual Studio 2017](../modeling/what-s-new-for-design-in-visual-studio.md)
+- [DevOps and Application Lifecycle Management](/azure/devops/user-guide/devops-alm-overview)

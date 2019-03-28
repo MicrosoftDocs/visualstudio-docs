@@ -1,14 +1,9 @@
 ---
 title: "How to: Choose Sampling Events | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.sampling"
 helpviewer_keywords: 
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "performance tools, sample events"
 ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Choose Sampling Events
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools col
  [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

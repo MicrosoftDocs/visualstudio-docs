@@ -1,8 +1,6 @@
 ---
 title: "How to: Manage editor windows"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor windows"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,22 +1,17 @@
 ---
 title: "Registering a Legacy Language Service2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "registration, language services"
   - "language services, registry information"
   - "registry, language services"
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -240,4 +235,3 @@ ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ## See Also  
  [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
-

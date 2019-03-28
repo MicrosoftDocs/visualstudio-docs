@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Simple data binding in VSTO Add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], binding data"
   - "data binding [Office development in Visual Studio], Word"
   - "data [Office development in Visual Studio], simple binding data"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

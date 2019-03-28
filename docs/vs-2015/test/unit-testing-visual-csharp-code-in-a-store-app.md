@@ -1,19 +1,14 @@
 ---
 title: "Unit testing Visual C# code in a Store app | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 23cb0d82-0451-464e-98ea-fa66e7010ead
 caps.latest.revision: 21
 author: "alexhomer1"
 ms.author: gewarren
-manager: "robinr"
+manager: jillfra
 ---
 # Unit testing Visual C# code in a Store app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -365,6 +360,3 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 > [!NOTE]
 >  To add a helper method to a test class, do not add the `[TestMethod]` attribute to the method. Test Explorer does not register the method to be run.
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Debugging Web Applications and Script | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "applications [Visual Studio], debugging"
 ms.assetid: 6968625d-9783-4ad6-8bf5-eb85b548844c
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Web Applications and Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ Table legend:
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

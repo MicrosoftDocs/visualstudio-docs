@@ -1,14 +1,9 @@
 ---
 title: "Lines View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.lines"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "Lines view"
 ms.assetid: 71ec0781-6031-4e17-af09-f50226018437
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Lines View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ The Lines view is available only for profiler data that was collected by using t
  [Lines View](../profiling/lines-view-sampling-data.md)   
  [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
  [Lines View](../profiling/lines-view-contention-data.md)
-
-
-

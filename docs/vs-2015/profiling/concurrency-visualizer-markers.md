@@ -1,21 +1,16 @@
 ---
 title: "Concurrency Visualizer Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.markersui"
 ms.assetid: c4692d17-6cd2-4ad1-8590-d7275c771c70
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Concurrency Visualizer Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 - [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)  
   
-- [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+- [Scenario Marker Support](http://msdn.microsoft.com/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
   
 - [C++ AMP (C++ Accelerated Massive Parallelism)](http://msdn.microsoft.com/library/e27824cb-3167-409b-8c3f-a0e476d8f349)  
   
@@ -67,6 +62,3 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
  [Message Markers](../profiling/message-markers.md)   
  [Span Markers](../profiling/span-markers.md)   
  [Visualizing EventSource Events as Markers](../profiling/visualizing-eventsource-events-as-markers.md)
-
-
-

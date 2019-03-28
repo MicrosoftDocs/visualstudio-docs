@@ -1,8 +1,6 @@
 ---
 title: "CA1059: Members should not expose certain concrete types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1059"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 59f61f52-8d6c-49cb-aefb-191910523a3c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

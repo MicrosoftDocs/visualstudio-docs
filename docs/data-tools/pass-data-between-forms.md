@@ -14,9 +14,7 @@ helpviewer_keywords:
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -75,7 +73,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the data source
 
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 

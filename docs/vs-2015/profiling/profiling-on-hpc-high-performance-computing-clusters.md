@@ -1,14 +1,9 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.hpc.wizard.exeoptions"
   - "vs.performance.hpc.wizard.summary"
@@ -23,14 +18,14 @@ helpviewer_keywords:
   - "HPC profiling"
 ms.assetid: 1525bbdb-27da-4088-8487-a486cee5e7b3
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Profiling on HPC (High Performance Computing) Clusters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
+You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Big Compute: HPC & Batch](https://azure.microsoft.com/solutions/big-compute/) on the Microsoft Web site.  
   
 ## Prerequisites  
  To profile on a HPC compute node, you must do the following:  
@@ -149,6 +144,3 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
 |**Pre-profile script arguments**|Specifies the arguments to pass to the pre-profile script.|  
 |**Post-profile script**|Specifies the path and file name of a script to run on the local development computer after the profiling session ends.|  
 |**Post-profile script arguments**|Specifies the arguments to pass to the post-profile script.|
-
-
-

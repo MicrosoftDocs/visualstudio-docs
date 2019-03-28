@@ -1,20 +1,15 @@
 ---
 title: "Processes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], processes"
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Processes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ In terms of the debugger architecture, a **process**:
  [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)   
  [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
  [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md)
-

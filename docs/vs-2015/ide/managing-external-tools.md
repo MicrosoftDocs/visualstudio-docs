@@ -1,14 +1,9 @@
 ---
 title: "Managing External Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.externaltools"
 helpviewer_keywords: 
@@ -61,7 +56,7 @@ ms.assetid: f382fd40-a98f-4934-8c9a-5aeae881acde
 caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing External Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +79,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
 6.  WCF Service Configuration Editor: Allows you to create and modify configuration settings for WCF services.  
   
 > [!WARNING]
->  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Adding New Tools  
  You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
@@ -122,11 +117,3 @@ You can call external tools from inside Visual Studio. A few default tools are a
   
 ## See Also  
  [C/C++ Build Tools](http://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)
-
-
-
-
-
-
-
-

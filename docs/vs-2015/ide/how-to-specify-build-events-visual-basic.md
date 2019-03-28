@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Build Events (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "pre-build events"
   - "events [Visual Studio], builds"
@@ -19,7 +14,7 @@ ms.assetid: 40dc83bf-a7c5-4a14-816a-fa0980b6e4c3
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Build Events (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -164,11 +159,8 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     ```  
   
 ## See Also  
- [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Compilation Properties](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md)
-
-
-

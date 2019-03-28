@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty3::GetCustomViewerList | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3::GetCustomViewerList"
 helpviewer_keywords: 
   - "IDebugProperty3::GetCustomViewerList"
 ms.assetid: 74490fd8-6f44-4618-beea-dab64961bb8a
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty3::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -91,4 +86,3 @@ STDMETHODIMP CProperty::GetCustomViewerList(ULONG celtSkip, ULONG celtRequested,
  [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)   
  [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

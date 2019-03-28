@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Using a Configuration File to Define a Data Source | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 34
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -218,7 +213,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 1.  Add a unit test to the test project.  
   
-     For more information, see [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173).  
+     For more information, see [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173).  
   
 2.  Replace the auto-generated contents of the unit test with the following code:  
   
@@ -269,9 +264,6 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
  [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
  [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)
-
-
-

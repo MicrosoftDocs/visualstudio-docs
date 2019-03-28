@@ -1,19 +1,14 @@
 ---
 title: "How to: Create a Basic Color Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create a Basic Color Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
  [How to: Export a Shader](../designers/how-to-export-a-shader.md)   
  [Shader Designer](../designers/shader-designer.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

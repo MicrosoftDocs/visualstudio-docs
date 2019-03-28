@@ -1,5 +1,5 @@
 ---
-title: "Create and run a load test in Visual Studio"
+title: "Create and run a load test"
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,13 @@ helpviewer_keywords:
 ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Walkthrough: Create and run a load test that contains unit tests
 
 In this walkthrough you create a load test that contains unit tests.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 This walkthrough steps you through creating and then running a load test using Visual Studio Enterprise. A load test is a container of web performance tests and unit tests. You create load tests with the **New Load Test Wizard**.
 

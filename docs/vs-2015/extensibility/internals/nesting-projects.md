@@ -1,14 +1,9 @@
 ---
 title: "Nesting Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project nesting"
   - "nested projects"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: 12cce037-9840-4761-845e-5abd5fb317b0
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Nesting Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ Nested projects example
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Context Parameters](../../extensibility/internals/context-parameters.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

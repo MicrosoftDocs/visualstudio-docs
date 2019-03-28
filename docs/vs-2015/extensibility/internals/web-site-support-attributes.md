@@ -1,20 +1,15 @@
 ---
 title: "Web Site Support Attributes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "web site projects, registration"
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Web Site Support Attributes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ manager: "ghogen"
   
 ## See Also  
  [Web Site Support](../../extensibility/internals/web-site-support.md)
-

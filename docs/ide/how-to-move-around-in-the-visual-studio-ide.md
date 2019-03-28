@@ -1,8 +1,6 @@
 ---
-title: "How to: Move around in the Visual Studio IDE"
+title: How to move around in the IDE
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "environments [Visual Studio], navigation"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

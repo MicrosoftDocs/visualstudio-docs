@@ -1,14 +1,9 @@
 ---
 title: "How to: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.events"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "performance tools, enabling event trace providers"
 ms.assetid: aa2261fe-d5f5-49fc-a171-d18842e1dc7d
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Collect Event Tracing for Windows (ETW) Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility th
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
-
-
-

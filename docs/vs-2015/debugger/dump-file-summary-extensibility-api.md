@@ -1,14 +1,9 @@
 ---
 title: "Dump File Summary Extensibility API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: bf008cdc-03f8-496b-868d-4c2644f1d7ee
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Dump File Summary Extensibility API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,6 +27,3 @@ Using the extensibility APIs in this section, you can extend the .Exe Project Sy
   
 ## See Also  
  [Using Dump Files](../debugger/using-dump-files.md)
-
-
-

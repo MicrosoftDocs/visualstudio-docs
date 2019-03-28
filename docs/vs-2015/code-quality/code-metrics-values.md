@@ -1,23 +1,18 @@
 ---
 title: "Code Metrics Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code metrics"
   - "code analysis"
   - "measure code quality"
 ms.assetid: bc38831e-2083-4ea4-8527-ee41499a342f
 caps.latest.revision: 22
-author: "erickson-doug"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Code Metrics Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ Code metrics is a set of software measures that provide developers better insigh
   
 ## See Also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
-
-
-

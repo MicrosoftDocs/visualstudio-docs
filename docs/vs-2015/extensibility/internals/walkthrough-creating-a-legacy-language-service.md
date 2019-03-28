@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Creating a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services [managed package framework], creating"
 ms.assetid: 6a5dd2c2-261b-4efd-a3f4-8fb90b73dc82
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -133,4 +128,3 @@ Using the managed package framework (MPF) language classes to implement a langua
   
 ## See Also  
  [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
-

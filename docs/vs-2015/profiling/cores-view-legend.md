@@ -1,23 +1,18 @@
 ---
 title: "Cores View Legend | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.cores.legend"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Cores View Legend"
 ms.assetid: e160384c-fcfe-49b3-86b7-229adb736c51
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Cores View Legend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ The Cores View legend identifies each thread by color and name. It includes colu
   
 ## See Also  
  [Cores View](../profiling/cores-view.md)
-
-
-

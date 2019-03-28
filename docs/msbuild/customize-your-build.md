@@ -1,20 +1,18 @@
 ---
 title: "Customize your build | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/14/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, transforms"
   - "transforms [MSBuild]"
 ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# Customize your build
+# Customize your build (C#, Visual Basic)
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
@@ -156,6 +154,6 @@ For example, you could define a new target to write a custom log message after b
 
 ## See also
 
-[MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
 
-[MSBuild reference](../msbuild/msbuild-reference.md)
+- [MSBuild reference](../msbuild/msbuild-reference.md)

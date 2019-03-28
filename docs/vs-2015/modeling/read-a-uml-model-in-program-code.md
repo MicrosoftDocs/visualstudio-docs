@@ -1,19 +1,16 @@
 ---
 title: "Read a UML model in program code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, reading models"
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 25
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Read a UML model in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,6 +101,3 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

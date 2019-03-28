@@ -1,14 +1,9 @@
 ---
 title: "Create Custom Visualizers of Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.visualizer.troubleshoot"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "visualizers"
 ms.assetid: c24c006f-f2ac-429f-89db-677fc0c6e1ea
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Create Custom Visualizers of Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ Visualizers are components of the [!INCLUDE[vs_current_short](../includes/vs-cur
   
 ## Related Sections  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-
-
-

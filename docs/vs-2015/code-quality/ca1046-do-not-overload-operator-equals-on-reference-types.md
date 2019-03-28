@@ -1,14 +1,9 @@
 ---
 title: "CA1046: Do not overload operator equals on reference types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotOverloadOperatorEqualsOnReferenceTypes"
   - "CA1046"
@@ -65,6 +60,3 @@ manager: "wpickett"
 ## See Also
  <xref:System.Object.Equals%2A?displayProperty=fullName>
  [Equality Operators](http://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugEnumField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEnumField"
 helpviewer_keywords: 
   - "IDebugEnumField interface"
 ms.assetid: 42f685bf-0f39-47f4-98b0-6022efe2bf97
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEnumField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ IDebugEnumField : IDebugContainerField
  [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)
-

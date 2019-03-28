@@ -1,14 +1,9 @@
 ---
 title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -27,9 +22,9 @@ helpviewer_keywords:
   - "_DEBUG macro"
 ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Enabling Debug Features in Visual C++ (/D_DEBUG)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ In [!INCLUDE[vcprvc](../includes/vcprvc-md.md)], debugging features such as asse
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
-
-
-

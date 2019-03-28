@@ -1,19 +1,14 @@
 ---
 title: "Step 5: Add Label References | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: d418350c-0396-494e-8149-71fa61b395c5
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 5: Add Label References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ Matching game showing one icon
 -   To go to the next tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).  
   
 -   To return to the previous tutorial step, see [Step 4: Add a Click Event Handler to Each Label](../ide/step-4-add-a-click-event-handler-to-each-label.md).
-
-
-

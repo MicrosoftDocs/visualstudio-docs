@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - walkthrough"
 ms.assetid: 24d2bffd-a35c-46db-8515-fd60b884b7fb
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating a Core Editor and Registering an Editor File Type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+-   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a [!INCLUDE[csprcs](../includes/csprcs-md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
@@ -397,4 +392,3 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
-

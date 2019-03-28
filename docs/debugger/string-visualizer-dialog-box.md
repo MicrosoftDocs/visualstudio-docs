@@ -1,26 +1,24 @@
 ---
 title: "View strings in a string visualizer | Microsoft Docs"
-ms.custom: ""
-ms.date: "07/11/2018"
-ms.technology: "vs-ide-debug"
+ms.date: "10/10/2018"
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.stringviewer"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "string visualizer"
   - "visualizers, string"
 ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # View strings in a string visualizer in Visual Studio
@@ -37,9 +35,9 @@ To open the string visualizer, you must be paused during debugging. Hover over a
 
 ## View string visualizer data
 
-In the string visualizer window, the **Expression** field shows the variable or expression you're hovering over, and the **Value** field shows the string value. 
+In the string visualizer window, the **Expression** field shows the variable or expression you're hovering over, and the **Value** field shows the string value.
 
-A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. 
+A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string.
 
 To view strings that the chosen visualizer can't recognize, choose the **Text Visualizer**. The **Text Visualizer** shows plain text.
 
@@ -61,5 +59,7 @@ A well-formed HTML string appears as if rendered in a browser, as shown in the f
 
 ![HTML string visualizer](../debugger/media/dbg-string-visualizers-html.png "HTML String Visualizer")
 
-## See also  
- [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)
+## See also
+
+- [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)
+- [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations)

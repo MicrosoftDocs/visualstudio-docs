@@ -1,18 +1,15 @@
 ---
 title: "Deploying Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying extensions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -20,9 +17,9 @@ ms.workload:
 
 To deploy a SharePoint tools extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package that contains the extension assembly and any other files that you want to distribute with the extension. A VSIX package is a compressed file that follows the Open Packaging Conventions (OPC) standard. VSIX packages have the *.vsix* extension.
 
-After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.
+After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.
 
-For more information about creating VSIX packages and deploying them to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847), see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
+For more information about creating VSIX packages and deploying them to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
 
  You can create a VSIX package by using the **VSIX Project** template in Visual Studio, or you can create a VSIX package manually.
 
@@ -229,13 +226,13 @@ If you want to manually create the VSIX package for your SharePoint tools extens
 
 4.  Modify the extension.vsixmanifest file:
 
-    -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](http://msdn.microsoft.com/en-us/8a813141-8b73-44c9-b80b-ca85bbac9551).
+    -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
-    -   If your extension includes a SharePoint command that calls into the server object model for SharePoint, add a `Microsoft.VisualStudio.Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly that implements the SharePoint command in the VSIX package. For more information, see [Asset Element (VSX Schema)](http://msdn.microsoft.com/en-us/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    -   If your extension includes a SharePoint command that calls into the server object model for SharePoint, add a `Microsoft.VisualStudio.Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly that implements the SharePoint command in the VSIX package. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
 
-    -   If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [ProjectTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/87add64c-9dcd-495f-8815-209dab182cb1) and [ItemTemplate Element (VSX Schema)](http://msdn.microsoft.com/en-us/1d489e54-c1c5-4f96-a510-6c2640867ff0).
+    -   If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [ProjectTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\)) and [ItemTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\)).
 
-    -   If your extension includes a custom wizard for a project template or item template, add an `Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly in the VSIX package, and then set the `AssemblyName` attribute to the full assembly name (including version, culture, and public key token). For more information, see [Dependency Element (VSX Schema)](http://msdn.microsoft.com/en-us/1f63f60a-98ad-48ec-8e44-4eba383d3e37).
+    -   If your extension includes a custom wizard for a project template or item template, add an `Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly in the VSIX package, and then set the `AssemblyName` attribute to the full assembly name (including version, culture, and public key token). For more information, see [Dependency Element (VSX Schema)](https://msdn.microsoft.com/1f63f60a-98ad-48ec-8e44-4eba383d3e37).
 
 ### Example
 

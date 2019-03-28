@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Using IntelliTrace | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: e1c9c91a-0009-4c4e-9b4f-c9ab3a6022a7
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Using IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,9 +95,3 @@ You can use IntelliTrace to collect information about specific events or categor
     >  You may see that some calls are dimmed. This is because IntelliTrace didn't record data from the corresponding modules. To see this data, have IntelliTrace collect data from those modules. For information about specifying modules, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ## Next Steps
-
-
-
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Managing Project and Solution Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: d727efc0-1096-4ede-84b6-31a65da22ac0
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing Project and Solution Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ Projects have properties that govern many aspects of compilation, debugging, tes
   
 ## See Also  
  [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
-
-
-

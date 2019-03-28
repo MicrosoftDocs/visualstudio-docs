@@ -1,14 +1,9 @@
 ---
 title: "DA0002: VSPerfCorProf.dll is missing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.DA0002"
   - "vs.performance.2"
@@ -16,9 +11,9 @@ f1_keywords:
   - "vs.performance.rules.DA0002"
 ms.assetid: 76e614b3-ad7e-4b92-b7be-88dc1329be1d
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0002: VSPerfCorProf.dll is missing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ Rule Id|DA0002|
   
 ## How to Fix Violations  
  When you are profiling managed applications by using the command-line tools in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, run the [VSPerfCLREnv](../profiling/vsperfclrenv.md) command-line tool before you start collecting data.
-
-
-

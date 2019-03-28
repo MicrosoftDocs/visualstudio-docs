@@ -1,22 +1,17 @@
 ---
 title: "Demo Sample | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "demo sample [Visual Studio ALM]"
   - "code analysis, samples"
 ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 caps.latest.revision: 23
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Demo Sample
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -232,6 +227,3 @@ This following procedures show you how to create the sample for [Walkthrough: An
     ```  
   
 9. Click the **File** menu, and then click **Save All**.
-
-
-

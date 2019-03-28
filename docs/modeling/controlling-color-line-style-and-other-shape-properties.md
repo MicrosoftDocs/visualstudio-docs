@@ -4,19 +4,18 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Controlling Color, Line Style, and other Shape Properties
-Some shape properties such as color can be 'exposed' - that is, linked to a domain property of the shape. Others have to be controlled directly.
+
+Some shape properties such as color can be 'exposed'. That is, the properties can be linked to a domain property of the shape. Others have to be controlled directly.
 
 ## Exposing a property
  Some shape properties such as color can be linked to the value of a domain property.
 
- In the DSL Definition, select a shape, connector or diagram class. On its context menu, choose **Add Exposed**, and then choose the property you want, such as Fill Color.
+ In the DSL Definition, select a shape, connector or diagram class. On its right-click menu, choose **Add Exposed**, and then choose the property you want, such as Fill Color.
 
  The shape now has a domain property that you can set in program code or as a user.
 

@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_paramBasePointerRegisterId method"
 ms.assetid: 9f5caeb4-5c88-4054-bf8b-50d34bbbf8c5
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_paramBasePointerRegisterId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ HRESULT get_paramBasePointerRegisterId ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

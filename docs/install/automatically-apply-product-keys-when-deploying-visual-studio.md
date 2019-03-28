@@ -1,16 +1,17 @@
 ---
-title: "Automatically apply product keys when deploying Visual Studio"
+title: "Automatically apply product keys"
 description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
 ms.date: 08/14/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Automatically apply product keys when deploying Visual Studio
 

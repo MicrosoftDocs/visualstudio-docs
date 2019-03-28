@@ -1,21 +1,16 @@
 ---
 title: "Introducing Spy++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++"
 ms.assetid: 733b514b-63a9-402d-89aa-4f0416766655
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Introducing Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +52,3 @@ Spy++ lets you perform the following tasks:
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)
-
-
-
-

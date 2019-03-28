@@ -1,14 +1,9 @@
 ---
 title: "ProjectCollection Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectCollection"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "ProjectCollection element [Visual Studio Templates]"
 ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # ProjectCollection Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ Specifies the organization and contents of multi-project templates.
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "Spy++ Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 helpviewer_keywords: 
   - "reference, Spy++"
   - "Spy++ reference"
 ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Spy++ Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ See the sections listed below for descriptions of each Spy++ menu and dialog box
   
  [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.
-
-
-

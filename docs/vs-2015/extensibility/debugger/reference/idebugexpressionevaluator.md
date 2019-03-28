@@ -1,22 +1,17 @@
 ---
 title: "IDebugExpressionEvaluator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugExpressionEvaluator"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator interface"
 ms.assetid: 0636d8c3-625a-49fa-94b6-516f22b7e1bc
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpressionEvaluator
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -109,4 +104,3 @@ IDebugExpressionEvaluator GetExpressionEvaluator(IDebugSymbolProvider pSymbolPro
  [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)   
  [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   
  [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
-

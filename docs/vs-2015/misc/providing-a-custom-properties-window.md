@@ -1,20 +1,15 @@
 ---
 title: "Providing a Custom Properties Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "property browsers, providing"
   - "Properties window, providing your own"
 ms.assetid: 408dcdef-8ef9-4644-97d2-f311cd35824f
 caps.latest.revision: 12
-manager: "douge"
+manager: jillfra
 ---
 # Providing a Custom Properties Window
 It is possible to provide your own **Properties** window for a given project system, instead of extending the **Properties** window provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE). The most-often encountered scenario is when you yourself implement the object sited in the window frame.  

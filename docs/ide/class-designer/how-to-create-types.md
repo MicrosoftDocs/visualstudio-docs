@@ -1,8 +1,6 @@
 ---
 title: "How to: Create Types by using Class Designer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.Clr.ClrAttributesDialog"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -88,5 +86,4 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 - [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
 - [Creating and Configuring Type Members](creating-and-configuring-type-members.md)
-- [Working with Class Diagrams](working-with-class-diagrams.md)
 - [Designing Classes and Types](designing-and-viewing-classes-and-types.md)

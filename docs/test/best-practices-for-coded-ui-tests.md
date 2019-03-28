@@ -1,20 +1,20 @@
 ---
-title: "Best Practices for Coded UI Tests in Visual Studio"
+title: "Best Practices for Coded UI Tests"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests, best practices"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Best practices for coded UI tests
 
 This topic describes some recommendations for developing coded UI tests.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 ## Best practices
 

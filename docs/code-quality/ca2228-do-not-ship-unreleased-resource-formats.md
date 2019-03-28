@@ -1,8 +1,6 @@
 ---
 title: "CA2228: Do not ship unreleased resource formats"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotShipUnreleasedResourceFormats"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2c614edc-4e94-4b4f-8067-eea677a75cd9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

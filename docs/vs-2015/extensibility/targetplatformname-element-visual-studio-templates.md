@@ -1,18 +1,13 @@
 ---
 title: "TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 ms.assetid: 3a6b1f45-b5d6-418e-add1-87ee8f15033d
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # TargetPlatformName Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ Specifies the platform that the project template targets. This element is used t
 ## See Also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
-

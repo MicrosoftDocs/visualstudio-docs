@@ -1,17 +1,14 @@
 ---
 title: "Warning. Changes have been made to the Configure Behavior dialog box that have not been applied | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Warning. Changes have been made to the Configure Behavior dialog box that have not been applied
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,4 +31,3 @@ Warning. Changes have been made to the Configure Behavior dialog box that have n
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)
-

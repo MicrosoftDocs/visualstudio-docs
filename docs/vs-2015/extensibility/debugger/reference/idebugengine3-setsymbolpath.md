@@ -1,22 +1,17 @@
 ---
 title: "IDebugEngine3::SetSymbolPath | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEngine3::SetSymbolPath"
 helpviewer_keywords: 
   - "IDebugEngine3::SetSymbolPath"
 ms.assetid: 47b48f84-8a96-401f-84df-0baa8a96d26e
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEngine3::SetSymbolPath
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ int SetSymbolPath(
 ## See Also  
  [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)   
  [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
-

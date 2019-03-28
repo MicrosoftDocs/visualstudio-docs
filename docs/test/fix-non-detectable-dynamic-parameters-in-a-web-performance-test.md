@@ -1,5 +1,5 @@
 ---
-title: "Fix non-detectable dynamic parameters in a web performance test in Visual Studio"
+title: "Fix non-detectable dynamic parameters in web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: 92dff25c-36ee-4135-acdd-315c4962fa11
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Fix non-detectable dynamic parameters in a web performance test
 
@@ -24,6 +22,8 @@ Some websites use dynamic parameters to process some of their web requests. A dy
 -   Dynamic parameter values that are set as query string or form post parameters. These are handled through dynamic parameter detection after you record a web performance test.
 
 Some types of dynamic parameters are not detected. An undetected dynamic parameter will cause your web performance test to fail when you run it because the dynamic value will be different every time that the test is run. To handle these parameters correctly, you can add extraction rules to dynamic parameters in your web performance tests manually.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Create and run a web app with dynamic parameters
 
@@ -182,7 +182,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 3.  Return to the Web Performance Test Results Viewer and select the *JScriptQuery.aspx* page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.
 
-     ![Use quick find to isolate the dynamic paramter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
+     ![Use quick find to isolate the dynamic parameter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
 
 4.  We know from looking at the test editor, that the *JScriptQuery.aspx* request's CustomQueryString was assigned a value of: `jScriptQueryString___1v0yhyiyr0raa2w4j4pwf5zl`, and that the suspected dynamic portion is "1v0yhyiyr0raa2w4j4pwf5zl". In the find what drop-down list, remove the suspect portion of the search string. The string should be "CustomQueryString=jScriptQueryString___".
 

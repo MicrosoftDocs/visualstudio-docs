@@ -1,20 +1,15 @@
 ---
 title: "How to: Troubleshoot Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "services, troubleshooting"
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Troubleshoot Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ if (log == null) return;
  [List of Available Services](../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)
-

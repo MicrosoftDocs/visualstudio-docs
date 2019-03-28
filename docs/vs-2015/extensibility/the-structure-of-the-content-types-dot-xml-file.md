@@ -1,14 +1,9 @@
 ---
 title: "The Structure of the Content_types].xml File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "content_types"
   - "content types"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "vsix"
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # The Structure of the Content_types].xml File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,6 +97,5 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ## See Also  
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
  [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)
-

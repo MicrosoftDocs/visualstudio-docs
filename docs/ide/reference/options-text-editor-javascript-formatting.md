@@ -1,8 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, Formatting
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
@@ -14,7 +12,7 @@ f1_keywords:
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Error: Windows file sharing has been configured... | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.remote_credentials_prohibited"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: c45a1b74-61ec-4c64-9e2c-13051a4f50a5
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Windows file sharing has been configured...
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Windows file sharing has been configured so that you will connect to the remote 
          `net use /delete computer_name`  
   
     3.  Change your file-sharing settings using any of the methods documented in Windows help.
-
-
-

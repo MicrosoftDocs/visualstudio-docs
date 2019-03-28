@@ -1,13 +1,8 @@
 ---
 title: "CA3075: Insecure DTD Processing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 ms.assetid: 65798d66-7a30-4359-b064-61a8660c1eed
 caps.latest.revision: 19
 author: gewarren
@@ -58,7 +53,7 @@ manager: "wpickett"
 
 - Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .
 
-- XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .
+- XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .
 
   .NET 4 and later
 
@@ -381,6 +376,3 @@ namespace TestNamespace
     }
 }
 ```
-
-
-

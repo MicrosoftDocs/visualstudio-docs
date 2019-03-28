@@ -1,14 +1,9 @@
 ---
 title: "How to: Use a Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.dataviewer"
   - "vs.debug.stringviewer"
@@ -26,8 +21,8 @@ helpviewer_keywords:
   - "visualizers, about visualizers"
 ms.assetid: d2611385-0134-4387-8c5a-979fe625a462
 caps.latest.revision: 37
-ms.author: "susanno"
-manager: "douge"
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use a Visualizer
 You can use a visualizer to display the contents of a variable or object in a way that is meaningful for the data type. You can use visualizers from **DataTips**, a **Watch** window, the **Autos** window, or the **Locals** window.  

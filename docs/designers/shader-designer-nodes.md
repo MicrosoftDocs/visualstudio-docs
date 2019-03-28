@@ -1,13 +1,11 @@
 ---
 title: Shader Designer Nodes
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

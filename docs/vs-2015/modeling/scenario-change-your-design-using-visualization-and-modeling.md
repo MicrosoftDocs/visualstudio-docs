@@ -1,13 +1,8 @@
 ---
 title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords: 
   - "code visualization [Visual Studio ALM]"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio ALM], modeling software"
 ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
 caps.latest.revision: 63
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Scenario: Change your design using visualization and modeling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -887,9 +882,6 @@ Make sure that your software system meets users' needs by using the visualizatio
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

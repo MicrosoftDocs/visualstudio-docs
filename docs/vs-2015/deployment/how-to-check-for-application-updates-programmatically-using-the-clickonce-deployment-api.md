@@ -1,14 +1,9 @@
 ---
 title: "How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ ClickOnce provides two ways to update an application once it is deployed. In the
  [How to: Specify an Alternate Location for Deployment Updates](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)   
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)
-
-
-

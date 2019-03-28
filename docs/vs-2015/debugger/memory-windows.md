@@ -1,14 +1,9 @@
 ---
 title: "Memory Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.memory"
 dev_langs: 
@@ -29,9 +24,9 @@ helpviewer_keywords:
   - "buffers, viewing"
 ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
 caps.latest.revision: 37
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Memory Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -122,8 +117,3 @@ The **Memory** window provides a view into the memory space that is used by your
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-
-
-
-
-

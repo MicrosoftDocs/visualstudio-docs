@@ -1,8 +1,6 @@
 ---
 title: List Memory Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.listmemory"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

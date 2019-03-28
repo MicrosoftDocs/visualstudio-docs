@@ -1,19 +1,14 @@
 ---
 title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: a704215d-d252-4087-921b-ac81ebe2a9c9
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Tools on Windows 8 and Windows Server 2012 applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,11 +62,11 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
 - [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
   
-- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
-- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
-- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
+- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
   [In this topic](#BKMK_In_this_topic)  
   
@@ -147,6 +142,3 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugThread2::GetProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugThread2::GetProgram"
 helpviewer_keywords: 
   - "IDebugThread2::GetProgram"
 ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugThread2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ int GetProgram ( 
 ## See Also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-

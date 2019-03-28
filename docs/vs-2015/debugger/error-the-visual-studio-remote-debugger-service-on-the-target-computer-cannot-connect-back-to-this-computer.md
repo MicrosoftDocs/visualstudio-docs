@@ -1,14 +1,9 @@
 ---
 title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 89ecf99d-66bf-4da0-a840-aa95b0be1702
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ This error means that the Visual Studio Remote Debugger service is running under
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

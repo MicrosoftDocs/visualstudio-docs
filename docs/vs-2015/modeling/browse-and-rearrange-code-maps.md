@@ -1,12 +1,9 @@
 ---
 title: "Browse and rearrange code maps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.dgmlgraph.layouthelp"
   - "vs.progression.graphdocument"
@@ -24,9 +21,9 @@ helpviewer_keywords:
   - "dependency graphs, browsing"
 ms.assetid: 08f65f77-6ca7-4b25-b060-3f6c9f5847a4
 caps.latest.revision: 91
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Browse and rearrange code maps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

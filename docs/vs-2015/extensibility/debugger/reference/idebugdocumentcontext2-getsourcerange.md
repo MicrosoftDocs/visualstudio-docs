@@ -1,22 +1,17 @@
 ---
 title: "IDebugDocumentContext2::GetSourceRange | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDocumentContext2::GetSourceRange"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::GetSourceRange"
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDocumentContext2::GetSourceRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ int GetSourceRange( 
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)   
  [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
-

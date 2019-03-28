@@ -1,14 +1,9 @@
 ---
 title: "Assembly Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Assembly"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "<Assembly> element [Visual Studio templates]"
 ms.assetid: 9242f76a-1273-4b8a-8f26-6606f91829ef
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Assembly Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,4 +94,3 @@ Specifies information about an assembly, which the template uses to add a refere
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
-

@@ -1,7 +1,6 @@
 ---
 title: "How to: Change the build output directory"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

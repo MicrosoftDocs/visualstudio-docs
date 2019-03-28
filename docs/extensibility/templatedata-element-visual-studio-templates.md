@@ -1,47 +1,45 @@
 ---
 title: "TemplateData Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.technology: vs-ide-general
+ms.topic: reference
+f1_keywords:
   - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateData"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "TemplateData element [Visual Studio project templates]"
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # TemplateData Element (Visual Studio Templates)
-Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.  
-  
- \<VSTemplate>  
- \<TemplateData>  
-  
-## Syntax  
-  
-```  
-<TemplateData>  
-    <Name> ... </Name>  
-    <Description> ... </Description>  
-    <Icon> ... </Icon>  
-    <ProjectType> ... </ProjectType>  
-    ...  
-</TemplateData>  
-```  
-  
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
-  
-### Attributes  
- None.  
-  
-### Child Elements  
-  
+Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.
+
+ \<VSTemplate>
+ \<TemplateData>
+
+## Syntax
+
+```
+<TemplateData>
+    <Name> ... </Name>
+    <Description> ... </Description>
+    <Icon> ... </Icon>
+    <ProjectType> ... </ProjectType>
+    ...
+</TemplateData>
+```
+
+## Attributes and Elements
+ The following sections describe attributes, child elements, and parent elements.
+
+### Attributes
+ None.
+
+### Child Elements
+
 | Element | Description |
 | - | - |
 | [Name](../extensibility/name-element-visual-studio-templates.md) | Required element.<br /><br /> Specifies the name of the template as it appears in either the **New Project** or the **Add New Item** dialog box. |
@@ -55,7 +53,7 @@ Categorizes the template and defines how it displays in either the **New Project
 | [CreateNewFolder](../extensibility/createnewfolder-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether a containing folder is created on instantiation of the project. |
 | [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the name that the Visual Studio project system will generate for the project or item when it is created. |
 | [ProvideDefaultName](../extensibility/providedefaultname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the Visual Studio project system will generate the default name for a project or item when it is created. |
-| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the project can be created as a temporary project. |
+| [PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the project can be created as a temporary project (Visual Studio 2017 only). |
 | [EnableLocationBrowseButton](../extensibility/enablelocationbrowsebutton-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved. |
 | [Hidden](../extensibility/hidden-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box. |
 | [NumberOfParentCategoriesToRollUp](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the number of parent categories that will display the template in the **New Project** dialog box. |
@@ -66,45 +64,45 @@ Categorizes the template and defines how it displays in either the **New Project
 | [SupportsCodeSeparation](../extensibility/supportscodeseparation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template supports code separation, or the code-behind page model, for web projects. |
 | [SupportsLanguageDropDown](../extensibility/supportslanguagedropdown-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template is identical for multiple languages, and whether the **Language** option is available from the **New Project** dialog box. |
 | [TargetPlatformName](../extensibility/targetplatformname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the platform that the project template targets. This element specifies that a project template is used to create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. |
-  
-### Parent Elements  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|[VSTemplate](../extensibility/vstemplate-element-visual-studio-templates.md)|Required element.<br /><br /> Contains all the metadata for the project template, item template, or starter kit.|  
-  
-## Remarks  
- `TemplateData` is a required element.  
-  
- If you do not include an optional element, the default value for that element is used.  
-  
-## Example  
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.  
-  
-```  
-<VSTemplate Type="Project" Version="3.0.0"  
-    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
-    <TemplateData>  
-        <Name>My template</Name>  
-        <Description>A basic starter kit</Description>  
-        <Icon>TemplateIcon.ico</Icon>  
-        <ProjectType>CSharp</ProjectType>  
-    </TemplateData>  
-    <TemplateContent>  
-        <Project File="MyStarterKit.csproj">  
-            <ProjectItem>Form1.cs<ProjectItem>  
-            <ProjectItem>Form1.Designer.cs</ProjectItem>  
-            <ProjectItem>Program.cs</ProjectItem>  
-            <ProjectItem>Properties\AssemblyInfo.cs</ProjectItem>  
-            <ProjectItem>Properties\Resources.resx</ProjectItem>  
-            <ProjectItem>Properties\Resources.Designer.cs</ProjectItem>  
-            <ProjectItem>Properties\Settings.settings</ProjectItem>  
-            <ProjectItem>Properties\Settings.Designer.cs</ProjectItem>  
-        </Project>  
-    </TemplateContent>  
-</VSTemplate>  
-```  
-  
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+
+### Parent Elements
+
+|Element|Description|
+|-------------|-----------------|
+|[VSTemplate](../extensibility/vstemplate-element-visual-studio-templates.md)|Required element.<br /><br /> Contains all the metadata for the project template, item template, or starter kit.|
+
+## Remarks
+ `TemplateData` is a required element.
+
+ If you do not include an optional element, the default value for that element is used.
+
+## Example
+ The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+
+```
+<VSTemplate Type="Project" Version="3.0.0"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>My template</Name>
+        <Description>A basic starter kit</Description>
+        <Icon>TemplateIcon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <Project File="MyStarterKit.csproj">
+            <ProjectItem>Form1.cs<ProjectItem>
+            <ProjectItem>Form1.Designer.cs</ProjectItem>
+            <ProjectItem>Program.cs</ProjectItem>
+            <ProjectItem>Properties\AssemblyInfo.cs</ProjectItem>
+            <ProjectItem>Properties\Resources.resx</ProjectItem>
+            <ProjectItem>Properties\Resources.Designer.cs</ProjectItem>
+            <ProjectItem>Properties\Settings.settings</ProjectItem>
+            <ProjectItem>Properties\Settings.Designer.cs</ProjectItem>
+        </Project>
+    </TemplateContent>
+</VSTemplate>
+```
+
+## See Also
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

@@ -1,20 +1,15 @@
 ---
 title: "Creating an Extension with an Editor Item Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating an Extension with an Editor Item Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,4 +94,3 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

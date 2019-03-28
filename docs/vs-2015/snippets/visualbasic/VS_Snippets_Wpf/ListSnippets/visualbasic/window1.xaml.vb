@@ -74,7 +74,7 @@ Namespace ListSnippets
 			listx.ListItems.Add(New ListItem(New Paragraph(New Run("A bit of text content..."))))
 			listx.ListItems.Add(New ListItem(New Paragraph(New Run("A bit more text content..."))))
 
-			' Insert a ListItem at the begining of the List.
+			' Insert a ListItem at the beginning of the List.
 			Dim lix As New ListItem(New Paragraph(New Run("ListItem to insert...")))
 			listx.ListItems.InsertBefore(listx.ListItems.FirstListItem, lix)
 

@@ -1,22 +1,17 @@
 ---
 title: "Evaluating a Watch Window Expression | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Watch window expressions"
   - "Watch window, expressions"
   - "expression evaluation, Watch window expressions"
 ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Evaluating a Watch Window Expression
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ manager: "ghogen"
   
 ## See Also  
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
-

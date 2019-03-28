@@ -2,7 +2,6 @@
 title: "IActiveScriptDebug::GetScriptTextAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the text attributes for an arbitrary block of script text.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptTextAttributes(  
    LPCOLESTR          pstrCode,  
    ULONG              uNumCodeChars,  

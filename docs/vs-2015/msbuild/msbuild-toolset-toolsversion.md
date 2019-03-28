@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, multitargeting"
   - "targeting a specific .NET framework [MSBuild]"
@@ -18,7 +13,7 @@ ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
 caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Toolset (ToolsVersion)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,6 +113,3 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## See Also  
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

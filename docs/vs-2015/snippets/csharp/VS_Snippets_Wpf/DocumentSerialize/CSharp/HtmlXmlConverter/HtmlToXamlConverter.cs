@@ -44,7 +44,7 @@ namespace SdkSample
         /// <param name="asFlowDocument">
         /// true indicates that we need a FlowDocument as a root element;
         /// false means that Section or Span elements will be used
-        /// dependeing on StartFragment/EndFragment comments locations.
+        /// depending on StartFragment/EndFragment comments locations.
         /// </param>
         /// <returns>
         /// Well-formed xml representing XAML equivalent for the input html string.
@@ -160,7 +160,7 @@ namespace SdkSample
         /// <param name="sourceContext"></param>
         /// <returns>
         /// Last processed html node. Normally it should be the same htmlElement
-        /// as was passed as a paramater, but in some irregular cases
+        /// as was passed as a parameter, but in some irregular cases
         /// it could one of its following siblings.
         /// The caller must use this node to get to next sibling from it.
         /// </returns>
@@ -185,7 +185,7 @@ namespace SdkSample
                 if (htmlElementNamespace != HtmlParser.XhtmlNamespace)
                 {
                     // Non-html element. skip it
-                    // Isn't it too agressive? What if this is just an error in html tag name?
+                    // Isn't it too aggressive? What if this is just an error in html tag name?
                     // TODO: Consider skipping just a wparrer in recursing into the element tree,
                     // which may produce some garbage though coming from xml fragments.
                     return htmlElement;
@@ -900,7 +900,7 @@ namespace SdkSample
         /// Parent xaml element to which a converted table must be added.
         /// </param>
         /// <param name="htmlTableElement">
-        /// XmlElement reprsenting the Html table element to be converted
+        /// XmlElement representing the Html table element to be converted
         /// </param>
         /// <param name="inheritedProperties">
         /// Hashtable representing properties inherited from parent context.
@@ -1076,13 +1076,13 @@ namespace SdkSample
         /// XmlElement representing a source html table.
         /// </param>
         /// <param name="xamlTableElement">
-        /// XmlElement repesenting a resulting xaml table.
+        /// XmlElement representing a resulting xaml table.
         /// </param>
         /// <param name="columnStartsAllRows">
         /// Array of doubles - column start coordinates.
         /// Can be null, which means that column size information is not available
         /// and we must use source colgroup/col information.
-        /// In case wneh it's not null, we will ignore source colgroup/col information.
+        /// In case when it's not null, we will ignore source colgroup/col information.
         /// </param>
         /// <param name="currentProperties"></param>
         /// <param name="stylesheet"></param>
@@ -1208,7 +1208,7 @@ namespace SdkSample
             Debug.Assert(xamlTableBodyElement.LocalName == Xaml_TableRowGroup);
             Debug.Assert(currentProperties != null);
 
-            // Initialize child node for iteratimg through children to the first tr element
+            // Initialize child node for iterating through children to the first tr element
             XmlNode htmlChildNode = htmlTRStartNode;
             ArrayList activeRowSpans = null;
             if (columnStarts != null)
@@ -1401,7 +1401,7 @@ namespace SdkSample
         /// <returns>
         /// ArrayList of type double which contains the function output. If analysis is successful, this ArrayList contains
         /// all the points which are the starting position of any column in the table, ordered from left to right.
-        /// In case if analisys was impossible we return null.
+        /// In case if analysis was impossible we return null.
         /// </returns>
         private static ArrayList AnalyzeTableStructure(XmlElement htmlTableElement, CssStylesheet stylesheet)
         {
@@ -1440,7 +1440,7 @@ namespace SdkSample
                         {
                             // Tbody analysis may return 0, probably due to unprocessable format.
                             // We should also fail.
-                            columnWidthsAvailable = false; // interrupt the analisys
+                            columnWidthsAvailable = false; // interrupt the analysis
                         }
                         break;
                     case "tr":
@@ -1452,13 +1452,13 @@ namespace SdkSample
                         }
                         else if (trWidth == 0)
                         {
-                            columnWidthsAvailable = false; // interrupt the analisys
+                            columnWidthsAvailable = false; // interrupt the analysis
                         }
                         break;
                     case "td":
                         // Incorrect formatting, too deep to analyze at this level. Return null.
                         // TODO: implement analysis at this level, possibly by creating a new tr
-                        columnWidthsAvailable = false; // interrupt the analisys
+                        columnWidthsAvailable = false; // interrupt the analysis
                         break;
                     default:
                         // Element should not occur directly in table. Ignore it.
@@ -1535,7 +1535,7 @@ namespace SdkSample
                         }
                         break;
                     case "td":
-                        columnWidthsAvailable = false; // interrupt the analisys
+                        columnWidthsAvailable = false; // interrupt the analysis
                         break;
                     default:
                         break;
@@ -1567,7 +1567,7 @@ namespace SdkSample
         /// </param>
         /// <param name="tableWidth">
         /// Double value representing the current width of the table.
-        /// Return 0 if analisys was insuccessful.
+        /// Return 0 if analysis was unsuccessful.
         /// </param>
         private static double AnalyzeTRStructure(XmlElement htmlTRElement, ArrayList columnStarts, ArrayList activeRowSpans, double tableWidth, CssStylesheet stylesheet)
         {
@@ -1635,7 +1635,7 @@ namespace SdkSample
                             // we are either adding after another column of the same row, in which case it should not inherit
                             // the previous column's span. Otherwise we are adding after the last column of some previous
                             // row, and assuming the table widths line up, we should not be spanned by it. If there is
-                            // an incorrect tbale structure where a columns starts in the middle of a row span, we do not
+                            // an incorrect table structure where a columns starts in the middle of a row span, we do not
                             // guarantee correct output
                             columnStarts.Add(columnStart);
                             activeRowSpans.Add(0);
@@ -1748,7 +1748,7 @@ namespace SdkSample
         }
 
         /// <summary>
-        /// Gets index at which a column should be inseerted into the columnStarts ArrayList. This is
+        /// Gets index at which a column should be inserted into the columnStarts ArrayList. This is
         /// decided by the value columnStart. The columnStarts ArrayList is ordered in ascending order.
         /// Returns an integer representing the index at which the column should be inserted
         /// </summary>
@@ -1760,8 +1760,8 @@ namespace SdkSample
         /// </param>
         /// <param name="columnIndex">
         /// Int representing the current column index. This acts as a clue while finding the insertion index.
-        /// If the value of columnStarts at columnIndex is the same as columnStart, then this position alrady exists
-        /// in the array and we can jsut return columnIndex.
+        /// If the value of columnStarts at columnIndex is the same as columnStart, then this position already exists
+        /// in the array and we can just return columnIndex.
         /// </param>
         /// <returns></returns>
         private static int GetNextColumnIndex(int columnIndex, double columnWidth, ArrayList columnStarts, ArrayList activeRowSpans)
@@ -1871,7 +1871,7 @@ namespace SdkSample
             columnWidthAsString = null;
             columnWidth = -1;
 
-            // Get string valkue for the width
+            // Get string value for the width
             columnWidthAsString = GetAttribute(htmlTDElement, "width");
             if (columnWidthAsString == null)
             {
@@ -2058,7 +2058,7 @@ namespace SdkSample
 
                     case "width":
                     case "height":
-                        // TODO: Decide what to do with width and height propeties
+                        // TODO: Decide what to do with width and height properties
                         break;
 
                     case "margin-top":
@@ -2218,7 +2218,7 @@ namespace SdkSample
         private static void ComposeThicknessProperty(XmlElement xamlElement, string propertyName, string left, string right, string top, string bottom)
         {
             // Xaml syntax:
-            // We have a reasonable interpreation for one value (all four edges), two values (horizontal, vertical),
+            // We have a reasonable interpretation for one value (all four edges), two values (horizontal, vertical),
             // and four values (left, top, right, bottom).
             //  switch (i) {
             //    case 1: return new Thickness(lengths[0]);
@@ -2429,13 +2429,13 @@ namespace SdkSample
         /// Extracts a value of css attribute from css style definition.
         /// </summary>
         /// <param name="cssStyle">
-        /// Source csll style definition
+        /// Source css style definition
         /// </param>
         /// <param name="attributeName">
         /// A name of css attribute to extract
         /// </param>
         /// <returns>
-        /// A string rrepresentation of an attribute value if found;
+        /// A string representation of an attribute value if found;
         /// null if there is no such attribute in a given string.
         /// </returns>
         private static string GetCssAttribute(string cssStyle, string attributeName)
@@ -2619,7 +2619,7 @@ namespace SdkSample
         public const string Xaml_FontFamily = "FontFamily";
 
         public const string Xaml_FontSize = "FontSize";
-        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the mediun is 10pt, then:
+        // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the median is 10pt, then:
         public const string Xaml_FontSize_XXLarge = "34pt"; // "XXLarge";
         public const string Xaml_FontSize_XLarge  = "22pt"; // "XLarge";
         public const string Xaml_FontSize_Large   = "15pt"; // "Large";

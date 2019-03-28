@@ -1,15 +1,13 @@
 ---
 title: "Contained Languages | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - contained languages"
 ms.assetid: b75bbb51-8e42-41b1-bece-09ab0b1f03cc
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

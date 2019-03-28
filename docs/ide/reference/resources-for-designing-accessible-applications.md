@@ -2,9 +2,6 @@
 title: "Resources for designing accessible applications"
 description: "Learn how to create accessible applications to make them easier for people with disabilities to use."
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility, Windows applications"
@@ -14,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,8 +1,6 @@
 ---
 title: Task List, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Task_List"
@@ -21,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

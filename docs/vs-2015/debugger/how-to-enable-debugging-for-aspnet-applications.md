@@ -1,14 +1,9 @@
 ---
 title: "How to: Enable Debugging for ASP.NET Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], ASP.NET"
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Enable Debugging for ASP.NET Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,8 +83,3 @@ Enabling debug mode will greatly affect the performance of your [!INCLUDE[vsteca
   
 ## See Also  
 [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)  
-  
-
-
-
-

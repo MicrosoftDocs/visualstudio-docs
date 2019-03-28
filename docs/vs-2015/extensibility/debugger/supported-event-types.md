@@ -1,20 +1,15 @@
 ---
 title: "Supported Event Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], supported events"
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Supported Event Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ Visual Studio debugging currently supports the following event types:
   
 ## See Also  
  [Sending Events](../../extensibility/debugger/sending-events.md)
-

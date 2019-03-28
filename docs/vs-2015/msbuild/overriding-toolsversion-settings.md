@@ -1,14 +1,9 @@
 ---
 title: "Overriding ToolsVersion Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, overriding ToolsVersion setting"
   - "MSBuild, building solutions with"
@@ -16,7 +11,7 @@ ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Overriding ToolsVersion Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -131,6 +126,3 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)   
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)
-
-
-

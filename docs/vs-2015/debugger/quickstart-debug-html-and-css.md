@@ -1,14 +1,9 @@
 ---
 title: "Quickstart: Debug HTML and CSS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.WebClient.DomExplorer"
 dev_langs: 
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "DOM Explorer [Windows Store apps]"
 ms.assetid: 6d156cff-36c6-425a-acf8-e1f02d4f7869
 caps.latest.revision: 104
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Quickstart: Debug HTML and CSS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -293,7 +288,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 - Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
-  Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
+  Go [here](https://developer.microsoft.com/windows/downloads/sdk-archive) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
@@ -306,6 +301,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  [JavaScript Console commands](../debugger/javascript-console-commands.md)   
  [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [Product Support and Accessibility](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
-
-
-

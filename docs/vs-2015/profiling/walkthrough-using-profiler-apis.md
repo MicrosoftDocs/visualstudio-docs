@@ -1,22 +1,17 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
 ms.assetid: c2ae0b3e-a0ca-4967-b4df-e319008f520e
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Using Profiler APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -165,6 +160,3 @@ DataCollection.CurrentId);
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "native code, debugging"
 ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Native Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ The section covers some common debugging problems and techniques for native appl
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,10 +120,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
 8.  In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
   
 ## See Also  
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
  [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
  [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
  [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
-
-
-

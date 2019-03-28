@@ -1,21 +1,16 @@
 ---
 title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Collect Line-Level Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ Line-level sampling is the ability of the profiler to determine where in the cod
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
-
-
-

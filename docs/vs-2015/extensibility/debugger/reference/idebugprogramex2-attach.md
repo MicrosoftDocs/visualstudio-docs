@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramEx2::Attach | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramEx2::Attach"
 helpviewer_keywords: 
   - "IDebugProgramEx2::Attach"
 ms.assetid: 33b22b2f-431e-4205-9441-d28a9c928c97
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramEx2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ int Attach( 
   
 ## See Also  
  [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)
-

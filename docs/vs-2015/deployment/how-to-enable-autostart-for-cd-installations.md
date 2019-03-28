@@ -1,14 +1,9 @@
 ---
 title: "How to: Enable AutoStart for CD Installations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: caaec619-900c-4790-90e3-8c91f5347635
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Enable AutoStart for CD Installations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ When deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applicat
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

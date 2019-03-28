@@ -1,14 +1,9 @@
 ---
 title: "-InstallVSTemplates (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /InstallVSTemplates switch"
   - "/InstallVSTemplates Devenv switch"
@@ -17,7 +12,7 @@ ms.assetid: 1fb466f6-7955-4535-a840-d93eb8aaa492
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /InstallVSTemplates (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ devenv.exe /InstallVSTemplates
   
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

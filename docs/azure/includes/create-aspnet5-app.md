@@ -2,9 +2,9 @@
 title: "include file"
 description: "include file"
 services: container-registry
-author: mlearned
-ms.service: container-registry 
-ms.author: mlearned
+author: ghogen
+ms.technology: vs-azure
+ms.author: ghogen
 ms.topic: "include"
 ms.date: 05/21/2018
 ms.custom: "include file"
@@ -18,4 +18,3 @@ ms.custom: "include file"
 5. Select **Web Application**.
 6. Check the **Enable Docker Support** checkbox.
 7. Select the type of container you want (Windows or Linux) and click **OK**.
-

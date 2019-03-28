@@ -1,14 +1,9 @@
 ---
 title: "Debugging LINQ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "LINQ, edit and continue"
 ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging LINQ
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,11 +111,8 @@ End Function
  In Visual Basic, you can use Edit and Continue on non-LINQ code, even in a method that contains a LINQ query. You can add or remove code before the LINQ statement, even if the changes affect the line number of the LINQ query. Your Visual Basic debugging experience for non-LINQ code remains the same as it was before LINQ was introduced. You cannot change, add, or remove a LINQ query, however, unless you want to stop debugging to apply the changes.  
   
 ## See Also  
- [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
+ [Debugging SQL](http://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
  [Side Effects and Expressions](http://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)   
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
  [Introduction to LINQ Queries (C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)   
  [Introduction to LINQ in Visual Basic](http://msdn.microsoft.com/library/3047d86e-0d49-40e2-928b-dc02e46c7984)
-
-
-

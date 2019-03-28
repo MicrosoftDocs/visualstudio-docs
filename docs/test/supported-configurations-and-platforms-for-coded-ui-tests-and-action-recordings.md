@@ -1,13 +1,11 @@
 ---
-title: "Configurations and Platforms for Coded UI Tests in Visual Studio"
-ms.date: 2015-10-04
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: "Configurations and Platforms for Coded UI Tests"
+ms.date: 10/04/2015
 ms.topic: reference
 helpviewer_keywords:
   - "coded UI tests"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -19,8 +17,9 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 > [!NOTE]
 > The coded UI test process must have the same privileges as the app under test.
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
- **Requirements**
+**Requirements**
 
 -   Visual Studio Enterprise
 
@@ -44,7 +43,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 | Windows Phone Apps | Only WinRT-XAML based Phone apps are supported. |
 | UWP apps | Only XAML-based UWP apps are supported. |
 | Universal Windows Apps | Only XAML-based Universal Windows Apps on Phone and Desktop are supported. |
-| Edge | Recording of action steps or using the builder to view object properties is not supported. Tests can be played back on the Edge browser, using Visual Studio 2015 Update 2 and later versions by using the [Coded UI cross browser testing extension](https://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d) |
+| Edge | Recording of action steps or using the builder to view object properties is not supported. Tests can be played back on the Edge browser, using Visual Studio 2015 Update 2 and later versions by using the [Coded UI cross browser testing extension](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting). |
 | Internet Explorer 8<br /><br /> Internet Explorer 9<br /><br /> Internet Explorer 10 **Important:**  Internet Explorer 10 is only supported on the desktop. <br /><br /> Internet Explorer 11 **Important:**  Internet Explorer 11 is only supported on the desktop. | Fully supported.<br /><br /> -   **Support for HTML5 in Internet Explorer 9 and Internet Explorer 10:** Coded UI tests support record, playback, and validation of the HTML5 controls: Audio, Video, ProgressBar and Slider. For more information, see [Using HTML5 controls in coded UI tests](../test/using-html5-controls-in-coded-ui-tests.md). **Warning:**      If you create a coded UI tests in Internet Explorer 10, it might not run using Internet Explorer 9 or Internet Explorer 8. This is because Internet Explorer 10 includes HTML5 controls such as Audio, Video, ProgressBar, and Slider. These HTML5 controls are not recognized by Internet Explorer 9, or Internet Explorer 8. Likewise, your coded UI test using Internet Explorer 9 might include some HTML5 controls that also will not be recognized by Internet Explorer 8.<br />-   **Support for Internet Explorer 10 Spell Checking:** Internet Explorer 10 includes spell checking capabilities for all text boxes. This allows you to choose from a list of suggested corrections. Coded UI Test will ignore user actions like selecting an alternative spelling suggestion. Only the final text typed into the text box will be recorded.<br />     The following actions are recorded for coded UI test that use the spell checking control: Add to Dictionary, Copy, Select All, Add To Dictionary, and Ignore.<br />-   **Support for 64-bit Internet Explorer running under Windows 8:** Previously, 64-bit versions of Internet Explorer were not supported for recording and playback. With [!INCLUDE[win8](../debugger/includes/win8_md.md)] and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], coded UI tests have been enabled for 64-bit versions of Internet Explorer. **Warning:**      64-bit support for Internet Explorer applies only when you are running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.<br />-   **Support for Pinned Sites in Internet Explorer 9:** In Internet Explorer 9, pinned sites were introduced. With Pinned Sites, you can get to your favorite sites directly from the Windows taskbar—without having to open Internet Explorer first. Coded UI tests can now generate intent-aware actions on pinned sites. For more information about pinned sites, see [Pinned sites](http://go.microsoft.com/fwlink/?LinkId=220037).<br />-   **Support for Internet Explorer 9 Semantic Tags:** Internet Explorer 9 introduced the following semantic tags: section, nav, article, aside, hgroup, header, footer, figure, figcaption and mark. Coded UI tests ignore all of these semantic tags while recording. You can add assertions on these tags using the Coded UI Test Builder. You can use the navigation dial in the Coded UI Test Builder to navigate to any of these elements and view their properties.<br />-   **Seamless Handling of White Space Characters between Versions of Internet Explorer:** There are differences in the handling of white space characters between Internet Explorer 8, Internet Explorer 9, and Internet Explorer 10. Coded UI Test handles these differences seamlessly. Therefore, a coded UI test created in Internet Explorer 8 for example, will play back successfully in Internet Explorer 9 and Internet Explorer 10.<br />-   **The Notification Area of Internet Explorer Are Now Recorded With the "Continue on Error" Attribute Set:** All actions on the Notification Area of Internet Explorer are now recorded with the "Continue on Error" attribute set. If the notification bar does not appear during playback, the actions on it will be ignored and coded UI test will continue with the next action. |
 | Windows Forms and WPF third party controls | Fully supported.<br /><br /> To enable third party controls in Windows Forms and WPF applications, you must add references and code. For more information, see [Enable coded UI testing of your controls](../test/enable-coded-ui-testing-of-your-controls.md). |
 | Internet Explorer 6<br /><br /> Internet Explorer 7 | Not supported. |

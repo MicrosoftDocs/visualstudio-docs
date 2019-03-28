@@ -1,14 +1,9 @@
 ---
 title: "How to: Set the ClickOnce Publish Version | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 06f15504-6385-40a6-b01d-cd90ca36dc73
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Set the ClickOnce Publish Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` pro
  [How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

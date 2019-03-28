@@ -1,23 +1,18 @@
 ---
 title: "Graphics Object Table | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.datavisualizer"
   - "vs.graphics.objecttable"
   - "vs.graphics.bufferviewer"
 ms.assetid: f48f62d9-16ff-4a2e-8c01-5cbe99513788
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Object Table
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -112,6 +107,3 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 ## See Also  
  [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md)   
  [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)
-
-
-

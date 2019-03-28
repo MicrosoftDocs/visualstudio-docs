@@ -1,14 +1,9 @@
 ---
 title: "How to: Install Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Install Prerequisites with a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

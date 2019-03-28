@@ -1,14 +1,9 @@
 ---
 title: "CRT Debug Library Use | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "c.debug.runtime"
 dev_langs: 
@@ -32,9 +27,9 @@ helpviewer_keywords:
   - "/LDd compiler function [C++]"
 ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CRT Debug Library Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ The C run-time library provides extensive debugging support. To use one of the C
 ## See Also  
  [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)   
  [/MD, /MT, /LD (Use Run-Time Library)](http://msdn.microsoft.com/library/cf7ed652-dc3a-49b3-aab9-ad60e5395579)
-
-
-

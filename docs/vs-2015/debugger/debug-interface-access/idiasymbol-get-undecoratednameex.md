@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_undecoratedNameEx | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_undecoratedNameEx method"
 ms.assetid: 579aed0b-c57d-41a1-a94a-3bf665fd4a9d
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_undecoratedNameEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ HRESULT get_undecoratedNameEx( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

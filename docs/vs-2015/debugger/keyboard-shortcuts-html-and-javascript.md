@@ -1,14 +1,9 @@
 ---
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 8d44425a-6584-477d-932e-4e10d5e79511
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Keyboard shortcuts (HTML and JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ## See Also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
-
-
-

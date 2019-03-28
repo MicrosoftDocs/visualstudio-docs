@@ -1,18 +1,15 @@
 ---
 title: "Debugging Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging extensions"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -53,7 +50,7 @@ ms.workload:
 
 #### To debug the extension
 
-1.  Start Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
+1.  Open Visual Studio with administrator privileges and open the extension project. The following steps refer to this instance of Visual Studio as the *first instance*.
 
 2.  Start another instance of Visual Studio with administrator privileges. The following steps refer to this instance of Visual Studio as the *second instance*.
 

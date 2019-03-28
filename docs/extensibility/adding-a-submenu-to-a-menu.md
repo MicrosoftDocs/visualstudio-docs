@@ -1,9 +1,6 @@
 ---
 title: "Adding a Submenu to a Menu | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "context menus"
@@ -13,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -150,5 +147,6 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
 5.  On the **TestMenu** menu, click **Sub Menu** and then click **Test Sub Command**. A message box should appear and display the text, "Test Command Inside TestCommand.SubItemCallback()".
 
 ## See also
- [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
- [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+
+- [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
+- [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

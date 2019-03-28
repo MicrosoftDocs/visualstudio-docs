@@ -1,14 +1,9 @@
 ---
 title: "How Can I Debug an Access Violation? | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.access"
 dev_langs: 
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], access violations"
 ms.assetid: 9311d754-0ce9-4145-b147-88b6ca77ba63
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How Can I Debug an Access Violation?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,26 +38,26 @@ using namespace std;
   
 class ClassB {  
 public:  
-    	ClassC* C;  
-    	ClassB() {  
-		        C = new ClassC();  
-    	}  
+      ClassC* C;  
+      ClassB() {  
+            C = new ClassC();  
+      }  
      void printHello() {  
-		        cout << "hello world";  
-    	}  
+            cout << "hello world";  
+      }  
 };  
   
 class ClassA {  
 public:  
     ClassB* B;  
-	  ClassA() {  
-		        B = nullptr;  
-	    }  
+    ClassA() {  
+            B = nullptr;  
+      }  
 };  
   
 int main() {  
     ClassA* A = new ClassA();  
-	  A->B->printHello();  
+    A->B->printHello();  
 }  
 ```  
   
@@ -74,6 +69,3 @@ int main() {
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
-
-
-

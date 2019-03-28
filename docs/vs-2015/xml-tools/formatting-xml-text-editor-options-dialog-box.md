@@ -1,19 +1,14 @@
 ---
 title: "Formatting, XML, Text Editor, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: bb539b3a-027c-4b2f-906e-403e0e22ba8d
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Formatting, XML, Text Editor, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ This dialog box allows you to specify the formatting settings for the XML Editor
 ## See Also  
  [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)   
  [XML Editor Components](../xml-tools/xml-editor-components.md)
-
-
-

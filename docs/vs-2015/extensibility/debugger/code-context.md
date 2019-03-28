@@ -1,20 +1,15 @@
 ---
 title: "Code Context | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], contexts"
 ms.assetid: 65e4d37a-086b-426e-9394-a3534967fd59
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Code Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,4 +29,3 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **code context**
 ## See Also  
  [Document Context](../../extensibility/debugger/document-context.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

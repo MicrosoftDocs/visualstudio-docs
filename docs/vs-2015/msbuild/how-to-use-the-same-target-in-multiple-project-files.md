@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Same Target in Multiple Project Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, importing"
   - "MSBuild, using the same target in multiple project files"
@@ -16,7 +11,7 @@ ms.assetid: 163734bd-1bfd-4093-a730-7741fc21742d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Same Target in Multiple Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,6 +112,3 @@ If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

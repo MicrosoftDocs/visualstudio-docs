@@ -1,22 +1,17 @@
 ---
 title: "Support for User Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Custom Settings Points"
   - "user settings [Visual Studio SDK], registering persistence support"
   - "persistence, registering settings"
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Support for User Settings
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ A VSPackage may define one or more settings categories, which are groups of stat
 |Category|REG_SZ|GUID|GUID identifying the settings category.<br /><br /> For implementations based on interop assemblies, this value can be an arbitrarily chosen GUID, which the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE passes to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ImportSettings%2A> methods. All implementations of these two methods should verify their GUID arguments.<br /><br /> For implementations based on MPF, this GUID is obtained by the <xref:System.Type> of the class implementing the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] settings mechanism.|  
 |ResourcePackage|REG_SZ|GUID|Optional.<br /><br /> Path to satellite DLL containing localized strings if the implementing VSPackage does not supply them.<br /><br /> MPF uses reflection to obtain the correct resource VSPackage, so the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class does not set this argument.|  
 |AlternateParent|REG_SZ|Name of the folder under the Tools Options page containing this Custom Settings Point.|Optional.<br /><br /> You must set this value only if a settings implementation supports **Tools Options** pages that use the persistence mechanism in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] rather than the mechanism in the automation model to save state.<br /><br /> In these cases, the value in the AlternateParent key is the `topic` section of the `topic.sub-topic` string used to identify the particular **ToolsOptions** page. For example, for the **ToolsOptions** page `"TextEditor.Basic"` the value of AlternateParent would be `"TextEditor"`.<br /><br /> When <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> generates the Custom Settings Point, it is the same as the category name.|
-

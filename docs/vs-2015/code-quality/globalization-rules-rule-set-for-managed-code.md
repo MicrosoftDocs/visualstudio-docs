@@ -1,14 +1,9 @@
 ---
 title: "Globalization Rules rule set for managed code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 3c4032ee-0805-4581-8c48-b1827cd6b213
 caps.latest.revision: 11
 author: gewarren
@@ -33,6 +28,3 @@ You can use the Microsoft Globalization Rules rule set to focus on problems that
 |[CA1308](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Normalize strings to uppercase|  
 |[CA1309](../code-quality/ca1309-use-ordinal-stringcomparison.md)|Use ordinal StringComparison|  
 |[CA2101](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)|Specify marshaling for P/Invoke string arguments|
-
-
-

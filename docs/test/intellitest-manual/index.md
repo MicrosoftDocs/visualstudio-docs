@@ -1,13 +1,11 @@
 ---
 title: "IntelliTest Reference Manual | Microsoft Developer Test Tools"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest Reference Manual, IntelliTest"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -26,11 +24,11 @@ author: gewarren
     * [Language](introduction.md#language)
     * [Symbolic reasoning](introduction.md#symbolic-reasoning)
     * [Incorrect stack traces](introduction.md#incorrect-stack-traces)
-  - [Further reading](introduction.md#further-reading)<p>&nbsp;</p>
+  - [Further reading](introduction.md#further-reading)
 
 * **[Get started with IntelliTest](getting-started.md)**
   - [Important attributes](getting-started.md#important-attributes)
-  - [Important static helper classes](getting-started.md#helper-classes)<p>&nbsp;</p>
+  - [Important static helper classes](getting-started.md#helper-classes)
 
 * **[Test Generation](test-generation.md)**
   - [Test generators](test-generation.md#test-generators)
@@ -43,7 +41,7 @@ author: gewarren
   - [Postcondition](test-generation.md#postcondition)
   - [Test failures](test-generation.md#test-failures)
   - [Setup and tear down](test-generation.md#setup-teardown)
-  - [Further reading](test-generation.md#further-reading)<p>&nbsp;</p>
+  - [Further reading](test-generation.md#further-reading)
 
 * **[Input Generation](input-generation.md)**
   - [Constraint solver](input-generation.md#constraint-solver)
@@ -56,7 +54,7 @@ author: gewarren
   - [Structs](input-generation.md#structs)
   - [Arrays and strings](input-generation.md#arrays-and-strings)
   - [Obtaining additional inputs](input-generation.md#additional-inputs)
-  - [Further reading](input-generation.md#further-reading)<p>&nbsp;</p>
+  - [Further reading](input-generation.md#further-reading)
 
 * **[Exploration Bounds](exploration-bounds.md)**
   - [MaxConstraintSolverTime](exploration-bounds.md#maxconstraintsolvertime)
@@ -71,7 +69,7 @@ author: gewarren
   - [MaxExceptions](exploration-bounds.md#maxexceptions)
   - [TestExcludePathBoundsExceeded](exploration-bounds.md#testexcludepathboundsexceeded)
   - [TestEmissionFilter](exploration-bounds.md#testemissionfilter)
-  - [TestEmissionBranchHits](exploration-bounds.md#testemissionbranchhits)<p>&nbsp;</p>
+  - [TestEmissionBranchHits](exploration-bounds.md#testemissionbranchhits)
 
 * **[Attribute Glossary](attribute-glossary.md)**
   - [PexAssumeNotNull](attribute-glossary.md#pexassumenotnull)
@@ -86,7 +84,7 @@ author: gewarren
   - [PexAllowedException](attribute-glossary.md#pexallowedexception)
   - [PexAllowedExceptionFromAssembly](attribute-glossary.md#pexallowedexceptionfromassembly)
   - [PexAllowedExceptionFromType](attribute-glossary.md#pexallowedexceptionfromtype)
-  - [PexAllowedExceptionFromTypeUnderTest](attribute-glossary.md#pexallowedexceptionfromtypeundertest)<p>&nbsp;</p>
+  - [PexAllowedExceptionFromTypeUnderTest](attribute-glossary.md#pexallowedexceptionfromtypeundertest)
 
 * **[Settings Waterfall](settings-waterfall.md)**
 
@@ -95,7 +93,7 @@ author: gewarren
   - [PexAssert](static-helper-classes.md#pexassert)
   - [PexChoose](static-helper-classes.md#pexchoose)
   - [PexObserve](static-helper-classes.md#pexobserve)
-  - [PexSymbolicValue](static-helper-classes.md#pexsymbolicvalue)<p>&nbsp;</p>
+  - [PexSymbolicValue](static-helper-classes.md#pexsymbolicvalue)
 
 * **[Warnings and Errors](warnings-and-errors.md)**
   - [MaxBranches exceeded](warnings-and-errors.md#maxbranches-exceeded)
@@ -117,9 +115,8 @@ author: gewarren
   - [Testability issue](warnings-and-errors.md#testability-issue)
   - [Limitation](warnings-and-errors.md#limitation)
   - [Observed call mismatch](warnings-and-errors.md#observed-call-mismatch)
-  - [Value stored in static field](warnings-and-errors.md#value-static-field)<p>&nbsp;</p>
+  - [Value stored in static field](warnings-and-errors.md#value-static-field)
 
 ## Got feedback?
 
-Post your ideas and feature requests on
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

@@ -1,14 +1,9 @@
 ---
 title: "Debugging GPU Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging GPU Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,6 +80,3 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)
-
-
-

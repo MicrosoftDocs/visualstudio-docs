@@ -1,14 +1,9 @@
 ---
 title: "Block | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "Block symbol"
 ms.assetid: 95b7b0c1-ecc9-405f-8456-5f9cfb866498
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Block
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ Each code block is identified by a `SymTagBlock` symbol. Block symbols are used 
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)   
  [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)   
  [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
-
-
-

@@ -1,18 +1,18 @@
 ---
-title: "View DLLs and Executables in the Debugger | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
+title: "View DLLs and executables"
+titleSuffix: Visual Studio Modules window
+ms.custom: "seodec18"
+ms.date: "11/04/2018"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.modules"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
   - "JScript"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger, Modules window"
   - "Modules window"
   - "executable files, displaying while debugging"
@@ -22,53 +22,56 @@ helpviewer_keywords:
 ms.assetid: d840fdca-b035-4452-b652-72580c831896
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# View DLLs and Executables using the Modules Window in the Visual Studio Debugger
- 
-The **Modules** window lists the DLLs and executables (EXE) that are used by your program and shows relevant information for each. 
+# View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
+
+During Visual Studio debugging, the **Modules** window lists and shows information about the DLLs and executables (*.exe* files) your app uses.
 
 > [!NOTE]
->  This feature is not available for SQL or script debugging. 
-  
-### To display the Modules window  
-  
--   While you are debugging, select **Debug > Windows** and then click **Modules**.  
-  
-     By default, the **Modules** window sorts modules by load order. However, you can choose to sort by any column.  
-  
-### To sort by any column  
-  
--   Click the button at the top of the column.  
-  
-     You can load symbols or specify a symbol path from the **Modules** window by using the shortcut menu.  
-  
-## Loading Symbols  
- In the **Modules** window, you can see which modules have debugging symbols loaded. This information appears in the **Symbol Status** column. If the status says **Skipped loadingCannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can direct the debugger to download symbols from the Microsoft public symbol servers or to load symbols from a symbol directory on your computer. For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
-  
-#### To load symbols manually  
-  
-1.  In the **Modules** window, right-click a module for which symbols have not loaded.  
-  
-2.  Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
-  
-#### To change symbol load settings  
-  
-1.  In the **Modules** window, right-click any module.  
-  
-2.  Click **Symbol Settings**.  
-  
-     You can now change the symbol load settings, as described in [Specify symbol locations and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior). Changes do not take effect until you restart the debugging session.  
-  
-#### To change symbol load behavior for a specific module  
-  
-1.  In the **Modules** window, right-click the module.  
-  
-2.  Point to **Automatic Symbol Load Settings** and then click **Always Load Manually** or **Default**. Changes do not take effect until you restart the debugging session.  
-  
-## See Also  
- [Breaking Execution](/previous-versions/visualstudio/visual-studio-2010/7z9se2d8(v=vs.100))   
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+> The Modules window is not available for SQL or script debugging.
+
+## Use the Modules window
+
+To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**).
+
+By default, the **Modules** window sorts modules by load order. To sort by any window column, select the header at the top of the column.
+
+## Load symbols
+
+The **Symbol Status** column in the **Modules** window shows which modules have debugging symbols loaded. If the status is **Skipped loading symbols**, **Cannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can load symbols manually. For more information about loading and using symbols, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+
+**To load symbols manually:**
+
+1. In the **Modules** window, right-click the module for which symbols haven't loaded.
+
+   - Select **Symbol Load Information** for details about why the symbols didn't load.
+
+   - Select **Load Symbols** to load the symbols manually.
+
+1. If the symbols don't load, select **Symbol Settings** to open the **Options** dialog, and specify or change symbol loading locations.
+
+   You can download symbols from the public Microsoft Symbol Servers or other servers, or load symbols from a folder on your computer. For details, see [Specify symbol locations and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior).
+
+**To change symbol loading behavior settings:**
+
+1. In the **Modules** window, right-click any module.
+
+1. Select **Symbol Settings**.
+
+1. Select **Load all symbols**, or select which modules to include or exclude.
+
+1. Select **OK**. Changes take effect in the next debugging session.
+
+**To change symbol loading behavior for a specific module:**
+
+1.  In the **Modules** window, right-click the module.
+
+1.  In the right-click menu, select or deselect **Always Load Automatically**. Changes take effect in the next debugging session.
+
+## See also
+- [Breaking execution](/previous-versions/visualstudio/visual-studio-2010/7z9se2d8(v=vs.100))
+- [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
+- [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

@@ -2,9 +2,12 @@
 layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation | Microsoft Docs
-description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+titleSuffix: ""
+description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 ms.topic: hub-page
+ms.custom: seodec18
 ---
+<!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
@@ -47,7 +50,7 @@ ms.topic: hub-page
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/whats-new-in-visual-studio">
+                <a href="/visualstudio/ide/whats-new-visual-studio-2019">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -57,7 +60,7 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>What&#39;s New in Visual Studio 2017</h3>
+                                    <h3>What&#39;s New in Visual Studio</h3>
                                 </div>
                             </div>
                         </div>
@@ -70,23 +73,23 @@ ms.topic: hub-page
         <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
             <li>
-                <li>
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started">
                     <li>
                         <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
-                               <div class="cardSize">
+                                <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Guided tour icon" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="get-started/visual-studio-ide.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Guided tour icon" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="get-started/tutorial-open-project-from-repo.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_pull-request.svg" alt="Repo icon" />Open code from a repo</a></li>
                                                     <li><a class="barLink" href="ide/index-writing-code.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="Pencil icon" />Write and edit code</a></li>
                                                     <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_build.svg" alt="Crane icon" />Build your code</a></li>
-                                                    <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_debug.svg" alt="Debug icon" />Debug your code</a></li>
+                                                    <li><a class="barLink" href="debugger/debugger-feature-tour.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_debug.svg" alt="Debug icon" />Debug your code</a></li>
                                                     <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_test.svg" alt="Science flask icon" />Test your code</a></li>
                                                     <li><a class="barLink" href="data-tools/create-a-sql-database-by-using-a-designer.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="Database icon" />Access data locally or in the cloud</a></li>
                                                 </ul>
@@ -100,26 +103,24 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Get started with a tutorial</h3>
-                                                <h4>Choose a programming language</h4>
+                                                <h2>Follow a tutorial</h2>
                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">
                                                                 <li>
-                                                                    <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
-                                                                        C++
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-csharp-aspnet-core">
+                                                                    <a class="barLink" href="/visualstudio/get-started/csharp/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# icon">
                                                                         C#
                                                                     </a>
+                                                                </li>                                             <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
+                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
+                                                                        F#
+                                                                    </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-visual-basic-console">
+                                                                    <a class="barLink" href="/visualstudio/get-started/visual-basic/">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB icon">
                                                                         Visual Basic
                                                                     </a>
@@ -127,76 +128,21 @@ ms.topic: hub-page
                                                             </ul>
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python icon">
-                                                                        Python</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs/">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js icon">
-                                                                        Node.js</a>
-                                                                </li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Try a 5-minute Quickstart</h3>
-                                                <h4>Build &quot;Hello, World&quot; in the language of your choice.</h4>
-                                                <table cellpadding="0" cellspacing="0" border="0">
-                                                    <tr>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-aspnet-core">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="C# logo">
-                                                                        C#
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
-                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
-                                                                        F#
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-visual-basic-console">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="VB logo">
-                                                                        Visual Basic
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </td>
-                                                        <td style="border-top-color:transparent!important;padding-left:0;">
-                                                            <ul class="noBullet">
-                                                                <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ logo">
+                                                            <ul class="noBullet">                                     <li>
+                                                                    <a class="barLink" href="/cpp/get-started/">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
                                                                         C++
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-python">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python logo">
-                                                                        Python
-                                                                    </a>
+                                                                    <a class="barLink" href="/visualstudio/python/">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="Python icon">
+                                                                        Python</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-nodejs">
-                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Node.js logo">
-                                                                        Node.js
-                                                                    </a>
+                                                                    <a class="barLink" href="/visualstudio/javascript/">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_js.svg" alt="JavaScript logo">
+                                                                        JavaScript</a>
                                                                 </li>
                                                             </ul>
                                                         </td>
@@ -207,19 +153,15 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-                        </ul>
-                     <div>
-                        <ul class="cardsL">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Or choose what you want to develop</h3>
-                                                <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
+                                                <h3>Create an app</h3>
                                                 <ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
+                                                        <a class="barLink" href="/visualstudio/get-started/csharp/tutorial-uwp">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
                                                             Universal Windows app</a>
                                                     </li>
@@ -227,32 +169,30 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Windows logo">
                                                             Windows desktop app</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    </li>
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
                                                             <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="Mobile phone icon">
                                                             Mobile app</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
-">
+                                                        <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity logo">
                                                             Unity game</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    </li>
                                                     <li>
                                                         <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt=".NET logo">
                                                             Web app with ASP.NET Core</a>
                                                     </li>
-                                                </ul></td></tr>
-                                                </table>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -262,7 +202,7 @@ ms.topic: hub-page
                         <a href="#features1"> </a>
                         <ul id="features1" class="cardsC">
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=856608">
+                                <a href="ide/index-writing-code.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -281,7 +221,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833077">
+                                <a href="ide/compiling-and-building-in-visual-studio.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -300,7 +240,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833078">
+                                <a href="/visualstudio/debugger/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -319,7 +259,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833079">
+                                <a href="test/improve-code-quality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -338,7 +278,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834349">
+                                <a href="/visualstudio/deployment/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -395,7 +335,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834348">
+                                <a href="/visualstudio/profiling/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -415,7 +355,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833081">
+                                <a href="/visualstudio/extensibility/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -434,7 +374,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=856607">
+                                <a href="data-tools/accessing-data-in-visual-studio.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -453,7 +393,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=872032">
+                                <a href="/visualstudio/liveshare/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -510,7 +450,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833062">
+                                                <a href="/dotnet/csharp/">
                                                     <h3>C#</h3>
                                                     <p>A modern object-oriented programming language with functional programming capabilities for building any application on the .NET platform.</p>
                                                 </a>
@@ -529,7 +469,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833060">
+                                                <a href="/dotnet/visual-basic/">
                                                     <h3>Visual Basic</h3>
                                                     <p>A modern, easy to learn, object-oriented programming language for the .NET platform, focused on easily creating Windows applications.</p>
                                                 </a>
@@ -548,7 +488,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833063">
+                                                <a href="/cpp/">
                                                     <h3>C++</h3>
                                                     <p>A powerful and flexible programming language and development environment for creating applications for Windows, Linux, iOS, and Android.</p>
                                                 </a>
@@ -567,7 +507,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833067">
+                                                <a href="/dotnet/fsharp/">
                                                     <h3>F#</h3>
                                                     <p>A modern functional programming language with object-oriented capabilities for the .NET platform, focused on making Functional Programming easier for any task.</p>
                                                 </a>
@@ -586,7 +526,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833064">
+                                                <a href="/visualstudio/javascript/">
                                                     <h3>JavaScript</h3>
                                                     <p>A lightweight, cross-platform, scripting language often used to help make web pages more interactive.</p>
                                                 </a>
@@ -605,7 +545,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833066">
+                                                <a href="http://www.typescriptlang.org/docs/tutorial.html">
                                                     <h3>TypeScript</h3>
                                                     <p>A superset of JavaScript that compiles to plain JavaScript and enables you to create more scalable code.</p>
                                                 </a>
@@ -624,7 +564,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
+                                                <a href="/visualstudio/python/">
                                                     <h3>Python</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
                                                 </a>
@@ -643,9 +583,9 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://go.microsoft.com/fwlink/?linkid=833070">
+                                                <a href="/visualstudio/rtvs/">
                                                     <h3>R</h3>
-                                                    <p>An extensible programming language typically used for statistical computing and graphics.</p>
+                                                    <p>(Visual Studio 2017 only) An extensible programming language typically used for statistical computing and graphics.</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -669,7 +609,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833085">
+                                <a href="/aspnet/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -707,7 +647,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833068">
+                                <a href="/visualstudio/python/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -726,7 +666,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834351">
+                                <a href="javascript/quickstart-vuejs-with-nodejs.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -745,7 +685,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833095">
+                                <a href="/visualstudio/data-tools/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -764,7 +704,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834748">
+                                <a href="python/data-science-and-analytical-applications-workload.md">
                                   <div class="cardSize">
                                     <div class="cardPadding">
                                       <div class="card">
@@ -775,7 +715,7 @@ ms.topic: hub-page
                                         </div>
                                           <div class="cardText">
                                             <h3>Data science and analytical applications</h3>
-                                            <p>Languages and tooling for creating data science applications, including Python, R, and F#.</p>
+                                            <p>Languages and tooling for creating data science applications, including Python and F# (and R in Visual Studio 2017 only).</p>
                                         </div>
                                       </div>
                                     </div>
@@ -783,7 +723,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833075">
+                                <a href="https://developer.microsoft.com/office/docs">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -812,7 +752,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833082">
+                                <a href="cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -831,7 +771,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833083">
+                                <a href="/dotnet/framework/develop-client-apps">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -850,7 +790,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833084">
+                                <a href="/cpp/windows/desktop-applications-visual-cpp">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -879,7 +819,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833088">
+                                <a href="/xamarin/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -898,7 +838,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833091">
+                                <a href="cross-platform/visual-studio-tools-for-unity.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -917,7 +857,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833089">
+                                <a href="/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -928,7 +868,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Mobile development with JavaScript</h3>
-                                                    <p>Build cross-platform applications for iOS, Android, or Windows using the Apache Cordova framework.</p>
+                                                    <p>(Visual Studio 2017 and Visual Studio 2015 only) Build cross-platform applications for iOS, Android, or Windows using the Apache Cordova framework.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -936,7 +876,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833090">
+                                <a href="/visualstudio/cross-platform/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -955,7 +895,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834749">
+                                <a href="/windows/uwp/gaming/e2e">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -979,7 +919,7 @@ ms.topic: hub-page
                         <a href="#other">Other Toolsets</a>
                         <ul id="other" class="cardsC">
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=834750">
+                                <a href="/visualstudio/extensibility/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -998,7 +938,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=833099">
+                                <a href="/cpp/linux/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1017,7 +957,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=856606">
+                                <a href="/dotnet/core/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1047,28 +987,28 @@ ms.topic: hub-page
         <h2>Keep in touch with us</h2>
         <ul class="links">
            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833100">
+                <a href="https://devblogs.microsoft.com/visualstudio/">
                     Blog
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833101">
+                <a href="https://twitter.com/VisualStudio">
                     Twitter
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833103">
+                <a href="https://stackoverflow.com/questions/tagged/visual-studio">
                     Stack Overflow
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=874480">
+                <a href="ide/talk-to-us.md">
                     Issue Reporting
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833105">
-                    User Voice
+                <a href="https://developercommunity.visualstudio.com/spaces/8/index.html">
+                    Developer Community
                 </a>
             </li>
         </ul>

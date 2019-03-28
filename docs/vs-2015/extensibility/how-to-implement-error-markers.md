@@ -1,20 +1,15 @@
 ---
 title: "How to: Implement Error Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - error markers"
 ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Implement Error Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
  [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   
  [How to: Use Text Markers](../extensibility/how-to-use-text-markers.md)
-

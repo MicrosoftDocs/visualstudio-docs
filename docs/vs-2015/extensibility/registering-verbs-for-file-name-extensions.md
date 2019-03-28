@@ -1,20 +1,15 @@
 ---
 title: "Registering Verbs for File Name Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "verbs, registering"
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering Verbs for File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,4 +109,3 @@ The association of a file name extension with an application generally has a pre
   
 ## See Also  
  [Managing Side-by-Side File Associations](../extensibility/managing-side-by-side-file-associations.md)
-

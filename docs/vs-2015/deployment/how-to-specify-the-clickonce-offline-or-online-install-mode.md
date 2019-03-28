@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify the ClickOnce Offline or Online Install Mode | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: 0aee5fc1-e966-4bda-9b8f-d9997aeaa779
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify the ClickOnce Offline or Online Install Mode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ The `Install Mode` for a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, Basic (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Visual_Basic.Editor"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Editor"
@@ -22,7 +17,7 @@ ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, Basic (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -74,6 +69,3 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
-
-
-

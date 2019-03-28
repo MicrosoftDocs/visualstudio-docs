@@ -1,11 +1,9 @@
 ---
-title: "Use the Microsoft Unit Testing Framework for C++ in Visual Studio"
+title: "Use the Microsoft Unit Testing Framework for C++"
 ms.date: 11/15/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -26,7 +24,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    1. In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
 
-   2. Click on the down arrow in the following rows and choose **<Edit>** :
+   2. Click on the down arrow in the following rows and choose **\<Edit>** :
 
 
       | Directory | Property |
@@ -94,4 +92,3 @@ The following pre-defined traits are found in `CppUnitTest.h`. For more informat
 ## See also
 
 - [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "BaseClass | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "base classes, user-defined types"
 ms.assetid: 9375ca35-cb91-45f5-8903-7344ee4528e8
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # BaseClass
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ Each base class for a user-defined type (UDT) symbol is identified by a child wi
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)   
  [UDT](../../debugger/debug-interface-access/udt.md)
-
-
-

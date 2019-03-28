@@ -1,19 +1,16 @@
 ---
 title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "models, versions of Visual Studio"
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Read models and diagrams in other Visual Studio editions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +62,3 @@ When you open a model in a version of Visual Studio that does not support model 
   
 ## See Also  
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

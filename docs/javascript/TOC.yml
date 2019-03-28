@@ -1,6 +1,13 @@
-- name: Node.js documentation
+- name: JavaScript and TypeScript
+  href: index.yml
+- name: Overview
+  items:
+  - name: JavaScript in Visual Studio 2017
+    href: javascript-in-vs-2017.md
 - name: Quickstarts
   items:
+  - name: First look at the Visual Studio IDE
+    href: quickstart-ide-orientation-js.md
   - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
   - name: Create a Vue.js project
@@ -11,23 +18,29 @@
     href: tutorial-nodejs.md
   - name: Create a Node.js app with React
     href: tutorial-nodejs-with-react-and-jsx.md
-  - name: Publish to Linux App Service
+  - name: Publish a Node.js app to Linux App Service
     href: publish-nodejs-app-azure.md
 - name: How-to Guides
   items:
+  - name: Write and edit code
+    href: write-and-edit-code.md
   - name: Create a Vue.js application
     href: create-application-with-vuejs.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
-  - name: Unit testing JavaScript code
-    href: unit-testing-javascript-with-visual-studio.md
+  - name: Use the Node.js interactive REPL
+    href: nodejs-interactive-repl.md
   - name: JavaScript IntelliSense
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
+  - name: Debug a JavaScript application
+    href: debug-nodejs.md
+  - name: Unit testing JavaScript
+    href: unit-testing-javascript-with-visual-studio.md
 - name: Resources
   items:
   - name: package.json configuration
     href: configure-packages-with-package-json.md
-  - name: Wiki page for Node.js tools
-    href: https://github.com/Microsoft/nodejstools
+  - name: Wiki docs for JavaScript and TypeScript
+    href: https://github.com/Microsoft/nodejstools/wiki

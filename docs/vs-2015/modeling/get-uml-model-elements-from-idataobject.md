@@ -1,19 +1,16 @@
 ---
 title: "Get UML model elements from IDataObject | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, copy and paste"
 ms.assetid: e0b9cec8-3b93-4a24-8bd3-3e086501d387
 caps.latest.revision: 20
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Get UML model elements from IDataObject
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +77,3 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
-
-
-

@@ -1,14 +1,12 @@
 ---
 title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: overview
 helpviewer_keywords:
   - "code analysis FAQ"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -27,7 +25,7 @@ FxCop analyzers are based on the .NET Compiler Platform ("Roslyn"). You [install
 
 ## Does the Run Code Analysis command run FxCop analyzers?
 
-No. When you select **Analyze** > **Run Code Analysis** in Visual Studio 2017, it executes static code analysis or legacy FxCop. **Run Code Analysis** has no effect on Roslyn-based analyzers, including the Roslyn-based FxCop analyzers.
+No. When you select **Analyze** > **Run Code Analysis**, it executes static code analysis or legacy FxCop. **Run Code Analysis** has no effect on Roslyn-based analyzers, including the Roslyn-based FxCop analyzers.
 
 ## Does the RunCodeAnalysis msbuild project property run analyzers?
 

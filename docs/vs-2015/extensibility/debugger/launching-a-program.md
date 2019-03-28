@@ -1,21 +1,16 @@
 ---
 title: "Launching a Program | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, launching"
   - "programs, launching"
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Launching a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ Users who want to debug a program can press F5 to run the debugger from the IDE.
 ## Related Sections  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.
-

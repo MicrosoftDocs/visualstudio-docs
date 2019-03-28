@@ -1,5 +1,5 @@
 ---
-title: "Step Ramp Time for a Step Load Pattern for load testing in Visual Studio"
+title: "Step Ramp Time for a Step Load Pattern for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,13 +7,13 @@ helpviewer_keywords:
 ms.assetid: 4a69e857-f93b-4907-9a01-fd1b66291205
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the step ramp time property for a step load pattern
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. For more information, see [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).

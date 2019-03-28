@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, C#, Formatting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines"
@@ -30,7 +25,7 @@ ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, C#, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ manager: "ghogen"
 Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access this dialog box, click **Options** on the **Tools** menu, expand **Text Editor**, expand **C#**, and then click **Formatting**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## General Settings  
  The general settings affect how the Code Editor applies formatting options to code.  
@@ -60,6 +55,3 @@ Use the **Formatting** property page dialog box to set options for formatting co
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-
-
-

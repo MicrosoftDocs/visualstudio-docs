@@ -1,26 +1,34 @@
 - name: Debugger documentation
   href: index.md
 - name: Overview
-  href: debugger-overview.md
+  items:
+  - name: "What is debugging?"
+    href: what-is-debugging.md
+  - name: Debugging techniques and tools
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
     href: debugger-feature-tour.md
-  - name: Debug a managed app
+  - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
-  - name: Debug a native app
+  - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
   - name: Debug an ASP.NET app
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
-  - name: Learn to debug using Visual Studio
-    href: getting-started-with-the-debugger.md
+  - name: Learn to debug C#
+    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+  - name: Learn to debug C++
+    href: getting-started-with-the-debugger-cpp.md
+  - name: Learn to debug Visual Basic
+    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
-  - name: Debug managed and native code
+  - name: Debug both C# and C++ code
     href: how-to-debug-managed-and-native-code.md
   - name: Inspect previous app states
     href: view-historical-application-state.md
@@ -100,13 +108,15 @@
       items:
       - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
-      - name: Supported Code Changes (C#)
+      - name: Supported Code Changes
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
       items:
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
+    - name: Write and debug running XAML code
+      href: xaml-hot-reload.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data
@@ -193,6 +203,9 @@
       items:
       - name: Create custom views of native objects
         href: create-custom-views-of-native-objects.md
+        items:
+        - name: "Visual C++ custom visualizer compatibility"
+          href: visual-cpp-custom-visualizer-compatibility.md
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:
@@ -256,7 +269,7 @@
       - name: Ensure that DNS is correctly configured on the target computer
         href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-        href: error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md
+        href: /visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running
       - name: Unable to connect to the Microsoft Visual Studio Remote Debugging Monitor
         href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
       - name: Unable to initiate DCOM communication
@@ -350,11 +363,14 @@
     items:
     - name: Debug a live Azure app
       href: debug-live-azure-applications.md
-      items:
-      - name: FAQ for snapshot debugging
-        href: debug-live-azure-apps-faq.md
-      - name: Troubleshooting snapshot debugging
-        href: debug-live-azure-apps-troubleshooting.md
+    - name: Debug a live Azure virtual machine app
+      href: debug-live-azure-virtual-machines.md
+    - name: Debug a live Azure Kubernetes app
+      href: debug-live-azure-kubernetes.md
+    - name: FAQ for snapshot debugging
+      href: debug-live-azure-apps-faq.md
+    - name: Troubleshooting snapshot debugging
+      href: debug-live-azure-apps-troubleshooting.md
   - name: Debug specific application types
     href: debugging-applications.md
     items:
@@ -408,7 +424,7 @@
           href: debugging-preparation-windows-forms-applications.md
         - name: "Debugging preparation: Windows services"
           href: debugging-preparation-windows-services.md
-      - name: Diagnostic Messages in the Output window
+      - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
         href: assertions-in-managed-code.md
@@ -506,11 +522,6 @@
         - name: COM server and container debugging
           href: com-server-and-container-debugging.md
           items:
-          - name: Debug COM servers
-            href: how-to-debug-com-servers.md
-            items:
-            - name: SDI server applications
-              href: sdi-server-applications.md
           - name: Debug COM clients and servers using RPC debugging
             href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
         - name: Debug an ActiveX control

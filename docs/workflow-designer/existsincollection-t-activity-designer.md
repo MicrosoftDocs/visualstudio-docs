@@ -2,14 +2,12 @@
 title: "Workflow Designer - ExistsInCollection&lt;T&gt; Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

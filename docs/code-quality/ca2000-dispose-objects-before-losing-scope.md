@@ -1,8 +1,6 @@
 ---
 title: "CA2000: Dispose objects before losing scope"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2000"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 0c3d7d8d-b94d-46e8-aa4c-38df632c1463
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

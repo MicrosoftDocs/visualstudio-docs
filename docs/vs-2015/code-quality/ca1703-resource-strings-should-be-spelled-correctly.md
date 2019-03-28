@@ -1,14 +1,9 @@
 ---
 title: "CA1703: Resource strings should be spelled correctly | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "ResourceStringsShouldBeSpelledCorrectly"
   - "CA1703"
@@ -51,6 +46,3 @@ manager: "wpickett"
  [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
 
  [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
-
-
-

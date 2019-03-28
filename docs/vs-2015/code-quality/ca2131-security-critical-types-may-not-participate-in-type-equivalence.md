@@ -1,14 +1,9 @@
 ---
 title: "CA2131: Security critical types may not participate in type equivalence | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2131"
 ms.assetid: 4170f3b1-6086-430d-8fba-837d5538c573
@@ -46,6 +41,3 @@ manager: "wpickett"
 
 ## See Also
  [Security-Transparent Code, Level 2](http://msdn.microsoft.com/library/4d05610a-0da6-4f08-acea-d54c9d6143c0)
-
-
-

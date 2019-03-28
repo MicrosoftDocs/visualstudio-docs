@@ -1,19 +1,14 @@
 ---
 title: "How to: Exclude Projects from a Build | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 17a837ca-5db9-46cd-b5a7-b14ad1d2c47d
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Exclude Projects from a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ You can build a solution without building all projects that it contains. For exa
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [How to: Build Multiple Configurations Simultaneously](../ide/how-to-build-multiple-configurations-simultaneously.md)
-
-
-

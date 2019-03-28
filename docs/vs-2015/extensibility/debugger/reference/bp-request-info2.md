@@ -1,22 +1,17 @@
 ---
 title: "BP_REQUEST_INFO2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_REQUEST_INFO2"
 helpviewer_keywords: 
   - "BP_REQUEST_INFO2 structure"
 ms.assetid: 008c87f7-a76e-43d3-8904-11b225d6a9a5
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_REQUEST_INFO2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -121,4 +116,3 @@ public struct BP_REQUEST_INFO2 {
  [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)   
  [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)   
  [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md)
-

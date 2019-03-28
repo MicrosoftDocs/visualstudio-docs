@@ -1,14 +1,9 @@
 ---
 title: "List Source Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "Debug.ListSource"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # List Source Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ Debug.ListSource /File:"C:\Visual Studio Projects\Form1.vb" /Line:4 /ShowLineNum
 ## See Also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)
-
-
-

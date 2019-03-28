@@ -1,22 +1,17 @@
 ---
 title: "GETNAME_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "GETNAME_TYPE"
 helpviewer_keywords: 
   - "GETNAME_TYPE enumeration"
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # GETNAME_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -87,4 +82,3 @@ public enum enum_GETNAME_TYPE { 
  [GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)   
  [GetName](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)   
  [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)
-

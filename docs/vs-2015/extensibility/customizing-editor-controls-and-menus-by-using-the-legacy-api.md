@@ -1,20 +1,15 @@
 ---
 title: "Customizing Editor Controls and Menus by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - controls and menus"
 ms.assetid: 1ce1f55b-6825-4654-a60a-7831af2ab44f
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Customizing Editor Controls and Menus by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ A language service or a text view can control the context menus and controls in 
 ## Related Sections  
  [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md)  
  Introduces the different types of editors you can use in Visual Studio.
-

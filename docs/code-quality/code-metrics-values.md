@@ -1,14 +1,12 @@
 ---
-title: Calculate code metrics in Visual Studio
-ms.date: 12/12/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Calculate code metrics
+ms.date: 11/02/2018
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -33,6 +31,9 @@ The following list shows the code metrics results that Visual Studio calculates:
 - **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.
 
 - **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A very high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+
+   > [!NOTE]
+   > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#command-line-code-metrics) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
 
 ## Anonymous methods
 

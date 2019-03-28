@@ -1,14 +1,9 @@
 ---
 title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1824"
   - "MarkAssembliesWithNeutralResourcesLanguage"
@@ -54,6 +49,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  It is permissible to suppress a warning from this rule. However, startup performance might decrease.
-
-
-

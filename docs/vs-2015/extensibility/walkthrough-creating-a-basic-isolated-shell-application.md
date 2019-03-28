@@ -1,22 +1,17 @@
 ---
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, walkthroughs"
   - "Shell [Visual Studio], walkthroughs"
   - "walkthroughs [Visual Studio], isolated shell-based application"
 ms.assetid: 8b12e223-aae3-4c23-813d-ede1125f5f69
 caps.latest.revision: 55
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating a Basic Isolated Shell Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -259,4 +254,3 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 ## Testing the Installation Program  
  To test the setup, copy the setup.exe file to a different computer and run the Setup executable. You should be able to run the isolated shell application.
-

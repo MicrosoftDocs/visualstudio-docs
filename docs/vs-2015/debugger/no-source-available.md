@@ -1,14 +1,9 @@
 ---
 title: "No Source Available | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.nosource"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "No Source Code Available for the Current Location dialog box"
 ms.assetid: ed0732bc-4b8c-490f-adb1-af06869a2a6b
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # No Source Available
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ Your project does not contain source code for the code that you are trying to vi
  [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [SOS.dll (SOS Debugging Extension)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498)
-
-
-

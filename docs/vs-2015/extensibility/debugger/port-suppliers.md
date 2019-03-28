@@ -1,21 +1,16 @@
 ---
 title: "Port Suppliers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "port suppliers"
   - "debugging [Debugging SDK], port suppliers"
 ms.assetid: a8f3db96-1a13-4e93-9ef6-0861880369e0
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Port Suppliers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ In terms of the debugger architecture, a **port supplier**:
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)
-

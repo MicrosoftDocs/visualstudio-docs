@@ -1,19 +1,14 @@
 ---
 title: "How to: Create and Edit an XSD Schema File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create and Edit an XSD Schema File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 ## See Also  
  [Working with XML Data](../xml-tools/working-with-xml-data.md)   
  [XML Schema Designer Tasks](../xml-tools/xml-schema-designer-tasks.md)
-
-
-

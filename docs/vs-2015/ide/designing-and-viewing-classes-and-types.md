@@ -1,14 +1,9 @@
 ---
 title: "Designing and Viewing Classes and Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.diagram"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Designing and Viewing Classes and Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ Design, visualize, and refactor classes and other types in your code with Class 
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)  
   
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
-
-
-

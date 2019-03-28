@@ -1,14 +1,9 @@
 ---
 title: "Solution User Options (.Suo) File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".suo files, VSPackages"
   - "suo files, VSPackages"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "solution user options (.suo) file"
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Solution User Options (.Suo) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,5 +34,4 @@ The solution user options (.suo) file contains per-user solution options. This f
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>   
- [Solutions](../../extensibility/internals/solutions.md)
-
+ [Solutions](../../extensibility/internals/solutions-overview.md)

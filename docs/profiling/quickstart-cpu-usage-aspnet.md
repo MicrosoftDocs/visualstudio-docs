@@ -3,15 +3,14 @@ title: "Analyze CPU usage data (ASP.NET)"
 description: "Measure app performance in ASP.NET apps using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "aspnet"
 ---
 # Quickstart: Analyze CPU usage data in Visual Studio (ASP.NET)
@@ -82,8 +81,8 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
             {
                 m_totalIterations += iters;
             }
-            // we're just spinning here  
-            // and using Random to frustrate compiler optimizations  
+            // we're just spinning here
+            // and using Random to frustrate compiler optimizations
             for (var i = 0; i < iters; i++)
             {
                 result = rand.Next();
@@ -148,8 +147,8 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     }
     ```
 
-##  Step 1: Collect profiling data 
-  
+##  Step 1: Collect profiling data
+
 1.  First, set a breakpoint in your app on this line of code in the `Simple` constructor:
 
     `for (int i = 0; i < 200; i++)`
@@ -162,7 +161,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
-  
+
 1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
 1.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
@@ -184,7 +183,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
      The profiler begins preparing thread data. Wait for it to finish.
-  
+
      The CPU Usage tool displays the report in the **CPU Usage** tab.
 
      At this point, you can begin to analyze the data.
@@ -202,7 +201,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 2. In the function list, double-click the `MyProfilingApp_MVC.Models.ServerClass::GetNumber` function.
 
-    When you double-click the function, the **Caller/Callee** view opens in the left pane. 
+    When you double-click the function, the **Caller/Callee** view opens in the left pane.
 
     ![Diagnostics tools Caller/Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
 
@@ -221,7 +220,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See also  
+## See also
 
- [Profiling in Visual Studio](../profiling/index.md)  
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

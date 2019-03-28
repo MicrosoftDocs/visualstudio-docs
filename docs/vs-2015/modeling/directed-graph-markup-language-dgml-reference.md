@@ -1,17 +1,14 @@
 ---
 title: "Directed Graph Markup Language (DGML) reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 ms.assetid: cc3e4ae7-60fa-4e22-9227-98020b480b73
 caps.latest.revision: 10
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Directed Graph Markup Language (DGML) reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -323,6 +320,3 @@ Directed Graph Markup Language (DGML) describes information used for visualizati
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
-
-
-

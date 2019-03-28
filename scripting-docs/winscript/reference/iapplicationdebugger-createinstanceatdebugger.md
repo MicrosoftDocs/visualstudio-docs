@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::CreateInstanceAtDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,7 +26,7 @@ Allows the creation of objects in the debugger process by code that is out-of-pr
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateInstanceAtDebugger(  
    REFCLSID    rclsid,  
    IUnknown*   pUnkOuter,  

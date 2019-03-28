@@ -1,19 +1,14 @@
 ---
 title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 caps.latest.revision: 14
-author: "TerryGLee"
-ms.author: "tglee"
-manager: "ghogen"
+author: conceptdev
+ms.author: crdun
+manager: jillfra
 ---
 # Application Lifecycle Management (ALM) with Unity Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,6 +116,3 @@ Developing apps for modern platforms involves many more activities than just wri
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
 |Crash analytics, telemetry, and beta distribution|Yes|HockeyApp is primarily useful for handling beta distribution and obtaining crash reports.<br /><br /> For telemetry from C# scripts, it is possible to use any analytics framework provided that it runs on the version of .NET that is used by Unity. However, this allows for analytics only within game scripts and not more deeply inside the Unity engine. At present there is no plugin for Application Insights, but plugins are available for other analytics solutions such as [Unity Analytics](https://www.assetstore.unity3d.com/en/#!/content/28120) and [Google Analytics](https://github.com/googleanalytics/google-analytics-plugin-for-unity). Services like Unity Analytics that understand the nature of a Unity project will, of course, provide much more meaningful analysis than generic frameworks.|
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugProcesses2::Next | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugProcesses2::Next"
 helpviewer_keywords: 
   - "IEnumDebugProcesses2::Next"
 ms.assetid: abef89eb-198b-49cd-a4c9-17bce6cac0e1
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugProcesses2::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ int Next(
 ## See Also  
  [IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)   
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
-

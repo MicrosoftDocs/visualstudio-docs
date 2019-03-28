@@ -1,20 +1,15 @@
 ---
 title: "Drop-down Bar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - drop-down bar"
 ms.assetid: 4bb621bd-72f5-43d5-916f-9f66617da049
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Drop-down Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ Drop-down bar
 ## See Also  
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
  [Support for the Navigation Bar in a Legacy Language Service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)
-

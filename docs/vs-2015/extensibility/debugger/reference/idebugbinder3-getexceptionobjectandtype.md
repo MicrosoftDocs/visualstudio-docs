@@ -1,22 +1,17 @@
 ---
 title: "IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType"
 helpviewer_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType method"
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBinder3::GetExceptionObjectAndType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ int GetExceptionObjectAndType(
   
 ## See Also  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
-

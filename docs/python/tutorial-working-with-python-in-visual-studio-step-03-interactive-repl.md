@@ -1,14 +1,14 @@
 ---
-title: Working with Python Tutorial, Step 3, the interactive REPL
+title: Python in Visual Studio tutorial step 3, interactive REPL
+titleSuffix: ""
 description: Step 3 of a core walkthrough of Python capabilities in Visual Studio, covering the Python Interactive REPL window.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/28/2019
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -68,7 +68,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
     ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
 
 1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
- 
+
 1. When you're satisfied with code you're written in the **Interactive** window, select it, right-click and select **Copy Code** (**Ctrl**+**Shift**+**C**), and then paste into the editor. Notice how this special feature of Visual Studio automatically omits any output as well as the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
 
     ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)

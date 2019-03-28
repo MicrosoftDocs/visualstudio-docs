@@ -1,22 +1,17 @@
 ---
 title: "Support for Code Snippets in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "snippets, supporting in language services"
   - "code snippets, supporting in language services [managed package framework]"
   - "language services [managed package framework], supporting code snippets"
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Support for Code Snippets in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -395,4 +390,3 @@ namespace TestLanguagePackage
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)   
  [Code Snippets](../../ide/code-snippets.md)   
  [Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)
-

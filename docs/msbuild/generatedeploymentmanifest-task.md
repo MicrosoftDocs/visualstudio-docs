@@ -1,23 +1,21 @@
 ---
 title: "GenerateDeploymentManifest Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, GenerateDeploymentManifest task"
   - "GenerateDeploymentManifest task [MSBuild]"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # GenerateDeploymentManifest task
@@ -63,7 +61,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## See also
 
-[Tasks](../msbuild/msbuild-tasks.md)  
-[GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)  
-[SignFile task](../msbuild/signfile-task.md)  
-[Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)
+- [SignFile task](../msbuild/signfile-task.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

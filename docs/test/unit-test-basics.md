@@ -1,14 +1,12 @@
 ---
-title: "Unit Test Basics in Visual Studio"
-ms.date: 2016-01-07
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+title: "Unit Test Basics"
+ms.date: 01/07/2016
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +18,7 @@ Unit testing has the greatest effect on the quality of your code when it's an in
 
 You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](generate-unit-tests-for-your-code-with-intellitest.md).
 
-Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
 ## Get started
 
@@ -34,7 +32,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 ## The MyBank solution example
 
-In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
+In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
 
@@ -74,11 +72,11 @@ Now that we have some code, it's time for testing.
 
 ## Create unit test projects and test methods
 
-It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements.
+It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator).
 
 ### Generate unit test project and unit test stubs
 
-1. From the code editor window, right-click and choose **Create Unit Tests** from the context menu.
+1. From the code editor window, right-click and choose **Create Unit Tests** from the right-click menu.
 
     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
 
@@ -98,14 +96,26 @@ A unit test project usually mirrors the structure of a single code project. In t
 
 **To add a unit test project to a solution:**
 
-1. On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
+1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-2. On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+::: moniker range="vs-2017"
+
+2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
 3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
-   > [!WARNING]
+   > [!NOTE]
    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Use the project template search box to find a unit test project template for the test framework that you want to use.
+
+3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
+
+::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
@@ -213,7 +223,7 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 
-You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the context menu (Keyboard: **F12**) to display the source code for the selected test.
+You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -251,7 +261,7 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
-Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).
+Learn more details about [debugging unit tests](../debugger/debugger-feature-tour.md).
 
 **Q: If I'm using TDD, how do I generate code from my tests?**
 

@@ -1,11 +1,8 @@
 ---
 title: "How to: Add a New Item to a Workflow Project (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "sequential workflows, adding to workflow projects"
@@ -16,7 +13,7 @@ ms.assetid: 130cd83d-942d-437b-bbb5-8088ec0a6d79
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Add a New Item to a Workflow Project (Legacy)
 After you have created a workflow project using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] provided by [!INCLUDE[vs2010](../includes/vs2010-md.md)] that targets either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)], you can add [!INCLUDE[wf](../includes/wf-md.md)] items and other familiar [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] items to your project.  

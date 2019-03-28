@@ -1,22 +1,17 @@
 ---
 title: "Saving a Standard Document | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], saving standard documents"
   - "projects [Visual Studio SDK], saving standard documents"
   - "persistence, saving standard documents"
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Saving a Standard Document
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ Save, Save As, and Save All command handling for a standard editor
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)
-

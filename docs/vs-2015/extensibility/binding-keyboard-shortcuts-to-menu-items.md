@@ -1,14 +1,9 @@
 ---
 title: "Binding Keyboard Shortcuts to Menu Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "keyboard command"
   - "keyboards"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "menu items"
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Binding Keyboard Shortcuts to Menu Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,4 +103,3 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the .
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)
-

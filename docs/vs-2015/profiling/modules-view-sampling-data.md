@@ -1,22 +1,17 @@
 ---
 title: "Modules View - Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Modules view"
   - "sampling profiling method,Modules view"
 ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Modules View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ The Modules view of sampling data displays performance data that is grouped by t
  [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
  [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)
-
-
-

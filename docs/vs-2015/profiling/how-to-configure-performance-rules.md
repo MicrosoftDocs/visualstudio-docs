@@ -1,21 +1,16 @@
 ---
 title: "How to: Configure Performance Rules | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.ruleseditor"
 ms.assetid: a148b468-b849-4858-880a-808a6b47e596
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Configure Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ The performance warnings of th Visual Studio Profiling Tools indicate issues in 
     -   **Error** - halts profiling execution and displays rule as a error.  
   
     -   **Information** - displays rule as information only.
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "Using stubs to isolate parts of your application from each other for unit testing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 73519dd9-f3d5-49b6-a634-38881b459ea4
 caps.latest.revision: 19
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using stubs to isolate parts of your application from each other for unit testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,37 +26,7 @@ Stub types* are one of two technologies that the Microsoft Fakes framework provi
   
  **Requirements**  
   
--   Visual Studio Enterprise  
-  
-## In this topic  
-  
--   [How to use stubs](#how)  
-  
-    -   [Design for Dependency Injection](#Dependency)  
-  
-    -   [Generate Stubs](#GeneratingStubs)  
-  
-    -   [Write your Test with Stubs](#WriteTest)  
-  
-    -   [Verifying Parameter Values](#mocks)  
-  
--   [Stubs for different kinds of type members](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Stub_basics)  
-  
-    -   [Methods](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Methods)  
-  
-    -   [Properties](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Properties)  
-  
-    -   [Events](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Events)  
-  
-    -   [Generic methods](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Generic_methods)  
-  
-    -   [Stubs of virtual classes](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Partial_stubs)  
-  
--   [Debugging stubs](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Debugging_stubs)  
-  
--   [Stub limitations](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Stub_limitation)  
-  
--   [Changing the default behavior of stubs](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md#BKMK_Changing_the_default_behavior_of_stubs)  
+-   Visual Studio Enterprise
   
 ##  <a name="How"></a> How to use stubs  
   
@@ -505,6 +470,3 @@ StubBehaviors.Current =
   
 ## See Also  
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
-
-
-

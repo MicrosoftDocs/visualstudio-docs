@@ -2,7 +2,6 @@
 title: "PROFILER_HEAP_OBJECT_SCOPE_LIST Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ This structure is associated with function objects only. The scope list represen
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct _PROFILER_HEAP_OBJECT_SCOPE_LIST{    UINT count;    [size_is(count)] PROFILER_HEAP_OBJECT_ID scopes[];} PROFILER_HEAP_OBJECT_SCOPE_LIST;  
 ```  
   

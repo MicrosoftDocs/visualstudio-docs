@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_language method"
 ms.assetid: c759ad3c-1c21-4234-869b-86aa3a608a38
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_language
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ HRESULT get_language ( 
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
-
-
-

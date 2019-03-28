@@ -1,13 +1,11 @@
 ---
 title: "How to: Create a Basic 3D Model"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

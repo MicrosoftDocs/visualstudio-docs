@@ -1,20 +1,15 @@
 ---
 title: "Document Lock Holder Management | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - document locking"
 ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Document Lock Holder Management
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ The Running Document Table (RDT) maintains a count of open documents and any edi
 ## See Also  
  [Running Document Table](../extensibility/internals/running-document-table.md)   
  [Persistence and the Running Document Table](../extensibility/internals/persistence-and-the-running-document-table.md)
-

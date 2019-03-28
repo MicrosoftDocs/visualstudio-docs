@@ -1,19 +1,14 @@
 ---
 title: "What&#39;s New in MSBuild 12.0 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 ms.assetid: 9976a6ad-c052-4017-b848-35b5ae4a2f66
 caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # What&#39;s New in MSBuild 12.0
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,5 +37,3 @@ MSBuild is now installed as part of Visual Studio rather than as part of the .NE
 
 ## See Also
 [MSBuild](msbuild.md)
-
-

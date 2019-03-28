@@ -1,12 +1,9 @@
 ---
 title: "Save data with the TableAdapter DBDirect methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +18,7 @@ ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Save data with the TableAdapter DBDirect methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +41,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database.
   
 ## Create a Windows application  
  The first step is to create a **Windows Application**.  
@@ -60,7 +57,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create a data source from your database  
- This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+ This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection.
   
 #### To create the data source  
   
@@ -95,7 +92,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 -   Drag the main **Region** node from the **Data Sources** window onto the form.  
   
-     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [RegionTableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), RegionTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 #### To add buttons that will call the individual TableAdapter DbDirect methods  
   
@@ -153,8 +150,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 -   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
   
--   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+-   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. 
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
-

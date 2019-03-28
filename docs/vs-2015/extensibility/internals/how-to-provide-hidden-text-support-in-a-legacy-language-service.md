@@ -1,22 +1,17 @@
 ---
 title: "How to: Provide Hidden Text Support in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "hidden text, supporting"
   - "editors [Visual Studio SDK], hidden text"
   - "language services, implementing hidden text regions"
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Provide Hidden Text Support in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,4 +43,3 @@ You can create hidden text regions in addition to outline regions. Hidden text r
         >  When concealed regions are hidden, the editor automatically displays lines around the hidden regions to indicate their presence.  
   
     2.  Specify whether the region is client-controlled or editor-controlled in the `dwBehavior` members of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure. Your smart outlining implementation can contain a mix of editor- and client-controlled outline and hidden text regions.
-

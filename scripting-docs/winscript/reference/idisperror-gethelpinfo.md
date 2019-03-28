@@ -2,7 +2,6 @@
 title: "IDispError::GetHelpInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the path of the Help file and the context ID of the topic that explains 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetHelpInfo(  
    BSTR*  pbstrFileName,  
    DWORD*  pdwContext  

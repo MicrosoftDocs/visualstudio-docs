@@ -1,8 +1,6 @@
 ---
 title: Options Page, Text Editor Node Properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Tools Options settings, Text Editor node properties"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

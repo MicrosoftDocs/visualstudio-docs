@@ -1,12 +1,9 @@
 ---
 title: "Create UML modeling projects and diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.addnewdiagramdialog"
   - "vs.teamarch.createnewmodelingprojectdialog"
@@ -25,9 +22,9 @@ helpviewer_keywords:
   - "projects, modeling"
 ms.assetid: c178b04b-4fd2-4bed-97e3-d793dae8649c
 caps.latest.revision: 50
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create UML modeling projects and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -155,6 +152,3 @@ UML models help you understand, discuss, and design software systems. Visual Stu
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Text Editor Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
   - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Miscellaneous"
@@ -25,7 +20,7 @@ ms.assetid: 90d4e522-6391-4571-927d-b466a9766342
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Text Editor Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -91,6 +86,3 @@ The editor options in the **Options** dialog box provide ways to customize the a
 ## Related Sections  
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)  
  Describes different ways to use the Code Editor.
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "Implementing Single-File Generators | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "custom tools, implementing"
   - "projects [Visual Studio SDK], extensibility"
   - "projects [Visual Studio SDK], managed custom tools"
 ms.assetid: fe9ef6b6-4690-4c2c-872c-301c980d17fe
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Implementing Single-File Generators
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ A custom tool — sometimes referred to as a single file generator — can be us
 ## See Also  
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   
  [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)
-

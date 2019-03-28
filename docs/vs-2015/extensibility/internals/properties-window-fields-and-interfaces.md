@@ -1,20 +1,15 @@
 ---
 title: "Properties Window Fields and Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Properties window, fields and interfaces"
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Properties Window Fields and Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ The model for selection to determine what information is displayed in the **Prop
   
 3. Calling <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> and passing it the selected hierarchy items in the `VSHPROPID_BrowseObject` parameter populates the <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> object.  
   
-4. An object derived from the [IDispatch Interface](http://msdn.microsoft.com/en-us/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) is returned for <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> for the item requested, and the environment wraps it into an <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> (see the following step). If the call fails, the environment makes a second call to `IVsHierarchy::GetProperty`, passing it the selection container <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> that the hierarchy item or items supply.  
+4. An object derived from the [IDispatch Interface](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) is returned for <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> for the item requested, and the environment wraps it into an <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> (see the following step). If the call fails, the environment makes a second call to `IVsHierarchy::GetProperty`, passing it the selection container <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> that the hierarchy item or items supply.  
   
     Your project VSPackage does not create <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> because the environment-supplied window VSPackage that implements it (for example, **Solution Explorer**) constructs <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> on its behalf.  
   
@@ -46,4 +41,3 @@ The model for selection to determine what information is displayed in the **Prop
   
 ## See Also  
  [Extending Properties](../../extensibility/internals/extending-properties.md)
-

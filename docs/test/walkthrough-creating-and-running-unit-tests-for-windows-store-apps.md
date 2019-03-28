@@ -1,8 +1,6 @@
 ---
-title: "Creating and Running Unit Tests for UWP apps in Visual Studio"
+title: "Creating and Running Unit Tests for UWP apps"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, creating"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "unit tests, UWP apps"
   - "unit tests, running"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: gewarren
@@ -102,5 +100,5 @@ In the **Code Editor**, edit the unit test and add the asserts and logic require
 
 ## See also
 
-- [Test UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
+- [Test UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Build and test a UWP app](/azure/devops/pipelines/apps/windows/universal?tabs=vsts)

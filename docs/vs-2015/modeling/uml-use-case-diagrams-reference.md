@@ -1,12 +1,9 @@
 ---
 title: "UML Use Case Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.usecasediagram.toolbox"
   - "vs.teamarch.usecasediagram.diagram"
@@ -19,9 +16,9 @@ helpviewer_keywords:
   - "UML diagrams, use case"
 ms.assetid: aa15772b-eb67-4366-b145-b559112817df
 caps.latest.revision: 35
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Use Case Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,6 +65,3 @@ In Visual Studio, a *use case diagram* summarizes who uses your application or s
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
-
-
-

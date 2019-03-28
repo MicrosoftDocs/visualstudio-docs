@@ -1,14 +1,9 @@
 ---
 title: "Writing Multi-Processor-Aware Loggers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, multi-proc aware loggers"
   - "multi-proc loggers"
@@ -17,7 +12,7 @@ ms.assetid: ff987d1b-1798-4803-9ef6-cc8fcc263516
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Writing Multi-Processor-Aware Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,6 +111,3 @@ msbuild.exe myproj.proj /distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
   
 ## See Also  
  [Creating Forwarding Loggers](../msbuild/creating-forwarding-loggers.md)
-
-
-

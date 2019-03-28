@@ -1,14 +1,9 @@
 ---
 title: "VSIX Manifest Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.Sdk.VsixManifestEditor"
 helpviewer_keywords: 
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "manifest designer"
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSIX Manifest Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -152,4 +147,3 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
 ## See Also  
  [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
-

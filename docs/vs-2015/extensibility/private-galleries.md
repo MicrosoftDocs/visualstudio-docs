@@ -1,21 +1,16 @@
 ---
 title: "Private Galleries | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSIX galleries, private"
   - "private galleries, VSIX"
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Private Galleries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,4 +88,3 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 ## See Also  
  [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)   
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
-

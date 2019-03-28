@@ -1,28 +1,23 @@
 ---
 title: "Windows Installer Basics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Windows Installer, VSPackages"
   - "VSPackages, Windows Installer basics"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Windows Installer Basics
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.  
   
- For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](http://msdn.microsoft.com/library/aa372866.aspx).  
+ For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).  
   
 ## Authoring a VSPackage  
  Windows Installer uses installation packages, which contain information that Windows Installer needs to install, uninstall, or repair a product and to run the setup user interface (UI). Each installation package includes an .msi file, which contains an installation database, a summary information stream, and data streams for various parts of the installation. To use the installer, you must author an installation. Because the installer organizes installations around the concept of components and stores information about the installation in a relational database, the process of authoring an installation package broadly entails the following steps:  
@@ -74,4 +69,3 @@ The Windows Installer installs and uninstalls applications or software products 
   
 ## See Also  
  [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)
-

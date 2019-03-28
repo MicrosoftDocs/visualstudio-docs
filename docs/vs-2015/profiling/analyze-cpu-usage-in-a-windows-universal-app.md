@@ -1,14 +1,9 @@
 ---
 title: "Analyze CPU Usage in a Windows Universal App | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: c122b08e-e3bf-43e6-bd6c-e776e178fd9a
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Analyze CPU Usage in a Windows Universal App
@@ -315,6 +310,3 @@ namespace CpuUseDemo
 }  
   
 ```
-
-
-

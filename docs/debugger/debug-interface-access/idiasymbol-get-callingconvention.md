@@ -1,48 +1,47 @@
 ---
 title: "IDiaSymbol::get_callingConvention | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDiaSymbol::get_callingConvention method"
 ms.assetid: 355d3877-b6b6-45fd-a1d8-baed428d8f96
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_callingConvention
-Returns an indicator of a methods calling convention.  
-  
-## Syntax  
-  
-```C++  
-HRESULT get_callingConvention (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### Parameters  
- `pRetVal`  
- [out] Returns a value from the [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md) enumeration that specifies a method's calling convention.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
-  
+Returns an indicator of a methods calling convention.
+
+## Syntax
+
+```C++
+HRESULT get_callingConvention ( 
+   DWORD* pRetVal
+);
+```
+
+#### Parameters
+ `pRetVal`
+
+[out] Returns a value from the [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md) enumeration that specifies a method's calling convention.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
-  
-## Requirements  
-  
-|Requirement|Description|  
-|-----------------|-----------------|  
-|Header:|dia2.h|  
-|Version:|DIA SDK v7.0|  
-  
-## See Also  
- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
+>  A return value of `S_FALSE` means the property is not available for the symbol.
+
+## Requirements
+
+|Requirement|Description|
+|-----------------|-----------------|
+|Header:|dia2.h|
+|Version:|DIA SDK v7.0|
+
+## See Also
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)

@@ -1,14 +1,9 @@
 ---
 title: "How to: Split a Class into Partial Classes (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Class Designer, partial classes"
   - "partial classes, Class Designer"
@@ -16,7 +11,7 @@ ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Split a Class into Partial Classes (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ public partial class Employee
  [partial (Type)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)   
  [partial (Method) (C# Reference)](http://msdn.microsoft.com/library/43f40242-17e0-4452-8573-090503ad3137)   
  [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)
-
-
-

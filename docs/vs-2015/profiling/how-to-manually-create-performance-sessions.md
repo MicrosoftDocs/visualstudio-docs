@@ -1,14 +1,9 @@
 ---
 title: "How to: Manually Create Performance Sessions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.dllpage"
   - "vs.performance.wizard.exepage"
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "performance tools, creating performance sessions"
 ms.assetid: ee2b3e0c-0990-46d9-8de6-c29fa386b15b
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Manually Create Performance Sessions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ You can manually create a performance session. You are not required to open a pr
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)
-
-
-

@@ -279,7 +279,7 @@ Namespace Microsoft.Samples.RectExamples
 
         ' <SnippetCreateRectExample3_visualbasic>
 		Private Function createRectExample3() As Rect
-			' This constructor intializes a new instance of the Rect structure that is 
+			' This constructor initializes a new instance of the Rect structure that is 
 			' exactly large enough to contain the two specified points.  
 			Dim myRectangle As New Rect(New Point(15, 30), New Point(50,70))
 
@@ -303,7 +303,7 @@ Namespace Microsoft.Samples.RectExamples
 
         ' <SnippetCreateRectExample5_visualbasic>
 		Private Function createRectExample5() As Rect
-			' This constructor Intializes a new instance of the Rect structure that is exactly 
+			' This constructor Initializes a new instance of the Rect structure that is exactly 
 			' large enough to contain the specified point and the sum of the specified point 
 			' and the specified vector.   
 			Dim myRectangle As New Rect(New Point(15, 30), New Vector(35, 40))
@@ -316,7 +316,7 @@ Namespace Microsoft.Samples.RectExamples
 
         ' <SnippetCreateRectExample6_visualbasic>
 		Private Function createRectExample6() As Rect
-			' This constructor intializes a new instance of the Rect structure with the specified 
+			' This constructor initializes a new instance of the Rect structure with the specified 
 			' x- and y-coordinates and the specified width and height. 
 			Dim myRectangle As New Rect(15, 30, 35, 40)
 

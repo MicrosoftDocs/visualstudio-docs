@@ -1,15 +1,13 @@
 ---
-title: Use the Code Analysis Rule Set Editor in Visual Studio
-ms.date: 04/-4/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Use the Code Analysis Rule Set Editor
+ms.date: 04/04/2018
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.ruleseteditor"
 ms.assetid: 370c97bf-bb29-4b2f-b9ae-ba125bce7b2d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

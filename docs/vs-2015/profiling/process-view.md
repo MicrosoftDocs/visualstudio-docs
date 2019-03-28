@@ -1,14 +1,9 @@
 ---
 title: "Process View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.process"
 helpviewer_keywords: 
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "Profiling Tools,process report"
 ms.assetid: 6d4e2a5d-9f17-4ece-a6f1-75836e1fc382
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Process View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ The Process view displays profiling data for the processes and threads that were
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)   
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)   
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
-
-
-

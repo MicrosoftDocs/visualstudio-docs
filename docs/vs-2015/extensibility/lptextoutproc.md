@@ -1,14 +1,9 @@
 ---
 title: "LPTEXTOUTPROC | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "LPTEXTOUTPROC"
 helpviewer_keywords: 
@@ -19,8 +14,8 @@ helpviewer_keywords:
   - "SccMsgDataOnAfterGetFile structure"
 ms.assetid: 2025c969-e3c7-4cf4-a5c5-099d342895ea
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # LPTEXTOUTPROC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -141,4 +136,3 @@ LONG SendStatusMessage(
 ## See Also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
-

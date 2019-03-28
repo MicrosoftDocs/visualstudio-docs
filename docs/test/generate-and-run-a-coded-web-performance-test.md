@@ -1,5 +1,5 @@
 ---
-title: "Coded web performance tests in Visual Studio"
+title: "Coded web performance tests"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,17 +13,17 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Generate and run a coded web performance test
 
 Web performance tests are recorded by browsing through your web app. The tests are included in load tests to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code. For example, you can add looping and branching constructs.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## Generate a coded web performance test
 
-1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project?view=vsts).
+1.  If you have not created a web performance test, see [Record a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project).
 
 2.  Generate the coded test.
 
@@ -51,7 +51,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
     }
     else
     {
-        WebTestRequest customRequest = new WebTestRequest("http://msdn.microsoft.com/");
+        WebTestRequest customRequest = new WebTestRequest("https://msdn.microsoft.com/");
         yield return customRequest;
     }
     ```
@@ -61,7 +61,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
         Dim customRequest As WebTestRequest = New WebTestRequest("http://weather.msn.com/")
         MyBase.Send(customRequest)
     Else
-        Dim customRequest As WebTestRequest = New WebTestRequest("http://msdn.microsoft.com/")
+        Dim customRequest As WebTestRequest = New WebTestRequest("https://msdn.microsoft.com/")
         MyBase.Send(customRequest)
     End If
     ```
@@ -79,7 +79,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
 ## Q&A
 
 ### Q: Can I run more than one test at a time?
- **A:** Yes, use the context menu in **Solution Explorer**.
+ **A:** Yes, use the right-click (context) menu in **Solution Explorer**.
 
 ### Q: Should I add a data source before or after I generate a coded test?
  **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.

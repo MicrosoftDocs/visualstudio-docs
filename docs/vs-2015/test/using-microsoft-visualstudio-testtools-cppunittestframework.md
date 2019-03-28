@@ -1,18 +1,13 @@
 ---
 title: "Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: d1ac9188-d79f-407e-9f3a-80dbefa66317
 caps.latest.revision: 10
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -651,8 +646,5 @@ public:
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
+ [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
  [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-
-
-

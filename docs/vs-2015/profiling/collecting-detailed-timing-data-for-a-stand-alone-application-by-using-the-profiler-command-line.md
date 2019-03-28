@@ -1,22 +1,17 @@
 ---
 title: "Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools,instrumentation method"
   - "instrumentation profiling method"
 ms.assetid: 4017d9d1-d609-4f41-8e4e-976abae746b3
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profiling ASP.NET applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md)|  
+|**Profiling ASP.NET applications**|-   [Collecting Detailed Timing Data Using Instrumentation](/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method?view=vs-2015)|  
 |**Profiling services**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md)|  
   
 ### Analyzing Instrumentation Data Views and Reports  
@@ -53,6 +48,3 @@ This section describes the procedures and options for collecting detailed perfor
   
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)
-
-
-

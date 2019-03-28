@@ -1,14 +1,9 @@
 ---
 title: "Unable to Attach to the Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.remote.unable2attach"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 0468de6c-3ff1-4979-a8c6-8afb53f37547
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Unable to Attach to the Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ Unable to attach to the process. Debugger component on server received access de
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
-
-
-

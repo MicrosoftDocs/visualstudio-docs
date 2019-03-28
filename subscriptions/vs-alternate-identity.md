@@ -6,8 +6,6 @@ manager: evelynp
 ms.date: 04/10/2018
 ms.topic: conceptual
 description:  How to add an alternate identity for your Visual Studio subscription, to use for Azure DevOps and Azure
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: vs subscription
 ---
 # Identities for Visual Studio subscribers

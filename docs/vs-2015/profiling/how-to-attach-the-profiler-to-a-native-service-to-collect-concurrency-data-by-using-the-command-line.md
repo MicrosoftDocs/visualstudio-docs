@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to a Native Service to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 283a1ee1-b43e-4daf-95ae-1311925a42a8
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Attach the Profiler to a Native Service to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,6 +81,3 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 2.  Shut down the profiler by typing the following command at a command prompt:  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
-
-
-

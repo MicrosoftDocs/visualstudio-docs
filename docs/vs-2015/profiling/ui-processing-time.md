@@ -1,23 +1,18 @@
 ---
 title: "UI Processing Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.uiprocessing"
 helpviewer_keywords: 
   - "Concurrency Visualizer, UI Processing Time"
 ms.assetid: 0ddb05a3-8c6b-448b-8488-2751c1e5abcc
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # UI Processing Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,6 +25,3 @@ These segments in the timeline are associated with blocking times that are categ
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Syntax Coloring in Custom Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - syntax coloring"
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Syntax Coloring in Custom Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ Visual Studio Environment SDK editors, including the core editor, use language s
  [Implementing Syntax Coloring](../extensibility/internals/implementing-syntax-coloring.md)   
  [How to: Use Built-In Colorable Items](../extensibility/internals/how-to-use-built-in-colorable-items.md)   
  [Custom Colorable Items](../extensibility/internals/custom-colorable-items.md)
-

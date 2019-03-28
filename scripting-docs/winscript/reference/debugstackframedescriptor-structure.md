@@ -2,7 +2,6 @@
 title: "DebugStackFrameDescriptor Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Enumerates stack frames and merges output from several enumerators on the same t
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagDebugStackFrameDescriptor {  
    IDebugStackFrame *pdsf;  
    DWORD_PTR        dwMin;  

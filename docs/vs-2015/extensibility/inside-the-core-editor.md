@@ -1,20 +1,15 @@
 ---
 title: "Inside the Core Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - core editor"
 ms.assetid: 8265f31c-c45b-4858-882c-6d9f1e3b9083
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Inside the Core Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,4 +73,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor is a set of several
   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)  
  Provides step-by-step instructions about how to create a custom text marker and how to provide the marker type as a service.
-

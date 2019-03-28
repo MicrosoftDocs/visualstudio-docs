@@ -1,14 +1,9 @@
 ---
 title: "IDebugBoundBreakpoint2::SetCondition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBoundBreakpoint2::SetCondition"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::SetCondition method"
 ms.assetid: 5d366876-efed-43d0-8ea1-dfdb009cbfac
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBoundBreakpoint2::SetCondition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ int SetCondition( 
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)   
  [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)
-

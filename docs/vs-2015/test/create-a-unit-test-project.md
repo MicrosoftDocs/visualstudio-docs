@@ -1,18 +1,13 @@
 ---
 title: "Create a unit test project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 10
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create a unit test project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   **Running unit tests**  
   
   [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-
-
-

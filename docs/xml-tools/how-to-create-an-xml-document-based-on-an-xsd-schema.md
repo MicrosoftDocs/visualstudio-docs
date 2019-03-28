@@ -1,13 +1,11 @@
 ---
 title: "How to: Create an XML Document Based on an XSD Schema"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 193b195f-e918-4c79-a1a1-8096a1433bde
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -41,7 +39,7 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
 
 2.  In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
 
-     When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML Editor:
+     When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML editor:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -69,7 +67,3 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
       </BillTo>
     </PurchaseOrder>
     ```
-
-## See also
-
-- [Working with XML data](../xml-tools/working-with-xml-data.md)

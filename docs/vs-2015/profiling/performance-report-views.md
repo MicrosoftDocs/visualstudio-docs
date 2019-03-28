@@ -1,23 +1,18 @@
 ---
 title: "Performance Report Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "reports, profiling tools"
   - "profiling tools reports"
   - "profiling tools, report views"
 ms.assetid: 3e84e513-dc64-40bb-b385-03281f28b519
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ This section provides reference information for the reports and views of [!INCLU
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
-
-
-

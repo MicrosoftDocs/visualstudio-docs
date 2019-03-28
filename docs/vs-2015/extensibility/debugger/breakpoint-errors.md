@@ -1,22 +1,17 @@
 ---
 title: "Breakpoint Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "breakpoints, errors"
   - "debugging [Debugging SDK], breakpoint errors"
   - "errors [Debugging SDK]"
 ms.assetid: 79221c6b-a924-4c8e-a778-e312e4e0c0c8
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Breakpoint Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ The following describes the process when a breakpoint attempts to bind to code b
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
-

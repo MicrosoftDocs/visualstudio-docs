@@ -1,14 +1,9 @@
 ---
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Choosing a ClickOnce Update Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,6 +120,3 @@ manager: "wpickett"
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [How ClickOnce Performs Application Updates](../deployment/how-clickonce-performs-application-updates.md)   
  [How to: Manage Updates for a ClickOnce Application](../deployment/how-to-manage-updates-for-a-clickonce-application.md)
-
-
-

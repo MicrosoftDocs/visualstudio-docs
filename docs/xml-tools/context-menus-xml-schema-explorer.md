@@ -1,19 +1,17 @@
 ---
 title: "Context Menus in XML Schema Explorer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Context menus (XML Schema Explorer)
 
-The following context menu items are used to perform schema-specific searches and other operations.
+A context menu is the menu that appears when you right-click on something. The following context menu items are used to perform schema-specific searches and other operations.
 
 ## Node type: Schema set
 
@@ -46,7 +44,7 @@ The following table describes the options that are available for a schema set no
 |**Show All Outbound References**|Finds and highlights the following:<br /><br /> -   All namespaces specified in the namespace attributes of all import statements that do not have the `schemaLocation` attribute.<br />-   All files specified in the `schemaLocation` attributes of all import and include statements.|
 |**Show Global Types**|Finds and highlights all global types in this file.|
 |**Show Global Elements**|Finds and highlights all global elements in this file.|
-|**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|
+|**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the XML Schema Explorer will also be selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## All global node types
@@ -56,7 +54,7 @@ The following table describes the options that are available for a schema set no
 |-|-----------------|
 |**Show in Graph View**|Opens the Graph View. If the selected node is not in the workspace, adds it to the workspace and selects the node.|
 |**Show in Content Model View**|Opens the Content Model View. If the selected node is not in the workspace, adds it to the workspace and selects the node.|
-|**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|
+|**View Code**|Opens the file that contains the selected node in the XML editor. The item that is selected in the XML Schema Explorer will also be selected in the XML editor.|
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|
 
 ## Node type: Element

@@ -1,24 +1,25 @@
 ---
 title: Get started with unit testing
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Get started with unit testing
 
-Use Visual Studio to define and run your unit tests to maintain code health, ensure code coverage, and to find errors and faults before your customers do.
+Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
 ## Create unit tests
 
-Create unit tests and run them frequently to make sure your code is working properly.
+This section describes at a high level how to create a unit test project.
+
+> [!TIP]
+> The project under test, "HelloWorld", is an example project and no code for it is intended to be shown. If you want to create a "HelloWorld" project to test, see [Create your first C# console app](../ide/quickstart-csharp-console.md). For a complete walkthrough article, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 1. Create a unit test project.
 
@@ -67,7 +68,7 @@ You can also create unit test method stubs with the **Create Unit Tests** [comma
 If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or later, you can see live results of your unit tests.
 
 > [!NOTE]
-> Live unit testing is available in Visual Studio 2017 Enterprise Edition only.
+> Live unit testing is available in Visual Studio Enterprise edition only.
 
 1. Turn on live unit testing from the **Test** menu.
 
@@ -105,26 +106,40 @@ You can run unit tests in Visual Studio by using third-party test frameworks suc
 
 Following are the steps to enable third-party test frameworks:
 
+::: moniker range="vs-2017"
+
 1. Choose **Tools** > **Extensions and Updates** from the menu bar.
 
-1. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
+2. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
 
    ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
 
-1. Select the framework or adapter you want to install, and then choose **Download**.
+::: moniker-end
 
-1. Create a class library project and add it to your solution.
+::: moniker range=">=vs-2019"
+
+1. Choose **Extensions** > **Manage Extensions** from the menu bar.
+
+2. In the **Manage Extensions** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
+
+   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
+
+::: moniker-end
+
+3. Select the framework or adapter you want to install, and then choose **Download**.
+
+4. Create a class library project and add it to your solution.
 
    ![Name the class library project and add it](media/create3rdpartyunittest3.png)
 
-1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
+5. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
 
    ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png)
 
    [NuGet](https://www.nuget.org/) is an extension of Visual Studio
    that you can use to add and update libraries and tools for your projects.
 
-1. In the **NuGet Package Manager** window, search for and select the plug-in, and then choose **Install**.
+6. In the **NuGet Package Manager** window, search for and select the plug-in, and then choose **Install**.
 
    ![Install your 3rd-party framework](media/create3rdpartyunittest4.png)
 
@@ -132,20 +147,21 @@ Following are the steps to enable third-party test frameworks:
 
    ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png)
 
-1. From the class library project's **References** node, select **Add Reference**.
+7. From the class library project's **References** node, select **Add Reference**.
 
    ![Add a reference to the project](media/createunittest6.png)
 
-1. In the **Reference Manager** dialog box, select the project that contains the code you'll test.
+8. In the **Reference Manager** dialog box, select the project that contains the code you'll test.
 
    ![Select the code project for you to test](media/createunittest7.png)
 
-1. Code your unit test.
+9. Code your unit test.
 
-   ![Add code to your unit test](media/create3rdpartyunittest7.png)
+   ![Add code to your unit test code file](media/create3rdpartyunittest7.png)
 
 ## See also
 
+* [Walkthrough: Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 * [Create Unit Tests command](create-unit-tests-menu.md)
 * [Generate tests with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [Run tests with Test Explorer](run-unit-tests-with-test-explorer.md)

@@ -1,8 +1,6 @@
 ---
 title: "CA1002: Do not expose generic lists"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotExposeGenericLists"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

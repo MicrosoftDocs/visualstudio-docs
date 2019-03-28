@@ -1,17 +1,14 @@
 ---
 title: "Getting Started with Domain-Specific Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 024392a2-2c04-404f-a27b-7273553c3b60
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Getting Started with Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +37,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 |-|-|  
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
-|Modeling SDK for Visual Studio|[Download MSDK](http://www.microsoft.com/download/details.aspx?id=40754)|  
+|Modeling SDK for Visual Studio|[Download MSDK](https://www.microsoft.com/download/details.aspx?id=48148)|  
   
 ## Creating a DSL Solution  
  To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution by using the Domain-Specific Language project template.  
@@ -101,7 +98,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 1. Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
    > [!NOTE]
-   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2. Press F5, or on the **Debug** menu, click **Start Debugging**.  
   
@@ -399,6 +396,3 @@ This topic explains the basic concepts in defining and using a domain-specific l
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
-
-
-

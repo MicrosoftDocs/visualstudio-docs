@@ -1,19 +1,14 @@
 ---
 title: "Locate Information | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: ea9770eb-bf41-4a52-a673-07beaa663df3
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Locate Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,8 +26,3 @@ The Help Viewer provides several different ways for you to locate information in
  [Full-Text Search Tips](../ide/full-text-search-tips.md)  
   
  [How to: Find Topics in the Table of Contents](../ide/how-to-find-topics-in-the-table-of-contents.md)
-
-
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "How to: Host An Editor in Another Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - host a nested editor"
 ms.assetid: 2b0eb705-fe94-4ca8-93e0-9dbd8ce61a44
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Host An Editor in Another Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ In Visual Studio you can host one editor inside another by specifying the hostin
   
 ## Robust Programming  
  The **Application Designer** in the Visual Studio Team Edition for Architects is an example of an editor window frame hosting another editor. The **Application Designer** hosts other designers in its right-hand pane. A designer panel (or **Properties** page) for each of the contained designers is added to the containing window frame.
-

@@ -1,8 +1,6 @@
 ---
 title: Annotating Function Behavior
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "_On_failure_"
@@ -49,12 +47,13 @@ In addition to annotating [function parameters and return values](../code-qualit
 |`_Return_type_success_(expr)`|May be applied to a typedef. Indicates that all functions that return that type and do not explicitly have `_Success_` are annotated as if they had `_Success_(expr)`. `_Return_type_success_` cannot be used on a function or a function pointer typedef.|
 |`_Success_(expr)`|`expr` is an expression that yields an rvalue. When the `_Success_` annotation is present on a function declaration or definition, each annotation (`anno`) on the function and in post-condition behaves as if it were coded as `_When_(expr, anno)`. The `_Success_` annotation may be used only on a function, not on its parameters or return type. There can be at most one `_Success_` annotation on a function, and it cannot be in any `_When_`, `_At_`, or `_Group_`. For more information, see [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md).|
 
-## See Also
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
- [Understanding SAL](../code-quality/understanding-sal.md)
- [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
- [Intrinsic Functions](../code-quality/intrinsic-functions.md)
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+## See also
+
+- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+- [Understanding SAL](../code-quality/understanding-sal.md)
+- [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
+- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
+- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
+- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
+- [Intrinsic Functions](../code-quality/intrinsic-functions.md)
+- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

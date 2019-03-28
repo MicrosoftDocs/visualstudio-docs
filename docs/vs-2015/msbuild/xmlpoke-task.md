@@ -1,14 +1,9 @@
 ---
 title: "XmlPoke Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # XmlPoke Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ Sets values as specified by an XPath query into an XML file.
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

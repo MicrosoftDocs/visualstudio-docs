@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramHost2::GetHostId | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramHost2::GetHostId"
 helpviewer_keywords: 
   - "IDebugProgramHost2::GetHostId"
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramHost2::GetHostId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ int GetHostId( 
 ## See Also  
  [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)   
  [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
-

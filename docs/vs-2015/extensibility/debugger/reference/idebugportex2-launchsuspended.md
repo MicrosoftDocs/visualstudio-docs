@@ -1,22 +1,17 @@
 ---
 title: "IDebugPortEx2::LaunchSuspended | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortEx2::LaunchSuspended"
 helpviewer_keywords: 
   - "IDebugPortEx2::LaunchSuspended"
 ms.assetid: 34b2cf99-2e52-4757-8969-1d12ac517ec0
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPortEx2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -89,4 +84,3 @@ int LaunchSuspended( 
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
  [ResumeProcess](../../../extensibility/debugger/reference/idebugportex2-resumeprocess.md)   
  [Launching a Program](../../../extensibility/debugger/launching-a-program.md)
-

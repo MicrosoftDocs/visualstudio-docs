@@ -1,19 +1,14 @@
 ---
 title: "How to: Register a Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, registering"
 ms.assetid: d086be78-ec3c-43cc-b799-5180a71e19f1
 caps.latest.revision: 16
-manager: "douge"
+manager: jillfra
 ---
 # How to: Register a Service
 The managed package framework (MPF) provides attributes to control the registration of managed services. The RegPkg utility uses these attributes to register a service with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
@@ -40,5 +35,5 @@ The managed package framework (MPF) provides attributes to control the registrat
 >  Although you could use the same type or GUID for both the service and the interface, we recommend that you separate the two because a service can expose different interfaces.  
   
 ## See Also  
- [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Registering VSPackages](../extensibility/internals/registering-vspackages.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)

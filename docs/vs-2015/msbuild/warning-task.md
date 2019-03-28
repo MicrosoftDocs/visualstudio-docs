@@ -1,14 +1,9 @@
 ---
 title: "Warning Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Warning"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Warning Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,6 +63,3 @@ Logs a warning during a build based on an evaluated conditional statement.
 ## See Also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

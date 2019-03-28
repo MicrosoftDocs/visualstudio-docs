@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Create a code snippet"
 ms.date: 10/27/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, creating"
@@ -14,17 +12,19 @@ helpviewer_keywords:
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "VB"
 ms.workload:
   - "multiple"
 ---
 # Walkthrough: Create a code snippet
+
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can also add references and replacement parameters to your code. You can add the snippet to your Visual Studio installation by using the **Import** button on the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 
 ## Snippet template
- The following is the basic snippet template:
+
+The following is the basic snippet template:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -44,13 +44,13 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 ### Create a code snippet
 
-1.  Create a new XML file in Visual Studio and add the template shown above.
+1. Create a new XML file in Visual Studio and add the template shown above.
 
-2.  Fill in the title of the snippet, e.g. "Hello World VB", in the **Title** element.
+2. Fill in the title of the snippet, e.g. "Hello World VB", in the **Title** element.
 
-3.  Fill in the language of the snippet in the **Language** attribute of the **Code** element. For this example, use "VB".
+3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For this example, use "VB".
 
-4.  Add some code in the **CDATA** section inside the **Code** element, for example:
+4. Add some code in the **CDATA** section inside the **Code** element, for example:
 
     ```xml
     <Code Language="VB">
@@ -58,33 +58,53 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Code>
     ```
 
-5.  Save the snippet as *VBCodeSnippet.snippet*.
+5. Save the snippet as *VBCodeSnippet.snippet*.
 
 ### Add a code snippet to Visual Studio
 
-1.  You can add your own snippets to your Visual Studio installation by using the Code Snippets Manager. Open the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
+1. You can add your own snippets to your Visual Studio installation by using the Code Snippets Manager. Open the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 
-2.  Click the **Import** button.
+2. Click the **Import** button.
 
-3.  Go to the location where you saved the code snippet in the previous procedure, select it, and click **Open**.
+3. Go to the location where you saved the code snippet in the previous procedure, select it, and click **Open**.
 
-4.  The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it and click **Finish**, then **OK**.
+4. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it and click **Finish**, then **OK**.
 
-5.  The snippet is copied to the following location:
+5. The snippet is copied to the following location:
 
-     *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker range="vs-2017"
 
-6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets** > **Insert Snippet** from the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.
+   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
+
+   ::: moniker-end
+
+6. Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.
 
     `Console.WriteLine("Hello, World!")` is inserted in the code file.
 
 ### Add description and shortcut fields
 
-1.  Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet*.
+::: moniker range="vs-2017"
 
-2.  Add **Author** and **Description** elements to the **Header** element, and fill them in.
+1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet*.
 
-3.  The **Header** element should look something like this:
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet*.
+
+::: moniker-end
+
+2. Add **Author** and **Description** elements to the **Header** element, and fill them in.
+
+3. The **Header** element should look something like this:
 
     ```xml
     <Header>
@@ -94,9 +114,9 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Header>
     ```
 
-4.  Open the **Code Snippets Manager** and select your code snippet. In the right pane you should see that the **Description** and **Author** fields are now populated.
+4. Open the **Code Snippets Manager** and select your code snippet. In the right pane you should see that the **Description** and **Author** fields are now populated.
 
-5.  To add a shortcut, add a **Shortcut** element alongside the **Author** and **Description** element:
+5. To add a shortcut, add a **Shortcut** element alongside the **Author** and **Description** element:
 
     ```xml
     <Header>
@@ -107,19 +127,19 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Header>
     ```
 
-6.  Save the snippet file again.
+6. Save the snippet file again.
 
-7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice.
+7. To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice.
 
     The snippet code is inserted.
 
 ### Add references and imports
 
-1.  You can add a reference to a project by using the **References** element, and add an Imports declaration by using the **Imports** element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the *System.Windows.Forms.dll* assembly to the project.
+1. You can add a reference to a project by using the **References** element, and add an Imports declaration by using the **Imports** element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the *System.Windows.Forms.dll* assembly to the project.
 
-2.  Open your snippet.
+2. Open your snippet.
 
-3.  Add the **References** element under the **Snippet** element:
+3. Add the **References** element under the **Snippet** element:
 
     ```xml
     <References>
@@ -129,7 +149,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </References>
     ```
 
-4.  Add the **Imports** element under the **Snippet** element:
+4. Add the **Imports** element under the **Snippet** element:
 
     ```xml
     <Imports>
@@ -139,17 +159,17 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Imports>
     ```
 
-5.  Change the **CDATA** section to the following:
+5. Change the **CDATA** section to the following:
 
     ```xml
     <![CDATA[MessageBox.Show("Hello, World!")]]>
     ```
 
-6.  Save the snippet.
+6. Save the snippet.
 
-7.  Open a Visual Basic project and add the snippet.
+7. Open a Visual Basic project and add the snippet.
 
-8.  You will see an `Imports` statement at the top of the code file:
+8. You will see an `Imports` statement at the top of the code file:
 
     ```vb
     Imports System.Windows.Forms
@@ -159,11 +179,11 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 ### Add replacements
 
-1.  You may want parts of your code snippets to be replaced by the user, for example if you add a variable and want the user to replace the variable with one in the current project. You can provide two types of replacements: literals and objects. Literals are strings of some type (string literals, variable names, or string representations of numeric values). Objects are instances of some type other than a string. In this procedure you will declare a literal replacement and an object replacement, and change the code to reference these replacements.
+1. You may want parts of your code snippets to be replaced by the user, for example if you add a variable and want the user to replace the variable with one in the current project. You can provide two types of replacements: literals and objects. Literals are strings of some type (string literals, variable names, or string representations of numeric values). Objects are instances of some type other than a string. In this procedure you will declare a literal replacement and an object replacement, and change the code to reference these replacements.
 
-2.  Open your snippet.
+2. Open your snippet.
 
-3.  This example uses a SQL connection string, so you need to change the **Imports** and **References** elements to add the appropriate references:
+3. This example uses a SQL connection string, so you need to change the **Imports** and **References** elements to add the appropriate references:
 
     ```xml
     <References>
@@ -184,7 +204,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Imports>
     ```
 
-4.  To declare a literal replacement for the SQL connection string, add a **Declarations** element under the **Snippet** element, and in it add a **Literal** element with sub-elements for the ID, the tooltip, and the default value for the replacement:
+4. To declare a literal replacement for the SQL connection string, add a **Declarations** element under the **Snippet** element, and in it add a **Literal** element with sub-elements for the ID, the tooltip, and the default value for the replacement:
 
     ```xml
     <Declarations>
@@ -196,7 +216,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Declarations>
     ```
 
-5.  To declare an object replacement for the SQL connection, add an **Object** element inside the **Declarations** element, and add sub-elements for the ID, the type of the object, the tooltip, and the default value. The resulting **Declarations** element should look like this:
+5. To declare an object replacement for the SQL connection, add an **Object** element inside the **Declarations** element, and add sub-elements for the ID, the type of the object, the tooltip, and the default value. The resulting **Declarations** element should look like this:
 
     ```xml
     <Declarations>
@@ -214,7 +234,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Declarations>
     ```
 
-6.  In the code section, you reference the replacements with surrounding $ signs, for example `$replacement$`:
+6. In the code section, you reference the replacements with surrounding $ signs, for example `$replacement$`:
 
     ```xml
     <Code Language="VB" Kind="method body">
@@ -228,9 +248,9 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Code>
     ```
 
-7.  Save the snippet.
+7. Save the snippet.
 
-8.  Open a Visual Basic project and add the snippet.
+8. Open a Visual Basic project and add the snippet.
 
 9. The code should look like the following, where the replacements `SQL connection string` and `dcConnection` are highlighted in light orange. Choose **Tab** to navigate from one to the other.
 

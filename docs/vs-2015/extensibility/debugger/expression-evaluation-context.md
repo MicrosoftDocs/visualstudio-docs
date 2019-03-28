@@ -1,20 +1,15 @@
 ---
 title: "Expression Evaluation Context | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, context"
 ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Expression Evaluation Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, an **expression ev
 ## See Also  
  [Expression Evaluation Interfaces](../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

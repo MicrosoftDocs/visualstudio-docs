@@ -1,14 +1,9 @@
 ---
 title: "Using DebuggerTypeProxy Attribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "DebuggerTypeProxy attribute"
 ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using DebuggerTypeProxy Attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAtt
 ## See Also  
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
   [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
-
-
-

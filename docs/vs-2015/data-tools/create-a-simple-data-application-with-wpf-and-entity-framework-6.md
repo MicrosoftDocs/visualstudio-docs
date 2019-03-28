@@ -1,17 +1,14 @@
 ---
 title: "Create a simple data application with WPF and Entity Framework 6 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a simple data application with WPF and Entity Framework 6
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +21,7 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 ## Install and connect to Northwind  
  This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well if the ADO.NET data provider for that product supports Entity Framework.  
   
-1.  If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx).  
+1.  If you haven't already, install SQL Server 2014 LocalDB Express 32 bit from the [SQL Server Editions download page](https://www.microsoft.com/sql-server/sql-server-editions-express).  
   
 2.  Install the Northwind sample database by following the instructions here: [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   
@@ -703,4 +700,3 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/data/ee712907.aspx)
-

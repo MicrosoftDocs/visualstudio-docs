@@ -1,11 +1,8 @@
 ---
 title: "Map dependencies across your solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemap"
@@ -29,9 +26,9 @@ helpviewer_keywords:
   - "code exploration, visualizing"
 ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
 caps.latest.revision: 245
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Map dependencies across your solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -383,6 +380,3 @@ When you want to understand dependencies across your code, visualize them by cre
 -   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
 -   [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
-
-
-

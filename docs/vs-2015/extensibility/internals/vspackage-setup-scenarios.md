@@ -1,20 +1,15 @@
 ---
 title: "VSPackage Setup Scenarios | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, deployment considerations"
 ms.assetid: d2928498-f27c-46b4-a9cd-cba41fd85a10
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSPackage Setup Scenarios
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -78,4 +73,3 @@ Side-by-side VSPackage update installer
 ## See Also  
  [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
  [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)
-

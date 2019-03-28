@@ -1,17 +1,12 @@
 ---
 title: "Making Custom Projects Version-Aware | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
-manager: "douge"
+manager: jillfra
 ---
 # Making Custom Projects Version-Aware
 In your custom project system, you can allow projects of that type to load in multiple versions of Visual Studio. You can also prevent projects of that type from loading in an earlier version of Visual Studio. You can also enable that project to identify itself to a later version in case the project requires repair, conversion, or deprecation.  

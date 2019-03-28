@@ -1,14 +1,9 @@
 ---
 title: "How to: Use Wizards with Project Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project templates [Visual Studio], wizards"
   - "Visual Studio templates, wizards"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "IWizard interface"
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Use Wizards with Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -238,7 +233,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
      Again, don't forget the quotation marks. You should see a line in the output like this  
   
-     **Public key token is <token>**  
+     **Public key token is \<token>**  
   
      Make a note of this value.  
   

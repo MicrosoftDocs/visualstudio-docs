@@ -1,20 +1,15 @@
 ---
 title: "Changing View Settings by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - changing view settings"
 ms.assetid: 12c9b300-0894-4124-96a1-764326176d77
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Changing View Settings by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ Settings for core editor features, such as word wrap, selection margin, and virt
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)   
  [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md)
-

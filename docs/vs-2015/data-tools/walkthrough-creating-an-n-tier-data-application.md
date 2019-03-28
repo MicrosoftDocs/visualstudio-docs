@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Creating an N-Tier Data Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 caps.latest.revision: 51
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating an N-Tier Data Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,10 +53,10 @@ N-tier* data applications are applications that access data and are separated in
 ## Prerequisites  
  To complete this walkthrough, you need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database.
   
 ## Creating the N-Tier Solution and Class Library to Hold the Dataset (DataEntityTier)  
- The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) is used to create the initial dataset and automatically separate the code into the two class libraries.  
+ The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The Dataset Designer is used to create the initial dataset and automatically separate the code into the two class libraries.  
   
 > [!NOTE]
 >  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.  
@@ -100,7 +97,7 @@ N-tier* data applications are applications that access data and are separated in
  The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including DataTables classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and `TableAdapter`s into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the `TableAdapter`s (the DataAccessTier project). You will create the dataset by using the **Data Source Configuration Wizard**.  
   
 > [!NOTE]
->  You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+> You must have access to the Northwind sample database to create the connection.
   
 #### To create the dataset  
   
@@ -171,9 +168,9 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create a method in the data access tier that returns the Customers table  
   
-1.  In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md).  
+1.  In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset in the Dataset Designer.  
   
-2.  Right-click CustomersTableAdapter and click **Add Query** to open the [Editing TableAdapters](../data-tools/editing-tableadapters.md).  
+2.  Right-click CustomersTableAdapter and click **Add Query** to edit the Tableadapter.  
   
 3.  On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
   
@@ -387,4 +384,3 @@ N-tier* data applications are applications that access data and are separated in
  [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
-

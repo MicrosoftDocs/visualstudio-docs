@@ -1,19 +1,14 @@
 ---
 title: "Configuring Targets and Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Configuring Targets and Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,6 +28,3 @@ You can configure MSBuild targets and tasks to run out-of-process with MSBuild s
   
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

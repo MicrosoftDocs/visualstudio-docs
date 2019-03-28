@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to a .NET Service to Collect Application Statistics by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: a0046c47-26c8-4bec-96a0-81da05e5104a
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Attach the Profiler to a .NET Service to Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -133,6 +128,3 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
-
-
-

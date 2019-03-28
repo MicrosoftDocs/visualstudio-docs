@@ -1,19 +1,14 @@
 ---
 title: "How to: Execute an XSLT Transformation from the XML Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 56a0fe82-5231-487d-8b6e-a08a9b04e0fc
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Execute an XSLT Transformation from the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: "Rules Propagate Changes Within the Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, rules"
@@ -14,7 +11,7 @@ ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Rules Propagate Changes Within the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -215,6 +212,3 @@ namespace Company.TaskRuleExample
 ## See Also  
  [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)   
  [BoundsRules Constrain Shape Location and Size](../modeling/boundsrules-constrain-shape-location-and-size.md)
-
-
-

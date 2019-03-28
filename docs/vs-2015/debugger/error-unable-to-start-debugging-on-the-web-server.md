@@ -1,14 +1,9 @@
 ---
 title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -30,9 +25,9 @@ helpviewer_keywords:
   - "remote debugging, errors"
 ms.assetid: f62e378a-3a99-4f78-9d97-8bb63a4da181
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Unable to Start Debugging on the Web Server
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,6 +86,3 @@ If you are using an older version of Visual Studio:
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
-
-
-

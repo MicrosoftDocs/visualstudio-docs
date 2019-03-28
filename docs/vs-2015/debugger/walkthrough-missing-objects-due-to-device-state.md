@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 1b0d2bbd-0729-4aa5-8308-70c5bf1468c5
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Missing Objects Due to Device State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +102,3 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md
    After you determine that the cause of the rendering issue might be a misconfigured depth function, you can use this information together with your knowledge of the code to locate where the depth function was set incorrectly, and then fix the problem. If you are unfamiliar with the code, you could search for the problem by using clues that you gathered while you were debugging—for example, based on the **depth stencil description** in this scenario, you could search the code for words like "depth" or "GREATER". After you fix the code, rebuild it and run the app again to discover that the rendering issue is solved:  
   
    ![App after the problem is fixed](../debugger/media/vsg-walkthru1-finalview.png "vsg_walkthru1_finalview")
-
-
-

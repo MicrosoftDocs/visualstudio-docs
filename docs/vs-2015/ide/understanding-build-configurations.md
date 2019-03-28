@@ -1,14 +1,9 @@
 ---
 title: "Understanding Build Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "SolutionProperties.ActiveConfig"
   - "vs.build.newprojectconfiguration"
@@ -30,7 +25,7 @@ ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Understanding Build Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,6 +84,3 @@ You can store different configurations of solution and project properties to use
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
  [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)
-
-
-

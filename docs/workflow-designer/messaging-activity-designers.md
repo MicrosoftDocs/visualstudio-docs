@@ -2,12 +2,10 @@
 title: "Workflow Designer - Messaging Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "CA2121: Static constructors should be private | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2121"
   - "StaticConstructorsShouldBePrivate"
@@ -50,6 +45,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  Do not suppress these violations. If your software design requires an explicit call to a static constructor, it is likely that the design contains serious flaws and should be reviewed.
-
-
-

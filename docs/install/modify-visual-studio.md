@@ -1,10 +1,9 @@
 ---
-title: "Modify Visual Studio 2017 | Microsoft Docs"
+title: "Modify Visual Studio"
+titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: H1Hack27Feb2017
+ms.custom: "H1Hack27Feb2017,seodec18"
 ms.date: 06/12/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
@@ -14,11 +13,13 @@ helpviewer_keywords:
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Modify Visual Studio 2017 by adding or removing workloads and components
+# Modify Visual Studio by adding or removing workloads and components
 
 Not only have we made it easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
@@ -64,6 +65,6 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Update Visual Studio 2017](update-visual-studio.md)
-* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Update Visual Studio](update-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)

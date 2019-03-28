@@ -1,14 +1,9 @@
 ---
 title: "Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdetails.window"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +105,3 @@ You can use the keyboard in addition to the mouse to perform navigational action
   
 ## See Also  
  [Creating and Configuring Type Members (Class Designer)](../ide/creating-and-configuring-type-members-class-designer.md)
-
-
-

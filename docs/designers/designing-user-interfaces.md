@@ -1,13 +1,11 @@
 ---
 title: Designing User Interfaces
 ms.date: 07/17/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 880da508-7573-4434-b3a0-d48cf003c0a9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

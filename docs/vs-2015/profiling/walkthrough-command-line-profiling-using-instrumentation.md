@@ -1,23 +1,18 @@
 ---
 title: "Walkthrough: Command-Line Profiling Using Instrumentation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
   - "performance tools, command-line tools"
 ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Command-Line Profiling Using Instrumentation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +123,3 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../include
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Performance Report Views](../profiling/performance-report-views.md)
-
-
-

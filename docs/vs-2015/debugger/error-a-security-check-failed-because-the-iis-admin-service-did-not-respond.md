@@ -1,14 +1,9 @@
 ---
 title: "Error: A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.iis_not_responding"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 ms.assetid: 6060e94e-71dc-49f2-bb59-2584216eadbf
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: A Security Check Failed Because the IIS Admin Service Did Not Respond
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ This error occurs when the IIS Admin Service does not respond. This usually indi
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
-
-
-

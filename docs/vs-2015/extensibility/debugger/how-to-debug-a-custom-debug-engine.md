@@ -1,21 +1,16 @@
 ---
 title: "How To: Debug a Custom Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, debugging"
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How To: Debug a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStu
   
 ## See Also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
-

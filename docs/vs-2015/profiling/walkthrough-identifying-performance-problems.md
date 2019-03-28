@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Identifying Performance Problems | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "profiling applications, walkthroughs"
 ms.assetid: 36f6f123-0c14-4763-99c3-bd60ecb95b87
 caps.latest.revision: 58
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Identifying Performance Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -161,6 +156,3 @@ This walkthrough demonstrates how to profile an application to identify performa
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [/Z7, /Zi, /ZI (Debug Information Format)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)
-
-
-

@@ -2,7 +2,6 @@
 title: "IActiveScriptTraceInfo::StopScriptTracing Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Stops script tracing.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StopScriptTracing(void); }  
 ```  
   

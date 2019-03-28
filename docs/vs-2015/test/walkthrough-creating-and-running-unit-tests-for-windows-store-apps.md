@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating and Running Unit Tests for Windows Store Apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit tests, creating"
   - "unit tests"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 23
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating and Running Unit Tests for Windows Store Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -149,6 +144,3 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 ## See Also  
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
  [Build and test a Windows Store app using Team Foundation Build](http://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)
-
-
-

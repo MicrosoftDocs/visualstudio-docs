@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Configuring and Using a Custom Rule Set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, walkthroughs"
   - "code analysis, rule sets"
@@ -154,6 +149,3 @@ This walkthrough shows how to use code analysis tools that have been configured 
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)
-
-
-

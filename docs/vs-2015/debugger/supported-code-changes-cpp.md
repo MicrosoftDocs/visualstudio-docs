@@ -1,14 +1,9 @@
 ---
 title: "Supported Code Changes (C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,17 +13,17 @@ helpviewer_keywords:
   - "Edit and Continue, limitations"
   - "supported code changes"
   - "object files, limitations of Edit and Continue"
-  - "C# language, supported code changes"
+  - "C++ language, supported code changes"
   - "coding, supported code changes"
   - "resource files, limitations of Edit and Continue"
   - "code changes, handling in Edit and Continue"
-  - "what's new [C#], supported code changes"
+  - "what's new [C++], supported code changes"
   - "code changes"
 ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Supported Code Changes (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,8 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
  See [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md) for information about working with Edit and Continue for C++ in Visual Studio.  
   
 ##  <a name="BKMK_Unsupported_changes"></a> Unsupported changes  
- The following C/C++ changes cannot be applied during a debugging session:  
+
+The following C/C++ changes cannot be applied during a debugging session:  
   
 - Most changes to global or static data.  
   
@@ -62,7 +58,7 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
   
 - Changes to code that has no object file.  
   
-  If you make one of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.  
+If you make one of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.  
   
 - Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.  
   
@@ -143,6 +139,3 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
   
 ## See Also  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
-
-
-

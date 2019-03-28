@@ -1,22 +1,17 @@
 ---
 title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "winforms"
   - "toolbox"
   - "windows forms"
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating a Windows Forms Toolbox Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -207,11 +202,10 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
      The counter resets to **0**.  
   
 ## Next Steps  
- When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName*.vsix in the \bin\debug\ folder of your project. You can deploy the control by uploading the .vsix file to a network or to a Web site. When a user opens the .vsix file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can find it by browsing in the **Tools / Extension and Updates** dialog.  
+ When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName*.vsix in the \bin\debug\ folder of your project. You can deploy the control by uploading the .vsix file to a network or to a Web site. When a user opens the .vsix file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can find it by browsing in the **Tools / Extension and Updates** dialog.  
   
 ## See Also  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
  [Windows Forms Control Development Basics](http://msdn.microsoft.com/library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)
-

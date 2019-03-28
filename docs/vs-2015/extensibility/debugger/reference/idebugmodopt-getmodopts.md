@@ -1,21 +1,16 @@
 ---
 title: "IDebugModOpt::GetModOpts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugModOpt::GetModOpts"
   - "GetModOpts"
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugModOpt::GetModOpts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ int GetModOpts(
   
 ## See Also  
  [IDebugModOpt](../../../extensibility/debugger/reference/idebugmodopt.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, runtime profiling control window"
 ms.assetid: 17c5996f-e3d0-4e44-b175-52b401b0f2d5
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Limit Instrumentation to Specific DLLs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ By using the instrumentation profiling method, you can limit the collection of p
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)
-
-
-

@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Complex data binding in VSTO Add-in project"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], Excel"
   - "data [Office development in Visual Studio], binding data"
   - "complex data [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Debug Multiple Processes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.programs"
   - "vs.debug.processes.attaching"
@@ -22,9 +17,9 @@ dev_langs:
   - "C++"
 ms.assetid: bde37134-66af-4273-b02e-05b3370c31ab
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug Multiple Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -224,6 +219,3 @@ Here’s how to start debugging processes, switch between processes, break and c
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-
-
-

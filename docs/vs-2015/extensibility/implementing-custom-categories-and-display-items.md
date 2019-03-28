@@ -1,21 +1,16 @@
 ---
 title: "Implementing Custom Categories and Display Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "font and color control [Visual Studio SDK], categories"
   - "custom categories"
 ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Implementing Custom Categories and Display Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,4 +129,3 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
  [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)   
  [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)   
  [Font and Color Overview](../extensibility/font-and-color-overview.md)
-

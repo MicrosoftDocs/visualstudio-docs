@@ -1,14 +1,9 @@
 ---
 title: "Visual Studio Isolated Shell | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Shell [Visual Studio], shell-based applications%2C isolated mode"
   - "Visual Studio shell, isolated mode"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "Shell [Visual Studio], isolated mode"
 ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 36
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Visual Studio Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
   
 ## See Also  
  [Shell (Isolated or Integrated)](../extensibility/shell-isolated-or-integrated.md)
-

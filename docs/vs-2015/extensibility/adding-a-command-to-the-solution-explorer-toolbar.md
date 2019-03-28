@@ -1,22 +1,17 @@
 ---
 title: "Adding a Command to the Solution Explorer Toolbar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "toolbars [Visual Studio], adding buttons"
   - "buttons [Visual Studio], adding to Solution Explorer"
   - "Solution Explorer, adding buttons"
 ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
 caps.latest.revision: 40
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Command to the Solution Explorer Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,4 +114,3 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

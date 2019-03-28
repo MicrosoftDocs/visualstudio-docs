@@ -1,20 +1,15 @@
 ---
 title: "Preparing Extensions for Windows Installer Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "vsix msi"
 ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Preparing Extensions for Windows Installer Deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,5 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
 5.  Add the remaining files to your Setup project.  
   
 ## See Also  
- [Visual Studio Installer Deployment](http://msdn.microsoft.com/en-us/121be21b-b916-43e2-8f10-8b080516d2a0)   
- [Walkthrough: Creating a Custom Action](http://msdn.microsoft.com/en-us/4bd4b63a-2b91-431e-839c-5752443f0eaf)
-
+ [Visual Studio Installer Deployment](http://msdn.microsoft.com/121be21b-b916-43e2-8f10-8b080516d2a0)   
+ [Walkthrough: Creating a Custom Action](http://msdn.microsoft.com/4bd4b63a-2b91-431e-839c-5752443f0eaf)

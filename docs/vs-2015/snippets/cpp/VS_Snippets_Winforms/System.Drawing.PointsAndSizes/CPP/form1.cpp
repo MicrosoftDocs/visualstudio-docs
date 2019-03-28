@@ -235,7 +235,7 @@ private:
    // Point#ctor(int) and Size#ctor(int, int) constructors and the 
    // ContentAlignment enumeration. To run this example paste this code into  
    // a Windows Form that contains a label named Label1 and call the 
-   // IntializeLabel1 method in the form's constructor.
+   // InitializeLabel1 method in the form's constructor.
    //<snippet7>
    void InitializeLabel1()
    {

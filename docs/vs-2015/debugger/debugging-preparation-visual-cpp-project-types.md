@@ -1,14 +1,9 @@
 ---
 title: "Debugging Preparation: Visual C++ Project Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "debugging [C++]"
 ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Preparation: Visual C++ Project Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,7 +94,7 @@ This section describes how to debug the basic project types created by the [!INC
    [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms applications (.NET)  
- The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+ The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
  Debugging this type of application in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is similar to that in managed Windows Forms applications.  
   
@@ -116,7 +111,4 @@ This section describes how to debug the basic project types created by the [!INC
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)   
- [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa)
-
-
-
+ [How to: Create a Windows Application Project](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)

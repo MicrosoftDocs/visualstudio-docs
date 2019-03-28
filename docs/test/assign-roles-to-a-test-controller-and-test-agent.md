@@ -11,21 +11,13 @@ helpviewer_keywords:
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Assign roles to a test controller and test agent
 
 This walkthrough demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. In addition, this walkthrough demonstrates how to add diagnostic and data adapters to the test setting.
 
-In this walkthrough, you will complete the following tasks:
-
--   Create a test setting.
-
--   Assign roles to a test controller and test agents.
-
--   Assign a diagnostic and data adapter to your test setting.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Prerequisites
 

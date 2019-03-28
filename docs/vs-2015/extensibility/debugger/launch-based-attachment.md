@@ -1,21 +1,16 @@
 ---
 title: "Launch-based Attachment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, launching"
   - "debug engines, attaching to programs"
 ms.assetid: 362f00ac-1909-4a3a-bacb-c0ceb5549816
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Launch-based Attachment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,4 +31,3 @@ Launch-based attachment to a program is automatic. When the process hosting the 
 ## See Also  
  [Sending the Required Events](../../extensibility/debugger/sending-the-required-events.md)   
  [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
-

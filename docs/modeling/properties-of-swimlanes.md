@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, swimlane"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Swimlanes
 You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or horizontal areas. You can define other shapes to be displayed inside swimlanes. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -48,4 +46,4 @@ You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or 
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

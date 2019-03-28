@@ -1,18 +1,13 @@
 ---
 title: "Set a Unique Automation Property for Windows Store Controls for Testing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 9bdd74ff-2534-4fc7-a5c3-a77bf7843037
 caps.latest.revision: 12
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Set a Unique Automation Property for Windows Store Controls for Testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -200,7 +195,3 @@ private void CreateCheckBox(string txt, StackPanel panel)
     }  
   
 ```  
-
-
-
-

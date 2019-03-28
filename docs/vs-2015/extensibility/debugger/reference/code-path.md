@@ -1,22 +1,17 @@
 ---
 title: "CODE_PATH | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "CODE_PATH"
 helpviewer_keywords: 
   - "CODE_PATH structure"
 ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CODE_PATH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ public struct CODE_PATH {
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)   
  [EnumCodePaths](../../../extensibility/debugger/reference/idebugprogram2-enumcodepaths.md)
-

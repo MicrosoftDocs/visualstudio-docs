@@ -1,14 +1,9 @@
 ---
 title: "Options and Options Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Tools Options pages [Visual Studio SDK], managed package framework support"
   - "managed package framework, Tools Options pages support"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], attributes"
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
 caps.latest.revision: 35
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Options and Options Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
   
 > [!NOTE]
 >  The canonical name, My Category.My Grid Page, is the value of the Name subkey of this key.
-

@@ -2,7 +2,6 @@
 title: "IDebugAsyncOperation::GetResult | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides the return value and return object parameter from the synchronous debug
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResult(  
    HRESULT*    phrResult,  
    IUnknown**  ppunkResult  

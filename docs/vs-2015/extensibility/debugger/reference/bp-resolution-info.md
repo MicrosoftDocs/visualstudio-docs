@@ -1,22 +1,17 @@
 ---
 title: "BP_RESOLUTION_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_RESOLUTION_INFO"
 helpviewer_keywords: 
   - "BP_RESOLUTION_INFO structure"
 ms.assetid: ba0c162a-61e8-4a0b-811f-4c1d8a5d82f0
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -73,4 +68,3 @@ public struct BP_RESOLUTION_INFO { 
  [BP_RESOLUTION_LOCATION](../../../extensibility/debugger/reference/bp-resolution-location.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
-

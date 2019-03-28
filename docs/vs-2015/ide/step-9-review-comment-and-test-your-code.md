@@ -1,19 +1,14 @@
 ---
 title: "Step 9: Review, Comment, and Test Your Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 9: Review, Comment, and Test Your Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ Picture Viewer
 -   To go to the next tutorial step, see [Step 10: Write Code for Additional Buttons and a Check Box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).  
   
 -   To return to the previous tutorial step, see [Step 8: Write Code for the Show a Picture Button Event Handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
-
-
-

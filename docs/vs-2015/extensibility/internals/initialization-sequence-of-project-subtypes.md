@@ -1,20 +1,15 @@
 ---
 title: "Initialization Sequence of Project Subtypes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project subtypes, initialization sequence"
 ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Initialization Sequence of Project Subtypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -150,4 +145,3 @@ HRESULT HrCreateInnerProj
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Flavor>   
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "Adding tier interaction data from the command line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tier interaction profiling method"
   - "profiling tools,tier interaction method"
 ms.assetid: 5a35647f-03f2-4555-8eeb-fda7e0080e67
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Adding tier interaction data from the command line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -153,6 +148,3 @@ vsperfaspnetcmd /tip /trace http://localhost/MyWebApp
 ```  
   
  For more information about VSPerfASPNETCmd, see [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).
-
-
-

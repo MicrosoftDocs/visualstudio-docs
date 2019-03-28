@@ -9,13 +9,13 @@ dev_langs:
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
 author: "corob-msft"
 ms.author: "corob"
-manager: douge
+manager: jillfra
 ms.workload:
   - "xplat-cplusplus"
 ---
 # Install cross-platform Mobile development with C++
 
-You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ cross-platform mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
+You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ cross-platform mobile](https://visualstudio.microsoft.com/vs/features/cplusplus-mdd/)
 
 ## Requirements
 
@@ -34,11 +34,11 @@ To build apps for specific device platforms, there are some additional requireme
 
 ## Get the tools
 
-Mobile development with C++ is available in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio downloads](https://go.microsoft.com/fwlink/p/?linkid=517106) page. The cross-platform mobile development tools are available starting in Visual Studio 2015 Update 2 or later.
+Mobile development with C++ is available in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page. The cross-platform mobile development tools are available starting in Visual Studio 2015.
 
 ## Install the tools
 
-The Visual Studio Installer for Visual Studio 2017 includes a **Mobile development with C++** workload that installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It installs the GCC and Clang toolsets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
+The Visual Studio Installer for Visual Studio 2017 includes a **Mobile development with C++** workload that installs the C++ language tools, templates, and components required for Android and iOS development in Visual Studio. It installs the GCC and Clang tool sets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.
 
 - Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.
 
@@ -46,7 +46,7 @@ The Visual Studio Installer for Visual Studio 2017 includes a **Mobile developme
 
 - The Google Android Emulator and Intel Hardware Accelerated Execution Manager are optional, but recommended, components. You can develop and debug directly on an Android device, but it's often easier to use an emulator on your desktop for debugging. Microsoft also provides a Visual Studio Emulator for Android that can be installed separately.
 
-#### To install the Mobile development with C++ workload in Visual Studio 2017
+### Install the Mobile development with C++ workload
 
 1. Run the **Visual Studio Installer** from the **Start** menu.
 
@@ -65,37 +65,10 @@ The Visual Studio Installer for Visual Studio 2017 includes a **Mobile developme
    > [!IMPORTANT]
    > You must restart to make sure everything is installed correctly.
 
-1. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, check for any updates and install them.
+1. Open Visual Studio.
 
-#### To install the Mobile Development component and third-party tools in Visual Studio 2015
-
-If you are using Visual Studio 2015, its installer includes an option to install Visual C++ for Cross-Platform Mobile Development, which installs the required C++ language tools, templates, and components in Visual Studio 2015.
-
-1. Run the Visual Studio 2015 installer. To install optional components, choose **Custom** as the type of installation. Choose **Next** to select the optional components to install.
-
-1. In **Select features**, expand **Cross Platform Mobile Development** and check **Visual C++ Mobile Development**.
-
-   ![Select Visual C&#43;&#43; Mobile Development](../cross-platform/media/cppmdd_install_vcmdd.png "CPPMDD_Install_VCMDD")
-
-   By default, when you select **Visual C++ Mobile Development**, the **Programming Languages** option is set to install **Visual C++**, and the  **Common Tools and Software Development Kits** options are set to install required third-party components. You can choose additional components if you need them. By default, the **Microsoft Visual Studio Emulator for Android** is also selected. Components that are already installed appear inactive in the list.
-
-   To build Universal Windows apps and share code between them and your Android and iOS projects, in  **Select features**, expand **Windows and Web Development** and check **Universal Windows App Development Tools**. If you don't plan to build Universal Windows apps, you can skip this option.
-
-   Choose **Next** to continue.
-
-1. The third-party components have their own license terms. You can view the license terms by choosing the **License Terms** link next to each component. Choose **Install** to add the components and install Visual Studio and Visual C++ for Cross-Platform Mobile Development.
-
-1. When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components do not take effect until the computer is restarted.
-
-   > [!IMPORTANT]
-   > You must restart to make sure everything is installed correctly.
-
-   If the Microsoft Visual Studio Emulator for Android component failed to install, your computer may not have Hyper-V enabled. Use the **Turn Windows features on or off** Control Panel app to enable Hyper-V, and then run the Visual Studio installer again.
-
-   > [!NOTE]
-   > If your computer or your version of Windows does not support Hyper-V, you can't use the Microsoft Visual Studio Emulator for Android component. The Home Edition of Windows does not include Hyper-V support.
-
-1. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, on the **Tools** menu, select **Extensions and Updates**, **Updates**. If there are Visual Studio updates available for Visual C++ for Cross-Platform Mobile Development or for Microsoft Visual Studio Emulator for Android, install them.
+> [!NOTE]
+> If you're using Visual Studio 2015, see [Install Visual C++ for Cross-Platform Mobile Development (Visual Studio 2015)](/cross-platform/install-visual-cpp-for-cross-platform-mobile-development?view=vs-2015)
 
 ## Install tools for iOS
 

@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugPrograms2::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugPrograms2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugPrograms2::Skip"
 ms.assetid: b283858b-b375-4760-bfec-ab37de89958d
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugPrograms2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Skip(
   
 ## See Also  
  [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)
-

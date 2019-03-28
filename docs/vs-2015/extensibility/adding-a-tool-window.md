@@ -1,21 +1,16 @@
 ---
 title: "Adding a Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tutorials"
   - "tool windows"
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
 caps.latest.revision: 53
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -279,4 +274,3 @@ public System.Windows.Controls.MediaElement MediaPlayer
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

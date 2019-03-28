@@ -1,22 +1,17 @@
 ---
 title: "IDebugDisassemblyStream2::Read | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDisassemblyStream2::Read"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::Read"
 ms.assetid: 7db5f6bb-73ee-45bc-b187-c1b6aa2dfdd5
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDisassemblyStream2::Read
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -72,4 +67,3 @@ int Read( 
  [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)   
  [GetSize](../../../extensibility/debugger/reference/idebugdisassemblystream2-getsize.md)   
  [Seek](../../../extensibility/debugger/reference/idebugdisassemblystream2-seek.md)
-

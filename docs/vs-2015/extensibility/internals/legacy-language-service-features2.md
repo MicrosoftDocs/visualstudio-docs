@@ -1,20 +1,15 @@
 ---
 title: "Legacy Language Service Features2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], code development aides"
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Legacy Language Service Features
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ The following topics list some of the legacy language service features you can p
  Explains some of the steps in implementing debugger support..  
   
 ## Related Sections
-

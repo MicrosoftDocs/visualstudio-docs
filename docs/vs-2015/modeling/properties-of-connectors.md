@@ -1,19 +1,16 @@
 ---
 title: "Properties of Connectors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 helpviewer_keywords: 
   - "Domain-Specific Language, connectors"
 ms.assetid: b1f24e8d-cdd7-4a5d-af37-1038f43b45c7
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Connectors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +47,4 @@ Connectors represent domain relationships in a generated designer.
 |Help Keyword|The keyword that is used to index F1 help for this element.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

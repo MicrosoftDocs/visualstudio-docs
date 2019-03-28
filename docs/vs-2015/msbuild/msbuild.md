@@ -1,14 +1,9 @@
 ---
 title: "MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, about MSBuild"
   - "MSBuild, overview"
@@ -16,7 +11,7 @@ ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
 caps.latest.revision: 62
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -210,8 +205,3 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Glossary  
  Defines common MSBuild terms.
-
-
-
-
-

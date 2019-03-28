@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugCodeContexts2::Skip | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugCodeContexts2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugCodeContexts2::Skip"
 ms.assetid: 3451a3eb-bf5b-4ec5-acc9-aa5a24363801
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugCodeContexts2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Skip(
   
 ## See Also  
  [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)
-

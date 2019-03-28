@@ -1,17 +1,15 @@
 ---
-title: "Run, build, and debug unit tests with the Test Explorer"
-description: Learn how to run tests with the Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
+title: "Run and debug unit tests with Test Explorer"
+description: Learn how to run tests with Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
+author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
 ---
 # Run unit tests with Test Explorer
 
@@ -41,7 +39,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -52,6 +50,9 @@ The **pass/fail bar** at the top of the **Test Explorer** window is animated as 
 |Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
+
+> [!NOTE]
+> Running unit tests after each build requires Visual Studio Enterprise edition.
 
 ## View test results
 
@@ -79,7 +80,7 @@ If the test fails, the details pane also displays:
 
 ### View the source code of a test method
 
- To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the context menu (Keyboard: **F12**).
+To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (Keyboard: **F12**).
 
 ## Group and filter the test list
 
@@ -87,9 +88,9 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 ### Group tests in the test list
 
- To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
- ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
+![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
 
 ### Test Explorer groups
 
@@ -102,11 +103,11 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 ### Group by traits
 
- A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
+A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
 
- **Traits in the Microsoft Unit Testing Framework for Managed Code**
+**Traits in the Microsoft Unit Testing Framework for Managed Code**
 
- In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
+In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
 
 |Trait|Description|
 |-|-----------------|
@@ -115,8 +116,9 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
 
- **Traits in the Microsoft Unit Testing Framework for C++**
-  See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
+**Traits in the Microsoft Unit Testing Framework for C++**
+
+ See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
 
 ### Search and filter the test list
 
@@ -157,21 +159,19 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
 ## Create custom playlists
 
- You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.
 
- ![Choose a playlist](../test/media/ute_playlist.png)
+![Choose a playlist](../test/media/ute_playlist.png)
 
- **To create a playlist**, choose one or more tests in Test Explorer. On the context menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
+**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
 
- **To add tests to a playlist**, choose one or more tests in Test Explorer. On the context menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
+**To add tests to a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist**, and then choose the playlist that you want to add the tests to.
 
- **To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
+**To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
 
- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ## Debug and analyze unit tests
-
-### Debug unit tests
 
 You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 
@@ -180,13 +180,13 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.
+2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the right-click menu.
 
-   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugging-in-visual-studio.md).
+   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ### Diagnose test method performance issues
 
- To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the context menu. See [Performance Explorer](../profiling/performance-explorer.md).
+To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
 
 ### Analyze unit test code coverage
 

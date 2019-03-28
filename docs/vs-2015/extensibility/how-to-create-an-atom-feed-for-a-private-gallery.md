@@ -1,21 +1,16 @@
 ---
 title: "How to: Create an Atom Feed for a Private Gallery | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Atom feed, VSIX private galleries"
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Create an Atom Feed for a Private Gallery
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
   
 ## See Also  
  [Private Galleries](../extensibility/private-galleries.md)
-

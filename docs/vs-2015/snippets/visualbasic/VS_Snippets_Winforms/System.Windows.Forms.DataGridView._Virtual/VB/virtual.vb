@@ -48,7 +48,7 @@ Public Class VirtualModeDemo
     '</snippet30>
 
     '<snippet10>
-#Region "data store maintance"
+#Region "data store maintenance"
     Const initialValue As Integer = -1
 
     Private Sub dataGridView1_CellValueNeeded(ByVal sender As Object, _

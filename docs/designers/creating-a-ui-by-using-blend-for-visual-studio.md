@@ -1,18 +1,17 @@
 ---
-title: Creating a UI by using Blend for Visual Studio
+title: Blend for Visual Studio feature tour
+titleSuffix: ""
 ms.date: 07/17/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "Blend.Start.Dev12"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Creating a UI by using Blend for Visual Studio
+# Blend for Visual Studio overview
 
 Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. For a comparison between Blend and Visual Studio, see [Design XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).
 

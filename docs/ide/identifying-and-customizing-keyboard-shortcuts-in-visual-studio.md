@@ -1,8 +1,6 @@
 ---
-title: Identify and customize keyboard shortcuts in Visual Studio
+title: Identify and customize keyboard shortcuts
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Keyboard"
@@ -16,7 +14,7 @@ helpviewer_keywords:
   - "exporting shortcut keys [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -102,11 +100,21 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 4. Select the **Keyboard** check box, and then choose the **Next** button.
 
-    ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
+   ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
 
-5. In the **What do you want to name your settings file?** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
+5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
 
-    By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+::: moniker range="vs-2017"
+
+By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2019\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+
+::: moniker-end
 
 ### To import only keyboard shortcuts
 

@@ -1,19 +1,14 @@
 ---
 title: "BC Texture Compression Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # BC Texture Compression Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ Enables block compression on textures that have a pixel format that's a variatio
   
 ## See Also  
  [Half/Quarter Texture Dimensions Variant](../debugger/half-quarter-texture-dimensions-variant.md)
-
-
-

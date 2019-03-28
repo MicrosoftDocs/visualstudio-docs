@@ -1,20 +1,15 @@
 ---
 title: "Unit Test Basics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 ms.assetid: a80ba9cd-4575-483c-b957-af7ed8dc7e20
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit Test Basics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +43,7 @@ Check that your code is working as expected by creating and running unit tests. 
   
 -   [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
--   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
+-   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
 ##  <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
  In this topic, we use the development of a fictional application called `MyBank` as an example. You don’t need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
@@ -343,6 +338,3 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
    ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
   
    Your unit test stubs will be created using the selected framework.
-
-
-

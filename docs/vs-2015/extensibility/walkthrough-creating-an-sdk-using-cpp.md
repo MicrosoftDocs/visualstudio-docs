@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Creating an SDK using C++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 caps.latest.revision: 33
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating an SDK using C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -181,4 +176,3 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 ## See Also  
  [Walkthrough: Creating an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)
-

@@ -1,11 +1,9 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
 ms.date: 11/04/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -323,7 +321,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## See also
 
-- [Add unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
+- [Add unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md)
 - [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
 - [Debug native code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and using a dynamic link library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)

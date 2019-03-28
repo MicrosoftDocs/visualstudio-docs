@@ -35,10 +35,10 @@ namespace SdkSample
 
         // ------------------------------------------------------------
         //
-        // Public Dependancy Properties
+        // Public Dependency Properties
         //
         // ------------------------------------------------------------
-        #region Public Dependancy Properties
+        #region Public Dependency Properties
 
 
         /// <summary>
@@ -88,6 +88,6 @@ namespace SdkSample
             obj.SetValue(SelectedSourceProperty, value);
         }
 
-        #endregion Public Dependancy Properties
+        #endregion Public Dependency Properties
     }
 }

@@ -1,14 +1,9 @@
 ---
 title: "SDK Helpers for Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "dbgmetric.lib"
   - "registry, Debugging SDK"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SDK Helpers for Debugging
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -427,4 +422,3 @@ HRESULT EnumMetricSections(
   
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
-

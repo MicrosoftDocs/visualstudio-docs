@@ -1,8 +1,6 @@
 ---
 title: "CA1403: Auto layout types should not be COM visible"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AutoLayoutTypesShouldNotBeComVisible"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a7007714-f9b4-4730-94e0-67d3dc68991f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

@@ -1,8 +1,6 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
@@ -11,11 +9,12 @@ helpviewer_keywords:
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Using the IntelliTrace stand-alone collector
+# Using the IntelliTrace stand-alone collector (C#, Visual Basic)
+
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.
 
  Watch IntelliTrace in action: [Collecting and analyzing IntelliTrace data in production for debugging (Channel 9 video)](http://go.microsoft.com/fwlink/?LinkID=251851)
@@ -24,6 +23,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 >  You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
 >
 >  You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
+>  The IntelliTrace stand-alone collector does not support Process Snapshots.
 
  **Requirements**
 
@@ -166,7 +166,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
    > [!NOTE]
    > - To avoid slowing down your app, choose a location on a local high-speed disk that's not very active.
    >   -   You can put .iTrace files and the collector files in the same place. However, if you have a Web app or SharePoint application, make sure this place is outside the directory that hosts the application.
-   > 
+   >
    > [!IMPORTANT]
    > - Restrict the .iTrace file directory only to those identities that must work with the collector. An .iTrace file might contain sensitive information, such as data from users, databases, other source locations, and connection strings because IntelliTrace can record any data that passes into method parameters or as return values.
    >   -   Make sure those who can open .iTrace files have the authority to view sensitive data. Use caution when sharing .iTrace files. If other people must have access, copy the files to a secure shared location.
@@ -228,7 +228,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 2.  Reproduce the problem.
 
-3.  To take a snapshot of the .iTrace file, use this syntax:
+3.  To create a checkpoint of the .iTrace file, use this syntax:
 
      `Checkpoint-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
@@ -373,7 +373,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 -   From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 
--   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](/visualstudio/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues).
+-   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).
 
 ## Where can I get more information?
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
@@ -387,7 +387,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
  [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233)
 
- [Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
+ [Microsoft DevOps](https://devblogs.microsoft.com/devops/)
 
 ### Forums
  [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)

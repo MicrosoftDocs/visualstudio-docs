@@ -1,18 +1,13 @@
 ---
 title: "Managing Universal Windows Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Managing Universal Windows Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -572,4 +567,3 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     ```  
   
 13. Build and run the project. Create a C# Universal Project in the experimental instance, go to the **Tools** menu and click **Invoke TestUniversalProject**, and check the text in the general output pane. After the file in the platform project is renamed, you should see both an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> event and an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> event. Since changing the file caused no other files to be changed, and since changes to items in a platform project don't get propagated anywhere, there is only one each of these events.
-

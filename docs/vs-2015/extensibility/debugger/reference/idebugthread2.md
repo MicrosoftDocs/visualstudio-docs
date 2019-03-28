@@ -1,22 +1,17 @@
 ---
 title: "IDebugThread2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugThread2"
 helpviewer_keywords: 
   - "IDebugThread2 interface"
 ms.assetid: 221b4b1b-4a26-466e-bc29-5eff800fab13
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugThread2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ IDebugThread2 : IUnknown
  [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)   
  [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)   
  [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
-

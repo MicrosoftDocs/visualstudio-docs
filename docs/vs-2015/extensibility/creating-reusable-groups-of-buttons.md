@@ -1,22 +1,17 @@
 ---
 title: "Creating Reusable Groups of Buttons | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "button groups, creating in VSPackages"
   - "VSPackages, creating reusable button groups"
   - "buttons, creating reusable groups"
 ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
 caps.latest.revision: 45
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating Reusable Groups of Buttons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,4 +115,3 @@ A command group is a collection of commands that always appear together on a men
     </CommandPlacements>  
   
     ```
-

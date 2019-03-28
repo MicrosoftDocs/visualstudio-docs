@@ -1,8 +1,6 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source in Visual Studio"
+title: "Walkthrough: Using a Configuration File to Define a Data Source"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "configuration files [Visual Studio ALM], defining data sources"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "data sources, defining with configuration files"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

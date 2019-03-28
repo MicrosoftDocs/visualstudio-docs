@@ -1,8 +1,6 @@
 ---
 title: Options, Text Editor, C#, IntelliSense
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
@@ -15,16 +13,13 @@ helpviewer_keywords:
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, C#, IntelliSense
 
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 The **IntelliSense** options page contains the following options:
 
@@ -80,7 +75,7 @@ The **IntelliSense** options page contains the following options:
 
 ## Show name suggestions
 
-   Performs automatic object name completion for the members that you have recently selected. 
+Performs automatic object name completion for the members that you have recently selected.
 
 ## See also
 

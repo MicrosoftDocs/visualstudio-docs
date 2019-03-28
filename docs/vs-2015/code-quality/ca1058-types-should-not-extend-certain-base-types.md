@@ -1,14 +1,9 @@
 ---
 title: "CA1058: Types should not extend certain base types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "TypesShouldNotExtendCertainBaseTypes"
   - "CA1058"
@@ -87,6 +82,3 @@ public class MyReadOnlyCollection : ReadOnlyCollection<T>
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule for violations about <xref:System.ApplicationException>. It is safe to suppress a warning from this rule for violations about <xref:System.Xml.XmlDocument>. It is safe to suppress a warning about a non-generic collection if the code was released previously.
-
-
-

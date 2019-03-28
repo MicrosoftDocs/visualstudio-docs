@@ -1,22 +1,17 @@
 ---
 title: "Inside the Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "roadmap, Visual Studio integration SDK"
   - "Visual Studio integration SDK roadmap"
   - "integration roadmap, Visual Studio SDK"
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 31
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Inside the Visual Studio SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -89,10 +84,10 @@ Generalized view of the Visual Studio architecture
   
  Projects may also be gathered into a solution, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based solution (.sln) file and the binary solution user option (.suo) file. These files are similar to the group (.vbg) files that were used in earlier versions of [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)].  
   
- For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions.md).  
+ For more information, see [Projects](../../extensibility/internals/projects.md) and [Solutions](../../extensibility/internals/solutions-overview.md).  
   
 ## Project and Item Templates  
- Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?ProjectSearchText=visual%20studio) is the place to go for templates and extensions.  
+ Visual Studio includes predefined project templates and project item templates. You can also make your own templates or acquire templates from the community, and then integrate them into Visual Studio. The [MSDN Code Gallery](https://code.msdn.microsoft.com/site/search?query=visual%20studio) is the place to go for templates and extensions.  
   
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.  
   
@@ -127,4 +122,3 @@ Generalized view of the Visual Studio architecture
   
 ## Help Viewer  
  You can integrate your own help and F1 pages into the Help Viewer. For more information, see [Microsoft Help Viewer SDK](../../extensibility/internals/microsoft-help-viewer-sdk.md).
-

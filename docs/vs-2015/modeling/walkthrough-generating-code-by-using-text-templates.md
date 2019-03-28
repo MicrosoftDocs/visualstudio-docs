@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Generating Code by using Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "walkthroughs [text templates], generating application code"
   - "walkthroughs [text templates]"
@@ -14,7 +11,7 @@ ms.assetid: 24602ade-baca-425e-a6ce-be09a2c7f7e1
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Generating Code by using Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -420,6 +417,3 @@ namespace MyProject
 ## See Also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
-
-
-

@@ -1,37 +1,32 @@
 ---
 title: "EnsureVSTOComponent function"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # EnsureVSTOComponent function
-  This API supports the Office infrastructure and isn't intended to be used directly from your code.  
-  
-## Syntax  
-  
-```csharp  
-HRESULT EnsureVSTOComponent(  
-    IVSTProject *pProject  
-);  
-```  
-  
-#### Parameters  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|*pProject*|Don't use.|  
-  
-## Return value  
- If the function succeeds, it returns **S_OK**. If the function fails, it returns an error code.  
-  
-  
+  This API supports the Office infrastructure and isn't intended to be used directly from your code.
+
+## Syntax
+
+```csharp
+HRESULT EnsureVSTOComponent(
+    IVSTProject *pProject
+);
+```
+
+#### Parameters
+
+|Parameter|Description|
+|---------------|-----------------|
+|*pProject*|Don't use.|
+
+## Return value
+ If the function succeeds, it returns **S_OK**. If the function fails, it returns an error code.

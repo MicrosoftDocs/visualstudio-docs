@@ -1,14 +1,9 @@
 ---
 title: "Enum (Debug Interface Access SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "Enum symbol"
 ms.assetid: c777e2e6-88be-435b-b632-8d43f42b0b49
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Enum (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ Enumerations are identified by `SymTagEnum` symbols. Each enumeration value appe
   
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

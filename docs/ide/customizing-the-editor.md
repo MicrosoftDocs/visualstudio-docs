@@ -1,8 +1,6 @@
 ---
-title: Customizing the Visual Studio Editor
+title: Customize editor
 ms.date: 11/20/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor, customizing"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "Text Editor, customizing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

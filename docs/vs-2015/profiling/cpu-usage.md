@@ -1,19 +1,14 @@
 ---
 title: "CPU Usage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CPU Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -112,6 +107,3 @@ When you need to investigate performance issues in your app, a good place to sta
 -   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
 -   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.
-
-
-

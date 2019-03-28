@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # The DslDefinition.dsl File
 
@@ -74,7 +72,7 @@ This section identifies the **DSL Explorer** behavior (defined in the XmlSeriali
 
 Throughout the DslDefinition.dsl file, you can use monikers to make cross-references to specific items. For example, each Relationship definition contains a Source subsection and a Target subsection. Each subsection contains the moniker of the class of object that can be linked with that relationship:
 
-```
+```xml
 <DomainRelationship ...        Name="LibraryHasMembers" Namespace="ExampleNamespace" >    <Source>      <DomainRole ...>
        <RolePlayer>
          <DomainClassMoniker Name="Library" />
@@ -85,7 +83,7 @@ Throughout the DslDefinition.dsl file, you can use monikers to make cross-refere
 
 Usually, the namespace of the referenced item (in this example, the `Library` domain class) is the same as the referencing item (in this case, the LibraryHasMembers domain relationship). In those cases, the moniker must give only the name of the class. Otherwise, you should use the full form /Namespace/Name:
 
-```
+```xml
 <DomainClassMoniker Name="/ExampleNameSpace/Library" />
 ```
 
@@ -103,7 +101,7 @@ The Component Diagram example lists a set of standard primitive types, although 
 
 Each External Type definition consists of just a name and a namespace, such as String and System:
 
-```
+```xml
 <ExternalType Name="String" Namespace="System" />
 ```
 
@@ -115,7 +113,7 @@ External types are not restricted to standard library types.
 
 A typical Enumeration specification resembles this example:
 
-```
+```xml
 <DomainEnumeration IsFlags="true" Name="PageSort"          Namespace="Fabrikam.Wizard">
   <Literals>
     <EnumerationLiteral Name="Start" Value="1"/>
@@ -132,7 +130,7 @@ Most of the elements in any definition of a domain-specific language are either 
 
 Each class has a set of properties and might have a base class. In the Component Diagram example, `NamedElement` is an abstract class that has a `Name` property, whose type is string:
 
-```
+```xml
 <DomainClass Id="ee3161ca-2818-42c8-b522-88f50fc72de8"  Name="NamedElement" Namespace="Fabrikam.CmptDsl5"      DisplayName="Named Element"  InheritanceModifier="Abstract">
   <Properties>
     <DomainProperty Id="ef553cf0-33b5-4e34-a30b-cfcfd86f2261"   Name="Name" DisplayName="Name"  DefaultValue="" Category="" IsElementName="true">
@@ -146,7 +144,7 @@ Each class has a set of properties and might have a base class. In the Component
 
 `NamedElement` is the base of several of the other classes such as `Component`, which has its own properties in addition to the `Name` property, which it inherited from `NamedElement`. The BaseClass child node contains a moniker reference. Because the referenced class is in the same namespace, only its name is required in the moniker:
 
-```
+```xml
 <DomainClass Name="Component" Namespace="Fabrikam.CmptDsl5"              DisplayName="Component">
   <BaseClass>
     <DomainClassMoniker Name="NamedElement" />
@@ -190,7 +188,7 @@ Each domain property has a name and a type. The name must be unique within the d
 
 The type must refer to one of those listed in the `Types` section. Generally, the moniker must include the namespace.
 
-```
+```xml
 <DomainProperty Name="Name" DisplayName="Name"  DefaultValue="" Category="" IsElementName="true">
   <Type>
     <ExternalTypeMoniker Name="/System/String" />
@@ -242,13 +240,13 @@ Each relationship contains source and target roles that have the following attri
 
 -   The role's `Name` is the name that is used within the Relationship class to refer to that end of a link. By convention, a role name is always singular, because each link has only one instance at each end. The following code would work:
 
-    ```
+    ``` 
     Connection connectionLink = ...; OutPort op = connectionLink.Source;
     ```
 
 -   By default, the `IsPropertyGenerator` attribute is set to true. If it is set to false, no property is created on the Role Player class. (In that case, `op.Targets`, for example, would not work). However, it is still possible to use custom code to traverse the relationship or obtain access to the links themselves if the custom code uses the relationship explicitly:
 
-    ```
+    ``` 
     OutPort op = ...; foreach (InPort ip in Connection.GetTargets(op)) ...
     foreach (Connection link in Connection.GetLinksToTargets(op)) ...
     ```
@@ -283,7 +281,7 @@ Each segment starts with a relationship name. In an object-to-link hop, the rela
 
 The Component Diagram example contains a path in the ParentElementPath of the ShapeMap for InPort. This path starts as follows:
 
-```
+``` 
     ComponentHasPorts.Component
 ```
 
@@ -291,13 +289,13 @@ In this example, InPort is a subclass of ComponentPort and has a relationship Co
 
 When writing C# against this model, you can jump across a link in one step by using the property that the relationship generates on each of the classes that it relates:
 
-```
+``` 
      InPort port; ...  Component c = port.Component;
 ```
 
 However, you must do both hops explicitly in Path Syntax. Because of this requirement, you can access the intermediate link more easily. The following code completes the hop from the link to the Component:
 
-```
+``` 
     ComponentHasPorts.Component / ! Component
 ```
 
@@ -309,7 +307,7 @@ When the language user drags an item from the **Toolbox** onto the diagram, an i
 
 A potential host class, such as Component, will accept a new element only if the host class has an element merge directive for the class of the new element. For example, the DomainClass node with Name="Component" contains:
 
-```
+```xml
 <DomainClass Name="Component" ...> ...
     <ElementMergeDirective>
       <Index>
@@ -333,7 +331,7 @@ You can use more than one segment in a link creation path. In this case, the las
 
 For example, you can add this element merge directive to the Component class:
 
-```
+```xml
 <DomainClass Name="Component" ...> ...
   <ElementMergeDirective>
     <Index>
@@ -368,7 +366,7 @@ Each `XmlClassData` node includes these child nodes and attributes:
 
 -   **ElementName** string, which determines the XML tag of serialized instances of this class. By convention, ElementName is usually the same as the class name except the first letter is lowercase. For example, a sample model file starts with the following:
 
-    ```
+    ```xml
     <componentModel ...
     ```
 
@@ -376,7 +374,7 @@ Each `XmlClassData` node includes these child nodes and attributes:
 
 -   **MonikerAttributeName**, which identifies the name of the XML attribute within a moniker. In this fragment of a user's serialized file, the author of the domain-specific language defined **MonikerElementName** as "inPortMoniker" and **MonikerAttributeName** as "path":
 
-    ```
+    ```xml
     <inPortMoniker path="//Component2/InPort1" />
     ```
 
@@ -396,7 +394,7 @@ The **IsMonikerKey** and **IsMonikerQualifier** attributes give a property a rol
 
 In the serialized model file, the full moniker of an element is a path from the model root down the tree of embedding relationships, quoting the moniker key at each point. For example, InPorts are embedded within Components, which are in turn embedded in the model root. A valid moniker is therefore:
 
-```
+```xml
 <inPortMoniker name="//Component2/InPort1" />
 ```
 
@@ -414,7 +412,7 @@ The **RoleElementName** attribute gives the XML tag name that encloses the child
 
 For example, the DslDefinition.dsl file contains:
 
-```
+```xml
 <XmlClassData ElementName="component" ...>
   <DomainClassMoniker Name="Component" />
   <ElementData>
@@ -425,10 +423,10 @@ For example, the DslDefinition.dsl file contains:
 
 Therefore, the serialized file contains:
 
-```
-<component name="Component1"> <!-- parent ->
-   <ports> <!-- role ->
-     <outPort name="OutPort1"> <!-- child element ->
+```xml
+<component name="Component1"> <!-- parent -->
+   <ports> <!-- role -->
+     <outPort name="OutPort1"> <!-- child element -->
        ...
      </outPort>
    </ports> ...
@@ -436,7 +434,7 @@ Therefore, the serialized file contains:
 
 If the **UseFullForm** attribute is set to true, an extra layer of nesting is introduced. This layer represents the relationship itself. The attribute must be set to true if the relationship has properties.
 
-```
+```xml
 <XmlClassData ElementName="outPort">
    <DomainClassMoniker Name="OutPort" />
    <ElementData>
@@ -449,11 +447,11 @@ If the **UseFullForm** attribute is set to true, an extra layer of nesting is in
 
 The serialized file contains:
 
-```
-<outPort name="OutPort1">  <!-- Parent ->
-   <targets>  <!-- role ->
-     <connection sourceRoleName="X">  <!-- relationship link ->
-         <inPortMoniker name="//Component2/InPort1" /> <!-- child ->
+```xml
+<outPort name="OutPort1">  <!-- Parent -->
+   <targets>  <!-- role -->
+     <connection sourceRoleName="X">  <!-- relationship link -->
+         <inPortMoniker name="//Component2/InPort1" /> <!-- child -->
      </connection>
     </targets>
   </outPort>
@@ -463,9 +461,9 @@ The serialized file contains:
 
 If the **OmitElement** attribute is set to true, the relationship role name is omitted, which abbreviates the serialized file and is unambiguous if the two classes have no more than one relationship. For example:
 
-```
+```xml
 <component name="Component3">
-  <!-- only one relationship could get here: ->
+  <!-- only one relationship could get here: -->
   <outPort name="OutPort1">
      <targets> ...
 ```
@@ -478,7 +476,7 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
 
 -   **Classes** is the **RoleElementName** of the relationship between Domain-Specific Language and DomainClass.
 
-```
+```xml
 <Dsl Name="CmptDsl5" ...>
   <Classes>
     <DomainClass Name="NamedElement" InheritanceModifier="Abstract" ...
@@ -486,7 +484,7 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
 
 -   The **XmlSerializationBehavior** attribute is embedded under the `Dsl` attribute, but the **OmitElement** attribute has been set on the embedding relationship. Therefore, no `RoleElementName` attribute intervenes. By contrast, a **ClassData** attribute is the `RoleElementName` attribute of the embedding relationship between an **XmlSerializationBehavior** attribute and an **XmlClassData** attribute.
 
-```
+```xml
 <Dsl Name="CmptDsl5" ...> ...
   <XmlSerializationBehavior Name="ComponentsSerializationBehavior" >
     <ClassData>
@@ -496,7 +494,7 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
 
 -   ConnectorHasDecorators is the embedding relationship between `Connector` and `Decorator`. `UseFullForm` has been set so that the name of the relationship appears with its list of properties for each link from the Connector object. However, `OmitElement` has also been set so that no `RoleElementName` encloses the multiple links that are embedded inside `Connector`:
 
-```
+```xml
 <Connector Name="AssociationLink" ...>
   <ConnectorHasDecorators Position="TargetTop" ...>
     <TextDecorator Name="TargetRoleName"   />
@@ -523,7 +521,7 @@ Shape maps determine how instances of a given domain class appear on the screen,
 
 As in the following example, the `ShapeMap` elements have, at a minimum, the moniker of a domain class, the moniker of a shape, and a `ParentElementPath` element:
 
-```
+```xml
 <ShapeMap>
   <DomainClassMoniker Name="InPort" />
   <ParentElementPath>
@@ -545,7 +543,7 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
 
 The root of the model does not have a shape map. Instead, the root is referenced directly from the diagram, which has a `Class` element:
 
-```
+```xml
 <Diagram Name="ComponentDiagram" >
     <Class>
       <DomainClassMoniker Name="ComponentModel" />
@@ -564,7 +562,7 @@ Compartment shape maps are subtypes of shape maps.
 
 The minimal connector map references a connector and a relationship:
 
-```
+```xml
 <ConnectorMap>
   <ConnectorMoniker Name="CommentLink" />
   <DomainRelationshipMoniker Name="CommentsReferenceComponents" />
@@ -575,6 +573,6 @@ Connector maps can also contain decorator maps.
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

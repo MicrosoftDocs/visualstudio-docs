@@ -1,14 +1,9 @@
 ---
 title: "Circular reference in value argument not supported | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5034"
 dev_langs: 

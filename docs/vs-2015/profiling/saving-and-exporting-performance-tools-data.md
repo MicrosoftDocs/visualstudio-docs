@@ -1,21 +1,16 @@
 ---
 title: "Saving and Exporting Performance Tools Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, saving and exporting reports"
 ms.assetid: 2e9b28fe-3ed2-4e1d-b9cb-0a5e384380b0
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Saving and Exporting Performance Tools Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,6 +89,3 @@ This topic describes how to save and export performance data files.
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Comparing Performance Data Files](../profiling/comparing-performance-data-files.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
-
-
-

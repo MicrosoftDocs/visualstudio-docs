@@ -1,19 +1,16 @@
 ---
 title: "Generate files from a UML model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, generating files"
 ms.assetid: 4e28b0e6-ce8f-45ee-9e3a-e4d600a0ad81
 caps.latest.revision: 21
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generate files from a UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -330,6 +327,3 @@ namespace Test{
 -   **Move code into separate assemblies**. We do not recommend writing large bodies of code in templates. It is preferable to keep generated content separate from computation, and text templates are not well supported for editing code.  
   
      Instead, if you have to perform substantial computations to generate text, build those functions in a separate assembly, and call its methods from the template.
-
-
-

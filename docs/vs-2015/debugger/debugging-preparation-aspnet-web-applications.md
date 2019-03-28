@@ -1,14 +1,9 @@
 ---
 title: "Debugging Preparation: ASP.NET Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Web applications"
 ms.assetid: bcfb1080-98d1-42f9-96af-186fb14f232a
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Preparation: ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +37,11 @@ The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a 
   
 1.  Set one or more breakpoints in your functions and event handlers.  
   
-     For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
+     For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 2.  When a breakpoint is hit, step through code inside the function. Observe the execution of your code until you isolate the problem.  
   
-     For more information, see [Stepping](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
+     For more information, see [Stepping](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
   
 ## Changing Default Configurations  
  If you want to change the default debug and release configurations created by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can do so. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).  
@@ -68,6 +63,3 @@ The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a 
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

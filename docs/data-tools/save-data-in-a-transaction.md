@@ -14,9 +14,7 @@ helpviewer_keywords:
 ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -60,7 +58,7 @@ The first step is to create a **Windows Forms Application**.
 
 This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.
 
-1.  On the **Data** menu, select **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, select **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 

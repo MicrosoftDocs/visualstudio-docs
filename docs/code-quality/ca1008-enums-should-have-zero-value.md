@@ -1,8 +1,6 @@
 ---
 title: "CA1008: Enums should have zero value"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1008"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3503a73c-360c-416d-8ee4-c2aa44365a05
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp
@@ -32,7 +30,9 @@ ms.workload:
 
 ## Cause
 
-An enumeration without an applied <xref:System.FlagsAttribute?displayProperty=fullName> does not define a member that has a value of zero; or an enumeration that has an applied <xref:System.FlagsAttribute> defines a member that has a value of zero but its name is not 'None', or the enumeration defines multiple zero-valued members.
+An enumeration without an applied <xref:System.FlagsAttribute?displayProperty=fullName> does not define a member that has a value of zero. Or, an enumeration that has an applied <xref:System.FlagsAttribute> defines a member that has a value of zero but its name is not 'None'. Or, the enumeration defines multiple, zero-valued members.
+
+By default, this rule only looks at externally visible enumerations, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -47,6 +47,16 @@ To fix a violation of this rule for non-flags-attributed enumerations, define a 
 ## When to suppress warnings
 
 Do not suppress a warning from this rule except for flags-attributed enumerations that have previously shipped.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1008.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Design). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Example
 

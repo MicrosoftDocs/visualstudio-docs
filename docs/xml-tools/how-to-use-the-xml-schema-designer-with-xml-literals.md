@@ -1,13 +1,11 @@
 ---
 title: "How to: Use the XML Schema Designer with XML Literals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - "VB"
 ms.workload:
@@ -17,15 +15,15 @@ ms.workload:
 
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.
 
-## To create a new Visual Basic console application project
+## Create a new Visual Basic project
 
-1.  Start Visual Studio.
+1.  Open Visual Studio.
 
-2.  From the **File** menu, select **New**, and then select **Project**. The **New Project** dialog box appears. For **Project types**, select **Other Languages,** and then select **Visual Basic**. For **Templates**, select Console Application. Then type `XMLLiterals` in the **Name** field and a project location in the **Location** field. Click **OK**.
+2. Create a new Visual Basic **Console App** project named **XMLLiterals**.
 
-     The new poject is created. The XMLLiterals project contains one Visual Basic source file, *Module1.vb*.
+     The new project contains one Visual Basic source file, *Module1.vb*.
 
-## To add an existing XSD file to the project
+## Add an existing XSD file
 
 1.  Open a new text file in Notepad. Copy the XML Schema sample code from [purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it in to the file.
 
@@ -35,7 +33,9 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
      The XMLLiterals project now contains two files: *Module1.vb* and *PurchaseOrderSchema.xsd*.
 
-## To add Visual Basic code with an XML literal, based on the XSD file included in the project
+## Add code
+
+To add Visual Basic code with an XML literal, based on the XSD file included in the project:
 
 1. Replace the code in *Module1.vb* file with the following code:
 
@@ -68,4 +68,4 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
 2. Right-click any XML node in an XML literal or an XML namespace import and select **Show in Schema Explorer**.
 
-    The **XML Schema Explorer** is displayed side by side with a Visual Basic file that has the XML literal associated with the XML schema set.
+   The **XML Schema Explorer** is displayed side by side with a Visual Basic file that has the XML literal associated with the XML schema set.

@@ -1,15 +1,11 @@
 ---
 title: "Step 2: Add a Random object and a list of icons"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

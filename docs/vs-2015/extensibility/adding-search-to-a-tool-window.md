@@ -1,20 +1,15 @@
 ---
 title: "Adding Search to a Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tool windows, adding search"
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
 caps.latest.revision: 39
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding Search to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -552,4 +547,3 @@ When you create or update a tool window in your extension, you can add the same 
 8.  Choose the X on the right side of the search box.  
   
      The search is cleared, and the original contents appear. However, the **Match case** check box is still selected.
-

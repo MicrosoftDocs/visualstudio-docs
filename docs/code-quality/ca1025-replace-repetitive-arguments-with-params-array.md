@@ -1,8 +1,6 @@
 ---
 title: "CA1025: Replace repetitive arguments with params array"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1025"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f009b340-dea3-4459-8fe1-2143aa8b5d0b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

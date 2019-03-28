@@ -1,19 +1,14 @@
 ---
 title: "Tutorial 2: Create a Timed Math Quiz | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Tutorial 2: Create a Timed Math Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
 |[Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md)|Add a subtraction problem that generates random numbers, uses the timer, and checks for correct answers.|  
 |[Step 7: Add Multiplication and Division Problems](../ide/step-7-add-multiplication-and-division-problems.md)|Add multiplication and division problems that generate random numbers, use the timer, and check for correct answers.|  
 |[Step 8: Customize the Quiz](../ide/step-8-customize-the-quiz.md)|Try other features, such as changing colors and adding a hint.|
-
-
-

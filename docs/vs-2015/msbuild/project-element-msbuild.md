@@ -1,14 +1,9 @@
 ---
 title: "Project Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
 dev_langs: 
@@ -24,7 +19,7 @@ ms.assetid: d1cda56a-dbef-4109-9201-39e962e3f653
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,5 +78,3 @@ Required root element of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [MSBuild](msbuild.md)
-
-

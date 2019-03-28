@@ -1,7 +1,6 @@
 ---
 title: "How to: Create and edit configurations"
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -25,7 +24,8 @@ ms.workload:
 
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.
 
-[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create and edit configurations in Visual Studio for Mac](/visualstudio/mac/create-and-edit-configurations).
 
 ## Create build configurations
 
@@ -40,17 +40,13 @@ In the **Configuration Manager** dialog box, you can use the **Active solution c
 
  After you set up the configurations you want, you can set project properties that are appropriate for those configurations.
 
-### To set properties based on configurations
+### Set properties based on configurations
 
--   In **Solution Explorer**, open the shortcut menu for a project and then choose **Properties**.
+To set properties based on configurations, in **Solution Explorer**, open the shortcut menu for a project and then choose **Properties**. You can set properties for your configurations. For example, for a release configuration, you can specify that code is optimized when the solution is built, and for a debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included.
 
-     The  **Property Pages** window opens.
+For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).
 
-     You can set properties for your configurations. For example, for a release configuration, you can specify that code is optimized when the solution is built, and for a debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).
-
-## Create and modify project configurations
-
-### To create a project configuration
+## Create a project configuration
 
 1.  Open the **Configuration Manager** dialog box.
 
@@ -66,7 +62,7 @@ In the **Configuration Manager** dialog box, you can use the **Active solution c
 
 6.  To create a solution-wide configuration at the same time, select the **Create new solution configuration** check box.
 
-### To rename a project configuration
+## Rename a project configuration
 
 1.  Open the **Configuration Manager** dialog box.
 
@@ -121,3 +117,4 @@ In the **Configuration Manager** dialog box, you can use the **Active solution c
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
+- [Create and edit configurations (Visual Studio for Mac)](/visualstudio/mac/create-and-edit-configurations)

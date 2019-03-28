@@ -2,12 +2,10 @@
 title: "Workflow Designer - How to: Add Activities to the Toolbox"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -56,4 +54,4 @@ Activities can be added to the **Toolbox** in your solution in several different
 
 ## See also
 
-- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+- [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)

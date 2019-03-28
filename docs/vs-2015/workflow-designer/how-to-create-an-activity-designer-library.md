@@ -1,17 +1,14 @@
 ---
 title: "How to: Create an Activity Designer Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 5b62e092-63b3-462d-9d77-fb112482f45d
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Create an Activity Designer Library
 Custom activity designers allow you to create a user interface for a standard or a custom activity. You control the complexity of the user interface and have the ability to create more than one activity designer for an activity. This scenario allows you to create designers that are tailored for multiple audiences.  

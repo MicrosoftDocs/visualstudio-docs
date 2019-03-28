@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with Python | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
 caps.latest.revision: 13
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with Python
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ To install Python itself, visit [https://www.python.org/download/](https://www.p
   
 ## Python Tools for Visual Studio
   
-The Python Tools for Visual Studio, which you can install from [visualstudio.com](https://www.visualstudio.com/en-us/explore/python-vs), provide the following features:  
+The Python Tools for Visual Studio, which you can install from [visualstudio.com](https://www.visualstudio.com/explore/python-vs), provide the following features:  
   
 - Support for multiple interpreters: various versions of CPython, IronPython, and IPython  
 - A project system that implicitly picks up a folder structure of Python code, and also allows explicit control so you can identify app code, test code, web pages, JavaScript, build scripts, and so on.  
@@ -64,7 +59,7 @@ The following resources will help you get started:
 - [Documentation](https://github.com/Microsoft/PTVS/wiki)  
 
 
-Note that Visual Studio does not at present provide the means to create a stand-alone executable using Python, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to do this as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
+Note that Visual Studio does not at present provide the means to create a stand-alone executable using Python, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to do this as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's Embeddable Zip File](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/).
   
 ## Building UI with Python  
 
@@ -98,4 +93,3 @@ We recommend obtaining IPython and scientific computing libraries (matplotlib, s
 [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)
 [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)
 [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)
-

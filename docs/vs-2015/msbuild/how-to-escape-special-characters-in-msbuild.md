@@ -1,14 +1,9 @@
 ---
 title: "How to: Escape Special Characters in MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "special characters, escaping"
   - "characters, escapes"
@@ -18,7 +13,7 @@ ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Escape Special Characters in MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,5 +44,3 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/v
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild](msbuild.md)
  [Items](../msbuild/msbuild-items.md)
-
-

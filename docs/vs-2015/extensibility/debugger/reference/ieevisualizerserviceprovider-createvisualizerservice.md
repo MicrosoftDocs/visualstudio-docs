@@ -1,22 +1,17 @@
 ---
 title: "IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerServiceProvider::CreateVisualizerService"
 helpviewer_keywords: 
   - "IEEVisualizerServiceProvider::CreateVisualizerService method"
 ms.assetid: f366f7c9-358d-46c8-993f-32ff86539833
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEEVisualizerServiceProvider::CreateVisualizerService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -73,4 +68,3 @@ int CreateVisualizerService(
  [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)   
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
-

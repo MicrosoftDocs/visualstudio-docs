@@ -1,14 +1,9 @@
 ---
 title: "Format Specifiers in C# | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -29,9 +24,9 @@ helpviewer_keywords:
   - "debugger, format specifiers recognized by"
 ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Format Specifiers in C# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,9 +40,9 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 ```  
 {  
-	    int my_var1 = 0x0065;  
-	    int my_var2 = 0x0066;  
-    	int my_var3 = 0x0067;  
+    int my_var1 = 0x0065;  
+    int my_var2 = 0x0066;  
+    int my_var3 = 0x0067;  
 }  
 ```  
   
@@ -72,8 +67,3 @@ You can change the format in which a value is displayed in the **Watch** window 
 ## See Also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
  [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
-
-
-
-
-

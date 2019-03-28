@@ -1,14 +1,13 @@
 ---
 title: Python interactive window (REPL)
-description: How to use the interactive window (REPL) for Python code in Visual Studio for rapid code development.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
+ms.date: 02/11/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -26,15 +25,11 @@ Visual Studio has a number of Python REPL modes to choose from:
 | Standard | Default REPL, talks to Python directly | Standard editing (multiline, etc.). | Yes, via `$attach` | No |
 | Debug | Default REPL, talks to debugged Python process | Standard editing | Only debugging | No |
 | IPython | REPL talks to IPython backend | IPython commands, Pylab conveniences | No | Yes, inline in REPL |
-| IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window | 
+| IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window |
 
 This article describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Use the IPython REPL](interactive-repl-ipython.md).
 
-For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md). 
-
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Python-Interactive-Window-gJYKY5LWE_4605918567) on the **Interactive** window (2m 22s).|
+For a detailed walkthrough with examples, including the interactions with the editor such as **Ctrl**+**Enter**, see [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
 
 ## Open an Interactive window
 
@@ -56,7 +51,7 @@ Finally, you can select code in file and use the [**Send to Interactive** comman
 
 ## Interactive window options
 
-You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python Tools** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
+You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
 
 ![Python interactive window options](media/options-interactive-windows.png)
 
@@ -122,4 +117,4 @@ Visual Studio also detects code cells starting with comments like `# In[1]:`, wh
 
 The **Interactive** window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. These suggestions are more correct in the **Interactive** window, especially with dynamically generated code. The drawback is that functions with side-effects (such as logging messages) may impact your development experience.
 
-If this behavior is a problem, change the settings under **Tools** > **Options** > **Python Tools** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).
+If this behavior is a problem, change the settings under **Tools** > **Options** > **Python** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).

@@ -1,8 +1,6 @@
 ---
 title: Keyboard and Mouse Shortcuts for Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.classdetails.window"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

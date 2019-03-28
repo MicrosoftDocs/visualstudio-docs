@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.instrument"
 helpviewer_keywords: 
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "pre-instrument events, performance tools"
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Specify Pre- and Post-Instrument Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,6 +85,3 @@ You can specify commands that run before or after the binaries in a performance 
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
-
-
-

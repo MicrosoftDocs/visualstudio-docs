@@ -1,21 +1,16 @@
 ---
 title: "Walkthrough: Using MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, tutorial"
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -581,5 +576,3 @@ $(PropertyName)
 ## See Also
 [MSBuild Overview](msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-

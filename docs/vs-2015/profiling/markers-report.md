@@ -1,21 +1,16 @@
 ---
 title: "Markers Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.report.markers"
 ms.assetid: 829ce099-172e-4c7e-bbd0-578b110c59bd
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Markers Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ The Markers Report lists the markers in the displayed time frame.  Panning or zo
   
 > [!NOTE]
 >  The Markers Report can display 1,000 markers. To see all markers, export the full report to a CSV file.
-
-
-

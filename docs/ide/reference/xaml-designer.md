@@ -1,14 +1,12 @@
 ---
 title: XAML Designer options page
 ms.date: 03/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.XAMLDesigner"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -17,7 +15,7 @@ ms.workload:
 Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Enable XAML Designer
 
@@ -52,15 +50,15 @@ Use this setting to determine how zoom works when editing a XAML document.
 |||
 |-|-|
 |**Mouse wheel**|Zoom in the XAML Designer by scrolling the mouse wheel.|
-|**Ctrl + mouse wheel**|Zoom in the XAML Designer by pressing the CTRL key while scrolling the mouse wheel.|
-|**Alt + mouse wheel**|Zoom in the XAML Designer by pressing the ALT key while scrolling the mouse wheel.|
+|**Ctrl + mouse wheel**|Zoom in the XAML Designer by pressing the **Ctrl** key while scrolling the mouse wheel.|
+|**Alt + mouse wheel**|Zoom in the XAML Designer by pressing the **Alt** key while scrolling the mouse wheel.|
 
 These settings determine Designer behavior when editing a XAML document.
 
 |||
 |-|-|
 |**Automatically name interactive elements on creation**|Specifies whether a default name is provided for a new interactive element when you add one to the Designer.|
-|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer.|
+|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer. Layout properties are those that impact the layout of a control, for example, Margin and VerticalAlignment. The following XAML shows how a Button is created with and without this option selected:<br />`<Button Content="Button" HorizontalAlignment="Left" Margin="245,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>`<br />`<Button Content="Button" Grid.Row="1"/>`|
 |**Use quadrant based layout**|Specifies whether the currently selected control aligns to the nearest edges of the parent container. If this checkbox is cleared, control alignments do not change during a move or create operation.|
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|
 
@@ -70,7 +68,7 @@ Use these options to determine settings when editing XAML files using Blend.
 
 |||
 |-|-|
-|**Zoom by using**|Zoom in the XAML Designer by scrolling the mouse wheel, or by pressing the CTRL or ALT key while scrolling the mouse wheel.|
+|**Zoom by using**|Zoom in the XAML Designer by scrolling the mouse wheel, or by pressing the **Ctrl** or **Alt** key while scrolling the mouse wheel.|
 |**Type units**|Specifies whether measurements on the designer are based on points or pixels. Because Universal Windows Apps don't support points, units are automatically converted to pixels if **Points** is selected.|
 
 ## Artboard (Blend only)

@@ -1,20 +1,17 @@
 ---
 title: "Add commands and gestures to layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, adding custom commands"
   - "layer diagrams, adding custom gestures"
 ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 40
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add commands and gestures to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -265,6 +262,3 @@ namespace MyLayerExtensions // change to your preference
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   
  [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)
-
-
-

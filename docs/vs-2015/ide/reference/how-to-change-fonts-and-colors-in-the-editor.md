@@ -1,14 +1,9 @@
 ---
 title: "How to: Change Fonts and Colors in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "editors, fonts"
   - "text, color"
@@ -19,7 +14,7 @@ ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Change Fonts and Colors in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +29,7 @@ You can change the default font face, adjust the font size, and change the foreg
 -   **Item foreground**, **Item background**, and **Bold** options can be set for each type of text element. For example, if you change colors and select **Bold** for **Comment** and **Bookmarks**, other types of text elements will be unaffected.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To change the default font face, size, and colors  
   
@@ -58,6 +53,3 @@ You can change the default font face, adjust the font size, and change the foreg
  [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)   
  [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)   
  [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-

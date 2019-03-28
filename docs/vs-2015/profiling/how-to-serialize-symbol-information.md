@@ -1,14 +1,9 @@
 ---
 title: "How to: Serialize Symbol Information | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ToolsOptionsPages.Performance.General"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "performance tools, serializing symbol information"
 ms.assetid: 9e0da706-6325-4073-83d1-aeab3b7c137a
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Serialize Symbol Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,4 @@ You can serialize symbols that you must have to analyze your application. Symbol
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
- [How to: Save Analyzed Report Files](http://msdn.microsoft.com/en-us/0340ddde-caf4-48ac-8af3-d15dcdade556)
-
-
-
+ [How to: Save Analyzed Report Files](http://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)

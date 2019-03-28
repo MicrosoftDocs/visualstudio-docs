@@ -1,18 +1,13 @@
 ---
 title: "Isolating Code Under Test with Microsoft Fakes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: a03c2e83-a41f-4854-bcf2-fcaa277a819d
 caps.latest.revision: 18
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Isolating Code Under Test with Microsoft Fakes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,7 +135,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
     ```  
   
-     The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is the derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.  
+     The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.  
   
      Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Using stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).  
   
@@ -247,6 +242,3 @@ System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
  [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
   
  [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)
-
-
-

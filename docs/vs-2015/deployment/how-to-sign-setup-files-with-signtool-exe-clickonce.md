@@ -1,14 +1,9 @@
 ---
 title: "How to: Sign Setup Files with SignTool.exe (ClickOnce) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: 545a4005-d283-4110-9821-c78a9833c250
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Sign Setup Files with SignTool.exe (ClickOnce)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ You can use SignTool.exe to sign a Setup program (setup.exe). This process helps
   
 ## See Also  
  [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
-
-
-

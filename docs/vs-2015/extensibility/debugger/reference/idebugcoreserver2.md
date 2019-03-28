@@ -1,22 +1,17 @@
 ---
 title: "IDebugCoreServer2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCoreServer2"
 helpviewer_keywords: 
   - "IDebugCoreServer2 interface"
 ms.assetid: 9c47d0a6-9eb1-464e-bd44-fa2b552d4d36
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugCoreServer2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -65,4 +60,3 @@ IDebugCoreServer2 : IUknown
  [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
  [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)   
  [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
-

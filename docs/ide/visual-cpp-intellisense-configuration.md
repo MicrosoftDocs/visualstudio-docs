@@ -1,7 +1,6 @@
 ---
 title: Configure a C++ project for IntelliSense
 ms.date: 10/08/2018
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: mblome
 ms.author: mblome
@@ -47,7 +46,7 @@ For more information, see [How to: Enable IntelliSense for Makefile Projects](/c
 
 ### Open Folder projects
 
-For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/ide/non-msbuild-projects#cppproperties). Make sure that the paths are correct for each configuration that is defined in the file.
+For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-intellisense-and-browsing-hints-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
 
 If there is a syntax error in the CppProperties.json file, IntelliSense in the affected files will be incorrect. Visual Studio will display the error in the Output Window.
 
@@ -67,9 +66,9 @@ There are two common ways in which this problem manifests in Visual Studio:
 
    ![Tag parser offers to define existing function](media/vcpp-intellisense-tag-parser-function.png)
 
-To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/ide/hint-files).
+To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/build/reference/hint-files).
 
-**Visual Studio 2017 version 15.7** Tag Parser errors appear in the Error List window.
+Tag parser errors appear in the **Error List** window.
 
 ## Validate project settings with diagnostic logging
 
@@ -102,7 +101,7 @@ However, in some cases Visual Studio might not update the IntelliSense database 
 
 ## Troubleshooting IntelliSense build failures
 
-An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In  Visual Studio 2017 version 15.6, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
+An IntelliSense build does not produce binaries, but it can still fail. One possible cause for failure is custom .props or .targets files. In Visual Studio 2017 version 15.6 and later, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
 
 ![Output window for solution errors](media/vcpp-intellisense-output-window.png)
 

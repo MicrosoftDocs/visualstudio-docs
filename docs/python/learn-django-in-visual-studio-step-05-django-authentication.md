@@ -1,14 +1,14 @@
 ---
-title: Tutorial - Learn Django in Visual Studio, step 5
+title: Learn Django tutorial in Visual Studio, step 5, authentication
+titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically authentication features as provided by the Django Web Project templates.
-ms.date: 08/13/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 11/19/2018
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -147,24 +147,30 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. To check whether the authenticated user is authorized to access specific resources, you need to retrieve user-specific permissions from your database. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
 
-1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, open the Django project's *urls.py* and remove the comments from the following entries:
+1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, do the following:
 
-    ```python
-    from django.conf.urls import include
-    from django.contrib import admin
-    admin.autodiscover()
+    1. Install the docutils Python package into your environment. A great way to do this is to add "docutils" to your *requirements.txt* file, then in **Solution Explorer**, expand the project, expand the **Python Environments** node, then right-click the environment you're using an select **Install from requirements.txt**.
 
-    # ...
-    urlpatterns = [
+    1. Open the Django project's *urls.py* and remove the default comments from the following entries:
+
+        ```python
+        from django.conf.urls import include
+        from django.contrib import admin
+        admin.autodiscover()
+
         # ...
-        url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-        url(r'^admin/', include(admin.site.urls)),
-    ]
-    ```
+        urlpatterns = [
+            # ...
+            url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+            url(r'^admin/', include(admin.site.urls)),
+        ]
+        ```
 
-    When you restart the app, you can navigate to "/admin/" and "/admin/doc/" and perform tasks like create additional user accounts.
+    1. In the Django project's *settings.py* file, navigate to the `INSTALLED_APPS` collection and add `'django.contrib.admindocs'`.
 
-    ![Django administrator interface](media/django/step05-administrator-interface.png)
+    1. When you restart the app, you can navigate to "/admin/" and "/admin/doc/" and perform tasks like creating additional user accounts.
+
+        ![Django administrator interface](media/django/step05-administrator-interface.png)
 
 1. The final part to the authentication flow is logging off. As you can see in *loginpartial.html*, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in *urls.py* for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
 

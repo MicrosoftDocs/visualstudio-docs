@@ -1,66 +1,68 @@
 ---
-title: "How to: Debug an executable that is not part of a Visual Studio solution | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
+title: "Debug an app that isn't part of a Visual Studio solution"
+titleSuffix: ""
+ms.custom: "seodec18"
+ms.date: "11/19/2018"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
   - "JScript"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], executables"
   - "executable files, importing"
   - "executable files, debugging outside of projects"
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# How to: Debug an executable that is not part of a Visual Studio solution
-Sometimes, you may want to debug an executable (.exe file) that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or an executable you received from someone else.  
-  
-The usual answer to this problem is to start the executable outside of Visual Studio and attach to it using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
-  
-Attaching to an application requires some manual steps, so it takes a few seconds. This slight delay means that attaching will not help if you are trying to debug a problem that occurs during startup. Also, if you are debugging a program that does not wait for user input and finishes quickly, you may not have time to attach to it. If you have [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] and [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] installed, you can create an EXE project for such a program.
+# Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 
-> [!NOTE]
->  Not all programming languages support EXE projects.
+You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. You or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 
-When you are debugging an executable that is not part of your Visual Studio solution, the available debugging features may be limited, whether you attach to a running executable or add the executable to a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.
+The usual way to debug an app that doesn't exist in Visual Studio is to start the app outside of Visual Studio, and then attach to it using **Attach to Process** in the Visual Studio debugger. For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-- If you have the source code, the best approach is to import the source code into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and create a debug build of the executable in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
-- If you don't have the source code, and if the executable was built without [debug information](../debugger/how-to-set-debug-and-release-configurations.md) in a compatible format, available debugging features are very limited. 
-  
-### To create an EXE project for an existing executable  
-  
-1.  On the **File** menu, click **Open** and select **Project**.  
-  
-2.  In the **Open Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
-  
-3.  Locate the executable, and click **OK**.  
+Attaching to an app requires manual steps that take a few seconds. Because of this delay, attaching won't help debug a startup issue, or an app that doesn't wait for user input and finishes quickly.
 
-    This creates a temporary solution that contains the executable.
+In these situations, you can create a Visual Studio EXE project for the app, or import it into an existing C#, Visual Basic, or C++ solution. Not all programming languages support EXE projects.
 
-5.  Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.    
-  
-### To import an executable into a Visual Studio solution  
-  
-1.  On the **File** menu, point to **Add Project**, and then click **Existing Project**.  
-  
-2.  In the **Add Existing Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
-  
-3.  Locate and select the executable.  
-  
-4.  Click **OK**.  
-  
-5.  Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.    
-  
-## See Also  
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Debugger Security](../debugger/debugger-security.md)   
- [DBG Files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))
+>[!IMPORTANT]
+>Debugging features for an app that wasn't built in Visual Studio are limited, whether you attach to the app or add it to a Visual Studio solution.
+>
+>If you have the source code, the best approach is to import the code into a Visual Studio project. Then, run a debug build of the app.
+>
+>If you don't have the source code, and the app doesn't have [debug information](../debugger/how-to-set-debug-and-release-configurations.md) in a compatible format, available debugging features are very few.
+
+### To create a new EXE project for an existing app
+
+1. In Visual Studio, select **File** > **Open** > **Project**.
+
+1. In the **Open Project** dialog box, select **All Project Files**, if not already selected, in the dropdown next to **File name**.
+
+1. Navigate to the *.exe* file, select it, and select **Open**.
+
+   The file appears in a new, temporary Visual Studio solution.
+
+1. Start debugging the app by selecting an execution command, like **Start Debugging**, from the **Debug** menu.
+
+### To import an app into an existing Visual Studio solution
+
+1.  With a C++, C#, or Visual Basic solution open in Visual Studio, select **File** > **Add** > **Existing Project**.
+
+1. In the **Open Project** dialog box, select **All Project Files**, if not already selected, in the dropdown next to **File name**.
+
+1. Navigate to the *.exe* file, select it, and select **Open**.
+
+   The file appears as a new project under the current solution.
+
+1. With the new file selected, start debugging the app by selecting an execution command, like **Start Debugging**, from the **Debug** menu.
+
+### See also
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
+- [Debugger security](../debugger/debugger-security.md)
+- [DBG files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))

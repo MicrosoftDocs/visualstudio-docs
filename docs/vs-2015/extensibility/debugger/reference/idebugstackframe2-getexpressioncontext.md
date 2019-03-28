@@ -1,22 +1,17 @@
 ---
 title: "IDebugStackFrame2::GetExpressionContext | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugStackFrame2::GetExpressionContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,4 +48,3 @@ int GetExpressionContext ( 
  [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)   
  [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)   
  [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Creating an Extension with a Menu Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "write a vspackage"
   - "vspackage"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "visual studio package"
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
 caps.latest.revision: 57
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating an Extension with a Menu Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -133,4 +128,3 @@ This walkthrough shows how to create an extension with a menu command that launc
 5. Add Options and Property pages and user settings to your extension: [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md) and [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md)  
   
    Other kinds of extensions require a little more work, such as creating a new type of project ([Extending Projects](../extensibility/extending-projects.md)), creating a new type of editor ([Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)
-

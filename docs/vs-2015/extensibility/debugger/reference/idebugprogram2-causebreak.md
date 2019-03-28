@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgram2::CauseBreak | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgram2::CauseBreak"
 helpviewer_keywords: 
   - "IDebugProgram2::CauseBreak"
 ms.assetid: 07d353fc-68ab-4297-a18f-3d3c7a80e121
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgram2::CauseBreak
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ int CauseBreak();
 ## See Also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "VSPackages and the Managed Package Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed package framework"
   - "VSPackages, managed package framework"
   - "managed VSPackages, managed package framework"
 ms.assetid: e8d80e0f-6b5b-4baf-a7df-59fd808c60cd
 caps.latest.revision: 16
-manager: "douge"
+manager: jillfra
 ---
 # VSPackages and the Managed Package Framework
 You can reduce development time by creating a VSPackage with the managed package framework (MPF) classes instead of by using COM interop classes.  

@@ -1,23 +1,18 @@
 ---
 title: "Sleep Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.sleep"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Sleep Time"
 ms.assetid: 3ddb96f9-9bda-4a68-ad4d-ef488a0a68dc
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Sleep Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,6 +21,3 @@ These segments in the timeline are associated with the blocking time that is cat
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "Test Windows UWP and 8.1 Store Apps with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
 caps.latest.revision: 26
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Test Windows UWP and 8.1 Store Apps with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -323,6 +318,3 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Set a Unique Automation Property for Windows Store Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)
-
-
-

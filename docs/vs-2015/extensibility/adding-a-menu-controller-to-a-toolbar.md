@@ -1,22 +1,17 @@
 ---
 title: "Adding a Menu Controller to a Toolbar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "toolbars [Visual Studio], adding menu controllers"
   - "menus, adding menu controllers to toolbars"
   - "menu controllers, adding to toolbars"
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 caps.latest.revision: 39
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Menu Controller to a Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -228,4 +223,3 @@ This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibil
 ## See Also  
  [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md)   
  [Adding a Toolbar](../extensibility/adding-a-toolbar.md)
-

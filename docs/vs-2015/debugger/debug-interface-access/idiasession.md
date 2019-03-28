@@ -1,23 +1,18 @@
 ---
 title: "IDiaSession | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession interface"
 ms.assetid: 69dab9bf-2c68-4f70-9678-3b50fba3e6fa
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -127,6 +122,3 @@ void InitializeDIA(const char *szFilename)
  [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)   
  [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)   
  [Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)
-
-
-

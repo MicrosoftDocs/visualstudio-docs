@@ -1,23 +1,18 @@
 ---
 title: "CvLeaveSpan Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "cvmarkers/CvLeaveSpan"
 helpviewer_keywords: 
   - "CvLeaveSpan method"
 ms.assetid: 3bf65fdf-a471-4efd-ac7a-03e701bbae5d
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CvLeaveSpan Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT CvLeaveSpan(
   
 ## See Also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)
-
-
-

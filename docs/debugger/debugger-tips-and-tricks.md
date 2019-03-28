@@ -1,24 +1,23 @@
 ---
-title: "Tips and Tricks in the Visual Studio Debugger"
+title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
-ms.custom: ""
-ms.date: "06/15/2017"
-ms.technology: "vs-ide-debug"
+ms.custom: "seodec18"
+ms.date: "06/15/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "stepping"
   - "debugging [Visual Studio], execution control"
   - "execution, controlling in debugger"
 ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
-Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
+Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
 
@@ -72,9 +71,9 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
     ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-  
+
 4.  You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
-  
+
 5.  Right-click the object ID variable and choose **Add Watch**.
 
 For more information, see [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
@@ -118,11 +117,11 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 #### To show threads in your source code
 
 1.  While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
-  
+
 2.  Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
     Notice that a thread marker may be partially concealed by a breakpoint.
-  
+
 3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
@@ -139,7 +138,7 @@ Select an operation in the summary view to view more details.
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
-## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app
+## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 
 To attach to your running app, the debugger loads symbol (.pdb) files generated for the exact same build of the app you are trying to debug. In some scenarios, a little knowledge of symbol files can be helpful. You can examine how Visual Studio loads symbol files using the **Modules** window.
 
@@ -157,8 +156,8 @@ To find out how the debugger classifies code as user code, see [Just My Code](..
 
 For additional tips and tricks and more detailed information, see these blog posts:
 
-- [7 lesser known hacks for debugging in Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2017/06/26/7-lesser-known-hacks-for-debugging-in-visual-studio/)
-- [7 hidden gems in Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2017/10/05/7-hidden-gems-in-visual-studio-2017/)
+- [7 lesser known hacks for debugging in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
+- [7 hidden gems in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
 ## See Also
 [Keyboard Shortcuts](../ide/tips-and-tricks-for-visual-studio.md)

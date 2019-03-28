@@ -1,8 +1,6 @@
 ---
 title: "CA1301: Avoid duplicate accelerators"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1301"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 20570a00-864b-459c-a1fa-a6e9db5f1001
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

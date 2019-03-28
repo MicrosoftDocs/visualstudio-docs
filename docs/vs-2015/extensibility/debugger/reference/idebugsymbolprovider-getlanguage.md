@@ -1,22 +1,17 @@
 ---
 title: "IDebugSymbolProvider::GetLanguage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugSymbolProvider::GetLanguage"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugSymbolProvider::GetLanguage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ int GetLanguage(
 ## See Also  
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
-

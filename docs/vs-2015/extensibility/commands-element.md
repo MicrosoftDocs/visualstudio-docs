@@ -1,14 +1,9 @@
 ---
 title: "Commands Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "Commands"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Commands"
 ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Commands Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,4 +87,3 @@ Represents the collection of commands on the VSPackage toolbar. The collection c
 ## See Also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

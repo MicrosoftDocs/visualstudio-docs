@@ -55,7 +55,7 @@ public class VirtualModeDemo : Form
     //</snippet30>
 
     //<snippet10>
-    #region "data store maintance"
+    #region "data store maintenance"
     const int initialValue = -1;
 
     private void dataGridView1_CellValueNeeded(object sender,

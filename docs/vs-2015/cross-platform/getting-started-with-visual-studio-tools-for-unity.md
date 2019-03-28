@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
+ms.technology: vs-unity-tools
 ms.topic: conceptual
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 caps.latest.revision: 12
-author: "TerryGLee"
-ms.author: "tglee"
-manager: "ghogen"
+author: conceptdev
+ms.author: crdun
+manager: jillfra
 ---
 # Getting Started with Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,4 +108,3 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
   
 ## See Also  
  [Unity Homepage](http://unity3d.com)
-

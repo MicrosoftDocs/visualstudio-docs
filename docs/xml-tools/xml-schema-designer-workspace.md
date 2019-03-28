@@ -1,13 +1,11 @@
 ---
 title: "XML Schema Designer Workspace"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 588fa495-fe7f-4b16-8a9f-6b6b8d2d502a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -25,7 +23,7 @@ You can add nodes to the workspace in the following ways:
 
 -   Drag and drop global nodes, file nodes, and namespace nodes from the **XML Schema Explorer** onto any of the three views. For more information, see the "Dragging and Dropping Nodes" section in [XML Schema Explorer](../xml-tools/xml-schema-explorer.md).
 
--   Use the context menu in the **XML Schema Explorer**. For more information, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md).
+-   Use the context (right-click) menu in the **XML Schema Explorer**. For more information, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md).
 
 -   Perform a search in the XSD Explorer and click the **Add highlighted nodes to Workspace** button on the summary results pane. For more information, see [Searching the schema set](../xml-tools/searching-the-schema-set.md).
 
@@ -35,7 +33,7 @@ To switch views, use one of the following:
 
 -   The XSD Designer toolbar.
 
--   The context menus of the Content Model View and the Graph View.
+-   The context (right-click) menus of the Content Model View and the Graph View.
 
 -   The watermarks on the Start View page or the watermark on the blank Content Model View or the Graph View.
 

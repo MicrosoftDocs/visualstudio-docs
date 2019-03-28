@@ -1,20 +1,15 @@
 ---
 title: "How to: Register for Text Buffer Events with the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - register for text buffer events"
 ms.assetid: 5fc00ced-882c-4b48-b46c-1fa5a2469f94
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Register for Text Buffer Events with the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ If you are accessing the text buffer by using the legacy API, you should registe
   
 ## See Also  
  [Text Buffer Events in the Legacy API](../extensibility/text-buffer-events-in-the-legacy-api.md)
-

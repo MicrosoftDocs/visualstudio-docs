@@ -1,23 +1,18 @@
 ---
 title: "IDiaFrameData::get_virtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaFrameData::get_virtualAddress method"
 ms.assetid: de137bee-132f-4aae-a067-9578b7a3e6d4
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaFrameData::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ HRESULT get_virtualAddress ( 
   
 ## See Also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
-
-
-

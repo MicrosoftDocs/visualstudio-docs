@@ -1,13 +1,11 @@
 ---
 title: "Examine the Content Model of Nodes Using the Content Model View in XML Schema Designer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,11 +17,11 @@ This topic describes how to explore your nodes using the [Content Model View](..
 
 1.  Create a new XML Schema file.
 
-2.  Click **Use XML Editor to view and edit the underlying XML Schema file** on the Start View.
+2.  Click **Use XML editor to view and edit the underlying XML Schema file** on the Start View.
 
 3.  Copy the XML Schema sample code from [Sample XML schema: purchase order schema](../xml-tools/sample-xsd-file-purchase-order-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
-4.  Select the `purchaseOrder` element in the Schema Explorer by right-clicking the `purchaseOrder` element in the XML Editor and selecting **Show in XML Explorer**.
+4.  Select the `purchaseOrder` element in the Schema Explorer by right-clicking the `purchaseOrder` element in the XML editor and selecting **Show in XML Explorer**.
 
 5.  Right-click the `purchaseOrder` in the XML Explorer and select **Show in Content Model View**.
 

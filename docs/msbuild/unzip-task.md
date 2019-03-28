@@ -1,28 +1,26 @@
 ---
 title: "Unzip Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Unzip"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Unzip task [MSBuild]"
   - "MSBuild, Unzip task"
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
 author: Mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Unzip task
@@ -30,24 +28,24 @@ Unzips a *.zip* archive to the specified location.
 
 >[!NOTE]
 >The `Unzip` task is available in MSBuild 15.8 and above only.
-  
-## Parameters  
- The following table describes the parameters of the `Unzip` task.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
+
+## Parameters
+ The following table describes the parameters of the `Unzip` task.
+
+|Parameter|Description|
+|---------------|-----------------|
 |`DestinationFolder`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> Specifies the destination folder to unzip the file to.|
 |`OverwriteReadOnlyFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, overwrites read-only files. Defaults to `false`.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips unzipping files that are unchanged. Defaults to `true`. The `Unzip` task considers files to be unchanged if they have the same size and the same last modified time.|
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more the files to unzip. When specifying multiple files they are unzipped in order to the same folder.|
-  
-## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
-  
-## Example  
+
+## Remarks
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
+
+## Example
  The following example unzips an archive and overwrites any read-only files.
-  
-```xml  
+
+```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <Target Name="UnzipArchive" BeforeTargets="Build">
@@ -60,7 +58,7 @@ Unzips a *.zip* archive to the specified location.
 
 </Project>
 ```
-  
-## See also  
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Task reference](../msbuild/msbuild-task-reference.md)
+
+## See also
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

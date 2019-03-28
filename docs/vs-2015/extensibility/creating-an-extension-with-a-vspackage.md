@@ -1,18 +1,13 @@
 ---
 title: "Creating an Extension with a VSPackage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating an Extension with a VSPackage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
 3.  Build the project and start debugging. The experimental instance appears.  
   
 4.  Open a solution in the experimental instance. You should see a message box that says **First Package Inside Initialize()**.
-

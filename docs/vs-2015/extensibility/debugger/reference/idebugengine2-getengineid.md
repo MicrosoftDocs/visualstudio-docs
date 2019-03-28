@@ -1,22 +1,17 @@
 ---
 title: "IDebugEngine2::GetEngineID | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEngine2::GetEngineID"
 helpviewer_keywords: 
   - "IDebugEngine2::GetEngineID"
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEngine2::GetEngineID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine){
   
 ## See Also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
-

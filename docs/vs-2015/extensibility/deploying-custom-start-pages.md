@@ -1,21 +1,16 @@
 ---
 title: "Deploying Custom Start Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "package start page"
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +22,7 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 - You can put the .vsix file on a network share or on a public Web site. When someone opens the file, the Start Page is automatically installed.  
   
-- You can upload the .vsix file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can install it by using **Extension Manager**.  
+- You can upload the .vsix file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can install it by using **Extension Manager**.  
   
   The Start Page project template creates a copy of the default Visual Studio Start Page so that you can modify the copy and preserve the original.  
   
@@ -92,4 +87,3 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)
-

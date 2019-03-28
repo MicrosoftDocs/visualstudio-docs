@@ -1,8 +1,6 @@
 ---
 title: Troubleshoot snippets
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "IntelliSense Code Snippets, troubleshooting"
@@ -11,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

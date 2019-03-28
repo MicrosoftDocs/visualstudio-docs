@@ -1,8 +1,6 @@
 ---
 title: -Upgrade (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
   - "/upgrade Devenv switch"
@@ -11,42 +9,50 @@ helpviewer_keywords:
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # /Upgrade (devenv.exe)
-Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] formats for these files.
+
+Updates the solution file and all of its project files, or the project file specified, to the current Visual Studio formats for these files.
 
 ## Syntax
 
-```cmd
-devenv SolutionFile | ProjectFile /upgrade
+```shell
+devenv {SolutionFile|ProjectFile} /Upgrade [/Out OutputFilename]
 ```
 
 ## Arguments
- `SolutionFile`
 
- Required if you are upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named does not yet exist, it will be created.
+- *SolutionFile*
 
- `ProjectFile`
+  Required if you're upgrading an entire solution and its projects. The path and name of a solution file. You can enter just the name of the solution file, or a full path and the name of the solution file. If the folder or file named doesn't yet exist, it's created.
 
- Required if you are upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named does not yet exist, it will be created.
+- *ProjectFile*
+
+  Required if you're upgrading a single project. The path and name of a project file within the solution. You can enter just the name of the project file, or a full path and the name of the project file. If the folder or file named doesn't yet exist, it's created.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
- Backups are automatically created and copied to a directory named Backup that is created in the current directory.
 
- Source-controlled solutions or projects must be checked out before they can be upgraded.
+Backups are automatically created and copied to a directory named Backup that's created in the current directory.
 
- Using the `/upgrade` switch does not start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+Source-controlled solutions or projects must be checked out before they can be upgraded.
+
+Using the `/Upgrade` switch doesn't open Visual Studio. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in Visual Studio, see [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ## Example
- This example upgrades a solution file named "MyProject.sln" in your default folder for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] solutions.
 
-```cmd
-devenv "MyProject.sln" /upgrade
+This example upgrades a solution file named "MyProject.sln".
+
+```shell
+devenv "%USERPROFILE%\source\repos\MyProject\MyProject.sln" /upgrade
 ```
 
-## See Also
+## See also
 
-- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

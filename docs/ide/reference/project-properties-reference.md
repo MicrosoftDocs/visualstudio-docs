@@ -1,8 +1,6 @@
 ---
 title: Project Properties Reference
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "user interface [Visual Studio], projects"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

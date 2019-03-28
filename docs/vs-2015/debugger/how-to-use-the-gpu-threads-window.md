@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the GPU Threads Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.gputthreads"
   - "vs.debug.gputhreads"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "debugger, GPU threads window"
 ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use the GPU Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,6 +103,3 @@ In the GPU Threads window, you can examine and work with threads that are runnin
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)   
  [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
-
-
-

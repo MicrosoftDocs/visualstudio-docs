@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#MSBuild"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -192,6 +187,3 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

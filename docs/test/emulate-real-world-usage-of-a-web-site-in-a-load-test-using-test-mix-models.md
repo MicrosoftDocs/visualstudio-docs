@@ -8,13 +8,13 @@ helpviewer_keywords:
 ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Emulate expected real-world usage of a website or application in a load test using a test mix model
 
 You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Test mix model enhancements
 

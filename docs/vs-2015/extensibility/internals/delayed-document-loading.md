@@ -1,18 +1,13 @@
 ---
 title: "Delayed Document Loading | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Delayed Document Loading
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ When a user reopens a Visual Studio solution, most of the associated documents a
  There is no visible cue to indicate whether a document has been initialized, so it can be difficult to find out if your extension is forcing initialization. You can set a registry key that makes verification easier, because it causes the title of every document that is not fully initialized to have the text `[Stub]` in the title.  
   
  In **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\BackgroundSolutionLoad]**, set **StubTabTitleFormatString** to **{0} [Stub]**.
-

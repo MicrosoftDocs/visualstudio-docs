@@ -1,18 +1,13 @@
 ---
 title: "Creating a Custom Start Page | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating a Custom Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ If you cannot create a custom Start Page by using the Start Page project templat
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)   
  [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)   
  [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md)
-

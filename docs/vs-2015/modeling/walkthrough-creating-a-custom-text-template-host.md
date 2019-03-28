@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Creating a Custom Text Template Host | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "walkthroughs [text templates], custom host"
   - "text templates, custom host walkthrough"
@@ -14,7 +11,7 @@ ms.assetid: d00bc366-65ed-4229-885a-196ef9625f05
 caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Text Template Host
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -818,6 +815,3 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
-
-
-

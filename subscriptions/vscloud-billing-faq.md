@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/02/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Visual Studio cloud subscriptions billing FAQ
@@ -48,7 +46,7 @@ Azure subscription is part of your Enterprise Agreement.
 Another approach is to attempt to visit the [Azure Enterprise Portal](http://ea.azure.com).  If you can reach it successfully, then you already have either
 the Enterprise Admin or the Account Owner role. Only Account Owners can set up new Azure billing accounts in an Enterprise Agreement. If you cannot access
 the Azure Enterprise Portal, then please inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an
-Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](http://aka.ms/AzureEntSupport)
+Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](https://aka.ms/AzureEntSupport)
 and request the contact information.  You need your organization's name and your Enterprise Agreement enrollment number for the support ticket.
 
 ### Q: Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy Visual Studio cloud subscriptions?
@@ -81,7 +79,7 @@ With monthly cloud subscriptions, cancelations take effect the first day of the 
 be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
 For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
-renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
+renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
 it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no
 rebate for canceling part way through the subscription year with annual cloud subscriptions.
 
@@ -97,6 +95,9 @@ A:  You get a 5% discount on the 6th and all subsequent subscriptions *within ea
 So for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on 5 Professional, get a 5% discount on the 6th Professional, and pay regular price on all 5 Enterprise subscriptions.
 
 Also, the discount only applies to charges in a given monthly billing period. So if you buy 5 Visual Studio Professional annual subscriptions in one month, and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 ## Other questions
 
@@ -118,14 +119,13 @@ A:  Yes. As new versions are released, you can download and run them. Plus you c
 
 ### Q: Can I buy Visual Studio cloud subscriptions from my software reseller?
 
-A:  Yes you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
+A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
 
 ## Buy cloud subscriptions now
 
 * [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
-* [Visual Studio Professional annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual)
 * [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
-* [Visual Studio Enterprise annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual)
+
 
 ## Related resources
 

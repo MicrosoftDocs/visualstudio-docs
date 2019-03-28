@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Response Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
 caps.latest.revision: 6
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Response Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ Response (.rsp) files are text files that contain MSBuild.exe command line switc
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
-
-
-

@@ -2,7 +2,6 @@
 title: "IActiveScriptErrorDebug::GetStackFrame | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides the stack frame that is in effect for runtime errors.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStackFrame(  
    IDebugStackFrame**  ppdsf  
 );  

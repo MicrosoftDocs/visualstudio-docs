@@ -1,5 +1,5 @@
 ---
-title: "Add and Delete Counters on Graphs in Load Test Results in Visual Studio"
+title: "Add and Delete Counters on Graphs in Load Test Results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,21 +10,21 @@ helpviewer_keywords:
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
 
 You can use the **Counters** panel to add performance counters to a graph.
 
- ![Added counter to graph](../test/media/ltest_selectcounter.png)
+![Added counter to graph](../test/media/ltest_selectcounter.png)
 
- **Performance Counter Sampling Interval Considerations**
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- Choose a value for the **Sample Rate** property in the load test run settings based on the length of your load test. A smaller sample rate, such as the default value of five seconds, requires more space in the load test results database. For longer load tests, increasing the sample rate reduces the amount of data that you collect. For more information, see [How to: Specify the sample rate](../test/how-to-specify-the-sample-rate-for-a-load-test.md).
+**Performance Counter Sampling Interval Considerations**
 
- Here are some guidelines for sample rates:
+Choose a value for the **Sample Rate** property in the load test run settings based on the length of your load test. A smaller sample rate, such as the default value of five seconds, requires more space in the load test results database. For longer load tests, increasing the sample rate reduces the amount of data that you collect. For more information, see [How to: Specify the sample rate](../test/how-to-specify-the-sample-rate-for-a-load-test.md).
+
+Here are some guidelines for sample rates:
 
 |Load Test Duration|Recommended Sample Rate|
 |-|-----------------------------|
@@ -33,11 +33,11 @@ You can use the **Counters** panel to add performance counters to a graph.
 |8 - 24 Hours|30 seconds|
 |> 24 Hours|60 seconds|
 
- **Considerations for including Timing Details to Collect Percentile Data**
+**Considerations for including Timing Details to Collect Percentile Data**
 
- There is a property in the run settings in the Load Test Editor named **Timing Details Storage**. If the **Timing Details Storage** property is enabled, then the time to execute each individual test, transaction, and page during the load test will be stored in the load test results repository. This allows for 90th and 95th percentile data to be shown in the **Load Test Analyzer** in the Tests, Transactions, and Pages tables.
+There is a property in the run settings in the Load Test Editor named **Timing Details Storage**. If the **Timing Details Storage** property is enabled, then the time to execute each individual test, transaction, and page during the load test will be stored in the load test results repository. This allows for 90th and 95th percentile data to be shown in the **Load Test Analyzer** in the Tests, Transactions, and Pages tables.
 
- There are two choices for enabling the **Timing Details Storage** property in the run settings properties named **StatisticsOnly** and **AllIndividualDetails**. With either option, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, as soon as the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when you use timing details. However, advanced users might want to process the timing detail data in other ways, by using SQL tools. If this is the case, the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the **Virtual User Activity** chart in the **Load Test Analyzer** after the load test completes running. For more information, see [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md).
+There are two choices for enabling the **Timing Details Storage** property in the run settings properties named **StatisticsOnly** and **AllIndividualDetails**. With either option, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, as soon as the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when you use timing details. However, advanced users might want to process the timing detail data in other ways, by using SQL tools. If this is the case, the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the **Virtual User Activity** chart in the **Load Test Analyzer** after the load test completes running. For more information, see [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md).
 
 The amount of space that is required in the load test results repository to store the timing details data could be very large, especially for longer running load tests. Also, the time to store this data in the load test results repository at the end of the load test is longer because this data is stored on the load test agents until the load test has finished executing. When the load test finishes, the data is stored into the repository. By default, the **Timing Details Storage** property is enabled. If this is an issue for your testing environment, you might want to set the **Timing Details Storage** to **None**.
 

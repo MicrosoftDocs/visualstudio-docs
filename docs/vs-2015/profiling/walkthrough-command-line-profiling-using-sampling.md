@@ -1,23 +1,18 @@
 ---
 title: "Walkthrough: Command-Line Profiling Using Sampling | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
   - "performance tools, command-line tools"
 ms.assetid: 1d53972f-6f35-4842-8c74-1b627f18c70a
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Command-Line Profiling Using Sampling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,6 +105,3 @@ This walkthrough demonstrates how to profile an application by using command-lin
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
  [Performance Report Views](../profiling/performance-report-views.md)
-
-
-

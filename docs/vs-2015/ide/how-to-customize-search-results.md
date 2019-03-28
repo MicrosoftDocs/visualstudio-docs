@@ -1,14 +1,9 @@
 ---
 title: "How to: Customize Search Results | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Help Viewer 2.0, customizing search results"
   - "customizing search results [Help Viewer 2.0]"
@@ -16,7 +11,7 @@ ms.assetid: 3431ec03-0221-4be2-9936-887a1c36db89
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Customize Search Results
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ You can customize how search results appear in the **Search** tab in several way
   
 ## See Also  
  [Full-Text Search Tips](../ide/full-text-search-tips.md)
-
-
-

@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results in Visual Studio"
+title: "Analyzing Load Test Results"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,15 @@ helpviewer_keywords:
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Analyze load test results using the Load Test Analyzer
 
-Find bottlenecks, identify errors, and measure improvements in your app when you use the **Load Test Analyzer**. Analyze load test results in these ways:
+Find bottlenecks, identify errors, and measure improvements in your app when you use the **Load Test Analyzer**.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Analyze load test results in these ways:
 
 -   Monitor a load test when it is running.
 
@@ -40,6 +42,6 @@ You can complete these tasks whether you run your load test from Visual Studio E
 |Tasks|Associated topics|
 |-|-|
 |**Accessing the results of your load test:** When you run a load test from the Load Test Editor, the load test results open automatically and the running load test is displayed in the **Load Test Analyzer**.|-   [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)|
-|**Add analysis notes to your load test:** You can add comments to your load test when you conduct your analysis. The comments are stored permanently, together with the load test result. The description that you enter also displays in the **Description** column that is associated with the load test in the **Open and Manage Test Results** dialog box in the Load Test Editor.<br /><br /> For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).<br /><br /> Additionally, the comments are displayed when you create an Excel report for the load test results.<br /><br /> For more information, see [Reporting load tests results for test comparisons or trend analysis](../test/compare-load-test-results.md).|-   [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md)|
+|**Add analysis notes to your load test:** You can add comments to your load test when you conduct your analysis. The comments are stored permanently, together with the load test result. The description that you enter also displays in the **Description** column that is associated with the load test in the **Open and Manage Test Results** dialog box in the Load Test Editor.<br /><br /> For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).<br /><br /> Additionally, the comments are displayed when you create an Excel report for the load test results.<br /><br /> For more information, see [Reporting load tests results for test comparisons or trend analysis](../test/compare-load-test-results.md).||
 |**Analyzing the results of your load test:** After you access the load test run data, you can analyze the resulting data. You can view the Load Test Summary to understand the results quickly. The load test summary shows the key results in a compact and easily read format.<br /><br /> You can print the load test summary. This makes it convenient to use when you communicate results to stakeholders.<br /><br /> You can analyze the details of your load test results by using the graphs and tables in the results. These include **Errors**, **Pages**, **Requests**, **SQL Trace**, **Tests**, **Thresholds**, and **Transactions**.|-   [Load test results summary overview](../test/load-test-results-summary-overview.md)<br />-   [How to: View web page response](../test/how-to-view-web-page-response-time-in-a-load-test.md)<br />-   [Analyzing threshold rule violations](../test/analyze-threshold-rule-violations-in-load-tests.md)<br />-   [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md)<br />-   [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)|
 |**Analyzing the virtual user activity in your load test results to isolate performance issues:** You can use the Virtual User Activity Chart to visualize what virtual users are doing during a load test. This can help you isolate spikes in a CPU or drops in requests/sec, and determine which tests or pages are running during these spikes and drops.|-   [Analyzing virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)|

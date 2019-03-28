@@ -1,14 +1,9 @@
 ---
 title: "IntelliSenseHostFlags | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "IntellisenseHostFlags"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IntellisenseHostFlags enumeration"
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IntelliSenseHostFlags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ enum IntellisenseHostFlags
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>
-

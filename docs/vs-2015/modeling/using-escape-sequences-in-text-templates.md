@@ -1,19 +1,16 @@
 ---
 title: "Using Escape Sequences in Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, escape sequences"
 ms.assetid: 36fff542-2f42-460f-a2d5-03fc76817f3b
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Escape Sequences in Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +35,3 @@ You can use escape sequences in text templates to generate text template tags an
   
 ## See Also  
  [How to: Generate Templates from Templates By Using Escape Sequences](../modeling/how-to-generate-templates-from-templates-by-using-escape-sequences.md)
-
-
-

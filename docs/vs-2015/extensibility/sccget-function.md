@@ -1,22 +1,17 @@
 ---
 title: "SccGet Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccGet"
 helpviewer_keywords: 
   - "SccGet function"
 ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccGet Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,4 +99,3 @@ SCCRTN SccGet(
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)
-

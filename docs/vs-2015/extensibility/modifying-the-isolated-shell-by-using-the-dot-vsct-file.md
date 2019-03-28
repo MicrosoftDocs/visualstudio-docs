@@ -1,20 +1,15 @@
 ---
 title: "Modifying the Isolated Shell By Using the .Vsct File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode%2C .vsct file"
 ms.assetid: 6d147c2d-10e9-400e-b8ce-5566287b41ba
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Modifying the Isolated Shell By Using the .Vsct File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ The UI project for a Visual Studio isolated shell project contains a .vsct file 
   
 ## See Also  
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)
-

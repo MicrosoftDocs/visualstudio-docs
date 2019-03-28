@@ -1,23 +1,18 @@
 ---
 title: "Using SAL Annotations to Reduce C-C++ Code Defects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "annotations"
   - "SAL annotations"
   - "code analysis, annotation"
 ms.assetid: a16e47d0-6f3e-4ed6-8883-459b2874e9a4
 caps.latest.revision: 29
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Using SAL Annotations to Reduce C/C++ Code Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ SAL is the Microsoft source code annotation language. By using source code annot
   
 ## See Also  
  [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)
-
-
-

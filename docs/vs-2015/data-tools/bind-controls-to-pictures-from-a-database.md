@@ -1,12 +1,9 @@
 ---
 title: "Bind controls to pictures from a database | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -25,7 +22,7 @@ ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind controls to pictures from a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,9 +32,9 @@ You can use the **Data Sources** window to bind an image in a database to a cont
   
  Pictures in a database are typically stored as byte arrays. Items in the **Data Sources** window that are stored as byte arrays have their control type set to **None** by default, because byte arrays can contain anything from a simple array of bytes to the executable file of a large application. To create a data-bound control for a byte array item in the **Data Sources** window that represents an image, you must select the control to create.  
   
- The following procedure assumes that the **Data Sources** window is already populated with an item that is bound to your image. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).  
+ The following procedure assumes that the **Data Sources** window is already populated with an item that is bound to your image.
   
-### To bind a picture in a database to a control  
+## Bind a picture in a database to a control  
   
 1.  Make sure that the design surface you want to add the control to is open in the WPF Designer or the Windows Forms Designer.  
   
@@ -53,4 +50,3 @@ You can use the **Data Sources** window to bind an image in a database to a cont
   
 ## See Also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)
-

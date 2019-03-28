@@ -1,22 +1,17 @@
 ---
 title: "IDebugOutputStringEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugOutputStringEvent2"
 helpviewer_keywords: 
   - "IDebugOutputStringEvent2 interface"
 ms.assetid: 86596fd1-cecc-4813-8add-dc3d70068f9b
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugOutputStringEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ IDebugOutputStringEvent2 : IUnknown
  [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)   
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
-

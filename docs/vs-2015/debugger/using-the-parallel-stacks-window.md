@@ -1,14 +1,9 @@
 ---
 title: "Using the Parallel Stacks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.parallelstacks"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using the Parallel Stacks Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,6 +119,3 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)   
  [Task Class](../extensibility/debugger/task-class-internal-members.md)
-
-
-

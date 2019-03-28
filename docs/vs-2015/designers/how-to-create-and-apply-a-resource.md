@@ -1,14 +1,9 @@
 ---
 title: "How to create and apply a resource | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "VS.XamlDesigner.CreateResource"
   - "VS.XamlDesigner.EditResource"
@@ -16,7 +11,7 @@ ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to create and apply a resource
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,6 +71,3 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-
-
-

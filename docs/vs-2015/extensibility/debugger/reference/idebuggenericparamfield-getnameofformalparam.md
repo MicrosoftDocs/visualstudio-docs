@@ -1,21 +1,16 @@
 ---
 title: "IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetNameOfFormalParam"
   - "GetNameOfFormalParam"
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ Error:
   
 ## See Also  
  [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
-

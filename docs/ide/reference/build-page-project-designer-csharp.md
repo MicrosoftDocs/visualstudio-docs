@@ -1,8 +1,6 @@
 ---
 title: Build Page, Project Designer (C#)
 ms.date: 06/20/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuild"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

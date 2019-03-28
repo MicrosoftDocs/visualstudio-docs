@@ -1,13 +1,11 @@
 ---
 title: "Add Nodes to the Workspace from the Start View in XML Schema Designer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 3fc7af94-dcb8-4226-a577-43f03664388b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,7 +17,7 @@ This topic describes how to add global nodes to the [XML Schema Designer workspa
 
 1.  Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2.  Right-click in the XML Editor and select **View Designer**.
+2.  Right-click in the XML editor and select **View Designer**.
 
      The Start View appears.
 

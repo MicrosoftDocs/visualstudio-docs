@@ -1,22 +1,17 @@
 ---
 title: "Event Tracing for Windows (ETW) Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Event tracing for Windows profiling report"
   - "ETW profiling report"
 ms.assetid: 81e88162-b88a-40b6-8b85-a232c8096a47
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Event Tracing for Windows (ETW) Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ The Event Tracing for Windows (ETW) report lists the ETW events that were record
 |**Description**|Identifies the event provider.|  
 |**Type**|Identifies the event type.|  
 |**Properties**|The properties of the event. Each event is a comma-separated, name-value pair that is enclosed in brackets.|
-
-
-

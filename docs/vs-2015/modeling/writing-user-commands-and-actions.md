@@ -1,17 +1,14 @@
 ---
 title: "Writing User Commands and Actions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: ba5ff03f-d2e3-4188-a706-3eb68ffb5f9e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Writing User Commands and Actions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +33,3 @@ You can customize a domain-specific language by adding commands to the diagram, 
   
 ## See Also  
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
-
-
-

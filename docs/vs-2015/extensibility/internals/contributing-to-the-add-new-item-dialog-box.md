@@ -1,20 +1,15 @@
 ---
 title: "Contributing to the Add New Item Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Add New Item dialog box, contributing to"
 ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Contributing to the Add New Item Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ A project subtype can provide a complete new directory of items for the **Add Ne
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
  [CATIDs for Objects That Are Typically Used to Extend Projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
-

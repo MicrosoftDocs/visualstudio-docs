@@ -1,59 +1,62 @@
 ---
-title: "How to: Debug .NET Framework Source | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/23/2018"
-ms.technology: "vs-ide-debug"
+title: "How to: Debug .NET Framework source | Microsoft Docs"
+ms.date: "11/19/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging, .NET Framework source"
 ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
-# How to: Debug .NET Framework Source
-To debug .NET Framework source, you must have access to debugging symbols for the code. You also need to enable stepping into .NET Framework source.  
-  
- You can enable .NET Framework stepping and symbol downloading in the **Options** dialog box. When you enable symbol downloading, you can choose to download symbols immediately or just enable the option for later downloading. If you do not download the symbols immediately, symbols will be downloaded the next time that you start debugging your application. You also can do a manual download from the **Modules** window or the **Call Stack** window.  
-  
-### To enable .NET Framework source debugging  
-  
-1.  On the **Tools** menu, click **Options**.  
-  
-2.  In the **Options** dialog box, click the **Debugging** category.  
-  
-3.  In the **General** box, set **Enable .NET Framework source stepping.**  
-  
-    1.  If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Click **OK**.  
-  
-    2.  If you did not have a symbol cache location set, another warning dialog box tells you that a default symbol cache location is now set. Click **OK**.  
-  
-4.  Under the **Debugging** category, click **Symbols**.  
-  
-5.  If you want to change the symbols cache location, edit the location in **Cache symbols in this directory** or click **Browse** to choose a location.  
-  
-6.  If you want to download symbols immediately, click **Load Symbols using above locations**.  
-  
-     This button is not available in design mode, but is available while debugging.  
-  
-     If you do not choose to download symbols now, symbols will be downloaded automatically the next time that you start the debugging your program.  
-  
-7.  Click **OK** to close the **Options** dialog box.  
-  
-### To load Framework symbols using the Modules window  
-  
-1.  In the **Modules** window (while debugging, choose **Debug** > **Windows** > **Modules**), right-click a module for which symbols are not loaded. You can tell if symbols are loaded or not by looking at the **Symbols Status** column.  
-  
-2.  Point to **Symbol Settings** and click **Microsoft Symbol Servers** to download symbols from the Microsoft public symbols server. Or, you can right-click the module and choose **Load Symbols** to load from a directory where you have previously stored symbols.  
-  
-### To load Framework symbols using the Call Stack window  
-  
-1.  In the **Call Stack** window, right-click a frame for which symbols are not loaded. The frame will be dimmed out.  
-  
-2.  Point to **Symbol Settings** and click **Microsoft Symbol Servers**, or right-click the module and choose **Symbol Path**.  
-  
-## See Also  
- [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+# How to: Debug .NET Framework source
+
+To debug .NET Framework source, you must:
+
+- Enable stepping into .NET Framework source.
+
+- Have access to debugging symbols for the code.
+
+  You can choose to download debugging symbols immediately, or set options for later downloading. If you don't download symbols immediately, they'll download the next time you start debugging your app. While debugging, you can also use the **Modules** or **Call Stack** windows to download and load symbols.
+
+### To enable stepping into .NET Framework source
+
+1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select **Enable .NET Framework source stepping**.
+
+   - If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Select **OK**.
+
+   - If you did not have a local symbol cache set, a warning dialog box tells you that a default symbol cache has been set. Select **OK**.
+
+1. Select **OK** to close the **Options** dialog.
+
+### To set or change symbol source locations and loading behavior
+
+1. Select the **Symbols** category under **Tools** (or **Debug**) > **Options** > **Debugging**.
+
+1. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order.
+
+1. To change your local symbols cache, edit or browse to a different location under **Cache symbols in this directory**.
+
+1. To download symbols immediately, select **Load all symbols**. This button is available only while debugging.
+
+   If you don't download symbols now, they'll be downloaded the next time you start debugging.
+
+1. Select **OK** to close the **Options** dialog.
+
+### To load symbols from the Modules or Call Stack windows
+
+1. During debugging, open the window by selecting **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**) or **Debug** > **Windows** > **Call Stack** (**Ctrl + Alt + C**).
+
+1. Right-click a module for which symbols weren't loaded. In the **Modules** window, symbol loading status is in the **Symbols Status** column. In the **Call Stack** window, status is in the **Frame Status** column, and the frame is grayed-out.
+
+   - Select **Load Symbols** from the menu to locate and load symbol files from a folder on your machine.
+
+   - Select **Symbol Load Information** to show the locations the debugger searched for symbols.
+
+   - Select **Symbol Settings** to open the **Symbols** page. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. Select **OK** to close the dialog.
+
+### See also
+- [Debugging managed code](../debugger/debugging-managed-code.md)
+- [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

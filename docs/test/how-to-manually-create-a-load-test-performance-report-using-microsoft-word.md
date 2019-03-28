@@ -1,5 +1,5 @@
 ---
-title: "Create a Visual Studio Load Test Performance Report Using Microsoft Word"
+title: "Create Load Test Performance Report Using Microsoft Word"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,13 +8,13 @@ helpviewer_keywords:
 ms.assetid: 3b864c75-2699-48c1-a2b4-9651f108c267
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Manually create a load test performance report using Microsoft Word
 
 You can manually create Microsoft Word load test reports by copying and pasting data from the Load Test Results summary view and graphs view. The data that is presented in the summary view and graphs view is applied in HTML format when it is copied.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!TIP]
 > You can copy plain text from the tables view and screenshots from the details view to Microsoft Word, but it is not applied in HTML format and will require additional formatting and editing.

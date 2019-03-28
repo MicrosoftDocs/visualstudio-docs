@@ -2,12 +2,10 @@
 title: Search and Filter | Microsoft Docs
 author: evanwindom
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.date: 06/27/2018
 ms.topic: conceptual
-description:  Learn how administrators can locate individual subscribers or groups in the Administrator Portal. 
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
+description:  Learn how administrators can locate individual subscribers or groups in the Administrator Portal.
 searchscope: VS Subscription
 ---
 

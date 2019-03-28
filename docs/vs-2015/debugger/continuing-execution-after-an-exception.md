@@ -1,14 +1,9 @@
 ---
 title: "Continuing Execution After an Exception | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -31,9 +26,9 @@ helpviewer_keywords:
   - "programs, executing"
 ms.assetid: 6fe97aac-2131-4615-bd92-d3afee741558
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Continuing Execution After an Exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,8 +52,3 @@ When the debugger breaks execution because of an exception, a dialog box appears
   
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
-
-
-
-
-

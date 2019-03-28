@@ -1,21 +1,16 @@
 ---
 title: "Using the Text Manager to Monitor Global Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - monitor global settings"
   - "editors [Visual Studio SDK], legacy - text manager"
 ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Using the Text Manager to Monitor Global Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,5 +36,4 @@ If you implement a core editor, you must monitor the changes that are made to gl
   
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Editor Features](http://msdn.microsoft.com/en-us/bdac940d-1f14-4019-a01f-fd0bb3dc7198)
-
+ [Editor Features](http://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

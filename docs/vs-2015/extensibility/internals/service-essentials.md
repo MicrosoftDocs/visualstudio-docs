@@ -1,20 +1,15 @@
 ---
 title: "Service Essentials | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, essentials"
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Service Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)   
  [Casting and Type Conversions](http://msdn.microsoft.com/library/568df58a-d292-4b55-93ba-601578722878)   
  [Casting](http://msdn.microsoft.com/library/3dbeb06e-2f4b-4693-832d-624bc8ec95de)
-

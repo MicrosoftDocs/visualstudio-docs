@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Intercept a Click on a Shape or Decorator
 The following procedures demonstrate how to intercept a click on a shape or an icon decorator. You can intercept clicks, double-clicks, drags, and other gestures, and make the element respond.

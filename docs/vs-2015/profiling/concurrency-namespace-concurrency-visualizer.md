@@ -1,23 +1,18 @@
 ---
 title: "Concurrency Namespace (Concurrency Visualizer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "cvmarkersobj/Concurrency"
 helpviewer_keywords: 
   - "Concurrency namespace"
 ms.assetid: 001fbfce-a278-4502-aa27-26d65dd61453
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Concurrency Namespace (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ namespace Concurrency;
   
 ## See Also  
  [C Library Reference](../profiling/c-library-reference.md)
-
-
-

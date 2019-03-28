@@ -1,13 +1,12 @@
 ---
-title: Debugging Python code
-description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 10/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+title: Debug Python code
+description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
+ms.date: 03/13/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -23,10 +22,6 @@ Also see the following scenario-specific debugging articles:
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567) for a demonstration of Python debugging (3m 32s).|
-
 <a name="debugging-without-a-project"></a>
 
 > [!Tip]
@@ -40,7 +35,7 @@ Also see the following scenario-specific debugging articles:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections.
 
-A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). Visual Studio 2017 version 15.6 and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md).
@@ -49,7 +44,7 @@ A debugging session starts with the **Debug** > **Start Debugging** command, the
 
 Breakpoints stop execution of code at a marked point so you can inspect the program state. Set breakpoints by clicking in the left margin of the code editor or by right-clicking a line of code and selecting **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line with a breakpoint.
 
-![Breakpoints in Visual Studio](media/debugging-breakpoints.png)
+![Breakpoints appearing in Visual Studio](media/debugging-breakpoints.png)
 
 Clicking the red dot or right-clicking the line of code and selecting **Breakpoint** > **Delete Breakpoint** removes the breakpoint. You can also disable it without removing it using the **Breakpoint** > **Disable Breakpoint** command.
 
@@ -78,31 +73,31 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 ### Inspect and modify values
 
-When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/getting-started-with-the-debugger.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
+When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
 To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can click on the value to change it:
 
-![DataTips in the debugger](media/debugging-quick-tips.png)
+![DataTips showing in the Visual Studio debugger](media/debugging-quick-tips.png)
 
 The **Autos** window (**Debug** > **Windows** > **Autos**) contains variables and expressions that are close to the current statement. You can double-click in the value column or select and press **F2** to edit the value:
 
-![Autos window in the debugger](media/debugging-autos-window.png)
+![Autos window in the Visual Studio debugger](media/debugging-autos-window.png)
 
 The **Locals** window (**Debug** > **Windows** > **Locals**) displays all variables that are in the current scope, which can again be edited:
 
-![Locals window in the debugger](media/debugging-locals-window.png)
+![Locals window in the Visual Studio debugger](media/debugging-locals-window.png)
 
 For more on using **Autos** and **Locals**, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allow you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
-![Watch window in the debugger](media/debugging-watch-window.png)
+![Watch window in the Visual Studio debugger](media/debugging-watch-window.png)
 
 For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
 When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
-![String visualizers](media/debugging-string-visualizers.png)
+![String visualizers in the Visual Studio debugger](media/debugging-string-visualizers.png)
 
 HTML, XML, and JSON visualizations appear in separate popup windows with syntax highlighting and tree views.
 
@@ -110,13 +105,13 @@ HTML, XML, and JSON visualizations appear in separate popup windows with syntax 
 
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
-![Exception popup](media/debugging-exception-popup.png)
+![Exception popup in the Visual Studio debugger](media/debugging-exception-popup.png)
 
 At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception continues being thrown until it is either handled or your program exits.
 
 The **Debug** > **Windows** > **Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
-![Exceptions window](media/debugging-exception-settings.png)
+![Exceptions window in the Visual Studio debugger](media/debugging-exception-settings.png)
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
@@ -128,7 +123,7 @@ To configure an exception that does not appear in this list, click the **Add** b
 
 By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. Startup options are changed through the project's debug properties accessed by right-clicking your project in **Solution Explorer**, selecting **Properties**, and selecting the **Debug** tab.
 
-![Project debug properties](media/debugging-project-properties.png)
+![Project debug properties in the Visual Studio debugger](media/debugging-project-properties.png)
 
 ### Launch mode options
 
@@ -165,26 +160,22 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | --- | --- | --- |
 | `$continue`, `$cont`, `$c` | Starts running the program from the current statement. |
 | `$down`, `$d` | Move the current frame one level down in the stack trace. |
-| `$frame` | | Displays the current frame id.
-| `$frame` | frame id | Switches the current frame to the specified frame id.
+| `$frame` | | Displays the current frame ID.
+| `$frame` | frame ID | Switches the current frame to the specified frame ID.
 | `$load` | Loads commands from file and executes until complete |
-| `$proc` |  | Displays the current process id. |
-| `$proc` | process id | Switches the current process to the specified process id. |
+| `$proc` |  | Displays the current process ID. |
+| `$proc` | process ID | Switches the current process to the specified process ID. |
 | `$procs` | | Lists the processes currently being debugged. |
 | `$stepin`, `$step`, `$s` | Steps into the next function call, if possible. |
 | `$stepout`, `$return`, `$r` | Steps out of the current function. |
 | `$stepover`, `$until`, `$unt` | Steps over the next function call. |
-| `$thread` | | Displays the current thread id. |
-| `$thread` | thread id | Switches the current thread to the specified thread id. |
+| `$thread` | | Displays the current thread ID. |
+| `$thread` | thread ID | Switches the current thread to the specified thread ID. |
 | `$threads` | | Lists the threads currently being debugged. |
 | `$up`, `$u` | | Move the current frame one level up in the stack trace. |
 | `$where`, `$w`, `$bt` | Lists the frames for the current thread. |
 
 Note that the standard debugger windows such as **Processes**, **Threads**, and **Call Stack** are not synchronized with the **Debug Interactive** window. Changing the active process, thread, or frame in the **Debug Interactive** window does not affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows does not affect the **Debug Interactive** window.
-
-The **Debug Interactive** window has its own set of options, which you can access through **Tools** > **Options** > **Python Tools** > **Debug Interactive Window**. Unlike the regular **Python Interactive** window, which has a separate instance for each Python environment, there is only one **Debug Interactive** window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](python-support-options-and-settings-in-visual-studio.md#debugging-options).
-
-![Debug Interactive Window Options](media/debugging-interactive-options.png)
 
 <a name="use-the-experimental-debugger"></a>
 
@@ -246,7 +237,7 @@ The following steps enable debugging in the current Visual Studio session:
 1. Enter the following command:
 
     ```ps
-    DebugAdapterHost.Logging /On
+    DebugAdapterHost.Logging /On /OutputWindow
     ```
 
 1. Start debugging and go through whatever steps are necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, etc.
@@ -256,7 +247,7 @@ The following steps enable debugging in the current Visual Studio session:
 1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
     ```ps
-    DebugAdapterHost.Logging /On /OutputWindow
+    DebugAdapterHost.Logging /On
     ```
 
 1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.

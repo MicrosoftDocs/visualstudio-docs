@@ -1,14 +1,9 @@
 ---
 title: "Watch and QuickWatch Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.watch"
 dev_langs: 
@@ -26,9 +21,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
 ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Watch and QuickWatch Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -240,8 +235,3 @@ public class Program
   
 ## See Also  
  [Debugger Windows](../debugger/debugger-windows.md)
-
-
-
-
-

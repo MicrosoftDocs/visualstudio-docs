@@ -1,14 +1,9 @@
 ---
 title: "Debug XAML in Blend | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug XAML in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -126,6 +121,3 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
   
 ## Getting help  
  If you need more help debugging your [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] app, you can search the [Windows Store app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Help Viewer Administrator Guide | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Help Viewer Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -203,6 +198,3 @@ The Help Viewer allows you to manage local Help installations for network enviro
 ## See Also  
  [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)   
  [Help Content Manager Overrides](../ide/help-content-manager-overrides.md)
-
-
-

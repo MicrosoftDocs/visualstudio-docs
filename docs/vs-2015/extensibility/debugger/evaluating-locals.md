@@ -1,21 +1,16 @@
 ---
 title: "Evaluating Locals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], evaluating locals"
   - "expression evaluation, evaluating locals"
 ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Evaluating Locals
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -194,4 +189,3 @@ HRESULT FieldGetPrimitiveValue(
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Getting Local Values](../../extensibility/debugger/getting-local-values.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

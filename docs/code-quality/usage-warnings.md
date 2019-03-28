@@ -1,8 +1,6 @@
 ---
 title: Usage Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.usagerules"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

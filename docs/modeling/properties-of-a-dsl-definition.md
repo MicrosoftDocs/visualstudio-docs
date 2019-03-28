@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of a DSL Definition
 DslDefinition properties define *domain-specific language* definition properties such as version numbering. The DslDefinition properties appear in the **Properties** window when you click an open area of the diagram in the *Domain-Specific Language Designer*.
@@ -40,4 +38,4 @@ DslDefinition properties define *domain-specific language* definition properties
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

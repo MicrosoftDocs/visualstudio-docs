@@ -1,20 +1,17 @@
 ---
 title: "Standard stereotypes for UML models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, stereotypes"
   - "UML diagrams, stereotypes"
 ms.assetid: 8a8c2321-1cae-4ba8-bb9e-23495c3404d8
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Standard stereotypes for UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -139,6 +136,3 @@ You can add stereotypes to UML model elements to provide additional information 
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)
-
-
-

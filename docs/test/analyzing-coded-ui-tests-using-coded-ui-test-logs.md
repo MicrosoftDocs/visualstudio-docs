@@ -1,11 +1,9 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs in Visual Studio"
+title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -13,6 +11,8 @@ author: gewarren
 # Analyzing coded UI tests using coded UI test logs
 
 Coded UI test logs filter and record important information about your coded UI test runs. The logs are presented in a format that allows for debugging issues quickly.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 ## Step 1: Enable logging
 
@@ -82,4 +82,4 @@ When you run a coded UI test with the modifications to the *QTAgent32.exe.config
 ## See also
 
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
-- [How to: Run tests from Microsoft Visual Studio](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)
+- [How to: Run tests from Microsoft Visual Studio](https://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

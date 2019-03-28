@@ -1,20 +1,15 @@
 ---
 title: "PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration"
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md)
-

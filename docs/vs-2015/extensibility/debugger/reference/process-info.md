@@ -1,22 +1,17 @@
 ---
 title: "PROCESS_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "PROCESS_INFO"
 helpviewer_keywords: 
   - "PROCESS_INFO structure"
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # PROCESS_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -99,4 +94,3 @@ public struct PROCESS_INFO { 
  [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md)   
  [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)   
  [GetAttachedSessionName](../../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
-

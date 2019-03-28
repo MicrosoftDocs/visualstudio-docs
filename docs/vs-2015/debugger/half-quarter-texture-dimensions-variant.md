@@ -1,19 +1,14 @@
 ---
 title: "Half-Quarter Texture Dimensions Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Half/Quarter Texture Dimensions Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Reduces the texture dimensions on textures that are not render targets.
 ## See Also  
  [Mip-map Generation Variant](../debugger/mip-map-generation-variant.md)   
  [BC Texture Compression Variant](../debugger/bc-texture-compression-variant.md)
-
-
-

@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Implementing Code Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Implementing Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -248,4 +243,3 @@ You can create code snippets and include them in an editor extension so that use
 7.  In a different part of the text, type "test" and then press TAB. Because "test" is the code-snippet shortcut, the snippet should be inserted again.  
   
 ## Next Steps
-

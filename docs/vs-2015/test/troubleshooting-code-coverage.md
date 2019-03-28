@@ -1,18 +1,13 @@
 ---
 title: "Troubleshooting Code Coverage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: troubleshooting
 ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshooting Code Coverage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -146,6 +141,3 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
   
 ## See Also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-
-
-

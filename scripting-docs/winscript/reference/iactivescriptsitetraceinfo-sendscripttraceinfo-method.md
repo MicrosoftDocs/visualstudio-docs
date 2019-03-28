@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteTraceInfo::SendScriptTraceInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Sends trace information that includes the event type, context, and the script st
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SendScriptTraceInfo(     [in] SCRIPTTRACEINFO stiEventType,     [in] GUID guidContextID,     [in] DWORD dwScriptContextCookie,     [in] LONG lScriptStatementStart,     [in] LONG lScriptStatementEnd,     [in] DWORD64 dwReserved );   
 ```  
   

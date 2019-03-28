@@ -1,14 +1,9 @@
 ---
 title: "Error: You do not have permission to inspect the process&#39;s identity | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 6233d060-85b8-42be-ae5f-bde7e1d0f241
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: You do not have permission to inspect the process&#39;s identity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ You do not have permission to inspect the process's identity. This may be due to
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
-
-
-

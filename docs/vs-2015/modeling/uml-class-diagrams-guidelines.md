@@ -1,12 +1,9 @@
 ---
 title: "UML Class Diagrams: Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.overrideoperationsdialog"
 helpviewer_keywords: 
@@ -17,9 +14,9 @@ helpviewer_keywords:
   - "diagrams - modeling, UML class"
 ms.assetid: 94dbfd55-b300-4b49-9049-0831ed849486
 caps.latest.revision: 56
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Class Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -477,6 +474,3 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "CA2100: Review SQL queries for security vulnerabilities | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "Review SQL queries for security vulnerabilities"
   - "ReviewSqlQueriesForSecurityVulnerabilities"
@@ -87,6 +82,3 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
 ## See Also
  [Security Overview](http://msdn.microsoft.com/library/33e09965-61d5-48cc-9e8c-3b047cc4f194)
-
-
-

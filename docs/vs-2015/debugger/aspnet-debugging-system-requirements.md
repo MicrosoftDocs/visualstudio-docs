@@ -1,14 +1,9 @@
 ---
 title: "ASP.NET Debugging: System Requirements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "debugging ASP.NET Web applications, security requirements"
 ms.assetid: 7810b9b2-debf-4271-8fc7-1df031123255
 caps.latest.revision: 41
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # ASP.NET Debugging: System Requirements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ This topic describes the software and security requirements for [!INCLUDE[vsteca
 ## See Also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [How to: Run the Worker Process Under a User Account](../debugger/how-to-run-the-worker-process-under-a-user-account.md)
-
-
-

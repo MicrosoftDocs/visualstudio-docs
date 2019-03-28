@@ -1,21 +1,16 @@
 ---
 title: "C++ Library Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 helpviewer_keywords: 
   - "Concurrency Visualizer SDK, C++ Library Reference"
 ms.assetid: c9f8eea2-c964-485d-9ad0-55a4bf425ae7
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # C++ Library Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,6 +25,3 @@ This section contains reference information for the Concurrency Visualizer SDK.
   
 ## See Also  
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)
-
-
-

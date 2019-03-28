@@ -1,14 +1,9 @@
 ---
 title: "Choosing a ClickOnce Deployment Strategy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
 caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Choosing a ClickOnce Deployment Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../i
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
-
-
-

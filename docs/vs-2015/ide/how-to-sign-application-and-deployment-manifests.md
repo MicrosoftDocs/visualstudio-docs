@@ -1,14 +1,9 @@
 ---
 title: "How to: Sign Application and Deployment Manifests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "manifests [Visual Studio]"
   - "code signing [Visual Studio], Authenticode"
@@ -22,7 +17,7 @@ ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
 caps.latest.revision: 61
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Sign Application and Deployment Manifests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -112,6 +107,3 @@ If you want to publish an application by using ClickOnce deployment, the applica
  [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)   
  [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)
-
-
-

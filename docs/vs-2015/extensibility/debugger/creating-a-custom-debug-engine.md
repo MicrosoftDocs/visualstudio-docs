@@ -1,22 +1,17 @@
 ---
 title: "Creating a Custom Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, implementing"
   - "debug engines, custom"
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: 52794238-6fae-451c-bf1c-99f344c6f173
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
   
 ## See Also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "localize package"
   - "localize extension"
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Localizing VSIX Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,4 +90,3 @@ You can localize a VSIX package by creating an Extension.vsixlangpack file for e
  [VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
  [VSIX Project Template](../extensibility/vsix-project-template.md)
-

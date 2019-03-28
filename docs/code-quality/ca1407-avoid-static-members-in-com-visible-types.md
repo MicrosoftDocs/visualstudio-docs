@@ -1,8 +1,6 @@
 ---
 title: "CA1407: Avoid static members in COM visible types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1407"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bebd0776-ad04-453c-bca8-8c124c2d7840
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

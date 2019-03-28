@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 0e215fdd-55f8-43ef-9534-06542eefe223
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 ## See Also  
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "CommandPlacements Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "CommandPlacements"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, CommandPlacements"
 ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CommandPlacements Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ The CommandPlacements element groups CommandPlacement elements and other Command
 ## See Also  
  [CommandPlacement Element](../extensibility/commandplacement-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

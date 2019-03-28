@@ -1,22 +1,17 @@
 ---
 title: "Expression Evaluation in Break Mode | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "break mode, expression evaluation"
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, break mode"
 ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Expression Evaluation in Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ The following describes the process that occurs when the debugger is in break mo
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
-

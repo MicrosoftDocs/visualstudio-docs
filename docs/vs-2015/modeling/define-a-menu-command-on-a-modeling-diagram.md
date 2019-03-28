@@ -1,19 +1,16 @@
 ---
 title: "Define a menu command on a modeling diagram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML - extending, menu commands"
 ms.assetid: 79c277de-5871-4fc7-9701-55eec5c3cd46
 caps.latest.revision: 63
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define a menu command on a modeling diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -370,6 +367,3 @@ namespace SwapClassNames
  [Edit UML sequence diagrams by using the UML API](../modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Sample: Command to Align Shapes on a UML Diagram](http://go.microsoft.com/fwlink/?LinkID=213809)
-
-
-

@@ -1,23 +1,18 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], developing"
   - "Web Parts [SharePoint development in Visual Studio], creating"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create a web part for SharePoint
@@ -215,7 +210,7 @@ Show and hide employees that are not managers by clicking an item that appears i
 
 ## See also
 
-[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
-[How to: Create a SharePoint web part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
+[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)
+[How to: Create a SharePoint web part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)
 [Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)

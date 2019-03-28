@@ -1,21 +1,16 @@
 ---
 title: "Installing an Isolated Shell Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Shell [Visual Studio], deploying shell-based applications"
   - "Visual Studio shell, deploying shell-based applications"
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 41
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Installing an Isolated Shell Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -369,4 +364,3 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
   
 ## See Also  
  [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
-

@@ -2,14 +2,12 @@
 title: "Workflow Designer - InvokeDelegate"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
 ms.assetid: 289a7498-5127-453f-beb5-05f05b80d26f
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

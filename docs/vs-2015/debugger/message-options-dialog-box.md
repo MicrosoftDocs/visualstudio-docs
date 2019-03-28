@@ -1,22 +1,17 @@
 ---
 title: "Message Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "message options, Spy++"
   - "Spy++, message options"
 ms.assetid: 88ad85af-3f56-4df1-98b6-fab34c1e5874
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Use this dialog box to select which messages are listed in [Messages View](../de
   
  [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.
-
-
-

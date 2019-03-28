@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl5::EnumHeap2 Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Returns an interface ([IActiveScriptProfilerHeapEnum Interface](../../winscript/
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumHeap2(    [in] PROFILER_HEAP_ENUM_FLAGS enumFlags,    [out] IActiveScriptProfilerHeapEnum** ppEnum);  
 ```  
   

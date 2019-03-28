@@ -15,9 +15,7 @@ helpviewer_keywords:
 ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -58,9 +56,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
        After a short time, the query finishes running and the Northwind database is created.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a new project
 
@@ -103,7 +98,7 @@ Next, create a dataset named **NorthwindDataSet**:
 
 In this section, you create a <xref:System.Windows.Forms.DataGridView?displayProperty=nameWithType> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.
 
-1. On the **Data** menu, choose **Show Data Sources** to open the **Data Sources Window**.
+1. To open the **Data Sources** window, on the **Data** menu, choose **Show Data Sources**.
 
 2. In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.
 

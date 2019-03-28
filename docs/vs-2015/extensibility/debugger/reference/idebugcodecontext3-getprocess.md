@@ -1,20 +1,15 @@
 ---
 title: "IDebugCodeContext3::GetProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugCodeContext3::GetProcess"
 ms.assetid: e082e494-2255-4d9d-a5a9-6dadd904bea8
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugCodeContext3::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ Error:
   
 ## See Also  
  [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)
-

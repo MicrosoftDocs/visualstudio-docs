@@ -1,8 +1,6 @@
 ---
-title: Solutions and projects in Visual Studio
+title: Solutions and projects
 ms.date: 10/05/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.addnewsolutionitem"
@@ -11,7 +9,6 @@ f1_keywords:
   - "vs.addnewitem"
   - "vs.addexistingitem"
   - "VS.SolutionExplorer"
-  - "vs.newproject"
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"
@@ -23,11 +20,16 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Solutions and projects in Visual Studio
+
+This article describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project and the **Solution Explorer** tool window.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
 
 ## Projects
 
@@ -45,7 +47,7 @@ In Visual Studio, the project file is used by **Solution Explorer** to display t
 
 ## Solutions
 
-A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
+A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand.
 
 Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
 
@@ -56,7 +58,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are what you see in the **New Project** or **New Web Site** dialog box when you choose **File** > **New** > **Project** or **File** > **New** > **Web Site**. For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
 
 You can also create custom project and item templates. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
@@ -68,4 +70,6 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 
 ## See also
 
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)
+- [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
+- [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

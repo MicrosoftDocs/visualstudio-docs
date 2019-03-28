@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, C-C++, Advanced | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Advanced"
@@ -19,7 +14,7 @@ ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, C/C++, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Advanced**.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Browsing/Navigation  
  You should never choose these options except in the rare case where a solution is so large that the database activity consumes an unacceptable amount of system resources.  
@@ -158,6 +153,3 @@ By changing these options, you can change the behavior related to IntelliSense a
   
 ## See Also  
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "IEEVisualizerDataProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerDataProvider"
 helpviewer_keywords: 
   - "IEEVisualizerDataProvider interface"
 ms.assetid: 5fdfe6e3-b94e-4edb-acc5-41d8773d8ca5
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEEVisualizerDataProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ IEEVisualizerDataProvider : IUnknown
  [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)   
  [IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)   
  [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)
-

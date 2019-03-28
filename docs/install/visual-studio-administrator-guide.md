@@ -1,10 +1,9 @@
 ---
 title: "Visual Studio administrator guide"
+titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
-ms.custom: ""
 ms.date: 05/29/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -13,17 +12,19 @@ helpviewer_keywords:
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Visual Studio 2017 administrator guide
+# Visual Studio administrator guide
 
 In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
-## Deploy Visual Studio 2017 in an enterprise environment
+## Deploy Visual Studio in an enterprise environment
 
-You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+You can deploy Visual Studio to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
 
 1. [Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location.
 
@@ -42,14 +43,14 @@ You can deploy Visual Studio 2017 to client workstations as long as each target 
 8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
 > [!IMPORTANT]
-> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio clients running in your organization.
 
 ## Use Visual Studio tools
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
 
 > [!TIP]
-> In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+> In addition to the documentation in the administrator guide, a good source of information on Visual Studio setup is the [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
 
 ## Specify customer feedback settings
 
@@ -69,8 +70,8 @@ For more information about customer feedback settings, see the [Visual Studio Cu
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
   * [Workload and Component ID reference](workload-and-component-ids.md)
 * [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)

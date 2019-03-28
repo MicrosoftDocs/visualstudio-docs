@@ -1,8 +1,6 @@
 ---
 title: "CA1412: Mark ComSource Interfaces as IDispatch"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "MarkComSourceInterfacesAsIDispatch"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 131a7563-0410-443c-a8f5-52104250cfb4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

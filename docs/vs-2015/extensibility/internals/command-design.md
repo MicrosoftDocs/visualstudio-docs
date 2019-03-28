@@ -1,21 +1,16 @@
 ---
 title: "Command Design | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands"
   - "commands, implementation"
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
 caps.latest.revision: 35
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Design
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ When you add a command to a VSPackage, you must specify where it is to appear, w
 |[Default Command, Group, and Toolbar Placement](../../extensibility/internals/default-command-group-and-toolbar-placement.md)|Describes how VSPackages can best use the commands that are included in Visual Studio.|  
 |[Managing VSPackages](../../extensibility/managing-vspackages.md)|Describes how Visual Studio loads VSPackages.|  
 |[Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)|Provides information about XML-based .vsct files, which are used to describe the layout and appearance of commands in VSPackages.|
-

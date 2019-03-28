@@ -1,14 +1,9 @@
 ---
 title: "Version Numbers for Main and Localized Satellite Assemblies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "satellite assemblies, version numbers"
   - "SatelliteContractVersionAttribute"
@@ -19,7 +14,7 @@ ms.assetid: 5489aea1-57b4-4561-9bb4-24d490269602
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Version Numbers for Main and Localized Satellite Assemblies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,4 +43,3 @@ The <xref:System.Resources.SatelliteContractVersionAttribute> class provides ver
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
-

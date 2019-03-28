@@ -1,21 +1,16 @@
 ---
 title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::SetCallback"
   - "SetCallback"
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpressionEvaluator2::SetCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
   
 ## See Also  
  [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
-

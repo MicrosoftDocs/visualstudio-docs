@@ -1,19 +1,17 @@
 ---
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
-ms.custom: ""
 ms.date: "08/06/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
-f1_keywords: 
+f1_keywords:
   - ""
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "cplusplus"
 ---
 # Quickstart: Analyze CPU usage data in Visual Studio (C++)
@@ -53,64 +51,64 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     #include <mutex>
     #include <random>
     #include <functional>
-    
+
     //.cpp file code:
-    
+
     static constexpr int MIN_ITERATIONS = std::numeric_limits<int>::max() / 1000;
     static constexpr int MAX_ITERATIONS = MIN_ITERATIONS + 10000;
-    
+
     long long m_totalIterations = 0;
     std::mutex m_totalItersLock;
-    
+
     int getNumber()
     {
-    
+
         std::uniform_int_distribution<int> num_distribution(MIN_ITERATIONS, MAX_ITERATIONS);
         std::mt19937 random_number_engine; // pseudorandom number generator
         auto get_num = std::bind(num_distribution, random_number_engine);
         int random_num = get_num();
-    
+
         auto result = 0;
         {
             std::lock_guard<std::mutex> lock(m_totalItersLock);
             m_totalIterations += random_num;
         }
-        // we're just spinning here  
-        // to increase CPU usage 
+        // we're just spinning here
+        // to increase CPU usage
         for (int i = 0; i < random_num; i++)
         {
             result = get_num();
         }
         return result;
     }
-    
+
     void doWork()
     {
         std::wcout << L"The doWork function is running on another thread." << std::endl;
-    
-        auto x = getNumber();    
+
+        auto x = getNumber();
     }
-    
+
     int main()
     {
         std::vector<std::thread> threads;
-    
+
         for (int i = 0; i < 10; ++i) {
-    
+
             threads.push_back(std::thread(doWork));
             std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
         }
-    
+
         for (auto& thread : threads) {
             thread.join();
         }
-    
+
         return 0;
     }
     ```
-  
-## Step 1: Collect profiling data 
-  
+
+## Step 1: Collect profiling data
+
 1.  First, set a breakpoint in your app on this line of code in the `main` function:
 
     `for (int i = 0; i < 10; ++i) {`
@@ -123,7 +121,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
-  
+
 3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
 4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
@@ -143,7 +141,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
      The profiler begins preparing thread data. Wait for it to finish.
-  
+
      The CPU Usage tool displays the report in the **CPU Usage** tab.
 
      At this point, you can begin to analyze the data.
@@ -161,7 +159,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 2. In the function list, double-click the `getNumber` function.
 
-    When you double-click the function, the **Caller/Callee** view opens in the left pane. 
+    When you double-click the function, the **Caller/Callee** view opens in the left pane.
 
     ![Diagnostics Tools Caller Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-cplusplus.png "DiagToolsCallerCallee")
 
@@ -180,7 +178,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See also  
+## See also
 
- [Profiling in Visual Studio](../profiling/index.md)  
- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

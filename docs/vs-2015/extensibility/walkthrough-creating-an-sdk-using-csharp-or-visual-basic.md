@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating an SDK using C# or Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -174,6 +169,5 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 ## See Also  
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
- [Walkthrough: Creating an SDK using JavaScript](http://msdn.microsoft.com/en-us/6195ff56-4a27-45fc-bd29-4b0451225f4b)   
+ [Walkthrough: Creating an SDK using JavaScript](walkthrough-creating-an-sdk-using-javascript.md)   
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)
-

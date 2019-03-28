@@ -1,8 +1,6 @@
 ---
 title: Code Analysis, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs29106"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

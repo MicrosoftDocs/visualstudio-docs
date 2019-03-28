@@ -6,8 +6,8 @@ ms.reviewer: "crdun"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 7921D4C7-5526-42F5-8E03-82D3E33A893F
-author: "conceptdev"
-ms.author: "crdun"
+author: therealjohn
+ms.author: johmil
 manager: "crdun"
 ms.workload:
   - "azure"

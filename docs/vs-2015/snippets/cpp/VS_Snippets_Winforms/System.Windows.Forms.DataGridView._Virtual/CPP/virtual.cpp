@@ -82,7 +82,7 @@ namespace Sample
         {
             MessageBox::Show(String::Format(
                 CultureInfo::CurrentCulture, 
-                "Exception occured: {0}", ex));
+                "Exception occurred: {0}", ex));
         }
     }
 
@@ -106,7 +106,7 @@ namespace Sample
     //</snippet30>
 
     //<snippet10>
-#pragma region Data store maintance
+#pragma region Data store maintenance
 
     void VirtualConnector::dataGridView1_CellValueNeeded
         (Object^ sender, DataGridViewCellValueEventArgs^ e)

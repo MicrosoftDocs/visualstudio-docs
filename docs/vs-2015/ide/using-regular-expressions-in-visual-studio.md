@@ -1,14 +1,9 @@
 ---
-title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Using Regular Expressions"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords:
   - "vsregularexpressionhelp"
   - "vs.regularexpressionhelp"
@@ -23,7 +18,7 @@ ms.assetid: 718a617d-0e05-47e1-a218-9746971527f4
 caps.latest.revision: 56
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Use Regular Expressions in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,4 +67,3 @@ Here are some examples:
 |                                                                                                            Match a string inside quotes                                                                                                             |                                             ((\\".+?\\")&#124;('.+?'))                                             |                                                    Matches any string inside single or double quotes.                                                     |
 |                                                                                                             Match a hexadecimal number                                                                                                              |                                              \b0[xX]([0-9a-fA-F]\)\b                                               |                                                          Matches "0xc67f" but not "0xc67fc67f".                                                           |
 |                                                                                                             Match integers and decimals                                                                                                             |                                               \b[0-9]\*\\.\*[0-9]+\b                                               |                                                                     Matches "1.333".                                                                      |
-

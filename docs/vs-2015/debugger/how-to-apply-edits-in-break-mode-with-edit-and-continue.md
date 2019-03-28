@@ -1,14 +1,9 @@
 ---
 title: "How to: Apply Edits in Break Mode with Edit and Continue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.variables.failededit"
 dev_langs: 
@@ -26,9 +21,9 @@ helpviewer_keywords:
   - "code, editing in break mode"
 ms.assetid: 1eef7498-6a1f-4fba-8146-510adc6375c9
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Apply Edits in Break Mode with Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
 ## See Also  
  [Unsupported Edits in Visual Basic Edit and Continue](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)   
  [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)
-
-
-

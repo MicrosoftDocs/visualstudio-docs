@@ -1,22 +1,17 @@
 ---
 title: "Outlining in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "outlining"
   - "language services [managed package framework], outlining"
   - "outlining, supporting in language services [managed package framework]"
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Outlining in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -121,4 +116,3 @@ namespace MyLanguagePackage
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)   
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
-

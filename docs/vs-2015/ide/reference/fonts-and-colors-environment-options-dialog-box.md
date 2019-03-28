@@ -1,14 +1,9 @@
 ---
 title: "Fonts and Colors, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPag.Environment.Fonts_And_Colors"
   - "VS.ToolsOptionsPages.FontsAndColors"
@@ -31,7 +26,7 @@ ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ manager: "ghogen"
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools / Options**, and then selecting **Environment / Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.  
   
@@ -236,6 +231,3 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)   
  [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-

@@ -1,9 +1,6 @@
 ---
 title: "Persist dynamic controls in Office documents"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -16,9 +13,9 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
   - "documents [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], persisting in the document"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

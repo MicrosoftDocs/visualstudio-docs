@@ -1,8 +1,6 @@
 ---
 title: Creating and Configuring Type Members (Class Designer)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdetails.method"
@@ -28,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -201,7 +199,7 @@ Parameter rows contain the following items:
 
 - **\<add parameter>**
 
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
+     The last parameter row of a member contains the text **<add parameter\>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
 
 The **Properties** window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 
@@ -314,5 +312,5 @@ You cannot edit native C++ code by using the Class Designer or the **Class Detai
 
 ## See also
 
-- [Viewing types and relationships](viewing-types-and-relationships.md)
+- [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

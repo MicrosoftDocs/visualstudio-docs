@@ -1,14 +1,9 @@
 ---
 title: "Program Nodes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "program nodes, debugging context"
   - "debugging [Debugging SDK], program nodes"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "program nodes, superceding"
 ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Program Nodes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ In terms of the debugger architecture, a **program node**:
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)
-

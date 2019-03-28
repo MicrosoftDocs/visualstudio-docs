@@ -1,8 +1,6 @@
 ---
 title: Code Analysis for C/C++ Overview
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
   - "annotations, code analysis"
@@ -54,7 +52,7 @@ Annotations improve the accuracy of the code analysis. Annotations provide addit
 
 ## Run analysis tool as part of check-in policy
 
-You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)
 
 ## Team Build integration
 

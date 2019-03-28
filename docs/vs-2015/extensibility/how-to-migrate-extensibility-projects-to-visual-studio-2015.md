@@ -1,20 +1,15 @@
 ---
 title: "How to: Migrate Extensibility Projects to Visual Studio 2015 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio SDK, upgrading"
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ Here’s how to upgrade your extension.
   
 > [!NOTE]
 >  It is not required that you update your existing extensibility projects to use NuGet reference assemblies and tools.  They can continue to build using reference assemblies and tools installed with the VS SDK.
-

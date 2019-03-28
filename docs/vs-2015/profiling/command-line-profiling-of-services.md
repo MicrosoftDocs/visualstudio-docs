@@ -1,22 +1,17 @@
 ---
 title: "Command-Line Profiling of Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling toos,services"
   - "profiling services"
 ms.assetid: f0d62318-b0e8-49c6-9a30-9f7a6adef2f6
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Command-Line Profiling of Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ This section describes the procedures and options for collecting performance dat
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)|  
 |**Profile ASP.NET applications**|-   [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)|
-
-
-

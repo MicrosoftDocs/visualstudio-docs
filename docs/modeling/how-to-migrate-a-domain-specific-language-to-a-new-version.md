@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
@@ -70,7 +68,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    2.  Click the **Transform All Templates** button in the header of Solution Explorer.
 
        > [!NOTE]
-       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).
+       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
 6. Update your custom code in the converted projects.
 
@@ -83,4 +81,4 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 ## See Also
 
-- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+- [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

@@ -1,22 +1,17 @@
 ---
 title: "Understanding Instrumentation Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools,instrumentation"
   - "instrumentation profiling method"
 ms.assetid: 2cf94cf9-c317-4a52-bf00-670f1262165e
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Understanding Instrumentation Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,6 +95,3 @@ The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../includes/vspr
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)
-
-
-

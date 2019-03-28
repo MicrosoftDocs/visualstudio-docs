@@ -1,5 +1,5 @@
 ---
-title: "Load Test Run Settings in Visual Studio"
+title: "Load Test Run Settings"
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -7,17 +7,17 @@ helpviewer_keywords:
 ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Load test run settings properties
 
 The run settings of a load test determine a variety of other settings, including the duration of the test, results collection detail level, and the counter sets that are collected when the test runs. You can create and store multiple run settings for each load test, and then select one particular setting to use when you run the test. An initial run setting is added to your load test when you create your load test using the **New Load Test Wizard**.
 
- The following tables describe the various properties for load test run settings. You can modify these properties to meet your specific load testing requirements.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- For more information, see [Configure load test run settings](../test/configure-load-test-run-settings.md).
+The following tables describe the various properties for load test run settings. You can modify these properties to meet your specific load testing requirements.
+
+For more information, see [Configure load test run settings](../test/configure-load-test-run-settings.md).
 
 ## General properties
 
@@ -36,7 +36,7 @@ The run settings of a load test determine a variety of other settings, including
 |Property|Definition|
 |-|----------------|
 |**Maximum Test Logs**|Specifies the maximum number of test logs to save for the load test. When the value entered for the maximum number of test logs is reached, the load test will stop collecting logs. Therefore, the logs will be collected at the beginning of the test, not the end. The load test will continue to run until it is completed.|
-|**Save Log Frequency for Completed Tests**|Specifies the frequency at which the test log will be written. The number indicates that one out of every entered number of tests will be saved to the test log. For example, entering the value of ten specifies that the tenth, twentieth, thirtieth and so on will be written to the test log. Setting the value to 0 specifies that no test logs will be saved.<br /><br /> For more information, see [How to: Specify how frequently test logs are saved](../test/how-to-specify-how-frequently-test-logs-are-saved.md)|
+|**Save Log Frequency for Completed Tests**|Specifies the frequency at which the test log will be written. The number indicates that one out of every entered number of tests will be saved to the test log. For example, entering the value of ten specifies that the tenth, twentieth, thirtieth and so on will be written to the test log. Setting the value to 0 specifies that no test logs will be saved.|
 |**Save Log on Test Failure**|A Boolean value that determines whether if test logs are saved if a test fails in a load test. The default is `True`.<br /><br /> For more information, see [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
 
  For more information, see [Modify load test logging settings](../test/modify-load-test-logging-settings.md).

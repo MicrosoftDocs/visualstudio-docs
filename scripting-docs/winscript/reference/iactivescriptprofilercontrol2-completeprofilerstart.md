@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl2::CompleteProfilerStart | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Notifies the profiler that you have started profiling on all applicable scriptin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CompleteProfilerStart();  
 ```  
   

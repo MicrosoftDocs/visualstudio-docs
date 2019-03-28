@@ -1,14 +1,9 @@
 ---
 title: "How to: Test and Debug a Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], visualizers"
 ms.assetid: 5cc12ce8-c819-48e4-b487-98d403001b28
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Test and Debug a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ Once you have written a visualizer, you need to debug and test it.
  [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)   
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
-
-
-

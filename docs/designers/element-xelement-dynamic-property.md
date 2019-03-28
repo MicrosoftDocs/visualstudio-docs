@@ -1,8 +1,6 @@
 ---
 title: Element (XElement Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
   - "XElement.Element"
@@ -10,7 +8,7 @@ apitype: "Assembly"
 ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,21 +1,16 @@
 ---
 title: "Launching the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], launching the debugger"
   - "debugger [Debugging SDK], launching"
 ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Launching the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ Launching the debugger requires sending the correct sequence of methods and even
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)   
  [Launching a Program](../../extensibility/debugger/launching-a-program.md)
-

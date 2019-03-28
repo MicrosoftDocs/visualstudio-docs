@@ -1,22 +1,17 @@
 ---
 title: "BP_STATE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_STATE"
 helpviewer_keywords: 
   - "BP_STATE enumeration"
 ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ public enum enum_BP_STATE { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetState](../../../extensibility/debugger/reference/idebugboundbreakpoint2-getstate.md)
-

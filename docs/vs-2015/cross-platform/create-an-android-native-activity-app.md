@@ -1,21 +1,16 @@
 ---
 title: "Create an Android Native Activity App | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 dev_langs: 
   - "C++"
 ms.assetid: 884014b1-5208-45ec-b0da-ad0070d2c24d
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: corob-msft
+ms.author: corob
+manager: jillfra
 ---
 # Create an Android Native Activity App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
 5.  Press Shift + F5 to stop debugging.  
   
      The emulator is a separate process that continues to run. You can edit, compile, and deploy your code multiple times to the same emulator.
-

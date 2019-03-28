@@ -1,14 +1,9 @@
 ---
 title: "Introduction to International Applications Based on the .NET Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "strings [Visual Studio], localizing"
   - "Web applications [.NET Framework], globalization"
@@ -30,7 +25,7 @@ ms.assetid: b0788993-e62d-4f68-8235-5f87b1d48525
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Introduction to International Applications Based on the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], there are two parts to creating
  <xref:System.Resources>   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)   
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)
-

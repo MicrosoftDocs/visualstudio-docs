@@ -1,12 +1,12 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "08/06/2018"
+ms.date: "11/28/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
-author: "TerryGLee"
-ms.author: "tglee"
+author: therealjohn
+ms.author: johmil
 manager: crdun
 ms.workload:
   - "unity"
@@ -14,18 +14,54 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
-## 3.8.0.7
- Released September 20, 2018
- 
+## 3.9.0.3
+ Released November 28, 2018
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed project reloading and intellisense issues when adding or removing scripts located in the very first project.
+
+## 3.9.0.2
+ Released November 19, 2018
+
 ### Bug fixes
 
 -   **Debugger:**
 
     -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
+## 3.9.0.1
+ Released November 15, 2018
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed Unity plugin activation when another default editor was selected.
+
+## 3.9.0.0
+ Released November 13, 2018
+
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+
+## 3.8.0.7
+ Released September 20, 2018
+
+### Bug fixes
+
+-   **Debugger:**
+
+    -   (Backported from 3.9.0.2) Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+
 ## 3.8.0.6
  Released August 27, 2018
- 
+
 ### Bug fixes
 
 -   **Integration:**
@@ -34,7 +70,7 @@ Visual Studio Tools for Unity change log.
 
 ## 3.8.0.5
  Released August 20, 2018
- 
+
 ### Bug fixes
 
 -   **Integration:**
@@ -43,13 +79,13 @@ Visual Studio Tools for Unity change log.
 
 ## 3.8.0.4
  Released August 14, 2018
- 
+
 ### New Features
 
 -   **Evaluation:**
 
     -   Added support for pointer values.
-    
+
     -   Added support for generic methods.
 
 ### Bug fixes
@@ -60,33 +96,33 @@ Visual Studio Tools for Unity change log.
 
 ## 3.8.0.3
  Released July 24, 2018
- 
+
 ### Bug fixes
 
 -   **Project Generation:**
 
-    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+    -   (Backported from 3.9.0.0) Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 3.8.0.2
  Released July 7, 2018
- 
+
 ### Bug fixes
 
 -   **Project Generation:**
 
     -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
-    
+
 ## 3.8.0.1
  Released June 26, 2018
- 
+
 ### New Features
 
 -   **Debugging:**
 
     -   Added support for UserLog and UserBreak commands.
-    
+
     -   Added lazy type-load support (optimizing the network load and debugger response latency).
-       
+
 ### Bug fixes
 
 -   **Evaluation:**
@@ -95,19 +131,19 @@ Visual Studio Tools for Unity change log.
 
 ## 3.8.0.0
  Released May 30, 2018
- 
+
 ### New Features
 
 -   **Debugging:**
 
     -   Added support for displaying variables in async constructs.
-    
+
     -   Added support for processing nested types when setting breakpoints, to prevent warnings with compiler constructs.
-    
+
 -   **Integration:**
 
     -   Added support for textmate grammars for Shaders (the C++ workload is no longer needed for Shader code coloration).
-    
+
 ### Bug fixes
 
 -   **Project Generation:**
@@ -131,15 +167,15 @@ Visual Studio Tools for Unity change log.
 -   **Debugging:**
 
     -   Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
-    
+
     -   Added support for Android USB player debugging.
-    
+
     -   Added support for UWP/IL2CPP player debugging.
 
 -   **Evaluation:**
 
     -   Added support for hexadecimal specifiers.
-    
+
     -   Improved watch window evaluation experience.
 
 ### Bug fixes
@@ -835,9 +871,9 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   Fix handling of Visual Studio themes. Previously, dialogs on black themes could appear empty (Connect issues [#932637](https://connect.microsoft.com/VisualStudio/feedbackdetail/view/932637/) and [#936439](https://connect.microsoft.com/VisualStudio/feedbackdetail/view/936439/)).
+-   Fix handling of Visual Studio themes. Previously, dialogs on black themes could appear empty.
 
--   Fix Unity freeze when connecting the debugger while Unity is recompiling (Connect issues [#947119](https://connect.microsoft.com/VisualStudio/feedbackdetail/view/947119/) and [#969211](https://connect.microsoft.com/VisualStudio/feedbackdetail/view/969211/)).
+-   Fix Unity freeze when connecting the debugger while Unity is recompiling.
 
 -   Fix breakpoints when debugging remote editors or players compiled on another system.
 
@@ -847,7 +883,7 @@ Visual Studio Tools for Unity change log.
 
 -   Fix handling of variable scope in the debugger to avoid live variables that appear out of scope.
 
--   Fix lookup of static members in the Expression Evaluation of the debugger (Connect issue [#953379](https://connect.microsoft.com/VisualStudio/feedbackdetail/view/953379/)).
+-   Fix lookup of static members in the Expression Evaluation of the debugger.
 
 -   Fix displaying of types in the Expression Evaluation of the debugger to show static fields and properties.
 

@@ -1,22 +1,17 @@
 ---
 title: "Parameter Info in a Legacy Language Service2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliSense, Parameter Info tool tip"
   - "language services [managed package framework], IntelliSense Parameter Info"
   - "Parameter Info (IntelliSense), supporting in language services [managed package framework]"
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -119,4 +114,3 @@ testfunc("a string",3);
 3.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>.  
   
 4.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>.
-

@@ -1,19 +1,16 @@
 ---
 title: "Customizing the Properties Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, Properties window"
 ms.assetid: b6658de5-4e85-4628-93b2-5cc12f63d25b
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing the Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -317,6 +314,3 @@ public class MyTypeConverter : System.ComponentModel.TypeConverter
   
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
-
-
-

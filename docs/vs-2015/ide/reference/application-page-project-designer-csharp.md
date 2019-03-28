@@ -1,14 +1,9 @@
 ---
 title: "Application Page, Project Designer (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "cs.ProjectPropertiesApplicationWPF"
   - "cs.ProjectPropertiesApplication"
@@ -19,7 +14,7 @@ ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
 caps.latest.revision: 61
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Application Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -102,6 +97,3 @@ Use the **Application** page of the **Project Designer** to specify the project'
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)  
  [Writing Code in Office Solutions](http://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)
-
-
-

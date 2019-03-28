@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode::EnumChildren | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Enumerates the child nodes of this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumChildren(  
    IEnumDebugApplicationNodes**  pperddp  
 );  

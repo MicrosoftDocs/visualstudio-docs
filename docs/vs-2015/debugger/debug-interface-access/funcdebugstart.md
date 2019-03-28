@@ -1,14 +1,9 @@
 ---
 title: "FuncDebugStart | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "debugging [DIA SDK], start point"
 ms.assetid: 1cbc6ca5-87d0-4c30-a39e-0a9dc62ce1a9
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # FuncDebugStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ If a function has a defined point at which debugging is to begin, that point is 
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)   
  [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)   
  [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)
-
-
-

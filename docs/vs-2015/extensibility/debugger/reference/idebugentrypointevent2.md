@@ -1,22 +1,17 @@
 ---
 title: "IDebugEntryPointEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEntryPointEvent2"
 helpviewer_keywords: 
   - "IDebugEntryPointEvent2 interface"
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEntryPointEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ IDebugEntryPointEvent2 : IUnknown
 ## See Also  
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)
-

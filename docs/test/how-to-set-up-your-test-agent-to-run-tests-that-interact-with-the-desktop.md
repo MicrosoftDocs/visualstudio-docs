@@ -7,13 +7,13 @@ helpviewer_keywords:
 ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Set up your test agent to run tests that interact with the desktop
 
 If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using Microsoft Test Manager, you must change the setup for any agents assigned to roles that have to interact with the desktop.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!WARNING]
 > If you use Microsoft Test Manager to set up a lab environment, it installs the test agent. You can specify in the **Environment Creation Wizard** that you want to configure one of the roles to run coded UI tests.

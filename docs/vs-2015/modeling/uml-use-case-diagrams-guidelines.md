@@ -1,12 +1,9 @@
 ---
 title: "UML Use Case Diagrams: Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "diagrams - modeling, use case"
   - "UML, use case diagrams"
@@ -15,9 +12,9 @@ helpviewer_keywords:
   - "UML diagrams, use case"
 ms.assetid: b1ae8ed0-d00b-4f9b-8e23-733e09e81e9b
 caps.latest.revision: 38
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Use Case Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -446,6 +443,3 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)   
  [Video: Organizing Features into Use Cases](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases/)
-
-
-

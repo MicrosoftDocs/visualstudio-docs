@@ -1,14 +1,12 @@
 ---
 title: Validate your system during development
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "dependency diagrams"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +29,7 @@ Visual Studio can help keep your software consistent with the users' requirement
 |-|-|
 |**Videos**|![link to video](../data-tools/media/playvideo.gif) [Channel 9: Doug Seven: Code Understanding and System Design with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkId=216100)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: Architecting an Application using a Dependency Diagram](http://go.microsoft.com/fwlink/?LinkID=201117)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Series: How to Validate Code using Dependency Diagrams](http://go.microsoft.com/fwlink/?LinkID=214405)|
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|-   [Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|
+|**Blogs**|-   [Microsoft DevOps](https://devblogs.microsoft.com/devops/)|
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|
 
 ## See also

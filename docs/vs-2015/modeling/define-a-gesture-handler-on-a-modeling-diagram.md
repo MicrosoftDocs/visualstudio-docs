@@ -1,20 +1,17 @@
 ---
 title: "Define a gesture handler on a modeling diagram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML - extending, double-click"
   - "UML - extending, drag and drop"
 ms.assetid: e5e1d70a-3539-4321-a3b1-89e86e4d6430
 caps.latest.revision: 36
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define a gesture handler on a modeling diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -522,6 +519,3 @@ public class CreateLifelinesFromComponentParts : IGestureExtension
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

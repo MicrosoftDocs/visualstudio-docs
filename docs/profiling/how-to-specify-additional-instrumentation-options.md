@@ -1,19 +1,17 @@
 ---
 title: "How to: Specify Additional Instrumentation Options | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.advanced"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "instrumentation, options"
   - "profiling tools, session options"
   - "performance sessions, options"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Specify additional instrumentation options
@@ -37,5 +35,5 @@ You can instrument binaries from using the Visual Studio IDE or by using command
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

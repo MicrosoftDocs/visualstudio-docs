@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "text templates, template code"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Text Template Control Blocks
 Control blocks let you write code in your text template in order to vary the output. There are three kinds of control blocks, which are distinguished by their opening brackets:

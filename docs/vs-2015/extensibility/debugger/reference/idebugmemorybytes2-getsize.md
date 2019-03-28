@@ -1,14 +1,9 @@
 ---
 title: "IDebugMemoryBytes2::GetSize | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugMemoryBytes2::GetSize"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "GetSize method"
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugMemoryBytes2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ int GetSize(
   
 ## See Also  
  [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
-

@@ -1,20 +1,15 @@
 ---
 title: "Visual Studio SDK Glossary | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "glossary [Visual Studio SDK]"
 ms.assetid: b64d432b-c39b-4904-ad18-3c3218b6e3aa
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Visual Studio SDK Glossary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -185,4 +180,3 @@ This glossary provides definitions for terms that are used in the [!INCLUDE[vsip
   
   VSPackage  
   An installable piece of software that extends the Visual Studio IDE by contributing one or more of the following: user interface, services, project types, or editor/designer. A VSPackage consists of a COM object that implements the `IVsPackage` interface and one or more other COM objects that implement other interfaces to support selection and other features. In addition, a VSPackage has specific registration requirements.
-

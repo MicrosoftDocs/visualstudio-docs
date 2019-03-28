@@ -14,9 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -34,13 +32,16 @@ The following procedure assumes that the **Data Sources** window is already popu
 
 2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.
 
+   > [!TIP]
+   > If the **Data Sources** window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
+
 3.  Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:
 
-    -   If the WPF designer is open, select **Image**.
+    - If the WPF designer is open, select **Image**.
 
-    -   If the Windows Forms designer is open, select **PictureBox**.
+    - If the Windows Forms designer is open, select **PictureBox**.
 
-    -   Alternatively, you can select a different control that supports data binding and that can display images. If the control that you want to use is not in the list of available controls, you can add it to the list and then select it. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).
+    - Alternatively, you can select a different control that supports data binding and that can display images. If the control that you want to use is not in the list of available controls, you can add it to the list and then select it. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).
 
 ## See also
 

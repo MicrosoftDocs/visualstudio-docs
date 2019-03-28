@@ -1,12 +1,9 @@
 ---
 title: "Generate code from UML class diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.logicalclassdiagram.shapes.properties.Templates"
   - "vs.teamarch.logicalclassdiagram.shapes.properties.Templates.TextTransformationDataCollectionEditor"
@@ -16,9 +13,9 @@ helpviewer_keywords:
   - "UML diagrams, generating code"
 ms.assetid: 2790e64d-7728-4c2e-a4dd-4131e795f730
 caps.latest.revision: 53
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generate code from UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -237,6 +234,3 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)
-
-
-

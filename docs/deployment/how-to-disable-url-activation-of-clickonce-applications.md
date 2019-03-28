@@ -1,8 +1,6 @@
 ---
 title: "How to: Disable URL Activation of ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: db31a16b-960f-4264-91d7-c7c40f876068
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

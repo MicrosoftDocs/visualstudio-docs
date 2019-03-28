@@ -1,14 +1,9 @@
 ---
 title: "Obtaining Build Logs with MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, logging"
   - "logging [MSBuild]"
@@ -16,7 +11,7 @@ ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
 caps.latest.revision: 30
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Obtaining Build Logs with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,6 +77,3 @@ msbuild MyProject.proj /t:go /fl1 /fl2 /fl3 /flp2:logfile=JustErrors.log;errorso
  [Logging in a Multi-Processor Environment](../msbuild/logging-in-a-multi-processor-environment.md)   
  [Creating Forwarding Loggers](../msbuild/creating-forwarding-loggers.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)
-
-
-

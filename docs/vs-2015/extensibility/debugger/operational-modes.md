@@ -1,20 +1,15 @@
 ---
 title: "Operational Modes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, modes"
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Operational Modes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ There are three modes in which the IDE can operate, as follows:
   
 ## See Also  
  [Control of Execution](../../extensibility/debugger/control-of-execution.md)
-

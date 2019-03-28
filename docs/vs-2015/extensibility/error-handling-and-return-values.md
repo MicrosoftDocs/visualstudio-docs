@@ -1,22 +1,17 @@
 ---
 title: "Error Handling and Return Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "errors [Visual Studio SDK], handling"
   - "error handling"
   - "return values"
 ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Error Handling and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +51,6 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
- [SetErrorInfo (Component Automation)](http://msdn.microsoft.com/en-us/8eaacfac-fc37-4eaa-870b-10b99d598d66)   
- [GetErrorInfo](http://msdn.microsoft.com/en-us/03317526-8c4f-4173-bc10-110c8112676a)   
- [ISupportErrorInfo Interface](http://msdn.microsoft.com/en-us/42d33066-36b4-4a5b-aa5d-46682e560f32)
-
+ [SetErrorInfo (Component Automation)](http://msdn.microsoft.com/8eaacfac-fc37-4eaa-870b-10b99d598d66)   
+ [GetErrorInfo](http://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a)   
+ [ISupportErrorInfo Interface](http://msdn.microsoft.com/42d33066-36b4-4a5b-aa5d-46682e560f32)

@@ -1,19 +1,16 @@
 ---
 title: "About Domain-Specific Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language"
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # About Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,6 +110,3 @@ Unlike a general-purpose language such as C# or UML, a domain-specific language 
 -   The lead software developer or the architect deploys the domain-specific language to the developers of the various applications that the team produces.  
   
 -   Every developer creates a model that applies to the specific application.
-
-
-

@@ -1,14 +1,10 @@
 ---
 title: "How to: Use AsyncPackage to Load VSPackages in the Background | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 caps.latest.revision: 9
-ms.author: "gregvanl"
+ms.author: gregvanl
 ---
 # How to: Use AsyncPackage to Load VSPackages in the Background
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,4 +97,3 @@ using Microsoft.VisualStudio.Shell.Interop;
 IAsyncServiceProvider asyncServiceProvider = Package.GetService(typeof(SAsyncServiceProvider)) as IAsyncServiceProvider;   
 IMyTestService testService = await ayncServiceProvider.GetServiceAsync(typeof(SMyTestService)) as IMyTestService;  
 ```
-

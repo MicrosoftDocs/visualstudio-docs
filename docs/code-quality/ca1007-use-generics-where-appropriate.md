@@ -1,8 +1,6 @@
 ---
 title: "CA1007: Use generics where appropriate"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1007"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: eab780ea-3b1f-4d32-b15a-5d48da2df46b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

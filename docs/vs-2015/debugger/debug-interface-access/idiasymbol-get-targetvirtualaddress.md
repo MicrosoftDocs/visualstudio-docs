@@ -1,23 +1,18 @@
 ---
 title: "IDiaSymbol::get_targetVirtualAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_targetVirtualAddress method"
 ms.assetid: a0a5ce72-95f8-443e-bb4b-8c21194faad0
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_targetVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ HRESULT get_targetVirtualAddress ( 
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
-
-
-

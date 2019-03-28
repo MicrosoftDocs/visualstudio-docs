@@ -2,7 +2,6 @@
 title: "IDebugExpression::GetResultAsString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the result of the expression evaluation as a string and the operation's 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResultAsString(  
    HRESULT*  phrResult,  
    BSTR*     pbstrResult  

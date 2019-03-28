@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Sharing Classes between DSLs by using a DSL Library
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.

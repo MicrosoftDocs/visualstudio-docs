@@ -1,14 +1,9 @@
 ---
 title: "Collecting tier interaction data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.tierinteraction"
 helpviewer_keywords: 
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "ADO.NET performance profiling"
 ms.assetid: 47a944c2-3098-497c-8fc7-e1f43d750bbc
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting tier interaction data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ Tier interaction profiling provides additional information about the execution t
   
 ## See Also  
  [Tier Interactions View](../profiling/tier-interactions-view.md)
-
-
-

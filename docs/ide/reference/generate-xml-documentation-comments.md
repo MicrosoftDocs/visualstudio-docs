@@ -1,18 +1,21 @@
 ---
-title: Insert XML documentation comments in Visual Studio
+title: Insert XML documentation comments
 ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
 # How to: Insert XML comments for documentation generation
 
-Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments. The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
+Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments.
+
+> [!TIP]
+> For information about configuring the name and location of the generated XML file, see [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc).
+
+The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 > [!NOTE]
 > The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/ide/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.

@@ -1,21 +1,16 @@
 ---
 title: "Enumerations (Visual Studio Debugging) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "enumerations [Visual Studio SDK]"
   - "debugging [Debugging SDK], enumerations"
 ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Enumerations (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -253,4 +248,3 @@ Following are enumerations for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md
   
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
-

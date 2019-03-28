@@ -1,14 +1,9 @@
 ---
 title: "Open File Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "file.openfile"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: a51a83fc-e3c6-4fa2-8882-8b7b6c0a6406
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Open File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ File.OpenFile filename [/e:editorname]
  [Immediate Window](../../ide/reference/immediate-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

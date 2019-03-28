@@ -1,19 +1,16 @@
 ---
 title: "Add custom properties to layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, adding custom properties"
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 23
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add custom properties to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -161,6 +158,3 @@ namespace MyNamespace
   
 ## See Also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
-
-
-

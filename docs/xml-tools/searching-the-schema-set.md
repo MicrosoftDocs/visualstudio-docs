@@ -1,13 +1,11 @@
 ---
 title: "XML Schema Explorer - search the schema set"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -35,7 +33,7 @@ The **XML Schema Explorer** enables you to search the schema set in the followin
 
 ## Schema specific search
 
- The **XML Schema Explorer** also includes built-in searches that you can access by using the context menu of the **XML Schema Explorer**. For more information about available context menus, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md). You can also perform a schema-specific search from the Start View; for more information, see the "Schema Set Details" section in the [Start View](../xml-tools/start-view.md) topic.
+ The **XML Schema Explorer** also includes built-in searches that you can access by using the context (right-click) menu of the **XML Schema Explorer**. For more information about available context menus, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md). You can also perform a schema-specific search from the Start View; for more information, see the "Schema Set Details" section in the [Start View](../xml-tools/start-view.md) topic.
 
 ## Display and navigate search results
 

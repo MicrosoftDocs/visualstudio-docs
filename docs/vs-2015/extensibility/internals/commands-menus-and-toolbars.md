@@ -1,22 +1,17 @@
 ---
 title: "Commands, Menus, and Toolbars | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "menus [Visual Studio SDK], commands"
   - "commands [Visual Studio]"
   - "toolbars [Visual Studio], commands"
 ms.assetid: 07b4ed90-dbbd-40df-b6c9-8395fd6f2ab6
 caps.latest.revision: 61
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Commands, Menus, and Toolbars
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ Menus and toolbars are the way users access commands in your VSPackage. Commands
 ## Related Sections  
  [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)  
  Explains command routing in VSPackages.
-

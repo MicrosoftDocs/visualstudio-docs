@@ -1,8 +1,6 @@
 ---
-title: Create multi-project templates for Visual Studio
+title: Create multi-project templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
@@ -10,23 +8,23 @@ helpviewer_keywords:
   - "multi-project templates"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Create multi-project templates
 
-Multi-project templates act as containers for two or more projects. When you create a project that is based on a multi-project template from the **New Project** dialog box, every project in the template is added to the solution.
+Multi-project templates act as containers for two or more projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
 
 A multi-project template has two or more project templates, and a root template of type **ProjectGroup**.
 
 Multi-project templates behave differently than single project templates. They have the following unique characteristics:
 
-- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the **ProjectName** attribute on the **ProjectTemplateLink** element in the *vstemplate* file to specify a name for each project.
+- Individual projects in a multi-project template cannot be assigned names when the template is used to create a new project. Instead, use the **ProjectName** attribute on the **ProjectTemplateLink** element in the *vstemplate* file to specify a name for each project.
 
 - Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the **ProjectType** element of the *vstemplate* file.
 
 A multi-project template must include the following items, compressed into a *.zip* file:
 
-- A root *vstemplate* file for the entire multi-project template. This root *vstemplate* file contains metadata that the **New Project** dialog box displays, and specifies where to find the *vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
+- A root *vstemplate* file for the entire multi-project template. This root *vstemplate* file contains metadata that's displayed in the dialog box where you create a new project. It also specifies where to find the *vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
 
 - Two or more folders that contain the files that are required for a complete project template. The folders include all code files for the project, and also a *vstemplate* file for the project.
 
@@ -64,38 +62,41 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
     </TemplateContent>
     ```
 
-## To create a multi-project template from an existing solution
+## Create a multi-project template from an existing solution
 
 1. Create a solution and add two or more projects.
 
-1. Customize the projects until they are ready to be exported to a template.
+2. Customize the projects until they are ready to be exported to a template.
 
-1. On the **Project** menu, choose **Export Template**.
+   > [!TIP]
+   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`.
+
+3. On the **Project** menu, choose **Export Template**.
 
    The **Export Template Wizard** opens.
 
-1. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
+4. On the **Choose Template Type** page, select **Project Template**. Select one of the projects that you want to export to a template, and then choose **Next**. (You'll repeat these steps for each project in the solution.)
 
-1. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. Choose **Finish**.
+5. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. Choose **Finish**.
 
    The project is exported into a *.zip* file and placed in the specified output location.
 
    > [!NOTE]
    > Each project must be exported to a template separately, so repeat the preceding steps for each project in the solution.
 
-1. Create a directory for your template, with a subdirectory for each project.
+6. Create a directory for your template, with a subdirectory for each project.
 
-1. Extract the contents of each project's *.zip* file into the corresponding subdirectory that you created.
+7. Extract the contents of each project's *.zip* file into the corresponding subdirectory that you created.
 
-1. In the base directory, create an XML file with a *.vstemplate* file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's *vstemplate* file.
+8. In the base directory, create an XML file with a *.vstemplate* file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's *vstemplate* file.
 
-1. Select all the files in the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
+9. Select all the files in the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
 
    The files and folders are compressed into a *.zip* file.
 
-1. Copy the *.zip* file into the user project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*.
+10. Copy the *.zip* file into the user project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*.
 
-1. In Visual Studio, open the **New Project** dialog box and verify that your template appears.
+11. In Visual Studio, choose **File** > **New** > **Project** and verify that your template appears.
 
 ## Two-project example
 

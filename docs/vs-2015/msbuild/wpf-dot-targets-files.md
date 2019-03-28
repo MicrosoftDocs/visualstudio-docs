@@ -1,14 +1,9 @@
 ---
 title: "WPF .Targets Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: e85a3ff4-dedd-4ff4-9b22-3a1e94755362
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # WPF .Targets Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ manager: "ghogen"
  [.Targets Files](../msbuild/msbuild-dot-targets-files.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)
-
-
-

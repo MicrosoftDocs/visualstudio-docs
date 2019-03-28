@@ -1,13 +1,12 @@
 ---
 title: "How to: View, save, and configure build log files | Microsoft Docs"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -48,7 +47,7 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
      For more information, see [Options dialog box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.
 
     > [!IMPORTANT]
-    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *<ProjectName>.txt* file (C++ projects only).
+    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
 
 ## See also
 

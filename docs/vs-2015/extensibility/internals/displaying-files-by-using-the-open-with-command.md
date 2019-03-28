@@ -1,22 +1,17 @@
 ---
 title: "Displaying Files By Using the Open With Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project types, supporting Open With command"
   - "Open With command"
   - "persistence, supporting Open With command"
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Displaying Files By Using the Open With Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,4 +31,3 @@ A project can ask the IDE to display the **Open With** dialog box. This request 
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)   
  [Displaying Files By Using the Open File Command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)   
  [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)
-

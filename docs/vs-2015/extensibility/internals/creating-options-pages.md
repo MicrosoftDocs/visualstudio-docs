@@ -1,21 +1,16 @@
 ---
 title: "Creating Options Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed package framework, creating Tools Options pages"
   - "Tools Options pages [Visual Studio SDK], creating using managed package framework"
 ms.assetid: 1bf11fec-dece-4943-8053-6de1483c43eb
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating Options Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] managed package framework
 ## See Also  
  [Extending User Settings and Options](../../extensibility/extending-user-settings-and-options.md)   
  [Automation Support for Options Pages](../../extensibility/internals/automation-support-for-options-pages.md)
-

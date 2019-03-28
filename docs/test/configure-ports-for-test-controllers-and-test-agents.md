@@ -1,5 +1,5 @@
 ---
-title: "Configure Ports for Test Controllers and Test Agents in Visual Studio"
+title: "Configure Ports for Test Controllers and Test Agents"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,17 +12,17 @@ helpviewer_keywords:
 ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Configure ports for test controllers and test agents
 
 You can change the default incoming ports used by the test controller, the test agent, and the client. This might be necessary if you are trying to use the test controller, the test agent, or the client together with some other software that conflicts with the port settings. Another reason to change the ports is due to the firewall restriction between the test controller and the client. In this case you might want to manually configure the port to accommodate enabling it for a firewall so that the test controller can send results to the client.
 
- The following illustration shows the connection points between the test controller, test agent and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- ![Test contoller and test agent ports and security](../test/media/test-controller-agent-firewall.png)
+The following illustration shows the connection points between the test controller, test agent and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
+
+![Test controller and test agent ports and security](../test/media/test-controller-agent-firewall.png)
 
 ## Incoming connections
 

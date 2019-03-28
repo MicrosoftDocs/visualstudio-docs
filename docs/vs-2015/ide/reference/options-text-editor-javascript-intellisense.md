@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, JavaScript, IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
@@ -16,7 +11,7 @@ ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, JavaScript, IntelliSense
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -81,6 +76,3 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
 ## See Also  
  [JavaScript IntelliSense](../../ide/javascript-intellisense.md)
-
-
-

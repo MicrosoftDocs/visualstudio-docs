@@ -1,12 +1,9 @@
 ---
 title: "UML Component Diagrams: Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML diagrams, component"
   - "diagrams - modeling, component"
@@ -15,9 +12,9 @@ helpviewer_keywords:
   - "component diagrams"
 ms.assetid: 6c1bdd60-369e-477e-83ed-7f6fe75c9f0b
 caps.latest.revision: 37
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Component Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -337,6 +334,3 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [Video: Designing the Physical Structure by using Component Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/)
-
-
-

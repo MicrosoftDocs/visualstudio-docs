@@ -1,8 +1,6 @@
 ---
 title: "CA2116: APTCA methods should only call APTCA methods"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AptcaMethodsShouldOnlyCallAptcaMethods"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8b91637e-891f-4dde-857b-bf8012270ec4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

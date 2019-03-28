@@ -1,58 +1,58 @@
 ---
 title: "IDebugSymbolProvider::GetLanguage | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugSymbolProvider::GetLanguage"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugSymbolProvider::GetLanguage
-This method gets the language that was used to compile the code at the debug address.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetLanguage(   
-   IDebugAddress* pAddress,  
-   GUID*          pguidLanguage,  
-   GUID*          pguidLanguageVendor  
-);  
-```  
-  
-```csharp  
-int GetLanguage(  
-   IDebugAddress pAddress,   
-   out Guid      pguidLanguage,   
-   out Guid      pguidLanguageVendor  
-);  
-```  
-  
-#### Parameters  
- `pAddress`  
- [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
-  
- `pguidLanguage`  
- [out] Returns a `GUID` that specifies the language.  
-  
- `pguidLanguageVendor`  
- [out] Returns a `GUID` that specifies the language vendor.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- The debug engine calls this method to obtain the information it needs to select the correct expression evaluator.  
-  
-## See Also  
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
+This method gets the language that was used to compile the code at the debug address.
+
+## Syntax
+
+```cpp
+HRESULT GetLanguage( 
+   IDebugAddress* pAddress,
+   GUID*          pguidLanguage,
+   GUID*          pguidLanguageVendor
+);
+```
+
+```csharp
+int GetLanguage(
+   IDebugAddress pAddress,
+   out Guid      pguidLanguage,
+   out Guid      pguidLanguageVendor
+);
+```
+
+#### Parameters
+ `pAddress`
+
+ [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+
+ `pguidLanguage`
+
+ [out] Returns a `GUID` that specifies the language.
+
+ `pguidLanguageVendor`
+
+ [out] Returns a `GUID` that specifies the language vendor.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ The debug engine calls this method to obtain the information it needs to select the correct expression evaluator.
+
+## See Also
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

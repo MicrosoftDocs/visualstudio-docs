@@ -1,11 +1,8 @@
 ---
 title: "Activity Views (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "activities, activity views"
@@ -15,7 +12,7 @@ ms.assetid: 83dc68cd-2cb2-45c2-9a6e-10d82053171a
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Activity Views (Legacy)
 Many of the activities provided by [!INCLUDE[wf](../includes/wf-md.md)], from which workflows are composed, have several design views available in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. When you drag an activity designer from the **Toolbox** onto the design surface, and thereafter whenever you select the activity, you can switch between the different design views by using either the **Workflow** menu or by right-clicking the selected activity. Also, when you move the pointer over the name of a selected activity, a drop-down set of tabs appears that you can use to switch between the different views.  

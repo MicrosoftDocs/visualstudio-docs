@@ -1,19 +1,14 @@
 ---
 title: "Security Considerations when Working with XML Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: fce2b708-1aef-454f-be59-52b76f359351
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Security Considerations when Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,4 @@ This topic discusses security issues that you need to know about when working wi
 -   The XSLT expression evaluator is loaded by the managed debug engine. The managed debug engine assumes that all code is run from the user's local computer. Accordingly, the <xref:System.Xml.Xsl.XslCompiledTransform> class downloads the XSLT file to the user's local computer. The possibility that an elevation in execution privilege could occur is mitigated by executing all XSLT transformations in a new application domain with restricted permissions  
   
 ## See Also  
- [Application Domains](http://msdn.microsoft.com/en-us/39e57d07-a740-4cd4-ae82-e119ea3856c1)
-
-
-
+ [Application Domains](http://msdn.microsoft.com/39e57d07-a740-4cd4-ae82-e119ea3856c1)

@@ -1,14 +1,9 @@
 ---
 title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "cs.AdvancedBuildSettings"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Advanced Build Settings Dialog Box (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
 ## See Also  
  [C# Compiler Options](http://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)   
  [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)
-
-
-

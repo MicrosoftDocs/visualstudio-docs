@@ -1,9 +1,6 @@
 ---
 title: "How to: Access the Built-in Fonts and Color Scheme | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "fonts, accessing built-in"
@@ -12,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

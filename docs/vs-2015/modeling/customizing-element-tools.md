@@ -1,17 +1,14 @@
 ---
 title: "Customizing Element Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 6dac48b6-db68-4bcd-8aa2-422c2ad5d28b
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Element Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +58,3 @@ public partial class CircuitDiagramToolboxHelper
   
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
-
-
-

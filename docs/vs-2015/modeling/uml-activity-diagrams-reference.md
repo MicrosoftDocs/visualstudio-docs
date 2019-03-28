@@ -1,12 +1,9 @@
 ---
 title: "UML Activity Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.activitydiagram.diagram"
   - "vs.teamarch.activitydiagram.toolbox"
@@ -20,9 +17,9 @@ helpviewer_keywords:
   - "behaviors, UML"
 ms.assetid: 07efcd17-2a96-4052-9957-6dcccbb725ee
 caps.latest.revision: 50
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Activity Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,6 +96,3 @@ An *activity diagram* shows a business process or a software process as a flow o
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)
-
-
-

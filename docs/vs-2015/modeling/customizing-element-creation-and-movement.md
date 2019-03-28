@@ -1,12 +1,9 @@
 ---
 title: "Customizing Element Creation and Movement | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.elementmergedirective"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Element Creation and Movement
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -318,6 +315,3 @@ You can allow an element to be dragged onto another, either from the toolbox or 
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)   
  [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
-
-
-

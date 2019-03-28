@@ -1,18 +1,13 @@
 ---
 title: "Testing SharePoint 2010 Applications with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 51b53778-469c-4cc9-854c-4e4992d6389b
 caps.latest.revision: 32
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Testing SharePoint 2010 Applications with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,7 +102,7 @@ uiGridKeyboardInputEdit.Text=value;
   
 3. Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.  
   
-4. Download the [fiddlerXap project](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-36-48-70/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
+4. Download the [fiddlerXap project](https://40jajy3iyl373v772m19fybm-wpengine.netdna-ssl.com/wp-content/uploads/sites/6/2019/02/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
   
    After setting up your machine, to start testing your SharePoint 2010 app with Silverlight web parts, follow these steps:  
   
@@ -149,6 +144,3 @@ uiGridKeyboardInputEdit.Text=value;
  [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)   
  [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
  [Profiling the Performance of SharePoint Applications](http://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Shell (Isolated or Integrated) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell"
   - "Visual Studio, Shell"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "Shell [Visual Studio], shell-based applications"
 ms.assetid: c64a9bf0-9bf8-45c3-8fa2-306fa6cab66a
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Shell (Isolated or Integrated)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ You can create your own Visual Studio-based application in either integrated or 
  In order to distribute your integrated or isolated shell application, you need to include your application, a special integrated or isolated shell redistributable, and an installation program. For more information about distribution and installation, see [Distributing Isolated Shell Applications](../extensibility/distributing-isolated-shell-applications.md).  
   
 > [!IMPORTANT]
->  The [End User License Agreement (EULA)](https://www.visualstudio.com/en-us/support/legal/mt171552) for the Visual Studio integrated and isolated shells includes a section on data collection (**Section 3. Data**).  It describes the customer usage data that may be collected by Microsoft from users of either the integrated or isolated shell software that you build into your application. For more information, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/en-us/dn948229).  
+>  The [End User License Agreement (EULA)](https://www.visualstudio.com/support/legal/mt171552) for the Visual Studio integrated and isolated shells includes a section on data collection (**Section 3. Data**).  It describes the customer usage data that may be collected by Microsoft from users of either the integrated or isolated shell software that you build into your application. For more information, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/dn948229).  
 > 
 >  If you collect separate usage data from your customers through your application, you must provide appropriate notice to users of your application of what you collect.  When you distribute either the isolated or integrated shell software as part of your application, according to the Visual Studio Software Development Kit license, you must include one of the following:  
 > 
@@ -58,4 +53,3 @@ You can create your own Visual Studio-based application in either integrated or 
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
-

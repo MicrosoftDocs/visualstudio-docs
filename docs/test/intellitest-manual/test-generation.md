@@ -1,14 +1,12 @@
 ---
 title: "Test generation | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Test generation"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -233,9 +231,9 @@ namespace MyTests
 <a name="further-reading"></a>
 ## Further reading
 
-* [Test to code binding](https://blogs.msdn.microsoft.com/visualstudioalm/2015/04/18/smart-unit-tests-test-to-code-binding-test-case-management/)
-* [One test to rule them all](https://blogs.msdn.microsoft.com/visualstudioalm/2015/07/05/intellitest-one-test-to-rule-them-all/)
+* [Test to code binding](https://devblogs.microsoft.com/devops/smart-unit-tests-test-to-code-binding-test-case-management/)
+* [One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

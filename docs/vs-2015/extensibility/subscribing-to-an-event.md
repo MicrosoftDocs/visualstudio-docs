@@ -1,21 +1,16 @@
 ---
 title: "Subscribing to an Event | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "running document table (RDT), responding to events"
   - "running document table (RDT), subscribing to events"
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
 caps.latest.revision: 36
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Subscribing to an Event
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,4 +132,3 @@ This walkthrough explains how to create a tool window that responds to events in
 13. Open or create a solution.  
   
      As `OnBeforeLastDocument` and `OnAfterFirstDocument` events are fired, notification of each event appears in the event list.
-

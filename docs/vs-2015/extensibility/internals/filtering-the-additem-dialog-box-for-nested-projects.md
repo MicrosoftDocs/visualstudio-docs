@@ -1,21 +1,16 @@
 ---
 title: "Filtering the AddItem Dialog Box for Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "filtering, nested projects"
   - "nested projects, AddItem dialog box filtering"
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Filtering the AddItem Dialog Box for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ When you display an **AddItem** dialog box for a nested project, the parent proj
  [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-

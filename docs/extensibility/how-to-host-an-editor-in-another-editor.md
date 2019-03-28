@@ -1,16 +1,13 @@
 ---
 title: "How to: Host An Editor in Another Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - host a nested editor"
 ms.assetid: 2b0eb705-fe94-4ca8-93e0-9dbd8ce61a44
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

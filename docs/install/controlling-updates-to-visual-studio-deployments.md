@@ -1,9 +1,8 @@
 ---
-title: "Control updates to Visual Studio deployments"
+title: "Control updates to deployments"
 description: "Learn how to change where Visual Studio looks for an update when you install from a network."
 ms.date: 08/14/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
@@ -11,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 35C7AB05-07D5-4B38-BCAC-AB88444E7368
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Control updates to network-based Visual Studio deployments
 

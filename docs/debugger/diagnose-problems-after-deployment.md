@@ -1,17 +1,15 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/10/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Diagnose problems after deployment using IntelliTrace
+# Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.
 
@@ -212,7 +210,7 @@ Visual Studio 2017 does not include the *BuildInfo.config* file, which was depre
 
     - [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
     - [What else can I do from here?](#WhatElse)
-    - [Want more information about performance events?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)
+    - [Want more information about performance events?](https://devblogs.microsoft.com/devops/performance-details-in-intellitrace/)
 
 ### Diagnose an exception
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Compare Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vsperf.choosediffbinaries"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "profiler result files, how to compare"
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Compare Performance Data Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ You can compare the results of two different profiler data files (.vsp or .vsps)
 2.  In the **Select analysis files for comparison** window, browse and select the **Baseline File** analysis file (.vsp or .vsps) and the **Comparison File** (.vsp or .vsps).  
   
 3.  Click **OK**.
-
-
-

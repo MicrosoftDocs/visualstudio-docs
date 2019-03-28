@@ -1,5 +1,5 @@
 ---
-title: "Using the Virtual User Activity Chart for load tests in Visual Studio"
+title: "Using the Virtual User Activity Chart for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,27 +8,15 @@ helpviewer_keywords:
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Walkthrough: Using the Virtual User Activity Chart to isolate issues
 
-In this walkthrough you will learn how to use the Virtual User Activity Chart to isolate errors that occurred for individual virtual users that ran your load test.
+In this walkthrough, you'll learn how to use the Virtual User Activity Chart to isolate errors that occurred for individual virtual users that ran your load test.
 
 The Virtual User Activity Chart lets you visualize the virtual user activity that is associated with your load test. Each row in the chart represents an individual virtual user. The Virtual User Activity Chart shows you exactly what each virtual user was executing during the test. This lets you isolate performance issues by seeing patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The Virtual User Activity Chart is available only after the load after has finished running.
 
-In this walkthrough, you'll complete the following tasks:
-
--   Learn how to use the following tools associated with the Virtual User Activity Chart:
-
-    -   Use the **Zoom to time period** tool to specify a specific time period on the chart that you want to analyze.
-
-    -   Use the **Details Legend** panel and the **Filter results** panel, to apply filtering to the chart to help isolate issues.
-
--   Use the Virtual User Activity Chart to analyze an error that occurred for a specific virtual user and view the problematic error type details.
-
-For more information, see [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md).
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Prerequisites
 
@@ -36,15 +24,13 @@ For more information, see [Analyze virtual user activity in the Details view](..
 
 -   Complete these procedures:
 
-    -   [Record and run a web performance test](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef).
+    -   [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
 
-    -   [Create and run a load test](http://msdn.microsoft.com/en-us/7041cbcf-9ab1-4579-98ff-8f296aeaded4)
+    -   [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
 
 ## Open the ColorWebApp solution created in the previous walkthroughs
 
-### Open the solution
-
-1.  Start Visual Studio.
+1.  Open Visual Studio.
 
 2.  Open the **ColorWebApp** solution that contains the *LoadTest1.loadtest*. This load test results from conducting the steps in the three walkthroughs that are listed at the beginning of this topic in the prerequisites section.
 
@@ -87,7 +73,7 @@ After you have run your load test and collected the virtual user activity data, 
 
 7.  A tool tip is displayed with the following information:
 
-    -   **User Id**
+    -   **User ID**
 
     -   **Scenario**
 

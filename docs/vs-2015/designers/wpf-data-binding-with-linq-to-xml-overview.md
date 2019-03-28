@@ -1,19 +1,14 @@
 ---
 title: "WPF Data Binding with LINQ to XML Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 3bf80845-891b-41de-a71b-4080b5bd3ea6
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # WPF Data Binding with LINQ to XML Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
  [XAML in WPF](http://msdn.microsoft.com/library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
  [Data Binding (WPF)](http://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)   
  [Using Workflow Markup](http://go.microsoft.com/fwlink/?LinkId=98685)
-
-
-

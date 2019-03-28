@@ -1,8 +1,6 @@
 ---
 title: "CA1045: Do not pass types by reference"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1045"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bcc3900a-e092-4bb8-896f-cb83f6289968
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

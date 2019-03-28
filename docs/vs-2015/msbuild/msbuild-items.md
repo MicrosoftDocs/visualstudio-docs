@@ -1,21 +1,16 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, Items"
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
 caps.latest.revision: 38
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -363,5 +358,3 @@ Output:
  [Item Definitions](../msbuild/item-definitions.md)   
  [Batching](../msbuild/msbuild-batching.md)   
  [Item Element (MSBuild)](../msbuild/item-element-msbuild.md)
-
-

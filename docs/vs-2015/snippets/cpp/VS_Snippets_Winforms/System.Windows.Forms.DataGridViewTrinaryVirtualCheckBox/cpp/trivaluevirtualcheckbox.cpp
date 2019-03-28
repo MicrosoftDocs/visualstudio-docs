@@ -69,7 +69,7 @@ private:
     }
     //</snippet10>
 
-#pragma region "data store maintance"
+#pragma region "data store maintenance"
 private:
     void dataGridView1_CellValueNeeded(Object^ sender,
         DataGridViewCellValueEventArgs^ e)

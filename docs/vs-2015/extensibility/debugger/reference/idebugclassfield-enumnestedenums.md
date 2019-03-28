@@ -1,22 +1,17 @@
 ---
 title: "IDebugClassField::EnumNestedEnums | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugClassField::EnumNestedEnums"
 helpviewer_keywords: 
   - "IDebugClassField::EnumNestedEnums method"
 ms.assetid: 90fd0cef-9145-4de6-91d4-6c881df39d6e
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugClassField::EnumNestedEnums
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ class RootClass {
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)   
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)   
  [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
-

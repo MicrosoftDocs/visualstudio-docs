@@ -1,22 +1,17 @@
 ---
 title: "IDebugCodeContext2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCodeContext2"
 helpviewer_keywords: 
   - "IDebugCodeContext2 interface"
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugCodeContext2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ IDebugCodeContext2 : IDebugMemoryContext2
  [GetCodeContext](../../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md)   
  [Next](../../../extensibility/debugger/reference/ienumdebugcodecontexts2-next.md)   
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
-

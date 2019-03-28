@@ -1,20 +1,15 @@
 ---
 title: "Editor Imports | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - services"
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Editor Imports
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -123,4 +118,3 @@ internal SVsServiceProvider ServiceProvider = null;
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

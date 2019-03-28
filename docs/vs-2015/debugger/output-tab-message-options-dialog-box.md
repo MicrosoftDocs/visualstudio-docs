@@ -1,21 +1,16 @@
 ---
 title: "Output Tab, Message Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "message options, Output"
 ms.assetid: 22dd48c2-6d17-41b1-b84c-9ddeaef68411
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Output Tab, Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ Use the **Output** tab to specify what data from each message to list in [Messag
   
  **Save Settings as Default**  
  Save the preceding settings for new message stream windows. These settings are saved when you quit Spy++.
-
-
-

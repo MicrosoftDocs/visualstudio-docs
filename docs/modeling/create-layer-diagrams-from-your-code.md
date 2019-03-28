@@ -9,15 +9,13 @@ helpviewer_keywords:
   - "constraints, architectural"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Create dependency diagrams from your code
 
-To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# and Visual Basic projects. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# and Visual Basic projects. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools).
 
 ![Create a dependency diagram](../modeling/media/layerdiagramvisualizecode.png)
 
@@ -37,7 +35,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 ### Add a new dependency diagram to a modeling project
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 1.  On the **Architecture** menu, choose **New Dependency Diagram**.
 
@@ -154,6 +152,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
 ## See Also
 
+- [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)
 - [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)

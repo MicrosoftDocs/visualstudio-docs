@@ -1,22 +1,17 @@
 ---
 title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "sampling profiling method"
   - "profilng tools,sampling method"
 ms.assetid: be2dbdd0-fc88-45f9-a1d5-bcb4f64e17ad
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,11 +44,8 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015)|  
 |**Profile services**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
   
 ### Analyzing Sampling Data Views and Reports  
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
-
-
-

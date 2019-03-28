@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "parallel applications, debugging [C#]"
 ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Debugging a Parallel Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -311,6 +306,3 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
  [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "How to: Register Editor File Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - register file types"
 ms.assetid: 54846779-8290-48de-90ab-81011559d9a5
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Register Editor File Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -127,4 +122,3 @@ The easiest way to register editor file types is by using the registration attri
     ```  
   
      The GUID strings are defined in Resource.h file of the BscEdit project.
-

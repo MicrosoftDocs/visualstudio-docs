@@ -1,13 +1,11 @@
 ---
 title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

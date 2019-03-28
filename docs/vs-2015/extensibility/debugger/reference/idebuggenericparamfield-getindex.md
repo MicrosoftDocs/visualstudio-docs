@@ -1,20 +1,15 @@
 ---
 title: "IDebugGenericParamField::GetIndex | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetIndex"
 ms.assetid: 8e0bdb26-1247-44d9-8d80-ec6e35187fb4
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugGenericParamField::GetIndex
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ Error:
   
 ## See Also  
  [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "Creating a WPF Toolbox Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "toolbox control"
   - "toolbox"
   - "wpf"
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating a WPF Toolbox Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,5 +93,4 @@ The WPF (Windows Presentation Framework) Toolbox Control template lets you creat
   
 3.  Upload the .vsix file to a network or to a Web site.  
   
-     If you upload the file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, other users can use **Tools / Extensions and Updates** in Visual Studio to find the control online and install it.
-
+     If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Tools / Extensions and Updates** in Visual Studio to find the control online and install it.

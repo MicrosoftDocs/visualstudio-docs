@@ -1,21 +1,16 @@
 ---
 title: "UsedCommand Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "UsedCommands element (VSCT XML schema)"
   - "VSCT XML schema elements, UsedCommands"
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # UsedCommand Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
 ## See Also  
  [UsedCommands Element](../extensibility/usedcommands-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

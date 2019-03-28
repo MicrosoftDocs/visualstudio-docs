@@ -1,5 +1,5 @@
 ---
-title: Customize how Visual Studio creates captions for data-bound controls
+title: Customize captions for data-bound controls
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,15 +10,25 @@ helpviewer_keywords:
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 
-When you drag items from the [Data Sources Window](add-new-data-sources.md) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Data Designers** registry key.
+When you drag items from the [Data Sources window](add-new-data-sources.md#data-sources-window) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.
+
+::: moniker range="vs-2017"
+
+You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Data Designers** registry key.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Data Designers** registry key.
+
+::: moniker-end
 
 > [!NOTE]
 > This registry key does not exist until you create it.
@@ -42,63 +52,83 @@ The following table lists the internal default settings for these registry value
 |**SmartCaptionSuffix**|**:**|Represents a character appended to the returned string. For example, if the caption is `Company Name`, the suffix makes it `Company Name:`|
 
 > [!CAUTION]
-> You should be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
+> Be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
 >
-> The following KnowledgeBase article contains instructions for backing up, editing, and restoring the registry: [Description of the Microsoft Windows registry](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb;en-us;256986)
+> For information about backing up, editing, and restoring the registry, see [Windows registry information for advanced users](https://support.microsoft.com/help/256986/windows-registry-information-for-advanced-users).
 
 ## Modify the smart captioning behavior of the Data Sources window
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
+3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-7.  Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
+::: moniker range="vs-2017"
 
-8.  Right-click the **Data Designers** node, and create three new string values:
+4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. Right-click the **16.0** node, and create a new **Key** named `Data Designers`.
+
+::: moniker-end
+
+5. Right-click the **Data Designers** node, and create three new string values:
 
     - `SmartCaptionExpression`
     - `SmartCaptionReplacement`
     - `SmartCaptionSuffix`
 
-11. Right-click the **SmartCaptionExpression** value, and select **Modify**.
+6. Right-click the **SmartCaptionExpression** value, and select **Modify**.
 
-12. Enter the regular expression you want the **Data Sources** window to use.
+7. Enter the regular expression you want the **Data Sources** window to use.
 
-13. Right-click the **SmartCaptionReplacement** value, and select **Modify**.
+8. Right-click the **SmartCaptionReplacement** value, and select **Modify**.
 
-14. Enter the replacement string formatted the way you want to display the patterns matched in your regular expression.
+9. Enter the replacement string formatted the way you want to display the patterns matched in your regular expression.
 
-15. Right-click the **SmartCaptionSuffix** value, and select **Modify**.
+10. Right-click the **SmartCaptionSuffix** value, and select **Modify**.
 
-16. Enter any characters you want to appear at the end of the caption.
+11. Enter any characters you want to appear at the end of the caption.
 
     The next time you drag items from the **Data Sources** window, the caption labels are created using the new registry values provided.
 
 ## Turn off the smart captioning feature
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
+3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-7.  Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
+::: moniker range="vs-2017"
 
-8.  Right-click the **Data Designers** node, and create three new string values:
+4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+4. Right-click the **16.0** node, and create a new **Key** named `Data Designers`.
+
+::: moniker-end
+
+5. Right-click the **Data Designers** node, and create three new string values:
 
     - `SmartCaptionExpression`
     - `SmartCaptionReplacement`
     - `SmartCaptionSuffix`
 
-11. Right-click the **SmartCaptionExpression** item, and select **Modify**.
+6. Right-click the **SmartCaptionExpression** item, and select **Modify**.
 
-12. Enter `(.*)` for the value. This will match the entire string.
+7. Enter `(.*)` for the value. This will match the entire string.
 
-13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.
+8. Right-click the **SmartCaptionReplacement** item, and select **Modify**.
 
-14. Enter `$1` for the value. This replaces the string with the matched value, which is the entire string so that it will remain unchanged.
+9. Enter `$1` for the value. This replaces the string with the matched value, which is the entire string so that it will remain unchanged.
 
     The next time you drag items from the **Data Sources** window, the caption labels are created with unmodified captions.
 

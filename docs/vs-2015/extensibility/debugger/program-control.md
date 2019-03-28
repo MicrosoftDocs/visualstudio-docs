@@ -1,20 +1,15 @@
 ---
 title: "Program Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], control of execution"
 ms.assetid: 6be80904-e66c-4cae-8891-1113b799fb01
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Program Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ In Visual Studio debugging, all of the following stepping and continuing routine
   
 ## See Also  
  [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
-

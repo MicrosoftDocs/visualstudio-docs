@@ -1,22 +1,17 @@
 ---
 title: "BP_LOCATION_CODE_ADDRESS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_LOCATION_CODE_ADDRESS"
 helpviewer_keywords: 
   - "BP_LOCATION_CODE_ADDRESS structure"
 ms.assetid: 83c9da8b-19d9-4be5-b225-854543654901
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_LOCATION_CODE_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ typedef struct _BP_LOCATION_CODE_ADDRESS { 
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)   
  [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
-

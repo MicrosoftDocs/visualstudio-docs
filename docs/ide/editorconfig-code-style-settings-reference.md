@@ -8,28 +8,30 @@ dev_langs:
 helpviewer_keywords:
   - "coding conventions [EditorConfig]"
   - "EditorConfig coding conventions"
-  - "language conventions [EditorConfig]"
+  - "language code style rules [EditorConfig]"
   - "formatting conventions [EditorConfig]"
 author: kuhlenh
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+manager: jillfra
 ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
 # .NET coding convention settings for EditorConfig
 
-In Visual Studio 2017, you can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](../ide/create-portable-custom-editor-options.md).
+You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured by using an EditorConfig file. You can enable or disable individual .NET coding conventions and configure the degree to which you want each rule enforced, via a severity level.
 
-See the end of this article for an [example .editorconfig file](#example-editorconfig-file).
+> [!TIP]
+> - When you define coding conventions in an .editorconfig file, you're configuring how you want the [code style analyzers](../code-quality/roslyn-analyzers-overview.md) that are built into Visual Studio to analyze your code. The .editorconfig file is the configuration file for these analyzers.
+> - Code style preferences for Visual Studio can also be set in the [Text editor options](code-styles-and-quick-actions.md) dialog. However, .editorconfig settings take precedence and preferences you set in **Options** aren't associated with a particular project.
+
+The end of this article contains an [example .editorconfig file](#example-editorconfig-file).
 
 ## Convention categories
 
 There are three supported .NET coding convention categories:
 
-- [Language conventions](#language-conventions)
+- [Language code styles](#language-code-styles)
 
    Rules pertaining to the C# or Visual Basic language. For example, you can specify rules around using `var` or explicit types when defining variables, or preferring expression-bodied members.
 
@@ -41,13 +43,13 @@ There are three supported .NET coding convention categories:
 
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".
 
-## Language conventions
+## Language code styles
 
-Rules for language conventions have the following format:
+Rules for language code styles have the following format:
 
 `options_name = false|true : none|silent|suggestion|warning|error`
 
-For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
+For each language code style rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
 
 The following table lists the possible severity values and their effects:
 
@@ -59,7 +61,7 @@ Severity | Effect
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
 
-The following list shows the allowable language convention rules:
+The following list shows the allowable language code style settings:
 
 - .NET code style settings
     - ["This." and "Me." qualifiers](#this_and_me)
@@ -1385,6 +1387,7 @@ The following list shows the formatting convention rules available in Visual Stu
 - .NET formatting settings
     - [Organize usings](#usings)
         - dotnet_sort_system_directives_first
+        - dotnet_separate_import_directive_groups
 - C# formatting settings
     - [Newline options](#newline)
         - csharp_new_line_before_open_brace
@@ -1427,6 +1430,7 @@ The following table shows the rule name, applicable languages, default value, an
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# and Visual Basic | true | 15.3 |
+| dotnet_separate_import_directive_groups | C# and Visual Basic | false | 15.5 |
 
 **dotnet\_sort\_system\_directives_first**
 
@@ -1453,6 +1457,34 @@ Example *.editorconfig* file:
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
+```
+
+**dotnet\_separate\_import\_directive\_groups**
+
+- When this rule is set to **true**, place a blank line between using directive groups.
+- When this rule is set to **false**, do not place a blank line between using directive groups.
+
+Code examples:
+
+```csharp
+// dotnet_separate_import_directive_groups = true
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+using Octokit;
+
+// dotnet_separate_import_directive_groups = false
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Octokit;
+```
+
+Example *.editorconfig* file:
+
+```EditorConfig
+# .NET formatting settings:
+[*.{cs,vb}]
+dotnet_separate_import_directive_groups = true
 ```
 
 ### C# formatting settings
@@ -1813,7 +1845,7 @@ The following table shows the rule names, applicable languages, default values, 
 | ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_space_after_cast | C# | false | 15.3 |
 | csharp_space_after_keywords_in_control_flow_statements | C# | true | 15.3 |
-| csharp_space_between_method_declaration_parameter_ list_parentheses | C# | false | 15.3 |
+| csharp_space_between_method_declaration_parameter_list_parentheses | C# | false | 15.3 |
 | csharp_space_between_method_call_parameter_list_parentheses | C# | false | 15.3 |
 | csharp_space_between_parentheses | C# | false | 15.3 |
 | csharp_space_before_colon_in_inheritance_clause | C# | true | 15.7 |
@@ -2188,6 +2220,7 @@ charset = utf-8-bom
 [*.{cs,vb}]
 # Organize usings
 dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
 
 # this. preferences
 dotnet_style_qualification_for_field = false:none
@@ -2238,7 +2271,7 @@ dotnet_naming_symbols.constant_fields.applicable_accessibilities  = *
 dotnet_naming_symbols.constant_fields.required_modifiers          = const
 
 ###############################
-# C# Coding Conventions       #
+# C# Code Style Rules         #
 ###############################
 
 [*.cs]
@@ -2255,7 +2288,7 @@ csharp_style_expression_bodied_properties = true:none
 csharp_style_expression_bodied_indexers = true:none
 csharp_style_expression_bodied_accessors = true:none
 
-# Pattern matching preferences
+# Pattern-matching preferences
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
@@ -2308,9 +2341,9 @@ csharp_space_between_method_call_empty_parameter_list_parentheses = false
 csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 
-###############################
-# VB Coding Conventions       #
-###############################
+##################################
+# Visual Basic Code Style Rules  #
+##################################
 
 [*.vb]
 # Modifier preferences

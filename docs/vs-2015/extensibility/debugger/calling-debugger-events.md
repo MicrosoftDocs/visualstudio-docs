@@ -1,20 +1,15 @@
 ---
 title: "Calling Debugger Events | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], events"
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Calling Debugger Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Events in debugging sessions occur in a specific order.
   
 ## See Also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
-

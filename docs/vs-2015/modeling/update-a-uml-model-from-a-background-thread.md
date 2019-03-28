@@ -1,17 +1,14 @@
 ---
 title: "Update a UML model from a background thread | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 42c06b0b-b681-4e19-b5f3-6116dd2a4072
 caps.latest.revision: 15
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Update a UML model from a background thread
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -187,6 +184,3 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
 ## See Also  
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)
-
-
-

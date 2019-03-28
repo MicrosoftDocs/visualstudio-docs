@@ -12,11 +12,9 @@ helpviewer_keywords:
   - "text templates, generating code for your application"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
@@ -28,15 +26,11 @@ Design-time T4 text templates let you generate program code and other files in y
 
  You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
- A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code and allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
+ A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
-## Creating a Design-Time T4 Text Template
+## Create a Design-Time T4 Text Template
 
-#### To create a design-time T4 template in Visual Studio
-
-1. Create a Visual Studio project, or open an existing one.
-
-    For example, on the **File** menu, choose **New** > **Project**.
+1. Create a new Visual Studio project, or open an existing one.
 
 2. Add a text template file to your project and give it a name that has the extension **.tt**.
 
@@ -66,10 +60,11 @@ Design-time T4 text templates let you generate program code and other files in y
 6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
 
    > [!NOTE]
-   >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
+   > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
 
-### Regenerating the code
- A template will be executed, generating the subsidiary file, in any of the following cases:
+### Regenerate the code
+
+A template will be executed, generating the subsidiary file, in any of the following cases:
 
 - Edit the template and then change focus to a different Visual Studio window.
 
@@ -79,12 +74,11 @@ Design-time T4 text templates let you generate program code and other files in y
 
 - In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
 
-  You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
+You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
 
-## Generating Variable Text
- Text templates let you use program code to vary the content of the generated file.
+## Generate Variable Text
 
-#### To generate text by using program code
+Text templates let you use program code to vary the content of the generated file.
 
 1. Change the content of the `.tt` file:
 
@@ -137,7 +131,7 @@ Design-time T4 text templates let you generate program code and other files in y
 >  But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
 
 ## Generating Code or Resources for Your Solution
- You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files are from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
+ You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
 
 #### To generate program code or resources
 
@@ -147,7 +141,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
     ```csharp
 
-              <#@ template debug="false" hostspecific="false" language="C#" #>
+    <#@ template debug="false" hostspecific="false" language="C#" #>
     <#@ output extension=".cs" #>
     <# var properties = new string [] {"P1", "P2", "P3"}; #>
     // This is generated code:
@@ -219,7 +213,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
 ```csharp
 
-      <# var properties = File.ReadLines("C:\\propertyList.txt");#>
+<# var properties = File.ReadLines("C:\\propertyList.txt");#>
 ...
 <# foreach (string propertyName in properties) { #>
 ...
@@ -264,12 +258,13 @@ Design-time T4 text templates let you generate program code and other files in y
  The type of `this.Host` (in VB, `Me.Host`) is `Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost`.
 
 ### Getting data from Visual Studio
- To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
+ To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. Import `Microsoft.VisualStudio.TextTemplating`, which contains the `GetCOMService()` extension method.  You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
 
-```scr
+```src
 <#@ template hostspecific="true" language="C#" #>
 <#@ output extension=".txt" #>
 <#@ assembly name="EnvDTE" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
 <#
   IServiceProvider serviceProvider = (IServiceProvider)this.Host;
   EnvDTE.DTE dte = (EnvDTE.DTE) serviceProvider.GetCOMService(typeof(EnvDTE.DTE));
@@ -279,18 +274,21 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 ```
 
 > [!TIP]
->  A text template runs in its own app domain, and services are accessed by marshaling. In this circumstance, GetCOMService() is more reliable than GetService().
+> A text template runs in its own app domain, and services are accessed by marshaling. In this circumstance, GetCOMService() is more reliable than GetService().
 
 ## <a name="Regenerating"></a> Regenerating the code automatically
- Typically, several files in a Visual Studio solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.
 
- If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.
+Typically, several files in a Visual Studio solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.
 
- If you have installed the Visual Studio Modeling SDK, you can have all the templates transformed automatically whenever you perform a build. To do this, edit your project file (.csproj or .vbproj) in a text editor and add the following lines near the end of the file, after any other `<import>` statements:
+If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.
+
+If you have installed the Visual Studio Modeling SDK, you can have all the templates transformed automatically whenever you perform a build. To do this, edit your project file (.csproj or .vbproj) in a text editor and add the following lines near the end of the file, after any other `<import>` statements:
 
 > [!NOTE]
-> In Visual Studio 2017, the Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
-[this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/12/12/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
+> The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
+[this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
+
+::: moniker range="vs-2017"
 
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
@@ -300,10 +298,25 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 </PropertyGroup>
 ```
 
- For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+```xml
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
+<PropertyGroup>
+   <TransformOnBuild>true</TransformOnBuild>
+   <!-- Other properties can be inserted here -->
+</PropertyGroup>
+```
+
+::: moniker-end
+
+For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
 
 ## Error reporting
- To place error and warning messages in the Visual Studio error window, you can use these methods:
+
+To place error and warning messages in the Visual Studio error window, you can use these methods:
 
 ```
 Error("An error message");

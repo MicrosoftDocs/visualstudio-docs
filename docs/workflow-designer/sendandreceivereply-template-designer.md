@@ -2,15 +2,13 @@
 title: "Workflow Designer - SendAndReceiveReply Template Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.SendAndReceiveReply.UI"
   - "System.ServiceModel.Activities.ReceiveReply.UI"
 ms.assetid: 818a8c84-6593-416d-b016-1d91b85ffb68
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,21 +1,16 @@
 ---
 title: "Error: the dependency &#39;file&#39; in project &#39;project&#39; cannot be copied to the run directory because it would conflict with dependency &#39;file&#39; | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.tasklisterror.copy_version_conflict"
 ms.assetid: cd7de1eb-7d58-4e2c-9811-a7201f7817be
 caps.latest.revision: 7
-author: "mikeblome"
-ms.author: "mblome"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: jillfra
 ---
 # Error: the dependency &#39;file&#39; in project &#39;project&#39; cannot be copied to the run directory because it would conflict with dependency &#39;file&#39;
 There is a conflict between references; more than one distinct dependency with the same file name being copied to the bin directory for the application to run. The run directory cannot resolve the conflict because none of the dependencies are primary references.  

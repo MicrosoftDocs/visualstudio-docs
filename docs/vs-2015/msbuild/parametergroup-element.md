@@ -1,14 +1,9 @@
 ---
 title: "ParameterGroup Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: c3275e69-a427-4889-bc1d-51bff2c285fa
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ParameterGroup Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ Contains an optional list of parameters that will be present on the task that is
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

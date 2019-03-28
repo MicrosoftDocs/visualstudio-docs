@@ -6,7 +6,7 @@
   xmlns:examples="clr-namespace:Microsoft.Samples.Graphics.Geometries">
   <DockPanel>
     <TabControl>
-      <TabItem Header="Mini Language Exmaple">
+      <TabItem Header="Mini Language Example">
         <Frame Source="MiniLanguageExample.xaml">
         </Frame>
       </TabItem>

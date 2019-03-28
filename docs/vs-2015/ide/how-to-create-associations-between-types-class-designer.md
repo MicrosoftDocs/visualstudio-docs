@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Associations Between Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.associationline"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Associations Between Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
 ## See Also  
  [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)
-
-
-

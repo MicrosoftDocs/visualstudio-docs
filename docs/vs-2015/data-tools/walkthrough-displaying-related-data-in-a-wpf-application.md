@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Displaying Related Data in a WPF Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: 5c48f188-e9c4-40a6-97d9-67cdb2f90127
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Walkthrough: Displaying Related Data in a WPF Application
@@ -49,7 +46,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
-- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 - WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   

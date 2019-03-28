@@ -1,14 +1,9 @@
 ---
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
   - "MSBuild, msbuild.exe.config"
@@ -16,7 +11,7 @@ ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Standard and Custom Toolset Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,6 +99,3 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 
 ## See Also  
  [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)
-
-
-

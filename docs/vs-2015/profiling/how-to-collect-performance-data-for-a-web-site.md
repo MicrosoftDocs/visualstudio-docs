@@ -1,14 +1,9 @@
 ---
 title: "How to: Collect Performance Data for a Web Site | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vsperf.url.url"
   - "vsperf.chooseurl"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "ASP.NET, performance profilng"
 ms.assetid: a62d27fd-a966-4065-bebe-6874195a71fb
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Collect Performance Data for a Web Site
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,6 +101,3 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
-
-
-

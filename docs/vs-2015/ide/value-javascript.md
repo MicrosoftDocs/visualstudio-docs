@@ -1,14 +1,9 @@
 ---
 title: "&lt;value&gt; (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "<value> JavaScript XML tag"
   - "value JavaScript XML tag"
@@ -16,7 +11,7 @@ ms.assetid: 983e31de-cb1d-411e-b60d-eea6698a26f6
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # &lt;value&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,6 +84,3 @@ function Sys$CancelEventArgs$get_cancel() {
   
 ## See Also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-
-
-

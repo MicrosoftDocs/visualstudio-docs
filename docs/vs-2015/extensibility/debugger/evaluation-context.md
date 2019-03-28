@@ -1,21 +1,16 @@
 ---
 title: "Evaluation Context | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, context"
 ms.assetid: 008a20c7-1b27-4013-bf96-d6a3f510da02
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Evaluation Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ manager: "ghogen"
  [IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)   
  [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)
-

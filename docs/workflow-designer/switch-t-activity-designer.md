@@ -2,15 +2,13 @@
 title: "Workflow Designer - Switch<T> Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.ModelItemKeyValuePair.UI"
   - "System.Activities.Statements.Switch`1.UI"
 ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

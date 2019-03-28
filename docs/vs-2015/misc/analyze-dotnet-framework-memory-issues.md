@@ -1,20 +1,15 @@
 ---
 title: "Analyze .NET Framework memory issues | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.diagnostics.managedmemoryanalysis"
 ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
-ms.author: "susanno"
-manager: "douge"
+ms.author: mikejo
+manager: jillfra
 ---
 # Analyze .NET Framework memory issues
 Find memory leaks and inefficient memory use in .NET Framework code by using the Visual Studio managed memory analyzer. The minimum .NET Framework version of the target code is .NET Framework 4.5.  

@@ -1,8 +1,6 @@
 ---
 title: "CA1711: Identifiers should not have incorrect suffix"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "CA1711"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a63359ab-386d-44ae-b381-ee3a983aca29
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -29,6 +27,8 @@ ms.workload:
 ## Cause
 
 An identifier has an incorrect suffix.
+
+By default, this rule only looks at externally visible identifiers, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -68,6 +68,16 @@ Remove the suffix from the type name.
 ## When to suppress warnings
 
 Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1711.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Naming). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Related rules
 

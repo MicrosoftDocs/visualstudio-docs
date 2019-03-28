@@ -1,15 +1,11 @@
 ---
 title: "Step 2: Run your program"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -50,7 +46,7 @@ When you created a new solution, you actually built a program that runs. It does
     -   Choose the **X** button in the upper corner of the **Form1** window.
 
     > [!NOTE]
-    >  When you run your program from inside the IDE, it's called debugging because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [Debugger basics](../debugger/getting-started-with-the-debugger.md).
+    >  When you run your program from inside the IDE, it's called debugging because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## To continue or review
 

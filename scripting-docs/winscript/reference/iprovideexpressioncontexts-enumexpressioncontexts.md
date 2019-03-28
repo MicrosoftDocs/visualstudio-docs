@@ -2,7 +2,6 @@
 title: "IProvideExpressionContexts::EnumExpressionContexts | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns an enumerator of expression contexts known by this component.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumExpressionContexts(  
    IEnumDebugExpressionContexts**  ppedec  
 );  

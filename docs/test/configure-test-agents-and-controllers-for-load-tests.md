@@ -1,14 +1,12 @@
 ---
-title: "Configure test agents and test controllers for load tests in Visual Studio"
+title: "Configure test agents and test controllers for load tests"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test agents and controllers"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Configure test agents and test controllers for running load tests
 
@@ -16,6 +14,8 @@ Visual Studio can generate simulated load for your app by using physical or virt
 
 > [!NOTE]
 > You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. Learn more about cloud-based load testing at [Run load tests using Azure Test Plans](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Load simulation architecture
 
@@ -71,7 +71,7 @@ The test agent runs as a service that listens for requests from the test control
 
 The following illustration shows the connection points between the test controller, the test agent, and the client. It outlines which ports are used for incoming and outgoing connections as well as security restrictions used on these ports.
 
- ![Test contoller and test agent ports and security](./media/test-controller-agent-firewall.png)
+ ![Test controller and test agent ports and security](./media/test-controller-agent-firewall.png)
 
  For more information see [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md).
 

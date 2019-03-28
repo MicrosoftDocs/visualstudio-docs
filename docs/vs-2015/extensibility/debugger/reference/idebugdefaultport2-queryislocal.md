@@ -1,22 +1,17 @@
 ---
 title: "IDebugDefaultPort2::QueryIsLocal | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDefaultPort2::QueryIsLocal"
 helpviewer_keywords: 
   - "IDebugDefaultPort2::QueryIsLocal"
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDefaultPort2::QueryIsLocal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ int QueryIsLocal();
   
 ## See Also  
  [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
-

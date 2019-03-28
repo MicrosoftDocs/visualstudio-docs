@@ -1,20 +1,15 @@
 ---
 title: "Supplying Undo Support to Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "designers [Visual Studio SDK], undo support"
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Supplying Undo Support to Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,4 +100,3 @@ Designers, like editors, typically need to support undo operations so that users
  <xref:System.ComponentModel.Design.UndoEngine>   
  <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>   
  [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
-

@@ -2,7 +2,6 @@
 title: "SCRIPTPROP_HOSTKEEPALIVE Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Used to specify whether or not the scripting engine should be kept fully functio
   
 ## Syntax  
   
-```  
+```cpp
 #define SCRIPTPROP_HOSTKEEPALIVE 0x70000004  
 ```  
   

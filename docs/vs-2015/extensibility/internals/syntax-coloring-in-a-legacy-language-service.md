@@ -1,21 +1,16 @@
 ---
 title: "Syntax Coloring in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "syntax coloring"
   - "language services, syntax coloring"
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Syntax Coloring in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ Simple colorizer model
   
 ## See Also  
  [Using Fonts and Colors](../../extensibility/using-fonts-and-colors.md)
-

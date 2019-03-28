@@ -1,22 +1,17 @@
 ---
 title: "Getting Started with Performance Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "getting started, performance"
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Getting Started with Performance Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ This section provides an overview of the concepts and tasks that you will apply 
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "CA2235: Mark all non-serializable fields"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2235"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -33,7 +31,9 @@ ms.workload:
  An instance field of a type that is not serializable is declared in a type that is serializable.
 
 ## Rule description
- A serializable type is one that is marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. When the type is serialized, a <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> exception is thrown if a type contains an instance field of a type that is not serializable.
+ A serializable type is one that is marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. When the type is serialized, a <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> exception is thrown if the type contains an instance field of a type that is not serializable.
+
+ An exception to this is when the type uses custom serialization via the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface. Types implementing this interface provide their own serialization logic, and so CA2235 will not fire for non-serializable instance fields of such types.
 
 ## How to fix violations
  To fix a violation of this rule, apply the <xref:System.NonSerializedAttribute?displayProperty=fullName> attribute to the field that is not serializable.

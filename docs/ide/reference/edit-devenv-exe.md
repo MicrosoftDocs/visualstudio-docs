@@ -1,49 +1,54 @@
 ---
 title: -Edit (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /edit switch"
+  - "Edit Devenv switch"
+  - "Devenv, /Edit switch"
   - "/Edit Devenv switch"
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # /Edit (devenv.exe)
-Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+
+Opens the specified file in an existing instance of Visual Studio.
 
 ## Syntax
 
-```cmd
-Devenv /edit [file1[ file2]]
+```shell
+devenv /Edit [File1[ FileN]...]
 ```
 
 ## Arguments
- `file1`
 
- Optional. The file to open in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If no instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exists, a new instance is created with a simplified window layout, and `file1` is opened in the new instance.
+- *File1*
 
- `file2`
+  Optional. The file to open in an existing instance of Visual Studio. If no instance of Visual Studio exists, a new instance is created with a simplified window layout, and the tool opens *File1* in the new instance.
 
- Optional. One or more additional files to open in the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+- *FileN*
+
+  Optional. One or more additional files to open in the existing instance of Visual Studio.
 
 ## Remarks
- If no file is specified and there is an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] receives focus. If no file is specified and there is no existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is created with a simplified window layout.
 
- If the existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is in a modal state, for example, if the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open, the file will open in the existing instance when [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] exits the modal state.
+When a file isn't specified, an existing Visual Studio instance receives focus. If no file is specified and no instance of Visual Studio exists, the tool creates an instance with a simplified window layout.
+
+If the existing Visual Studio instance is in a modal state, the file opens in the existing instance when Visual Studio exits the modal state. For example, this situation may occur when the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open.
 
 ## Example
- This example opens the file `MyFile.cs` in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or opens the file in a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] if one does not already exist.
 
-```cmd
+The first example opens the file `MyFile.cs` in an existing instance of Visual Studio. If a Visual Studio instance doesn't exist, the tool opens the file in a new instance. The second example is similar except that it opens three files instead of just one file.
+
+```shell
 devenv /edit MyFile.cs
+
+devenv /edit MyFile1.cs MyFile2.cs MyFile3.cs
 ```
 
-## See Also
+## See also
 
-- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)

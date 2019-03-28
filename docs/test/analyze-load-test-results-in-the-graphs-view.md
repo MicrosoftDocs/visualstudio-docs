@@ -14,13 +14,13 @@ helpviewer_keywords:
 ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 
 The results of a load test are displayed as data in several different panes.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 To display test results as graphs, choose **Graphs** on the **load test** toolbar. Each individual graph is displayed in a panel with the graph name displayed at the top in a drop-down list. To display a different graph in the panel, choose a different graph name from the list.
 
@@ -76,7 +76,6 @@ The following table lists the built-in graphs that are available to analyze load
 |**Display counters on graphs:** You can add different kinds of data to a load test results graph by placing counters on the graph.|-   [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)|
 |**Zoom in on graphs:** After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.|-   [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)|
 |**Tile graphs:** You can arrange load test results graphs in any of several patterns. You can tile up to four graphs.||
-|**Modify the appearance of performance counter plots in the graphs:** You can change the plotting lines options for performance counters in the graphs. This includes color and line style. Additionally, you can specify whether you want to automatically or manually specify the range that you want to use for plotting the performance counter.|-   [How to: Specify plot options for graphing counters](../test/how-to-specify-plot-options-for-graphing-counters.md)|
 |**Create custom graphs:** You can design graphs that display specific information about load test results. You design a custom graph by specifying the load test counters that the graph will display.|-   [How to: Create custom graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)|
 |**Export the performance counters data in the graph:** You can export the graph data to Microsoft Excel by using the **Export Graph Data to Excel** button on the **Load Test Analyzer** toolbar while you are in the **Graphs** view.||
 

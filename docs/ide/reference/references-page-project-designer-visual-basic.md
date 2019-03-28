@@ -1,8 +1,6 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesReference"
@@ -11,11 +9,10 @@ f1_keywords:
 helpviewer_keywords:
   - "References page in Project Designer"
   - "Project Designer, References page"
-  - "Unused References dialog box"
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -28,12 +25,6 @@ To access the **References** page, choose a project node (not the **Solution** n
 ## UIElement List
 
 The following options allow you to select or remove references and imported namespaces in your project.
-
-**Unused References**
-
-Click this button to access the **Unused References** dialog box.
-
-The **Unused References** dialog box allows you to remove references that are included in your project but not actually used by the code. It contains a grid that lists the **Reference Name**, the **Path**, and other information about the unused namespace references in your project. In the grid, select the namespace references that you want to remove from your project and click **Remove**.
 
 **Reference Paths**
 

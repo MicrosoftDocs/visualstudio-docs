@@ -1,23 +1,18 @@
 ---
 title: "StackFrameTypeEnum | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "StackFrameTypeEnum enumeration"
 ms.assetid: 61e40163-eee0-4c1f-af47-cef3771bdc41
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # StackFrameTypeEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -65,6 +60,3 @@ enum StackFrameTypeEnum {
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)
-
-
-

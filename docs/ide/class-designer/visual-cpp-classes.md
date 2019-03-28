@@ -1,8 +1,6 @@
 ---
 title: Visual C++ Classes in Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.inheritancelinelabel"
@@ -11,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

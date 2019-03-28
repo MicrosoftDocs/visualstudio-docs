@@ -1,20 +1,17 @@
 ---
 title: "Troubleshoot extensions for layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "layer diagrams, extension errors"
   - "layer diagrams, troubleshooting extensions"
 ms.assetid: 1fda4f8a-38b8-482b-87b8-eade1a4e5662
 caps.latest.revision: 27
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshoot extensions for layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +49,3 @@ This topic addresses some problems that you might encounter when you create laye
   
 ## See Also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
-
-
-

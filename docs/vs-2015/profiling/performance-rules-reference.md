@@ -1,19 +1,14 @@
 ---
 title: "Performance Rules Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 ms.assetid: 59fc9424-76ca-4365-ae47-bb14a736c9c2
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Rules Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ The performance rules of the Profiling Tools provide additional warnings and inf
 |[Memory and Paging Performance Rules](../profiling/memory-and-paging-performance-rules.md)|Rules that analyze the managed memory and paging behavior of your application.|  
 |[Profiling Tools Usage Rules](../profiling/profiling-tools-usage-rules.md)|Rules that help you use the Profiling Tools efficiently.|  
 |[Resource Monitoring Performance Rules](../profiling/resource-monitoring-performance-rules.md)|Information messages about processor and memory utilization in a profiling run.|
-
-
-

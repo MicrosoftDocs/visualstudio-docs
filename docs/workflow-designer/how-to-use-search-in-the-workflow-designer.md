@@ -2,11 +2,9 @@
 title: "How to: Use Search in the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

@@ -1,15 +1,13 @@
 ---
-title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio"
+title: Record Screen and Voice During Tests
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "test settings, recording desktop video"
+ - "test settings, recording desktop video"
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Include recordings of the screen and voice during tests using test settings
 
@@ -19,6 +17,8 @@ From the configuration editor in Visual Studio, you can configure the diagnostic
 > The screen and voice recordings do not support multiple monitor configurations.
 
 The screen and voice recorder can be used with either manual or automated tests. For example, if you run a coded UI test remotely you might want to record the desktop to see the coded UI test as it runs. For more information about how to capture a screen and voice recording remotely, see [How to: Set up your test agent to run tests that interact with the desktop](../test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To configure screen and voice recording for your test settings
 

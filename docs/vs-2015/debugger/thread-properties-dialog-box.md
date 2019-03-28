@@ -1,22 +1,17 @@
 ---
 title: "Thread Properties Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++, thread properties"
   - "thread properties, Spy++"
 ms.assetid: 5352d11a-debb-4c20-b9a0-d37d94900b1c
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Thread Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ Use this dialog box find out more about a specific thread. To display this dialo
   
  [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.
-
-
-

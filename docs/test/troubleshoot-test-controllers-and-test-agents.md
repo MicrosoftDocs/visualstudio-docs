@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Test Controllers and Test Agents in Visual Studio"
+title: "Troubleshooting Test Controllers and Test Agents"
 ms.date: 10/20/2016
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -10,13 +10,13 @@ helpviewer_keywords:
 ms.assetid: 77329348-3a5d-43de-b6cb-90f93296a081
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Strategies for troubleshooting test controllers and test agents in load tests
 
 This article covers some common problems you might encounter when you work with test controllers and test agents in Visual Studio.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ##  Unable to collect performance counters on test agent computer
 

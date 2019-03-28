@@ -1,22 +1,17 @@
 ---
 title: "IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
 helpviewer_keywords: 
   - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
 ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ int EnumCustomAttributes(
 ## See Also  
  [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)   
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
-

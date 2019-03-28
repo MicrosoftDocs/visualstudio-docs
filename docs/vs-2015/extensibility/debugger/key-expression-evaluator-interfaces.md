@@ -1,21 +1,16 @@
 ---
 title: "Key Expression Evaluator Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, interfaces"
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Key Expression Evaluator Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ manager: "ghogen"
   
 ## See Also  
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

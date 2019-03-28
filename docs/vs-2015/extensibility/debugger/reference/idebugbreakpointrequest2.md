@@ -1,22 +1,17 @@
 ---
 title: "IDebugBreakpointRequest2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBreakpointRequest2"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBreakpointRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ IDebugBreakpointRequest2 : IUnknown
  [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)   
  [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getbreakpointrequest.md)   
  [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
-

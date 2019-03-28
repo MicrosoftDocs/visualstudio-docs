@@ -2,7 +2,6 @@
 title: "IDebugApplicationNodeEvents::onRemoveChild | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles the event when a child node is removed from a debug application node obj
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveChild(  
    IDebugApplicationNode*  prddpChild  
 );  

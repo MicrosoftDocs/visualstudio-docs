@@ -1,19 +1,14 @@
 ---
 title: "GPU Usage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 957fed3c-4ded-4e05-87c6-ccc33de65349
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # GPU Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -149,6 +144,3 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 -   [GPU Usage tool in Visual Studio 2013 Update 4 CTP1 (blog)](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx)  
   
 -   [GPU Usage for DirectX in Visual Studio (blog)](http://blogs.msdn.com/b/ianhu/archive/2014/12/16/gpu-usage-for-directx-in-visual-studio.aspx)
-
-
-

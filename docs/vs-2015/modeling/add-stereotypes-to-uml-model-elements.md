@@ -1,19 +1,16 @@
 ---
 title: "Add stereotypes to UML model elements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, stereotypes"
 ms.assetid: 82545252-83ce-4e11-a419-61373be75d16
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add stereotypes to UML model elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +80,3 @@ You can add a stereotype to a UML model element to annotate it and provide it wi
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   
  [Define packages and namespaces](../modeling/define-packages-and-namespaces.md)   
  [Color UML Classes by Stereotype](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)
-
-
-

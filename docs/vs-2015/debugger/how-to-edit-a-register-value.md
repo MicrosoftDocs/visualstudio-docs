@@ -1,14 +1,9 @@
 ---
 title: "How to: Edit a Register Value | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.register.edit"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "register values"
 ms.assetid: e27b6bd8-e6d4-4f1d-8a86-9f4047bb1167
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Edit a Register Value
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,8 +43,3 @@ The Registers window is available only if address-level debugging is enabled in 
   
 ## See Also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
-
-
-
-
-

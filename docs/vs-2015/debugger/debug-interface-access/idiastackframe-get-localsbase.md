@@ -1,23 +1,18 @@
 ---
 title: "IDiaStackFrame::get_localsBase | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackFrame::get_localsBase method"
 ms.assetid: eb0bd73e-d92d-468e-a0b1-fbc279919f54
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaStackFrame::get_localsBase
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ HRESULT get_localsBase ( 
   
 ## See Also  
  [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
-
-
-

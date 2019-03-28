@@ -1,19 +1,14 @@
 ---
 title: "How to: Generate an XML Snippet From an XML Schema | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2c128d2a-aaa6-4814-aa95-e07056afe338
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Generate an XML Snippet From an XML Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -156,6 +151,3 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
 ## See Also  
  [XML Snippets](../xml-tools/xml-snippets.md)   
  [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Command Code Enumerator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "command code enumerator"
   - "source control plug-ins, command code enumeration"
 ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Code Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,4 +73,3 @@ enum SCCCOMMAND {
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)
-

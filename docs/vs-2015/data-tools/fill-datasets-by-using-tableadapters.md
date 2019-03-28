@@ -1,12 +1,9 @@
 ---
 title: "Fill datasets by using TableAdapters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: 55f3bfbe-db78-4486-add3-c62f49e6b9a0
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Fill datasets by using TableAdapters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -111,4 +108,3 @@ A TableAdapter component  fills a dataset with data from the database, based on 
   
 ## See Also  
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-

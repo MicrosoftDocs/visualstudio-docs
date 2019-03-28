@@ -1,23 +1,18 @@
 ---
 title: "Cores View Zoom Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.cores.zoom"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Cores View Zoom Tool"
 ms.assetid: f7d48602-ba32-4487-b51a-89e596124108
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Cores View Zoom Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,6 +27,3 @@ The Zoom control is a slider that lets you zoom in and out on the timeline so th
   
 ## See Also  
  [Cores View](../profiling/cores-view.md)
-
-
-

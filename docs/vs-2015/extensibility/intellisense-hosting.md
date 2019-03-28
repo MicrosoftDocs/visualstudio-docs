@@ -1,20 +1,15 @@
 ---
 title: "IntelliSense Hosting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - IntelliSense hosting"
 ms.assetid: 20c61f8a-d32d-47e2-9c67-bf721e2cbead
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IntelliSense Hosting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>
-

@@ -1,15 +1,12 @@
 ---
-title: "Get started with C++ in Visual Studio"
+title: Get started with C++
 description: ""
 ms.custom: mvc
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: corob-msft
-ms.author: tglee
-manager: douge
+ms.author: corob
+manager: jillfra
 dev_langs:
   - "CPP"
 ms.workload:
@@ -23,15 +20,37 @@ Complete this quickstart to become familiar with many of the tools and dialog bo
 
 You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some general programming and debugging concepts. The Visual Studio documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get started](https://isocpp.org/get-started) page on the ISO C++ website.
 
-To follow along, you need a copy of Visual Studio 2017 version 15.3 or later, with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
+::: moniker range="vs-2017"
+
+To follow along, you need a copy of Visual Studio 2017 with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To follow along, you need a copy of Visual Studio 2019 with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
+
+::: moniker-end
 
 ## Create a console app
 
-If it's not running yet, start Visual Studio.
+If it's not running yet, open Visual Studio.
+
+::: moniker range="vs-2017"
 
 ![IDE with Visual C&#43;&#43; settings applied](../ide/media/get-started-cpp-ide-layout.png)
 
 After you open Visual Studio, you can see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window. The **Quick Launch** box, the menu bar, and the standard toolbar are found at the top. The center of the window contains the **Start Page**. When you open a solution or project, editors and designers appear in this space. When you develop an app, most of your time is spent in this central area.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+After you open Visual Studio, the start window appears first. Select **Continue without code** to open the development environment.
+
+You'll see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window. The **Quick Launch** box, the menu bar, and the standard toolbar are found at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+
+::: moniker-end
 
 Visual Studio uses *projects* to organize the code for an app, and *solutions* to organize your projects. A project contains all the options, configurations, and rules used to build your apps. It also manages the relationship between all the project's files and any external files. To create your app, first, you create a new project and solution.
 
@@ -151,5 +170,5 @@ Congratulations on completing this quickstart!
 ## See also
 
 - [Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)
-- [Walkthrough: Create a simple application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Walkthrough: Create a simple application with C# or Visual Basic](../get-started/csharp/tutorial-wpf.md)
 - [Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)

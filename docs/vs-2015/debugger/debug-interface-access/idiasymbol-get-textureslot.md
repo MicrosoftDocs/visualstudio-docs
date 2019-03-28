@@ -1,21 +1,16 @@
 ---
 title: "IDiaSymbol::get_textureSlot | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: 166a1a3a-2e10-4baa-ace1-9104b56185ce
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSymbol::get_textureSlot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ HRESULT get_textureSlot(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

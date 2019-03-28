@@ -1,20 +1,15 @@
 ---
 title: "Getting Started with Language Service and Editor Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Started with Language Service and Editor Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,4 +84,3 @@ You can use editor extensions to add language service features such as outlining
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

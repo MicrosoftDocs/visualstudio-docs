@@ -1,14 +1,9 @@
 ---
 title: "Deploying Applications, Services, and Components | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -26,7 +21,7 @@ ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Deploying Applications, Services, and Components
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ By deploying an application, service, or component, you distribute it for instal
   
 |Deployment Scenario|Supporting Content|  
 |-------------------------|------------------------|  
-|**Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](http://msdn.microsoft.com/library/windowsazure/ee460772.aspx)|  
+|**Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](/visualstudio/deployment/quickstart-deploy-to-azure)|  
 |**Publish a Windows Store app:** You can easily build, submit, and sell your apps from the Windows Store to customers around the world.|[Packaging, deployment, and query of Windows Store apps](http://msdn.microsoft.com/library/hh446593\(v=vs.85\).aspx)|  
 |**Publish a Windows Phone app:** You can submit a new app or an update to an existing app for certification on the Windows Phone Dev Center.|[Publish a Windows Phone App](http://dev.windowsphone.com/publish)|  
 |**Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment)|  
@@ -54,8 +49,3 @@ By deploying an application, service, or component, you distribute it for instal
 |**Deploy a Visual C++ application:** You can deploy the Visual C++ runtime with an application by using central deployment, local deployment, or static linking.|[Deploying Native Desktop Applications (Visual C++)](http://msdn.microsoft.com/library/zebw5zk9.aspx)|  
 |**Deploy an application for testing:** You can enable more sophisticated development and testing by deploying your applications into virtual environments.|[Test on a lab environment](http://msdn.microsoft.com/library/14ba54c8-a158-4a6e-b00a-b00ae960feb8)|  
 |**Install prerequisites:** You can install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper.|[Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)|
-
-
-
-
-

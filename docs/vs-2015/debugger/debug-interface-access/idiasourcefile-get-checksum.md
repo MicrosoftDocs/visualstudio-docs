@@ -1,23 +1,18 @@
 ---
 title: "IDiaSourceFile::get_checksum | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSourceFile::get_checksum method"
 ms.assetid: aad63a7e-4e22-44e4-8a5b-81b5174ced1e
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSourceFile::get_checksum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ HRESULT get_checksum ( 
 ## See Also  
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)   
  [IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md)
-
-
-

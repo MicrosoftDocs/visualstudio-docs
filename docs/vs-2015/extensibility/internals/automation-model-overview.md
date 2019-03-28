@@ -1,21 +1,16 @@
 ---
 title: "Automation Model Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "automation [Visual Studio SDK], about automation"
   - "extensibility"
 ms.assetid: 12b6d6db-0d22-4aaa-aa7d-1365f759b7b0
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Automation Model Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ Visual Studio automation objects
   
 ## See Also  
  [How to: Create an Add-In](http://msdn.microsoft.com/library/50be56d2-e3a5-4cd2-8569-2a0666b268ce)
-

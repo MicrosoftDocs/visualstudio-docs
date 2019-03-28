@@ -1,11 +1,8 @@
 ---
 title: "Creating Legacy Workflow Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "workflow projects, creating"
@@ -15,7 +12,7 @@ ms.assetid: 572d5c32-59ef-49d8-a24c-e180fe9f7a11
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Creating Legacy Workflow Projects
 This section describes how to create workflow projects using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] provided by vs2010. The legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] targets the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]. It includes information about how to use the workflow project templates that are listed in the following table.  

@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramEngines2::EnumPossibleEngines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramEngines2::EnumPossibleEngines"
 helpviewer_keywords: 
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ int EnumPossibleEngines( 
   
 ## See Also  
  [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)
-

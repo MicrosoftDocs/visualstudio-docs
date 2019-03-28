@@ -1,14 +1,9 @@
 ---
 title: "CA2151: Fields with critical types should be security critical | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 ms.assetid: 09db9d25-7d58-4725-a252-4a07baadf046
 caps.latest.revision: 6
 author: gewarren
@@ -80,6 +75,3 @@ manager: "wpickett"
  [!code-csharp[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../snippets/csharp/VS_Snippets_CodeAnalysis/fxcop.security.ca2145.transparentmethodsshouldnotusesuppressunmanagedcodesecurity/cs/ca2145.cs#1)]
 
 ### Comments
-
-
-

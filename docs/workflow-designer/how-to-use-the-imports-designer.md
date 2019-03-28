@@ -2,14 +2,12 @@
 title: "Workflow Designer - How to: Use the Imports Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.ImportDesigner.UI"
 ms.assetid: 61328ab6-9b66-4e12-8630-22e30ee8c9d1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

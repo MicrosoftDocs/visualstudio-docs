@@ -1,22 +1,17 @@
 ---
 title: "MODULE_FLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "MODULE_FLAGS"
 helpviewer_keywords: 
   - "MODULE_FLAGS enumeration"
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # MODULE_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -82,4 +77,3 @@ public enum enum_MODULE_FLAGS { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
-

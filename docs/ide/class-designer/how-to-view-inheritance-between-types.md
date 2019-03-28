@@ -1,8 +1,6 @@
 ---
 title: "How to: View Inheritance Between Types (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.AssociationTypeNotFoundError"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -44,4 +42,4 @@ You can also right-click the type for which you want to see its derived types, a
 ## See also
 
 - [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)

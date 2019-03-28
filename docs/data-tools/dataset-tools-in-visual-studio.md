@@ -1,6 +1,6 @@
 ---
-title: Dataset tools in Visual Studio
-ms.date: 11/04/2016
+title: Dataset tools
+ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
   - "vs.data.DataSet"
@@ -44,9 +44,7 @@ helpviewer_keywords:
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -57,7 +55,7 @@ ms.workload:
 
 A `DataSet` object is an in-memory object that is essentially a mini-database. It contains `DataTable`, `DataColumn`, and `DataRow` objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.
 
-Datasets and related classes are defined in the *System.Data* namespace in the .NET Framework class library. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
+Datasets and related classes are defined in the <xref:System.Data?displayProperty=fullName> namespace in the .NET Framework class library. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
 
 If your application needs to only read data from a database, and not perform updates, adds, or deletes, you can usually get better performance by using a `DataReader` object to retrieve data into a generic `List` object or another collection object. If you are displaying the data, you can data-bind the user interface to the collection.
 
@@ -65,7 +63,7 @@ If your application needs to only read data from a database, and not perform upd
 
 Visual Studio provides tooling to simplify working with datasets. The basic end-to-end workflow is:
 
-- Use the **Data Source** window to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+- Use the [Data Sources window](add-new-data-sources.md#data-sources-window) to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 - Specify the relationships between the tables so that foreign keys are handled correctly. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 

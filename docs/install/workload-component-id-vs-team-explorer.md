@@ -1,58 +1,40 @@
 ---
-title: Visual Studio Team Explorer 2017 workload and component IDs
+title: Visual Studio Team Explorer workload and component IDs
+titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
 author: TerryGLee
 ms.author: tglee
-manager: douge
-ms.date: 08/14/2018
+manager: jillfra
+ms.date: 03/01/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.assetid: c6ef9a3b-d13d-49b4-9faa-51fa06b21e1f
-ms.workload:
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Visual Studio Team Explorer 2017 component directory
+# Visual Studio Team Explorer component directory
 
-The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
+[!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-Also note the following about the page:
+::: moniker range="vs-2017"
 
-* Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
-* By default, the **Required** components will be installed when you install the workload.
-* If you choose to, you can also install the **Recommended** and **Optional** components.
-* We've also added a section that lists the additional components that are not affiliated with any workload.
+[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
 
-When you set dependencies in your VSIX manifest, you must specify Component IDs only. Use the tables on this page to determine our minimum component dependencies. In some scenarios, this might mean that you specify only one component from a workload. In other scenarios, it might mean that you specify multiple components from a single workload or multiple components from multiple workloads. For more information, see the [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
+[!include[Visual Studio Team Explorer 2017](includes/vs-2017/workload-component-id-vs-team-explorer.md)]
 
-For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
+::: moniker-end
 
-## Visual Studio core editor (included with Visual Studio Team Explorer 2017)
+::: moniker range=">= vs-2019"
 
-**ID:** Microsoft.VisualStudio.Workload.CoreEditor
+[!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control and work item management.
+[!include[Visual Studio Team Explorer 2019](includes/vs-2019/workload-component-id-vs-team-explorer.md)]
 
-### Components included by this workload
-
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
-Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
-
-## Unaffiliated components
-
-These are components that are not included with any workload, but may be selected as an individual component.
-
-Component ID | Name | Version
---- | --- | ---
-n/a | n/a | n/a
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

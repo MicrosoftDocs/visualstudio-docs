@@ -1,12 +1,9 @@
 ---
 title: "Work with datasets in n-tier applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -27,7 +24,7 @@ ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Work with datasets in n-tier applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +34,7 @@ N-tier data applications* are data-centric applications that are separated into 
   
  Typed datasets have been enhanced so that the TableAdapters and dataset classes can be generated into discrete projects. This provides the ability to quickly separate application layers and generate n-tier data applications.  
   
- N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md). When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
+ N-tier support in typed datasets enables iterative development of the application architecture to an n-tier design.It also removes the requirement to manually separate the code into more than one project. Start out designing the data layer by using the Dataset Designer. When you're ready to take the application architecture to an n-tiered design, set the **DataSet Project** property of a dataset to generate the dataset class into a separate project.  
   
 ## In This Section  
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
@@ -63,16 +60,10 @@ N-tier data applications* are data-centric applications that are separated into 
   
  <xref:System.Data.TypedTableBase%601>  
   
-## Related Sections  
- [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)  
-  
- [Hierarchical update](../data-tools/hierarchical-update.md)  
-  
- [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)  
-  
- [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
-  
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)  
-  
- [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
+## Related Sections
 
+- [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
+- [Hierarchical update](../data-tools/hierarchical-update.md)   
+- [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
+- [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
+- [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)

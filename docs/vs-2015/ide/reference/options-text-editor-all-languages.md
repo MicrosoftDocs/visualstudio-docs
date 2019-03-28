@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, All Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
   - "VS.ToolsOptionsPages.Text_Editor.ResJSON.General"
@@ -24,7 +19,7 @@ ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, All Languages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  A grayed checkmark is displayed when an option has been selected on the General options pages for some programming languages, but not for others.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Statement Completion  
  Auto list members  
@@ -99,6 +94,3 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [Using IntelliSense](../../ide/using-intellisense.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Project Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Project"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "<Project> element [Visual Studio Templates]"
 ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,4 +101,3 @@ Specifies the files or directories to add to the project.
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [ProjectItem Element (Visual Studio Project Templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)   
  [Folder Element (Visual Studio Project Templates)](../extensibility/folder-element-visual-studio-project-templates.md)
-

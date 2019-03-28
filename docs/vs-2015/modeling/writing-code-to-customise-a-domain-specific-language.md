@@ -1,19 +1,16 @@
 ---
 title: "Writing Code to Customise a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming"
 ms.assetid: a4a17f5b-9c97-4575-b2d1-3182c1896b72
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Writing Code to Customise a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +71,3 @@ This section shows you how to use custom code to access, modify, or create a mod
   
 ## See Also  
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)
-
-
-

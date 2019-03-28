@@ -1,15 +1,11 @@
 ---
 title: "Manifest from Resources | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
 caps.latest.revision: 5
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Manifest from Resources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -157,4 +153,3 @@ The Manifest from Resources tool is a console application that takes a list of i
   <ImageLists />  
 </ImageManifest>  
 ```
-

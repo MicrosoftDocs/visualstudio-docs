@@ -1,11 +1,8 @@
 ---
 title: "Workflow Designer Shell Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "WFDShellFeatures.UI"
@@ -13,7 +10,7 @@ ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Workflow Designer Shell Features
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] is composed of three major UI areas: the designer surface, the breadcrumb bar above it and the shell below it. The breadcrumb bar, positioned at the top of the screen, is used to display the list of ancestors of the current root activity. [!INCLUDE[crdefault](../includes/crdefault-md.md)][How to: Use Breadcrumb Navigation](../workflow-designer/how-to-use-breadcrumb-navigation.md). The designer surface, positioned at the center of the screen, is used to compose workflows. The shell, positioned at the bottom of the screen, contains a number of buttons for managing the current view.  

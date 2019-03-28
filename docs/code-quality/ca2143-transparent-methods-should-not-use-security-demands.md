@@ -1,15 +1,13 @@
 ---
 title: "CA2143: Transparent methods should not use security demands"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2143"
 ms.assetid: 5d3923d7-cf40-4512-bc5c-0db0e0d6e25a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Assembly Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Assembly"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "<Assembly> element [Visual Studio Template Wizard Extension]"
 ms.assetid: 0c3dc280-1753-4ea2-a13c-d31d13b935b2
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Assembly Element (Visual Studio Template Wizard Extension)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,4 +87,3 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
-

@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD File: Purchase Order Schema"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

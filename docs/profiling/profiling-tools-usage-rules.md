@@ -1,18 +1,16 @@
 ---
 title: "Profiling Tools Usage Rules | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: afa7db3b-8c1d-473a-81ac-24ede112a17f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Profiling Tools Usage Rules
-Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.  
+Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.
 
 
 | | |
@@ -24,4 +22,3 @@ Performance rules in the Profiling Tools Usage category provide guidance for usi
 | [DA0026: Excessive kernel CPU time processing](../profiling/da0026-excessive-kernel-cpu-time-processing.md) | A significant amount of time in the profiling run occurred in the processor kernel mode. Consider sampling by using system calls as the metric instead of using time as the metric. |
 | [DA0029: Unsupported CLR Version](../profiling/da0029-unsupported-clr-version.md) | The profiled binary is using a version of [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is not supported by the profiler. The profiler reports cannot resolve symbol names. |
 | [DA0030: Gather Tier Interaction measurements for database projects](../profiling/da0030-gather-tier-interaction-measurements-for-database-projects.md) | A significant number of calls to methods in the <xref:System.Data?displayProperty=fullName> namespace were collected. To include data about the database calls, consider collecting tier interaction data in your profile runs. |
-

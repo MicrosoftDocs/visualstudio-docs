@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Using XML Editor Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using XML Editor Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,4 +125,3 @@ The steps in this walkthrough show you how to create a new XML document. The wal
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-

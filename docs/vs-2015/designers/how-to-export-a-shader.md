@@ -1,19 +1,14 @@
 ---
 title: "How to: Export a Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 0bd48bf4-9792-4456-a545-e462a2be668d
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Export a Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ This document demonstrates how to use the Shader Designer to export a Directed G
 ## See Also  
  [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)   
  [Shader Designer](../designers/shader-designer.md)
-
-
-

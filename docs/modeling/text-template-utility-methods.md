@@ -6,18 +6,16 @@ helpviewer_keywords:
   - "text templates, utility methods"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Text Template Utility Methods
 
 There are several methods that are always available to you when you write code in a Visual Studio text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
 
 > [!TIP]
-> You can also use other methods and services provided by the host environment in a regular (not preprocessed) text template. For example, you can resolve file paths, log errors, and get services provided by Visual Studio and any loaded packages. For more information, see [Accessing Visual Studio from a Text Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).
+> You can also use other methods and services provided by the host environment in a regular (not preprocessed) text template. For example, you can resolve file paths, log errors, and get services provided by Visual Studio and any loaded packages. For more information, see [Accessing Visual Studio from a Text Template](/previous-versions/visualstudio/visual-studio-2010/gg604090\(v\=vs.100\)).
 
 ## Write methods
 

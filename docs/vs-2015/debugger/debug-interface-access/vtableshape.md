@@ -1,14 +1,9 @@
 ---
 title: "VTableShape | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "SymTagVTableShape tag"
 ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # VTableShape
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)   
  [VTable](../../debugger/debug-interface-access/vtable.md)
-
-
-

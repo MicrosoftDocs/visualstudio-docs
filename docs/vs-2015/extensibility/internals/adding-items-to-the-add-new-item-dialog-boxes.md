@@ -1,20 +1,15 @@
 ---
 title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Add New Item dialog box, adding items"
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding Items to the Add New Item Dialog Boxes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ The process for adding items to the **Add New Item** dialog box starts with the 
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

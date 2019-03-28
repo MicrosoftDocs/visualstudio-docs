@@ -1,15 +1,13 @@
 ---
 title: C# IntelliSense
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "C#, IntelliSense"
   - "IntelliSense [C#]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -90,11 +88,11 @@ You can install an experimental [IntelliCode extension](/visualstudio/intellicod
 
 The **Add using** IntelliSense operation automatically adds the required `using` directive to your code file. This feature enables you to maintain your focus on the code you are writing rather than requiring you to shift your focus to another part of the code.
 
-To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlTextReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Actions**. The **Quick Actions** is only visible when the cursor is positioned on the unbound type.
+To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Actions**. The **Quick Actions** are only visible when the cursor is positioned on the unbound type.
 
 ![Add using, quick action expanded image](../ide/media/addusing-quickaction.png)
 
-Click the light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
+Click the error light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
 
 ### Remove and sort usings
 
@@ -118,7 +116,7 @@ The **Generate From Usage** feature enables you to use classes and members befor
 
 A red wavy underline appears under each undefined identifier. When you rest the mouse pointer on the identifier, an error message appears in a tooltip. To display the appropriate options, you can use one of the following procedures:
 
-- Click the undefined identifier. A **Quick Actions** light bulb appears under the identifier. Click the light bulb.
+- Click the undefined identifier. A **Quick Actions** error light bulb appears under the identifier. Click the error light bulb.
 
 - Click the undefined identifier, and then press **Ctrl**+**.** (**Ctrl** + period).
 
@@ -159,4 +157,4 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 ## See also
 
 - [Use IntelliSense](../ide/using-intellisense.md)
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../get-started/visual-studio-ide.md)

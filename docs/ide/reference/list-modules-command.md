@@ -1,8 +1,6 @@
 ---
 title: List Modules Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.listmodules"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

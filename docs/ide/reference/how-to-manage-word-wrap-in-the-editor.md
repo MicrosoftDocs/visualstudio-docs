@@ -1,8 +1,6 @@
 ---
-title: "How to: Manage Word Wrap in the Editor"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+title: Word wrap
+ms.date: 11/07/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "word wrap"
@@ -11,13 +9,16 @@ helpviewer_keywords:
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # How to: Manage word wrap in the editor
 
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.
+
+> [!NOTE]
+> This topic applies only to Visual Studio on Windows. Visual Studio for Mac does not currently support word wrap.
 
 ## To set word wrap preferences
 

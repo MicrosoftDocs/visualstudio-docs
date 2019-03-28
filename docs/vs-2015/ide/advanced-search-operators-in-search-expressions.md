@@ -1,14 +1,9 @@
 ---
 title: "Advanced Search Operators in Search Expressions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Help Viewer 2.0, searching for keywords"
   - "Help Viewer 2.0, searching code"
@@ -20,7 +15,7 @@ ms.assetid: 0cdc1746-8481-45ec-9c53-d0d89cdcbd5e
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Advanced Search Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ By using advanced search operators, you can refine your search for content by cr
 ## See Also  
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)   
  [Full-Text Search Tips](../ide/full-text-search-tips.md)
-
-
-

@@ -1,27 +1,22 @@
 ---
 title: "Persisting Data in the MSBuild Project File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project files, persisting data in"
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Persisting Data in the MSBuild Project File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:  
   
-1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
+1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
   
     1.  Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.  
   
@@ -79,4 +74,3 @@ A project subtype may need to persist subtype-specific data into the project fil
   
 ## See Also  
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)
-

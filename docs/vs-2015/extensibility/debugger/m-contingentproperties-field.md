@@ -1,20 +1,15 @@
 ---
 title: "m_contingentProperties Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "m_contingentProperties field, Task class [.NET Framework debug engines]"
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # m_contingentProperties Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ Stores additional properties of the <xref:System.Threading.Tasks.Task> object.
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

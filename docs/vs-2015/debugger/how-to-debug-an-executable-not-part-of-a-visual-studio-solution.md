@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug an Executable Not Part of a Visual Studio Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "executable files, debugging outside of projects"
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug an Executable Not Part of a Visual Studio Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +62,4 @@ Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[v
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [DBG Files](http://msdn.microsoft.com/en-us/91e449e9-8b65-4123-960f-2107cd1f1cfd)
-
-
-
+ [DBG Files](http://msdn.microsoft.com/91e449e9-8b65-4123-960f-2107cd1f1cfd)

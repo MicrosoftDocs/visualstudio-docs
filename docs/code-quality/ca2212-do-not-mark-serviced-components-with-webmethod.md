@@ -1,8 +1,6 @@
 ---
 title: "CA2212: Do not mark serviced components with WebMethod"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2212"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 774bc55d-e588-48ee-8f38-c228580feca2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "How to: Use Native Run-Time Checks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "c.runtime.errorchecks"
 dev_langs: 
@@ -43,9 +38,9 @@ helpviewer_keywords:
   - "arrays [Visual Studio], debugging"
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use Native Run-Time Checks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,8 +81,3 @@ In Visual C++, you can use native [runtime_checks](http://msdn.microsoft.com/lib
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [runtime_checks](http://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b)   
  [Run-Time Error Checking](http://msdn.microsoft.com/library/c965dd01-57ad-4a3c-b1d6-5aa04f920501)
-
-
-
-
-

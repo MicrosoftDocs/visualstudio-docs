@@ -1,8 +1,6 @@
 ---
 title: "CA1303: Do not pass literals as localized parameters"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "Do not pass literals as localized parameters"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 904d284e-76d0-4b8f-a4df-0094de8d7aac
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

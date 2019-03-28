@@ -1,19 +1,16 @@
 ---
 title: "Define a work item link handler | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: d52e0bbf-0166-4bb4-a2e3-cefed6188875
 caps.latest.revision: 21
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define a work item link handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -298,6 +295,3 @@ element.AddReference(ReferenceConstants.WorkItem, linkString, true);
  [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

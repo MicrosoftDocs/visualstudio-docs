@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Capturing Graphics Information Programmatically | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: a5adeff9-afaf-4047-b5ce-ef0aefe710eb
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Capturing Graphics Information Programmatically
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -201,6 +196,3 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
  [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)   
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)   
  [Command-Line Capture Tool](../debugger/command-line-capture-tool.md)
-
-
-

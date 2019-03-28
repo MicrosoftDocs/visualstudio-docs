@@ -1,6 +1,6 @@
 ---
 title: Add new data sources
-ms.date: 11/04/2016
+ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
   - "vs.datasource.datasourcefieldspicker"
@@ -10,15 +10,13 @@ helpviewer_keywords:
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Add new data sources
 
-In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and expose the data to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
+In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
 
 - A class in an Entity Framework model that is associated with some kind of database.
 
@@ -31,13 +29,22 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 - A class or collection in your solution.
 
 > [!NOTE]
-> If you are not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
+> If you're not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
 
 You create and edit data sources by using the **Data Source Configuration Wizard** in a Windows Forms or Windows Presentation Foundation application. For Entity Framework, first create your entity classes, and then start the wizard by selecting **Project** > **Add New Data Source** (described in more detail later in this article).
 
 ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png)
 
-After you create a data source, it appears in the **Data Sources** tool window (**Shift**+**Alt**+**D** or **View** > **Other Windows** > **Data Source**). You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated that displays the data from the data store. The following illustration shows a dataset that has been dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
+## Data Sources window
+
+After you create a data source, it appears in the **Data Sources** tool window.
+
+> [!TIP]
+> To open the **Data Sources** window, make sure your project is open, and then press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**.
+
+You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated that displays the data from the data store.
+
+The following illustration shows a dataset that has been dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
 
 ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png)
 

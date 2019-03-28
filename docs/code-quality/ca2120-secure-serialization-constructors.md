@@ -1,8 +1,6 @@
 ---
 title: "CA2120: Secure serialization constructors"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2120"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e9989da1-55a0-43f8-9aa9-da86afae3b41
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

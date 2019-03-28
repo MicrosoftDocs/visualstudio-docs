@@ -1,21 +1,16 @@
 ---
 title: "Command Contracts in Interop Assemblies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "command handling with interop assemblies, command contracts"
   - "interop assemblies, command contracts"
 ms.assetid: 57245708-f539-42dc-8963-2754a48f0189
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Contracts in Interop Assemblies
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ The basic contract for handling commands through the <xref:Microsoft.VisualStudi
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)   
  [Implementation](../../extensibility/internals/command-implementation.md)
-

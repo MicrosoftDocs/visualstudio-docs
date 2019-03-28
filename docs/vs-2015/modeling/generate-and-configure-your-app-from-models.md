@@ -1,17 +1,14 @@
 ---
 title: "Generate and configure your app from models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 4dc8f572-a09e-4d19-a92d-f1df383e728b
 caps.latest.revision: 9
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generate and configure your app from models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,6 +78,3 @@ You can generate or configure parts of your application from a model. The model 
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   
  [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
-
-
-

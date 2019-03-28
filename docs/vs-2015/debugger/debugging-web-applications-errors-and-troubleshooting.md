@@ -1,14 +1,9 @@
 ---
 title: "Debugging Web Applications: Errors and Troubleshooting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: troubleshooting
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -29,9 +24,9 @@ helpviewer_keywords:
   - "troubleshooting Web applications"
 ms.assetid: 63f2742e-2031-48a8-9773-d9b547c62230
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Web Applications: Errors and Troubleshooting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ You may encounter the following errors when attempting to debug Web applications
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)
-
-
-

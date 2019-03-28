@@ -1,14 +1,9 @@
 ---
 title: "Managing Application Settings (.NET) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "msvse_settingsdesigner.err.nameblank"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 35254321-ad14-47d9-b8c6-39ab3203c5d9
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing Application Settings (.NET)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,6 +89,3 @@ Properties.Settings.Default.Save();
   
 ## See Also  
  [Accessing Application Settings](http://msdn.microsoft.com/library/e38d0cc7-247a-46ca-ba04-f2913f0adb2e)
-
-
-

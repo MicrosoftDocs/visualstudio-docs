@@ -1,8 +1,6 @@
 ---
 title: "CA2233: Operations should not overflow"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "OperationsShouldNotOverflow"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -45,7 +43,7 @@ To fix a violation of this rule, validate the operands before you perform the op
 
 It is safe to suppress a warning from this rule if the possible values of the operands will never cause the arithmetic operation to overflow.
 
-## Example of a Violation
+## Example of a violation
 
 A method in the following example manipulates an integer that violates this rule. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] requires the **Remove** integer overflow option to be disabled for this to fire.
 

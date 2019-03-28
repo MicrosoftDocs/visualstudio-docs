@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis for C-C++ Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: overview
 helpviewer_keywords: 
   - "annotations, code analysis"
   - "build integration, code analysis"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "C, code analysis"
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 caps.latest.revision: 27
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Code Analysis for C/C++ Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ The C/C++ Code Analysis tool provides information to developers about possible d
  To make it natural for developers to use the analysis tool, it is fully integrated within the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. During the build process, any warnings generated for the source code appear in the Error List. You can navigate to source code that caused the warning, and you can view additional information about the cause and possible solutions of the issue.  
   
 ## #pragma Support  
- Developers can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Enable and Disable Code Analysis for Specific C/C++ Warnings](http://msdn.microsoft.com/en-us/910b8518-71f1-4b2e-b012-70647795642a).  
+ Developers can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Enable and Disable Code Analysis for Specific C/C++ Warnings](http://msdn.microsoft.com/910b8518-71f1-4b2e-b012-70647795642a).  
   
 ## Annotation Support  
  Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)  
@@ -52,6 +47,3 @@ The C/C++ Code Analysis tool provides information to developers about possible d
  In addition to the full integration within the development environment, developers can also use the analysis tool from the command line, as shown in the following example:  
   
  `C:\>cl /analyze Sample.cpp`
-
-
-

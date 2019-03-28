@@ -1,14 +1,9 @@
 ---
 title: "Troubleshooting Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "IntelliSense Code Snippets, troubleshooting"
   - "troubleshooting IntelliSense Code Snippets"
@@ -17,7 +12,7 @@ ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ Problems with IntelliSense code snippets are typically caused by two problems: a
   
 ## See Also  
  [Code Snippets](../ide/code-snippets.md)
-
-
-

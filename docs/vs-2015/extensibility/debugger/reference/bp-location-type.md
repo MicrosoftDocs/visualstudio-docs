@@ -1,22 +1,17 @@
 ---
 title: "BP_LOCATION_TYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_LOCATION_TYPE"
 helpviewer_keywords: 
   - "BP_LOCATION_TYPE structure"
 ms.assetid: 0248430a-3b61-4809-87a9-e9b6bb7d1130
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_LOCATION_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -130,4 +125,3 @@ public enum enum_BP_LOCATION_TYPE { 
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)   
  [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
-

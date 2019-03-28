@@ -1,22 +1,17 @@
 ---
 title: "Best Practices for Security in VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "security [Visual Studio SDK]"
   - "security best practices, VSPackages"
   - "best practices, security"
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Best Practices for Security in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,5 +28,4 @@ To install the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] on your compute
   
 ## See Also  
  [Add-In Security](http://msdn.microsoft.com/library/44a5c651-6246-4310-b371-65378917c799)   
- [DDEX Security](http://msdn.microsoft.com/en-us/44a52a70-5c98-450e-993d-4a3b32f69ba8)
-
+ [DDEX Security](http://msdn.microsoft.com/44a52a70-5c98-450e-993d-4a3b32f69ba8)

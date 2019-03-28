@@ -1,23 +1,18 @@
 ---
 title: "IDiaEnumInjectedSources::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumInjectedSources::Item method"
 ms.assetid: 14846955-7270-451d-91d2-9cb34bb65187
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaEnumInjectedSources::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ HRESULT Item ( 
 ## See Also  
  [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)   
  [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
-
-
-

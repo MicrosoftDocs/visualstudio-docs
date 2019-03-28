@@ -1,19 +1,16 @@
 ---
 title: "Responding to and Propagating Changes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, events"
 ms.assetid: fc2e9ac5-7a84-44ed-9945-94e45f89c227
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Responding to and Propagating Changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +50,3 @@ When an element is created, deleted or updated, you can write code that propagat
 ## See Also  
  [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

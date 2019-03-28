@@ -1,17 +1,14 @@
 ---
 title: "The property &lt;property name&gt; cannot be deleted | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The property &lt;property name&gt; cannot be deleted
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +32,3 @@ The property \<property name> cannot be deleted because it is set as the Discrim
  [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)   
  [Data class inheritance (O/R Designer)](../data-tools/data-class-inheritance-o-r-designer.md)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)
-

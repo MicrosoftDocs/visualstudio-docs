@@ -1,14 +1,9 @@
 ---
 title: "Unexpected quantifier (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5018"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: ba6d34f9-2d6f-486c-a929-6cd9818be322
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -24,7 +18,7 @@ manager: "ghogen"
 # Unexpected quantifier (JavaScript)
 When composing your regular expression search pattern, you created a pattern element with an illegal repetition factor. For example, the pattern  
   
-```  
+```js
 /^+/  
 ```  
   

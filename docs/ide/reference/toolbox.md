@@ -1,8 +1,6 @@
 ---
-title: Toolbox window in Visual Studio
+title: Toolbox window
 ms.date: 01/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.toolbox.general"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "custom controls [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -35,7 +33,7 @@ The .NET Framework version that your project targets also affects the set of con
 
 By default **Toolbox** is collapsed along the left side of the Visual Studio IDE, and appears when the cursor is moved over it. You can pin **Toolbox** (by clicking the **Pin** icon on its toolbar) so that it remains open when you move the cursor. You can also undock the **Toolbox** window and drag it anywhere on your screen. You can dock, undock, and hide **Toolbox** by right-clicking its toolbar and selecting one of the options.
 
-You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the context menu:
+You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the right-click menu:
 
 - **Rename item** - Renames the selected item.
 

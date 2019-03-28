@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty2::EnumChildren | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty2::EnumChildren"
 helpviewer_keywords: 
   - "IDebugProperty2::EnumChildren"
 ms.assetid: cf79f666-65d1-417c-af7c-9271bac9a267
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty2::EnumChildren
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -79,4 +74,3 @@ int EnumChildren ( 
  [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)   
  [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md)   
  [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)
-

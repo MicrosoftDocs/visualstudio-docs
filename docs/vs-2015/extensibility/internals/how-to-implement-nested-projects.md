@@ -1,21 +1,16 @@
 ---
 title: "How to: Implement Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "nested projects, implementing"
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Implement Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -93,4 +88,3 @@ When you create a nested project type there are a several additional steps that 
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Context Parameters](../../extensibility/internals/context-parameters.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

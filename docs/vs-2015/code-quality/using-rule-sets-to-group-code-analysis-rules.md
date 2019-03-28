@@ -1,14 +1,9 @@
 ---
 title: "Using Rule Sets to Group Code Analysis Rules | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.rulesets.learnmore"
 helpviewer_keywords: 
@@ -35,6 +30,3 @@ When you configure code analysis in [!INCLUDE[vsUltLong](../includes/vsultlong-m
 |**Customize a rule set:** Specify rules to apply to your project.|-   [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md)|  
 |**Understand the built-in rule sets:** View the code analysis rules that make up the built-in rule sets.|-   [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)|  
 |**Integrate code analysis with Team Foundation Server:** [!INCLUDE[esprtfs](../includes/esprtfs-md.md)] check-in policies enable development teams to make sure that all code check-ins meet a common set of code analysis standards.|-   [How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy](../code-quality/how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md)|
-
-
-

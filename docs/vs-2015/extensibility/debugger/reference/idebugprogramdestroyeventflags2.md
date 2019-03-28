@@ -1,20 +1,15 @@
 ---
 title: "IDebugProgramDestroyEventFlags2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugProgramDestroyEventFlags2 interface"
 ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramDestroyEventFlags2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ IDebugProgramDestroyEventFlags2 : IUnknown
  Namespace: Microsoft.VisualStudio.Debugger.Interop  
   
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
-

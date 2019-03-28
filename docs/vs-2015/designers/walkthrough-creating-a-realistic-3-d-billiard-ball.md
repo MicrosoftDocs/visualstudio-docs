@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Creating a Realistic 3-D Billiard Ball | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -219,6 +214,3 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
  [Shader Designer](../designers/shader-designer.md)   
  [Image Editor](../designers/image-editor.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

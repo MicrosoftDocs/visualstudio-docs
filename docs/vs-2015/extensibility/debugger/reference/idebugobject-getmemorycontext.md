@@ -1,22 +1,17 @@
 ---
 title: "IDebugObject::GetMemoryContext | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugObject::GetMemoryContext"
 helpviewer_keywords: 
   - "IDebugObject::GetMemoryContext method"
 ms.assetid: 6760a0d3-a898-4e81-b68f-c45c584b225b
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugObject::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetMemoryContext(
   
 ## See Also  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
-

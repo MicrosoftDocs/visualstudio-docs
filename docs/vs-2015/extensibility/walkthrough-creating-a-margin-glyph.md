@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Creating a Margin Glyph | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - margin glyph"
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating a Margin Glyph
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,4 +135,3 @@ You can customize the appearance of editor margins by using custom editor extens
 4.  Open a code file that has comments. Add the word "todo" to one of the comment sections.  
   
 5.  A light blue circle that has a dark blue outline should appear in the indicator margin to the left of the code window.
-

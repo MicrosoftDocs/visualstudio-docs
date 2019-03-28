@@ -8,9 +8,7 @@ dev_langs:
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

@@ -1,21 +1,19 @@
 ---
 title: Analyzer rule sets
 ms.date: 07/20/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzers, rule sets"
   - "rule sets for analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Rule sets for Roslyn analyzers
 
-Predefined rule sets are included with some NuGet analyzer packages. For example, the rule sets that are included with the [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet analyzer package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) (starting in version 2.6.2) enable or disable rules based on their category, such as security, naming, or performance. Using rule sets makes it easy to quickly see only those rule violations that pertain to a particular category of rule.
+Predefined rule sets are included with some NuGet analyzer packages. For example, the rule sets that are included with the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package (starting in version 2.6.2) enable or disable rules based on their category, such as security, naming, or performance. Using rule sets makes it easy to quickly see only those rule violations that pertain to a particular category of rule.
 
 If you're migrating from legacy "FxCop" static code analysis to Roslyn analyzers, these rule sets enable you to continue using the same rule configurations you used previously.
 
@@ -37,7 +35,7 @@ The predefined analyzer rule sets include three rulesets that affect all the rul
 
 Additionally, there are two rule sets for each category of rules in the package, such as performance or security. One rule set enables all rules for the category, and one rule set honors the default severity and enablement settings for each rule in the category.
 
- The [Microsoft.CodeAnalysis.FxCopAnalyzers NuGet analyzer package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) includes rule sets for the following categories, to match the rule sets available for legacy "FxCop" static code analysis:
+The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes rule sets for the following categories, which match the rule sets available for legacy "FxCop" static code analysis:
 
 - design
 - documentation
@@ -50,7 +48,8 @@ Additionally, there are two rule sets for each category of rules in the package,
 
 ## See also
 
+- [Analyzers FAQ](analyzers-faq.md)
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
-- [Install .NET Compiler Platform analyzers](install-roslyn-analyzers.md)
-- [Configure and use Roslyn analyzer rules](use-roslyn-analyzers.md)
+- [Install analyzers](install-roslyn-analyzers.md)
+- [Use analyzers](use-roslyn-analyzers.md)
 - [Use rule sets to group code analysis rules](using-rule-sets-to-group-code-analysis-rules.md)

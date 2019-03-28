@@ -1,14 +1,9 @@
 ---
 title: "Analyzing Performance Tools Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance, viewing data"
   - "performance reports, performance data"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "Profiling Tools,reports"
 ms.assetid: ae3e198a-b994-4ecb-a633-dec98bd4fd45
 caps.latest.revision: 46
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Analyzing Performance Tools Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ The performance reports of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profilin
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

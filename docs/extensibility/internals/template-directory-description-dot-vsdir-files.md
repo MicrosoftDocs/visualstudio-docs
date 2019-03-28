@@ -1,37 +1,34 @@
 ---
 title: "Template Directory Description (.Vsdir) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".vsdir files"
   - "VSDIR files"
   - "template directory description files"
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Template Directory Description (.Vsdir) Files
-A template directory description file (.vsdir) is a text file that enables the integrated development environment (IDE) to display folders, wizard .vsz files, and template files that are associated with your project in dialog boxes. The contents include one record per file or folder. All .vsdir files in a referenced location are merged, although only one .vsdir file is generally provided to describe multiple folders, wizards, or template files.  
+A template directory description file (.vsdir) is a text file that enables the integrated development environment (IDE) to display folders, wizard .vsz files, and template files that are associated with your project in dialog boxes. The contents include one record per file or folder. All .vsdir files in a referenced location are merged, although only one .vsdir file is generally provided to describe multiple folders, wizards, or template files.
 
- Folders (subdirectories), files that are referenced in the .vsdir file, and the .vsdir file itself are all located in the same directory. When the IDE runs a wizard or displays a folder or file in the **New Project** or **Add New Item** dialog boxes, the IDE examines the directory that contains the executed files to determine whether a .vsdir file is present. If a .vsdir file is found, the IDE reads it to determine whether it contains an entry for the executed or displayed folder or file. If an entry is found, the IDE uses the information in the execution of the wizard or display of the content.  
+ Folders (subdirectories), files that are referenced in the .vsdir file, and the .vsdir file itself are all located in the same directory. When the IDE runs a wizard or displays a folder or file in the **New Project** or **Add New Item** dialog boxes, the IDE examines the directory that contains the executed files to determine whether a .vsdir file is present. If a .vsdir file is found, the IDE reads it to determine whether it contains an entry for the executed or displayed folder or file. If an entry is found, the IDE uses the information in the execution of the wizard or display of the content.
 
- The following code example is from the file SourceFiles.vsdir in the \<EnvSDK>\BscPrj\BscPrj\BscPrjProjectItems\Source_Files registry key:  
+ The following code example is from the file SourceFiles.vsdir in the \<EnvSDK>\BscPrj\BscPrj\BscPrjProjectItems\Source_Files registry key:
 
-```  
-HeaderFile.h|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#125|130|#126|0|0|0|#127  
-SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124  
-```  
+```
+HeaderFile.h|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#125|130|#126|0|0|0|#127
+SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
+```
 
- In this case, two records are in one file. A new line (carriage return character) separates each record. Each line represents a different file type. A pipe (&#124;) character separates fields in each record. A single directory can contain multiple .vsdir files that have different file names, or you can have one .vsdir file for each file type.  
+ In this case, two records are in one file. A new line (carriage return character) separates each record. Each line represents a different file type. A pipe (&#124;) character separates fields in each record. A single directory can contain multiple .vsdir files that have different file names, or you can have one .vsdir file for each file type.
 
-## Fields  
- The following table lists the fields specified for each record.  
+## Fields
+ The following table lists the fields specified for each record.
 
 
 | Field | Description |
@@ -46,20 +43,20 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 | Flags (<xref:Microsoft.VisualStudio.Shell.Interop.__VSDIRFLAGS>) | Used to disable or enable the **Name** and **Location** fields on the **Add New Item** dialog box. The value of the **Flags** field is the decimal equivalent of the combination of required bit flags.<br /><br /> When a user selects an item on the **New** tab, the project determines whether the Name field and the Location field are shown when the **Add New Item** dialog box is first displayed. An item, through a .vsdir file, can control only whether the fields are enabled versus disabled when the item is selected. |
 | SuggestedBaseName | Represents the default name for the file, wizard, or template. This field is either a string or a resource identifier of the form "#ResID". The IDE uses this value to provide a default name for the item. This base value is appended with an integer value to make the name unique, such as MyFile21.asp.<br /><br /> In the previous list, Description, DLLPath, IconResourceId, Flags, and SuggestedBaseNumber apply only to template and wizard files. These fields do not apply to folders. This fact is illustrated in the code in the BscPrjProjectItems file in the \<EnvSDK>\BscPrj\BscPrj\BscPrjProjectItems registry key. This file contains three records (one for each folder) with four fields for each record: RelPathName, {clsidPackage}, LocalizedName, and SortPriority.<br /><br /> `General&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#110&#124;100`<br /><br /> `Source_Files&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#111&#124;110`<br /><br /> `Env&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#112&#124;120` |
 
- When you create a wizard file, you should also consider the following issues.  
+ When you create a wizard file, you should also consider the following issues.
 
--   Any non-required field for which there is no meaningful data should contain a 0 (zero) as a placeholder.  
+-   Any non-required field for which there is no meaningful data should contain a 0 (zero) as a placeholder.
 
--   If no localized name is provided, the relative path name is used in the wizard file.  
+-   If no localized name is provided, the relative path name is used in the wizard file.
 
--   DLLPath overrides clsidPackage for icon location.  
+-   DLLPath overrides clsidPackage for icon location.
 
--   If no icon is defined, the IDE substitutes the default icon for a file that has that extension.  
+-   If no icon is defined, the IDE substitutes the default icon for a file that has that extension.
 
--   If no suggested base name is provided, 'Project' is used.  
+-   If no suggested base name is provided, 'Project' is used.
 
--   If you delete the .vsz files, folders, or template files, you must also remove their associated records from the .vsdir file.  
+-   If you delete the .vsz files, folders, or template files, you must also remove their associated records from the .vsdir file.
 
-## See Also  
- [Wizards](../../extensibility/internals/wizards.md)   
- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+## See Also
+- [Wizards](../../extensibility/internals/wizards.md)
+- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)

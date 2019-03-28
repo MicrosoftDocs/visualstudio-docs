@@ -1,14 +1,9 @@
 ---
 title: "How to: Register a Library with the Object Manager | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "libraries, registering with object manager"
   - "IVsLibrary2 interface, registering library with object manager"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "libraries, symbol-browsing tools"
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Register a Library with the Object Manager
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -169,4 +164,3 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
  [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)   
  [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [How to: Expose Lists of Symbols Provided by the Library to the Object Manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
-

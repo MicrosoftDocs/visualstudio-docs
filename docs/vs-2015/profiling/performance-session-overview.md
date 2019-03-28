@@ -1,22 +1,17 @@
 ---
 title: "Performance Session Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, performance session"
   - "performance sessions"
 ms.assetid: 35752f95-a57a-4def-b64d-cf4899669e99
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Session Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +73,3 @@ This overview explains the basics of profiling. Developers who are new to perfor
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)
-
-
-

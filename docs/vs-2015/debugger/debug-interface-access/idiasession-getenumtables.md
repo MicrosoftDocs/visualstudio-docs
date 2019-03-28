@@ -1,23 +1,18 @@
 ---
 title: "IDiaSession::getEnumTables | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::getEnumTables method"
 ms.assetid: 66e0fba2-ca63-4e24-a46a-c99c7fb61dd1
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSession::getEnumTables
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,6 +66,3 @@ IUnknown *GetTable(IDiaSession *pSession, REFIID iid)
 ## See Also  
  [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)   
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
-
-
-

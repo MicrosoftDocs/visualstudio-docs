@@ -1,21 +1,16 @@
 ---
 title: "Statement Completion in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "statement completion"
   - "language services, statement completion"
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Statement Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ Statement completion is the process by which the language service helps users fi
   
 ## See Also  
  [Intercepting Legacy Language Service Commands](../../extensibility/internals/intercepting-legacy-language-service-commands.md)
-

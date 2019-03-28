@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], DLLs"
 ms.assetid: 40a94339-d3f7-4ab9-b8a1-b8cf82942f44
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug from a DLL Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +68,3 @@ To start debugging a DLL project, you must specify the calling application in th
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
-
-
-

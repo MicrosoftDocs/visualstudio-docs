@@ -1,5 +1,5 @@
 ---
-title: "Configuring Load Test Run Settings in Visual Studio"
+title: "Configuring Load Test Run Settings"
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,13 +7,13 @@ helpviewer_keywords:
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Configure load test run settings
 
 *Run settings* are a set of properties that influence the way a load test runs. Run settings are organized by categories in the **Properties** window.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 You can have more than one run setting in a load test, however only one of the run settings may be active per run. The other run settings provide a quick way to select an alternative setting to use for subsequent test runs.
 

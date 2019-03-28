@@ -7,15 +7,13 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom gestures"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Add commands and gestures to dependency diagrams
 
-You can define context menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.
+You can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.
 
 You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, and a domain-specific language.
 
@@ -26,62 +24,62 @@ You can define several command and gesture handlers in the same Visual Studio pr
 
 See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).
 
-## Defining a Command or Gesture in a New VSIX
+## Define a Command or Gesture in a New VSIX
 
 The quickest method of creating an extension is to use the project template. This places the code and the VSIX manifest into the same project.
 
-### To define an extension by using a project template
+1. Create a new **Layer Designer Command Extension** or **Layer Designer Gesture Extension** project.
 
-1. Create a project in a new solution, by using the **New Project** command on the **File** menu.
+   The template creates a project that contains a small working example.
 
-2. In the **New Project** dialog box, under **Modeling Projects**, select either **Layer Designer Command Extension** or **Layer Designer Gesture Extension**.
-
-    The template creates a project that contains a small working example.
-
-3. To test the extension, press **Ctrl**+**F5** or **F5**.
+2. To test the extension, press **Ctrl**+**F5** or **F5**.
 
     An experimental instance of Visual Studio starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.
 
-4. Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+3. Close the experimental instance and modify the sample code.
 
-5. You can add more command or gesture handlers to the same project. For more information, see one of the following sections:
+4. You can add more command or gesture handlers to the same project. For more information, see one of the following sections:
 
     [Defining a Menu Command](#command)
 
     [Defining a Gesture Handler](#gesture)
 
-6. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
+::: moniker range="vs-2017"
 
-## Adding a Command or Gesture to a separate VSIX
+5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
+
+::: moniker-end
+
+## Add a Command or Gesture to a separate VSIX
 
 If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers.
 
-### To add layer extensions to a separate VSIX
+1. Create a new **Class Library** project. This project will contain command or gesture handler classes.
 
-1.  Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.
+   > [!NOTE]
+   > You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.
 
-    > [!NOTE]
-    > You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.
+2. Add or create a VSIX project in your solution. A VSIX project contains a file that's named **source.extension.vsixmanifest**.
 
-2.  Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:
+3. In **Solution Explorer**, right-click the VSIX project and choose **Set as Startup Project**.
 
-    1.  In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.
+4. In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.
 
-    2.  In Solution Explorer, right-click the VSIX project and then click **Set as Startup Project**.
+    1. In the **Assets**.tab, choose **New**.
 
-    3.  Click **Select Editions** and make sure that **Visual Studio** is checked.
+    2. At **Type**, select **Microsoft.VisualStudio.MefComponent**.
 
-3.  In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.
+    3. At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.
 
-    1.  In the **Assets**.tab, choose **New**.
+    4. Save the file.
 
-    2.  At **Type**, select **Microsoft.VisualStudio.MefComponent**.
-
-    3.  At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.
-
-    4.  Save the file.
-
-4.  Return to the command or gesture handler project, and add the following project references:
+5. Return to the command or gesture handler project and add the following project references:
 
    |**Reference**|**What this allows you to do**|
    |-|-|
@@ -92,19 +90,17 @@ If you want to create one VSIX that contains commands, layer validators, and oth
    |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define modeling extensions|
    |Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]|Update shapes and diagrams|
 
-5.  Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:
+6. Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:
 
      [Defining a Menu Command](#command)
 
      [Defining a Gesture Handler](#gesture)
 
-     See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+7. To test the feature, press **Ctrl**+**F5** or **F5**.
 
-6.  To test the feature, press CTRL+F5 or F5. An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.
+   An experimental instance of Visual Studio opens. In this instance, create or open a dependency diagram.
 
-7.  To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.
-
-     To uninstall it, use **Extensions and Updates** on the **Tools** menu.
+8. To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in File Explorer.
 
 ##  <a name="command"></a> Defining a Menu Command
 
@@ -137,8 +133,6 @@ You can add more menu command definitions to an existing gesture or command proj
    `...`
 
    `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`
-
-For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
 
 To add a new command, create a new code file that contains the following sample. Then test and edit it.
 
@@ -263,5 +257,4 @@ Notice the following points about gesture handlers:
 
 ## See Also
 
-- [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)
 - [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)

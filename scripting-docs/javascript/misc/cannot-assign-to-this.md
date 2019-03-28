@@ -1,14 +1,9 @@
 ---
-title: "Cannot assign to &#39;this&#39; | Microsoft Docs"
-ms.custom: ""
+title: "Cannot assign to 'this' | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords:
   - "VS.WebClient.Help.SCRIPT5000"
 dev_langs:
@@ -16,12 +11,11 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: ba2b0a2b-f0f8-4698-b335-a4ab6c166671
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Cannot assign to &#39;this&#39;
+# Cannot assign to 'this'
 You attempted to assign a value to **this**. **this** is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] keyword that refers to either:
 
 - the object currently executing a method,

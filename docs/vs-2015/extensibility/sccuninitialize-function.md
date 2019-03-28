@@ -1,22 +1,17 @@
 ---
 title: "SccUninitialize Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccUninitialize"
 helpviewer_keywords: 
   - "SccUninitialize function"
 ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccUninitialize Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,4 +43,3 @@ SCCRTN SccUninitialize (
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccInitialize](../extensibility/sccinitialize-function.md)
-

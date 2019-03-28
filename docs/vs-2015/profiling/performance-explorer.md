@@ -1,14 +1,9 @@
 ---
 title: "Performance Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance"
   - "vs.performance.wizard.website"
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 ms.assetid: df52b717-a55d-4b1d-8c2e-d5a6a38042f4
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools let developers 
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)
-
-
-

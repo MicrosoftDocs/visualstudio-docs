@@ -1,12 +1,9 @@
 ---
 title: "UML Activity Diagrams: Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML diagrams, activity"
   - "diagrams - modeling, activity"
@@ -15,9 +12,9 @@ helpviewer_keywords:
   - "UML, activity diagrams"
 ms.assetid: fe5dbe96-79ab-483a-b9bc-44d0d1d3efc2
 caps.latest.revision: 50
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Activity Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -431,6 +428,3 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [Video: Capture Business Workflows by using Activity Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-4-Capture-Business-Workflows/)
-
-
-

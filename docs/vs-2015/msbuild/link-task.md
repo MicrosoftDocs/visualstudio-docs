@@ -1,14 +1,9 @@
 ---
 title: "Link Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "VC.Project.VCLinkerTool.ForceFileOutput"
   - "VC.Project.VCLinkerTool.LinkStatus"
@@ -35,7 +30,7 @@ ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Link Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -928,6 +923,3 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

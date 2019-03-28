@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: ffbdfe37-8325-44be-bd36-2c8aab2dec7b
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,6 +101,3 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 2.  Shut down the profiler. Type:  
   
      **VSPerfCmd**  [Shutdown](../profiling/shutdown.md)
-
-
-

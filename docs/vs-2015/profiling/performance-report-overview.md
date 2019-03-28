@@ -1,23 +1,18 @@
 ---
 title: "Performance Report Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, about performance rerports"
   - "performance, reports"
   - "performance reports, about performance reports"
 ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Performance Report Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,6 +93,3 @@ You can view the profiling data of a performance session in the **Performance Re
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
  [Performance Report Views](../profiling/performance-report-views.md)
-
-
-

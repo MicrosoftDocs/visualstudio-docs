@@ -1,8 +1,6 @@
 ---
 title: "CA2103: Review imperative security"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2103"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d24fde71-bdf6-46c0-8965-9a73dc33c1aa
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

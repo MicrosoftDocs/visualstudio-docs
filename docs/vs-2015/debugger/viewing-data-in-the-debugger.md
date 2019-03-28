@@ -1,14 +1,9 @@
 ---
 title: "Viewing Data in the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "debugger, viewing data"
 ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Viewing Data in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger provides a variety of 
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Command Window](../ide/reference/command-window.md)   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

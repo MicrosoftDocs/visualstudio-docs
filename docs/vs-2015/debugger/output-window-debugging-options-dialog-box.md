@@ -1,14 +1,9 @@
 ---
 title: "Output Window, Debugging, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.options.OutputWindow"
   - "VS.ToolsOptionsPages.Debugger.OutputWindow"
@@ -20,9 +15,9 @@ dev_langs:
   - "C++"
 ms.assetid: d67387c2-39e9-4790-93bc-e41bff12fb9c
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Output Window, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ You can specify which types of debugging information appear in the **Output** wi
 ## See Also  
  [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)   
  [Output Window](../ide/reference/output-window.md)
-
-
-

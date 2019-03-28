@@ -1,18 +1,13 @@
 ---
 title: "Using Different Web Browsers with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: a859595f-6517-43f2-9d61-c706cb55a388
 caps.latest.revision: 25
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using Different Web Browsers with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -154,6 +149,3 @@ Coded UI tests can automate testing for web applications by recording your tests
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)
-
-
-

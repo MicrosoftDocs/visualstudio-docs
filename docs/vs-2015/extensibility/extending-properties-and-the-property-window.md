@@ -1,14 +1,9 @@
 ---
 title: "Extending Properties and the Property Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "STrackSelection interface, supporting Property Browser"
   - "SelectedObjects property"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "SelectableObjects property"
 ms.assetid: 1e925025-3d21-4cdb-a917-78db7bb78fe9
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending Properties and the Property Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,4 +28,3 @@ The **Properties** window is used to view and edit the design-time properties an
   
  [Getting Project Properties](../extensibility/getting-project-properties.md)  
  Explains how to get project properties.
-

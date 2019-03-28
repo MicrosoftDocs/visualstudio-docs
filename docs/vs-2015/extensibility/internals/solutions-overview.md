@@ -1,20 +1,15 @@
 ---
 title: "Solutions Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solutions, about solutions"
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Solutions Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ A solution is a grouping of one or more projects that work together to create an
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>
-

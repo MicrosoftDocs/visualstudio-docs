@@ -1,12 +1,9 @@
 ---
 title: "Extend the functionality of a TableAdapter | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Extend the functionality of a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +49,3 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
-

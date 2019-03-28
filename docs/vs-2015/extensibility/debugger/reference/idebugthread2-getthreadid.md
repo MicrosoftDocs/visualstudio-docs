@@ -1,22 +1,17 @@
 ---
 title: "IDebugThread2::GetThreadId | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugThread2::GetThreadId"
 helpviewer_keywords: 
   - "IDebugThread2::GetThreadId"
 ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugThread2::GetThreadId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
   
 ## See Also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
-

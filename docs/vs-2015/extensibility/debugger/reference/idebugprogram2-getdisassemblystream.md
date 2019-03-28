@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgram2::GetDisassemblyStream | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgram2::GetDisassemblyStream"
 helpviewer_keywords: 
   - "IDebugProgram2::GetDisassemblyStream"
 ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgram2::GetDisassemblyStream
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ int GetDisassemblyStream( 
  [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md)   
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)   
  [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
-

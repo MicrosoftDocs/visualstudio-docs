@@ -1,14 +1,9 @@
 ---
 title: "Mixed Recommended Rules rule set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: c3186b5b-0149-4a75-826e-e3539e4e703f
 caps.latest.revision: 5
 author: gewarren
@@ -61,7 +56,7 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                                               [C6270](../code-quality/c6270.md)                                                |                                              Missing Float Argument To Format Function                                              |
 |                                               [C6271](../code-quality/c6271.md)                                                |                                                  Extra Argument To Format Function                                                  |
 |                                               [C6272](../code-quality/c6272.md)                                                |                                                Non-Float Argument To Format Function                                                |
-|                                               [C6273](../code-quality/c6273.md)                                                |                                               Non-Integer Argumen To Format Function                                                |
+|                                               [C6273](../code-quality/c6273.md)                                                |                                               Non-Integer Argument To Format Function                                                |
 |                                               [C6274](../code-quality/c6274.md)                                                |                                              Non-Character Argument To Format Function                                              |
 |                                               [C6276](../code-quality/c6276.md)                                                |                                                         Invalid String Cast                                                         |
 |                                               [C6277](../code-quality/c6277.md)                                                |                                                     Invalid CreateProcess Call                                                      |
@@ -116,7 +111,7 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                                               [C6504](../code-quality/c6504.md)                                                |                                                         Null On Non-Pointer                                                         |
 |                                               [C6505](../code-quality/c6505.md)                                                |                                                          MustCheck On Void                                                          |
 |                                               [C6506](../code-quality/c6506.md)                                                |                                                 Buffer Size On Non-Pointer Or Array                                                 |
-|                         [C6507](http://msdn.microsoft.com/en-us/18f88cd1-d035-4403-a6a4-12dd0affcf21)                          |                                                  Null Mismatch At Dereference Zero                                                  |
+|                         [C6507](http://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)                          |                                                  Null Mismatch At Dereference Zero                                                  |
 |                                               [C6508](../code-quality/c6508.md)                                                |                                                      Write Access On Constant                                                       |
 |                                               [C6509](../code-quality/c6509.md)                                                |                                                     Return Used On Precondition                                                     |
 |                                               [C6510](../code-quality/c6510.md)                                                |                                                   Null Terminated On Non-Pointer                                                    |
@@ -127,12 +122,11 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                                               [C6516](../code-quality/c6516.md)                                                |                                                     No Properties On Attribute                                                      |
 |                                               [C6517](../code-quality/c6517.md)                                                |                                                  Valid Size On Non-Readable Buffer                                                  |
 |                                               [C6518](../code-quality/c6518.md)                                                |                                                Writable Size On Non-Writable Buffer                                                 |
-|                         [C6519](http://msdn.microsoft.com/en-us/2b6326b0-0539-4d26-8fb1-720114933232)                          |                             Invalid annotation: value of the 'NeedsRelease' property must be Yes or No                              |
-|                         [C6521](http://msdn.microsoft.com/en-us/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)                          |                                                   Invalid Size String Dereference                                                   |
+|                         [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)                          |                                                   Invalid Size String Dereference                                                   |
 |                                               [C6522](../code-quality/c6522.md)                                                |                                                      Invalid Size String Type                                                       |
-|                         [C6523](http://msdn.microsoft.com/en-us/11397a31-b224-46b0-afb7-d49ca576a3bb)                          |                                                    Invalid Size String Parameter                                                    |
+|                         [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)                          |                                                    Invalid Size String Parameter                                                    |
 |                                               [C6525](../code-quality/c6525.md)                                                |                                              Invalid Size String Unreachable Location                                               |
-|                         [C6526](http://msdn.microsoft.com/en-us/59c590c7-0098-4166-a1ac-87f324596002)                          |                                                   Invalid Size String Buffer Type                                                   |
+|                         [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)                          |                                                   Invalid Size String Buffer Type                                                   |
 |                                               [C6527](../code-quality/c6527.md)                                                |                         Invalid annotation: 'NeedsRelease' property may not be used on values of void type                          |
 |                                               [C6530](../code-quality/c6530.md)                                                |                                                  Unrecognized Format String Style                                                   |
 |                                               [C6540](../code-quality/c6540.md)                                                |            The use of attribute annotations on this function will invalidate all of its existing __declspec annotations             |
@@ -187,7 +181,7 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                                              [C28215](../code-quality/c28215.md)                                               |                               The typefix cannot be applied to a parameter that already has a typefix                               |
 |                                              [C28216](../code-quality/c28216.md)                                               |                   The checkReturn annotation only applies to postconditions for the specific function parameter.                    |
 |                                              [C28217](../code-quality/c28217.md)                                               |                       For function, the number of parameters to annotation does not match that found at file                        |
-|                                              [C28218](../code-quality/c28218.md)                                               |                        For function paramteer, the annotation's parameter does not match that found at file                         |
+|                                              [C28218](../code-quality/c28218.md)                                               |                        For function parameter, the annotation's parameter does not match that found at file                         |
 |                                              [C28219](../code-quality/c28219.md)                                               |                            Member of enumeration expected for annotation the parameter in the annotation                            |
 |                                              [C28220](../code-quality/c28220.md)                                               |                             Integer expression expected for annotation the parameter in the annotation                              |
 |                                              [C28221](../code-quality/c28221.md)                                               |                                   String expression expected for the parameter in the annotation                                    |
@@ -222,7 +216,6 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                                              [C28254](../code-quality/c28254.md)                                               |                                          dynamic_cast<>() is not supported in annotations                                           |
 |                                              [C28262](../code-quality/c28262.md)                                               |                               A syntax error in the annotation was found in function, for annotation                                |
 |                                              [C28263](../code-quality/c28263.md)                                               |                            A syntax error in a conditional annotation was found for Intrinsic annotation                            |
-|                         [C28264](http://msdn.microsoft.com/en-us/bf6ea983-a06e-4752-a042-747a7dbf338c)                         |                                               Result lists values must be constants.                                                |
 |                                              [C28267](../code-quality/c28267.md)                                               |                               A syntax error in the annotations was found annotation in the function.                               |
 |                                              [C28272](../code-quality/c28272.md)                                               |                 The annotation for function, parameter when examining is inconsistent with the function declaration                 |
 |                                              [C28273](../code-quality/c28273.md)                                               |                               For function, the clues are inconsistent with the function declaration                                |
@@ -309,4 +302,3 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |                             [CA2240](../code-quality/ca2240-implement-iserializable-correctly.md)                              |                                                  Implement ISerializable correctly                                                  |
 |                      [CA2241](../code-quality/ca2241-provide-correct-arguments-to-formatting-methods.md)                       |                                           Provide correct arguments to formatting methods                                           |
 |                                   [CA2242](../code-quality/ca2242-test-for-nan-correctly.md)                                   |                                                       Test for NaN correctly                                                        |
-

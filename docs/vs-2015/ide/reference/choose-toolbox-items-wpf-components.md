@@ -1,14 +1,9 @@
 ---
 title: "Choose Toolbox Items, WPF Components | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.chooseitems.wpfcomponents"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 6ce1d178-88c0-4295-8915-59fdeedabb11
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Choose Toolbox Items, WPF Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of Windows P
 - When the check box next to a component is selected, an icon for that component will be displayed in the **Toolbox**.  
   
   > [!TIP]
-  >  To add an instance of a WPF control to a project document open for editing, drag its **Toolbox** icon onto the Design view surface. Default markup and code for the component are inserted into your project, ready for you to modify. For more information, see [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
+  >  To add an instance of a WPF control to a project document open for editing, drag its **Toolbox** icon onto the Design view surface. Default markup and code for the component are inserted into your project, ready for you to modify. For more information, see [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
 - When the check box next to a component is cleared, the corresponding icon will be removed from the **Toolbox.**  
   
@@ -42,7 +37,7 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of Windows P
   Lists the names of WPF controls for which entries exist in your computer's registry.  
   
   Namespace  
-  Displays the hierarchy of the [NIB: .NET Framework Class Library](http://msdn.microsoft.com/en-us/6c4f3a62-6a0f-41f2-9d52-ee0b13686f29) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET Framework namespace installed on your computer.  
+  Displays the hierarchy of the [NIB: .NET Framework Class Library](http://msdn.microsoft.com/6c4f3a62-6a0f-41f2-9d52-ee0b13686f29) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET Framework namespace installed on your computer.  
   
   Assembly Name  
   Displays the name of the .NET Framework assembly that includes the namespace for each component. Sort on this column to list the namespaces contained in each .NET Framework assembly installed on your computer.  
@@ -72,13 +67,10 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of Windows P
   
   In addition, if design-time metadata is applied to the custom control and this metadata specifies that the <xref:Microsoft.Windows.Design.ToolboxBrowsableAttribute> is set to `false`, the control does not appear in the Toolbox.  
   
-  You can reference your controls directly in XAML view by mapping the namespace and assembly for your control. For more information, see [How to: Import a Namespace into XAML](http://msdn.microsoft.com/en-us/6cda7c7a-369c-47dd-9c2d-13a35dcf737c).  
+  You can reference your controls directly in XAML view by mapping the namespace and assembly for your control. For more information, see [How to: Import a Namespace into XAML](http://msdn.microsoft.com/6cda7c7a-369c-47dd-9c2d-13a35dcf737c).  
   
 ## See Also  
- [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/en-us/bd07835f-18a8-433e-bccc-7141f65263bb)   
+ [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/bd07835f-18a8-433e-bccc-7141f65263bb)   
  [Toolbox](../../ide/reference/toolbox.md)   
- [How to: Use a Third-Party WPF Control in a WPF Application](http://msdn.microsoft.com/en-us/f4c0b601-3818-4f9f-85e5-77905f3b427f)   
- [WPF Designer](http://msdn.microsoft.com/en-us/c6c65214-8411-4e16-b254-163ed4099c26)
-
-
-
+ [How to: Use a Third-Party WPF Control in a WPF Application](http://msdn.microsoft.com/f4c0b601-3818-4f9f-85e5-77905f3b427f)   
+ [WPF Designer](http://msdn.microsoft.com/c6c65214-8411-4e16-b254-163ed4099c26)

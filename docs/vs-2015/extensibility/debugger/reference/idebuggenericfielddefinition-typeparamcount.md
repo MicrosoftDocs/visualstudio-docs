@@ -1,21 +1,16 @@
 ---
 title: "IDebugGenericFieldDefinition::TypeParamCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "TypeParamCount"
   - "IDebugGenericFieldDefinition::TypeParamCount"
 ms.assetid: d41dd5ea-aa25-4bf3-bcfd-e0bf451ead49
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugGenericFieldDefinition::TypeParamCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,4 +43,3 @@ int TypeParamCount(
   
 ## See Also  
  [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)
-

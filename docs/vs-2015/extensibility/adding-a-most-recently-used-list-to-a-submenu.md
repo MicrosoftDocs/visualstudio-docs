@@ -1,22 +1,17 @@
 ---
 title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MRU lists"
   - "menus, creating MRU list"
   - "most recently used"
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
 caps.latest.revision: 47
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Most Recently Used List to a Submenu
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -206,4 +201,3 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
 ## See Also  
  [Dynamically Adding Menu Items](../extensibility/dynamically-adding-menu-items.md)
-

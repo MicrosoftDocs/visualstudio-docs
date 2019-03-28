@@ -2,12 +2,10 @@
 title: "Workflow Designer - How to: Set Breakpoints in Workflows"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -32,10 +30,9 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
 2. On the **Debug** menu, select **Toggle Breakpoint**. A red icon will appear at the top left edge of the activity.
 
-   Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the context menu.
+   Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the right-click menu.
 
 ## See also
 
-- [How to: Invoke the Workflow Debugger](../workflow-designer/how-to-invoke-the-workflow-debugger.md)
 - [Debugging Workflows with the Workflow Designer](../workflow-designer/debugging-workflows-with-the-workflow-designer.md)
 - [How to: Debug XAML with the Workflow Designer](../workflow-designer/how-to-debug-xaml-with-the-workflow-designer.md)

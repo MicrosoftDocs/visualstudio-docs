@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Find a memory leak (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "memory leaks, JavaScript example"
 ms.assetid: f595412f-776b-49a2-8433-ea0062c6904d
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Find a memory leak (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -287,6 +282,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ## See Also  
  [JavaScript Memory](../profiling/javascript-memory.md)
-
-
-

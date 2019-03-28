@@ -1,18 +1,13 @@
 ---
 title: "Develop apps for the Universal Windows Platform (UWP) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
 caps.latest.revision: 50
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Develop apps for the Universal Windows Platform (UWP)
@@ -60,4 +55,3 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
  If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015 RC, [port these existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) to use the latest Universal Windows Platform.  
   
  After you create your Universal Windows app, you must [package your app](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) to install it on a Windows 10 device or submit it to the Windows Store.
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugModuleLoadEvent2::GetModule | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugModuleLoadEvent2::GetModule"
 helpviewer_keywords: 
   - "IDebugModuleLoadEvent2::GetModule"
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugModuleLoadEvent2::GetModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ int GetModule( 
 ## See Also  
  [IDebugModuleLoadEvent2](../../../extensibility/debugger/reference/idebugmoduleloadevent2.md)   
  [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
-

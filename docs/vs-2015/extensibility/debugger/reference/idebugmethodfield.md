@@ -1,22 +1,17 @@
 ---
 title: "IDebugMethodField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugMethodField"
 helpviewer_keywords: 
   - "IDebugMethodField interface"
 ms.assetid: a7dc9030-fc98-4cf1-b943-37a4003300b6
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugMethodField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ IDebugMethodField : IDebugContainerField
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugPropertyDestroyEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPropertyDestroyEvent2"
 helpviewer_keywords: 
   - "IDebugPropertyDestroyEvent2 interface"
 ms.assetid: 301b7a75-ecfa-46f1-9131-66cf3e4be147
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPropertyDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ IDebugPropertyDestroyEvent2 : IUnknown
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugPropertyCreateEvent2](../../../extensibility/debugger/reference/idebugpropertycreateevent2.md)
-

@@ -1,11 +1,8 @@
 ---
 title: "Find potential problems using code map analyzers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
@@ -15,9 +12,9 @@ helpviewer_keywords:
   - "graph documents, analyzing"
 ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
 caps.latest.revision: 13
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Find potential problems using code map analyzers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +46,3 @@ Run analyzers on code maps to help you identify code that might be overly comple
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
-
-
-

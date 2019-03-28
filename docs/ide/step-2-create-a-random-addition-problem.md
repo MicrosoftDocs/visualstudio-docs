@@ -1,15 +1,11 @@
 ---
 title: "Step 2: Create a random addition problem"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 6461c4cf-f2aa-4bf5-91ed-06820a4f893d
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

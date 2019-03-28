@@ -1,14 +1,9 @@
 ---
 title: "Build Loggers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, writing loggers"
   - "MSBuild, logging"
@@ -17,7 +12,7 @@ ms.assetid: fa34810d-185a-4d22-92bd-9852915e5f1d
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Build Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,6 +81,3 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
 ## See Also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)
-
-
-

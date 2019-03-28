@@ -1,15 +1,11 @@
 ---
 title: "Image Service and Catalog | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 caps.latest.revision: 38
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Image Service and Catalog
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -649,7 +645,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 3.  Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)  
 
 ## Testing your images  
- You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](http://msdn.microsoft.com/library/bb166441.aspx). Documentation for this tool and others can be found [here](http://aka.ms/VSImageThemeTools).  
+ You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](http://msdn.microsoft.com/library/bb166441.aspx). Documentation for this tool and others can be found [here](https://aka.ms/VSImageThemeTools).  
 
 ## Additional resources  
 
@@ -989,4 +985,3 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphXmlDescendantQuestion||XmlDescendantLowConfidence|  
         |GlyphXmlDescendantCheck||XmlDescendantHighConfidence|  
         |GlyphCompletionWarning||IntellisenseWarning|
-

@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Event Handlers Propagate Changes Outside the Model
 
@@ -183,6 +181,6 @@ Each event type corresponds to a collection in Store.EventManagerDirectory. You 
 ## See Also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
-- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -1,14 +1,9 @@
 ---
 title: "Application Deployment Prerequisites | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,7 +19,7 @@ ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 caps.latest.revision: 53
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Application Deployment Prerequisites
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,6 +81,3 @@ To ensure that your application will install and run successfully, you must firs
 ## See Also  
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)
-
-
-

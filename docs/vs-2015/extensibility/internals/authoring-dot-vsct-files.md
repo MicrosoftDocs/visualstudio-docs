@@ -1,20 +1,15 @@
 ---
 title: "Authoring .Vsct Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, manual authoring"
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Authoring .Vsct Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
     ```xml  
     <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"   
-    	xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">  
   
     ```  
   
@@ -238,4 +233,3 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)   
  [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)
-

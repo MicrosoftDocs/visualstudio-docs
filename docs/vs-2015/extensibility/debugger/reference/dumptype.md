@@ -1,22 +1,17 @@
 ---
 title: "DUMPTYPE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "DUMPTYPE"
 helpviewer_keywords: 
   - "DUMPTYPE enumeration"
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # DUMPTYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ public enum enum_DUMPTYPE { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md)
-

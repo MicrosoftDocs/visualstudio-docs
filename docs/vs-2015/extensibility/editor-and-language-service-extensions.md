@@ -1,20 +1,15 @@
 ---
 title: "Editor and Language Service Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK]"
 ms.assetid: 5653bac9-724f-4948-a820-68ce6aa96365
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Editor and Language Service Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,4 +29,3 @@ You can extend most features of the Visual Studio code editor. The editor is bas
 |[Legacy Language Service Extensibility](../extensibility/internals/legacy-language-service-extensibility.md)|Links to documents that describe how to integrate programming languages into Visual Studio.|  
 |[Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|Introduces the Managed Extensibility Framework (MEF).|  
 |[Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Introduces the Windows Presentation Foundation (WPF).|
-

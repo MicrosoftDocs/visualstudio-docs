@@ -1,14 +1,9 @@
 ---
 title: "Feedback to the User | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user model feedback"
   - "environment, context"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDE, user feedback"
 ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Feedback to the User
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development en
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [Hierarchies and Selection](../../extensibility/internals/hierarchies-and-selection.md)
-

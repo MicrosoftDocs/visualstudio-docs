@@ -1,14 +1,9 @@
 ---
 title: "How to: Examine System Code After an Exception | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "exceptions, debugging"
 ms.assetid: a38ad49b-7cf3-483d-91c4-eb3116eba50c
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Examine System Code After an Exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,8 +41,3 @@ When an exception occurs, you might have to examine code inside a system call to
   
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
-
-
-
-
-

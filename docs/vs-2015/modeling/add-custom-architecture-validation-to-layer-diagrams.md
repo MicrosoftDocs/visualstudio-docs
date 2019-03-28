@@ -1,19 +1,16 @@
 ---
 title: "Add custom architecture validation to layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, adding custom validation"
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 44
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add custom architecture validation to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -277,6 +274,3 @@ namespace Validator3
   
 ## See Also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
-
-
-

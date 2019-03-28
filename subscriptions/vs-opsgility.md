@@ -3,11 +3,9 @@ title: The Skill Me Up - Powered by Opsgility Benefit in Visual Studio Subscript
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 10/02/2018
-ms.topic: Get-Started-Article
+ms.date: 12/19/2018
+ms.topic: conceptual
 description:  Learn about the Skill Me Up - Powered by Opsgility training benefit included with selected Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscriptions
 ---
 
@@ -27,21 +25,25 @@ Selected Visual Studio subscriptions include up to six months of access to exper
    > [!div class="mx-imgBorder"]
    > ![Opsgility Benefit Landing Page](_img/vs-opsgility/vs-vse-landing-page.png)
 
-4. That’s all there is to it!  You’re ready to start learning!  
+4. That’s all there is to it!  You’re ready to start learning!
 
 
 ## Eligibility
 
 | Subscription level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail | 6 months       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
 | Visual Studio Dev Essentials | NA  | Not available | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-*Excludes:  Microsoft Partner Network (MPN), Microsoft Valued Professional (MVP), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
+*Excludes:  Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

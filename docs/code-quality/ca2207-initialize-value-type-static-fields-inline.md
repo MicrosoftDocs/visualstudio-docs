@@ -1,8 +1,6 @@
 ---
 title: "CA2207: Initialize value type static fields inline"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "InitializeValueTypeStaticFieldsInline"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d1ea9d8b-ecc2-46ca-86e2-c41dd0e76658
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

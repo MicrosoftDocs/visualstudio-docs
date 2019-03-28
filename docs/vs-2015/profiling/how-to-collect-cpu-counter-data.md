@@ -1,14 +1,9 @@
 ---
 title: "How to: Collect CPU Counter Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.cpucounters"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "performance tools, portable CPU counters"
 ms.assetid: 102fb6ca-5fbf-4b05-925f-56912ce3f44b
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Collect CPU Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ A CPU event counter is used to collect hardware-specific performance data. This 
  [Performance Session Properties](../profiling/performance-session-properties.md)   
  [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   
  [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)
-
-
-

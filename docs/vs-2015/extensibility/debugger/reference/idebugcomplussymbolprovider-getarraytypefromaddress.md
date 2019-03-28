@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "GetArrayTypeFromAddress"
   - "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress"
 ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -98,4 +93,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
-

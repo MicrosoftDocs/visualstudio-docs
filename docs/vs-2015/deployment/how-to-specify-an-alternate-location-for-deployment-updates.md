@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify an Alternate Location for Deployment Updates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify an Alternate Location for Deployment Updates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ You can install your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] appl
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)
-
-
-

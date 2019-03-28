@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue Errors and Warnings (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.csharp.enc.error_4001"
   - "vs.csharp.enc.error_4034"
@@ -64,8 +59,8 @@ helpviewer_keywords:
   - "errors [debugger], Edit and Continue"
 ms.assetid: c0e12b0a-8009-4a4a-979f-c804a91a5d9b
 caps.latest.revision: 11
-ms.author: "susanno"
-manager: "douge"
+ms.author: mikejo
+manager: jillfra
 ---
 # Edit and Continue Errors and Warnings (C#)
 You have made an edit to a section of code that is not allowed in Visual C# Edit and Continue.  

@@ -1,19 +1,14 @@
 ---
 title: "VSPerf | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: b5854e62-279e-4850-bfeb-0c6ef82f4805
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # VSPerf
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,6 +66,3 @@ Use the **VsPerf** command line tool to:
 ## See Also  
  [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
-
-
-

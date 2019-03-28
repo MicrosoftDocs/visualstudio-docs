@@ -1,19 +1,16 @@
 ---
 title: "Open a UML model by using the Visual Studio API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, opening models in Visual Studio"
 ms.assetid: 38423682-f2a7-4d2a-a2cd-fd680e9b4b4d
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Open a UML model by using the Visual Studio API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,6 +112,3 @@ foreach (ProjectItem item in project.ProjectItems)
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

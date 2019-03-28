@@ -1,12 +1,9 @@
 ---
 title: "Describe control flow with fragments on UML sequence diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.sequencediagram.combinedfragment.interactionoperand"
   - "vs.teamarch.sequencediagram.combinedfragment"
@@ -17,9 +14,9 @@ helpviewer_keywords:
   - "sequence diagrams, control flow"
 ms.assetid: efcc0949-be7e-4cf4-99ef-47c36b3803ae
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Describe control flow with fragments on UML sequence diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -131,6 +128,3 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "How to: Search for a Window in Windows View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "windows, searching in Windows view"
 ms.assetid: 30306970-b861-4315-acf8-f86a43d4e73b
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Search for a Window in Windows View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ You can search for a specific window in Windows view by using its handle, captio
 5.  Click **OK**.  
   
      If a matching window is found, it is highlighted in the [Windows View](../debugger/windows-view.md) window.
-
-
-

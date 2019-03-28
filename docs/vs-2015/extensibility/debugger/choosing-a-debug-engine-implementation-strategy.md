@@ -1,20 +1,15 @@
 ---
 title: "Choosing a Debug Engine Implementation Strategy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, implementation strategies"
 ms.assetid: 90458fdd-2d34-4f10-82dc-6d8f31b66d8b
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Choosing a Debug Engine Implementation Strategy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,4 +29,3 @@ Use the run-time architecture to determine your debug engine (DE) implementation
   
 ## See Also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)
-

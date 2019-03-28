@@ -1,19 +1,16 @@
 ---
 title: "Model your app&#39;s architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, modeling architecture"
 ms.assetid: aedce746-9df5-49e1-9662-67eb1b83d313
 caps.latest.revision: 21
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Model your app&#39;s architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -259,6 +256,3 @@ To help ensure that your software system or application meets your users' needs,
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-
-
-

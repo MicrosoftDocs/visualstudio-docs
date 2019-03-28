@@ -1,7 +1,6 @@
 ---
 title: "Limitations of Windows Forms controls on Office documents"
 ms.date: "02/02/2017"
-ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "Toolbox [Office development in Visual Studio], unsupported controls"
   - "user controls [Office development in Visual Studio], grouping controls"
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

@@ -1,8 +1,6 @@
 ---
 title: "CA2107: Review deny and permit only usage"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2107"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 366f4a56-ae93-4882-81d0-bd0a55ebbc26
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

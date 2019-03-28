@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project item templates, XML reference"
   - "project item templates, custom template locations"
@@ -18,16 +13,16 @@ ms.assetid: 77bc53d4-d607-4820-a032-7e3b365891b5
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The steps in the [first procedure](../ide/how-to-create-item-templates.md#export_template) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).  
+The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the-add-new-item-dialog-box) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).  
   
- The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
+ The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](#to-enable-the-item-template-to-be-used-in-a-store-project) in this topic helps you accomplish that task.  
  
- In some cases you may want or need to create an item template manually from scratch. The [third procedure](../ide/how-to-create-item-templates.md#create_template) shows how to do that.  
+ In some cases you may want or need to create an item template manually from scratch. The [third procedure](#to-enable-templates-for-specific-project-sub-types) shows how to do that.  
   
  See the [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md) for information about the elements that can be used in the .vstemplate file.  
   
@@ -66,7 +61,7 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
   
     A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
   
-    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
+    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the \<ProjectType> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
   
    ```xml  
    <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  

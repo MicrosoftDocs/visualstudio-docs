@@ -1,18 +1,15 @@
 ---
-title: How to Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio | Microsoft Docs
+title: How to Migrate and Publish a Web Application to an Azure Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
-
 author: ghogen
-manager: douge
+manager: jillfra
 ms.assetid: 9394adfd-a645-4664-9354-dd5df08e8c91
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/10/2017
 ms.author: ghogen
-
+ms.custom: seodec18
 ---
 # How to: Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio
 
@@ -28,7 +25,7 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 1. Visual Studio also sets the **Copy Local** property to true for any assemblies that are required for MVC 2, MVC 3, MVC 4, and Silverlight Business Applications. This property adds these assemblies to the service package that is used for deployment.
 
    > [!Important]
-   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](#include-files-in-the-service-package).
+   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
 
 ### Errors and warnings
 
@@ -55,7 +52,7 @@ If you have a connection string for your web application that uses an on-premise
 1. Create the necessary cloud service and storage accounts in your Azure subscription as described on [Prepare to publish or deploy an Azure application from Visual Studio](vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md).
 1. In Visual Studio, right-click the application project and select **Publish to Microsoft Azure...** (which is different from the "Publish..." command.).
 1. In the **Publish Azure Application** that appears, sign in using the account with your Azure subscription and select **Next >**.
-1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations. 
+1. In the **Settings > Common Settings** tab, select the target cloud service from the **Cloud Service** drop-down list, along with your chosen environment and configurations.
 1. In **Settings > Advanced Settings**, select the storage account to use, then select **Next >**.
 1. In **Diagnostics**, choose whether to send information to Application Insights.
 1. Select **Next >** to view a summary, then select **Publish** to start deployment.
@@ -88,13 +85,17 @@ The following table provides details about starting the application in Azure:
 1. Specify a connection string in the `web.config` file with the following format and save the file:
 
     ```xml
-    <addname="tempdbEntities"connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=<server name>\SQLEXPRESS;initial catalog=<database name>;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;"providerName="System.Data.EntityClient"/>
+    <add name="tempdbEntities"
+     connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=<server name>\SQLEXPRESS;initial catalog=<database name>;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;"
+     providerName="System.Data.EntityClient"/>
     ```
 
     Update the *connectionString* value with the ADO.NET connection string for your SQL Azure database as follows:
 
     ```xml
-    XMLCopy<addname="tempdbEntities"connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Server=tcp:<SQL Azure server name>.database.windows.net,1433;Database=<database name>;User ID=<user name>;Password=<password>;Trusted_Connection=False;Encrypt=True;multipleactiveresultsets=True;App=EntityFramework&quot;"providerName="System.Data.EntityClient"/>
+    <add name="tempdbEntities"
+     connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Server=tcp:<SQL Azure server name>.database.windows.net,1433;Database=<database name>;User ID=<user name>;Password=<password>;Trusted_Connection=False;Encrypt=True;multipleactiveresultsets=True;App=EntityFramework&quot;"
+     providerName="System.Data.EntityClient"/>
     ```
 
 ## Supported Project Templates

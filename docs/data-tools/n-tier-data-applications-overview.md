@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -59,7 +57,7 @@ Middle tier
 The middle tier typically connects to the data tier by using a data connection. This data connection is typically stored in the data access component.
 
 ## Data tier
-The *data tier* is basically the server that stores an application's data (for example, a server running [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)]).
+The *data tier* is basically the server that stores an application's data (for example, a server running SQL Server).
 
 The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the data tier of an n-tier application.
 

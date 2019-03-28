@@ -1,22 +1,17 @@
 ---
 title: "TYPE_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "TYPE_INFO"
 helpviewer_keywords: 
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # TYPE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -118,4 +113,3 @@ namespace MyPackage
  [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md)   
  [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md)   
  [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md)
-

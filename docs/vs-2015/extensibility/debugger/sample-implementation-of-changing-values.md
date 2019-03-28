@@ -1,21 +1,16 @@
 ---
 title: "Sample Implementation of Changing Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, local values"
   - "debugging [Debugging SDK], expression evaluation"
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Sample Implementation of Changing Values
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -426,4 +421,3 @@ HRESULT FieldSetValue(
 ## See Also  
  [Changing the Value of a Local](../../extensibility/debugger/changing-the-value-of-a-local.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

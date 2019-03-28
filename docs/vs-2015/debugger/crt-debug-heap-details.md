@@ -1,14 +1,9 @@
 ---
 title: "CRT Debug Heap Details | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -77,9 +72,9 @@ helpviewer_keywords:
   - "debug heap, reporting functions"
 ms.assetid: bf78ace6-28e4-4a04-97c6-39e0cdd00ba4
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CRT Debug Heap Details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -370,6 +365,3 @@ int addNewRecord(struct RecStruct *prevRecord,
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

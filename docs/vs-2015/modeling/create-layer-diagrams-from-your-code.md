@@ -1,12 +1,9 @@
 ---
 title: "Create layer diagrams from your code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "architecture, layer diagrams"
   - "layer diagrams"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 ms.assetid: 58c3ea71-2dbc-4963-bf82-40f1924cf973
 caps.latest.revision: 64
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create layer diagrams from your code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

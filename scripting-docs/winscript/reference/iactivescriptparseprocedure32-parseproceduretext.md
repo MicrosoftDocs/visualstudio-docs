@@ -16,7 +16,7 @@ Parses the given code procedure and adds the procedure to the name space.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseProcedureText(  
     LPCOLESTR pstrCode,              // address of procedure text  
     LPCOLESTR pstrFormalParams,      // address of formal parameter names  

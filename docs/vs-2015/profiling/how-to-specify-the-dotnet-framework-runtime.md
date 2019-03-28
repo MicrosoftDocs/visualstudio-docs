@@ -1,22 +1,17 @@
 ---
 title: "How to: Specify the .NET Framework Runtime | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, .NET Framework versions"
   - ".NET Framework versions,profililng"
 ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Specify the .NET Framework Runtime
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ With the release of [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)], ap
     -   Click the version of the CLR that you want to profile.  
   
     -   Click **Automatic** to profile the version that is loaded when the profiler attaches to the application.
-
-
-

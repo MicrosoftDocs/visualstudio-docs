@@ -1,21 +1,16 @@
 ---
 title: "List of Available Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, Visual Studio"
   - "Visual Studio, services"
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
 caps.latest.revision: 50
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # List of Available Services
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -159,6 +154,5 @@ manager: "ghogen"
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService>|<xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService>|Yes|Yes|Provides access to XML-formatted documentation files associated with a particular metadata file.|  
   
 ## See Also  
- [COM and Managed Services](http://msdn.microsoft.com/en-us/6c5808b4-ad87-48d7-ae06-33a81e7052af)   
+ [COM and Managed Services](/java/api/overview/partnercenter/managedservices?view=partnercenter-1.8.1)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)
-

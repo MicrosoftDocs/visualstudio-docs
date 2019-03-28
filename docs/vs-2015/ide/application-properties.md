@@ -1,14 +1,9 @@
 ---
 title: "Application Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "application properties [Visual Studio]"
   - "Project Designer, Application page"
@@ -17,7 +12,7 @@ ms.assetid: 0ad4926f-636e-41f8-a5b1-faf9d9b0a254
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Application Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,13 +53,10 @@ You can set general application properties for Visual Basic, C#, and F# applicat
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
- [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Managing Debugging Properties](http://msdn.microsoft.com/en-us/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
- [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Debugging Properties](http://msdn.microsoft.com/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
+ [Managing Compilation Properties](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)   
  [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)
-
-
-

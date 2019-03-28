@@ -1,15 +1,11 @@
 ---
 title: "Manifest to Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
 caps.latest.revision: 5
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Manifest to Code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -230,4 +226,3 @@ End Namespace
   </Symbols>  
 </CommandTable>  
 ```
-

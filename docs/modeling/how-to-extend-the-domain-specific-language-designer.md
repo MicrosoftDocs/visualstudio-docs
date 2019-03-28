@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Extend the Domain-Specific Language Designer
 
@@ -22,15 +20,13 @@ Set up a project that contains the code of your extension, and a VSIX project th
 
 ### To create a DSL Designer Extension Solution
 
-1.  Create a new project using the Class Library project template. In the **New Project** dialog box, click **Visual C#** and then in the middle window click **Class Library**.
+1.  Create a new project using the **Class Library** project template. This project will contain the code of your extensions.
 
-     This project will contain the code of your extensions.
-
-2.  Create a new project using the VSIX project template. In the **New Project** dialog box, expand **Visual C#**, click **Extensibility**, and then in the middle window select **VSIX Project**.
+2.  Create a new **VSIX Project** project.
 
      Select **Add to Solution**.
 
-     Source.extension.vsixmanifest opens in the VSIX manifest editor.
+     *Source.extension.vsixmanifest* opens in the VSIX manifest editor.
 
 3.  Above the Content field, click **Add Content**.
 

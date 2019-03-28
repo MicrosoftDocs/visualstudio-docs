@@ -1,13 +1,32 @@
 ---
 title: Options, Text Editor, All Languages, Tabs
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Basic.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CSS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.F%2523.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HQL.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HTMLX.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.JSON.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.LESS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.SCSS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.XAML.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.XML.Tabs"
 helpviewer_keywords:
   - "indents, Code Editor"
   - "Code Editor, default behavior"
@@ -19,56 +38,54 @@ helpviewer_keywords:
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Options, Text Editor, All Languages, Tabs
+
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder expand the **All Languages** subfolder, and then choose **Tabs**.
 
 > [!CAUTION]
 > This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the Tabs options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
 
-
- If different settings are selected on the Tabs options pages for particular programming languages, then the message "The indentation settings for individual text formats conflict with each other," is displayed for differing **Indenting** options; and the message "The tab settings for individual text formats conflict with each other," is displayed for differing **Tab** options. For example, this reminder is displayed if the **Smart indenting** option is selected for Visual Basic, but **Block indenting** is selected for Visual C++.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
+If different settings are selected on the Tabs options pages for particular programming languages, then the message "The indentation settings for individual text formats conflict with each other," is displayed for differing **Indenting** options; and the message "The tab settings for individual text formats conflict with each other," is displayed for differing **Tab** options. For example, this reminder is displayed if the **Smart indenting** option is selected for Visual Basic, but **Block indenting** is selected for Visual C++.
 
 ## Indenting
- None
 
- When selected, new lines are not indented. The insertion point is placed in the first column of a new line.
+None
 
- Block
+When selected, new lines are not indented. The insertion point is placed in the first column of a new line.
 
- When selected, new lines are automatically indented. The insertion point is placed at the same starting point as the preceding line.
+Block
 
- Smart
+When selected, new lines are automatically indented. The insertion point is placed at the same starting point as the preceding line.
 
- When selected, new lines are positioned to fit the code context, per other code formatting settings and IntelliSense conventions for your development language. This option is not available for all development languages.
+Smart
 
- For example, lines enclosed between an opening brace ( { ) and a closing brace ( } ) might automatically be indented an extra tab stop from the position of the aligned braces.
+When selected, new lines are positioned to fit the code context, per other code formatting settings and IntelliSense conventions for your development language. This option is not available for all development languages.
+
+For example, lines enclosed between an opening brace ( { ) and a closing brace ( } ) might automatically be indented an extra tab stop from the position of the aligned braces.
 
 ## Tabs
- Tab size
 
- Sets the distance in spaces between tab stops. The default is four spaces.
+Tab size
 
- Indent size
+Sets the distance in spaces between tab stops. The default is four spaces.
 
- Sets the size in spaces of an automatic indentation. The default is four spaces. Tab characters, space characters, or both will be inserted to fill the specified size.
+Indent size
 
- Insert spaces
+Sets the size in spaces of an automatic indentation. The default is four spaces. Tab characters, space characters, or both will be inserted to fill the specified size.
 
- When selected, indent operations insert only space characters, not TAB characters. If the **Indent size** is set to 5, for example, then five space characters are inserted whenever you press the TAB key or the **Increase Indent** button on the **Formatting** toolbar.
+Insert spaces
 
- Keep tabs
+When selected, indent operations insert only space characters, not TAB characters. If the **Indent size** is set to 5, for example, then five space characters are inserted whenever you press the TAB key or the **Increase Indent** button on the **Formatting** toolbar.
 
- When selected, indent operations insert as many TAB characters as possible. Each TAB character fills the number of spaces specified in **Tab size**. If the **Indent size** is not an even multiple of the **Tab size**, space characters are added to fill in the difference.
+Keep tabs
 
-## See Also
+When selected, indent operations insert as many TAB characters as possible. Each TAB character fills the number of spaces specified in **Tab size**. If the **Indent size** is not an even multiple of the **Tab size**, space characters are added to fill in the difference.
+
+## See also
 
 - [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

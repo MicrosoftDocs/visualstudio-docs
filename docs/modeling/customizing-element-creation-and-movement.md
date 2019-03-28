@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing Element Creation and Movement
 
@@ -316,4 +314,4 @@ You can create a forward merge directive in the Component Model solution. If you
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)
-- [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Circuit Diagrams sample DSL](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

@@ -2,13 +2,11 @@
 title: Fix program errors and improve code
 description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 05/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -70,7 +68,7 @@ Code analyzers look for common code problems that can lead to run-time errors or
 
 ### C# and Visual Basic code analysis
 
-Visual Studio 2017 includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
+Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
 
 ### C++ code analysis
 
@@ -84,9 +82,9 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 ![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.png)
 
-## Use light bulbs to fix or refactor code
+## Use Quick Actions to fix or refactor code
 
-[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
+[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb, error light bulb, or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
 ![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
 
@@ -138,7 +136,7 @@ While the debugger is paused, you can inspect your variables and call stacks to 
 
 ![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
-Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
+Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
 
 Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources. For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
@@ -153,5 +151,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## See also
 
 - [Debugger feature tour](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/getting-started-with-the-debugger.md)
+- [Learn more about using the debugger](../debugger/debugger-feature-tour.md)
 - [Generate and fix code](../ide/code-generation-in-visual-studio.md)

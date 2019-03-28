@@ -1,21 +1,16 @@
 ---
 title: "AsyncTaskMethodBuilder Structure - Internal Members | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, AsyncTaskMethodBuilder structure [.NET Framework]"
   - "AsyncTaskMethodBuilder structure [.NET Framework debug engines]"
 ms.assetid: f32f5857-7ef8-45fd-8b5a-7f644eb98b11
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # AsyncTaskMethodBuilder Structure - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ This topic describes the internal members of the <xref:System.Runtime.CompilerSe
 ## See Also  
  <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder>   
  [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
-

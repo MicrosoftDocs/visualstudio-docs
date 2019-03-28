@@ -1,21 +1,16 @@
 ---
 title: "Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, tutorial"
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating an MSBuild Project File from Scratch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -483,5 +478,3 @@ Programming languages that target the .NET Framework use MSBuild project files t
 ## See Also  
 [MSBuild Overview](msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-

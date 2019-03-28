@@ -1,20 +1,15 @@
 ---
 title: "Attaching After a Launch | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, attaching to programs"
 ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Attaching After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ After a program has been launched, the debug session is ready to attach the debu
  [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md)   
  [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)   
  [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "Install Visual C++ for Cross-Platform Mobile Development | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-mobile
+ms.topic: conceptual
 dev_langs: 
   - "C++"
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
 caps.latest.revision: 17
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: corob-msft
+ms.author: corob
+manager: jillfra
 ---
 # Install Visual C++ for Cross-Platform Mobile Development
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
   To build apps for specific device platforms, there are some additional requirements:  
   
-- Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](http://msdn.microsoft.com/en-us/4d5bb438-231a-4cd2-84b7-e9660b0e3baf).  
+- Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](http://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf).  
   
 - The x86 Android emulators that come with the Android SDK work best on computers that can run the Intel HAXM driver. This driver requires an Intel x64 processor with VT-x and Execute Disable Bit support. For more information, see [Installation Instructions for Intel® Hardware Accelerated Execution Manager - Microsoft Windows](http://go.microsoft.com/fwlink/p/?LinkId=536385).  
   
@@ -115,7 +110,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
    By default, the installer puts Apache Ant in C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps.  
   
-- [Microsoft Visual Studio Emulator for Android](http://go.microsoft.com/fwlink/p/?LinkId=536390)  
+- [Microsoft Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/)  
   
    You can install and update the Microsoft Visual Studio Emulator for Android from the Visual Studio Gallery.  
   
@@ -136,4 +131,3 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
 ## See Also  
  [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   
  [Visual C++ Cross-Platform Mobile](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)
-

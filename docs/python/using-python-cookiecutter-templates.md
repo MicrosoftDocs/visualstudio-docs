@@ -1,21 +1,20 @@
 ---
-title: CookieCutter extension for Python
+title: Use CookieCutter templates with Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/28/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
 
 # Use the Cookiecutter extension
 
-[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and can be installed separately in earlier versions of Visual Studio.
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and later and can be installed separately in earlier versions of Visual Studio.
 
 Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, click the **Home** button on the Cookiecutter toolbar to detect the newly installed interpreter. (See [Python environments](managing-python-environments-in-visual-studio.md) for more about environments in general.)
 
@@ -55,7 +54,7 @@ After the template is installed locally, Cookiecutter displays an options page w
 
 ![Cookiecutter options page](media/cookiecutter-template-options.png)
 
-Each Cookiecutter template defines its own set of options, and specifies a default value for each one (displayed as the suggested text in each entry field). A default value may be a code snippet, often when it's a dynamic value that uses other options. 
+Each Cookiecutter template defines its own set of options, and specifies a default value for each one (displayed as the suggested text in each entry field). A default value may be a code snippet, often when it's a dynamic value that uses other options.
 
 It's possible to customize default values for specific options with a user configuration file. When the Cookiecutter extension detects a user configuration file, it overwrites the template's default values with the user config's default values. This behavior is discussed in the [User Config](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) section of the Cookiecutter documentation.
 

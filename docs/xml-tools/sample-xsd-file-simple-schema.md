@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD File: Simple Schema"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

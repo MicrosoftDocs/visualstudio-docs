@@ -1,22 +1,17 @@
 ---
 title: "Using MSBuild | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, compiling with MSBuild"
   - "MSBuild, extensibility"
   - "packages, compiling with MSBuild"
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Using MSBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,6 +53,5 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 ## See Also  
  [MSBuild Reference](../../msbuild/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
  [Custom Tools](../../extensibility/internals/custom-tools.md)
-

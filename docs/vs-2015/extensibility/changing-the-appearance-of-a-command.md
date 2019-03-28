@@ -1,22 +1,17 @@
 ---
 title: "Changing the Appearance of a Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, changing appearance"
   - "menu commands, changing appearance"
   - "menus, changing command appearance"
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Changing the Appearance of a Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ You can provide feedback to your user by changing the appearance of a command. F
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

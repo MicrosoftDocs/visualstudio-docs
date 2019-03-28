@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Debugging a Web Form | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Web Forms"
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Debugging a Web Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../in
 > [!NOTE]
 >  To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process. To debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
- The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To create the Web Form  
   
@@ -99,7 +94,7 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../in
     textBox1.Text = "Button was clicked!";  
     ```  
   
-     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
+     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 2.  On the **Debug** menu, click **Start Debugging**.  
   
@@ -169,6 +164,3 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../in
   
 ## See Also  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)
-
-
-

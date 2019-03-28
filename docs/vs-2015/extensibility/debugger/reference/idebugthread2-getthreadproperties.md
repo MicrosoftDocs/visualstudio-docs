@@ -1,22 +1,17 @@
 ---
 title: "IDebugThread2::GetThreadProperties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugThread2::GetThreadProperties"
 helpviewer_keywords: 
   - "IDebugThread2::GetThreadProperties"
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugThread2::GetThreadProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -95,4 +90,3 @@ HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)   
  [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)
-

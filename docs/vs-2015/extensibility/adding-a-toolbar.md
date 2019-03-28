@@ -1,21 +1,16 @@
 ---
 title: "Adding a Toolbar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "toolbars [Visual Studio], adding to IDE"
   - "IDE, adding toolbars"
 ms.assetid: 17302c25-6f59-4e97-8c85-54f95336a07f
 caps.latest.revision: 39
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,4 +87,3 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

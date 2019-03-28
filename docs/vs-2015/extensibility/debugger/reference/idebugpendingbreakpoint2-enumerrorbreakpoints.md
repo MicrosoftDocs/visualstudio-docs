@@ -1,14 +1,9 @@
 ---
 title: "IDebugPendingBreakpoint2::EnumErrorBreakpoints | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPendingBreakpoint2::EnumErrorBreakpoints"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "EnumErrorBreakpoints method"
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -130,4 +125,3 @@ HRESULT CPendingBreakpoint::EnumErrorBreakpoints(
  [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md)   
  [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)   
  [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
-

@@ -1,5 +1,5 @@
 ---
-title: "Zoom in on load test result graphs in Visual Studio"
+title: "Zoom in on load test result graphs"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -10,41 +10,40 @@ helpviewer_keywords:
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Zoom in on a region of the graph in load test results
 
 After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.
 
-> [!NOTE]
-> Zoom in is available only when you are analyzing the result of a completed load test, not while you are observing the results of a running test.
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- The zoom control is visible only in the **Load Test Analyzer** when you view a load test result in zooming mode. Zooming mode is established in the Graph view when either a load test has completed or a load test that has previously run is loaded. You can show or hide the zoom controls on the graphs by using **Show Zoom Controls** on the toolbar.
+Zoom in is available only when you are analyzing the result of a completed load test, not while you are observing the results of a running test.
 
- The **horizontal x-axis zoom** can be adjusted to analyze specific time periods during the load test. The **vertical y-axis zoom** can be adjusted to analyze specific value ranges for the counters that are included in the graph.
+The zoom control is visible only in the **Load Test Analyzer** when you view a load test result in zooming mode. Zooming mode is established in the Graph view when either a load test has completed or a load test that has previously run is loaded. You can show or hide the zoom controls on the graphs by using **Show Zoom Controls** on the toolbar.
 
- Both the **horizontal timeline** and the **vertical value range** zoom controls can be adjusted by using the mouse. The **horizontal timeline control** can also be adjusted by using the left and right arrow keys. By using the arrow keys to adjust the zoom control, you can adjust the windows range by 1 sampling interval at a time. Using the **Shift** and arrow keys makes adjustments of 10 sampling intervals.
+The **horizontal x-axis zoom** can be adjusted to analyze specific time periods during the load test. The **vertical y-axis zoom** can be adjusted to analyze specific value ranges for the counters that are included in the graph.
 
- To adjust the zoom control by using the arrow key, first set the focus on the zoom control by using the **Tab** key. When the left slider has the focus, the arrow keys will move the starting boundary of the zoom window by 1 interval left or right. When the focus is on the center slider, you can use the arrow keys to scroll the zoom window left or right 1 sampling interval without changing the size of the zoom window. And finally, the right side slider moves, extending or reducing the range of the end of the zoom window by 1 sampling interval.
+Both the **horizontal timeline** and the **vertical value range** zoom controls can be adjusted by using the mouse. The **horizontal timeline control** can also be adjusted by using the left and right arrow keys. By using the arrow keys to adjust the zoom control, you can adjust the windows range by 1 sampling interval at a time. Using the **Shift** and arrow keys makes adjustments of 10 sampling intervals.
 
- To return the horizontal and vertical zoom controls to show the full timeline and value ranges, you can use the **Zoom Out Horizontal** option, the **Zoom Out Vertical** option, or the **Zoom Out Both** option in the pop-up menu on the graph.
+To adjust the zoom control by using the arrow key, first set the focus on the zoom control by using the **Tab** key. When the left slider has the focus, the arrow keys will move the starting boundary of the zoom window by 1 interval left or right. When the focus is on the center slider, you can use the arrow keys to scroll the zoom window left or right 1 sampling interval without changing the size of the zoom window. And finally, the right side slider moves, extending or reducing the range of the end of the zoom window by 1 sampling interval.
+
+To return the horizontal and vertical zoom controls to show the full timeline and value ranges, you can use the **Zoom Out Horizontal** option, the **Zoom Out Vertical** option, or the **Zoom Out Both** option in the pop-up menu on the graph.
 
 > [!TIP]
 > You can use **Synchronize Horizontal Zoom Controls** in the toolbar to switch on or off automatic horizontal zoom synchronization. With synchronization on, any zooming you apply to a graph will also be applied to any other graphs on the Graphs view.
 
- ![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
-Graph View Zoom Control
+![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
 
- In the previous illustration, the **System under Test** graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.
+In the previous illustration, the **System under Test** graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.
 
- For more information, see [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md).
+For more information, see [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md).
 
 ## Display graphs
- Before you change the display of a graph by zooming in or out or by scrolling, follow this procedure to display graphs.
 
-### To display graphs
+Before you change the display of a graph by zooming in or out or by scrolling, follow this procedure to display graphs.
+
+To display graphs:
 
 1.  Run a load test until it is completed.
 
@@ -63,7 +62,8 @@ Graph View Zoom Control
      Each zoom bar has two handles. A handle is a rectangular area at each end of the zoom bar.
 
 ## Zoom and scroll
- When you have multiple graphs displayed, you can keep them synchronized so that they display the same portion of the load test run.
+
+When you have multiple graphs displayed, you can keep them synchronized so that they display the same portion of the load test run.
 
 ### To synchronize zooming and scrolling
 

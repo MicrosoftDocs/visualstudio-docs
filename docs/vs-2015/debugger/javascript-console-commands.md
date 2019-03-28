@@ -1,14 +1,9 @@
 ---
 title: "JavaScript Console commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugging JavaScript, console [Windows Store apps]"
 ms.assetid: 359e2b24-6bb7-48e7-8b55-b570df0cb774
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # JavaScript Console commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -139,6 +134,3 @@ console.log("%s is %f years old!", user.first, user.age);
 ## See Also  
  [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
-
-
-

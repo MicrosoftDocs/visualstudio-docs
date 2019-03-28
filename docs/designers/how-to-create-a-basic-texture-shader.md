@@ -1,13 +1,11 @@
 ---
 title: "How to: Create a Basic Texture Shader"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

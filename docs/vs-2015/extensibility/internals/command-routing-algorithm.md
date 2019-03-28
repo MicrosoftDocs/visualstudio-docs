@@ -1,21 +1,16 @@
 ---
 title: "Command Routing Algorithm | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, routing"
   - "command routing"
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Routing Algorithm
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,4 +40,3 @@ In Visual Studio commands are handled by a number of different components. Comma
   
 ## See Also  
  [Command Design](../../extensibility/internals/command-design.md)
-

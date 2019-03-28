@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 8d42620f-553b-4b04-a38b-f6b306d73a50
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -483,7 +478,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
     > [!NOTE]
     >  You may need to change the numeric portion of the URL. Microsoft Azure requires a unique URL for each mobile service.  
   
-     This sets the URL for the service to *https://wpfquickstart01.azure-mobile.net/*.  
+     This sets the URL for the service to `https://wpfquickstart01.azure-mobile.net/`.  
   
 4.  In the **DATABASE** list, choose a database option. Since this is an application that probably won’t get a lot of usage, you might want to choose the **Create a free 20MB SQL database** option, or choose the free database already associated with your subscription.  
   
@@ -570,6 +565,3 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 ## See Also  
  [Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)
-
-
-

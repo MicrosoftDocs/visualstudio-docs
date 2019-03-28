@@ -1,15 +1,11 @@
 ---
 title: "Step 9: Review, comment, and test your code"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

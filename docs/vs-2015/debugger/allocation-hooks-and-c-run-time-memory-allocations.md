@@ -1,14 +1,9 @@
 ---
 title: "Allocation Hooks and C Run-Time Memory Allocations | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.hooks"
 dev_langs: 
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "hooks, allocation"
 ms.assetid: cc34ee96-3d91-41bd-a019-aa3759139e7e
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Allocation Hooks and C Run-Time Memory Allocations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +39,4 @@ if ( nBlockUse == _CRT_BLOCK )
   
 ## See Also  
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
- [crt_dbg2 Sample](http://msdn.microsoft.com/en-us/21e1346a-6a17-4f57-b275-c76813089167)
-
-
-
+ [crt_dbg2 Sample](http://msdn.microsoft.com/21e1346a-6a17-4f57-b275-c76813089167)

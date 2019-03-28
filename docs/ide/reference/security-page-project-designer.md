@@ -1,8 +1,6 @@
 ---
 title: Security Page, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesSecurity"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "Security page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

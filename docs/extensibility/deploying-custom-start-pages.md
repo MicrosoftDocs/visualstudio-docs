@@ -1,9 +1,6 @@
 ---
 title: "Deploying Custom Start Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "package start page"
@@ -11,9 +8,10 @@ helpviewer_keywords:
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # Deploy custom Start Pages
 
@@ -25,7 +23,7 @@ When you create a Start Page by using the Start Page project template, and then 
 
 -   You can put the *.vsix* file on a network share or on a public Web site. When someone opens the file, the Start Page is automatically installed.
 
--   You can upload the *.vsix* file to the [Visual Studio gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site so that users can install it by using **Extension Manager**.
+-   You can upload the *.vsix* file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can install it by using **Extension Manager**.
 
 The Start Page project template creates a copy of the default Visual Studio Start Page so that you can modify the copy and preserve the original.
 
@@ -40,13 +38,13 @@ You can obtain the Start Page project template by using **Extension Manager** or
 
 - By manually creating a *.vsix* file. To create a *.vsix* file manually:
 
-  1.  Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
+   1. Create the *extension.vsixmanifest* file and the *[Content_Types].xml* file in a new folder. For more information, see [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md).
 
-  2.  In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
+   2. In Windows Explorer, right-click the folder that contains the two XML files, click **Send To**, and then click Compressed (zipped) Folder. Rename the resulting *.zip* file to *Filename.vsix*, where Filename is the name of the redistributable file that installs your package.
 
-  For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
+For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.
 
-  If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
+If your Start Page package includes assemblies, you must add binding path registration so that they are available when Visual Studio starts. To do this, make sure that your package includes a *.pkgdef* file that has the following information.
 
 ```
 [$RootKey$\BindingPaths\{Insert a new GUID here}]

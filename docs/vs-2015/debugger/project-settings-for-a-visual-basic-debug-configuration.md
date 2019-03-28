@@ -1,14 +1,9 @@
 ---
 title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vbProjectPropertiesDebug"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "debug configurations, Visual Basic"
 ms.assetid: 72a8483a-af0b-4403-8b0d-ee9ad71ee435
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Project Settings for a Visual Basic Debug Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ You can change the project settings for a [!INCLUDE[vbprvb](../includes/vbprvb-m
 |Setting|Description|  
 |-------------|-----------------|  
 |**Configuration**|Sets mode for compiling the application. Choose among **Active (Debug)**, **Debug**, **Release**, **All Configurations**.|  
-|**Start Action**|This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [NIB How to: Set Startup Projects](http://msdn.microsoft.com/en-us/31465836-0911-48db-a5d9-e456b635e970).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).<br />-   **Start browser in URL** enables you to debug a Web application.|  
+|**Start Action**|This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [NIB How to: Set Startup Projects](http://msdn.microsoft.com/31465836-0911-48db-a5d9-e456b635e970).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).<br />-   **Start browser in URL** enables you to debug a Web application.|  
 |**Command Line Arguments**|Specifies command-line arguments for the program to be debugged. The command name is the program name specified in Start external program. If Start Action is set to Start URL, command-line arguments are ignored.|  
 |**Working Directory**|Specifies the working directory of the program being debugged. In [!INCLUDE[vbprvb](../includes/vbprvb-md.md)], the working directory is the directory the application is launched from. The default working directory is \bin\Debug or \bin\Release, depending on the current configuration.|  
 |**Use Remote Machine**|When the check box is selected, remote debugging is enabled. In the textbox, you can type name of a remote machine where the application will run for debugging purposes or an [Msvsmon server name](http://msdn.microsoft.com/library/55b60ce7-834b-4e83-a10e-fe4248260a4c). The location of the EXE on the remote machine is specified by the Output Path property in the Build tab. The location must be a shareable directory on the remote machine.|  
@@ -60,6 +55,3 @@ You can change the project settings for a [!INCLUDE[vbprvb](../includes/vbprvb-m
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
-
-
-

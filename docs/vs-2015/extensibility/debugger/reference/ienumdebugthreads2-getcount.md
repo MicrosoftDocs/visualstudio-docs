@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugThreads2::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugThreads2::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugThreads2::GetCount"
 ms.assetid: 81b7f139-d24e-4040-9adc-d664d77563ba
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugThreads2::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetCount(
   
 ## See Also  
  [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
-

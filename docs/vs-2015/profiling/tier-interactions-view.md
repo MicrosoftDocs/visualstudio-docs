@@ -1,23 +1,18 @@
 ---
 title: "Tier Interactions View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.tierinteraction"
 helpviewer_keywords: 
   - "Tier Interactions view"
 ms.assetid: bb4fb21c-f3f7-473a-8b5e-442da4c2c445
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Tier Interactions View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ Tier interaction profiling provides additional information about the execution t
 |**Max Elapsed Time**|The maximum time that is spent executing any one instance of the query.|  
 |**Min Elapsed Time**|The minimum time that is spent executing any one instance of the query.|  
 |**Avg Elapsed Time**|The average time that is spent executing an instance of the query.|
-
-
-

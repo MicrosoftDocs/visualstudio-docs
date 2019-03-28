@@ -1,20 +1,15 @@
 ---
 title: "Sending the Required Events | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], required events"
 ms.assetid: 08319157-43fb-44a9-9a63-50b919fe1377
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Sending the Required Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ Use this procedure for sending required events.
   
 ## See Also  
  [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
-

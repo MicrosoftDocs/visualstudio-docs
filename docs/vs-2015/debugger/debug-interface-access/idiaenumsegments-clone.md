@@ -1,23 +1,18 @@
 ---
 title: "IDiaEnumSegments::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumSegments::Clone method"
 ms.assetid: 93deaac6-72ab-4408-ba14-66174a618757
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaEnumSegments::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ HRESULT Clone ( 
   
 ## See Also  
  [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)
-
-
-

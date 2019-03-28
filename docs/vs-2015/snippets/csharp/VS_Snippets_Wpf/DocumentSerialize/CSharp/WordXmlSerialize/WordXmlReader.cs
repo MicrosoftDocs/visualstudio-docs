@@ -110,7 +110,7 @@ namespace SdkSample
 
         /// <summary>
         /// Creates an exception to be thrown when an unexpected XML node
-        /// was found in the specfied reader.
+        /// was found in the specified reader.
         /// </summary>
         private static Exception CreateUnexpectedNodeException(XmlReader reader)
         {
@@ -210,7 +210,7 @@ namespace SdkSample
                 {
                     case XmlNodeType.Attribute:
                         System.Diagnostics.Debug.Assert(false,
-                            "Attributes should never be processed by top-level convertion loop.");
+                            "Attributes should never be processed by top-level conversion loop.");
                         break;
                     case XmlNodeType.EndElement:
                         System.Diagnostics.Trace.WriteLine("WordXmlReader.ReadDocument - EndElement [" +
@@ -669,7 +669,7 @@ namespace SdkSample
             /// <summary>
             /// Initializes a new SimplePropertyMap instance mapping for the given
             /// value in an XML name/value pair, such that the value applied is
-            /// the vaule of the XML attribute.
+            /// the value of the XML attribute.
             /// </summary>
             private static SimplePropertyMap FromAttributeValue(DependencyProperty property,
                 string xmlName, string xmlAttribute)

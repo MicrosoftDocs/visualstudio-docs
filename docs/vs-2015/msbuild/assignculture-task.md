@@ -1,14 +1,9 @@
 ---
 title: "AssignCulture Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#AssignCulture"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 8f8314cc-82a6-4f16-a62d-b9f0d1d5e274
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # AssignCulture Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ This task accepts a list of items that may contain a valid .NET culture identifi
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

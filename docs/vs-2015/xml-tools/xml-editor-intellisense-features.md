@@ -1,19 +1,14 @@
 ---
 title: "XML Editor IntelliSense Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Editor IntelliSense Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -122,6 +117,3 @@ The XML Editor provides full IntelliSense features comparable to other language 
  [XML Editor](../xml-tools/xml-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
  [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)
-
-
-

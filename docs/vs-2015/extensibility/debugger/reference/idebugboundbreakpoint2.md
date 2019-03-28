@@ -1,22 +1,17 @@
 ---
 title: "IDebugBoundBreakpoint2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBoundBreakpoint2"
 helpviewer_keywords: 
   - "IDebugBoundBreakpoint2 interface"
 ms.assetid: df33c52e-ded2-48a0-951d-1f36c8fc922e
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBoundBreakpoint2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ IDebugBoundBreakpoint2 : IUnknown
  [GetBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint.md)   
  [Next](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-next.md)   
  [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
-

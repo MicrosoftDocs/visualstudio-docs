@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback2::OnFunctionExitByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Notifies the profiler object that the scripting engine finished running a Docume
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionExitByName(  
     [in] [string] const WCHAR *pwszFunctionName,  
     [in] PROFILER_SCRIPT_TYPE scriptType);  

@@ -1,14 +1,9 @@
 ---
 title: "IDebugProgramNode2::Attach_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramNode2::Attach"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDebugProgramNode2::Attach"
 ms.assetid: b5ffc736-efc7-4ca8-964d-5536ff891b0e
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramNode2::Attach_V7
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -78,4 +73,3 @@ int Attach_V7 ( 
  [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)   
  [IDebugEntryPointEvent2](../../../extensibility/debugger/reference/idebugentrypointevent2.md)   
  [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md)
-

@@ -1,18 +1,13 @@
 ---
 title: "Using shims to isolate your application from other assemblies for unit testing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
 caps.latest.revision: 14
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using shims to isolate your application from other assemblies for unit testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,50 +22,7 @@ Shim types** are one of two technologies that the Microsoft Fakes Framework uses
   
 - Visual Studio Enterprise  
   
-  See [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)  
-  
-## In this topic  
- Here’s what you’ll learn in this topic:  
-  
- [Example: The Y2K bug](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Example__The_Y2K_bug)  
-  
- [How to use Shims](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Fakes_requirements)  
-  
-- [Add Fakes Assemblies](#AddFakes)  
-  
-- [Use ShimsContext](#ShimsContext)  
-  
-- [Write Tests with Shims](#WriteTests)  
-  
-  [Shims for different kinds of methods](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Shim_basics)  
-  
-- [Static methods](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Static_methods)  
-  
-- [Instance methods (for all instances)](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Instance_methods__for_all_instances_)  
-  
-- [Instance methods (for one runtime instance)](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Instance_methods__for_one_instance_)  
-  
-- [Constructors](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Constructors)  
-  
-- [Base members](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Base_members)  
-  
-- [Static constructors](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Static_constructors)  
-  
-- [Finalizers](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Finalizers)  
-  
-- [Private methods](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Private_methods)  
-  
-- [Binding interfaces](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Binding_interfaces)  
-  
-  [Changing the default behavior](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Changing_the_default_behavior)  
-  
-  [Detecting environment accesses](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Detecting_environment_accesses)  
-  
-  [Concurrency](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Concurrency)  
-  
-  [Calling the original method from the shim method](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Calling_the_original_method_from_the_shim_method)  
-  
-  [Limitations](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Limitations)  
+  See [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
   
 ##  <a name="BKMK_Example__The_Y2K_bug"></a> Example: The Y2K bug  
  Let’s consider a method that throws an exception on January 1st of 2000:  
@@ -81,7 +33,7 @@ public static class Y2KChecker {
     public static void Check() {  
         if (DateTime.Now == new DateTime(2000, 1, 1))  
             throw new ApplicationException("y2kbug!");  
-    }  
+    }
 }  
   
 ```  
@@ -552,6 +504,3 @@ ShimFile.WriteAllTextStringString = shim;
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)   
  [Peter Provost’s blog: Visual Studio 2012 Shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)   
  [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
-
-
-

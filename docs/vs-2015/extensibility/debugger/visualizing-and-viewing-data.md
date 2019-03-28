@@ -1,21 +1,16 @@
 ---
 title: "Visualizing and Viewing Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], viewing data"
   - "debugging [Debugging SDK], visualizing data"
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Visualizing and Viewing Data
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Type visualizers and custom viewers present data in a way that is quickly meanin
 ## See Also  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)   
  [Type Visualizer and Custom Viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

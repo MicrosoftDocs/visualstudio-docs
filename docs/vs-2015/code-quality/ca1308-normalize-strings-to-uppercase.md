@@ -1,14 +1,9 @@
 ---
 title: "CA1308: Normalize strings to uppercase | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1308"
   - "NormalizeStringsToUppercase"
@@ -45,6 +40,3 @@ manager: "wpickett"
 
 ## See Also
  [Globalization Warnings](../code-quality/globalization-warnings.md)
-
-
-

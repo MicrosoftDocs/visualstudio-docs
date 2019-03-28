@@ -1,5 +1,5 @@
 ---
-title: "Create a Visual Studio Add-In for the Web Performance Test Results Viewer"
+title: "Create Add-In for Web Performance Test Results Viewer"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer
 
@@ -20,9 +18,11 @@ You can extend the UI for the **Web Performance Test Results Viewer** by using t
 
 -   <xref:Microsoft.VisualStudio.TestTools.WebTesting>
 
-Additionally, you need to add a reference to LoadTestPackage DLL, which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* folder.
+Additionally, you need to add a reference to LoadTestPackage DLL, which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\Enterprise\Common7\IDE\PrivateAssemblies* folder.
 
--   To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
+To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Create or open a solution that contains an ASP.NET web application and a web performance and load test project
 
@@ -45,46 +45,38 @@ An add-in is a compiled DLL that runs in the Visual Studio integrated developmen
 
 1. In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
-    The **New Project** dialog box is displayed.
-
-2. Under **Installed Templates**, expand **Other Project Types** and select **Extensibility**.
-
-3. In the list of templates, select **Visual Studio Add-in**.
-
-4. Under **Name**, type a name for the add-in. For example, **WebPerfTestResultsViewerAddin**.
-
-5. Choose **OK**.
+2. Create a new **Visual Studio Add-in** project.
 
     The Visual Studio **Add-In Wizard** starts.
 
-6. Choose **Next**.
+3. Choose **Next**.
 
-7. On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
+4. On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
 
    > [!NOTE]
    > This topic uses Visual C# for the sample code.
 
-8. On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
+5. On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
 
-9. Choose **Next**.
+6. Choose **Next**.
 
-10. Type a name and description for your add-in on the **Enter a Name and Description** page.
+7. Type a name and description for your add-in on the **Enter a Name and Description** page.
 
      After the add-in is created, its name and description are displayed in the **Available Add-Ins** list in **Add-In Manager**. Add enough detail to the description of your add-in so that users can learn what your add-in does, how it works, and so on.
 
-11. Choose **Next**.
+8. Choose **Next**.
 
-12. On the **Choose Add-In Options** page, select **I would like my Add-in to load when the host application starts**.
+9. On the **Choose Add-In Options** page, select **I would like my Add-in to load when the host application starts**.
 
-13. Clear the remaining check boxes.
+10. Clear the remaining check boxes.
 
-14. On the **Choosing 'Help About' Information** page, you can specify whether you want information about your add-in to be displayed in an **About** dialog box. If you do want the information to be displayed, select the **Yes, I would like my Add-in to offer 'About' box information** check box.
+11. On the **Choosing 'Help About' Information** page, you can specify whether you want information about your add-in to be displayed in an **About** dialog box. If you do want the information to be displayed, select the **Yes, I would like my Add-in to offer 'About' box information** check box.
 
      Information that can be added to the Visual Studio **About** dialog box includes version number, support details, licensing data, and so forth.
 
-15. Choose **Next**.
+12. Choose **Next**.
 
-16. The options that you selected are displayed on the **Summary** page for you to review. If you are satisfied, choose **Finish** to create the add-in. If you want to change something, choose the **Back** button.
+13. The options that you selected are displayed on the **Summary** page for you to review. If you are satisfied, choose **Finish** to create the add-in. If you want to change something, choose the **Back** button.
 
      The new solution and project are created and the *Connect.cs* file for the new add-in is displayed in the **Code Editor**.
 
@@ -113,24 +105,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 1.  In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
-     The **New Project** dialog box is displayed.
+2. Create a new **Windows Forms Control Library** project.
 
-2.  Under **Installed Templates**, expand **either Visual Basic** or **Visual C#** and select **Windows**.
+3.  From the **Toolbox**, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
 
-    > [!NOTE]
-    > This topic uses Visual C# for the sample code.
-
-3.  In the list of templates, select **Windows Forms Control Library**.
-
-4.  Under **Name**, type a name for the add-in. For example, **WebPerfTestResultsViewerControl**.
-
-5.  Choose **OK**.
-
-     The Windows forms control library project WebPerfTestResultsViewerControl is added in **Solution Explorer** and *UserControl1.cs* is displayed in design mode.
-
-6.  From the **Toolbox**, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
-
-7.  Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
+4. Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
 
     1.  Choose **Dock in Parent Container**.
 
@@ -148,13 +127,13 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
     7.  Choose **Close**.
 
-8.  In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
+5.  In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
 
-9. Right-click the design surface and select **View Code**.
+6. Right-click the design surface and select **View Code**.
 
      The *UserControl1.cs* file is displayed in the **Code Editor**.
 
-10. Change the name of the instantiated <xref:System.Windows.Forms.UserControl> class from UserContro1 to resultControl:
+7. Change the name of the instantiated <xref:System.Windows.Forms.UserControl> class from UserContro1 to resultControl:
 
     ```csharp
     namespace WebPerfTestResultsViewerControl
@@ -172,8 +151,6 @@ The Visual Studio add-in created in the previous procedure references a Windows 
      You will be adding some additional code to the *Connect.cs* file later.
 
 ## Add code to the WebPerfTestResultsViewerAddin
-
-### To add code to the Visual Studio add-in to extend the Web Test Results Viewer
 
 1.  In **Solution Explorer**, right-click the **References** node in the WebPerfTestResultsViewerAddin project and select **Add Reference**.
 
@@ -270,8 +247,6 @@ The Visual Studio add-in created in the previous procedure references a Windows 
      Now that the code has been completed for the Visual Studio add-in, you need to add the Update method to the resultControl in the WebPerfTestResultsViewerControl project.
 
 ## Add Code to the WebPerfTestResultsViewerControl
-
-### To add code to the user control
 
 1.  In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
 

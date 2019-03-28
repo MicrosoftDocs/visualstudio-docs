@@ -1,21 +1,16 @@
 ---
 title: "Persisting the Property of a Project Item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "properties, adding to a project item"
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Persisting the Property of a Project Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,4 +132,3 @@ You may want to persist a property you add to a project item, such as the author
   
 ## See Also  
  [Custom Tools](../extensibility/internals/custom-tools.md)
-

@@ -1,19 +1,14 @@
 ---
 title: "Step 1: Create a Project and Add a Table to Your Form | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 1: Create a Project and Add a Table to Your Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ The first step in creating a matching game is to create the project and add a ta
 -   To go to the next tutorial step, see [Step 2: Add a Random Object and a List of Icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
   
 -   To return to the overview topic, see [Tutorial 3: Create a Matching Game](../ide/tutorial-3-create-a-matching-game.md).
-
-
-

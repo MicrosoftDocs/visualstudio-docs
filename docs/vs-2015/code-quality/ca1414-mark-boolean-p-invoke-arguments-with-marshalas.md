@@ -1,14 +1,9 @@
 ---
 title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1414"
   - "MarkBooleanPInvokeArgumentsWithMarshalAs"
@@ -37,7 +32,7 @@ manager: "wpickett"
 ## Rule Description
  A platform invoke method accesses unmanaged code and is defined by using the `Declare` keyword in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] or the <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>. <xref:System.Runtime.InteropServices.MarshalAsAttribute> specifies the marshaling behavior that is used to convert data types between managed and unmanaged code. Many simple data types, such as <xref:System.Byte?displayProperty=fullName> and <xref:System.Int32?displayProperty=fullName>, have a single representation in unmanaged code and do not require specification of their marshaling behavior; the common language runtime automatically supplies the correct behavior.
 
- The <xref:System.Boolean> data type has multiple representations in unmanaged code. When the <xref:System.Runtime.InteropServices.MarshalAsAttribute> is not specified, the default marshaling behavior for the <xref:System.Boolean> data type is <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>. This is a 32-bit integer, which is not appropriate in all circumstances. The Boolean representation that is required by the unmanaged method should be determined and matched to the appropriate <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>. UnmanagedType.Bool is the Win32 BOOL type, which is always 4 bytes. UnmanagedType.U1 should be used for C++ `bool` or other 1-byte types. For more information, see [Default Marshaling for Boolean Types](http://msdn.microsoft.com/en-us/d4c00537-70f7-4ca6-8197-bfc1ec037ff9).
+ The <xref:System.Boolean> data type has multiple representations in unmanaged code. When the <xref:System.Runtime.InteropServices.MarshalAsAttribute> is not specified, the default marshaling behavior for the <xref:System.Boolean> data type is <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>. This is a 32-bit integer, which is not appropriate in all circumstances. The Boolean representation that is required by the unmanaged method should be determined and matched to the appropriate <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>. UnmanagedType.Bool is the Win32 BOOL type, which is always 4 bytes. UnmanagedType.U1 should be used for C++ `bool` or other 1-byte types. For more information, see [Default Marshaling for Boolean Types](http://msdn.microsoft.com/d4c00537-70f7-4ca6-8197-bfc1ec037ff9).
 
 ## How to Fix Violations
  To fix a violation of this rule, apply <xref:System.Runtime.InteropServices.MarshalAsAttribute> to the <xref:System.Boolean> parameter or return value. Set the value of the attribute to the appropriate <xref:System.Runtime.InteropServices.UnmanagedType>.
@@ -59,8 +54,5 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Runtime.InteropServices.UnmanagedType?displayProperty=fullName>
- [Default Marshaling for Boolean Types](http://msdn.microsoft.com/en-us/d4c00537-70f7-4ca6-8197-bfc1ec037ff9)
+ [Default Marshaling for Boolean Types](http://msdn.microsoft.com/d4c00537-70f7-4ca6-8197-bfc1ec037ff9)
  [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
-
-
-

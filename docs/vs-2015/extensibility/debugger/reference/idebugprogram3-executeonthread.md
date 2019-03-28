@@ -1,20 +1,15 @@
 ---
 title: "IDebugProgram3::ExecuteOnThread | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugProgram3::ExecuteOnThread"
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgram3::ExecuteOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ int ExecuteOnThread(
 ## See Also  
  [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   
  [IDebugProgram3](../../../extensibility/debugger/reference/idebugprogram3.md)
-

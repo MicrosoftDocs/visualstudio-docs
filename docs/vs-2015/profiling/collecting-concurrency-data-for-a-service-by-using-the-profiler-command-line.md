@@ -1,19 +1,14 @@
 ---
 title: "Collecting Concurrency Data for a Service by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 275aacba-b2af-4d34-8931-ee30d777a256
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Concurrency Data for a Service by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling
   
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)
-
-
-

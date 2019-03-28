@@ -1,19 +1,14 @@
 ---
 title: "Using Performance Rules to Analyze Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 1deed23e-b31b-4714-982f-08ceebfc3096
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using Performance Rules to Analyze Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,6 +27,3 @@ The performance warnings of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profili
   
  [Performance Rules Reference](../profiling/performance-rules-reference.md)  
  Provides detailed information about the profiler performance warnings
-
-
-

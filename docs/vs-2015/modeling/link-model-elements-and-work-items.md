@@ -1,12 +1,9 @@
 ---
 title: "Link model elements and work items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.common.removeworkitemsdialog"
   - "vs.teamarch.common.linkworkitemsdialog"
@@ -19,9 +16,9 @@ helpviewer_keywords:
   - "UML model, linking work items"
 ms.assetid: e687a490-0f93-412c-a1ff-eea83cf7ba07
 caps.latest.revision: 49
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Link model elements and work items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -173,6 +170,3 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

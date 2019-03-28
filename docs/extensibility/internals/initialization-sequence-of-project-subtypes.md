@@ -1,16 +1,13 @@
 ---
 title: "Initialization Sequence of Project Subtypes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "project subtypes, initialization sequence"
 ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -28,7 +25,7 @@ The environment constructs a project by calling the base project factory impleme
 
     1.  The environment's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCreateAggregateProject.CreateAggregateProject%2A> method calls the `HrCreateInnerProj` method with the following function declaration:
 
-         <CodeContentPlaceHolder>0</CodeContentPlaceHolder>
+         \<CodeContentPlaceHolder>0</CodeContentPlaceHolder>
 
          When this function is called for the first time, that is, for the outermost project subtype, the parameters `pOuter` and `pOwner` are passed in as `null` and the function sets the outermost project subtype `IUnknown` to `pOuter`.
 

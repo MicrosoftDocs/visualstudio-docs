@@ -1,14 +1,9 @@
 ---
 title: "Creating and Configuring Type Members (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdetails.method"
   - "vs.classdetails.property"
@@ -34,7 +29,7 @@ ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating and Configuring Type Members (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,7 +125,7 @@ You can add these members to types on a class diagram and configure those member
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md).  
   
 ##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
- Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
+ Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
  All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
   
@@ -208,7 +203,7 @@ You can add these members to types on a class diagram and configure those member
   
 - **\<add parameter>**  
   
-   The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
+   The last parameter row of a member contains the text **<add parameter\>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
   
   **Parameter properties in the Properties window**  
   
@@ -262,7 +257,7 @@ You can add these members to types on a class diagram and configure those member
   
  All cells in the Class Details window are editable with a few exceptions:  
   
-- The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
+- The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
   
 - For indexers, the name is read-only and the rest (type, modifier, summary) are editable.  
   

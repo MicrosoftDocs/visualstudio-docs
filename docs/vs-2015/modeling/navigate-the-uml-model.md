@@ -1,19 +1,16 @@
 ---
 title: "Navigate the UML model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: 6d789b6d-2aa9-4ceb-92c4-84a300065a76
 caps.latest.revision: 20
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Navigate the UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +125,3 @@ foreach (IShape<IInterface> in
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

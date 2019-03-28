@@ -1,5 +1,5 @@
 ---
-title: "Create Visual Studio Load Test Performance Reports Using Microsoft Excel"
+title: "Create Load Test Performance Reports Using Microsoft Excel"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,13 +8,15 @@ helpviewer_keywords:
 ms.assetid: b87fb196-9973-4512-a924-088788def4ea
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create load test performance reports using Microsoft Excel
 
-You can generate Microsoft Excel load test reports that are based on two or more test results. Two types of load test reports are available:
+You can generate Microsoft Excel load test reports that are based on two or more test results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Two types of load test reports are available:
 
 -   **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
 
@@ -39,7 +41,7 @@ The following illustration is an example of a report that shows a correlation be
 Excel reports can either be generated in the **Load Test Analyzer**, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the **Office** ribbon.
 
 > [!NOTE]
-> If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md).
+> If you add comments to a load test, they appear in the Excel report.
 
 ## To generate load test comparison reports using Excel
 

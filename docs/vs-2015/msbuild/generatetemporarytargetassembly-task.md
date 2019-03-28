@@ -1,14 +1,9 @@
 ---
 title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GenerateTemporaryTargetAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
  [WPF XAML Browser Applications Overview](http://msdn.microsoft.com/library/3a7a86a8-75d5-4898-96b9-73da151e5e16)
-
-
-

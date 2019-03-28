@@ -1,13 +1,11 @@
 ---
 title: Keyboard shortcuts in Blend
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 3a1b6830-30c2-4a36-bd14-6961f5edf9cb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

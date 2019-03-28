@@ -217,7 +217,7 @@ namespace SDKSample
 
         // -------------------- GetContainerPathFromDialog --------------------
         /// <summary>
-        ///   Dislays a Save As... dialog for the user to choose the path and
+        ///   Displays a Save As... dialog for the user to choose the path and
         ///   container (file) name to save the document content to.</summary>
         /// <returns></returns>
         private string GetContainerPathFromDialog()

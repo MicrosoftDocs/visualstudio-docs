@@ -1,21 +1,16 @@
 ---
 title: "Providing Automation for VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, automation [Visual Studio SDK]"
   - "automation [Visual Studio SDK], VSPackages"
 ms.assetid: 104c4c55-78b8-42f4-b6b0-9a334101aaea
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Providing Automation for VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,4 +38,3 @@ There are two main ways to provide automation for your VSPackages: by implementi
  To extend the automation for projects, you also implement standard automation objects (derived from `IDispatch`) that stand beside the other project objects and implement standard methods and properties. Examples of standard objects include the project objects that are inserted into the solution hierarchy such as `Projects`, `Project`, `ProjectItem`, and `ProjectItems`. Every new project type should implement these objects (and possibly other ones depending on the semantics of your project).  
   
  In a sense, these objects provide the opposite advantage of the VSPackage-specific project objects. The standard automation objects allow your project to be used in a generalized way like any other project supporting the same objects. Thus, an add-in that is written against general `Project` and `ProjectItem` objects can function against projects of any type. For more information, see [Project Modeling](../../extensibility/internals/project-modeling.md).
-

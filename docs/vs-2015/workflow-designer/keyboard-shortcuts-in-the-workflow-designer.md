@@ -1,11 +1,8 @@
 ---
 title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "WFDKeyboardShortcuts.UI"
@@ -13,7 +10,7 @@ ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Keyboard Shortcuts in the Workflow Designer
 All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] can be accessed by keyboard.  

@@ -1,28 +1,23 @@
 ---
 title: "Project Persistence | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "persistence, projects"
   - "projects [Visual Studio SDK], persistance"
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Persistence
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.  
   
- Templates for projects are passed to the project factory. The templates should support the initialization of all project items according to the requirements of the specific project type. These templates can later be saved as project files and managed by the IDE through the solution. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) and [Solutions](../../extensibility/internals/solutions.md).  
+ Templates for projects are passed to the project factory. The templates should support the initialization of all project items according to the requirements of the specific project type. These templates can later be saved as project files and managed by the IDE through the solution. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) and [Solutions](../../extensibility/internals/solutions-overview.md).  
   
  Project items can be file-based or non-file-based:  
   
@@ -46,4 +41,3 @@ Persistence is a key design consideration for your project. Most projects use pr
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

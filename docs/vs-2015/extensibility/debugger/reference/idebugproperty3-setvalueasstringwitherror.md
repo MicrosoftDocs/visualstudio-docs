@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty3::SetValueAsStringWithError | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3::SetValueAsStringWithError"
 helpviewer_keywords: 
   - "IDebugProperty3::SetValueAsStringWithError"
 ms.assetid: b378368f-4a45-4b2f-8e3d-3bff7a18ab17
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty3::SetValueAsStringWithError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -169,4 +164,3 @@ HRESULT CProperty::SetValueAsStringWithError(
   
 ## See Also  
  [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
-

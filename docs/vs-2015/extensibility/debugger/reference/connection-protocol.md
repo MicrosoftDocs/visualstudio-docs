@@ -1,22 +1,17 @@
 ---
 title: "CONNECTION_PROTOCOL | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "CONNECTION_PROTOCOL"
 helpviewer_keywords: 
   - "CONNECTION_PROTOCOL enumeration"
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CONNECTION_PROTOCOL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -84,4 +79,3 @@ public enum CONNECTION_PROTOCOL {
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [GetConnectionProtocol](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md)
-

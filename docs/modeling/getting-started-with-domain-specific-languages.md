@@ -4,18 +4,16 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Get Started with Domain-Specific Languages
 
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 
 > [!NOTE]
-> In Visual Studio 2017, the Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/12/12/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
+> The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
 If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
@@ -106,7 +104,7 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 1.  Click **Transform All Templates** in the **Solution Explorer** toolbar. This regenerates most of the source code from DslDefinition.dsl.
 
     > [!NOTE]
-    > Whenever you change *DslDefinition.dsl*, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).
+    > Whenever you change *DslDefinition.dsl*, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
 2.  Press **F5**, or on the **Debug** menu, click **Start Debugging**.
 

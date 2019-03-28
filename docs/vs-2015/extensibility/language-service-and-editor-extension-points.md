@@ -1,20 +1,15 @@
 ---
 title: "Language Service and Editor Extension Points | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extension points"
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
 caps.latest.revision: 34
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Language Service and Editor Extension Points
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -578,4 +573,3 @@ internal class TestIntellisenseControllerProvider : IIntellisenseControllerProvi
  For more information about using IntelliSense controllers, see the following walkthroughs:  
   
  [Walkthrough: Displaying QuickInfo Tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
-

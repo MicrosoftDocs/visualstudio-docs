@@ -1,22 +1,17 @@
 ---
 title: "IPropertyProxyEESide | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IPropertyProxyEESide"
 helpviewer_keywords: 
   - "IPropertyProxyEESide interface"
 ms.assetid: cf227cf8-39d9-4758-8f7e-a697aebb1926
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IPropertyProxyEESide
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ IPropertyProxyEESide : IUnknown
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
-

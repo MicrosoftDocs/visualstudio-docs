@@ -1,13 +1,11 @@
 ---
 title: Troubleshooting Code Metrics Issues
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: troubleshooting
 ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -24,4 +22,4 @@ You might encounter some of the following issues when you collect code metrics:
 - The function contains a switch (Select Case in VB) statement. Compiler differences between [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and earlier versions can generate different MSIL code for some switch statements that contain fall-through cases.
 
 ## See Also
- [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
+ [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

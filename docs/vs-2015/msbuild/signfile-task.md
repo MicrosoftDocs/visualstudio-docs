@@ -1,14 +1,9 @@
 ---
 title: "SignFile Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#SignFile"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # SignFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +65,7 @@ Signs the specified file using the specified certificate.
 ```  
   
 > [!NOTE]
->  The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](http://msdn.microsoft.com/en-us/dd641990-9a88-4228-a245-017797131a87).  
+>  The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87).  
   
 ## Example  
  The following example uses the `Exec` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property. You can use this to sign Windows Installer files during the build process.  
@@ -96,6 +91,3 @@ Signs the specified file using the specified certificate.
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "EXCEPTION_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "EXCEPTION_INFO"
 helpviewer_keywords: 
   - "EXCEPTION_INFO structure"
 ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # EXCEPTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ public struct EXCEPTION_INFO { 
  [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)   
  [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)   
  [GetException](../../../extensibility/debugger/reference/idebugexceptionevent2-getexception.md)
-

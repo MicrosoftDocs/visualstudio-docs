@@ -1,14 +1,9 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliTrace, debugging with events"
   - "IntelliTrace, recording execution history"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 ms.assetid: 5ccc059c-6097-46b4-9d4b-34236c02d549
 caps.latest.revision: 73
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IntelliTrace Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,8 +110,3 @@ You can use IntelliTrace to record events and method calls your application, whi
  [IntelliTrace Experience](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)  
   
  [Historical Debugging with IntelliTrace in Microsoft Visual Studio Ultimate 2015](https://channel9.msdn.com/events/Ignite/2015/BRK3716)
-
-
-
-
-

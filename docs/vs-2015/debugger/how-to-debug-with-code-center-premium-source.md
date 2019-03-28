@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug with Code Center Premium Source | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Code Center Premium"
 ms.assetid: 18b4769d-b007-4428-9dae-9e72c283ff0d
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug with Code Center Premium Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -141,7 +136,4 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [Code Center Premium](http://www.microsoft.com/resources/sharedsource/ccp.mspx)
-
-
-
+ [Code Center Premium](https://www.microsoft.com/en-us/sharedsource/code-center-premium.aspx)

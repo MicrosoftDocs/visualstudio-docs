@@ -1,22 +1,17 @@
 ---
 title: "IDebugBreakpointRequest3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBreakpointRequest3"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest3"
 ms.assetid: 8a042beb-b319-48e3-b3c8-9c8336ab371b
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBreakpointRequest3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ IDebugBreakpointRequest3 : IDebugBreakpointRequest2
 ## See Also  
  [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)   
  [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
-

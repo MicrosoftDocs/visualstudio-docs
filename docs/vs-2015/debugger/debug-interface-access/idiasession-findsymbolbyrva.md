@@ -1,23 +1,18 @@
 ---
 title: "IDiaSession::findSymbolByRVA | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::findSymbolByRVA method"
 ms.assetid: 14fb2903-b771-44d6-b0a8-44e0097c58ce
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSession::findSymbolByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ pSession->findSymbolByRVA( rva, SymTagFunction, &pFunc );
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
-
-
-

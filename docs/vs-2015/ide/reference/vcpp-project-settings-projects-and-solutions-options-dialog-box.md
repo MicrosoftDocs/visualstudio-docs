@@ -1,14 +1,9 @@
 ---
 title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.VCBuild"
 helpviewer_keywords: 
@@ -23,7 +18,7 @@ ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 
 ## See Also  
  [Building C/C++ Programs](http://msdn.microsoft.com/library/fa6ed4ff-334a-4d99-b5e2-a1f83d2b3008)   
  [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)
-
-
-

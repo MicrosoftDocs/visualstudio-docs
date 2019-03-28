@@ -1,13 +1,11 @@
 ---
 title: "How to: Get an Overview of a Schema Set Using the Graph View in XML Schema Designer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,11 +17,11 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 1.  Create a new XML Schema file and save the file as *Relationships.xsd*.
 
-2.  Click the **Use XML Editor to view and edit the underlying XML Schema file** link on the Start View.
+2.  Click the **Use XML editor to view and edit the underlying XML Schema file** link on the Start View.
 
 3.  Copy the XML Schema sample code from [Sample XML schema: relationships](../xml-tools/sample-xsd-file-relationships.md) and paste it to replace the code that was added to the new XSD file by default.
 
-4.  Right-click anywhere in the XML Editor and select **View Designer**.
+4.  Right-click anywhere in the XML editor and select **View Designer**.
 
 5.  Select the Graph View from the **XSD Toolbar**.
 

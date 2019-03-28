@@ -1,22 +1,17 @@
 ---
 title: "IDebugMethodField::EnumParameters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugMethodField::EnumParameters"
 helpviewer_keywords: 
   - "IDebugMethodField::EnumParameters method"
 ms.assetid: d77b1197-deb6-4144-8d1b-8b09949ccfac
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugMethodField::EnumParameters
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ int EnumParameters(
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [EnumArguments](../../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "GetAddressesInModuleFromPosition"
   - "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition"
 ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -224,4 +219,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
-

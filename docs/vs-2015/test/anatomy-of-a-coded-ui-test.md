@@ -1,20 +1,15 @@
 ---
 title: "Anatomy of a Coded UI Test | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests"
 ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 25
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Anatomy of a Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -282,6 +277,3 @@ public void MyTestCleanup()
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   
  [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-

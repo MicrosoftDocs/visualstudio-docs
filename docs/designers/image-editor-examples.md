@@ -1,13 +1,11 @@
 ---
 title: Image Editor Examples
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 9f887976-25ae-4099-b987-87ea97f98c58
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

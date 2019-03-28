@@ -1,22 +1,17 @@
 ---
 title: "Project Property User Interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project properties [Visual Studio], user interface"
   - "projects [Visual Studio SDK], properties UI"
   - "project properties UI"
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Property User Interface
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,5 +53,4 @@ A project subtype can use the items in the project **Property Pages** dialog box
   
 ## See Also  
  <xref:EnvDTE.IFilterProperties>   
- [Property Pages Dialog Box](http://msdn.microsoft.com/en-us/4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)
-
+ [Property Pages Dialog Box](http://msdn.microsoft.com/4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)

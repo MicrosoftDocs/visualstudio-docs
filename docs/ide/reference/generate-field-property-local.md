@@ -1,12 +1,10 @@
 ---
-title: Generate a field, property, or local variable in Visual Studio
+title: Generate field, property, local variable
 ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -42,8 +40,8 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Hover over the red squiggle and click the ![error light bulb](media/error-bulb.png) icon that appears.
+      - Click the ![error light bulb](media/error-bulb.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
       ![Generate field/property/local preview](media/field-preview-cs.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Using .NET 4.x in Unity"
-author: conceptdev
-ms.author: crdun
+author: therealjohn
+ms.author: johmil
 ms.date: "08/29/2018"
 ms.topic: "conceptual"
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
@@ -18,7 +18,7 @@ With the release of Unity 2017.1, Unity introduced an experimental version of it
 ## Prerequisites
 
 * [Unity 2017.1 or above](https://unity3d.com/) (2018.2 recommended)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
 
 ## Enabling the .NET 4.x scripting runtime in Unity
 
@@ -274,7 +274,7 @@ private void RecordHighScore(string playerName)
 private void Start ()
     {
         ShowCallerInfo("Something happened.");
-	}
+    }
     public void ShowCallerInfo(string message,
             [System.Runtime.CompilerServices.CallerMemberName] string memberName = "",
             [System.Runtime.CompilerServices.CallerFilePath] string sourceFilePath = "",

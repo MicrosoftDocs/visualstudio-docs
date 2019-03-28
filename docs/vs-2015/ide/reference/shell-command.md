@@ -1,14 +1,9 @@
 ---
 title: "Shell Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "tools.shell"
 helpviewer_keywords: 
@@ -23,7 +18,7 @@ ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Shell Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -88,6 +83,3 @@ Tools.Shell """C:\Program Files\SomeFile.exe"""
  [Output Window](../../ide/reference/output-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

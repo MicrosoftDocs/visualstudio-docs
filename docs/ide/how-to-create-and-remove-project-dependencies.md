@@ -1,8 +1,6 @@
 ---
 title: "How to: Create and remove project dependencies"
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "VS.ProjectDependenciesDlg"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

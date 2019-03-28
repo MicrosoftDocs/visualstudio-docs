@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify the Location Where End Users Will Install From | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: 04a804bf-ed55-4a7a-a1e6-f63ed99c0276
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify the Location Where End Users Will Install From
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
  [How to: Specify Where Visual Studio Copies the Files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

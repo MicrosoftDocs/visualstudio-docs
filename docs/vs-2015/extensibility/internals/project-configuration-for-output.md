@@ -1,20 +1,15 @@
 ---
 title: "Project Configuration for Output | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project configurations, output"
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Configuration for Output
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Output groups
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)
-

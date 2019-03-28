@@ -1,19 +1,14 @@
 ---
 title: "Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 57d14fc9-b5f7-45ee-9717-48086886742d
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -119,6 +114,3 @@ sampler_description.MaxAnisotropy = 16;
 d3d_device->CreateSamplerState(&sampler_desc, &sampler);  
 d3d_context->PSSetSamplers(0, 1, &sampler  
 ```
-
-
-

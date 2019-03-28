@@ -1,21 +1,16 @@
 ---
 title: "Considerations for Unloading and Reloading Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "nested projects, unloading and reloading"
   - "projects [Visual Studio SDK], unloading and reloading nested"
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Considerations for Unloading and Reloading Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,4 +29,3 @@ When you implement nested project types, you must perform additional steps when 
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>   
  [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-

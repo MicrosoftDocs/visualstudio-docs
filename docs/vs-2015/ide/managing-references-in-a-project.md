@@ -1,14 +1,9 @@
 ---
 title: "Managing references in a project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
@@ -27,7 +22,7 @@ ms.assetid: 05d1c51b-44f3-4973-8a11-6c919b08ad62
 caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Managing references in a project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,7 +102,7 @@ Before you write code against an external component or connected service, your p
 ## Project-to-Project References  
  Project-to-project references are references to projects that contain assemblies; you create them by using the **Project** tab. Visual Studio can find an assembly when given a path to the project.  
   
- When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the bin directory, which is not possible. When this conflict occurs, you will see a message such as [Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'](../misc/warning-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-overwrite-the-reference-file.md). For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) and [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md).  
+ When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the bin directory, which is not possible. When this conflict occurs, you will see a message such as [Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'](../misc/warning-the-dependency-file-in-project-project-cannot-be-copied.md). For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) and [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md).  
   
 > [!NOTE]
 >  A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
@@ -119,4 +114,3 @@ Before you write code against an external component or connected service, your p
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
  [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)   
  [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
-

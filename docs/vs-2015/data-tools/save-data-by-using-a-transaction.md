@@ -1,12 +1,9 @@
 ---
 title: "Save data by using a transaction | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +18,7 @@ ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Save data by using a transaction
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,4 +56,3 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
-

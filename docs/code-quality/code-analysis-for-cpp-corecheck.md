@@ -1,8 +1,6 @@
 ---
-title: Visual Studio C++ Core Guidelines Checker Reference
+title: C++ Core Guidelines Checker Reference
 ms.date: 03/22/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 helpviewer_keywords:
   - "code analysis, C++ core check"
@@ -266,7 +264,7 @@ See [C++ Core Guidelines GSL.view: Views](https://github.com/isocpp/CppCoreGuide
 [C26446 USE_GSL_AT](c26446.md)
 Prefer to use `gsl::at()` instead of unchecked subscript operator. See [C++ Core Guidelines:  Bounds.4: Don't use standard-library functions and types that are not bounds-checked](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile).
 
-[C26448 USE_GSL_FINALLY ](c26448.md)
+[C26448 USE_GSL_FINALLY](c26448.md)
 Consider using `gsl::finally` if final action is intended. See [C++ Core Guidelines:  GSL.util: Utilities](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-utilities).
 
 [C26449 NO_SPAN_FROM_TEMPORARY](c26449.md)

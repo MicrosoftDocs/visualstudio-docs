@@ -1,21 +1,16 @@
 ---
 title: "How to: Change the Build Output Directory | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "output directory, changing"
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Change the Build Output Directory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ You can specify the location of output on a per-configuration basis (for debug, 
  [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
  [General Property Page (Project)](http://msdn.microsoft.com/library/593b383c-cd0f-4dcd-ad65-9ec9b4b19c45)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
-
-
-

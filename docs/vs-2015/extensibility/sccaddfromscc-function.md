@@ -1,22 +1,17 @@
 ---
 title: "SccAddFromScc Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccAddFromScc"
 helpviewer_keywords: 
   - "SccAddFromScc function"
 ms.assetid: 902e764d-200e-46e1-8c42-4da7b037f9a0
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccAddFromScc Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ SCCRTN SccAddFromScc (
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccSetOption](../extensibility/sccsetoption-function.md)
-

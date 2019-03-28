@@ -7,9 +7,6 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
-ms.devlang: multiple
-ms.service: multiple
-ms.technology: vs-ai-tools
 ms.workload:
   - "multiple"
 ---
@@ -21,7 +18,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 
@@ -194,21 +191,32 @@ pip3.5 install Theano==0.9.0
 To install PyTorch, run the following command in a terminal:
 
 - **Windows**
-    - There's no official wheel package yet. You can download a third-party [Anaconda PyTorch package](https://anaconda.org/pytorch/repo?type=all).
-    - Decompress it to your home directory, e.g. "C:\Users\test\pytorch".
-    - Add "C:\Users\test\pytorch\Lib\site-packages" to the %PYTHONPATH% environment variable.
+
+   There's no official wheel package yet. You can download a third-party package from [Anaconda](https://anaconda.org/pytorch/repo?type=all) or [University of California](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pytorch).
+
+   - Decompress it to your home directory, for example, *C:\Users\test\pytorch*.
+   - Add *C:\Users\test\pytorch\Lib\site-packages* to the %PYTHONPATH% environment variable.
+
+      ```bash
+      pip3 install http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-win_amd64.whl
+      pip3 install torchvision
+      ```
 
 - **macOS**
+
     ```bash
     pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
     ```
+
     > [!NOTE]
     > macOS binaries don't support CUDA, install from source if CUDA is needed
 
 - **Linux**
+
     ```bash
     pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
     ```
+
     > [!NOTE]
     > This single package supports both GPU and CPU.
 

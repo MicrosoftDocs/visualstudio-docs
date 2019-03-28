@@ -12,18 +12,17 @@ helpviewer_keywords:
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Create a Windows Forms user control that supports lookup data binding
+
 When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.ComboBox>.
 
- For more information on control authoring, see [Developing Windows Forms controls at design time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
+For more information on control authoring, see [Developing Windows Forms controls at design time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
 
- When authoring controls for use in data-binding scenarios, you need to implement one of the following data-binding attributes:
+When authoring controls for use in data-binding scenarios, you need to implement one of the following data-binding attributes:
 
 |Data-binding attribute usage|
 | - |
@@ -31,9 +30,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
 |Implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).|
 |Implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data, but also need to present a single column or property. (This process is described in this walkthrough page.)|
 
- This walkthrough creates a lookup control that binds to data from two tables. This example uses the `Customers` and `Orders` tables from the Northwind sample database. The lookup control is bound to the `CustomerID` field from the `Orders` table. It uses this value to look up the `CompanyName` from the `Customers` table.
+This walkthrough creates a lookup control that binds to data from two tables. This example uses the `Customers` and `Orders` tables from the Northwind sample database. The lookup control is bound to the `CustomerID` field from the `Orders` table. It uses this value to look up the `CompanyName` from the `Customers` table.
 
- During this walkthrough, you will learn how to:
+During this walkthrough, you'll learn how to:
 
 -   Create a new **Windows Forms Application**.
 
@@ -67,10 +66,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes running and the Northwind database is created.
 
-## Create a Windows Forms Application
- The first step is to create a **Windows Forms Application**.
+## Create a Windows Forms app project
 
-#### To create the new Windows project
+The first step is to create a **Windows Forms Application** project.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -83,9 +81,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **LookupControlWalkthrough** project is created, and added to **Solution Explorer**.
 
 ## Add a user control to the project
- This walkthrough creates a lookup control from a **User Control**, so add a **User Control** item to the **LookupControlWalkthrough** project.
 
-#### To add a user control to the project
+This walkthrough creates a lookup control from a **User Control**, so add a **User Control** item to the **LookupControlWalkthrough** project.
 
 1.  From the **Project** menu, select **Add User Control**.
 
@@ -95,14 +92,11 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Design the LookupBox control
 
-#### To design the LookupBox control
-
--   Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.
+To design the LookupBox control, drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.
 
 ## Add the required data-binding attribute
- For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.
 
-#### To implement the LookupBindingProperties attribute
+For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.
 
 1.  Switch the **LookupBox** control to code view. (On the **View** menu, choose **Code**.)
 
@@ -114,11 +108,10 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 3.  From the **Build** menu, choose **Build Solution**.
 
 ## Create a data source from your database
+
 This step creates a data source using the **Data Source Configuration** wizard, based on the `Customers` and `Orders` tables in the Northwind sample database.
 
-#### To create the data source
-
-1.  On the **Data** menu, click **Show Data Sources**.
+1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
@@ -141,9 +134,8 @@ This step creates a data source using the **Data Source Configuration** wizard, 
      The **NorthwindDataSet** is added to your project, and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 
 ## Set the CustomerID column of the Orders table to use the LookupBox control
- Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form.
 
-#### To set the CustomerID column to bind to the LookupBox control
+Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form.
 
 1.  Open **Form1** in the designer.
 
@@ -162,23 +154,18 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 8.  Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.
 
 ## Add controls to the form
- You can create the data-bound controls by dragging items from the **Data Sources** window onto **Form1**.
 
-#### To create data-bound controls on the Windows Form
+You can create the data-bound controls by dragging items from the **Data Sources** window onto **Form1**.
 
--   Drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.
+To create data-bound controls on the Windows Form, drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.
 
 ## Bind the control to look up CompanyName from the Customers table
 
-#### To setup the lookup bindings
+To set up the lookup bindings, select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.
 
--   Select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.
+This sets up the data binding to display the `CompanyName` from the `Customers` table, while maintaining the `CustomerID` value from the `Orders` table.
 
-     This sets up the data binding to display the `CompanyName` from the `Customers` table, while maintaining the `CustomerID` value from the `Orders` table.
-
-## Running the application
-
-#### To run the application
+## Run the application
 
 -   Press **F5** to run the application.
 

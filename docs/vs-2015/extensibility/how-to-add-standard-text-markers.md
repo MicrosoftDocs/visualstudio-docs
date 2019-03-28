@@ -1,20 +1,15 @@
 ---
 title: "How to: Add Standard Text Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - standard text markers"
 ms.assetid: a39fca69-0014-474c-933f-51f0e9b9617e
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Add Standard Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ Use the following procedure to create one of the default text marker types provi
  [How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   
  [How to: Use Text Markers](../extensibility/how-to-use-text-markers.md)
-

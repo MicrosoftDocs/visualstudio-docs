@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Keyboard Exclusively | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Toolbox, shortcut keys"
   - "shortcut keys [Visual Studio]"
@@ -20,7 +15,7 @@ ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Keyboard Exclusively
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ manager: "ghogen"
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Toolbox Controls  
  You can add a control on the Toolbox to a form or designer using the keyboard.  
@@ -100,6 +95,3 @@ manager: "ghogen"
  [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)   
  [Accessibility Tips and Tricks](../../ide/reference/accessibility-tips-and-tricks.md)   
  [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md)
-
-
-

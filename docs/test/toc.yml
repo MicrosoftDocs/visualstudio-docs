@@ -111,8 +111,6 @@
       href: customizing-code-coverage-analysis.md
     - name: Troubleshoot code coverage
       href: troubleshooting-code-coverage.md
-  - name: Use emulators to isolate unit tests for Sharepoint 2010 applications
-    href: using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md
 - name: Live unit testing
   href: live-unit-testing-intro.md
   items:
@@ -120,7 +118,7 @@
     href: live-unit-testing-whats-new.md
   - name: Get started with Live Unit Testing
     href: live-unit-testing-start.md
-  - name: Use Live Unit Testing in Visual Studio 2017 Enterprise Edition
+  - name: Use Live Unit Testing in Enterprise edition
     href: live-unit-testing.md
   - name: Live Unit Testing FAQ
     href: live-unit-testing-faq.md
@@ -169,8 +167,6 @@
         href: how-to-add-counters-to-counter-sets-using-the-load-test-editor.md
       - name: Custom counter sets
         href: how-to-add-custom-counter-sets-using-the-load-test-editor.md
-      - name: Add computer tags to counter set mappings
-        href: how-to-add-computer-tags-to-counter-set-mappings-using-the-load-test-editor.md
       - name: Manage counter sets
         href: how-to-manage-counter-sets-using-the-load-test-editor.md
       - name: Add a threshold rule
@@ -189,15 +185,10 @@
         items:
         - name: Maximum log size
           href: how-to-specify-the-maximum-size-for-the-log-file.md
-        - name: Save frequency
-          href: how-to-specify-how-frequently-test-logs-are-saved.md
         - name: Failed tests
           href: how-to-specify-if-test-failures-are-saved-to-test-logs.md
       - name: Timing details storage
         href: how-to-specify-the-timing-details-storage-property-for-a-load-test.md
-        items:
-        - name: Collect full details
-          href: how-to-configure-load-tests-to-collect-full-details.md
       - name: Test iterations
         href: how-to-specify-the-number-of-test-iterations-in-a-load-test.md
       - name: Sample rate
@@ -270,12 +261,6 @@
       items:
       - name: How to create
         href: how-to-create-a-diagnostic-data-adapter.md
-      - name: How to install
-        href: how-to-install-a-custom-diagnostic-data-adapter.md
-      - name: Create a custom editor
-        href: how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md
-      - name: Sample project
-        href: sample-project-for-creating-a-diagnostic-data-adapter.md
     - name: Collect diagnostics using test settings
       href: collect-diagnostic-information-using-test-settings.md
       items:
@@ -289,8 +274,6 @@
       href: how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md
     - name: Screen and voice recordings
       href: how-to-include-recordings-of-the-screen-and-voice-during-tests.md
-    - name: Prevent timeouts for diagnostic data adapters
-      href: how-to-prevent-time-outs-for-diagnostic-data-adapters.md
   - name: Analyze results
     href: analyze-load-test-results-using-the-load-test-analyzer.md
     items:
@@ -310,8 +293,6 @@
         href: how-to-add-and-delete-counters-on-graphs-in-load-test-results.md
       - name: Create custom graphs
         href: how-to-create-custom-graphs-in-load-test-results.md
-      - name: Plot options
-        href: how-to-specify-plot-options-for-graphing-counters.md
       - name: Use the legend
         href: use-the-graphs-view-legend-to-analyze-load-tests.md
       - name: How to zoom in
@@ -323,21 +304,10 @@
         href: how-to-analyze-virtual-user-activity-during-a-load-test.md
       - name: "Walkthrough: Use the activity chart"
         href: walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md
-    - name: Counters panel
-      href: counters-panel-in-load-test-analyzer.md
-      items:
-      - name: Analyze errors
-        href: how-to-analyze-errors-using-the-counters-panel.md
-      - name: Analyze threshold violations
-        href: how-to-analyze-threshold-violations-using-the-counters-panel.md
     - name: Threshold rule violations
       href: analyze-threshold-rule-violations-in-load-tests.md
-    - name: View data and diagnostic attachments
-      href: how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md
     - name: Compare results and analyze trends
       href: compare-load-test-results.md
-    - name: Add comments to a load test result
-      href: how-to-add-comments-on-a-completed-load-test.md
     - name: Create a report in Excel
       href: how-to-create-load-test-performance-reports-using-microsoft-excel.md
     - name: Create a report in Word
@@ -366,8 +336,6 @@
     href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
   - name: Use HTML5 Controls in Coded UI Tests
     href: using-html5-controls-in-coded-ui-tests.md
-  - name: Test SharePoint 2010 Applications with Coded UI Tests
-    href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
   - name: Create a Data-Driven Coded UI Test
     href: creating-a-data-driven-coded-ui-test.md
   - name: Wait For Specific Events During Playback

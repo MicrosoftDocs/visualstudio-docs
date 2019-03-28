@@ -1,14 +1,13 @@
 ---
-title: Unit testing for Python
-description: Setting up unit testing for Python code in Visual Studio to take full advantage of Test Explorer features to discover, run, and debug tests.
-ms.date: 06/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+title: Unit test Python code
+description: Setting up unit testing for Python code in Visual Studio takes full advantage of Test Explorer features to discover, run, and debug tests.
+ms.date: 11/12/2018
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -20,10 +19,6 @@ Unit tests are pieces of code that test other code units in an application, typi
 Python uses unit tests extensively to validate scenarios while designing a program. Python support in Visual Studio includes discovering, executing, and debugging unit tests within the context of your development process, without needing to run tests separately.
 
 This article provides a brief outline of unit testing capabilities in Visual Studio with Python. For more on unit testing in general, see [Unit test your code](../test/unit-test-your-code.md).
-
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Testing-Python-hb46k6LWE_405918567) on unit testing in Python (2m 31s). |
 
 ## Discover and view tests
 
@@ -86,7 +81,7 @@ To start debugging, set an initial breakpoint in your code, then right-click the
 
 ![Debugging a test](media/unit-test-debugging.png)
 
-You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of Visual Studio (see the [Features matrix](overview-of-python-tools-for-visual-studio.md#features-matrix)).
+You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands.
 
 ### Known issues
 

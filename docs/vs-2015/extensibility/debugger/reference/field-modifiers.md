@@ -1,22 +1,17 @@
 ---
 title: "FIELD_MODIFIERS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "FIELD_MODIFIERS"
 helpviewer_keywords: 
   - "FIELD_MODIFIERS enumeration"
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # FIELD_MODIFIERS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -197,4 +192,3 @@ public enum enum_FIELD_MODIFIERS {
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)   
  [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)
-

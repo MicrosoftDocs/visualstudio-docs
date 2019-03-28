@@ -1,12 +1,9 @@
 ---
 title: "Bind WPF controls to a WCF data service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind WPF controls to a WCF data service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +54,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
-- Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 - WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
@@ -326,6 +323,5 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   
  [Overview](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)   
  [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)   
- [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
  [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)
-

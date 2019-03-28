@@ -1,14 +1,9 @@
 ---
 title: "Visual C# Code Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "snippets [C#], default snippets"
   - "snippets [C#], Code Snippet Inserter"
@@ -19,7 +14,7 @@ ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual C# Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,10 +72,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 ## See Also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   
  [Code Snippets](../ide/code-snippets.md)   
- [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/en-us/8d56d43c-097a-475b-aa85-cae1554b6338)   
+ [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/8d56d43c-097a-475b-aa85-cae1554b6338)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to-restore-csharp-refactoring-snippets.md)
-
-
-

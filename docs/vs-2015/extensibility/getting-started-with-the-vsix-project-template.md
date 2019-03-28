@@ -1,20 +1,15 @@
 ---
 title: "Getting Started with the VSIX Project Template | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio SDK, VSIX project template"
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Started with the VSIX Project Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,4 +80,3 @@ You can use the VSIX Project template to create an extension or to package an ex
 6.  Open the VSIX manifest.  
   
 7.  In the VSIX manifest, update the **Asset** path of the template so that it points to the root of the directory tree that contains the template file. For example, if the template is in \CSharp\Windows, the reference should point to \CSharp.
-

@@ -1,13 +1,11 @@
 ---
 title: "CA2151: Fields with critical types should be security critical"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 09db9d25-7d58-4725-a252-4a07baadf046
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

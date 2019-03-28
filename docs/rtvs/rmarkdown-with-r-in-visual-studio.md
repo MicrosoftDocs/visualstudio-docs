@@ -2,13 +2,11 @@
 title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.date: 11/16/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 

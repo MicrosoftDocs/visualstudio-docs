@@ -1,14 +1,9 @@
 ---
 title: "How to: Create File Associations For a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 835230c8-3177-440f-85e3-e40f1d8b4f9d
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Create File Associations For a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ manager: "wpickett"
  [\<fileAssociation> Element](../deployment/fileassociation-element-clickonce-application.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)
-
-
-

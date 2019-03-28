@@ -1,14 +1,9 @@
 ---
 title: "CA1500: Variable names should not match field names | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "VariableNamesShouldNotMatchFieldNames"
   - "CA1500"
@@ -24,7 +19,7 @@ manager: "wpickett"
 # CA1500: Variable names should not match field names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1500: Variable names should not match field names](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1500: Variable names should not match field names](https://docs.microsoft.com/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -50,4 +45,3 @@ For the latest documentation on Visual Studio 2017, see [CA1500: Variable names 
   
  [!code-csharp[FxCop.Maintainability.VarMatchesField#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Maintainability.VarMatchesField/cs/FxCop.Maintainability.VarMatchesField.cs#1)]
  [!code-vb[FxCop.Maintainability.VarMatchesField#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Maintainability.VarMatchesField/vb/FxCop.Maintainability.VarMatchesField.vb#1)]
-

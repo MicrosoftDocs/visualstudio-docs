@@ -1,14 +1,9 @@
 ---
 title: "Globalizing and Localizing Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "globalization [Visual Studio]"
   - "Visual Basic code, international applications"
@@ -20,7 +15,7 @@ ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Globalizing and Localizing Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ If you plan on distributing your application to an international audience, you'l
   
  <xref:System.Resources>  
  Points out the classes and interfaces in this namespace, which allows developers to create, store, and manage various culture-specific resources used in an application.
-

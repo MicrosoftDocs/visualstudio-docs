@@ -1,20 +1,15 @@
 ---
 title: "Managing the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Toolbox [Visual Studio SDK], automatic tab selection"
   - "Toolbox [Visual Studio SDK], managing"
 ms.assetid: 3b052047-f6db-46dd-b3bf-da1c348ee410
 caps.latest.revision: 33
-manager: "douge"
+manager: jillfra
 ---
 # Managing the Toolbox
 The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] allows a VSPackage, such as an editor or designer, to manage the membership and appearance of the **Toolbox**.  

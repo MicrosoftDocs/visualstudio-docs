@@ -1,18 +1,13 @@
 ---
 title: "Creating an Extension with a Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating an Extension with a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ In this procedure, you learn how to use the VSIX project template and the **Cust
      You should see a menu item for **FirstWindow**. Click it.  
   
      You should see a tool window with the title **FirstWindow** and a button saying **Click Me!.**
-

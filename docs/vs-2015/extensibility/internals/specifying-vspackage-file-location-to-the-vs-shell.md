@@ -1,21 +1,16 @@
 ---
 title: "Specifying VSPackage File Location to the VS Shell | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed VSPackages, file location"
   - "VSPackages, managed package file location"
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,4 +26,3 @@ manager: "ghogen"
   
 > [!NOTE]
 >  Use strong-named, signed assemblies for all of your dependent assemblies. These assemblies should also be installed in your own directory or the global assembly cache (GAC). This protects against conflicts with assemblies that have the same base file name, known as weak-name binding.
-

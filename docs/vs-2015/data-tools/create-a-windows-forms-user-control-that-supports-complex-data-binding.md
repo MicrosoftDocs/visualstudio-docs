@@ -1,12 +1,9 @@
 ---
 title: "Create a Windows Forms user control that supports complex data binding | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ ms.assetid: c8f29c2b-b49b-4618-88aa-33b6105880b5
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a Windows Forms user control that supports complex data binding
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +56,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database.
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
@@ -172,4 +169,3 @@ When displaying data on forms in Windows applications, you can choose existing c
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)   
  [Windows Forms Controls](http://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)
-

@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "text templates, functions that generate text"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Writing a T4 Text Template
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>..." and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.
@@ -251,7 +249,7 @@ Content of MyFile.txt is:
 <#= myFile #>
 ```
 
-You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).
+You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](/previous-versions/visualstudio/visual-studio-2010/gg604090\(v\=vs.100\)).
 
 ### Design-time Text Templates run in a separate AppDomain
 

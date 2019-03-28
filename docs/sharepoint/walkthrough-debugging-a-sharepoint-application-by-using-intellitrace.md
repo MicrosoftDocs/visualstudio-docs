@@ -1,23 +1,20 @@
 ---
 title: "Walkthrough: Debugging a SharePoint Application by Using IntelliTrace | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTrace [SharePoint development in Visual Studio]"
   - "standalone data collector"
   - "SharePoint development in Visual Studio, IntelliTrace"
   - "data collector"
   - "IntelliTrace"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Debug a SharePoint application by using IntelliTrace
@@ -30,15 +27,15 @@ By using IntelliTrace, you can more easily debug SharePoint solutions. Tradition
 
  This walkthrough illustrates the following tasks:
 
-- [Create a Feature Receiver](#BKMK_CreateReceiver)
+- [Create a Feature Receiver](#create-a-feature-receiver)
 
-- [Add Code to the Feature Receiver](#BKMK_AddCode)
+- [Add Code to the Feature Receiver](#add-code-to-the-feature-receiver)
 
-- [Test the Project](#BKMK_Test1)
+- [Test the Project](#test-the-project)
 
-- [Collect IntelliTrace Data by using Microsoft Monitoring Agent](#BKMK_CollectDiagnosticData)
+- [Collect IntelliTrace Data by using Microsoft Monitoring Agent](#collect-intellitrace-data-by-using-microsoft-monitoring-agent)
 
-- [Debug and Fix the SharePoint Solution](#BKMK_DebugSolution)
+- [Debug and Fix the SharePoint Solution](#debug-and-fix-the-sharepoint-solution)
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
@@ -200,7 +197,7 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
     {
         // The following line induces an error to demonstrate debugging.
         // Remove this line later for proper operation.
-        throw new System.InvalidOperationException("A serious error occurred!"); 
+        throw new System.InvalidOperationException("A serious error occurred!");
         try
         {
             using (SPSite site = new SPSite(siteUrl))
@@ -274,9 +271,9 @@ Now that the code is added to the feature receiver and the data collector is run
 If you install Microsoft Monitoring Agent on the system that's running SharePoint, you can debug SharePoint solutions by using data that's more specific than the generic information that IntelliTrace returns. The agent works outside of Visual Studio by using PowerShell cmdlets to capture debug information while your SharePoint solution runs.
 
 > [!NOTE]
-> The configuration information in this section is specific to this example. For more information about other configuration options, see [Using the IntelliTrace stand-alone collector](/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).
+> The configuration information in this section is specific to this example. For more information about other configuration options, see [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
-1. On the computer that's running SharePoint, [set up Microsoft Monitoring Agent and start to monitor your solution](/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).
+1. On the computer that's running SharePoint, [set up Microsoft Monitoring Agent and start to monitor your solution](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
 2. Deactivate the feature:
 
@@ -328,6 +325,6 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
 ## See also
 
-[Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)  
-[IntelliTrace](/visualstudio/debugger/intellitrace)  
-[Walkthrough: Verify SharePoint Code by Using Unit Tests](https://msdn.microsoft.com/library/gg599006(v=vs.100).aspx)
+- [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
+- [IntelliTrace](../debugger/intellitrace.md)
+- [Walkthrough: Verify SharePoint Code by Using Unit Tests](/previous-versions/visualstudio/visual-studio-2010/gg599006\(v\=vs.100\))

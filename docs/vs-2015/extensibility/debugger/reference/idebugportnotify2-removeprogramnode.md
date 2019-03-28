@@ -1,22 +1,17 @@
 ---
 title: "IDebugPortNotify2::RemoveProgramNode | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortNotify2::RemoveProgramNode"
 helpviewer_keywords: 
   - "IDebugPortNotify2::RemoveProgramNode"
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPortNotify2::RemoveProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ int RemoveProgramNode( 
  [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)   
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)
-

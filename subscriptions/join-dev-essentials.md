@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 02/13/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn about Visual Studio Dev Essentials, and how to sign up.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 

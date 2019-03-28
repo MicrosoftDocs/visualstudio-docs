@@ -113,7 +113,7 @@ Namespace SpanSnippets
 			spanx.Inlines.Add(New Run("A bit more text content..."))
 			' </Snippet_SpanInlinesAdd>
 
-			' Insert a content inline at the begining of the Span.
+			' Insert a content inline at the beginning of the Span.
 			' <Snippet_SpanInlinesInsert>
 			Dim runx As New Run("Text to insert...")
 			spanx.Inlines.InsertBefore(spanx.Inlines.FirstInline, runx)

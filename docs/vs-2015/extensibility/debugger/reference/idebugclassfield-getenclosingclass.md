@@ -1,22 +1,17 @@
 ---
 title: "IDebugClassField::GetEnclosingClass | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugClassField::GetEnclosingClass"
 helpviewer_keywords: 
   - "IDebugClassField::GetEnclosingClass method"
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugClassField::GetEnclosingClass
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ class RootClass {
   
 ## See Also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
-

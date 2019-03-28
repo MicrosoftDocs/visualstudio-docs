@@ -1,23 +1,18 @@
 ---
 title: "IDiaLoadCallback::RestrictRegistryAccess | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaLoadCallback::RestrictRegistryAccess method"
 ms.assetid: de4760c3-a746-4bab-8065-1388fed31b67
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaLoadCallback::RestrictRegistryAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ HRESULT RestrictRegistryAccess();
   
 ## See Also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
-
-
-

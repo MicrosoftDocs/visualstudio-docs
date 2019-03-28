@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, decorators"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Decorators
 Decorators are icons, text, or expand/collapse chevrons that can appear on shapes or connectors on the diagram. The following tables show the properties for the three kinds of decorator. Some of the properties appear only on shape decorators or only on connector decorators.
@@ -62,4 +60,4 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

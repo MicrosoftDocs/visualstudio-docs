@@ -4,12 +4,12 @@
   - name: Design XAML in Visual Studio
     href: designing-xaml-in-visual-studio.md
     items:
-    - name: Create a UI by using XAML Designer
+    - name: XAML Designer
       href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
       items:
-      - name: Work with elements in XAML Designer
+      - name: Work with elements
         href: working-with-elements-in-xaml-designer.md
-      - name: Organize objects into layout containers in XAML Designer
+      - name: Organize objects into layout containers
         href: organize-objects-into-layout-containers-in-xaml-designer.md
       - name: Create and apply a resource
         href: how-to-create-and-apply-a-resource.md
@@ -17,26 +17,26 @@
         href: walkthrough-binding-to-data-in-xaml-designer.md
       - name: Keyboard shortcuts for XAML Designer
         href: keyboard-shortcuts-for-xaml-designer.md
-      - name: Debug or disable project code in XAML Designer
+      - name: Debug or disable project code
         href: debugging-or-disabling-project-code-in-xaml-designer.md
       - name: XAML errors and warnings
         href: xaml-errors-warnings.md
-    - name: Create a UI by using Blend for Visual Studio
+    - name: Blend for Visual Studio
       href: creating-a-ui-by-using-blend-for-visual-studio.md
       items:
-      - name: Insert controls and modify their behavior in XAML Designer
+      - name: Insert controls and modify their behavior
         href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
-      - name: Insert images, videos, and audio clips in XAML Designer
+      - name: Insert images, videos, and audio clips
         href: insert-images-videos-and-audio-clips-in-xaml-designer.md
       - name: Draw shapes and paths
         href: draw-shapes-and-paths.md
       - name: Modify the style of objects in Blend
         href: modify-the-style-of-objects-in-blend.md
-      - name: Animate objects in XAML Designer
+      - name: Animate objects
         href: animate-objects-in-xaml-designer.md
       - name: Display data
         href: display-data-in-blend.md
-      - name: Keyboard shortcuts and modifier keys in Blend
+      - name: Keyboard shortcuts and modifier keys
         href: keyboard-shortcuts-and-modifier-keys-in-blend.md
         items:
         - name: Keyboard shortcuts

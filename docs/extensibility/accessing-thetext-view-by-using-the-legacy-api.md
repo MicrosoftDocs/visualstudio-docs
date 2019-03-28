@@ -1,16 +1,13 @@
 ---
 title: "Accessing theText View by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - text view"
 ms.assetid: 8f751f72-c972-4be3-84ee-19c281e02e25
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -20,8 +17,7 @@ A text view is a presentation of the text that is stored in a text buffer. You c
 ## Text view object
  Each view is associated with its own text buffer, and the view is a window on the data in the buffer. The following diagram shows the key interfaces of the text view object, which is represented by <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>.
 
- ![Visual Studio Text View Object](../extensibility/media/vstextview.gif "vstextview")
-Text view object
+ ![Visual Studio Text View Object](../extensibility/media/vstextview.gif)
 
  The view is a way of presenting the text in the buffer. It includes features such as word wrap, and outlining, so that what you see in the view is not an exact representation of the text in the buffer.
 

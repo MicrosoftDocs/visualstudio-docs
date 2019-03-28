@@ -1,23 +1,18 @@
 ---
 title: "IDiaInjectedSource::get_sourceCompression | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaInjectedSource::get_sourceCompression method"
 ms.assetid: 854b142f-23a9-466c-bf7f-98e581d5abcd
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaInjectedSource::get_sourceCompression
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ HRESULT get_sourceCompression ( 
   
 ## See Also  
  [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
-
-
-

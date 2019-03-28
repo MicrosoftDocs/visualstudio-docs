@@ -1,12 +1,9 @@
 ---
 title: "Properties of elements on UML component diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.componentdiagram.shapes.properties"
 helpviewer_keywords: 
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: fa0a9460-6675-4642-aa00-50f8719a892d
 caps.latest.revision: 16
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of elements on UML component diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +44,3 @@ In a UML component diagram, each element on the diagram has properties. To see t
 ## See Also  
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)
-
-
-

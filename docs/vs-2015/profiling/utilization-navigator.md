@@ -1,21 +1,16 @@
 ---
 title: "Utilization Navigator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.performance.utilizationnavigator"
 ms.assetid: 522a981a-37ef-4cdd-a04c-f1e7525a2aab
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Utilization Navigator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ Utilization Navigator and a selected time frame
 - You can change the extent of the interval by dragging one of the handles. (Keyboard: Move the focus to a handle and then press the right or left arrow key.)  
   
   If you change the interval by using a different Concurrency Visualizer zoom control, the Utilization Navigator updates to reflect the change.
-
-
-

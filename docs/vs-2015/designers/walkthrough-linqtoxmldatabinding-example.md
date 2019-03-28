@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: LinqToXmlDataBinding Example | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: aedf42e8-896c-48fa-88df-7f7c9536aa69
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: LinqToXmlDataBinding Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ This walkthrough describes the LinqToXmlDataBinding example, and explains some o
 ## See Also  
  [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [How to: Build and Run the LinqToXmlDataBinding Example](../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md)
-
-
-

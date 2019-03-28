@@ -1,14 +1,9 @@
 ---
 title: "UDT | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "structs [C++]"
 ms.assetid: f12459dd-c64d-4cc9-9ee3-a56e19e9e573
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # UDT
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ Each class, structure, and union is identified by a `SymTagUDT` symbol. Each mem
   
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Assertions in Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -28,9 +23,9 @@ helpviewer_keywords:
   - "assertions, managed code"
 ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Assertions in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -225,6 +220,3 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/library/56d051c3-012c-42c1-9a58-7270edc624aa)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

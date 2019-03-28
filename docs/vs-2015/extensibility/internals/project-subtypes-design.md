@@ -1,20 +1,15 @@
 ---
 title: "Project Subtypes Design | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project subtypes, design"
 ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
 caps.latest.revision: 33
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Subtypes Design
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -91,4 +86,3 @@ Project Subtype Automation Extender.
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID2>
-

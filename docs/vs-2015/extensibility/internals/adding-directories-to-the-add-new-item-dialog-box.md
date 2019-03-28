@@ -1,20 +1,15 @@
 ---
 title: "Adding Directories to the Add New Item Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Add New Item dialog box, extending"
 ms.assetid: 67ae8af6-3752-49e8-8ce3-007aca5f7982
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding Directories to the Add New Item Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ NoRemove Projects
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   
  [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Adding Directories to the New Project Dialog Box](../../extensibility/internals/adding-directories-to-the-new-project-dialog-box.md)
-

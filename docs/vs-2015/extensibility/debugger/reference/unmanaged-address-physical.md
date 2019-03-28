@@ -1,22 +1,17 @@
 ---
 title: "UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "UNMANAGED_ADDRESS_PHYSICAL"
 helpviewer_keywords: 
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ public struct UNMANAGED_ADDRESS_PHYSICAL {
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
-

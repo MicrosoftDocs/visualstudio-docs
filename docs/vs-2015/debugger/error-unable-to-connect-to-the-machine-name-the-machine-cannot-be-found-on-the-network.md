@@ -1,14 +1,9 @@
 ---
 title: "Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.remote.dcom_disabled"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "DCOM, unable to connect error"
 ms.assetid: b584b5db-ef52-45ed-8561-1314da3cc5b8
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ This behavior occurs if one of the following conditions is true:
 ## See Also  
  [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
-
-
-

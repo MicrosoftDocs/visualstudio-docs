@@ -1,14 +1,9 @@
 ---
 title: "How to: Set Permissions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling, setting permissions"
   - "security [Visual Studio ALM], setting permissions"
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "performance tools, setting profiling permissions"
 ms.assetid: 69f27896-8f46-4ef3-bfb7-726d95304f3a
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Set Permissions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -129,6 +124,3 @@ This topic describes how an Administrator of a computer grants the security perm
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)
-
-
-

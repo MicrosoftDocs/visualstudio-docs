@@ -1,14 +1,9 @@
 ---
 title: "AL (Assembly Linker) Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#AL"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # AL (Assembly Linker) Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,6 +92,3 @@ The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklo
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

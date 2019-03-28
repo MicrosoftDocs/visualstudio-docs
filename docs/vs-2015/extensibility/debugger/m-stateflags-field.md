@@ -1,20 +1,15 @@
 ---
 title: "m_stateFlags Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "m_stateFlags field, Task class [.NET Framework debug engines]"
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # m_stateFlags Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Stores information about the current state of the <xref:System.Threading.Tasks.T
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

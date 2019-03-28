@@ -1,20 +1,15 @@
 ---
 title: "Document Data and Document View in Custom Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - document data and document view"
 ms.assetid: 71eea623-f566-4feb-84cd-ca1ba71bc493
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Document Data and Document View in Custom Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ A custom editor consists of two parts: a document data object and a document vie
  [Persistence and the Running Document Table](../extensibility/internals/persistence-and-the-running-document-table.md)   
  [Determining Which Editor Opens a File in a Project](../extensibility/internals/determining-which-editor-opens-a-file-in-a-project.md)   
  [Editor Factories](../extensibility/editor-factories.md)
-

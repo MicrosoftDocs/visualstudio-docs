@@ -1,20 +1,15 @@
 ---
 title: "API Reference (Visual Studio Debugging) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "debugging [Debugging SDK], API reference"
 ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # API Reference (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ The reference section includes a conceptual overview of the API, a guide that sh
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)   
  [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)
-

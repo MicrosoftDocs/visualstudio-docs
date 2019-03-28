@@ -1,17 +1,14 @@
 ---
 title: "How to: Invoke the Workflow Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 34c592af-f4f6-4d02-99f6-63a94698e48b
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Invoke the Workflow Debugger
 Generally, you debug workflows just like you debug programs written in other Visual Studio programming languages. You can start the workflow debugger in the following ways:  

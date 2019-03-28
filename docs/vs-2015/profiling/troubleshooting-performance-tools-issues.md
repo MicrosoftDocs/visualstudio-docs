@@ -1,19 +1,14 @@
 ---
 title: "Troubleshooting Performance Tools Issues | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: troubleshooting
 ms.assetid: 0b61cdf7-75b7-4abd-aff2-7bd997717626
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Troubleshooting Performance Tools Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ You might experience one of the following issues when you use the Profiling Tool
   
 > [!NOTE]
 >  The analysis engine requires that the .pdb file is the same version as the compiled application file. A .pdb file from an earlier or later build of the application file will not work.
-
-
-

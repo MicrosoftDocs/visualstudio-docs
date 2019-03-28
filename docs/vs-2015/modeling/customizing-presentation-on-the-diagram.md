@@ -1,19 +1,16 @@
 ---
 title: "Customizing Presentation on the Diagram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, diagram"
 ms.assetid: 259836b0-783c-46a0-b7c7-dc4b2f7b4a81
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Presentation on the Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +33,3 @@ The diagram is the main presentation area of a domain-specific language designer
   
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
-
-
-

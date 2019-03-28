@@ -1,13 +1,11 @@
 ---
 title: "How to: Instrument a .NET Service and Collect Detailed Timing Data by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
@@ -16,9 +14,9 @@ This article describes how to use Visual Studio Profiling Tools command-line too
 
 > [!NOTE]
 > You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that starts only when the operating system starts.
-> 
-> Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
-> 
+>
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+>
 > Adding tier interaction data to a profiling run requires specific procedures with the command-line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).
 
 To collect detailed timing data from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then replace the non-instrumented version of the service with the instrumented version, making sure that the service is configured to start manually. You use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and then restart the host computer. You then start the profiler.
@@ -104,5 +102,5 @@ You must restart the computer for the new environment settings to be applied.
 
 ## See also
 
-[Profile services](../profiling/command-line-profiling-of-services.md)  
+[Profile services](../profiling/command-line-profiling-of-services.md)
 [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

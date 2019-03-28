@@ -1,8 +1,6 @@
 ---
 title: "Bookmark control"
 ms.date: 02/02/2017
-ms.technology: office-development
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VST.Toolbox.Bookmark"
@@ -14,9 +12,9 @@ helpviewer_keywords:
   - "Bookmark control, data binding"
   - "Bookmark control, events"
   - "Bookmark control"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

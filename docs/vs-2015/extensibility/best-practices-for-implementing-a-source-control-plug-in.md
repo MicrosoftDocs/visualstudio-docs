@@ -1,22 +1,17 @@
 ---
 title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, best practices"
   - "best practices, source control plug-ins"
   - "source control [Visual Studio SDK], plug-ins"
 ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Best Practices for Implementing a Source Control Plug-in
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ The following technical details can help you reliably implement a source control
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)
-

@@ -1,15 +1,14 @@
 ---
-title: "Debugging Preparation: Windows Forms Applications | Microsoft Docs"
-ms.custom: ""
+title: "Prepare to debug Windows Forms apps | Microsoft Docs"
+ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging Windows applications"
   - "Windows applications, debugging"
   - "debugging [Visual Studio], Windows applications"
@@ -18,52 +17,52 @@ helpviewer_keywords:
 ms.assetid: 7092ee7f-8378-4def-aef8-1695bd97cf14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Debugging Preparation: Windows Forms Applications
-The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For more information, see [Creating a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).  
-  
- When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).  
-  
- For more information, see [Recommended Property Settings](../debugger/managed-debugging-recommended-property-settings.md).  
-  
- The following table displays one additional recommended property setting.  
-  
-### Configuration Properties in Debug tab  
-  
-|**Property Name**|**Setting**|  
-|-----------------------|-----------------|  
-|**Start Action**|-   Set to **Start project,** most of the time. Set to **Start external program** if you want to start another executable when you start debugging (usually for debugging DLLs).|  
-  
- You can debug Windows Forms applications from inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or by attaching to an already running application. For more information about attaching, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
-  
-### To debug a C#, F#, or Visual Basic Windows Forms application  
-  
-1. Open the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
-  
-2. Create breakpoints as needed.  
-  
-    Because Windows Forms applications are event-driven, your breakpoints will go into event handler code, or into methods called by event handler code. Typical events in which to place breakpoints include:  
-  
-   1. Events associated with a control, such as Click, Enter, etc.  
-  
-   2. Events associated with application startup and shutdown, such as Load, Activated, etc.  
-  
-   3. Focus and Validation Events.  
-  
-      For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).  
-  
-3. On the **Debug** menu, click **Start**.  
-  
-4. Debug using the techniques discussed in [Debugger Basics](../debugger/getting-started-with-the-debugger.md).  
-  
-## See Also  
- [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
- [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)   
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Windows Forms](/dotnet/framework/winforms/index)
+The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For more information, see [Creating a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).
+
+ When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).
+
+ For more information, see [Recommended Property Settings](../debugger/managed-debugging-recommended-property-settings.md).
+
+ The following table displays one additional recommended property setting.
+
+### Configuration Properties in Debug tab
+
+|**Property Name**|**Setting**|
+|-----------------------|-----------------|
+|**Start Action**|-   Set to **Start project,** most of the time. Set to **Start external program** if you want to start another executable when you start debugging (usually for debugging DLLs).|
+
+ You can debug Windows Forms applications from inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or by attaching to an already running application. For more information about attaching, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+
+### To debug a C#, F#, or Visual Basic Windows Forms application
+
+1. Open the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+
+2. Create breakpoints as needed.
+
+    Because Windows Forms applications are event-driven, your breakpoints will go into event handler code, or into methods called by event handler code. Typical events in which to place breakpoints include:
+
+   1. Events associated with a control, such as Click, Enter, etc.
+
+   2. Events associated with application startup and shutdown, such as Load, Activated, etc.
+
+   3. Focus and Validation Events.
+
+      For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).
+
+3. On the **Debug** menu, click **Start**.
+
+4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
+
+## See Also
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
+- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
+- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
+- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Windows Forms](/dotnet/framework/winforms/index)

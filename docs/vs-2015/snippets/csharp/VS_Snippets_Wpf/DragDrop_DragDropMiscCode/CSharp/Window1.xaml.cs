@@ -126,7 +126,7 @@ namespace DragDropMiscCode
 
                 // Query for the presence of Text data in the data object, by a data format descriptor string.
                 // In this overload of GetDataPresent, the method will return true both for native data formats
-                // and when the data can automatically be converted to the specifed format.
+                // and when the data can automatically be converted to the specified format.
 
                 // In this case, string data is present natively, so GetDataPresent returns "true".
                 string textData = null;
@@ -151,7 +151,7 @@ namespace DragDropMiscCode
 
                 // Query for the presence of String data in the data object, by type.  In this overload 
                 // of GetDataPresent, the method will return true both for native data formats
-                // and when the data can automatically be converted to the specifed format.
+                // and when the data can automatically be converted to the specified format.
 
                 // In this case, the Text data present in the data object can be autoconverted
                 // to type string (also represented by DataFormats.String), so GetDataPresent returns "true".

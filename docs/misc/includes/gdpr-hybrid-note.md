@@ -1,7 +1,6 @@
 ---
 title: include file
 ms.date: 05/01/2018
-ms.prod: visual-studio-dev15
 ms.topic: include
 author: eross-msft
 ms.author: lizross

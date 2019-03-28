@@ -1,12 +1,9 @@
 ---
 title: "UML Sequence Diagrams: Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.sequencediagram.linktosequencediagram"
   - "vs.teamarch.logicalclassdiagram.createlifeline"
@@ -23,9 +20,9 @@ helpviewer_keywords:
   - "behaviors, UML"
 ms.assetid: 5990ef7c-ba60-4e20-a36d-e29c1fa6c8bb
 caps.latest.revision: 55
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Sequence Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -447,6 +444,3 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [Video: Sketching Interactions by using Sequence Diagrams](http://go.microsoft.com/fwlink/?LinkId=201113)
-
-
-

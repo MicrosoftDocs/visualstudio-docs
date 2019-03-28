@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain class"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Domain Classes
 Domain classes have the properties in the following table. For information about domain classes, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -32,4 +30,4 @@ Domain classes have the properties in the following table. For information about
 
 ## See Also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

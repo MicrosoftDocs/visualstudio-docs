@@ -1,20 +1,15 @@
 ---
 title: "Accessing theText View by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - text view"
 ms.assetid: 8f751f72-c972-4be3-84ee-19c281e02e25
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Accessing theText View by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ Text view object
 ## See Also  
  [Changing View Settings by Using the Legacy API](../extensibility/changing-view-settings-by-using-the-legacy-api.md)   
  [Using the Text Manager to Monitor Global Settings](../extensibility/using-the-text-manager-to-monitor-global-settings.md)
-

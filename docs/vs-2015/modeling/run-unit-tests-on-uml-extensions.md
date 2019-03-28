@@ -1,17 +1,14 @@
 ---
 title: "Run unit tests on UML extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 745d74ae-e48c-4fd9-a755-4354b81b9f8a
 caps.latest.revision: 9
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Run unit tests on UML extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -379,9 +376,6 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
  This is the way that we recommend least. Older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provided a utility that automatically created an accessor method for each private method. Although this is convenient, our experience suggests that it tends to result in unit tests that are very strongly coupled to the internal structure of the application that they are testing. This results in extra work when the requirements or architecture change, because the tests have to be changed along with the implementation. Also, any erroneous assumptions in the design of the implementation are also built into the tests, so that the tests do not find errors.  
   
 ## See Also  
- [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144)   
+ [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)
-
-
-

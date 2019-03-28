@@ -1,8 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
@@ -28,17 +26,16 @@ helpviewer_keywords:
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
 # Options, Text Editor, XAML, Formatting
+
 Use the **Formatting** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor** > **XAML** > **Formatting** node.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
 ## Auto-Formatting Events
+
 Autoformatting may occur when any of the following events is detected.
 
 -   Completion of an end tag or simple tag.
@@ -51,106 +48,124 @@ Autoformatting may occur when any of the following events is detected.
 
 You can specify which events cause autoformatting.
 
-**On completion of end tag or simple tag**  
+**On completion of end tag or simple tag**
+
 Autoformatting occurs when you finish typing an end tag or a simple tag. A simple tag has no attributes, for example `<Button />`.
 
-**On completion of start tag**  
+**On completion of start tag**
+
 Autoformatting occurs when you finish typing a start tag.
 
-**On paste from clipboard**  
+**On paste from clipboard**
+
 Autoformatting occurs when you paste XAML from the clipboard into XAML view.
 
 ## Quotation Mark Style
+
 This setting indicates whether attribute values are enclosed in single or double quotation marks. The autoformatter and IntelliSense autocompletion both use this setting.
 
 Once you set this option, only attributes subsequently added either using the designer or manually in the XAML view are affected.
 
-**Double quotes (")**  
-Attribute values are enclosed in double quotes.  
+**Double quotes (")**
+
+Attribute values are enclosed in double quotes.
 `<Button Name="button1">Hello</Button>`
 
-**Single quotes (')**  
-Attribute values are enclosed in single quotes.  
+**Single quotes (')**
+
+Attribute values are enclosed in single quotes.
 `<Button Name='button1'>Hello</Button>`
 
 ## Tag Wrapping
+
 You can specify a line length for tag wrapping. When tag wrapping is enabled, any XAML subsequently added by using the designer will be wrapped appropriately.
 
-**Wrap tags that exceed specified length**  
+**Wrap tags that exceed specified length**
+
 Specifies whether lines are wrapped at the line length specified by **Length**.
 
-**Length**  
+**Length**
+
 The number of characters a line may contain. If necessary, some XAML lines might exceed the specified line length.
 
 ## Attribute Spacing
+
 Use this setting to control how attributes are arranged in your XAML document
 
-**Preserve newlines and spaces between attributes**  
+**Preserve newlines and spaces between attributes**
+
 New lines and spaces between attributes are not affected by autoformatting.
 
 ```xml
-<Button Height="23"   Name="button1"  
+<Button Height="23"   Name="button1"
 Width="75">Hello</Button>
 ```
 
-**Insert a single space between attributes**  
+**Insert a single space between attributes**
+
 Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.
 
 ```xml
 <Button Height="23" Name="button1" Width="75">Hello</Button>
 ```
 
-**Position each attribute on a separate line**  
-Each attribute occupies its own line, which is useful when many attributes are present.  
+**Position each attribute on a separate line**
+
+Each attribute occupies its own line, which is useful when many attributes are present.
 
 ```xml
-<Button  
-Height="23"  
-Name="button1"  
+<Button
+Height="23"
+Name="button1"
 Width="75">Hello</Button>
 ```
 
-**Position first attribute on same line as start tag**  
-When checked, the first attribute appears on the same line as the element's start tag.  
+**Position first attribute on same line as start tag**
+
+When checked, the first attribute appears on the same line as the element's start tag.
 
 ```xml
-<Button Height="23"  
-Name="button1"  
+<Button Height="23"
+Name="button1"
 Width="75">Hello</Button>
 ```
 
 ## Element Spacing
+
 Use this setting to control how elements are arranged in your XAML document.
 
-**Preserve new lines in content**  
-Empty lines in element content are not removed.  
+**Preserve new lines in content**
+
+Empty lines in element content are not removed.
 
 ```xml
-<Grid>  
+<Grid>
 
 
-<Button Name="button1">Hello</Button>  
+<Button Name="button1">Hello</Button>
 
 </Grid>
 ```
 
-**Collapse multiple empty lines in content to a single line**  
-Empty lines in element content are collapsed to a single line.  
+**Collapse multiple empty lines in content to a single line**
+
+Empty lines in element content are collapsed to a single line.
 
 ```xml
-<Grid>  
+<Grid>
 
-<Button Name="button1">Hello</Button>  
+<Button Name="button1">Hello</Button>
 
 </Grid>
 ```
 
-**Remove empty lines in content**  
-All empty lines in element content are removed.  
+**Remove empty lines in content**
+
+All empty lines in element content are removed.
 
 ```xml
-<Grid>  
-<Button Name="button1">Hello</Button>  
+<Grid>
+<Button Name="button1">Hello</Button>
 </Grid>
 ```
 

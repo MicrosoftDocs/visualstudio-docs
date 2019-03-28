@@ -1,21 +1,16 @@
 ---
 title: "Selection Context Objects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "selection, tracking"
   - "selection, context objects"
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Selection Context Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
  [Project Types](../../extensibility/internals/project-types.md)
-

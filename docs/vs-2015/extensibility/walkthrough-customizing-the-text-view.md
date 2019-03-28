@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Customizing the Text View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - customizing the view"
 ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Customizing the Text View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,4 +89,3 @@ You can customize a text view by modifying any of the following properties in it
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

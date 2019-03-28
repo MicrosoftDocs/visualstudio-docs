@@ -1,5 +1,5 @@
 ---
-title: "Comparing load test results in Visual Studio"
+title: "Comparing load test results"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,13 +8,15 @@ helpviewer_keywords:
 ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Report load tests results for test comparisons or trend analysis
 
-You can generate Microsoft Excel load test reports that are based on two or more test results. Two types of load test reports are available:
+You can generate Microsoft Excel load test reports that are based on two or more test results.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+Two types of load test reports are available:
 
 - Run comparison&mdash;This report is actually two reports that display side-by-side comparison data using tables and bar charts.
 
@@ -27,7 +29,7 @@ Report definitions are stored in the load test database. When a report is saved,
 Also, the spreadsheet file can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.
 
 > [!NOTE]
-> If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md).
+> If you add comments to a load test, they appear in the Excel report.
 
 ## Tasks
 

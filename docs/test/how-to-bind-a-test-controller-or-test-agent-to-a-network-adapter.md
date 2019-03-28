@@ -1,5 +1,5 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio"
+title: "Bind a Test Controller or Test Agent to a Network Adapter"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Bind a test controller or test agent to a network adapter
 
@@ -24,6 +22,8 @@ If a computer that has the test controller or the test agent software installed 
 > **Error 8110. Can not connect to the specified controller computer or access the controller object**
 >
 > This error can be caused by installing the test controller on a computer that has more than one network adapter. It is also possible to install agents successfully, and not see this problem until you try to run a test.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Bind a test controller to a specific network adapter
 
@@ -49,7 +49,7 @@ If a computer that has the test controller or the test agent software installed 
 
      `net stop vsttcontroller`
 
-3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 
@@ -95,7 +95,7 @@ If a computer that has the test controller or the test agent software installed 
 
      **net stop vsttagent**
 
-3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
 4.  locate `<appSettings>` tag.
 
@@ -127,5 +127,4 @@ If a computer that has the test controller or the test agent software installed 
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Specify timeout periods for test controllers and test agents](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)

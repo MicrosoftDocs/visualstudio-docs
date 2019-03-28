@@ -1,20 +1,15 @@
 ---
 title: "Supporting Source Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], supporting"
 ms.assetid: 567acde3-354e-4f39-8d99-0ef86c103396
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Supporting Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ manager: "ghogen"
 ## Related Sections  
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
-

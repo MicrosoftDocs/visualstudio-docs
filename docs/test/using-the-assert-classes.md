@@ -1,15 +1,13 @@
 ---
 title: MSTest assert classes and methods
 ms.date: 06/07/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords:
   - "Assert classes"
   - "Assert methods"
   - "unit tests, Assert classes"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

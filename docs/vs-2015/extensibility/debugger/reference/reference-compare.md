@@ -1,22 +1,17 @@
 ---
 title: "REFERENCE_COMPARE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "REFERENCE_COMPARE"
 helpviewer_keywords: 
   - "REFERENCE_COMPARE enumeration"
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # REFERENCE_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -65,4 +60,3 @@ public enum enum_REFERENCE_COMPARE { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [Compare](../../../extensibility/debugger/reference/idebugreference2-compare.md)
-

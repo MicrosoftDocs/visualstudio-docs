@@ -1,8 +1,6 @@
 ---
 title: "CA1505: Avoid unmaintainable code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AvoidUnmaintainableCode"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -30,7 +28,7 @@ ms.workload:
  A type or method has a low maintainability index value.
 
 ## Rule description
- The maintainability index is calculated by using the following metrics: lines of code, program volume, and cyclomatic complexity. Program volume is a measure of the difficulty of understanding of a type or method that is based on the number of operators and operands in the code. Cyclomatic complexity is a measure of the structural complexity of the type or method. You can learn more about code metrics at [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md).
+ The maintainability index is calculated by using the following metrics: lines of code, program volume, and cyclomatic complexity. Program volume is a measure of the difficulty of understanding of a type or method that is based on the number of operators and operands in the code. Cyclomatic complexity is a measure of the structural complexity of the type or method. You can learn more about code metrics at [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md).
 
  A low maintainability index indicates that a type or method is probably difficult to maintain and would be a good candidate to redesign.
 
@@ -43,4 +41,4 @@ ms.workload:
 ## See also
 
 - [Maintainability Warnings](../code-quality/maintainability-warnings.md)
-- [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
+- [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

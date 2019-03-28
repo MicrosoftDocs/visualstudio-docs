@@ -1,14 +1,9 @@
 ---
 title: "Error: Web site worker process has been terminated by IIS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.web_server_process_terminated"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 5707b972-71a6-4cc6-ab99-c7c00ca8628c
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Web site worker process has been terminated by IIS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ The debugger stopped execution of code on the Web site. This caused Internet Inf
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
-
-
-

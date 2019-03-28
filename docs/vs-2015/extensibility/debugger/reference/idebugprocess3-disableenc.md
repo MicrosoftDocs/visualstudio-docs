@@ -1,22 +1,17 @@
 ---
 title: "IDebugProcess3::DisableENC | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProcess3::DisableENC"
 helpviewer_keywords: 
   - "IDebugProcess3::DisableENC"
 ms.assetid: cffdbdac-4d76-4aeb-aa55-5d0410db99f1
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProcess3::DisableENC
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ HRESULT DisableENC(
 ## See Also  
  [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)   
  [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Inspect XAML properties while debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ private void button_Click(object sender, RoutedEventArgs e)
 3.  The application starts running.  
   
 4.  In the second instance of Visual Studio, open the **Live Visual Tree** (**Debug / Windows / Live Visual Tree**). You should see the **TestXaml** UI elements, and you should be able to manipulate them as you did while debugging the application directly.
-
-
-

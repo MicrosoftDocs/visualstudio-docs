@@ -1,22 +1,17 @@
 ---
 title: "IDebugProcessDestroyEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProcessDestroyEvent2"
 helpviewer_keywords: 
   - "IDebugProcessDestroyEvent2"
 ms.assetid: 1b8e0528-95bc-48fa-9653-2cea66c8dc3a
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProcessDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ IDebugProcessDestroyEvent2 : IUnknown
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md)
-

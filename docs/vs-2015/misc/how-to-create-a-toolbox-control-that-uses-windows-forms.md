@@ -1,21 +1,16 @@
 ---
 title: "How to: Create a Toolbox Control That Uses Windows Forms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Toolbox control"
   - "winforms"
   - "toolbox"
 ms.assetid: abbd3c3c-3a6e-4539-bd6c-a5891dead234
 caps.latest.revision: 12
-manager: "douge"
+manager: jillfra
 ---
 # How to: Create a Toolbox Control That Uses Windows Forms
 The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vssdk_dev11_long](../includes/vssdk-dev11-long-md.md)] lets you create Windows Forms controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users..  
@@ -86,7 +81,7 @@ The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vss
   
 2.  Upload the .vsix file to a network or to a Web site.  
   
-     If you upload the file to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, other users can use **Extension Manager** in Visual Studio to find the control and install it.  
+     If you upload the file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site, other users can use **Extension Manager** in Visual Studio to find the control and install it.  
   
 ## See Also  
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)

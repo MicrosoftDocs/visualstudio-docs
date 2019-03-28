@@ -1,14 +1,9 @@
 ---
 title: "LIB Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "VC.Project.VCLibrarianTool.Name"
   - "VC.Project.VCLibrarianTool.TreatLibWarningsAsErrors"
@@ -30,7 +25,7 @@ ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # LIB Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +68,3 @@ Wraps the Microsoft 32-Bit Library Manager tool, lib.exe. The Library Manager cr
 
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

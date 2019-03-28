@@ -1,20 +1,15 @@
 ---
 title: "Properties Display Grid | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "properties [Visual Studio SDK], grid"
 ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Properties Display Grid
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ The **Properties** window displays fields within a grid. The left column contain
   
 ## See Also  
  [Extending Properties](../../extensibility/internals/extending-properties.md)
-

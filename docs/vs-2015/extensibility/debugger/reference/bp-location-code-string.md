@@ -1,22 +1,17 @@
 ---
 title: "BP_LOCATION_CODE_STRING | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_LOCATION_CODE_STRING"
 helpviewer_keywords: 
   - "BP_LOCATION_CODE_STRING structure"
 ms.assetid: a4cd71c6-5052-45fe-907b-ebc6ca1df2e4
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_LOCATION_CODE_STRING
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ typedef struct _BP_LOCATION_CODE_STRING { 
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
-

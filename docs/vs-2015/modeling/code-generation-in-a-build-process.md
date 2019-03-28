@@ -1,12 +1,9 @@
 ---
 title: "Code Generation in a Build Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
@@ -14,7 +11,7 @@ ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Code Generation in a Build Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +23,7 @@ This means that you can’t access things like project file names in the same wa
 
 ##  <a name="buildserver"></a> Configure your machines
 
-To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754).
+To enable build tasks on your development computer, install [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148).
 
 If [your build server](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.
 
@@ -131,7 +128,7 @@ There is no specific built-in integration with a source control system. However,
 
 To specify that read-only files should be overwritten, insert this property:
 
-`<OverwriteReadOnlyOuputFiles>true</OverwriteReadOnlyOuputFiles>`
+`<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>`
 
 Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.
 
@@ -282,4 +279,4 @@ There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating
 
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
 - [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)
-- [Oleg Sych: Understanding T4:MSBuild Integration](http://www.olegsych.com/2010/04/understanding-t4-msbuild-integration/)
+- [Oleg Sych: Understanding T4:MSBuild Integration](https://github.com/olegsych/T4Toolbox)

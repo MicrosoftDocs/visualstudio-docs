@@ -1,14 +1,9 @@
 ---
 title: "How to: Install a Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "visualizers, installing"
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Install a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ After you have created a visualizer, you must install the visualizer so that it 
 ## See Also  
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "Remote Debugging ASP.NET on a Remote IIS 7.5 Computer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Remote Debugging ASP.NET on a Remote IIS Computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +104,3 @@ Once it is installed, make sure the remote debugger is running on the target mac
 1. In the ASP.NET web page, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
-
-
-

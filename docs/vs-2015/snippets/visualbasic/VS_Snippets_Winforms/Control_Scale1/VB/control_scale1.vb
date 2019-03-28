@@ -60,7 +60,7 @@ Public Class MyForm
       Me.myButton1.Name = "myButton1"
       Me.myButton1.Size = New System.Drawing.Size(184, 80)
       Me.myButton1.TabIndex = 0
-      Me.myButton1.Text = "Scaleable Control"
+      Me.myButton1.Text = "Scalable Control"
       RegisterEventHandler()
       ' Set the properties for 'myButton2'.
       Me.myButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25F, _

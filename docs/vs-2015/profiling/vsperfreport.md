@@ -1,14 +1,9 @@
 ---
 title: "VSPerfReport | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "command-line tools, VSPerfReporttool"
   - "performance tools, VSPerfReport tool"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "instrumentation, VSPerfReporttool"
 ms.assetid: dbfd8d91-4430-4b82-81b9-97ac61412a6c
 caps.latest.revision: 37
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # VSPerfReport
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,6 +88,3 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
   
 ## See Also  
  [Performance Report Views](../profiling/performance-report-views.md)
-
-
-

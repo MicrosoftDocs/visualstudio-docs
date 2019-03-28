@@ -2,13 +2,12 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "09/06/2018"
-ms.technology: vs-nodejs
+ms.date: "11/01/2018"
 ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
@@ -52,11 +51,18 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the Node.js development workload.
+* You must have Visual Studio installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
 
-    If you need to install the workload but already have Visual Studio, select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
@@ -68,13 +74,17 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 First, create a Node.js web application project.
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
-1. From the top menu bar, choose **File** > **New** > **Project**.
+1. Create a new project.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
-
-     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload.
+    ::: moniker range=">=vs-2019"
+    Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application** (JavaScript). In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
+    ::: moniker-end
+    If you don't see the **Blank Node.js Web Application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new solution and opens your project.
 
@@ -115,18 +125,18 @@ This app requires a number of npm modules to run correctly.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
-1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. To do this, add a `dependencies` section with this code:
+1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into *package.json*. To do this, add a `dependencies` section with this code:
 
     ```json
     "dependencies": {
-      "express": "~4.16.3",
+      "express": "~4.16.4",
       "path": "~0.12.7",
-      "react": "~16.4.2",
-      "react-dom": "~16.4.2",
-      "ts-loader": "~4.5.0",
-      "typescript": "~2.9.2",
-      "webpack": "~4.17.1",
-      "webpack-cli": "~2.1.5"
+      "react": "~16.6.0",
+      "react-dom": "~16.6.0",
+      "ts-loader": "~5.3.0",
+      "typescript": "~3.1.5",
+      "webpack": "~4.23.1",
+      "webpack-cli": "~3.1.2"
     }
     ```
 
@@ -196,7 +206,7 @@ For this simple app, you add the new project files in the project root. (In most
     var React = require('react');
     var ReactDOM = require('react-dom');
 
-    class Hello extends React.Component {
+    export class Hello extends React.Component {
         render() {
             return (
                 <h1>Welcome to React!!</h1>
@@ -252,7 +262,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     }
     ```
 
-    The webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
+    The webpack configuration code instructs webpack to use the TypeScript loader to transpile the JSX.
 
 1. Open *tsconfig.json* and replace the default code with the following code, which specifies the TypeScript compiler options:
 
@@ -372,7 +382,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
-    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
+    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
 
     > [!NOTE]
     > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.

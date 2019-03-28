@@ -1,18 +1,14 @@
 ---
 title: Constructing filter strings for the table designer | Microsoft Docs
 description: Constructing filter strings for the table designer
-
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016
 ms.author: ghogen
-
 ---
 # Constructing Filter Strings for the Table Designer
 ## Overview

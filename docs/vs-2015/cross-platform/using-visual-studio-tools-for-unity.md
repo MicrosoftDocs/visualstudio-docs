@@ -1,19 +1,14 @@
 ---
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-unity-tools
+ms.topic: conceptual
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 caps.latest.revision: 7
-author: "TerryGLee"
-ms.author: "tglee"
-manager: "ghogen"
+author: conceptdev
+ms.author: crdun
+manager: jillfra
 ---
 # Using Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -187,4 +182,3 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
      The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the Unity scripting engine.  
   
 4. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
-

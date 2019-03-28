@@ -1,22 +1,17 @@
 ---
 title: "Upgrading Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "upgrading VSPackages"
   - "upgrading applications, strategies"
   - "VSPackages, upgrade support"
 ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Upgrading Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../../include
  [Projects](../../extensibility/internals/projects.md)   
  [Upgrading Custom Projects](../../misc/upgrading-custom-projects.md)   
  [Upgrading Project Items](../../misc/upgrading-project-items.md)
-

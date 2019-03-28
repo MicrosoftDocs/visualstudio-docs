@@ -1,21 +1,16 @@
 ---
 title: "Memory Tab, Process Properties Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Process properties for Windows NT"
 ms.assetid: a70785f2-5997-40ec-a90f-80a52449768b
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Memory Tab, Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ Use the **Memory** tab to show how a process uses memory. To display the [Proces
 |**Reserved Bytes**|The total amount of virtual memory reserved for future use by this process.|  
 |**Free Image Bytes**|The amount of virtual address space that is not in use or reserved by images within this process.|  
 |**Reserved Image Bytes**|The sum of all virtual memory reserved by images run within this process.|
-
-
-

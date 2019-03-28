@@ -1,14 +1,13 @@
 ---
-title: Configuring Python web apps for IIS
+title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 10/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 12/06/2018
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
   - azure
@@ -33,7 +32,7 @@ When using a dedicated host, you can use the global Python environment to run yo
 
 ## Set web.config to point to the Python interpreter
 
-Your app's *web.config* file instructs the IIS (7+) web server running on Windows about how it should handle Python requests through either FastCGI or HttpPlatform. When using Visual Studio 2017, you must modify *web.config* manually. As described in a later section, Visual Studio 2015 makes modifications
+Your app's *web.config* file instructs the IIS (7+) web server running on Windows about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI. Visual Studio versions 2015 and earlier make these modifications automatically. When using Visual Studio 2017 and later, you must modify *web.config* manually.
 
 ### Configure the HttpPlatform handler
 

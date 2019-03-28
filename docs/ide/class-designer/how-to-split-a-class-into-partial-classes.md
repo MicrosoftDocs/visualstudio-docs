@@ -1,8 +1,6 @@
 ---
 title: "How to: Split a Class into Partial Classes (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "Class Designer, partial classes"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

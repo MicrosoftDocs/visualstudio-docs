@@ -1,14 +1,9 @@
 ---
 title: "Debug Hook Function Writing | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vc.hooks"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "debugging [CRT], debug hook functions"
 ms.assetid: 5510635f-cf69-4907-b72d-ae27af1f19af
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug Hook Function Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ This section describes a number of custom debug hook functions you can write tha
 ## Related Sections  
  [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)  
  Links to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between `malloc` and `_malloc_dbg`, writing debug hook functions, and the CRT debug heap.
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Working with 3-D Assets for Games and Apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics"
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with 3-D Assets for Games and Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ This document describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools t
 |[Working with 3-D Models](../designers/working-with-3-d-models.md)|Describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to work with 3-D models.|  
 |[Working with Shaders](../designers/working-with-shaders.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to create and modify custom shader effects.|  
 |[Using 3-D Assets in Your Game or App](../designers/using-3-d-assets-in-your-game-or-app.md)|Describes how to use assets, which you created by using the Image Editor, Model Editor, or Shader Designer, in your game or app.|
-
-
-

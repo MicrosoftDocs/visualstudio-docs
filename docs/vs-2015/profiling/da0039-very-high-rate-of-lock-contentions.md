@@ -1,28 +1,23 @@
 ---
 title: "DA0039: Very High Rate of Lock contentions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.39"
   - "vs.performance.DA0039"
   - "vs.performance.rules.DA0039"
 ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0039: Very High Rate of Lock contentions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [DA0039: Very High Rate of Lock contentions](https://docs.microsoft.com/visualstudio/profiling/da0039-very-high-rate-of-lock-contentions) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0039: Very High Rate of Lock contentions](https://docs.microsoft.com/visualstudio/profiling/da0039-very-high-rate-of-lock-contentions) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -55,4 +50,3 @@ For the latest documentation on Visual Studio 2017, see [DA0039: Very High Rate 
  Double-click the message to navigate to the [Marks](../profiling/marks-view.md) view of the profiling data.  Find the **.NET CLR LocksAndThreads\Contention Rate / sec** column. Determine if there are specific phases of program execution where lock contention is heavier than other phases.  
   
  This rule fires only when you are not using the concurrency profiling method. The concurrency profiling method is the best tool to use to diagnose performance problems related to lock contention in your application. Collect concurrency profiling data to understand the locking behavior of your application. This includes understanding which locks are heavily contended, how long thread execution time is delayed waiting for contended locks, and what specific code is implicated. Concurrency profiles collects data on all lock contentions, including the locking behavior of native Windows facilities, .NET Framework classes, and any other third-party libraries your application references. For information about concurrency profiling from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE, see [Collecting Thread and Process Concurrency Data](../profiling/collecting-thread-and-process-concurrency-data.md). For links to information about concurrency profiling from the command line, see the **Using the Concurrency Method to Collect Resource Contention and Thread Activity Data** section of [Using Profiling Methods From the Command Line](../profiling/using-profiling-methods-to-collect-performance-data-from-the-command-line.md).
-

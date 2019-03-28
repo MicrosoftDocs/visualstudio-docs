@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD File: Relationships"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

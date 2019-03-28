@@ -77,9 +77,9 @@
         var b = 4;  
         var a = example4_a(2);  
         callTrack += "->example4";  
-        var multilpyByA = multiClosure(a);  
+        var multiplyByA = multiClosure(a);  
         a = 20;  
-        var x = multilpyByA(b);  
+        var x = multiplyByA(b);  
         return x;  
     }  
   
@@ -90,11 +90,11 @@
   
     function multiClosure(num) {  
         var a = num;  
-        function mulitplyXby(b) {  
-            callTrack += "->mulitplyXby";  
+        function multiplyXby(b) {  
+            callTrack += "->multiplyXby";  
             return a * b;  
         }  
-        return mulitplyXby;  
+        return multiplyXby;  
     }  
   
     function example5() {  

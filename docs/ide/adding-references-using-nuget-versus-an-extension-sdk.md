@@ -1,18 +1,16 @@
 ---
 title: Adding References Using NuGet Versus an Extension SDK
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Adding references using NuGet versus an extension SDK
 
-You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.
+You can provide a package for consumption within Visual Studio projects by using either NuGet or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this article can help you choose the best one for your task.
 
 - NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see the [NuGet documentation](/nuget).
 
@@ -21,7 +19,6 @@ You can provide a package for consumption within Visual Studio projects by using
 ## Which mechanism should I use?
 
 The following table helps you compare the referencing features of an SDK with the referencing features of NuGet.
-
 
 | Feature | SDK Support | SDK Notes | NuGet Support | NuGet Notes |
 | - | - | - |---------------| - |
@@ -64,4 +61,5 @@ The following table helps you compare the referencing features of an SDK with th
 
 ## See also
 
-- [Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Manage references in a project](../ide/managing-references-in-a-project.md)
+- [Manage references in a project (Visual Studio for Mac)](/visualstudio/mac/managing-references-in-a-project)

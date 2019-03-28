@@ -1,14 +1,9 @@
 ---
 title: "How to: Use Edit and Continue (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "Edit and Continue [C#], about Edit and Continue"
 ms.assetid: 40e136d8-a08c-43bd-b313-fb821c55eb3c
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use Edit and Continue (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ With Edit and Continue for C#, you can make changes to your code in break mode w
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md)   
  [Edit and Continue Errors and Warnings (C#)](../misc/edit-and-continue-errors-and-warnings-csharp.md)
-
-
-

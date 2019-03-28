@@ -1,19 +1,14 @@
 ---
 title: "Graphics Diagnostics Examples | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Diagnostics Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ These examples show how to debug rendering problems in DirectX-based apps by usi
  You can use Graphics Diagnostics to debug DirectCompute compute-shader kernels that generate incorrect results. With DirectCompute, you can use the computational power of the GPU to perform calculations on a large number of data elements in parallel. For certain kinds of problems, utilizing the GPU can perform many times faster than even well-optimized CPU code. However, traditional debuggers can't detect code that runs on the GPU. Debugging this kind of code requires specialized tools that are often vendor-specific, and might not integrate well with Visual Studio. To make compute-shader debugging more consistent across a range of GPUs, Graphics Diagnostics captures DirectCompute Dispatch events—in addition to Direct3D rendering events—so that you can use familiar tools to debug problems in your compute-shader code.  
   
  For a scenario that demonstrates how to debug a simulation problem that's caused by a bug in a compute shader, see [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md).
-
-
-

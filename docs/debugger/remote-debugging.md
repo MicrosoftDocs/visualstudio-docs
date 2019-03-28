@@ -1,8 +1,7 @@
 ---
-title: "Remote debugging in Visual Studio | Microsoft Docs"
-ms.custom: "remotedebugging"
+title: "Remote debugging | Microsoft Docs"
+ms.custom: ['remotedebugging', 'seodec18']
 ms.date: "07/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -17,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -50,11 +49,22 @@ If you just want to download and install the remote debugger and don't need any 
 
 You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help > Usage** in the remote debugger).
 
-1. Find *msvsmon.exe* in the directory matching your version of Visual Studio. For Visual Studio Enterprise 2017:
+1. Find *msvsmon.exe* in the directory matching your version of Visual Studio:
 
-      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+   ::: moniker range=">=vs-2019"
 
-      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+
+   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+
+   *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+
+   *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   ::: moniker-end
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 
@@ -115,7 +125,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 ## See also
 
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
 - [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)

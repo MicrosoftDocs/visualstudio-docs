@@ -1,21 +1,16 @@
 ---
 title: "Validate your system during development | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams"
 ms.assetid: c9dafb47-7b1d-4c72-9432-d43be3db1799
 caps.latest.revision: 39
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Validate your system during development
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ Visual Studio can help keep your software consistent with the users' requirement
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
-
-
-

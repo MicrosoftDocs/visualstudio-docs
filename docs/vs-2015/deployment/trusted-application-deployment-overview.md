@@ -1,14 +1,9 @@
 ---
 title: "Trusted Application Deployment Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,6 +101,3 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
 ## See Also  
  [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
-
-
-

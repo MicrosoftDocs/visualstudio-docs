@@ -1,19 +1,14 @@
 ---
 title: "How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 2fa072fc-05fe-4420-99c0-51d2ea3ac4ce
 caps.latest.revision: 29
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -128,6 +123,3 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
-
-
-

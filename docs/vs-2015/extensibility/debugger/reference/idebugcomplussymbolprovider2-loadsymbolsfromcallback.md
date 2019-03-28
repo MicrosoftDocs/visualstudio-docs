@@ -1,21 +1,16 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "LoadSymbolsFromCallback"
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback"
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -169,4 +164,3 @@ Error:
   
 ## See Also  
  [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)
-

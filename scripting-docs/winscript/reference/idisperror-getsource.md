@@ -2,7 +2,6 @@
 title: "IDispError::GetSource | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the language-dependent programmatic identifier for the class or applicat
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSource(  
    BSTR*  pbstrSource  
 );  

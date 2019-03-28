@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramNodeAttach2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramNodeAttach2"
 helpviewer_keywords: 
   - "IDebugProgramNodeAttach2 interface"
 ms.assetid: 46b37ac9-a026-4ad3-997b-f19e2f8deb73
 caps.latest.revision: 4
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramNodeAttach2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ IDebugProgramNodeAttach2 : IUnknown
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
  [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)
-

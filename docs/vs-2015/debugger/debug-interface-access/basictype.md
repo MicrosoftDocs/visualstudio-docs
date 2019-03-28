@@ -1,23 +1,18 @@
 ---
 title: "BasicType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "BasicType enumeration"
 ms.assetid: 19ae53ba-cd6e-47b6-9f94-27ae663ce955
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # BasicType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -114,6 +109,3 @@ enum BasicType { 
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)   
  [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)
-
-
-

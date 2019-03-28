@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Setting for a Distributed Load Test in Visual Studio"
+title: "Create a Test Setting for a Distributed Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,13 +7,13 @@ helpviewer_keywords:
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a test setting for a distributed load test
 
 Configure *test settings* for your load tests so you can distribute those tests across multiple machines using test agents and test controllers. You can also configure test settings to use *diagnostic data adapters*, which specify the kinds of data that you want to collect or how to affect the test machines when you run your load tests from Visual Studio.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 For example, you can use the ASP.NET Profiler diagnostic data adapter to collect the performance breakdown of the code. Additionally, diagnostic data adapters can be used to simulate potential bottlenecks on the test machine or reduce the available system memory.
 
@@ -122,7 +122,7 @@ Follow these steps to create and remove test settings in your solution for load 
     |**ASP.NET Client Proxy for IntelliTrace and Test Impact:** This proxy lets you collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.|![Information icon](../test/media/vc364f4.gif)<br /><br /> Unless you have a specific need to collect system information for the test agent machines, do not include this adapter. **Caution:**  We do not recommend the use of the IntelliTrace adapter in load tests because of problems that occur because of the large amount of data that is collected. <br /><br /> Test impact data is not collected by using load tests.||
     |**IntelliTrace:** You can configure specific diagnostic trace information that is stored in a log file. A log file has an extension of *.tdlog*. When you run your test and a test step fails, you can create a bug. The log file that contains the diagnostic trace is automatically attached to this bug. The data that is collected in the log file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in the code. From this log file the local session can be recreated on another computer. This reduces the risk that a bug cannot be reproduced.<br /><br /> For more information, see [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).|![Important icon](../test/media/vc364f3.gif)<br /><br /> We do not recommend the use of the IntelliTrace adapter in load tests because of problems that occur because of the large amount of data that is collected and logged. You should attempt to use the IntelliTrace adapter only in load tests that do not run long and do not use many test agents.|[How to: Collect IntelliTrace data to help debug difficult issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)|
     |**ASP.NET Profiler:** You can create a test setting that includes ASP.NET profiling, which collects performance data on ASP.NET web applications.|The ASP.NET profiler diagnostic data adapter profiles the Internet Information Services (IIS) process, so it will not work against a development web server. To profile the website in your load test, you have to install a test agent on the machine that the IIS is running on. The test agent will not be generating load, but it will be a collection only agent. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).|[How to: Configure ASP.NET profiler for load tests using test settings](../test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md)|
-    |**Event log:** You can configure a test setting to include event log collecting, which will be included in the test results.||[How to: Configure event log collection using test settings](http://msdn.microsoft.com/en-us/48d67891-6018-4549-83e3-213d5d824a02)|
+    |**Event log:** You can configure a test setting to include event log collecting, which will be included in the test results.||[How to: Configure event log collection using test settings](https://msdn.microsoft.com/48d67891-6018-4549-83e3-213d5d824a02)|
     |**Network Emulation:** You can specify that you want to put an artificial network load on your test by using a test setting. Network emulation affects the communication to and from the machine by emulating a particular network connection speed, such as dial-up. **Note:**  Network emulation cannot be used to increase the network connection speed.|The Network Emulation adapter is ignored by load tests. Instead, load tests use the settings that are specified in the network mix of the load test scenario.<br /><br /> For more information, see [Specify virtual network types](../test/specify-virtual-network-types-in-a-load-test-scenario.md).||
     |**System Information:** A test setting can be set up to include the system information about the machines on which the System Information diagnostic and data collector is run. The system information is specified in the test results by using a test setting.|![Information icon](../test/media/vc364f4.gif)<br /><br /> You can collect system information from both the load agents and the system under test.|No configuration is required to collect this information.|
     |**Test Impact:** You can collect information about which methods of your applications code were used when a test case was run. This can be used together with changes to the application code that are made by developers to determine which tests were affected by those development changes.|Test impact data is not collected with load tests.||

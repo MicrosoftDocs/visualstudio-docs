@@ -6,7 +6,12 @@
   href: starting-to-develop-visual-studio-extensions.md
 - name: "Create your First Extension: Hello World"
   href: extensibility-hello-world.md
-- name: What's New in the Visual Studio 2017 SDK
+- name: What's New Visual Studio 2019 SDK
+  href: whats-new-visual-studio-2019-sdk.md
+  items:
+  - name: Synchronously autoloaded extensions
+    href: synchronously-autoloaded-extensions.md
+- name: What's New Visual Studio 2017 SDK
   href: what-s-new-in-the-visual-studio-2017-sdk.md
   items:
   - name: Breaking Changes in Extensibility
@@ -230,8 +235,10 @@
       href: assembly-element-visual-studio-templates.md
     - name: Assembly Element (Visual Studio Template Wizard Extension)
       href: assembly-element-visual-studio-template-wizard-extension.md
-    - name: BuildProjectOnLoad (Visual Studio Templates)
-      href: buildprojectonload-visual-studio-templates.md
+    - name: BuildOnLoad Attribute and Element (Visual Studio Templates)
+      href: buildonload-visual-studio-templates.md
+    - name: BuildProjectOnload Element (Visual Studio Templates)
+      href: buildprojectonload-element-visual-studio-templates.md
     - name: CreateInPlace (Visual Studio Templates)
       href: createinplace-visual-studio-templates.md
     - name: CreateNewFolder Element (Visual Studio Templates)
@@ -294,6 +301,10 @@
       href: references-element-visual-studio-templates.md
     - name: RequiredFrameworkVersion Element (Visual Studio Templates)
       href: requiredframeworkversion-element-visual-studio-templates.md
+    - name: RequiredPlatformVersion Element (Visual Studio Templates)
+      href: requiredplatformversion-element-visual-studio-templates.md
+    - name: SDKReference Element (Visual Studio Templates)
+      href: sdkreference-element-visual-studio-templates.md
     - name: ShowByDefault (Visual Studio Templates)
       href: showbydefault-visual-studio-templates.md
     - name: SolutionFolder Element (Visual Studio Templates)
@@ -306,6 +317,8 @@
       href: supportslanguagedropdown-element-visual-studio-templates.md
     - name: SupportsMasterPage Element (Visual Studio Templates)
       href: supportsmasterpage-element-visual-studio-templates.md
+    - name: TargetPlatformName Element (Visual Studio Templates)
+      href: targetplatformname-element-visual-studio-templates.md
     - name: TemplateContent Element (Visual Studio Templates)
       href: templatecontent-element-visual-studio-templates.md
     - name: TemplateData Element (Visual Studio Templates)
@@ -320,14 +333,6 @@
       href: wizarddata-element-visual-studio-templates.md
     - name: WizardExtension Element (Visual Studio Templates)
       href: wizardextension-element-visual-studio-templates.md
-    - name: BuildProjectOnload Element (Visual Studio Templates)
-      href: buildprojectonload-element-visual-studio-templates.md
-    - name: RequiredPlatformVersion Element (Visual Studio Templates)
-      href: requiredplatformversion-element-visual-studio-templates.md
-    - name: SDKReference Element (Visual Studio Templates)
-      href: sdkreference-element-visual-studio-templates.md
-    - name: TargetPlatformName Element (Visual Studio Templates)
-      href: targetplatformname-element-visual-studio-templates.md
   - name: Visual Studio Template Manifest Schema Reference
     href: visual-studio-template-manifest-schema-reference.md
 - name: Extending User Settings and Options
@@ -379,7 +384,45 @@
 - name: Visual Studio C++ project extensibility
   href: visual-cpp-project-extensibility.md
 - name: Visual Studio User Experience Guidelines
-  href: ux-guidelines/toc.yml
+  href: ux-guidelines/visual-studio-user-experience-guidelines.md
+  items:
+  - name: UX Essentials
+    href: ux-guidelines/ux-essentials-for-visual-studio.md
+  - name: Fonts and Formatting
+    href: ux-guidelines/fonts-and-formatting-for-visual-studio.md
+  - name: Colors and Styling
+    href: ux-guidelines/colors-and-styling-for-visual-studio.md
+    items:
+    - name: Shared Colors
+      href: ux-guidelines/shared-colors-for-visual-studio.md
+    - name: Color Value Reference
+      href: ux-guidelines/color-value-reference-for-visual-studio.md
+  - name: Images and Icons
+    href: ux-guidelines/images-and-icons-for-visual-studio.md
+    items:
+    - name: Visual Language Dictionary
+      href: ux-guidelines/visual-language-dictionary-for-visual-studio.md
+  - name: Menus and Commands
+    href: ux-guidelines/menus-and-commands-for-visual-studio.md
+  - name: Interaction Patterns
+    href: ux-guidelines/interaction-patterns-for-visual-studio.md
+    items:
+    - name: Application Patterns
+      href: ux-guidelines/application-patterns-for-visual-studio.md
+    - name: Common Control Patterns
+      href: ux-guidelines/common-control-patterns-for-visual-studio.md
+    - name: Composite Patterns
+      href: ux-guidelines/composite-patterns-for-visual-studio.md
+  - name: UI Text and Help
+    href: ux-guidelines/ui-text-and-help-for-visual-studio.md
+  - name: Dialog Layout
+    href: ux-guidelines/layout-for-visual-studio.md
+  - name: Notifications and Progress
+    href: ux-guidelines/notifications-and-progress-for-visual-studio.md
+  - name: Animations
+    href: ux-guidelines/animations-for-visual-studio.md
+  - name: Evaluation Tools
+    href: ux-guidelines/evaluation-tools-for-visual-studio.md
 - name: Addressing DPI Issues
   href: addressing-dpi-issues2.md
 - name: Image Service and Catalog
@@ -740,3 +783,5 @@
     href: getting-started-with-roslyn-analyzers.md
   - name: Roslyn Analyzers and Code-aware Library for ImmutableArrays
     href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
+  - name: Roslyn package version reference
+    href: roslyn-version-support.md

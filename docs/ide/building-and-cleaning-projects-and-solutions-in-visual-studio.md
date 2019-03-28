@@ -1,7 +1,6 @@
 ---
-title: Building and Cleaning Projects and Solutions in Visual Studio
+title: Building and Cleaning Projects and Solutions
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
@@ -21,12 +20,16 @@ helpviewer_keywords:
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Building and cleaning projects and solutions in Visual Studio
+# Build and clean projects and solutions in Visual Studio
+
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/visualstudio/mac/building-and-cleaning-projects-and-solutions).
 
 > [!NOTE]
 > The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
@@ -40,7 +43,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
     -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
-        >  The **Build** command becomes **Build Solution** when a solution includes more than one project.
+        > The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
     -   Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 
@@ -112,3 +115,4 @@ Perform either of the following steps:
 - [C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Build and clean projects and solutions (Visual Studio for Mac)](/visualstudio/mac/building-and-cleaning-projects-and-solutions)

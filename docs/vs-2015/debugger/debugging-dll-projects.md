@@ -1,14 +1,9 @@
 ---
 title: "Debugging DLL Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], DLLs"
 ms.assetid: 433cab30-d191-460b-96f7-90d2530ca243
 caps.latest.revision: 41
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging DLL Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,20 +92,20 @@ The following templates create DLLs:
 ###  <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the Calling Application  
  To debug a DLL, start by debugging the calling application, typically either an EXE or a Web application. There are several ways to debug it.  
   
-- If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [How to: Start Execution](http://msdn.microsoft.com/en-us/b0fe0ce5-900e-421f-a4c6-aa44ddae453c).  
+- If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [How to: Start Execution](http://msdn.microsoft.com/b0fe0ce5-900e-421f-a4c6-aa44ddae453c).  
   
-- If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).  
+- If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](http://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).  
   
 - You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md).  
   
 - You can debug it from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Immediate** window. In this case, the **Immediate** window plays the role of the application.  
   
-  Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9).  
+  Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Code Stepping Overview](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9).  
   
 ###  <a name="vxtskdebuggingdllprojectscontrolsonawebpage"></a> Controls on a Web Page  
  To debug a Web page control, create an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page that embeds it if such a page does not already exist. You then place breakpoints in the Web page code as well as the control code. You then invoke the Web page from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
- Before you start debugging the calling application, you will usually want to set a breakpoint in the DLL. When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
+ Before you start debugging the calling application, you will usually want to set a breakpoint in the DLL. When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 ###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> The Immediate Window  
  You can evaluate functions or methods in the DLL without having a calling application. You do design-time debugging and you use the **Immediate** window. To debug in this manner, do the follow these steps while the DLL project is open:  
@@ -149,6 +144,3 @@ The following templates create DLLs:
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Debugger Security](../debugger/debugger-security.md)
-
-
-

@@ -1,23 +1,18 @@
 ---
 title: "IDiaSession::symbolById | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::symbolById method"
 ms.assetid: 062e4b5a-9c4d-4703-88da-ec13102c2b66
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaSession::symbolById
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -69,6 +64,3 @@ IDiaSymbol *GetSymbolType(IDiaSymbol *pSymbol, IDiaSession *pSession)
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)
-
-
-

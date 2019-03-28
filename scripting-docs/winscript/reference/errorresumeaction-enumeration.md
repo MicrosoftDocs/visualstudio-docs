@@ -2,7 +2,6 @@
 title: "ERRORRESUMEACTION Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Describes how to continue from a runtime error.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagERRORRESUMEACTION {  
    ERRORRESUMEACTION_ReexecuteErrorStatement,  
    ERRORRESUMEACTION_AbortCallAndReturnErrorToCaller,  

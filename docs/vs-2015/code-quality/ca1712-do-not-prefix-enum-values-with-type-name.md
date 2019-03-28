@@ -1,14 +1,9 @@
 ---
 title: "CA1712: Do not prefix enum values with type name | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1712"
   - "DoNotPrefixEnumValuesWithTypeName"
@@ -61,6 +56,3 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Enum?displayProperty=fullName>
-
-
-

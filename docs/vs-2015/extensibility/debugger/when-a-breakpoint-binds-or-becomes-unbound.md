@@ -1,21 +1,16 @@
 ---
 title: "When a Breakpoint Binds or Becomes Unbound | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], breakpoint unbound events"
   - "breakpoint bound events"
 ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # When a Breakpoint Binds or Becomes Unbound
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ When a breakpoint cannot be bound at the time a call is made to the [IDebugPendi
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
-

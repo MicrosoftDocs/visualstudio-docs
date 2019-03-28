@@ -1,22 +1,17 @@
 ---
 title: "Expression Evaluator Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "architecture, expression evaluators"
   - "expression evaluators, architecture"
   - "debugging [Debugging SDK], expression evaluators"
 ms.assetid: aad7c4c6-1dc1-4d32-b975-f1fdf76bdeda
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Expression Evaluator Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ manager: "ghogen"
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)   
  [Changing the Value of a Local](../../extensibility/debugger/changing-the-value-of-a-local.md)
-

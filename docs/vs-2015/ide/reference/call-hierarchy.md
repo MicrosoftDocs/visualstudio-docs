@@ -1,14 +1,9 @@
 ---
 title: "Call Hierarchy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.CallHierarchy"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: c55bda01-d7de-4823-8f9a-1bcc37dbb74a
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Call Hierarchy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -68,6 +63,3 @@ Call Hierarchy window
 |**Find All References**|Runs the Find All References command on the selected node. This finds all the lines of code in your project that reference a class or member.<br /><br /> You can also use SHIFT+F12 to run the Find All References command on the selected node.|  
 |**Copy**|Copies the contents of the selected node (but not its subnodes).|  
 |**Refresh**|Collapses the selected node so that re-expanding it displays current information.|
-
-
-

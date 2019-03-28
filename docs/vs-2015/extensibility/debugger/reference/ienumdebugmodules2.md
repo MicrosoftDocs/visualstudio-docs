@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugModules2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugModules2"
 helpviewer_keywords: 
   - "IEnumDebugModules2"
 ms.assetid: 4fe28074-a960-41ad-b74d-b57f04c0c0ad
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugModules2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ IEnumDebugModules2 : IUnknown
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md)
-

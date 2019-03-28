@@ -1,12 +1,9 @@
 ---
 title: "Processing Text Templates by using a Custom Host | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, in application or VS extension"
   - "text templates, custom directive hosts"
@@ -14,7 +11,7 @@ ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Processing Text Templates by using a Custom Host
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +59,3 @@ string output = engine.ProcessTemplate(templateString, host);
   
  [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)  
  Provides an overview of text template directive processors.
-
-
-

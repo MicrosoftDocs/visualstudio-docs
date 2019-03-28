@@ -1,21 +1,16 @@
 ---
 title: "Updating the User Interface | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user interfaces, updating"
   - "commands, updating UI"
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
 caps.latest.revision: 42
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Updating the User Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ After you implement a command, you can add code to update the user interface wit
 ## See Also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Implementation](../extensibility/internals/command-implementation.md)
-

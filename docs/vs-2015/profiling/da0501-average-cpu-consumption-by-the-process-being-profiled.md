@@ -1,23 +1,18 @@
 ---
 title: "DA0501: Average CPU consumption by the Process being profiled. | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DA0501"
   - "vs.performance.DA0501"
   - "vs.performance.501"
 ms.assetid: b01946b4-75e3-47d5-a1a1-cebfae66a3af
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0501: Average CPU consumption by the Process being profiled.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ Rule Id|DA501|
   
 ## How to Use Rule Data  
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different test scenarios.
-
-
-

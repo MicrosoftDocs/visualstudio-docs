@@ -1,23 +1,18 @@
 ---
 title: "IDiaEnumTables::Item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumTables::Item method"
 ms.assetid: d65ab262-10c6-48ce-95a3-b5e4cb2c85af
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaEnumTables::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ pEnumTables->Item( var, &pTable );
  [IDiaTable](../../debugger/debug-interface-access/idiatable.md)   
  [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md)   
  [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)
-
-
-

@@ -1,12 +1,9 @@
 ---
 title: "Create a Windows Forms user control that supports simple data binding | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a Windows Forms user control that supports simple data binding
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +55,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+-   Access to the Northwind sample database.
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
@@ -110,7 +107,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
- This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
+ This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection.
   
 #### To create the data source  
   
@@ -160,7 +157,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 -   Drag the main **Customers** node from the **Data Sources** window onto the form, and verify that the `PhoneNumberBox` control is used to display the data in the `Phone` column.  
   
-     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 ## Run the application  
   
@@ -178,4 +175,3 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)
-

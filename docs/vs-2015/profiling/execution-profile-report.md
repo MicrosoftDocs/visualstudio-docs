@@ -1,23 +1,18 @@
 ---
 title: "Execution Profile Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.report.execution"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Execution Profile Report"
 ms.assetid: c8128472-a8ed-46f4-b1c8-a25358d6f2c1
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Execution Profile Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ The Execution Profile Report is a traditional sampling profile. Samples are take
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "CA2218: Override GetHashCode on overriding Equals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2218"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 69b020cd-29e8-45a6-952e-32cf3ce2e21d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "How to: Enable and Disable Automatic Code Analysis for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: 7c22d194-5fea-4f23-b02d-19344fa64a64
 caps.latest.revision: 10
 author: gewarren
@@ -29,6 +24,3 @@ You can configure Code Analysis to run before each build of a managed code proje
 3.  Specify the build type in **Configuration** and the target platform in **Platform**.  
   
 4.  To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** check box.
-
-
-

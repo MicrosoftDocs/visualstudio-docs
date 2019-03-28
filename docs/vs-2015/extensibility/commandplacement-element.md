@@ -1,21 +1,16 @@
 ---
 title: "CommandPlacement Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "CommandPlacements element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandPlacements"
 ms.assetid: 2cbd7ac8-c55a-43d8-a26d-713b3d790016
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CommandPlacement Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
 ## See Also  
  [CommandPlacements Element](../extensibility/commandplacements-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

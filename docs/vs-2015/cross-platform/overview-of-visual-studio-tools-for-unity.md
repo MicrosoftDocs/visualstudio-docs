@@ -1,17 +1,12 @@
 ---
 title: "Overview of Visual Studio Tools for Unity | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-unity-tools
+ms.topic: overview
 ms.assetid: b4231bb9-45c4-4c77-ac3c-d05033b26393
 caps.latest.revision: 6
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Overview of Visual Studio Tools for Unity
@@ -68,4 +63,3 @@ In this section, you'll learn more about the features Visual Studio Tools for Un
   
 ## See Also  
  [Unity Homepage](http://unity3d.com)
-

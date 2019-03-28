@@ -2,7 +2,6 @@
 title: "PROFILER_HEAP_ENUM_FLAGS Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Flags that represent whether extra information about a heap object pointed to in
   
 ## Syntax  
   
-```  
+```cpp
 typedef [v1_enum] enum {    PROFILER_HEAP_ENUM_FLAGS_NONE                      = 0x00000000,    PROFILER_HEAP_ENUM_FLAGS_STORE_RELATIONSHIP_FLAGS  = 0x00000001,} PROFILER_HEAP_ENUM_FLAGS;  
 ```  
   

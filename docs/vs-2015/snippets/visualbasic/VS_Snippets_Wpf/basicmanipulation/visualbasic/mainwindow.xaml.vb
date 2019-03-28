@@ -44,7 +44,7 @@
                                     New Rect(rectToMove.RenderSize))
 
         ' Check if the rectangle is completely in the window.
-        ' If it is not and intertia is occuring, stop the manipulation.
+        ' If it is not and intertia is occurring, stop the manipulation.
         If e.IsInertial AndAlso Not containingRect.Contains(shapeBounds) Then
             e.Complete()
         End If

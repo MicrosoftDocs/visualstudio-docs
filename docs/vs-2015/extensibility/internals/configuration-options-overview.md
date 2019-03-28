@@ -1,21 +1,16 @@
 ---
 title: "Configuration Options Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project configurations"
   - "configuration options, about configuration options"
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Configuration Options Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -74,4 +69,3 @@ Configuration interfaces
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>   
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)
-

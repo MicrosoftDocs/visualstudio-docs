@@ -1,21 +1,16 @@
 ---
 title: "Expression Evaluator Implementation Strategy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, implementation strategy"
   - "debug engines, implementation strategies"
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Expression Evaluator Implementation Strategy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,4 +28,3 @@ manager: "ghogen"
 ## See Also  
  [Implementing an Expression Evaluator](../../extensibility/debugger/implementing-an-expression-evaluator.md)   
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)
-

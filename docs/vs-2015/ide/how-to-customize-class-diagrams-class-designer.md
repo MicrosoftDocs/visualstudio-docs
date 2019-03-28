@@ -1,14 +1,9 @@
 ---
 title: "How to: Customize Class Diagrams (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "class diagrams, customizing"
   - "shapes, removing type from class diagrams"
@@ -18,7 +13,7 @@ ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Customize Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -151,6 +146,3 @@ You can change the way that class diagrams display information. You can customiz
  [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to-change-between-member-notation-and-association-notation-class-designer.md)   
  [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Commands That Must Be Run After Installation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "post-install commands"
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Commands That Must Be Run After Installation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ If you deploy your extension through an .msi file, you must run `devenv /setup` 
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
-

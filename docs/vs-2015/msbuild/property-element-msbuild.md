@@ -1,14 +1,9 @@
 ---
 title: "Property Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
 caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Property Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,6 +74,3 @@ Contains a user defined property name and value. Every property used in an [!INC
 ## See Also
 [MSBuild Properties](msbuild-properties1.md)  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

@@ -1,24 +1,23 @@
 ---
 title: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
 decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office system project"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology: office-development
-ms.prod: visual-studio-dev15
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vst.project.vbawrongversion"
   - "VST.Project.VBASecurityGenericError"
   - "VST.Project.VBASecurityPermissions"
   - "VST.SelectDocWizard.MissingCOM"
   - "VST.Project.VBASecurityNotSet"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
@@ -35,8 +34,6 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
  It is important to note that disabling access to the Visual Basic for Applications project system on its own does not protect you from viruses, it simply helps to stop some viruses from spreading to other documents if your computer ever becomes infected with a macro virus. The option is disabled by default as an added layer of protection for your computer, but enabling it does not make your computer any more susceptible to viruses if you are following security best practices.
 
  The best protection against Office macro viruses is to run Office at the High or Very High security level, to only trust macros from verified, known sources, and to stay up-to-date with security patches and virus scanners.
-
- For more information about protecting your PC from viruses and other malicious code, see [http://www.microsoft.com/protect](http://www.microsoft.com/protect).
 
  You can enable or disable the option **Trust Access to Visual Basic Project** manually.
 
@@ -121,5 +118,4 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 5. Select **Detect and Repair errors in my Office installation**, and then click **Install**.
 
 ## See also
-
- [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Secure Office solutions](../vsto/securing-office-solutions.md)

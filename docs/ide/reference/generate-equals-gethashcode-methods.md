@@ -1,12 +1,10 @@
 ---
-title: Generate C# Equals and GetHashCode Method Overrides in Visual Studio
+title: Generate C# Equals and GetHashCode Method Overrides
 ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -30,17 +28,20 @@ This code generation applies to:
 
 ## How-to
 
-1. Place your cursor in your type declaration.
+1. Place your cursor somewhere on the line of your type declaration.
 
    ![Highlighted code](media/overrides-highlight-cs.png)
 
+   > [!TIP]
+   > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
+
 1. Next, do one of the following:
 
-   - **Keyboard**
-      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
-   - **Mouse**
-      - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the type declaration.
+   - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+
+   - Right-click and select the **Quick Actions and Refactorings** menu.
+
+   - Click the ![screwdriver](../media/screwdriver-icon.png) icon that appears in the left margin.
 
    ![Generate overrides preview](media/overrides-preview-cs.png)
 
@@ -51,9 +52,9 @@ This code generation applies to:
     ![Generate overrides dialog](media/overrides-dialog-cs.png)
 
     > [!TIP]
-    > You can also choose to generate operators from this dialog by using the checkboxes underneath the members list.
+    > You can also choose to generate operators from this dialog by using the checkbox near the bottom of the dialog.
 
-   The Equals and GetHashCode overrides are generated with default implementations.
+   The `Equals` and `GetHashCode` methods are generated with default implementations.
 
    ![Generate method result](media/overrides-result-cs.png)
 

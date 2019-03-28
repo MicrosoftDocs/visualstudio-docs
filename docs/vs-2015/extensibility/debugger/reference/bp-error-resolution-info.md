@@ -1,22 +1,17 @@
 ---
 title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "BP_ERROR_RESOLUTION_INFO"
 helpviewer_keywords: 
   - "BP_ERROR_RESOLUTION_INFO structure"
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # BP_ERROR_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -84,4 +79,3 @@ public struct BP_ERROR_RESOLUTION_INFO { 
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md)
-

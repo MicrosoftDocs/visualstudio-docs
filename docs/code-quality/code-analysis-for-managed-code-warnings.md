@@ -1,8 +1,6 @@
 ---
 title: Code Analysis for Managed Code Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vc.project.vcfxcoptool.enablefxcop"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 3c2741ff-0d3a-42e6-acd5-d42310bd03c4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

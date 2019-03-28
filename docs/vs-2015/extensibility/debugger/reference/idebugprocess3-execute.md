@@ -1,22 +1,17 @@
 ---
 title: "IDebugProcess3::Execute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProcess3::Execute"
 helpviewer_keywords: 
   - "IDebugProcess3::Execute"
 ms.assetid: d831cd81-d7bf-4172-8517-aa699867791f
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProcess3::Execute
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ int Execute(
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)   
  [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
-

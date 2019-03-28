@@ -1,19 +1,14 @@
 ---
 title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-unity-tools
+ms.topic: troubleshooting
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 caps.latest.revision: 7
-author: "TerryGLee"
-ms.author: "tglee"
-manager: "ghogen"
+author: conceptdev
+ms.author: crdun
+manager: jillfra
 ---
 # Troubleshooting and Known Issues (Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
     You might need to make the **Command** window visible first. In Visual Studio, on the main menu, choose **View**, **Other Windows**, **Command Window**.  
   
 6. Finally, send the thread-dump to [vstusp@microsoft.com](mailto:vstusp@microsoft.com), along with a description of what you were doing when Visual Studio became frozen.
-

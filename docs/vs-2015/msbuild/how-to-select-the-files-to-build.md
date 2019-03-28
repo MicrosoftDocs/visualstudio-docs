@@ -1,14 +1,9 @@
 ---
 title: "How to: Select the Files to Build | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, wildcards"
   - "MSBuild, including files"
@@ -17,7 +12,7 @@ ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Select the Files to Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -175,6 +170,3 @@ When you build a project that contains several files, you can list each file sep
 ## See Also  
  [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [Items](../msbuild/msbuild-items.md)
-
-
-

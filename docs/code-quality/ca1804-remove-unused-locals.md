@@ -1,8 +1,6 @@
 ---
 title: "CA1804: Remove unused locals"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1804"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cc332e67-6543-4813-bd8a-6f6fc75bf22a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

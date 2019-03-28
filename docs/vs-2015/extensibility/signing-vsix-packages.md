@@ -1,14 +1,9 @@
 ---
 title: "Signing VSIX Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "signature"
   - "signing"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "packages"
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Signing VSIX Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
-

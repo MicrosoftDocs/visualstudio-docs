@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Defining a Locking Policy to Create Read-Only Segments
 The Immutability API of the Visual Studio Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.

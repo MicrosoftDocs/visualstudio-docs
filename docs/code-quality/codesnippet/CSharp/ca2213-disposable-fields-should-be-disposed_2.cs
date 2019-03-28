@@ -1,4 +1,4 @@
-using System;  
+using System;
 
 namespace UsageLibrary
 {
@@ -8,9 +8,9 @@ namespace UsageLibrary
       TypeA aFieldOfADisposableType = new TypeA();
       private bool disposed = false;
 
-      protected virtual void Dispose(bool disposing) 
+      protected virtual void Dispose(bool disposing)
       {
-         if (!disposed) 
+         if (!disposed)
          {
             // Dispose of resources held by this instance.
 
@@ -18,11 +18,11 @@ namespace UsageLibrary
             // Should call aFieldOfADisposableType.Dispose();
 
             disposed = true;
-             // Suppress finalization of this disposed instance.
-             if (disposing)
-             {
-                 GC.SuppressFinalize(this);
-             }
+            // Suppress finalization of this disposed instance.
+            if (disposing)
+            {
+                GC.SuppressFinalize(this);
+            }
          }
       }
 

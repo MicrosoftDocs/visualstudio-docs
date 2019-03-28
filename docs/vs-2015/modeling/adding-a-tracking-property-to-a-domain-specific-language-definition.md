@@ -1,12 +1,9 @@
 ---
 title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tracking properties [Domain-Specific Language Tools], walkthrough"
   - "Domain-Specific Language Tools, walkthroughs"
@@ -15,7 +12,7 @@ ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +23,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
  For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.  
   
- In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/en-us/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
+ In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
   
 - The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.  
   
@@ -762,6 +759,3 @@ This walkthrough shows how to add a tracking property to a domain model.
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)   
  [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)
-
-
-

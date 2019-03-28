@@ -12,9 +12,7 @@ helpviewer_keywords:
 ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

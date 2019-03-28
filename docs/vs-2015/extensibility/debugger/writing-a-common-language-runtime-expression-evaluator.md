@@ -1,22 +1,17 @@
 ---
 title: "Writing a Common Language Runtime Expression Evaluator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluators, tutorial"
   - "expression evaluation, samples"
   - "debugging [Debugging SDK], expression evaluators tutorial"
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Writing a Common Language Runtime Expression Evaluator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ manager: "ghogen"
   
 ## See Also  
  [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Localizing ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -26,7 +21,7 @@ ms.assetid: c92b193b-054d-4923-834b-d4226a4c7a1a
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Localizing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ Localization is the process of making your application appropriate for a specifi
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Globalizing Windows Forms](http://msdn.microsoft.com/library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)
-
-
-

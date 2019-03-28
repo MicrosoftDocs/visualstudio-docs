@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "text templates, custom directive processors"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Deploying a Custom Directive Processor
 
@@ -42,9 +40,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
 #### To develop a custom directive processor in a VSIX project
 
-1.  Create a VSIX project in Visual Studio.
-
-    -   In the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, then expand **Extensibility**. Click **VSIX Project**.
+1.  Create a new **VSIX Project** project.
 
 2.  In **source.extension.vsixmanifest**, set the content type and supported editions.
 

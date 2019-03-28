@@ -1,23 +1,18 @@
 ---
 title: "No Thread Activity to Show (Threads View) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.nothreadreport"
 helpviewer_keywords: 
   - "Concurrency Visualizer, No Thread Activity to Show (Threads View)"
 ms.assetid: aa5ae9d0-561d-4ef8-b36b-258ce553d50a
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # No Thread Activity to Show (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,6 +31,3 @@ This area shows data about the unhidden threads in the currently visible time ra
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Language Service Support for Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugger, language support"
   - "language services, debugging support"
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Language Service Support for Debugging
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ A language service can provide features that support a debugger through the <xre
  The type of compiler determines what you need to do to implement debugging for your language. If your compiler targets the Windows operating system and writes a .pdb file, you can debug programs with the native code debugging engine that is integrated into Visual Studio. If your compiler produces Microsoft intermediate language (MSIL), you can debug programs with the managed code debugging engine, which is also integrated into Visual Studio. If your compiler targets a proprietary operating system or a different runtime environment, you need to write your own debugging engine.  
   
  For more information on implementing debugging for your language, see [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md) in the Visual Studio Debugging SDK.
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1012: Abstract types should not have constructors"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "AbstractTypesShouldNotHaveConstructors"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 09f458ac-dd88-4cd7-a47f-4106c1e80ece
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -29,25 +27,41 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A public type is abstract and has a public constructor.
+
+A type is abstract and has a constructor.
+
+By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 
 ## Rule description
- Constructors on abstract types can be called only by derived types. Because public constructors create instances of a type, and you cannot create instances of an abstract type, an abstract type that has a public constructor is incorrectly designed.
+
+Constructors on abstract types can be called only by derived types. Because public constructors create instances of a type and you cannot create instances of an abstract type, an abstract type that has a public constructor is incorrectly designed.
 
 ## How to fix violations
- To fix a violation of this rule, either make the constructor protected or do not declare the type as abstract.
+
+To fix a violation of this rule, either make the constructor protected or don't declare the type as abstract.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. The abstract type has a public constructor.
+
+Do not suppress a warning from this rule. The abstract type has a public constructor.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```
+dotnet_code_quality.ca1012.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Design). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Example
- The following example contains an abstract type that violates this rule.
 
- [!code-vb[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/VisualBasic/ca1012-abstract-types-should-not-have-constructors_1.vb)]
- [!code-csharp[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/CSharp/ca1012-abstract-types-should-not-have-constructors_1.cs)]
+The following code snippet contains an abstract type that violates this rule.
 
-## Example
- The following example fixes the previous violation by changing the accessibility of the constructor from `public` to `protected`.
+[!code-vb[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/VisualBasic/ca1012-abstract-types-should-not-have-constructors_1.vb)]
+[!code-csharp[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/CSharp/ca1012-abstract-types-should-not-have-constructors_1.cs)]
 
- [!code-csharp[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/CSharp/ca1012-abstract-types-should-not-have-constructors_2.cs)]
- [!code-vb[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/VisualBasic/ca1012-abstract-types-should-not-have-constructors_2.vb)]
+The following code snippet fixes the previous violation by changing the accessibility of the constructor from `public` to `protected`.
+
+[!code-csharp[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/CSharp/ca1012-abstract-types-should-not-have-constructors_2.cs)]
+[!code-vb[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/VisualBasic/ca1012-abstract-types-should-not-have-constructors_2.vb)]

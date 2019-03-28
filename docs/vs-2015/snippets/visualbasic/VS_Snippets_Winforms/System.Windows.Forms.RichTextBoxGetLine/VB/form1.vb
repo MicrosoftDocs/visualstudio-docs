@@ -106,7 +106,7 @@ Public Class Form1
         ' Reset the results box.
         TextBox1.Text = ""
 
-        ' Get the word to search from from TextBox2.
+        ' Get the word to search from TextBox2.
         Dim searchWord As String = TextBox2.Text
 
         Dim index As Integer = 0

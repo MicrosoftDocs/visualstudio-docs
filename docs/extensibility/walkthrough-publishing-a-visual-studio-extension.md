@@ -1,18 +1,15 @@
 ---
 title: "Walkthrough: Publishing a Visual Studio Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "publishing web controls"
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Walkthrough: Publish a Visual Studio extension
@@ -70,33 +67,33 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 8. In **2: Provide extension details**, some fields are auto-populated from the *source.extension.vsixmanifest* file from your extension. Find more details about each below:
 
     * **Internal Name** is used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name to be "my extension" results in a URL of "marketplace.visualstudio\.com/items?itemName=myname.myextension" for your extension's detail page.
-    
+
     * **Display Name** of your extension. This name is auto-populated from the *source.extension.vsixmanifest* file.
-   
+
     * **Version** number of the extension you are uploading. This version is auto-populated from the *source.extension.vsixmanifest* file.
-    
+
     * **VSIX ID** is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
-    
+
    * **Logo** that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
-    
+
      * **Short description** of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
-    
+
      * **Overview** is a good place to include screenshots and detailed information about what your extension does.
-    
+
      * **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
-    
+
      * **Supported Visual Studio edition lets you choose which editions of Visual Studio your extension will work on. Your extension is only installed to those editions.
-    
+
      * **Type**. The most common type of extensions are **Tools**.
-    
+
      * **Categories**. Pick up to three that are a best fit for your extension.
-    
+
      * **Tags** are keywords that help users find your extension. Tags can help increase the search relevance of your extensions in the Marketplace.
-    
+
      * **Pricing Category** is the cost of your extension.
-    
+
      * **Source code repository** allows you to share a link to your source code with the community.
-    
+
      * **Allow Q&A for your extension** lets users leave questions on your extension entry page.
 
 9. Click **Save & Upload**. This option takes you back to your publisher manage page. Your extension has not yet been published. To publish your extension, right-click on your extension and select **Make Public**. You can view how your extension will look like on Marketplace by selecting **View Extension**. For acquisition numbers, click on **Reports**. To make changes to your extension, click on **Edit**.
@@ -118,13 +115,13 @@ Marketplace supports granting additional users permissions to access and manage 
 3. You can then specify the email address of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
 
    * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
-  
+
    * **Reader**: The user can view extensions, but cannot publish or manage extensions.
-  
+
    * **Contributor**: The user can publish and manage extensions, but cannot edit publisher settings or manage access.
-  
+
    * **Owner**: The user can publish and manage extensions, edit publisher settings, and manage access.
-  
+
 ## Install the extension from the Visual Studio Marketplace
 
 Now that the extension is published, install it in Visual Studio and test it there.
@@ -151,7 +148,7 @@ You can remove the extension from the Visual Studio Marketplace and from your co
 
 ### To remove the extension from your computer
 
-1. In Visual Studio, on the **Tools** menu, click **Extension and Updates**.
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
 
 2. Select **TestPublish** and then click **Uninstall**. The extension is then scheduled for uninstall.
 

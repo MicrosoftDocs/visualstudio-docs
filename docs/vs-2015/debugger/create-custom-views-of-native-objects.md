@@ -1,14 +1,9 @@
 ---
 title: "Create Custom Views of Native Objects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "natvis"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Create Custom Views of Native Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -632,6 +627,3 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you can write to control the visualization in code that runs in Visual Studio. For more information about writing VSIX extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). Writing a custom visualizer is a lot more work than writing an XML natvis definition, but you are free from constraints about what natvis supports or doesn’t support. Custom visualizers have access to the full set of debugger extensibility APIs, which can be used to query and modify the debuggee process or communicate with other parts of Visual Studio.  
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on CustomVisualizer elements.
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1813: Avoid unsealed attributes"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1813"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f5e31b4c-9f8b-49e1-a2a8-bb5f1140729a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

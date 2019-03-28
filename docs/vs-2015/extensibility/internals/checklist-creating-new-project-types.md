@@ -1,21 +1,16 @@
 ---
 title: "Checklist: Creating New Project Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], creating new types"
   - "project types, checklist for creating"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 24
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Checklist: Creating New Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ You must complete several tasks to create a new project type. The following chec
   
     -   Project factory, to manage creating new projects and opening existing projects. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
   
-    -   Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
+    -   Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
   
     -   Project items management, including adding your project to the **New Project** dialog box. For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   
-    -   Persistence of project state and individual items. For more information, see [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions.md).  
+    -   Persistence of project state and individual items. For more information, see [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions-overview.md).  
   
     -   Configuration independent properties to display in the Properties window. For more information, see [Extending Properties](../../extensibility/internals/extending-properties.md).  
   
@@ -62,4 +57,3 @@ You must complete several tasks to create a new project type. The following chec
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   
  [When to Create Project Types](../../extensibility/internals/when-to-create-project-types.md)   
  [Creating Project Types](../../extensibility/internals/creating-project-types.md)
-

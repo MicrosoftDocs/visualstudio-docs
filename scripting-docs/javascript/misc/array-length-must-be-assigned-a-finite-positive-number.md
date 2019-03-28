@@ -1,14 +1,9 @@
 ---
 title: "Array length must be assigned a finite positive number | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5030"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: c51c66a4-a543-4e95-b18d-2cfbcb3d1fdd
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

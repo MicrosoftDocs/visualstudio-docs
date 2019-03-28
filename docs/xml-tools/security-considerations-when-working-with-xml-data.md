@@ -1,31 +1,29 @@
 ---
 title: "Security Considerations when Working with XML Data"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: fce2b708-1aef-454f-be59-52b76f359351
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Security considerations when working with XML data
 
-This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.
+This topic discusses security issues that you need to know about when working with the XML editor or the XSLT debugger.
 
-## XML Editor
+## XML editor
 
- The XML Editor is based on the Visual Studio Text Editor. It relies on the <xref:System.Xml> and <xref:System.Xml.Xsl> classes to handle many of the XML processes.
+ The XML editor is based on the Visual Studio Text Editor. It relies on the <xref:System.Xml> and <xref:System.Xml.Xsl> classes to handle many of the XML processes.
 
 -   XSLT transformations are executed in a new application domain. The XSLT transformations are *sandboxed*; that is, the code access security policy of your computer is used to determine the restricted permissions based on where the XSLT style sheet is located. For example, style sheets from an Internet location have the most restricted permissions, whereas style sheets copied to your hard drive run with Full Trust.
 
 -   The <xref:System.Xml.Xsl.XslCompiledTransform> class is used to compile the XSLT to Microsoft intermediate language for faster performance during execution.
 
--   Schemas that point to an external location in the catalog file are automatically downloaded when the XML Editor first loads. The <xref:System.Xml.Schema.XmlSchemaSet> class is used to compile the schemas. The catalog file that ships with the XML Editor does not have links to any external schemas. The user has to explicitly add a reference to the external schema before the XML Editor downloads the schema file. HTTP downloading can be disabled via the **Miscellaneous Tools Options** page for the XML Editor.
+-   Schemas that point to an external location in the catalog file are automatically downloaded when the XML editor first loads. The <xref:System.Xml.Schema.XmlSchemaSet> class is used to compile the schemas. The catalog file that ships with the XML editor does not have links to any external schemas. The user has to explicitly add a reference to the external schema before the XML editor downloads the schema file. HTTP downloading can be disabled via the **Miscellaneous Tools Options** page for the XML editor.
 
--   The XML Editor uses the <xref:System.Net> classes to download schemas
+-   The XML editor uses the <xref:System.Net> classes to download schemas
 
 ## XSLT debugger
 

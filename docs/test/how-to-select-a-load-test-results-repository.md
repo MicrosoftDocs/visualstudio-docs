@@ -1,5 +1,5 @@
 ---
-title: "How to: Select a Load Test Results Repository in Visual Studio"
+title: "How to: Select a Load Test Results Repository"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -14,15 +14,15 @@ helpviewer_keywords:
 ms.assetid: fa0c4dd9-612f-4a57-b8eb-458f129d9cda
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Select a load test results repository
 
 You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
 Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where you want to store your load test results by using the **Administer Test Controllers** window.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Identify a results store for load test data
 

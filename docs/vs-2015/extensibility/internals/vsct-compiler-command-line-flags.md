@@ -1,21 +1,16 @@
 ---
 title: "VSCT Compiler Command-Line Flags | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, compiling"
   - "command-table file compilation (VSCT files)"
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSCT Compiler Command-Line Flags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,15 +33,15 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
 [-I<include-path>]* [-L<language>] [-E[C|H|N]:<name>]  
   
   -D    Specify any additional preprocessor defines  
-  -I    Indcate what additional include paths to send to the preprocessor  
-  -L    Specify the langauge to use when selecting strings  
+  -I    Indicate what additional include paths to send to the preprocessor  
+  -L    Specify the language to use when selecting strings  
   -E    Emit C# objects in the specified namespace for command items,  
-        folowed by [L|F|H|N]:<value>  
+        followed by [L|F|H|N]:<value>  
         F = Name of the file to emit (used if -EL is provided)  
         L = Name of a language providing a CodeDOM provider  
         N = namespace (required if -EL is provided)  
         H = C++ header  
-  -c    Clean build skipping dependancy checks  
+  -c    Clean build skipping dependency checks  
   -v    Verbose output  
 ```  
   
@@ -79,4 +74,3 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
  [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-

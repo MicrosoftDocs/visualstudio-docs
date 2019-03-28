@@ -1,20 +1,15 @@
 ---
 title: "How to: Implement Undo Management | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - undo management"
 ms.assetid: 1942245d-7a1d-4a11-b5e7-a3fe29f11c0b
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Implement Undo Management
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,4 +77,3 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLifetimeControlledObject>   
  [How to: Clear the Undo Stack](../extensibility/how-to-clear-the-undo-stack.md)
-

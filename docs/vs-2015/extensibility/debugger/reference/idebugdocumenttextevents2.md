@@ -1,22 +1,17 @@
 ---
 title: "IDebugDocumentTextEvents2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDocumentTextEvents2"
 helpviewer_keywords: 
   - "IDebugDocumentTextEvents2 interface"
 ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDocumentTextEvents2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ IDebugDocumentTextEvents2 : IUnknown
 ## See Also  
  [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)   
  [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
-

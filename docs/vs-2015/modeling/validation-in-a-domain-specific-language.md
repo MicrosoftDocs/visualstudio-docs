@@ -1,12 +1,9 @@
 ---
 title: "Validation in a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, constraints"
   - "Domain-Specific Language, validation"
@@ -14,7 +11,7 @@ ms.assetid: 65b93df8-af3c-462b-904c-60292f8ed381
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Validation in a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -344,6 +341,3 @@ validationController.ValidateCustom
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)
-
-
-

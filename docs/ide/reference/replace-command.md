@@ -1,8 +1,6 @@
 ---
 title: Replace Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "edit.replace"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

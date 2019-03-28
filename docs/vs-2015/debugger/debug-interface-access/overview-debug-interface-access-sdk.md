@@ -1,14 +1,9 @@
 ---
 title: "Overview (Debug Interface Access SDK) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "executable images"
 ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Overview (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ Use the DIA SDK to access the Microsoft debug information. The DIA SDK provides 
 ## See Also  
  [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)   
  [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
-
-
-

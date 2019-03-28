@@ -1,18 +1,13 @@
 ---
 title: "Distributing Isolated Shell Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: c503a985-d67a-4ef8-9123-7744a78f2f17
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Distributing Isolated Shell Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,4 +26,3 @@ You must install Visual Studio and the Visual Studio SDK in order to create an i
   
 ## Allowing for Updates to your Application  
  Your installation program must allow for the possibility that your application will be updated, either by Microsoft updates or by your company's updates. For more information about updates, see [Servicing Guidelines for Isolated Shell Applications](../extensibility/servicing-guidelines-for-isolated-shell-applications.md).
-

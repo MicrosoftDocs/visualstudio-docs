@@ -1,12 +1,9 @@
 ---
 title: "Validate code with layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, validating"
   - "validation, layer diagrams"
@@ -21,9 +18,9 @@ helpviewer_keywords:
   - "MSBuild, validating code"
 ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
 caps.latest.revision: 84
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Validate code with layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -242,6 +239,3 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 ## See Also  
  [Validate your system during development](../modeling/validate-your-system-during-development.md)
-
-
-

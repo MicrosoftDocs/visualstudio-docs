@@ -1,9 +1,9 @@
 ---
 title: "Using Visual Studio on an Azure Virtual Machine"
+titleSuffix: ""
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 09/12/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.date: 03/25/2019
+ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
   - azure services
@@ -12,9 +12,11 @@ helpviewer_keywords:
   - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # <a id="top"> </a> Visual Studio images on Azure
 
@@ -24,15 +26,15 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace. For each major version, you see the originally released (RTW) version and the latest updated versions. Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions. These images are updated at least every month to include the latest Visual Studio and Windows updates. While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  We've recently added support for Previews of the upcoming major version - Visual Studio 2019.  For each released major version, you see the originally released (RTW) version and the latest updated versions.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
-| Release version                                              | Editions                     |     Product version     |
-|:------------------------------------------------------------:|:----------------------------:|:-----------------------:|
-| Visual Studio 2017: Latest (Version 15.8)                    |    Enterprise, Community     |      Version 15.8.4     |
-| Visual Studio 2017: Latest Preview (Version 15.9, Preview 2) |    Enterprise, Community     |      Version 15.9       |
-|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.18    |
-|   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01  |
-|         Visual Studio 2015: RTW                              |             None             | (Expired for servicing) |
+| Release version                                              | Editions                     |     Product version      |
+|:------------------------------------------------------------:|:----------------------------:|:------------------------:|
+|       Visual Studio 2019: Preview (RC3)                      |           Enterprise         |    Version 16.0.0 RC3    |
+| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.9      |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.22     |
+|   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01   |
+|         Visual Studio 2015: RTW                              |             None             | (Expired for servicing)  |
 
 > [!NOTE]
 > In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.
@@ -95,7 +97,9 @@ The spectrum of development environments is huge, and there’s real cost associ
 
 A quick summary: Use the System Preparation tool (Sysprep) and shut down the running VM, and then capture *(Figure 1)* the VM as an image through the UI in the Azure portal. Azure saves the `.vhd` file that contains the image in the storage account of your choosing. The new image then shows up as an Image resource in your subscription’s list of resources.
 
-<img src="media/capture-vm.png" alt="Capture an image through the Azure portal’s UI" style="border:3px solid Silver; display: block; margin: auto;"><center>*(Figure 1) Capture an image through the Azure portal’s UI.*</center>
+![Capture an image through the Azure portal’s UI](media/capture-vm.png)
+
+*(Figure 1) Capture an image through the Azure portal’s UI.*
 
 For more information, see [Create a managed image of a generalized VM in Azure](/azure/virtual-machines/windows/capture-image-resource).
 

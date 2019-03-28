@@ -1,8 +1,6 @@
 ---
 title: Find calls to a method
 ms.date: 05/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.CallHierarchy"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "Call Hierarchy"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

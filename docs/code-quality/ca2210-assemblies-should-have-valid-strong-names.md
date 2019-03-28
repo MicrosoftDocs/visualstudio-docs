@@ -1,8 +1,6 @@
 ---
 title: "CA2210: Assemblies should have valid strong names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AssembliesShouldHaveValidStrongNames"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

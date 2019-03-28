@@ -1,9 +1,6 @@
 ---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
@@ -21,9 +18,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging"
   - "SharePoint development in Visual Studio, troubleshooting"
   - "SharePoint development in Visual Studio, deployment conflict resolution"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -34,7 +31,7 @@ ms.workload:
  To diagnose between Visual Studio, SharePoint, and other layers, you can use the EnableDiagnostics registry key to view the stack trace. For more information, see [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md).
 
 ## Add project output to the solution package
- You can add the project output to a package through the Package Designer. However, when you add the project output, make sure that the platform of the project matches the platform of the SharePoint solution. We recommend that you use the **Any CPU** platform target for the assemblies that you want to deploy to a SharePoint server. For more information, see [Compile Page, Project Designer &#40;Visual Basic&#41;](/visualstudio/ide/reference/compile-page-project-designer-visual-basic) and [Advanced Compiler Settings Dialog Box &#40;Visual Basic&#41;](/visualstudio/ide/reference/advanced-compiler-settings-dialog-box-visual-basic).
+ You can add the project output to a package through the Package Designer. However, when you add the project output, make sure that the platform of the project matches the platform of the SharePoint solution. We recommend that you use the **Any CPU** platform target for the assemblies that you want to deploy to a SharePoint server. For more information, see [Compile Page, Project Designer &#40;Visual Basic&#41;](../ide/reference/compile-page-project-designer-visual-basic.md) and [Advanced Compiler Settings Dialog Box &#40;Visual Basic&#41;](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md).
 
 ## Validation warnings and errors
  The SharePoint development tools in Visual Studio perform validation steps to verify that the solution package is correctly formed. You can also create custom validation steps for your Features and packages. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).
@@ -108,5 +105,5 @@ ms.workload:
  To remove this warning, either build the project and then close and then reopen the designer, or disable the auto-retract option for the project. To do this, clear the **Auto-retract after debugging** check box on the **SharePoint** tab of the project properties dialog box.
 
 ## See also
- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
 
+- [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

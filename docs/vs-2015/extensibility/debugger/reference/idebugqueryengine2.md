@@ -1,22 +1,17 @@
 ---
 title: "IDebugQueryEngine2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugQueryEngine2"
 helpviewer_keywords: 
   - "IDebugQueryEngine2 interface"
 ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugQueryEngine2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ IDebugQueryEngine2 : IUnknown
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)   
  [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
-

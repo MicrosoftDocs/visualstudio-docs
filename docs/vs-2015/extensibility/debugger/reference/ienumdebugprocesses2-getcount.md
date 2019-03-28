@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugProcesses2::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugProcesses2::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugProcesses2::GetCount"
 ms.assetid: 5dc3e36c-46e5-4556-bf41-1870aa67d2a0
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugProcesses2::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetCount(
   
 ## See Also  
  [IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)
-

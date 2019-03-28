@@ -8,30 +8,29 @@ helpviewer_keywords:
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Create lookup tables in Windows Forms applications
+
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.
 
- You can create lookup tables by dragging the main node of a parent table (from the [Data Sources Window](add-new-data-sources.md)) onto a control on your form that is already bound to the column in the related child table.
+You can create lookup tables by dragging the main node of a parent table (from the [Data Sources window](add-new-data-sources.md#data-sources-window)) onto a control on your form that is already bound to the column in the related child table.
 
- For example, consider a table of `Orders` in a sales database. Each record in the `Orders` table includes a `CustomerID`, indicating which customer placed the order. The `CustomerID` is a foreign key pointing to a customer record in the `Customers` table. In this scenario, you expand the `Orders` table in the **Data Sources** window and set the main node to **Details**. Then, set the `CustomerID` column to use a <xref:System.Windows.Forms.ComboBox> (or any other control that supports lookup binding), and drag the `Orders` node onto your form. Finally, drag the `Customers` node onto the control that is bound to the related column — in this case, the <xref:System.Windows.Forms.ComboBox> bound to the `CustomerID` column.
+For example, consider a table of `Orders` in a sales database. Each record in the `Orders` table includes a `CustomerID`, indicating which customer placed the order. The `CustomerID` is a foreign key pointing to a customer record in the `Customers` table. In this scenario, you expand the `Orders` table in the **Data Sources** window and set the main node to **Details**. Then, set the `CustomerID` column to use a <xref:System.Windows.Forms.ComboBox> (or any other control that supports lookup binding), and drag the `Orders` node onto your form. Finally, drag the `Customers` node onto the control that is bound to the related column — in this case, the <xref:System.Windows.Forms.ComboBox> bound to the `CustomerID` column.
 
 ## To databind a lookup control
 
-1.  Open the **Data Sources** window.
+1.  With your project open, open the **Data Sources** window by choosing **View** > **Other Windows** > **Data Sources**.
 
     > [!NOTE]
-    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [Relationships in datasets](relationships-in-datasets.md).
+    > Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [Relationships in datasets](relationships-in-datasets.md).
 
 2.  Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.
 
     > [!NOTE]
-    >  The child table node is the node that appears as an expandable child node in the parent table.
+    > The child table node is the node that appears as an expandable child node in the parent table.
 
 3.  Change the drop type of the child table to **Details** by selecting **Details** from the control list on the child table's node. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 

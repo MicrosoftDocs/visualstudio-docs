@@ -1,11 +1,9 @@
 ---
-title: "How to test a Visual C++ DLL for UWP apps in Visual Studio"
+title: "How to test a Visual C++ DLL for UWP apps"
 ms.date: 02/15/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: mikeblome
@@ -16,7 +14,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
  This topic shows you how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
 
- This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md) for tips on which structure to use.
+ This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md) for tips on which structure to use.
 
 ##  <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
@@ -40,7 +38,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     -   Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.
 
-         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md) in the MSDN Library.
+         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md).
 
 ##  <a name="Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer
 

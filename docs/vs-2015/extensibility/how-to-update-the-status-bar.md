@@ -1,20 +1,15 @@
 ---
 title: "How to: Update the Status Bar | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - update status bar"
 ms.assetid: 7500c8a7-4913-4818-a88b-bfd1b9887cb6
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Update the Status Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   
 ## See Also  
  [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)
-

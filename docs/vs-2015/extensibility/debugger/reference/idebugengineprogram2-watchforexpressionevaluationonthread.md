@@ -1,22 +1,17 @@
 ---
 title: "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 helpviewer_keywords: 
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -74,4 +69,3 @@ int WatchForExpressionEvaluationOnThread( 
  [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-

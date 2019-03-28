@@ -1,13 +1,11 @@
 ---
 title: Draw shapes and paths
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: d5378c59-e2e5-49f0-91f1-aa82d984a33c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

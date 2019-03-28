@@ -1,8 +1,6 @@
 ---
 title: "CA2236: Call base class methods on ISerializable types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2236"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5a15b20d-769c-4640-b31a-36e07077daae
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

@@ -1,21 +1,16 @@
 ---
 title: "Adding Project and Project Item Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], adding"
   - "project items [Visual Studio], adding"
 ms.assetid: 8c59217f-56e5-4540-a73b-cd10de189373
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding Project and Project Item Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ When you create your own project types, you must provide support for adding new 
   
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides links to additional topics that offer information about how to design new project types.
-

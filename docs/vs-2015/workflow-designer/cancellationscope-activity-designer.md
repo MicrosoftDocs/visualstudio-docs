@@ -1,11 +1,8 @@
 ---
 title: "CancellationScope Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.CancellationScope.UI"
@@ -13,7 +10,7 @@ ms.assetid: 2c85d663-b219-4142-9866-7693ffd46379
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # CancellationScope Activity Designer
 The **CancellationScope** activity designer is used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.  

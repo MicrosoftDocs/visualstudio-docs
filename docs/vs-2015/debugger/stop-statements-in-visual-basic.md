@@ -1,14 +1,9 @@
 ---
 title: "Stop Statements in Visual Basic | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
 ms.assetid: 4ad3fe5c-3dfb-4913-b2eb-a0b635751c18
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Stop Statements in Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ Debug.Fail("a clever output string goes here")
  [Debugger Security](../debugger/debugger-security.md)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

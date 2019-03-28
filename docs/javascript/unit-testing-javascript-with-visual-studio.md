@@ -1,21 +1,19 @@
 ---
-title: "Unit testing in Node.js"
-description: Visual Studio provides support unit testing JavaScript code using the Node.js Tools for Visual Studio
-ms.custom: ""
+title: "Unit testing JavaScript and TypeScript"
+description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
 ms.date: "06/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
 ---
 
-# Unit testing in Node.js
+# Unit testing JavaScript and TypeScript in Visual Studio
 
 The Node.js Tools For Visual Studio allow you to write and run unit tests using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt.
@@ -29,7 +27,7 @@ The supported frameworks are:
 > [!WARNING]
 > An issue in Tape currently prevents Tape tests from running. If [PR #361](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
 
-If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support. 
+If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
 ## Write unit tests
 
@@ -130,7 +128,7 @@ Test execution time: 1.5731 Seconds
 ```
 
 > [!NOTE]
-> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt. 
+> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
@@ -154,7 +152,7 @@ when making changes to the implementation.
 
 ## Unit tests in other project types
 You are not limited to writing unit tests in just your Node.js projects. When you add the TestFramework and
-TestRoot properties to any C# or VB project, those tests will be enumerated and you can run them using
+TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using
 the Test Explorer window.
 
 To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.

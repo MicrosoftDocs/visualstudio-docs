@@ -1,21 +1,16 @@
 ---
 title: "How to: Start Spy++ | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Spy++, starting"
 ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Start Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ You can start Spy++ either from Visual Studio or at a command prompt.
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)
-
-
-

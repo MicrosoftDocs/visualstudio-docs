@@ -1,19 +1,14 @@
 ---
 title: "LINQ to XML Dynamic Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 0455f47c-4a68-4f2e-a3f8-dd1d85b99012
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # LINQ to XML Dynamic Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ This section provides reference information about the dynamic properties in LINQ
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [WPF Data Binding with LINQ to XML Overview](../designers/wpf-data-binding-with-linq-to-xml-overview.md)   
  [Introduction to LINQ Queries (C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)
-
-
-

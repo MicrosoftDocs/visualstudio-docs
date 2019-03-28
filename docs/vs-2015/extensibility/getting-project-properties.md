@@ -1,21 +1,16 @@
 ---
 title: "Getting Project Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project properties, displaying in tool window"
-  - "tool windows, displaying project propeties"
+  - "tool windows, displaying project properties"
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,4 +94,3 @@ This walkthrough shows how to displays project properties in a tool window.
 6.  In the **View / Other Windows** click **ProjectPropertiesToolWindow**.  
   
      You should see the tree control in the tool window together with the name of the first project and of all its project properties.
-

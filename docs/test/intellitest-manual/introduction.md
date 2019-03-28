@@ -1,13 +1,11 @@
 ---
 title: "Overview | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest, Visual Studio IntelliTest developer testing tool"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -228,5 +226,5 @@ by design of the "rethrow" instruction.
 
 ## Further reading
 
-* [Introductory blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2014/11/19/introducing-smart-unit-tests/) on MSDN.
+* [Introductory blog post](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

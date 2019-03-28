@@ -68,7 +68,7 @@ namespace SdkSample
         /// and identifies its type
         /// if no valid token is found, the output parameters are set to null
         /// if end of stream is reached without matching any token, token type
-        /// paramter is set to EOF
+        /// parameter is set to EOF
         /// </summary>
         internal void GetNextContentToken()
         {
@@ -188,7 +188,7 @@ namespace SdkSample
                 _nextToken.Append("/>");
                 this.GetNextCharacter();
                 this.GetNextCharacter();
-                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are sifnificant
+                _ignoreNextWhitespace = false; // Whitespace after no-scope tags are significant
             }
             else if (IsGoodForNameStart(this.NextCharacter))
             {
@@ -649,7 +649,7 @@ namespace SdkSample
                 }
                 else
                 {
-                    // Not an end. Save character and continue continue reading
+                    // Not an end. Save character and continue reading
                     _nextToken.Append(_previousCharacter);
                     continue;
                 }
@@ -702,7 +702,7 @@ namespace SdkSample
             // verify that we are at a processing directive
             Debug.Assert(_nextCharacter == '<' && _lookAheadCharacter == '?');
 
-            // advance twice, once to get the lookahead character and then to reach the start of the drective
+            // advance twice, once to get the lookahead character and then to reach the start of the directive
             this.GetNextCharacter();
             this.GetNextCharacter();
 

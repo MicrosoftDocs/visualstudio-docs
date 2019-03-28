@@ -1,22 +1,17 @@
 ---
 title: "Exposing Types to Visual Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "types [Visual Studio SDK], exposing to visual designers"
   - "designers [Visual Studio SDK], exposing types"
   - "custom tools, exposing types to visual designers"
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Exposing Types to Visual Designers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,8 +40,7 @@ manager: "ghogen"
      When a temporary PE is compiled, the only source file provided to the compiler is the custom tool output. Therefore, a custom tool that uses a temporary PE must generate output files that can be compiled independently of other files in the project.  
   
 ## See Also  
- [Introduction to the BuildManager Object](http://msdn.microsoft.com/en-us/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
+ [Introduction to the BuildManager Object](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   
  [Registering Single File Generators](../../extensibility/internals/registering-single-file-generators.md)
-

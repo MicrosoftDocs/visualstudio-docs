@@ -1,14 +1,9 @@
 ---
 title: "CreateExpInstance Utility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "experimental builds"
   - "experimental hive"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "createexpinst"
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CreateExpInstance Utility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
   
 ## See Also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Syntax error in regular expression (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5017"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 7799ed69-c877-42a1-87cf-ad6739302c10
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

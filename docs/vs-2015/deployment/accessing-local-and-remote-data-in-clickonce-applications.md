@@ -1,14 +1,9 @@
 ---
 title: "Accessing Local and Remote Data in ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: be5cbe12-6cb6-49c9-aa59-a1624e1eef3d
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Accessing Local and Remote Data in ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -111,6 +106,3 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
   
 ## See Also  
  [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)
-
-
-

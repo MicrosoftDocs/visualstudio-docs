@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating and Running Unit Tests for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit tests, walkthrough"
   - "unit tests, creating"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating and Running Unit Tests for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -417,6 +412,3 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 ```  
   
  In this final section, the work that we did improving our test code led to more robust and informative test methods. But more importantly, the extra analysis also led to better code in our project under test.
-
-
-

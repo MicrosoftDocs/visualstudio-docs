@@ -1,14 +1,9 @@
 ---
 title: "Run Windows Store apps on the local machine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: e42a21a8-6423-4caf-b4dc-72b263e76019
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Run Windows Store apps on the local machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
  **To switch from a running instance of a Windows Store app to Visual Studio**  
   
  When you run a Windows Store app on a local machine and use only a single monitor, you might want to switch back to Visual Studio while leaving the app running. For example, the app might be in a state that cannot be reached by a breakpoint, such as waiting for an event or trapped in a long or endless loop. To return to Visual Studio, press ALT + TAB.
-
-
-

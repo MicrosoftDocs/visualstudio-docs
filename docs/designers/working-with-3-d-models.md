@@ -1,13 +1,11 @@
 ---
 title: Working with 3D Models
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

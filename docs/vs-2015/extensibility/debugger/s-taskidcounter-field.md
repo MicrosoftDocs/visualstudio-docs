@@ -1,20 +1,15 @@
 ---
 title: "s_taskIdCounter Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "m_taskIdCounter field, Task class [.NET Framework debug engines]"
 ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # s_taskIdCounter Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ The next available identifier for a <xref:System.Threading.Tasks.Task> object.
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

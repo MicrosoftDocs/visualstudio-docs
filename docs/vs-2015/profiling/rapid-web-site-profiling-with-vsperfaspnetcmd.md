@@ -1,22 +1,17 @@
 ---
 title: "Rapid Web Site Profiling with VSPerfASPNETCmd | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "proflilng tools,VSPerfASPNETCmd"
   - "VSPerfASPNETCmd"
 ms.assetid: 9a9d62a6-549a-45ac-a948-76eb98586ac5
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Rapid Web Site Profiling with VSPerfASPNETCmd
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,6 +94,3 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
 |------------|-----------------|  
 |**/Output:** `VspFile`|By default, the profiling data (.vsp) file is created in the current directory with the file name **PerformanceReport.vsp**. Use the /output option to specify a different location, file name, or both.|  
 |**/PackSymbols:Off**|By default, VsPerfASPNETCmd embeds symbols (function and parameter names, etc) in the .vsp file. Embedding the symbols can make the profiling data file very large. If you will have access to the .pdb files that contain the symbols when you analyze the data, use the /packsymbols:off option to disable the embedding of the symbols.|
-
-
-

@@ -1,15 +1,13 @@
 ---
 title: VSTest.Console.exe command-line options
 ms.date: 07/12/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords:
   - "vstest.console.exe"
   - "command-line tests"
 ms.author: gewarren
 author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -35,10 +33,10 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
 |**/InIsolation**|Runs the tests in an isolated process.<br />This isolation makes the *vstest.console.exe* process less likely to be stopped on an error in the tests, but tests might run slower.|
 |**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
-|**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:&lt;pathToCustomAdapters&gt;`|
+|**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Target platform architecture to be used for test execution.<br />Valid values are x86, x64, and ARM.|
 |**/Framework: [*framework version*]**|Target .NET Framework version to be used for test execution.<br />Valid values are Framework35, Framework40, Framework45, and FrameworkUap10.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
-|**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[&#124;<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly&#124;FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
+|**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
 |**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=<Defaults to "Any CPU">]**<br />**[;Flavor=<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|

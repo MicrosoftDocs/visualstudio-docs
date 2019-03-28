@@ -1,21 +1,16 @@
 ---
 title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text, coloring"
   - "font and color control [Visual Studio SDK], coloring"
 ms.assetid: d1f985bd-743e-40b7-9458-d9af53647c91
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Font and Color Information for Text Colorization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,5 +42,4 @@ The process that renders or displays colorized text in user interface (UI) eleme
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
  [Using Fonts and Text](http://msdn.microsoft.com/library/d43640f3-da94-4df2-a29d-a9d021a1c069)   
  [Working with Color](http://msdn.microsoft.com/library/d34ff96f-241d-494f-abdd-13811ada8cd3)   
- [GDI (graphics device interface)](http://msdn.microsoft.com/en-us/7e1d4540-bb2e-4257-8eee-eee376acba83)
-
+ [GDI (graphics device interface)](http://msdn.microsoft.com/7e1d4540-bb2e-4257-8eee-eee376acba83)

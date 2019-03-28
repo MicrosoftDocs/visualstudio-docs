@@ -8,13 +8,11 @@ ms.date: 08/04/2017
 ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: "Jamie.Young"
-ms.technology: 
-  - "vs-ide-sdk"
-manager: douge
+manager: jillfra
 ---
 # Color value reference for Visual Studio
 
-This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes. 
+This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes.
 
 For implementation information about creating new color tokens, see [Color theming tools](../../extensibility/internals/color-theming-tools.md).
 
@@ -22,11 +20,11 @@ For color tokens to use with existing UI, see [Shared colors for Visual Studio](
 
 When using this reference guide, remember:
 
--   **Always copy both foreground and background hues together.** Don't choose a foreground from one UI element and a background from another just because you like the hues.  
+-   **Always copy both foreground and background hues together.** Don't choose a foreground from one UI element and a background from another just because you like the hues.
 
 -   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
-- **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
+- **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 -   **For best results, pair color sets with UI similar to the example.**
 
@@ -35,17 +33,17 @@ When using this reference guide, remember:
 ![Properties window in Light (left), Dark (center), and Blue (right) themes](../../extensibility/ux-guidelines/media/properties-window-light-dark-blue.png "Properties window in Light, Dark, and Blue themes")<br />Properties window in the Light, Dark, and Blue themes
 
 > [!NOTE]
-> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes. 
+> **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
 ### Divider lines
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Default | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
 
 ### Expander glyph
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground |![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window`|
@@ -56,7 +54,7 @@ When using this reference guide, remember:
 
 ### Embedded tab control: body
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFE7E8EC swatch](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC swatch")<br />`#FFE7E8EC` | ![#FF1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "#FF1B1B1C swatch")<br />`#FF1B1B1C` | ![#FFE7E8EC swatch](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC swatch")<br />`#FFE7E8EC` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -64,7 +62,7 @@ When using this reference guide, remember:
 
 ### Embedded tab control: active tab
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` |![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![##FFE7E8EC swatch](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC swatch")<br />`#FFE7E8EC` | ![#FF1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "##FF1B1B1C swatch")<br />`#FF1B1B1C` | ![#FFE7E8EC swatch](../../extensibility/ux-guidelines/media/E7E8EC.png "#FFE7E8EC swatch")<br />`#FFE7E8EC` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -72,7 +70,7 @@ When using this reference guide, remember:
 
 ### Embedded tab control: inactive tab
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -81,12 +79,12 @@ When using this reference guide, remember:
 | Foreground: disabled | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![#FF656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#FF656565 swatch")<br />`#FF656565` | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![GrayText swatch](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText swatch")<br />`GrayText` |
 | Background: disabled | ![##FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "##FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
 | Border | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![WindowFrame swatch](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame swatch")<br />`WindowFrame` |
-| Border: hover | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE swatch")<br />`#FFFEFEFE` | ![WindowFrame swatch](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame swatch")<br />`WindowFrame` | 
+| Border: hover | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE swatch")<br />`#FFFEFEFE` | ![WindowFrame swatch](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame swatch")<br />`WindowFrame` |
 | Border: disabled | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![WindowFrame swatch](../../extensibility/ux-guidelines/media/HCWindowFrame.png "WindowFrame swatch")<br />`WindowFrame` |
 
 ### Section header
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![##FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Foreground: hover | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -97,7 +95,7 @@ When using this reference guide, remember:
 
 ### Category group
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Body foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Body background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -106,7 +104,7 @@ When using this reference guide, remember:
 
 ### Toggle buttons
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![WindowText swatch](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText swatch")<br />`WindowText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window` |
@@ -123,18 +121,18 @@ When using this reference guide, remember:
 
 ### Input fields
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
 | Foreground: disabled | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![#FF656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#FF656565 swatch")<br />`#FF656565` | ![#FFA2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#FFA2A4A5 swatch")<br />`#FFA2A4A5` | ![GrayText swatch](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText swatch")<br />`GrayText` |
 | Background: disabled | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
 | Border | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
-| Border: disabled | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFC6C6C6 swatch](../../extensibility/ux-guidelines/media/C6C6C6.png "#FFC6C6C6 swatch")<br />`#FFC6C6C6` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark ` |
+| Border: disabled | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFC6C6C6 swatch](../../extensibility/ux-guidelines/media/C6C6C6.png "#FFC6C6C6 swatch")<br />`#FFC6C6C6` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
 
 ### List items
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Foreground: hover | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -147,7 +145,7 @@ When using this reference guide, remember:
 
 ### Command buttons
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background: hover | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF3E3E40 swatch](../../extensibility/ux-guidelines/media/3E3E40.png "#FF3E3E40 swatch")<br />`#FF3E3E40` | ![#FFFEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE swatch")<br />`#FFFEFEFE` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -168,7 +166,7 @@ When using this reference guide, remember:
 
 ### Content
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText swatch](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText swatch")<br />`WindowText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -180,7 +178,7 @@ When using this reference guide, remember:
 
 ### Header
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText swatch](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText swatch")<br />`WindowText` |
 | Background | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
@@ -189,7 +187,7 @@ When using this reference guide, remember:
 
 ![CodeLens UI](../../extensibility/ux-guidelines/media/codelens.png "CodeLens UI")
 
-> [!NOTE] 
+> [!NOTE]
 > CodeLens UI colors are the same for Light, Dark, and Blue themes.
 
 > [!NOTE]
@@ -197,7 +195,7 @@ When using this reference guide, remember:
 
 ### Body
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![WindowText swatch](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText swatch")<br />`WindowText` |
 | Background | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | ![#FFFCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FFFCFCFC swatch")<br />`#FFFCFCFC` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window` |
@@ -208,7 +206,7 @@ When using this reference guide, remember:
 
 ### Hyperlink and separator
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Hyperlink foreground | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![#FF0E70C0 swatch](../../extensibility/ux-guidelines/media/0E70C0.png "#FF0E70C0 swatch")<br />`#FF0E70C0` | ![HotTrack swatch](../../extensibility/ux-guidelines/media/HCHotTrack.png "HotTrack swatch")<br />`HotTrack` |
 | Separator foreground | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![#FF9C9C9C swatch](../../extensibility/ux-guidelines/media/9C9C9C.png "#FF9C9C9C swatch")<br />`#FF9C9C9C` | ![HotTrack swatch](../../extensibility/ux-guidelines/media/HCHotTrack.png "HotTrack swatch")<br />`HotTrack` |
@@ -222,14 +220,14 @@ When using this reference guide, remember:
 
 ### Body
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![WindowText swatch](../../extensibility/ux-guidelines/media/HCWindowText.png "WindowText swatch")<br />`WindowText` |
 | Foreground: selected | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ### Subsection header
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF717171` | ![#FF999999 swatch](../../extensibility/ux-guidelines/media/999999.png "#FF999999 swatch")<br />`#FF999999` | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF717171` | ![GrayText swatch](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText swatch")<br />`GrayText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![Window swatch](../../extensibility/ux-guidelines/media/HCWindow.png "Window swatch")<br />`Window` |
@@ -237,7 +235,7 @@ When using this reference guide, remember:
 
 ### Grid lines
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Items (foreground) | ![#FFF0F0F0 swatch](../../extensibility/ux-guidelines/media/F0F0F0.png "#FFF0F0F0 swatch")<br />`#FFF0F0F0` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | ![#FFF0F0F0 swatch](../../extensibility/ux-guidelines/media/F0F0F0.png "#FFF0F0F0 swatch")<br />`#FFF0F0F0` | ![ScrollBar swatch](../../extensibility/ux-guidelines/media/HCScrollBar.png "ScrollBar swatch")<br />`ScrollBar` |
 | Header (foreground) | ![#FFE0E3E6 swatch](../../extensibility/ux-guidelines/media/E0E3E6.png "#FFE0E3E6 swatch")<br />`#FFE0E3E6` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFBEC3CB swatch](../../extensibility/ux-guidelines/media/BEC3CB.png "#FFBEC3CB swatch")<br />`#FFBEC3CB` | ![ControlDark swatch](../../extensibility/ux-guidelines/media/HCControlDark.png "ControlDark swatch")<br />`ControlDark` |
@@ -251,21 +249,21 @@ When using this reference guide, remember:
 
 ### Body
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
 
 ### Active tab
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ActiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText swatch")<br />`ActiveCaptionText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` |![ActiveCaption swatch](../../extensibility/ux-guidelines/media/HCActiveCaption.png "ActiveCaption swatch")<br />`ActiveCaption` |
 
 ### Inactive tab
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![InactiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText swatch")<br />`InactiveCaptionText` |
 | Background | ![#FFFEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE swatch")<br />`#FFFEFEFE` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFFEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FFFEFEFE swatch")<br />`#FFFEFEFE` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -274,14 +272,14 @@ When using this reference guide, remember:
 
 ### Watermark text
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF999999` | ![#FF999999 swatch](../../extensibility/ux-guidelines/media/717171.png "999999 swatch")<br />`#FF999999` | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF717171` | ![GrayText swatch](../../extensibility/ux-guidelines/media/HCGrayText.png "GrayText swatch")<br />`GrayText` |
 | Background | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFF6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#FFF6F6F6 swatch")<br />`#FFF6F6F6` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
 
 ### Description pane
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
 | Background | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#FF252526 swatch")<br />`#FF252526` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -295,7 +293,7 @@ When using this reference guide, remember:
 
 ### Tags
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Foreground (text) | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![ActiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText swatch")<br />`ActiveCaptionText` |
 | Background | ![#FFE1E6F1 swatch](../../extensibility/ux-guidelines/media/E1E6F1.png "#FFE1E6F1 swatch")<br />`#FFE1E6F1` | ![#FF424242 swatch](../../extensibility/ux-guidelines/media/424242.png "#FF424242 swatch")<br />`#FF424242` | ![#FFE9ECEE swatch](../../extensibility/ux-guidelines/media/E9ECEE.png "#FFE9ECEE swatch")<br />`#FFE9ECEE` | ![ActiveCaption swatch](../../extensibility/ux-guidelines/media/HCActiveCaption.png "ActiveCaption swatch")<br />`ActiveCaption` |
@@ -308,7 +306,7 @@ When using this reference guide, remember:
 
 ### Glyph on hover
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Glyph | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 | Background | ![#FFF7F7F9 swatch](../../extensibility/ux-guidelines/media/F7F7F9.png "#FFF7F7F9 swatch")<br />`#FFF7F7F9` | ![#FF393939 swatch](../../extensibility/ux-guidelines/media/393939.png "#FF393939 swatch")<br />`#FF393939` | ![#FFFFFCF4 swatch](../../extensibility/ux-guidelines/media/FFFCF4.png "#FFFFFCF4 swatch")<br />`#FFFFFCF4` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -319,7 +317,7 @@ When using this reference guide, remember:
 
 ### Selected glyph
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Glyph | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 | Background | ![#FF52B0EF swatch](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF swatch")<br />`#FF52B0EF` | ![#FF52B0EF swatch](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF swatch")<br />`#FF52B0EF` | ![#FF52B0EF swatch](../../extensibility/ux-guidelines/media/52B0EF.png "#FF52B0EF swatch")<br />`#FF52B0EF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -335,7 +333,7 @@ When using this reference guide, remember:
 
 ### Default
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Default button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.png "Default button in the Light theme") | ![Default button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.dark.png "Default button in the Dark theme") | ![Default button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.blue.png "Default button in the Blue theme") | ![Default button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.default.hc.png "Default button in the High Contrast theme") |
 | Foreground | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![ControlText swatch](../../extensibility/ux-guidelines/media/HCControlText.png "ControlText swatch")<br />`ControlText` |
@@ -344,7 +342,7 @@ When using this reference guide, remember:
 
 ### Disabled
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Disabled button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.png "Disabled button in the Light theme") | ![Disabled button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.dark.png "Disabled button in the Dark theme") | ![Disabled button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.blue.png "Disabled button in the Blue theme") | ![Disabled button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.disabled.hc.png "Disabled button in the High Contrast theme") |
 | Foreground | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![#656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText swatch")<br />`InactiveCaptionText` |
@@ -353,7 +351,7 @@ When using this reference guide, remember:
 
 ### Hover
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Hover state button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.png "Hover state button in the Light theme") | ![Hover state button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.dark.png "Hover state button in the Dark theme") | ![Hover state button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hover.blue.png "Hover state button in the Blue theme") | ![Hover state button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "Hover state button in the High Contrast theme") |
 | Foreground | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![ActiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCActiveCaptionText.png "ActiveCaptionText swatch")<br />`ActiveCaptionText` |
@@ -362,7 +360,7 @@ When using this reference guide, remember:
 
 ### Pressed
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Pressed button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.png "Pressed button in the Light theme") | ![Pressed button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.dark.png "Pressed button in the Dark theme") | ![Pressed button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.pressed.blue.png "Pressed button in the Blue theme") | ![Pressed button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "Pressed button in the High Contrast theme") |
 | Foreground | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -371,7 +369,7 @@ When using this reference guide, remember:
 
 ### Focused
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Focused button in the Light theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.png "Focused button in the Light theme") | ![Focused button in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.dark.png "Focused button in the Dark theme") | ![Focused button in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.focused.blue.png "Focused button in the Blue theme") | ![Focused button in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Button.controls.hpf.hc.png "Focused button in the High Contrast theme") |
 | Foreground | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![#F1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#F1F1F1 swatch")<br />`#F1F1F1` | ![#1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#1E1E1E swatch")<br />`#1E1E1E` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -385,7 +383,7 @@ When using this reference guide, remember:
 
 ### Default
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Default check box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.png "Default check box in the Light theme") | ![Default check box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.dark.png "Default check box in the Dark theme") | ![Default check box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.blue.png "Default check box in the Blue theme") | ![Default check box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.default.hc.png "Default check box in the High Contrast theme") |
 | Background | ![#FEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FEFEFE swatch")<br />`#FEFEFE` | ![#252526 swatch](../../extensibility/ux-guidelines/media/252526.png "#252526 swatch")<br />`#252526` | ![#FEFEFE swatch](../../extensibility/ux-guidelines/media/FEFEFE.png "#FEFEFE swatch")<br />`#FEFEFE` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -395,7 +393,7 @@ When using this reference guide, remember:
 
 ### Disabled
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Disabled check box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.png "Disabled check box in the Light theme") | ![Disabled check box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.dark.png "Disabled check box in the Dark theme") | ![Disabled check box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.blue.png "Disabled check box in the Blue theme") | ![Disabled check box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.disabled.hc.png "Disabled check box in the High Contrast theme") |
 | Background | ![#F6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 swatch")<br />`#F6F6F6` | ![#2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 swatch")<br />`#2D2D30` | ![#F6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 swatch")<br />`#F6F6F6` | ![InactiveCaption swatch](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption swatch")<br />`InactiveCaption` |
@@ -405,7 +403,7 @@ When using this reference guide, remember:
 
 ### Hover
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Hover state check box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.png "Hover state check box in the Light theme") | ![Hover state check box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.dark.png "Hover state check box in the Dark theme") | ![Hover state check box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hover.blue.png "Hover state check box in the Blue theme") | ![Hover state check box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "Hover state check box in the High Contrast theme") |
 | Background | ![#F3F9FF swatch](../../extensibility/ux-guidelines/media/F3F9FF.png "#F3F9FF swatch")<br />`#F3F9FF` | ![#1F1F20 swatch](../../extensibility/ux-guidelines/media/1F1F20.png "#1F1F20 swatch")<br />`#1F1F20` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -415,7 +413,7 @@ When using this reference guide, remember:
 
 ### Pressed
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Pressed check box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.png "Pressed check box in the Light theme") | ![Pressed check box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.dark.png "Pressed check box in the Dark theme") | ![Pressed check box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.pressed.blue.png "Pressed check box in the Blue theme") | ![Pressed check box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "Pressed check box in the High Contrast theme") |
 | Background | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#E5C365 swatch](../../extensibility/ux-guidelines/media/E5C365.png "#E5C365 swatch")<br />`#E5C365` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -425,7 +423,7 @@ When using this reference guide, remember:
 
 ### Focused
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Focused check box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.png "Focused check box in the Light theme") | ![Focused check box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.dark.png "Focused check box in the Dark theme") | ![Focused check box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.focused.blue.png "Focused check box in the Blue theme") | ![Focused check box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Checkbox.controls.hpf.hc.png "Focused check box in the High Contrast theme") |
 | Background | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![#1F1F20 swatch](../../extensibility/ux-guidelines/media/1F1F20.png "#1F1F20 swatch")<br />`#1F1F20` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -442,7 +440,7 @@ When using this reference guide, remember:
 
 #### Default
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Default drop-down/combo box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.png "Default drop-down/combo box in the Light theme") | ![Default drop-down/combo box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.dark.png "Default drop-down/combo box in the Dark theme") | ![Default drop-down/combo box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.blue.png "Default drop-down/combo box in the Blue theme") | ![Default drop-down/combo box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.default.hc.png "Default drop-down/combo box in the High Contrast theme") |
 | Background | ![##007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "##007ACC swatch")<br />`##007ACC` | ![#333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#333337 swatch")<br />`#333337` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![Control swatch](../../extensibility/ux-guidelines/media/HCControl.png "Control swatch")<br />`Control` |
@@ -453,19 +451,19 @@ When using this reference guide, remember:
 
 #### Disabled
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Disabled drop-down/combo box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.png "Disabled drop-down/combo box in the Light theme") | ![Disabled drop-down/combo box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.dark.png "Disabled drop-down/combo box in the Dark theme") | ![Disabled drop-down/combo box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.blue.png "Disabled drop-down/combo box in the Blue theme") | ![Disabled drop-down/combo box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.disabled.hc.png "Disabled drop-down/combo box in the High Contrast theme") |
 | Background | ![#EEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 swatch")<br />`#EEEEF2` | ![#2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 swatch")<br />`#2D2D30` | ![#DFE7F3 swatch](../../extensibility/ux-guidelines/media/DFE7F3.png "#DFE7F3 swatch")<br />`#DFE7F3` | ![InactiveCaption swatch](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption swatch")<br />`InactiveCaption` |
 | Border | ![#CCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB swatch")<br />`#CCCEDB` | ![#434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#434346 swatch")<br />`#434346` | ![#A4ADBA swatch](../../extensibility/ux-guidelines/media/A4ADBA.png "#A4ADBA swatch")<br />`#A4ADBA` | ![InactiveBorder swatch](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder swatch")<br />`InactiveBorder` |
 | Text | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![# 656565swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText swatch")<br />`InactiveCaptionText` |
-| Separator | ![#EEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 swatch")<br />`#EEEEF2` | ![#2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 swatch")<br />`#2D2D30` | ![#D5DCE8 swatch](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 swatch")<br />`#D5DCE8` | ![InactiveBorder swatch](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder swatch")<br />`InactiveBorder` | 
+| Separator | ![#EEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 swatch")<br />`#EEEEF2` | ![#2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 swatch")<br />`#2D2D30` | ![#D5DCE8 swatch](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 swatch")<br />`#D5DCE8` | ![InactiveBorder swatch](../../extensibility/ux-guidelines/media/HCInactiveBorder.png "InactiveBorder swatch")<br />`InactiveBorder` |
 | Glyph | ![#CCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB swatch")<br />`#CCCEDB` | ![#656565 swatch](../../extensibility/ux-guidelines/media/656565.png "#656565 swatch")<br />`#656565` | ![#A2A4A5 swatch](../../extensibility/ux-guidelines/media/A2A4A5.png "#A2A4A5 swatch")<br />`#A2A4A5` | ![InactiveCaptionText swatch](../../extensibility/ux-guidelines/media/HCInactiveCaptionText.png "InactiveCaptionText swatch")<br />`InactiveCaptionText` |
 | Glyph background | ![#EEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#EEEEF2 swatch")<br />`#EEEEF2` | ![#2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#2D2D30 swatch")<br />`#2D2D30` | ![#D5DCE8 swatch](../../extensibility/ux-guidelines/media/D5DCE8.png "#D5DCE8 swatch")<br />`#D5DCE8` | ![InactiveCaption swatch](../../extensibility/ux-guidelines/media/HCInactiveCaption.png "InactiveCaption swatch")<br />`InactiveCaption` |
 
 #### Hover
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Hover state drop-down/combo box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.png "Hover state drop-down/combo box in the Light theme") | ![Hover state drop-down/combo box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.dark.png "Hover state drop-down/combo box in the Dark theme") | ![Hover state drop-down/combo box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.blue.png "Hover state drop-down/combo box in the Blue theme") | ![Hover state drop-down/combo box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.hover.hc.png "Hover state drop-down/combo box in the High Contrast theme") |
 | Background | ![#007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#007ACC swatch")<br />`#007ACC` | ![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -477,7 +475,7 @@ When using this reference guide, remember:
 
 #### Pressed
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Pressed drop-down/combo box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.png "Pressed drop-down/combo box in the Light theme") | ![Pressed drop-down/combo box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.dark.png "Pressed drop-down/combo box in the Dark theme") | ![Pressed drop-down/combo box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.blue.png "Pressed drop-down/combo box in the Blue theme") | ![Pressed drop-down/combo box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.pressed.hc.png "Pressed drop-down/combo box in the High Contrast theme") |
 | Background | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -489,7 +487,7 @@ When using this reference guide, remember:
 
 #### Focused
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Focused drop-down/combo box in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.png "Focused drop-down/combo box in the Light theme") | ![Focused drop-down/combo box in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.dark.png "Focused drop-down/combo box in the Dark theme") | ![Focused drop-down/combo box in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.blue.png "Focused drop-down/combo box in the Blue theme") | ![Focused drop-down/combo box in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.focused.hc.png "Focused drop-down/combo box in the High Contrast theme") |
 | Background | ![#FFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFF swatch")<br />`#FFFFFF` | ![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FCFCFC swatch](../../extensibility/ux-guidelines/media/FCFCFC.png "#FCFCFC swatch")<br />`#FCFCFC` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
@@ -507,7 +505,7 @@ When using this reference guide, remember:
 
 #### Default
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Background | ![#F6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 swatch")<br />`#F6F6F6` | ![#1B1B1C swatch](../../extensibility/ux-guidelines/media/1B1B1C.png "#1B1B1C swatch")<br />`#1B1B1C` | ![#EFEFEF swatch](../../extensibility/ux-guidelines/media/EFEFEF.png "#EFEFEF swatch")<br />`#EFEFEF` | ![Menu swatch](../../extensibility/ux-guidelines/media/HCMenu.png "Menu swatch")<br />`Menu` |
 | Border | ![#CCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB swatch")<br />`#CCCEDB` | ![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#98A7B7 swatch](../../extensibility/ux-guidelines/media/98A7B7.png "#98A7B7 swatch")<br />`#98A7B7`| ![MenuText swatch](../../extensibility/ux-guidelines/media/HCMenuText.png "MenuText swatch")<br />`MenuText` |
@@ -516,7 +514,7 @@ When using this reference guide, remember:
 
 #### Hover
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Background | ![#C9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 swatch")<br />`#C9DEF5` | ![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
 | Border | ![#CCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB swatch")<br />`#CCCEDB` |![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -524,7 +522,7 @@ When using this reference guide, remember:
 
 #### Pressed
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Background |![#C9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 swatch")<br />`#C9DEF5` |![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
 | Border | ![#CCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#CCCEDB swatch")<br />`#CCCEDB` |![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -532,7 +530,7 @@ When using this reference guide, remember:
 
 #### Focused
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Background | ![#F6F6F6 swatch](../../extensibility/ux-guidelines/media/F6F6F6.png "#F6F6F6 swatch")<br />`#F6F6F6` |![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` | ![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![Highlight swatch](../../extensibility/ux-guidelines/media/HCHighlight.png "Highlight swatch")<br />`Highlight` |
 | Border | ![#C9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#C9DEF5 swatch")<br />`#C9DEF5` |![#3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#3F3F46 swatch")<br />`#3F3F46` |![#FDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FDF4BF swatch")<br />`#FDF4BF` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
@@ -540,16 +538,16 @@ When using this reference guide, remember:
 
 ### Text input selection
 
-| | Light theme | Dark theme | Blue theme | High Contrast | 
+| | Light theme | Dark theme | Blue theme | High Contrast |
 | --- | :---: | :---: | :---: | :---: |
 | Appearance | ![Drop-down/combo box text input selection in the Light theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.png "Drop-down/combo box text input selection in the Light theme") | ![Drop-down/combo box text input selection in the Dark theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.dark.png "Drop-down/combo box text input selection in the Dark theme") | ![Drop-down/combo box text input selection in the Blue theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.blue.png "Drop-down/combo box text input selection in the Blue theme") | ![Drop-down/combo box text input selection in the High Contrast theme](../../extensibility/ux-guidelines/media/03.03.Dropdown.combobox.controls.input.hc.png "Drop-down/combo box text input selection in the High Contrast theme") |
 | Text input selection | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![#66007ACC swatch](../../extensibility/ux-guidelines/media/66007ACC.png "#66007ACC swatch")<br />`#66007ACC` | ![HighlightText swatch](../../extensibility/ux-guidelines/media/HCHighlightText.png "HighlightText swatch")<br />`HighlightText` |
 
 ## Color swatches by function
 
-| Light | Dark | Blue | Used for ... | 
+| Light | Dark | Blue | Used for ... |
 | :---: | :---: | :---: | --- |
-| ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5`	| ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30`	| ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | Action buttons, combo box items, command bar buttons, drop-down buttons, and menu items: background |
+| ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | Action buttons, combo box items, command bar buttons, drop-down buttons, and menu items: background |
 | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF3F3F46 swatch](../../extensibility/ux-guidelines/media/3F3F46.png "#FF3F3F46 swatch")<br />`#FF3F3F46` | ![#FF465A7D swatch](../../extensibility/ux-guidelines/media/465A7D.png "#FF465A7D swatch")<br />`#FF465A7D` | Auto-hide tab border |
 | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FF293955 swatch](../../extensibility/ux-guidelines/media/293955.png "#FF293955 swatch")<br />`#FF293955` | Auto-hide tab default and hover backgrounds |
 | ![#FF444444 swatch](../../extensibility/ux-guidelines/media/444444.png "#FF444444 swatch")<br />`#FF444444` | ![#FFD0D0D0 swatch](../../extensibility/ux-guidelines/media/D0D0D0.png "#FFD0D0D0 swatch")<br />`#FFD0D0D0` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | Auto-hide tab text, unfocused tool window title bar text, and tool window tab text |
@@ -558,7 +556,7 @@ When using this reference guide, remember:
 | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | Combo box and search box input field: default background |
 | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF333337 swatch](../../extensibility/ux-guidelines/media/333337.png "#FF333337 swatch")<br />`#FF333337` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | Combo box and some drop-down list menu items: background on hover and mouse down |
 | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF1F1F20 swatch](../../extensibility/ux-guidelines/media/1F1F20.png "#FF1F1F20 swatch")<br />`#FF1F1F20` | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | Combo box buttons: background on hover |
-| ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFA4ADBA swatch](../../extensibility/ux-guidelines/media/A4ADBA.png "#FFA4ADBA	swatch")<br />`#FFA4ADBA` | Combo box, drop-down list, search control, and text box: disabled border |
+| ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF434346 swatch](../../extensibility/ux-guidelines/media/434346.png "#FF434346 swatch")<br />`#FF434346` | ![#FFA4ADBA swatch](../../extensibility/ux-guidelines/media/A4ADBA.png "#FFA4ADBA swatch")<br />`#FFA4ADBA` | Combo box, drop-down list, search control, and text box: disabled border |
 | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFD5DCE8 swatch](../../extensibility/ux-guidelines/media/D5DCE8.png "#FFD5DCE8 swatch")<br />`#FFD5DCE8` | Combo box, drop-down, and text box: disabled backgrounds |
 | ![#FF717171 swatch](../../extensibility/ux-guidelines/media/717171.png "#FF717171 swatch")<br />`#FF717171` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1B293E swatch](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E swatch")<br />`#FF1B293E` | Combo box: default glyph |
 | ![#FFC9DEF5 swatch](../../extensibility/ux-guidelines/media/C9DEF5.png "#FFC9DEF5 swatch")<br />`#FFC9DEF5` | ![#72555555 swatch](../../extensibility/ux-guidelines/media/72555555.png "#72555555 swatch")<br />`#72555555` | ![#FFFDF4BF swatch](../../extensibility/ux-guidelines/media/FDF4BF.png "#FFFDF4BF swatch")<br />`#FFFDF4BF` | Command bar options: background on hover |
@@ -566,7 +564,7 @@ When using this reference guide, remember:
 | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF007ACC swatch](../../extensibility/ux-guidelines/media/007ACC.png "#FF007ACC swatch")<br />`#FF007ACC` | ![#FF1B293E swatch](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E swatch")<br />`#FF1B293E` | Command bar options: hover glyph |
 | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FFFFFFFF swatch](../../extensibility/ux-guidelines/media/FFFFFF.png "#FFFFFFFF swatch")<br />`#FFFFFFFF` | ![#FF1B293E swatch](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E swatch")<br />`#FF1B293E` | Command bar options: mouse down glyph |
 | ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF1B293E swatch](../../extensibility/ux-guidelines/media/1B293E.png "#FF1B293E swatch")<br />`#FF1B293E` | Command bar text, drop-down, and combo box menu item text |
-| ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF000000	swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | Command bar: hover, mouse down, and selected text |
+| ![#FF1E1E1E swatch](../../extensibility/ux-guidelines/media/1E1E1E.png "#FF1E1E1E swatch")<br />`#FF1E1E1E` | ![#FFF1F1F1 swatch](../../extensibility/ux-guidelines/media/F1F1F1.png "#FFF1F1F1 swatch")<br />`#FFF1F1F1` | ![#FF000000 swatch](../../extensibility/ux-guidelines/media/000000.png "#FF000000 swatch")<br />`#FF000000` | Command bar: hover, mouse down, and selected text |
 | ![#FFCCCEDB swatch](../../extensibility/ux-guidelines/media/CCCEDB.png "#FFCCCEDB swatch")<br />`#FFCCCEDB` | ![#FF222222 swatch](../../extensibility/ux-guidelines/media/222222.png "#FF222222 swatch")<br />`#FF222222` | ![#FF8591A2 swatch](../../extensibility/ux-guidelines/media/8591A2.png "#FF8591A2 swatch")<br />`#FF8591A2` | Command bar: tool bar separator |
 | ![#FFF5F5F5 swatch](../../extensibility/ux-guidelines/media/F5F5F5.png "#FFF5F5F5 swatch")<br />`#FFF5F5F5` | ![#FF46464A swatch](../../extensibility/ux-guidelines/media/46464A.png "#FF46464A swatch")<br />`#FF46464A` | ![#FFD6DBE9 swatch](../../extensibility/ux-guidelines/media/D6DBE9.png "#FFD6DBE9 swatch")<br />`#FFD6DBE9` | Command bar: tool bar separator highlight |
 | ![#FFEEEEF2 swatch](../../extensibility/ux-guidelines/media/EEEEF2.png "#FFEEEEF2 swatch")<br />`#FFEEEEF2` | ![#FF2D2D30 swatch](../../extensibility/ux-guidelines/media/2D2D30.png "#FF2D2D30 swatch")<br />`#FF2D2D30` | ![#FFD6DBE9 swatch](../../extensibility/ux-guidelines/media/D6DBE9.png "#FFD6DBE9 swatch")<br />`#FFD6DBE9` | Command shelf background |

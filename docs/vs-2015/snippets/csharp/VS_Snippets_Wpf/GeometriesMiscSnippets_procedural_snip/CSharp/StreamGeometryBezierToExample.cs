@@ -23,7 +23,7 @@ namespace SDKSample
                 // Set the begin point of the shape.
                 ctx.BeginFigure(new Point(10, 100), true /* is filled */, false /* is closed */);
 
-                // Create a Bezier curve using the 3 specifed points where the first two points
+                // Create a Bezier curve using the 3 specified points where the first two points
                 // are control points and the last point is the destination point for the curve.
                 ctx.BezierTo(new Point(100, 0), new Point(200,200), new Point(300,100), 
                              true /* is stroked */, false /* is smooth join */);

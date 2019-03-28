@@ -1,20 +1,15 @@
 ---
 title: "Debugger Concepts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK]"
 ms.assetid: 2d371d38-f1a0-4a9a-8ea3-100e8c0149b7
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Debugger Concepts
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ To build on the Visual Studio debug package, you need to be familiar with the ar
   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.
-

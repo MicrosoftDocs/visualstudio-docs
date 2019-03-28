@@ -1,14 +1,10 @@
 ---
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Learn about mobile development with Xamarin
@@ -85,7 +81,7 @@ This topic directs you to overview material that helps you understand developing
   
 1.  **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft’s Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
   
-    -   **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
+    -   **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
     -   **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
   
@@ -97,4 +93,3 @@ This topic directs you to overview material that helps you understand developing
  *10 minutes*  
   
  Many extended capabilities are available to Xamarin apps through Xamarin components. You can find the full catalog available for download on [http://components.xamarin.com/](http://components.xamarin.com/), which includes components for additional UI controls, authentication, a variety of cloud services such as Microsoft Azure, and much more.
-

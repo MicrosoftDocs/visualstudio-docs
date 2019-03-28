@@ -1,22 +1,17 @@
 ---
 title: "IDebugBinder3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3"
 helpviewer_keywords: 
   - "IDebugBinder3 interface"
 ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBinder3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -62,4 +57,3 @@ IDebugBinder3 : IDebugBinder
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
-

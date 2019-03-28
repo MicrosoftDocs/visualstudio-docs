@@ -8,9 +8,7 @@ dev_langs:
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -102,7 +100,7 @@ Create LINQ to SQL classes that are mapped to database tables by dragging tables
 
 3.  On the **Build** menu, click **Build UpdatingwithSProcsWalkthrough** to build the project.
 
-4.  On the **Data** menu, click **Show Data Sources**.
+4.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
 5.  In the **Data Sources** window, click **Add New Data Source**.
 

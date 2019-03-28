@@ -1,22 +1,17 @@
 ---
 title: "IDebugExpressionContext2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugExpressionContext2"
 helpviewer_keywords: 
   - "IDebugExpressionContext2 interface"
 ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpressionContext2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ IDebugExpressionContext2 : IUnknown
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [GetExpressionContext](../../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md)   
  [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
-

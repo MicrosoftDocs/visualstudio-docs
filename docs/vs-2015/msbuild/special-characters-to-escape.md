@@ -1,14 +1,9 @@
 ---
 title: "Special Characters to Escape | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Special Characters to Escape
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Special characters must be escaped only if they have special meaning in the cont
 ## See Also  
  [How to: Escape Special Characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-
-

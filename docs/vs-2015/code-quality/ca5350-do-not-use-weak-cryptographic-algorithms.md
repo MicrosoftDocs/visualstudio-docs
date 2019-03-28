@@ -1,13 +1,8 @@
 ---
 title: "CA5350: Do Not Use Weak Cryptographic Algorithms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 ms.assetid: 4c51bb8a-fcfa-46aa-ab61-634be84c4a7a
 caps.latest.revision: 11
 author: gewarren
@@ -42,7 +37,7 @@ manager: "wpickett"
   
 -   For TripleDES encryption, use <xref:System.Security.Cryptography.Aes> encryption.  
   
--   For SHA1 or RIPEMD160 hashing functions, use ones in the [SHA-2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
+-   For SHA1 or RIPEMD160 hashing functions, use ones in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
   
 ## When to Suppress Warnings  
  Suppress a warning from this rule when the level of protection needed for the data does not require a security guarantee.  

@@ -1,22 +1,17 @@
 ---
 title: "IDebugPortSupplier3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortSupplier3"
 helpviewer_keywords: 
   - "IDebugPortSupplier3 interface"
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPortSupplier3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ IDebugPortSupplier3 : IDebugPortSupplier2
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
-

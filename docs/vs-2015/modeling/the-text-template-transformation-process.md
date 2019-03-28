@@ -1,19 +1,16 @@
 ---
 title: "The Text Template Transformation Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, transformation process"
 ms.assetid: 80b3f0e0-49e7-4865-a1ac-dba068abe96b
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # The Text Template Transformation Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +59,3 @@ The text template transformation process takes a text template file as the input
  `<#@ import namespace="System.Text" #>`  
   
  The standard directive processor converts this to a `using` statement in the generated transformation class. You can then use the `StringBuilder` class in the rest of your template code without qualifying it as `System.Text.StringBuilder`.
-
-
-

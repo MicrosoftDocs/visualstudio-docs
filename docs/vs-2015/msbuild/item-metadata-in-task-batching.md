@@ -1,14 +1,9 @@
 ---
 title: "Item Metadata in Task Batching | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, batching"
@@ -18,7 +13,7 @@ ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Metadata in Task Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -227,6 +222,3 @@ Items in ExampColl: Item2;Item5
  [Batching](../msbuild/msbuild-batching.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-
-

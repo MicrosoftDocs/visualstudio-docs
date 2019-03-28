@@ -1,14 +1,9 @@
 ---
 title: "Parameter Info in a Legacy Language Service1 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services, method tips"
   - "method tips"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "Parameter Info (IntelliSense)"
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,4 +74,3 @@ The IntelliSense Parameter Info tooltip provides users with hints about where th
 -   <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.OnDismiss%2A>  
   
      You receive a call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData.OnDismiss%2A> method when you close the method tip window.
-

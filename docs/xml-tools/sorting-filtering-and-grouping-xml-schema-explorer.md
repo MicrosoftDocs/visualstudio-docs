@@ -1,13 +1,11 @@
 ---
 title: "Sorting, Filtering, and Grouping in XML Schema Explorer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

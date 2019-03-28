@@ -1,22 +1,17 @@
 ---
 title: "Summary View - Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "sampling profiling method, Summary view"
   - "Summary view"
 ms.assetid: 79056873-2985-40be-9112-cdbc26a65156
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Summary View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ The Summary view displays information about the most performance-expensive funct
 ## See Also  
  [Summary View](../profiling/summary-view-dotnet-memory-data.md)   
  [Summary View](../profiling/summary-view-instrumentation-data.md)
-
-
-

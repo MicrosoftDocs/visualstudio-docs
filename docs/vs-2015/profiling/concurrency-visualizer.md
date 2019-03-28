@@ -1,14 +1,9 @@
 ---
 title: "Concurrency Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.performance.viewnavigation"
   - "vs.cv.overview"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Concurrency Visualizer"
 ms.assetid: ae5879a0-1e1a-455a-ba72-148e57f59289
 caps.latest.revision: 36
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Concurrency Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ NOTE]
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)
-
-
-

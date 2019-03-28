@@ -1,20 +1,15 @@
 ---
 title: "Web Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "web projects"
 ms.assetid: d9c0329f-4b0b-4fda-8061-cce69f2f502d
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Web Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,4 +26,3 @@ A Web project system is a project system that creates Web projects. Web projects
 ## Related Sections  
  [Projects](../../extensibility/internals/projects.md)  
  Describes how to extend the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project system.
-

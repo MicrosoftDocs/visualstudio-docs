@@ -1,20 +1,15 @@
 ---
 title: "Source Control Design Decisions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], design decisions"
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Source Control Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ The following design decisions should be considered for projects when implementi
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>   
  [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)
-

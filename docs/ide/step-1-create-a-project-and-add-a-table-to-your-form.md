@@ -1,15 +1,11 @@
 ---
 title: "Step 1: Create a project and add a table to your form"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -66,7 +62,7 @@ The first step in creating a matching game is to create the project and add a ta
 
    5.  Choose the **Font** property. An ellipsis (**...**) button should appear.
 
-   6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **72**.
+   6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **48**.
 
    7.  Set the **Text** property of the label to the letter **c**.
 

@@ -1,14 +1,9 @@
 ---
 title: "How to: Reference Windows Symbol Information | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, symbol servers"
   - "servers, symbol servers"
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "symbol servers"
 ms.assetid: b7c67318-6be2-4b1e-a161-077b1f4a7c30
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Reference Windows Symbol Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic na
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Serialize Symbol Information](../profiling/how-to-serialize-symbol-information.md)
-
-
-

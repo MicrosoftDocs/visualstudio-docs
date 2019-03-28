@@ -1,14 +1,9 @@
 ---
 title: "How to: Attach and Detach Performance Tools to Running Processes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.attach"
 helpviewer_keywords: 
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "profiler"
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 caps.latest.revision: 35
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Attach and Detach Performance Tools to Running Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,6 +70,3 @@ The profiler can be used to attach to or detach from a running process to make s
  [How to: Start and End Performance Data Collection](../profiling/how-to-start-and-end-performance-data-collection.md)   
  [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)
-
-
-

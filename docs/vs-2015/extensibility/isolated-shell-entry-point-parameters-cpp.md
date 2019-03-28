@@ -1,21 +1,16 @@
 ---
 title: "Isolated Shell Entry Point Parameters (C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Shell [Visual Studio], isolated mode%2C Start entry point"
   - "Visual Studio shell, isolated mode%2C Start entry point"
 ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Isolated Shell Entry Point Parameters (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -96,4 +91,3 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
 ## See Also  
  [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)
-

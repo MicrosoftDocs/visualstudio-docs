@@ -1,8 +1,6 @@
 ---
 title: "CA1009: Declare event handlers correctly"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1009"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ab65c471-1449-49d2-9896-7b9af74284b4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

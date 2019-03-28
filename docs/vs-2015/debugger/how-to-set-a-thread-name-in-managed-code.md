@@ -1,14 +1,9 @@
 ---
 title: "How to: Set a Thread Name in Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: c0c4d74a-0314-4b71-81c9-b0b019347ab8
 caps.latest.revision: 31
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Set a Thread Name in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ End Sub
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Set a Thread Name in Native Code](../debugger/how-to-set-a-thread-name-in-native-code.md)
-
-
-

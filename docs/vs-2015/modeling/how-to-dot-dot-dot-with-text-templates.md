@@ -1,17 +1,14 @@
 ---
 title: "How to ... with Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: d1ac2509-0479-47eb-809c-1f171245d0b6
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to ... with Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -131,6 +128,3 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 ### What is "T4"?  
   
 -   Another name for the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text template capabilities described here. The previous version, which was not published, was an abbreviation for "Text Template Transformation".
-
-
-

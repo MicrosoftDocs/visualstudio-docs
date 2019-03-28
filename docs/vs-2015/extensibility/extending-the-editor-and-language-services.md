@@ -1,20 +1,15 @@
 ---
 title: "Extending the Editor and Language Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new -"
 ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Editor and Language Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ You can add language service features (such as IntelliSense) to your own editor,
  <xref:Microsoft.VisualStudio.Text.Tagging>  
   
  <xref:Microsoft.VisualStudio.Utilities>
-

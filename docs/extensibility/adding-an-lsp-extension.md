@@ -1,17 +1,15 @@
 ---
 title: "Adding a Language Server Protocol extension | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/14/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
+
 # Add a Language Server Protocol extension
 
 The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, etc. to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by either using TextMate grammar files to provide basic functionalities such as syntax highlighting, or by writing custom language services using the full set of Visual Studio extensibility APIs to provide richer data. Now, support for the LSP offers a third option.
@@ -86,9 +84,9 @@ textDocument/rename | yes
 ## Getting started
 
 > [!NOTE]
-> Starting with Visual Studio 15.8 Preview 3, support for the common Language Server Protocol is built into Visual Studio.  If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher.  You will need to do the following to get your LSP extensions working again:
+> Starting with Visual Studio 15.8 Preview 3, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher. You will need to do the following to get your LSP extensions working again:
 >
-> 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.  Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
+> 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX. Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
 >
 > 2. Update your Nuget reference to the latest non-preview version for [LSP packages](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client).
 >
@@ -126,10 +124,10 @@ The LSP does not include specification on how to provide text colorization for l
 
 4. Create a *.pkgdef* file and add a line similar to this:
 
-   ```xml
-   [$RootKey$\TextMate\Repositories]
-   "MyLang"="$PackageFolder$\Grammars"
-   ```
+    ```
+    [$RootKey$\TextMate\Repositories]
+    "MyLang"="$PackageFolder$\Grammars"
+    ```
 
 5. Right-click on the files and select **Properties**. Change the **Build** action to **Content** and the **Include in VSIX** property to true.
 
@@ -196,12 +194,12 @@ namespace MockLanguageExtension
             await StartAsync.InvokeAsync(this, EventArgs.Empty);
         }
 
-        public async Task OnServerInitializeFailedAsync(Exception e)
+        public Task OnServerInitializeFailedAsync(Exception e)
         {
             return Task.CompletedTask;
         }
 
-        public async Task OnServerInitializedAsync()
+        public Task OnServerInitializedAsync()
         {
             return Task.CompletedTask;
         }
@@ -289,30 +287,37 @@ Follow these steps below to add support for settings to your LSP language servic
 
 1. Add a JSON file (for example, *MockLanguageExtensionSettings.json*) in your project that contains the settings and their default values. For example:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": -1
-   }
-   ```
+    ```json
+    {
+        "foo.maxNumberOfProblems": -1
+    }
+    ```
 2. Right-click on the JSON file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX' property to true.
 
 3. Implement ConfigurationSections and return the list of prefixes for the settings defined in the JSON file (In Visual Studio Code, this would map to the configuration section name in package.json):
 
-   ```csharp
-   public IEnumerable<string> ConfigurationSections
-   {
-      get
-      {
-          yield return "foo";
-      }
-   }
-   ```
+    ```csharp
+    public IEnumerable<string> ConfigurationSections
+    {
+        get
+        {
+            yield return "foo";
+        }
+    }
+    ```
+
 4. Add a .pkgdef file to the project (add new text file and change the file extension to .pkgdef). The pkgdef file should contain this info:
 
-   ```xml
+    ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
-   ```
+    ```
+
+    Sample:
+    ```
+    [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
+    @="$PackageFolder$\MockLanguageExtensionSettings.json"
+    ```
 
 5. Right click on the .pkgdef file and select **Properties**. Change the **Build** action to **Content** and the **Include in VSIX** property to true.
 
@@ -330,13 +335,15 @@ Follow these steps below to add support for settings to your LSP language servic
 2. User adds a file in the *.vs* folder called *VSWorkspaceSettings.json*.
 3. User adds a line to the *VSWorkspaceSettings.json* file for a setting the server provides. For example:
 
-   ```json
-   {
-    "foo.maxNumberOfProblems": 10
-   }
-   ```
-   ### Enabling diagnostics tracing
-   Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues.  To enable diagnostic tracing, do the following:
+    ```json
+    {
+        "foo.maxNumberOfProblems": 10
+    }
+    ```
+
+### Enabling diagnostics tracing
+
+Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
 
 4. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
 5. Add the following line in the settings json file:
@@ -352,7 +359,7 @@ There are three possible values for trace verbosity:
 * "Messages": tracing turned on but only method name and response ID are traced.
 * "Verbose": tracing turned on; the entire rpc message is traced.
 
-When tracing is turned on the content is written to a file in the *%temp%\VisualStudio\LSP* directory.  The log follows the naming format *[LanguageClientName]-[Datetime Stamp].log*.  Currently, tracing can only be enabled for open folder scenarios.  Opening a single file to activate a language server does not have diagnostics tracing support.
+When tracing is turned on the content is written to a file in the *%temp%\VisualStudio\LSP* directory. The log follows the naming format *[LanguageClientName]-[Datetime Stamp].log*. Currently, tracing can only be enabled for open folder scenarios. Opening a single file to activate a language server does not have diagnostics tracing support.
 
 ### Custom messages
 
@@ -415,7 +422,7 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
     }
 
     public async Task SendServerCustomNotification(object arg)
-    {    
+    {
         await this.customMessageRpc.NotifyWithParameterObjectAsync("OnCustomNotification", arg);
     }
 
@@ -467,7 +474,7 @@ To see the source code of a sample extension using the LSP client API in Visual 
 
 **I would like to build a custom project system to supplement my LSP language server to provide richer feature support in Visual Studio, how do I go about doing that?**
 
-Support for LSP-based language servers in Visual Studio relies on the [open folder feature](https://blogs.msdn.microsoft.com/visualstudio/2016/04/12/open-any-folder-with-visual-studio-15-preview/) and is specifically designed to not require a custom project system. You can build your own custom project system following instructions [here](https://github.com/Microsoft/VSProjectSystem), but some features, such as settings, may not work. The default initialization logic for LSP language servers is to pass in the root folder location of the folder currently being opened, so if you use a custom project system, you may need to provide custom logic during initialization to ensure your language server can start properly.
+Support for LSP-based language servers in Visual Studio relies on the [open folder feature](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) and is specifically designed to not require a custom project system. You can build your own custom project system following instructions [here](https://github.com/Microsoft/VSProjectSystem), but some features, such as settings, may not work. The default initialization logic for LSP language servers is to pass in the root folder location of the folder currently being opened, so if you use a custom project system, you may need to provide custom logic during initialization to ensure your language server can start properly.
 
 **How do I add debugger support?**
 

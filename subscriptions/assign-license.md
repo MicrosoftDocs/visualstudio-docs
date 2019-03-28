@@ -2,12 +2,10 @@
 title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.date: 07/16/2018
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to subscribers
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -41,7 +39,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
 
     If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
    > [!div class="mx-imgBorder"]
-   > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png) 
+   > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png)
 
     When you're done selecting options and entering data for the subscriber, choose **Add** at the bottom of the **Add Subscriber** fly-out.
    > [!div class="mx-imgBorder"]
@@ -49,7 +47,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
 
 4. After you add the subscriber, an Assignment Email will be automatically sent to the new subscriber with further instructions. You can send the Assignment Email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.
    > [!div class="mx-imgBorder"]
-   > ![Resend the activation email to any user or multiple users whenever you want to](media/resend-subscriber-activation-emails.png) 
+   > ![Resend the activation email to any user or multiple users whenever you want to](media/resend-subscriber-activation-emails.png)
 
 ## Bulk assignments
 
@@ -60,7 +58,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
 2. Bulk assign uses a Microsoft Excel template to upload subscribers. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
    > [!div class="mx-imgBorder"]
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png)
-   > 
+   >
    > [!NOTE]
    > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 

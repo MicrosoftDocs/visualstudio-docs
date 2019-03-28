@@ -1,14 +1,9 @@
 ---
 title: "Build Page, Project Designer (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "cs.ProjectPropertiesBuild"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
 caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Build Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +29,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following options enable you to select the configuration and platform to display or modify.  
   
 > [!NOTE]
->  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+>  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  **Configuration**  
  Specifies which configuration settings to display or modify. The settings can be **Active (Debug)** (this is the default), **Debug**, **Release**, or **All Configurations**.  
@@ -103,9 +98,9 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following settings are used to configure the output options for the build process.  
   
  **Output path**  
- Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
- With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  **XML documentation file**  
  Specifies the name of a file into which documentation comments will be processed. For more information, see [/doc (C# Compiler Options)](http://msdn.microsoft.com/library/849eea59-c936-4311-bad8-d07404480f2a).  
@@ -122,6 +117,3 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
 ## See Also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   
  [C# Compiler Options](http://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44)
-
-
-

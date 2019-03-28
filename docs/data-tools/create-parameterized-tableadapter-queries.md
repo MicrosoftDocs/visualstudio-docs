@@ -15,26 +15,22 @@ helpviewer_keywords:
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Create parameterized TableAdapter queries
+
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.
 
- You create parameterized TableAdapter queries in the **Dataset Designer**.You can also create them in a Windows application with the **Parameterize Data Source** command on the **Data** menu. The **Parameterize Data Source** command  creates controls on your form where you can input the parameter values and run the query.
+You create parameterized TableAdapter queries in the **Dataset Designer**.You can also create them in a Windows application with the **Parameterize Data Source** command on the **Data** menu. The **Parameterize Data Source** command  creates controls on your form where you can input the parameter values and run the query.
 
 > [!NOTE]
 > When constructing a parameterized query, use the parameter notation that's specific to the database you're coding against. For example, Access and OleDb data sources use the question mark '?' to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or the edition you're using. To change your settings, go to the **Tools** menu and select **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
-
 ## Create a parameterized TableAdapter query
 
-#### To create a parameterized query in the Dataset Designer
+### To create a parameterized query in the Dataset Designer
 
 -   Create a new TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
@@ -42,7 +38,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
 
 -   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
 
-#### To create a parameterized query while designing a data-bound form
+### To create a parameterized query while designing a data-bound form
 
 1.  Select a control on your form that is already bound to a dataset. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).
 
@@ -57,7 +53,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
 2.  On the **Data** menu, select **Add Query** or **Data Smart Tags**.
 
     > [!NOTE]
-    >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.
+    > If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.
 
 3.  In the **Select data source table** area, select the table to which you want to add parameterization.
 
@@ -73,7 +69,8 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
 
      A control to input the parameter and a **Load** button are added to the form in a <xref:System.Windows.Forms.ToolStrip> control.
 
-#### Querying for null values
+### Query for null values
+
 TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:
 
  ```sql
@@ -82,12 +79,12 @@ FROM Orders
 WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
 ```
 
- If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
+If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
 
- [!code-csharp[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
- [!code-vb[VbRaddataTableAdapters#8](../data-tools/codesnippet/VisualBasic/create-parameterized-tableadapter-queries_1.vb)]
+[!code-csharp[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
+[!code-vb[VbRaddataTableAdapters#8](../data-tools/codesnippet/VisualBasic/create-parameterized-tableadapter-queries_1.vb)]
 
- To enable a query to accept null values:
+To enable a query to accept null values:
 
 1.  In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.
 

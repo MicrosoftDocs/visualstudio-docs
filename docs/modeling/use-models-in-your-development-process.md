@@ -1,14 +1,12 @@
 ---
 title: Use models in your development process
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "UML, using models"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -129,12 +127,12 @@ Different kinds of diagram are useful for describing the design at different lev
 |-|-|
 |**Videos**|![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|
 |**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|
+|**Blogs**|[Microsoft DevOps](https://devblogs.microsoft.com/devops/)|
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|
 
 ## See also
 
-- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

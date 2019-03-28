@@ -1,8 +1,6 @@
 ---
 title: "Create and run unit tests for managed code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, walkthrough"
@@ -11,7 +9,7 @@ helpviewer_keywords:
   - "unit tests, running"
   - "unit tests, authoring"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 author: gewarren
@@ -31,28 +29,47 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 ## Create a project to test
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio.
 
 2. On the **File** menu, select **New** > **Project**.
 
    The **New Project** dialog box appears.
 
-3. Under **Installed Templates**, click **Visual C#**.
+3. Choose the C# **Class Library** project template.
 
-4. In the list of application types, click **Class Library**.
+4. Name the project **Bank**, and then click **OK**.
 
-5. In the **Name** box, type **Bank** and then click **OK**.
-
-   The new Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
 
    > [!NOTE]
    > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
 
-6. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
+::: moniker-end
 
-7. Save the file as *BankAccount.cs*.
+::: moniker range=">=vs-2019"
 
-8. On the **Build** menu, click **Build Solution**.
+1. Open Visual Studio.
+
+2. On the start window, choose **Create a new project**.
+
+3. Search for and select the C# **Class Library** project template, and then click **Next**.
+
+4. Name the project **Bank**, and then click **Create**.
+
+   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+
+   > [!NOTE]
+   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+
+::: moniker-end
+
+5. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
+
+6. Save the file as *BankAccount.cs*.
+
+7. On the **Build** menu, click **Build Solution**.
 
 You now have a project named Bank. It contains source code to test and tools to test it with. The namespace for Bank, BankAccountNS, contains the public class BankAccount, whose methods you'll test in the following procedures.
 
@@ -78,6 +95,11 @@ public void Debit(double amount)
 
 1. On the **File** menu, select **Add** > **New Project**.
 
+   > [!TIP]
+   > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
+
+::: moniker range="vs-2017"
+
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
 3. From the list of templates, select **Unit Test Project**.
@@ -86,9 +108,23 @@ public void Debit(double amount)
 
    The **BankTests** project is added to the **Bank** solution.
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Search for and select the C# **Unit Test Project** project template, and then click **Next**.
+
+3. Name the project `BankTests`.
+
+4. Click **Create**.
+
+   The **BankTests** project is added to the **Bank** solution.
+
+::: moniker-end
+
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the context menu.
+   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the right-click menu.
 
 6. In the **Reference Manager** dialog box, expand **Solution** and then check the **Bank** item.
 
@@ -98,7 +134,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 ### Rename a class file
 
-In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the context menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
+In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
 
 This step changes the name of the class to `BankAccountTests`. The *BankAccountTests.cs* file now contains the following code:
 
@@ -337,7 +373,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Assume there's a bug in the method under test, and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException>, nevermind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
+Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException>, never mind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
 
 This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 

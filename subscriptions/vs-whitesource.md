@@ -3,11 +3,9 @@ title: WhiteSource Bolt Benefit | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/11/2017
-ms.topic: Get-Started-Article
+ms.date: 12/19/2018
+ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 #  WhiteSource Bolt in Visual Studio subscriptions
@@ -35,20 +33,18 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for Azure DevOps Services](/azure/devops/marketplace/install-vsts-extension?view=vsts).
 
 
-~~~
 Click the green **Install** button if you are using Azure DevOps Services, or the **Download** button for Team Foundation Server.  For this example, we will use Azure DevOps Services.
 > [!div class="mx-imgBorder"]
-> ![WhiteSource Benefit Install Extension](_img\vs-whitesource\vs-whitesource-download-install.png)
+> ![WhiteSource Benefit Install Extension](_img/vs-whitesource/vs-whitesource-download-install.png)
 
 - Next, select the Azure DevOps organization you want to use and click **Confirm**.  (If you have not yet set up Azure DevOps Services, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your Azure DevOps Services benefit.)
 
 > [!div class="mx-imgBorder"]
-> ![WhiteSource Benefit Confirm Account](_img\vs-whitesource\vs-whitesource-confirm-account.png)
+> ![WhiteSource Benefit Confirm Account](_img/vs-whitesource/vs-whitesource-confirm-account.png)
 
 - You’ll receive a confirmation that the extension is installed and ready to use.  Click **Get started** to return to the WhiteSource Bolt page and continue.
 > [!div class="mx-imgBorder"]
-> ![WhiteSource Benefit Install Complete](_img\vs-whitesource\vs-whitesource-install-complete.png)
-~~~
+> ![WhiteSource Benefit Install Complete](_img/vs-whitesource/vs-whitesource-install-complete.png)
 
 5. Open your Azure DevOps project dashboard, click on the **Azure Pipelines** menu and choose **WhiteSource Bolt**.
    > [!div class="mx-imgBorder"]
@@ -73,14 +69,19 @@ Click the green **Install** button if you are using Azure DevOps Services, or th
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Not Available                                                           |NA         |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not Available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Dev Essentials | NA  | Not available |NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
+<sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
+
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

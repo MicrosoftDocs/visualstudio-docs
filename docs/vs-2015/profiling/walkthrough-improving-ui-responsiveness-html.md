@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Improving UI responsiveness (HTML) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "performance tools, HTML [Store apps]"
 ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Improving UI responsiveness (HTML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -243,6 +238,3 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
 ## See Also  
  [HTML UI responsiveness](../profiling/html-ui-responsiveness.md)
-
-
-

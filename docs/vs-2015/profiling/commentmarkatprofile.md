@@ -1,22 +1,17 @@
 ---
 title: "CommentMarkAtProfile | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "CommentMarkAtProfile"
   - "CommentMarkAtProfileA"
 ms.assetid: 04294ca3-bf9c-4c76-86f1-898c2140de27
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CommentMarkAtProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,6 +113,3 @@ void ExerciseCommentMarkAtProfile(void)
   
 ## See Also  
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
-
-
-

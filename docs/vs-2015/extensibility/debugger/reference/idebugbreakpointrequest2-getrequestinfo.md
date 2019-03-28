@@ -1,22 +1,17 @@
 ---
 title: "IDebugBreakpointRequest2::GetRequestInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBreakpointRequest2::GetRequestInfo"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest2::GetRequestInfo"
 ms.assetid: 5defd8d7-6daa-479b-8909-fcc4ae0b357a
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBreakpointRequest2::GetRequestInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -218,4 +213,3 @@ HRESULT CDebugBreakpointRequest::CopyBP_REQUEST_INFO(
  [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)   
  [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)   
  [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
-

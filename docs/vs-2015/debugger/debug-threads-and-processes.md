@@ -1,14 +1,9 @@
 ---
 title: "Debug Threads and Processes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: 9f0c8505-b6b2-452b-adfd-076db14d8115
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug Threads and Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ Threads* and *processes* are related concepts in computer science. Both represen
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Debugging GPU Code](../debugger/debugging-gpu-code.md)
-
-
-

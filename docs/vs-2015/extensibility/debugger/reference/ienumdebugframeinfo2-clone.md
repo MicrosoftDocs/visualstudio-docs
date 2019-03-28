@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugFrameInfo2::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugFrameInfo2::Clone"
 helpviewer_keywords: 
   - "IEnumDebugFrameInfo2::Clone"
 ms.assetid: cdd10489-1772-47e3-815f-a6cfd32a3c60
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugFrameInfo2::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Clone(
   
 ## See Also  
  [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)
-

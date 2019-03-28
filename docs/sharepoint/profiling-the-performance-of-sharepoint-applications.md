@@ -1,9 +1,6 @@
 ---
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.SharePointTools.Profiling.SilverlightWebPartOnly"
@@ -16,9 +13,9 @@ helpviewer_keywords:
   - "performance testing [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, performance testing"
   - "profiling [SharePoint development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -30,7 +27,7 @@ If your SharePoint applications are performing slowly or inefficiently, you can 
 
 Profiling refers to the process of observing and recording the performance behavior of your application as it runs. By profiling your application, you can uncover problems such as bottlenecks, inefficient code, and memory allocation issues, which cause applications to run slowly or use too much memory. For example, you can use profiling to identify hotspots in your code, which are segments of code that are frequently called and can slow down the overall performance of your application. After you identify hotspots, you can often optimize or eliminate them.
 
-You can use several profiling tools in the integrated development environment (IDE) to identify and locate these kinds of performance issues. These tools work the same way for SharePoint projects as they do for other kinds of Visual Studio projects. The Profiling Tools Performance Wizard leads you through the creation of a performance session that uses the tests that you specify. A performance session is a set of configuration data that's used for collecting performance information from an application, along with the results of one or more profiling runs. Performance sessions are stored in your project folder, and you can view them in **Performance Explorer**. For more information, see [Understanding Performance Collection Methods](/visualstudio/profiling/understanding-performance-collection-methods).
+You can use several profiling tools in the integrated development environment (IDE) to identify and locate these kinds of performance issues. These tools work the same way for SharePoint projects as they do for other kinds of Visual Studio projects. The Profiling Tools Performance Wizard leads you through the creation of a performance session that uses the tests that you specify. A performance session is a set of configuration data that's used for collecting performance information from an application, along with the results of one or more profiling runs. Performance sessions are stored in your project folder, and you can view them in **Performance Explorer**. For more information, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md).
 
 After you create and run a profile analysis on your application, a report provides details about its performance. This report can include items such as a graph of CPU usage over time, a hierarchical function call stack, or a call tree. The exact contents of the report can vary, depending on the type of test that you run, such as sampling or instrumentation. For more information, see [Profiling Tools Report Overview](http://go.microsoft.com/fwlink/?LinkId=224689).
 
@@ -52,7 +49,7 @@ Web performance tests simulate how an end user might interact with a SharePoint 
 
 ## Test user interfaces
 
-Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests).
+Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md).
 
 ## Related topics
 
@@ -60,10 +57,10 @@ Coded UI tests automatically drive your SharePoint application through its user 
 |-----------|-----------------|
 |[Walkthrough: Profile a SharePoint application](../sharepoint/walkthrough-profiling-a-sharepoint-application.md)|Demonstrates how to perform a sampling profile analysis on a SharePoint application.|
 |[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts)|Describes how to create load tests, which help you stress test SharePoint applications.|
-|[Unit Test Your Code](/visualstudio/test/unit-test-your-code)|Describes how to find logic errors in your code by using unit tests.|
-|[Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests)|Describes how to test the user interface of your SharePoint applications.|
+|[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
+|[Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)|Describes how to test the user interface of your SharePoint applications.|
 
 ## See also
 
-[Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-[Improve Code Quality](/visualstudio/test/improve-code-quality)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Improve Code Quality](../test/improve-code-quality.md)

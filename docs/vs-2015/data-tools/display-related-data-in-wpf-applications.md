@@ -1,12 +1,9 @@
 ---
 title: "Display related data in WPF applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,7 +21,7 @@ ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Display related data in WPF applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,4 +62,3 @@ In some applications, you might want to work with data that comes from multiple 
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)   
  [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)
-

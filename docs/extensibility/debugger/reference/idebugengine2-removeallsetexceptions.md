@@ -1,51 +1,49 @@
 ---
 title: "IDebugEngine2::RemoveAllSetExceptions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugEngine2::RemoveAllSetExceptions"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugEngine2::RemoveAllSetExceptions"
 ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugEngine2::RemoveAllSetExceptions
-Removes the list of exceptions the IDE has set for a particular run-time architecture or language.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT RemoveAllSetExceptions(   
-   REFGUID guidType  
-);  
-```  
-  
-```csharp  
-int RemoveAllSetExceptions(   
-   ref Guid guidType  
-);  
-```  
-  
-#### Parameters  
- `guidType`  
- [in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- The exceptions removed by this method were set by earlier calls to the [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md) method.  
-  
- To remove a specific exception, call the [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md) method.  
-  
-## See Also  
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
- [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)
+Removes the list of exceptions the IDE has set for a particular run-time architecture or language.
+
+## Syntax
+
+```cpp
+HRESULT RemoveAllSetExceptions( 
+   REFGUID guidType
+);
+```
+
+```csharp
+int RemoveAllSetExceptions( 
+   ref Guid guidType
+);
+```
+
+#### Parameters
+ `guidType`
+
+ [in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ The exceptions removed by this method were set by earlier calls to the [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md) method.
+
+ To remove a specific exception, call the [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md) method.
+
+## See Also
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
+- [RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)

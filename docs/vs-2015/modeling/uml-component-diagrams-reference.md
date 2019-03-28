@@ -1,12 +1,9 @@
 ---
 title: "UML Component Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.componentdiagram.diagram"
   - "vs.teamarch.componentdiagram.toolbox"
@@ -19,9 +16,9 @@ helpviewer_keywords:
   - "component diagrams"
 ms.assetid: 5eddff6a-892a-4c3c-9278-687ac1eccc50
 caps.latest.revision: 38
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Component Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +61,3 @@ In Visual Studio, a *component diagram* shows the parts of a design for a softwa
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)
-
-
-

@@ -1,23 +1,18 @@
 ---
 title: "CustomType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "CustomType symbol"
 ms.assetid: 1b66bc0a-7979-416f-bf7f-e5df91584c91
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CustomType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ Vendor-defined types (compiler-specific types) are identified by a `SymTagCustom
   
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

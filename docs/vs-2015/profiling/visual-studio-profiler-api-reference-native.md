@@ -1,22 +1,17 @@
 ---
 title: "Visual Studio Profiler API Reference (Native) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 helpviewer_keywords: 
   - "performance tools, API"
   - "Profiler, API"
 ms.assetid: a0c3be92-c263-4678-9fb9-bafead3bd5f5
 caps.latest.revision: 20
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Visual Studio Profiler API Reference (Native)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ Visual Studio Profiler APIs allow you to programmatically control the amount of 
 ## See Also  
  [Profiling Tools APIs](../profiling/profiling-tools-apis.md)   
  [Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)
-
-
-

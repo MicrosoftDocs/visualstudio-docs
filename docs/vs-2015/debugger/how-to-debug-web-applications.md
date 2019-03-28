@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "debugging ASP.NET Web applications, during development"
 ms.assetid: 6440d12e-6b29-42c5-a958-99aeaaff480f
 caps.latest.revision: 40
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ manager: "ghogen"
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
-
-
-

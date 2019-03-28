@@ -1,14 +1,9 @@
 ---
 title: "Dataset Visualizer Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.dataviewer"
 dev_langs: 
@@ -27,9 +22,9 @@ helpviewer_keywords:
   - "Dataset Visualizer dialog box"
 ms.assetid: dfbede03-805b-4f88-a645-b479450e6cb0
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Dataset Visualizer Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, 
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)   
  [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)
-
-
-

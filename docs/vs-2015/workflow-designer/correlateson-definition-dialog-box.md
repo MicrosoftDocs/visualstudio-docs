@@ -1,11 +1,8 @@
 ---
 title: "CorrelatesOn Definition Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "CorrelatesOnDefinition.UI"
@@ -13,7 +10,7 @@ ms.assetid: 8b2b627a-f236-4479-aa09-525df65e3413
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # CorrelatesOn Definition Dialog Box
 The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../includes/wfd1-md.md)] to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property of a <xref:System.ServiceModel.Activities.Receive> activity. [!INCLUDE[crdefault](../includes/crdefault-md.md)] the [Receive](../workflow-designer/receive-activity-designer.md) topic.  
@@ -33,5 +30,4 @@ The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../includes/wfd1-md.m
 ## See Also  
  <xref:System.ServiceModel.Activities.Receive>   
  [Add CorrelationInitializers Dialog Box](../workflow-designer/add-correlationinitializers-dialog-box.md)   
- [Add Correlation Dialog Box](http://msdn.microsoft.com/en-us/9e41a149-e8ab-41b1-8886-ea06a63041b6)   
  [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)

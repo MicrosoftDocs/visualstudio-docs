@@ -1,18 +1,13 @@
 ---
 title: "FAQ: Converting Add-ins to VSPackage Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # FAQ: Converting Add-ins to VSPackage Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -266,4 +261,3 @@ public void OnItemRenamed(EnvDTE.ProjectItem projItem, string oldName)
     string s = "[Event] Renamed " + oldName + " to " + Path.GetFileName(projItem.get_FileNames(1) + " in project " + projItem.ContainingProject.Name;   
 }  
 ```
-

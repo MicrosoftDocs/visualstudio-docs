@@ -1,8 +1,6 @@
 ---
 title: Code Analysis Policy Errors
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.policyfailures"
@@ -11,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

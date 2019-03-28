@@ -1,14 +1,9 @@
 ---
 title: "Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords: 
   - "vs.csharp.refactoring.preview"
   - "vs.csharp.refactoring.issues"
@@ -22,7 +17,7 @@ ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

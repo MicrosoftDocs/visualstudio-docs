@@ -1,14 +1,9 @@
 ---
 title: "IDebugMemoryBytes2::ReadAt | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugMemoryBytes2::ReadAt"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "ReadAt method"
 ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugMemoryBytes2::ReadAt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -77,4 +72,3 @@ int ReadAt(
 ## See Also  
  [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)   
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
-

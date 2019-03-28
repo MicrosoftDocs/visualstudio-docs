@@ -1,19 +1,14 @@
 ---
 title: "Working with Shaders | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 6b2ea1ed-b995-4e75-af19-c68fd37a3bc5
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with Shaders
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../includes/vsp
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to work with shaders.|  
 |[Shader Designer Nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|  
 |[Shader Designer Examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Getting a Port | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "ports, getting"
   - "debugging [Debugging SDK], ports"
 ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting a Port
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ HRESULT CDebugEngine::LaunchSuspended(/* omitted parameters */,
             if (SUCCEEDED(hr))  
             {  
                 // pass on the parameters we were given (omitted here)  
-                hr = spPortEx->LaunchSuspended(/* omitted paramters */,ppDebugProcess)  
+                hr = spPortEx->LaunchSuspended(/* omitted parameters */,ppDebugProcess)  
             }  
         }  
     }  
@@ -102,4 +97,3 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
  [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)   
  [Port Suppliers](../../extensibility/debugger/port-suppliers.md)   
  [Ports](../../extensibility/debugger/ports.md)
-

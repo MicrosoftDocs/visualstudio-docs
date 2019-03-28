@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Extend your DSL by using MEF
 
@@ -113,15 +111,15 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
 
 Your DSL is now MEF-enabled. You can write menu commands, gestures handlers, and validation constraints as MEF extensions. You can write these extensions in your DSL solution together with other custom code. In addition, you or other developers can write separate Visual Studio extensions that extend your DSL.
 
-## Creating an extension for a MEF-enabled DSL
+## Create an extension for a MEF-enabled DSL
 
 If you have access to a MEF-enabled DSL created by yourself or someone else, you can write extensions for it. The extensions can be used to add menu commands, gestures handlers, or validation constraints. To author these extensions, you use a Visual Studio extension (VSIX) solution. The solution has two parts: a class library project that builds the code assembly, and a VSIX project that packages the assembly.
 
-#### To create a DSL extension VSIX
+### To create a DSL extension VSIX
 
-1. Create a new class library project. To do this, in the **New Project** dialog box, select **Visual Basic** or **Visual C#** and then select **Class Library**.
+1. Create a new **Class Library** project.
 
-2. In the new class library project, add a reference to the assembly of the DSL.
+2. In the new project, add a reference to the assembly of the DSL.
 
    - This assembly usually has a name that ends with ".Dsl.dll".
 
@@ -141,9 +139,9 @@ If you have access to a MEF-enabled DSL created by yourself or someone else, you
 
    -   System.Windows.Forms.dll
 
-4. Create a VSIX project in the same solution. To do this, in the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, click **Extensibility**, and then select **VSIX project**.
+4. Create a new **VSIX project** project.
 
-5. In Solution Explorer, right-click the VSIX project and then click **Set as StartUp Project**.
+5. In **Solution Explorer**, right-click the VSIX project and choose **Set as StartUp Project**.
 
 6. In the new project, open **source.extension.vsixmanifest**.
 

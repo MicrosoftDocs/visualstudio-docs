@@ -1,12 +1,9 @@
 ---
 title: "UML Class Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.common.generalization.properties"
   - "vs.teamarch.logicalclassdiagram.toolbox"
@@ -24,9 +21,9 @@ helpviewer_keywords:
   - "diagrams - modeling, UML class"
 ms.assetid: b7c88be0-0d86-4d65-af74-f37e8812d20f
 caps.latest.revision: 43
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Class Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,6 +89,3 @@ A UML class diagram describes the object and information structures used by your
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
  [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)
-
-
-

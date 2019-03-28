@@ -1,14 +1,9 @@
 ---
 title: "Annotating Locking Behavior | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "_Releases_nonreentrant_lock_"
   - "_Lock_kind_mutex_"
@@ -35,9 +30,9 @@ f1_keywords:
   - "_Lock_kind_event_"
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 caps.latest.revision: 11
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Annotating Locking Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,6 +112,3 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)   
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)
-
-
-

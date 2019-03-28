@@ -1,19 +1,14 @@
 ---
 title: "How to: Use GetGlobalService | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, GetGlobalService"
 ms.assetid: 4cdf5ab5-9f09-4caf-9011-2dcb2c62f1b7
 caps.latest.revision: 14
-manager: "douge"
+manager: jillfra
 ---
 # How to: Use GetGlobalService
 Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control. For more information about these and other scenarios, see [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md).  

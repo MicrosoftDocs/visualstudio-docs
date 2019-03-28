@@ -1,23 +1,18 @@
 ---
 title: "Resource Details View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.resourcedetails"
 helpviewer_keywords: 
   - "Resource Details view"
 ms.assetid: a4ecfe1c-abbc-4fb3-9ab2-34de50486901
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Resource Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ The Resource Details view presents a timeline graph of the blocking events that 
 -   In the timeline graph, click the name or ID of the thread.  
   
      The Thread Details View appears for the selected thread. For more information, see [Thread Details View](../profiling/thread-details-view-contention-data.md).
-
-
-

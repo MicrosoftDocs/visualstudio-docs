@@ -1,22 +1,17 @@
 ---
 title: "IDebugArrayObject::GetElement | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugArrayObject::GetElement"
 helpviewer_keywords: 
   - "IDebugArrayObject::GetElement method"
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugArrayObject::GetElement
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ int GetElement(
   
 ## See Also  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
-

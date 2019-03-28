@@ -1,8 +1,6 @@
 ---
 title: Output Window
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.build.output"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

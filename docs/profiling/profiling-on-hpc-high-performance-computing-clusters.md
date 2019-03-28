@@ -1,10 +1,8 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.hpc.wizard.exeoptions"
   - "vs.performance.hpc.wizard.summary"
   - "vs.performance.hpc.wizard.startoptions"
@@ -13,13 +11,13 @@ f1_keywords:
   - "vs.performance.hpc.wizard.application"
   - "vs.performance.hpc.wizard.clusteroptions"
   - "vs.performance.hpc.property.advanced"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profililng tools,HPC"
   - "HPC profiling"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Profile on HPC (high performance computing) clusters
@@ -144,4 +142,3 @@ You can change the performance session properties that you set on the HPC Profil
 | **Pre-profile script arguments** | Specifies the arguments to pass to the pre-profile script. |
 | **Post-profile script** | Specifies the path and file name of a script to run on the local development computer after the profiling session ends. |
 | **Post-profile script arguments** | Specifies the arguments to pass to the post-profile script. |
-

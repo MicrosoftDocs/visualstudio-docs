@@ -1,14 +1,9 @@
 ---
 title: "JIT Optimization and Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "optimized code, debugging"
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # JIT Optimization and Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ When you debug a managed application, [!INCLUDE[vsprvs](../includes/vsprvs-md.md
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Managed Execution Process](http://msdn.microsoft.com/library/476b03dc-2b12-49a7-b067-41caeaa2f533)
-
-
-

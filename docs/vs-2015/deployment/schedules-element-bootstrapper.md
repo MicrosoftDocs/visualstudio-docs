@@ -1,14 +1,9 @@
 ---
 title: "&lt;Schedules&gt; Element (Bootstrapper) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: 28d094cf-64f5-42b1-bd8a-3697082aab4f
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;Schedules&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ The `Schedules` element contains `Schedule` elements, which define specific time
 ## See Also  
  [\<Product> Element](../deployment/product-element-bootstrapper.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
-
-
-

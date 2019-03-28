@@ -1,23 +1,18 @@
 ---
 title: "IDiaAddressMap | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaAddressMap interface"
 ms.assetid: e6467529-508c-4328-85d7-89444ae4d1c1
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaAddressMap
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ IDiaAddressMap : IUnknown
  [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)   
  [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
-
-
-

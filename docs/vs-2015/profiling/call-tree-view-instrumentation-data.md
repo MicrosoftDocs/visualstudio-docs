@@ -1,21 +1,16 @@
 ---
 title: "Call Tree View - Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Call Tree view"
 ms.assetid: 306bd176-0ce9-4a10-89ca-20b043d37d4e
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Call Tree View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,6 +84,3 @@ The values for a function in the call tree indicate the time for the function in
  [Call Tree View](../profiling/call-tree-view-sampling-data.md)   
  [Call Tree View - Instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
  [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Extending the Properties, Task List, Output, and Options Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "properties pane"
   - "task list"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 caps.latest.revision: 38
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Properties, Task List, Output, and Options Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -506,4 +501,3 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 8.  Change one of the properties and then press ENTER.  
   
      The item is updated in the ListBox.
-

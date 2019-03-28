@@ -1,22 +1,17 @@
 ---
 title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "SxS"
   - "side-by-side installation"
   - "installation [Visual Studio SDK], side-by-side"
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Choosing Between Shared and Versioned VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
     -   Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
--   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
+-   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
   
 -   Register file extensions appropriately. For more information, see [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
   
@@ -65,4 +60,3 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 ## See Also  
  [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
  [Component Management](../extensibility/internals/component-management.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug .NET Framework Source | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "debugging, .NET Framework source"
 ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug .NET Framework Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +69,3 @@ The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
-
-
-

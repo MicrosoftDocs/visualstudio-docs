@@ -1,22 +1,17 @@
 ---
 title: "IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugSymbolProvider::GetAddressesFromContext"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetAddressesFromContext method"
 ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,4 +63,3 @@ int GetAddressesFromContext(
  [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition.md)   
  [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)
-

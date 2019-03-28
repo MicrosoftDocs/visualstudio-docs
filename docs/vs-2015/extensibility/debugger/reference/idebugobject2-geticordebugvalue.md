@@ -1,22 +1,17 @@
 ---
 title: "IDebugObject2::GetICorDebugValue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugObject2::GetICorDebugValue"
 helpviewer_keywords: 
   - "IDebugObject2::GetICorDebugValue method"
 ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugObject2::GetICorDebugValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int GetICorDebugValue(
   
 ## See Also  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
-

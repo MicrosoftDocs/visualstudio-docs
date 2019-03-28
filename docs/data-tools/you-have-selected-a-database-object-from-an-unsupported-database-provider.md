@@ -5,9 +5,7 @@ ms.topic: reference
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -18,17 +16,11 @@ The **O/R Designer** supports only the .NET Framework Data Provider for SQL Serv
 > [!NOTE]
 > Only data connections that use the .NET Framework Data Provider for SQL Server are supported.
 
-## To correct this error
+## Options
 
-- Click **OK**.
+- Click **OK** to continue designing the entity classes that map to the connection that uses the unsupported database provider. You might experience unexpected behavior when you use unsupported database providers.
 
-   You can continue designing the entity classes that map to the connection that uses the unsupported database provider. You might experience unexpected behavior when you use unsupported database providers.
-
-    -or-
-
-- Click **Cancel**.
-
-   The action is stopped. Create or use a data connection that uses the .NET Framework Provider for SQL Server.
+- Click **Cancel** to stop the action. Create or use a different data connection that uses the .NET Framework Provider for SQL Server.
 
 ## See also
 

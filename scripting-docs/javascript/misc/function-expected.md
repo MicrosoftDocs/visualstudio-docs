@@ -1,14 +1,9 @@
 ---
 title: "Function expected | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5002"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: f62ade94-9f6f-4832-9b9b-49a06a385bbe
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

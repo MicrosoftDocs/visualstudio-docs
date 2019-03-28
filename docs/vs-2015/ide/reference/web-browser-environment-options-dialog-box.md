@@ -1,14 +1,9 @@
 ---
 title: "Web Browser, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.Environment.Web Browser"
   - "VS.ToolsOptionsPages.Environment.WebBrowser"
@@ -28,7 +23,7 @@ ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Web Browser, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ manager: "ghogen"
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!IMPORTANT]
 >  Opening certain files or components from the Web can execute code on your computer.  
@@ -67,6 +62,3 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
  [HTML Designer](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)
-
-
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty3"
 helpviewer_keywords: 
   - "IDebugProperty3 interface"
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,4 +65,3 @@ IDebugProperty3 : IDebugProperty2
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)
-

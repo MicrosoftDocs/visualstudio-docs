@@ -1,52 +1,51 @@
 ---
-title: "How to: Change the Namespace of a Domain-Specific Language"
-ms.date: 11/04/2016
+title: "How to: Change the namespace of a domain-specific language"
+ms.date: 10/31/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
-# How to: Change the Namespace of a Domain-Specific Language
-You can change the namespace of a domain-specific language. You must make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.
+# How to: Change the namespace of a domain-specific language
 
-### To change the namespace of a domain-specific language
+You can change the namespace of a domain-specific language. Make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.
 
-1.  In **DSL Explorer**, click the **Dsl** node.
+## To change the namespace of a domain-specific language
 
-2.  In the **Properties** window, change the **Namespace** property.
+1. In **DSL Explorer**, select the **Dsl** node.
 
-3.  Save the solution and transform the templates.
+2. In the **Properties** window, change the **Namespace** property.
 
-4.  On the **Project** menu, click **Dsl Properties**.
+3. Save the solution and transform the templates.
 
-     The properties for your project appear.
+4. On the **Project** menu, choose **Dsl Properties**.
 
-5.  Click the **Application** tab.
+   The properties for your project appear.
 
-6.  Change the **Default namespace** property to the new namespace name.
+5. Select the **Application** tab.
 
-7.  If you also want to change the name of the assembly, change the **Assembly name property.**
+6. Change the **Default namespace** property to the new namespace name.
 
-8.  If you have changed the Assembly name, open DslPackage\Package.tt and update this line:
+7. If you also want to change the name of the assembly, change the **Assembly name property.**
 
-     `string dslAssembly = "YourDSLassembly.Dsl.dll";`
+8. If you have changed the Assembly name, open DslPackage\Package.tt and update this line:
+
+   `string dslAssembly = "YourDSLassembly.Dsl.dll";`
 
 9. If you have written any custom code, make sure to change the namespace and class references in the code files.
 
 10. Reset the Visual Studio Experimental instance.
 
-    1.  Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**
+    1. Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**.
 
-    2.  On the Windows **Start** menu, choose **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, **Reset the Experimental Instance**.
+    2. On the Windows **Start** menu, choose **All Programs** > **Microsoft Visual Studio 2010 SDK** > **Tools** > **Reset the Experimental Instance**.
 
 11. On the **Build** menu, choose **Rebuild Solution**.
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+[Domain-specific language tools glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

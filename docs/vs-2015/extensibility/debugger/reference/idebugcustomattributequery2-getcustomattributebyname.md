@@ -1,22 +1,17 @@
 ---
 title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 helpviewer_keywords: 
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -64,4 +59,3 @@ int GetCustomAttributeByName(
 ## See Also  
  [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)   
  [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)
-

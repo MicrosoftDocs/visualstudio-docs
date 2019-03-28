@@ -1,14 +1,9 @@
 ---
 title: "Call Tree View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.calltree"
 helpviewer_keywords: 
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "profiling tools, Call Tree view"
 ms.assetid: b2dbc033-bf95-4d10-8e51-f9462979133e
 caps.latest.revision: 39
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Call Tree View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ The Call Tree view displays the function execution paths that were traversed in 
  [Performance Report Views](../profiling/performance-report-views.md)   
  [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)   
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
-
-
-

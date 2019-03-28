@@ -1,30 +1,28 @@
 ---
 title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "troubleshooting"
-f1_keywords: 
+f1_keywords:
   - "vs.debug.error.unmarshal_server_failed"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Error: Unable to initiate DCOM communication
-A DCOM error occurred when the local machine tried to communicate with the remote machine. This is caused by a firewall on the remote server or broken Windows authentication on the remote machine.  
-  
-### To correct this error  
-  
--   If the remote machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.  
-  
--   To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.  
-  
-## See Also  
- [Remote Debugging](../debugger/remote-debugging.md)
+A DCOM error occurred when the local machine tried to communicate with the remote machine. This is caused by a firewall on the remote server or broken Windows authentication on the remote machine.
+
+### To correct this error
+
+-   If the remote machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
+
+-   To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
+
+## See Also
+- [Remote Debugging](../debugger/remote-debugging.md)

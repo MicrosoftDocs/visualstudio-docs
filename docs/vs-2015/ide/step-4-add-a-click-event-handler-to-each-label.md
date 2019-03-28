@@ -1,19 +1,14 @@
 ---
 title: "Step 4: Add a Click Event Handler to Each Label | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 4: Add a Click Event Handler to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ Properties window showing Click event
 -   To go to the next tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).  
   
 -   To return to the previous tutorial step, see [Step 3: Assign a Random Icon to Each Label](../ide/step-3-assign-a-random-icon-to-each-label.md).
-
-
-

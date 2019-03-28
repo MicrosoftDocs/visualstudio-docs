@@ -1,14 +1,9 @@
 ---
 title: "Print Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.print"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Print Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ Debug.Print text
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

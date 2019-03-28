@@ -1,14 +1,9 @@
 ---
 title: "Annotating Structs and Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "_Field_size_bytes_part_"
   - "_Field_size_bytes_full_opt_"
@@ -26,9 +21,9 @@ f1_keywords:
   - "_Field_size_full_opt_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 caps.latest.revision: 11
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Annotating Structs and Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ You can annotate struct and class members by using annotations that act like inv
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-
-
-

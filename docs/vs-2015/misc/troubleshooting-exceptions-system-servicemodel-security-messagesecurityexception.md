@@ -1,22 +1,17 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "System.ServiceModel.Security.MessageSecurityException exception"
   - "MessageSecurityException exception"
 ms.assetid: 61ad69a1-ac50-49de-9a7c-8454a84ec5bd
 caps.latest.revision: 8
-author: "mikeblome"
-ms.author: "mblome"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: jillfra
 ---
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  

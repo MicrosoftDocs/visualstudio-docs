@@ -1,22 +1,17 @@
 ---
 title: "Command Placement Guidelines | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, small command sets"
   - "small command sets"
   - "command sets"
 ms.assetid: 63b3478e-e08a-420b-a0ec-76767e0cb289
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Placement Guidelines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,4 +54,3 @@ Best practices for positioning commands in the Visual Studio integrated developm
 ## See Also  
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

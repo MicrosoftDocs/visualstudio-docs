@@ -1,14 +1,9 @@
 ---
 title: "Error: ASP.NET Not Installed | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.http_not_supported"
 dev_langs: 
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "ASP.NET, installation error messages"
 ms.assetid: 6286dd3d-3e2b-4edd-959d-81e0ed45500b
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: ASP.NET Not Installed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ This error occurs when [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not i
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
-
-
-

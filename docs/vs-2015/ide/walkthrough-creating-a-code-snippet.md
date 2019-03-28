@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating a Code Snippet | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code snippets, creating"
   - "code snippets, shortcut"
@@ -20,7 +15,7 @@ ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a Code Snippet
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -262,6 +257,3 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 ## See Also  
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
-
-
-

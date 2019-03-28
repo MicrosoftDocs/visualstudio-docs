@@ -1,22 +1,17 @@
 ---
 title: "IDebugProperty2::SetValueAsReference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty2::SetValueAsReference"
 helpviewer_keywords: 
   - "IDebugProperty2::SetValueAsReference method"
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProperty2::SetValueAsReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -69,4 +64,3 @@ int SetValueAsReference(
 ## See Also  
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
-

@@ -3,11 +3,9 @@ title: Visual Studio subscriptions offered to partners in the Microsoft Partner 
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 03/16/2018
-ms.topic: Get-Started-Article
+ms.date: 12/19/2018
+ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -15,7 +13,7 @@ searchscope: VS Subscription
 Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
 ## Subscriptions for partners with an MPN competency
-When a partner earns a competency--either at the silver or gold level--partners earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise annual cloud subscription](https://visualstudio.microsoft.com/vs/pricing/),
+When a partner earns a competency--either at the silver or gold level--partners earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/),
 but with certain benefits removed (many of which are offered separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions offered through MPN).
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
@@ -54,7 +52,7 @@ equivalent in the market. Here is what is included:
 
 Visual Studio Professional (MPN) subscribers can also download and use free software for their development, including the SQL Server Developer Edition.
 
-The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available 
+The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
 with Visual Studio subscriptions that are offered commercially.
 
 ## Internal use-only restriction

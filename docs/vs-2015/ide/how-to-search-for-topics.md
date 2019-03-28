@@ -1,19 +1,14 @@
 ---
 title: "How to: Search for Topics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Search for Topics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ You can use the full-text search feature to locate all topics that contain a par
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)   
  [Advanced Search Operators in Search Expressions](../ide/advanced-search-operators-in-search-expressions.md)   
  [How to: Customize Search Results](../ide/how-to-customize-search-results.md)
-
-
-

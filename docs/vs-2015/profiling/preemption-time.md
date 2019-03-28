@@ -1,23 +1,18 @@
 ---
 title: "Preemption Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.preemption"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Preemption Time"
 ms.assetid: 6b78f91e-a006-440c-83fb-e7368040951d
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Preemption Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ These segments in the timeline are associated with the blocking time that is cat
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

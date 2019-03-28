@@ -1,0 +1,20 @@
+- name: Visual Studio Container Tools
+  href: index.yml
+  expanded: true
+  items:
+  - name: 'Overview'
+    href: visual-studio-tools-for-docker.md
+  - name: 'Quickstart: Docker in Visual Studio'
+    href: docker-tools.md
+  - name: 'Tutorial: Multi-container app with Docker Compose'
+    href: tutorial-multicontainer.md
+  - name: 'Tutorial: Kubernetes in Visual Studio'
+    href: tutorial-kubernetes-tools.md
+  - name: Debug app in a local Docker container
+    href: vs-azure-tools-docker-edit-and-refresh.md
+  - name: Deploy to a container registry
+    href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
+  - name: Deploy to Azure App Service
+    href: docker-deploy-app-service.md
+  - name: Troubleshoot Visual Studio development with Docker
+    href: vs-azure-tools-docker-troubleshooting-docker-errors.md

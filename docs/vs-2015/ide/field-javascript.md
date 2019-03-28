@@ -1,14 +1,9 @@
 ---
 title: "&lt;field&gt; (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "<field> JavaScript XML tag"
   - "field JavaScript XML tag"
@@ -16,7 +11,7 @@ ms.assetid: c494bae0-3095-42a3-aa0a-4c415188c65c
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # &lt;field&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -156,6 +151,3 @@ new calculator().f.   // Completion list for a Number.
   
 ## See Also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Web Site Support | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "web site projects"
 ms.assetid: ce9f4266-bb64-4c09-be88-4bd6413f60d0
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Web Site Support
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ A Web site project system is a project system that creates Web projects. Web pro
 ## Related Sections  
  [Web Projects](../../extensibility/internals/web-projects.md)  
  Presents an overview of the two kinds of Web projects, Web site projects and Web application projects.
-

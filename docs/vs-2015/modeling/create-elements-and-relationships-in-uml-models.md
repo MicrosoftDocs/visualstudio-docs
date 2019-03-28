@@ -1,19 +1,16 @@
 ---
 title: "Create elements and relationships in UML models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: cae81d32-8cc7-4f7c-9f00-20119952bc51
 caps.latest.revision: 17
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Create elements and relationships in UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -129,6 +126,3 @@ anElement.Delete();
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md)
-
-
-

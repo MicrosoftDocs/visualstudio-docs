@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetTextAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the attributes on a range of text, overriding other attributes on that text
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetTextAttributes(  
    ULONG              ulCharOffset,  
    ULONG              cChars,  

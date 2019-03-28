@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugReferenceInfo2::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugReferenceInfo2::Clone"
 helpviewer_keywords: 
   - "IEnumDebugReferenceInfo2::Clone"
 ms.assetid: 49c5a301-a33a-428f-b83b-e734c71af4ef
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugReferenceInfo2::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Clone(
   
 ## See Also  
  [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)
-

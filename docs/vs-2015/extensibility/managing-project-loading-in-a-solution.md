@@ -1,20 +1,15 @@
 ---
 title: "Managing Project Loading in a Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solutions, managing project loading"
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Managing Project Loading in a Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,4 +109,3 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
   
 > [!NOTE]
 >  . By default only the projects that have the demand load and background load priorities are loaded, but if the <xref:Microsoft.VisualStudio.Shell.Interop.__VSBSLFLAGS> flag is passed in to the method, all projects will be loaded except for the ones that are marked to load explicitly.
-

@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Overview of Domain-Specific Language Tools
 Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.
@@ -73,4 +71,4 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 ## See Also
 
 - [The Experimental Instance](../extensibility/the-experimental-instance.md)
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

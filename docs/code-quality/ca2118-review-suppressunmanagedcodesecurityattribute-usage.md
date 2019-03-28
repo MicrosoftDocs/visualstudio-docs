@@ -1,8 +1,6 @@
 ---
 title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2118"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

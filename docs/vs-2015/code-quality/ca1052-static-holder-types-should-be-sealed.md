@@ -1,14 +1,9 @@
 ---
 title: "CA1052: Static holder types should be sealed | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "StaticHolderTypesShouldBeSealed"
   - "CA1052"
@@ -63,6 +58,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1053: Static holder types should not have constructors](../code-quality/ca1053-static-holder-types-should-not-have-constructors.md)
-
-
-

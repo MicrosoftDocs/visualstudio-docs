@@ -1,21 +1,16 @@
 ---
 title: "Wizard Interface (IDTWizard) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IDTWizard interface"
   - "wizards, interface"
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Wizard Interface (IDTWizard)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -69,4 +64,3 @@ STDMETHOD(Execute)(THIS_
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "CA1715: Identifiers should have correct prefix | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "CA1715"
   - "IdentifiersShouldHaveCorrectPrefix"
@@ -24,7 +19,7 @@ manager: "wpickett"
 # CA1715: Identifiers should have correct prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1715: Identifiers should have correct prefix](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1715: Identifiers should have correct prefix](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -85,4 +80,3 @@ For the latest documentation on Visual Studio 2017, see [CA1715: Identifiers sho
   
 ## Related Rules  
  [CA1722: Identifiers should not have incorrect prefix](../code-quality/ca1722-identifiers-should-not-have-incorrect-prefix.md)
-

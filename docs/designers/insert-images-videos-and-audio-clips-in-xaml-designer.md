@@ -1,13 +1,11 @@
 ---
 title: Insert images, videos, and audio clips in XAML Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: ff707aca-6bc5-4a2d-834b-bb6511a7b8f6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---

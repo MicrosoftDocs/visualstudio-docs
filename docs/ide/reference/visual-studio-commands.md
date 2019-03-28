@@ -1,8 +1,6 @@
 ---
-title: Visual Studio Commands
+title: Commands
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio, commands"
@@ -11,29 +9,29 @@ helpviewer_keywords:
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Visual Studio Commands
+
 Visual Studio commands allow you to invoke a command from the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) is used to indicate that a command rather than a search or debug operation is to follow.
 
- You can find a complete list of commands and their syntax in the **Keyboard, Environment Options** dialog box.
+You can find a complete list of commands and their syntax in the **Keyboard, Environment Options** dialog box.
 
- The escape character for Visual Studio commands is a caret (^) character, which means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
+The escape character for Visual Studio commands is a caret (^) character, which means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
 
 ```
 >Edit.Find ^^t /regex
 ```
 
- A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.
+A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.
 
- In localized versions of the IDE, command names can be entered either in the native language of the IDE or in English. For example, you can type either `File.NewFile` or `Fichier.NouveauFichier` in the French IDE to execute the same command.
+In localized versions of the IDE, command names can be entered either in the native language of the IDE or in English. For example, you can type either `File.NewFile` or `Fichier.NouveauFichier` in the French IDE to execute the same command.
 
- Many commands have aliases. For a list of command aliases, see [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md).
+Many commands have aliases. For a list of command aliases, see [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md).
 
- The following commands take arguments and/or switches.
-
+The following commands take arguments and/or switches.
 
 | Command Name | Description |
 | - | - |

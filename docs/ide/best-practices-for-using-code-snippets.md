@@ -1,15 +1,13 @@
 ---
 title: Best Practices for Using Code Snippets
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "code snippets, best practices"
   - "code snippets, security"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Supported Code Changes (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Supported Code Changes (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,6 +82,3 @@ Edit and Continue handles most types of code changes within method bodies. Most 
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
-
-
-

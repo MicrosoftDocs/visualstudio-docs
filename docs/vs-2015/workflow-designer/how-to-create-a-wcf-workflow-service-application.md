@@ -1,17 +1,14 @@
 ---
 title: "How to: Create a WCF Workflow Service Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 12d675ac-27d8-4d86-ba16-6f7688f8c841
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Create a WCF Workflow Service Application
 [!INCLUDE[indigo1](../includes/indigo1-md.md)] workflow service applications are distributed communications services that pass messages between clients and themselves across process boundaries. The implementation of the service contract on the service side is done declaratively through workflow activities in [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] in a manner analogous to legacy workflow services in .NET Framework 3.5.  

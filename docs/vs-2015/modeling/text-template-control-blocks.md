@@ -1,19 +1,16 @@
 ---
 title: "Text Template Control Blocks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, template code"
 ms.assetid: bad198b9-57a4-4777-bd5b-ab6336c825f3
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Text Template Control Blocks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -170,6 +167,3 @@ Some text.
     ```  
   
 -   **Refactoring.** In order to keep your text templates short and easy to understand, it is strongly recommended that you avoid repetitive code either by factoring the reusable code into helper functions in class feature blocks or by creating your own text template class that inherits from the Microsoft.VisualStudio.TextTemplating.TextTransformation class.
-
-
-

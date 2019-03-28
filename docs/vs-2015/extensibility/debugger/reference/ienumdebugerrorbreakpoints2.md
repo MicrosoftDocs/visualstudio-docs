@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugErrorBreakpoints2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugErrorBreakpoints2"
 helpviewer_keywords: 
   - "IEnumDebugErrorBreakpoints2"
 ms.assetid: ffdad73d-969a-45ef-9ad1-7f5d3b814018
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugErrorBreakpoints2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ IEnumDebugErrorBreakpoints2 : IUnknown
  [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)   
  [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)   
  [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
-

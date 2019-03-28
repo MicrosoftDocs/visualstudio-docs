@@ -1,14 +1,9 @@
 ---
 title: "Task List, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.Task_List"
   - "VS.ToolsOptionsPag.Environment.Task_List"
@@ -28,7 +23,7 @@ ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Task List, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -77,6 +72,3 @@ This Options page allows you to add, delete, and change the comment tokens that 
  [Using the Task List](../../ide/using-the-task-list.md)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
-
-
-

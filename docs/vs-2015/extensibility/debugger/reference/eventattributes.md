@@ -1,22 +1,17 @@
 ---
 title: "EVENTATTRIBUTES | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "EVENTATTRIBUTES"
 helpviewer_keywords: 
   - "EVENTATTRIBUTES enumeration"
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # EVENTATTRIBUTES
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ public enum enum_EVENTATTRIBUTES { 
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md)   
  [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
-

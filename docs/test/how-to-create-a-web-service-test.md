@@ -1,5 +1,5 @@
 ---
-title: "Create a Web Service Test in Visual Studio"
+title: "Create a Web Service Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,19 +9,19 @@ helpviewer_keywords:
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a web service test
 
 You can use a web performance test to test web services. By using the **Insert Request** and **Insert Web Service Request** options, you can customize the individual requests in the **Web Performance Test Editor** to locate web service pages. Typically, you do not display these pages in the web application. Therefore, you must customize the request to gain access to these pages.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](http://go.microsoft.com/fwlink/?LinkId=181469).
 
- **Requirements**
+**Requirements**
 
--   Visual Studio Enterprise
+Visual Studio Enterprise
 
 ## To test a web service
 

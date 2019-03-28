@@ -1,14 +1,9 @@
 ---
 title: "Intrinsic Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "_String_length_"
   - "_Param_"
@@ -18,9 +13,9 @@ f1_keywords:
   - "_Inexpressible_"
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 caps.latest.revision: 9
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Intrinsic Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ An expression in SAL can be a C/C++ expression provided that it is an expression
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-
-
-

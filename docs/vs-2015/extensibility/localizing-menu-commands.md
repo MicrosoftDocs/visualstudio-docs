@@ -1,14 +1,9 @@
 ---
 title: "Localizing Menu Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "localize"
   - "localization"
@@ -18,8 +13,8 @@ helpviewer_keywords:
   - "localize vsct"
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Localizing Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -158,4 +153,3 @@ You can provide localized text for menu and toolbar commands by creating localiz
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
  [Globalization and Localization](http://msdn.microsoft.com/library/9a59696b-d89b-45bd-946d-c75da4732d02)
-

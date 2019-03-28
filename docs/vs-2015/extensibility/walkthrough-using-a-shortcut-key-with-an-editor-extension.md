@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - link keystrokes to commands"
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
 caps.latest.revision: 33
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Using a Shortcut Key with an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -242,4 +237,3 @@ private void CreateVisuals(ITextViewLine line)
 2.  Create or open a text file. Type some words containing the character ‘a’, and then type + anywhere in the text view.  
   
      A purple square should appear on every ‘a’ character in the file.
-

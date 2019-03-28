@@ -1,14 +1,9 @@
 ---
 title: "Message Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Message"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Message Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +59,3 @@ Logs a message during a build.
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)
-
-
-

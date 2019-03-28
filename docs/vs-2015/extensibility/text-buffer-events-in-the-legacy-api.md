@@ -1,20 +1,15 @@
 ---
 title: "Text Buffer Events in the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - text buffer events"
 ms.assetid: 9be49e9f-1864-41c2-8a3c-f66895881341
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Text Buffer Events in the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,4 +48,3 @@ The text buffer object emits several different events that allow you to respond 
 ## See Also  
  [Accessing the Text Buffer by Using the Legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)   
  [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)
-

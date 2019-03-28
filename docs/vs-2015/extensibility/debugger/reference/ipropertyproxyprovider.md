@@ -1,22 +1,17 @@
 ---
 title: "IPropertyProxyProvider | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IPropertyProxyProvider"
 helpviewer_keywords: 
   - "IPropertyProxyProvider interface"
 ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IPropertyProxyProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ IPropertyProxyProvider : IUnknown
  [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)   
  [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)
-

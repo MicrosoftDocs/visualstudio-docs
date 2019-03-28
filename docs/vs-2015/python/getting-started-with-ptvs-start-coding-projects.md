@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with PTVS: Start Coding (Projects) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: 14b85e70-b9a8-415c-a307-8c8c316a0495
 caps.latest.revision: 7
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with PTVS: Start Coding (Projects)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ Python Tools for Visual Studio (PTVS) helps you manage your code.
 ## See Also 
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Projects) 
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
-

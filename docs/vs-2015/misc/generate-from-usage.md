@@ -1,14 +1,9 @@
 ---
 title: "Generate From Usage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vsl.GenerateFromUsage"
 helpviewer_keywords: 
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "delegates, generating stubs"
 ms.assetid: 585a3fd5-516f-4166-9fd1-d406cbab369e
 caps.latest.revision: 67
-author: "mikeblome"
-ms.author: "mblome"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: jillfra
 ---
 # Generate From Usage
 This content has moved to [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md).

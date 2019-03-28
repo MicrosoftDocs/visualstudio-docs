@@ -1,14 +1,9 @@
 ---
 title: "StartTrackingContext | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "StartTrackingContext"
 api_location: 
@@ -21,7 +16,7 @@ ms.assetid: 720cd295-38e7-4974-86db-b8106b1207ba
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # StartTrackingContext
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +42,3 @@ HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskN
   
 ## Requirements  
  **Header:** FileTracker.h
-
-
-

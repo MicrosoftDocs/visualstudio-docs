@@ -1,17 +1,12 @@
 ---
 title: "Visual Studio and Xamarin | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "tgt-pltfrm-cross-plat"
+ms.topic: conceptual
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790
 caps.latest.revision: 14
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Visual Studio and Xamarin
@@ -39,4 +34,3 @@ Xamarin is a mobile app development platform for building native iOS, Android, a
   
 > [!NOTE]
 >  If you're looking for a cross-platform development solution based on HTML and CSS, check out the Visual Studio Tools for Apache Cordova as described in [Cross-Platform Development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#HTML).
-

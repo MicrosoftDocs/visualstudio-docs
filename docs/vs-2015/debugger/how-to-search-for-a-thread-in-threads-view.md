@@ -1,21 +1,16 @@
 ---
 title: "How to: Search for a Thread in Threads View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "threads, searching"
 ms.assetid: 5609a9b3-c279-4426-9e2e-dd87896a6d6f
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Search for a Thread in Threads View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ You can search for a specific thread in Threads view by using its thread ID or m
 6. Click **OK**.  
   
    If a matching thread is found, it is highlighted in the Threads view window.
-
-
-

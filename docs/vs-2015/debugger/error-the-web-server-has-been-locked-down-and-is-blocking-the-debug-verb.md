@@ -1,14 +1,9 @@
 ---
 title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.webdbg_debug_verb_blocked"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ Stepping into a Web application or XML Web service failed because the IIS lockdo
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md)
-
-
-

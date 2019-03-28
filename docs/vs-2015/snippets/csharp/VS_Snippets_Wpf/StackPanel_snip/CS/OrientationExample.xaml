@@ -20,7 +20,7 @@
     </StackPanel>
 
     <!-- The items under this StackPanel are stacked Vertically. Note that Orientation 
-         has a default value of "Vertical" but in this example the property is explicitely
+         has a default value of "Vertical" but in this example the property is explicitly
          set for clarity. -->
     <StackPanel Orientation="Vertical">
       <Border Background="SkyBlue">

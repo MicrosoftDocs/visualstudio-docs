@@ -1,21 +1,16 @@
 ---
 title: "How to: Use Built-In Colorable Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "colorable items"
   - "language services, built-in colorable items"
 ms.assetid: 5e5f3436-6bad-4fd2-8823-6a30353ba648
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Use Built-In Colorable Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ Before you use the built-in colorable items, you must first signal to the integr
  [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)   
  [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)   
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service2.md)
-

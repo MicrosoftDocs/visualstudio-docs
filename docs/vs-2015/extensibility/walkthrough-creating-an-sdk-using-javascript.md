@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Creating an SDK using JavaScript | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Creating an SDK using JavaScript
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -316,4 +311,3 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 ## See Also  
  [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)
-

@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, diagram"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing Presentation on the Diagram
 The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.

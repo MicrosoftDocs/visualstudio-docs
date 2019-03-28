@@ -11,11 +11,9 @@ helpviewer_keywords:
   - "text templates, template directive"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # T4 Text Template Directives
 Directives provide instructions to the text template transformation engine.

@@ -1,14 +1,9 @@
 ---
 title: "Debugging Basics: Registers Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,16 +18,16 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Registers window"
 ms.assetid: ab354047-053e-4f94-8ac1-26e761442b6f
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging Basics: Registers Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   
- Registers are special locations within a processor (CPU) that are used to store small pieces of data that the processor is actively working on. Compiling or interpreting source code generates instructions that move data from memory into the registers and back again, as needed. Accessing data in registers is very fast compared to accessing data in memory, so code that allows the processor to keep data in a register and access it repeatedly tends to execute faster than code that requires the processor to constantly load and unload registers. To make it easier for the compiler to keep data in registers, and perform other optimizations, you should avoid using global variables and rely on local variables as much as possible. Code written in this fashion is said to have good locality of reference. In some languages, such as C/C++, the programmer can declare a register variable, which tells the compiler to try its best to keep the variable in a register at all times. For more information, see [Register Keyword](http://msdn.microsoft.com/en-us/5b66905a-2f7f-4918-bb55-5e66d4bc50f9).  
+ Registers are special locations within a processor (CPU) that are used to store small pieces of data that the processor is actively working on. Compiling or interpreting source code generates instructions that move data from memory into the registers and back again, as needed. Accessing data in registers is very fast compared to accessing data in memory, so code that allows the processor to keep data in a register and access it repeatedly tends to execute faster than code that requires the processor to constantly load and unload registers. To make it easier for the compiler to keep data in registers, and perform other optimizations, you should avoid using global variables and rely on local variables as much as possible. Code written in this fashion is said to have good locality of reference. In some languages, such as C/C++, the programmer can declare a register variable, which tells the compiler to try its best to keep the variable in a register at all times. For more information, see [Register Keyword](http://msdn.microsoft.com/5b66905a-2f7f-4918-bb55-5e66d4bc50f9).  
   
  Registers can be divided into two types: general purpose and special purpose. General-purpose registers hold data for general operations such as adding two numbers together or referencing an element in an array. Special-purpose registers have specific purposes and specialized meaning. A good example is the stack-pointer register, which the processor uses to keep track of the program's call stack. As a programmer, you will probably not manipulate the stack pointer directly. However, it is essential to the proper functioning of your program because without the stack pointer, the processor would not know where to return to at the end of a function call.  
   
@@ -60,8 +55,3 @@ EAX = 003110D8
 ## See Also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)   
  [Debugger Basics](../debugger/debugger-basics.md)
-
-
-
-
-

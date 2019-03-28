@@ -1,22 +1,17 @@
 ---
 title: "SccGetProjPath Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccGetProjPath"
 helpviewer_keywords: 
   - "SccGetProjPath function"
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # SccGetProjPath Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,4 +104,3 @@ SCCRTN SccGetProjPath (
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)
-

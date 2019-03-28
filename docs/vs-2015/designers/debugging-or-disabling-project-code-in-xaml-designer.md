@@ -1,16 +1,14 @@
 ---
 title: "Debugging or Disabling Project Code in XAML Designer | Microsoft Docs"
-ms.custom: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-designers
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging or Disabling Project Code in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,8 +83,3 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
   
 ## See Also  
  [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
-
-
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "DA0004: High processor usage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DAHighProcessorUsage"
   - "vs.performance.rules.DA0004"
@@ -16,9 +11,9 @@ f1_keywords:
   - "vs.performance.4"
 ms.assetid: 2c4fb569-929e-4f1d-8c50-b590ee371351
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0004: High processor usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +34,3 @@ Rule Id|DA0004|
   
 ## How to Fix Violations  
  Consider profiling your application again using the sampling method instead of instrumentation method unless you require function timings or you are more interested in understanding input/output than processor bottlenecks.
-
-
-
-

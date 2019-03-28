@@ -1,17 +1,14 @@
 ---
 title: "Flowchart Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Flowchart Activity Designers
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to manage flowcharts within a workflow. The following topics describe these activities and provide guidance on how to use them.  

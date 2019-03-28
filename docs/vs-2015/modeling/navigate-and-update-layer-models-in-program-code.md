@@ -1,20 +1,17 @@
 ---
 title: "Navigate and update layer models in program code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer models, navigating in program code"
   - "layer models, updating in program code"
 ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Navigate and update layer models in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -131,6 +128,3 @@ public void ... (...)
  [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
  [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

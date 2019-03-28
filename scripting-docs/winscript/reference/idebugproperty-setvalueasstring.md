@@ -2,7 +2,6 @@
 title: "IDebugProperty::SetValueAsString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the value of a property from a given string.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetValueAsString (  
    LPCOLESTR pszValue,  
    UINTnRadix,  

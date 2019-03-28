@@ -1,18 +1,13 @@
 ---
 title: "Sample Excel Extension: TechnologyManager Class | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 11
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Excel Extension: TechnologyManager Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,6 +61,3 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A>   
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
-
-
-

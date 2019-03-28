@@ -1,8 +1,6 @@
 ---
 title: "CA2201: Do not raise reserved exception types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotRaiseReservedExceptionTypes"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: dd14ef5c-80e6-41a5-834e-eba8e2eae75e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

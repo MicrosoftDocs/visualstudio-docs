@@ -1,19 +1,14 @@
 ---
 title: "How to: Include Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Include Prerequisites with a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
 ## See Also  
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
-
-
-

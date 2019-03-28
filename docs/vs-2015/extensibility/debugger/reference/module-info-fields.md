@@ -1,22 +1,17 @@
 ---
 title: "MODULE_INFO_FIELDS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "MODULE_INFO_FIELDS"
 helpviewer_keywords: 
   - "MODULE_INFO_FIELDS enumeration"
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # MODULE_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -120,4 +115,3 @@ public enum enum_MODULE_INFO_FIELDS { 
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)   
  [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)
-

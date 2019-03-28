@@ -1,5 +1,5 @@
 ---
-title: Generating Files with the TextTransform Utility in Visual Studio
+title: Generating Files with the TextTransform Utility
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "TextTransform.exe"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Generate files with the TextTransform utility
 
@@ -56,7 +54,7 @@ TextTransform [<options>] <templateName>
 |**-I** \<includedirectory>|A directory that contains the text templates included in the specified text template.|
 |**-P** \<referencepath>|A directory to search for assemblies specified within the text template or for using the **-r** option.<br /><br /> For example, to include assemblies used for the Visual Studio API, use<br /><br /> `-P "%VSSHELLFOLDER%\Common7\IDE\PublicAssemblies"`|
 |**-dp** \<processorName>!\<className>!\<assemblyName&#124;codeBase>|The name, full type name, and assembly of a directive processor that can be used to process custom directives within the text template.|
-|**-a** [processorName]![directiveName]!\<parameterName>!\<parameterValue>|Specify a parameter value for a directive processor. If you specify just the parameter name and value, the parameter will be available to all directive processors. If you specify a directive processor, the parameter is available only to the specified processor. If you specify a directive name, the parameter is available only when the specified directive is being processed.<br /><br /> To access the parameter values from a directive processor or text template, use [ITextTemplatingEngineHost.ResolveParameterValue](https://msdn.microsoft.com/library/microsoft.visualstudio.texttemplating.itexttemplatingenginehost.resolveparametervalue.aspx). In a text template, include `hostspecific` in the template directive and invoke the message on `this.Host`. For example:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> Always type the '!' marks, even if you omit the optional processor and directive names. For example:<br /><br /> `-a !!param!value`|
+|**-a** [processorName]![directiveName]!\<parameterName>!\<parameterValue>|Specify a parameter value for a directive processor. If you specify just the parameter name and value, the parameter will be available to all directive processors. If you specify a directive processor, the parameter is available only to the specified processor. If you specify a directive name, the parameter is available only when the specified directive is being processed.<br /><br /> To access the parameter values from a directive processor or text template, use [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)). In a text template, include `hostspecific` in the template directive and invoke the message on `this.Host`. For example:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> Always type the '!' marks, even if you omit the optional processor and directive names. For example:<br /><br /> `-a !!param!value`|
 |**-h**|Provides help.|
 
 ## Related topics

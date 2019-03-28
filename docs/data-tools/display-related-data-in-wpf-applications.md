@@ -13,13 +13,12 @@ helpviewer_keywords:
 ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Display related data in WPF applications
+
 In some applications, you might want to work with data that comes from multiple tables or entities that are related to each other in a parent-child relationship. For example, you might want to display a grid that displays customers from a `Customers` table. When the user selects a specific customer, another grid displays the orders for that customer from a related `Orders` table.
 
 You can create data-bound controls that display related data by dragging items from the **Data Sources** window to the WPF Designer.

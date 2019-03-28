@@ -1,21 +1,16 @@
 ---
 title: "Evaluating a Watch Expression | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, watch expressions"
   - "watch expressions"
 ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Evaluating a Watch Expression
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -176,4 +171,3 @@ STDMETHODIMP CParsedExpression::EvaluateSync(
 ## See Also  
  [Evaluating a Watch Window Expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)   
  [Sample Implementation of Expression Evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)
-

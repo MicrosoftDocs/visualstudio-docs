@@ -1,14 +1,9 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.paralleltasks"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using the Tasks Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,6 +93,3 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
  [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)
-
-
-

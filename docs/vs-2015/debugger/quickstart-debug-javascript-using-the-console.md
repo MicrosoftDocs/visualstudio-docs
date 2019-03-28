@@ -1,14 +1,9 @@
 ---
 title: "QuickStart: Debug JavaScript using the console | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.WebClient.JavaScriptConsole"
 dev_langs: 
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "debugging, JavaScript"
 ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # QuickStart: Debug JavaScript using the console
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -283,6 +278,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
  [Product Support and Accessibility](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
-
-
-

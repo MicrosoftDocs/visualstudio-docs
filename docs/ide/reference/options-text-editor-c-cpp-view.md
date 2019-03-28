@@ -9,8 +9,6 @@ f1_keywords:
 author: mikeblome
 ms.author: mblome
 manager: wpickett
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.workload:
   - "cplusplus"
 ---
@@ -19,9 +17,6 @@ ms.workload:
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
 To access this property page, choose **Tools** > **Options** and expand **Text Editor**, then **C/C++**, and then choose **View**.
-
-> [!NOTE]
-> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Code Squiggles
 
@@ -43,7 +38,7 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Enumerate Comment Tasks** - Scan open source files for VS tokens and report them in the Task List window.
 
-- **Highlight Matching Tokens** - Highlight enclosing braces or syntax that match where the cursor is positioned. 
+- **Highlight Matching Tokens** - Highlight enclosing braces or syntax that match where the cursor is positioned.
 
 ## Outlining
 

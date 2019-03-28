@@ -1,53 +1,51 @@
 ---
 title: "How to: Instrument a Stand-Alone .NET Framework Component and Collect Timing Data with the Profiler from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
 # How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.  
+This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.
 
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
-> 
->  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
-> 
->  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
+>  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).
+>
+>  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+>
+>  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).
 
- To collect detailed timing data from a .NET Framework component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler.  
+ To collect detailed timing data from a .NET Framework component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler.
 
- When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.  
+ When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
 
- To end a profiling session, you close the target application and explicitly shut down the profiler. In most cases, we recommend clearing the profiling environment variables at the end of a session.  
+ To end a profiling session, you close the target application and explicitly shut down the profiler. In most cases, we recommend clearing the profiling environment variables at the end of a session.
 
-## Start the profiling session  
+## Start the profiling session
 
-#### To start profiling by using the instrumentation method  
+#### To start profiling by using the instrumentation method
 
-1. Open a Command Prompt window. If necessary, add the profiler tools directory to your PATH environment variable. The path is not added at installation.  
+1. Open a Command Prompt window. If necessary, add the profiler tools directory to your PATH environment variable. The path is not added at installation.
 
-2. Use the **VSInstr** tool to generate an instrumented version of the target application.  
+2. Use the **VSInstr** tool to generate an instrumented version of the target application.
 
-3. Initialize the .NET Framework profiling environment variables. Type:  
+3. Initialize the .NET Framework profiling environment variables. Type:
 
-    **VSPerfClrEnv /traceon**  
+    **VSPerfClrEnv /traceon**
 
-4. Start the profiler. Type:  
+4. Start the profiler. Type:
 
-    **VSPerfCmd /start:trace /output:** `OutputFile` [`Options`]  
+    **VSPerfCmd /start:trace /output:** `OutputFile` [`Options`]
 
-   - The [/start](../profiling/start.md)**:trace** option initializes the profiler.  
+   - The [/start](../profiling/start.md)**:trace** option initializes the profiler.
 
-   - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.  
+   - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.
 
-     You can use any one of the following options with the **/start:trace** option.  
+     You can use any one of the following options with the **/start:trace** option.
 
    | Option | Description |
    | - | - |
@@ -60,36 +58,36 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
 
-5. Start the target application from the Command Prompt window.  
+5. Start the target application from the Command Prompt window.
 
-## Control data collection  
- When the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
+## Control data collection
+ When the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
 
-#### To start and stop data collection  
+#### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+-   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
-    |Option|Description|  
-    |------------|-----------------|  
-    |[/globalon /globaloff](../profiling/globalon-and-globaloff.md)|Starts (**/globalon**) or stops (**/globaloff**) data collection for all processes.|  
-    |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|  
-    |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|Starts (**/threadon**) or stops (**/threadoff**) data collection for the thread specified by the thread ID (`TID`).|  
+    |Option|Description|
+    |------------|-----------------|
+    |[/globalon /globaloff](../profiling/globalon-and-globaloff.md)|Starts (**/globalon**) or stops (**/globaloff**) data collection for all processes.|
+    |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|
+    |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|Starts (**/threadon**) or stops (**/threadoff**) data collection for the thread specified by the thread ID (`TID`).|
 
-## End the profiling session  
- To end a profiling session, close the application that is running the instrumented component. Call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn off the profiler and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.  
+## End the profiling session
+ To end a profiling session, close the application that is running the instrumented component. Call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn off the profiler and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.
 
-#### To end a profiling session  
+#### To end a profiling session
 
-1.  Close the target application.  
+1.  Close the target application.
 
-2.  Shut down the profiler. Type:  
+2.  Shut down the profiler. Type:
 
-     **VSPerfCmd /shutdown**  
+     **VSPerfCmd /shutdown**
 
-3.  (Optional) Clear the profiling environment variables. Type:  
+3.  (Optional) Clear the profiling environment variables. Type:
 
-     **VSPerfClrEnv /off**  
+     **VSPerfClrEnv /off**
 
-## See also  
- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+## See also
+- [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)
+- [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

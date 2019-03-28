@@ -1,19 +1,14 @@
 ---
 title: "XML Editor Components | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 417ec1ca-e2fa-4496-87cb-ac04c9f26741
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Editor Components
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +30,8 @@ This section discusses the XML Editor windows and dialog boxes. Because the XML 
  Describes how to select the XML Schema(s) to associate with the XML document.  
   
 ## Related Sections  
- [How to: Set General Editor Options](http://msdn.microsoft.com/en-us/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)  
+ [How to: Set General Editor Options](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)  
  Describes how to set general settings such as display, statement completion, and so on.  
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

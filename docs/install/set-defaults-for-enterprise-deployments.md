@@ -1,9 +1,8 @@
 ---
-title: "Set defaults for enterprise deployments of Visual Studio"
+title: "Set defaults for enterprise deployments"
 description: "Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio."
 ms.date: 05/05/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
   - "gpo"
@@ -14,9 +13,11 @@ helpviewer_keywords:
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
 author: heaths
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Set defaults for enterprise deployments of Visual Studio
 
@@ -57,6 +58,6 @@ You can set the following registry values:
 
 ## See also
 
- * [Install Visual Studio](install-visual-studio.md)
- * [Disable or move the package cache](disable-or-move-the-package-cache.md)
- * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+- [Install Visual Studio](install-visual-studio.md)
+- [Disable or move the package cache](disable-or-move-the-package-cache.md)
+- [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

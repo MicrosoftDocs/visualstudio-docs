@@ -1,21 +1,16 @@
 ---
 title: "Custom Colorable Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "colorable items"
   - "language services, custom colorable items"
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Custom Colorable Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ You can override the list of types for colorizing, such as keywords and comments
  [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
  [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)   
  [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
-

@@ -7,13 +7,13 @@ helpviewer_keywords:
 ms.assetid: ae8b35f9-d465-4d72-8d7d-7b56ae6ffd22
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Apply distribution to pacing delay for a user pace test mix model
 
 After you create your load test by using the **New Load Test Wizard**, you can use the Load Test Editor to change the scenario's properties to meet your testing needs and goals.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 The **Apply Distribution to Pacing Delay** property is set by using the **Properties** window. Load test scenario properties are modified by using the Load Test Editor.
 

@@ -2,12 +2,10 @@
 title: "Workflow Designer - Control Flow Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

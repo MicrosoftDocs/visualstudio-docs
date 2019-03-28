@@ -1,8 +1,6 @@
 ---
 title: "How to: Implement an Interface (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "interfaces [Visual Studio], implementing"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

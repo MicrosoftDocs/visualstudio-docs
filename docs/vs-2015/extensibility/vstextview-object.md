@@ -1,14 +1,9 @@
 ---
 title: "VSTextView Object | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "VSTextView"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "views [Visual Studio SDK], reference"
 ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSTextView Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ The text view is a window that allows users to view and edit the Unicode text of
   
 |Interface|Description|  
 |---------------|-----------------|  
-|[IDropSource](http://msdn.microsoft.com/library/windows/desktop/ms690071)|Standard OLE interface.|  
+|[IDropSource](/windows/desktop/api/oleidl/nn-oleidl-idropsource)|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>|Standard OLE interface.|  
@@ -39,7 +34,6 @@ The text view is a window that allows users to view and edit the Unicode text of
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsThreadSafeTextView>|Performs operations on the view from a different thread.|  
   
 ## See Also  
- [Figures Edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)   
+ [Figures Edit](http://msdn.microsoft.com/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)   
  [VSTextBuffer Object](../extensibility/vstextbuffer-object.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
-

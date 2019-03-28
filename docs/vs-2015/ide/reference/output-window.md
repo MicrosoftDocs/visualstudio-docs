@@ -1,14 +1,9 @@
 ---
 title: "Output Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.build.output"
   - "vs.debug.output"
@@ -21,7 +16,7 @@ ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Output Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ The **Output** window can display status messages for various features in the in
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)   
  [Class Library Overview](http://msdn.microsoft.com/library/7e4c5921-955d-4b06-8709-101873acf157)
-
-
-

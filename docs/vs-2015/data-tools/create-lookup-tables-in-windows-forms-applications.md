@@ -1,12 +1,9 @@
 ---
 title: "Create lookup tables in Windows Forms applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create lookup tables in Windows Forms applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +33,7 @@ The term *lookup table* describes controls that are bound to two related data ta
 1.  Open the **Data Sources** window.  
   
     > [!NOTE]
-    >  Lookup tables require that two related tables or objects are available in the **Data Sources** window. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+    > Lookup tables require that two related tables or objects are available in the **Data Sources** window.
   
 2.  Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.  
   
@@ -49,7 +46,7 @@ The term *lookup table* describes controls that are bound to two related data ta
   
 5.  Drag the main child table node from the **Data Sources** window onto your form.  
   
-     Databound controls (with descriptive labels) and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) appear on the form. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Databound controls (with descriptive labels) and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) appear on the form. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), TableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 6.  Now drag the main parent table node from the **Data Sources** window directly onto the lookup control (the <xref:System.Windows.Forms.ComboBox>).  
   
@@ -64,4 +61,3 @@ The term *lookup table* describes controls that are bound to two related data ta
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
-

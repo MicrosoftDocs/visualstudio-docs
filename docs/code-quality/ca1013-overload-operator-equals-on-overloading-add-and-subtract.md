@@ -1,8 +1,6 @@
 ---
 title: "CA1013: Overload operator equals on overloading add and subtract"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "OverrideOperatorEqualsOnOverridingAddAndSubtract"
@@ -17,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

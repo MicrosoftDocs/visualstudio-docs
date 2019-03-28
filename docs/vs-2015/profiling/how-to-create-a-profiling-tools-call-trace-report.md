@@ -1,22 +1,17 @@
 ---
 title: "How to: Create a Profiling Tools Call Trace Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, viewing ETW data"
   - "ETW [Visual Studio ALM], viewing data"
 ms.assetid: 7640520a-7d3c-456c-b184-872a5d2f82f3
 caps.latest.revision: 24
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Create a Profiling Tools Call Trace Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ The  *call trace report* for the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pr
 ## See Also  
  [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)   
  [Profiling Tools APIs](../profiling/profiling-tools-apis.md)
-
-
-

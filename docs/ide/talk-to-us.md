@@ -1,10 +1,6 @@
 ---
 title: "Talk to us"
-ms.custom: ""
 ms.date: 10/09/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
@@ -12,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -22,7 +18,7 @@ Talk to us! We're interested in your ideas for improving our products and docume
 
 ## I want to report a problem with Visual Studio
 
-If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ## I want to make a suggestion about Visual Studio features
 
@@ -36,12 +32,12 @@ Pre-release versions of Visual Studio have a **Rate this Product** menu item tha
 
 For Visual Studio support information, see the [Support life cycle & servicing](/visualstudio/productinfo/vs-servicing-vs) page.
 
-For other Microsoft products and services, see [Microsoft support](http://go.microsoft.com/fwlink/?LinkID=99019) for online help.
+For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 
 > [!NOTE]
-> Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft worldwide sites](http://www.microsoft.com/worldwide/).
+> Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft worldwide sites](https://www.microsoft.com/worldwide/).
 
-For larger organizations that require managed support directly from Microsoft, contracts are available through various Enterprise Support offerings. For more information, see [Microsoft Enterprise Support solutions](http://go.microsoft.com/fwlink/?LinkId=258223).
+For larger organizations that require managed support directly from Microsoft, contracts are available through various Enterprise Support offerings. For more information, see [Microsoft Enterprise Support solutions](https://go.microsoft.com/fwlink/?LinkId=258223).
 
 If the product came installed with a new computer or device, the hardware manufacturer provides technical support and assistance for this software. Contact the manufacturer directly for support.
 
@@ -49,7 +45,7 @@ Microsoft support services are subject to then-current prices, terms, and condit
 
 ## I want to get involved in the developer community
 
-If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](https://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
+If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](https://social.msdn.microsoft.com/Forums/home), or [Stack Overflow](https://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
 
 ## I want to help improve the Visual Studio documentation
 
@@ -57,6 +53,6 @@ Please use the **Was this page helpful?** feedback button at the bottom of the p
 
 ## See also
 
-* [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
+* [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 * [Developer Community](https://developercommunity.visualstudio.com)
 * [Developer Community data privacy](developer-community-privacy.md)

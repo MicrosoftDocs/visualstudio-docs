@@ -1,19 +1,14 @@
 ---
 title: "MSBuild Multitargeting Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Multitargeting Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,6 +45,3 @@ By using MSBuild, you can compile an application to run on any one of several ve
   
 ## Troubleshooting  
  You might encounter errors if you try to reference an assembly that is not part of the target context. For more information about these errors and what to do about them, see [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
-
-
-

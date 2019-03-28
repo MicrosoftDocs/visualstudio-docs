@@ -1,22 +1,17 @@
 ---
 title: "Getting Started with Debugger Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "getting started, Debugging SDK"
   - "debugging [Debugging SDK], getting started"
   - "Debugging SDK, getting started"
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Started with Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] provides the information t
   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.
-

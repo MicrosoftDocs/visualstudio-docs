@@ -1,16 +1,14 @@
 ---
 title: "Install SQL Server sample databases | Microsoft Docs"
-ms.custom: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 38840167-c3f8-4cb3-8d15-8af04a0a20a1
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Install SQL Server sample databases
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,4 +58,3 @@ Sample databases are useful for experimenting with SQL and LINQ queries, databin
 2.  In the SSMS **Object Explorer** window, right-click the **Databases** node, select**Restore Database**, and provide the location of the .bak file.  
   
      ![SSMS Restore Database](../data-tools/media/raddata-ssms-restore-database.png "raddata SSMS Restore Database")
-

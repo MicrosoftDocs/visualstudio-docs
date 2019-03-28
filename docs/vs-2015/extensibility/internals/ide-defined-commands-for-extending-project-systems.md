@@ -1,21 +1,16 @@
 ---
 title: "IDE-Defined Commands for Extending Project Systems | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, project systems"
   - "project systems, environment-defined commands"
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDE-Defined Commands for Extending Project Systems
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -74,4 +69,3 @@ When you want to extend project systems, you can use commands and command groups
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)   
  [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)
-

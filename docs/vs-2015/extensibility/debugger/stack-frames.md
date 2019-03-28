@@ -1,22 +1,17 @@
 ---
 title: "Stack Frames | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "stack frames, debugging"
   - "debugging [Debugging SDK], stack frames"
   - "stack frames"
 ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Stack Frames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,4 +31,3 @@ In terms of the debugger architecture, a **stack frame**:
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   
  [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md)
-

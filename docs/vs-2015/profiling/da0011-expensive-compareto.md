@@ -1,14 +1,9 @@
 ---
 title: "DA0011: Expensive CompareTo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.DA0011"
   - "vs.performance.rules.DAExpensiveCompareTo"
@@ -16,14 +11,14 @@ f1_keywords:
   - "vs.performance.rules.DA0011"
 ms.assetid: 239a381d-0d97-4367-8668-746c93f5af2c
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0011: Expensive CompareTo
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [DA0011: Expensive CompareTo](https://docs.microsoft.com/visualstudio/profiling/da0011-expensive-compareto) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0011: Expensive CompareTo](https://docs.microsoft.com/visualstudio/profiling/da0011-expensive-compareto) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -41,4 +36,3 @@ For the latest documentation on Visual Studio 2017, see [DA0011: Expensive Compa
   
 ## How to Fix Violations  
  Reduce the complexity of the CompareTo method.
-

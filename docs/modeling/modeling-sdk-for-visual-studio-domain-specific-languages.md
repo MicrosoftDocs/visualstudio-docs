@@ -1,24 +1,24 @@
 ---
 title: Modeling SDK for Visual Studio - Domain-Specific Languages
+titleSuffix: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools"
   - "Domain-Specific Language"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
+
 By using the Modeling SDK for Visual Studio, you can create powerful model-based development tools that you can integrate into Visual Studio. In the same manner, you can create one or more model definitions and integrate them into a set of tools.
 
- At the heart of MSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in Visual Studio. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.
+At the heart of MSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in Visual Studio. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.
 
- MSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:
+MSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:
 
 - A model implementation with a strongly-typed API that runs in a transaction-based store.
 
@@ -30,13 +30,13 @@ By using the Modeling SDK for Visual Studio, you can create powerful model-based
 
 - Facilities for generating program code and other artifacts using text templating.
 
-  You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.
+You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+[Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
 
- For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).
+For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).
 
 ## In This Section
  [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)

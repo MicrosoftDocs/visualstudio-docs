@@ -1,14 +1,9 @@
 ---
 title: "&lt;assembly&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assembly"
 dev_langs: 
@@ -21,7 +16,7 @@ ms.assetid: 51410569-10f9-4c0a-96b5-d39185edbefc
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;assembly&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +69,3 @@ The top-level element for the application manifest.
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md)
-
-
-

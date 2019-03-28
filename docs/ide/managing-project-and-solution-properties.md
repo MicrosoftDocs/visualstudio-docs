@@ -1,12 +1,10 @@
 ---
 title: Manage project and solution properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,6 +17,9 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 .NET projects might also have a properties node in the project tree itself.
 
 ![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
 
 ## Project properties
 
@@ -50,3 +51,4 @@ To access properties on the solution, right click the solution node in **Solutio
 ## See also
 
 - [Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
+- [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties)

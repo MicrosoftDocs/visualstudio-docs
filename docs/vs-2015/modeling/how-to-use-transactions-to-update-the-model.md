@@ -1,17 +1,14 @@
 ---
 title: "How to: Use Transactions to Update the Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: e24436a5-7f97-401b-bc83-20d188d10d5b
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Use Transactions to Update the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,6 +99,3 @@ if (!this.Store.InUndoRedoOrRollback) {...}
 if (!this.Store.InSerializationTransaction) {...}  
   
 ```
-
-
-

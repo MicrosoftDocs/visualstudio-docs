@@ -1,22 +1,17 @@
 ---
 title: "IDebugBreakpointResolution2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBreakpointResolution2"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 451d5bce-b9c1-48ff-beaa-2b4c3e1ceea0
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBreakpointResolution2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ IDebugBreakpointResolution2 : IUnknown
   
 ## See Also  
  [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugboundbreakpoint2-getbreakpointresolution.md)
-

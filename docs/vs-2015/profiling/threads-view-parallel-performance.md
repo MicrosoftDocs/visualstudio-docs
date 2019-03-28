@@ -1,23 +1,18 @@
 ---
 title: "Threads View (Parallel Performance) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.threadblocking"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
 ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Threads View (Parallel Performance)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -150,6 +145,3 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
   
 ## See Also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
-
-
-

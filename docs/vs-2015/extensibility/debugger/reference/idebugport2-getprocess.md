@@ -1,22 +1,17 @@
 ---
 title: "IDebugPort2::GetProcess | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPort2::GetPortSupplier"
 helpviewer_keywords: 
   - "IDebugPort2::GetPortSupplier"
 ms.assetid: 3e2431b0-0e19-450d-8e1d-d7c314c8f872
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPort2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,4 +48,3 @@ int GetProcess( 
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)   
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)   
  [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "Instruction Pointers (IPs) View - .NET Memory Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: 7d91cc14-e8e9-4ebb-b14f-b9f0da770508
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Instruction Pointers (IPs) View - .NET Memory Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ The IPs view for .NET memory allocation profiling data that was collected by usi
   
 ## See Also  
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)
-
-
-

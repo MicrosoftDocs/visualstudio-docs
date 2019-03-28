@@ -49,9 +49,9 @@ namespace SimpleWebToken
         }
 
         /// <summary>
-        /// Gets the System.Type of the SecurityToken is supported by ththis handler.
+        /// Gets the System.Type of the SecurityToken is supported by this handler.
         /// </summary>
-        /// <value>The System.Type of the SecurityToken is supported by ththis handler.</value>
+        /// <value>The System.Type of the SecurityToken is supported by this handler.</value>
         public override Type TokenType
         {
             get
@@ -447,7 +447,7 @@ namespace SimpleWebToken
         /// Parses the token into a collection.
         /// </summary>
         /// <param name="encodedToken">The serialized token.</param>
-        /// <returns>A colleciton of all name-value pairs from the token.</returns>
+        /// <returns>A collection of all name-value pairs from the token.</returns>
         NameValueCollection ParseToken( string encodedToken )
         {
             if ( String.IsNullOrEmpty( encodedToken ) )

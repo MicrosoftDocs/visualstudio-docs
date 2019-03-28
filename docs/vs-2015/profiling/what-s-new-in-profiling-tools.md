@@ -1,22 +1,17 @@
 ---
 title: "What&#39;s New in Profiling Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling"
   - "what's new"
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 47
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # What&#39;s New in Profiling Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)
-
-
-

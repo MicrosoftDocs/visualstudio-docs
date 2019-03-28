@@ -1,14 +1,13 @@
 ---
 title: Web application templates for Python
-description: An overview of the Visual Studio templates for web applications written in Python using the Bottle, Flask, and Django frameworks, including debugging configurations and publishing to Azure App Service.
-ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+description: Visual Studio provides templates for Python web applications using the Bottle, Flask, and Django frameworks; support includes debugging configurations and publishing to Azure App Service.
+ms.date: 01/28/2019
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -17,7 +16,7 @@ ms.workload:
 
 Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. These templates include a *requirements.txt* file to declare the necessary dependencies. When creating a project from one of these templates, Visual Studio prompts you to install those packages (see [Install project requirements](#install-project-requirements) later in this article).
 
-You can also use the generic **Web Project** template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Manage Python environments](managing-python-environments-in-visual-studio.md)).
+You can also use the generic **Web Project** template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Python environments window - Package tab](python-environments-window-tab-reference.md#packages-tab)).
 
 For information on deploying a Python web app to Azure, see [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
@@ -29,7 +28,7 @@ You create a project from a template using **File** > **New** > **Project**. To 
 
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project. For details on the **Azure Cloud Service** template, see [Azure cloud service projects for Python](python-azure-cloud-service-project-template.md).
 
-All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](http://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
+All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
 ### Blank group
 

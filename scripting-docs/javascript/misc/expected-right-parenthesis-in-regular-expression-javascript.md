@@ -1,14 +1,9 @@
 ---
-title: "Expected &#39;)&#39; in regular expression (JavaScript) | Microsoft Docs"
-ms.custom: ""
+title: "Expected ')' in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5020"
 dev_langs: 
@@ -16,12 +11,11 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 2087ba1d-9783-4d40-b609-e8542f579f7f
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected &#39;)&#39; in regular expression (JavaScript)
+# Expected ')' in regular expression (JavaScript)
 You attempted to create a regular expression capture, assertion, or group, but did not include the closing parenthesis. Parentheses have several purposes in regular expressions. Primarily, they are used to capture sub-expressions, to specify assertions, or to group patterns together so that the items can be treated as a single unit by *, +, ?, and so on.  
   
 ### To correct this error  

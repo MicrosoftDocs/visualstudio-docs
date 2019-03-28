@@ -1,13 +1,8 @@
 ---
 title: "Expressions in the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.expressions"
@@ -29,9 +24,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], variable evaluation"
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 caps.latest.revision: 30
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Expressions in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -218,8 +213,3 @@ int main()
  [Context Operator (C++)](../debugger/context-operator-cpp.md)   
  [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md)   
  [Pseudovariables](../debugger/pseudovariables.md)
-
-
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Custom User Interface (Source Control VSPackage) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user interface, source control packages"
   - "source control packages, user interface"
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Custom User Interface (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ A VSPackage declares its menu items and their default states through the Visual 
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider>   
  <xref:EnvDTE.Constants.vsContextNoSolution>   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)
-

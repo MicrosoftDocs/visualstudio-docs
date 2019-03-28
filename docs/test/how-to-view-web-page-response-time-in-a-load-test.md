@@ -1,5 +1,5 @@
 ---
-title: "Page Response Time in a Load Test in Visual Studio"
+title: "Page Response Time in a Load Test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,13 @@ helpviewer_keywords:
 ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer
 
 The time it takes for each web page to load is known as *response time*. When you create a web performance test, you can set a response time goal for each web page request in your web performance test.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 If you run your web performance test under stress in a load test, you will be able to analyze the following information for each page:
 
@@ -30,8 +30,6 @@ If you run your web performance test under stress in a load test, you will be ab
 -   Analyzing web page response times in the graphs view
 
 ## View response time data in a table
-
-### To view response time data in a table
 
 1. In the **Load Test Analyzer**, choose **Tables** on the toolbar to make sure that the table grid is displayed.
 
@@ -64,7 +62,7 @@ If you run your web performance test under stress in a load test, you will be ab
 
 You can also view response time data in a graph to see how it changes over time during your load test. This is especially useful if your load pattern increases as the test runs (for example, if you use the step load pattern). For more information, see [Edit load patterns to model virtual user activities](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
-### To view response time data in a graph
+To view response time data in a graph:
 
 1. In the **Load Test Analyzer**, choose **Graphs** on the toolbar to make sure that the graph is displayed.
 

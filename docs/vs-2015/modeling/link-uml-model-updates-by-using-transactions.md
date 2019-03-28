@@ -1,19 +1,16 @@
 ---
 title: "Link UML model updates by using transactions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, transactions"
 ms.assetid: a1df6c38-a3d1-4a3f-82bc-c8f363ab916e
 caps.latest.revision: 18
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Link UML model updates by using transactions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,6 +106,3 @@ When you define an extension to the UML designers in Visual Studio, you can grou
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

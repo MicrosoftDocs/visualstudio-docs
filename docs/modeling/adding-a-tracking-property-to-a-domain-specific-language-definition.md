@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 
@@ -22,7 +20,7 @@ A *tracking domain* property is a property that can be updated by the user but w
 
 For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.
 
-In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).
+In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](https://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).
 
 - The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.
 

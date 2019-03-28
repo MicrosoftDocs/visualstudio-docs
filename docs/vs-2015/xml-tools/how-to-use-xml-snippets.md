@@ -1,19 +1,14 @@
 ---
 title: "How to: Use XML Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 3a27375b-81cc-48f6-a884-e1cb8c4f78f5
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,6 +108,3 @@ You can invoke XML snippets by using the following two commands on the XML Edito
  [XML Snippets](../xml-tools/xml-snippets.md)   
  [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)   
  [How to: Create XML Snippets](../xml-tools/how-to-create-xml-snippets.md)
-
-
-

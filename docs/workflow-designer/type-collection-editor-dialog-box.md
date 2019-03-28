@@ -2,14 +2,12 @@
 title: "Workflow Designer - Type Collection Editor Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "TypeCollectionEditor.UI"
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

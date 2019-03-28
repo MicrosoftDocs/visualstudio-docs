@@ -1,22 +1,17 @@
 ---
 title: "ADDRESS_KIND | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "ADDRESS_KIND"
 helpviewer_keywords: 
   - "ADDRESS_KIND enumeration"
 ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # ADDRESS_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -97,4 +92,3 @@ public enum enum_ADDRESS_KIND {
  [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)   
  [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)   
  [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
-

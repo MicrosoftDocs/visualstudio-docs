@@ -1,14 +1,9 @@
 ---
 title: "Using the Assert Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Assert classes"
   - "Assert statements"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Using the Assert Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +55,4 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting>   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)
-
-
-
+ [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)

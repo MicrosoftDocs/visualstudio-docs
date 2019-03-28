@@ -1,18 +1,14 @@
 ---
 title: Publish-WebApplicationWebSite (Windows PowerShell script) | Microsoft Docs
 description: Learn how to publish a web project to an Azure website. This script creates the required resources in your Azure subscription if they don't exist.
-
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 63cfaa2d-f04d-40dc-8677-345385c278d5
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
 ms.author: ghogen
-
 ---
 # Publish-WebApplicationWebSite (Windows PowerShell script)
 ## Syntax
@@ -118,4 +114,3 @@ You can edit the JSON configuration file to change what is deployed. A webSite s
 
 ## Next steps
 For more information, see [Publish-WebApplicationVM (Windows PowerShell script)](vs-azure-tools-publish-webapplicationvm.md)
-

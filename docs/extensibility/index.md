@@ -5,14 +5,15 @@ description: Learn about Visual Studio extensibility.
 author: gregvanl
 ms.author: gregvanl
 ms.date: 10/31/2018
-ms.technology: vs-ide-sdk
 ms.topic: landing-page
-ms.workload: 
+ms.workload:
   - apexprodleads
 ---
 # Visual Studio extensibility documentation
 
 Visual Studio gives you a lot of extensibility options. You can extend Visual Studio itself, add source code analyzers for the "Roslyn" compiler, or even create your own SDKs.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>

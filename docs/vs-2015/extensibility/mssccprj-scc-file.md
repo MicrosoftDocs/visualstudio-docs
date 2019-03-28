@@ -1,21 +1,16 @@
 ---
 title: "MSSCCPRJ.SCC File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, MSSCCPRJ.SCC file"
   - "MSSCCPRJ.SCC file"
 ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # MSSCCPRJ.SCC File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ When a Visual Studio solution or project is placed under source control using th
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)
-

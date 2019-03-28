@@ -1,22 +1,17 @@
 ---
 title: "EncUnavailableReason | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "EncUnavailableReason"
 helpviewer_keywords: 
   - "EncUnavailableReason enumeration"
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # EncUnavailableReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ public enum EncUnavailableReason {
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)   
  [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md)
-

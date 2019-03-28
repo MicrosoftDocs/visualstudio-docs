@@ -1,21 +1,16 @@
 ---
 title: "Command Availability | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "commands, context"
   - "menu items, visibility contexts"
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
 caps.latest.revision: 35
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Command Availability
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ The Visual Studio context determines which commands are available. The context c
 ## See Also  
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-

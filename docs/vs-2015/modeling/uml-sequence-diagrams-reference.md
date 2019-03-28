@@ -1,12 +1,9 @@
 ---
 title: "UML Sequence Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.sequencediagram.diagram"
   - "vs.teamarch.UMLModelExplorer.sequencediagram"
@@ -19,9 +16,9 @@ helpviewer_keywords:
   - "UML, sequence diagrams"
 ms.assetid: 366fc324-aeeb-4894-bd13-ec2e40754b8e
 caps.latest.revision: 43
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Sequence Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +61,3 @@ In Visual Studio, a *sequence diagram* shows an interaction, which represents th
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)   
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
-
-
-

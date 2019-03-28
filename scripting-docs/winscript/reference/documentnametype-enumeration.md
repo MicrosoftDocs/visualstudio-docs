@@ -2,7 +2,6 @@
 title: "DOCUMENTNAMETYPE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Describes which type to get for a document.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagDOCUMENTNAMETYPE {  
    DOCUMENTNAMETYPE_APPNODE,  
    DOCUMENTNAMETYPE_TITLE,  

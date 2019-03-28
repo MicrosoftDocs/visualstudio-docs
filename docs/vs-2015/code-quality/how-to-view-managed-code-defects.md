@@ -1,14 +1,9 @@
 ---
 title: "How to: View Managed Code Defects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "managed code, analyzing"
   - "code analysis, viewing managed code defects"
@@ -33,6 +28,3 @@ In code analysis, errors, warnings, and messages are reported in the Code Analys
 -   **Choose the warning id.** Warning ids are prefixed by **CA** and include a four-digit number. For example, CA1234.  
   
      The MSDN Library help topic for the warning is displayed. The help topic contains detailed information about the cause of the warning and includes examples that demonstrate how the warning issue occurs and is resolved.
-
-
-

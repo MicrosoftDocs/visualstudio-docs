@@ -1,14 +1,9 @@
 ---
 title: "VSInstr Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "instrumentation, VSInstr tool"
   - "warnings"
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "performance tools, VSInstr tool"
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # VSInstr Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ The following table lists warnings issued by the VSInstr.exe tool. You can use t
   
 ## See Also  
  [VSInstr](../profiling/vsinstr.md)
-
-
-

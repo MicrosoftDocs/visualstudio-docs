@@ -1,14 +1,9 @@
 ---
 title: "Shader Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.designer.effectdesigner"
   - "vs.graphics.shaderdesigner"
@@ -16,7 +11,7 @@ ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Shader Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -187,6 +182,3 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools that you can use to work with textures and images, 3-D models, and shader effects.|  
 |[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Image Editor to work with textures and images.|  
 |[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Editor to work with 3-D models.|
-
-
-

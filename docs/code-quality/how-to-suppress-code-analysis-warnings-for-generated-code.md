@@ -1,13 +1,11 @@
 ---
 title: "How to: Suppress Code Analysis Warnings for Generated Code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

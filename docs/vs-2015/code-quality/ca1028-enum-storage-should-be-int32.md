@@ -1,14 +1,9 @@
 ---
 title: "CA1028: Enum storage should be Int32 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1028"
   - "EnumStorageShouldBeInt32"
@@ -77,6 +72,3 @@ manager: "wpickett"
  <xref:System.Int16?displayProperty=fullName>
  <xref:System.Int32?displayProperty=fullName>
  <xref:System.Int64?displayProperty=fullName>
-
-
-

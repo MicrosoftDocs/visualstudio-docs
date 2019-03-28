@@ -1,21 +1,16 @@
 ---
 title: "How to: Set IDE Accessibility Options | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set IDE Accessibility Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,12 +21,12 @@ manager: "ghogen"
  In addition, [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible. You can also customize the default shortcut keys available with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Editors, Dialogs, and Tool Windows  
  By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md).  
   
- You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box. For more information, see [How to: Set General Editor Options](http://msdn.microsoft.com/en-us/704e4a7b-2162-4bed-8a47-f4f6ffec98c2).  
+ You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box. For more information, see [How to: Set General Editor Options](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2).  
   
  You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window.  
   
@@ -113,6 +108,3 @@ manager: "ghogen"
 ## See Also  
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)   
  [Resources for Designing Accessible Applications](../../ide/reference/resources-for-designing-accessible-applications.md)
-
-
-

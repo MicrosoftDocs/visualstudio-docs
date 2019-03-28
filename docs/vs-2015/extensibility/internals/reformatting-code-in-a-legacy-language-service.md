@@ -1,21 +1,16 @@
 ---
 title: "Reformatting Code in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "reformatting code, supporting in language services [managed package framework]"
   - "language services [managed package framework], reformatting code"
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Reformatting Code in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -180,4 +175,3 @@ namespace MyLanguagePackage
   
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
-

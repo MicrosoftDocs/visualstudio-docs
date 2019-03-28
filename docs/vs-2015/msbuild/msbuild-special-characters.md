@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Special Characters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "escape characters"
   - "escape"
@@ -17,7 +12,7 @@ ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Special Characters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,6 +38,3 @@ manager: "ghogen"
 ## See Also  
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)   
  [Items](../msbuild/msbuild-items.md)
-
-
-

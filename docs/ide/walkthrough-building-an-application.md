@@ -1,12 +1,11 @@
 ---
 title: "Walkthrough: Build an application"
 ms.date: 09/25/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -187,7 +186,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
 
-### Specify a release build for C# #
+### Specify a release build for C\#
 
 1. Open the **Project Designer**.
 

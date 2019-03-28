@@ -1,14 +1,9 @@
 ---
 title: "More Debugging Features | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: a41166d7-e03e-42ef-862e-dd025ef600b6
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # More Debugging Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ This section contains additional features that you can use with the Visual Studi
   
  [How to: Restore Hidden Debugger Commands](../debugger/how-to-restore-hidden-debugger-commands.md)  
  Describes how to make debugger commands visible that have been hidden by IDE default settings.
-
-
-

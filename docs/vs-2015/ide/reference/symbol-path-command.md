@@ -1,14 +1,9 @@
 ---
 title: "Symbol Path Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.symbolpath"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Symbol Path Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ Debug.SymbolPath
 ## See Also  
  [Command Window](../../ide/reference/command-window.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
-
-
-

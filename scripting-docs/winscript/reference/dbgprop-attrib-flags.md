@@ -2,7 +2,6 @@
 title: "DBGPROP_ATTRIB_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +25,7 @@ Describes various attributes for an `IDebugProperty`. Member of the `DebugProper
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
 DBGPROP_ATTRIB_NO_ATTRIB  =0x00000000,  
    DBGPROP_ATTRIB_VALUE_IS_INVALID  =0x00000008,  

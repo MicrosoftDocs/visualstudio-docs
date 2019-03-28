@@ -1,14 +1,9 @@
 ---
 title: "Debugging ASP.NET and AJAX Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -21,9 +16,9 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 9d531913-541b-47b8-864d-138021fca0c6
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugging ASP.NET and AJAX Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md)
-
-
-

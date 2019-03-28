@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Working with Domain-Specific Language Solutions
 A domain-specific language (DSL) is created using a Visual Studio solution. This section is about how to set up and customize the solution.
@@ -41,5 +39,5 @@ A domain-specific language (DSL) is created using a Visual Studio solution. This
  [How to: Extend the Domain-Specific Language Designer](../modeling/how-to-extend-the-domain-specific-language-designer.md)
  You can customize the DSL Designer with menu commands.
 
- [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)
+ [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\))
  To avoid clicking Transform All Templates, you can make it an automatic part of the build.

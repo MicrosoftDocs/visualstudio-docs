@@ -2,7 +2,6 @@
 title: "IDebugApplication::SynchronousCallInDebuggerThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides a mechanism for the caller to run code in the debugger thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SynchronousCallInDebuggerThread(  
    IDebugThreadCall*  pptc,  
    DWORD_PTR          dwParam1,  

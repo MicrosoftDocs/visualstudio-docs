@@ -1,19 +1,14 @@
 ---
 title: "16bpp Render Target Format Variant | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 24b22ad9-5ad0-4161-809a-9b518eb924bf
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # 16bpp Render Target Format Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ target_description.BindFlags = D3D11_BIND_RENDER_TARGET;
 target_description.Format = DXGI_FORMAT_B5G6R5_UNORM;  
 d3d_device->CreateTexture2D(&target_description, nullptr, &render_target);  
 ```
-
-
-

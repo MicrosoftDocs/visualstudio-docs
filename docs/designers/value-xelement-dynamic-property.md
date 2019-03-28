@@ -1,13 +1,11 @@
 ---
 title: Value (XElement Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

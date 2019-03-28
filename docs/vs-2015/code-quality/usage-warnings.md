@@ -1,15 +1,9 @@
 ---
 title: "Usage Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.usagerules"
 helpviewer_keywords: 
@@ -74,6 +68,3 @@ Usage warnings support proper usage of the .NET Framework.
 |[CA2241: Provide correct arguments to formatting methods](../code-quality/ca2241-provide-correct-arguments-to-formatting-methods.md)|The format argument passed to System.String.Format does not contain a format item that corresponds to each object argument, or vice versa.|  
 |[CA2242: Test for NaN correctly](../code-quality/ca2242-test-for-nan-correctly.md)|This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value.|  
 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243-attribute-string-literals-should-parse-correctly.md)|An attribute's string literal parameter does not parse correctly for a URL, a GUID, or a version.|
-
-
-

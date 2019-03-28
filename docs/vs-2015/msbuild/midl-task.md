@@ -1,14 +1,9 @@
 ---
 title: "MIDL Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "VC.Project.VCMidlTool.ServerStubFile"
   - "VC.Project.VCMidlTool.ApplicationConfigurationMode"
@@ -31,7 +26,7 @@ ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MIDL Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -422,6 +417,3 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

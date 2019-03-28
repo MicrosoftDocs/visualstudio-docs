@@ -1,14 +1,9 @@
 ---
 title: "Tips for Debugging Threads in Native Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 ms.assetid: 0374c8c6-57a3-4cfe-8047-2effef5ff5dc
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Tips for Debugging Threads in Native Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ Here are some tips you can use when debugging threads in native code:
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

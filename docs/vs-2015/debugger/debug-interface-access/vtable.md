@@ -1,14 +1,9 @@
 ---
 title: "VTable | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "virtual tables"
 ms.assetid: c8be6692-7d2a-4721-99d3-8e2e565bb8a1
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # VTable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ The virtual table is identified by the `SymTagVTable` symbol.
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)   
  [VTableShape](../../debugger/debug-interface-access/vtableshape.md)
-
-
-

@@ -80,7 +80,7 @@ namespace ListSnippets
             listx.ListItems.Add(new ListItem(new Paragraph(new Run("A bit of text content..."))));
             listx.ListItems.Add(new ListItem(new Paragraph(new Run("A bit more text content..."))));
 
-            // Insert a ListItem at the begining of the List.
+            // Insert a ListItem at the beginning of the List.
             ListItem lix = new ListItem(new Paragraph(new Run("ListItem to insert...")));
             listx.ListItems.InsertBefore(listx.ListItems.FirstListItem, lix);
 

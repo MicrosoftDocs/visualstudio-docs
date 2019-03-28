@@ -1,19 +1,14 @@
 ---
 title: "Creating Portable Profiling Data Files from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 2ceb63a7-b835-4988-b756-2afc3fcc4808
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Creating Portable Profiling Data Files from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ To make sharing of profiling data easier, you can use the [VSPerfReport](../prof
    \<Path><strong>VSPerfReport \<</strong>VSP File> **/SummaryFile** [**/Output:**\<File Name>]  
   
    By default, the .vsps file is named with the base name of the .vsp file. You can specify an alternative name by using the **Output** option.
-
-
-

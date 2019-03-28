@@ -1,15 +1,13 @@
 ---
 title: "CA2149: Transparent methods must not call into native code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2149"
 ms.assetid: 28951bd7-f3db-4871-99aa-bad68d1ead80
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---

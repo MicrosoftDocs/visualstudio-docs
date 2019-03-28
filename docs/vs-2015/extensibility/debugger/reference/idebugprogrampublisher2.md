@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramPublisher2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramPublisher2"
 helpviewer_keywords: 
   - "IDebugProgramPublisher2 interface"
 ms.assetid: b1d17f63-7146-4076-a588-034cfc6858b9
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramPublisher2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,7 +52,7 @@ IDebugProgramPublisher2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## Example  
- This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](http://msdn.microsoft.com/en-us/d0100e02-4e2b-4e72-9e90-f7bc11777bae).  
+ This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](http://msdn.microsoft.com/d0100e02-4e2b-4e72-9e90-f7bc11777bae).  
   
 ```cpp#  
 // This is how m_srpProgramPublisher is defined in the class definition:  
@@ -93,4 +88,3 @@ void CProgram::Start(IDebugEngine2 * pEngine)
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
-

@@ -1,20 +1,15 @@
 ---
 title: "Debug Engine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines"
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ A debug engine (DE) works with the interpreter or operating system to provide de
  [Debugger Components](../../extensibility/debugger/debugger-components.md)   
  [Expression Evaluator](../../extensibility/debugger/expression-evaluator.md)   
  [Symbol Provider](../../extensibility/debugger/symbol-provider.md)
-

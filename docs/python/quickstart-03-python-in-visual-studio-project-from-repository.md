@@ -1,21 +1,20 @@
 ---
 title: Quickstart - Clone a repository of Python code
 description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
-ms.date: 09/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 12/06/2018
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
 
 # Quickstart: Clone a repository of Python code in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. The extension lets you easily clone a repository of Python code and create a project from it from within the IDE. You can always clone repositories on the command line as well, and then work with them in Visual Studio.
+Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. The extension lets you easily clone a repository of Python code and create a project from it from within the IDE. You can always clone repositories on the command line as well, and then work with them in Visual Studio.
 
 ## Install the GitHub Extension for Visual Studio
 
@@ -52,7 +51,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 1. Press **Ctrl**+**F5** or select **Debug** > **Start without Debugging** to run the program. If you see a **FileNotFoundError** for *koans.txt*, check the working directory setting as described in the previous step.
 
-1. When the program runs successfully, it displays an assertion error on line 17 of *python3/koans/about_asserts.py*. This is intentional: the program is designed to teach Python by having you correct all the intentional errors. (More details are found on [Ruby Koans](http://rubykoans.com/), which inspired Python Koans.)
+1. When the program runs successfully, it displays an assertion error on line 17 of *python3/koans/about_asserts.py*. This is intentional: the program is designed to teach Python by having you correct all the intentional errors. (More details are found on [Ruby Koans](https://rubykoans.com/), which inspired Python Koans.)
 
     ![First output from the Python koans program](media/koans-output.png)
 

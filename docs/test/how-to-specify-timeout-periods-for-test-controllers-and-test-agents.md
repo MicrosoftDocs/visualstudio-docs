@@ -1,5 +1,5 @@
 ---
-title: "Timeout Periods for Test Controllers and Test Agents in Visual Studio"
+title: "Timeout Periods for Test Controllers and Test Agents"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify timeout periods for test controllers and test agents
 
 Both the test controller and the test agent have several timeout settings that specify how long they should wait for responses from one another, or from a data source before failing with an error. Under certain circumstances, it might be necessary to edit the timeout values to meet the needs of your topology or other environment issues. To edit the timeout values, edit the XML configuration file that is associated with either the test controller or test agent, as covered in the following procedures.
 
- To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
 -   Test controller: *QTController.exe.config*
 
@@ -111,5 +111,4 @@ Both the test controller and the test agent have several timeout settings that s
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Bind a test controller or test agent to a network adapter](../test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md)

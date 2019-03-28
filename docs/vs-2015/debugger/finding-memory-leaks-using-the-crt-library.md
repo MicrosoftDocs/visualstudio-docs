@@ -1,14 +1,9 @@
 ---
 title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -32,9 +27,9 @@ helpviewer_keywords:
   - "_CrtSetDbgFlag"
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Finding Memory Leaks Using the CRT Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,7 +103,7 @@ Object dump complete.
   
 - The memory allocation number, which is `18` in this example  
   
-- The [block type](http://msdn.microsoft.com/en-us/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
+- The [block type](http://msdn.microsoft.com/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
   
 - The hexadecimal memory location, which is `0x00780E80` in this example.  
   
@@ -265,6 +260,3 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
  [CRT Debug Heap Details](../debugger/crt-debug-heap-details.md)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

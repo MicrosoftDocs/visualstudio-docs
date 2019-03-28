@@ -1,14 +1,9 @@
 ---
 title: "Options Page, Text Editor Node Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Tools Options settings, Text Editor node properties"
   - "automation [Visual Studio], controlling Tools Options"
@@ -16,7 +11,7 @@ ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options Page, Text Editor Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -70,6 +65,3 @@ This document describes some pages (or properties collections) that are associat
  [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)   
  [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)   
  [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
-
-
-

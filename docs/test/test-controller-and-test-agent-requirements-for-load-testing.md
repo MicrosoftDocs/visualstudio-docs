@@ -1,5 +1,5 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing in Visual Studio"
+title: "Test Controller and Test Agent Requirements for Load Testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,13 +8,13 @@ helpviewer_keywords:
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Test controller and test agent requirements for load testing
 
 Several test types including unit, web performance, load, and manual tests are integrated into Visual Studio. Visual Studio enables Visual Studio Application Lifecycle Management users to run tests on remote computers using a test controller and one or more agents. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## Hardware and software requirements
 

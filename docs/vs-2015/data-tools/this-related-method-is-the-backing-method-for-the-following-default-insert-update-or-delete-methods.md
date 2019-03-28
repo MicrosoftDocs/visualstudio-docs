@@ -1,17 +1,14 @@
 ---
 title: "This related method is the backing method for the following default insert, update, or delete methods | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 ms.assetid: 62afa6da-97cf-48b9-8de3-33e4d72a0377
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # This related method is the backing method for the following default insert, update, or delete methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,4 +35,3 @@ This related method is the backing method for the following default insert, upda
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)
-

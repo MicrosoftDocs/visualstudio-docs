@@ -1,20 +1,15 @@
 ---
 title: "Enabling a Program to Be Debugged | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], enabling for programs"
 ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Enabling a Program to Be Debugged
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ Before your debug engine (DE) can debug a program, you must first launch the DE 
 ## Related Sections  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
  Defines a debug engine (DE), and describes services implemented through the DE interfaces and how they can cause the debugger to transition between different operational modes.
-

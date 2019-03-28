@@ -1,8 +1,6 @@
 ---
 title: Toolbox, Data Tab
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Toolbox, Data tab"
@@ -11,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

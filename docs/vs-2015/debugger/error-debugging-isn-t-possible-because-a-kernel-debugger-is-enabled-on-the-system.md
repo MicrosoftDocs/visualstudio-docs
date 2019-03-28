@@ -1,14 +1,9 @@
 ---
 title: "Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs: 
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "kernel debugger"
 ms.assetid: 630a7abd-3303-4aaa-888a-6de3de14bc01
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +102,3 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)
-
-
-

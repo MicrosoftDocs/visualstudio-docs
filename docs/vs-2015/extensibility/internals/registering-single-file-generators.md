@@ -1,21 +1,16 @@
 ---
 title: "Registering Single File Generators | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "registration, custom tools"
   - "custom tools, defining registry settings"
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering Single File Generators
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -78,5 +73,4 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   
  [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)   
- [Introduction to the BuildManager Object](http://msdn.microsoft.com/en-us/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
-
+ [Introduction to the BuildManager Object](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)

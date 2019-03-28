@@ -1,9 +1,6 @@
 ---
 title: "Member Completion in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "IntelliSense, Member Completion tool tip"
@@ -12,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 500f718d-9028-49a4-8615-ba95cf47fc52
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

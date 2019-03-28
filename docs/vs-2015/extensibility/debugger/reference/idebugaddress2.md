@@ -1,22 +1,17 @@
 ---
 title: "IDebugAddress2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugAddress2"
 helpviewer_keywords: 
   - "IDebugAddress2 interface"
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugAddress2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,4 +47,3 @@ IDebugAddress2 : IDebugAddress
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
-

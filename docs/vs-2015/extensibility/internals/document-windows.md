@@ -1,20 +1,15 @@
 ---
 title: "Document Windows | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio SDK, document windows"
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Document Windows
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ In Visual Studio, a *document window* is a framed child window that is associate
   
 ## See Also  
  [Delayed Document Loading](../../extensibility/internals/delayed-document-loading.md)
-

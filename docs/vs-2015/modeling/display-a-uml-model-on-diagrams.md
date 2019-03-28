@@ -1,19 +1,16 @@
 ---
 title: "Display a UML model on diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: adf1f1f2-2ad9-4ade-82de-c6a5194ab471
 caps.latest.revision: 25
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Display a UML model on diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -380,6 +377,3 @@ namespace AlignCommand
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)   
  [Sample: Align Shapes on a Diagram menu command](http://go.microsoft.com/fwlink/?LinkId=213809)   
  [Sample: Creating Elements, Shapes and Stereotypes](http://go.microsoft.com/fwlink/?LinkId=213811)
-
-
-

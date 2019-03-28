@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug Optimized Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -25,15 +20,15 @@ helpviewer_keywords:
   - "optimized code, debugging"
 ms.assetid: fc8eeeb8-6629-4c9b-99f7-2016aee81dff
 caps.latest.revision: 28
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug Optimized Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!NOTE]
 >  The [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)). This includes improved support for debugging local variables and inlined functions.  
@@ -76,7 +71,7 @@ NOTE]
   
 8. If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
   
-9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
+9. Select the Configuration Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
   
     > [!WARNING]
     >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.  
@@ -89,11 +84,8 @@ NOTE]
 for (x=0; x<10; x++)  
 ```  
   
- Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9) is automatically set to Instruction for greater control, which is useful when you step through optimized code.  
+ Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) is automatically set to Instruction for greater control, which is useful when you step through optimized code.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

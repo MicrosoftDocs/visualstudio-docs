@@ -1,14 +1,9 @@
 ---
 title: "How to: Exclude Files from the Build | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, wildcards"
   - "MSBuild, excluding files"
@@ -17,7 +12,7 @@ ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Exclude Files from the Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -129,5 +124,3 @@ In a project file you can use wildcards to include all the files in one director
  [Items](../msbuild/msbuild-items.md)   
  [MSBuild](msbuild.md)
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)
-
-

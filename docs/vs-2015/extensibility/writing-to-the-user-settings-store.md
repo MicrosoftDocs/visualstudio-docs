@@ -1,18 +1,13 @@
 ---
 title: "Writing to the User Settings Store | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 caps.latest.revision: 4
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Writing to the User Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -129,4 +124,3 @@ User settings are writeable settings like the ones in the **Tools / Options** di
 8.  On the **Tools** menu, click **Invoke UserSettingsStoreCommand**. This will add Notepad to the **Tools** menu.  
   
 9. Now you should see Notepad on the Tools / Options menu, and clicking **Notepad** should bring up an instance of Notepad.
-

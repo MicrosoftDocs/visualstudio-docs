@@ -1,14 +1,9 @@
 ---
 title: "DA0010: Expensive GetHashCode | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.rules.DAExpensiveGetHashCode"
   - "vs.performance.DA0010"
@@ -16,14 +11,14 @@ f1_keywords:
   - "vs.performance.10"
 ms.assetid: 3987e21a-5b4f-45e4-8a33-6b3f0a472c08
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0010: Expensive GetHashCode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [DA0010: Expensive GetHashCode](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCode](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode) on docs.microsoft.com.  
 
   
 
@@ -43,4 +38,3 @@ For the latest documentation on Visual Studio 2017, see [DA0010: Expensive GetHa
   
 ## How to Fix Violations  
  Reduce the complexity of the method.
-

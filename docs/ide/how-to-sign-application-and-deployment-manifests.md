@@ -1,8 +1,6 @@
 ---
 title: "How to: Sign application and deployment manifests"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "manifests [Visual Studio]"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

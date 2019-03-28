@@ -19,4 +19,4 @@ In order to show your custom start page, go to Tools | Options | Environment | S
 From the drop down, select [Installed Extension] <your start page>.
 
 To learn more about customizing the Visual Studio Start Page, please refer to the on-line documentation.
-http://msdn.microsoft.com/en-us/library/ee663382(VS.100).aspx
+http://msdn.microsoft.com/library/ee663382(VS.100).aspx

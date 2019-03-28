@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgramEngines2::SetEngine | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgramEngines2::SetEngine"
 helpviewer_keywords: 
   - "IDebugProgramEngines2::SetEngine"
 ms.assetid: c05857ee-89cf-455e-8f1e-300cce4a2eab
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgramEngines2::SetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ int SetEngine( 
   
 ## See Also  
  [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)
-

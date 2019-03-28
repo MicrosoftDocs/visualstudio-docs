@@ -1,14 +1,9 @@
 ---
 title: "JavaScript Memory | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "memory analyzer, JavaScript"
 ms.assetid: 78f8532b-7b4e-4b50-b8b7-68ca0926dd4e
 caps.latest.revision: 54
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # JavaScript Memory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -401,6 +396,3 @@ if (performance && performance.mark) {
   
 ## See Also  
  [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md)
-
-
-

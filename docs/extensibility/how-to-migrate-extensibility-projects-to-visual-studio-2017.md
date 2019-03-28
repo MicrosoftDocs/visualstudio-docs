@@ -1,16 +1,14 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2017| Microsoft Docs"
-ms.custom: ""
+title: "How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft Docs"
 ms.date: "11/09/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017
 
@@ -57,7 +55,7 @@ To ensure that the user's installation of Visual Studio has all the assemblies r
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
   * We recommend you specify only Component IDs for installation prerequisites.
-  * See the section at the end of this document for [instructions on identifying Component IDs](#finding-component-ids).
+  * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
 
 Example:
 
@@ -159,9 +157,9 @@ When looking up your dependencies, you will find that one dependency could map t
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 
-Extension Type | Display Name |	Id
+Extension Type | Display Name | Id
 --- | --- | ---
-Editor | Visual Studio core editor	| Microsoft.VisualStudio.Component.CoreEditor
+Editor | Visual Studio core editor | Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
 WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime

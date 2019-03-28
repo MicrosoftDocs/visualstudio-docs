@@ -1,23 +1,18 @@
 ---
 title: "IDiaPropertyStorage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaPropertyStorage interface"
 ms.assetid: d3197a38-5973-4e56-873e-4f1b84c3f674
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaPropertyStorage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -139,6 +134,3 @@ void PrintPropertyStorage(IDiaPropertyStorage* pPropertyStorage)
  [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)   
  [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)   
  [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)
-
-
-

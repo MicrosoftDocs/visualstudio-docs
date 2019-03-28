@@ -1,14 +1,9 @@
 ---
 title: "How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.selecttfsruleset"
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
@@ -67,6 +62,3 @@ You synchronize the code analysis settings for code projects to the check-in pol
 6.  In the **Run this rule set** list, click **\<Browse...>**.  
   
 7.  In the **Open** dialog box, specify the rule set file.
-
-
-

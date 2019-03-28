@@ -1,14 +1,9 @@
 ---
 title: "ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "<ProjectItem> element [Visual Studio project templates]"
 ms.assetid: 82879fbe-7756-42cd-9a07-c10edf5b4673
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # ProjectItem Element (Visual Studio Project Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,4 +138,3 @@ Specifies a file that is included in the project template.
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)
-

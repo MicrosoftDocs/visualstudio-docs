@@ -1,21 +1,16 @@
 ---
 title: "Call Tree View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Call Tree view"
 ms.assetid: 9bd4bde2-2ca3-446c-9ccc-7421522e03ae
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Call Tree View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ The Call Tree view displays the function execution paths that were traversed in 
  [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)   
  [Call Tree View](../profiling/call-tree-view-instrumentation-data.md)   
  [Call Tree View](../profiling/call-tree-view-sampling-data.md)
-
-
-

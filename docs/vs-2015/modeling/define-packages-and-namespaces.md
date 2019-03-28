@@ -1,12 +1,9 @@
 ---
 title: "Define packages and namespaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, namespaces"
   - "UML, namespaces"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "UML model, packages"
 ms.assetid: 79147068-02d5-4b70-933d-f647c1da3829
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define packages and namespaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -224,6 +221,3 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)
-
-
-

@@ -1,14 +1,10 @@
 ---
 title: "Verify your Xamarin environment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 caps.latest.revision: 15
-ms.author: "crdun"
+ms.author: crdun
 manager: "crdun"
 ---
 # Verify your Xamarin environment
@@ -111,4 +107,3 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
 2.  In the setup wizard for Xamarin that appears,  click **Next** and then **Change**.  
   
 3.  In the list of optional features to install, expand **Xamarin for Visual Studio 2015**, choose **will be installed on local drive**, and click **Next** to proceed with adding the feature.
-

@@ -1,19 +1,14 @@
 ---
 title: "How to: Get an Overview of a Schema Set Using the Graph View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Get an Overview of a Schema Set Using the Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 7.  Click on any node on the design surface and look at the breadcrumb bar to see where the selected node is located in the schema set.  
   
 8.  Rick-click on any element node on the desing surface and select **Generate Sample XML** to see the XML instance document.
-
-
-

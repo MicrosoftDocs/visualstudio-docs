@@ -1,14 +1,9 @@
 ---
 title: "Debug CSS styles using DOM Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "HTML debugging [Windows Store apps]"
 ms.assetid: 2dfef7c6-7db2-4550-b694-783b0e535cea
 caps.latest.revision: 47
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug CSS styles using DOM Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -160,6 +155,3 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)   
  [Product Support and Accessibility](http://go.microsoft.com/fwlink/?LinkId=253502)
-
-
-

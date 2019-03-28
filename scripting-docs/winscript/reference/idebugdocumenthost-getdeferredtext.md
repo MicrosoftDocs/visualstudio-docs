@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::GetDeferredText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a range of characters that were added by using the `IDebugDocumentHelper
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDeferredText(  
    DWORD              dwTextStartCookie,  
    WCHAR*             pcharText,  

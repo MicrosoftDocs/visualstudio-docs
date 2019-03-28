@@ -1,21 +1,16 @@
 ---
 title: "VSPackage Structure (Source Control VSPackage) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, structure"
   - "source control packages, VSPackage overview"
 ms.assetid: 92722be7-b397-48c3-a7a7-0b931a341961
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # VSPackage Structure (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ The Source Control Package SDK provides guidelines for creating a VSPackage that
 ## See Also  
  [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)   
  [Related Services and Interfaces](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)
-

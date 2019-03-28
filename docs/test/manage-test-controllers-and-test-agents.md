@@ -1,18 +1,18 @@
 ---
-title: "Manage test controllers and test agents in Visual Studio"
+title: "Manage test controllers and test agents"
 ms.date: 09/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Manage test controllers and test agents
 
 If you want to use Visual Studio to run tests remotely, distribute tests across multiple machines, or run load tests, you must configure a test controller, test agents, and test settings file. This topic describes how to manage test controllers and test agents after you install and configure them for the first time.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 If you use Microsoft Test Manager to run tests in lab environments, you manage test controllers and their agents by using the **Test Controller Manager** in the **Lab Center** for Microsoft Test Manager. This topic is applicable only if you use Visual Studio to run tests.
 

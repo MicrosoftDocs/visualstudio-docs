@@ -1,22 +1,17 @@
 ---
 title: "CONTEXT_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "CONTEXT_INFO"
 helpviewer_keywords: 
   - "CONTEXT_INFO structure"
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # CONTEXT_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ public struct CONTEXT_INFO {
  [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)   
  [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
-

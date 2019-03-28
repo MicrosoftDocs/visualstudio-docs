@@ -1,11 +1,8 @@
 ---
 title: "Developing Applications with the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "DefaultWorkflowDesigner"
@@ -19,7 +16,7 @@ ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Developing Applications with the Workflow Designer
 The [!INCLUDE[wfd1](../includes/wfd1-md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../includes/wf-md.md)] applications in the [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)] that is hosted in the [!INCLUDE[vs2010](../includes/vs2010-md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../includes/indigo1-md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../includes/crabout-md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](http://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66).  

@@ -1,20 +1,15 @@
 ---
 title: "Core Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "debugging [Debugging SDK], core interfaces"
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Core Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -307,4 +302,3 @@ The following interfaces are the core interfaces for extending debugger by using
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)   
  [Creating a Custom Debug Engine](../../../extensibility/debugger/creating-a-custom-debug-engine.md)
-

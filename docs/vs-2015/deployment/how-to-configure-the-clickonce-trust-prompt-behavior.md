@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Configure the ClickOnce Trust Prompt Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +54,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
     1.  Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit32`, and then click **OK**.  
+    2.  In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
 2.  Find the following registry key:  
   
@@ -118,7 +113,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
     1.  Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit`, and then click **OK**.  
+    2.  In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
 2.  Find the following registry key:  
   
@@ -175,7 +170,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
     1.  Click **Start**, and then click **Run**.  
   
-    2.  In the **Open** box, type `regedit`, and then click **OK**.  
+    2.  In the **Open** box, type `regedit` (or `regedit32` on 32-bit Windows), and then click **OK**.  
   
 2.  Find the following registry key:  
   
@@ -235,6 +230,3 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
  [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
  [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
-
-
-

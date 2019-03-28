@@ -1,8 +1,6 @@
 ---
 title: Options Page, Environment Node Properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
@@ -10,15 +8,17 @@ helpviewer_keywords:
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Options Page, Environment Node Properties
-This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.
+# Options page, Environment node properties
+
+This article describes the pages (or properties collections) that are associated with the **Environment** category `DTE.Properties("Environment", <Property Page>)` of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.
 
 ## General
- `DTE.Properties("Environment", "General")`
+
+`DTE.Properties("Environment", "General")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -33,7 +33,8 @@ This document describes the pages (or properties collections) that are associate
 |AutohidePinActiveTabOnly|Get/Set (Boolean)|Determines whether the **Auto Hide** button affects only the active tab.|
 
 ## Add-in/Macros Security
- `DTE.Properties("Environment", "AddinMacrosSecurity")`
+
+`DTE.Properties("Environment", "AddinMacrosSecurity")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -42,7 +43,8 @@ This document describes the pages (or properties collections) that are associate
 |LoadAddinsFromTheWeb|Get/Set (Boolean)|Allows add-ins to load from a URL on the Web.|
 
 ## Documents
- `DTE.Properties("Environment", "Documents")`
+
+`DTE.Properties("Environment", "Documents")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -59,7 +61,8 @@ This document describes the pages (or properties collections) that are associate
 |DocumentDockPreference|Get/Set (Enum)|<xref:EnvDTE100.vsDocumentDockPreferenceOptions>. Position in the tab well in which to insert opened document.|
 
 ## Extension Manager
- `DTE.Properties("Environment", "ExtensionManager")`
+
+`DTE.Properties("Environment", "ExtensionManager")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -68,7 +71,8 @@ This document describes the pages (or properties collections) that are associate
 |AutomaticallyCheckForUpdates|Get/Set (Boolean)|Automatically checks for updates to installed extensions.|
 
 ## Find and Replace
- `DTE.Properties("Environment", "FindAndReplace")`
+
+`DTE.Properties("Environment", "FindAndReplace")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -78,7 +82,8 @@ This document describes the pages (or properties collections) that are associate
 |HideWindowsAfterMatchFromQuickFindReplace|Get/Set (Boolean)|Hides the **Find and Replace** window after a match is located by using **Quick Find** or **Quick Replace**.|
 
 ## Import and Export Settings
- `DTE.Properties("Environment", "Import and Export Settings")`
+
+`DTE.Properties("Environment", "Import and Export Settings")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -87,26 +92,29 @@ This document describes the pages (or properties collections) that are associate
 |AutoSaveFile|Get/Set (String)|Name of file where user settings are automatically saved.|
 
 ## International Settings
- `DTE.Properties("Environment", "International")`
+
+`DTE.Properties("Environment", "International")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
 |Language|Get/Set (String)|LCID value for the current language for Visual Studio.|
 
 ## Keyboard
- `DTE.Properties("Environment", "Keyboard")`
+
+`DTE.Properties("Environment", "Keyboard")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
 |Scheme|Get/Set (String)|Returns a string that contains a built-in scheme, a string containing the full path of the .vsk file that is loaded, or "(Default)" if no .vsk file is loaded.|
 
 ## Projects and Solution
- `DTE.Properties("Environment", "ProjectsAndSolution")`
+
+`DTE.Properties("Environment", "ProjectsAndSolution")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
 |OnRunOrPreview|Get/Set (String)|Determines whether the IDE saves everything before previewing or running a built project.|
-|ProjectsLocation|Get/Set (String)|Determines the default directory where the **Add Project** dialog box saves new projects.|
+|ProjectsLocation|Get/Set (String)|Determines the default directory where new projects are saved.|
 |ShowOutputWindowBeforeBuild|Get/Set (Boolean)|Determines whether starting a build displays the **Output** window.|
 |ShowTaskListAfterBuild|Get/Set (Boolean)|Determines whether an unsuccessful build operation displays the **Task List** when the build is done.|
 |TrackFileSelectionInExplorer|Get/Set (Boolean)|Determines whether the current item is tracked in **Solution Explorer**.|
@@ -124,7 +132,10 @@ This document describes the pages (or properties collections) that are associate
 |MSBuildOutputVerbosity|Get/Set (String)|Specifies the level of verbosity for Build output.|
 
 ## Startup
- `DTE.Properties("Environment", "Startup")`
+
+`DTE.Properties("Environment", "Startup")`
+
+::: moniker range="vs-2017"
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -133,8 +144,19 @@ This document describes the pages (or properties collections) that are associate
 |StartPageRefreshDownloadedContent|Get/Set (Boolean)|Refreshes the Start Page after every passage of the interval specified in StartPageRefreshInterval.|
 |StartPageRefreshInterval|Get/Set (Short)|Interval in minutes to refresh the Start Page.|
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+|Property Item Name|Value|Description|
+| - |-----------|-----------------|
+|OnStartUp|Get/Set (Enum)|Action to take at startup, from <xref:EnvDTE.vsStartUp>.|
+
+::: moniker-end
+
 ## TaskList
- `DTE.Properties("Environment", "TaskList")`
+
+`DTE.Properties("Environment", "TaskList")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -144,7 +166,8 @@ This document describes the pages (or properties collections) that are associate
 |CommentTokens|SafeArray|Returns a SafeArray of comment token values. Each has the fields, `Name` (string) and `Priority` (<xref:EnvDTE.vsTaskPriority>, High, Medium, or Low).|
 
 ## Web Browser
- `DTE.Properties("Environment", "WebBrowser")`
+
+`DTE.Properties("Environment", "WebBrowser")`
 
 |Property Item Name|Value|Description|
 | - |-----------|-----------------|
@@ -153,7 +176,7 @@ This document describes the pages (or properties collections) that are associate
 |ViewSourceIn|Get/Set (Enum)|<xref:EnvDTE.vsBrowserViewSource> (Source, Design, External).|
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|
 
-## See Also
+## See also
 
 - [Controlling Options Settings](https://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
 - [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)

@@ -1,22 +1,17 @@
 ---
 title: "IDebugProgram2::Step | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgram2::Step"
 helpviewer_keywords: 
   - "IDebugProgram2::Step"
 ms.assetid: e4c2ffce-9810-4088-8162-eac9ef04f2a9
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugProgram2::Step
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ int Step( 
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)   
  [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
-

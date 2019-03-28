@@ -1,8 +1,6 @@
 ---
 title: Security
 ms.date: 06/01/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "security [Visual Studio], applications"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

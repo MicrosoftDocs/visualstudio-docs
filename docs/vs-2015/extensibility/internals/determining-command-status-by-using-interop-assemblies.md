@@ -1,21 +1,16 @@
 ---
 title: "Determining Command Status By Using Interop Assemblies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "interop assemblies, determining command status"
   - "command handling with interop assemblies, status"
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Determining Command Status By Using Interop Assemblies
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ A VSPackage must keep track of the state of the commands it can handle. The envi
 ## See Also  
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Implementation](../../extensibility/internals/command-implementation.md)
-

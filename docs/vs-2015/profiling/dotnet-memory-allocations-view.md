@@ -1,14 +1,9 @@
 ---
 title: ".NET Memory Allocations View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.allocation"
 helpviewer_keywords: 
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "profiling tools reports, Allocation view"
 ms.assetid: 01eb876e-c413-4516-977b-4f896929e8a6
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # .NET Memory Allocations View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ The Allocations view lists the types that were created during the profiling run.
 |**Inclusive Bytes %**|-   For a function, the percentage of all memory allocated in the profiling run that was inclusive allocations of the parent type by the function.<br />-   For a type, the percentage of all memory allocated in the profiling run that was allocated for instances of the type.|  
 |**Exclusive Bytes**|-   For a function, the number of bytes of memory that were allocated by the function for objects of the parent type. This number does not include the memory that was allocated by its child functions.<br />-   For a type, the total number of bytes that were allocated in the profiling run for the instances of the type.|  
 |**Exclusive Bytes %**|-   For a function, the percentage of all memory allocated in the profiling run that was exclusive allocations of the parent type by the function.<br />-   For a type, the percentage of all memory allocated in the profiling run that was allocated for instances of the type.|
-
-
-

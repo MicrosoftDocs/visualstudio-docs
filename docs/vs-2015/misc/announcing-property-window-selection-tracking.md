@@ -1,14 +1,9 @@
 ---
 title: "Announcing Property Window Selection Tracking | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], property pages support"
   - "property pages, tracking selection"
@@ -17,7 +12,7 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], Properties window support"
 ms.assetid: a7536f82-afd7-4894-9a60-84307fb92b7e
 caps.latest.revision: 13
-manager: "douge"
+manager: jillfra
 ---
 # Announcing Property Window Selection Tracking
 If you want to work with the **Properties** window or the **Property** pages, for example, a form, text, or a selection for which you want to see properties, then you must have complete knowledge of how you coordinate selection. For example, you must know whether you have single selection or multiple selections. You then need to announce your selection type (single or multiple) to the IDE using the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface. This interface provides information required by the **Properties** window.  

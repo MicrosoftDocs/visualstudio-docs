@@ -1,14 +1,9 @@
 ---
 title: "Common MSBuild Project Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 caps.latest.revision: 39
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Common MSBuild Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,6 +125,3 @@ The following table lists frequently used properties that are defined in the Vis
   
 ## See Also  
  [Common MSBuild Project Items](../msbuild/common-msbuild-project-items.md)
-
-
-

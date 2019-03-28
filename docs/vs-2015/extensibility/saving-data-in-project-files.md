@@ -1,22 +1,17 @@
 ---
 title: "Saving Data in Project Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "data [Visual Studio], saving in project files"
   - "project files"
   - "project files, saving data"
 ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Saving Data in Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -211,4 +206,3 @@ A project subtype can save and retrieve subtype-specific data in the project fil
   
 ## See Also  
  [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)
-

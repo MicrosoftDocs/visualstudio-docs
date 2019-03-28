@@ -1,19 +1,14 @@
 ---
 title: "How to: Specify Symbol File Locations from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 caps.latest.revision: 16
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Specify Symbol File Locations from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ To display symbol information such as function names and line numbers, the VSPer
  The following VSPerfReport command line adds the C:\Projects\Symbols directory to the search path by using the **/SymbolPath** option.  
   
  **VSPerfReport**  *MyApp* **.exe /SymbolPath:C:\Projects\Symbols /summary:all**
-
-
-

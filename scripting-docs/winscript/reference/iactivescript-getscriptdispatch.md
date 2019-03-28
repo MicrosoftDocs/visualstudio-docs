@@ -2,7 +2,6 @@
 title: "IActiveScript::GetScriptDispatch | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the `IDispatch` interface for the methods and properties associated wi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptDispatch(  
     LPCOLESTR pstrItemName  // address of item name  
     IDispatch **ppdisp      // receives IDispatch pointer  

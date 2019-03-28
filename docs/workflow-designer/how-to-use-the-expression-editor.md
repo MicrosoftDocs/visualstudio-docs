@@ -2,14 +2,12 @@
 title: "Workflow Designer - How to: Use the Expression Editor"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Presentation.View.ExpressionTextBox.UI"
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

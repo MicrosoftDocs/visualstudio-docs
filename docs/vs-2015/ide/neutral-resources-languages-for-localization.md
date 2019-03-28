@@ -1,14 +1,9 @@
 ---
 title: "Neutral Resources Languages for Localization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "localization [Visual Studio], resources"
   - "NeutralResourcesLanguageAttribute class"
@@ -20,7 +15,7 @@ ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Neutral Resources Languages for Localization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
  [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
-

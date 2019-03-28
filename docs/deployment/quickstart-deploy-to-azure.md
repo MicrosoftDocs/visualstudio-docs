@@ -1,21 +1,25 @@
 ---
 title: Publish to Azure App Service
-ms.custom: ""
-ms.date: 06/22/2018
-ms.technology: vs-ide-deployment
+ms.date: 01/29/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "azure"
 ---
 # Publish a Web app to Azure App Service using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+For ASP.NET, ASP.NET Core, Node.js, and .NET Core apps, publish to Azure App Service or Azure App Service Linux (using containers) using one of the following methods.
+
+* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops).
+
+* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to deploy ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or App Service for Linux (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+
+This article describes how to use the **Publish** tool for one-time deployment.
 
 [!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
 

@@ -1,22 +1,17 @@
 ---
 title: "EVALFLAGS | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "EVALFLAGS"
 helpviewer_keywords: 
   - "EVALFLAGS enumeration"
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # EVALFLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ public enum enum_EVALFLAGS {
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)   
  [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1410: COM registration methods should be matched"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1410"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f3b2e62d-fd66-4093-9f0c-dba01ad995fd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

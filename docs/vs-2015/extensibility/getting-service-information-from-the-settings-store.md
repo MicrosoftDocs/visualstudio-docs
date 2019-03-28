@@ -1,18 +1,13 @@
 ---
 title: "Getting Service Information from the Settings Store | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
 caps.latest.revision: 5
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Service Information from the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,4 +77,3 @@ You can use the settings store to find all available services or to determine wh
 3.  In the experimental instance, on the **Tools** menu, click **Invoke FindServicesCommand**.  
   
      You should see a message with the text **Help Service Available:**  followed by **True** or **False**. To verify this setting, you can use a registry editor, as shown in the earlier steps.
-

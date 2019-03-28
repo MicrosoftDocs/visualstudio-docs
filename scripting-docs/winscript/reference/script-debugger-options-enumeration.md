@@ -2,7 +2,6 @@
 title: "SCRIPT_DEBUGGER_OPTIONS Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +22,7 @@ Indicates a set of options and/or capabilities that apply to the attached debugg
   
 ## Syntax  
   
-```  
+```cpp
 typedef SCRIPT_DEBUGGER_OPTIONS  
 ```  
   

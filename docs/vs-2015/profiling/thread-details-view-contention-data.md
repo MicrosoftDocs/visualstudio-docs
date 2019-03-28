@@ -1,23 +1,18 @@
 ---
 title: "Thread Details View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.threaddetails"
 helpviewer_keywords: 
   - "Thread Details view"
 ms.assetid: 874c3b1c-88d8-479a-bb35-1291d9aa8e67
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Thread Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ The Thread Details view presents a timeline graph of the blocking events in the 
 -   In the timeline graph, click **Total**.  
   
      The [Process View](../profiling/process-view-contention-data.md) appears with the thread selected.
-
-
-

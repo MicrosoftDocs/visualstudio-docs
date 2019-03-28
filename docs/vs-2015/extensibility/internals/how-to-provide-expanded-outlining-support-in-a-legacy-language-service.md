@@ -1,22 +1,17 @@
 ---
 title: "How to: Provide Expanded Outlining Support in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], outlining support"
   - "language services, supporting outlining"
   - "outlining, supporting"
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Provide Expanded Outlining Support in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ There are two options for extending outlining support for your language beyond s
     >  When you call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextManager.CreateHiddenTextSession%2A>, you can specify a hidden text client (that is, an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient> object). This client notifies you when a hidden text or outline region is expanded or collapsed by the user.  
   
 4.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A> structure) parameter: Specify a value of <xref:Microsoft.VisualStudio.TextManager.Interop.HIDDEN_REGION_TYPE> in the `iType` member of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure to indicate that you are creating an outline region, rather than a hidden region. Specify whether the region is client-controlled or editor-controlled in the `dwBehavior` member of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure. Your smart outlining implementation can contain a mix of editor- and client-controlled outline regions. Specify the banner text that is displayed when your outline region is collapsed, such as "...", in the `pszBanner` member of the <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> structure. The editor's default banner text for a hidden region is "...".
-

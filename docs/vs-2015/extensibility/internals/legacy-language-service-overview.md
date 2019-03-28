@@ -1,20 +1,15 @@
 ---
 title: "Legacy Language Service Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services [managed package framework], about language services"
 ms.assetid: bb44e27b-d228-463c-b2cf-cd5c24c7c1b5
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Legacy Language Service Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -93,4 +88,3 @@ A language service provides editor support that lets you implement certain [!INC
 ## See Also  
  [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)   
  [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
-

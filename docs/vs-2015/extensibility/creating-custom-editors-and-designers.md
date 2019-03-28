@@ -1,21 +1,16 @@
 ---
 title: "Creating Custom Editors and Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "designers [Visual Studio SDK]"
   - "editors [Visual Studio SDK], custom"
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
 caps.latest.revision: 32
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating Custom Editors and Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,4 +96,3 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
-

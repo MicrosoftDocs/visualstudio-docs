@@ -1,23 +1,18 @@
 ---
 title: "BaseType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "BaseType symbol [DIA SDK]"
 ms.assetid: 2f9e22e6-8360-496a-ac6b-17a5a56b0c46
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # BaseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,6 +37,3 @@ Base types are identified by `SymTagBaseType` symbols.
 ## See Also  
  [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)   
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

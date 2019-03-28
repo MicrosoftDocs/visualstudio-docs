@@ -1,11 +1,8 @@
 ---
 title: "ReceiveAndSendReply Template Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
@@ -14,7 +11,7 @@ ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # ReceiveAndSendReply Template Designer
 The **ReceiveAndSendReply** template is used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities within a <xref:System.Activities.Statements.Sequence> activity that are correlated as part of a request/response message exchange pattern on the server.  

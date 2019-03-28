@@ -1,20 +1,15 @@
 ---
 title: "Attaching Directly to a Program | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, attaching to programs"
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Attaching Directly to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,4 +39,3 @@ Users who want to debug programs in a process that is already running typically 
 ## See Also  
  [Sending Startup Events After a Launch](../../extensibility/debugger/sending-startup-events-after-a-launch.md)   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)
-

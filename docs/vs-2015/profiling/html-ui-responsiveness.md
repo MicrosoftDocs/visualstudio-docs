@@ -1,14 +1,9 @@
 ---
 title: "HTML UI responsiveness | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "profiler, JavaScript [Windows Store apps]"
 ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 52
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # HTML UI responsiveness
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,7 +100,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
     -   Use the [View the diagnostic session timeline](#Ruler) to view [Mark code for analysis](#ProfileMark), app lifecycle events, and the associated timeline for these events and the timeline for data in the other graphs.  
   
-    -   Use the [CPU utilization graph](#CPUutilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.  
+    -   Use the [CPU utilization graph](#CPUUtilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.  
   
     -   If you're developing a game or rich media app, use the [View visual throughput (FPS)](#VisualThroughput) to identify periods of time in which the frame rate dropped.  
   
@@ -363,6 +358,3 @@ if (performance.mark && performance.measure) {
   
 ## See Also  
  [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)
-
-
-

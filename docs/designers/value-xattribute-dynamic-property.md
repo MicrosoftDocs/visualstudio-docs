@@ -1,8 +1,6 @@
 ---
 title: Value (XAttribute Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
   - "XAttribute.Value"
@@ -10,7 +8,7 @@ apitype: "Assembly"
 ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/28/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Setting Up Administrators for Cloud Subscriptions
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Set up administrators for Visual Studio Cloud subscriptions

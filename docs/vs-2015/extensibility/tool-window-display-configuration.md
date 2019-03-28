@@ -1,21 +1,16 @@
 ---
 title: "Tool Window Display Configuration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tool windows, configuring"
   - "tool windows, appearance"
 ms.assetid: 502a4926-bb83-473e-94e2-8e833c5f8b53
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Tool Window Display Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,4 +104,3 @@ HKEY_LOCAL_MACHINE\
   
 ## See Also  
  [VSPackage Essentials](../misc/vspackage-essentials.md)
-

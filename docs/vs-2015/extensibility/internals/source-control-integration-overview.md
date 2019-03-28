@@ -1,20 +1,15 @@
 ---
 title: "Source Control Integration Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], about source control"
 ms.assetid: 3a46e4eb-e677-49c3-8647-d927d035a19a
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Source Control Integration Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,4 +74,3 @@ This section compares the two ways to integrate into Visual Studio source contro
  [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)   
  [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)   
  [What's New in Source Control](../../extensibility/internals/what-s-new-in-source-control.md)
-

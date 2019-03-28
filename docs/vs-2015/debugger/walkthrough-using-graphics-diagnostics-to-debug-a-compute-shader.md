@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +67,7 @@ This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics 
   
 1. On the **Graphics Diagnostics** toolbar, choose **Event Call Stack** to open the **Graphics Event Call Stack** window.  
   
-2. Starting from the draw event that renders the simulation results, move backwards through each previous `CSSetShader` event. Then, in the **Graphics Event Call Stack** window, choose the top-most function to navigate to the call site. At the call site, you can use the first parameter of the [CSSetShader](http://msdn.microsoft.com/library/ff476402.aspx) function call to determine which compute shader is executed by the next `Dispatch` event.  
+2. Starting from the draw event that renders the simulation results, move backwards through each previous `CSSetShader` event. Then, in the **Graphics Event Call Stack** window, choose the top-most function to navigate to the call site. At the call site, you can use the first parameter of the [CSSetShader](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-cssetshader) function call to determine which compute shader is executed by the next `Dispatch` event.  
   
    In this scenario, there are three pairs of `CSSetShader` and `Dispatch` events in each frame. Working backwards, the third pair represents the integration step (where the fluid particles are actually moved), the second pair represents the force-calculation step (where forces that affect each particle are calculated), and the first pair represents the density-calculation step.  
   
@@ -109,6 +104,3 @@ This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics 
    In this scenario, because the compute shaders are compiled at run time, you can just restart the app after you make the changes to observe how they affect the simulation. You don't have to rebuild the app. When you run the app, you discover that the simulation now behaves correctly.  
   
    ![The simulated fluid behaves correctly.](../debugger/media/gfx-diag-demo-compute-shader-fluid-resolution.png "gfx_diag_demo_compute_shader_fluid_resolution")
-
-
-

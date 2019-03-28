@@ -1,14 +1,9 @@
 ---
 title: "Debug 64-Bit Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "64-bit debugging"
 ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 caps.latest.revision: 38
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debug 64-Bit Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +57,3 @@ You can debug a 64-bit application that is running on the local computer or on a
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)   
  [Using Dump Files](../debugger/using-dump-files.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-
-
-
-

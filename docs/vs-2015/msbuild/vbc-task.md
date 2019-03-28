@@ -1,14 +1,9 @@
 ---
 title: "Vbc Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Vbc Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +62,7 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
 |`OptionInfer`|Optional `Boolean` parameter.<br /><br /> If `true`, allows type inference of variables.|  
 |`OptionStrict`|Optional `Boolean` parameter.<br /><br /> If `true`, the task enforces strict type semantics to restrict implicit type conversions. This parameter corresponds to the [/optionstrict](http://msdn.microsoft.com/library/c7b10086-0fa4-49db-b3c8-4ae0db5957da) switch of the vbc.exe compiler.|  
 |`OptionStrictType`|Optional `String` parameter.<br /><br /> Specifies which strict type semantics generate a warning. Currently, only "custom" is supported. This parameter corresponds to the [/optionstrict](http://msdn.microsoft.com/library/c7b10086-0fa4-49db-b3c8-4ae0db5957da) switch of the vbc.exe compiler.|  
-|`OutputAssembly`|Optional `String` output parameter.<br /><br /> Specifies the name of the ouput file. This parameter corresponds to the [/out](http://msdn.microsoft.com/library/9f148c15-0909-4cb8-a2db-777f8a8b45ae) switch of the vbc.exe compiler.|  
+|`OutputAssembly`|Optional `String` output parameter.<br /><br /> Specifies the name of the output file. This parameter corresponds to the [/out](http://msdn.microsoft.com/library/9f148c15-0909-4cb8-a2db-777f8a8b45ae) switch of the vbc.exe compiler.|  
 |`Platform`|Optional `String` parameter.<br /><br /> Specifies the processor platform to be targeted by the output file. This parameter can have a value of `x86`, `x64`, `Itanium`, or `anycpu`. Default is `anycpu`. This parameter corresponds to the [/platform](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1) switch of the vbc.exe compiler.|  
 |`References`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Causes the task to import public type information from the specified items into the current project. This parameter corresponds to the [/reference](http://msdn.microsoft.com/library/66bdfced-bbf6-43d1-a554-bc0990315737) switch of the vbc.exe compiler.|  
 |`RemoveIntegerChecks`|Optional `Boolean` parameter.<br /><br /> If `true`, disables integer overflow error checks. The default value is `false`. This parameter corresponds to the [/removeintchecks](http://msdn.microsoft.com/library/c1835bd5-1e38-4fba-bd2f-6984774765d4) switch of the vbc.exe compiler.|  
@@ -107,6 +102,3 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
  [Visual Basic Command-Line Compiler](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

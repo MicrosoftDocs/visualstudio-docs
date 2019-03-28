@@ -1,13 +1,11 @@
 ---
 title: Extended Design Guidelines Rules rule set for managed code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---

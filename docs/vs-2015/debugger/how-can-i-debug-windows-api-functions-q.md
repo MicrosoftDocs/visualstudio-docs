@@ -1,14 +1,9 @@
 ---
 title: "How Can I Debug Windows API Functions? | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.api"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "APIs, debugging"
 ms.assetid: 7c126f57-62ab-4d94-9805-632d696ba1f0
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How Can I Debug Windows API Functions?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +37,8 @@ If you want to debug a Windows API function that has NT symbols loaded, you must
     {,,USER32.DLL}_MessageBeep@4  
     ```  
   
-     To obtain the decorated name, see [Viewing Decorated Names](http://msdn.microsoft.com/en-us/f79e2717-a4db-4d12-a689-69830cce2be0).  
+     To obtain the decorated name, see [Viewing Decorated Names](http://msdn.microsoft.com/f79e2717-a4db-4d12-a689-69830cce2be0).  
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

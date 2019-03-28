@@ -1,14 +1,9 @@
 ---
 title: "-Setup (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "setup Devenv switch"
   - "/setup Devenv switch"
@@ -17,7 +12,7 @@ ms.assetid: 87608b7f-a156-400c-80f5-fc823f843e61
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Setup (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ devenv /setup
   
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

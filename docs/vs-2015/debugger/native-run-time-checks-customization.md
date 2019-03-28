@@ -1,14 +1,9 @@
 ---
 title: "Native Run-Time Checks Customization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.crt"
 dev_langs: 
@@ -28,9 +23,9 @@ helpviewer_keywords:
   - "native run-time checks, customizing"
 ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Native Run-Time Checks Customization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,8 +58,3 @@ When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pra
  [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   
  [runtime_checks](http://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b)   
  [_CrtDbgReport, _CrtDbgReportW](http://msdn.microsoft.com/library/6e581fb6-f7fb-4716-9432-f0145d639ecc)
-
-
-
-
-

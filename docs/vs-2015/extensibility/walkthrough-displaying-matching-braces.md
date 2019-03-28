@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Displaying Matching Braces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - brace matching"
 ms.assetid: 5af08ac7-1d08-4ccf-997e-01aa6cb3d3d7
 caps.latest.revision: 28
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Displaying Matching Braces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,4 +120,3 @@ You can implement language-based features such as brace matching by defining the
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
-

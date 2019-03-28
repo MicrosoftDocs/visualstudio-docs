@@ -1,12 +1,9 @@
 ---
 title: "Turn off constraints while filling a dataset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 f1_keywords: 
   - "DataRow.BeginEdit"
   - "DataRow.EndEdit"
@@ -25,7 +22,7 @@ ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Turn off constraints while filling a dataset
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,11 +44,10 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 ### To suspend update constraints using the Dataset Designer  
   
-1.  Open your dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md). For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1.  Open your dataset in the Dataset Designer. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)   
  [Relationships in datasets](../data-tools/relationships-in-datasets.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".NET memory profiling method"
   - "Profiling Tools,.NET memory method"
 ms.assetid: 62a6dd5f-db66-4456-9d57-f8913dbfe4d5
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting .NET Memory Allocation and Lifetime Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,6 +80,3 @@ manager: "ghogen"
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)
-
-
-

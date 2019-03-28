@@ -1,14 +1,9 @@
 ---
 title: "Persistence and the Running Document Table | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "persistence, managing"
   - "IVsPersistHierarchyItem interface, implementing"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "running document table (RDT), architecture"
 ms.assetid: 27117eae-6c58-4189-a61a-1397a43b5ecf
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Persistence and the Running Document Table
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE, projects are complet
 ## See Also  
  [Running Document Table](../../extensibility/internals/running-document-table.md)   
  [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
-

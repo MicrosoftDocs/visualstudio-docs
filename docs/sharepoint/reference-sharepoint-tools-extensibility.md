@@ -1,31 +1,32 @@
 ---
 title: "Reference (SharePoint Tools Extensibility) | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "SharePoint development in Visual Studio, reference for project and tools extensibility"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Reference (SharePoint tools extensibility)
-  This section contains reference documentation for extending the SharePoint tools in Visual Studio.  
-  
+
+This section contains reference documentation for extending the SharePoint tools in Visual Studio.
+
 ## In this section
- [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
- Contains reference documentation for the *.spdata* file schema.  
-  
- [API reference &#40;SharePoint tools extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
- Contains API reference documentation for extending the SharePoint tools in Visual Studio.  
-  
+
+[SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)
+
+Contains reference documentation for the *.spdata* file schema.
+
+[API reference &#40;SharePoint tools extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)
+
+Contains API reference documentation for extending the SharePoint tools in Visual Studio.
+
 ## See also
- [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
-  
+
+- [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)

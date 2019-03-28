@@ -1,13 +1,11 @@
 ---
 title: "How to: Export a Shader"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 0bd48bf4-9792-4456-a545-e462a2be668d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

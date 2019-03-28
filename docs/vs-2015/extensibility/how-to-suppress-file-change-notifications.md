@@ -1,20 +1,15 @@
 ---
 title: "How to: Suppress File Change Notifications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - suppress file change notification"
 ms.assetid: 891c1eb4-f6d0-4073-8df0-2859dbd417ca
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Suppress File Change Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,4 +110,3 @@ void CSuspendFileChanges::Resume()
   
 ## Robust Programming  
  If your case involves multiple changes to the file, as in the case of SCC, then it is important to resume global file change notifications before alerting the document data to resume monitoring for file changes.
-

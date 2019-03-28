@@ -1,20 +1,17 @@
 ---
 title: "Deploy a layer model extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, deploying extensions"
   - "layer models, deploying extensions"
 ms.assetid: 00a4675b-d20e-487e-8fd5-be2b1e0ba238
 caps.latest.revision: 29
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Deploy a layer model extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,6 +70,3 @@ Other users of Visual Studio can install layer modeling extensions that you crea
     3.  Delete the .zip file  
   
 3.  Restart [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].
-
-
-

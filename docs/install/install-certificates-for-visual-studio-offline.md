@@ -1,9 +1,8 @@
 ---
-title: "Install certificates required for Visual Studio offline installation | Microsoft Docs"
+title: "Install certificates required for an offline installation"
 description: "Learn how to install certificates for a Visual Studio offline installation."
-ms.date: 08/30/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+ms.date: 01/15/2019
+ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
@@ -11,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Install certificates required for Visual Studio offline installation
 
@@ -56,14 +57,25 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
    certmgr.exe -add -c certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
+
    **Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, create the batch file with the following commands:
 
    ```cmd
-   certmgr.exe -add [layout path]\certificates\manifestSignCertificates.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestRootCertificate.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\manifestCounterSignCertificates.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\manifestCounterSignRootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
 
-   certmgr.exe -add [layout path]\certificates\vs_installer_opc.SignCertificates.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   certmgr.exe -add [layout path]\certificates\vs_installer_opc.RootCertificate.cer -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
+   ```
+   
+   Alternatively, create a batch file that uses certutil.exe, which ships with Windows, with the following commands:
+   
+      ```cmd
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer
+
+   certutil.exe -addstore -f "Root" [layout path]\certificates\manifestCounterSignRootCertificate.cer"
+
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\vs_installer_opc.RootCertificate.cer"
    ```
 
 3. Deploy the batch file to the client. This command should be run from an elevated process.
@@ -97,6 +109,7 @@ When a signature is verified in an online environment, Windows APIs are used to 
 ## Checking if certificates are already installed
 
 One way to check on the installing system is to follow these steps:
+
 1. Run **mmc.exe**.<br/>
   a. Click File, and then select **Add/Remove Snap-in**.<br/>
   b. Double-click **Certificates**, select **Computer account**, and then click **Next**.<br/>
@@ -118,7 +131,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploying-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
+After you install the certificates, deployment of Visual Studio can proceed by using the instructions from the [Deploying from a network installation](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) section of the "Create a network installation of Visual Studio" page.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

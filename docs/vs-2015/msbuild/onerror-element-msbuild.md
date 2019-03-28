@@ -1,14 +1,9 @@
 ---
 title: "OnError Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#OnError"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: 765767d3-ecb7-4cd9-ba1e-d9468964dddc
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # OnError Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,6 +77,3 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Targets](../msbuild/msbuild-targets.md)
-
-
-

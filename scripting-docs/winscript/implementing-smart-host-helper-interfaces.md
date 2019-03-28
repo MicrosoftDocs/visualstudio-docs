@@ -2,7 +2,6 @@
 title: "Implementing Smart Host Helper Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -47,7 +46,7 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
   
      The code below outlines the process, but it does not include error checking or other robust programming techniques.  
   
-    ```  
+    ```cpp
     CoCreateInstance(CLSID_ProcessDebugManager, NULL,  
           CLSCTX_INPROC_SERVER | CLSCTX_INPROC_HANDLER  
           | CLSCTX_LOCAL_SERVER,  
@@ -74,13 +73,13 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
 ## Implementing IActiveScriptSiteDebug  
  To implement [IActiveScriptSiteDebug::GetDocumentContextFromPosition](../winscript/reference/iactivescriptsitedebug-getdocumentcontextfromposition.md), get the helper corresponding to the given site, and then get the starting document offset for the given source context, as follows:  
   
-```  
+```cpp
 pddh->GetScriptBlockInfo(dwSourceContext, NULL, &ulStartPos, NULL);  
 ```  
   
  Next, use the helper to create a new document context for the given character offset:  
   
-```  
+```cpp
 pddh->CreateDebugDocumentContext(ulStartPos + uCharacterOffset, cChars, &pddcNew);  
 ```  
   

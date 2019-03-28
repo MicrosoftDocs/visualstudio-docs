@@ -1,21 +1,16 @@
 ---
 title: "Visual Studio Shell (Integrated) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, integrated mode features"
   - "Shell [Visual Studio], integrated mode features"
 ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Visual Studio Shell (Integrated)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

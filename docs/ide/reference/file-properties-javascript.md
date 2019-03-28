@@ -1,8 +1,6 @@
 ---
 title: File Properties, JavaScript
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.expandedsdknode.fileversion"
@@ -24,7 +22,7 @@ f1_keywords:
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

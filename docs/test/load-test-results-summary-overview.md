@@ -1,5 +1,5 @@
 ---
-title: "Load Test Results Summary Overview in Visual Studio"
+title: "Load Test Results Summary Overview"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,15 +13,15 @@ helpviewer_keywords:
 ms.assetid: 326b6c3c-5378-452b-8ca3-ba5a06ab3d41
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Load test results summary overview
 
 After you run a load test, you can view the load test summary to understand the results quickly. The load test summary provides the key results in a compact and easy to read format. You can also print the load test summary. This makes it convenient to use when you communicate results to stakeholders. The load test summary is also the default view when you open a load test result from a previously run load test. For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
- ![Summary view](../test/media/ltest_summaryview.png)
+![Summary view](../test/media/ltest_summaryview.png)
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## The load test summary
 
@@ -121,7 +121,7 @@ The controller and agent resources section contains a list of the computers that
 
 ## Errors
 
-The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md) and [How to: Analyze errors using the Counters panel](../test/how-to-analyze-errors-using-the-counters-panel.md).
+The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
 > [!NOTE]
 > You can collapse and expand this section by choosing the arrow to the left of the section title.

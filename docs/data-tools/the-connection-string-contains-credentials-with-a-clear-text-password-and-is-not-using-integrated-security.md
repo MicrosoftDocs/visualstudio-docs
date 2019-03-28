@@ -5,9 +5,7 @@ ms.topic: reference
 ms.assetid: 501d85af-92e0-4471-b280-8a59c0688575
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -20,15 +18,13 @@ When working with data connections that include sensitive information (passwords
 > [!WARNING]
 > Explicitly setting the **Connection** properties **Application Settings** property to **False** will add the password to the DBML file.
 
-## To save the connection string with the sensitive information in the project's application settings
+## Save options
 
-- Click **Yes**.
+- To save the connection string with the sensitive information, choose **Yes**.
 
    The connection string is stored as an application setting. The connection string includes the sensitive information in plain text. The DBML file does not contain the sensitive information.
 
-## To save the connection string without the sensitive information in the project's application settings
-
-- Click **No**.
+- To save the connection string without the sensitive information, choose **No**.
 
    The connection string is stored as an application setting, but the password is not included.
 

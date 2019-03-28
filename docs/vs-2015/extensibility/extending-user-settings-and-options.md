@@ -1,14 +1,9 @@
 ---
 title: "Extending User Settings and Options | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "user preferences"
   - "user settings [Visual Studio SDK]"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "VSPackages, user preferences"
 ms.assetid: 5bb6277a-8c9d-48c8-9b4e-1cb3052caded
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending User Settings and Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ In Visual Studio there are two main ways to maintain user preferences. The **Too
   
  [Writing to the User Settings Store](../extensibility/writing-to-the-user-settings-store.md)  
  Explains how to write to the user settings store.
-

@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Outlining | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - outlining"
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
 caps.latest.revision: 31
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Outlining
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,4 +129,3 @@ You can implement language-based features such as outlining by defining the kind
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
-

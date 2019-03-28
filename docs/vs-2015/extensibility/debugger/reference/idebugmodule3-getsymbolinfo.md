@@ -1,14 +1,9 @@
 ---
 title: "IDebugModule3::GetSymbolInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugModule3::GetSymbolInfo"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDebugModule3::GetSymbolInfo method"
 ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugModule3::GetSymbolInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)
  [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md)   
  [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md)   
  [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
-

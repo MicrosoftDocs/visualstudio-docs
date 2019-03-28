@@ -1,21 +1,16 @@
 ---
 title: "Troubleshooting VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "VSPackages, troubleshooting"
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Troubleshooting VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
 3.  Check your VSPackage registry entries.  
   
-     For more information, see [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
+     For more information, see [Registering VSPackages](internals/registering-vspackages.md) and [Managing VSPackages](../extensibility/managing-vspackages.md).  
   
 4.  Open the **Output** window of the instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that is failing to load the VSPackage. Information about why the VSPackage is failing to load may be displayed in that window.  
   
@@ -126,4 +121,3 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)
-

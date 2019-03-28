@@ -1,12 +1,9 @@
 ---
 title: "Properties of elements on UML sequence diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.sequencediagram.combinedfragment.properties"
   - "vs.teamarch.sequencediagram.shapes.properties"
@@ -15,9 +12,9 @@ helpviewer_keywords:
   - "sequence diagrams, properties"
 ms.assetid: 475c10f3-a2d2-4a1e-b366-dc28997d437e
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of elements on UML sequence diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +48,3 @@ In a UML sequence diagram, each element on the diagram has properties. To see th
  [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)   
  [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)   
  [Describe control flow with fragments on UML sequence diagrams](../modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Summary View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.summary"
 helpviewer_keywords: 
@@ -18,9 +13,9 @@ helpviewer_keywords:
   - "Summary view"
 ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
 caps.latest.revision: 42
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Summary View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,8 +46,8 @@ The Summary view displays information about the most performance-expensive funct
 |**Show Trimmed Call Tree**|Displays the most expensive execution paths in the Call Tree View. For more information, see [Call Tree View](../profiling/call-tree-view.md).|  
 |**Show Hot Lines**|Not available for profiling data that was collected by using the instrumentation method. Displays the most expensive source code lines in Lines View. For more information, see [Lines View](../profiling/lines-view.md).|  
 |**Compare Reports**|Displays the **Select analysis files for comparison** dialog box where you can specify another profiling data file to compare to the current file. For more information, see [Comparing Performance Data Files](../profiling/comparing-performance-data-files.md).|  
-|**Export Report Data**|Displays the **Export Report** dialog box where you can specify one or more report views to save as comma-separated value (.csv) or .xml files. For more information, see [How to: Export Profiling Tools Reports](http://msdn.microsoft.com/en-us/174b5bd3-df9b-4fd4-88d4-76032ab90451).|  
-|**Save Analyzed Report**|Saves the current profiling data file as a .vsps file, which opens more quickly in the interface for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [How to: Save Analyzed Profiling Data Files](http://msdn.microsoft.com/en-us/0340ddde-caf4-48ac-8af3-d15dcdade556).|  
+|**Export Report Data**|Displays the **Export Report** dialog box where you can specify one or more report views to save as comma-separated value (.csv) or .xml files. For more information, see [How to: Export Profiling Tools Reports](http://msdn.microsoft.com/174b5bd3-df9b-4fd4-88d4-76032ab90451).|  
+|**Save Analyzed Report**|Saves the current profiling data file as a .vsps file, which opens more quickly in the interface for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [How to: Save Analyzed Profiling Data Files](http://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556).|  
 |**Filter Report Data**|Displays the profiling report filter pane where you can specify criteria to restrict the data in the report view. For more information, see [Performance Report View Filter](../profiling/performance-report-view-filter.md)|  
 |**Toggle Full Screen**|Toggles full-screen mode for the report view.|  
   
@@ -60,6 +55,3 @@ The Summary view displays information about the most performance-expensive funct
  [Summary View](../profiling/summary-view-sampling-data.md)   
  [Summary View](../profiling/summary-view-instrumentation-data.md)   
  [Summary View](../profiling/summary-view-dotnet-memory-data.md)
-
-
-

@@ -1,54 +1,54 @@
 ---
 title: "IDebugSymbolProvider::GetNextAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugSymbolProvider::GetNextAddress"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugSymbolProvider::GetNextAddress method"
 ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugSymbolProvider::GetNextAddress
-Gets the debug address that follows a given debug address in a method.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetNextAddress(   
-   IDebugAddress*  pAddress,  
-   BOOL            fStatementOnly,  
-   IDebugAddress** ppAddress  
-);  
-```  
-  
-```csharp  
-int GetNextAddress(   
-   IDebugAddress     pAddress,  
-   bool              fStatementOnly,  
-   out IDebugAddress ppAddress  
-);  
-```  
-  
-#### Parameters  
- `pAddress`  
- [in] Given debug address.  
-  
- `fStatementOnly`  
- [in] If TRUE, limits the debug addresses to a single statement.  
-  
- `ppAddress`  
- [out] Returns the next debug address.  
-  
-## Return Value  
- Returns a valid `HRESULT`, typically S_OK.  
-  
-## See Also  
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+Gets the debug address that follows a given debug address in a method.
+
+## Syntax
+
+```cpp
+HRESULT GetNextAddress( 
+   IDebugAddress*  pAddress,
+   BOOL            fStatementOnly,
+   IDebugAddress** ppAddress
+);
+```
+
+```csharp
+int GetNextAddress( 
+   IDebugAddress     pAddress,
+   bool              fStatementOnly,
+   out IDebugAddress ppAddress
+);
+```
+
+#### Parameters
+ `pAddress`
+
+ [in] Given debug address.
+
+ `fStatementOnly`
+
+ [in] If TRUE, limits the debug addresses to a single statement.
+
+ `ppAddress`
+
+ [out] Returns the next debug address.
+
+## Return Value
+ Returns a valid `HRESULT`, typically S_OK.
+
+## See Also
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)

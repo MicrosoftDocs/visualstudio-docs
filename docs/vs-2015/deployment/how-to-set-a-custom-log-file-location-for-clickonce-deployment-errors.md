@@ -1,14 +1,9 @@
 ---
 title: "How to: Set a Custom Log File Location for ClickOnce Deployment Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 77424414-7f0e-4b99-94bb-ea130de92d09
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Set a Custom Log File Location for ClickOnce Deployment Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,8 +45,3 @@ manager: "wpickett"
   
 ## See Also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)
-
-
-
-
-

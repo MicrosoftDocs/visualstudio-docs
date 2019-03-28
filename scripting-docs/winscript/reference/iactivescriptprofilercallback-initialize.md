@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::Initialize | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Called to initialize the profiler object whenever profiling is started on a scri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Initialize(  
     [in] DWORD dwContext);  
 ```  

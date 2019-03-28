@@ -1,22 +1,17 @@
 ---
 title: "IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEEVisualizerDataProvider::CanSetObjectForVisualizer"
 helpviewer_keywords: 
   - "IEEVisualizerDataProvider::CanSetObjectForVisualizer method"
 ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int CanSetObjectForVisualizer(
   
 ## See Also  
  [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
-

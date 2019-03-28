@@ -1,14 +1,9 @@
 ---
 title: "C-C++ Assertions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -31,9 +26,9 @@ helpviewer_keywords:
   - "failures, finding locations"
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 caps.latest.revision: 25
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # C/C++ Assertions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -350,6 +345,3 @@ _ASSERT(!myErr); // Don't do this, either!
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Assertions in Managed Code](../debugger/assertions-in-managed-code.md)
-
-
-

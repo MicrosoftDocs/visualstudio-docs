@@ -1,19 +1,14 @@
 ---
 title: "How to: Create a Profiling Tools ETW Report | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: bf5547b3-f6c7-4989-9d47-2fe4f1261444
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Create a Profiling Tools ETW Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ The Event Tracing for Windows (ETW) report lists the ETW events that are recorde
     |*ToolsPath*|The path of the Profiling Tools utility. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).|  
     |*VSPFile*|The profiling data (.vsp or .vsps) file. Full and partial paths are accepted.|  
     |Xml|Generates a report that is formatted in XML.|
-
-
-

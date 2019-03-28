@@ -1,22 +1,17 @@
 ---
 title: "ASSEMBLYLOCRESOLUTION | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "ASSEMBLYLOCRESOLUTION"
 helpviewer_keywords: 
   - "ASSEMBLYLOCRESOLUTION enumeration"
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # ASSEMBLYLOCRESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -73,4 +68,3 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)   
  [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "How to: Use the Finder Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Window Finder Tool"
 ms.assetid: 5841926b-08c3-4e43-88bd-4223d04f9aef
 caps.latest.revision: 9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use the Finder Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,6 +51,3 @@ Finder Tool in the Find Window dialog box
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)
-
-
-

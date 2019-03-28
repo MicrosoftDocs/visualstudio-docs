@@ -1,19 +1,16 @@
 ---
 title: "Manage models and diagrams under version control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "models, version control"
 ms.assetid: ca6443e3-6d11-4da8-aae7-ca7dcc410076
 caps.latest.revision: 32
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Manage models and diagrams under version control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -107,6 +104,3 @@ Manage different versions of your modeling projects and diagrams, including code
 ## See Also  
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)   
  [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md)
-
-
-

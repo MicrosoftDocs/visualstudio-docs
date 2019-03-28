@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
@@ -109,4 +107,4 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

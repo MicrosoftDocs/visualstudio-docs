@@ -1,19 +1,14 @@
 ---
 title: "Math Nodes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: adc225cc-1cf5-4f7c-9b00-e7ac8450b6b9
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Math Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +47,3 @@ In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and 
 |**Sqrt**|Computes the square root of the specified input, per component.<br /><br /> For each component of the result, the square root of the corresponding component is calculated.<br /><br /> **Input:**<br /><br /> `X`: `float`, `float2`, `float3`, or `float4`<br /> The values for which to compute the square root.<br /><br /> **Output:**<br /><br /> `Output`: same as input `X`<br /> The square root, per component.|None|  
 |**Subtract**|Computes the component-wise difference of the specified inputs.<br /><br /> For each component of the result, the corresponding component of input `Y` is subtracted from the corresponding component of input `X`. You can use this to compute the vector that extends from the first input to the second.<br /><br /> **Input:**<br /><br /> `X`: `float`, `float2`, `float3`, or `float4`<br /> The values to be subtracted from.<br /><br /> `Y`: same as input `X`<br /> The values to subtract from input `X`.<br /><br /> **Output:**<br /><br /> `Output`: same as input `X`<br /> The difference, per component.|None|  
 |**Transform 3D Vector**|Transforms the specified 3-D vector into a different space.<br /><br /> You can use this to bring points or vectors into a common space so that you can use them to perform meaningful calculations.<br /><br /> **Input:**<br /><br /> `Vector`: `float3`<br /> The vector to transform.<br /><br /> **Output:**<br /><br /> `Output`: `float3`<br /> The transformed vector.|**From System**<br /> The native space of the vector.<br /><br /> **To System**<br /> The space to transform the vector into.|
-
-
-

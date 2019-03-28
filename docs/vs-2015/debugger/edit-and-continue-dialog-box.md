@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.ENC.welcome"
 dev_langs: 
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "Edit and Continue dialog box"
 ms.assetid: 4390c09c-fc73-4cc3-ab8e-6f07a7d70be2
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Edit and Continue Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ Native Only) This dialog box appears when you have edited code while debugging a
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
-
-
-

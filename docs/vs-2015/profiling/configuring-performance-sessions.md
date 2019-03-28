@@ -1,14 +1,9 @@
 ---
 title: "Configuring Performance Sessions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "common tasks, performance"
   - "common tasks, profiling tools"
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "performance, gathering data"
 ms.assetid: e1c3ba41-ffca-4edf-9a7f-8a5a9244ef9b
 caps.latest.revision: 41
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Configuring Performance Sessions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ By using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, you can c
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

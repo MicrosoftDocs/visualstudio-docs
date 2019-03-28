@@ -1,22 +1,17 @@
 ---
 title: "IDebugPortSupplier2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortSupplier2"
 helpviewer_keywords: 
   - "IDebugPortSupplier2 interface"
 ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPortSupplier2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
  [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md)   
  [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)   
  [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md)
-

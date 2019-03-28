@@ -7,15 +7,13 @@ helpviewer_keywords:
   - "stories"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Model user requirements
 
-Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-3-Modeling-the-Business-Domain/).
+Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain).
 
 To see which versions of Visual Studio support each type of model, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 

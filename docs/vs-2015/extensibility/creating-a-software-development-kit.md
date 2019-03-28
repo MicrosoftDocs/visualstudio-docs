@@ -1,18 +1,13 @@
 ---
 title: "Creating a Software Development Kit | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 caps.latest.revision: 55
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Creating a Software Development Kit
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -267,4 +262,3 @@ MoreInfo = "http://msdn.microsoft.com/MySDK">
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
  [Walkthrough: Creating an SDK using C# or Visual Basic](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)
-

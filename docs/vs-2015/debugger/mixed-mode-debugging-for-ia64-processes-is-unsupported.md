@@ -1,14 +1,9 @@
 ---
 title: "Mixed mode debugging for IA64 processes is unsupported. | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_ia64"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 20bc1e38-049b-4388-87c4-936815d85b46
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Mixed mode debugging for IA64 processes is unsupported.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
   
 ## See Also  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
-
-
-

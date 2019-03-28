@@ -1,14 +1,9 @@
 ---
 title: "CA1020: Avoid namespaces with few types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1020"
   - "AvoidNamespacesWithFewTypes"
@@ -45,6 +40,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule when the namespace does not contain types that are used with the types in your other namespaces.
-
-
-

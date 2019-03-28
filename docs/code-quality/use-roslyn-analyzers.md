@@ -1,8 +1,6 @@
 ---
-title: Use and configure Roslyn analyzers
-ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Analyzer rule severity and suppression
+ms.date: 03/26/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -10,11 +8,11 @@ helpviewer_keywords:
   - "Roslyn analyzers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Configure and use Roslyn analyzer rules
+# Use Roslyn analyzers
 
 .NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, analyze your C# or Visual Basic code as you type. Each diagnostic has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
 
@@ -42,12 +40,17 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule sets
 
-A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics. Rule sets apply to a single project, and a project can have multiple rule sets. To view the active rule set in the editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you are accessing the rule set, a file named *\<projectname>.ruleset* is added to the project and appears in **Solution Explorer**.
+A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics.
 
 > [!NOTE]
-> Rule sets include both static (binary) code analysis and Roslyn analyzer rules.
+> Rule sets can include rules from both static (binary) code analysis and Roslyn analyzers.
 
-You can change the active rule set for a project on the **Code Analysis** tab of a project's properties. Select the rule set in the **Run this rule set** drop-down list. You can also open the rule set from the **Code Analysis** property page by selecting **Open**.
+To edit the active rule set in the rule set editor, right-click on the **References** > **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you're editing the rule set, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and adds it to your project. This custom rule set also becomes the active rule set for your project.
+
+To change the active rule set for a project, navigate to the **Code Analysis** tab of a project's properties. Select the rule set from the list under **Run this rule set**. To open the rule set, select **Open**.
+
+> [!NOTE]
+> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property to the project file](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project). You can configure the rules within the rule set in the Visual Studio rule set editor UI.
 
 ## Rule severity
 
@@ -75,7 +78,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
-### To set rule severity from Solution Explorer
+### Set rule severity from Solution Explorer
 
 1. In **Solution Explorer**, expand **References** > **Analyzers** (**Dependencies** > **Analyzers** for .NET Core projects).
 
@@ -85,9 +88,9 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
    The severity for the rule is saved in the active rule set file.
 
-### To set rule severity in the rule set file
+### Set rule severity in the rule set file
 
-1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the [rule set](analyzer-rule-sets.md) file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
 1. Browse to the rule by expanding its containing assembly.
 

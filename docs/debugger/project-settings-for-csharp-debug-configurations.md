@@ -1,15 +1,14 @@
 ---
-title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
+title: "Project Settings for a C# debug config | Microsoft Docs"
+ms.custom: "seodec18"
+ms.date: "11/21/2018"
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debug configurations, C#"
   - "project settings [Visual Studio], debug configurations"
   - "debug builds, project settings"
@@ -19,38 +18,41 @@ helpviewer_keywords:
 ms.assetid: e30ca810-66e9-4d6e-9cf6-9f285cd0b100
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
-# Project Settings for  C# Debug Configurations
-You can change the project settings for a C# debug configuration in the **Property Pages** window, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** window.  
-  
-> [!WARNING]
->  This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
-  
-##  <a name="BKMK_Debug_tab"></a> Debug tab  
-  
-| **Setting** | **Description** |
-|-------------------------------------| - |
-| **Configuration** | Sets mode for compiling the application. Choose among **Active (Debug)**, **Debug**, **Release**, **All Configurations**. |
-| **Start Action** | This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [Choosing the Startup Project](/previous-versions/visualstudio/visual-studio-2010/0s590bew(v=vs.100)).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Attaching to a Running Program](/previous-versions/visualstudio/visual-studio-2010/c6wf8e4z(v=vs.100)).<br />-   **Start browser in URL** enables you to debug a Web application. |
-| **Command line arguments** | Specifies command-line arguments for the program to be debugged. The command name is the program name specified in Start external program. If Start Action is set to Start URL, command-line arguments cannot be specified. |
-| **Working directory** | Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from \bin\debug by default. |
-| **Use remote machine** | The name of a remote machine where the application will run for debugging purposes or an [Msvsmon server name](../debugger/remote-debugging.md). The location of the EXE on the remote machine is specified by the Output Path property in the Configuration Properties folder, Build category. The location must be a shareable directory on the remote machine. |
-| **Enable unmanaged code debugging** | Enables you to debug calls to native (unmanaged) Win32 code from your managed application. |
-| **Enable SQL Server debugging** | Allows debugging of SQL Server database objects. |
-  
-##  <a name="BKMK_Build_tab"></a> Build tab  
-  
-|Setting|Description|  
-|-------------|-----------------|  
-|**Conditional compilation symbols:**|The DEBUG and TRACE constants are defined here.<br /><br /> These constants enable conditional compilation of the [Debug class](/dotnet/api/system.diagnostics.debug) and [Trace class](/dotnet/api/system.diagnostics.trace). With these constants defined, Debug and Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without these constants, Debug and Trace class methods are not compiled and no output is generated.<br /><br /> -   Debug is normally defined in the Debug version of a program and undefined in the Release version.<br />-   Trace is normally defined in both Debug and Release versions.|  
-|**Optimize code**|Unless you find a bug that appears only in optimized code, you should leave this setting turned off in the Debug version. Optimized code is harder to debug because instructions do not correspond directly to statements in your source windows.|  
-|**Output path:**|Typically set to bin\Debug for debugging.|
+# Project settings for  C# debug configurations
 
-> [!NOTE]
-> For more information on debug options you find in the **Advanced** button, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md). The portable format for symbol (.pdb) files is the most recent cross-platform format for .NET Core. 
-  
-## See Also  
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
+
+To open the property pages, select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**.
+
+For more information, see [Debug and release configurations](how-to-set-debug-and-release-configurations.md).
+
+>[!IMPORTANT]
+>These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
+
+## Debug tab
+
+|Setting|Description|
+|-------------------------------------| - |
+| **Configuration** | Sets mode for building the app. Select **Active (Debug)**, **Debug**, **Release**, or **All Configurations** from the dropdown. |
+| **Start action** | Specifies the action when you select **Start** in a Debug configuration.<br />- **Start project** is the default, and launches the startup project for debugging. For more information, see [Choose the startup project](/previous-versions/visualstudio/visual-studio-2010/0s590bew(v=vs.100)).<br />- **Start external program** starts and attaches to an app that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Attach to running processes with the debugger](attach-to-running-processes-with-the-visual-studio-debugger.md).<br />- **Start browser with URL** lets you debug a web app. |
+| **Start options** > **Command-line arguments** | Specifies command-line arguments for the app being debugged. The command name is the app name specified in **Start external program**. |
+| **Start options** > **Working directory** | Specifies the working directory of the app being debugged. In C#, the working directory is *\bin\debug* by default.
+| **Start options** > **Use remote machine**|For remote debugging, select this option and enter the name of the remote debugging target, or an [Msvsmon server name](../debugger/remote-debugging.md). <br />The location of an app on the remote machine is specified by the **Output Path** property on the **Build** tab. The location must be a shareable directory on the remote machine.
+| **Debugger engine** > **Enable unmanaged code debugging** | Debugs calls to native (unmanaged) Win32 code from the managed app. |
+| **Debugger engine** > **Enable SQL Server debugging** | Debugs SQL Server database objects. |
+
+## Build tab
+
+|Setting|Description|
+|-------------|-----------------|
+|**General** > **Conditional compilation symbols**|Define the DEBUG and TRACE constants if selected.<br /><br /> These constants enable conditional compilation of the [Debug class](/dotnet/api/system.diagnostics.debug) and [Trace class](/dotnet/api/system.diagnostics.trace). With these constants defined, Debug and Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without these constants, Debug and Trace class methods are not compiled, and no output is generated.<br /><br />Usually, DEBUG is defined in the Debug version of a build and undefined in the Release version. TRACE is defined in both the Debug and Release versions.|
+|**General** > **Optimize code**|Unless a bug appears only in optimized code, leave this setting deselected for Debug builds. Optimized code is harder to debug, because instructions do not correspond directly to statements in the source code.|
+|**Output** > **Output path**|Typically set to *bin\Debug* for debugging.|
+|**Advanced** button|For information on advanced debugging options, see [Advanced build settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md). The portable format for symbol (*.pdb*) files is a recent cross-platform format for .NET Core apps.
+
+## See also
+- [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)

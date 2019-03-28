@@ -1,14 +1,9 @@
 ---
 title: "How to: Use Reserved XML Characters in Project Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, using reserved XML characters"
   - "MSBuild, reserved XML characters"
@@ -16,7 +11,7 @@ ms.assetid: 1ae37275-96bf-4e6e-897b-6b048e5bbe93
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use Reserved XML Characters in Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,5 +71,3 @@ When you author project files, you might need to use reserved XML characters, fo
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
  [MSBuild](msbuild.md)
-
-

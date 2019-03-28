@@ -1,21 +1,16 @@
 ---
 title: "Exposing Project Objects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project objects, exposing"
   - "extensibility, project objects"
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Exposing Project Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -93,4 +88,3 @@ Custom project types can provide automation objects in order to allow access to 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>
-

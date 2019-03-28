@@ -1,12 +1,9 @@
 ---
 title: "Link a use case to documents and diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.teamarch.usecasediagram.artifact.properties.artifactlink"
   - "vs.teamarch.usecasediagram.artifact"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "use case diagrams"
 ms.assetid: 4c9ed205-9197-4ed5-b39d-ddfa24a0a421
 caps.latest.revision: 12
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Link a use case to documents and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,6 +82,3 @@ You can link a use case in a use case diagram to another diagram or document. Fo
  [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)
-
-
-

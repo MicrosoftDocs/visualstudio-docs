@@ -2,7 +2,6 @@
 title: "IActiveScriptDebug::EnumCodeContextsOfPosition | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Used by a smart host to delegate the `IDebugDocumentContext::EnumCodeContexts` m
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumCodeContextsOfPosition(  
    DWORD_PTR                 dwSourceContext,  
    ULONG                     uCharacterOffset,  

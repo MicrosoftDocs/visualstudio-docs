@@ -1,15 +1,13 @@
 ---
-title: "Testi a Large Application with Multiple UI Maps in Visual Studio"
+title: "Testi a Large Application with Multiple UI Maps"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,15 +15,17 @@ ms.workload:
 
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI Maps.
 
- **Requirements**
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+
+**Requirements**
 
 - Visual Studio Enterprise
 
-  When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
+When you create a new coded UI test, the Visual Studio testing framework generates code for the test by default in a <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class. For more information about how to record coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) and [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md).
 
-  The generated code for the UI Map contains a class for each object that the test interacts with. For each generated method, a companion class for method parameters is generated specifically for that method. If there are a large number of objects, pages, and forms and controls in your application, the UI Map can grow very large. Also, if several people are working on tests, the application becomes unwieldy with a single large UI Map file.
+The generated code for the UI Map contains a class for each object that the test interacts with. For each generated method, a companion class for method parameters is generated specifically for that method. If there are a large number of objects, pages, and forms and controls in your application, the UI Map can grow very large. Also, if several people are working on tests, the application becomes unwieldy with a single large UI Map file.
 
-  Using multiple UI Map files can provide the following benefits:
+Using multiple UI Map files can provide the following benefits:
 
 - Each map can be associated with a logical subset of the application. This makes changes easier to manage.
 

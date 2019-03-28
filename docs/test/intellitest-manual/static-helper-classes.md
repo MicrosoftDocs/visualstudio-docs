@@ -1,14 +1,12 @@
 ---
 title: "Static helper classes | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Static helper classes"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -79,15 +77,15 @@ public void TestSomething(int i) {
 <a name="pexchoose"></a>
 ## PexChoose
 
-A static class that supplies auxiliary input values 
-to a test, which can be used to implement 
+A static class that supplies auxiliary input values
+to a test, which can be used to implement
 [Parameterized Mocks](input-generation.md#parameterized-mocks).
 
 The **PexChoose** class does not help in determining
-whether a test passes or fails for particular input 
+whether a test passes or fails for particular input
 values. **PexChoose** simply provides input values,
-which are also referred to as *choices*. It is still 
-up to the user to restrict the input values, and to 
+which are also referred to as *choices*. It is still
+up to the user to restrict the input values, and to
 write assertions that define when a test passes or fails.
 
 **Modes of operation**
@@ -95,14 +93,14 @@ write assertions that define when a test passes or fails.
 The **PexChoose** class can operate in two modes:
 
 * While IntelliTest is performing a symbolic analysis
-  of the test and the tested code during 
-  [input generation](input-generation.md), the chooser 
+  of the test and the tested code during
+  [input generation](input-generation.md), the chooser
   returns arbitrary values and IntelliTest tracks how
   each value is used in the test and the tested code. IntelliTest will generate relevant values to trigger different execution paths in the test and the tested code.
 
-* The generated code for particular test cases sets 
-  up the choice provider in a specific way, so that 
-  the re-execution of such a test case will make 
+* The generated code for particular test cases sets
+  up the choice provider in a specific way, so that
+  the re-execution of such a test case will make
   specific choices to trigger a particular execution path.
 
 **Usage**
@@ -121,8 +119,8 @@ public int Foo() {
 A static class to log named values.
 
 When IntelliTest explores the code, **PexObserve**
-is used to record computed values using their 
-formatted string representations. The values are 
+is used to record computed values using their
+formatted string representations. The values are
 associated with unique names.
 
 ```csharp
@@ -143,7 +141,7 @@ public static class MathEx {
 public partial class MathExTests {
      [PexMethod]
      public int SquareTest(int a) {
-        int result = MathEx.Square(a); 
+        int result = MathEx.Square(a);
         // storing result
         return result;
      }
@@ -158,21 +156,21 @@ and to print the symbolic information associated with values.
 
 **Usage**
 
-Normally, IntelliTest tries to cover all execution 
-paths of the code during execution. However, 
-especially when computing assumption and assertion 
+Normally, IntelliTest tries to cover all execution
+paths of the code during execution. However,
+especially when computing assumption and assertion
 conditions, it should not explore all possible cases.
 
 **Example**
 
-This example shows the implementation of the 
-**PexAssume.Arrays.ElementsAreNotNull** method. 
-In the method, you ignore the constraints on the 
-lengh of the array value to avoid IntelliTest trying 
+This example shows the implementation of the
+**PexAssume.Arrays.ElementsAreNotNull** method.
+In the method, you ignore the constraints on the
+lengh of the array value to avoid IntelliTest trying
 to generate different sizes of array. The constraints
-are ignored only here. If the tested code behaves 
-differently for different array lengths, IntelliTest 
-cannot generate different sized arrays from the 
+are ignored only here. If the tested code behaves
+differently for different array lengths, IntelliTest
+cannot generate different sized arrays from the
 constraints of the tested code.
 
 ```csharp
@@ -197,4 +195,4 @@ public static void AreElementsNotNull<T>(T[] value)
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

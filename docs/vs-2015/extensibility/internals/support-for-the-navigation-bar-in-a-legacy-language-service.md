@@ -1,21 +1,16 @@
 ---
 title: "Support for the Navigation Bar in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Navigation bar, supporting in language services [managed package framework]"
   - "language services [managed package framework], Navigation bar"
 ms.assetid: 2d301ee6-4523-4b82-aedb-be43f352978e
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Support for the Navigation Bar in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ namespace TestLanguagePackage
      Search the declarations that were obtained in step 1 for the member that contains the current caret position, then search the members list for that member to determine its index into the member list.  
   
 6.  Return `true` if any changes have been made to the lists or the selections in either list.
-

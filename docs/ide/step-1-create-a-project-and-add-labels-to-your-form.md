@@ -1,15 +1,11 @@
 ---
 title: "Step 1: Create a project and add labels to your form"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

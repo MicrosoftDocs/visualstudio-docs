@@ -7,15 +7,16 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
+dev_langs:
+- CSharp
+- VB
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Code generation in a build process
 
-[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
+[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](/azure/devops/pipelines/index) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
 There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn't true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.
 
@@ -27,7 +28,7 @@ To enable build tasks on your development computer, install Modeling SDK for Vis
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for '*'.
+If [your build server](/azure/devops/pipelines/agents/agents) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for '*'.
 
 - $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
@@ -53,7 +54,7 @@ If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c
 
 You'll have to edit your project file to configure some of the features in MSBuild.
 
-In **Solution Explorer**, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
+In **Solution Explorer**, choose **Unload** from the right-click menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
 
 When you've finished editing, choose **Reload**.
 
@@ -72,8 +73,8 @@ After that line, insert the Text Templating import:
 ```xml
 <!-- Optionally make the import portable across VS versions -->
   <PropertyGroup>
-    <!-- Get the Visual Studio version - defaults to 10: -->
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Get the Visual Studio version: -->
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
     <!-- Keep the next element all on one line: -->
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
@@ -130,7 +131,7 @@ There is no specific built-in integration with a source control system. However,
 
 To specify that read-only files should be overwritten, insert this property:
 
-`<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOuputFiles>`
+`<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>`
 
 Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.
 
@@ -230,7 +231,7 @@ In a text template, set `hostspecific` in the template directive. Use the [param
 The project folder is: <#= ProjectFolder #>
 ```
 
-In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](https://msdn.microsoft.com/library/microsoft.visualstudio.texttemplating.itexttemplatingenginehost.resolveparametervalue.aspx):
+In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
@@ -290,5 +291,16 @@ If you update an included file, or another file read by the template, Visual Stu
 
 ## See also
 
-- There is good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+::: moniker range="vs-2017"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

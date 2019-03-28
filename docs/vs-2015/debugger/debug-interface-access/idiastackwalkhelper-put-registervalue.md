@@ -1,23 +1,18 @@
 ---
 title: "IDiaStackWalkHelper::put_registerValue | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkHelper2::put_registerValue method"
 ms.assetid: 8f02ce54-ef59-455f-8aa6-dc26761c7aff
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaStackWalkHelper::put_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ HRESULT put_registerValue ( 
 ## See Also  
  [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)   
  [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Specifying File Handlers for File Name Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "file extensions, specifying file handlers"
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Specifying File Handlers for File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,4 +76,3 @@ HKEY_CLASSES_ROOT\
 ## See Also  
  [About File Name Extensions](../extensibility/about-file-name-extensions.md)   
  [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)
-

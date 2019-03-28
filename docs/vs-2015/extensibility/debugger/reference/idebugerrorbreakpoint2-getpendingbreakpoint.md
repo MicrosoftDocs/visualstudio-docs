@@ -1,22 +1,17 @@
 ---
 title: "IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
 helpviewer_keywords: 
   - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ int GetPendingBreakpoint ( 
 ## See Also  
  [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)   
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugEngine2::DestroyProgram | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugEngine2::DestroyProgram"
 helpviewer_keywords: 
   - "IDebugEngine2::DestroyProgram"
 ms.assetid: 0c9e2698-c70f-4770-a7bb-39650e9c3a1f
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugEngine2::DestroyProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,4 +48,3 @@ int DestroyProgram( 
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
  [IDebugProgramDestroyEvent2](../../../extensibility/debugger/reference/idebugprogramdestroyevent2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-

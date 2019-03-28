@@ -1,14 +1,9 @@
 ---
 title: "GenerateResource Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GenerateResource Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -96,6 +91,3 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

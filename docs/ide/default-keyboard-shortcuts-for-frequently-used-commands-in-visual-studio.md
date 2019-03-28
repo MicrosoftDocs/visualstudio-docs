@@ -1,12 +1,10 @@
 ---
-title: Default keyboard shortcuts for frequently used commands in Visual Studio
+title: Default keyboard shortcuts for frequently used commands
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

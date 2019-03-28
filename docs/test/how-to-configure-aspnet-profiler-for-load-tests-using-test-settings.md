@@ -1,5 +1,5 @@
 ---
-title: "Configure the ASP.NET Profiler for Load Tests in Visual Studio"
+title: "Configure ASP.NET Profiler for Load Tests"
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,16 +7,16 @@ helpviewer_keywords:
 ms.assetid: 6832fe39-04d5-4d94-8a18-3e2730bad423
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Configure ASP.NET profiler for load tests using test settings in Visual Studio
 
 You can use the ASP.NET profiler diagnostic data adapter to collect ASP.NET profiler information. This diagnostic data adapter collects performance data for ASP.NET applications.
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 > [!NOTE]
-> This diagnostic data adapter cannot be used for tests that are run using Microsoft Test Manager. You may use the ASP.NET Profiler diagnostic adapter with load tests using websites only which requires Visual Studio Enterprise.
+> This diagnostic data adapter cannot be used for tests that are run using Microsoft Test Manager. You can use the ASP.NET Profiler diagnostic adapter with load tests using websites only, which requires Visual Studio Enterprise.
 
 The ASP.NET profiler diagnostic data adapter lets you collect ASP.NET profiler data from the application tier when you run a load test. You should not run the profiler for long load tests, for example, load tests that run longer than one hour. This is because the profiler file can become large, perhaps hundreds of megabytes. Instead, run shorter load tests by using the ASP.NET profiler, which will still give you the benefit of deep diagnosis of performance problems.
 
@@ -25,13 +25,9 @@ The ASP.NET profiler diagnostic data adapter lets you collect ASP.NET profiler d
 
 For more information, see [How to: Create a test setting for a distributed load test](../test/how-to-create-a-test-setting-for-a-distributed-load-test.md).
 
-The following procedure describes how to configure the diagnostic data adapter for the ASP.NET profiler.
-
-## To configure the ASP.NET profiler for your test settings
+## Configure the ASP.NET profiler for your test settings
 
 Before you perform the steps in this procedure, you must open your test settings from Visual Studio and select the **Data and Diagnostics** page.
-
-### To configure the ASP.NET profiler for your test settings
 
 1.  Select the role to use to collect the ASP.NET profiler data.
 

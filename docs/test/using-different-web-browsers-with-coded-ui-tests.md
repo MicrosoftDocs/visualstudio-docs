@@ -1,11 +1,9 @@
 ---
-title: "Using Different Web Browsers with Coded UI Tests in Visual Studio"
+title: "Using Different Web Browsers with Coded UI Tests"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -14,17 +12,19 @@ author: gewarren
 
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+
 First, install the [Selenium components for coded UI cross browser testing](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
 ## What's supported across all web browsers?
 
--   [Add custom code for controlling features](http://blogs.msdn.com/b/visualstudioalm/archive/2012/12/10/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer.aspx) such as properties, search, and playback waiters.
+-   [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
 
 -   Pop-ups and dialog boxes
 
--   [Execute basic JavaScript with no return type](http://blogs.msdn.com/b/visualstudioalm/archive/2013/01/18/introducing-jscript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test.aspx)
+-   [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   Search resilience (using smart match) and [performance improvements](http://blogs.msdn.com/b/visualstudioalm/archive/2012/02/01/guidelines-on-improving-performance-of-coded-ui-test-playback.aspx)
+-   Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## Why should I use coded UI tests across multiple web browser types?
 
@@ -45,11 +45,23 @@ By testing your web application using a variety of web browser types, you better
 
 ### Install Selenium components
 
-1.  On the **Tools** menu, choose **Extensions and Updates**.
+::: moniker range="vs-2017"
 
-2.  In the **Extension and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+1. On the **Tools** menu, choose **Extensions and Updates**.
 
-3.  Highlight the extension and choose **Download**.
+2. In the **Extensions and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. On the **Extensions** menu, choose **Manage Extensions**.
+
+2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
+
+::: moniker-end
+
+3. Highlight the extension and choose **Download**.
 
     > [!TIP]
     > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).

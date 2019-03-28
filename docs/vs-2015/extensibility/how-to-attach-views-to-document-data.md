@@ -1,20 +1,15 @@
 ---
 title: "How to: Attach Views to Document Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], custom - attach views to document data"
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Attach Views to Document Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ If you have a new document view, you may be able to attach it to an existing doc
 ## See Also  
  [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)   
  [Document Data and Document View in Custom Editors](../extensibility/document-data-and-document-view-in-custom-editors.md)
-

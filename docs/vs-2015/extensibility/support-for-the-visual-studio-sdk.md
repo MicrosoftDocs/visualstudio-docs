@@ -1,14 +1,9 @@
 ---
 title: "Support for the Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio SDK, support options"
   - "support, Visual Studio SDK"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "Web sites, Visual Studio SDK support"
 ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Support for the Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,8 +31,8 @@ Several support options are available for customers who have questions about how
 ### MSDN Forums  
  The [MSDN Forums](http://go.microsoft.com/fwlink/?LinkID=76632) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. The [Visual Studio Extensibility Forum](http://go.microsoft.com/fwlink/?LinkID=121964) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.  
   
-### Visual Studio Gallery  
- The [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.  
+### Visual Studio Marketplace  
+ The [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.  
   
 ### Codeplex  
  [CodePlex](http://go.microsoft.com/fwlink/?LinkId=76627) is the Microsoft open source project-hosting Web site. You can use CodePlex to create and share new projects, contribute to existing projects, or use the applications on the site and provide feedback. All PowerToys (and their documentation) that were included with earlier versions of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] are now available on CodePlex.  
@@ -53,12 +48,12 @@ Several support options are available for customers who have questions about how
 ## Paid Support  
   
 ### Developer Tools Support  
- Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](http://go.microsoft.com/fwlink/?LinkID=82383).  
+ Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](https://support.microsoft.com/supportforbusiness/productselection?fltadd=sps-business-1&sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8).  
   
- Customers who want to use the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](http://go.microsoft.com/fwlink/?LinkID=76660). For small companies, [Partner Advantage Support](http://www.microsoft.com/services/microsoftservices/srv_mspa.mspx) may be an attractive alternative to a traditional Premier Support offering.  
+ Customers who want to use the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.  
   
 > [!NOTE]
->  Standard support cannot be used for consultation or to obtain advice.  
+> Standard support cannot be used for consultation or to obtain advice.  
   
  Questions about Premier Support offerings in conjunction with the VSIP program can be sent to [vsipsvs@microsoft.com](mailto:vsipsvs@microsoft.com). Questions about the new Partner Advantage program can be sent to [advantg@microsoft.com](mailto:advantg@microsoft.com).  
   
@@ -66,4 +61,3 @@ Several support options are available for customers who have questions about how
   
 ## See Also  
  [Talk to Us](../ide/talk-to-us.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +14,7 @@ ms.assetid: f6c3ee55-9e65-403d-8664-3ebde872c7d4
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,6 +71,3 @@ Identifies the versions of the .NET Framework where this application can install
   
 ## See Also  
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
-
-
-

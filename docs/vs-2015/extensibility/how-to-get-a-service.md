@@ -1,20 +1,15 @@
 ---
 title: "How to: Get a Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, consuming"
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Get a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,4 +82,3 @@ if (sp != null)
  [How to: Provide a Service](../extensibility/how-to-provide-a-service.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)
-

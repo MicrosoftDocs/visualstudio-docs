@@ -1,8 +1,6 @@
 ---
 title: "CA1307: Specify StringComparison"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1307"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9b0d5e71-1683-4a0d-bc4a-68b2fbd8af71
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

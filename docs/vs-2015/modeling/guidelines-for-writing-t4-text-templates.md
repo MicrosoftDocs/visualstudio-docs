@@ -1,17 +1,14 @@
 ---
 title: "Guidelines for Writing T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 04dd3fc4-10e8-488a-bdea-4d615f50f063
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Guidelines for Writing T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +48,7 @@ These general guidelines might be helpful if you are generating program code or 
   Move common material into include files or run-time templates  
   To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).  
   
-  You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones’ Blog](http://go.microsoft.com/fwlink/?LinkId=208373).  
+  You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project.
   
   Consider moving large blocks of code into a separate assembly.  
   If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  
@@ -154,6 +151,3 @@ Team Members:
 ## See Also  
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)   
  [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)
-
-
-

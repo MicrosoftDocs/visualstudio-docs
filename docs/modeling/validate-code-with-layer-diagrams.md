@@ -16,11 +16,9 @@ helpviewer_keywords:
   - "MSBuild, validating code"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Validate code with dependency diagrams
 
@@ -45,7 +43,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 - A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -98,14 +96,14 @@ If you have an open dependency diagram  that is linked to solution items, you ca
     > [!NOTE]
     > By default, the **Build Action** property on the dependency diagram (.layerdiagram) file is set to **Validate** so that the diagram is included in the validation process.
 
-     The **Error List** window reports any errors that occur. For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+     The **Error List** window reports any errors that occur. For more information about validation errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
 2.  To view the source of each error, double-click the error in the **Error List** window.
 
     > [!NOTE]
     > Visual Studio might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the dependency diagram, or the code is missing a dependency that is specified by the dependency diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).
 
-3.  To manage errors, see [Manage validation errors](#ManageErrors).
+3.  To manage errors, see [Resolve layer validation errors](#resolve-layer-validation-errors).
 
 ### Validate code at the command prompt
 
@@ -143,7 +141,7 @@ If you have an open dependency diagram  that is linked to solution items, you ca
 
      Any errors that occur will be listed. For more information about MSBuild, see [MSBuild](../msbuild/msbuild.md) and [MSBuild Task](../msbuild/msbuild-task.md).
 
-   For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+   For more information about validation errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
 ### Manage validation errors
 
@@ -167,7 +165,7 @@ Use these tasks to manage validation errors in the **Error List** window:
 
 ## Validate code automatically
 
-You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
+You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated).
 
 ### To validate code automatically during a local build
 
@@ -191,11 +189,11 @@ Use a text editor to open the modeling project (.modelproj) file, and then inclu
 
     This includes the dependency diagram  in the validation process.
 
-To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
+To manage errors in the Error List window, see [Resolve layer validation errors](#resolve-layer-validation-errors).
 
 ## Troubleshoot layer validation issues
 
-The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
 |**Issue**|**Possible Cause**|**Resolution**|
 |-|-|-|
@@ -231,6 +229,6 @@ The following section describes the syntax that is used in these errors, explain
 
 ## See also
 
-- [Live dependency validation in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudioalm/2016/11/30/live-dependency-validation-in-visual-studio-2017/)
+- [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 - [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)

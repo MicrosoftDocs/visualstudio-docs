@@ -2,14 +2,12 @@
 title: "Workflow Designer - InvokeMethod Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.InvokeMethod.UI"
 ms.assetid: 15e6efdc-52ca-46d8-9c5e-063f7c8265a6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
 title: "How to: Add or Remove Imported Namespaces (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "adding imported namespaces"
   - "removing imported namespaces"
@@ -19,7 +14,7 @@ ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add or Remove Imported Namespaces (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ Importing a namespace allows you to use elements from that namespace in your cod
 3.  In the **Imported Namespaces** list, select the check box for the namespace that you wish to add.  
   
     > [!NOTE]
-    >  In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+    >  In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ### To remove an imported namespace  
   
@@ -79,6 +74,3 @@ Importing a namespace allows you to use elements from that namespace in your cod
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)
-
-
-

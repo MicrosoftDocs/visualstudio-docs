@@ -2,8 +2,6 @@
 title: "Workflow Designer - FlowSwitch<T> Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Core.Presentation.FlowSwitchLink.UI"
   - "System.Activities.Statements.FlowSwitch`1.UI"
@@ -12,7 +10,7 @@ f1_keywords:
 ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

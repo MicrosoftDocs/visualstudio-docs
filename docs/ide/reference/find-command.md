@@ -1,8 +1,6 @@
 ---
 title: Find Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "edit.find"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

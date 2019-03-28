@@ -1,19 +1,14 @@
 ---
 title: "Visualizing EventSource Events as Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 caps.latest.revision: 15
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Visualizing EventSource Events as Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,9 +20,9 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
   
 ### Marker Type  
   
-1.  Events that have [Opcode](http://msdn.microsoft.com/en-us/d97953df-669b-4c55-b1a8-925022b339b7) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.  
+1.  Events that have [Opcode](http://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.  
   
-2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](http://msdn.microsoft.com/en-us/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.  
+2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](http://msdn.microsoft.com/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.  
   
 3.  In all other cases, the event is treated as a message.  
   
@@ -97,6 +92,3 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
   
 ## See Also  
  [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)
-
-
-

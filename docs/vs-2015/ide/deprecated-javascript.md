@@ -1,19 +1,14 @@
 ---
 title: "&lt;deprecated&gt; (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: cf33d371-59da-4310-95ee-d7524fd9d58c
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # &lt;deprecated&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ function areaFunction(radiusParam) {
   
 ## See Also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-
-
-

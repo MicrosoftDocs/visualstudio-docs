@@ -1,14 +1,9 @@
 ---
 title: "Syntax Colorizing in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services [managed package framework], syntax highlighting"
   - "colorization, supporting in language services [managed package framework]"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "language services [managed package framework], colorization"
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Syntax Colorizing in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -149,4 +144,3 @@ namespace TestLanguagePackage
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)   
  [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)   
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Debugger Security | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "security [Visual Studio], debugging best practices"
 ms.assetid: d4fc3c43-e844-419c-8dbb-551cc2a9b09e
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugger Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ The ability to debug another process gives you extremely broad powers that you w
 ### Managed Debugging Security  
  Here are some general recommendations that apply to all managed debugging.  
   
-- Be careful when attaching to an untrusted user’s process: when you do so, you assume that it is trustworthy. When you attempt to attach to an untrusted user's process, a security warning dialog box confirmation will appear asking whether you want to attach to the process. "Trusted users" include you, and a set of standard users commonly defined on machines that have the .NET Framework installed, such as **aspnet**, **localsystem**, **networkservice**, and **localservice**. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md).  
+- Be careful when attaching to an untrusted user’s process: when you do so, you assume that it is trustworthy. When you attempt to attach to an untrusted user's process, a security warning dialog box confirmation will appear asking whether you want to attach to the process. "Trusted users" include you, and a set of standard users commonly defined on machines that have the .NET Framework installed, such as **aspnet**, **localsystem**, **networkservice**, and **localservice**. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015).  
   
 - Be careful when downloading a project off the Internet and loading it into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.  
   
@@ -59,7 +54,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For more information, see [Remote Debugging](../debugger/remote-debugging.md).  
   
 ### Web Services Debugging Security  
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/en-us/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](http://msdn.microsoft.com/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).  
   
 -   Do not enable debugging on a Web server that has been compromised.  
   
@@ -82,10 +77,5 @@ The ability to debug another process gives you extremely broad powers that you w
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)   
+ [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015)   
  [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md)
-
-
-
-
-

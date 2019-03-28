@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Debugging a Multithreaded Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "walkthroughs, multithreaded debugging"
 ms.assetid: 590ffd57-0556-43d8-8962-ee27e5b2b7d7
 caps.latest.revision: 42
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Debugging a Multithreaded Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -258,6 +253,3 @@ Thread::Sleep(3000);
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
-
-
-

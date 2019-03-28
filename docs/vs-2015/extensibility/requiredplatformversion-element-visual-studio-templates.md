@@ -1,18 +1,13 @@
 ---
 title: "RequiredPlatformVersion Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 ms.assetid: 6f0e4986-3157-4bba-aed3-c28413ebe976
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # RequiredPlatformVersion Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ RequiredPlatformVersion
  [TargetPlatformName Element (Visual Studio Templates)](../extensibility/targetplatformname-element-visual-studio-templates.md)   
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
-

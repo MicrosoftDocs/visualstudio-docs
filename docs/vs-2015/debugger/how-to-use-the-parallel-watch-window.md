@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Parallel Watch Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.parallelwatch"
 dev_langs: 
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "debugger, parallel watch window"
 ms.assetid: 28004d9b-420c-48f7-b80e-ab1519802558
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use the Parallel Watch Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,6 +85,3 @@ In the Parallel Watch window, you can simultaneously display the values that one
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)   
  [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
-
-
-

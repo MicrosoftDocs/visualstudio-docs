@@ -1,14 +1,9 @@
 ---
 title: "CA2117: APTCA types should only extend APTCA base types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA2117"
   - "AptcaTypesShouldOnlyExtendAptcaBaseTypes"
@@ -35,7 +30,7 @@ manager: "wpickett"
  A public or protected type in an assembly with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute?displayProperty=fullName> attribute inherits from a type declared in an assembly that does not have the attribute.
 
 ## Rule Description
- By default, public or protected types in assemblies with strong names are implicitly protected by an [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. This makes exposed types declared in the assembly inheritable by types that do not have full trust.
+ By default, public or protected types in assemblies with strong names are implicitly protected by an [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. This makes exposed types declared in the assembly inheritable by types that do not have full trust.
 
  When the APTCA attribute is present on a fully trusted assembly, and a type in the assembly inherits from a type that does not allow partially trusted callers, a security exploit is possible. If two types `T1` and `T2` meet the following conditions, malicious callers can use the type `T1` to bypass the implicit full trust inheritance demand that protects `T2`:
 
@@ -84,10 +79,6 @@ manager: "wpickett"
 
 ## See Also
  [Secure Coding Guidelines](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)
- [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/en-us/a417fcd4-d3ca-4884-a308-3a1a080eac8d)
+ [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/a417fcd4-d3ca-4884-a308-3a1a080eac8d)
  [Using Libraries from Partially Trusted Code](http://msdn.microsoft.com/library/dd66cd4c-b087-415f-9c3e-94e3a1835f74)
- [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)
-
-
-
-
+ [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9)

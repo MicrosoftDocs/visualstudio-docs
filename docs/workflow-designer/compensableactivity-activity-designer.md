@@ -2,14 +2,12 @@
 title: "Workflow Designer - CompensableActivity Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

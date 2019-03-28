@@ -1,13 +1,8 @@
 ---
 title: "Beginners Guide to Performance Profiling | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.intropage"
@@ -17,9 +12,9 @@ helpviewer_keywords:
   - "Performance Wizard"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Beginners Guide to Performance Profiling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -125,6 +120,3 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Overviews](../profiling/overviews-performance-tools.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "FxCopCmd Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "FxCopCmd errors"
 ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 caps.latest.revision: 12
-ms.author: "susanno"
-manager: "douge"
+ms.author: mikejo
+manager: jillfra
 ---
 # FxCopCmd Errors
 FxCopCmd does not consider all errors to be fatal. If FxCopCmd has sufficient information to perform a partial analysis, it performs the analysis and reports errors that occurred. The error code, which is a 32-bit integer, contains a bitwise combination of numeric values that correspond to errors.  

@@ -1,22 +1,17 @@
 ---
 title: "Extending the Object Model of the Base Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "automation object model, extending"
   - "project subtypes, extending automation object model"
   - "automation object model"
 ms.assetid: 2f95cc53-dff6-476c-bacd-500fb0ff7725
 caps.latest.revision: 18
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Object Model of the Base Project
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,4 +28,3 @@ A project subtype may extend the automation object model of the base project in 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>
-

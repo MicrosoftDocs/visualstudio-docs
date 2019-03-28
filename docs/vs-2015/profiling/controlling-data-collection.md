@@ -1,22 +1,17 @@
 ---
 title: "Controlling Data Collection | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "advanced tasks for profiling tools"
   - "profiling tools, advanced tasks"
 ms.assetid: e713ad63-b948-46f3-8db9-59b30922ebe5
 caps.latest.revision: 32
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Controlling Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ manager: "ghogen"
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)
-
-
-

@@ -1,13 +1,11 @@
 ---
 title: Troubleshooting Code Analysis Issues
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: troubleshooting
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -26,6 +24,7 @@ This topic contains troubleshooting information for the following Visual Studio 
 3. Reopen the rule set, reverse the change, and then save the rule set again.
 
 ## See Also
- [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
- [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)
- [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+
+- [Analyzing Application Quality](../code-quality/code-analysis-for-managed-code-overview.md)
+- [Analyzing Managed Code Quality](../code-quality/code-analysis-for-managed-code-overview.md)
+- [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)

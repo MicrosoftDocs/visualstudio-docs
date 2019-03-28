@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Navigate and Update a Model in Program Code
 
@@ -222,27 +220,28 @@ using (Transaction t =
   When you create an element in this way, a connector on the diagram is automatically created, but it has a default shape, color, and other features. To control how the associated connector is created, see [Creating an Element and its Shape](#merge).
 
 ##  <a name="deleteelements"></a> Deleting Elements
- Delete an element by calling `Delete()`:
 
- `henry.Delete();`
+Delete an element by calling `Delete()`:
 
- This operation will also delete:
+`henry.Delete();`
+
+This operation will also delete:
 
 - Relationship links to and from the element. For example, `edward.Parents` will no longer contain `henry`.
 
 - Elements at roles for which the `PropagatesDelete` flag is true. For example, the shape that displays the element will be deleted.
 
-  By default, every embedding relationship has `PropagatesDelete` true at the target role. Deleting `henry` does not delete the `familyTree`, but `familyTree.Delete()` would delete all the `Persons`. For more information, see [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md).
+By default, every embedding relationship has `PropagatesDelete` true at the target role. Deleting `henry` does not delete the `familyTree`, but `familyTree.Delete()` would delete all the `Persons`.
 
-  By default, `PropagatesDelete` is not true for the roles of reference relationships.
+By default, `PropagatesDelete` is not true for the roles of reference relationships.
 
-  You can cause the deletion rules to omit specific propagations when you delete an object. This is useful if you are substituting one element for another. You supply the GUID of one or more roles for which deletion should not be propagated. The GUID can be obtained from the relationship class:
+You can cause the deletion rules to omit specific propagations when you delete an object. This is useful if you are substituting one element for another. You supply the GUID of one or more roles for which deletion should not be propagated. The GUID can be obtained from the relationship class:
 
-  `henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`
+`henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`
 
-  (This particular example would have no effect, because `PropagatesDelete` is `false` for the roles of the `ParentsHaveChildren` relationship.)
+(This particular example would have no effect, because `PropagatesDelete` is `false` for the roles of the `ParentsHaveChildren` relationship.)
 
-  In some cases, deletion is prevented by the existence of a lock, either on the element or on an element that would be deleted by propagation. You can use `element.CanDelete()` to check whether the element can be deleted.
+In some cases, deletion is prevented by the existence of a lock, either on the element or on an element that would be deleted by propagation. You can use `element.CanDelete()` to check whether the element can be deleted.
 
 ##  <a name="deletelinks"></a> Deleting Relationship Links
  You can delete a relationship link by removing an element from a role property:

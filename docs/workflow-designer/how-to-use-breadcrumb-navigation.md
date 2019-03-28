@@ -2,12 +2,10 @@
 title: "Workflow Designer - How to: Use Breadcrumb Navigation"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

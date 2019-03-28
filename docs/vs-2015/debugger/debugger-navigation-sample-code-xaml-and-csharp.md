@@ -1,14 +1,9 @@
 ---
 title: "Debugger navigation sample code (Xaml and C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 8f4266bc-4597-43ab-b620-8b08ea988a8e
 caps.latest.revision: 6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Debugger navigation sample code (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,6 +94,3 @@ void Example4()
 string methodTrack = String.Empty;  
   
 ```
-
-
-

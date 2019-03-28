@@ -1,11 +1,8 @@
 ---
 title: "Use code maps to debug your applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio Ultimate, visualizing code"
@@ -18,9 +15,9 @@ helpviewer_keywords:
   - "mapping relationships in code"
 ms.assetid: 9fd0c9a2-d351-40c8-be88-0749788264bf
 caps.latest.revision: 51
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Use code maps to debug your applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,6 +137,3 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
 ## See Also  
  [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)   
  [Visualize code](../modeling/visualize-code.md)
-
-
-

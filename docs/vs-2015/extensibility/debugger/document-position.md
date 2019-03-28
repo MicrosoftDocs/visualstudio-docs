@@ -1,20 +1,15 @@
 ---
 title: "Document Position | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], contexts"
 ms.assetid: b59d739c-7572-427f-a70d-4e5df63d02c1
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Document Position
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,4 +28,3 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document posit
  [Symbol Provider](../../extensibility/debugger/symbol-provider.md)   
  [Symbol Provider Interfaces](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

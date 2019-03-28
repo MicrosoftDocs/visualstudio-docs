@@ -5,17 +5,13 @@ ms.topic: reference
 ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
 # Could not retrieve schema information for database object \<object name>
 
 This message typically appears when an object in **Server Explorer** or **Database Explorer** is copied to the clipboard, deleted from the database, and then pasted onto the designer. Because the database object no longer exists, this message appears.
-
-To correct this error, select **OK** to dismiss the dialog box.
 
 ## See also
 

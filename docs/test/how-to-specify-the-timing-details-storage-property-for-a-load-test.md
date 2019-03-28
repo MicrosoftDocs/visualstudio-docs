@@ -1,5 +1,5 @@
 ---
-title: "Timing Details Storage Property for a Load Test Run Setting in Visual Studio"
+title: "Timing Details Storage Property for a Load Test Run Setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,13 +8,13 @@ helpviewer_keywords:
 ms.assetid: 867a9c21-0909-4963-bc02-d41e9393008c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the timing details storage property for a load test run setting
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the settings to meet your testing needs and goals.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 You can edit a run setting's **Timing Details Storage** property's value in the **Properties** window. The **Timing Details Storage** property can be set to any of the following options:
 

@@ -1,20 +1,15 @@
 ---
 title: "Additional Source Control Guidelines for Projects and Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], guidelines for projects and editors"
 ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Additional Source Control Guidelines for Projects and Editors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,4 +31,3 @@ There are a number of guidelines that projects and editors should adhere to in o
   
 ## See Also  
  [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)
-

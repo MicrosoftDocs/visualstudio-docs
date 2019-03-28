@@ -1,14 +1,9 @@
 ---
 title: "Memory Usage without Debugging2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Memory Usage without Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -207,6 +202,3 @@ You can use the **Memory Usage** tool without debugging to do the following
  [Run performance and diagnostic tools](http://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)
-
-
-

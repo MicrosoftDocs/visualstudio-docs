@@ -1,14 +1,9 @@
 ---
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,9 +15,9 @@ helpviewer_keywords:
   - "DebuggerDisplayAttribute class"
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 caps.latest.revision: 50
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Using the DebuggerDisplay Attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -181,6 +176,3 @@ class MyHashtable
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md) 
  [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
-
-
-

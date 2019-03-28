@@ -1,23 +1,18 @@
 ---
 title: "Resource Contentions View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.resourcecontention"
 helpviewer_keywords: 
   - "Resource Contentions view"
 ms.assetid: 14a7f774-211f-4ef8-af05-94d1c8f65d2f
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Resource Contentions View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +54,3 @@ The Resource Contention view lists contention data for the resources that were t
 |**Process ID**|The process ID (PID) of the process in which the function was executing.|  
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|
-
-
-

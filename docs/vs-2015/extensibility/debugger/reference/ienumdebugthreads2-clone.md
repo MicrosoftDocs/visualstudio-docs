@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugThreads2::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugThreads2::Clone"
 helpviewer_keywords: 
   - "IEnumDebugThreads2::Clone"
 ms.assetid: d774322c-e72d-4df3-b317-928da39dadc5
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugThreads2::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Clone(
   
 ## See Also  
  [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
-

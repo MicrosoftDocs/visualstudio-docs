@@ -1,23 +1,18 @@
 ---
 title: "marker_series::write_alert Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic:marker_series::write_alert"
 helpviewer_keywords: 
   - "Concurrency::diagnostic:marker_series::write_alert method"
 ms.assetid: 9d5465c7-f862-47a7-b249-4116605075a6
 caps.latest.revision: 8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # marker_series::write_alert Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ void write_alert(
   
 ## See Also  
  [marker_series Class](../profiling/marker-series-class.md)
-
-
-

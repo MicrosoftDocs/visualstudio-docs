@@ -1,8 +1,6 @@
 ---
 title: "Using saved IntelliTrace data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.norepro"
@@ -14,11 +12,12 @@ helpviewer_keywords:
 ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Using saved IntelliTrace data
+# Using saved IntelliTrace data (C#, Visual Basic, C++)
+
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
  Make sure that you have:
@@ -33,7 +32,7 @@ Go to specific points in your application's execution when you start debugging f
     |----------------|-------------|
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|
     |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
-    |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|
+    |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](/previous-versions/system-center/system-center-2012-R2/dn249700(v=sc.12))|
 
 ##  <a name="GetStarted"></a> What do you want to do?
 
@@ -252,7 +251,7 @@ Go to specific points in your application's execution when you start debugging f
 |----------------|-------------------|
 |**Module Name**|Module file name|
 |**Module Path**|Disk location where the module was loaded|
-|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger).|
+|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).|
 
 ### Where can I get more information?
  [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)

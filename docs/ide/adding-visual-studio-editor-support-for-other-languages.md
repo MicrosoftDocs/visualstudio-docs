@@ -1,5 +1,5 @@
 ---
-title: Adding Visual Studio editor support for other languages
+title: Add editor support for other languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

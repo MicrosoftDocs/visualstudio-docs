@@ -1,22 +1,23 @@
 ---
-title: Using EditorConfig settings in Visual Studio
+title: EditorConfig settings
 ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "editorconfig [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+manager: jillfra
 ---
 # Create portable, custom editor settings with EditorConfig
 
-In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
+You can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
 
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
 When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). However, any new lines of code are formatted according to the EditorConfig settings. You can define which EditorConfig settings you want **Format Document** to apply on the [**Formatting** options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [EditorConfig in Visual Studio for Mac](/visualstudio/mac/editorconfig).
 
 ## Coding consistency
 
@@ -166,3 +167,4 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](http://editorconfig.org/)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
+- [EditorConfig (Visual Studio for Mac)](/visualstudio/mac/editorconfig)

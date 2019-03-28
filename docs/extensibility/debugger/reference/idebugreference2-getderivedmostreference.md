@@ -1,47 +1,45 @@
 ---
 title: "IDebugReference2::GetDerivedMostReference | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugReference2::GetDerivedMostReference"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugReference2::GetDerivedMostReference"
 ms.assetid: 07253b74-7d39-48e0-8e85-ac8dfd919f6e
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugReference2::GetDerivedMostReference
-Gets the derived-most reference of a reference. Reserved for future use.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetDerivedMostReference(   
-   IDebugReference2** ppDerivedMost  
-);  
-```  
-  
-```csharp  
-int GetDerivedMostReference(   
-   out IDebugReference2 ppDerivedMost  
-);  
-```  
-  
-#### Parameters  
- `ppDerivedMost`  
- [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.  
-  
-## Return Value  
- Always returns `E_NOTIMPL`.  
-  
-## Remarks  
- For example, if this property describes an object that implements `ClassRoot` but which is actually an instantiation of `ClassDerived` that is derived from `ClassRoot`, then this method returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing a reference to the `ClassDerived` object.  
-  
-## See Also  
- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
+Gets the derived-most reference of a reference. Reserved for future use.
+
+## Syntax
+
+```cpp
+HRESULT GetDerivedMostReference( 
+   IDebugReference2** ppDerivedMost
+);
+```
+
+```csharp
+int GetDerivedMostReference( 
+   out IDebugReference2 ppDerivedMost
+);
+```
+
+#### Parameters
+ `ppDerivedMost`
+
+ [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
+
+## Return Value
+ Always returns `E_NOTIMPL`.
+
+## Remarks
+ For example, if this property describes an object that implements `ClassRoot` but which is actually an instantiation of `ClassDerived` that is derived from `ClassRoot`, then this method returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing a reference to the `ClassDerived` object.
+
+## See Also
+- [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

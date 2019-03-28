@@ -1,23 +1,18 @@
 ---
 title: "I-O Time (Threads View) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.io"
 helpviewer_keywords: 
   - "Concurrency Visualizer, I/O time (Threads View)"
 ms.assetid: 0c4ec14d-d8dd-49c1-999c-dcbf4e8e1dc8
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # I/O Time (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,6 +21,3 @@ These segments in the timeline are associated with blocking times that are categ
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

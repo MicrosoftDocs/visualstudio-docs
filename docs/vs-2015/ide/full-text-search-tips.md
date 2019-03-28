@@ -1,14 +1,9 @@
 ---
 title: "Full-Text Search Tips | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "hv_search"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: bcaad23d-2ca7-4bec-8b54-b884bc34e70b
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Full-Text Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,6 +57,3 @@ One of the more useful methods of locating information in Help is by performing 
 ## See Also  
  [Locate Information](../ide/locate-information.md)   
  [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md)
-
-
-

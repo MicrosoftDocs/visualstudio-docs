@@ -1,14 +1,9 @@
 ---
 title: "How to: Publish a Project That Has a Specific Locale | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -25,7 +20,7 @@ ms.assetid: 7c4cd83a-f985-4c85-9022-fadb5dbd2b39
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Publish a Project That Has a Specific Locale
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ It is not uncommon for an application to contain components that have different 
     Module PublishSpecificCulture  
         Sub PublishProjectFirstProjectWithEnLocale()  
             ' Note: You should publish projects by using the IDE at least once  
-            ' before you use this macro. Items such as the certficate and the   
+            ' before you use this macro. Items such as the certificate and the   
             ' security zone must be set.  
             Dim localeString As String = "en"  
   
@@ -165,9 +160,6 @@ It is not uncommon for an application to contain components that have different 
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [Macros Development Environment](http://msdn.microsoft.com/en-us/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
- [Macro Explorer Window](http://msdn.microsoft.com/en-us/762169e6-f83f-44b4-bffa-d0f107cae9a3)   
- [How to: Edit and Programmatically Create Macros](http://msdn.microsoft.com/en-us/6716f820-1feb-48ad-a718-27eb6b473c5a)
-
-
-
+ [Macros Development Environment](http://msdn.microsoft.com/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
+ [Macro Explorer Window](http://msdn.microsoft.com/762169e6-f83f-44b4-bffa-d0f107cae9a3)   
+ [How to: Edit and Programmatically Create Macros](http://msdn.microsoft.com/6716f820-1feb-48ad-a718-27eb6b473c5a)

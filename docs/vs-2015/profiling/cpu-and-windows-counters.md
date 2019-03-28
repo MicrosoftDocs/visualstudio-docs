@@ -1,14 +1,9 @@
 ---
 title: "CPU and Windows Counters | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.counters"
 helpviewer_keywords: 
@@ -16,9 +11,9 @@ helpviewer_keywords:
   - "CPU counters in Profiling Tools"
 ms.assetid: d2c45c6a-f975-45ab-b8a5-4768ddd518fb
 caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # CPU and Windows Counters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -133,6 +128,3 @@ The Visual Studio Profiler enables you to collect performance data that was gene
  [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)   
  [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)   
  [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)
-
-
-

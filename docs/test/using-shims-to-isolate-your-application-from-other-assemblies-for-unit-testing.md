@@ -1,11 +1,9 @@
 ---
-title: "Using shims to isolate your application for unit testing in Visual Studio"
+title: "Using shims to isolate your application for unit testing"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -49,7 +47,7 @@ The following test shows how to use the shim type, `ShimDateTime`, to provide a 
 ```csharp
 //unit test code
 // create a ShimsContext cleans up shims
-using (ShimsContext.Create()
+using (ShimsContext.Create()) {
     // hook delegate to the shim method to redirect DateTime.Now
     // to return January 1st of 2000
     ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);

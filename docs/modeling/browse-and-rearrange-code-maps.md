@@ -19,11 +19,9 @@ helpviewer_keywords:
   - "dependency graphs, browsing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Browse and rearrange code maps
 

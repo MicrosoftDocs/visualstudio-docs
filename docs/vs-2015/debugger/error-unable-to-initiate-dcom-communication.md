@@ -1,14 +1,9 @@
 ---
 title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.unmarshal_server_failed"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: 2a7b27e6-2526-4f32-bc4d-eaee447f24ec
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Error: Unable to initiate DCOM communication
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ A DCOM error occurred when the local machine tried to communicate with the remot
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

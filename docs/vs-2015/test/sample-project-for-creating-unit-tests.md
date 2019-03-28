@@ -1,21 +1,16 @@
 ---
 title: "Sample Project for Creating Unit Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit test sample [Visual Studio]"
   - "unit tests, samples"
 ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 32
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Project for Creating Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ This sample code is provided for use in the following walkthroughs:
   
 -   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.  
   
--   [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
+-   [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
   
 -   [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.  
   
@@ -132,8 +127,5 @@ namespace BankAccountNS
   
 ## See Also  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
- [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/en-us/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
+ [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
  [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)
-
-
-

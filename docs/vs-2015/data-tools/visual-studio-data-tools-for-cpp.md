@@ -1,16 +1,14 @@
 ---
 title: "Visual Studio data tools for C++ | Microsoft Docs"
-ms.custom: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 3a3849d9-1bc7-47d1-805e-1755223ccba2
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 robots: noindex,nofollow
 ---
 # Visual Studio data tools for C++
@@ -66,5 +64,3 @@ Native C++ can often provide the fastest performance when you are accessing data
   
 ## See Also  
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
-
-

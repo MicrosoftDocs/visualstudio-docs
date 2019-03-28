@@ -1,8 +1,6 @@
 ---
-title: Develop code in Visual Studio without projects or solutions
+title: Develop code without projects or solutions
 ms.date: 02/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "open folder [Visual Studio]"
@@ -10,13 +8,13 @@ helpviewer_keywords:
   - projects and solutions, develop code without
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Develop code in Visual Studio without projects or solutions
 
-In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
+You can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
 After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
@@ -25,9 +23,19 @@ After you open your code files in Visual Studio, **Solution Explorer** displays 
 You can open code into Visual Studio in any of the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
+
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
+
+::: moniker range="vs-2017"
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- Choose the **Open Folder** link on the start window.
+::: moniker-end
+
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
+
 - Open code from a cloned GitHub repo.
 
 ### To open code from a cloned GitHub repo
@@ -57,10 +65,6 @@ The following example shows how to clone a GitHub repo and then open its code in
    ![Show folder view](./media/VSIDE_Code_Clone3_show.png)
 
    You can now browse folders and files in the cloned repo, and view and search the code in the Visual Studio code editor, complete with syntax colorization and other features.
-
-| | |
-|---------|---------|
-| ![movie camera icon for video](../install/media/video-icon.png)| [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=lp3TOKD6D_6711787171) on how to clone and open code from a GitHub repo in Visual Studio. |
 
 ## Run and debug your code
 
@@ -93,7 +97,7 @@ If your codebase contains Python or JavaScript code, you don't have to configure
 
 ### Codebases that contain C++ code
 
-For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
+For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp).
 
 ### Codebases that contain a Visual Studio project
 
@@ -108,6 +112,6 @@ The **Start** button's text changes to reflect that the project is the startup i
 ## See also
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
-- [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
-- [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
+- [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
+- [CMake projects in C++](/cpp/build/cmake-projects-in-visual-studio)
 - [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)

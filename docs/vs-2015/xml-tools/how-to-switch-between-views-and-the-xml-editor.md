@@ -1,19 +1,14 @@
 ---
 title: "How to: Switch Between Views and the XML Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: cb69fbbd-d99c-439e-9498-5df9050f8df0
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Switch Between Views and the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ This topic shows how to switch between the XML Schema Designer (XSD Designer) vi
 6.  To switch between the views using the hotkeys, press CTRL+1 for the Start View, CTRL+2 for the Graph View, and CTRL+3 for the Content Model View.  
   
 7.  To go to XML Editor from the Content Model View, right-click the node and select **View Code** in the context menu.
-
-
-

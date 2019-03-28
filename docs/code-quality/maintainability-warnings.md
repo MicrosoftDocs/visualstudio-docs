@@ -1,8 +1,6 @@
 ---
 title: Maintainability Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "vs.codeanalysis.maintainabilityrules"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -34,4 +32,4 @@ Maintainability warnings support library and application maintenance.
 
 ## See Also
 
-- [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
+- [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md)

@@ -1,12 +1,9 @@
 ---
 title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Preprocessed Text Template project item"
   - "TextTemplatingFilePreprocessor custom tool"
@@ -16,7 +13,7 @@ ms.assetid: 79b4b3c6-a9a7-4446-b6fd-e2388fc6b05f
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Run-Time Text Generation with T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -425,7 +422,4 @@ End material for DerivedTemplate1.
 ## See Also  
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)   
- [Understanding T4: Preprocessed Text Templates by Oleg Sych](http://www.olegsych.com/2009/09/t4-preprocessed-text-templates/)
-
-
-
+ [Understanding T4: Preprocessed Text Templates by Oleg Sych](https://github.com/olegsych/T4Toolbox)

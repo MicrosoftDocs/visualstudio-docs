@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Call Stack Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.callstack"
 dev_langs: 
@@ -31,9 +26,9 @@ helpviewer_keywords:
   - "Call Stack window, viewing disassembly code for functions on the call stack"
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
 caps.latest.revision: 45
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Use the Call Stack Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +52,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
  By using the shortcut menu, you can choose whether to see calls between threads.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To display the Call Stack window in break mode or in run mode  
   
@@ -142,8 +137,3 @@ By using the **Call Stack** window, you can view the function or procedure calls
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Using Breakpoints](../debugger/using-breakpoints.md)
-
-
-
-
-

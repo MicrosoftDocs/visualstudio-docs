@@ -1,8 +1,6 @@
 ---
 title: "How to: Add Comments to Class Diagrams (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.comment"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -33,5 +31,5 @@ You can resize a comment shape but you cannot change other aspects of its appear
 
 ## See also
 
-- [Work with Class Diagrams](working-with-class-diagrams.md)
+- [Work with Class Diagrams](designing-and-viewing-classes-and-types.md)
 - [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)

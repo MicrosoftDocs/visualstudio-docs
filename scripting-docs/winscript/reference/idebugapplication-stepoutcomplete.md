@@ -2,7 +2,6 @@
 title: "IDebugApplication::StepOutComplete | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Notifies the process debug manager that a language engine in single-step mode is
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StepOutComplete();  
 ```  
   

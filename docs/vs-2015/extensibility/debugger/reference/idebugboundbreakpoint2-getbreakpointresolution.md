@@ -1,14 +1,9 @@
 ---
 title: "IDebugBoundBreakpoint2::GetBreakpointResolution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetBreakpointResolution"
 helpviewer_keywords: 
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::GetBreakpointResolution method"
 ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugBoundBreakpoint2::GetBreakpointResolution
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ HRESULT CBoundBreakpoint::GetBreakpointResolution(
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)   
  [GetBreakpointType](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getbreakpointtype.md)
-

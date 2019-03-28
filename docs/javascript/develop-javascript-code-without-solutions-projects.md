@@ -1,39 +1,35 @@
 ---
 title: "Write JavaScript code in Visual Studio without a solution or project"
+titleSuffix: ""
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
-ms.custom: ""
+ms.custom: "seodec18"
 ms.date: "09/24/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
 ---
-
 # Develop JavaScript and TypeScript code in Visual Studio without solutions or projects
 
-Visual Studio 2017 introduces the ability to [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), 
-which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more.
-In addition to these features, the Node.js Tools for Visual Studio adds support
-for building TypeScript files, managing npm packages, and running npm scripts.
+Visual Studio 2017 introduced the ability to [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more. In addition to these features, the Node.js Tools for Visual Studio adds support for building TypeScript files, managing npm packages, and running npm scripts.
 
-To get started, select **Open Folder** from the Start Page that appears when you open Visual Studio, or you can select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
+To get started, select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
 > [!IMPORTANT]
 > Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8.
 
 ## npm integration
 
-If the folder you open contains a *package.json* file, you can right-click *package.json* to show a context menu (shortcut menu) specific to npm. 
+If the folder you open contains a *package.json* file, you can right-click *package.json* to show a context menu (shortcut menu) specific to npm.
 
-![npm menu in Solution Explorer](../javascript/media/solution-explorer-npm-ctx.png) 
+![npm menu in Solution Explorer](../javascript/media/solution-explorer-npm-ctx.png)
 
-In the shortcut menu, you can manage the packages installed by npm in the same way that you 
+In the shortcut menu, you can manage the packages installed by npm in the same way that you
 [manage npm packages](npm-package-management.md) when using a project file.
 
 In addition, the menu also allows you to run scripts defined in the `scripts` element in *package.json*. These scripts will use the version of Node.js available on the `PATH` environment variable. The scripts run in a new window. This is a great way to execute build or run scripts.
@@ -41,7 +37,7 @@ In addition, the menu also allows you to run scripts defined in the `scripts` el
 ## Build and debug
 
 ### package.json
-If the *package.json* in the folder specifies a `main` element, the **Debug** command will be available in the right-click shortcut menu for *package.json*. 
+If the *package.json* in the folder specifies a `main` element, the **Debug** command will be available in the right-click shortcut menu for *package.json*.
 Clicking this will start *node.exe* with the specified script as its argument.
 
 ### JavaScript files
@@ -56,7 +52,7 @@ If there is no *tsconfig.json* present in the folder, you can right-click a Type
 If there is a *tsconfig.json* file present in the folder, you can right-click a TypeScript file to see a menu command to debug that TypeScript file. The option appears only if there is no `outFile` specified in *tsconfig.json*. If an `outFile` is specified, you can debug that file by right-clicking *tsconfig.json* and selecting the correct option. The `tsconfig.json` file also gives you a build option to allow you to specify compiler options.
 
 > [!NOTE]
-> You can find more information about *tsconfig.json* in the 
+> You can find more information about *tsconfig.json* in the
 [tsconfig.json TypeScript Handbook page](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 ## Unit Tests

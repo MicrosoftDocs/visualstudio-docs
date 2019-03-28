@@ -1,9 +1,6 @@
 ---
 title: "How to: Build SharePoint Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, building"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

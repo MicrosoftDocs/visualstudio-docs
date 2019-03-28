@@ -1,12 +1,9 @@
 ---
 title: "Save data back to the database | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -28,7 +25,7 @@ ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Save data back to the database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +59,7 @@ The dataset is an in-memory copy of data. If you modify that data, it's a good p
 ## Two-stage updates  
  Updating a data source is a two-step process. The first step is to update the dataset with new records, changed records, or deleted records. If your application never sends those changes back to the data source, then you are finished with the update.  
   
- If you do send the changes back to the database, then a second step is required. If you aren't using data-bound controls, then you have to manually call the Update method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated TableAdapterManager class, and then call its UdpateAll method.  
+ If you do send the changes back to the database, then a second step is required. If you aren't using data-bound controls, then you have to manually call the Update method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated TableAdapterManager class, and then call its UpdateAll method.  
   
  ![Visual Basic Dataset Updates](../data-tools/media/vbdatasetupdates.gif "vbDatasetUpdates")  
 Two-stage update process and the role of the DataRowVersion in a successful update  
@@ -215,7 +212,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  You can validate data in several ways:  
   
-- In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
+- In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The DataSet Designer provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).  
   
 - In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1).  
   
@@ -269,14 +266,7 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
 >  You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.  
   
 ## See Also  
- [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)   
- [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
- [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
- [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
  [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
- [Saving Data](../data-tools/saving-data.md)
-

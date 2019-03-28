@@ -1,8 +1,6 @@
 ---
 title: Code snippets
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.ExpansionManagerImport"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "code snippets"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -22,7 +20,10 @@ ms.workload:
 ---
 # Code snippets
 
-Code snippets are small blocks of reusable code that can be inserted in a code file using a context menu command or a combination of hotkeys. They typically contain commonly used code blocks such as `try-finally` or `if-else` blocks, but they can be used to insert entire classes or methods.
+Code snippets are small blocks of reusable code that can be inserted in a code file using a right-click menu (context menu) command or a combination of hotkeys. They typically contain commonly used code blocks such as `try-finally` or `if-else` blocks, but they can be used to insert entire classes or methods.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets).
 
 Code snippets are available for a multitude of languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu in Visual Studio, and choose the language from the drop-down menu at the top.
 
@@ -53,7 +54,7 @@ finally
 }
 ```
 
-You can insert this snippet by clicking **Insert Snippet** in the context menu of the code window, then **Visual C#**, then type `tryf`, and then press **Tab**. Or, you can type `tryf` and press **Tab** twice.
+You can insert this snippet by clicking **Insert Snippet** in the right-click menu (context menu) of the code window, then **Visual C#**, then type `tryf`, and then press **Tab**. Or, you can type `tryf` and press **Tab** twice.
 
 An example of a surround-with snippet: in C++ the shortcut `if` can be used either as an insertion snippet or as a surround-with snippet. If you select a line of code (for example `return FALSE;`), and then choose **Surround With** > **if**, the snippet is expanded around the line:
 
@@ -97,3 +98,4 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 - [C# code snippets](../ide/visual-csharp-code-snippets.md)
 - [Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
+- [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets)

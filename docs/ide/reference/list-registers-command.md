@@ -1,8 +1,6 @@
 ---
 title: List Registers Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.listregisters"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

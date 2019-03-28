@@ -1,20 +1,15 @@
 ---
 title: "Elements of the Isolated Shell | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode"
 ms.assetid: f8d68c3d-9134-4a8f-b566-485956cd321e
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Elements of the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,4 +71,3 @@ You can modify the registry settings, run-time settings, and application entry p
 </dependentAssembly>  
   
 ```
-

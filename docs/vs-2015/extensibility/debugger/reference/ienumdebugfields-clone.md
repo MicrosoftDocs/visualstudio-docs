@@ -1,22 +1,17 @@
 ---
 title: "IEnumDebugFields::Clone | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IEnumDebugFields::Clone"
 helpviewer_keywords: 
   - "IEnumDebugFields::Clone method"
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
 caps.latest.revision: 6
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IEnumDebugFields::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int Clone(
   
 ## See Also  
  [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
-

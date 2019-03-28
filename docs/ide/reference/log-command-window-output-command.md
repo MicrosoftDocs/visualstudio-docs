@@ -1,8 +1,6 @@
 ---
 title: Log Command Window Output Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "tools.logcommandwindowoutput"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

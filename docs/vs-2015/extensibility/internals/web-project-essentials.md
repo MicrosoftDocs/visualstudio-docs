@@ -1,20 +1,15 @@
 ---
 title: "Web Project Essentials | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "web projects, essentials"
 ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Web Project Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ Web projects create Web applications. You can use a Web project to create a Web 
   
 ## See Also  
  [Web Projects](../../extensibility/internals/web-projects.md)
-

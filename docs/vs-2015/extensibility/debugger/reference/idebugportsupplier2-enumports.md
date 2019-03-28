@@ -1,22 +1,17 @@
 ---
 title: "IDebugPortSupplier2::EnumPorts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortSupplier2::EnumPorts"
 helpviewer_keywords: 
   - "IDebugPortSupplier2::EnumPorts"
 ms.assetid: 88b57fd2-eba1-44fa-bd34-cf2ad2b1ff87
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPortSupplier2::EnumPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -47,4 +42,3 @@ int EnumPorts( 
 ## See Also  
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)
-

@@ -1,11 +1,8 @@
 ---
 title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Presentation.Annotations.Annotation.UI"
@@ -14,7 +11,7 @@ ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
 caps.latest.revision: 7
 author: "steved0x"
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](../includes/net-v45-md.md)] allows the developer to add annotations to the following types of item in the designer:  

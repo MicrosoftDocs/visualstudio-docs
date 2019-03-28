@@ -1,21 +1,16 @@
 ---
 title: "How to: Open Standard Editors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], opening"
   - "projects [Visual Studio SDK], opening standard editors"
 ms.assetid: d5ce10f9-047a-4b74-aa1d-295128898b89
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Open Standard Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ When you open a standard editor, you let the IDE determine a standard editor for
  [How to: Open Project-Specific Editors](../extensibility/how-to-open-project-specific-editors.md)   
  [How to: Open Editors for Open Documents](../extensibility/how-to-open-editors-for-open-documents.md)   
  [Displaying Files By Using the Open File Command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
-

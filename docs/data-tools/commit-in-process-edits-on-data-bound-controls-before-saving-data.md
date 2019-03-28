@@ -6,18 +6,16 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "commiting edited records"
+  - "committing edited records"
   - "data-bound controls, in-process edits"
-  - "DataBinding class, commiting edited records"
-  - "hierarchical update, commiting edited records"
-  - "BindingSource class, commiting edited records"
+  - "DataBinding class, committing edited records"
+  - "hierarchical update, committing edited records"
+  - "BindingSource class, committing edited records"
   - "EndEdit method"
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

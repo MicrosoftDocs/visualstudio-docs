@@ -1,14 +1,9 @@
 ---
 title: "Developing a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.vsip.LangServWiz.langtoks"
   - "vs.vsip.LangServWiz.welcome"
@@ -19,8 +14,8 @@ helpviewer_keywords:
   - "language services, developing"
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Developing a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ This section links to topics that help you create a legacy language service.
   
  [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)  
  Explains the two options that extend outlining support for your language beyond supporting the *Collapse to Definitions* command.
-

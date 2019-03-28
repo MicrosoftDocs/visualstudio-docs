@@ -1,14 +1,9 @@
 ---
 title: "Resources for Troubleshooting Integrated Development Environment Errors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.Message.0x00005A89"
   - "VS.Message.0x00005A8E"
@@ -98,7 +93,7 @@ ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Resources for Troubleshooting Integrated Development Environment Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -112,10 +107,7 @@ Not all error messages have a specific associated Help topic. If the information
 ## The Developer Community  
  Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue.  
   
- You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](http://go.microsoft.com/fwlink/?LinkID=144922) Web site.  
+ You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/) Web site.  
   
 ## Product Support  
  If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
-
-
-

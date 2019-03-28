@@ -1,22 +1,17 @@
 ---
 title: "PENDING_BP_STATE_INFO | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "PENDING_BP_STATE_INFO"
 helpviewer_keywords: 
   - "PENDING_BP_STATE_INFO structure"
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # PENDING_BP_STATE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ public struct PENDING_BP_STATE_INFO { 
  [GetState](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getstate.md)   
  [PENDING_BP_STATE](../../../extensibility/debugger/reference/pending-bp-state.md)   
  [PENDING_BP_STATE_FLAGS](../../../extensibility/debugger/reference/pending-bp-state-flags.md)
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1048: Do not declare virtual members in sealed types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DoNotDeclareVirtualMembersInSealedTypes"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5dcf4a30-6f98-48a8-b8cc-7b89ea757262
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

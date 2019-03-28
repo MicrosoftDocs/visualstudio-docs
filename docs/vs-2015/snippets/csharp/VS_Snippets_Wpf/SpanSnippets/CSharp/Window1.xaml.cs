@@ -126,7 +126,7 @@ namespace SpanSnippets
             spanx.Inlines.Add(new Run("A bit more text content..."));
             // </Snippet_SpanInlinesAdd>
 
-            // Insert a content inline at the begining of the Span.
+            // Insert a content inline at the beginning of the Span.
             // <Snippet_SpanInlinesInsert>
             Run runx = new Run("Text to insert...");
             spanx.Inlines.InsertBefore(spanx.Inlines.FirstInline, runx);

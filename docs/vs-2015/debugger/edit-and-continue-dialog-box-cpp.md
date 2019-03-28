@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue Dialog Box (C++) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.ENC.failed.commit"
   - "vs.debug.ENC.failed.build"
@@ -22,9 +17,9 @@ helpviewer_keywords:
   - "Failed to Apply Code Changes dialog box"
 ms.assetid: 624d9649-5946-4298-a138-70773b72e810
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Edit and Continue Dialog Box (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,6 +30,3 @@ Edit and Continue could not apply the changes you made to your native code. This
   
 ## See Also  
  [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
-
-
-

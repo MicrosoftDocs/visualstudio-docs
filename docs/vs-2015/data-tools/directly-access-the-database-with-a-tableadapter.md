@@ -1,12 +1,9 @@
 ---
 title: "Directly access the database with a TableAdapter | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -28,7 +25,7 @@ ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Directly access the database with a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,4 +70,3 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
-

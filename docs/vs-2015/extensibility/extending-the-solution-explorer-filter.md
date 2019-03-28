@@ -1,21 +1,16 @@
 ---
 title: "Extending the Solution Explorer Filter | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Solution Explorer, extending"
   - "extensibility [Visual Studio], projects and solutions"
 ms.assetid: df976c76-27ec-4f00-ab6d-a26a745dc6c7
 caps.latest.revision: 26
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Extending the Solution Explorer Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -194,4 +189,3 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
 3.  Look for the button you added on the Solution Explorer toolbar. It should be the fourth button from the left.  
   
 4.  When you click the button, all the files should be filtered out, and you should see “All items have been filtered from view.” in the Solution Explorer.
-

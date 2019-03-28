@@ -5,8 +5,8 @@ ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
-author: "conceptdev"
-ms.author: "crdun"
+author: therealjohn
+ms.author: johmil
 manager: crdun
 ms.workload:
   - "unity"
@@ -84,7 +84,7 @@ If Visual Studio is unable to find a source location for a specific breakpoint y
 
 ## Breakpoints not hit
 
-Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (*.csproj, *.sln) and the whole Library folder.
+Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (\*.csproj, \*.sln) and the whole Library folder.
 
 ## Unable to debug Android players
 

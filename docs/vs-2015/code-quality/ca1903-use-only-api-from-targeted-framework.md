@@ -1,14 +1,9 @@
 ---
 title: "CA1903: Use only API from targeted framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "UseOnlyAPIFromTargetedFramework"
   - "CA1903"
@@ -24,7 +19,7 @@ manager: "wpickett"
 # CA1903: Use only API from targeted framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -70,4 +65,3 @@ For the latest documentation on Visual Studio 2017, see [CA1903: Use only API fr
 ## See Also  
  [Portability Warnings](../code-quality/portability-warnings.md)   
  [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)
-

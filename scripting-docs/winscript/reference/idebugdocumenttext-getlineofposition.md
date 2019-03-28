@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetLineOfPosition | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the line number and, optionally, the character offset within the line th
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLineOfPosition(  
    ULONG   cCharacterPosition,  
    ULONG*  pcLineNumber,  

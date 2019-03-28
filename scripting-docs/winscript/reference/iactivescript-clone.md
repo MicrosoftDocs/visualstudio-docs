@@ -2,7 +2,6 @@
 title: "IActiveScript::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Clones the current scripting engine (minus any current execution state), returni
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Clone(  
     IActiveScript **ppscript  // receives pointer to IActiveScript  
 );  

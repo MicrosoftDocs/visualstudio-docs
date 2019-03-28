@@ -1,17 +1,14 @@
 ---
 title: "How to: Migrate a Domain-Specific Language to a New Version | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 6a1ae073-443e-45ca-8bc9-9b944362b449
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +72,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    2.  Click the **Transform All Templates** button in the header of Solution Explorer.  
   
        > [!NOTE]
-       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 6. Update your custom code in the converted projects.  
   
@@ -85,6 +82,3 @@ You can migrate projects that define and use domain-specific language to [!INCLU
   
 ## See Also  
  [What's New in Visualization and Modeling SDK](../misc/what-s-new-in-visualization-and-modeling-sdk.md)
-
-
-

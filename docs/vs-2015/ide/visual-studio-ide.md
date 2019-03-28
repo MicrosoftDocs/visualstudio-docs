@@ -1,17 +1,14 @@
 ---
-title: "Visual Studio IDE | Microsoft Docs"
-ms.custom: ""
+title: "Visual Studio 2015 | Microsoft Docs"
+titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,7 +127,7 @@ If you want to find out about new features in Visual Studio 2015, see [What's Ne
 
 8. The **Go To Definition** context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
 
-9. A related tool, the [Object Browser](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what methods and properties those types contain.
+9. A related tool, the [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what methods and properties those types contain.
 
      ![Obect Browser showing System.Timer](../ide/media/objectbrowser.png "ObjectBrowser")
 
@@ -151,7 +148,7 @@ The output from the build, including an error or success messages, appear in the
 
  The [Immediate Window](../ide/reference/immediate-window.md) enables you to type in an expression and see its result immediately.
 
- The [IntelliTrace](http://msdn.microsoft.com/en-us/629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.
+ The [IntelliTrace](http://msdn.microsoft.com/629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.
 
  For more information, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
 

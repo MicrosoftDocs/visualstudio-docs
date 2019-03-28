@@ -1,22 +1,17 @@
 ---
 title: "IDebugExpressionEvaluationCompleteEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2"
 ms.assetid: d538fc19-55bf-4231-9595-eb01e84fd1d8
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpressionEvaluationCompleteEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ IDebugExpressionEvaluationCompleteEvent2 : IUnknown
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
-

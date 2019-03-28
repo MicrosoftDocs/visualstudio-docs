@@ -1,23 +1,18 @@
 ---
 title: "DA0021: High rate of Gen 1 garbage collections | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.performance.21"
   - "vs.performance.DA0021"
   - "vs.performance.rules.DA0021"
 ms.assetid: ebf5d9b3-a1ac-4688-8f0f-39a85f4dd15f
 caps.latest.revision: 14
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DA0021: High rate of Gen 1 garbage collections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ Rule Id|DA0021|
  To understand the application’s pattern of managed memory usage, profile it again running a.NET Memory allocation profile and request Object Lifetime measurements.  
   
  For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=148226) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](http://go.microsoft.com/fwlink/?LinkId=177836).
-
-
-

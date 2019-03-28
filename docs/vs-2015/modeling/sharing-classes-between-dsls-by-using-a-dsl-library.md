@@ -1,17 +1,14 @@
 ---
 title: "Sharing Classes between DSLs by using a DSL Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 509bd96b-3e66-47f4-8642-771421d0d0d5
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sharing Classes between DSLs by using a DSL Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,6 +61,3 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Notifying the Port | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "ports, notification"
 ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Notifying the Port
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ After launching a program, the port must be notified, as follows:
  [Launching a Program](../../extensibility/debugger/launching-a-program.md)   
  [Attaching After a Launch](../../extensibility/debugger/attaching-after-a-launch.md)   
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)
-

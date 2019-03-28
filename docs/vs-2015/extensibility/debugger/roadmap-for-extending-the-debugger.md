@@ -1,21 +1,16 @@
 ---
 title: "Roadmap for Extending the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], roadmap"
   - "Debugging SDK, roadmap"
 ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
 caps.latest.revision: 17
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Roadmap for Extending the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ This documentation provides guide and reference information for extending the [!
   
      [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
   
-     [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/en-us/9097b71e-1fe7-48f7-bc00-009e25940c24)  
+     [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)  
   
      [Implementing a Port Supplier](../../extensibility/debugger/implementing-a-port-supplier.md)  
   
@@ -52,4 +47,3 @@ This documentation provides guide and reference information for extending the [!
   
 ## See Also  
  [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)
-

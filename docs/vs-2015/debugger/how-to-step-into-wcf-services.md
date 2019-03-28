@@ -1,14 +1,9 @@
 ---
 title: "How to: Step into WCF Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -19,9 +14,9 @@ helpviewer_keywords:
   - "WCF, debugging"
 ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Step into WCF Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,6 +41,3 @@ In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], you can step into
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)
-
-
-

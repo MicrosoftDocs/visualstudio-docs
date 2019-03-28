@@ -1,22 +1,17 @@
 ---
 title: "DOCCONTEXT_COMPARE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "DOCCONTEXT_COMPARE"
 helpviewer_keywords: 
   - "DOCCONTEXT_COMPARE enumeration"
 ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # DOCCONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -72,4 +67,3 @@ enum enum_DOCCONTEXT_COMPARE { 
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [Compare](../../../extensibility/debugger/reference/idebugdocumentcontext2-compare.md)
-

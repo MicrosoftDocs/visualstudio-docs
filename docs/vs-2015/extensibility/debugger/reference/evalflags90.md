@@ -1,20 +1,15 @@
 ---
 title: "EVALFLAGS90 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "EVALFLAGS90 enumeration"
 ms.assetid: 64fb0139-8b04-4726-b52c-db2e04d65498
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # EVALFLAGS90
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -102,4 +97,3 @@ public enum enum_EVALFLAGS90
   
 ## See Also  
  [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
-

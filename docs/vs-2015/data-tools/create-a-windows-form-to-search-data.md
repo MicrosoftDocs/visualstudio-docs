@@ -1,12 +1,9 @@
 ---
 title: "Create a Windows Form to search data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,13 +13,13 @@ helpviewer_keywords:
   - "Windows Forms, searching data"
   - "Windows Forms, displaying data"
   - "parameters, displaying filtered data"
-  - "data [Visual Studio], paramaterizing queries"
+  - "data [Visual Studio], parameterizing queries"
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create a Windows Form to search data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +101,7 @@ A common application scenario is to display selected data on a form. For example
   
 2.  Drag the **Customers** node from the **Data Sources** window to your form.  
   
-     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 ## Addparameterization (search functionality) to the query  
  You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box.  
@@ -146,10 +143,9 @@ A common application scenario is to display selected data on a form. For example
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:  
   
--   Adding controls that display related data. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
+-   Adding controls that display related data.  
   
 -   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
-

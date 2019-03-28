@@ -1,19 +1,14 @@
 ---
 title: "Modify the style of objects in Blend | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 31192d2c-5b84-41bc-94c0-898638c170bd
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Modify the style of objects in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,17 +86,15 @@ The easiest way to customize an object is to set properties in the **Properties*
 >   
 >  ![](../designers/media/4a5612e1-7a28-4587-b870-0fe7112ec2ad.png "4a5612e1-7a28-4587-b870-0fe7112ec2ad")  
   
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](http://www.microsoft.com/showcase/details.aspx?uuid=9b8e86e2-8e90-4d61-81af-fa5b5afb3e95).  
-  
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Creating a Control Template in Expression Blend](http://msdn.microsoft.com/expression/cc263912.aspx).  
+ **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](https://www.youtube.com/watch?v=W8YdXDPeKdc).  
   
 ### Apply a style or template to a control  
- Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/en-us/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
+ Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
   
  ![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png "dc12debc-7711-47d9-84ce-10322a384397")  
   
 ### Restore the default style or template of a control  
- Select the control, and in the [Properties](http://msdn.microsoft.com/en-us/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
+ Select the control, and in the [Properties](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
   
 ##  <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
  Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.  
@@ -119,6 +112,3 @@ The easiest way to customize an object is to set properties in the **Properties*
   
 ## See Also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
-
-
-

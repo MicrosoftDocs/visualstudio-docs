@@ -1,20 +1,20 @@
 ---
-title: What's new for design in Visual Studio
+title: What's new for design in Visual Studio 2017
+titleSuffix: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
-  - "what's new [VIsual Studio ALM], architecture and modeling"
-  - "architecture [Visual Studio Ultimate], modeling"
-  - "modeling software [Visual Studio ALM], What's New"
+  - "what's new [Visual Studio], architecture and modeling"
+  - "architecture [Visual Studio], modeling"
+  - "modeling software [Visual Studio], What's New"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
-# What's new for design in Visual Studio
+# What's new for design in Visual Studio 2017
 
 ## Live dependency validation
 
@@ -34,7 +34,7 @@ The **Architecture** menu now contains a command to directly create a Dependency
 
 You now see the impact of your changes immediately in the analysis results for the current code in the solution each time you save the diagram. You don't have to wait any longer for the completion of the "Validate Dependencies" command.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/07/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
+For more details, see [this blog post](https://devblogs.microsoft.com/devops/live-architecture-dependency-validation-in-visual-studio-15-preview-5/).
 
 ## UML designers have been removed
 
@@ -55,13 +55,13 @@ However, support for visualizing the architecture of .NET and C++ code is availa
 
 If you are a significant user of the UML designers, you can continue to use Visual Studio 2015 or earlier versions while you decide on an alternative tool for your UML needs.
 
-For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/10/14/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
+For more details, see [this blog post](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 ## <a name="VersionSupport" />Edition support for architecture and modeling tools
 
-Visual Studio 2017 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
+Visual Studio is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
 |**Feature**|**Enterprise edition**|**Professional edition**|**Community edition**|
 |-|-|-|-|

@@ -1,22 +1,17 @@
 ---
 title: "IDebugPropertyCreateEvent2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPropertyCreateEvent2"
 helpviewer_keywords: 
   - "IDebugPropertyCreateEvent2 interface"
 ms.assetid: 33b3082b-a42e-488a-a1e4-dadf506f922c
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugPropertyCreateEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,4 +52,3 @@ IDebugPropertyCreateEvent2 : IUnknown
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
-

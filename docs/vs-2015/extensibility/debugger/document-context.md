@@ -1,20 +1,15 @@
 ---
 title: "Document Context | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], contexts"
 ms.assetid: 8e8b5702-5c16-4988-953d-69dd807d8b84
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Document Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document conte
  [Symbol Provider](../../extensibility/debugger/symbol-provider.md)   
  [Symbol Provider Interfaces](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

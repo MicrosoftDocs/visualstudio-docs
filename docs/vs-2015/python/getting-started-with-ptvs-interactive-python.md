@@ -1,19 +1,14 @@
 ---
 title: "Getting Started with PTVS: Interactive Python | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: fa594314-bdd0-4da5-874a-57b03414b675
 caps.latest.revision: 5
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with PTVS: Interactive Python
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ Interactive prompts or read-eval-print loops (REPLs) are a key tool for producti
 ## See Also  
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Interactive-REPL)   
  [PTVS Getting Started and Deep Dive Videos](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
-

@@ -1,22 +1,17 @@
 ---
 title: "Wizard (.Vsz) File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".vsz files"
   - "vsz files"
   - "wizards, files"
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Wizard (.Vsz) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,4 +45,3 @@ Param="WIZARDUI = FALSE"
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
-

@@ -1,8 +1,6 @@
 ---
 title: "Scenario: Change your design using visualization and modeling"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
   - "code visualization [Visual Studio ALM]"
@@ -14,7 +12,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio ALM], modeling software"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -67,7 +65,7 @@ Both teams use modeling diagrams in Visual Studio to help them develop systems t
 
 For more information about Team Foundation Server, see:
 
-- [Planning and tracking work](#planning-and-tracking-work)
+- [Plan and track work](#plan-and-track-work)
 
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
 
@@ -91,7 +89,7 @@ See:
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
-- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
@@ -141,7 +139,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 |**Map or diagram**|**Shows**|
 |-|-|
 |*Code map*<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)<br />- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)|Dependencies and other relationships in code.<br /><br /> For example, Dinner Now might start by reviewing assembly code maps for an overview of the assemblies and their dependencies. They can drill into the maps to explore the namespaces and classes in those assemblies.<br /><br /> Dinner Now can also create maps to explore particular areas and other kinds of relationships in the code. They use Solution Explorer to find and select the areas and relationships that interest them.|
-|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code|
+|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|Existing classes in code|
 
  For example, the developer creates a code map. She adjusts its scope to focus on the areas that will be affected by the new scenario. These areas are selected and highlighted on the map:
 
@@ -161,7 +159,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
 |**Diagrams**|**Describes**|
 |-|-|
-|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
+|*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|Existing classes in code.|
 
 ### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
@@ -180,11 +178,11 @@ To make sure that conflicts with the design do not occur during code development
 
 See:
 
-- [Define your build process](http://msdn.microsoft.com/Library/61593e10-d24b-492f-b19a-af4d85abea6b)
+- [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
 
-- [Customize your build process template](http://msdn.microsoft.com/Library/b94c58f2-ae6f-4245-bedb-82cd114f6039)
+- [Build and release tasks](/azure/devops/pipelines/tasks/index)
 
 ### General Tips for Creating and Using Models
 
@@ -210,11 +208,11 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 
-- [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
+- [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
@@ -326,7 +324,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 |**Diagram**|**Describes**|
 |-|-|
 |Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
-|Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|
+|Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|
 
 ### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
  Class diagrams define the entities, terms, or concepts that participate in the system and their relationships with one another. For example, you can use these diagrams during development to describe the attributes and operations for each class, regardless of their implementation language or style.
@@ -379,7 +377,7 @@ A class diagram has the following major features:
 
 As a starting point to explore and discuss existing classes, you can use Class Designer to create class diagrams from code.
 
-- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 #### Summary: Strengths of Class Diagrams
  Class diagrams help you define:
@@ -480,5 +478,5 @@ Dependency diagrams help you:
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

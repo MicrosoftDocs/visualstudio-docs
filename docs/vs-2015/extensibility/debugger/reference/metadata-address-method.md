@@ -1,22 +1,17 @@
 ---
 title: "METADATA_ADDRESS_METHOD | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "METADATA_ADDRESS_METHOD"
 helpviewer_keywords: 
   - "METADATA_ADDRESS_METHOD structure"
 ms.assetid: fc0e5370-1b4f-4867-837f-0d63c4b9dd09
 caps.latest.revision: 7
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # METADATA_ADDRESS_METHOD
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ public struct METADATA_ADDRESS_METHOD {
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
  [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)   
  [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
-

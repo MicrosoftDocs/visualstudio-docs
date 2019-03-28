@@ -1,24 +1,23 @@
 ---
-title: Visual Studio Feedback Client 2017 workload and component IDs
+title: Visual Studio Feedback Client workload and component IDs
+titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide rich feedback for Azure DevOps Services or Team Foundation Server"
 keywords:
 author: TerryGLee
 ms.author: tglee
-manager: douge
-ms.date: 08/14/2018
+manager: jillfra
+ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.assetid: 7392a100-100c-458c-9394-828695109015
-ms.workload:
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+monikerRange: vs-2017
 ---
-# Visual Studio Feedback Client 2017 component directory
+# Visual Studio Feedback Client component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 

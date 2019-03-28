@@ -1,22 +1,17 @@
 ---
 title: "Profiler Sampling Method Data Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools,sampling data views"
   - "sampling data views"
 ms.assetid: 798de693-e43a-4056-aff5-48310c2172c5
 caps.latest.revision: 18
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Profiler Sampling Method Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ This section contains reference information for the views and reports of profile
   
 ## See Also  
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Running Document Table | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "read locks"
   - "running document table (RDT), IVsDocumentLockHolder interface"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "document data objects, running document table"
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
 caps.latest.revision: 19
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Running Document Table
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -60,4 +55,3 @@ The IDE maintains the list of all currently open documents in an internal struct
 ## See Also  
  [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)   
  [Persistence and the Running Document Table](../../extensibility/internals/persistence-and-the-running-document-table.md)
-

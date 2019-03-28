@@ -1,8 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"
@@ -489,11 +487,12 @@ This article describes typical uses of annotations for simple function parameter
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## See Also
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
- [Understanding SAL](../code-quality/understanding-sal.md)
- [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
- [Intrinsic Functions](../code-quality/intrinsic-functions.md)
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+
+- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+- [Understanding SAL](../code-quality/understanding-sal.md)
+- [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
+- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
+- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
+- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
+- [Intrinsic Functions](../code-quality/intrinsic-functions.md)
+- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

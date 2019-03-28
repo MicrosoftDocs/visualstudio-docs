@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify Verbose Log Files for ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ manager: "wpickett"
   
 ## See Also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)
-
-
-

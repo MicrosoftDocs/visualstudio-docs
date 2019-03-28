@@ -1,9 +1,6 @@
 ---
 title: "How to: Implement Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "nested projects, implementing"
@@ -11,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -62,7 +59,7 @@ When you create a nested project type, there are several additional steps that m
      Because parent and child projects are instantiated programmatically, you can set properties for nested projects at this point.
 
     > [!NOTE]
-    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
+    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking [__VSHPROPID.VSHPROPID_UserContext](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_UserContext>). In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
 
 10. The hierarchy is built for display in **Solution Explorer** with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.
 

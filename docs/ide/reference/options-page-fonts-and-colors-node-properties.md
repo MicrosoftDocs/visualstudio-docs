@@ -1,8 +1,6 @@
 ---
 title: Options Page, Fonts and Colors Node Properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Tools Options settings, Fonts and Colors node properties"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 8e1ab784-5f85-4e2b-8ef9-e5d59ca4dbcb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

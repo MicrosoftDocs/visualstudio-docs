@@ -1,20 +1,15 @@
 ---
 title: "Using the Settings Store | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Settings Store, using"
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 caps.latest.revision: 29
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Using the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,4 +81,3 @@ There are two kinds of settings stores:
     >  Make sure that you are looking at the key that contains \14.0Exp_Config\ and not \14.0_Config\\. When you run the experimental instance of Visual Studio, configuration settings are in the registry hive "14.0Exp_Config".  
   
 3.  Expand the \Installed Products\ node. If the message in the previous steps is **Microsoft Windows Phone Developer Tools Installed: True**, then \Installed Products\ should contain a Microsoft Windows Phone Developer Tools node. If the message is **Microsoft Windows Phone Developer Tools Installed: False**, then \Installed Products\ should not contain a Microsoft Windows Phone Developer Tools node.
-

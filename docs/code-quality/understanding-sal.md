@@ -1,8 +1,6 @@
 ---
 title: Understanding SAL
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 author: mikeblome

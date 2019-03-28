@@ -1,19 +1,14 @@
 ---
 title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Collecting Application Statistics for Services by Using the Profiler Sampling Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,10 +41,7 @@ This section describes the procedures and options for collecting performance sta
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015)|  
   
 ### Analyzing Sampling Data Views and Reports  
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
-
-
-

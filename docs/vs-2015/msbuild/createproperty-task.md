@@ -1,14 +1,9 @@
 ---
 title: "CreateProperty Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#CreateProperty"
 dev_langs: 
@@ -23,7 +18,7 @@ ms.assetid: fbc31a88-62d4-43d2-b739-68ef3fac38f5
 caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CreateProperty Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ Populates properties with the values passed in. This allows values to be copied 
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

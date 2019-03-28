@@ -1,14 +1,9 @@
 ---
 title: "How to: Add Class Diagrams to Projects (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "class diagrams, creating"
   - "Class Designer [Visual Studio], opening"
@@ -16,7 +11,7 @@ ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add Class Diagrams to Projects (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,6 +50,3 @@ To design, edit, and refactor classes and other types, add a class diagram to yo
  [Designing Classes and Types (Class Designer)](../ide/designing-classes-and-types-class-designer.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships-class-designer.md)   
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)
-
-
-

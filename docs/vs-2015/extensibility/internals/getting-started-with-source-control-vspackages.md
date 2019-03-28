@@ -1,21 +1,16 @@
 ---
 title: "Getting Started with Source Control VSPackages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control packages, getting started"
   - "getting started, source control packages"
 ms.assetid: 049c68f4-a041-4f24-8575-4837e7f5cf3f
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Getting Started with Source Control VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ A source-control VSPackage is a more advanced alternative to the source control 
   
  [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)  
  Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] source control UI.
-

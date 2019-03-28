@@ -1,8 +1,6 @@
 ---
 title: Code coverage testing
 ms.date: 09/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "code coverage"
@@ -12,7 +10,7 @@ dev_langs:
   - "CPP"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -254,7 +252,17 @@ To run tests from the command line, use *vstest.console.exe*. Code coverage is a
 
 1. Launch the Developer Command Prompt for Visual Studio:
 
+   ::: moniker range="vs-2017"
+
    In the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   In the Windows **Start** menu, choose **Visual Studio 2019** > **Developer Command Prompt for VS 2019**.
+
+   ::: moniker-end
 
 2. At the command prompt, run the following command:
 

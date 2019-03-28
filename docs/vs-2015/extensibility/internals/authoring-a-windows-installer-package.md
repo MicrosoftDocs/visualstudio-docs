@@ -1,21 +1,16 @@
 ---
 title: "Authoring a Windows Installer Package | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - ".msi files, VSPackages"
   - "msi files, VSPackages"
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Authoring a Windows Installer Package
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,8 +43,7 @@ Data drives the Windows Installer model. Rather than writing a procedural script
   
    The Toolset builds Windows Installer packages from XML source files. The Toolset is a Microsoft open-source project. You can download the source code and executables from [http://sourceforge.net/projects/wix](http://sourceforge.net/projects/wix).  
   
-  For commercial products that integrate into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).  
+  For commercial products that integrate into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], see [https://marketplace.visualstudio.com/](https://marketplace.visualstudio.com/).  
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
-

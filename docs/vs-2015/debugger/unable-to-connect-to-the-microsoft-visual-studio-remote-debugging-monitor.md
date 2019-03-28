@@ -1,14 +1,9 @@
 ---
 title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.error.remote_debug"
 dev_langs: 
@@ -18,9 +13,9 @@ dev_langs:
   - "C++"
 ms.assetid: a1d959fc-3817-491c-831b-e6b768a3877a
 caps.latest.revision: 17
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Create Inheritance Between Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.classdesigner.inheritanceline"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create Inheritance Between Types (Class Designer) 
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,6 +48,3 @@ To create an inheritance relationship between two types on a class diagram using
  [Inheritance Basics](http://msdn.microsoft.com/library/dfc8deba-f5b3-4d1d-a937-7cb826446fc5)   
  [How to: View Inheritance Between Types (Class Designer)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
  [Visual C++ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)
-
-
-

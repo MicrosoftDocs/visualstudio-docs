@@ -2,12 +2,11 @@
 title: "Start page for the Snapshot Debugger"
 ms.date: "07/14/2018"
 robots: "noindex, nofollow"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 
@@ -23,7 +22,7 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 ### Set a Snappoint
 
-1. In the code editor, click the left gutter next to a line of code that you are interested in to set a snappoint. Make sure it is code that you know will run. 
+1. In the code editor, click the left gutter next to a line of code that you are interested in to set a snappoint. Make sure it is code that you know will run.
 
     ![Setting a snappoint in the Editor](../media/snapshot-startpage-set-snappoint.png)
 
@@ -33,7 +32,7 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 ### Open a Snapshot
 
-1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window on the right. If the window doesn't open, you can open it by choosing **Debug** > **Windows** > **Show Diagnostic Tools**. 
+1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window on the right. If the window doesn't open, you can open it by choosing **Debug** > **Windows** > **Show Diagnostic Tools**.
 
     ![Snapshot in the Diagnostic Tools window](../media/snapshot-startpage-diagsession-window.png)
 
@@ -55,7 +54,7 @@ The website itself is still live and end users aren't impacted. By default, only
 
 3. In the **Message** field, enter a log message that you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
-    If you choose **Send to Output Window**, the message appears in the Diagnostic Tools window when the logpoint is hit. 
+    If you choose **Send to Output Window**, the message appears in the Diagnostic Tools window when the logpoint is hit.
 
     If you choose **Send to application log**, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as App Insights, when the logpoint is hit.
 
@@ -65,6 +64,6 @@ You can find more information about the Snapshot Debugger on the [docs page](../
 
 ## Don't' Show Me This Again
 
-To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the **Show 'Getting Started' page on session start** option in **Tools** > **Options** > **Snapshot Debugger**. 
+To never show the Snapshot Debugger Start page again when you connect the Snapshot Debugger, change the **Show 'Getting Started' page on session start** option in **Tools** > **Options** > **Snapshot Debugger**.
 
 ![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tools-options.png)

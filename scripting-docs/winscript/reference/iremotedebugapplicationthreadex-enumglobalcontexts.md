@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThreadEx:EnumGlobalContexts | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Enumerates the global expression contexts for all languages running in this thre
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumGlobalExpressionContexts(  
    IEnumDebugExpressionContexts**  ppEnum  
 );  

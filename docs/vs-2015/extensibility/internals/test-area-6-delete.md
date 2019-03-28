@@ -1,21 +1,16 @@
 ---
 title: "Test Area 6: Delete | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], deleting items"
   - "source control plug-ins, deleting items"
 ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Test Area 6: Delete
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,4 +50,3 @@ This source-control plug-in test area covers delete actions.
   
 ## See Also  
  [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "Project Configuration for Managing Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project configurations, managing deployment"
   - "projects [Visual Studio SDK], configuration for managing deployment"
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Project Configuration for Managing Deployment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ Deployment is the act of physically moving the output items from a build process
  [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)   
  [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)   
  [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
-

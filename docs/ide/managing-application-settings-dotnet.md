@@ -1,8 +1,6 @@
 ---
 title: Manage application settings (.NET)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "msvse_settingsdesigner.err.nameblank"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "application settings [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -80,7 +78,9 @@ If any user-scoped settings are changed during run time, for example in testing 
 
 We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application; this is described in the following section.
 
-## Access or change application settings at run time in C# #
+<!-- markdownlint-disable MD003 -->
+## Access or change application settings at run time in C#
+<!-- markdownlint-enable MD003 -->
 
 In languages other than Visual Basic, such as C#, you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.
 

@@ -1,22 +1,17 @@
 ---
 title: "TEXT_POSITION | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "TEXT_POSITION"
 helpviewer_keywords: 
   - "TEXT_POSITION structure"
 ms.assetid: 6dcec574-a852-49fa-8c2e-2e71cbb5e3c6
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # TEXT_POSITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -88,4 +83,3 @@ public struct TEXT_POSITION { 
  [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)   
  [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)   
  [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
-

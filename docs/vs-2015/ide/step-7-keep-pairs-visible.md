@@ -1,19 +1,14 @@
 ---
 title: "Step 7: Keep Pairs Visible | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 42e1d08c-7b2e-4efd-9f47-85d6206afe35
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 7: Keep Pairs Visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ Matching game with visible icon pairs
 -   To go to the next tutorial step, see [Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).  
   
 -   To return to the previous tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).
-
-
-

@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Learn how to locate and download Microsoft products included with your Visual Studio subscription.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -25,7 +23,7 @@ There are several reasons why particular products may not be available to subscr
 - **The product is publicly available.** Some tools, SDKs, DDKs, and service packs are publicly available from the [Microsoft Download Center](https://www.microsoft.com/download). Some such products may not be published to Downloads.
 - **The product has not yet released.**  Many pre-release (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. For more information about open technical beta programs, please visit [Microsoft Connect](http://connect.microsoft.com/).
 - **The product is not available in your country.** Some Microsoft products are not available due to regional restrictions.
-- **Redundant software.** Select Office suites and standalone Office downloads and product keys are no longer available in subscriptions that include Office. Downloads and product keys are available for the corresponding highest Office suite of the same version.  For example, if you search for Powerpoint 2010, the search will not produce any results.  However, you can search for Office 2010 - the Office suite that contained Powerpoint 2010 - and download the suite.
+- **Redundant software.** Select Office suites and standalone Office downloads and product keys are no longer available in subscriptions that include Office. Downloads and product keys are available for the corresponding highest Office suite of the same version.  For example, if you search for PowerPoint 2010, the search will not produce any results.  However, you can search for Office 2010 - the Office suite that contained PowerPoint 2010 - and download the suite.
 
 ## What do I get?
 The number and type of downloads depends on your subscription level and program memberships.  Subscribers with Visual Studio Enterprise standard subscriptions, for example, may have different downloads available to them than subscribers who obtain their subscriptions through a Microsoft Partner Network or BizSpark program subscription.  To learn more about what downloads are available for each subscription level, download the list of [Products By Benefit Level](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Products_by_Benefit_Level.xlsx).

@@ -893,7 +893,7 @@ Namespace SDKSample
                 Else
                     ' End of document (either the start or end of the document 
                     ' range depending on search direction) was reached before 
-                    ' finding another occurence of the search string.
+                    ' finding another occurrence of the search string.
                     targetResult.Content = "End of document reached."
                     targetResult.Background = Brushes.Wheat
                     If Not searchBackward Then
@@ -965,7 +965,7 @@ Namespace SDKSample
             ' Obtain the ranges to move.
             Dim selectionRanges As TextPatternRange() = targetTextPattern.GetSelection()
 
-            ' Iterate throught the ranges for a text control that supports
+            ' Iterate through the ranges for a text control that supports
             ' multiple selections and move the selections the specified text
             ' unit and direction.
             Dim textRange As TextPatternRange

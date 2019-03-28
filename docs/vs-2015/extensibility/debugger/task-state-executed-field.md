@@ -1,20 +1,15 @@
 ---
 title: "TASK_STATE_EXECUTED Field | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]"
 ms.assetid: 75b8f9d0-b908-40d0-b109-70feaed2ab0c
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # TASK_STATE_EXECUTED Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,4 +33,3 @@ The task is running but has not yet completed.
   
 ## See Also  
  [Task Class](../../extensibility/debugger/task-class-internal-members.md)
-

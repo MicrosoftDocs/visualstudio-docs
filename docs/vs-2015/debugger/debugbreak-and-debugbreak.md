@@ -1,14 +1,9 @@
 ---
 title: "DebugBreak and __debugbreak | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "DebugBreak"
 dev_langs: 
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "breakpoints, DebugBreak function"
 ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # DebugBreak and __debugbreak
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,6 +34,3 @@ You can call the DebugBreak Win32 function or the [__debugbreak](http://msdn.mic
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "How to: Use the Activity Log | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, debugging"
   - "VSPackages, troubleshooting"
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
 caps.latest.revision: 30
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Use the Activity Log
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,4 +58,3 @@ VSPackages can write messages to the activity log. This feature is especially us
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
  [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)   
  [VSPackages](../extensibility/internals/vspackages.md)
-

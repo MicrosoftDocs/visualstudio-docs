@@ -1,14 +1,13 @@
 ---
 title: Mixed-mode debugging for Python
-description: How to simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 06/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
+ms.date: 11/12/2018
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -30,7 +29,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 - See Python representations of objects in native frames and vice versa
 - Debugging within the context of the Python project or the C++ project
 
-![Mixed-mode debugging](media/mixed-mode-debugging.png)
+![Mixed-mode debugging for Python in Visual Studio](media/mixed-mode-debugging.png)
 
 |   |   |
 |---|---|
@@ -53,13 +52,13 @@ Mixed-mode debugging features include the following, as explained in this articl
 
     It's possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and **Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
-1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio 2017 installer.
+1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio installer (Visual Studio 2017 and later).
 
 1. To make the source code for standard Python itself available when debugging, visit [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/), download the archive appropriate for your version, and extract it to a folder. You then point Visual Studio to specific files in that folder at whatever point it prompts you.
 
 ## Enable mixed-mode debugging in a C/C++ project
 
-Visual Studio 2017 (version 15.5 and higher) supports mixed-mode debugging from a C/C++ project (for example, when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch **Python/Native Debugging**:
+Visual Studio (2017 version 15.5 and later) supports mixed-mode debugging from a C/C++ project (for example, when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch **Python/Native Debugging**:
 
 1. Right-click the C/C++ project in **Solution Explorer** and select **Properties**.
 1. Select the **Debugging** tab, select **Python/Native Debugging** from the **Debugger to launch**, and select **OK**.
@@ -91,7 +90,7 @@ For all previous versions of Visual Studio, direct mixed-mode debugging is enabl
 
 The **Call Stack** window shows both native and Python stack frames interleaved, with transitions marked between the two:
 
-![Combined call stack](media/mixed-mode-debugging-call-stack.png)
+![Combined call stack with mixed-mode debugging](media/mixed-mode-debugging-call-stack.png)
 
 Transitions appear as **[External Code]**, without specifying the direction of transition, if the **Tools** > **Options** > **Debugging** > **General** > **Enable Just My Code** option is set.
 
@@ -105,11 +104,11 @@ When using the **Step Into** (**F11**) or **Step Out** (**Shift**+**F11**) comma
 
 When a native (C or C++) frame is active, its local variables show up in the debugger **Locals** window. In native Python extension modules, many of these variables are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled **[Python view]**. When expanded, this node shows the variable's Python representation, identical to what you'd see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
 
-![Python View](media/mixed-mode-debugging-python-view.png)
+![Python View in the Locals window](media/mixed-mode-debugging-python-view.png)
 
 To disable this feature, right-click anywhere in the **Locals** window and toggle the **Python** > **Show Python View Nodes** menu option:
 
-![Enabling Python View](media/mixed-mode-debugging-enable-python-view.png)
+![Enabling Python View in the Locals window](media/mixed-mode-debugging-enable-python-view.png)
 
 C types that show **[Python view]** nodes (if enabled):
 
@@ -138,11 +137,11 @@ An alternate (and better) option is to follow [PEP 3123](https://www.python.org/
 
 Similar to the previous section, you can enable a **[C++ view]** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by right-clicking in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
 
-![Enabling C++ View](media/mixed-mode-debugging-enable-cpp-view.png)
+![Enabling C++ View in the Locals window](media/mixed-mode-debugging-enable-cpp-view.png)
 
 The **[C++ view]** node provides a representation of the underlying C/C++ structure for a value, identical to what you'd see in a native frame. For example, it shows an instance of `_longobject` (for which `PyLongObject` is a typedef) for a Python long integer, and it tries to infer types for native classes that you have authored yourself. The children of this node are editable.
 
-![C++ View](media/mixed-mode-debugging-cpp-view.png)
+![C++ View in the Locals window](media/mixed-mode-debugging-cpp-view.png)
 
 If a child field of an object is of type `PyObject`, or one of the other supported types, then it has a **[Python view]** representation node (if those representations are enabled), making it possible to navigate object graphs where links are not directly exposed to Python.
 

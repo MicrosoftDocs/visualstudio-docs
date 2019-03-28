@@ -1,23 +1,18 @@
 ---
 title: "IDiaFrameData::get_lengthLocals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaFrameData::get_lengthLocals method"
 ms.assetid: 51fe15c3-4cd6-4a06-8a41-a56502209762
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaFrameData::get_lengthLocals
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,6 +40,3 @@ HRESULT get_lengthLocals ( 
 ## See Also  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)   
  [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Required Port Supplier Interfaces | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "port suppliers, required interfaces"
   - "debugging [Debugging SDK], port suppliers"
 ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Required Port Supplier Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,4 +78,3 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
   
 ## See Also  
  [Implementing a Port Supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
-

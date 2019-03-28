@@ -1,22 +1,17 @@
 ---
 title: "IDebugDocumentContext2::GetStatementRange | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugDocumentContext2::GetStatementRange"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::GetStatementRange"
 ms.assetid: bc94851a-0ec4-47ea-99c7-0a585e54e726
 caps.latest.revision: 11
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugDocumentContext2::GetStatementRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -90,4 +85,3 @@ HRESULT CDebugContext::GetStatementRange(TEXT_POSITION* pBegPosition,
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)   
  [GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
-

@@ -1,22 +1,17 @@
 ---
 title: "IDebugExpression2::EvaluateSync | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugExpression2::EvaluateSync"
 helpviewer_keywords: 
   - "IDebugExpression2::EvaluateSync"
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugExpression2::EvaluateSync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -120,4 +115,3 @@ HRESULT CExpression::EvalExpression(BOOL bSynchronous,
  [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
-

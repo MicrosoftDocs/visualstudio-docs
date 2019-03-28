@@ -1,8 +1,6 @@
 ---
 title: "ClickOnce Deployment Samples and Walkthroughs | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "FSharp"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3973276b-7b11-4692-a0a2-32bebf0b9c2a
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

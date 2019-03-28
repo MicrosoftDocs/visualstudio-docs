@@ -2,14 +2,12 @@
 title: "Workflow Designer - Receive Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -47,7 +45,7 @@ The following table shows the <xref:System.ServiceModel.Activities.Receive> prop
 | <xref:System.ServiceModel.Activities.Receive.KnownTypes%2A> | False | Specifies a collection of known types for the service operation implemented by this <xref:System.ServiceModel.Activities.Receive> activity. This property should be used in conjunction with the <xref:System.ServiceModel.Activities.Receive.SerializerOption%2A> property set to <xref:System.Runtime.Serialization.DataContractSerializer>. It is ignored if <xref:System.Xml.Serialization.XmlSerializer> is used.<br /><br /> Select the ellipsis button beside the **KnownTypes** field in property grid to display the **Type Collection Editor** dialog box with which you can add relevant types. For more information about using this box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic. |
 | <xref:System.ServiceModel.Activities.Receive.ProtectionLevel%2A> | False | Specifies the <xref:System.Net.Security.ProtectionLevel> for the message.<br /><br /> 1.  <xref:System.Net.Security.ProtectionLevel> means authentication only.<br />2.  <xref:System.Net.Security.ProtectionLevel> means sign data to help ensure the integrity of transmitted data.<br />3.  <xref:System.Net.Security.ProtectionLevel> means encrypt and sign data to help ensure the confidentiality and integrity of transmitted data. |
 | <xref:System.ServiceModel.Activities.Receive.SerializerOption%2A> | False | Specifies the type of serializer to use for the service operation implemented by the <xref:System.ServiceModel.Activities.Receive> activity. The default value is <xref:System.Runtime.Serialization.DataContractSerializer>, which serializes and deserializes an instance of a type into an XML stream or document that uses a supplied data contract. The <xref:System.Xml.Serialization.XmlSerializer> can also be used if more control is required over the XML. |
-| <xref:System.ServiceModel.Activities.Receive.Action%2A> | False | Specifies the action header of the message. If it is not explicitly set, its value defaults to: https://tempuri.org/{service contract namespace}/{service contract name}/{operation name}. |
+| <xref:System.ServiceModel.Activities.Receive.Action%2A> | False | Specifies the action header of the message. If it is not explicitly set, its value defaults to: `https://tempuri.org/{service contract namespace}/{service contract name}/{operation name}`. |
 
 ## See also
 

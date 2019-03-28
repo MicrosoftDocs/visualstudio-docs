@@ -1,19 +1,16 @@
 ---
 title: "Define a custom modeling toolbox item | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML - extending, customizing the toolbox"
 ms.assetid: a2463606-1100-40ac-97f3-5ba22ca47b7c
 caps.latest.revision: 33
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define a custom modeling toolbox item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -235,6 +232,3 @@ To make it easy to create an element or group of elements according to a pattern
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)
-
-
-

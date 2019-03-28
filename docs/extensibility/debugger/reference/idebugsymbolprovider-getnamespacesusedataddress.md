@@ -1,53 +1,52 @@
 ---
 title: "IDebugSymbolProvider::GetNamespacesUsedAtAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugSymbolProvider::GetNamespacesUsedAtAddress"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugSymbolProvider::GetNamespacesUsedAtAddress method"
 ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
-This method creates an enumerator for namespaces associated with the debug address.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetNamespacesUsedAtAddress(   
-   IDebugAddress*     pAddress,  
-   IEnumDebugFields** ppEnum  
-);  
-```  
-  
-```csharp  
-int GetNamespacesUsedAtAddress(  
-   IDebugAddress        pAddress,  
-   out IEnumDebugFields ppEnum  
-);  
-```  
-  
-#### Parameters  
- `pAddress`  
- [in] The debug address.  
-  
- `ppEnum`  
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- There may be several namespaces associated with a given debug address, for example, nested namespaces or multiple `using` statements.  
-  
-## See Also  
- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)   
- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+This method creates an enumerator for namespaces associated with the debug address.
+
+## Syntax
+
+```cpp
+HRESULT GetNamespacesUsedAtAddress( 
+   IDebugAddress*     pAddress,
+   IEnumDebugFields** ppEnum
+);
+```
+
+```csharp
+int GetNamespacesUsedAtAddress(
+   IDebugAddress        pAddress,
+   out IEnumDebugFields ppEnum
+);
+```
+
+#### Parameters
+ `pAddress`
+
+ [in] The debug address.
+
+ `ppEnum`
+
+ [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ There may be several namespaces associated with a given debug address, for example, nested namespaces or multiple `using` statements.
+
+## See Also
+- [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

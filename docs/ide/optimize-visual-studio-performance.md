@@ -1,16 +1,15 @@
 ---
 title: Improve performance if Visual Studio is slow
+titleSuffix: ""
 ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "performance [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 f1_keywords:
   - "vs.performancecenter"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -18,11 +17,15 @@ ms.workload:
 
 This article provides some suggestions to try if you find that Visual Studio is running slowly. You can also take a look at [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) for more suggestions on how to improve performance.
 
-## Upgrade to Visual Studio 2017 version 15.6 or later
+## Upgrade Visual Studio
 
-If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) for free to check out its improved performance. Solutions load two to three times faster in Visual Studio 2017, with performance improvements in other areas too. Visual Studio 2017 is side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
+If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) or [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) for free to check out its improved performance. Solutions load two to three times faster than in Visual Studio 2015, with performance improvements in other areas too. Visual Studio 2017 and Visual Studio 2019 are side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
 
-If you are currently using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017).
+::: moniker range="vs-2017"
+
+If you're already using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017).
+
+::: moniker-end
 
 ## Extensions and tool windows
 
@@ -40,9 +43,9 @@ Additionally, do not run your solution from a USB drive. Copy it to your HDD or 
 
 ## Help us improve
 
-Your feedback helps us improve. Use the **Report a Problem** feature to “record” a trace and send to us. Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
+Your feedback helps us improve. Use the **Report a Problem** feature to “record” a trace and send to us. Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## See also
 
 - [Performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

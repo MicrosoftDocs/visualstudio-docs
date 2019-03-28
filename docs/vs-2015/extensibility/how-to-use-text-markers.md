@@ -1,20 +1,15 @@
 ---
 title: "How to: Use Text Markers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - using text markers"
 ms.assetid: 76eed51c-eecb-4579-823e-13df2f0526b9
 caps.latest.revision: 14
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Use Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
  [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
  [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   
  [How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)
-

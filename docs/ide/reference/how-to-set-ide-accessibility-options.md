@@ -2,30 +2,27 @@
 title: "How to: Set IDE accessibility options"
 description: "Learn how to set accessibility options in Visual Studio that will make its integrated development environment (IDE) easier for everyone to use, including for people who have low vision to read and for people who have limited dexterity to write."
 ms.date: 08/22/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # How to: Set IDE accessibility options
 
 > [!TIP]
-> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] contains features that make it easier for people who have low vision to read and for people who have limited dexterity to write. These features include changing the size and color of text in editors, changing the size of text and buttons on toolbars, and auto-completion for methods and parameters, to name a few.
 
- In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible. You can also customize the default shortcut keys available with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible. You can also customize the default shortcut keys available with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Editors, dialogs, and tool windows
 

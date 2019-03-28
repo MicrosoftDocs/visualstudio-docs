@@ -1,19 +1,16 @@
 ---
 title: "Define validation constraints for UML models | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML model, validation constraints"
 ms.assetid: 87b3b0da-122d-4121-9318-200c38ff49d0
 caps.latest.revision: 49
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Define validation constraints for UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -473,6 +470,3 @@ private bool NoDependencyLoops(ValidationContext context,
 ## See Also  
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "How to: Write a Visualizer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,9 +18,9 @@ helpviewer_keywords:
   - "visualizers, writing"
 ms.assetid: 625a0d4f-abcc-43f2-9f8c-31c131a4378e
 caps.latest.revision: 27
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Write a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,6 +75,3 @@ You can write a custom visualizer for an object of any managed class except for 
  [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)   
  [How to: Test and Debug a Visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)   
  [Visualizer Security Considerations](../debugger/visualizer-security-considerations.md)
-
-
-

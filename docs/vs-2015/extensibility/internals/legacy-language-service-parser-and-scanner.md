@@ -1,21 +1,16 @@
 ---
 title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "parsers, language services [managed package framework]"
   - "language services [managed package framework], Parsers"
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
 caps.latest.revision: 21
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Legacy Language Service Parser and Scanner
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -137,4 +132,3 @@ namespace MyNamespace
  [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)   
  [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)   
  [Brace Matching in a Legacy Language Service](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)
-

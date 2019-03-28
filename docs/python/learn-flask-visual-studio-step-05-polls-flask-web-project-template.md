@@ -1,14 +1,14 @@
 ---
-title: Tutorial - Learn Flask in Visual Studio, step 5
+title: Learn Flask tutorial in Visual Studio step 5, Polls project template
+titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features of the Polls Flask Web Project and Polls Flask/Jade Web Project templates.
-ms.date: 09/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/07/2019
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.custom: seodec18
+ms.workload:
   - python
   - data-science
 ---
@@ -349,6 +349,6 @@ Running a web app on your development computer is just one step in making the ap
 
 - Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
-- Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs as well as Cosmos DB.
+- Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](/python/azure/?view=azure-python) to work with Azure storage services like tables and blobs as well as Cosmos DB.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with Azure DevOps Projects](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).

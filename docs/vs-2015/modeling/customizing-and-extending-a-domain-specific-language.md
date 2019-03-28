@@ -1,19 +1,16 @@
 ---
 title: "Customizing and Extending a Domain-Specific Language | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, creating solutions"
 ms.assetid: b155eb79-4e0a-4a99-a6f2-ca4f811fb5ca
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing and Extending a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,6 +72,3 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
-
-
-

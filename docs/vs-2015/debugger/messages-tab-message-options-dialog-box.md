@@ -1,21 +1,16 @@
 ---
 title: "Messages Tab, Message Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "message options, Messages"
 ms.assetid: fb9fa211-e82c-40a5-9e4b-ba8de07313c0
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Messages Tab, Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,6 +39,3 @@ Use the **Messages** tab to select which message types to list in [Messages View
   
   **Save Settings as Default**  
   Save the current settings for later use as message search options. These settings are also saved when exiting Spy++.
-
-
-

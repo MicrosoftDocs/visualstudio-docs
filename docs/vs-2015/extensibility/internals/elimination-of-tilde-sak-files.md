@@ -1,22 +1,17 @@
 ---
 title: "Elimination of ~SAK Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "temporary files"
   - "~sak files"
   - "source control plug-ins, ~SAK files"
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Elimination of ~SAK Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,4 +48,3 @@ In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capabili
   
 ## See Also  
  [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
-

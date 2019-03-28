@@ -1,14 +1,9 @@
 ---
 title: "Test Guide for Source Control Plug-ins | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "plug-ins, source control"
   - "source control [Visual Studio SDK], testing plug-ins"
@@ -17,8 +12,8 @@ helpviewer_keywords:
   - "source control plug-ins, test guide"
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
 caps.latest.revision: 27
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Test Guide for Source Control Plug-ins
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -108,4 +103,3 @@ This section provides guidance for testing your source control plug-in with [!IN
   
 ## See Also  
  [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)
-

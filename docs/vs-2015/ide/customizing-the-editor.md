@@ -1,14 +1,9 @@
 ---
 title: "Customizing the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors, Code Editor customization"
   - "Code Editor, customizing"
@@ -16,7 +11,7 @@ ms.assetid: 7f4eee2a-586f-49ae-a763-4d9c0ac5bc71
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Customizing the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,6 +36,3 @@ You can customize the formatting, tabs, fonts and colors, IntelliSense, and many
  [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)   
  [Documents, Environment, Options Dialog Box](../ide/reference/documents-environment-options-dialog-box.md)   
  [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
-
-
-

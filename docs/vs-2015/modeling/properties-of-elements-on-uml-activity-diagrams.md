@@ -1,12 +1,9 @@
 ---
 title: "Properties of elements on UML activity diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.activitydiagram.shapes.properties"
 helpviewer_keywords: 
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "activity diagrams, properties"
 ms.assetid: 9849d45e-65d5-46bd-a319-757e90b7c748
 caps.latest.revision: 19
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of elements on UML activity diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +54,3 @@ On a UML activity diagram, each element on the diagram has properties. To see th
 ## See Also  
  [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)
-
-
-

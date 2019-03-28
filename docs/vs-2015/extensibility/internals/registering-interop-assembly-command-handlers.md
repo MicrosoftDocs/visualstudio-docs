@@ -1,21 +1,16 @@
 ---
 title: "Registering Interop Assembly Command Handlers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "interop assemblies, command handlers"
   - "command handling with interop assemblies, registering"
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
 caps.latest.revision: 20
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Registering Interop Assembly Command Handlers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ A VSPackage must register with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] s
   
  The Managed Package Framework (MPF) provides this functionality through the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> class.  
   
- [Command Table Format Reference](http://msdn.microsoft.com/en-us/09e9c6ef-9863-48de-9483-d45b7b7c798f) resources are located in unmanaged satellite UI dlls.  
+ [Command Table Format Reference](http://msdn.microsoft.com/09e9c6ef-9863-48de-9483-d45b7b7c798f) resources are located in unmanaged satellite UI dlls.  
   
 ## Command Handler Registration of a VSPackage  
  A VSPackage acting as a handler for user interface (UI)-based commands requires a registry entry named after the VSPackage `GUID`. This registry entry specifies the location of the VSPackage's UI resource file and the menu resource within that file. The registry entry itself is located under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\*\<Version>*\Menus, where *\<Version>* is the version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], for example 9.0.  
@@ -70,4 +65,3 @@ HKEY_LOCAL_MACHINE\Software\VisualStudio\9.0Exp\
 ## See Also  
  [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands and Menus That Use Interop Assemblies](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)
-

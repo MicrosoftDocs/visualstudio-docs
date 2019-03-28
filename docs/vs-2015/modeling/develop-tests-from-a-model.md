@@ -1,19 +1,16 @@
 ---
 title: "Develop tests from a model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tests and requirements"
 ms.assetid: 40f87192-ba85-4552-8804-314a678261ae
 caps.latest.revision: 22
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Develop tests from a model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -176,6 +173,3 @@ Assert (countAfter == countBefore = 1);
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "Opening a Dynamic Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "tool windows, dynamic"
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
 caps.latest.revision: 22
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Opening a Dynamic Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,4 +49,3 @@ Tool windows are typically opened from a command on a menu, or an equivalent key
 3.  Build the project and start debugging. The experimental instance should appear. You should not see the tool window.  
   
 4.  Open a project in the experimental instance. The tool window should appear.
-

@@ -1,18 +1,13 @@
 ---
 title: "Installing the Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "visual-studio-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "visual-studio-sdk"
+ms.topic: conceptual
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 caps.latest.revision: 4
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Installing the Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,10 +56,3 @@ vs_community.exe /s /installSelectableItems VS_SDK_GROUPV1
 ```  
   
  Note that you must use the Visual Studio installer that matches your installed version of Visual Studio. For example, if you have Visual Studio Enterprise installed on your computer, you must run the Visual Studio Enterprise installer (vs_enterprise.exe).
-
-
-
-
-
-
-

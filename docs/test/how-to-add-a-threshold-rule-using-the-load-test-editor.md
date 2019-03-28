@@ -1,5 +1,5 @@
 ---
-title: "Add a Threshold Rule for load testing in Visual Studio"
+title: "Add a Threshold Rule for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,13 +10,13 @@ helpviewer_keywords:
 ms.assetid: 3d8fac8f-426f-4155-9ced-f7cd4c79792c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add a threshold rule using the load test editor
 
 Threshold rules in load tests compare a performance counter value with either a constant value or another performance counter value.
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To add a threshold rule
 

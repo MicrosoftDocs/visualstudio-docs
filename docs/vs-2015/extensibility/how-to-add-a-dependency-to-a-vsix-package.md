@@ -1,14 +1,9 @@
 ---
 title: "How to: Add a Dependency to a VSIX Package | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "package reference"
   - "package assembly"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "vsix reference"
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Add a Dependency to a VSIX Package
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +28,6 @@ You can set up a VSIX package deployment that installs any dependencies that are
 3.  To add another VSIX that is not installed: : in the **Add New Dependency** dialog box, select **File on file system** and then use the **Browse** button to select the VSIX.  
   
 ## See Also  
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
  [Preparing Extensions for Windows Installer Deployment](../extensibility/preparing-extensions-for-windows-installer-deployment.md)
-

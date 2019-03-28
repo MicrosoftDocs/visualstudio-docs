@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl::StartProfiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Starts profiling on the scripting engine. The scripting engine creates an instan
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartProfiling(  
     [in] REFCLSID clsidProfilerObject,  
     [in] DWORD dwEventMask,  

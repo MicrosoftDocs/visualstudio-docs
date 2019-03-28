@@ -1,21 +1,16 @@
 ---
 title: "Servicing Guidelines for Isolated Shell Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio Shell integrated mode, serviceability"
   - "Shell integrated mode [Visual Studio], serviceability"
 ms.assetid: 747d1a47-b8b3-4e8b-93c0-768724be48f2
 caps.latest.revision: 16
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Servicing Guidelines for Isolated Shell Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +36,3 @@ When you distribute a Visual Studio isolated shell application, you must be able
 -   Updating shared files can cause application compatibility issues because an update to one application may change the version of a file used by a second application that has not been updated. Installers for products that share files count references to the shared files. Therefore, uninstalling a product does not affect shared files beyond decrementing the count of installed instances.  
   
 -   The Quick Fix Engineering (QFE) installer reverts versions of files to the versions of the products that the QFE installer serviced. This process potentially breaks an application that had delivered an updated shared file.
-

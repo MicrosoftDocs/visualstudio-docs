@@ -1,23 +1,18 @@
 ---
 title: "Graphics Log Document | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.vsglog.error"
   - "vs.graphics.experiment"
   - "vs.graphics.vsglog"
 ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
 caps.latest.revision: 34
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Graphics Log Document
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,6 +111,3 @@ The Graphics Log document is the record of graphics events that occurred while y
 ## See Also  
  [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
  [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)
-
-
-

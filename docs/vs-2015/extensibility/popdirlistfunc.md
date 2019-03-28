@@ -1,22 +1,17 @@
 ---
 title: "POPDIRLISTFUNC | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "POPLISTFUNC"
 helpviewer_keywords: 
   - "POPDIRLISTFUNC callback function"
 ms.assetid: 0ee90fd2-5467-4154-ab4c-7eb02ac3a14c
 caps.latest.revision: 15
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # POPDIRLISTFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,4 +56,3 @@ typedef BOOL (*POPDIRLISTFUNC)(
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md)   
  [Error Codes](../extensibility/error-codes.md)
-

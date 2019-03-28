@@ -1,20 +1,15 @@
 ---
 title: "Walkthrough: Using a Shell Command with an Editor Extension | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - add a menu command"
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
 caps.latest.revision: 47
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Walkthrough: Using a Shell Command with an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -724,4 +719,3 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
-

@@ -1,8 +1,6 @@
 ---
 title: Set Radix Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.setradix"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

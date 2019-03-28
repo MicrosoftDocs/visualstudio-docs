@@ -1,14 +1,9 @@
 ---
 title: "Annotating Function Parameters and Return Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "_Outptr_opt_result_bytebuffer_to_"
   - "_Inout_updates_all_opt_"
@@ -128,9 +123,9 @@ f1_keywords:
   - "_Ret_null_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 17
-author: "corob-msft"
-ms.author: gewarren
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: jillfra
 ---
 # Annotating Function Parameters and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -503,6 +498,3 @@ This article describes typical uses of annotations for simple function parameter
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-
-
-

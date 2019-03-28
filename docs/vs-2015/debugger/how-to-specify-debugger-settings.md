@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Debugger Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "options, debugging"
 ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
 caps.latest.revision: 26
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Specify Debugger Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +46,3 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify various setting
  [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Common Macros for Build Commands and Properties](http://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)
-
-
-

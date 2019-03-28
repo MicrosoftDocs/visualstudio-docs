@@ -1,21 +1,16 @@
 ---
 title: "IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugSymbolProviderDirect::GetCurrentModulesInfo"
   - "GetCurrentModulesInfo"
 ms.assetid: b3b45ed2-ea4e-4389-b78a-11fc9796a6c1
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -65,4 +60,3 @@ int GetCurrentModulesInfo(
   
 ## See Also  
  [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
-

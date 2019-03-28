@@ -1,14 +1,9 @@
 ---
 title: "How to: Debug COM Servers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "container information"
 ms.assetid: 9f013c2b-0306-4b34-ba7f-d4445a874da1
 caps.latest.revision: 19
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How to: Debug COM Servers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ Debugging COM server applications poses a unique set of problems that are not al
  [How to: Debug COM Clients and Servers Using RPC Debugging](../debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md)   
  [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
-
-
-

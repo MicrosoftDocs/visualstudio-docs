@@ -1,12 +1,9 @@
 ---
 title: "Bind Windows Forms controls to data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +18,7 @@ ms.assetid: 0163a34a-38cb-40b9-8f38-3058a90caf21
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind Windows Forms controls to data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +31,7 @@ You can bind data sources to controls by dragging objects from the **Data Source
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ## Bind to  data in a DataGridView control  
- For DataGridView, the entire table is bound to that single control. When you drag a DataGridView to the form, a tool strip for navigating records (<xref:System.Windows.Forms.BindingNavigator>) also appears. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray. In the following illustration, a TableAdapterManager is also added because the Customers table has a relation to the Orders table. These variables are all declared in the auto-generated code as private members in the form class. The auto-generated code for filling the DataGridView is located in the form_load event handler. The code for saving the data to update the database is located in the Save event handler for the BindingNavigator. You can move or modify this code as needed.  
+ For DataGridView, the entire table is bound to that single control. When you drag a DataGridView to the form, a tool strip for navigating records (<xref:System.Windows.Forms.BindingNavigator>) also appears. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), TableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray. In the following illustration, a TableAdapterManager is also added because the Customers table has a relation to the Orders table. These variables are all declared in the auto-generated code as private members in the form class. The auto-generated code for filling the DataGridView is located in the form_load event handler. The code for saving the data to update the database is located in the Save event handler for the BindingNavigator. You can move or modify this code as needed.  
   
  ![GridView with BindingNavigator](../data-tools/media/raddata-gridview-with-bindingnavigator.png "raddata GridView with BindingNavigator")  
   
@@ -62,4 +59,3 @@ You can bind data sources to controls by dragging objects from the **Data Source
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
-

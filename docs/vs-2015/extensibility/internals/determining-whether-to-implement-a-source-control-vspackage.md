@@ -1,20 +1,15 @@
 ---
 title: "Determining Whether to Implement a Source Control VSPackage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control packages, about source control packages"
 ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 caps.latest.revision: 25
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Determining Whether to Implement a Source Control VSPackage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ This section elaborates the choices of source control plug-ins and source contro
   
 ## See Also  
  [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
-

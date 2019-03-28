@@ -1,19 +1,14 @@
 ---
 title: "Network Usage | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 45fa397d-d7a1-4c4c-9c97-ede6c21643bd
 caps.latest.revision: 12
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Network Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,6 +71,3 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
  [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)   
  [Visual Studio blog: Introducing Visual Studio’s network inspector](http://go.microsoft.com/fwlink/?LinkId=535022)   
  [Channel 9 Video: VS Diagnostics tools – New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
-
-
-

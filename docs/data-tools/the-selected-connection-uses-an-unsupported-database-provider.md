@@ -5,9 +5,7 @@ ms.topic: reference
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---

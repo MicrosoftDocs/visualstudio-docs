@@ -1,22 +1,17 @@
 ---
 title: "Dynamically Adding Menu Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "DYNAMICITEMSTART"
   - "menu items, adding dynamically"
   - "menus, adding dynamic items"
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 caps.latest.revision: 38
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Dynamically Adding Menu Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -360,4 +355,3 @@ public sealed class DynamicMenuItemsPackage : Package
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-

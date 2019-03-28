@@ -1,24 +1,19 @@
 ---
 title: "Detach | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: d9d1b52c-7f28-467d-b1e0-512afc4e46c9
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Detach
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specifed. Profiling must have been initialized by using the sampling method.  
+The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specified. Profiling must have been initialized by using the sampling method.  
   
  Profiling that was started with either the **Launch** or the **Attach** options can be disconnected with **Detach**. The profiler can be reattched by using subsequent **Attach** commands.  
   
@@ -65,6 +60,3 @@ VSPerfCmd.exe /Shutdown
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)
-
-
-

@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "walkthroughs [text templates], directive processor"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 dev_langs:
  - CSharp
  - VB
@@ -327,7 +325,7 @@ End Property
             {
                 XmlDocument d = new XmlDocument();
 
-                using (XmlTextReader reader = new XmlTextReader(fileName))
+                using (XmlReader reader = XmlReader.Create(fileName))
                 {
                     try
                     {
@@ -577,7 +575,7 @@ End Property
 
                 Dim d As XmlDocument = New XmlDocument()
 
-                Using reader As XmlTextReader = New XmlTextReader(fileName)
+                Using reader As XmlReader = XmlReader.Create(fileName)
 
                     Try
                         d.Load(reader)

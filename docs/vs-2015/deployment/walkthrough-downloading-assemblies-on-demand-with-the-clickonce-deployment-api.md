@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: d20e2789-8621-4806-b5b7-841122da1456
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -130,6 +125,3 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../includ
   
 ## See Also  
  <xref:System.Deployment.Application.ApplicationDeployment>
-
-
-

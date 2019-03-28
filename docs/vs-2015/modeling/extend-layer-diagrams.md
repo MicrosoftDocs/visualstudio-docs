@@ -1,22 +1,17 @@
 ---
 title: "Extend layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, creating extensions"
   - "layer models"
 ms.assetid: 83fca301-b008-485a-87eb-218050e71451
 caps.latest.revision: 41
-author: "alexhomer1"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Extend layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,6 +62,3 @@ You can write code to create and update layer diagrams, and to validate the stru
  [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)   
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)
-
-
-

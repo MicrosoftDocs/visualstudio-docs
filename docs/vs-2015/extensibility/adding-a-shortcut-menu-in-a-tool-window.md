@@ -1,14 +1,9 @@
 ---
 title: "Adding a Shortcut Menu in a Tool Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "context menus, adding to tool windows"
   - "menus, context menus"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "tool windows, adding context menus"
 ms.assetid: 50234537-9e95-4b7e-9cb7-e5cf26d6e9d2
 caps.latest.revision: 38
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Shortcut Menu in a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -280,4 +275,3 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "IDebugGenericFieldDefinition::ConstructInstantiation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "ConstructInstantiation"
   - "IDebugGenericFieldDefinition::ConstructInstantiation"
 ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
 caps.latest.revision: 9
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ int ConstructInstantiation(
   
 ## See Also  
  [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)
-

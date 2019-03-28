@@ -1,8 +1,6 @@
 ---
 title: Fonts and Colors, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.FontsAndColors"
@@ -24,21 +22,19 @@ helpviewer_keywords:
 ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Fonts and Colors, Environment, Options Dialog Box
-The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools / Options**, and then selecting **Environment / Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.
 
+Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.
 
- Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.
+**Show settings for**
 
- **Show settings for**
- Lists all of the user interface elements for which you can change font and color schemes. After selecting an item from this list you can customize color settings for the item selected in **Display items**.
+Lists all of the user interface elements for which you can change font and color schemes. After selecting an item from this list you can customize color settings for the item selected in **Display items**.
 
 -   **Text Editor**
 
@@ -49,7 +45,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
      Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.
 
     > [!NOTE]
-    >  As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.
+    > As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.
 
 -   **Statement Completion**
 
@@ -61,32 +57,41 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
 
 -   **Environment Font**
 
-     Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for.** For example, this option applies to the **Start Page** but would not affect the **Output** window.
+     Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
+
+     ::: moniker range="vs-2017"
+
+     For example, this option applies to the **Start Page** but does not affect the **Output** window.
+
+     ::: moniker-end
 
 -   **[All Text Tool Windows]**
 
      Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.
 
     > [!NOTE]
-    >  Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.
+    > Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.
 
 **Use Defaults**
+
 Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.
 
 **Font (bold type indicates fixed-width fonts)**
+
 Lists all the fonts installed on your system. When the drop-down menu first appears, the current font for the element selected in the **Show settings for** field is highlighted. Fixed fonts — which are easier to align in the editor — appear in bold.
 
 **Size**
+
 Lists available point sizes for the highlighted font. Changing the size of the font affects all **Display items** for the **Show settings for** selection.
 
 **Display items**
+
 Lists the items for which you can modify the foreground and background color.
 
 > [!NOTE]
 > **Plain Text** is the default display item. As such, properties assigned to **PlainText** will be overridden by properties assigned to other display items. For example, if you assign the color blue to **PlainText** and the color green to **Identifier**, all identifiers will appear in green. In this example, **Identifier** properties override **PlainText** properties.
 
-
- Some of display items include:
+Some of display items include:
 
 |Display item|Description|
 |------------------|-----------------|
@@ -197,37 +202,50 @@ Lists the items for which you can modify the foreground and background color.
 |**XML Text**|Plain text element content.|
 |**XSLT Keyword**|XSLT element names.|
 
- **Item foreground**
- Lists the available colors you can choose for the foreground of the item selected in **Display items**. Because some items are related, and should therefore maintain a consistent display scheme, changing the foreground color of text also changes the defaults for elements such as Compiler Error, Keyword, or Operator.
+**Item foreground**
 
- **Automatic** Items can inherit the foreground color from other display items such as **Plain Text**. Using this option, when you change the color of an inherited display item, the color of the related display items also change automatically. For example, if you selected the **Automatic** value for **Compiler Error** and later changed the color of **Plain Text** to Red, **Compiler Error** would also automatically inherit the color Red.
+Lists the available colors you can choose for the foreground of the item selected in **Display items**. Because some items are related, and should therefore maintain a consistent display scheme, changing the foreground color of text also changes the defaults for elements such as Compiler Error, Keyword, or Operator.
 
- **Default** The color that appears for the item the first time you start Visual Studio. Clicking the **Use Defaults** button resets to this color.
+**Automatic**
 
- **Custom**
- Displays the Color dialog box to allow you to set a custom color for the item selected in the Display items list.
+Items can inherit the foreground color from other display items such as **Plain Text**. Using this option, when you change the color of an inherited display item, the color of the related display items also change automatically. For example, if you selected the **Automatic** value for **Compiler Error** and later changed the color of **Plain Text** to Red, **Compiler Error** would also automatically inherit the color Red.
+
+**Default**
+
+The color that appears for the item the first time you open Visual Studio. Clicking the **Use Defaults** button resets to this color.
+
+**Custom**
+
+Displays the Color dialog box to allow you to set a custom color for the item selected in the Display items list.
 
 > [!NOTE]
 > Your ability to define custom colors may be limited by the color settings for your computer display. For example, if your computer is set to display 256 colors and you select a custom color from the **Color** dialog box, the IDE defaults to the closest available **Basic color** and displays the color black in the **Color** preview box.
 
+**Item background**
 
- **Item background**
- Provides a color palette from which you can choose a background color for the item selected in **Display items**. Because some items are related, and should therefore maintain a consistent display scheme, changing the background color of text also changes the defaults for elements such as Compiler Error, Keyword, or Operator.
+Provides a color palette from which you can choose a background color for the item selected in **Display items**. Because some items are related, and should therefore maintain a consistent display scheme, changing the background color of text also changes the defaults for elements such as Compiler Error, Keyword, or Operator.
 
- **Automatic** Items can inherit the background color from other display items such as **Plain Text**. Using this option, when you change the color of an inherited display item, the color of the related display items also change automatically. For example, if you selected the **Automatic** value for **Compiler Error** and later changed the color of **Plain Text** to Red, **Compiler Error** would also automatically inherit the color Red.
+**Automatic**
 
- **Default** The color that appears for the item the first time you start Visual Studio. Clicking the **Use Defaults** button resets to this color.
+Items can inherit the background color from other display items such as **Plain Text**. Using this option, when you change the color of an inherited display item, the color of the related display items also change automatically. For example, if you selected the **Automatic** value for **Compiler Error** and later changed the color of **Plain Text** to Red, **Compiler Error** would also automatically inherit the color Red.
 
- **Custom**
- Displays the Color dialog box to allow you to set a custom color for the item selected in the Display items list.
+**Default**
 
- **Bold**
- Select this option to display the text of selected **Display items** in bold text. Bold text is easier to identify in the editor.
+The color that appears for the item the first time you open Visual Studio. Clicking the **Use Defaults** button resets to this color.
 
- **Sample**
- Displays a sample of the font style, size, and color scheme for the **Show settings for** and **Display items** selected. You can use this box to preview the results as you experiment with different formatting options.
+**Custom**
 
-## See Also
+Displays the Color dialog box to allow you to set a custom color for the item selected in the Display items list.
+
+**Bold**
+
+Select this option to display the text of selected **Display items** in bold text. Bold text is easier to identify in the editor.
+
+**Sample**
+
+Displays a sample of the font style, size, and color scheme for the **Show settings for** and **Display items** selected. You can use this box to preview the results as you experiment with different formatting options.
+
+## See also
 
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)

@@ -1,23 +1,18 @@
 ---
 title: "How to: Generate Code Metrics Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code metrics results, generate"
   - "code metrics results"
   - "generate code metrics results"
 ms.assetid: 7bd2c906-ee9c-484a-9550-4cddecc8f042
 caps.latest.revision: 18
-author: "erickson-doug"
+author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Generate Code Metrics Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ You can decide to generate code metrics results for either an entire solution or
   
 ## See Also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)
-
-
-

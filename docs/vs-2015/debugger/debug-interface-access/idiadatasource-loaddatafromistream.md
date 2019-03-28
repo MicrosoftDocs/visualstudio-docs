@@ -1,23 +1,18 @@
 ---
 title: "IDiaDataSource::loadDataFromIStream | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaDataSource::loadDataFromIStream method"
 ms.assetid: 8fe33eea-1457-4b8c-ae19-f1ede5578483
 caps.latest.revision: 10
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # IDiaDataSource::loadDataFromIStream
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +37,7 @@ HRESULT loadDataFromIStream ( 
 |Value|Description|  
 |-----------|-----------------|  
 |E_PDB_FORMAT|Attempted to access a file with an obsolete format.|  
-|E_INVALIDARG|Invalidparameter.|  
+|E_INVALIDARG|Invalid parameter.|  
 |E_UNEXPECTED|Data source has already been prepared.|  
   
 ## Remarks  
@@ -59,6 +54,3 @@ HRESULT loadDataFromIStream ( 
  [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)   
  [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)   
  [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
-
-
-

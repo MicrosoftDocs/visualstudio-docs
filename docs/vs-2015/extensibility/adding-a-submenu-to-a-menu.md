@@ -1,14 +1,9 @@
 ---
 title: "Adding a Submenu to a Menu | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "context menus"
   - "submenus, cascading"
@@ -16,8 +11,8 @@ helpviewer_keywords:
   - "menus, creating cascading submenus"
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
 caps.latest.revision: 44
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Adding a Submenu to a Menu
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -158,4 +153,3 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
 ## See Also  
  [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

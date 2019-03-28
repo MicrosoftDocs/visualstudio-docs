@@ -1,14 +1,9 @@
 ---
 title: "Code Generation and T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 84
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Code Generation and T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,6 +119,3 @@ namespace Fabrikam.FirstJob
 ## See Also  
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
-
-
-

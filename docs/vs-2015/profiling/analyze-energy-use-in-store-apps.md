@@ -1,14 +1,9 @@
 ---
 title: "Analyze energy use in Store apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,9 +11,9 @@ dev_langs:
   - "C++"
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 caps.latest.revision: 39
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Analyze energy use in Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -147,11 +142,8 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+-   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
 -   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
-
-
-

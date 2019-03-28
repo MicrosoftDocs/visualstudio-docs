@@ -1,22 +1,17 @@
 ---
 title: "IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IPropertyProxyEESide::ResolveAssemblyRef"
 helpviewer_keywords: 
   - "IPropertyProxyEESide::ResolveAssemblyRef"
 ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -71,4 +66,3 @@ int ResolveAssemblyRef(
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)
-

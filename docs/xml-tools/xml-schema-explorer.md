@@ -1,19 +1,17 @@
 ---
 title: "XML Schema Explorer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # XML Schema Explorer
 
-The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
+The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
 
  The **XML Schema Explorer** enables you to do the following:
 
@@ -27,7 +25,7 @@ The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the X
 
 -   Sort the tree by document order, type, or name. For more information, see [Sorting, filtering, and grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md).
 
--   Open the XML Editor and jump to code locations in the XSD file. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).
+-   Open the XML editor and jump to code locations in the XSD file. For more information, see [Integration with XML editor](../xml-tools/integration-with-xml-editor.md).
 
 -   Generate sample XML for global elements.
 
@@ -35,7 +33,7 @@ The **XML Schema Explorer** provides a hierarchal view of the schema set through
 
 -   If you are on the [Start View](../xml-tools/start-view.md), click the **XML Schema Explorer** link.
 
--   If you are on the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) and have nodes in your workspace, use the context menu to select the **XML Schema Explorer**.
+-   If you are on the [Graph View](../xml-tools/graph-view.md) or the [Content Model View](../xml-tools/content-model-view.md) and have nodes in your workspace, use the context (right-click) menu to select the **XML Schema Explorer**.
 
 -   You can also select the **XML Schema Explorer** from the **View** menu.
 

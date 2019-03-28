@@ -1,15 +1,13 @@
 ---
 title: "How to: Reference an MSBuild Project SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/25/2018"
-ms.technology: msbuild
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, SDKs, SDK"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Use MSBuild project SDKs
@@ -90,7 +88,7 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] dynamically resolves the path to the project SDK based on the name and version you specified.  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] also has a list of registered SDK resolvers which are plug-ins that locate project SDKs on your machine.  These plug-ins include:
 
 1. A NuGet-based resolver that queries your configured package feeds for NuGet packages that match the ID and version of the SDK you specified.<br/>
-   This resolver is only active if you specified an optional version and it can be used for any custom project SDK.  
+   This resolver is only active if you specified an optional version and it can be used for any custom project SDK.
 2. A .NET CLI resolver that resolves SDKs that are installed with .NET CLI.<br/>
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` which are part of the product.
 3. A default resolver that resolves SDKs that were installed with MSBuild.
@@ -106,11 +104,11 @@ The NuGet-based SDK resolver supports specifying a version in your [global.json]
 }
 ```
 
-Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your *global.json*.  
+Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your *global.json*.
 
 ## See also
 
- [MSBuild concepts](../msbuild/msbuild-concepts.md)   
- [Customize your build](../msbuild/customize-your-build.md)   
- [Packages, metadata, and frameworks](/dotnet/core/packages)   
- [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)
+- [MSBuild concepts](../msbuild/msbuild-concepts.md)
+- [Customize your build](../msbuild/customize-your-build.md)
+- [Packages, metadata, and frameworks](/dotnet/core/packages)
+- [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)

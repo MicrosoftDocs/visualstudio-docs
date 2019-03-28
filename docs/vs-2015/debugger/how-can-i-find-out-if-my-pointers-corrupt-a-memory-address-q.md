@@ -1,14 +1,9 @@
 ---
 title: "How Can I Find Out If My Pointers Corrupt a Memory Address? | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -24,9 +19,9 @@ helpviewer_keywords:
   - "corrupted memory address"
 ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
 caps.latest.revision: 22
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +44,3 @@ Problem Description
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

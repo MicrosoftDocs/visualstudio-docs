@@ -1,19 +1,14 @@
 ---
 title: "Step 6: Add a Timer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 09e7930b-cab6-4a22-9a6f-72e23f489585
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 6: Add a Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ Timer
 -   To go to the next tutorial step, see [Step 7: Keep Pairs Visible](../ide/step-7-keep-pairs-visible.md).  
   
 -   To return to the previous tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Debugging at Design Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,9 +20,9 @@ helpviewer_keywords:
   - "design-time debugging"
 ms.assetid: 35bfdd2c-6f60-4be1-ba9d-55fce70ee4d8
 caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Walkthrough: Debugging at Design Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,6 +78,3 @@ You can use the Visual Studio **Immediate** window to execute a function or subr
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugger Basics](../debugger/debugger-basics.md)
-
-
-

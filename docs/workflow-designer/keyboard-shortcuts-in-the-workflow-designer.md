@@ -2,14 +2,12 @@
 title: "Workflow Designer - Keyboard Shortcuts in the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "WFDKeyboardShortcuts.UI"
 ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -49,7 +47,7 @@ The following list shows the gestures used to construct a flowchart by keyboard.
 
 - To resize a flowchart, move an activity past the current border of the flowchart using the arrow keys. The flowchart is resized automatically.
 
-- To set an activity as the start node, use the **Set as StartNode** command in the context menu.
+- To set an activity as the start node, use the **Set as StartNode** command in the right-click menu.
 
 - To connect activities:
 

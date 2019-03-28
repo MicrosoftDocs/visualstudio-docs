@@ -1,8 +1,6 @@
 ---
 title: "CA1019: Define accessors for attribute arguments"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1019"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 197f2378-3c43-427e-80de-9ec25006c05c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

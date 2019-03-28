@@ -204,7 +204,7 @@ namespace SDKSample
         /// <param name="filename">
         ///   The path and name of the file containing the package.</param>
         /// <returns>
-        ///   The package contained within the specifed file.</returns>
+        ///   The package contained within the specified file.</returns>
         private Package GetPackage(string filename)
         {
             Package inputPackage = null;

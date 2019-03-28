@@ -1,19 +1,14 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 caps.latest.revision: 66
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: MikeJo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Diagnose problems after deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +48,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
   
-    ![Set up symbols path in build defintion TFS 2013](../debugger/media/ffr-tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+    ![Set up symbols path in build definition TFS 2013](../debugger/media/ffr-tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6).  
   
@@ -369,8 +364,3 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  ![Debug with untrusted symbols path?](../debugger/media/ffr-ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")  
   
  **A:** This message appears when the symbols path in the build manifest file (\<*ProjectName*>.BuildInfo.config) isn't included in the list of trusted symbol paths. You can add the path to the symbols path list in the debugger options.
-
-
-
-
-

@@ -1,20 +1,15 @@
 ---
 title: "How to: Provide a Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, providing"
 ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
 caps.latest.revision: 23
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # How to: Provide a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,4 +138,3 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
  [How to: Get a Service](../extensibility/how-to-get-a-service.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)
-

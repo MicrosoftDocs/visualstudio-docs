@@ -1,20 +1,15 @@
 ---
 title: "Binding Breakpoints | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "breakpoints, binding"
 ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
+ms.author: gregvanl
+manager: jillfra
 ---
 # Binding Breakpoints
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the re
   
 ## See Also  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)
-

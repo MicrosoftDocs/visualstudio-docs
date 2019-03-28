@@ -1,19 +1,14 @@
 ---
 title: "Working with XML Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 465cd132-2e36-435d-920b-50b767c2217c
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,17 +53,11 @@ XML and its related technologies play a large role in the way data is handled in
  [Debugging XSLT](../xml-tools/debugging-xslt.md)  
  Discusses how to debug style sheets using the Visual Studio debugger.  
   
- [XML Standards Reference](http://msdn.microsoft.com/en-us/79c78508-c9d0-423a-a00f-672e855de401)  
- Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
+ [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
   
- [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)  
- Provides an explanation of the design-time tools for creating datasets.  
-  
- [XML Web Services in Managed Code](http://msdn.microsoft.com/en-us/c9a7dc25-3e68-4723-bfb7-de4320830196)  
+ [XML Web Services in Managed Code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  Discusses how to create and deploy XML Web services and how to access XML Web services.  
   
 ## See Also  
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
-
-
-

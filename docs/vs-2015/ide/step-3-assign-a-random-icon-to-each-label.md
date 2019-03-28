@@ -1,19 +1,14 @@
 ---
 title: "Step 3: Assign a Random Icon to Each Label | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: 0ba5ed7a-9aaa-41f4-95d2-e3c2d567bc79
 caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Step 3: Assign a Random Icon to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +79,3 @@ Matching game with random icons
 -   To go to the next tutorial step, see [Step 4: Add a Click Event Handler to Each Label](../ide/step-4-add-a-click-event-handler-to-each-label.md).  
   
 -   To return to the previous tutorial step, see [Step 2: Add a Random Object and a List of Icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).
-
-
-

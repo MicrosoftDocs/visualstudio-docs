@@ -1,14 +1,9 @@
 ---
 title: "CA1726: Use preferred terms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "UsePreferredTerms"
   - "CA1726"
@@ -23,7 +18,7 @@ manager: "wpickett"
 # CA1726: Use preferred terms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1726: Use preferred terms](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms) on docs.microsoft.com.  
   
 |||  
 |-|-|  
@@ -73,4 +68,3 @@ For the latest documentation on Visual Studio 2017, see [CA1726: Use preferred t
   
 ## Related Rules  
  [Naming Warnings](../code-quality/naming-warnings.md)
-

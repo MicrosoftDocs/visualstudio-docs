@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Add Extensions to DSL Definitions
 
@@ -32,4 +30,4 @@ A user of an extended DSL can create and save a model that contains instances of
 
 ## See Also
 
-- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+- [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

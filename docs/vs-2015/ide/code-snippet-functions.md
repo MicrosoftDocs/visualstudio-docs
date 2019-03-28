@@ -1,14 +1,9 @@
 ---
 title: "Code Snippet Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code snippets [Visual Studio], functions"
   - "snippets [Visual Studio], functions"
@@ -17,12 +12,12 @@ ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Snippet Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-There are three functions available to use with [!INCLUDE[csprcs](../includes/csprcs-md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
+There are three functions available to use with [!INCLUDE[csprcs](../includes/csprcs-md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   
 ## Functions  
  The following table describes the functions available for use with the `Function` element in code snippets.  
@@ -153,8 +148,5 @@ There are three functions available to use with [!INCLUDE[csprcs](../includes/cs
 ```  
   
 ## See Also  
- [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
+ [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
-
-
-
