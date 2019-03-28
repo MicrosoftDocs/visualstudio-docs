@@ -68,6 +68,7 @@
 #### [Search for a Subscription](search-license.md)
 #### [Export Subscriptions](exporting-subscriptions.md)
 #### [Overallocations](handle-overclaimed-license.md)
+#### [Maximum Usage](maximum-usage.md)
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ## Acquiring Visual Studio Subscriptions
