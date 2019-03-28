@@ -16,5 +16,7 @@
     href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
   - name: Deploy to Azure App Service
     href: docker-deploy-app-service.md
+  - name: How to configure Docker Tools
+    href: docker-tools-configure.md
   - name: Troubleshoot Visual Studio development with Docker
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md
