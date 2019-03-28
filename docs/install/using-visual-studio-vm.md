@@ -2,7 +2,7 @@
 title: "Using Visual Studio on an Azure Virtual Machine"
 titleSuffix: ""
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 03/25/2019
+ms.date: 03/28/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -30,8 +30,8 @@ Images for the most recent major versions, Visual Studio 2017 and Visual Studio 
 
 | Release version                                              | Editions                     |     Product version      |
 |:------------------------------------------------------------:|:----------------------------:|:------------------------:|
-|       Visual Studio 2019: Preview (RC3)                      |           Enterprise         |    Version 16.0.0 RC3    |
-| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.9      |
+|       Visual Studio 2019: Preview (RC4)                      |           Enterprise         |    Version 16.0.0 RC4    |
+| Visual Studio 2017: Latest (Version 15.9)                    |    Enterprise, Community     |      Version 15.9.10     |
 |         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.22     |
 |   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01   |
 |         Visual Studio 2015: RTW                              |             None             | (Expired for servicing)  |
