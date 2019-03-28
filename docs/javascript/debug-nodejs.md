@@ -56,6 +56,11 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     This command starts Chrome with debugging enabled.
 
+    ::: moniker range=">=vs-2019"
+    > [!NOTE]
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**.
+    ::: moniker-end
+
 3. Switch to Visual Studio and set a breakpoint in your source code. (Set the breakpoint in a line of code that allows breakpoints, such as a `return` statement or a `var` declaration).
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
