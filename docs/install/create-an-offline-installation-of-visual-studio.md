@@ -50,9 +50,9 @@ For example, you might have an unreliable internet connection or one that has lo
 
 Now, you can set the **Download all, then install** option from the Options menu in Visual Studio. Here's how.
 
-1. In the Visual Studio IDE, use Search (Ctrl+Q) and enter the phrase "Download".
+1. In the Visual Studio IDE, use the search box (Ctrl+Q) to enter the text "download".
 
-1. In the **Options** window, choose  
+1. In the **Options** window, use the drop-down list to change the installation mode to **Download all, then install**.
 
 
    ![The "Download all, then install" option](media/vs2019-download-all-then-install.png)
