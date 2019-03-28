@@ -206,10 +206,3 @@ Here is a list of editor and productivity features to make writing code more eff
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense. Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |
-
-## Missing a feature or experiencing poor performance?
-
-There are several ways to leave us feedback:
-
-- .NET feature requests can be filed on the [Roslyn repo](https://github.com/dotnet/roslyn/issues).
-- Visual Studio feature requests, bugs, and performance issues can be filed by choosing **Help** > **Send Feedback** > **Report a Problem**.
