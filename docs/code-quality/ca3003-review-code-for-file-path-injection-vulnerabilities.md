@@ -64,7 +64,7 @@ public partial class WebForm : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        string userInput = Request.Params[""UserInput""];
+        string userInput = Request.Params["UserInput"];
         // Assume the following directory structure:
         //   wwwroot\currentWebDirectory\user1.txt
         //   wwwroot\currentWebDirectory\user2.txt
