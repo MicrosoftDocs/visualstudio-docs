@@ -35,21 +35,21 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 #### To create and publish a ClickOnce project
 
-1. Click **New Project** from the **File** menu. The **New Project** dialog box appears.
+1. Open Visual Studio and create a new project.
 
-2. Select **Windows Application** and name it `CmdLineDemo`.
+    Choose the **Windows Desktop Application** project template and name the project `CmdLineDemo`.
 
-3. From the **Build** menu, click the **Publish** command.
+1. From the **Build** menu, click the **Publish** command.
 
     This step ensures that the project is properly configured to produce a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment.
 
     The Publish Wizard appears.
 
-4. In the Publish Wizard, click **Finish**.
+1. In the Publish Wizard, click **Finish**.
 
     Visual Studio generates and displays the default Web page, called *Publish.htm*.
 
-5. Save your project, and make note of the folder location in which it is stored.
+1. Save your project, and make note of the folder location in which it is stored.
 
    The steps above create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] project which has been published for the first time. Now you can reproduce the build outside of the IDE.
 

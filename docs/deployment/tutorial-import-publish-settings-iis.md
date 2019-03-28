@@ -50,9 +50,9 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Create a new ASP.NET project in Visual Studio
 
-1. On the computer running Visual Studio, choose **File** > **New Project**.
+1. On the computer running Visual Studio, create a new project.
 
-1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
+    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
     If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
 
