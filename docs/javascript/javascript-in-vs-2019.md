@@ -38,4 +38,4 @@ For projects developed in Visual Studio 2019, we encourage you to use the TypeSc
 
 ## Projects
 
-UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps/get-started) that run well on Windows.
+UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](https://docs.microsoft.com/microsoft-edge/progressive-web-apps/get-started) that run well on Windows.
