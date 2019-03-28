@@ -55,7 +55,7 @@ Now, you can set the **Download all, then install** option from the Options menu
 1. In the **Options** window, use the drop-down list to change the installation mode to **Download all, then install**.
 
 
-   ![The "Download all, then install" option](media/vs2019-download-all-then-install.png)
+   ![The "Download all, then install" option](media/vs-2019/download-all-then-install.png)
 
 ::: moniker-end
 
