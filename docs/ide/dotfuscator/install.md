@@ -1,13 +1,14 @@
 ---
-title: Install Dotfuscator Community Edition (CE)
+title: Install Dotfuscator Community
 ms.date: 03/28/2019
 ms.devlang: "dotnet"
 ms.topic: conceptual
-keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio, install
+keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio, install
 helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
+  - "Dotfuscator Community"
   - "Dotfuscator"
   - "obfuscation"
   - "protection"
@@ -16,19 +17,19 @@ helpviewer_keywords:
   - "install Dotfuscator"
   - "installing Dotfuscator"
   - "set up Dotfuscator"
-description: "Learn how to install the free Dotfuscator Community Edition included in Visual Studio 2019."
+description: "Learn how to install the free copy of Dotfuscator Community included in Visual Studio 2019."
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
 manager: jillfra
 ---
-# Install Dotfuscator Community Edition (CE)
+# Install Dotfuscator Community
 
 Visual Studio editions 2017 and newer no longer come with Dotfuscator Community installed by default.
 However, installing Dotfuscator Community on your copy of Visual Studio is a simple process.
 
 > [!NOTE]
-> In addition to the versions of Dotfuscator CE shipped with releases of Visual Studio,
+> In addition to the versions of Dotfuscator Community shipped with releases of Visual Studio,
 > PreEmptive Solutions also periodically provides updated versions on its website.
 > If you want to download the **latest version** directly instead of installing from Visual Studio,
 > **[click here to go to the Dotfuscator Downloads page][download]**.
@@ -55,7 +56,7 @@ When run, it will display installation options for the selected Visual Studio ed
 
 ![Install options](media/install_ui.png)
 
-You can then install Dotfuscator CE as an individual component of Visual Studio 2019:
+You can then install Dotfuscator Community as an individual component of Visual Studio 2019:
 
 1. Select the **Individual components** tab.
 2. Under *Code tools*, check the *PreEmptive Protection - Dotfuscator* item.<br/> <br/> ![Individual components](media/install_individually_12.png) <br/> <br/>
@@ -63,11 +64,11 @@ You can then install Dotfuscator CE as an individual component of Visual Studio 
 4. Configure any further installation settings as appropriate for your environment.
 5. When ready to install Visual Studio, click the *Install* button.
 
-Once the installation is complete, you can start using Dotfuscator CE. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
+Once the installation is complete, you can start using Dotfuscator Community. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
 
 ## See also
 
-[This topic in the full Dotfuscator CE User Guide]: https://www.preemptive.com/dotfuscator/ce/docs/help/
+[This topic in the full Dotfuscator Community User Guide]: https://www.preemptive.com/dotfuscator/ce/docs/help/
 
 <!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
