@@ -27,7 +27,7 @@ We designed Visual Studio 2017 to work well in a variety of network and computer
 
 ::: moniker range="vs-2019"
 
-We designed Visual Studio 2019 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio 2019 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 ::: moniker-end
 
@@ -48,22 +48,16 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ::: moniker range="vs-2019"
 
-Now, you can set the **Download all, then install** option from the Options menu in Visual Studio. Here's how.
+After you download the web installer, select the new **Download all, then install** option from Visual Studio. Then, continue with your installation.
 
-1. In the Visual Studio IDE, use the search box (Ctrl+Q) to enter the text "download".
-
-1. In the **Product Updates** section of the **Options** window, use the drop-down list to change the installation mode to **Download all, then install**.
-
-   ![The "Download all, then install" option](media/vs-2019/download-all-then-install.png)
-
-1. Then, when you're ready to install by using the Visual Studio Installer, choose **Continue** to complete your installation.
+   ![The "Download all, then install" option](media/download-all-then-install.png)
 
 ::: moniker-end
 
 We designed the "Download all, then install" feature so that you can download Visual Studio as a single installation for the same computer on which you downloaded it. That way, you can safely disconnect from the web before you install Visual Studio.
 
 > [!IMPORTANT]
-> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer. It's not designed to work that way. <br><br>If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
+> Do not use the "Download all, then install" feature to create an offline cache that you intend to transfer to another computer. It's not designed to work that way. <br><br>If you want to create an offline cache to install Visual Studio on another computer, see the [Use the command line to create a local cache](#use-the-command-line-to-create-a-local-cache) section of this page for information about how to create a local cache, or the [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) page for information about how to create a network cache.
 
 ## Use the command line to create a local cache
 
@@ -112,25 +106,25 @@ Open a command prompt and use one of the commands from the following examples. T
 - For .NET web and .NET desktop development, run:
 
    ```cmd
-    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
+    vs_community.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
     ```
 
 - For .NET desktop and Office development, run:
 
    ```cmd
-    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US
+    vs_community.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US
     ```
 
 - For C++ desktop development, run:
 
    ```cmd
-    vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
+    vs_community.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
     ```
 
 - To create a complete local layout with all features (this will take a long time&mdash;we have _lots_ of features!), run:
 
    ```cmd
-    vs_community.exe --layout c:\vs2017layout --lang en-US
+    vs_community.exe --layout c:\vslayout --lang en-US
     ```
 
   > [!NOTE]
@@ -146,13 +140,13 @@ If you want to install a language other than English, change `en-US` to a locale
 To make sure that you install only the files that you've previously downloaded, use the same command-line options that you used to create the layout cache. For example, if you created a layout cache with the following command:
 
 ```cmd
-vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
+vs_community.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
 ```
 
 Then use this command to run the installation:
 
 ```cmd
-c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
+c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
 ```
 
 > [!NOTE]
