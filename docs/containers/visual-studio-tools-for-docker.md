@@ -87,7 +87,7 @@ Visual Studio 2019 supports developing containerized microservices using Windows
 ::: moniker-end
 
 For a detailed tutorial, see
-[Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-host-app-in-a-container).
+[Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container).
 
 For more information on Azure Service Fabric, see [Service Fabric](/azure/service-fabric).
 
