@@ -399,9 +399,9 @@
             href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
           - name: All keyboard shortcuts
             href: ide/default-keyboard-shortcuts-in-visual-studio.md
-        - name: Tips for .NET developers
+        - name: Tips for C# developers
           displayName: ReSharper
-          href: ide/visual-studio-2017-for-dotnet-developers.md
+          href: ide/csharp-developer-productivity.md
       - name: Use IntelliSense
         href: ide/using-intellisense.md
         items:
