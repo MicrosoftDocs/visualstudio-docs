@@ -54,8 +54,9 @@ Now, you can set the **Download all, then install** option from the Options menu
 
 1. In the **Options** window, use the drop-down list to change the installation mode to **Download all, then install**.
 
-
    ![The "Download all, then install" option](media/vs-2019/download-all-then-install.png)
+
+1. Then, open the Visual Studio Installer, and choose **Continue** to complete your installation.
 
 ::: moniker-end
 
