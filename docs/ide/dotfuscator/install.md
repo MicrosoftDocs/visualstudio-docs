@@ -24,9 +24,8 @@ manager: jillfra
 ---
 # Install Dotfuscator Community Edition (CE)
 
-Visual Studio 2017 introduces a new low-impact installation experience.
-As a result, Dotfuscator Community Edition (Dotfuscator CE) is not installed by default.
-However, it is easy to install Dotfuscator CE even if you have already installed Visual Studio.
+Visual Studio editions 2017 and newer no longer come with Dotfuscator Community installed by default.
+However, installing Dotfuscator Community on your copy of Visual Studio is a simple process.
 
 > [!NOTE]
 > In addition to the versions of Dotfuscator CE shipped with releases of Visual Studio,
@@ -42,7 +41,7 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 1. In the **Quick Launch** (Ctrl+Q) search bar, type `dotfuscator`. <br/> <br/> ![Quick Launch](media/install_in_vs19_12.png) <br/> <br/>
 2. In the Quick Launch results shown, under the *Components* heading, select **Install PreEmptive Protection - Dotfuscator**.
   * If you instead see, under the *Menus* heading, **PreEmptive Protection - Dotfuscator Community**, then Dotfuscator Community is already installed. Select that option to [get started][get-started].
-3. A Visual Studio Installer window will launch, pre-configured with to install Dotfuscator Community.
+3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator Community.
 > You may be required to provide administrator credentials to continue. <br/> <br/> ![Click Install](media/install_in_vs19_34.png) <br/> <br/>
 4. In the Visual Studio Installer window, click *Install*.
 
@@ -56,7 +55,7 @@ When run, it will display installation options for the selected Visual Studio ed
 
 ![Install options](media/install_ui.png)
 
-You can then install Dotfuscator CE as an individual component of Visual Studio 2017:
+You can then install Dotfuscator CE as an individual component of Visual Studio 2019:
 
 1. Select the **Individual components** tab.
 2. Under *Code tools*, check the *PreEmptive Protection - Dotfuscator* item.<br/> <br/> ![Individual components](media/install_individually_12.png) <br/> <br/>

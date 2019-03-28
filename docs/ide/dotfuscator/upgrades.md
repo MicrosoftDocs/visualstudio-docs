@@ -3,7 +3,7 @@ title: Upgrade Dotfuscator Community Edition (CE)
 ms.date: 03/28/2019
 ms.devlang: "dotnet"
 ms.topic: conceptual
-keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, upgrade, command line
+keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio, upgrade, command line
 helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
