@@ -13,11 +13,31 @@ ms.workload:
 ---
 # Code style preferences
 
-Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Each item in the list shows a preview of the preference when selected:
+Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
+
+Each item in the list shows a preview of the preference when selected:
+
+::: moniker range="vs-2017"
 
 ![Code style options](media/code-style-quick-actions-dialog.png)
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+![Code style options](media/vs-2019/code-style-quick-actions-dialog.png)
+
+::: moniker-end
+
 Options set in this window are applicable to your Visual Studio personalization account and aren't associated with a particular project or codebase. In addition, they aren't enforced at build time, including in continuous integration (CI) builds. If you want to associate code style preferences with your project and have the styles enforced during build, specify the preferences in an [.editorconfig file](#editorconfig-files).
+
+::: moniker range=">=vs-2019"
+
+Click **Generate .editorconfig file from settings** to automatically generate a coding style .editorconfig file based on the options you've set on this **Options** page.
+
+![Generate editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file-small.png)
+
+::: moniker-end
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
