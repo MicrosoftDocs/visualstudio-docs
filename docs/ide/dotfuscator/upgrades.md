@@ -1,9 +1,9 @@
 ---
 title: Upgrade Dotfuscator Community Edition (CE)
-ms.date: 02/08/2017
+ms.date: 03/28/2019
 ms.devlang: "dotnet"
 ms.topic: conceptual
-keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, upgrade, command line
+keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, upgrade, command line
 helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "registering Dotfuscator"
   - "Dotfuscator command line"
   - "Dotfuscator Professional"
-description: "Learn how to upgrade the free Dotfuscator Community Edition included in Visual Studio 2017."
+description: "Learn how to upgrade the free Dotfuscator Community Edition included in Visual Studio 2019."
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
@@ -63,7 +63,7 @@ For more information about the advanced application protection features of Dotfu
 
 [This article in the full Dotfuscator CE User Guide][full]
 
-<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
+<!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
 [control-flow]:  https://www.preemptive.com/products/dotfuscator/features#controlflow
 [string-encryption]:  https://www.preemptive.com/products/dotfuscator/features#string

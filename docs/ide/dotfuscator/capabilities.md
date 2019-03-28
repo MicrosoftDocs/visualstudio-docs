@@ -1,9 +1,9 @@
 ---
 title: Capabilities of Dotfuscator
-ms.date: 10/10/2017
+ms.date: 03/28/2019
 ms.devlang: "dotnet"
 ms.topic: conceptual
-keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
+keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio
 helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Dotfuscator"
   - "obfuscation"
   - "protection"
-description: "Learn the capabilities of the free Dotfuscator Community Edition included in Visual Studio 2017."
+description: "Learn the capabilities of the free Dotfuscator Community Edition included in Visual Studio 2019."
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
@@ -56,7 +56,7 @@ Many of these same methods may also be used to enforce [end-of-life deadlines][s
 
 [This topic in the full Dotfuscator CE User Guide][full]
 
-<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
+<!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
 [assemblies]:  https://docs.microsoft.com/dotnet/standard/assembly-format
 [uwp]:  https://www.preemptive.com/blog/article/856-uwp-applications-in-dotfuscator-ce/91-dotfuscator-ce

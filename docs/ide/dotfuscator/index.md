@@ -1,9 +1,9 @@
 ---
 title: Dotfuscator Community Edition (CE)
-ms.date: 10/10/2017
+ms.date: 03/28/2019
 ms.devlang: "dotnet"
 ms.topic: conceptual
-keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
+keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
 helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Dotfuscator"
   - "obfuscation"
   - "protection"
-description: "Learn how you can protect your .NET applications with the free Dotfuscator Community Edition included in Visual Studio 2017."
+description: "Learn how you can protect your .NET applications with the free Dotfuscator Community Edition included in Visual Studio 2019."
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
@@ -41,8 +41,8 @@ For more information on how Dotfuscator fits into a secure software development 
 
 ## About Dotfuscator CE
 
-Your copy of Microsoft Visual Studio 2017 includes a copy of **_PreEmptive Protection - Dotfuscator_ Community Edition**, also known as Dotfuscator CE, free for personal use.
-For instructions on how to install the version of Dotfuscator CE included with Visual Studio 2017, see the [Installation page][install].
+Your copy of Microsoft Visual Studio 2019 includes a copy of ***PreEmptive Protection - Dotfuscator* Community Edition**, also known as Dotfuscator CE, free for personal use.
+For instructions on how to install the version of Dotfuscator CE included with Visual Studio 2019, see the [Installation page][install].
 
 Dotfuscator CE offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.
 Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][app-protection] features included in Dotfuscator CE are:
@@ -75,7 +75,7 @@ This page and its subpages provide a high-level overview of Dotfuscator CE's fea
 
 See [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][get-started].
 
-<!-- Copyright © 2017 PreEmptive Solutions, LLC -->
+<!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
 [assemblies]:  https://docs.microsoft.com/dotnet/standard/assembly-format
 [software-protection]:  https://www.preemptive.com/software-protection
