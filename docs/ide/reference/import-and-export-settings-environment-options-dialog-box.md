@@ -1,6 +1,6 @@
 ---
 title: Import and Export Settings, Environment, Options Dialog Box
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Profiles"
@@ -11,9 +11,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Import and Export Settings, Environment, Options Dialog Box
+# Options dialog box: Environment \> Import and Export Settings
 
-Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+Use this page to specify where your user settings file is saved. For more information about settings, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ### See also
 

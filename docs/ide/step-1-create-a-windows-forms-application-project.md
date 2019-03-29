@@ -61,9 +61,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. 
 
-1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
-
-   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+1. In the **Configure your new project** window, type or enter *PictureViewer* in the **Project name** box. Then, choose **Create**.
 
 ::: moniker-end
 
