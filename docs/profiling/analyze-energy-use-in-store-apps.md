@@ -143,11 +143,11 @@ if (performance && performance.mark) {
 
 ## Other resources
 
-- The **Connection state and cost management** sections for [C#/VB/C++ and XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) and [JavaScript and HTML](/previous-versions/windows/apps/hh452983(v=win.10)) describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.
+- The **Connection state and cost management** sections for [C#/VB/C++ and XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.
 
    The Visual Studio simulator for UWP apps enables you to simulate data connection properties of the network information APIs. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)
 
-- The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md).
+- The **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md).
 
 ## See also
 
