@@ -118,7 +118,7 @@ You can use the above procedure to add more functions to your function app proje
 
 Any settings you added in the local.settings.json must be also added to the function app in Azure. These settings are not uploaded automatically when you publish the project.
 
-To access your app settings, go to the azure portal at [https://ms.portal.azure.com/](https://ms.portal.azure.com/). Under **Functions Apps**, select **Function Apps** and highlight your function name:
+To access your app settings, go to the Azure portal at [https://ms.portal.azure.com/](https://ms.portal.azure.com/). Under **Functions Apps**, select **Function Apps** and highlight your function name:
 
 ![azure functions menu](media/azure-functions-image9.png)
 
@@ -128,7 +128,7 @@ From the **Overview** tab select **Application settings** under **Configured fea
 
 From here you can set Application Settings for the function app, where you can add new application settings or modify existing ones:
 
-![application settings area of azure portal](media/azure-functions-image11.png)
+![application settings area of Azure portal](media/azure-functions-image11.png)
 
 One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When publishing from Visual Studio for Mac, this value should be set to **beta**.
 
