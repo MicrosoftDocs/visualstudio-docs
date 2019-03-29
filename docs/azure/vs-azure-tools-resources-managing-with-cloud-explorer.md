@@ -22,7 +22,7 @@ Like the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud 
 * Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
 
 > [!NOTE]
-> To view Cloud Explorer, press **Ctrl**+**Q** to invoke **Quick Launch**, and enter **Cloud Explorer**.
+> To view Cloud Explorer, press **Ctrl**+**Q** to activate the search box, and then enter **Cloud Explorer**.
 
 ## Add an Azure account to Cloud Explorer
 
