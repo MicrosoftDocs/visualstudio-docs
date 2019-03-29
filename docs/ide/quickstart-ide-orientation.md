@@ -119,15 +119,15 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ![Output window in Visual Studio](media/build-output-minimal.png)
 
-## Quick Launch
+## Search box
 
-The **Quick Launch** search box is a quick and easy way to navigate to pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+The search box is a quick and easy way to navigate to pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
 ::: moniker range="vs-2017"
 
 1. Locate the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
-2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+2. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch search box in Visual Studio 2017](media/quickstart-IDE-quick-launch.png)
 
@@ -137,11 +137,11 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 ::: moniker range=">=vs-2019"
 
-1. Locate the **Quick Launch** search box in the upper part of the IDE, just to the right of the menus. (Alternatively, press **Ctrl**+**Q** to access it.)
+1. Press **Ctrl**+**Q** to activate the search box in the upper part of the IDE.
 
-2. Type **verbosity** into the **Quick Launch** search box. From the displayed results, choose **Change MSBuild verbosity**.
+2. Type **verbosity** into the search box. From the displayed results, choose **Change MSBuild verbosity**.
 
-   ![Quick launch search box in Visual Studio 2019](media/vs-2019/quick-launch-verbosity.png)
+   ![Search box in Visual Studio 2019](media/vs-2019/quick-launch-verbosity.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -157,7 +157,7 @@ The **Quick Launch** search box is a quick and easy way to navigate to pretty mu
 
 ## Send Feedback menu
 
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
+Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu near the top of the Visual Studio window.
 
 ::: moniker range="vs-2017"
 

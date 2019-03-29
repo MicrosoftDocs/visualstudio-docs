@@ -18,7 +18,7 @@ Talk to us! We're interested in your ideas for improving our products and docume
 
 ## I want to report a problem with Visual Studio
 
-If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
+If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ## I want to make a suggestion about Visual Studio features
 

@@ -47,7 +47,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 
 ::: moniker range=">=vs-2019"
 
-When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
+When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with a search box, the menu bar, and the standard toolbar at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
 
 ::: moniker-end
 
@@ -110,7 +110,7 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 ### Add a TextBlock control
 
-1.  Enter **Ctrl**+**Q** to invoke **Quick Launch** and type **Toolbox**. Choose **View > Toolbox** from the results list.
+1.  Enter **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
