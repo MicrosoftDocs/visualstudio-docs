@@ -35,11 +35,11 @@ However, there are more features available to users who upgrade their version of
 Registered users of Dotfuscator Community get access to additional features, such as [command-line support][cli], which makes it easy to integrate Dotfuscator Community into your automated build process. Registering also grants access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
 
 Registration is quick, simple, and free of charge.
-To register Dotfuscator Community, see [the Registering Dotfuscator Community section on the Getting Started page of the full Dotfuscator Community User Guide][register-ce].
+To register Dotfuscator Community, see [the instructions in the full Dotfuscator Community User Guide][register-ce].
 
 ## Dotfuscator Professional
 
-While Dotfuscator Community provides a basic level of protection, **_PreEmptive Protection - Dotfuscator_ Professional Edition** includes enhanced obfuscation transforms and protection capabilities. The enhanced transforms and capabilities include:
+While Dotfuscator Community provides a basic level of protection, ***PreEmptive Protection - Dotfuscator Professional*** includes enhanced obfuscation transforms and protection capabilities such as:
 
 * *Intellectual Property Protection*
   * Additional renaming options, including Enhanced Overload Induction™ and randomized identifier selection.

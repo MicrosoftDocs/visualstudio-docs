@@ -42,7 +42,7 @@ For more information on how Dotfuscator fits into a secure software development 
 
 ## About Dotfuscator Community
 
-Your copy of Microsoft Visual Studio 2019 includes a copy of ***PreEmptive Protection - Dotfuscator* Community**, free for personal use.
+Your copy of Microsoft Visual Studio 2019 includes a copy of ***PreEmptive Protection - Dotfuscator Community***, free for personal use.
 (This free version was previously known as Dotfuscator Community Edition or Dotfuscator CE.)
 For instructions on how to install the version of Dotfuscator Community included with Visual Studio 2019, see the [Installation page][install].
 
@@ -66,8 +66,8 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
 
-* If Dotfuscator Community is already installed, **Quick Launch** brings up the *Menu* option to start the Dotfuscator Community user interface. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
-* If Dotfuscator Community is not yet installed, **Quick Launch** brings up the relevant *Install* option. See the [Installation page][install] for details.
+* If Dotfuscator Community is already installed, **Quick Launch** will show the option to start Dotfuscator Community under the *Menus* heading. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
+* If Dotfuscator Community is not yet installed, **Quick Launch** will instead show **Install PreEmptive Protection - Dotfuscator** under the *Individual Components* heading. See the [Installation page][install] for details.
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 

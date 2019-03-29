@@ -22,8 +22,8 @@ manager: jillfra
 
 This page focuses on the capabilities of Dotfuscator Community with some references to advanced options available through [upgrades][upgrades].
 
-Dotfuscator is a *post-build* system for .NET applications.
-With Dotfuscator Community, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense measures][checks] into the application - all without Dotfuscator needing to access the original source code.
+Dotfuscator Community is a *post-build* system for .NET applications.
+With it, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense measures][checks] into the application - all without Dotfuscator needing to access the original source code.
 Dotfuscator protects your application in multiple ways, creating a layered protection strategy.
 
 Dotfuscator Community supports a wide range of .NET assembly and application types, including [Universal Windows Platform (UWP)][uwp] and [Xamarin][xamarin].
@@ -48,7 +48,7 @@ Attackers can attempt to hijack your application in order to circumvent licensin
 
 Dotfuscator Community can inject [application validation code][checks] into your assemblies,
 including [anti-tamper][tamper], [anti-debug][debug], and [anti-rooted device][root] measures.
-When an invalid application state is detected, the validation code can [call upon application code to address to the situation in an appropriate way][check-app].
+When an invalid application state is detected, the validation code can [call upon application code to address the situation in an appropriate way][check-app].
 Or, if you prefer not to write code to handle invalid uses of the application, Dotfuscator can also inject [response][check-action] behaviors, without requiring any modification to your source code.
 
 Many of these same methods may also be used to enforce [end-of-life deadlines][shelflife] for evaluation or trial software.
