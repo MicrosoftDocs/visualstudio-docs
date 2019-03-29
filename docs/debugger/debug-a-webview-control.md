@@ -11,6 +11,7 @@ ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
   - "uwp"
 ---

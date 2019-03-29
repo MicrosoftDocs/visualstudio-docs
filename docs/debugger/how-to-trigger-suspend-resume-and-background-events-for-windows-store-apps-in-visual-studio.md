@@ -66,7 +66,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
 2.  Open the debug property page for the start-up project. In Solution Explorer, select the project. On the **Debug** menu, choose **Properties**.
 
-     For C++ and JavaScript projects, expand **Configuration Properties** and then choose **Debugging**.
+     For C++ projects, expand **Configuration Properties** and then choose **Debugging**.
 
 3.  Do one of the following:
 
@@ -74,7 +74,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
          ![C&#35;&#47;VB debug launch application property](../debugger/media/dbg_csvb_dontlaunchapp.png "DBG_CsVb_DontLaunchApp")
 
-    -   For JavaScript and Visual C++ projects, choose **No** from the **Launch application** list.
+    -   For Visual C++ projects, choose **No** from the **Launch application** list.
 
          ![C&#43;&#43;&#47;VB Launch application debug property](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 
