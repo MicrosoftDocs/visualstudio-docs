@@ -32,7 +32,7 @@ However, there are more features available to users who upgrade their version of
 
 ## Registering Dotfuscator Community
 
-Registered users of Dotfuscator Community get access to additional features, such as [command-line support][cli], which makes it easy to integrate Dotfuscator Community into your automated build process. Registering also grants access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
+Registered users of Dotfuscator Community get access to additional features, such as [command-line support][cli], which makes it easy to integrate Dotfuscator Community into your automated build process. Registering also grants access to a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
 
 Registration is quick, simple, and free of charge.
 To register Dotfuscator Community, see [the instructions in the full Dotfuscator Community User Guide][register-ce].
@@ -43,7 +43,6 @@ While Dotfuscator Community provides a basic level of protection, ***PreEmptive 
 
 * *Intellectual Property Protection*
   * Additional renaming options, including Enhanced Overload Induction™ and randomized identifier selection.
-  * Tooling for decoding obfuscated stack traces.
   * Access to enterprise-level obfuscation transforms, including [transforms targeted at defeating automated code decompilation][control-flow].
   * The ability to [obscure sensitive strings][string-encryption], making a simple search of the decompiled code impossible.
   * The ability to [discreetly embed ownership and distribution strings into your assemblies][watermarking], allowing you to determine the source of unauthorized software leaks.

@@ -68,7 +68,7 @@ ms.workload:
 >  Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application from the command line.
 
 ## Deploying obfuscated assemblies
- Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community Edition](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community Edition User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
+ Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

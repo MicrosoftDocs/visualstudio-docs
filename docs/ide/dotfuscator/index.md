@@ -20,7 +20,7 @@ manager: jillfra
 ---
 # Dotfuscator Community
 
-*PreEmptive Protection - Dotfuscator* provides comprehensive .NET application protection that easily fits into your secure software development lifecycle.
+***PreEmptive Protection - Dotfuscator*** provides comprehensive .NET application protection that easily fits into your secure software development lifecycle.
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
 Dotfuscator works on compiled assemblies without the need for additional programming or even access to source code.
 
@@ -59,7 +59,7 @@ For details on these features, including how they fit into your application prot
 
 Dotfuscator Community offers basic protection out-of-the-box.
 Even more application protection measures are available to registered users of Dotfuscator Community,
-and to users of *PreEmptive Protection - Dotfuscator* Professional Edition, the world's leading [.NET Obfuscator][net-obfuscator].
+and to users of ***PreEmptive Protection - Dotfuscator Professional***, the world's leading [.NET Obfuscator][net-obfuscator].
 For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
