@@ -48,9 +48,9 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ::: moniker range="vs-2019"
 
-After you download the web installer, select the new **Download all, then install** option from Visual Studio. Then, continue with your installation.
+After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
-   ![The "Download all, then install" option](media/vs-2019/download-all-then-install.png)
+   ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
 
 ::: moniker-end
 
