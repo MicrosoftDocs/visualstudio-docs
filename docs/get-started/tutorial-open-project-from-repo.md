@@ -140,7 +140,7 @@ View the following animation to check the work that you completed in the previou
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
-1. If you see a sign-in window, sign in to your account.
+   If you see a sign-in window, sign in to your account.
 
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then choose **Clone**.
 
@@ -149,15 +149,21 @@ View the following animation to check the work that you completed in the previou
     > [!NOTE]
     > What you see in the list box depends on the Azure DevOps repositories that you have access to.
 
-   Visual Studio opens and a notification appears when the clone is complete.
+   Visual Studio opens **Team Explorer** and a notification appears when the clone is complete.
 
      ![The Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/clone-complete-azure-devops.png)
 
-1. If there is a solution file available (specifically, a .sln file), it will appear in the "Solutions and Folders" fly-out menu from **Solution Explorer**. Choose it, and Visual Studio opens your solution.
+1. To view your folders and files, choose the **Show Folder View** link. 
+
+     ![The Solutions section of the Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/show-folder-view-azure-devops.png)
+
+     Visual Studio opens **Solution Explorer**.
+     
+1. Choose the **Solutions and Folders** link to search for a solution file  (specifically, a .sln file) to open.
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
-   If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file in your repo, a "No Solutions Found" message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
  ::: moniker-end
 
