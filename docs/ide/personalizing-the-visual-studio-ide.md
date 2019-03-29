@@ -25,10 +25,10 @@ Many personalization options are exposed through the [Environment Options](../id
 
 - On the menu bar, choose **Tools** > **Options**, and if it's not already expanded, expand the **Environment** node.
 
-- Press **Ctrl**+**Q**, type `environment` in the search box, and then choose **Environment --> General** from the results list.
+- Press **Ctrl**+**Q**, type **environment** in the search box, and then choose **Environment --> General** from the results.
 
-   > [!TIP]
-   > When the dialog box appears, you can press **F1** for help on the various settings on that page.
+> [!TIP]
+> When the Options dialog box appears, you can press **F1** for help on the various settings on that page.
 
 ## Environment color themes
 

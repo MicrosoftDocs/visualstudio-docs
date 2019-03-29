@@ -29,11 +29,11 @@ If you want to publish an application by using ClickOnce deployment, the applica
  For information about creating key files, see [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair).
 
 > [!NOTE]
-> [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports only Personal Information Exchange (PFX) key files that have the *.pfx* extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.
+> Visual Studio supports only Personal Information Exchange (PFX) key files that have the *.pfx* extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.
 
 ## Sign using a certificate
 
-1.  Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, type **project properties** in the search window, or press **Alt**+**Enter** inside **Solution Explorer**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
+1.  Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 2.  Click the **Select from Store** button.
 
