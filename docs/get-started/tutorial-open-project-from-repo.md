@@ -146,7 +146,7 @@ View the following animation to see how to open a project in a GitHub repo by us
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
-   You might see a sign-in window; if so, sign in to your account.
+1. If you see a sign-in window, sign in to your account.
 
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then choose **Clone**.
 
@@ -155,11 +155,17 @@ View the following animation to see how to open a project in a GitHub repo by us
     > [!NOTE]
     > What you see in the list box depends on the Azure DevOps repositories that you have access to.
 
-1. Visual Studio opens and the Team Explorer window appears while it clones your repo. After the clone is complete,  and Solution Explorer opens. A message appears that says *Click on Solutions and Folders above to view a list of Solutions*. Choose **Solutions and Folders**.
+1. Visual Studio opens. In the **Team Explorer** window, a notification appears when the clone is complete.
+
+     ![The Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/clone-complete-azure-devops.png)
+
+1. Choose the **Show Folder View** to see your folders and files. 
+
+      ![The "Show Folder View" link from Team Explorer in Visual Studio](./media/vs-2019/show-folder-view-azure-devops.png)
+
+1. If there is a solution file available (specifically, a .sln file), it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
-
-   A solution file (specifically, a .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
