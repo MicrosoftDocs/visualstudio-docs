@@ -2,6 +2,8 @@
 title: "Step 1: Create a project and add labels to your form"
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 author: TerryGLee
 ms.author: tglee
@@ -18,23 +20,39 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ## To create a project and set properties for a form
 
+::: moniker range="vs-2017"
+
 1.  On the menu bar, choose **File** > **New** > **Project**.
 
-2.  In the **Installed Templates** list, choose either **C#** or **Visual Basic**.
+1.  In the **Installed Templates** list, choose either **C#** or **Visual Basic**.
 
-3.  In the list of templates, choose the **Windows Forms Application** template, name it **Math Quiz**, and then choose the **OK** button.
+1.  In the list of templates, choose the **Windows Forms Application** template, name it **MathQuiz**, and then choose the **OK** button.
 
      A form that's named *Form1.cs* or *Form1.vb* appears, depending on the programming language that you chose.
 
-4.  Choose the form, and then change its **Text** property to **Math Quiz**.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. On the start window, choose **Create a new project**.
+
+1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+
+   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+
+1. Give the project a name, **MathQuiz**, and choose **Create**
+
+::: moniker-end
+
+1.  Choose the form, and then change its **Text** property to **Math Quiz**.
 
      The **Properties** window contains properties for the form.
 
-5.  Change the size of the form to 500 pixels wide by 400 pixels tall.
+1.  Change the size of the form to 500 pixels wide by 400 pixels tall.
 
      You can resize the form by dragging its edges until the correct size appears in the lower-left corner of the integrated development environment (IDE). As an alternative, you can change the values of the **Size** property.
 
-6.  Change the value of the **FormBorderStyle** property to **Fixed3D**, and set the **MaximizeBox** property to **False**.
+1.  Change the value of the **FormBorderStyle** property to **Fixed3D**, and set the **MaximizeBox** property to **False**.
 
      These values prevent quiz takers from resizing the form.
 
