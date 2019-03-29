@@ -58,6 +58,7 @@ For example, a fully charged battery in a tablet has a certain amount of stored 
 
 For example code, see the Windows SDK Sample [LoggingSession sample](https://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336).
 
+::: moniker range="vs-2017"
 **Add marks to JavaScript code**
 
 To add user marks add the following code at the points in your code that you want to mark:
@@ -69,6 +70,7 @@ if (performance && performance.mark) {
 ```
 
 *markDescription* is a string that contains the message to display in the user mark tooltip.
+::: moniker-end
 
 ## Configure your environment for profiling
  To obtain the good estimates, you'll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you'll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.

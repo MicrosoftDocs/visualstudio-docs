@@ -14,6 +14,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
   - "uwp"
 ---
