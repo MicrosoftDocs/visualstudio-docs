@@ -26,7 +26,7 @@ Potentially untrusted HTTP request input reaches an SQL command's text.
 
 ## Rule description
 
-When working with untrusted input and SQL commands, be mindful of SQL injection attacks. An SQL injection attack can execute malicious SQL commands, compromising the security and integrity of your application. Typical techniques include injection of a single quotation mark or apostrophe, which is the SQL literal string delimiter; two dashes, which signifies a SQL comment; and a semicolon, which indicates that a new command follows. For more information, see [SQL Injection](/sql/relational-databases/security/sql-injection).
+When working with untrusted input and SQL commands, be mindful of SQL injection attacks. An SQL injection attack can execute malicious SQL commands, compromising the security and integrity of your application. Typical techniques include using a single quotation mark or apostrophe, which is the SQL literal string delimiter; two dashes, which signifies a SQL comment; and a semicolon, which indicates that a new command follows. For more information, see [SQL Injection](/sql/relational-databases/security/sql-injection).
 
 This rule attempts to find input from HTTP requests reaching an SQL command's text.
 

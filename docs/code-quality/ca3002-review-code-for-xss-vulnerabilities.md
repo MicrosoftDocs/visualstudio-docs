@@ -28,7 +28,7 @@ Potentially untrusted HTTP request input reaches raw HTML output.
 
 When working with untrusted input from web requests, be mindful of cross-site scripting (XSS) attacks. An XSS attack injects untrusted input into raw HTML output, allowing the attacker to execute malicious scripts or maliciously modify content in your web page. A typical technique is putting `<script>` elements with malicious code in input. For more information, see [OWASP's XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)).
 
-This rule attempts to find raw input from HTTP requests reaching raw HTML output.
+This rule attempts to find input from HTTP requests reaching raw HTML output.
 
 > [!NOTE]
 > This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that outputs raw HTML, this rule won't produce a warning.

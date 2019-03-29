@@ -28,7 +28,7 @@ Potentially untrusted HTTP request input reaches the path of a file operation.
 
 When working with untrusted input from web requests, be mindful of using user-controlled input when specifying paths to files. An attacker may be able to read an unintended file, resulting in information disclosure of sensitive data. Or, an attacker may be able to write to an unintended file, resulting in unauthorized modification of sensitive data or compromising the server's security. A common attacker technique is [Path Traversal](https://www.owasp.org/index.php/Path_Traversal) to access files outside of the intended directory.
 
-This rule attempts to find raw input from HTTP requests reaching a path in a file operation.
+This rule attempts to find input from HTTP requests reaching a path in a file operation.
 
 > [!NOTE]
 > This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that writes to a file, this rule won't produce a warning.
