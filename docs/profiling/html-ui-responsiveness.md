@@ -173,7 +173,7 @@ if (performance.mark && performance.measure) {
 
  ![Diagnostic session ruler](../profiling/media/js_htmlvizprof_ruler.png "JS_HTMLVizProf_Ruler")
 
- The timeline shows when app lifecyle events, like the activation event, occur and it shows user marks (user mark triangles) that you can add to your code. You can select the events to show tooltips with more information. For more info about user marks, see [Mark code for analysis](#ProfileMark) in this topic.
+ The timeline shows when app lifecycle events, like the activation event, occur and it shows user marks (user mark triangles) that you can add to your code. You can select the events to show tooltips with more information. For more info about user marks, see [Mark code for analysis](#ProfileMark) in this topic.
 
  App lifecycle events appear as diamond symbols. These are DOM events, which include the following:
 
