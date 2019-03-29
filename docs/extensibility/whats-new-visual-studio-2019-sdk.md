@@ -30,14 +30,14 @@ In addition to -- or instead of -- registering support for a particular file ext
 For example, an editor that supports all .json files would apply this `ProvideEditorExtension` attribute to its package:
 
 ```cs
-[ProvideEditorExtension(typeof(MyEditor), ".json", MyEditor.Priorty)]
+[ProvideEditorExtension(typeof(MyEditor), ".json", MyEditor.Priority)]
 ```
 
 Starting with 16.1, if MyEditor only supports a couple of well-known .json files, it can instead apply these `ProvideEditorFilename` attributes to its package:
 
 ```cs
-[ProvideEditorFilename(typeof(MyEditor), "particular.json", MyEditor.Priorty)]
-[ProvideEditorFilename(typeof(MyEditor), "special.json",    MyEditor.Priorty)]
+[ProvideEditorFilename(typeof(MyEditor), "particular.json", MyEditor.Priority)]
+[ProvideEditorFilename(typeof(MyEditor), "special.json",    MyEditor.Priority)]
 ```
 
 ### UIContexts
