@@ -3,7 +3,7 @@ title: "Introduction to Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
@@ -15,7 +15,7 @@ Azure functions is a way to create and run event-driven snippets of code –– 
 
 ## Requirements
 
-Azure Function tools are included in **Visual Studio for Mac 7.5**.
+Azure Function tools are included in **Visual Studio for Mac 7.5** and newer.
 
 To create and deploy functions you also need an Azure subscription, which is available for free from [https://azure.com/free](https://azure.com/free).
 
@@ -29,6 +29,10 @@ To create and deploy functions you also need an Azure subscription, which is ava
 3. Select the initial Azure Functions template that you wish to use, enter your function name and click **Next**.
 
     ![New Project dialog showing Azure functions templates](media/azure-functions-image2.png)
+
+    > [!TIP]
+    > While the bundled Azure Functions runtime and templates (CLI) are kept as to date as possible, they inevitably get outdated. When creating a new Functions project, Visual Studio for Mac will check for updates to the CLI and will notify you as shown in the image below. Simply click on the button to download the updated templates.
+    > ![New project dialog showing Azure functions updates are available](media/azure-functions-update.png)
 
     Depending on the type of function you select, the next page will prompt you to enter details, such as access rights, as illustrated in the following image:
 
@@ -100,9 +104,6 @@ You can use the above procedure to add more functions to your function app proje
     |**[Resource Group](/azure/azure-resource-manager/resource-group-overview)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
     |**[Service Plan](/azure/azure-functions/functions-scale)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
 
-    > [!CAUTION]
-    > There is a bug in the 7.6 version of Visual Studio for Mac that will cause publishing to fail with a provisioning error if you attempt to create a custom service plan with the **Pricing** set to **Consumption**. This will be fixed in the next service release.
-
 5. Click **Next** to create a storage account. An Azure storage account is required by the Functions runtime. Click **Custom** to create a general purpose storage account, or use an existing one:
 
     ![Publish to azure menu option](media/azure-functions-image8.png)
@@ -112,9 +113,6 @@ You can use the above procedure to add more functions to your function app proje
 7. You may be prompted with a dialog during publishing informing you to "Update Functions Version on Azure". Click **Yes**:
 
     ![Publish to azure menu option](media/azure-functions-image12.png)
-
-> [!CAUTION]
-> There is a bug in the 7.6 version of Visual Studio for Mac where the `FUNCTIONS_EXTENSION_VERSION` is not correctly set to "beta", meaning that your function may not run. To fix this, go to your [Function app settings](#function-app-settings) and set `FUNCTIONS_EXTENSION_VERSION` from "-1" to "beta".
 
 ## Function app settings
 
