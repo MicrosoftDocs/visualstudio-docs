@@ -98,9 +98,9 @@ The split view bar appears at the top of XAML view when the XAML editor is in th
 
 Markup zoom enables you to size **XAML** view. You can zoom from 20% to 400%.
 
-## Objects and Timeline window
+## Document Outline window
 
-The Objects and Timeline window in XAML Designer helps you perform these tasks:
+The Document Outline window in XAML Designer is similar to the **Objects and Timeline** window in Blend for Visual Studio. **Document Outline** helps you perform these tasks:
 
 - View the hierarchical structure of all elements on the artboard.
 
@@ -110,15 +110,15 @@ The Objects and Timeline window in XAML Designer helps you perform these tasks:
 
 - Use the right-click menu (context menu) for selected elements. The same menu is also available for selected elements in the artboard.
 
-To view the **Objects and Timeline** window, on the menu bar choose **View** > **Objects and Timeline**.
+To view the **Document Outline** window, on the menu bar choose **View** > **Other Windows** > **Document Outline**.
 
-![Objects and Timeline window](../designers/media/objects-and-timeline-window.png)
+![Document Outline window in Visual Studio](../designers/media/document-outline-window.png)
 
-These are the options available in the **Objects and Timeline** window:
+These are the options available in the **Document Outline** window:
 
 **Document outline**
 
-The main view in the **Objects and Timeline** window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.
+The main view in the **Document Outline** window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.
 
 **Show/hide**
 
@@ -130,7 +130,7 @@ Locks or unlocks artboard elements that correspond to items in the document outl
 
 **Return scope to pageRoot**
 
-The option at the top of the **Objects and Timeline** window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.
+The option at the top of the **Document Outline** window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.
 
 ## Properties window
 
