@@ -33,7 +33,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Open a project from a GitHub repo
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
 1. From the top menu bar, choose **File** > **Open** > **Open from Source Control**.
 
@@ -65,7 +65,7 @@ View the following animation to check the work that you completed in the previou
 
 ## Open a project from an Azure DevOps repo
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
 1. From the top menu bar, choose **File** > **Open** > **Open from Source Control**.
 
@@ -97,7 +97,7 @@ View the following animation to check the work that you completed in the previou
    A solution file (specifically, a .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
-  
+
 ## Next steps
 
 If you're ready to code with Visual Studio, dive into any of the following language-specific tutorials:
