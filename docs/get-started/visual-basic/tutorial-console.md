@@ -97,7 +97,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](./media/vs-2019/vb-name-your-project.-whatname.png)
+   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](./media/vs-2019/vb-name-your-project-whatname.png)
 
    Visual Studio opens your new project.
 

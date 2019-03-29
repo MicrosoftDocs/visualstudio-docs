@@ -2,6 +2,8 @@
 title: "Step 1: Create a project and add a table to your form"
 ms.date: 11/04/2016
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
 author: TerryGLee
 ms.author: tglee
@@ -15,7 +17,23 @@ The first step in creating a matching game is to create the project and add a ta
 
 ## To create a project and add a table to your form
 
+::: moniker range="vs-2017"
+
 1. On the menu bar, choose **File** > **New** > **Project**.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. On the start window, choose **Create a new project**.
+
+1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+
+   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+
+1. Give the project a name, **MatchingGame**, and choose **Create**
+
+::: moniker-end
 
 2. If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.
 

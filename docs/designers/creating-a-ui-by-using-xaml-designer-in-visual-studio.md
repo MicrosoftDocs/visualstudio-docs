@@ -1,6 +1,6 @@
 ---
 title: Creating a UI with XAML Designer
-ms.date: 11/05/2018
+ms.date: 03/28/2019
 ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner"
@@ -98,56 +98,9 @@ The split view bar appears at the top of XAML view when the XAML editor is in th
 
 Markup zoom enables you to size **XAML** view. You can zoom from 20% to 400%.
 
-## Device window
+## Objects and Timeline window
 
-> [!NOTE]
-> If the target platform version (`TargetPlatformVersion`) of a UWP application is 10.0.16299.0 or higher, the **Device** window is not available.
-
-The **Device** window in XAML Designer enables you to simulate at design-time various views, displays, and display options for your project. The **Device** window is available on the **Design** menu when you are working in the XAML Designer. Here's what it looks like:
-
-![Device window](../designers/media/xaml_editor_device_panel.png)
-
-These are the options available in the Device window:
-
-**Display**
-
-Specifies different display sizes and resolutions for the app.
-
-**Orientation**
-
-Specifies different orientations for the app: **Landscape** or **Portrait**.
-
-**Edge**
-
-Specifies different edge alignments for your app: **Both**, **Left**, **Right**, or **None**.
-
-**High Contrast**
-
-Preview the app based on the selected contrast setting. This setting, when set to a value other than **Default**, overrides the `RequestedTheme` property set in *App.xaml*.
-
-**Override scaling**
-
-Turns on and off emulation of document scaling within the design surface. This enables you to increase the scaling percentage by one factor. Select the check box to turn on emulation. For instance, if your scaling percentage is 100%, the document within the design surface will scale up to 140%. This option is disabled if the current scaling percentage is 180.
-
-**Minimum width**
-
-Specifies the minimum width setting. The minimum width can be changed in *App.xaml*.
-
-**Theme**
-
-Specifies the app theme. For example, you might switch between a **Dark** and a **Light** theme.
-
-**Show chrome**
-
-Turns on and off the simulated tablet frame around your app in Design view. Select the check box to show the frame.
-
-**Clip to display**
-
-Specifies the display mode. Select the check box to clip the document size to the display size.
-
-## Document Outline window
-
-The Document Outline window in XAML Designer helps you perform these tasks:
+The Objects and Timeline window in XAML Designer helps you perform these tasks:
 
 - View the hierarchical structure of all elements on the artboard.
 
@@ -157,15 +110,15 @@ The Document Outline window in XAML Designer helps you perform these tasks:
 
 - Use the right-click menu (context menu) for selected elements. The same menu is also available for selected elements in the artboard.
 
-To view the **Document Outline** window, on the menu bar choose **View** > **Other Windows** > **Document Outline**.
+To view the **Objects and Timeline** window, on the menu bar choose **View** > **Objects and Timeline**.
 
-![Document Outline window](../designers/media/xaml_editor_doc_outline.png)
+![Objects and Timeline window](../designers/media/objects-and-timeline-window.png)
 
-These are the options available in the **Document Outline** window:
+These are the options available in the **Objects and Timeline** window:
 
-**Document Outline**
+**Document outline**
 
-The main view in the **Document Outline** window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.
+The main view in the **Objects and Timeline** window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.
 
 **Show/hide**
 
@@ -173,19 +126,23 @@ Displays or hides artboard elements that correspond to items in the document out
 
 **Lock/unlock**
 
-Locks or unlocks artboard elements that correspond to items in the Document Outline. Locked elements can't be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press **Ctrl**+**L** to lock elements and **Shift**+**Ctrl**+**L** to unlock them.
+Locks or unlocks artboard elements that correspond to items in the document outline. Locked elements can't be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press **Ctrl**+**L** to lock elements and **Shift**+**Ctrl**+**L** to unlock them.
 
 **Return scope to pageRoot**
 
-The option at the top of the **Document Outline** window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.
+The option at the top of the **Objects and Timeline** window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.
 
 ## Properties window
 
 The **Properties** window enables you to set property values on controls. Here's what it looks like:
 
-![Properties window](../designers/media/xaml_editor_prop_window.png)
+![Properties window](../designers/media/xaml-designer-properties-window.png)
 
-There are various options at the top of the **Properties** window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The **Properties** window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more information on using properties and handling events, see [Intro to controls and patterns](/windows/uwp/design/controls-and-patterns/controls-and-events-intro)
+There are various options at the top of the **Properties** window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol.
+
+To search for a property, start to type the name of the property in the search box. The **Properties** window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button.
+
+For more information on using properties and handling events, see [Intro to controls and patterns](/windows/uwp/design/controls-and-patterns/controls-and-events-intro)
 
 To the right of each property value is a *property marker* that appears as a box symbol. The appearance of the property marker indicates whether there's a data binding or a resource applied to the property. For example, a white box symbol indicates a default value, a black box symbol typically indicates that a local resource has been applied, and an orange box typically indicates a data binding has been applied. When you click the property marker, you can navigate to the definition of a style, open the data binding builder, or open the resource picker.
 
