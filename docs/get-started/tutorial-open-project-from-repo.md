@@ -77,7 +77,7 @@ View the following animation to check the work that you completed in the previou
 
 1. Enter or type the repository location, and then choose **Clone**. 
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+   ![View the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
    Visual Studio opens the project from the repo.
 
@@ -138,7 +138,7 @@ View the following animation to check the work that you completed in the previou
 
 1. In the **Browse a repository** section, choose **Azure DevOps**. 
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+   ![View the 'Clone or check out code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
    If you see a sign-in window, sign in to your account.
 
