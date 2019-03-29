@@ -53,21 +53,21 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
    ![Choose "Solutions and Folders" from the Solution Explorer](./media/open-proj-repo-github-solutions-folders.png)
 
-   ::: moniker-end
+ ::: moniker-end
 
-::: moniker range="vs-2019"
+ ::: moniker range="vs-2019"
 
 1. Open Visual Studio 2019.
 
 1. On the start window, choose **Clone or check out code**.
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark-theme.png)
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
 1. Enter or type the repository location, and then choose **Clone**. 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
-   ::: moniker-end
+ ::: moniker-end
 
 1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
@@ -75,7 +75,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
    If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
-::: moniker-end
+ ::: moniker-end
 
 ::: moniker range="vs-2017"
 
@@ -132,7 +132,7 @@ View the following animation to see how to open a project in a GitHub repo by us
 
    If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
-   ::: moniker-end
+::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -140,7 +140,7 @@ View the following animation to see how to open a project in a GitHub repo by us
 
 1. On the start window, choose **Clone or check out code**.
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark-theme.png)
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
 1. In the **Browse a repository** section, choose **Azure DevOps**. 
 
@@ -155,21 +155,21 @@ View the following animation to see how to open a project in a GitHub repo by us
     > [!NOTE]
     > What you see in the list box depends on the Azure DevOps repositories that you have access to.
 
-1. Visual Studio opens. In the **Team Explorer** window, a notification appears when the clone is complete.
+   Visual Studio opens and a notification appears when the clone is complete.
 
      ![The Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/clone-complete-azure-devops.png)
 
-1. Choose the **Show Folder View** to see your folders and files. 
+1. In the **Team Explorer** window, choose the **Show Folder View** to see your folders and files. 
 
       ![The "Show Folder View" link from Team Explorer in Visual Studio](./media/vs-2019/show-folder-view-azure-devops.png)
 
-1. If there is a solution file available (specifically, a .sln file), it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+  If there is a solution file available (specifically, a .sln file), it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
    If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
-   ::: moniker-end
+ ::: moniker-end
 
 ## Next steps
 
