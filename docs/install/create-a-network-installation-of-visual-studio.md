@@ -87,7 +87,7 @@ xcopy /e c:\vsoffline \\server\products\VS2017
 ```
 
 > [!IMPORTANT]
-> To prevent an error, make sure that your full installation path is less than 80 characters.
+> To prevent an error, make sure that your full layout path is less than 80 characters.
 
 ## Customize the network layout
 
@@ -186,7 +186,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
     ```
 
 > [!IMPORTANT]
-> To prevent an error, make sure that your full installation path is less than 80 characters.
+> To prevent an error, make sure that your full layout path is less than 80 characters.
 >
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code.
