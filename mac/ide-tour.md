@@ -3,15 +3,12 @@ title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
 author: conceptdev
 ms.author: crdun
-ms.date: 02/07/2019
+ms.date: 04/02/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
 ---
 
-# Visual Studio 2019 for Mac Preview tour
-
-> [!NOTE]
-> Visual Studio 2019 for Mac is [now available](installation.md) as a preview for testing.
+# Visual Studio 2019 for Mac tour
 
 Visual Studio for Mac is a .NET _integrated development environment_ on the Mac that can be used to edit, debug, and build code and then publish an app. In addition to expected features, such as a standard editor and debugger, Visual Studio for Mac includes compilers, code completion tools, graphical designers, and source control to ese the software development process.
 
@@ -34,9 +31,9 @@ This article explores various sections of Visual Studio for Mac, providing a loo
 
 Visual Studio for Mac is organized into several sections for managing application files and settings, creating application code, and debugging.
 
-## New start window
+## Start window
 
-When you start Visual Studio 2019 for Mac Preview, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
+When you start Visual Studio 2019 for Mac, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **Skip** and sign in later via the **Visual Studio > Sign in** menu item:
 
 ![Sign in to your Microsoft account](media/ide-tour-2019-start-signin.png)
 
