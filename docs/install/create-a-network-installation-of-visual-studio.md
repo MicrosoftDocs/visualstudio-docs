@@ -80,11 +80,23 @@ See [Automate Visual Studio installation with a response file](automated-install
 
 Host the layout on a network share so it can be run from other machines.
 
+::: moniker range="vs-2017"
+
 Example:
 
 ```cmd
 xcopy /e c:\vsoffline \\server\products\VS2017
 ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```cmd
+xcopy /e c:\vsoffline \\server\products\VS2019
+```
+
+::: moniker-end
 
 > [!IMPORTANT]
 > To prevent an error, make sure that your full layout path is less than 80 characters.
