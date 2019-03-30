@@ -75,6 +75,9 @@ Example:
 xcopy /e c:\vsoffline \\server\products\VS2017
 ```
 
+> [!IMPORTANT]
+> To prevent an error, make sure that your full installation path is less than 80 characters.
+
 ## Customize the network layout
 
 There are several options you can use to customize your network layout. You can create a partial layout that only contains a specific set of [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [workloads, components, and their recommended or optional dependencies](workload-and-component-ids.md). This might be useful if you know that you are going to deploy only a subset of workloads to client workstations. Typical command-line parameters for customizing the layout include:
