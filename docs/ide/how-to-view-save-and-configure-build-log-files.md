@@ -32,7 +32,9 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 
 2.  In the **Output** window, click somewhere in the text.
 
-3.  Press **CTRL-S** (Visual Studio will prompt you for a location to save the build output).
+3.  Press **Ctrl**+**S**.
+
+   Visual Studio prompts you for a location to save the build output.
 
 ## To change the amount of information included in the build log
 
