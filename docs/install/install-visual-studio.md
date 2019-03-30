@@ -98,7 +98,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Choose **Continue**.
 
-   ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")
+   ![License Terms and Privacy Statement](media/privacy-and-license-terms.png "Microsoft License Terms and Privacy Statement")
 
 ## Step 4 - Select workloads
 
@@ -108,13 +108,17 @@ After the installer is installed, you can use it to customize your installation 
 
 ::: moniker range="vs-2017"
 
-   ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
+   ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+   ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
+
+     For example, choose the "ASP.NET and web development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
 
 ::: moniker-end
@@ -140,6 +144,7 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker range="vs-2019"
 
+  ![Visual Studio 2019 - Install individual components](media/vs-2019/vs-installer-individual-components.png "Install Visual Studio individual components")
 
 ::: moniker-end
 
@@ -156,6 +161,7 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="vs-2019"
 
+  ![Visual Studio 2019 - Install language packs](media/vs-2019/vs-installer-language-packs.png "Install Visual Studio language packs")
 
 ::: moniker-end
 
@@ -169,12 +175,15 @@ Another way that you can change the default language is by running the installer
 
 **New in 15.7**: You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
-  ![Visual Studio 2017 - Change the installation location](media/installation-options-by-location.png "Change the installation location")
+  ![Visual Studio 2017 - Change installation locations](media/installation-options-by-location.png "Change the installation location")
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
+You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+
+  ![Visual Studio 2019 - Change installation locations](media/vs-2019/vs-installer-installation-locations.png "Change the installation location")
 
 ::: moniker-end
 
