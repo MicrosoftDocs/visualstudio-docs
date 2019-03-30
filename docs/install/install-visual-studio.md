@@ -134,7 +134,7 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker range="vs-2017"
 
-  ![Visual Studio 2017 - Install individual components](media/vs2017-components.PNG "Install Visual Studio individual components")
+  ![Visual Studio 2017 - Install individual components](media/vs-installer-installing-components.png "Install Visual Studio individual components")
 
 ::: moniker-end
 
@@ -150,7 +150,7 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="vs-2017"
 
-  ![Visual Studio 2017 - Install language packs](media/vs2017-languages.PNG "Install Visual Studio language packs")
+  ![Visual Studio 2017 - Install language packs](media/vs-installer-installing-language-packs.png "Install Visual Studio language packs")
 
 ::: moniker-end
 
