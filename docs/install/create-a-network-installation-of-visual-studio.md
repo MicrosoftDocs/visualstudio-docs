@@ -31,6 +31,8 @@ Download the edition of Visual Studio you want. Make sure to click **Save**, and
 
 Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;should match one of the following.
 
+::: moniker range="vs-2017"
+
 |Edition | Download|
 |-------------|-----------------------|
 |Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=15&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2017) |
@@ -38,12 +40,25 @@ Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;sh
 
 Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe), [vs_feedbackclient.exe](https://aka.ms/vs/15/release/vs_feedbackclient.exe), [vs_teamexplorer.exe](https://aka.ms/vs/15/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/15/release/vs_testagent.exe), [vs_testcontroller.exe](https://aka.ms/vs/15/release/vs_testcontroller.exe), and [vs_testprofessional.exe](https://aka.ms/vs/15/release/vs_testprofessional.exe).
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+|Edition | Download|
+|-------------|-----------------------|
+|Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019+rc) |
+|Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019+rc) |
+
+Other supported bootstrappers include [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe), [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_teamexplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_testagent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_testcontroller.exe).
+
+::: moniker-end
+
 ## Create an offline installation folder
 
 You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use one of the commands from the following examples.
 
    > [!IMPORTANT]
-   > A complete Visual Studio layout requires a minimum of 35 GB of disk space and can take some time to download.  See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
+   > A complete Visual Studio layout requires a minimum of 35 GB of disk space and can take some time to download. See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
    >
    > [!TIP]
    > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
@@ -55,10 +70,6 @@ You must have an internet connection to complete this step. To create an offline
 - For Visual Studio Professional, run:
 
   ```vs_professional.exe --layout c:\vsoffline```
-
-- For Visual Studio Community, run:
-
-  ```vs_community.exe --layout c:\vsoffline```
 
 ## Modify the response.json file
 
