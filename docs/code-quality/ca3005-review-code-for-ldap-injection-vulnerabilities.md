@@ -31,7 +31,7 @@ When working with untrusted input, be mindful of Lightweight Directory Access Pr
 This rule attempts to find input from HTTP requests reaching an LDAP statement.
 
 > [!NOTE]
-> This rule can't track data across assemblies. For example, if one assembly catches an exception and then passes it to another assembly that executes an LDAP statement, this rule won't produce a warning.
+> This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that executes an LDAP statement, this rule won't produce a warning.
 
 > [!NOTE]
 > There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
@@ -52,45 +52,6 @@ If you know the input has been validated or escaped to be safe.
 ## Pseudo-code examples
 
 ### Violation
-
-```csharp
-using System;
-
-public partial class WebForm : System.Web.UI.Page
-{
-    protected void Page_Load(object sender, EventArgs eventArgs)
-    {
-        try
-        {
-            object o = null;
-            o.ToString();
-        }
-        catch (Exception e)
-        {
-            this.Response.Write(e.ToString());
-        }
-    }
-}
-```
-
-```vb
-Imports System
-
-Partial Public Class WebForm 
-    Inherits System.Web.UI.Page
-
-    Protected Sub Page_Load(sender As Object, eventArgs As EventArgs)
-        Try
-            Dim o As Object = Nothing
-            o.ToString()
-        Catch e As Exception
-            Me.Response.Write(e.ToString())
-        End Try
-    End Sub
-End Class
-```
-
-### Solution
 
 ```csharp
 using System;
