@@ -36,6 +36,8 @@ Run Visual Studio Community 2019 and click Create new project. Choose ASP.NET Co
 
 In the solution explorer window on the right, you can view the contents of the new project. They're described here.
 
+![Visual Studio 2019 ASP.NET Core Project](media/vs2019-solution-explorer.png)
+
 ### wwwroot
 
 The wwwroot folder holds static files that will be publicly accessible from the web application. It typically holds stylesheets, client-side script files, and images.
@@ -84,11 +86,18 @@ Replace the <div> content in Index.cshtml with this markup:
 
 Run the application again. You should see that the page now displays the current time, but it's always midnight! That's not right.
 
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-app-in-browser.png)
+
 ## Debugging the Application
 
 Add a breakpoint to the OnGet method where we're assigning a value to Time and this time Start Debugging the application.
 
-Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data. Change it to use `DateTime.Now` and continue executing. The new code for `OnGet` should be:
+Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data. 
+
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-breakpoint.png)
+
+
+Change it to use `DateTime.Now` and continue executing. The new code for `OnGet` should be:
 
 ```csharp
 public void OnGet()
@@ -98,6 +107,9 @@ public void OnGet()
 ```
 
 You should now see the actual server time in the browser when you navigate to the app.
+
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-app-fixed-in-browser.png)
+
 
 ## Next Steps
 
