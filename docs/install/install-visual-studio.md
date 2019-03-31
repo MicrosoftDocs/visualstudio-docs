@@ -25,7 +25,7 @@ ms.technology: vs-installation
 
 ::: moniker range="vs-2019"
 
-Welcome to a new way to install Visual Studio! In this version, we've made it easy to choose and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
 
 ::: moniker-end
 
@@ -217,7 +217,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 ::: moniker-end
 
 > [!IMPORTANT]
-> You can set a different drive only when you first install Visual Studio. If you've already installed Visual Studio and want to change drives, you must uninstall it and then reinstall it.
+> You can set a different drive only when you first install Visual Studio. If you've already installed Visual Studio and want to change drives, you must uninstall and then reinstall it.
 
 For more information, see the [Select installation locations](change-installation-locations.md) page.
 
