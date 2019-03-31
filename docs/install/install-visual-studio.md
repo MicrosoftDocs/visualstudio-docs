@@ -130,29 +130,33 @@ Run the bootstrapper file to install the Visual Studio Installer. This new light
 
 After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
-1. Find the workload you want in the **Installing Visual Studio** screen.
-
  ::: moniker range="vs-2017"
+
+1. Find the workload you want in the **Installing Visual Studio** screen.
 
    ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
+1. After you choose the workload(s) you want, choose **Install**.
+
+    Next, status screens appear that show the progress of your Visual Studio installation.
+
  ::: moniker-end
 
- ::: moniker range="vs-2019"
+::: moniker range="vs-2019"
+
+1. After the new workloads and components are installed, choose **Launch**.
 
    ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
 
      For example, choose the "ASP.NET and web development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
- ::: moniker-end
-
 1. After you choose the workload(s) you want, choose **Install**.
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
-1. After the new workloads and components are installed, choose **Launch**.
+ ::: moniker-end
 
 > [!TIP]
 > At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can choose the workloads or components that you wish to install. Then, choose **Modify**.
@@ -213,7 +217,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 ::: moniker-end
 
 > [!IMPORTANT]
-> A different drive can only be set the first time that you install Visual Studio.
+> You can set a different drive only when you first install Visual Studio. If you've already installed Visual Studio and want to change drives, you must uninstall it and then reinstall it.
 
 For more information, see the [Select installation locations](change-installation-locations.md) page.
 
@@ -239,10 +243,9 @@ For more information, see the [Select installation locations](change-installatio
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, enter the type of app you want to create to see a list of templates that are available to you, based on the workload(s) that you chose. To see different templates, choose different workloads.
+1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workload(s) that you chose during installation. To see different templates, choose different workloads.
 
- > [!TIP]
- > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
+   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too. 
 
 1. Visual Studio opens your new project, and you're ready to code!
 
