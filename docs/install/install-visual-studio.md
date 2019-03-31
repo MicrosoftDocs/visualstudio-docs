@@ -23,12 +23,32 @@ ms.technology: vs-installation
 ---
 # Install Visual Studio
 
+::: moniker range="vs-2019"
+
+Welcome to a new way to install Visual Studio! In this version, we've made it easy to choose and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to choose and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+
+::: moniker-end
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation).
 
+::: moniker range="vs-2019"
+
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2019/release-notes/).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 Want to know more about what else is new in this version? See our [release notes](/visualstudio/releasenotes/vs2017-relnotes).
+
+::: moniker-end
 
 Ready to install? We'll walk you through it, step-by-step.
 
@@ -40,29 +60,35 @@ Before you begin installing Visual Studio:
 
 1. Check the [system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). These requirements help you know whether your computer supports Visual Studio 2017.
 
-::: moniker-end
-
-::: moniker range="vs-2019"
-
-1. Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
-
-::: moniker-end
-
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 
 1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
+
+1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
+
+1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
+
+1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app. 
+
+::: moniker-end
+
 ::: moniker range="vs-2017"
 
-For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases/).
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-For questions about running previous versions of Visual Studio side by side with Visual Studio 2019, see the [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) page.
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2019, see the [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/) page.
 
 ::: moniker-end
 
@@ -86,7 +112,7 @@ Next, download the Visual Studio bootstrapper file. To do so, choose the followi
 
 ## Step 3 - Install the Visual Studio installer
 
-Then, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio.
+Run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio.
 
 1. From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
@@ -106,22 +132,21 @@ After the installer is installed, you can use it to customize your installation 
 
 1. Find the workload you want in the **Installing Visual Studio** screen.
 
-::: moniker range="vs-2017"
+ ::: moniker range="vs-2017"
 
    ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
-::: moniker-end
+ ::: moniker-end
 
-::: moniker range="vs-2019"
+ ::: moniker range="vs-2019"
 
    ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
 
      For example, choose the "ASP.NET and web development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
-
-::: moniker-end
+ ::: moniker-end
 
 1. After you choose the workload(s) you want, choose **Install**.
 
@@ -134,7 +159,7 @@ After the installer is installed, you can use it to customize your installation 
 
 ## Step 5 - Choose individual components (Optional)
 
-If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To choose individual components, choose the **Individual components** option from the Visual Studio Installer, choose what you want, and then follow the prompts.
+If you don't want to use the Workloads feature to customize your Visual Studio installation, or you want to add more components than a workload installs, you can do so by installing or adding individual components from the **Individual components** tab. Choose what you want, and then follow the prompts.
 
 ::: moniker range="vs-2017"
 
@@ -151,7 +176,7 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ## Step 6 - Install language packs (Optional)
 
-By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a language of your choosing, choose the **Language packs** option from the Visual Studio Installer, and follow the prompts.
+By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a language of your choosing, choose the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.
 
 ::: moniker range="vs-2017"
 
@@ -181,11 +206,14 @@ Another way that you can change the default language is by running the installer
 
 ::: moniker range="vs-2019"
 
-You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
   ![Visual Studio 2019 - Change installation locations](media/vs-2019/vs-installer-installation-locations.png "Change the installation location")
 
 ::: moniker-end
+
+> [!IMPORTANT]
+> A different drive can only be set the first time that you install Visual Studio.
 
 For more information, see the [Select installation locations](change-installation-locations.md) page.
 
@@ -213,8 +241,8 @@ For more information, see the [Select installation locations](change-installatio
 
 1. In the search box, enter the type of app you want to create to see a list of templates that are available to you, based on the workload(s) that you chose. To see different templates, choose different workloads.
 
-  > [!TIP]
-  > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
+ > [!TIP]
+ > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
 
 1. Visual Studio opens your new project, and you're ready to code!
 
