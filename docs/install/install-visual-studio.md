@@ -23,7 +23,7 @@ ms.technology: vs-installation
 ---
 # Install Visual Studio
 
-Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
+Welcome to a new way to install Visual Studio! In this version, we've made it easier for you to choose and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation).
@@ -68,7 +68,7 @@ For questions about running previous versions of Visual Studio side by side with
 
 ## Step 2 - Download Visual Studio
 
-Next, download the Visual Studio bootstrapper file. To do so, choose the following button, select the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+Next, download the Visual Studio bootstrapper file. To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
 
 ::: moniker range="vs-2017"
 
@@ -100,7 +100,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
    ![License Terms and Privacy Statement](media/privacy-and-license-terms.png "Microsoft License Terms and Privacy Statement")
 
-## Step 4 - Select workloads
+## Step 4 - Choose workloads
 
 After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
@@ -123,18 +123,18 @@ After the installer is installed, you can use it to customize your installation 
 
 ::: moniker-end
 
-1. After you select the workload(s) you want, choose **Install**.
+1. After you choose the workload(s) you want, choose **Install**.
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
 1. After the new workloads and components are installed, choose **Launch**.
 
 > [!TIP]
-> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install. Then, choose **Modify**.
+> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can choose the workloads or components that you wish to install. Then, choose **Modify**.
 
-## Step 5 - Select individual components (Optional)
+## Step 5 - Choose individual components (Optional)
 
-If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To select individual components, choose the **Individual components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to use the Workloads feature to customize your Visual Studio installation, you can do so by installing individual components instead. To choose individual components, choose the **Individual components** option from the Visual Studio Installer, choose what you want, and then follow the prompts.
 
 ::: moniker range="vs-2017"
 
@@ -199,9 +199,9 @@ For more information, see the [Select installation locations](change-installatio
 
 3. Select a project type.
 
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
+   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
 
-   To [build a C# app](../get-started/csharp/tutorial-wpf.md), choose **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+   To [build a C# app](../get-started/csharp/tutorial-wpf.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
 
 ::: moniker-end
 
@@ -211,7 +211,7 @@ For more information, see the [Select installation locations](change-installatio
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, enter the type of app you want to create to see a list of templates. (For example, enter *WFP*.)
+1. In the search box, enter the type of app you want to create to see a list of templates that are available to you, based on the workload(s) that you chose. To see different templates, choose different workloads.
 
   > [!TIP]
   > You can filter your search for a specific programming language by using the **Language** drop-down list. You can also filter by using the **Platform** list and the **Project type** list. 
