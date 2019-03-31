@@ -96,7 +96,6 @@ Execution stops on the line, and you can see that `DateTime.Today` includes the 
 
 ![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-breakpoint.png)
 
-
 Change it to use `DateTime.Now` and continue executing. The new code for `OnGet` should be:
 
 ```csharp
