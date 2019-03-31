@@ -36,7 +36,7 @@ Welcome to a new way to install Visual Studio! In this version, we've made it ea
 ::: moniker-end
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/).
 
 ::: moniker range="vs-2019"
 
@@ -217,7 +217,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 ::: moniker-end
 
 > [!IMPORTANT]
-> You can set a different drive only when you first install Visual Studio. If you've already installed Visual Studio and want to change drives, you must uninstall and then reinstall it.
+> You can select a different drive only when you first install Visual Studio. If you've already installed it and want to change drives, you must uninstall Visual Studio and then reinstall it.
 
 For more information, see the [Select installation locations](change-installation-locations.md) page.
 
