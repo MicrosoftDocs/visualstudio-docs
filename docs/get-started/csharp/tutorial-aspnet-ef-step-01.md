@@ -3,7 +3,7 @@ title: "Tutorial: Installing Visual Studio 2019"
 titleSuffix: ""
 description: "Learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions."
 ms.custom: "seodec18, get-started"
-ms.date: 03/30/2019
+ms.date: 03/31/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019

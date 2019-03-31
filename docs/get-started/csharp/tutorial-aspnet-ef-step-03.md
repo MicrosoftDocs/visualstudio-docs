@@ -3,7 +3,7 @@ title: "Step 3: Working with Data in Your ASP.NET Core App"
 titleSuffix: ""
 description: "Start working with data using Entity Framework Core in your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
 ms.custom: "seodec18, get-started"
-ms.date: 03/30/2019
+ms.date: 03/31/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019
@@ -115,7 +115,7 @@ That's all it took to start working with data in an ASP.NET Core app using EF Co
 
 ## Next Steps
 
-In the next video, you'll learn how to add data support to your app.
+In the next video, you'll learn how to add web API support to your app.
 
 [Step 4: Exposing a Web API From Your ASP.NET Core App](tutorial-aspnet-ef-step-04.md)
 

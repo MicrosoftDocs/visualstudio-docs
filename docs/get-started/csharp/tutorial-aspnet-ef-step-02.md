@@ -3,7 +3,7 @@ title: "Step 2: Creating Your First ASP.NET Core Web App"
 titleSuffix: ""
 description: "Create your first ASP.NET Core Web App with this video tutorial and step-by-step instructions."
 ms.custom: "seodec18, get-started"
-ms.date: 03/30/2019
+ms.date: 03/31/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019
