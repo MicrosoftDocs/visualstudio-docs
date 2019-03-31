@@ -233,7 +233,7 @@ For more information, see the [Select installation locations](change-installatio
 
    For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
 
-   To [build a C# app](../get-started/csharp/tutorial-wpf.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
+   To [build a C# app](../get-started/csharp/tutorial-console.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
 
 ::: moniker-end
 
