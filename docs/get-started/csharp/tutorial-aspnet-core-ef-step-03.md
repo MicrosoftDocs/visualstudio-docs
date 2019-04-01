@@ -50,7 +50,7 @@ Now we're ready to create the pages we'll use to manage our library of games. Th
 
 Now right click on Games and choose **Add** > **New Scaffolded Item**. Choose the Razor Pages using **Entity Framework (CRUD)** option. CRUD stands for "Create, Read, Update, Delete" and this template will create pages for each of these operations (including a "list all" page and a "view details of one item" page).
 
-![Visual Studio 2019 ASP.NET Core Add Scaffolded Pages](media/vs2019/vs2019-add-scaffold.png)
+![Visual Studio 2019 ASP.NET Core Add Scaffolded Pages](media/vs-2019/vs2019-add-scaffold.png)
 
 Select your Game model class and use the '+' icon to add a new Data context class. Name it `AppDbContext`. Leave the rest as defaults and click **Add**.
 
@@ -62,7 +62,7 @@ You will see the following Razor Pages added to your Games folder:
 - Edit.cshtml
 - Index.cshtml
 
-![Visual Studio 2019 ASP.NET Core Scaffolded Pages](media/vs2019/vs2019-scaffolded-pages.png)
+![Visual Studio 2019 ASP.NET Core Scaffolded Pages](media/vs-2019/vs2019-scaffolded-pages.png)
 
 In addition to adding pages in the *Games* folder, the scaffolding operation added code to my *Startup.cs* class. Looking in the `ConfigureServices` method in this class you will see this code has been added:
 
@@ -108,7 +108,7 @@ Run the application and navigate to `/Games` in the address bar. You will see an
 
 Add another record. You can click *Edit* to change the details of a record, or **Delete** to remove it, which will prompt you to confirm before it actually deletes the record.
 
-![Visual Studio 2019 ASP.NET Core Scaffolded Pages In Browser](media/vs2019/vs2019-game-list.png)
+![Visual Studio 2019 ASP.NET Core Scaffolded Pages In Browser](media/vs-2019/vs2019-game-list.png)
 
 That's all it took to start working with data in an ASP.NET Core app using EF Core and Visual Studio 2019.
 

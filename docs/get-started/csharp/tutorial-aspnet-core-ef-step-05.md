@@ -35,19 +35,19 @@ Right-click on the project in solution explorer and choose **Publish**. Leave th
 
 Add a SQL Server. Specify an administrator username and password.
 
-![Visual Studio 2019 Create Azure SQL Server](media/vs2019/vs2019-azure-sql-server.png)
+![Visual Studio 2019 Create Azure SQL Server](media/vs-2019/vs2019-azure-sql-server.png)
 
 Add Application Insights.
 
 Click the **Create** button to continue.
 
-![Visual Studio 2019 Create New Azure App Service](media/vs2019/vs2019-azure-create-new-app-service.png)
+![Visual Studio 2019 Create New Azure App Service](media/vs-2019/vs2019-azure-create-new-app-service.png)
 
 ## Exploring the Azure portal and your hosted app
 
 Once the app service is created your site will launch in a browser. While it's loading you can also find the App Service in the Azure portal. Exploring the available options for your app service you'll find an **Overview** section where you can start and stop the app.
 
-![Azure App Service Options](media/vs2019/vs2019-azure-app-service-menu-options.png)
+![Azure App Service Options](media/vs-2019/vs2019-azure-app-service-menu-options.png)
 
 ### Scalability
 
