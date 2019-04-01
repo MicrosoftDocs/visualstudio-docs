@@ -46,8 +46,8 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
    ![Update Visual Studio 2017 by using the Notification hub](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
 
-  > [!TIP]
-  > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
+      > [!TIP]
+      > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
 
 1. When the **Update** dialog box opens, choose **Update Now**.
 
@@ -112,8 +112,8 @@ If you are using an earlier version, here's how to apply an update from Visual S
 
    ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
 
-  > [!TIP]
-  > An update for an edition of Visual Studio 2017 is cumulative, so always choose to install the one with the most recent version number.
+      > [!TIP]
+      > An update for an edition of Visual Studio 2017 is cumulative, so always choose to install the one with the most recent version number.
 
 1. Choose **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
@@ -245,8 +245,8 @@ You can check for an update and then install it by using the the menu bar or the
 
      ![The Notification hub in Visual Studio 2019](media/vs-2019/notification-hub-update.png "The Notification hub in Visual Studio 2019")
 
-  > [!TIP]
-  > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
+      > [!TIP]
+      > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
 
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
