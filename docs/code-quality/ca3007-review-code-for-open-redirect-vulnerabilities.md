@@ -1,0 +1,114 @@
+---
+title: "CA3007: Review code for open redirect vulnerabilities"
+ms.date: 03/25/2019
+ms.topic: reference
+author: dotpaul
+ms.author: paulming
+manager: jillfra
+dev_langs:
+ - "CSharp"
+ - "VisualBasic"
+ms.workload:
+ - "multiple"
+---
+# CA3007: Review code for open redirect vulnerabilities
+
+|||
+|-|-|
+|TypeName|ReviewCodeForOpenRedirectVulnerabilities|
+|CheckId|CA3007|
+|Category|Microsoft.Security|
+|Breaking Change|Non Breaking|
+
+## Cause
+
+Potentially untrusted HTTP request input reaches an HTTP response redirect.
+
+## Rule description
+
+When working with untrusted input, be mindful of open redirect vulnerabilities. An attacker can exploit an open redirect vulnerability to use your website to give the appearance of a legitimate URL, but redirect an unsuspecting visitor to a phishing or other malicious webpage.
+
+This rule attempts to find input from HTTP requests reaching an HTTP redirect URL.
+
+> [!NOTE]
+> This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that responds with an HTTP redirect, this rule won't produce a warning.
+
+> [!NOTE]
+> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
+
+## How to fix violations
+
+Some approaches to fixing open redirect vulnerabilities include:
+
+1. Do not allow users to initiate redirects.
+1. Do not allow users to specify any part of the URL in a redirect scenario.
+1. Restrict redirects to predefined allow list of URLs.
+1. Validate redirect URLs.
+1. If applicable, consider using a disclaimer page when users are being redirected away from your site.
+
+## When to suppress warnings
+
+If you know the input has been validated to be restricted to intended URLs.
+
+## Pseudo-code examples
+
+### Violation
+
+```csharp
+using System;
+
+public partial class WebForm : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        string input = Request.Form["url"];
+        this.Response.Redirect(input);
+    }
+}
+```
+
+```vb
+Imports System
+
+Partial Public Class WebForm
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(sender As Object, eventArgs As EventArgs)
+        Dim input As String = Me.Request.Form("url")
+        Me.Response.Redirect(input)
+    End Sub
+End Class
+```
+
+### Solution
+
+```csharp
+using System;
+
+public partial class WebForm : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        string input = Request.Form["in"];
+        if (String.IsNullOrWhiteSpace(input))
+        {
+            this.Response.Redirect("https://example.org/login.html");
+        }
+    }
+}
+```
+
+```vb
+Imports System
+
+Partial Public Class WebForm
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(sender As Object, eventArgs As EventArgs)
+        Dim input As String = Me.Request.Form("in")
+        If String.IsNullOrWhiteSpace(input) Then
+            Me.Response.Redirect("https://example.org/login.html")
+        End If
+    End Sub
+End Class
+```
