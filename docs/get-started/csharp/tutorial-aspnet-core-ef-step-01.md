@@ -1,7 +1,7 @@
 ---
-title: "Tutorial: Installing Visual Studio 2019"
+title: "Tutorial: Create an ASP.NET Core web app with Entity Framework and Visual Studio 2019"
 titleSuffix: ""
-description: "Learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions."
+description: "As the first step prior to creating an ASP.NET Core web app, learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"
 ms.date: 03/31/2019
 ms.technology: vs-ide-general
@@ -18,9 +18,19 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Tutorial: Install Visual Studio 2019
+# Tutorial: Create your first ASP.NET Core App using Entity Framework with Visual Studio 2019
 
-Learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions.
+In this tutorial, you'll create an ASP.NET Core web app that uses data, and deploy it to Azure. This tutorial consists of the following steps:
+
+- [Step 1: Install Visual Studio 2019](#step-1-install-visual-studio-2019)
+- [Step 2: Create your first ASP.NET Core web app](tutorial-aspnet-core-ef-step-02.md)
+- [Step 3: Work with data using Entity Framework](tutorial-aspnet-core-ef-step-03.md)
+- [Step 4: Expose a Web API from your ASP.NET Core app](tutorial-aspnet-core-ef-step-04.md)
+- [Step 5: Deploy your ASP.NET Core app to Azure](tutorial-aspnet-core-ef-step-05.md)
+
+## Step 1: Install Visual Studio 2019
+
+Learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions. If you have already installed Visual Studio, skip ahead to [Step 2: Create your first ASP.NET Core web app](tutorial-aspnet-core-ef-step-02.md).
 
 _Watch this video and follow along to install Visual Studio and create your first ASP.NET Core app._
 
@@ -28,7 +38,7 @@ _Watch this video and follow along to install Visual Studio and create your firs
 
 ## Download the Installer
 
-Go to [visualstudio.com](https://visualstudio.com) to find the installer. Locate the Visual Studio 2019 link, and click it to start the download.
+Go to [visualstudio.com](https://visualstudio.com) to find the installer. Locate the Visual Studio 2019 link, and click it to start the download. For a free version of Visual Studio, choose Visual Studio Community.
 
 ## Start the Installer
 
