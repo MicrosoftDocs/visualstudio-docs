@@ -32,17 +32,17 @@ For lists of the workloads and components that you can install by using the comm
 * Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
 
   ```cmd
-  vs_enterprise.exe --installPath C:\minVS ^
+   vs_enterprise.exe --installPath C:\minVS ^
    --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --passive --norestart
   ```
 
 * Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
 
-  ```cmd
-  vs_enterprise.exe --update --quiet --wait
-  vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
-  ```
+   ```cmd
+   vs_enterprise.exe --update --quiet --wait
+   vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
+   ```
 
   > [!NOTE]
   > Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
@@ -50,7 +50,7 @@ For lists of the workloads and components that you can install by using the comm
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 
   ```cmd
-  vs_enterprise.exe --installPath C:\desktopVS ^
+   vs_enterprise.exe --installPath C:\desktopVS ^
    --addProductLang fr-FR ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
    --includeRecommended --quiet --wait
@@ -60,9 +60,9 @@ For lists of the workloads and components that you can install by using the comm
 
 * Use in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following is an example of the additional parameters used with the PowerShell script command 'Start-Process':
 
-  ```cmd
-  $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
-  ```
+   ```cmd
+   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
+   ```
 
 * The first '--wait' is used by the Visual Studio Installer, and the second '-Wait' is used by 'Start-Process' to wait for completion. The '-PassThru' parameter is used by 'Start-Process' to use the installer's exit code for its return value.
 
@@ -71,7 +71,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
   ```cmd
-  vs_community.exe --layout C:\VS
+   vs_community.exe --layout C:\VS
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```
@@ -79,7 +79,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 
   ```cmd
-  vs_community.exe --layout C:\VS ^
+   vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.NetWeb ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
@@ -91,16 +91,16 @@ For lists of the workloads and components that you can install by using the comm
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio Enterprise edition:
 
-  ```cmd
-  vs_enterprise.exe --all
-  ```
+   ```cmd
+   vs_enterprise.exe --all
+   ```
 
 ## Using --includeRecommended
 
 * Install a second, named instance of Visual Studio Professional on a machine with Visual Studio Community edition already installed, with support for Node.js development:
 
-  ```cmd
-  vs_professional.exe --installPath C:\VSforNode ^
+   ```cmd
+   vs_professional.exe --installPath C:\VSforNode ^
    --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
   ```
 
@@ -111,7 +111,7 @@ For lists of the workloads and components that you can install by using the comm
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
   ```cmd
-  vs_enterprise.exe modify ^
+   vs_enterprise.exe modify ^
    --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
@@ -124,7 +124,7 @@ For lists of the workloads and components that you can install by using the comm
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
   ```cmd
-  vs_enterprise.exe modify ^
+   vs_enterprise.exe modify ^
    --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
