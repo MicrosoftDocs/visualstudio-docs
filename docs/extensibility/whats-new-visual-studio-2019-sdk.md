@@ -22,7 +22,7 @@ Users will now see a warning if any of their installed extensions are synchronou
 You can now get all Visual Studio SDK assets through a single NuGet package [Microsoft.VisualStudio.SDK](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
 
 ## Editor Registration Enhancements
-Since its creation, Visual Studio has supported custom editor registration where an editor can declare its affinity for specific extensions (for example, .xaml, .rc, etc.), or that it is suitable for any extension (.*).  With Visual Studio 16.1, we broaden the support for editor registration.
+Since its creation, Visual Studio has supported custom editor registration where an editor can declare its affinity for specific extensions (for example, .xaml and .rc), or that it is suitable for any extension (.*). Starting in Visual Studio 2019 version 16.1, we broaden the support for editor registration.
 
 ### Filenames
 In addition to -- or instead of -- registering support for a particular file extension, an editor can register that it supports specific filenames by applying the new `ProvideEditorFilename` attribute to the editor's package.
