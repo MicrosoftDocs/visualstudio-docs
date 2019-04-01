@@ -216,7 +216,7 @@ You can check for an update and then install it by using the the menu bar or the
 
      ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
-   Visual Studio closes, and then reopens.
+   Visual Studio updates, closes, and then reopens.
 
 ### In Visual Studio
 
@@ -231,7 +231,7 @@ You can check for an update and then install it by using the the menu bar or the
 
      ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
-   Visual Studio closes, and then reopens.
+   Visual Studio updates, closes, and then reopens.
 
 ## Use the Notifications hub
 
