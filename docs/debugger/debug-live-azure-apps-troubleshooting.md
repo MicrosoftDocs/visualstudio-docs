@@ -72,9 +72,11 @@ Take these steps:
 ## Issue: Snapshot debugging with multiple versions of the Visual Studio gives me errors
 
 VS 2019 requires a newer version of the Snapshot Debugger site extension on your Azure App Service.  This version is not compatible with the older version of the Snapshot Debugger site extension used by VS 2017.  You will get the following error if you try to use attach the Snapshot Debugger in VS 2019 to an Azure App Service which has been previously debugged by the Snapshot Debugger in VS 2017:
+
 ![Incompatible Snapshot Debugger site extension VS 2019](../debugger/media/snapshot-troubleshooting-incompatible-vs2019.png "Incompatible Snapshot Debugger site extension VS 2019")
 
 Conversely, if you use VS 2017 to attach the Snapshot Debugger to an Azure App Service which has been previously debugged by the Snapshot Debugger in VS 2019, you'll get the following error:
+
 ![Incompatible Snapshot Debugger site extension VS 2017](../debugger/media/snapshot-troubleshooting-incompatible-vs2017.png "Incompatible Snapshot Debugger site extension VS2017")
 
 To fix this, simply delete the following App settings in the Azure portal and attach the Snapshot Debugger again:
