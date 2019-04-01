@@ -45,9 +45,8 @@ An editor can register one or more UIContexts that represent when it's enabled. 
 
 If an editor has registered UIContexts:
 
-1. If at least one of its registered UIContexts is active when a file with the given extension is opened, the editor is included in the editor search.
-
-1. If none of the registered UIContexts is active, the editor is not included in the editor search.
+- If at least one of its registered UIContexts is active when a file with the given extension is opened, the editor is included in the editor search.
+- If none of the registered UIContexts is active, the editor is not included in the editor search.
 
 If an editor doesn't register any UIContexts, it is always included in the editor search for that extension.
 
