@@ -66,11 +66,11 @@ In this tutorial, you will:
   > [!NOTE]
   > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
 
+   Visual Studio is now in snapshot debugging mode.
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
    The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug > Windows > Modules** to open this window).
 
-Visual Studio is now in snapshot debugging mode.
    ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
 ## Set a snappoint
