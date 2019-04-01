@@ -63,7 +63,7 @@ When you add or enable Docker support, Visual Studio adds a *Dockerfile* file to
 ![Enable Docker compose support for an ASP.NET project](media/visual-studio-tools-for-docker/enable-docker-compose-support.png)
 ::: moniker-end
 
-### Docker Compose support
+## Docker Compose support
 
 When you want to compose a multi-container solution using Docker Compose, add container orchestration support to your projects. This lets you run and debug a group of containers (a whole solution) at the same time if they're defined in the same *docker-compose.yml* file.
 
@@ -75,7 +75,7 @@ After you add container orchestration support to your project, you see a *Docker
 
 If *docker-compose.yml* already exists, Visual Studio just adds the required lines of configuration code to it.
 
-### Service Fabric support
+## Service Fabric support
 
 With Service Fabric tools in Visual Studio, you can develop and debug for Azure Service Fabric, run and debug locally, and deploy to Azure.
 
@@ -91,7 +91,7 @@ For a detailed tutorial, see
 
 For more information on Azure Service Fabric, see [Service Fabric](/azure/service-fabric).
 
-### Kubernetes support
+## Kubernetes support
 
 ::: moniker range="vs-2017"
 To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://aka.ms/get-vsk8stools).
