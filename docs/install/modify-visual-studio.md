@@ -53,7 +53,7 @@ Here's how.
      >[!NOTE]
      >On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
-2. Click or tap to start the installer, and then choose **Modify**.
+1. Click or tap to start the installer, and then choose **Modify**.
 
      ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
 
@@ -61,13 +61,13 @@ Here's how.
 
      ![Update or modify Visual Studio](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
 
-3. From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.
+1. From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.
 
     ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
 
-4. Choose **Modify** again.
+1. Choose **Modify** again.
 
-5. After the new workloads and components are installed, choose **Launch**.
+1. After the new workloads and components are installed, choose **Launch**.
 
 ::: moniker-end
 
@@ -90,7 +90,7 @@ Here's how.
 
      ![Update or modify Visual Studio](media/vs-2019/vs-installer-modify.png "Update or modify Visual Studio 2017")
 
-3. In the **Workloads** tab, select or deselect the workloads that you want to install or uninstall.
+1. In the **Workloads** tab, select or deselect the workloads that you want to install or uninstall.
 
     ![Visual Studio 2019 setup dialog](media/vs-2019/vs-installer-modify-workloads.png "Choose a workload in Visual Studio 2019")
 
@@ -100,9 +100,9 @@ Here's how.
 
     The "Download all, then install" option is handy if you want to download first and then install later.
 
-4. Choose **Modify**.
+1. Choose **Modify**.
 
-5. After the new workloads and components are installed, choose **Launch** from the Visual Studio Installer.
+1. After the new workloads and components are installed, choose **Launch** from the Visual Studio Installer.
 
 ::: moniker-end
 

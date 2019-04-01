@@ -194,8 +194,8 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
 ## Use the IDE
 
-1. Open Visual Studio. 
- 
+1. Open Visual Studio.
+
     ![Open the Visual Studio 2019 RC](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
 
 1. Under **Get started**, choose any option to open the IDE.
@@ -205,7 +205,7 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
     Visual Studio opens. In the IDE, a **Visual Studio 2019 update** message appears.
 
     ![The 'Visual Studio 2019 update' message in the IDE](media/vs2019-update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
- 
+
 1. In the **Visual Studio 2019 update** message, choose **View details**.
 
    ![Choose View Details button in the Visual Studio 2019 IDE update message](media/vs2019-update-visual-studio-ide-view-details.png "Choose the View Details button in the Visual Studio 2019 update message")
@@ -224,7 +224,7 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
    ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-1. In the **Notifications Hub**, choose the update that you want to install, and then choose **View details**. 
+1. In the **Notifications Hub**, choose the update that you want to install, and then choose **View details**.
 
      ![The Notification Hub in Visual Studio 2019](media/vs-2019/notification-hub-update.png "The Notification Hub in Visual Studio 2019")
 
