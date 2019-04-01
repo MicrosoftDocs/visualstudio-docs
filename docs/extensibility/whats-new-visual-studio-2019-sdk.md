@@ -27,7 +27,7 @@ Since its creation, Visual Studio has supported custom editor registration where
 
 ### Filenames
 
-In addition to -- or instead of -- registering support for a particular file extension, an editor can register that it supports specific filenames by applying the new `ProvideEditorFilename` attribute to the editor's package.
+In addition to, or instead of, registering support for a particular file extension, an editor can register that it supports specific filenames by applying the new `ProvideEditorFilename` attribute to the editor's package.
 
 For example, an editor that supports all .json files would apply this `ProvideEditorExtension` attribute to its package:
 
