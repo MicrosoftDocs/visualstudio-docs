@@ -47,6 +47,10 @@ You can uninstall the Snapshot Debugger site extension on your App Service with 
 1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net) and navigate to **Site extensions**.
 1. Click the X on the Snapshot Debugger site extension to remove it.
 
+#### Why are ports opened during a Snapshot Debugger session?
+
+Snapshot Debugger needs to open certain ports in order to debug the snapshots taken in Azure.  These are the same ports required for remote debugging, [you can find the list of ports here](../debugger/remote-debugger-port-assignments.md).
+
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
