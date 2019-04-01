@@ -111,3 +111,18 @@ After you complete the signup for RStudio, you'll receive several emails, includ
 ### Q:  If I don't have "R" installed, where can I get it?
 A:  If you receive an error that you don't have "R" installed, the error message will contain a link to the "Comprehensive R Archive Network (CRAN)" at https://cran.rstudio.com/.  You can also perform an internet search for other download locations. 
 
+## Support resources
+-  RStudio provides various support resources:
+
+    Self help: https://support.rstudio.com/hc/
+
+    Community:  https://community.rstudio.com/
+
+    Assisted:  https://support.rstudio.com/hc/requests/new 
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+
+
+## Next steps
+The RStudio benefit is available for a very limited time.  Remember to claim your code and create your RStudio account before July 1, 2019.  
