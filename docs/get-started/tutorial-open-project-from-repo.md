@@ -75,7 +75,7 @@ View the following animation to check the work that you completed in the previou
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
-1. Enter or type the repository location, and then choose **Clone**. 
+1. Enter or type the repository location, and then choose **Clone**.
 
    ![View the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
@@ -87,7 +87,7 @@ View the following animation to check the work that you completed in the previou
 
    If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
- ::: moniker-end
+::: moniker-end
 
 ## Open a project from an Azure DevOps repo
 
@@ -136,7 +136,7 @@ View the following animation to check the work that you completed in the previou
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
-1. In the **Browse a repository** section, choose **Azure DevOps**. 
+1. In the **Browse a repository** section, choose **Azure DevOps**.
 
    ![View the 'Clone or check out code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
@@ -153,19 +153,19 @@ View the following animation to check the work that you completed in the previou
 
      ![The Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/clone-complete-azure-devops.png)
 
-1. To view your folders and files, choose the **Show Folder View** link. 
+1. To view your folders and files, choose the **Show Folder View** link.
 
      ![The Solutions section of the Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/show-folder-view-azure-devops.png)
 
      Visual Studio opens **Solution Explorer**.
-     
+
 1. Choose the **Solutions and Folders** link to search for a solution file  (specifically, a .sln file) to open.
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
    If you do not have a solution file in your repo, a "No Solutions Found" message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
- ::: moniker-end
+::: moniker-end
 
 ## Next steps
 

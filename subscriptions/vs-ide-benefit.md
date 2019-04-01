@@ -48,9 +48,12 @@ To download the IDE:
 
 13. Choose your preferred theme, and click **Start Visual Studio**.
 
-14. The Start Page will display.  You're ready to start using Visual Studio!
+14. Visual Studio opens. You're ready to start using Visual Studio!
+
+    ::: moniker range="vs-2017"
     > [!div class="mx-imgBorder"]
     > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
+    ::: moniker-end
 
 ## Eligibility
 
