@@ -17,7 +17,7 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Step 4: Deploy your ASP.NET Core app to Azure
+# Step 5: Deploy your ASP.NET Core app to Azure
 
 Follow these steps to deploy your ASP.NET Core app and its database to Azure.
 

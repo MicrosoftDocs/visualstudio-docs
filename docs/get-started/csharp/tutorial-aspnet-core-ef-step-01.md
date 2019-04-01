@@ -95,4 +95,3 @@ In the next video, you'll learn more about your first ASP.NET Core project.
 ## See also
 
 - [Tutorial: Get started with C# and ASP.NET Core](tutorial-aspnet-core.md) A more detailed tutorial without a video walkthrough
-
