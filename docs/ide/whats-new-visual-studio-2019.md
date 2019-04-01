@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 02/27/2019
+ms.date: 04/03/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,12 +18,12 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [Release Candidate (RC)](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.0 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download RC](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+rc)
+>[Download RC](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
 
-Visual Studio 2019 includes many general improvements along with new features that optimize developer productivity and team collaboration. Whether you are using Visual Studio for the first time or you've been using it for years, you'll be able to take advantage of its features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.<br/><br/>
+Get best-in-class tools and services for any developer, any app, and any platform with Visual Studio 2019. Whether you are using Visual Studio for the first time or you've been using it for years, you can take advantage of its newest features for all aspects of the development lifecycle&mdash;from simplified project creation and code health management, to team- and open-source collaborative workflows.<br/><br/>
 
 >[!VIDEO https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/D190/player]
 
@@ -34,7 +34,7 @@ Here's a high-level recap of what Visual Studio has to offer:
 * **[Continuous innovation](#continuous-innovation)**. Code smart with intelligent, cloud-powered support.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019, see the [RC release notes](/visualstudio/releases/2019/release-notes/) and the [Preview 4 release notes](/visualstudio/releases/2019/release-notes-preview/). For more information about both of these recent releases, see the [Visual Studio 2019 Release Candidate now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-release-candidate-rc-now-available/) blog post.
+> For a complete list of new features and functionality in Visual Studio 2019, see the [release notes](/visualstudio/releases/2019/release-notes/). For more information about our newest release, see the [Announcing Visual Studio 2019](https://devblogs.microsoft.com/visualstudio//) blog post.
 
 ## Personal and team productivity
 
