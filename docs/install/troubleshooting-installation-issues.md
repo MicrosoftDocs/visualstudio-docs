@@ -37,7 +37,7 @@ There are some known issues with the Visual Studio Installer that Microsoft is w
 
 ::: moniker range="vs-2019"
 
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes#-known-issues).
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releases/2019/release-notes#-known-issues).
 
 ::: moniker-end
 
