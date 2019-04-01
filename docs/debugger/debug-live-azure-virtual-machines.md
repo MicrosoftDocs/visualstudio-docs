@@ -54,12 +54,11 @@ In this tutorial, you will:
 
     The metadata for the **Modules** will not initially be activated, navigate to the web app and the **Start Collection** button will become active. Visual Studio is now in snapshot debugging mode.
 
+   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
+
     > [!NOTE]
     > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
     > For VMSS the user is required to manually upgrade the instances in their VMSS after attaching the Snapshot Debugger for the first time.
-
-Visual Studio is now in snapshot debugging mode.
-   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
    The **Modules** window shows you when all the modules have loaded for the Azure VM/VMSS (choose **Debug > Windows > Modules** to open this window).
 
