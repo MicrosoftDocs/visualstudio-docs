@@ -38,7 +38,7 @@ You must have Visual Studio installed, with the following workloads:
 - **Desktop development with C++**
 - Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
 
-If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
 If you have Visual Studio installed, but don't have the workloads you need, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
 
@@ -187,7 +187,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 ### To configure mixed-mode debugging for a .NET Core app
 
-In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
+In most versions of Visual Studio starting in Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file.
 
