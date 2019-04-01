@@ -182,7 +182,7 @@ This command-line command is **new in 15.9**. For more information about it, see
 
 This command-line parameter is **new in 15.9**. For more information about it, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
-::: moniker range="vs-2017"
+::: moniker-end
 
 * Using --config to install the workloads and components from a previously saved installation configuration file:
 
