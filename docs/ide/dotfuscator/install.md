@@ -37,17 +37,39 @@ However, installing Dotfuscator Community on your copy of Visual Studio is a sim
 
 ## Within Visual Studio 2019
 
+::: moniker range="vs-2019"
+
 You can install Dotfuscator Community from the Visual Studio IDE:
 
-1. In the **Quick Launch** (Ctrl+Q) search bar, type `dotfuscator`. <br/> <br/> ![Quick Launch](media/install_in_vs19_12.png) <br/> <br/>
+1. In the **Search Box** (Ctrl+Q), type `dotfuscator`. <br/> <br/> ![Search Box](media/install_in_vs19_12.png) <br/> <br/>
 
-2. In the Quick Launch results shown, under the *Components* heading, select **Install PreEmptive Protection - Dotfuscator**.
+2. In the search results shown, under the *Components* heading, select **Install PreEmptive Protection - Dotfuscator**.
   * If you instead see, under the *Menus* heading, **PreEmptive Protection - Dotfuscator Community**, then Dotfuscator Community is already installed. Select that option to [get started][get-started].
 
 3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator Community.
-  * **Note:** You may be required to provide administrator credentials to continue. 
+   > [!NOTE]
+   > You may be required to provide administrator credentials to continue. 
 
 4. In the Visual Studio Installer window, click *Install*. <br/> <br/> ![Click Install](media/install_in_vs19_34.png) <br/> <br/>
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+You can install Dotfuscator Community from the Visual Studio IDE:
+
+1. In the **Quick Launch** (Ctrl+Q) search bar, type `dotfuscator`. <br/> <br/> ![Quick Launch](media/install_from_vs_12.png) <br/> <br/>
+
+2. In the Quick Launch results shown, under the *Install* heading, select **PreEmptive Protection - Dotfuscator (Individual Component)**.
+   * If you instead see, under the *Menus* heading, **Tools - PreEmptive Protection - Dotfuscator**, then Dotfuscator CE is already installed. Select that option to [get started][get-started].
+
+3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator CE.
+   > [!NOTE] 
+   > You may be required to provide administrator credentials to continue.
+
+4. In the Visual Studio Installer window, click *Install*. <br/> <br/> ![Click Install](media/install_from_vs_345.png) <br/> <br/>
+
+::: moniker-end
 
 Once the installation is complete, you can [start using Dotfuscator Community][get-started].
 
@@ -57,7 +79,17 @@ Once the installation is complete, you can [start using Dotfuscator Community][g
 If you have not yet installed Visual Studio 2019, you can obtain the installer from [the Visual Studio website][2019-install].
 When run, it will display installation options for the selected Visual Studio edition.
 
+::: moniker range="vs-2019"
+
 ![Install options](media/install_ui.png)
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+![Install options](media/install_ui_17.png)
+
+::: moniker-end
 
 You can then install Dotfuscator Community as an individual component of Visual Studio 2019:
 
