@@ -48,6 +48,8 @@ In this tutorial, you will:
 
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
+      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png) 
+
     > [!IMPORTANT]
     > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
     > The first time you select **Attach Snapshot Debugger** for your VMSS, requires the manual upgrade of each instance of the VMSS.
@@ -73,8 +75,6 @@ In this tutorial, you will:
 1. Click **Start Collection** to turn on the snappoint.
 
    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
-
-   ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png)
 
     > [!TIP]
     > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.

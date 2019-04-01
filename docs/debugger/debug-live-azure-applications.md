@@ -60,7 +60,8 @@ In this tutorial, you will:
 
 ::: moniker-end
 
-    The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
+  > [!IMPORTANT]
+  > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
 
   > [!NOTE]
   > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
