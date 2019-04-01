@@ -33,7 +33,7 @@ Open your ASP.NET Core app in Visual Studio 2019. The app should already be usin
 
 Right click on the project and add a new folder called *Api*. Then, right click on this folder and choose **Add** > **New Scaffolded Item**. Choose **API Controller with actions, using Entity Framework.** Now choose an existing model class and click **Add**.
 
-![Visual Studio 2019 ASP.NET Core Scaffolded API Controller](media/vs2019-add-scaffold-api.png)
+![Visual Studio 2019 ASP.NET Core Scaffolded API Controller](media/vs2019/vs2019-add-scaffold-api.png)
 
 ## Reviewing the generated controller
 
@@ -183,7 +183,7 @@ Finally, an `[HttpDelete]` route is used with an ID to delete a record. If the r
 
 Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click on **Browse** and search for `Swashbuckle.AspNetCore` and install the corresponding package.
 
-![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs2019-nuget-swashbuckle.png)
+![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs2019/vs2019-nuget-swashbuckle.png)
 
 Once installed, open `Startup.cs` and add the following to the end of the `ConfigureServices` method:
 
@@ -212,7 +212,7 @@ app.UseSwaggerUI(c =>
 
 Now you should be able to build and run your app. In the browser, navigate to `/swagger` in the address bar. You should see a list of your app's API endpoints and models. 
 
-![Visual Studio 2019 Swagger Page in Browser](media/vs2019-swagger-browser.png)
+![Visual Studio 2019 Swagger Page in Browser](media/vs2019/vs2019-swagger-browser.png)
 
 Click an endpoint under Games, then `Try it out` and `Execute` to see how the different endpoints behave.
 

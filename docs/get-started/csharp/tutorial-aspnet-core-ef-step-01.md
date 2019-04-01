@@ -34,13 +34,13 @@ Go to [visualstudio.com](https://visualstudio.com) to find the installer. Locate
 
 Once the download has completed, click **Run** to start the installer.
 
-![Visual Studio 2019 Installer](media/vs2019-installer.png)
+![Visual Studio 2019 Installer](media/vs2019/vs2019-installer.png)
 
 ## Choose workloads
 
 Visual Studio can be used for many different kinds of development, and workloads make it easy for you to download everything you need for the kind of apps you want to build. Choose **ASP.NET and Web Development** and **.NET Core cross-platform development** workloads for now. You can always relaunch the installer later to install additional workloads and components.
 
-![Visual Studio 2019 Choose Workloads](media/vs2019-choose-workloads.png)
+![Visual Studio 2019 Choose Workloads](media/vs2019/vs2019-choose-workloads.png)
 
 ## Install
 
@@ -50,7 +50,7 @@ Click **Install** and let the installer download and install Visual Studio.
 
 Visual Studio should launch automatically when the installer finishes. You may be prompted to sign in, which has some nice features associated with it, but for now you can choose to do so later. Next you can choose your theme and development settings. Once you've made these choices, you'll be ready to start your first project. Click **Create a new project** and then choose **ASP.NET Core Web Application**.
 
-![Visual Studio 2019 Create New ASP.NET Core Web Application Project](media/vs2019-create-new-project.png)
+![Visual Studio 2019 Create New ASP.NET Core Web Application Project](media/vs2019/vs2019-create-new-project.png)
 
 ## Explore ASP.NET Core project types
 
@@ -74,7 +74,7 @@ Note that for most of the project templates you can also choose to enable Docker
 
 Select the standard Web Application template with No Authentication and click **OK**.
 
-![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs2019-choose-aspnetcore-project.png)
+![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs2019/vs2019-choose-aspnetcore-project.png)
 
 ## Next steps
 

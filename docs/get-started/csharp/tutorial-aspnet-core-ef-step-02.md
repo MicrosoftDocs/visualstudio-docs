@@ -29,13 +29,13 @@ _Watch this video and follow along to create your first ASP.NET Core app._
 
 Start Visual Studio 2019 and click **Create new project**. Choose **ASP.NET Core Web Application**. Choose the **Web Application** template and keep the default project name and location. Click **Create**. For more detailed instructions, refer to [the previous video in this tutorial series](tutorial-aspnet-core-ef-step-01.md).
 
-![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs2019-choose-aspnetcore-project.png)
+![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs2019/vs2019-choose-aspnetcore-project.png)
 
 ## Explore the new project
 
 In the solution explorer window on the right, you can view the contents of the new project. They're described here.
 
-![Visual Studio 2019 ASP.NET Core Project](media/vs2019-solution-explorer.png)
+![Visual Studio 2019 ASP.NET Core Project](media/vs2019/vs2019-solution-explorer.png)
 
 ### wwwroot
 
@@ -85,7 +85,7 @@ Replace the `<div>` content in *Index.cshtml* with this markup:
 
 Run the application again. You should see that the page now displays the current time, but it's always midnight! That's not right.
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-app-in-browser.png)
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019/vs2019-app-in-browser.png)
 
 ## Debug the application
 
@@ -93,7 +93,7 @@ Add a breakpoint to the `OnGet` method where we're assigning a value to `Time` a
 
 Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data. 
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-breakpoint.png)
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019/vs2019-breakpoint.png)
 
 Change it to use `DateTime.Now` and continue executing. The new code for `OnGet` should be:
 
@@ -106,7 +106,7 @@ public void OnGet()
 
 You should now see the actual server time in the browser when you navigate to the app.
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019-app-fixed-in-browser.png)
+![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs2019/vs2019-app-fixed-in-browser.png)
 
 ## Next steps
 
