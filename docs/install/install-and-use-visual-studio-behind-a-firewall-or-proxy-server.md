@@ -1,7 +1,7 @@
 ---
 title: "Install and use behind a firewall or proxy server"
 description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
-ms.date: 07/10/2018
+ms.date: 03/30/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -135,6 +135,7 @@ Here are a few more support options:
 
 ## See also
 
+* [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
