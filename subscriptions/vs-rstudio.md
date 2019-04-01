@@ -3,7 +3,7 @@ title:  The RStudio Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 3/4/2019
+ms.date: 04/02/2019
 ms.topic: conceptual
 description: Learn about the RStudio Desktop benefit included in Visual Studio Enterprise subscriptions
 searchscope: VS Subscription
@@ -53,7 +53,8 @@ RStudio is available in open source and commercial editions and runs on the desk
     > [!div class="mx-imgBorder"]
     > ![RStudio Installer](_img/vs-rstudio/vs-rstudio-installer.png) 
 
-    > [!NOTE]You must have a valid installation of R on your computer in order to start RStudio.  If you don't have R installed, you'll receive the error following message.  Click **Yes** to download R from the official R Project website, or download and install R from another source before using RStudio.  
+    > [!NOTE]
+    > You must have a valid installation of R on your computer in order to start RStudio.  If you don't have R installed, you'll receive the error following message.  Click **Yes** to download R from the official R Project website, or download and install R from another source before using RStudio.  
 
    > [!div class="mx-imgBorder"]
    > ![Error message for R not installed](_img/vs-rstudio/vs-rstudio-not-installed.png)
