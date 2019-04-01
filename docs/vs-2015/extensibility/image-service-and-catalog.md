@@ -1,6 +1,6 @@
 ---
 title: "Image Service and Catalog | Microsoft Docs"
-ms.date: 04/01/2019
+ms.date: 11/15/2016
 ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 caps.latest.revision: 38
