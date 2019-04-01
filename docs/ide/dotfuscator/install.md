@@ -25,8 +25,8 @@ manager: jillfra
 ---
 # Install Dotfuscator Community
 
-Visual Studio editions 2017 and newer no longer come with Dotfuscator Community installed by default.
-However, installing Dotfuscator Community on your copy of Visual Studio is a simple process.
+Dotfuscator Community is an optional component of Visual Studio.
+These instructions explain how to install it.
 
 > [!NOTE]
 > In addition to the versions of Dotfuscator Community shipped with releases of Visual Studio,

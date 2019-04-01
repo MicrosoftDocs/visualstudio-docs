@@ -64,10 +64,23 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
+::: moniker range="vs-2019"
+
+To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Search Box** (Ctrl+Q).
+
+* If Dotfuscator Community is already installed, **Search Box** will show the option to start Dotfuscator Community under the *Menus* heading. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
+* If Dotfuscator Community is not yet installed, **Search Box** will instead show **Install PreEmptive Protection - Dotfuscator** under the *Individual Components* heading. See the [Installation page][install] for details.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
 
-* If Dotfuscator Community is already installed, **Quick Launch** will show the option to start Dotfuscator Community under the *Menus* heading. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
-* If Dotfuscator Community is not yet installed, **Quick Launch** will instead show **Install PreEmptive Protection - Dotfuscator** under the *Individual Components* heading. See the [Installation page][install] for details.
+* If Dotfuscator Community is already installed, **Quick Launch** brings up the *Menu* option to start the Dotfuscator Community user interface. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
+* If Dotfuscator Community is not yet installed, **Quick Launch** brings up the relevant *Install* option. See the [Installation page][install] for details.
+
+::: moniker-end
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
