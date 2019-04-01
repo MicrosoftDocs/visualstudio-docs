@@ -2,7 +2,7 @@
 title: "Update Visual Studio"
 titleSuffix: ""
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/21/2019
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -36,7 +36,7 @@ And if you'd like to try out the next version, consider downloading the [release
 
 We've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how to update from version 15.6 and later to newer versions of Visual Studio.
 
-### Use the Notifications hub
+### Using the Notifications hub
 
 When there is an update, there's a corresponding notification flag in Visual Studio.
 
@@ -59,7 +59,7 @@ When there is an update, there's a corresponding notification flag in Visual Stu
      > [!NOTE]
      > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
-### Use the IDE
+### Using the IDE
 
 You can check for an update and then install the update from the menu bar in Visual Studio.
 
@@ -76,7 +76,7 @@ You can check for an update and then install the update from the menu bar in Vis
    > [!NOTE]
    > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
-### Use the Visual Studio Installer
+### Using the Visual Studio Installer
 
 As in earlier versions of Visual Studio, you can use the Visual Studio Installer to install an update.
 
@@ -215,6 +215,22 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
      ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
    Visual Studio closes, and then reopens.
+
+## Use the Notifications Hub
+
+1. In Visual Studio, save your work.
+
+1. Choose the notification icon from the lower-right corner of the Visual Studio IDE to open the **Notifications** hub.
+
+   ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
+
+1. In the **Notifications Hub**, choose the update that you want to install, and then choose **View details**. 
+
+     ![The Notification Hub in Visual Studio 2019](media/vs-2019/notification-hub-update.png "The Notification Hub in Visual Studio 2019")
+
+1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+
+   Visual Studio updates, closes, and then reopens.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
