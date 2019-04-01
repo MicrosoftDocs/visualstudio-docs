@@ -1,5 +1,6 @@
 ---
 title: "How to: Unlock Visual Studio"
+titleSuffix: ""
 ms.date: 03/30/2019
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
