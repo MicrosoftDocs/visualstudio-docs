@@ -1,6 +1,6 @@
 ---
 title: Get started with unit testing
-ms.date: 05/02/2017
+ms.date: 04/01/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
@@ -21,72 +21,83 @@ This section describes at a high level how to create a unit test project.
 > [!TIP]
 > The project under test, "HelloWorld", is an example project and no code for it is intended to be shown. If you want to create a "HelloWorld" project to test, see [Create your first C# console app](../ide/quickstart-csharp-console.md). For a complete walkthrough article, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
-1. Create a unit test project.
+1. Open the project that you want to test in Visual Studio.
 
-   ![Add a unit test project to your solution](media/createunittest1.png)
+1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
 
-1. Name your project.
+1. Find a unit test project for the test framework you want to use and select it.
 
-   ![Unit test project template](media/createunittest2.png)
+   ::: moniker range=">=vs-2019"
+
+   ![Unit test project template in Visual Studio 2019](media/vs-2019/add-new-test-project.png)
+
+   Click **Next**, choose a name for the test project, and then click **Create**.
+
+   ::: moniker-end
 
    The project is added to your solution.
 
-   ![Unit test project in Solution Explorer](media/createunittest5.png)
+   ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
 
-1. In the unit test project, add a reference to the project you want to test.
+1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference**.
 
-   ![Add a reference to your unit test project](media/createunittest6.png)
+1. Select the project that contains the code you'll test and click **OK**.
 
-1. Select the project that contains the code you'll test.
-
-   ![Select the reference to add](media/createunittest7.png)
+   ![Add project reference in Visual Studio](media/vs-2019/reference-manager.png)
 
 1. Code your unit test.
 
-   ![Add code to your unit test](media/createunittest8.png)
-
-You can also create unit test method stubs with the **Create Unit Tests** [command](create-unit-tests-menu.md).
-
-![Using the Create unit tests command](media/createunittestcommand2.png)
+   ![Add code to your unit test method in Visual Studio](media/vs-2019/unit-test-method.png)
 
 ## Run unit tests
 
-1. Open **Test Explorer**.
+1. Open **Test Explorer** by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar.
 
-   ![On the Test menu, open Test Explorer](media/rununittest1.png)
+1. Run your unit tests by clicking **Run All**.
 
-1. Run unit tests.
+   ![Run unit tests in Test Explorer](media/vs-2019/test-explorer-run-all.png)
 
-   ![Run unit tests in Test Explorer](media/rununittest2.png)
+   After the test has completed, a green check mark indicates that the test passed.
 
-   You can see the unit tests that passed or failed in **Test Explorer**.
-
-   ![Review unit test results in Test Explorer](media/rununittest3.png)
+   ![Review unit test results in Test Explorer](media/vs-2019/unit-test-passed.png)
 
 ## View live unit test results
 
 If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or later, you can see live results of your unit tests.
 
 > [!NOTE]
-> Live unit testing is available in Visual Studio Enterprise edition only.
+> Live unit testing is available in Enterprise edition only.
 
-1. Turn on live unit testing from the **Test** menu.
+1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
+
+   ::: moniker rane="vs-2017"
 
    ![Turn on live unit testing](media/live-test-results-start.png)
 
+   ::: moniker-end
+
+   ::: moniker rane=">=vs-2019"
+
+   ![Start live unit testing in Visual Studio 2019](media/vs-2019/start-live-unit-testing.png)
+
+   ::: moniker-end
+
 1. View the results of the tests within the code editor window as you write and edit code.
 
-   ![View the results of the tests](media/live-test-results-ui.png)
+   ![View the results of the tests](media/vs-2019/live-unit-testing-results.png)
 
-1. Choose the test result indicators to see more information.
+1. Click a test result indicator to see more information, such as the names of the tests that cover that method.
 
-   ![Choose the test result indicators](media/live-test-results-details.png)
+   ![Choose the test result indicators](media/vs-2019/live-unit-testing-details.png)
 
-For more details, see [Live unit testing](../test/live-unit-testing-intro.md).
+For more information about live unit testing, see [Live unit testing](../test/live-unit-testing-intro.md).
 
 ## Generate unit tests with IntelliTest
 
-When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+When you run IntelliTest, you can see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+
+> [!TIP]
+> IntelliTest is only available for C# code that targets the .NET Framework.
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
@@ -104,60 +115,31 @@ To determine what proportion of your project's code is actually being tested by 
 
 You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit. Use the plug-in for the framework so that Visual Studio's test runner can work with that framework.
 
-Following are the steps to enable third-party test frameworks:
+Following are the steps to enable a third-party test framework:
 
-::: moniker range="vs-2017"
+1. Create a class library project and add it to your solution. This project will contain your test code.
 
-1. Choose **Tools** > **Extensions and Updates** from the menu bar.
+   ![Name the class library project and add it](media/.png)
 
-2. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
+5. Install the plug-in.
 
-   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
+   In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
 
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-1. Choose **Extensions** > **Manage Extensions** from the menu bar.
-
-2. In the **Manage Extensions** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
-
-   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
-
-::: moniker-end
-
-3. Select the framework or adapter you want to install, and then choose **Download**.
-
-4. Create a class library project and add it to your solution.
-
-   ![Name the class library project and add it](media/create3rdpartyunittest3.png)
-
-5. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
-
-   ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png)
-
-   [NuGet](https://www.nuget.org/) is an extension of Visual Studio
-   that you can use to add and update libraries and tools for your projects.
+   ![Manage NuGet packages to install the plug-in](media/.png)
 
 6. In the **NuGet Package Manager** window, search for and select the plug-in, and then choose **Install**.
 
-   ![Install your 3rd-party framework](media/create3rdpartyunittest4.png)
+   ![Install your 3rd-party framework](media/.png)
 
    The framework is referenced in your project.
 
-   ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png)
+   ![The reference for the 3rd-party unit test framework is added into your solution](media/.png)
 
-7. From the class library project's **References** node, select **Add Reference**.
-
-   ![Add a reference to the project](media/createunittest6.png)
-
-8. In the **Reference Manager** dialog box, select the project that contains the code you'll test.
-
-   ![Select the code project for you to test](media/createunittest7.png)
+7. Add a reference from the class library (test) project to the project that contains the code you want to test.
 
 9. Code your unit test.
 
-   ![Add code to your unit test code file](media/create3rdpartyunittest7.png)
+   ![Add code to your unit test code file](media/.png)
 
 ## See also
 
