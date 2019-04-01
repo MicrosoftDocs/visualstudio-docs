@@ -27,7 +27,7 @@ Use the **Extensions and Updates** dialog box to install and manage Visual Studi
 
 ::: moniker range=">=vs-2019"
 
-Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the **Quick Launch** search box and choose **Manage Extensions**.
+Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and choose **Manage Extensions**.
 
 ::: moniker-end
 

@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Console commands | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "07/17/2017"
+ms.custom: ""
+ms.date: "03/28/2019"
 ms.topic: "reference"
 helpviewer_keywords:
   - "JavaScript Console commands [UWP apps]"
@@ -16,12 +16,19 @@ ms.workload:
 ---
 # JavaScript Console commands in Visual Studio
 
-You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to UWP apps and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/). For info on using the console in Internet Explorer F12 tools, see [this topic](/previous-versions/windows/internet-explorer/ie-developer/samples/dn255006(v=vs.85)).
+::: moniker range=">=vs-2019"
+You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. The information in this topic applies to Node.js apps created using Visual Studio with the **Node.js development** workload installed.
+::: moniker-end
+::: moniker range="vs-2017"
+You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use this window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017). The information in this topic applies to Node.js app, UWP apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/).
+::: moniker-end
 
 If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.
 
 > [!NOTE]
 > If the window is not available during a debugging session, make sure that the debugger type is set to **Script** in the Debug properties for the project.
+
+For info on using the console in Microsoft Edge Developer tools, see [this topic](/microsoft-edge/devtools-guide).
 
 ## console object commands
 This table shows the syntax for the `console` object commands that you can use in the JavaScript Console window, or that you can use to send messages to the console from your code. This object provides a number of forms so that you can distinguish between informational messages and error messages, if you want to.
@@ -124,5 +131,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## See Also
-- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)
-- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
+- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)

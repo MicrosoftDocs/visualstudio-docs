@@ -79,13 +79,13 @@ Next, we will create an application that has a few bugs.
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Framework)** or **Create new Console App (.NET Core)**. In the dialog box that appears, choose **Create**. Type a name like **ConsoleApp-FirstApp** and click **Create**.
+    On the start window, choose **Create a new project**. Type **console** in the search box and then choose **Console App (.NET Framework)** or **Console App (.NET Core)**. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Framework)** or **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
     ::: moniker-end
 
-    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload or the **.NET Core cross platform development** workload, then choose **Modify**.
+    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload or the **.NET Core cross platform development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
