@@ -79,4 +79,4 @@ Learn more about how to architect ASP.NET Core applications with these free reso
 
 ## See also
 
-- [Publish an ASP.NET Core app to Azure with Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.2)
+- [Publish an ASP.NET Core app to Azure with Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.2)

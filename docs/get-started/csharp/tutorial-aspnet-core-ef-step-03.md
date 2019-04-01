@@ -31,7 +31,7 @@ If you're following along with these videos, open the Web Application project yo
 
 ## Add your model
 
-The first thing you need to do to work with data in your ASP.NET Core application is to describe what the data should look like. We call that creating a *model* of the things involved in the problem we're trying to solve. In real world applications, we'll add custom business logic to these models so they can behave in certain ways and automate tasks for us. For this sample, we're going to create a simple system for tracking boardgames. We need a class that represents a game, and includes some properties that we might want to record about that game, like how many players it can support. This class will go into a new folder we'll create in the root of the web project, called *Models*.
+The first thing you need to do to work with data in your ASP.NET Core application is to describe what the data should look like. We call that creating a *model* of the things involved in the problem we're trying to solve. In real world applications, we'll add custom business logic to these models so they can behave in certain ways and automate tasks for us. For this sample, we're going to create a simple system for tracking board games. We need a class that represents a game, and includes some properties that we might want to record about that game, like how many players it can support. This class will go into a new folder we'll create in the root of the web project, called *Models*.
 
 ```csharp
 public class Game
@@ -120,5 +120,5 @@ In the next video, you'll learn how to add web API support to your app.
 
 ## See also
 
-- [Razor Pages with Entity Framework Core in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio)
-- [ASP.NET Core Razor Pages with EF Core](https://docs.microsoft.com/en-us/aspnet/core/data/?view=aspnetcore-2.1)
+- [Razor Pages with Entity Framework Core in ASP.NET Core](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio)
+- [ASP.NET Core Razor Pages with EF Core](/aspnet/core/data/?view=aspnetcore-2.1)
