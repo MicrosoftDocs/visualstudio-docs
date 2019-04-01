@@ -25,11 +25,11 @@ Help Viewer is an optional installation component of Visual Studio. To install i
 
 1. Choose the **Modify** button to start the installation of Microsoft Help Viewer.
 
-Another way to easily install Microsoft Help Viewer is via the **Quick Launch** box:
+Another way to easily install Microsoft Help Viewer is through the search box:
 
-1. Type or enter **help viewer** in the **Quick Launch** box on the Visual Studio title bar.
+1. Press **Ctrl**+**Q** and then type or enter **help viewer** in the search box.
 
-   ![Quick Launch box](media/installation/quick-launch.png)
+   ![Search box](media/installation/quick-launch.png)
 
 1. Choose the result called **Help Viewer (Individual Component)**.
 

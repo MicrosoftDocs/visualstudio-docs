@@ -70,7 +70,7 @@ Deployment uses the remote debugger network channel to send the app files to the
 
     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.
 
-   **Specifying the remote device in a JavaScript or Visual C++ project page**
+   **Specifying the remote device in a Visual C++ project page**
 
    ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
 
@@ -98,15 +98,15 @@ To remove the network loopback exemption from the app:
 
 - On the C# and Visual Basic Debug property page, clear the **Allow Network Loopback** check box.
 
-- On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.
+- On the C++ Debug property page, set the **Allow Network Loopback** value to **No**.
 
-**Do not launch, but debug my code when it starts (C# and Visual Basic) / Launch Application (JavaScript and C++)**
+**Do not launch, but debug my code when it starts (C# and Visual Basic) / Launch Application (C++)**
 
 To configure the deployment to automatically start a debugging session when the app is launched:
 
 - On the C# and Visual Basic Debug property page, check the **Do not launch, but debug my code when it starts** check box.
 
-- On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.
+- On the C++ Debug property page, set the **Launch Application** value to **Yes**.
 
 ## See Also
 

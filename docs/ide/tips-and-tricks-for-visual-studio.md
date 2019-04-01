@@ -43,10 +43,10 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 |||
 |-|-|
-|Solution Explorer Search|**Ctrl**+**;**|
-|Place Focus in Search box in any tool window|**Alt**+**`** when the tool window has focus|
-|Quick Launch|**Ctrl**+**Q**|
-|Quick Launch Scope Results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|
+|Solution Explorer search|**Ctrl**+**;**|
+|Place focus in search box in any tool window|**Alt**+**`** when the tool window has focus|
+|Search box|**Ctrl**+**Q**|
+|Search box scope results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|
 |Search in Tools Options|**Ctrl**+**E**|
 
 ## Editor find

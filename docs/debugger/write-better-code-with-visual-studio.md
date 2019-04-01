@@ -34,7 +34,7 @@ The following code has some bugs that you can fix using the Visual Studio IDE. T
 
 To create the app:
 
-1. Open Visual Studio and choose **File > New Project**. Under **Visual C#**, choose **Windows Desktop** or **.NET Core**, and then in the middle pane choose a **Console App**.
+1. Open Visual Studio and choose **File** > **New** > **Project**. Under **Visual C#**, choose **Windows Desktop** or **.NET Core**, and then in the middle pane choose a **Console App**.
 
     > [!NOTE]
     > If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET desktop development** or **.NET Core cross-platform development** workload, then choose **Modify**.

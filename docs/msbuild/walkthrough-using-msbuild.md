@@ -32,7 +32,7 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 1. Open Visual Studio and create a project.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
 
     In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Solution**, **Solution Name** (**BuildApp**), and **Framework**.
     ::: moniker-end

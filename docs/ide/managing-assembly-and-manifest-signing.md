@@ -51,7 +51,7 @@ In general, you should not sign executables. A strongly-named component cannot r
 
 ## How to sign an assembly in Visual Studio
 
-You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press **Alt**+**Enter** inside **Solution Explorer**). Select the **Signing** tab, then select the **Sign the assembly**  check box.
+You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). Select the **Signing** tab, then select the **Sign the assembly**  check box.
 
 Specify a key file. If you choose to create a new key file, new key files are always created in the *.pfx* format. You need a name and password for the new file.
 

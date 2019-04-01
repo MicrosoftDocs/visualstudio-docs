@@ -64,7 +64,7 @@ This procedure shows how to add a table from the same database that you used to 
 
 1. Click the dataset node in **Solution Explorer** to bring the **DataSet Designer** into focus.
 
-2. Click the **Data Sources** tab in the left margin of Visual Studio, or type **data sources** in the **Quick Launch** box.
+2. Click the **Data Sources** tab in the left margin of Visual Studio, or type **data sources** in the search box.
 
 3. Right-click the dataset node and select **Configure Data Source with Wizard**.
 
