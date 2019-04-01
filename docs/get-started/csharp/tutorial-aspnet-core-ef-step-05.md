@@ -23,7 +23,7 @@ Follow these steps to deploy your ASP.NET Core app and its database to Azure.
 
 _Watch this video and follow along to deploy your first ASP.NET Core app to Azure._
 
-> [!Video https://youtu.be/n8wz_f5_4wI]
+> [!VIDEO https://www.youtube.com/embed/n8wz_f5_4wI]
 
 ## Open your project
 

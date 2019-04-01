@@ -23,7 +23,7 @@ Follow these steps to add a Web API to your existing ASP.NET Core app.
 
 _Watch this video and follow along to add web API support to your first ASP.NET Core app._
 
-> [!Video https://youtu.be/o_fYPOsAXts]
+> [!VIDEO https://www.youtube.com/embed/o_fYPOsAXts]
 
 ## Open your project
 

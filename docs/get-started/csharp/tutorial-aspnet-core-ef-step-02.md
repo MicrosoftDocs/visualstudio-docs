@@ -23,7 +23,7 @@ Create your first ASP.NET Core Web App with this video tutorial and step-by-step
 
 _Watch this video and follow along to create your first ASP.NET Core app._
 
-> [!Video https://youtu.be/-79RkpyFB6E]
+> [!VIDEO https://www.youtube.com/embed/-79RkpyFB6E]
 
 ## Start Visual Studio 2019 and create a new project
 

@@ -23,7 +23,7 @@ Follow these steps to start working with data using Entity Framework Core in you
 
 _Watch this video and follow along to add data to your first ASP.NET Core app._
 
-> [!Video https://youtu.be/dulJCwNrqhM]
+> [!VIDEO https://www.youtube.com/embed/dulJCwNrqhM]
 
 ## Open your project
 

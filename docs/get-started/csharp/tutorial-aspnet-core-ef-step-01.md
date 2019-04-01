@@ -24,7 +24,7 @@ Learn how to install Visual Studio 2019 with this video tutorial and step-by-ste
 
 _Watch this video and follow along to install Visual Studio and create your first ASP.NET Core app._
 
-> [!Video https://www.youtube.com/embed/Fz_HAqQGLtY]
+> [!VIDEO https://www.youtube.com/embed/Fz_HAqQGLtY]
 
 ## Download the Installer
 
