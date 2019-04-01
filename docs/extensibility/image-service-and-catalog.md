@@ -419,7 +419,7 @@ ImageAttributes attributes = new ImageAttributes
     Dpi           = (int)DpiHelper.DeviceDpiX;  
     // Desired RGBA color, if you don't use this, don't set IAF_Background below  
     Background    = 0xFFFFFFFF,  
-    Flags         = (uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background,  
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background), 
 };  
 
 // Replace this KnownMoniker with your desired ImageMoniker  
@@ -445,7 +445,7 @@ ImageAttributes attributes = new ImageAttributes
     Dpi           = (int)DpiAwareness.GetWindowDpi(control.Handle);  
     // Desired RGBA color, if you don't use this, don't set IAF_Background below  
     Background    = 0xFFFFFFFF,  
-    Flags         = (uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background,  
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),  
 };  
 
 // Replace this KnownMoniker with your desired ImageMoniker  
