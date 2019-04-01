@@ -31,7 +31,7 @@ Open your ASP.NET Core app in Visual Studio 2019. The app should already be usin
 
 ## Add an API controller
 
-Right click on the project and add a new folder called "Api". Then, right click on this folder and choose Add -> New Scaffolded Item. Choose "API Controller with actions, using Entity Framework." Now choose an existing model class and click Add.
+Right click on the project and add a new folder called *Api*. Then, right click on this folder and choose **Add** > **New Scaffolded Item**. Choose **API Controller with actions, using Entity Framework.** Now choose an existing model class and click **Add**.
 
 ![Visual Studio 2019 ASP.NET Core Scaffolded API Controller](media/vs2019-add-scaffold-api.png)
 
@@ -71,7 +71,7 @@ public IEnumerable<Game> GetGame()
 }
 ```
 
-The first method is a simple GET request, as specified using the `[HttpGet]` attribute. It takes no parameters and returns a list of all Games in the database.
+The first method is a simple GET request, as specified using the `[HttpGet]` attribute. It takes no parameters and returns a list of all games in the database.
 
 ```csharp
 // GET: api/Games/5
@@ -181,7 +181,7 @@ Finally, an `[HttpDelete]` route is used with an ID to delete a record. If the r
 
 ## Adding Swagger
 
-Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose Manage NuGet Packages. Click on Browse and search for `Swashbuckle.AspNetCore` and install the corresponding package.
+Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click on **Browse** and search for `Swashbuckle.AspNetCore` and install the corresponding package.
 
 ![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs2019-nuget-swashbuckle.png)
 

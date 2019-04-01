@@ -24,15 +24,15 @@ Learn how to install Visual Studio 2019 with this video tutorial and step-by-ste
 
 _Watch this video and follow along to install Visual Studio and create your first ASP.NET Core app._
 
-> [!Video https://youtu.be/Fz_HAqQGLtY]
+> [!Video https://www.youtube.com/embed/Fz_HAqQGLtY]
 
 ## Download the Installer
 
-Go to [visualstudio.com](https://visualstudio.com) to find the installer. Locate the Visual Studio Community 2019 link, and click it to start the download.
+Go to [visualstudio.com](https://visualstudio.com) to find the installer. Locate the Visual Studio 2019 link, and click it to start the download.
 
 ## Start the Installer
 
-Once the download has completed, click Run to start the installer.
+Once the download has completed, click **Run** to start the installer.
 
 ![Visual Studio 2019 Installer](media/vs2019-installer.png)
 
@@ -44,7 +44,7 @@ Visual Studio can be used for many different kinds of development, and workloads
 
 ## Install
 
-Click Install and let the installer download and install Visual Studio.
+Click **Install** and let the installer download and install Visual Studio.
 
 ## Run Visual Studio for the first time
 
@@ -54,7 +54,7 @@ Visual Studio should launch automatically when the installer finishes. You may b
 
 ## Explore ASP.NET Core project types
 
-You can choose your project name and location, then pick Create. Now choose which template to use for your ASP.NET Core application. You can choose from the following options:
+You can choose your project name and location, then pick **Create**. Now choose which template to use for your ASP.NET Core application. You can choose from the following options:
 
 - Empty. An empty project template that lets you start from scratch.
 - API. Best for Web APIs.
@@ -72,7 +72,7 @@ Note that for most of the project templates you can also choose to enable Docker
 - Work or School Accounts. This option uses Active Directory, Azure AD, or Office 365 for authentication.
 - Windows Authentication. Suitable for intranet applications.
 
-Select the standard Web Application template with No Authentication and click OK.
+Select the standard Web Application template with No Authentication and click **OK**.
 
 ![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs2019-choose-aspnetcore-project.png)
 
