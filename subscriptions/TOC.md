@@ -22,6 +22,7 @@
 #### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Office 365 Developer subscription](vs-office-dev.md)
+#### [RStudio](vs-rstudio.md)
 #### [CAST Highlight](vs-cast.md)
 #### [CloudPilot](vs-cloudpilot.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)

@@ -21,3 +21,4 @@ For more information on specific benefits, check out these pages:
 - [Opsgility](vs-opsgility.md)
 - [Pluralsight](vs-pluralsight.md)
 - [MSDN Magazine](vs-msdn.md)
+- [LinkedIn Learning](vs-linkedin-learning.md)
