@@ -442,7 +442,7 @@ ImageAttributes attributes = new ImageAttributes
     Format        = (uint)_UIDataFormat.DF_WinForms,  
     LogicalWidth  = 16,  
     LogicalHeight = 16,  
-    Dpi           = (int)DpiAwareness.GetDpi();  
+    Dpi           = (int)DpiAwareness.GetWindowDpi(control.Handle);  
     // Desired RGBA color, if you don't use this, don't set IAF_Background below  
     Background    = 0xFFFFFFFF,  
     Flags         = (uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background,  
