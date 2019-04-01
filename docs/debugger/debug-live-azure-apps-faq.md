@@ -17,27 +17,27 @@ Here is a list of questions that might come up when debugging live Azure applica
 
 #### What is the performance cost of taking a snapshot?
 
-When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app. Instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a small in-memory cost (on the order of hundreds of kilobytes for most apps).
+When the Snapshot Debugger captures a snapshot of your app, it forks the app's process and suspends the forked copy. When you debug a snapshot, you're debugging against the forked copy of the process. This process takes only 10-20 milliseconds but doesn't copy the full heap of the app. Instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. That's whey each snapshot has a small in-memory cost (on the order of hundreds of kilobytes for most apps).
 
 #### What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
 
-When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the conditions specified creates a snapshot. If you have multiple snappoints, subsequent snapshots come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs send messages from every instance.
+When you have multiple instances of your app, snappoints get applied to every single instance. Only the first snappoint to hit with the conditions specified creates a snapshot. If you have multiple snappoints, later snapshots come from the same instance that created the first snapshot. Logpoints sent to the output window will only show messages from one instance, while logpoints sent to application logs send messages from every instance.
 
 #### How does the Snapshot Debugger load symbols?
 
-The Snapshot Debugger requires that you have the matching symbols for your application either local or deployed to your Azure App Service. (Embedded PDBs are currently not supported.) The Snapshot Debugger automatically downloads symbols from your Azure App Service. As of Visual Studio 2017 version 15.2, deploying to Azure App Service also deploys your app's symbols.
+The Snapshot Debugger requires that you have the matching symbols for your application either local or deployed to your Azure App Service. (Embedded PDBs are currently not supported.) The Snapshot Debugger automatically downloads symbols from your Azure App Service. Starting with Visual Studio 2017 version 15.2, deploying to Azure App Service also deploys your app's symbols.
 
 #### Does the Snapshot Debugger work against release builds of my application?
 
-Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, the function is recompiled back to a debug version, making it debuggable. When you stop the Snapshot Debugger, the functions are returned to their release build.
+Yes - the Snapshot Debugger is intended to work against release builds. When a snappoint is placed in a function, the function is recompiled back to a debug version, making it debuggable. Stopping the Snapshot Debugger returns functions to the version of the release build.
 
 #### Can logpoints cause side effects in my production application?
 
-No - any log messages you add to your app are evaluated virtually. They cannot cause any side effects in your application. However, some native properties may not be accessible with logpoints.
+No - any log messages you add to your app are evaluated virtually. They can't cause any side effects in your application. However, some native properties may not be accessible with logpoints.
 
 #### Does the Snapshot Debugger work if my server is under load?
 
-Yes, snapshot debugging can work for servers under load. The Snapshot Debugger throttles and does not capture snapshots in situations where there is a low amount of free memory on your server.
+Yes, snapshot debugging can work for servers under load. The Snapshot Debugger throttles and doesn't capture snapshots in situations where there's a low amount of free memory on your server.
 
 #### How do I uninstall the Snapshot Debugger?
 
@@ -49,7 +49,7 @@ You can uninstall the Snapshot Debugger site extension on your App Service with 
 
 #### Why are ports opened during a Snapshot Debugger session?
 
-Snapshot Debugger needs to open certain ports in order to debug the snapshots taken in Azure.  These are the same ports required for remote debugging, [you can find the list of ports here](../debugger/remote-debugger-port-assignments.md).
+Snapshot Debugger needs to open a set of ports in order to debug the snapshots taken in Azure, these are the same ports required for remote debugging. [You can find the list of ports here](../debugger/remote-debugger-port-assignments.md).
 
 ## See also
 
