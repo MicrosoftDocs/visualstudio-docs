@@ -46,6 +46,9 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
    ![Update Visual Studio 2017 by using the Notification hub](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
 
+  > [!TIP]
+  > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
+
 1. When the **Update** dialog box opens, choose **Update Now**.
 
     ![Update Visual Studio 2017 by using the Update dialog box from the Notifications hub](media/vs-update-now-from-notifications-hub.png "The Update dialog box from the Notifications hub in Visual Studio")
@@ -109,6 +112,9 @@ If you are using an earlier version, here's how to apply an update from Visual S
 
    ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
 
+  > [!TIP]
+  > An update for an edition of Visual Studio 2017 is cumulative, so always choose to install the one with the most recent version number.
+
 1. Choose **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
    ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
@@ -148,14 +154,6 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio by using the Visual Studio Installer")
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-## See also
-
-* [Modify Visual Studio](modify-visual-studio.md)
-* [Uninstall Visual Studio](uninstall-visual-studio.md)
-* [Update Visual Studio for Mac](/visualstudio/mac/update)
-
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -194,7 +192,9 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
 ## Use the IDE
 
-1. Open Visual Studio.
+### Open Visual Studio
+
+1. From the Windows **Start** menu, choose **Visual Studio 2019**.
 
     ![Open the Visual Studio 2019 RC](media/vs2019-visual-studio-rc.png "Open Visual Studio 2019 from Windows")
 
@@ -216,7 +216,22 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
    Visual Studio closes, and then reopens.
 
-## Use the Notifications Hub
+### In Visual Studio
+
+1. From the menu bar, choose **Help**, and then choose **Check for Updates**.
+
+     ![Choose 'Check for Updates' from the Help menu](media/vs-2019/vs-ide-check-updates-help-menu.png "Choose 'Check for Updates' from the Help menu")
+
+    > [!TNOTE]
+    > You can also use the search box in the IDE to check for updates. Press **Ctrl**+**Q**, type "check for updates", and then choose the search result that matches.
+
+1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
+
+     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs2019-update-visual-studio-community-rc-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+
+   Visual Studio closes, and then reopens.
+
+## Use the Notifications hub
 
 1. In Visual Studio, save your work.
 
@@ -224,18 +239,24 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
    ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-1. In the **Notifications Hub**, choose the update that you want to install, and then choose **View details**.
+1. In the **Notifications hub**, choose the update that you want to install, and then choose **View details**.
 
-     ![The Notification Hub in Visual Studio 2019](media/vs-2019/notification-hub-update.png "The Notification Hub in Visual Studio 2019")
+     ![The Notification hub in Visual Studio 2019](media/vs-2019/notification-hub-update.png "The Notification hub in Visual Studio 2019")
+
+  > [!TIP]
+  > An update for an edition of Visual Studio 2019 is cumulative, so always choose to install the one with the most recent version number.
 
 1. In the **Update downloaded and ready to install** dialog box, choose **Update**.
 
    Visual Studio updates, closes, and then reopens.
 
+::: moniker-end
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Update Visual Studio for Mac](/visualstudio/mac/update)
-
-::: moniker-end
+* [Modify Visual Studio](modify-visual-studio.md)
+* [Uninstall Visual Studio](uninstall-visual-studio.md)
