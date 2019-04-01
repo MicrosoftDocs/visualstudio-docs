@@ -2,7 +2,7 @@
 title: "Remove Visual Studio"
 titleSuffix: ""
 description: "Learn how to completely remove Visual Studio from your computer, step-by-step."
-ms.date: 09/12/2017
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -25,7 +25,7 @@ ms.technology: vs-installation
 ---
 # Remove Visual Studio
 
-If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 and later versions. Running this tool is to be done as a last resort if repair or uninstall fail, and may uninstall features from other Visual Studio installations or other products which need to be repaired.
+If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 or Visual Studio 2019. Running this tool should be done only as a last resort if repair or uninstall fail, and may uninstall features from other Visual Studio installations or other products that need to be repaired.
 
 In the instructions below, you can run the tool with different command-line switches with the following behavior:
 
