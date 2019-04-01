@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Dotfuscator"
   - "obfuscation"
   - "protection"
-description: "Learn how you can protect your .NET applications with the free copy of Dotfuscator Community included in Visual Studio 2019."
+description: "Learn how you can protect your .NET applications with the free copy of Dotfuscator Community included in Visual Studio."
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
@@ -42,9 +42,9 @@ For more information on how Dotfuscator fits into a secure software development 
 
 ## About Dotfuscator Community
 
-Your copy of Microsoft Visual Studio 2019 includes a copy of ***PreEmptive Protection - Dotfuscator Community***, free for personal use.
+Your copy of Microsoft Visual Studio includes a copy of ***PreEmptive Protection - Dotfuscator Community***, free for personal use.
 (This free version was previously known as Dotfuscator Community Edition or Dotfuscator CE.)
-For instructions on how to install the version of Dotfuscator Community included with Visual Studio 2019, see the [Installation page][install].
+For instructions on how to install the version of Dotfuscator Community included with Visual Studio, see the [Installation page][install].
 
 Dotfuscator Community offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.
 Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][app-protection] features included in Dotfuscator Community are:

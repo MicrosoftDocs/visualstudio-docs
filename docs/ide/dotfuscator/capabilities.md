@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Dotfuscator"
   - "obfuscation"
   - "protection"
-description: "Learn the capabilities of the free copy of Dotfuscator Community included in Visual Studio 2019."
+description: "Learn the capabilities of the free copy of Dotfuscator Community included in Visual Studio."
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren

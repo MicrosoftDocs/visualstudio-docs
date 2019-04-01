@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "registering Dotfuscator"
   - "Dotfuscator command line"
   - "Dotfuscator Professional"
-description: "Learn how to upgrade the free copy of Dotfuscator Community included in Visual Studio 2019."
+description: "Learn how to upgrade the free copy of Dotfuscator Community included in Visual Studio."
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren

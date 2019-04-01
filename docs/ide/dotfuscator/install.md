@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "install Dotfuscator"
   - "installing Dotfuscator"
   - "set up Dotfuscator"
-description: "Learn how to install the free copy of Dotfuscator Community included in Visual Studio 2019."
+description: "Learn how to install the free copy of Dotfuscator Community included in Visual Studio."
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: "Joe-Sewell-PreEmptive"
 ms.author: gewarren
@@ -35,7 +35,7 @@ These instructions explain how to install it.
 > **[click here to go to the Dotfuscator Downloads page][download]**.
 
 
-## Within Visual Studio 2019
+## Within Visual Studio
 
 ::: moniker range="vs-2019"
 
@@ -76,7 +76,7 @@ Once the installation is complete, you can [start using Dotfuscator Community][g
 
 ## During Visual Studio Installation
 
-If you have not yet installed Visual Studio 2019, you can obtain the installer from [the Visual Studio website][2019-install].
+If you have not yet installed Visual Studio, you can obtain the installer from [the Visual Studio website][vs-install].
 When run, it will display installation options for the selected Visual Studio edition.
 
 ::: moniker range="vs-2019"
@@ -91,7 +91,7 @@ When run, it will display installation options for the selected Visual Studio ed
 
 ::: moniker-end
 
-You can then install Dotfuscator Community as an individual component of Visual Studio 2019:
+You can then install Dotfuscator Community as an individual component of Visual Studio:
 
 1. Select the **Individual components** tab.
 2. Under *Code tools*, check the *PreEmptive Protection - Dotfuscator* item.<br/> <br/> ![Individual components](media/install_individually_12.png) <br/> <br/>
@@ -107,7 +107,7 @@ Once the installation is complete, you can start using Dotfuscator Community. Fo
 
 <!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
-[2019-install]:  https://visualstudio.microsoft.com/downloads/
+[vs-install]:  https://visualstudio.microsoft.com/downloads/
 [get-started]:  https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
 [download]:  https://www.preemptive.com/products/dotfuscator/downloads
