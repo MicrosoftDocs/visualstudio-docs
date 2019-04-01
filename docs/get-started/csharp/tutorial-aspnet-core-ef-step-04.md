@@ -1,8 +1,7 @@
 ---
 title: "Step 4: Exposing a Web API From Your ASP.NET Core App"
-titleSuffix: ""
 description: "Add a Web API to your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
-ms.custom: "seodec18, get-started"
+ms.custom: "get-started"
 ms.date: 03/31/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -18,19 +17,19 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Step 4: Exposing a Web API From Your ASP.NET Core App
+# Step 4: Expose a Web API from your ASP.NET Core app
 
 Follow these steps to add a Web API to your existing ASP.NET Core app.
 
 _Watch this video and follow along to add web API support to your first ASP.NET Core app._
 
-> [!Video https://channel9.msdn.com/Shows/XamarinShow/Building-Your-First-Android--iOS-App-in-Visual-Studio-2017/player]
+> [!Video https://youtu.be/o_fYPOsAXts]
 
-## Open Your Project
+## Open your project
 
-Open your ASP.NET Core app in Visual Studio 2019. The app should already be using EF Core to manage your model types, as configured in [step 3 of this tutorial series](tutorial-aspnet-ef-step-03.md)
+Open your ASP.NET Core app in Visual Studio 2019. The app should already be using EF Core to manage your model types, as configured in [step 3 of this tutorial series](tutorial-aspnet-core-ef-step-03.md)
 
-## Add an API Controller
+## Add an API controller
 
 Right click on the project and add a new folder called "Api". Then, right click on this folder and choose Add -> New Scaffolded Item. Choose "API Controller with actions, using Entity Framework." Now choose an existing model class and click Add.
 
@@ -217,13 +216,13 @@ Now you should be able to build and run your app. In the browser, navigate to `/
 
 Click an endpoint under Games, then `Try it out` and `Execute` to see how the different endpoints behave.
 
-## Next Steps
+## Next steps
 
 In the next video, you'll learn how to deploy your app to Azure.
 
-[Step 5: Deploying Your ASP.NET Core App to Azure](tutorial-aspnet-ef-step-05.md)
+[Step 5: Deploying Your ASP.NET Core App to Azure](tutorial-aspnet-core-ef-step-05.md)
 
-## References
+## See also
 
 - [Getting Started with Swashbuckle and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2&tabs=visual-studio)
 - [ASP.NET Core web API help pages with Swagger / OpenAPI](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2)
