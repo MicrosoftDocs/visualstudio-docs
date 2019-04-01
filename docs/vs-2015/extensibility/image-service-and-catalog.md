@@ -823,12 +823,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupClass|GlyphItemProtected|ClassProtected|  
         |GlyphGroupClass|GlyphItemPrivate|ClassPrivate|  
         |GlyphGroupClass|GlyphItemShortcut|ClassShortcut|  
-        |GlyphGroupConstant|GlyphItemPublic|ClassPublic|  
-        |GlyphGroupConstant|GlyphItemInternal|ClassInternal|  
-        |GlyphGroupConstant|GlyphItemFriend|ClassInternal|  
-        |GlyphGroupConstant|GlyphItemProtected|ClassProtected|  
-        |GlyphGroupConstant|GlyphItemPrivate|ClassPrivate|  
-        |GlyphGroupConstant|GlyphItemShortcut|ClassShortcut|  
+        |GlyphGroupConstant|GlyphItemPublic|ConstantPublic|  
+        |GlyphGroupConstant|GlyphItemInternal|ConstantInternal|  
+        |GlyphGroupConstant|GlyphItemFriend|ConstantInternal|  
+        |GlyphGroupConstant|GlyphItemProtected|ConstantProtected|  
+        |GlyphGroupConstant|GlyphItemPrivate|ConstantPrivate|  
+        |GlyphGroupConstant|GlyphItemShortcut|ConstantShortcut|  
         |GlyphGroupDelegate|GlyphItemPublic|DelegatePublic|  
         |GlyphGroupDelegate|GlyphItemInternal|DelegateInternal|  
         |GlyphGroupDelegate|GlyphItemFriend|DelegateInternal|  
@@ -841,12 +841,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupEnum|GlyphItemProtected|EnumerationProtected|  
         |GlyphGroupEnum|GlyphItemPrivate|EnumerationPrivate|  
         |GlyphGroupEnum|GlyphItemShortcut|EnumerationShortcut|  
-        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationMemberPublic|  
-        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationMemberInternal|  
-        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationMemberInternal|  
-        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationMemberProtected|  
-        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationMemberPrivate|  
-        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationMemberShortcut|  
+        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationItemPublic|  
+        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationItemInternal|  
+        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationItemInternal|  
+        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationItemProtected|  
+        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationItemPrivate|  
+        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationItemShortcut|  
         |GlyphGroupEvent|GlyphItemPublic|EventPublic|  
         |GlyphGroupEvent|GlyphItemInternal|EventInternal|  
         |GlyphGroupEvent|GlyphItemFriend|EventInternal|  
