@@ -11,6 +11,9 @@ ms.custom: video
 
 # Install Visual Studio 2017 for Mac
 
+> [!NOTE]
+> Visual Studio 2019 for Mac is [now available](installation.md?).
+
 ## Requirements
 
 To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
@@ -18,11 +21,8 @@ To start developing native, cross-platform apps when you download Visual Studio 
 For working with iOS in Visual Studio you need the following pieces:
 
 - a Mac with macOS Sierra 10.12 or above
-- Xcode 8.3 or above. The latest stable version is usually recommended.
+- Xcode 9.3 or above. The latest stable version is usually recommended.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
-
-> [!NOTE]
-> Visual Studio 2019 for Mac preview is [now available for installation](installation.md?view=vsmac-2019) and testing.
 
 ## Install
 

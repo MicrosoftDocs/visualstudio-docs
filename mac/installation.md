@@ -83,4 +83,4 @@ For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
 
 ## See also
 
-- [Install Visual Studio 2017 (on Windows)](/visualstudio/install/install-visual-studio)
+- [Install Visual Studio (on Windows)](/visualstudio/install/install-visual-studio)

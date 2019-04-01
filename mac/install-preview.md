@@ -14,7 +14,7 @@ ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.
 
-Preview releases to Visual Studio for Mac are distributed as an update, rather than through a separate download. Visual Studio for Mac has two updater channels, as described in the [update](update.md) article: Stable and Preview.
+Preview releases to Visual Studio for Mac are distributed as an update, rather than through a separate download. Visual Studio for Mac has two updater channels, as described in the [update](update.md) article: **Stable** and **Preview**.
 
 Most preview releases will be available through both the **Preview** channel, but always check the [Preview Release Notes](/visualstudio/releasenotes/vs2019-mac-preview-relnotes) for the most accurate information.
 

@@ -225,7 +225,7 @@ If you need to install .NET Core manually on Mac OS 10.12 (Sierra) and higher, d
 
 2. Follow the steps listed on the [.NET Core site](https://www.microsoft.com/net/core#macos).
 
-Make sure to complete all four steps successfully to ensure that .NET Core is installed successfully.
+Make sure to complete all steps successfully to ensure that .NET Core is installed successfully.
 
 ## Summary
 
