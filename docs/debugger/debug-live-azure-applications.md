@@ -56,6 +56,8 @@ In this tutorial, you will:
 
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
+      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
+
 ::: moniker-end
 
     The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.

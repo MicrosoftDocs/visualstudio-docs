@@ -52,6 +52,8 @@ In this tutorial, you will:
 
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
+      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-aks.png)
+
 Visual Studio is now in snapshot debugging mode.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)

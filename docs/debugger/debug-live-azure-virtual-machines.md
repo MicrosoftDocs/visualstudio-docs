@@ -75,6 +75,8 @@ Visual Studio is now in snapshot debugging mode.
 
    ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
+   ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-vm.png)
+
     > [!TIP]
     > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
 
