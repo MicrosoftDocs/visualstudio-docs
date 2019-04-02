@@ -64,7 +64,7 @@ To install and use the remote agent to develop code for iOS, you must first have
 
 When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
 
-Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
+Before you install the remote agent, make sure you have satisfied the [Prerequisites](#prerequisites) and installed [Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
 
 ###  <a name="DownloadInstall"></a> To download and install the remote agent
 
