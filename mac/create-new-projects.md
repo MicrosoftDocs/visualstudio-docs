@@ -3,14 +3,14 @@ title: "Creating new Projects and Solutions"
 description: "This article describes how to create projects and solutions in Visual Studio for Mac"
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 04/02/2019
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
 # Creating new Projects and Solutions
 
 ## Creating new Projects and Solutions from a template
 
-Solutions can be created at any time by using a predefined template. To create a solution this way, browse to **File > New Solution**, select the required platform(s), and then the required template:
+Solutions can be created at any time by using a predefined template. Starting with Visual Studio 2019 for Mac, choose **New** from the start window. Alternatively, browse to **File > New Solution**. Select the required platform(s), and then the required template:
 
 ![Create new Solutions](media/projects-and-solutions-image0.png)
 
@@ -26,7 +26,7 @@ This method of adding new projects can be used to take advantage of Xamarin code
 
 ## Opening Recent Solutions.
 
-The landing page of Visual Studio displays a list of recent projects that you have been working on:
+The start window of Visual Studio displays a list of recent projects that you have been working on:
 
 ![Recent solutions section on welcome page](media/create-new-projects-recent.png)
 

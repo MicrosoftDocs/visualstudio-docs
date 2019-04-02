@@ -5,7 +5,7 @@ metadata:
   description: This article introduces the features of Visual Studio for Mac.
   author: conceptdev
   ms.author: crdun
-  ms.date: 02/06/2019
+  ms.date: 04/02/2019
   ms.topic: landing-page
   ms.prod: visual-studio-mac
   ms.technology: vs-ide-general
@@ -17,7 +17,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 2
     items:
     - href: ~/installation.md
       html: <p></p>

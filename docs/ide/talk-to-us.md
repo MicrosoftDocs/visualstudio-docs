@@ -1,6 +1,6 @@
 ---
 title: "Talk to us"
-ms.date: 10/09/2018
+ms.date: 03/30/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
@@ -11,6 +11,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ---
 # Visual Studio product feedback
 
@@ -22,7 +24,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ## I want to make a suggestion about Visual Studio features
 
-If there's something we can do better, tell us about it! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
+If there's something we can do better, tell us about it! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ### Rate this product
 
@@ -30,7 +32,7 @@ Pre-release versions of Visual Studio have a **Rate this Product** menu item tha
 
 ## I want to contact Microsoft Support
 
-For Visual Studio support information, see the [Support life cycle & servicing](/visualstudio/productinfo/vs-servicing-vs) page.
+For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/productinfo/vs-servicing-vs) page.
 
 For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 
@@ -49,7 +51,7 @@ If you want to share your questions and answers with other developers, use the [
 
 ## I want to help improve the Visual Studio documentation
 
-Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the **Sign in to give documentation feedback** button, also at the bottom of the page.
+Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using your GitHub account; choose the **Sign in to give documentation feedback** button, also at the bottom of the page.
 
 ## See also
 

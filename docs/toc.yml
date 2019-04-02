@@ -179,8 +179,6 @@
         href: get-started/tutorial-open-project-from-repo.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
-      - name: Port, migrate, and upgrade projects in Visual Studio 2019
-        href: porting/port-migrate-upgrade-visual-studio-projects-2019.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
@@ -1137,7 +1135,7 @@
   items:
   - name: What's new in Visual Studio 2017
     href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019 RC
+  - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
   - name: Release notes & system requirements
     items:
