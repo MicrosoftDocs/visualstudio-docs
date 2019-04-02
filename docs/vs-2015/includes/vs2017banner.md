@@ -9,4 +9,4 @@ ms.topic: "include"
 manager: jillfra
 ---
 > [!Note]
-> This article applies to Visual Studio 2015. If you're looking for the latest Visual Studio documentation, use the version selector at the top left. We recommend upgrading to Visual Studio 2019. [Download it here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc)
+> This article applies to Visual Studio 2015. If you're looking for the latest Visual Studio documentation, use the version selector at the top left. We recommend upgrading to Visual Studio 2019. [Download it here](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
