@@ -79,7 +79,7 @@ First, create a Node.js web application project.
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application** (JavaScript). In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application** (JavaScript). In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
@@ -363,6 +363,11 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     `chrome.exe --remote-debugging-port=9222`
 
     This starts Chrome with debugging enabled.
+
+    ::: moniker range=">=vs-2019"
+    > [!NOTE]
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support).
+    ::: moniker-end
 
 3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 

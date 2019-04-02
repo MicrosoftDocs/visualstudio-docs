@@ -31,8 +31,8 @@ Create the following multithreaded app project to use in this tutorial:
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
-    
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+
     - For C#, choose **Create new Console App (.NET Framework) project** for C#. In the dialog box that appears, choose **Create**.
     - For C++, choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
 

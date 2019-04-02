@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: vs-2017
 ---
 # Notifications, Environment, Options dialog box
 

@@ -89,7 +89,7 @@ You create the dataset by running the **Data Source Configuration Wizard**.
 
 8. In the **Database file name**, specify the path and name of the *.mdb* file you want to connect to, and then select **OK**.
 
-   ![Add Connection Access Database File](../data-tools/media/dataaddconnectionaccessmdb.png)
+   ![Add Connection Access Database File](../data-tools/media/add-connection-access-db.png)
 
 9. Select **Next** on the **Choose your Data Connection** page.
 

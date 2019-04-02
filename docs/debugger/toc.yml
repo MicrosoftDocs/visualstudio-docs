@@ -399,15 +399,10 @@
           href: refresh-an-app-javascript.md
         - name: Debug a WebView control
           href: debug-a-webview-control.md
-        - name: Keyboard shortcuts (HTML and JavaScript)
-          href: keyboard-shortcuts-html-and-javascript.md
         - name: Debug HTML and CSS sample code
           href: debug-html-css-and-javascript-sample-code.md
       - name: Debug JavaScript using the console
         href: quickstart-debug-javascript-using-the-console.md
-        items:
-        - name: JavaScript Console commands
-          href: javascript-console-commands.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
       - name: Prefetch content for Microsoft Store apps
@@ -582,6 +577,10 @@
     - name: Debug Web applications
       href: debugging-web-applications.md
       items:
+      - name: JavaScript Console commands
+        href: javascript-console-commands.md
+      - name: Keyboard shortcuts (HTML and JavaScript)
+        href: keyboard-shortcuts-html-and-javascript.md
       - name: Client-side script debugging
         href: client-side-script-debugging.md
         items:

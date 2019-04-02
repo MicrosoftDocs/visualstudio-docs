@@ -77,11 +77,13 @@ Soon after, Visual Studio opens your project file.
 
 ::: moniker range="vs-2019"
 
+1. Open Visual Studio.
+
 1. On the start window, choose **Create a new project**.
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
    After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
 
@@ -90,8 +92,8 @@ Soon after, Visual Studio opens your project file.
    > [!NOTE]
    > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
    >
    > ![ASP.NET Core Web Application workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)

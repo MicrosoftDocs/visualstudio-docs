@@ -16,7 +16,7 @@ ms.workload:
 
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
-Visual Studio 2017 includes improved support for the [Vue.js](https://vuejs.org/) framework, which improves the development experience when creating an application with Vue.js, JavaScript and TypeScript.
+Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 
 The following new features support Vue.js application development in Visual Studio:
 
@@ -61,7 +61,7 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
