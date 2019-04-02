@@ -81,13 +81,13 @@ If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 
 
 1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
 
-   ::: moniker name="vs-2017"
+   ::: moniker range="vs-2017"
 
    ![Turn on live unit testing](media/live-test-results-start.png)
 
    ::: moniker-end
 
-   ::: moniker name=">=vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ![Start live unit testing in Visual Studio 2019](media/vs-2019/start-live-unit-testing.png)
 
