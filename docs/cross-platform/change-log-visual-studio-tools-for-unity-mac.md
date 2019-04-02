@@ -14,8 +14,6 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 Visual Studio Tools for Unity change log.
 
-
-
 ## 2.0.2.0
  Released April 2, 2019
 
