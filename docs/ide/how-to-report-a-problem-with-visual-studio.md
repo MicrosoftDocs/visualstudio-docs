@@ -1,12 +1,11 @@
 ---
 title: "How to report a problem with Visual Studio"
 description: "Find out how to report a problem with Visual Studio"
-ms.custom: ""
 ms.date: 03/11/2018
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
-author: seiyer
-ms.author: seaniyer
+ms.author: seiyer
+author: seaniyer
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -17,8 +16,6 @@ ms.workload:
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
 
 You can report a problem from either Visual Studio or its installer by using the Feedback Tool included in them. The Feedback Tool enables you to easily include diagnostic information in your feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
-
-
 
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
 ![Report an issue pop-up on Visual Studio Developer Community](media/vsfeedbackentry.png)
