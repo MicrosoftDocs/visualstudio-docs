@@ -1,6 +1,6 @@
 ---
 title: Publish to a folder
-ms.date: 01/22/2019
+ms.date: 04/02/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"
@@ -16,8 +16,8 @@ You can use the Publish tool to publish ASP.NET Core apps to a folder.
 
 ## Prerequisites
 
- - [Visual Studio 2017 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2017) installed with ASP.NET Core enabled.
- - An ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2017).
+ - [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with ASP.NET Core enabled.
+ - An ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2019).
 
 ## Publish to Folder
 

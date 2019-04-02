@@ -3,98 +3,100 @@ title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: conceptdev
 ms.author: crdun
-ms.date: 07/13/2017
+ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
 ---
 
 # Getting Started with ASP.NET Core
 
- Visual Studio for Mac makes it easy to develop your app’s service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It’s been tuned for fast performance, factored for small install sizes, and re-imagined to run on Linux and macOS, as well as Windows.
+ Visual Studio for Mac makes it easy to develop your app’s service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It’s been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
 ## Installing .NET Core
 
-.NET Core 1.1 is automatically installed when you install Visual Studio for Mac.
+.NET Core 2.1 is automatically installed when you install Visual Studio for Mac.
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 
-Open Visual Studio for Mac. On the welcome page select **New Project...**
+Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
-![New Project Dialog](media/asp-net-core-image1.png)
+![New Project Dialog](media/asp-net-core-2019-new-asp-core.png)
 
 This will display the New Project dialog, allowing you to select a template to create your application.
 
 There are a number of projects that will provide you with a pre-built template to start building your ASP.NET Core Application. These are:
 
-- **.NET Core > ASP.NET Core Empty Web Application**
-- **.NET Core > ASP.NET Core Web App**
-- **.NET Core > ASP.NET Core Web API**
-- **Multi-platform > App > Connected App**
+- **.NET Core > Empty**
+- **.NET Core > API**
+- **.NET Core > Web Application**
+- **.NET Core > Web Application (Model-View-Controller)**
 
-![ASP.NET Project Options](media/asp-net-core-image11.png)
+![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
 Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
 
-![New ASP.NET Core Empty Project view](media/asp-net-core-image4.png)
+![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
-The ASP.NET Core Empty Web Application creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
-![Solution Pad displaying dependencies](media/asp-net-core-image12.png)
+![Solution Pad displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
 ### Program.cs
 
-Open and inspect the **Program.cs** file in your project. Notice that two things are happening in the `Main` method – the entry into your app:
+Open and inspect the **Program.cs** file in your project. Notice that several things are happening in the `Main` method – the entry into your app:
 
 ```csharp
-public static void Main(string[] args)
-{
-    var host = new WebHostBuilder()
-        .UseKestrel()
-        .UseContentRoot(Directory.GetCurrentDirectory())
-        .UseIISIntegration()
-        .UseStartup<Startup>()
-        .Build();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateWebHostBuilder(args).Build().Run();
+        }
 
-    host.Run();
-}
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>();
+    }
 ```
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
+
+* `.UseStartup<Startup>()`: Specifies the Startup class.
+
+However, you can also add additional configurations, such as:
 
 * `UseKestrel`: Specifies the Kestrel server will be used by the app
 * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
 * `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
-* `.UseStartup<Startup>()`: Specifies the Startup class.
-
-  The Build and Run methods build the IWebHost that will host the app and start it listening for incoming HTTP requests.
 
 ### Startup.cs
 
-The Startup class for your app is specified in the `UseStartup()` method on the `WebHostBuilder`. It is in this class that you will specify the request handling pipeline, and where you configure any services.
+The Startup class for your app is specified in the `UseStartup()` method on the `CreateWebHostBuilder`. It is in this class that you will specify the request handling pipeline, and where you configure any services.
 
 Open and inspect the **Startup.cs** file in your project:
 
 ```csharp
-public class Startup
-{
-    public void ConfigureServices(IServiceCollection services)
+    public class Startup
     {
-    }
-
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-    {
-        loggerFactory.AddConsole();
-
-        if (env.IsDevelopment())
+        // This method gets called by the runtime. Use this method to add services to the container.
+        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public void ConfigureServices(IServiceCollection services)
         {
-            app.UseDeveloperExceptionPage();
         }
 
-        app.Run(async (context) =>
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            await context.Response.WriteAsync("Hello World!");
-        });
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World!");
+            });
+        }
     }
-}
 ```
 
 This Startup class must always adhere to the following rules:
@@ -112,13 +114,13 @@ The `Configure` method of the pre-built template is built to do a few things. Fi
 
 This simple Hello, World project can run now without any additional code being added. To run the app, and view it in your browser, press the Play (Triangular) button in the toolbar:
 
-![Run App](media/asp-net-core-image5.png)
+![Run App](media/asp-net-core-2019-run-debug.png)
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 
-Open your browser of choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
+Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
 ![browser showing text](media/asp-net-core-image7.png)
 
@@ -217,13 +219,13 @@ To add a controller, do the following:
 
 ## Troubleshooting
 
-If you need to install .NET Core manually on Mac OS 10.11 (El Capitan) and higher, do the following:
+If you need to install .NET Core manually on Mac OS 10.12 (Sierra) and higher, do the following:
 
 1. Before you start installing .NET Core, ensure that you have updated all OS updates to the latest stable version. You can check this by going to the App Store application, and selecting the Updates tab.
 
 2. Follow the steps listed on the [.NET Core site](https://www.microsoft.com/net/core#macos).
 
-Make sure to complete all four steps successfully to ensure that .NET Core is installed successfully.
+Make sure to complete all steps successfully to ensure that .NET Core is installed successfully.
 
 ## Summary
 
