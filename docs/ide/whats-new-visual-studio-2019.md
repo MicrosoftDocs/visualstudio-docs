@@ -25,13 +25,13 @@ ms.workload:
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version.
 
-Here's a high-level recap of what's new in Visual Studio 2019:
+Here's a high-level recap of what's new:
 
 * **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
 * **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 * **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
 
-For a complete list of everything in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
+For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
 
 ## Develop
 
@@ -72,15 +72,15 @@ We initially supported only C# when we first previewed the IntelliCode extension
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post. 
+For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post. 
 
 ### Code cleanup
 
 Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
 
-   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile.png)
-
 The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md), [.editorconfig files](create-portable-custom-editor-options.md), or [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+
+   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile.png)
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
@@ -92,13 +92,13 @@ Team up to solve issues.
 <br><br>
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
-### Git-first workflow
+### Cloud-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/start-window-dark.png)
 
-The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code, first.  
+The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.  
 
    ![An animation of the 'Git-first' experience in Visual Studio 2019](media/vs-2019/git-first.gif)
 
@@ -118,7 +118,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 ### Integrated code reviews
 
-We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio. We support code in GitHub and in Azure Repos.
+We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving Visual Studio. We support code in both GitHub and Azure DevOps repositories.
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
@@ -136,11 +136,9 @@ We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Co
 
    ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif)
 
-So whether you are coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints on a property setter, and are great for scenarios such as finding where a global object is being modified or being added or removed from a list. 
+So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list. 
 
-And, if you are a C++ developer who develops large applications, Visual Studio 2019 has made symbols out of proc, which allows you to debug those applications without experiencing memory-related issues.
-
-Use an improved C++ debugger that handles large, complex apps with an external process. Now, when you open your solution, all your projects are unloaded. 
+And, if you're a C++ developer who develops large applications, Visual Studio 2019 has made symbols out of proc, which allows you to debug those applications without experiencing memory-related issues.
 
 ### Search while debugging
 
@@ -162,7 +160,7 @@ Get a snapshot of your app's execution in the cloud to see exactly what's happen
 
 We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
-For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications) page.
+For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) page.
 
 ## Give us feedback
 
