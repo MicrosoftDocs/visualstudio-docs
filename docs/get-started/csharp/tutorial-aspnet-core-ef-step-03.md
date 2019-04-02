@@ -116,7 +116,7 @@ That's all it took to start working with data in an ASP.NET Core app using EF Co
 
 In the next video, you'll learn how to add web API support to your app.
 
-[Step 4: Exposing a Web API From Your ASP.NET Core App](tutorial-aspnet-core-ef-step-04.md)
+[Step 4: Exposing a web API From Your ASP.NET Core App](tutorial-aspnet-core-ef-step-04.md)
 
 ## See also
 
