@@ -27,17 +27,16 @@ With Visual Studio 2019, you'll get best-in-class tools and services for any dev
 
 Here are some highlights:
 
-* **[Develop](#develop)** - Save time with new features: Resolve warnings and suggestions with the click of a button. Get AI-assisted recommendations that learn from the community. Share code using real-time collaborative development.
-* **[Collaborate](#collaborate)** - Team up to solve issues: Start coding quickly by cloning or checking out code from an online repo. Work with anyone on the same codebase without replicating their environment. create, review, and comment on PRs from Azure Repos from within the IDE.
-* **[Debug](#debug)** - Zero in with precise targeting: Use an improved C++ debugger that handles large, complex apps. Find objects and values quickly with new search abilities. Get a snapshot of your app's execution in the cloud.
+* **[Develop](#develop)** - Save time with new features.
+* **[Collaborate](#collaborate)** - Team up to solve issues.
+* **[Debug](#debug)** - Zero in with precise targeting.
 
-> [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2019, see the [release notes](/visualstudio/releases/2019/release-notes/). 
+For a complete list of new features and functionality in Visual Studio 2019, see the [release notes](/visualstudio/releases/2019/release-notes/). 
 
 ## Develop
 
 Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
-
+<br><br>
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### Improved search
@@ -46,7 +45,7 @@ Formerly known as Quick Launch, our new search experience is faster and more eff
 
    ![The new search feature in Visual Studio 2019](media/vs-2019/search-feature-dark.png)
 
-Whether you are looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
+Whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
 
 ### Code cleanup
 
@@ -78,7 +77,7 @@ For more information about the recent updates, see the [Visual Studio IntelliCod
 ## Collaborate
 
 Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
-
+<br><br>
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
 ### Git-first workflow
@@ -114,7 +113,7 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 ## Debug
 
 Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
-
+<br><br>
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
