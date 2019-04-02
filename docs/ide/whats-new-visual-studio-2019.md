@@ -41,19 +41,19 @@ Save time with new features.
 
 ### Improved search
 
-Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
+Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
 
-   ![The new search feature in Visual Studio 2019](media/vs-2019/search-feature-dark.png)
+   ![An animation of the new search experience in Visual Studio 2019](media/vs-2019/new-search-feature.gif)
 
-Whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
+The new fuzzy search logic will find anything you need, regardless of typos. So, whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
 
-### Code cleanup
+### Refactorings
 
-Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+New C# refactorings make it easier to organize your code. Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action you want to take. 
 
-   ![The new code cleanup feature in Visual Studio 2019](media/code-cleanup.png)
+   ![An animation of the refactorings experience in Visual Studio 2019](media/vs-2019/refactorings.gif)
 
-The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md), [.editorconfig files](create-portable-custom-editor-options.md), or [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+We've added many new refactorings, including one that lets you wrap method parameters.
 
 ### IntelliCode
 
@@ -72,11 +72,19 @@ We initially supported only C# when we first previewed the IntelliCode extension
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode see the [Visual Studio IntelliCode supports more languages and learns from your code](https://devblogs.microsoft.com/visualstudio/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) blog post. 
+For more information about IntelliCode see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post. 
 
-### Refactoring
+### Code cleanup
 
-Something about refactoring
+Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+
+   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile.png)
+
+The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md), [.editorconfig files](create-portable-custom-editor-options.md), or [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+
+You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
+
+   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
 
 ## Collaborate
 
@@ -110,7 +118,9 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 ### Integrated code reviews
 
-We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio IDE [(integrated development environment)](../get-started/visual-studio-ide.md). We support code in Azure Repos today, but are expanding to support GitHub and improve the overall experience.
+We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving the Visual Studio. We support code in GitHub and in Azure Repos.
+
+   ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
 To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
 
@@ -121,6 +131,14 @@ Zero in with precise targeting.
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
+
+We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Core applications.
+
+   ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif)
+
+So whether you are coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints on a property setter, and are great for scenarios such as finding where a global object is being modified or being added or removed from a list. 
+
+And, if you are a C++ developer who develops large applications, Visual Studio 2019 has made symbols out of proc, which allows you to debug those applications without experiencing memory-related issues.
 
 Use an improved C++ debugger that handles large, complex apps with an external process. Now, when you open your solution, all your projects are unloaded. 
 
@@ -138,11 +156,11 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 
 ### Snapshot Debugger
 
-Get a snapshot of your app’s execution in the cloud to see exactly what’s happening. (This feature is available in Visual Studio Enterprise, only.)
+Get a snapshot of your app's execution in the cloud to see exactly what's happening. (This feature is available in Visual Studio Enterprise, only.)
 
    ![An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise](media/vs-2019/snapshot-debugger.gif)
 
-We've added support for targeting ASP.NET (Core and desktop) applications that run on Windows Virtual Machines (VM) and VM Scale Sets.
+We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for ASP.NET Core applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications) page.
 
