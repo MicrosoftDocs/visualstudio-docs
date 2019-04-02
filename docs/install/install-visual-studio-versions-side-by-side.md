@@ -32,7 +32,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2019.
 
-* If you try to use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-upgrade-visual-studio-projects-2019.md) page.
+* If you try to use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-upgrade-visual-studio-projects.md) page.
 
 ::: moniker-end
 
