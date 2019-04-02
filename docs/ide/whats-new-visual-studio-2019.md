@@ -160,7 +160,7 @@ Get a snapshot of your app's execution in the cloud to see exactly what's happen
 
    ![An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise](media/vs-2019/snapshot-debugger.gif)
 
-We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for ASP.NET Core applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications) page.
 
