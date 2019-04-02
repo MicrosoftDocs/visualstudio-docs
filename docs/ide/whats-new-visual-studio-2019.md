@@ -25,17 +25,17 @@ ms.workload:
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version.
 
-Here are some highlights:
+Here's a high-level recap of what's new in Visual Studio 2019:
 
-* **[Develop](#develop)** - Save time with new features.
-* **[Collaborate](#collaborate)** - Team up to solve issues.
-* **[Debug](#debug)** - Zero in with precise targeting.
+* **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
+* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
+* **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
 
-For a complete list of new features and functionality in Visual Studio 2019, see the [release notes](/visualstudio/releases/2019/release-notes/). 
+For a complete list of everything in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
 
 ## Develop
 
-Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
+Save time with new features.
 <br><br>
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
@@ -59,6 +59,8 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
+ ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
+
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
 * Deliver context-aware code completions
@@ -66,17 +68,19 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
- ![An example of an IntelliSense suggestion](media/intellicode-intellisense-suggestion.png)
-
 We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about the recent updates, see the [Visual Studio IntelliCode supports more languages and learns from your code](https://devblogs.microsoft.com/visualstudio/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) blog post. And, for more information about the extension and how to download it, see the [Visual Studio IntelliCode - Preview](https://go.microsoft.com/fwlink/?linkid=872707) page on Microsoft DevLabs.
+For more information about IntelliCode see the [Visual Studio IntelliCode supports more languages and learns from your code](https://devblogs.microsoft.com/visualstudio/visual-studio-intellicode-supports-more-languages-and-learns-from-your-code/) blog post. 
+
+### Refactoring
+
+Something about refactoring
 
 ## Collaborate
 
-Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
+Team up to solve issues.
 <br><br>
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
@@ -112,17 +116,19 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 
 ## Debug
 
-Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
+Zero in with precise targeting.
 <br><br>
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
 
-Use an improved C++ debugger that handles large, complex apps with an external process.
+Use an improved C++ debugger that handles large, complex apps with an external process. Now, when you open your solution, all your projects are unloaded. 
 
 ### Search while debugging
 
 You've probably been there before, looking in the Watch window for a string amongst a set of values. In Visual Studio 2019, we've added search in the Watch, Locals, and Autos windows to help you find the objects and values you're looking for.
+
+   ![An animation that shows the debug search window in Visual Studio 2019](media/vs-2019/debug-window-search.gif)
 
 You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
@@ -133,6 +139,12 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 ### Snapshot Debugger
 
 Get a snapshot of your app’s execution in the cloud to see exactly what’s happening. (This feature is available in Visual Studio Enterprise, only.)
+
+   ![An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise](media/vs-2019/snapshot-debugger.gif)
+
+We've added support for targeting ASP.NET (Core and desktop) applications that run on Windows Virtual Machines (VM) and VM Scale Sets.
+
+For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications) page.
 
 ## Give us feedback
 
