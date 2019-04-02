@@ -48,7 +48,7 @@ searchScope: []
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Visual Studio for Mac</h3>
-                                                    <p>Develop apps and games for iOS, Android, Desktop, and web using .NET.</p>
+                                                    <p>Develop apps and games for iOS, Android, desktop, and web using .NET.</p>
                                                 </div>
                                             </div>
                                         </div>

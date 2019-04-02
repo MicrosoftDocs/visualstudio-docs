@@ -8,10 +8,11 @@ ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
 ---
-
 # Install Visual Studio 2019 for Mac
 
-## Requirements for the Visual Studio 2019 for Mac
+To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
+
+## Requirements
 
 - A Mac with macOS High Sierra 10.12 or above.
 
@@ -20,7 +21,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 - Xcode 11.0 or above. The latest stable version is usually recommended.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
-## Installing the
+## Installation instructions
 
 1. Download the installer from the [Visual Studio for Mac download page](https://aka.ms/vsmac).
 2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:

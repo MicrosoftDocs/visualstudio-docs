@@ -1,16 +1,14 @@
 ---
-title: "Install a preview release"
+title: "Install a preview or update for Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases, including the Visual Studio 2019 for Mac previews."
 author: conceptdev
 ms.author: crdun
-ms.date: 4/2/2019
+ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ---
-# Install a preview release
-
-## Install an update for Visual Studio for Mac
+# Install a preview or update for Visual Studio for Mac
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.
 

@@ -1,6 +1,6 @@
 ---
 title: Publish to Azure App Service
-ms.date: 4/2/2019
+ms.date: 04/02/2019
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "deployment, website"
