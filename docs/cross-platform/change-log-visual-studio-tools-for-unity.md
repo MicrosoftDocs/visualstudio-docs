@@ -69,7 +69,7 @@ Visual Studio Tools for Unity change log.
     
 -   **Debugger:**
 
-    -   Fixed reading custom attribute named arguments on old protocol versions.
+    -   Fixed reading custom attribute on named arguments when using old protocol versions.
 
 ## 4.0.0.2
  Released January 23, 2019
@@ -97,7 +97,7 @@ Visual Studio Tools for Unity change log.
 
     -   Replaced NRefactory in favor of Roslyn for expression evaluation.
 
-    -   Added support for pointers: dereference, casting and pointer arithmetics.
+    -   Added support for pointers: dereference, casting and pointer arithmetic.
 
     -   Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
 
@@ -105,7 +105,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
     
-    -   Added support for automatically resfreshing Unity's asset database on save.
+    -   Added support for automatically refreshing Unity's asset database on save.
 
 ### Bug fixes
 
