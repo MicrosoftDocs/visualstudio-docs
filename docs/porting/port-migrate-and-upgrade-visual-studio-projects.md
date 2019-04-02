@@ -100,7 +100,7 @@ Refer to the following articles for further discussion:
 
 ## See also
 
-[Project migration and upgrade reference for Visual Studio 2019](port-migrate-upgrade-visual-studio-projects.md?view=vs-2019)
+[Project migration and upgrade reference for Visual Studio 2019](port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2019)
 
 ::: moniker-end
 
