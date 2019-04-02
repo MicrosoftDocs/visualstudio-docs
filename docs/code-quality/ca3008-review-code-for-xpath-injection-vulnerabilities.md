@@ -64,8 +64,11 @@ public partial class WebForm : System.Web.UI.Page
     {
         string operation = Request.Form["operation"];
 
-        // If an attacker specifies operation as: ' or 'a' = 'a
-        // Then the XPath will return any authorizedOperation node.
+        // If an attacker uses this for input:
+        //     ' or 'a' = 'a
+        // Then the XPath query will be:
+        //     authorizedOperation[@username = 'anonymous' and @operationName = '' or 'a' = 'a']
+        // and it will return any authorizedOperation node.
         XPathNavigator node = AuthorizedOperations.SelectSingleNode(
             "//authorizedOperation[@username = 'anonymous' and @operationName = '" + operation + "']");
     }
@@ -84,8 +87,11 @@ Partial Public Class WebForm
     Protected Sub Page_Load(sender As Object, e As EventArgs)
         Dim operation As String = Me.Request.Form("operation")
         
-        ' If an attacker specifies operation as: ' or 'a' = 'a
-        ' Then the XPath will return any authorizedOperation node.
+        ' If an attacker uses this for input:
+        '     ' or 'a' = 'a
+        ' Then the XPath query will be:
+        '      authorizedOperation[@username = 'anonymous' and @operationName = '' or 'a' = 'a']
+        ' and it will return any authorizedOperation node.
         Dim node As XPathNavigator = AuthorizedOperations.SelectSingleNode( _
             "//authorizedOperation[@username = 'anonymous' and @operationName = '" + operation + "']")
     End Sub
