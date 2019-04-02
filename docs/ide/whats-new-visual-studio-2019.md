@@ -38,7 +38,7 @@ Here are some highlights:
 
 Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
 
-> [!VIDEO https://www.youtube/embed/n5sJ4EewKGk]
+> [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### Improved search
 
