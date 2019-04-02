@@ -71,17 +71,17 @@ For language-specific information, see the appropriate topic in the following ta
 
 | Language | Topic |
 |--------------|-----------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2019) |
-| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2019) |
-| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2019) |
+| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
+| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md) |
+| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md) |
 | C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md?view=vs-2019)
-* [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-upgrade-visual-studio-projects-2019.md)
+* [Install Visual Studio](install-visual-studio.md)
+* [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-upgrade-visual-studio-projects.md)
 * [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end
