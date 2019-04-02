@@ -64,7 +64,7 @@ The Visual Studio integrated shell includes the integrated development environme
   
 -   Class Designer  
   
--   Pre-Emptive DotFuscator  
+-   PreEmptive Protection - Dotfuscator  
   
 -   Language features  
   

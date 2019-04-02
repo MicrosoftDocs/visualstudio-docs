@@ -25,7 +25,7 @@ For information about signing assemblies in Visual Basic and C# projects, see [C
 For information about signing assemblies in Visual C++ projects, see [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).
 
 > [!NOTE]
-> Strong-name signing does not protect against reverse-engineering of the assembly. To protect against reverse-engineering, see [Dotfuscator Community Edition (CE)](dotfuscator/index.md).
+> Strong-name signing does not protect against reverse-engineering of the assembly. To protect against reverse-engineering, see [Dotfuscator Community](dotfuscator/index.md).
 
 ## Asset types and signing
 
