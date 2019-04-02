@@ -1121,14 +1121,14 @@
       items:
       - name: Shortcut Keys
         href: help-viewer/shortcut-keys.md
-  - name: Dotfuscator Community Edition (CE)
+  - name: Dotfuscator Community
     href: ide/dotfuscator/index.md
     items:
     - name: Capabilities of Dotfuscator
       href: ide/dotfuscator/capabilities.md
-    - name: Install Dotfuscator CE
+    - name: Install Dotfuscator Community
       href: ide/dotfuscator/install.md
-    - name: Upgrade Dotfuscator CE
+    - name: Upgrade Dotfuscator Community
       href: ide/dotfuscator/upgrades.md
 - name: Resources
   expanded: true

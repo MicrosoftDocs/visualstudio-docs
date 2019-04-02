@@ -72,7 +72,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
   
 3.  ATL/MFC Trace Tool: shows debug trace messages in the ATL and MFC sources.  
   
-4.  PreEmptive Dotfuscator and Analytics: Protects .NET programs against reverse engineering.  
+4.  PreEmptive Protection - Dotfuscator: Protects .NET programs against reverse engineering.  
   
 5.  SPY++: Displays processes, threads, windows, and window messages graphically.  
   
