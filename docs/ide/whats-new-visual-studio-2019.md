@@ -23,13 +23,13 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
 
-With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version.
+With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
 
 Here's a high-level recap of what's new:
 
-* **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
-* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
-* **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
+* **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, and better search results.
+* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a cloud-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
+* **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 
 For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
 
