@@ -16,7 +16,7 @@ ms.workload:
 
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
-Visual Studio 2017 includes improved support for the [Vue.js](https://vuejs.org/) framework, which improves the development experience when creating an application with Vue.js, JavaScript and TypeScript.
+Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 
 The following new features support Vue.js application development in Visual Studio:
 

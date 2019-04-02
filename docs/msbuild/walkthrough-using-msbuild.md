@@ -45,6 +45,7 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 1. Click **OK** or **Create** to create the project file.
 
 ## Examine the project file
+
  In the previous section, you used Visual Studio to create a Visual C# project file. The project file is represented in **Solution Explorer** by the project node named BuildApp. You can use the Visual Studio code editor to examine the project file.
 
 **To examine the project file**
@@ -215,8 +216,14 @@ $(PropertyName)
 4. Examine the output. You should see these two lines (your .NET Framework version may differ):
 
     ```
+    ::: moniker range=">=vs-2019"
+    Configuration is Debug
+    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2019\<Visual Studio SKU>\MSBuild\15.0\Bin
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     Configuration is Debug
     MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin
+    ::: moniker-end
     ```
 
 > [!NOTE]
