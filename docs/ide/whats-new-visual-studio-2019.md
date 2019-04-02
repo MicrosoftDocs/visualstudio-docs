@@ -23,11 +23,13 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
 
-With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you are using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version:
+With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version.
 
-* **[Develop](#develop)** - Save time with new features. Resolve warnings and suggestions with the click of a button; get AI-assisted recommendations that learn from the community; share code using real-time collaborative development.
-* **[Collaborate](#collaborate)** - Team up to solve issues. Start coding quickly by cloning or checking out code from an online repo; work with anyone on the same codebase without replicating their environment; create, review, and comment on PRs from Azure Repos from within the IDE.
-* **[Debug](#debug)** - Zero in with precise targeting. Use an improved C++ debugger that handles large, complex apps; find objects and values quickly with new search abilities; get a snapshot of your app's execution in the cloud.
+Here are some highlights:
+
+* **[Develop](#develop)** - Save time with new features: Resolve warnings and suggestions with the click of a button. Get AI-assisted recommendations that learn from the community. Share code using real-time collaborative development.
+* **[Collaborate](#collaborate)** - Team up to solve issues: Start coding quickly by cloning or checking out code from an online repo. Work with anyone on the same codebase without replicating their environment. create, review, and comment on PRs from Azure Repos from within the IDE.
+* **[Debug](#debug)** - Zero in with precise targeting: Use an improved C++ debugger that handles large, complex apps. Find objects and values quickly with new search abilities. Get a snapshot of your app's execution in the cloud.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2019, see the [release notes](/visualstudio/releases/2019/release-notes/). 
@@ -36,7 +38,7 @@ With Visual Studio 2019, you'll get best-in-class tools and services for any dev
 
 Stay focused and productive with improved performance, instant code cleanup, better search results, and Git integration.
 
-> [!VIDEO https://youtu.be/n5sJ4EewKGk]
+> [!VIDEO https://www.youtube/embed/n5sJ4EewKGk]
 
 ### Improved search
 
@@ -77,9 +79,9 @@ For more information about the recent updates, see the [Visual Studio IntelliCod
 
 Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 
-[!VIDEO https://youtu.be/dKLJsiK1QU8]
+> [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
-## Git-first workflow
+### Git-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
 
@@ -113,7 +115,7 @@ To get started now, download the [Pull Requests for Visual Studio](https://aka.m
 
 Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application’s execution.
 
-> [!VIDEO https://youtu.be/hr72Fs8n_9c]
+> [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
 
