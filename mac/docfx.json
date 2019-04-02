@@ -101,6 +101,9 @@
       },
       "feedback_github_repo": {
         "2017/**/*.md": ""
+      },
+      "hideEdit": {
+        "2017/**/*.md": true
       }
     },
     "template": [],
