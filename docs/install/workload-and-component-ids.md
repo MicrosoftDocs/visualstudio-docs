@@ -58,6 +58,9 @@ For more information about how to use these lists, see the [Use command-line par
 
 For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) page and the [How to: Migrate extensibility projects to Visual Studio](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md?view=vs-2019) page.
 
+> [!NOTE]
+> For a list of the workload and component IDs for the previous version, see [Visual Studio 2017 workload and component IDs](workload-and-component-ids?view=vs-2017)
+
 ::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]

@@ -208,6 +208,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 1.1 | December 10, 2018 | 16.0.28408.50 |
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
+> [!NOTE]
+> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates?view=vs-2017)
+
 ::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
