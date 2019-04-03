@@ -61,7 +61,7 @@ You can search for keywords in the Name, Value, and Type columns of the **Autos*
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-![Search in Locals Window](../debugger/media/EESearch_Locals.png "Search in Locals Window")
+![Search in Locals Window](../debugger/media/eeSearch_Locals.png "Search in Locals Window")
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects. 
 

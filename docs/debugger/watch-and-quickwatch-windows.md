@@ -93,7 +93,7 @@ You can search for keywords in the Name, Value, and Type columns of the **Watch*
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-![Search in Watch Window](../debugger/media/EESearch_Watch.png "Search in Watch Window")
+![Search in Watch Window](../debugger/media/eeSearch_Watch.png "Search in Watch Window")
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
 
