@@ -70,7 +70,7 @@ public partial class WebForm : System.Web.UI.Page
 
         // If an attacker uses this for input:
         //     some text<allowedUser>oscar</allowedUser>
-        // Then XML document will be:
+        // Then the XML document will be:
         //     <root>some text<allowedUser>oscar</allowedUser></root>
         root.InnerXml = input;
     }
@@ -97,7 +97,7 @@ Public Partial Class WebForm
 
         ' If an attacker uses this for input:
         '     some text<allowedUser>oscar</allowedUser>
-        ' Then XML document will be:
+        ' Then the XML document will be:
         '     <root>some text<allowedUser>oscar</allowedUser></root>
         root.InnerXml = input
     End Sub
@@ -126,7 +126,7 @@ public partial class WebForm : System.Web.UI.Page
 
         // If an attacker uses this for input:
         //     some text<allowedUser>oscar</allowedUser>
-        // Then XML document will be:
+        // Then the XML document will be:
         //     <root>&lt;allowedUser&gt;oscar&lt;/allowedUser&gt;some text<allowedUser>alice</allowedUser></root>
         root.InnerText = input;
     }
@@ -153,7 +153,7 @@ Public Partial Class WebForm
 
         ' If an attacker uses this for input:
         '     some text<allowedUser>oscar</allowedUser>
-        ' Then XML document will be:
+        ' Then the XML document will be:
         '     <root>&lt;allowedUser&gt;oscar&lt;/allowedUser&gt;some text<allowedUser>alice</allowedUser></root>
         root.InnerText = input
     End Sub
