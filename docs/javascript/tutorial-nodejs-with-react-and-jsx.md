@@ -318,7 +318,12 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 1. Select Chrome as the current debug target.
 
+    ::: moniker range=">=vs-2019"
+    ![Select Chrome as debug target](../javascript/media/vs-2019/tutorial-nodejs-react-debug-target.png)
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
+    ::: moniker-end
 
     If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 

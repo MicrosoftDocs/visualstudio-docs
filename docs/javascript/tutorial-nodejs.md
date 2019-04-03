@@ -198,7 +198,12 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 1. Select the debug target in the Debug toolbar, such as Microsoft Edge or Chrome.
 
+    ::: moniker range=">=vs-2019"
+    ![Select the debug target](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
+    ::: moniker-end
 
     If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
