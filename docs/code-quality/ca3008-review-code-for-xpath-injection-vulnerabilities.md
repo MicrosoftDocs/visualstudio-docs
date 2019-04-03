@@ -40,13 +40,13 @@ This rule attempts to find input from HTTP requests reaching an XPath expression
 
 Some approaches to fixing XPath injection vulnerabilities include:
 
-1. Do not construct XPath queries from user input.
+1. Don't construct XPath queries from user input.
 1. Validate that the input only contains a safe set of characters.
 1. Escape quotation marks.
 
 ## When to suppress warnings
 
-If you know the input has been validated to be safe.
+If you know you've validated the input to be safe.
 
 ## Pseudo-code examples
 

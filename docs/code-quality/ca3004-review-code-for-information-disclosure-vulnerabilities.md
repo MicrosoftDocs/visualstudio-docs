@@ -26,9 +26,9 @@ An exception's message, stack trace, or string representation reaches web output
 
 ## Rule description
 
-Disclosing information about an exception gives attackers insight into the internals of your application, which can help attackers find other vulnerabilities to exploit.
+Disclosing exception information gives attackers insight into the internals of your application, which can help attackers find other vulnerabilities to exploit.
 
-This rules attempts to find an exception message, stack trace, or string representation being output to an HTTP response.
+This rule attempts to find an exception message, stack trace, or string representation being output to an HTTP response.
 
 > [!NOTE]
 > This rule can't track data across assemblies. For example, if one assembly catches an exception and then passes it to another assembly that outputs the exception, this rule won't produce a warning.
@@ -38,11 +38,11 @@ This rules attempts to find an exception message, stack trace, or string represe
 
 ## How to fix violations
 
-Do not output exception information to HTTP responses.  Instead, provide a generic error messages.  See [OWASP's Error Handling](https://www.owasp.org/index.php/Error_Handling) for more guidance.
+Do not output exception information to HTTP responses.  Instead, provide generic error messages. See [OWASP's Error Handling](https://www.owasp.org/index.php/Error_Handling) for more guidance.
 
 ## When to suppress warnings
 
-If you know your web output is within your application's trust boundary and never exposed outside.  This is rare.  Take into consideration that your application's trust boundary and data flows may change over time.
+If you know your web output is within your application's trust boundary and never exposed outside. This is rare. Take into consideration that your application's trust boundary and data flows may change over time.
 
 ## Pseudo-code examples
 

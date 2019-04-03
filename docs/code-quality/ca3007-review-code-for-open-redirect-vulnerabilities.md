@@ -40,15 +40,15 @@ This rule attempts to find input from HTTP requests reaching an HTTP redirect UR
 
 Some approaches to fixing open redirect vulnerabilities include:
 
-1. Do not allow users to initiate redirects.
-1. Do not allow users to specify any part of the URL in a redirect scenario.
+1. Don't allow users to initiate redirects.
+1. Don't allow users to specify any part of the URL in a redirect scenario.
 1. Restrict redirects to predefined allow list of URLs.
 1. Validate redirect URLs.
 1. If applicable, consider using a disclaimer page when users are being redirected away from your site.
 
 ## When to suppress warnings
 
-If you know the input has been validated to be restricted to intended URLs.
+If you know you've validated the input to be restricted to intended URLs.
 
 ## Pseudo-code examples
 

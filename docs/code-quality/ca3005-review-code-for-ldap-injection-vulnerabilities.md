@@ -38,7 +38,7 @@ This rule attempts to find input from HTTP requests reaching an LDAP statement.
 
 ## How to fix violations
 
-For the user-controlled portion of LDAP statements, consider one of the following:
+For the user-controlled portion of LDAP statements, consider one of:
 1. Allow only a safe list of non-special characters.
 1. Disallow special character
 1. Escape special characters.
