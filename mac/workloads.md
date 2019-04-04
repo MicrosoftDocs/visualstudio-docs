@@ -3,7 +3,7 @@ title: "Visual Studio for Mac Workloads"
 description: "This article describes the various workloads that can be used in Visual Studio for Mac, including Xamarin mobile apps, ASP.NET Core, and Unity for games."
 author: conceptdev
 ms.author: crdun
-ms.date: 12/05/2018
+ms.date: 04/02/2019
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 # Visual Studio for Mac Workloads
@@ -18,9 +18,13 @@ Visual Studio for Mac comes pre-installed with workloads for developing the foll
 
 ## Mobile applications with Xamarin
 
-Xamarin allows you to create cross-platform mobile apps with .NET for Android, iOS, tvOS, watchOS, and Mac desktop apps.
+[Xamarin](xamarin.md) allows you to create cross-platform mobile apps with .NET for Android, iOS, tvOS, watchOS, and Mac desktop apps.
 
 For information on using Xamarin in Visual Studio for Mac, refer to the [Xamarin Developer Center](https://developer.xamarin.com/) and check out the Mobile apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Mobile/Getting-Started).
+
+## Mac desktop applications
+
+You can build Mac apps using [Xamarin.Mac](https://docs.microsoft.com/xamarin/mac/) using the Cocoa user interface framework, and [Xamarin.Forms on Mac](https://docs.microsoft.com/xamarin/xamarin-forms/platform/other/mac) to build apps that share code and UI with other platforms.
 
 ## .NET Core applications
 
