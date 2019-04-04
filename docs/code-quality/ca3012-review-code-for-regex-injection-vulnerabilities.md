@@ -42,12 +42,12 @@ Some mitigations against regex injections include:
 
 - Always use a [match timeout](/dotnet/standard/base-types/best-practices#use-time-out-values) when using regular expressions.
 - Avoid using regular expressions based on user input.
-- Escape special characters from user input with <xref:System.Text.RegularExpressions.Regex.Escape?displayProperty=fullName>, or some other method.
+- Escape special characters from user input by calling <xref:System.Text.RegularExpressions.Regex.Escape%2A?displayProperty=fullName> or another method.
 - Allow only non-special characters from user input.
 
 ## When to suppress warnings
 
-If you know you're using a [match timeout](/dotnet/standard/base-types/best-practices#use-time-out-values) and the user input is free of special characters.
+If you know you're using a [match timeout](/dotnet/standard/base-types/best-practices#use-time-out-values) and the user input is free of special characters, it's okay to suppress this warning.
 
 ## Pseudo-code examples
 
