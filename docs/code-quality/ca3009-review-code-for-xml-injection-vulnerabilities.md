@@ -26,7 +26,7 @@ Potentially untrusted HTTP request input reaches raw XML output.
 
 ## Rule description
 
-When working with untrusted input, be mindful of XML injection attacks. An attacker can use XML injection to insert special characters into an XML document, making the document invalid XML. Or, an attacker could malicously insert XML nodes of their choosing.
+When working with untrusted input, be mindful of XML injection attacks. An attacker can use XML injection to insert special characters into an XML document, making the document invalid XML. Or, an attacker could maliciously insert XML nodes of their choosing.
 
 This rule attempts to find input from HTTP requests reaching a raw XML write.
 
