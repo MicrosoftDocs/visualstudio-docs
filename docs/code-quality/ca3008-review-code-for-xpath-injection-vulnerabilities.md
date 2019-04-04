@@ -40,9 +40,9 @@ This rule attempts to find input from HTTP requests reaching an XPath expression
 
 Some approaches to fixing XPath injection vulnerabilities include:
 
-1. Don't construct XPath queries from user input.
-1. Validate that the input only contains a safe set of characters.
-1. Escape quotation marks.
+- Don't construct XPath queries from user input.
+- Validate that the input only contains a safe set of characters.
+- Escape quotation marks.
 
 ## When to suppress warnings
 
