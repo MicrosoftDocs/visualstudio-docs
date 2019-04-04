@@ -97,7 +97,7 @@ Visual Studio Tools for Unity change log.
 
     -   Replaced NRefactory in favor of Roslyn for expression evaluation.
 
-    -   Added support for pointers: dereference, casting and pointer arithmetic.
+    -   Added support for pointers: dereference, casting and pointer arithmetic (both Unity 2018.2+ and the new runtime are required for this).
 
     -   Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
 
