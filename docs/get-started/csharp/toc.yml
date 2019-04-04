@@ -30,7 +30,7 @@
         href: tutorial-aspnet-core-ef-step-02.md
       - name: '3 - Work with data'
         href: tutorial-aspnet-core-ef-step-03.md
-      - name: '4 - Expose a Web API'
+      - name: '4 - Expose a web API'
         href: tutorial-aspnet-core-ef-step-04.md
       - name: '5 - Deploy your ASP.NET Core app to Azure'
         href: tutorial-aspnet-core-ef-step-05.md

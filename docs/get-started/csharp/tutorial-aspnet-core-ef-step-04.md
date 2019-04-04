@@ -1,6 +1,6 @@
 ---
-title: "Step 4: Exposing a Web API From Your ASP.NET Core App"
-description: "Add a Web API to your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
+title: "Step 4: Exposing a web API From Your ASP.NET Core App"
+description: "Add a web API to your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"
 ms.date: 03/31/2019
 ms.technology: vs-ide-general
@@ -17,9 +17,9 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Step 4: Expose a Web API from your ASP.NET Core app
+# Step 4: Expose a web API from your ASP.NET Core app
 
-Follow these steps to add a Web API to your existing ASP.NET Core app.
+Follow these steps to add a web API to your existing ASP.NET Core app.
 
 _Watch this video and follow along to add web API support to your first ASP.NET Core app._
 
@@ -27,7 +27,7 @@ _Watch this video and follow along to add web API support to your first ASP.NET 
 
 ## Open your project
 
-Open your ASP.NET Core app in Visual Studio 2019. The app should already be using EF Core to manage your model types, as configured in [step 3 of this tutorial series](tutorial-aspnet-core-ef-step-03.md)
+Open your ASP.NET Core app in Visual Studio 2019. The app should already be using EF Core to manage your model types, as configured in [step 3 of this tutorial series](tutorial-aspnet-core-ef-step-03.md).
 
 ## Add an API controller
 
