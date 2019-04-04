@@ -24,7 +24,7 @@ For information on using Xamarin in Visual Studio for Mac, refer to the [Xamarin
 
 ## Mac desktop applications
 
-You can build Mac apps using [Xamarin.Mac](https://docs.microsoft.com/xamarin/mac/) using the Cocoa user interface framework, and [Xamarin.Forms on Mac](https://docs.microsoft.com/xamarin/xamarin-forms/platform/other/mac) to build apps that share code and UI with other platforms.
+You can build Mac apps with [Xamarin.Mac](https://docs.microsoft.com/xamarin/mac/) using the Cocoa user interface framework, and [Xamarin.Forms on Mac](https://docs.microsoft.com/xamarin/xamarin-forms/platform/other/mac) to build apps that share code and UI with other platforms.
 
 ## .NET Core applications
 
