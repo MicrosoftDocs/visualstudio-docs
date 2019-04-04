@@ -38,7 +38,7 @@ This rule attempts to find an exception message, stack trace, or string represen
 
 ## How to fix violations
 
-Don't output exception information to HTTP responses.  Instead, provide a generic error message. See [OWASP's Error Handling](https://www.owasp.org/index.php/Error_Handling) for more guidance.
+Don't output exception information to HTTP responses. Instead, provide a generic error message. See [OWASP's Error Handling page](https://www.owasp.org/index.php/Error_Handling) for more guidance.
 
 ## When to suppress warnings
 
