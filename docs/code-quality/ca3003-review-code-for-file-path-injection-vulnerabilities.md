@@ -38,15 +38,15 @@ This rule attempts to find input from HTTP requests reaching a path in a file op
 
 ## How to fix violations
 
-1. If possible, limit file paths based on user input to an explicitly known safe list.  For example, if your application only needs to access "red.txt", "green.txt", or "blue.txt", only allow those values.
-1. Check for untrusted filenames and validate that the name is well formed.
-1. Use full path names when specifying paths.
-1. Avoid potentially dangerous constructs such as path environment variables.
-1. Only accept long filenames and validate long name if user submits short names.
-1. Restrict end user input to valid characters.
-1. Reject names where MAX_PATH length is exceeded.
-1. Handle filenames literally, without interpretation.
-1. Determine if the filename represents a file or a device.
+- If possible, limit file paths based on user input to an explicitly known safe list.  For example, if your application only needs to access "red.txt", "green.txt", or "blue.txt", only allow those values.
+- Check for untrusted filenames and validate that the name is well formed.
+- Use full path names when specifying paths.
+- Avoid potentially dangerous constructs such as path environment variables.
+- Only accept long filenames and validate long name if user submits short names.
+- Restrict end user input to valid characters.
+- Reject names where MAX_PATH length is exceeded.
+- Handle filenames literally, without interpretation.
+- Determine if the filename represents a file or a device.
 
 ## When to suppress warnings
 

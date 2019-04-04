@@ -38,8 +38,8 @@ This rule attempts to find input from HTTP requests reaching a process command.
 
 ## How to fix violations
 
-1. If possible, avoid starting processes based on user input.
-1. Validate input against a known safe set of characters and length.
+- If possible, avoid starting processes based on user input.
+- Validate input against a known safe set of characters and length.
 
 ## When to suppress warnings
 

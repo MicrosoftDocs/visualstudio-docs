@@ -39,9 +39,9 @@ This rule attempts to find input from HTTP requests reaching an LDAP statement.
 ## How to fix violations
 
 For the user-controlled portion of LDAP statements, consider one of:
-1. Allow only a safe list of non-special characters.
-1. Disallow special character
-1. Escape special characters.
+- Allow only a safe list of non-special characters.
+- Disallow special character
+- Escape special characters.
 
 See [OWASP's LDAP Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.md) for more guidance.
 

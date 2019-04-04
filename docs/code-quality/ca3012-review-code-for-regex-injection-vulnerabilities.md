@@ -40,10 +40,10 @@ This rule attempts to find input from HTTP requests reaching a regular expressio
 
 Some mitigations against regex injections include:
 
-1. Always use a [match timeout](/dotnet/standard/base-types/best-practices#use-time-out-values) when using regular expressions.
-1. Avoid using regular expressions based on user input.
-1. Escape special characters from user input with <xref:System.Text.RegularExpressions.Regex.Escape?displayProperty=fullName>, or some other method.
-1. Allow only non-special characters from user input.
+- Always use a [match timeout](/dotnet/standard/base-types/best-practices#use-time-out-values) when using regular expressions.
+- Avoid using regular expressions based on user input.
+- Escape special characters from user input with <xref:System.Text.RegularExpressions.Regex.Escape?displayProperty=fullName>, or some other method.
+- Allow only non-special characters from user input.
 
 ## When to suppress warnings
 
