@@ -45,14 +45,14 @@ Not only do Roslyn analyzers report the same types of problems that static code 
 
 To differentiate between violations from Roslyn analyzers and static code analysis in the **Error List**, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a Roslyn analyzer. Otherwise, the violation originates from static code analysis.
 
+![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
+
 > [!TIP]
 > The **RunCodeAnalysis** msbuild property in a project file applies only to static code analysis. If you install analyzers, set **RunCodeAnalysis** to **false** in your project file to prevent static code analysis from running after build.
 >
 > ```xml
 > <RunCodeAnalysis>false</RunCodeAnalysis>
 > ```
-
-![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
 
 ## NuGet package versus VSIX extension
 
