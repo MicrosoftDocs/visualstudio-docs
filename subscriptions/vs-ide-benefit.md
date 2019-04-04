@@ -1,15 +1,15 @@
 ---
 title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 04/03/2019
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 searchscope: VS Subscription
 ---
 
-# Using the Visual Studio 2017 benefit
+# Using the Visual Studio 2019 benefit
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
 
@@ -24,7 +24,7 @@ To download the IDE:
    > [!div class="mx-imgBorder"]
    > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png)
 
-3. Click on the You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
+3. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 4. On the Details tab of the Download Results page:
    - Select your desired architecture (x86, x64)
    - Select your language preference.
