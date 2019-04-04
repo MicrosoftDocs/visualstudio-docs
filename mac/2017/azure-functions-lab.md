@@ -405,4 +405,3 @@ Often, the service you build might be much more complex than what we have built 
 ## Summary
 
 In this lab, you've learned how to get started building Azure Functions with Visual Studio for Mac.
-

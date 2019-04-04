@@ -82,4 +82,3 @@ VSDiagnostics.exe start <id> /attach:<pid> /loadAgent:<agentCLSID>;<agentName>[;
 ## Permissions
 
 To profile an application that requires elevated permissions, you must do so from an elevated command prompt.
-
