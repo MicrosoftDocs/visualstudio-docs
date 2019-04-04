@@ -21,7 +21,6 @@ manager: jillfra
 # RequiresFramework35SP1Assembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines whether the application requires the .NET Framework 3.5 SP1.  
   
 ## Parameters  

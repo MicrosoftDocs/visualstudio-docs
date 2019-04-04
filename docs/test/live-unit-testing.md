@@ -22,7 +22,6 @@ When you use Live Unit Testing for your tests, Live Unit Testing persists data a
 ## Supported test frameworks
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
-
 |Test Framework  |Visual Studio Adapter minimum version  |Framework minimum version  |
 |---------|---------|---------|
 |xUnit.net |xunit.runner.visualstudio version 2.2.0-beta3-build1187 |xunit 1.9.2 |

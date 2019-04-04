@@ -123,7 +123,6 @@ For more information about anonymous classes, see [Anonymous Class Types](/cpp/c
 
 **Class Designer** supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.
 
-
 | Code element | Class Designer view |
 | - | - |
 | `template <class T>`<br /><br /> `class A {};` | `A<T>`<br /><br /> Template Class |

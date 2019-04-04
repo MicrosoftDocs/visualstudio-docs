@@ -75,12 +75,10 @@ You can add more web performance and unit tests to the text mix of the scenario 
 > [!WARNING]
 > The **Distribute** button overrides any items that are locked.
 
-
  It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
 
 > [!NOTE]
 > The sliders are disabled when the total does not add up to 100%, or when the percentage values entered into the **%** column are decimals.
-
 
  When you enter percentage values manually, you should make sure that the sum of all items is 100%. When you save a mix, if the sum is not 100%, you will be prompted to accept the percentage values as they are, or to go back and adjust them. If you choose to accept them as they are, they will be prorated to 100%.  For example, if you have two items and you manually set them to 80% and 40%, the first item will be set to 66.67% (80 divided by 120) and the second item will be set to 33.33% (40 divided by 120).
 

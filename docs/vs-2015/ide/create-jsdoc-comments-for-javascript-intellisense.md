@@ -18,7 +18,6 @@ IntelliSense in Visual Studio displays information that you add to a script usin
 ## JSDoc Comment Tags  
  The following standard JSDoc comment tags are used by IntelliSense to display information about your code.  
 
-
 |  JSDoc tag   |                       Syntax                        |                                                     Notes                                                      |
 |--------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | @deprecated  |              @deprecated *description*              |                                   Specifies a deprecated function or method.                                   |

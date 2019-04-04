@@ -18,7 +18,6 @@ manager: jillfra
 # Add Existing Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Adds an existing file to the current solution and opens it.  
   
 ## Syntax  

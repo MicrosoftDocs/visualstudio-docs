@@ -97,7 +97,6 @@ ms.workload:
 #### Example: video links in Team Explorer
 Forcing the user to read explanatory text before dismissing UI is an anti-pattern within Visual Studio. Correctly designed, video links should display a tooltip with additional information on hover, and clicking the "&times;" should dismiss the message without need for further interaction.
 
-
  ![Explanatory text anti&#45;pattern &#45; incorrect](../../extensibility/ux-guidelines/media/incorrectuseofmultipleclicks.png "Incorrectuseofmultipleclicks")<br />Incorrect video link pattern
 
 #### Result

@@ -16,7 +16,6 @@ manager: jillfra
 # Options Page, Fonts and Colors Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This document describes font and color properties for a tool window that is registered to appear under **Fonts and Colors** in the **Environment** category of the **Options** dialog box. This supports the dynamic nature of groups of colorable items, which can change if VSPackages are installed or uninstalled.  
   
  The following section shows an example of a registered window type and the properties that are available for each window.  

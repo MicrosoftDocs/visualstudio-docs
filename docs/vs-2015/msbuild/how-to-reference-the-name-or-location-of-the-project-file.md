@@ -21,7 +21,6 @@ manager: jillfra
 # How to: Reference the Name or Location of the Project File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the name or location of the project in the project file itself without having to create your own property. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md).  
   
 ## Using the MSBuildProjectName Property  

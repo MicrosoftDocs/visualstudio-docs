@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Manage Word Wrap in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.  
   
  For more information, see [How to: Set General Editor Options](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2).  

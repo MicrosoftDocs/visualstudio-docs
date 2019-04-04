@@ -289,7 +289,6 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 > [!TIP]
 > If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-
 ##  <a name="refactor"></a> Refactor the code without changing tests
 
 1.  Simplify the central calculation in the SquareRoot function:

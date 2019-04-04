@@ -63,7 +63,6 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 ::: moniker-end
 
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also

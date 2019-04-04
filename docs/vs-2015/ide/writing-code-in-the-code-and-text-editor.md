@@ -165,7 +165,6 @@ Visual Studio's "Navigate To" command does a focused search of your code to help
     As you type, the results appear in a dropdown list below the text box.
 1. To go to an element, choose it in the list.
 
-
 ### Filter your search
 
 To limit your search to only code symbols, preface your Navigate To query with an "@" character. For example, if you search for `@application`, Navigate To displays, for example, only classes that have the word "application" in them.

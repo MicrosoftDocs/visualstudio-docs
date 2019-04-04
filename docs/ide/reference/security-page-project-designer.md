@@ -29,7 +29,6 @@ The **Security** page of the **Project Designer** is used to configure code acce
 > [!NOTE]
 > When you publish an application by using the **Publish** wizard, this option is automatically enabled.
 
-
  When you select this option, you have the choice of selecting one of two radio buttons: **This is a full trust application** or **This is a partial trust application**.
 
  By default, for WPF Web Browser Application projects, this option is selected.

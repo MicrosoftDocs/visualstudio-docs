@@ -13,7 +13,6 @@ manager: jillfra
 # Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
   
  The following image shows the Graph View with six global nodes on its design surface.  

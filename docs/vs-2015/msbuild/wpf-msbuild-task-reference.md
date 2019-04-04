@@ -23,7 +23,6 @@ manager: jillfra
 # WPF MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Windows Presentation Foundation (WPF) build process extends Microsoft build engine (MSBuild) with an additional set of build tasks, including tasks to compile markup and process resources.  
   
 ## In This Section  

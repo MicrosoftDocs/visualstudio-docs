@@ -17,7 +17,6 @@ manager: jillfra
 
 **Note**: The Visual Studio Gallery is being replaced by the Visual Studio Marketplace. See the latest version of this topic for details.
 
-
 This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Gallery. When you add your extension to the Gallery, developers can use **Extensions and Updates** to browse there for new and updated extensions.
 
 ## Prerequisites

@@ -15,10 +15,8 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
 
-
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 ## Prerequisites
 
@@ -89,7 +87,6 @@ Here's how to interpret what you see on this spreadsheet:
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
 | Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
 | Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
-
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,

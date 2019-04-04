@@ -144,13 +144,11 @@ ms.workload:
 
 2. On the **Select items to import** page, under **Module** in the **Type** column, select the check boxes for only the files in the following table for import.
 
-
    | File Name | Description |
    |------------------------|-----------------------------------------------|
    | \_catalogsmasterpage\_ | The custom master page. |
    | images_ | The image file in the SharePoint file system. |
    | SitePages_ | The site page. |
-
 
 3. Choose the **Finish** button to import the selected items.
 

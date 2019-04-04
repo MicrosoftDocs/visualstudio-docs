@@ -13,7 +13,6 @@ manager: jillfra
 # One or more selected database objects return a schema that does not match the schema of the target class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.  
   
  When you drag database objects onto existing entity classes, the data returned by the database object must match the schema of the target entity class. Verify that the correct database object is selected and that the correct entity class is being targeted.  

@@ -42,7 +42,6 @@ This code generation applies to:
 
    ![Resulting deconstructor code](media/deconstruct-result.png)
 
-
 ## See also
 
 - [Code generation](../code-generation-in-visual-studio.md)

@@ -23,7 +23,6 @@ manager: jillfra
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box lets you define [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project settings related to build logging and supporting file types.  
   
 ### To access this dialog box  

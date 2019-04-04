@@ -45,7 +45,6 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 
-
 ## Highlighting
 
  **Enable highlighting of references and keywords**

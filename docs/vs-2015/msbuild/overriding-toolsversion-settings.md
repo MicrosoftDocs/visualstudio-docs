@@ -16,7 +16,6 @@ manager: jillfra
 # Overriding ToolsVersion Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can change the Toolset for projects and solutions in one of three ways:  
   
 1.  by using the `/ToolsVersion` switch (or `/tv`, for short) when you build the project or solution from the command line  

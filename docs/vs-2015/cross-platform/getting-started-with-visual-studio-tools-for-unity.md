@@ -13,7 +13,6 @@ manager: jillfra
 # Getting Started with Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.  
   
 > [!IMPORTANT]

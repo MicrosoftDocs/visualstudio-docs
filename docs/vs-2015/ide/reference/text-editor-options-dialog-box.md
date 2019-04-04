@@ -25,7 +25,6 @@ manager: jillfra
 # Text Editor Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The editor options in the **Options** dialog box provide ways to customize the appearance and behavior of the editor.  
   
 ## In This Section  

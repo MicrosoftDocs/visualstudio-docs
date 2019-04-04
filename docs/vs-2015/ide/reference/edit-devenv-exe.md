@@ -16,7 +16,6 @@ manager: jillfra
 # /Edit (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## Syntax  

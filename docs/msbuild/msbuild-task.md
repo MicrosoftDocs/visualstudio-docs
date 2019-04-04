@@ -25,7 +25,6 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ## Parameters
  The following table describes the parameters of the `MSBuild` task.
 
-
 | Parameter | Description |
 |-----------------------------------| - |
 | `BuildInParallel` | Optional `Boolean` parameter.<br /><br /> If `true`, the projects specified in the `Projects` parameter are built in parallel if it is possible. Default is `false`. |

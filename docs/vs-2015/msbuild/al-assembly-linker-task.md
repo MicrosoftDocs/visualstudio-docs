@@ -23,7 +23,6 @@ manager: jillfra
 # AL (Assembly Linker) Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]. This Assembly Linker tool is used to create an assembly with a manifest from one or more files that are either modules or resource files. Compilers and development environments might already provide these capabilities, so it is often not necessary to use this task directly. The Assembly Linker is most useful to developers needing to create a single assembly from multiple component files, such as those that might be produced from mixed-language development. This task does not combine the modules into a single assembly file; the individual modules must still be distributed and available in order for the resulting assembly to load correctly. For more information on AL.exe, see [Al.exe (Assembly Linker)](http://msdn.microsoft.com/library/b5382965-0053-47cf-b92f-862860275a01).  
   
 ## Parameters  

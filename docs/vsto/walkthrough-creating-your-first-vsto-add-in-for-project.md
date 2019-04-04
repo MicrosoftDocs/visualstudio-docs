@@ -86,7 +86,6 @@ ms.workload:
 
      [!code-csharp[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]
 
-
 ## Test the project
  When you build and run the project, verify that the new task appears in the resulting new project.
 

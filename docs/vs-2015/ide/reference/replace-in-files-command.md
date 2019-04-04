@@ -19,7 +19,6 @@ manager: jillfra
 # Replace In Files Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.  
   
 ## Syntax  

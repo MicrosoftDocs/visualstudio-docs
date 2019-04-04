@@ -101,7 +101,6 @@ Visual Studio 2017 and greater contain the **Resource History** window.  Selecti
 
 This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.
 
-
 | Column | Description |
 |-----------| - |
 | **Type** | Shows the type of the entry, typically *Create*, *Read* and *Write*. |

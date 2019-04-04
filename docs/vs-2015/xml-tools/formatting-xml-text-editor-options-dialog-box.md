@@ -13,7 +13,6 @@ manager: jillfra
 # Formatting, XML, Text Editor, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to specify the formatting settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.  
   
 > [!NOTE]

@@ -23,7 +23,6 @@ Invokes the specified targets within the project file.
 ## Task parameters
  The following table describes the parameters of the `CallTarget` task.
 
-
 | Parameter | Description |
 |---------------------------| - |
 | `RunEachTargetSeparately` | Optional `Boolean` input parameter.<br /><br /> If `true`, the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine is called once per target. If `false`, the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine is called once to build all targets. The default value is `false`. |

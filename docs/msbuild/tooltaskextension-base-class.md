@@ -22,7 +22,6 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 ## Parameters
  The following table describes the parameters of the base classes.
 
-
 | Parameter | Description |
 | - | - |
 | <xref:Microsoft.Build.Utilities.Task.BuildEngine%2A> | Optional <xref:Microsoft.Build.Framework.IBuildEngine> parameter.<br /><br /> Specifies the build engine interface available to tasks. The build engine automatically sets this parameter to allow tasks to call back into it. |

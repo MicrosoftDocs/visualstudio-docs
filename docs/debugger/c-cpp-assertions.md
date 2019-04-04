@@ -100,7 +100,6 @@ VERIFY ( myFnctn(0)==1 ) // safe
 ## <a name="BKMK_CRT_assertions"></a> CRT assertions
 The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.
 
-
 | Macro | Result |
 |------------| - |
 | `_ASSERT` | If the specified expression evaluates to FALSE, the file name and line number of the `_ASSERT`. |

@@ -30,7 +30,6 @@ manager: jillfra
 # Save data back to the database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:  
   
 - By calling one of the `Update` methods of a TableAdapter  

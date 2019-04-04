@@ -13,7 +13,6 @@ manager: jillfra
 # XML Editor Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes how to complete common tasks with the XML Editor.  
   
 ## In This Section  

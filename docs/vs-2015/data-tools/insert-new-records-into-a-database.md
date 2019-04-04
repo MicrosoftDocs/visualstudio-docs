@@ -24,7 +24,6 @@ manager: jillfra
 # Insert new records into a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method).
   
  If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database .  

@@ -40,7 +40,6 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 * If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 
-
 ####  <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
 

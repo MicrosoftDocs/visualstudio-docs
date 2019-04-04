@@ -23,7 +23,6 @@ manager: jillfra
 # MergeLocalizationDirectives Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges the localization attributes and comments of one or more [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] binary format files into a single file for the whole assembly.  
   
 ## Task Parameters  

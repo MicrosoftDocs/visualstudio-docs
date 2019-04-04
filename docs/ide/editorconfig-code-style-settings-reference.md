@@ -743,8 +743,6 @@ If Object.ReferenceEquals(value, Nothing)
 End If
 ```
 
-
-
 **dotnet\_style\_prefer\_conditional\_expression\_over_assignment**
 
 - When this rule is set to **true**, prefer assignments with a ternary conditional over an if-else statement.

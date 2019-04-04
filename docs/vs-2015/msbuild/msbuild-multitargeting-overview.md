@@ -13,7 +13,6 @@ manager: jillfra
 # MSBuild Multitargeting Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By using MSBuild, you can compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you can compile an application to run on the .NET Framework 2.0 on a 32-bit platform, and compile the same application to run on the .NET Framework 4.5 on a 64-bit platform.  
   
 > [!IMPORTANT]

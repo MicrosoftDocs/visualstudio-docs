@@ -18,7 +18,6 @@ manager: jillfra
 # Add New Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  
   
 ## Syntax  

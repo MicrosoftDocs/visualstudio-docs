@@ -34,7 +34,6 @@ manager: jillfra
 # Project and Solution File Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a particular installation, the installed components determine which file types are supported. This topic lists solution and project file types that are supported in some typical installations. For information about other file types, search by using the file name extensions for each type.  
   
 ## Solution Files (.sln and .suo)  

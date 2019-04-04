@@ -23,7 +23,6 @@ ms.workload:
  Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.
 ::: moniker-end
 
-
 ## General shortcuts
 
  These shortcuts work across all tools for UWP apps using HTML and JavaScript.

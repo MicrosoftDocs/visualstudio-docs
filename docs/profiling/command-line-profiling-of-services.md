@@ -20,7 +20,6 @@ This section describes the procedures and options for collecting performance dat
 
 ## Common tasks
 
-
 | Task | Related Content |
 | - | - |
 | **Collect application statistics:** Use the sampling method to collect performance statistics. Sampling data is useful for analyzing CPU utilization issues and for understanding the general performance characteristics of an application. | -   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md) |
