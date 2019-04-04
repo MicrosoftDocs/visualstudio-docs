@@ -1,4 +1,3 @@
-
     Public Sub Method(ByVal day As DayOfWeek)
         Select Case day
             Case DayOfWeek.Monday
