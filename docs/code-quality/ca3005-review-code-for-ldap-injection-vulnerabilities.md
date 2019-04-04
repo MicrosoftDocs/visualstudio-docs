@@ -1,13 +1,13 @@
 ---
 title: "CA3005: Review code for LDAP injection vulnerabilities"
-ms.date: 03/25/2019
+ms.date: 04/03/2019
 ms.topic: reference
 author: dotpaul
 ms.author: paulming
 manager: jillfra
 dev_langs:
  - "CSharp"
- - "VisualBasic"
+ - VB
 ms.workload:
  - "multiple"
 ---

@@ -1,13 +1,13 @@
 ---
 title: "CA3007: Review code for open redirect vulnerabilities"
-ms.date: 03/25/2019
+ms.date: 04/03/2019
 ms.topic: reference
 author: dotpaul
 ms.author: paulming
 manager: jillfra
 dev_langs:
  - "CSharp"
- - "VisualBasic"
+ - VB
 ms.workload:
  - "multiple"
 ---
