@@ -46,7 +46,7 @@ Some approaches to fixing XPath injection vulnerabilities include:
 
 ## When to suppress warnings
 
-If you know you've validated the input to be safe.
+If you know you've validated the input to be safe, it's okay to suppress this warning.
 
 ## Pseudo-code examples
 

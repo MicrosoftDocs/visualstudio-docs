@@ -26,7 +26,7 @@ Potentially untrusted HTTP request input reaches a <xref:System.Windows.Markup.X
 
 ## Rule description
 
-When working with untrusted input, be mindful of XAML injection attacks. XAML is a markup language that directly represents object instantiation and execution. That means elements created in XAML can interact with system resources (network access, file system IO, for example). If an attacker can control the input to a <xref:System.Windows.Markup.XamlReader?displayProperty=fullName> Load method call, then the attacker can execute code.
+When working with untrusted input, be mindful of XAML injection attacks. XAML is a markup language that directly represents object instantiation and execution. That means elements created in XAML can interact with system resources (for example, network access and file system IO). If an attacker can control the input to a <xref:System.Windows.Markup.XamlReader?displayProperty=fullName> Load method call, then the attacker can execute code.
 
 This rule attempts to find input from HTTP requests that reaches a <xref:System.Windows.Markup.XamlReader?displayProperty=nameWithType> Load method.
 

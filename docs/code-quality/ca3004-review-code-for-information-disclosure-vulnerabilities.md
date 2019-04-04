@@ -38,11 +38,11 @@ This rule attempts to find an exception message, stack trace, or string represen
 
 ## How to fix violations
 
-Do not output exception information to HTTP responses.  Instead, provide generic error messages. See [OWASP's Error Handling](https://www.owasp.org/index.php/Error_Handling) for more guidance.
+Don't output exception information to HTTP responses.  Instead, provide a generic error message. See [OWASP's Error Handling](https://www.owasp.org/index.php/Error_Handling) for more guidance.
 
 ## When to suppress warnings
 
-If you know your web output is within your application's trust boundary and never exposed outside. This is rare. Take into consideration that your application's trust boundary and data flows may change over time.
+If you know your web output is within your application's trust boundary and never exposed outside, it's okay to suppress this warning. This is rare. Take into consideration that your application's trust boundary and data flows may change over time.
 
 ## Pseudo-code examples
 

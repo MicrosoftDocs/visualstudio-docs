@@ -48,7 +48,7 @@ Some approaches to fixing open redirect vulnerabilities include:
 
 ## When to suppress warnings
 
-If you know you've validated the input to be restricted to intended URLs.
+If you know you've validated the input to be restricted to intended URLs, it's okay to suppress this warning.
 
 ## Pseudo-code examples
 
