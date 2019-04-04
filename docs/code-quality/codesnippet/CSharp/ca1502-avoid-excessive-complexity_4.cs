@@ -1,6 +1,5 @@
     public void Method(DayOfWeek day)
     {
-
         switch (day)
         {
             case DayOfWeek.Monday:
@@ -26,5 +25,4 @@
                 break;
         }
     }
-
 }

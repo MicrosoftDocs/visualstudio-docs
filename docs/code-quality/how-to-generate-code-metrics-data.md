@@ -14,11 +14,11 @@ ms.workload:
 ---
 # How to: Generate code metrics data
 
-You can generate code metrics results for one or more projects or an entire solution. There are three ways you can generate code metrics data:
+You can generate code metrics data in three ways:
 
-- By installing [FxCop analyzers and enabling the four code metrics (maintainability) rules](#fxcop-analyzers-code-metrics-rules) it contains.
+- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
-- By choosing the [**Analyze** > **Calculate Code Metrics** menu command](#calculate-code-metrics-menu-command) within Visual Studio.
+- By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
@@ -54,7 +54,7 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
    CA1502: 10
    ```
 
-   In this example, rule [CA1502](ca1502-avoid-excessive-complexity.md) is configured to fire when complexity is greater than 10.
+   In this example, rule [CA1502](ca1502-avoid-excessive-complexity.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
 
 3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
 
@@ -93,8 +93,9 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 > [!NOTE]
 > The **Calculate Code Metrics** command does not work for .NET Core and .NET Standard projects. To calculate code metrics for a .NET Core or .NET Standard project, you can:
 >
-> - calculate code metrics from the [command line](#command-line-code-metrics) instead
-> - upgrade to [Visual Studio 2019]((https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+> - Calculate code metrics from the [command line](#command-line-code-metrics) instead
+>
+> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 
 ::: moniker-end
 
