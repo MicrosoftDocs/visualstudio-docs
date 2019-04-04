@@ -27,7 +27,7 @@ _Watch this video and follow along to deploy your first ASP.NET Core app to Azur
 
 ## Open your project
 
-Open your ASP.NET Core app in Visual Studio 2019. The app should already be using set up with EF Core and a working web API, as configured in [step 4 of this tutorial series](tutorial-aspnet-core-ef-step-04.md)
+Open your ASP.NET Core app in Visual Studio 2019. The app should already be using set up with EF Core and a working web API, as configured in [step 4 of this tutorial series](tutorial-aspnet-core-ef-step-04.md).
 
 ## Publish to Azure App Service
 

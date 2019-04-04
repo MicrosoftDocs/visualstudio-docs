@@ -25,7 +25,7 @@ In this tutorial, you'll create an ASP.NET Core web app that uses data, and depl
 - [Step 1: Install Visual Studio 2019](#step-1-install-visual-studio-2019)
 - [Step 2: Create your first ASP.NET Core web app](tutorial-aspnet-core-ef-step-02.md)
 - [Step 3: Work with data using Entity Framework](tutorial-aspnet-core-ef-step-03.md)
-- [Step 4: Expose a Web API from your ASP.NET Core app](tutorial-aspnet-core-ef-step-04.md)
+- [Step 4: Expose a web API from your ASP.NET Core app](tutorial-aspnet-core-ef-step-04.md)
 - [Step 5: Deploy your ASP.NET Core app to Azure](tutorial-aspnet-core-ef-step-05.md)
 
 ## Step 1: Install Visual Studio 2019
@@ -67,7 +67,7 @@ Visual Studio should launch automatically when the installer finishes. You may b
 You can choose your project name and location, then pick **Create**. Now choose which template to use for your ASP.NET Core application. You can choose from the following options:
 
 - Empty. An empty project template that lets you start from scratch.
-- API. Best for Web APIs.
+- API. Best for web APIs.
 - Web Application. A standard ASP.NET Core web application built with Razor Pages.
 - Web Application (Model-View-Controller). A standard ASP.NET Core web application using the Model-View-Controller pattern.
 - Angular.
