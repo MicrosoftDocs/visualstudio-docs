@@ -28,7 +28,7 @@ A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayPr
 
 Insecure deserializers are vulnerable when deserializing untrusted data. An attacker could modify the serialized data to include unexpected types with malicious side effects. An attack against an insecure deserializer could, for example, execute commands on the underlying operating system, communicate over the network, or delete files.
 
-This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references. If you wish to allow deserialization when the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is set to restrict types that can be deserialized, disable this rule and enable rules CA2301 and CA2302 instead.
+This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references. If you want to deserialize only when the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is set to restrict types, disable this rule and enable rules CA2301 and CA2302 instead.
 
 ## How to fix violations
 
@@ -36,13 +36,13 @@ Some mitigations include:
 - If possible, use a secure serializer instead, and **don't allow an attacker to specify an arbitrary type to deserialize**. Some safer serializers include:
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
   - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
-  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType> - Never use <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>. If you must use a type resolver, you must restrict types that can be deserialized to an expected list.
+  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType> - Never use <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>. If you must use a type resolver, you must restrict deserialized types to an expected list.
   - <xref:System.Xml.Serialization.XmlSerializer?displayProperty=nameWithType>
-  - NewtonSoft Json.NET - Use TypeNameHandling.None. If you must use another value for TypeNameHandling, then you must restrict types that can be deserialized to an expected list.
+  - NewtonSoft Json.NET - Use TypeNameHandling.None. If you must use another value for TypeNameHandling, then you must restrict deserialized types  to an expected list.
   - Protocol Buffers
 - Make the serialized data tamper proof. After serialization, cryptographically sign the serialized data. Before deserializing, validate the cryptographic signature. You must protect the cryptographic key from being disclosed, and should design for key rotations.
-- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with a <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>, set the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.Binary.SerializationBinder.BindToType> method, throw exceptions, unless the input type is expected in your object graph and known to be safe. Don't return null, because then the deserializer won't restrict types.
- - If you restrict deserialized types, you may want to disable this rule and enable rules CA2301 and CA2302, to ensure that the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is always set before deserializing.
+- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with a <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>, set the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType> method, throw exceptions, unless the input type is expected in your object graph and known to be safe. Don't return null, because then the deserializer won't restrict types.
+ - If you restrict deserialized types, you may want to disable this rule and enable rules CA2301 and CA2302. Enabling rules CA2301 and CA2302 will help ensure that the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is always set before deserializing.
 
 ## When to suppress warnings
 
