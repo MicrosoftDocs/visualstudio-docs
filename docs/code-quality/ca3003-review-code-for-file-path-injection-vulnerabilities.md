@@ -1,5 +1,5 @@
 ---
-title: "CA3003: Review code for file path vulnerabilities"
+title: "CA3003: Review code for file path injection vulnerabilities"
 ms.date: 03/25/2019
 ms.topic: reference
 author: dotpaul
@@ -50,7 +50,7 @@ This rule attempts to find input from HTTP requests reaching a path in a file op
 
 ## When to suppress warnings
 
-You know you have validated input as described in the above section.
+If you've validated input as described in the previous section, it's okay to suppress this warning.
 
 ## Pseudo-code examples
 

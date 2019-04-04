@@ -47,7 +47,7 @@ See [OWASP's LDAP Injection Prevention Cheat Sheet](https://github.com/OWASP/Che
 
 ## When to suppress warnings
 
-If you know the input has been validated or escaped to be safe.
+If you know the input has been validated or escaped to be safe, it's okay to suppress this warning.
 
 ## Pseudo-code examples
 

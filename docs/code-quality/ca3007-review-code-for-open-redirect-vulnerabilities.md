@@ -42,7 +42,7 @@ Some approaches to fixing open redirect vulnerabilities include:
 
 1. Don't allow users to initiate redirects.
 1. Don't allow users to specify any part of the URL in a redirect scenario.
-1. Restrict redirects to predefined allow list of URLs.
+1. Restrict redirects to a predefined "allow list" of URLs.
 1. Validate redirect URLs.
 1. If applicable, consider using a disclaimer page when users are being redirected away from your site.
 

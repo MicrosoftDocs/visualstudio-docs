@@ -43,7 +43,7 @@ This rule attempts to find input from HTTP requests reaching a process command.
 
 ## When to suppress warnings
 
-If you know the input has been validated or escaped to be safe.
+If you know the input has been validated or escaped to be safe, it's safe to suppress this warning.
 
 ## Pseudo-code examples
 

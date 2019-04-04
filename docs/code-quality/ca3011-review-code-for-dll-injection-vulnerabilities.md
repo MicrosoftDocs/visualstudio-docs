@@ -28,7 +28,7 @@ Potentially untrusted HTTP request input reaches a method that loads an assembly
 
 When working with untrusted input, be mindful of loading untrusted code. If your web application loads untrusted code, an attacker may be able to inject malicous DLLs into your process and execute malicious code.
 
-This rule attempts to find input from HTTP requests reaching a methods that load an assembly.
+This rule attempts to find input from an HTTP request that reaches a method that loads an assembly.
 
 > [!NOTE]
 > This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that loads an assembly, this rule won't produce a warning.
