@@ -1,6 +1,6 @@
 ---
 title: "CA2300: Do not use insecure deserializer BinaryFormatter"
-ms.date: 04/04/2019
+ms.date: 04/05/2019
 ms.topic: reference
 author: dotpaul
 ms.author: paulming
@@ -41,7 +41,7 @@ Some mitigations include:
   - NewtonSoft Json.NET - Use TypeNameHandling.None. If you must use another value for TypeNameHandling, then you must restrict deserialized types  to an expected list.
   - Protocol Buffers
 - Make the serialized data tamper proof. After serialization, cryptographically sign the serialized data. Before deserializing, validate the cryptographic signature. You must protect the cryptographic key from being disclosed, and should design for key rotations.
-- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with a <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>, set the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> method, throw exceptions, unless the input type is expected in your object graph and known to be safe. Don't return null, because then the deserializer won't restrict types.
+- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with a <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>, set the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> method, if the type is unexpected then throw an exception.
  - If you restrict deserialized types, you may want to disable this rule and enable rules CA2301 and CA2302. Enabling rules CA2301 and CA2302 will help ensure that the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is always set before deserializing.
 
 ## When to suppress warnings
