@@ -208,14 +208,17 @@ Download the version of the remote tools that matches your version of Visual Stu
     > [!TIP]
     > In Visual Studio 2017 and later versions, you can re-attach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
 
-3. Set the Qualifier field to **\<remote computer name>:port**.
+3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+
+    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
     ::: moniker range=">=vs-2019"
-    **\<remote computer name>:4024** on Visual Studio 2019
+    On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **\<remote computer name>:4022** on Visual Studio 2017
+    On Visual Studio 2017, you should see **\<remote computer name>:4022**
     ::: moniker-end
+    The port is required. If you don't see the port number, add it manually.
 
 4. Click **Refresh**.
     You should see some processes appear in the **Available Processes** window.
