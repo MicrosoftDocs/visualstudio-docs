@@ -48,7 +48,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 |---------------------| - |
 | **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md). |
 | **Limited support** | - C++ apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClient events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
-| **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps |
+| **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or Windows Mobile apps |
 
 > [!NOTE]
 > If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
@@ -121,7 +121,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **.NET Framework events**
 
-   By default, IntelliTrace records the most common .NET Framework events. For example, ror a Check Checkbox event, IntelliTrace collects the checkbox state and text.
+   By default, IntelliTrace records the most common .NET Framework events. For example, for a <xref:System.Windows.Forms.CheckBox.CheckedChanged?displayProperty=nameWithType> event, IntelliTrace collects the checkbox state and text.
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
