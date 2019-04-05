@@ -13,7 +13,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
 
 Azure Repos provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control.
 
@@ -108,7 +108,7 @@ To learn more about the commands mentioned here, or others, you can use the foll
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
 
 In the Visual Studio for Mac Extension gallery, there is a Team Foundation Version control extension that offers limited support to connect to TFVC. The extension is not supported and has several known issues, so your experience may vary when using it.
 
