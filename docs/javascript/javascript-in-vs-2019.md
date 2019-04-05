@@ -31,7 +31,7 @@ The option to restore to the legacy JavaScript language service is no longer ava
 Visual Studio 2019 provides several options for integrating TypeScript compilation into your project:
 
 * [The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild). When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
-* The TypeScript SDK, available by default in the Visual Studio installer, as well as as a standalone SDK download from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-331-vs2017).
+* The TypeScript SDK, available by default in the Visual Studio installer, as well as a standalone SDK download from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-331-vs2017).
 * [The TypeScript npm package](https://www.npmjs.com/package/typescript). When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
 For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet and npm packages for greater portability across different platforms and environments.
