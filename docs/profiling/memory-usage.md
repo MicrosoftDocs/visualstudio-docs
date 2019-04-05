@@ -115,7 +115,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
 
- ![Managed eferenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
+ ![Managed referenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
 
  To display the instances of a selected type in the upper pane, choose the ![Instance icon](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") icon.
 
@@ -144,7 +144,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 - Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
 
-   ![Choose a change &#40;dif&#41;f report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
+   ![Choose a change &#40;diff&#41; report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")
 
 - Choose a snapshot in the **Compare To** list of a managed or native report.
 
@@ -152,7 +152,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:
 
-![Native Types Diff Veiw](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
+![Native Types Diff View](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")
 
 ## Blogs and videos
 
