@@ -27,7 +27,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 
 - Record specific events
 
-   Examine related code, data that appears in the **Locals** window during debugger events, and function call information
+- Examine related code, data that appears in the **Locals** window during debugger events, and function call information
 
 - Debug errors that are hard to reproduce or that happen in deployment
 
@@ -69,7 +69,7 @@ You can save IntelliTrace data from these sources:
 
 - ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465153.aspx).
 
-  Here are some examples of how IntelliTrace can help you with debugging:
+Here are some examples of how IntelliTrace can help you with debugging:
 
 - Your application has corrupted a data file, but you don't know where this event happened.
 
@@ -169,14 +169,6 @@ To control how much call information that IntelliTrace collects, specify only th
 By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.
 
 Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**.
-
-## In this section
-
-[IntelliTrace Features](../debugger/intellitrace-features.md)
-
-[Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)
-
-[Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
 
 ### Blogs
 
