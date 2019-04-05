@@ -30,7 +30,7 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
 1. Once signed in, you will be able to see your **Problems** and **Activity** on the **Items I follow** screen
 
-	![Items I Follow](../ide/media/items-i-follow.png)
+   ![Items I Follow](../ide/media/items-i-follow.png)
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
    > [!NOTE]
