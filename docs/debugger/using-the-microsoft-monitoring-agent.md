@@ -205,21 +205,22 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
    **A:** By default, collection plans exclude modules by setting the `isExclusionList` attribute to `true`. However, this might still collect data from modules that don't meet the list's criteria or that might not interest you, such as third-party or open-source modules.
 
 #### Q: What values does the agent collect?
- **A:** To reduce impact on performance, the agent collects only these values:
+
+**A:** To reduce impact on performance, the agent collects only these values:
 
 - Primitive data types that are passed into and returned from methods
 
 - Primitive data types in fields for top-level objects passed into and returned from methods
 
-  For example, suppose you have an `AlterEmployee` method signature that accepts an integer `id` and an `Employee` object `oldemployee`:
+For example, suppose you have an `AlterEmployee` method signature that accepts an integer `id` and an `Employee` object `oldemployee`:
 
-  `public Employee AlterEmployee(int id, Employee oldemployee)`
+`public Employee AlterEmployee(int id, Employee oldemployee)`
 
-  The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress`. An association relationship exists between `Employee` and the `Address` type.
+The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress`. An association relationship exists between `Employee` and the `Address` type.
 
-  ![Relationship between Employee and Address](../debugger/media/employeeaddressrelationship.png "EmployeeAddressRelationship")
+![Relationship between Employee and Address](../debugger/media/employeeaddressrelationship.png "EmployeeAddressRelationship")
 
-  The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.
+The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.
 
 ##  <a name="SaveEvents"></a> Step 3: Save recorded events
  When you find an error or a performance issue, save the recorded events to an IntelliTrace log. The agent creates the log only if it recorded events. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).

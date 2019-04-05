@@ -41,10 +41,10 @@
     href: application-timeline.md
   - name: Use PerfTips
     href: perftips.md
-  - name: Analyze JavaScript memory
-    href: javascript-memory.md
   - name: Analyze Network usage
     href: network-usage.md
+  - name: Analyze JavaScript memory
+    href: javascript-memory.md
   - name: Analyze HTML UI responsiveness
     href: html-ui-responsiveness.md
   - name: Use Performance Explorer

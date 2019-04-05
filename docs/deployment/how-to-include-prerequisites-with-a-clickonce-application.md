@@ -19,7 +19,7 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 
 1. In File Explorer, open the **Packages** folder.
 
-    By default, the path is *C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 32-bit system and *C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 64-bit system.
+    By default, the path is `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\`.
 
 2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).
 

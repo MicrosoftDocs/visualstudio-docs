@@ -38,8 +38,6 @@ Updates to the TFVC extension are made periodically. To access updates, choose *
 
 Press **Install** on the next dialog to uninstall the old package and install the new one.
 
-For information on what's new in each release, see the [Release Notes](/visualstudio/releasenotes/vs2017-mac-preview-relnotes#team-foundation-version-control-extension--release-notes).
-
 ## Using the add-in
 
 Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.

@@ -12,7 +12,13 @@ ms.workload:
 ---
 # How to: View, save, and configure build log files
 
-After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. For C++ projects, you can also view the same information in a *.txt* file that's created and saved automatically. For managed-code projects, you can copy and paste the information from the **Output** window into a *.txt* file and save it yourself. You can also use the IDE to specify what kinds of information you want to view about each build.
+After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. 
+
+  - For C++ projects, you can also view the same information in a *.txt* file that's created and saved automatically. 
+
+  - For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a *.txt* file. 
+  
+You can also use the IDE to specify what kinds of information you want to view about each build.
 
 If you build any kind of project by using MSBuild, you can create a *.txt* file to save information about the build. For more information, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).
 
@@ -24,9 +30,11 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 
 1.  On the menu bar, choose **Build** > **Build Solution**.
 
-2.  In the **Output** window, highlight the information from the build, and then copy it to the **Clipboard**.
+2.  In the **Output** window, click somewhere in the text.
 
-3.  Open a text editor, such as **Notepad**, paste the information into the file, and then save it.
+3.  Press **Ctrl**+**S**.
+
+   Visual Studio prompts you for a location to save the build output.
 
 ## To change the amount of information included in the build log
 

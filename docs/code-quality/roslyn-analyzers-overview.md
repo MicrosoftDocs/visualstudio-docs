@@ -32,17 +32,27 @@ Like static code analysis rule violations, Roslyn analyzer violations appear in 
 
 Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis), Roslyn analyzers also provide design-time analysis of code files that aren't open in the editor.
 
-> [!NOTE]
+> [!TIP]
 > Build-time errors and warnings from Roslyn analyzers are shown only if the analyzers are installed as a NuGet package.
 
 Not only do Roslyn analyzers report the same types of problems that static code analysis does, but they make it easy for you to fix one, or all, occurrences of the violation in your file or project. These actions are called *code fixes*. Code fixes are IDE-specific; in Visual Studio, they are implemented as [Quick Actions](../ide/quick-actions.md). Not all analyzer diagnostics have an associated code fix.
 
 > [!NOTE]
-> The menu option **Analyze** > **Run Code Analysis** applies only to static code analysis. Additionally, on a project's **Code Analysis** property page, the **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes apply only to static code analysis. They have no effect on Roslyn analyzers.
+> The following UI options apply only to static code analysis:
+>
+> - The **Analyze** > **Run Code Analysis** menu option.
+> - The **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes on the **Code Analysis** tab of a project's property pages (these options have no effect on Roslyn analyzers).
 
 To differentiate between violations from Roslyn analyzers and static code analysis in the **Error List**, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a Roslyn analyzer. Otherwise, the violation originates from static code analysis.
 
 ![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
+
+> [!TIP]
+> The **RunCodeAnalysis** msbuild property in a project file applies only to static code analysis. If you install analyzers, set **RunCodeAnalysis** to **false** in your project file to prevent static code analysis from running after build.
+>
+> ```xml
+> <RunCodeAnalysis>false</RunCodeAnalysis>
+> ```
 
 ## NuGet package versus VSIX extension
 

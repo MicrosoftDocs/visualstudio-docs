@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot network or proxy errors"
 description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
-ms.date: 02/23/2018
+ms.date: 03/30/2019
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -48,6 +48,8 @@ This error generally occurs when users are connected to the internet through a p
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
+::: moniker range="vs-2017"
+
   1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
   2. In the configuration file, find the `<system.net>` block, and then add this code:
@@ -61,11 +63,28 @@ This error generally occurs when users are connected to the internet through a p
       You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
 
      > [!NOTE]
-     > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
+     > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
 
-  -OR-
+::: moniker-end
 
-- You can also follow the instructions in the [How to connect through an authenticated Web Proxy](https://blogs.msdn.microsoft.com/rido/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy/) blog post, which shows you how to add code that will allow you to use the proxy.
+::: moniker range="vs-2019"
+
+  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
+
+  2. In the configuration file, find the `<system.net>` block, and then add this code:
+
+      ```xml
+      <defaultProxy enabled="true" useDefaultCredentials="true">
+          <proxy bypassonlocal="True" proxyaddress="http://<yourproxy:port#>"/>
+      </defaultProxy>
+      ```
+
+      You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
+
+     > [!NOTE]
+     > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
+
+::: moniker-end
 
 ## Error: “The underlying connection was closed”
 

@@ -11,7 +11,7 @@ ms.custom: video
 # Visual Studio 2017 for Mac tour
 
 > [!NOTE]
-> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019) as a preview for testing.
+> Visual Studio 2019 for Mac is [now available](installation.md).
 
 Visual Studio for Mac is a .NET _integrated development environment_ on the Mac that can be used to edit, debug, and build code and then publish an app. In addition to expected features, such as a standard editor and debugger, Visual Studio for Mac includes compilers, code completion tools, graphical designers, and source control to ese the software development process.
 

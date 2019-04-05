@@ -2,6 +2,7 @@
 title: "Create your first console app with Visual Basic"
 description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: "seodec18"
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
@@ -26,7 +27,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
 
 ::: moniker-end
 
@@ -84,7 +85,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](../get-started/visual-basic/media/vs-2019/vb-name-your-project.-whatname.png)
+   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png)
 
    Visual Studio opens your new project.
 

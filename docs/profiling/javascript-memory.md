@@ -17,6 +17,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: vs-2017
 ms.workload:
   - "multiple"
 ---
@@ -96,7 +97,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
 1. Open your app in Visual Studio.
 
-2. Run the JavaScript Memory Analyzer. For more info, see [Run the JavaScript memory analyzer](#run-the-JavaScript-memory-analyzer).
+2. Run the JavaScript Memory Analyzer (see earlier steps).
 
 3. Run your app through the scenario that you want to test. For example, the scenario might involve a large DOM mutation, when a particular page loads, or when the app starts.
 
