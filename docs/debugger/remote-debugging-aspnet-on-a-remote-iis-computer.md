@@ -192,9 +192,11 @@ For information on running the remote debugger as a service, see [Run the remote
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * Look for you app name in the process list, such as **MyASPApp.exe**.
+    * Select **dotnet.exe**.
 
-    * If you don't see your app name, attach to **dotnet.exe**.
+      If you have multiple processes showing **dotnet.exe**, select the correct process by looking at the **User Name** column. The **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. One easy way to identify the correct process is to create a new named App Pool for the instance you want to debug, and then you can find it easily in the **User Name** column.
+
+    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 
