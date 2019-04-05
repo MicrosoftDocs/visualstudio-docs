@@ -192,7 +192,7 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019&nbsp;Preview or Visual&nbsp;St
 
 ## Use the IDE
 
-You can check for an update and then install it by using the the menu bar or the search box in Visual Studio 2019.
+You can check for an update and then install it by using the menu bar or the search box in Visual Studio 2019.
 
 ### Open Visual Studio
 
