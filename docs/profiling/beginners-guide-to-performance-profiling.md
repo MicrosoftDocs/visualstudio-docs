@@ -2,7 +2,7 @@
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 ms.custom: "seodec18"
-ms.date: "02/27/2017"
+ms.date: "04/03/2019"
 ms.topic: "tutorial"
 f1_keywords:
   - "vs.performance.wizard.intropage"
@@ -37,52 +37,52 @@ In this tutorial, you will:
 
 ## Step 1: Collect profiling data
 
-1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
+1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
-2.  Set a second breakpoint at the end of the function or region of code that you want to analyze.
+2. Set a second breakpoint at the end of the function or region of code that you want to analyze.
 
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
+4. You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
-     ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
+     ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
-5.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
+5. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
-     When the app finishes loading, the Summary view of the Diagnostics Tools appears.
+     When the app finishes loading, the Summary view of the Diagnostics Tools appears. If you need to open the window, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-     ![Diagnostics Tools Summary Tab](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+     ![Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
 
      For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 
-6.  Run the scenario that will cause your first breakpoint to be hit.
+6. Run the scenario that will cause your first breakpoint to be hit.
 
-7.  While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
+7. While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
-     ![Diagnostics Tools enable CPU profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
+     ![Diagnostics Tools enable CPU profiling](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
-8.  Hit F5 to run the app to your second breakpoint.
+8. Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
-9.  Select the region you're interested in analyzing in the CPU timeline (it must be a region that shows profiling data).
-
-     ![Diagnostics Tools Selecting a Time Segment](../profiling/media/DiagToolsSelectTimeSegment.png "DiagToolsSelectTimeSegment")
-
      The profiler begins preparing thread data. Wait for it to finish.
 
-     ![Diagnostics Tools Preparing Threads](../profiling/media/DiagToolsPreparingThreads.png "DiagToolsPreparingThreads")
+     ![Diagnostics Tools Preparing Threads](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
 
      The CPU Usage tool displays the report in the **CPU Usage** tab.
 
-     ![Diagnostics Tools CPU Usage Tab](../profiling/media/DiagToolsCPUUsageTab.png "DiagToolsCPUUsageTab")
+     ![Diagnostics Tools CPU Usage Tab](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+
+9. In the CPU timeline, you may choose to select a more specific region you're interested in analyzing (it must be a region that shows profiling data).
+
+     ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
 
      At this point, you can begin to analyze the data.
 
@@ -92,7 +92,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 1. In the function list, examine the functions that are doing the most work.
 
-    ![Diagnostics Tools CPU Usage Function List](../profiling/media/DiagToolsCPUUsageFunctionList.png "DiagToolsCPUUsageFunctionList")
+    ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
@@ -101,36 +101,47 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     When you double-click a function, the **Caller/Callee** view opens in the left pane.
 
-    ![Diagnostics Tools Caller Callee View](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
+    ![Diagnostics Tools Caller Callee View](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
 
     In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
     This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete.
-    **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 3713 out of 3729 ms were spent in the function body, and the remaining 16 ms were spent in external code called by this function).
+    **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 2367 out of 2389 ms were spent in the function body, and the remaining 22 ms were spent in external code called by this function).
 
     > [!TIP]
     > High values in **Function Body** may indicate a performance bottleneck within the function itself.
 
-3. If you want to see a higher-level view showing the order in which the functions are called, select **Call Tree** from the drop-down list at the top of the pane.
+3. To see a higher-level view showing the order in which the functions are called, select **Call Tree** from the drop-down list at the top of the pane.
 
     Each numbered area in the figure relates to a step in the procedure.
 
-    ![Diagnostics Tools Call Tree](../profiling/media/DiagToolsCallTree.png "DiagToolsCallTree")
+    ::: moniker range=">=vs-2019"
+    ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    ![Diagnostics Tools Call Tree](../profiling/media/diag-tools-call-tree.png "DiagToolsCallTree")
+    ::: moniker-end
 
-|||
-|-|-|
-|![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|
-|![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#view-external-code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|
-|![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
-|![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
+    |||
+    |-|-|
+    |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|
+    |![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#view-external-code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|
+    |![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
+    |![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
-Here is more information on the column values:
+    Here is more information on the column values:
 
-- **Total CPU** indicates how much work was done by the function and any functions called by it. High total CPU values point to the functions that are most expensive overall.
+    - **Total CPU** indicates how much work was done by the function and any functions called by it. High total CPU values point to the functions that are most expensive overall.
 
-- **Self CPU** indicates how much work was done by the code in the function body, excluding the work done by functions that were called by it. High **Self CPU** values may indicate a performance bottleneck within the function itself.
+    - **Self CPU** indicates how much work was done by the code in the function body, excluding the work done by functions that were called by it. High **Self CPU** values may indicate a performance bottleneck within the function itself.
 
-- **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
+    - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
+
+    ::: moniker range=">=vs-2019"
+    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**.
+
+    ![Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
+    ::: moniker-end
 
 ## View external code
 
@@ -138,7 +149,7 @@ External code are functions in system and framework components that are executed
 
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
 
-![Choose Filter View, then Show External Code](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")
+![Choose Filter View, then Show External Code](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
 
