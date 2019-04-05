@@ -26,13 +26,12 @@ A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayPr
 
 ## Rule description
 
-Insecure deserializers are vulnerable when deserializing untrusted data. An attacker could modify the serialized data to include unexpected types with malicious side effects. An attack against an insecure deserializer could, for example, execute commands on the underlying operating system, communicate over the network, or delete files.
+[!INCLUDE[insecure_deserializers_description](includes/insecure_deserializers_description_md.md)]
 
-This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references. If you want to deserialize only when the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is set to restrict types, disable this rule and enable rules CA2301 and CA2302 instead.
+This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references. If you want to deserialize only when the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is set to restrict types, disable this rule and enable rules [CA2301](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md) and [CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md) instead.
 
 ## How to fix violations
 
-Some mitigations include:
 - If possible, use a secure serializer instead, and **don't allow an attacker to specify an arbitrary type to deserialize**. Some safer serializers include:
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
   - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
@@ -42,7 +41,7 @@ Some mitigations include:
   - Protocol Buffers
 - Make the serialized data tamper proof. After serialization, cryptographically sign the serialized data. Before deserializing, validate the cryptographic signature. You must protect the cryptographic key from being disclosed, and should design for key rotations.
 - Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>, set the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> method, if the type is unexpected then throw an exception.
- - If you restrict deserialized types, you may want to disable this rule and enable rules CA2301 and CA2302. Enabling rules CA2301 and CA2302 will help ensure that the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is always set before deserializing.
+ - If you restrict deserialized types, you may want to disable this rule and enable rules [CA2301](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md) and [CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md). Enabling rules [CA2301](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md) and [CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md) will help ensure that the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property is always set before deserializing.
 
 ## When to suppress warnings
 
@@ -78,3 +77,9 @@ Public Class ExampleClass
     End Function
 End Class
 ```
+
+## Related rules
+
+[CA2301: Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md)
+
+[CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md)

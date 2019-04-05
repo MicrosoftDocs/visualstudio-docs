@@ -26,13 +26,12 @@ A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayPr
 
 ## Rule description
 
-Insecure deserializers are vulnerable when deserializing untrusted data. An attacker could modify the serialized data to include unexpected types with malicious side effects. An attack against an insecure deserializer could, for example, execute commands on the underlying operating system, communicate over the network, or delete files.
+[!INCLUDE[insecure_deserializers_description](includes/insecure_deserializers_description_md.md)]
 
-This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> doesn't have its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> set. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and CA2302, and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
+This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> doesn't have its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> set. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and [CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md), and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
 
 ## How to fix violations
 
-Some mitigations include:
 - If possible, use a secure serializer instead, and **don't allow an attacker to specify an arbitrary type to deserialize**. Some safer serializers include:
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
   - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
@@ -84,6 +83,34 @@ public class ExampleClass
         }
     }
 }
+```
+
+```vb
+Imports System
+Imports System.IO
+Imports System.Runtime.Serialization.Formatters.Binary
+
+<Serializable()>
+Public Class BookRecord
+    Public Property Title As String
+    Public Property Author As String
+    Public Property Location As AisleLocation
+End Class
+
+<Serializable()>
+Public Class AisleLocation
+    Public Property Aisle As Char
+    Public Property Shelf As Byte
+End Class
+
+Public Class ExampleClass
+    Public Function DeserializeBookRecord(bytes As Byte()) As BookRecord
+        Dim formatter As BinaryFormatter = New BinaryFormatter()
+        Using ms As MemoryStream = New MemoryStream(bytes)
+            Return CType(formatter.Deserialize(ms), BookRecord)
+        End Using
+    End Function
+End Class
 ```
 
 ### Solution
@@ -142,3 +169,56 @@ public class ExampleClass
     }
 }
 ```
+
+```vb
+Imports System
+Imports System.IO
+Imports System.Runtime.Serialization
+Imports System.Runtime.Serialization.Formatters.Binary
+
+Public Class BookRecordSerializationBinder
+    Inherits SerializationBinder
+
+    Public Overrides Function BindToType(assemblyName As String, typeName As String) As Type
+        ' One way to discover expected types is through testing deserialization
+        ' of **valid** data and logging the types used.
+
+        'Console.WriteLine($"BindToType('{assemblyName}', '{typeName}')")
+
+        If typeName = "BinaryFormatterVB.BookRecord" Or typeName = "BinaryFormatterVB.AisleLocation" Then
+            Return Nothing
+        Else
+            Throw New ArgumentException("Unexpected type", "typeName")
+        End If
+    End Function
+End Class
+
+<Serializable()>
+Public Class BookRecord
+    Public Property Title As String
+    Public Property Author As String
+    Public Property Location As AisleLocation
+End Class
+
+<Serializable()>
+Public Class AisleLocation
+    Public Property Aisle As Char
+    Public Property Shelf As Byte
+End Class
+
+Public Class ExampleClass
+    Public Function DeserializeBookRecord(bytes As Byte()) As BookRecord
+        Dim formatter As BinaryFormatter = New BinaryFormatter()
+        formatter.Binder = New BookRecordSerializationBinder()
+        Using ms As MemoryStream = New MemoryStream(bytes)
+            Return CType(formatter.Deserialize(ms), BookRecord)
+        End Using
+    End Function
+End Class
+```
+
+## Related rules
+
+[CA2300: Do not use insecure deserializer BinaryFormatter](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)
+
+[CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md)
