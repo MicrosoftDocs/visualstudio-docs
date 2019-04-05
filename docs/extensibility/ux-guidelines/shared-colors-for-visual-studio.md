@@ -979,7 +979,7 @@ Two sets of token names are used for the command shelf backgrounds: one set for 
 | --- | --- |
 | Background | `Environment.CommandShelfHighlightGradientBegin`<br /><br />`Environment.CommandShelfHighlightGradientMiddle`<br />`Environment.CommandShelfHighlightGradientEnd` |
 
-** Command shelf command bar**
+**Command shelf command bar**
 
 > Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.
 
