@@ -57,6 +57,9 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|
 |[CA2210](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md)|Assemblies should have valid strong names|
+|[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|Do not use insecure deserializer BinaryFormatter|
+|[CA2301](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
+|[CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
 |[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|Review code for SQL injection vulnerabilities|
 |[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|Review code for XSS vulnerabilities|
 |[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|Review code for file path injection vulnerabilities|
