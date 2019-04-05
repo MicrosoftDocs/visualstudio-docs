@@ -1,5 +1,5 @@
 ---
-title: "CA2301: Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder"
+title: "CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize"
 ms.date: 04/05/2019
 ms.topic: reference
 author: dotpaul
@@ -11,24 +11,24 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# CA2301: Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder
+# CA2302: CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize
 
 |||
 |-|-|
-|TypeName|DoNotCallBinaryFormatterDeserializeWithoutFirstSettingBinaryFormatterBinder|
-|CheckId|CA2301|
+|TypeName|EnsureBinaryFormatterBinderIsSetBeforeCallingBinaryFormatterDeserialize|
+|CheckId|CA2302|
 |Category|Microsoft.Security|
 |Breaking Change|Non Breaking|
 
 ## Cause
 
-A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method was called or referenced without the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property set.
+A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method was called or referenced and the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property might be null.
 
 ## Rule description
 
 Insecure deserializers are vulnerable when deserializing untrusted data. An attacker could modify the serialized data to include unexpected types with malicious side effects. An attack against an insecure deserializer could, for example, execute commands on the underlying operating system, communicate over the network, or delete files.
 
-This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> doesn't have its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> set. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and CA2302, and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
+This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> when its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> might be null. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and [CA2301](ca2301-do-not-call-binaryformatter.deserialize-without-first-setting-binaryformatter.binder.md), and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
 
 ## How to fix violations
 
@@ -75,12 +75,13 @@ public class AisleLocation
 
 public class ExampleClass
 {
+    public BinaryFormatter Formatter { get; set; }
+
     public BookRecord DeserializeBookRecord(byte[] bytes)
     {
-        BinaryFormatter formatter = new BinaryFormatter();
         using (MemoryStream ms = new MemoryStream(bytes))
         {
-            return (BookRecord) formatter.Deserialize(ms);
+            return (BookRecord) this.Formatter.Deserialize(ms);
         }
     }
 }
