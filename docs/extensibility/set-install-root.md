@@ -19,9 +19,9 @@ Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support f
 * [INSTALLDIR]\Licenses
 * [INSTALLDIR]\Common7\IDE\ReferenceAssemblies
 * [INSTALLDIR]\Common7\IDE\RemoteDebugger
-* [INSTALLDIR]\Common7\IDE\VC\VCTargets
+* [INSTALLDIR]\Common7\IDE\VC\VCTargets (only supported for VS2017, deprecated for VS2019+)
 
->**Note:** The VSIX format does not allow you to install outside the VS install folder structure.
+>**Note:** The VSIX format does not allow you to install outside the VS install folder structure. 
 
 In order to support installing to these directories, the VSIX must be installed "per-instance per-machine". This can be enabled by checking the "all-users" checkbox in the extension.vsixmanifest designer:
 
