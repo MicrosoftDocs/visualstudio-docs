@@ -13,7 +13,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](set-up-git-repository) article.
 
 Azure Repos provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control.
 
@@ -65,7 +65,7 @@ To **setup the TEE-CLC manually**:
 
 Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
 ### Using the TEE-CLC to connect to your repo
 
@@ -106,6 +106,10 @@ To learn more about the commands mentioned here, or others, you can use the foll
 
 ## Connect to TFVC using the Team Foundation Version Control extension
 
+> [!NOTE]
+> For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](set-up-git-repository) article.
+
 In the Visual Studio for Mac Extension gallery, there is a Team Foundation Version control extension that offers limited support to connect to TFVC. The extension is not supported and has several known issues, so your experience may vary when using it.
 
 To install the extension, launch Visual Studio for Mac and choose the **Visual Studio > Extensions** menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and Azure DevOps** and click **Install...**:
@@ -120,7 +124,7 @@ Updates to the TFVC extension are made periodically. To access updates, choose *
 
 Press **Install** on the next dialog to uninstall the old package and install the new one.
 
-### Using the add-in
+### Using the extension
 
 Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.
 
@@ -222,7 +226,7 @@ Once your workspace is set up, it can be changed or removed by clicking the **Ma
 
 ![Manage Workspaces](media/tfvc-workspace4.png)
 
-### Troubleshooting
+## Troubleshooting and Known Issues
 
 #### Problems using basic authentication
 
