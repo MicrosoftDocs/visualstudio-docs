@@ -194,7 +194,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
     * Select **dotnet.exe**.
 
-      If you have multiple processes showing **dotnet.exe**, select the correct process by looking at the **User Name** column. The **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. One easy way to identify the correct process is to create a new named App Pool for the instance you want to debug, and then you can find it easily in the **User Name** column.
+      If you have multiple processes showing **dotnet.exe**, select the correct process by looking at the **User Name** column. The **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. One easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
 
