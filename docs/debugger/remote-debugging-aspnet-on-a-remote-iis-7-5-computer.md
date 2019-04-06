@@ -212,11 +212,17 @@ For information on running the remote debugger as a service, see [Run the remote
     If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
 
 5. Check  **Show processes from all users**.
+
 6. Type the first letter of a process name to quickly find **w3wp.exe** for ASP.NET 4.5.
 
-    If you have multiple processes showing **w3wp.exe**, select the correct process by looking at the **User Name** column. The **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. One easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+    If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
+    ::: moniker range=">=vs-2019"
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg_attachtoprocess.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
 
 7. Click **Attach**
 
