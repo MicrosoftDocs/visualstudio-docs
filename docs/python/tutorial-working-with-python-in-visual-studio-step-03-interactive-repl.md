@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 3 of a core walkthrough of Python capabilities in Visual Studio, covering the Python Interactive REPL window.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:

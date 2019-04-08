@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot installation or upgrade issues"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
-ms.date: 08/01/2018
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -29,7 +29,17 @@ The following steps are optimized for a typical online installation. For an issu
 
 ### Step 1 - Check whether this problem is a known issue
 
+::: moniker range="vs-2017"
+
 There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releasenotes/vs2017-relnotes#-known-issues).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releases/2019/release-notes#-known-issues).
+
+::: moniker-end
 
 ### Step 2 - Check with the developer community
 
@@ -42,20 +52,47 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 > [!NOTE]
 > Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
 
+::: moniker range="vs-2017"
+
 1. Close the Visual Studio Installer.
 2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
 3. Run the Visual Studio Installer bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
 4. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Close the Visual Studio Installer.
+2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
+3. Run the Visual Studio Installer bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
+4. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
+
+::: moniker-end
+
 ### Step 4 - Report a problem
 
 In some situations, such as those related to corrupted files, the problems might have to be looked at on a case-by-case basis. To help us help you, please do the following:
+
+::: moniker range="vs-2017"
 
 1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
 ![You can tab to the Provide Feedback button to open the feedback tool](media/report-a-problem.png)
 3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
 4. Click **Next** to review your problem report, and then click **Submit**.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Collect your setup logs. See [How to get the Visual Studio installation logs](#how-to-get-visual-studio-installation-logs) for details.
+2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
+![You can tab to the Provide Feedback button to open the feedback tool](media/vs-2019/vs-installer-report-problem.png)
+3. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
+4. Click **Next** to review your problem report, and then click **Submit**.
+
+::: moniker-end
 
 ### Step 5 - Run InstallCleanup.exe to remove installation files
 

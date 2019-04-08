@@ -54,8 +54,8 @@ Take these steps:
 - Make sure your app is supported:
   - Azure App Services - ASP.NET applications running on .NET Framework 4.6.1 or later.
   - Azure App Services - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
-  - Azure Virtual Machines (and VMSS) - ASP.NET applications running on .NET Framework 4.6.1 or later.
-  - Azure Virtual Machines (and VMSS) - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+  - Azure Virtual Machines (and virtual machine scale set) - ASP.NET applications running on .NET Framework 4.6.1 or later.
+  - Azure Virtual Machines (and virtual machine scale set) - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
   - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Debian 9.
   - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Alpine 3.8.
   - Azure Kubernetes Services - ASP.NET Core applications running on .NET Core 2.2 or later on Ubuntu 18.04.
@@ -68,6 +68,51 @@ Take these steps:
 Take these steps:
 
 - Snapshots take up little memory but do have a commit charge. If the Snapshot Debugger detects your server is under heavy memory load, it will not take snapshots. You can delete already captured snapshots by stopping the Snapshot Debugger session and trying again.
+
+## Issue: Snapshot debugging with multiple versions of the Visual Studio gives me errors
+
+VS 2019 requires a newer version of the Snapshot Debugger site extension on your Azure App Service.  This version is not compatible with the older version of the Snapshot Debugger site extension used by VS 2017.  You will get the following error if you try to attach the Snapshot Debugger in VS 2019 to an Azure App Service which has been previously debugged by the Snapshot Debugger in VS 2017:
+
+![Incompatible Snapshot Debugger site extension VS 2019](../debugger/media/snapshot-troubleshooting-incompatible-vs2019.png "Incompatible Snapshot Debugger site extension VS 2019")
+
+Conversely, if you use VS 2017 to attach the Snapshot Debugger to an Azure App Service which has been previously debugged by the Snapshot Debugger in VS 2019, you'll get the following error:
+
+![Incompatible Snapshot Debugger site extension VS 2017](../debugger/media/snapshot-troubleshooting-incompatible-vs2017.png "Incompatible Snapshot Debugger site extension VS2017")
+
+To fix this, delete the following App settings in the Azure portal and attach the Snapshot Debugger again:
+
+- INSTRUMENTATIONENGINE_EXTENSION_VERSION
+- SNAPSHOTDEBUGGER_EXTENSION_VERSION
+
+## Issue: I am having problems Snapshot Debugging and I need to enable more logging
+
+### Enable Agent Logs
+
+To  enable and disable agent logging open Visual Studio navigate to *Tools>Options>Snapshot Debugger>Enable agent logging*. Note if *Delete old agent logs on session start* is also enabled, each successful Visual Studio attach will delete previous Agent logs.
+
+Agent logs can be found in the following locations:
+
+- App Services:
+  - Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net) and navigate to Debug Console.
+  - Agent logs are stored in the following directory:  D:\home\LogFiles\SiteExtensions\DiagnosticsAgentLogs\
+- VM/VMSS:
+  - Sign in to your VM, agent logs are stored as follows:  C:\WindowsAzure\Logs\Plugins\Microsoft.Azure.Diagnostics.IaaSDiagnostics\<Version>\SnapshotDebuggerAgent_*.txt
+- AKS
+  - Navigate to the following directory: /tmp/diag/AgentLogs/*
+
+### Enable Profiler/Instrumentation Logs
+
+Instrumentation logs can be found in the following locations:
+
+- App Services:
+  - Error logging is automatically sent to D:\Home\LogFiles\eventlog.xml, events are marked with <<Provider Name="Instrumentation Engine" //>> or "Production Breakpoints"
+- VM/VMSS:
+  - Sign in to your VM and open Event Viewer.
+  - Open the following view: *Windows Logs>Application*.
+  - *Filter Current Log* by *Event Source* using either *Production Breakpoints* or *Instrumentation Engine*.
+- AKS
+  - Instrumentation engine logging at /tmp/diag/log.txt (set MicrosoftInstrumentationEngine_FileLogPath in DockerFile)
+  - ProductionBreakpoint logging at /tmp/diag/shLog.txt
 
 ## Known Issues
 

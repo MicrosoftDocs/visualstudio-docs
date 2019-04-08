@@ -72,13 +72,13 @@ In the **Create Style Resource** dialog box, you can either name the style or te
 
 ### Apply a style or template to a control
 
-Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-objects-and-timeline-panel) panel, choose **Edit Template**, and then choose **Apply Resource**.
+Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#objects-and-timeline-window) window, choose **Edit Template**, and then choose **Apply Resource**.
 
 ![Apply Resource menu](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png)
 
 ### Restore the default style or template of a control
 
-Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-properties-panel) panel, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
+Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#properties-window) window, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
 
 ## Visual states: Change the appearance of a control based on its state
 

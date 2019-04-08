@@ -138,7 +138,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 8. Run the test.
 
-   Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What's next?](#whats-next?) section at the end of this topic.
+   Use Test Explorer, or open the shortcut menu in the test method, and then choose **Run Tests**. For more information about how to run tests, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) and *Additional options for running coded UI tests* in the [What's next?](#whats-next) section at the end of this topic.
 
 The remaining sections in this topic provide more detail about the steps in this procedure.
 

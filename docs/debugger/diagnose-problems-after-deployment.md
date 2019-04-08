@@ -34,7 +34,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 ####  <a name="TFS2017"></a> Azure DevOps and Team Foundation Server 2017
 
-Visual Studio 2017 does not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
+Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
 
 * For deployment to Azure, use [Application Insights](https://docs.microsoft.com/azure/application-insights/).
 

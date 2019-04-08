@@ -50,9 +50,9 @@ You use the project **Properties** to specify the remote device to connect to. T
 
     ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "Managed Debug project properties")
 
-###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a JavaScript or C++ project for remote debugging
+###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a C++ project for remote debugging
 
-1.  Select the C++ or JavaScript project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1.  Select the C++ project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
 1.  Select the **Debugging** tab.
 

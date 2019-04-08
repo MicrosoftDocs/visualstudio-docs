@@ -3,8 +3,8 @@ title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 dev_langs:
  - Python
@@ -62,11 +62,11 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![PyLint command on context menu for Python projects](media/code-pylint-command.png)
 
-- [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md)
+- Search box
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, the search box provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Quick Launch search box in Visual Studio](media/tour-ide-quick-launch.png)
+   ![Search box in Visual Studio](media/tour-ide-quick-launch.png)
 
 - Squiggles and [Quick Actions](../ide/quick-actions.md)
 
