@@ -69,7 +69,11 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 2. Customize the projects until they are ready to be exported to a template.
 
    > [!TIP]
-   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`.
+   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`. Also, set the **CopyParameters** attribute of the **ProjectTemplateLink** element to **true**.
+   >
+   > ```xml
+   > <ProjectTemplateLink ProjectName="MyProject" CopyParameters="true">...</ProjectTemplateLink>
+   > ```
 
 3. On the **Project** menu, choose **Export Template**.
 

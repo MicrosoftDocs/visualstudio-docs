@@ -95,6 +95,15 @@
       "titleSuffix": {
         "2017/**/*.md": "Visual Studio 2017 for Mac",
         "2017/**/*.yml": "Visual Studio 2017 for Mac"
+      },
+      "feedback_system": {
+        "2017/**/*.md": ""
+      },
+      "feedback_github_repo": {
+        "2017/**/*.md": ""
+      },
+      "hideEdit": {
+        "2017/**/*.md": true
       }
     },
     "template": [],

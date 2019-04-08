@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/28/2018"
+ms.date: "04/02/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -13,6 +13,130 @@ ms.workload:
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
+
+## 4.0.0.5
+ Released February 27, 2019
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed Visual Studio version detection with the setup package.
+
+    -   Removed unused assemblies from the setup package.
+
+## 4.0.0.4
+ Released February 13, 2019
+
+### New Features
+
+-   **Integration:**
+
+    -   Added support to properly detect Unity processes during installation and allow setup engine to better handle file locks.
+    
+    -   Updated the ScriptableObject API.
+
+## 4.0.0.3
+ Released January 31, 2019
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
+
+-   **Integration:**
+
+    -   Improved the user experience for displaying Unity editor and player instances (windows are now resizable, use uniform margins and display a resizing grip). Added Process-Id information for Unity editors.
+    
+    -   Updated the MonoBehaviour API.
+    
+-   **Evaluation:**
+
+    -   Added support for local functions.
+    
+    -   Added support for pseudo variables (exception and object identifiers).
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed an issue with moniker images and themes.
+
+    -   Only write to Output Window while debugging, when auto-refreshing asset database.
+
+    -   Fixed UI delays with the MonoBehaviour wizard filtering.
+    
+-   **Debugger:**
+
+    -   Fixed reading custom attribute on named arguments when using old protocol versions.
+
+## 4.0.0.2
+ Released January 23, 2019
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed experimental build generation.
+
+    -   Fixed project file event handling to minimize UI-thread pressure.
+
+    -   Fixed completion provider with batched text changes.
+    
+-   **Debugger:**
+
+    -   Fixed the display of user debug messages to the attached debugger.
+
+## 4.0.0.1
+ Released December 10, 2018
+
+### New Features
+
+-   **Evaluation:**
+
+    -   Replaced NRefactory in favor of Roslyn for expression evaluation.
+
+    -   Added support for pointers: dereference, casting and pointer arithmetic (both Unity 2018.2+ and the new runtime are required for this).
+
+    -   Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
+
+    -   Added support for async constructs.
+
+-   **Integration:**
+    
+    -   Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed bridge activation when Visual Studio is not selected as the preferred external editor.
+
+    -   Fixed expression evaluation with malformed or unsupported expressions.
+
+## 4.0.0.0
+ Released December 4, 2018
+
+### New Features
+
+-   **Integration:**
+
+    -   Added support for Visual Studio 2019.
+
+    -   Adopted the Visual Studio image service and catalog, with full support for HDPI scaling, pixel perfect images and theming.
+
+### Deprecated features
+
+-   **Integration:**
+
+    -   Going forward, Visual Studio Tools for Unity will only support Unity 5.2+ (with Unity’s built-in Visual Studio integration).
+
+    -   Going forward, Visual Studio Tools for Unity will only support Visual Studio 2015+.
+
+    -   Removed legacy language service, error list and status bar.
+    
+    -   Removed the Quick Monobehaviour Wizard (in favor of the dedicated intellisense support).
 
 ## 3.9.0.3
  Released November 28, 2018
