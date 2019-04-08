@@ -65,7 +65,7 @@
     - name: View data values in DataTips
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: View string values in a visualizer
-      href: string-visualizer-dialog-box.md
+      href: view-strings-visualizer.md
     - name: View disassembly code
       href: how-to-use-the-disassembly-window.md
       items:
@@ -636,6 +636,8 @@
       href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box
       href: stop-debugging-in-progress-dialog-box.md
+    - name: String Visualizer dialog box
+      href: string-visualizer-dialog-box.md
     - name: Symbol Load Information dialog box
       href: symbol-load-information-dialog-box.md
     - name: When Breakpoint Is Hit dialog box
