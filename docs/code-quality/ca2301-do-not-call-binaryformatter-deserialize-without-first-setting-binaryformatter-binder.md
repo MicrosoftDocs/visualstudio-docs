@@ -28,7 +28,7 @@ A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayPr
 
 [!INCLUDE[insecure_deserializers_description](includes/insecure_deserializers_description_md.md)]
 
-This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> doesn't have its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> set. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and [CA2302](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md), and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
+This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> doesn't have its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> set. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md), and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
 
 ## How to fix violations
 
@@ -221,4 +221,4 @@ End Class
 
 [CA2300: Do not use insecure deserializer BinaryFormatter](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)
 
-[CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize](ca2302-ensure-binaryformatter.binder-is-set-before-calling-binaryformatter.deserialize.md)
+[CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)
