@@ -21,7 +21,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-    -   Added support for automatically refreshing Unity's asset database on save.
+    -   Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
 
     -   Added support for setting preferred unity installation for offline documentation.
 
@@ -82,7 +82,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Added Auto-suppression for CS0649 and IDE0051 messages for Unity projects.
+    -   Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
 
 -   **Integration:**
 
