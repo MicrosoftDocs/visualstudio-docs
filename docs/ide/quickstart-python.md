@@ -4,8 +4,8 @@ description: In this quickstart, you use Visual Studio and the Flask framework t
 ms.date: 03/07/2019
 ms.technology: vs-python
 ms.topic: quickstart
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - python
