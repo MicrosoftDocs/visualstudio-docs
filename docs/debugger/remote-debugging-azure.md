@@ -229,11 +229,20 @@ Download the version of the remote tools that matches your version of Visual Stu
 
 5. Check  **Show processes from all users**.
 
-6. Type the first letter of a process name to quickly find *dotnet.exe* (for ASP.NET Core).
+6. Type the first letter of your process name to quickly find your app.
 
-   For an ASP.NET Core app, the previous process name was *dnx.exe*.
+    * Select **dotnet.exe** (for .NET Core)
 
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
+      If you have multiple processes showing **dotnet.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+
+    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
+
+    ::: moniker range=">=vs-2019"
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
 
 7. Click **Attach**.
 

@@ -199,10 +199,10 @@ For information on running the remote debugger as a service, see [Run the remote
     * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
 
     ::: moniker range=">=vs-2019"
-    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
     ::: moniker range="vs-2017"
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
+    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
 
 7. Click **Attach**.
