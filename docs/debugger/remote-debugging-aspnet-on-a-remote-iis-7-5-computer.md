@@ -194,23 +194,35 @@ For information on running the remote debugger as a service, see [Run the remote
     > [!TIP]
     > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift+Alt+P).
 
-3. Set the Qualifier field to **\<remote computer name>:port**.
+3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+
+    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
     ::: moniker range=">=vs-2019"
-    **\<remote computer name>:4024** on Visual Studio 2019
+    On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **\<remote computer name>:4022** on Visual Studio 2017
+    On Visual Studio 2017, you should see **\<remote computer name>:4022**
     ::: moniker-end
+    The port is required. If you don't see the port number, add it manually.
+
 4. Click **Refresh**.
     You should see some processes appear in the **Available Processes** window.
 
     If you don't see any processes, try using the IP address instead of the remote computer name (the port is required). You can use `ipconfig` in a command line to get the IPv4 address.
 
 5. Check  **Show processes from all users**.
+
 6. Type the first letter of a process name to quickly find **w3wp.exe** for ASP.NET 4.5.
 
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess.png "RemoteDBG_AttachToProcess")
+    If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+
+    ::: moniker range=">=vs-2019"
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
 
 7. Click **Attach**
 
