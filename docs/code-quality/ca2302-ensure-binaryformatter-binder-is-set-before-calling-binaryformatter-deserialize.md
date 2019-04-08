@@ -26,7 +26,7 @@ A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayPr
 
 ## Rule description
 
-[!INCLUDE[insecure_deserializers_description](includes/insecure_deserializers_description_md.md)]
+[!INCLUDE[insecure-deserializers-description](includes/insecure-deserializers-description-md.md)]
 
 This rule finds <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization method calls or references, when <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> when its <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> might be null. If you want to disallow any deserialization with <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> regardless of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> property, disable this rule and [CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md), and enable rule [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md).
 
