@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
