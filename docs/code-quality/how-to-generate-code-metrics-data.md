@@ -14,11 +14,57 @@ ms.workload:
 ---
 # How to: Generate code metrics data
 
-You can generate code metrics results for one or more projects or an entire solution. Code metrics is available within the Visual Studio interactive development environment (IDE) and, for C# and Visual Basic projects, at the command line.
+You can generate code metrics data in three ways:
 
-In addition, you can install a [NuGet package](https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2-beta2-63202-01) that includes four code metrics [analyzer](roslyn-analyzers-overview.md) rules: CA1501, CA1502, CA1505, and CA1506. These rules are disabled by default, but you can enable them from **Solution Explorer** or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file.
+- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
-## Visual Studio IDE code metrics
+- By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
+
+- From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
+
+## FxCop analyzers code metrics rules
+
+The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+
+- [CA1501](ca1501-avoid-excessive-inheritance.md)
+- [CA1502](ca1502-avoid-excessive-complexity.md)
+- [CA1505](ca1505-avoid-unmaintainable-code.md)
+- [CA1506](ca1506-avoid-excessive-class-coupling.md)
+
+These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules" Description="Rules" ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA1502" Action="Warning" />
+  </Rules>
+</RuleSet>
+```
+
+### Configuration
+
+You can configure the thresholds at which the code metrics rules in the FxCop analyzers package fire.
+
+1. Create a text file. As an example, you can name it *CodeMetricsConfig.txt*.
+
+2. Add the desired thresholds to the text file in the following format:
+
+   ```txt
+   CA1502: 10
+   ```
+
+   In this example, rule [CA1502](ca1502-avoid-excessive-complexity.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
+
+3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
+
+   ```xml
+   <ItemGroup>
+     <AdditionalFiles Include="CodeMetricsConfig.txt" />
+   </ItemGroup>
+   ```
+
+## Calculate Code Metrics menu command
 
 Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
 
@@ -47,8 +93,9 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 > [!NOTE]
 > The **Calculate Code Metrics** command does not work for .NET Core and .NET Standard projects. To calculate code metrics for a .NET Core or .NET Standard project, you can:
 >
-> - calculate code metrics from the [command line](#command-line-code-metrics) instead
-> - upgrade to Visual Studio 2019
+> - Calculate code metrics from the [command line](#command-line-code-metrics) instead
+>
+> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 
 ::: moniker-end
 

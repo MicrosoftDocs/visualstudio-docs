@@ -46,7 +46,7 @@ sections:
         html: <p>Learn how to use analyzers and suppress violations for C# or Visual Basic code.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_config-tools.svg
-        title: Set rule severity and and suppress errors
+        title: Set rule severity and suppress errors
       - href: use-roslyn-analyzers.md#command-line-usage
         html: <p>Learn how to use analyzers from the command line.</p>
         image:
