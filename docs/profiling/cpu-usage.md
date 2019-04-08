@@ -50,6 +50,10 @@ Usually, the local machine best replicates installed app execution. For Windows 
 
 The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node.
 
+::: moniker range=">=vs-2019"
+Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
+::: moniker-end
+
 ###  <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
 |||
@@ -64,7 +68,12 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 
 ####  <a name="BKMK_Call_tree_structure"></a> Call tree structure
 
- ![Call tree structure](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "Call tree structure")
+::: moniker range=">=vs-2019"
+![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
+::: moniker-end
+::: moniker range="vs-2017"
+![Call tree structure](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "Call tree structure")
+::: moniker-end
 
 |||
 |-|-|
@@ -75,19 +84,24 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 
 ####  <a name="BKMK_External_Code"></a> External code
 
- System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
+System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
 
- To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
+To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
 
- ![Show External Code](../profiling/media/cpu_use_wt_filterview.png "Show External Code")
+![Show External Code](../profiling/media/cpu_use_wt_filterview.png "Show External Code")
 
- Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
+Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
 
- ![Nested external code in the call tree](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "Nested external code in the call tree")
+![Nested external code in the call tree](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "Nested external code in the call tree")
 
- To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
+To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
 
- ![Search for nested external code](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "Search for nested external code")
+::: moniker range=">=vs-2019"
+![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-showexternalcodetoowide-found.png "Search for nested external code")
+::: moniker-end
+::: moniker range="vs-2017"
+![Search for nested external code](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "Search for nested external code")
+::: moniker-end
 
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
