@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/13/2018"
+ms.date: "04/02/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -13,6 +13,139 @@ ms.workload:
 ---
 # Change Log (Visual Studio Tools for Unity, Mac)
 Visual Studio Tools for Unity change log.
+
+## 2.0.2.0
+ Released April 2, 2019
+
+### New Features
+
+-   **Integration:**
+
+    -   Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
+
+    -   Added support for setting preferred unity installation for offline documentation.
+
+    -   Added context menu for the new Editor.
+
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed assembly filtering and frame inspection with empty frames.
+
+## 2.0.1.1
+ Released March 26, 2019
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Temporarily Make Mono the default and only usable debugger for this very specific release.
+
+## 2.0.0.6
+ Released March 26, 2019
+
+### New Features
+
+-   **Integration:**
+
+    -   Added support for "Attach to Unity and Play".
+
+## 2.0.0.5
+ Released March 20, 2019
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Preserve external properties when processing the solution file.
+
+## 2.0.0.4
+ Released March 5, 2019
+
+### New Features
+
+-   **Integration:**
+
+    -   Updated the ScriptableObject API.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Removed namespaces from templates.
+
+## 2.0.0.3
+ Released March 5, 2019
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
+
+-   **Integration:**
+
+    -   Prompt to attach to a specific instance if more that one Unity process is running.
+
+-   **Evaluation:**
+
+    -   Added support for local functions.
+
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed reading custom attribute on named arguments when using old protocol versions.
+
+## 2.0.0.2
+ Released February 4, 2019
+
+### New Features
+
+-   **Integration:**
+
+    -   Updated the MonoBehaviour API.
+   
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed setting primitive values in the debugger.
+
+## 2.0.0.1
+ Released December 4, 2018
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed installation package self-containment.
+
+## 2.0.0.0
+ Released December 4, 2018
+
+### New Features
+
+-   **Debugger:**
+
+    -   Replaced the Unity debugger on the Mac with the same core Unity debugger from Windows.
+
+    -   Replaced NRefactory in favor of Roslyn for expression evaluation.
+
+    -   Added support for pointers: dereference, casting and pointer arithmetic (both Unity 2018.2+ and the new runtime are required for this).
+
+    -   Added support for array pointer view (like in C++). Take a pointer expression then append a comma and the number of elements you want to see.
+
+    -   Added support for async constructs.
+
+    -   Added support for pseudo variables (exception and object identifiers).
+    
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed expression evaluation with malformed or unsupported expressions.
 
 ## 1.7.0.0
  Released November 13, 2018
@@ -27,13 +160,13 @@ Visual Studio Tools for Unity change log.
 
 -   **Debugger:**
 
-     -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+    -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
 -   **Integration:**
 
-     -   Fixed Unity plugin activation when another default editor was selected.
+    -   Fixed Unity plugin activation when another default editor was selected.
 
-     -   Fixed Unity file template creation.
+    -   Fixed Unity file template creation.
 
 ## 1.6.0.2
  Released July 24, 2018
@@ -42,7 +175,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-     -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 1.6.0.1
  Released July 10, 2018
@@ -51,7 +184,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-     -   Fixed Shader code coloration support.
+    -   Fixed Shader code coloration support.
 
 ## 1.6.0.0
  Released June 26, 2018
@@ -64,9 +197,9 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-     -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
+    -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
 
-     -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
+    -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
 
 ## 1.5.0.2
  Released April 18, 2018
