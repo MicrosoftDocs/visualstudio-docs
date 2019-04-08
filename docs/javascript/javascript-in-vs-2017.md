@@ -12,6 +12,7 @@ caps.latest.revision: 1
 author: "bowdenk7"
 ms.author: "wilkelly"
 manager: jillfra
+monikerRange: vs-2017
 ---
 # JavaScript in Visual Studio 2017
 

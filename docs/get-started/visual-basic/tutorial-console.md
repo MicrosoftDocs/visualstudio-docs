@@ -27,7 +27,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
 
 ::: moniker-end
 
@@ -97,7 +97,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Create**.
 
-   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](./media/vs-2019/vb-name-your-project.-whatname.png)
+   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](./media/vs-2019/vb-name-your-project-whatname.png)
 
    Visual Studio opens your new project.
 

@@ -25,7 +25,7 @@ There are several tools that you can use to detect Visual Studio installations o
 
 We have made several tools available that will help you detect and manage installed Visual Studio instances on client machines:
 
-* [VSWhere](https://github.com/microsoft/vswhere): an executable built into Visual Studio or available for separate distribution that helps you find the location of all Visual Studio instances on a particular machine.
+* [vswhere](https://github.com/microsoft/vswhere): an executable built into Visual Studio or available for separate distribution that helps you find the location of all Visual Studio instances on a particular machine.
 * [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
 * [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
 
@@ -33,7 +33,7 @@ In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Co
 
 ## Using vswhere.exe
 
-`vswhere.exe` is automatically included in Visual Studio (starting with Visual Studio 2017 version 15.2 and later versions), or you can download it from [the VSWhere releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
+`vswhere.exe` is automatically included in Visual Studio (starting with Visual Studio 2017 version 15.2 and later versions), or you can download it from [the vswhere releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json

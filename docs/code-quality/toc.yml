@@ -581,6 +581,30 @@
         href: ca5122-p-invoke-declarations-should-not-be-safe-critical.md
       - name: "CA2153: Avoid Handling Corrupted State Exceptions"
         href: ca2153-avoid-handling-corrupted-state-exceptions.md
+      - name: "CA3001: Review code for SQL injection vulnerabilities"
+        href: ca3001-review-code-for-sql-injection-vulnerabilities.md
+      - name: "CA3002: Review code for XSS vulnerabilities"
+        href: ca3002-review-code-for-xss-vulnerabilities.md
+      - name: "CA3003: Review code for file path injection vulnerabilities"
+        href: ca3003-review-code-for-file-path-injection-vulnerabilities.md
+      - name: "CA3004: Review code for information disclosure vulnerabilities"
+        href: ca3004-review-code-for-information-disclosure-vulnerabilities.md
+      - name: "CA3005: Review code for LDAP injection vulnerabilities"
+        href: ca3005-review-code-for-ldap-injection-vulnerabilities.md
+      - name: "CA3006: Review code for process command injection vulnerabilities"
+        href: ca3006-review-code-for-process-command-injection-vulnerabilities.md
+      - name: "CA3007: Review code for open redirect vulnerabilities"
+        href: ca3007-review-code-for-open-redirect-vulnerabilities.md
+      - name: "CA3008: Review code for XPath injection vulnerabilities"
+        href: ca3008-review-code-for-xpath-injection-vulnerabilities.md
+      - name: "CA3009: Review code for XML injection vulnerabilities"
+        href: ca3009-review-code-for-xml-injection-vulnerabilities.md
+      - name: "CA3010: Review code for XAML injection vulnerabilities"
+        href: ca3010-review-code-for-xaml-injection-vulnerabilities.md
+      - name: "CA3011: Review code for DLL injection vulnerabilities"
+        href: ca3011-review-code-for-dll-injection-vulnerabilities.md
+      - name: "CA3012: Review code for regex injection vulnerabilities"
+        href: ca3012-review-code-for-regex-injection-vulnerabilities.md
       - name: "CA3075: Insecure DTD Processing"
         href: ca3075-insecure-dtd-processing.md
       - name: "CA3076: Insecure XSLT Script Execution"

@@ -1,6 +1,6 @@
 ---
-title: "How to: Display Line Numbers in the Editor"
-ms.date: 11/04/2016
+title: Display line numbers for code
+ms.date: 03/28/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "line numbers, displaying"
@@ -14,24 +14,20 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# How to: Display Line Numbers in the Editor
+# How to: Display line numbers in the editor
 
 You can display or hide line numbering in your code.
 
-## Display Line Numbers in Code
+## Display line numbers in code
 
-Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.
+1. On the menu bar, choose **Tools** > **Options**. Expand the **Text Editor** node, and then select either the language you're using or **All Languages** to turn on line numbers in all languages. (Or, type **line number** in the search box and choose **Turn line numbers on or off** from the results.)
 
-### To display line numbers in code
+2. Select the **Line numbers** checkbox.
 
-1.  On the menu bar, choose **Tools**, **Options**. Expand the **Text Editor** node, and then select either the node for the language you are using, or **All Languages** to turn on line numbers in all languages. Or, you can type **line number** in the **Quick Launch** box.
+   ![Option to display line numbers in the VS editor](../../ide/reference/media/line-numbers-option.png)
 
-2.  Select the **Line numbers** checkbox.
-
-    ![Options for displaying line numbers in the editor](../../ide/reference/media/vs_displaylinenumbers.png)
-
-> [!NOTE]
-> Depending on your language or settings, you may have to select the **Show All Settings** check box in the **Options** dialog box to reveal the **All Languages** sub-node.
+> [!TIP]
+> Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.
 
 ## See also
 

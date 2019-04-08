@@ -38,7 +38,7 @@ Unless you've made no modifications to code you've previously and successfully c
 
 ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
-Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to the **Options** dialog where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself many UI clicks!)
+Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by pressing **Ctrl**+**Q**, typing **line numbers**, and then choosing **Turn line numbers on or off** from the results. This is the fastest way to get to the **Options** dialog where you can turn on line numbers.)
 
 ![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png)
 

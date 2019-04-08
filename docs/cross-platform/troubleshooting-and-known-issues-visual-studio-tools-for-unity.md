@@ -56,7 +56,7 @@ First, check that Visual Studio is set as your external script editor in Unity (
 
 ## Extra reloads, or Visual Studio losing all open windows
 
-Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#Assembly-reference-issues).
+Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#assembly-reference-issues).
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, make sure that you have proper .NET targeting packs installed. Check the following section about frameworks for more information.
 

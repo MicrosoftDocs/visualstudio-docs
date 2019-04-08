@@ -22,7 +22,7 @@ This article describes the options in Visual Studio 2017. For Visual Studio 2015
 
 ::: moniker-end
 
-To access this property page, press **Control** + **Q** to activate `Quick Launch` and then type "experimental". Quick Launch finds the page after the first few letters. You can also get to it by choosing **Tools** > **Options** and expanding **Text Editor**, then **C/C++**, and then choosing **Experimental**.
+To access this property page, press **Ctrl**+**Q** to activate the search box and then type **experimental**. Search finds the page after the first few letters. You can also get to it by choosing **Tools** > **Options** and expanding **Text Editor**, then **C/C++**, and then choosing **Experimental**.
 
 These features are available in a Visual Studio installation.
 

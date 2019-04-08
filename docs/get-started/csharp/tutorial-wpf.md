@@ -23,7 +23,7 @@ By completing this tutorial, you'll become familiar with many of the tools, dial
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
 ::: moniker-end
 
 ## Configure the IDE
@@ -75,7 +75,7 @@ After you create the project, you can customize it. By using the **Properties** 
 
 1. Open Visual Studio 2019.
 
-1. On the start window, choose **Create new project**. 
+1. On the start window, choose **Create new project**.
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png)
 
@@ -87,7 +87,7 @@ After you create the project, you can customize it. By using the **Properties** 
 3. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
 
    ![in the 'Configure your new project' window, name your project 'HelloWPFApp'](./media/vs-2019/exploreide-nameproject.png)
- 
+
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. The following items appear in **Solution Explorer**:
 
 ![Solution Explorer with HelloWPFApp files loaded](../media/vs-2019/exploreide-hellowpfappfiles.png)
@@ -117,7 +117,7 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 ### Add a TextBlock control
 
-1. Enter **Ctrl**+**Q** to invoke **Quick Launch** and type **Toolbox**. Choose **View > Toolbox** from the results list.
+1. Enter **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 

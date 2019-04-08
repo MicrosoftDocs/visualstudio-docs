@@ -26,7 +26,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 
 `$handles`
 
- In native code, you can use the pseudovariables shown in this table:
+ In native code, you can use the pseudovariables shown in the following table:
 
 |Pseudovariable|Function|
 |--------------------|--------------|
@@ -41,19 +41,21 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$clk`|Displays the time in clock cycles.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
 |`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP apps. `$ exceptionstack` is not supported for C++ and SEH exceptions|
-|`$ReturnValue`|Displays the return value of a .NET Framework method.|
+|`$returnvalue`|Displays the return value of a .NET Framework method.|
 
- In C# and Visual Basic, you can use the pseudovariables shown in this table:
+ In C# you can use the pseudovariables shown in the following table:
 
 |Pseudovariable|Function|
 |--------------------|--------------|
-|`$exception`|Displays information on the last exception. If no exception has occurred, evaluating `$exception` displays an error message.<br /><br /> In Visual C# only, when the Exception Assistant is disabled, `$exception` is automatically added to the **Locals** window when an exception occurs.|
+|`$exception`|Displays information on the last exception. If no exception has occurred, evaluating `$exception` displays an error message.<br /><br /> When the Exception Assistant is disabled, `$exception` is automatically added to the **Locals** window when an exception occurs.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
+|`$returnvalue`|Displays the return value of a .NET Framework method.|
 
  In Visual Basic, you can use the pseudovariables shown in the following table:
 
 |Pseudovariable|Function|
 |--------------------|--------------|
+|`$exception`|Displays information on the last exception. If no exception has occurred, evaluating `$exception` displays an error message.|
 |`$delete` or `$$delete`|Deletes an implicit variable that was created in the **Immediate** window. The syntax is `$delete,` *variable* or`$delete,` *variable*`.`|
 |`$objectids` or `$listobjectids`|Displays all active Object IDs as children of the specified expression. The syntax is `$objectid,` *expression* or`$listobjectids,` *expression*`.`|
 |`$` *N* `#`|Displays object with Object ID equal to *N*.|

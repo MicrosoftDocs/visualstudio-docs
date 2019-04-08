@@ -106,13 +106,13 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ![Output window in Visual Studio](media/build-output-minimal.png)
 
-## Quick Launch
+## Search box
 
-The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+The search box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
-   ![Quick launch box in Visual Studio](media/quickstart-IDE-quick-launch.png)
+   ![Search box in Visual Studio](media/quickstart-IDE-quick-launch.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -126,7 +126,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
 ## Send Feedback menu
 
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
+Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window.
 
 ![Send Feedback menu in Visual Studio](../ide/media/quickstart-ide-send-feedback.png)
 

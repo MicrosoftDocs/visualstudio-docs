@@ -53,14 +53,16 @@ First, you'll create a Vue.js web application project.
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    Type **Ctrl + Q** to open the search box, type **Vue.js**, then choose **Basic Vue.js Web application** (either JavaScript or TypeScript). In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Basic Vue.js**, then choose **Basic Vue.js Web application** (either JavaScript or TypeScript). In the dialog box that appears, choose **Create**.
+
+    ![Vue.js template](../javascript/media/vs-2019/vuejs-template.png)
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript** or **TypeScript**, then choose **Node.js**. In the middle pane, choose **Basic Vue.js Web application**, then choose **OK**.
-    ::: moniker-end
-    If you don't see the **Basic Vue.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     ![Vue.js template](../javascript/media/vuejs-template.png)
+    ::: moniker-end
+    If you don't see the **Basic Vue.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new project. The new project opens in Solution Explorer (right pane).
 

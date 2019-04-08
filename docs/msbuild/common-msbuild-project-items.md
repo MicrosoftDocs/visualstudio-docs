@@ -40,9 +40,9 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Item metadata name|Description|
 |---------------|-----------------|
 |Name|Optional string. The display name of the component.|
-|Guid|Optional string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|
-|VersionMajor|Optional string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
-|VersionMinor|Optional string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
+|Guid|Required string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|
+|VersionMajor|Required string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
+|VersionMinor|Required string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
 |LCID|Optional string. The LocaleID for the component.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
@@ -70,7 +70,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Name|Optional string. The display name of the reference.|
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
 |Package|Optional string. The path of the project file that is being referenced.|
-|ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#Reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
 
 ### Compile
  Represents the source files for the compiler.

@@ -2,6 +2,8 @@
   href: index.yml
 - name: Overview
   items:
+  - name: JavaScript in Visual Studio 2019
+    href: javascript-in-vs-2019.md
   - name: JavaScript in Visual Studio 2017
     href: javascript-in-vs-2017.md
 - name: Quickstarts
