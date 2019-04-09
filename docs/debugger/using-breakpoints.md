@@ -142,7 +142,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
     ((my_class *) 0xcccccccc)->my_method
     ```
 
-## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a>Set data breakpoints (native C++ only)
+## <a name="BKMK_set_a_data_breakpoint_native_cplusplus"></a>Set data breakpoints (native C++ only)
 
  Data breakpoints break execution when a value stored at a specified memory address changes. If the value is read but not changed, execution doesn't break.
 
