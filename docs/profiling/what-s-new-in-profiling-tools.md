@@ -22,11 +22,11 @@ For additional information, see the [Release notes for [!include[vs_dev15](../mi
 
 A **Summary** tab has been added to the tools that helps you to focus on key areas for your performance analysis. This tab shows how many events have occurred, lets you take snapshots of the heap, and lets you quickly enable CPU usage data collection. This view shows any [Application insights](/azure/azure-monitor/app/visual-studio) or [UI analysis](/visualstudio/releasenotes/vs2017-relnotes) events. In addition, for Visual Studio Enterprise, this view also shows IntelliTrace events.
 
-![Diagnostics Tools Summary tab](../profiling/media/DiagToolsSummaryTab-2.png "DiagToolsSummaryTab")
+![Diagnostics Tools Summary tab](../profiling/media/diag-tools-summary-tab-2.png "DiagToolsSummaryTab")
 
 The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Performance-Profiling.md) to help you identify the functions that are most likely to be causing performance issues. The new **Caller/Callee** view allows you to investigate costs of function calls made to and from a selected function.
 
-![Diagnostics Tools caller callee view](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
+![Diagnostics Tools caller callee view](../profiling/media/diag-tools-caller-callee-2.png "DiagToolsCallerCallee")
 
 ## See also
 

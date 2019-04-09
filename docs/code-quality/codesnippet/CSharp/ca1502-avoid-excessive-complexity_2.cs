@@ -1,5 +1,3 @@
-
-
     void Method(bool condition)
     {
         if (condition)
