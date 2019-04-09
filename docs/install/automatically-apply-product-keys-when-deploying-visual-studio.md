@@ -1,7 +1,7 @@
 ---
 title: "Automatically apply product keys"
 description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
-ms.date: 03/30/2019
+ms.date: 04/10/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
@@ -74,9 +74,8 @@ You can activate an installed version of Visual Studio with a product key by usi
 
 | Visual Studio Edition                | MPC   |
 |--------------------------------------|-------|
-| Visual Studio Enterprise 2019        | 08860 |
-| Visual Studio Professional 2019      | 08862 |
-| Visual Studio Test Professional 2019 | 08866 |
+| Visual Studio Enterprise 2019        | 09260 |
+| Visual Studio Professional 2019      | 09262 |
 
 ::: moniker-end
 
