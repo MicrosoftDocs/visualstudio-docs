@@ -61,7 +61,7 @@ ms.workload:
 
      For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
-6.  Choose the **Finish** button. The project should now be listed in **Solution Explorer**.
+6.  Choose the **Finish** button. The project is now listed in **Solution Explorer**.
 
 #### To add site columns
 

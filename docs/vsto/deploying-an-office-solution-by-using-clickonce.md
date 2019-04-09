@@ -133,7 +133,7 @@ ms.workload:
  If you're deploying a document-level customization and you want to put the document into a folder on the user's computer or make the document available on a SharePoint site, ensure that Office trusts the location of the document. See [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
 ##  <a name="Helping"></a> Help users install the solution
- Users can install the solution by running the setup program, opening the deployment manifest, or in the case of a document-level customization, opening the document directly. As a best practice, users should install your solution by using the setup program. The other two approaches don't ensure that the prerequisite software is installed. If users want to open the document from the installation location, they must add it to the list of trusted locations in the Trust Center of the Office application.
+ Users can install the solution by running the setup program, opening the deployment manifest, or during document-level customization, opening the document directly. As a best practice, users should install your solution by using the setup program. The other two approaches don't ensure that the prerequisite software is installed. If users want to open the document from the installation location, they must add it to the list of trusted locations in the Trust Center of the Office application.
 
 ### Opening the document of a document-level customization
  Users can open the document of a document-level customization directly from the installation location or by copying the document to their local computer and then opening the copy.
@@ -330,7 +330,7 @@ ms.workload:
              When users open the document from the SharePoint site, the document opens, and the customization is installed. Users can copy the document to their desktop. The customization will still run because properties in the document point to the network location of the document.
 
 ##  <a name="Custom"></a> Create a custom installer
- You can create a custom installer for your Office solution, instead of using the setup program that's created for you when you publish the solution. For example, you could use a logon script to start the installation, or you could use a batch file to install the solution without user interaction. These scenarios work best if the prerequisites are already installed on end-user computers.
+ You can create a custom installer for your Office solution, instead of using the setup program that's created for you when you publish the solution. For example, you could use a sign in script to start the installation, or you could use a batch file to install the solution without user interaction. These scenarios work best if the prerequisites are already installed on end-user computers.
 
  As part of your custom installation process, call the installer tool for Office solutions (*VSTOInstaller.exe*), which is installed in the following location by default:
 
@@ -353,8 +353,8 @@ ms.workload:
 |Error Code|Definition|
 |----------------|----------------|
 |0|The solution was successfully installed or uninstalled, or the VSTOInstaller Help appeared.|
-|-100|One or more command-line options isn't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e).|
-|-101|One or more command-line options isn't valid. For more information, enter "vstoinstaller /?".|
+|-100|One or more command-line options aren't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e).|
+|-101|One or more command-line options aren't valid. For more information, enter "vstoinstaller /?".|
 |-200|The deployment manifest URI isn't valid. For more information, enter "vstoinstaller /?".|
 |-201|The solution couldn't be installed because the deployment manifest isn't valid. See [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).|
 |-202|The solution couldn't be installed because the Visual Studio Tools for Office section of the application manifest isn't valid. See [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).|
