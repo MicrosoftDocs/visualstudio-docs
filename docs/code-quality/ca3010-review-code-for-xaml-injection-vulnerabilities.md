@@ -22,7 +22,7 @@ ms.workload:
 
 ## Cause
 
-Potentially untrusted HTTP request input reaches a <xref:System.Windows.Markup.XamlReader?displayProperty=fullName> Load method.
+Potentially untrusted HTTP request input reaches a <xref:System.Windows.Markup.XamlReader?displayProperty=nameWithType> Load method.
 
 ## Rule description
 

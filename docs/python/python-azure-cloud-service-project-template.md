@@ -3,8 +3,8 @@ title: Azure cloud service project template for Python
 description: Visual Studio provides templates for Azure cloud services written in Python including role deployment, dependencies, and troubleshooting.
 ms.date: 11/12/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:

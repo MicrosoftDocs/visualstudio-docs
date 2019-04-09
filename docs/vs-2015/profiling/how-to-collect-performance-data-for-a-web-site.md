@@ -78,7 +78,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
    - For a file based Web site, type a path such as file///**c:\WebSites\MySite\default.aspx**. This causes the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application located at c:\webSites\MySite to be profiled and the page http://localhost:nnnn/MySite/default.aspx to be started in Internet Explorer to start the session.  
   
-   - For external sites that you wish to collect JavaScript data on, type the URL, for example http://www.contoso.com.  
+   - For external sites that you wish to collect JavaScript data on, type the URL, for example http:\//www.contoso.com.  
   
      For more information, view the property pages for an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] target binary.  
   

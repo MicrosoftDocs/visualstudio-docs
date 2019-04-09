@@ -54,6 +54,19 @@ In native C++ code, you might have to qualify the context of a variable name. Fo
 >
 >-   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.
 
+::: moniker range=">= vs-2019" 
+## Search in the Autos or Locals window
+
+You can search for keywords in the Name, Value, and Type columns of the **Autos** or **Locals** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
+
+Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
+
+![Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
+
+To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects. 
+
+::: moniker-end
+
 ## Change the context for the Autos or Locals window
 
 You can use the **Debug Location** toolbar to select a desired function, thread, or process, which changes the context for the **Autos** and **Locals** windows.

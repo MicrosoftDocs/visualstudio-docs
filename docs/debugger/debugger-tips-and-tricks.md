@@ -100,7 +100,7 @@ A string visualizer may help you find out whether a string is malformed, dependi
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
-For a few other types such as WPF objects that appear in the debugger windows, you can also open visualizers.
+For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
 ## Break into code on handled exceptions
 

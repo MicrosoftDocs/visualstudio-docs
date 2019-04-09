@@ -581,6 +581,12 @@
         href: ca5122-p-invoke-declarations-should-not-be-safe-critical.md
       - name: "CA2153: Avoid Handling Corrupted State Exceptions"
         href: ca2153-avoid-handling-corrupted-state-exceptions.md
+      - name: "CA2300: Do not use insecure deserializer BinaryFormatter"
+        href: ca2300-do-not-use-insecure-deserializer-binaryformatter.md
+      - name: "CA2301: Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder"
+        href: ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md
+      - name: "CA2302: Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize"
+        href: ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md
       - name: "CA3001: Review code for SQL injection vulnerabilities"
         href: ca3001-review-code-for-sql-injection-vulnerabilities.md
       - name: "CA3002: Review code for XSS vulnerabilities"
