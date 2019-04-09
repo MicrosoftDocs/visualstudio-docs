@@ -28,7 +28,7 @@ With Visual Studio 2019, you'll get best-in-class tools and services for any dev
 Here's a high-level recap of what's new:
 
 * **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, and better search results.
-* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a cloud-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
+* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 * **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 
 For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
