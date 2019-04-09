@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:

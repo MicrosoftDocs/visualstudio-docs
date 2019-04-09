@@ -168,7 +168,7 @@ Visual Studio's "Navigate To" command does a focused search of your code to help
 
 ### Filter your search
 
-To limit your search to only code symbols, preface your Navigate To query with an "@" character. For example, if you search for `@application`, Navigate To displays, for example, only classes that have the word "application" in them.
+To limit your search to only code symbols, preface your Navigate To query with an "\@" character. For example, if you search for `@application`, Navigate To displays, for example, only classes that have the word "application" in them.
 
 If you use camel casing in your code, you can find code elements faster by entering only the capital letters of code element name. For example, if your code has a component called `ViewSwitcher`, you can find it by entering just the capital letters of the name (`"VS"`) in the Navigate To window.
 

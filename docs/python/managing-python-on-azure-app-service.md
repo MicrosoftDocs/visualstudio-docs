@@ -3,8 +3,8 @@ title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
 ms.date: 01/07/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:

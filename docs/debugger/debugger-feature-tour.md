@@ -1,8 +1,8 @@
 ---
-title: "Debug apps using Visual Studio"
+title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "mvc"
-ms.date: "01/09/2019"
+ms.custom: "seoapril2019"
+ms.date: "04/08/2019"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "debugger"
