@@ -735,6 +735,8 @@
       href: ide/filtered-solutions.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
+  - name: Per-monitor-awareness support for Visual Studio extenders
+    href: ide/per-monitor-awareness-for-extenders.md
   - name: Manage accessibility features
     href: ide/reference/accessibility-features-of-visual-studio.md
     items:
