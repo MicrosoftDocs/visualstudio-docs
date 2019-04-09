@@ -31,7 +31,7 @@ Here's a high-level recap of what's new:
 * **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 * **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 
-For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
+For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/).
 
 ## Develop
 
@@ -49,11 +49,11 @@ The new fuzzy search logic will find anything you need, regardless of typos. So,
 
 ### Refactorings
 
-New C# refactorings make it easier to organize your code. Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action you want to take. 
+There are lots of new and highly useful refactorings in C# that make it easier to organize your code. They show up as suggestions in the light bulb and include actions such as moving members to interface or base class, adjusting namespaces to match folder structure, convert foreach-loops to Linq queries, and more.
 
    ![An animation of the refactorings experience in Visual Studio 2019](media/vs-2019/refactorings.gif)
 
-We've added many new refactorings, including one that lets you wrap method parameters.
+Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action you want to take.
 
 ### IntelliCode
 
@@ -72,7 +72,7 @@ We initially supported only C# when we first previewed the IntelliCode extension
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post. 
+For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post.
 
 ### Code cleanup
 
@@ -136,7 +136,7 @@ We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Co
 
    ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif)
 
-So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list. 
+So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list.
 
 And, if you're a C++ developer who develops large applications, Visual Studio 2019 has made symbols out of proc, which allows you to debug those applications without experiencing memory-related issues.
 
