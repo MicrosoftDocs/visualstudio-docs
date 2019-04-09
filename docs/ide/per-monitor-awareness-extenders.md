@@ -24,7 +24,7 @@ Versions prior to Visual Studio 2019 had their DPI awareness context set to syst
 Starting with Visual Studio 2019, the DPI awareness context is set as a per-monitor aware, allowing Visual Studio to render according to the configuration of the display where it's hosted rather than a generic system defined configuration. Ultimately this translates to a crisp UI for surfaces areas that implement PMA support.
 You can learn more about DPI awareness context on the Windows documentation.
 
-Refer to the [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered in this document.
+Refer to the [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered in this document.
 
 ## Quick start
 - Ensure Visual Studio is running in PMA mode (See **Enabling PMA**)
