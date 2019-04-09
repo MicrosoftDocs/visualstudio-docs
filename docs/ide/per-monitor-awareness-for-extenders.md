@@ -1,5 +1,5 @@
 ---
-title: "Per-Monitor Awareness support for extenders"
+title: "Per-Monitor Awareness support for Visual Studio extenders"
 titleSuffix: ""
 description: "Learn about the new extender support for per-monitor-awareness available in Visual Studio 2019."
 ms.date: 04/09/2019
@@ -17,7 +17,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Per-Monitor Awareness support for extenders
+# Per-Monitor Awareness support for Visual Studio extenders
 
 Versions prior to Visual Studio 2019 had their DPI awareness context set to system aware, rather than a per-monitor DPI aware (PMA). This resulted in a degraded visual experience (e.g. blurry fonts or icons) whenever using Visual Studio had to render in a combination of monitors with different scale factors or remoted into a machine with a different display configuration (e.g. different Windows scaling).
 
