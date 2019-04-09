@@ -7,35 +7,35 @@ helpviewer_keywords:
   - "Visual Studio, PMA, per-monitor-awareness, extenders, Windows Forms"
   - "Per-Monitor Awareness support for extenders"
 ms.assetid: 
-author: rurios
+author: rub8n
 ms.author: rurios
 manager: anthc
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.topic: 
+ms.topic: reference 
 ms.workload:
   - "multiple"
 ---
 
 # Per-Monitor Awareness support for Visual Studio extenders
 
-Versions prior to Visual Studio 2019 had their DPI awareness context set to system aware, rather than a per-monitor DPI aware (PMA). This resulted in a degraded visual experience (e.g. blurry fonts or icons) whenever using Visual Studio had to render in a combination of monitors with different scale factors or remoted into a machine with a different display configuration (e.g. different Windows scaling).
+Versions prior to Visual Studio 2019 had their DPI awareness context set to system aware, rather than a per-monitor DPI aware (PMA). This resulted in a degraded visual experience (e.g. blurry fonts or icons) whenever Visual Studio had to render in a combination of monitors with different scale factors or remoted into a machine with a different display configuration (e.g. different Windows scaling).
 
-Starting with Visual Studio 2019, the DPI awareness context is set as a per-monitor aware, allowing Visual Studio to render according to the configuration of the display where its hosted rather than a generic system defined configuration. Ultimately this translates to a crisp UI for surfaces areas that implement PMA support.
+Starting with Visual Studio 2019, the DPI awareness context is set as a per-monitor aware, allowing Visual Studio to render according to the configuration of the display where it's hosted rather than a generic system defined configuration. Ultimately this translates to a crisp UI for surfaces areas that implement PMA support.
 You can learn more about DPI awareness context on the Windows documentation.
 
-Refer to the [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered below.
+Refer to the [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) documentation for more information about the terms and overall scenario covered in this document.
 
 ## Quick start
 - Ensure Visual Studio is running in PMA mode (See **Enabling PMA**)
 
 - Validate your extension works correctly across a set of common scenarios (See **Testing your extensions for PMA issues**)
 
-- If you find issues, you’ll need to add the new PMA nugget package, diagnose and fix issues using the strategies and recommendations discussed below
+- If you find issues, you’ll need to add the new PMA nugget package, diagnose and fix issues using the strategies and recommendations discussed in this document
 
 ## Enabling PMA
 To enable PMA in Visual Studio, the following requirements need to be met:
-1)  Windows 10 April 2018 Update (v1803, RS4) or greater
+1)  Windows 10 April 2018 Update (v1803, RS4) or later
 2)  .NET Framework 4.8 RTM or greater (currently ships as standalone preview or bundle with recent Windows Insider builds)
 3)  Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) option enabled
 
@@ -75,7 +75,7 @@ POINT screenIntTopRight = new POINT
 IntPtr monitor = NativeMethods.MonitorFromPoint(screenIntTopRight, NativeMethods.Monitor_DEFAULTTONEARST);
 ```
 
-In the above example, a rectangle representing the logical bounds of a window is converted to device units so that it can be passed to the native method MonitorFromPoint which expects device coordinates in order to return back an accurate monitor pointer.
+In the previous example, a rectangle representing the logical bounds of a window is converted to device units so that it can be passed to the native method MonitorFromPoint which expects device coordinates in order to return back an accurate monitor pointer.
 
 ### Classes of Issues
 
@@ -100,7 +100,7 @@ Similarly, to the scaling problem, UI elements will calculate their bounds corre
 Whenever inside mixed-mode DPI scenarios (e.g. different UI elements rendering in both primary and non-primary DPI context), drag and drop coordinates could be miscalculated, resulting in the final drop position end up incorrect.
 
 #### Out-of-Process UI
-Some UI is created out-of-proc and if the creating external process is in a different DPI awareness mode than VS, this can introduce any of the above rendering issues.
+Some UI is created out-of-proc and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
 
 #### Windows Forms controls, images or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a different DpiAwarenessContext window. 
@@ -220,4 +220,4 @@ To properly work in the new mixed-mode scenario, Windows Forms changed how it cr
 
 This parking window gets its DpiAwarenessContext from the process the application is running under. The control inherits the same DpiAwarenessContext as the Parking Window and would then be reparented to the original/expected parent by the application developer.  This doesn't work when the intended parent to the control is not the same DpiAwarenessContext as the control being created.
 
-As of .NET 4.8, if the parent is not explicitly set on the control or window, we will query for a Parking Window that matches the DpiAwarenessContext of the thread in which the control or window creation is requested and use that as a temporary parent. In other words, upon creation the control is now created with the intended DpiAwarenessContext. The control or window will then be reparented to the expected parent by the application developer. Based on the scenario, developers that own the content in VS may see following issues.
+As of .NET 4.8, if the parent is not explicitly set on the control or window, we will query for a Parking Window that matches the DpiAwarenessContext of the thread in which the control or window creation is requested and use that as a temporary parent. In other words, upon creation the control is now created with the intended DpiAwarenessContext. The control or window will then be reparented to the expected parent by the application developer. Based on the scenario, developers that own the content in Visual Studio may see following issues.
