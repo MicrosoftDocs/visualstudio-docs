@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Learn about the new extender support for per-monitor-awareness available in Visual Studio 2019."
 ms.date: 04/09/2019
 helpviewer_keywords:
-  - "Visual Studio, PMA, per-monitor-awareness, extenders, winforms"
+  - "Visual Studio, PMA, per-monitor-awareness, extenders, Windows Forms"
   - "Per-Monitor Awareness support for extenders"
 ms.assetid: 
 author: rurios
@@ -43,7 +43,7 @@ Once these requirements are met, Visual Studio will automatically enable PMA acr
 
 ## Testing your extensions for PMA issues
 
-Visual Studio officially supports the WPF, WinForms, Win32, and HTML/JS UI frameworks. When Visual Studio is put into PMA mode, the different UI stacks behave differently. Therefore, regardless of UI framework, its strongly recommended that a test pass be performed to ensure all UI is compliant with PMA.
+Visual Studio officially supports the WPF, Windows Forms, Win32, and HTML/JS UI frameworks. When Visual Studio is put into PMA mode, the different UI stacks behave differently. Therefore, regardless of UI framework, its strongly recommended that a test pass be performed to ensure all UI is compliant with PMA.
 
 Regardless of the UI framework your extension supports, its recommended you validate the following common scenarios:
 
@@ -102,7 +102,7 @@ Whenever inside mixed-mode DPI scenarios (e.g. different UI elements rendering i
 #### Out-of-Process UI
 Some UI is created out-of-proc and if the creating external process is in a different DPI awareness mode than VS, this can introduce any of the above rendering issues.
 
-#### WinForms windows, control or images not displaying
+#### Windows Forms controls, images or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a different DpiAwarenessContext window. 
 
 The following pictures show the current Windows Operating system restrictions in parenting windows, unless thread hosting behavior is explicitly changed:
@@ -150,11 +150,11 @@ In most cases, fixing UI issues in PMA boils down to replacing calls in managed 
 
 In native code this will entail replacing calls to the old *VsUI::CDpiHelper* class with calls to the new *VsUI::CDpiAwareness* class. The new DpiAwareness and CDpiAwareness classes offer the same conversion helpers as the DpiHelper classes but require an additional input parameter: the UI element to use as a reference for the conversion operation. 
 
-The managed DpiAwareness class offers helpers for WPF Visuals, WinForms Controls, and Win32 HWNDs and HMONITORs (both in the form of IntPtrs), while the native CDpiAwareness class offers HWND and HMONITOR helpers.
+The managed DpiAwareness class offers helpers for WPF Visuals, Windows Forms Controls, and Win32 HWNDs and HMONITORs (both in the form of IntPtrs), while the native CDpiAwareness class offers HWND and HMONITOR helpers.
 
-### Disappearing WinForms windows or controls
+### Disappearing Windows Forms dialogs, windows or controls
 
-### WinForms dialogs, windows or controls displayed in the wrong DpiAwarenessContext
+### Windows Forms dialogs, windows or controls displayed in the wrong DpiAwarenessContext
 Even when the parenting of different DpiAwarenessContext windows succeed (because of windows default behavior), users may still see scaling issues as different DpiAwarenessContext windows scale differently. As a result, users may see alignment/blurry text or Image issues on the UI.
 
 The solution is to set the correct DpiAwarenessContext scope for all the windows and controls in the application.
@@ -214,9 +214,9 @@ enum __VSDPIMODE
 
 ## Known Issues
 
-### WinForms
+### Windows Forms
 
-To properly work in the new mixed-mode scenario, WinForms changed how it creates controls and windows whenever their parent was not explicitly set. Earlier, controls without an explicit parent used an internal "Parking Window" as a temporary parent to the control or window being created. 
+To properly work in the new mixed-mode scenario, Windows Forms changed how it creates controls and windows whenever their parent was not explicitly set. Earlier, controls without an explicit parent used an internal "Parking Window" as a temporary parent to the control or window being created. 
 
 This parking window gets its DpiAwarenessContext from the process the application is running under. The control inherits the same DpiAwarenessContext as the Parking Window and would then be reparented to the original/expected parent by the application developer.  This doesn't work when the intended parent to the control is not the same DpiAwarenessContext as the control being created.
 
