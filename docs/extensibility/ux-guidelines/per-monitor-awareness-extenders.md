@@ -11,6 +11,7 @@ author: rub8n
 ms.author: rurios
 manager: anthc
 ms.prod: visual-studio-windows
+monikerRange: vs-2019
 ms.technology: vs-ide-general
 ms.topic: reference 
 ms.workload:
