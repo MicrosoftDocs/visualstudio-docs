@@ -2,7 +2,7 @@
 title: "Per-Monitor Awareness support for Visual Studio extenders"
 titleSuffix: ""
 description: "Learn about the new extender support for per-monitor-awareness available in Visual Studio 2019."
-ms.date: 04/09/2019
+ms.date: 04/10/2019
 helpviewer_keywords:
   - "Visual Studio, PMA, per-monitor-awareness, extenders, Windows Forms"
   - "Per-Monitor Awareness support for extenders"
@@ -213,11 +213,11 @@ The value returned by the Mode property on the interface is a __VSDPIMODE (and c
 
 ```cs
 enum __VSDPIMODE
-    {
-        VSDM_Unaware    = 0x01,
-        VSDM_System     = 0x02,
-        VSDM_PerMonitor = 0x03,
-    }
+{
+    VSDM_Unaware    = 0x01,
+    VSDM_System     = 0x02,
+    VSDM_PerMonitor = 0x03,
+}
 ```
 
 - Unaware means the tool window needs to handle 96 DPI, Windows will handle scaling it for all other DPIs. Resulting on content being slightly blurry.
