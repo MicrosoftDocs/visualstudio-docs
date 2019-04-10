@@ -106,7 +106,7 @@ One of the main causes for this issue is developers trying to reparent a control
 
 The following pictures show the current Windows Operating system restrictions in parenting windows, unless thread hosting behavior is explicitly changed:
 
-![A screenshot of the correct parenting behavior](/ux-guidelines/media/PMA-parenting-behavior.PNG)
+![A screenshot of the correct parenting behavior](/media/PMA-parenting-behavior.PNG)
 
 As a result, if you set parent-child relationship between unsupported modes, it will fail, and the control or window may not be rendered as expected.
 

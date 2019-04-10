@@ -424,7 +424,7 @@
   - name: Evaluation Tools
     href: ux-guidelines/evaluation-tools-for-visual-studio.md
   - name: Per-monitor-awareness support
-    href: ux-guidelines/per-monitor-awareness-for-extenders.md
+    href: ux-guidelines/per-monitor-awareness-extenders.md
 - name: Addressing DPI Issues
   href: addressing-dpi-issues2.md
 - name: Image Service and Catalog
