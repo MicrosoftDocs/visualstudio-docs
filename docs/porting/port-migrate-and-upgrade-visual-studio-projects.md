@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
-ms.date: 10/09/2018
+ms.date: 04/09/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
