@@ -22,7 +22,7 @@ ms.workload:
   - "cplusplus"
 ---
 # Debugging Native Code
-The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md)).
+The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/[First look at the debugger])).
 
 ## In This Section
  [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md)
@@ -62,7 +62,7 @@ The section covers some common debugging problems and techniques for native appl
  [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
  Provides information on how to debug native and managed DLLs.
 
- [First look at the debugger](../debugger/debugger-feature-tour.md)
+ [First look at the debugger](../debugger/[First look at the debugger])
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.
 
 ## See Also

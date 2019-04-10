@@ -220,4 +220,4 @@ To add conditional exceptions:
 - [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 - [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
 - [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])

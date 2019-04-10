@@ -36,5 +36,5 @@ The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, p
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])
 - [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

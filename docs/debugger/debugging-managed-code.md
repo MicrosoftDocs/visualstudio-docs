@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Debugging Managed Code
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/[First look at the debugger]).
 
 ## In This Section
 
@@ -73,12 +73,9 @@ Discusses debugging .NET Framework applications and the configuration requiremen
 [Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
-[Debugging Home Page](../debugger/debugger-feature-tour.md)\
-Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.
-
 ## See also
 
 - [Walkthrough: Debug Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])

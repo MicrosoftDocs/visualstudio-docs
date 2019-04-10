@@ -77,7 +77,7 @@ Select or clear this check box to enable or disable debugging of SQL procedures 
 
 ## See also
 
-- [Debugging in Visual Studio](../../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../../debugger/debugger-feature-tour.md)
 - [Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)

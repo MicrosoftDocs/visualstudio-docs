@@ -44,4 +44,4 @@ You can open most debugger windows while you are debugging your program. To see 
 
 ## See Also
 
-[First look at the debugger](../debugger/debugger-feature-tour.md)
+[First look at the debugger](../debugger/[First look at the debugger])

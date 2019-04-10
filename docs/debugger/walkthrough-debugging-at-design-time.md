@@ -99,5 +99,5 @@ In some declarative data binding scenarios, it can help to debug code behind in 
    When the page loads, the breakpoint is hit.
 
 ## See also
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])
 - [Debugger security](../debugger/debugger-security.md)

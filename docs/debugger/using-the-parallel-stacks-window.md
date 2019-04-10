@@ -132,7 +132,7 @@ If you switch to a new stack frame, you make that method the current method, and
 ## See also
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
 - [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])
 - [Debugging managed code](../debugger/debugging-managed-code.md)
 - [Parallel programming](/dotnet/standard/parallel-programming/index)
 - [Use the Tasks window](../debugger/using-the-tasks-window.md)

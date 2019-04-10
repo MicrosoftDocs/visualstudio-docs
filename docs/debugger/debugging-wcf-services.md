@@ -30,4 +30,4 @@ ms.workload:
 
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])

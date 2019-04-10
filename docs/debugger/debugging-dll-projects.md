@@ -94,7 +94,7 @@ You can't run a DLL directly. It must be called by an app, usually an *.exe* fil
 
 To debug a DLL, you can [start debugging from the calling app](#vxtskdebuggingdllprojectsthecallingapplication), or [debug from the DLL project](how-to-debug-from-a-dll-project.md) by specifying its calling app. You can also use the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow) to evaluate DLL functions or methods at design time, without using a calling app.
 
-For more information, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+For more information, see [First look at the debugger](../debugger/[First look at the debugger]).
 
 ### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Start debugging from the calling app
 

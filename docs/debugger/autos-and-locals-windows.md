@@ -159,5 +159,5 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
-- [First look at debugging](../debugger/debugger-feature-tour.md)
+- [First look at debugging](../debugger/[First look at the debugger])
 - [Debugger windows](../debugger/debugger-windows.md)

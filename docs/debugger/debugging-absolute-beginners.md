@@ -323,4 +323,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning more about the debugger.
 
 > [!div class="nextstepaction"]
-> [First look at the debugger](../debugger/debugger-feature-tour.md)
+> [First look at the debugger](../debugger/[First look at the debugger])

@@ -33,5 +33,5 @@ This section explains how to debug several types of Web applications.
 ## See Also
 - [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])
 - [Debugging in Visual Studio](../debugger/index.md)

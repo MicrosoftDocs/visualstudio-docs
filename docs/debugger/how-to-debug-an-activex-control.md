@@ -56,4 +56,4 @@ To debug your ActiveX control, you must specify a container (executable) for the
 - [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])

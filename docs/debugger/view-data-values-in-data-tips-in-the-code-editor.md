@@ -119,7 +119,7 @@ You can export DataTips to an XML file, which you can share or edit using a text
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
-- [First look at debugging](../debugger/debugger-feature-tour.md)
+- [First look at debugging](../debugger/[First look at the debugger])
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

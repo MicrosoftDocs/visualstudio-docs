@@ -49,4 +49,4 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
 ## See Also
 - [COM Server and Container Debugging](../debugger/com-server-and-container-debugging.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])

@@ -88,7 +88,7 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 
 ## See also
 
-- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/[First look at the debugger])
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)

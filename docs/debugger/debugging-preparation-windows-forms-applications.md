@@ -56,7 +56,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
 
 3. On the **Debug** menu, click **Start**.
 
-4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
+4. Debug using the techniques discussed in [First look at the debugger](../debugger/[First look at the debugger]).
 
 ## See Also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
