@@ -34,6 +34,6 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
 
 ## See also
 
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Command window](../ide/reference/command-window.md)
 - [Debugger security](../debugger/debugger-security.md)

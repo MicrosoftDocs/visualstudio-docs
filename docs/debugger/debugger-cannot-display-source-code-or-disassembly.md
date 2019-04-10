@@ -32,5 +32,5 @@ This error reads:
 
 ## See Also
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

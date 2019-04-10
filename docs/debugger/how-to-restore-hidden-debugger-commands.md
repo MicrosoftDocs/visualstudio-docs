@@ -68,4 +68,4 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
 
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

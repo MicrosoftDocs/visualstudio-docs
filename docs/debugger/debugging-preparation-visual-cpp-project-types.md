@@ -66,7 +66,7 @@ This section describes how to debug the basic project types created by the [!INC
 
 2.  On the **Debug** menu, choose **Start**.
 
-3.  Debug using the techniques discussed in [First look at the debugger](../debugger/[First look at the debugger]).
+3.  Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ###  <a name="BKMK_To_manually_set_a_Debug_configuration"></a> To manually set a Debug configuration
 
@@ -104,7 +104,7 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## See Also
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)

@@ -302,5 +302,5 @@ Tracepoints appear as red diamonds in the left margin of the source code and **B
 
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)
-- [First look at debugging](../debugger/[First look at the debugger])
+- [First look at debugging](../debugger/debugger-feature-tour.md)
 - [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)

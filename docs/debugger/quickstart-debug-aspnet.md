@@ -99,7 +99,7 @@ While paused at the breakpoint, hover over the statement `return c2` until the g
 
 The app continues execution, and pauses on the line of code where you clicked the button.
 
-Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/[First look at the debugger]).
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## Inspect variables in a datatip
 
@@ -132,4 +132,4 @@ For more information on using edit-and-continue and on feature limitations, see 
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [First look at the debugger](../debugger/[First look at the debugger])
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Debugging Managed Code
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/[First look at the debugger]).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
 
@@ -78,4 +78,4 @@ Describes common debugging problems and techniques you may encounter when debugg
 - [Walkthrough: Debug Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

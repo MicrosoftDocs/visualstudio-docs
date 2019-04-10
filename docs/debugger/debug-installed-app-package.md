@@ -91,7 +91,7 @@ For more information on remote deployment of UWP apps, see [Deploy and debug UWP
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)

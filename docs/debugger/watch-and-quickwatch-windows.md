@@ -288,5 +288,5 @@ To observe the `a` variable,
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
-- [First look at debugging](../debugger/[First look at the debugger])
+- [First look at debugging](../debugger/debugger-feature-tour.md)
 - [Debugger windows](../debugger/debugger-windows.md)

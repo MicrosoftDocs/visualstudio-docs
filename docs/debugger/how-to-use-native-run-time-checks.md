@@ -73,6 +73,6 @@ In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-che
 
 ## See Also
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [runtime_checks](/cpp/preprocessor/runtime-checks)
 - [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

@@ -38,5 +38,5 @@ You may encounter the following dialog boxes as you debug your application.
 
 ## See Also
 - [Debugging in Visual Studio](../debugger/index.md)
-- [First look at the debugger](../debugger/[First look at the debugger])
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Command Window](../ide/reference/command-window.md)

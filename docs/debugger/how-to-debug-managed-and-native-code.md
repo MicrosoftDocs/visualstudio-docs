@@ -256,4 +256,4 @@ Congratulations! You have completed the tutorial on mixed-mode debugging.
 In this tutorial, you learned how to debug native code from a managed app by enabling mixed-mode debugging. For an overview of other debugger features, see:
 
 > [!div class="nextstepaction"]
-> [First look at the debugger](../debugger/[First look at the debugger])
+> [First look at the debugger](../debugger/debugger-feature-tour.md)
