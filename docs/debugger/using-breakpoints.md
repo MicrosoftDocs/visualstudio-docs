@@ -141,6 +141,25 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
     ```C++
     ((my_class *) 0xcccccccc)->my_method
     ```
+::: moniker range=">= vs-2019"
+
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints ([.NET Core 3.0 or higher](https://dotnet.microsoft.com/download/dotnet-core/3.0))
+
+Data breakpoints break execution when a specific object's property changes.
+
+**To set a data breakpoint**
+
+1.  In a .NET Core project, start debugging, and wait until a breakpoint is reached. In the the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
+
+![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
+
+Data breakpoints in .NET Core don't work for the following scenarios:
+-   Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
+-   Static variables
+-   Classes with the DebuggerTypeProxy Attribute
+-   Fields inside of structs 
+
+::: moniker-end
 
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus"></a>Set data breakpoints (native C++ only)
 
@@ -150,7 +169,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 1.  In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**
 
-    You can also select **New** > **Data Breakpoint** in the **Breakpoints** window.
+    You can also select **New** > **Data Breakpoint** in the **Breakpoints** window or right-click an item in the **Autos**, **Watch**, or **Locals** window and select **Break when value changes**in the context menu.
 
 2.  In the **Address** box, type a memory address, or an expression that evaluates to a memory address. For example, type `&avar` to break when the contents of the variable `avar` changes.
 
