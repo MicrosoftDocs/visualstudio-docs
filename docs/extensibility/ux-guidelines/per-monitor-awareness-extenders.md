@@ -29,7 +29,7 @@ Refer to the [High DPI Desktop Application Development on Windows](https://docs.
 
 - Validate your extension works correctly across a set of common scenarios (See **Testing your extensions for PMA issues**)
 
-- If you find issues, you can use the strategies/recommendations discussed in this document to diagnose and fix those issues. You’ll also need to add the new [Microsoft.VisualStudio.DpiAwareness](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet package to your project to accessed the required APIs.
+- If you find issues, you can use the strategies/recommendations discussed in this document to diagnose and fix those issues. You’ll also need to add the new [Microsoft.VisualStudio.DpiAwareness](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet package to your project to access the required APIs.
 
 ## Enabling PMA
 To enable PMA in Visual Studio, the following requirements need to be met:
@@ -80,7 +80,7 @@ In the previous example, a rectangle representing the logical bounds of a window
 When PMA mode is enabled for Visual Studio, the UI could replicate issues in several common ways. Most, if not all, of these issues can happen in any of Visual Studio's supported UI frameworks. Additionally, these issues can also happen when a piece of UI is being hosted in mixed-mode DPI scaling scenarios (refer to the Windows [documentation](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) to learn more). 
 
 #### Win32 window creation
-When creating windows with CreateWindow() or CreateWindowEx(), a common pattern is to create the window at coordinates 0,0 (the top/left corner of the primary display), then move it to its final position. However, doing so can cause the window to trigger a DPI changed message or event, which can retrigger other UI messages or events, and eventually lead to undesired behavior or rendering.
+When creating windows with CreateWindow() or CreateWindowEx(), a common pattern is to create the window at coordinates (0,0) (the top/left corner of the primary display), then move it to its final position. However, doing so can cause the window to trigger a DPI changed message or event, which can retrigger other UI messages or events, and eventually lead to undesired behavior or rendering.
 
 #### WPF element placement
 When moving WPF elements using the old Microsoft.VisualStudio.Utilities.Dpi.DpiHelper, top-left coordinates might not be calculated correctly whenever elements are on a non-primary DPI.
@@ -123,7 +123,7 @@ There are many factors to consider when identifying PMA-related issues:
 3. Are UI constants in use and what form are they in?
 
 4. Is the thread in the correct DPI context for the values it's receiving?
-    - The changes to enable CLMM should generally put code paths in the right context, however, work done outside the main message loop or event flow might execute in the wrong DPI context.
+    - The changes to enable mixed DPI hosting should generally put code paths in the right context, however, work done outside the main message loop or event flow might execute in the wrong DPI context.
 
 5. Do values cross DPI context boundaries?
     - Drag & drop is a common situation where coordinates can cross DPI contexts. Window tries to do the right thing, but in some cases, the host UI may need to do conversion work to ensure matching context boundaries.
@@ -176,7 +176,7 @@ Even after a successful parenting of windows with different DpiAwarenessContexts
 
 The solution is to set the correct DpiAwarenessContext scope for all the windows and controls in the application.
 
-### TLMM dialogs
+### Top-level mixed mode (TLMM) dialogs
 When creating top-level windows such as modal dialogs, it’s important to make sure the thread is in the correct state prior to the window (and its handle) being created. The thread can be put into System awareness by using the CDpiScope helper in native or the DpiAwareness.EnterDpiScope helper in managed. (TLMM should generally be used on non-WPF dialogs/windows.)
 
 ### Child-level mixed mode (CLMM)
@@ -227,7 +227,7 @@ enum __VSDPIMODE
 **NOTE**: Visual Studio only supports PerMonitorV2 awareness, so the PerMonitor enum value translates to the Windows value of DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2.
 
 #### Forcing a control into a specific DpiAwarenessContext
-Legacy UI that is not being updated to support PMA mode, may still need minor tweaks to work while Visual Studio is running in PMA mode. One such fix involves making sure the UI is being created in the right DpiAwarenessContext. To force your UI into a particular DpiAwarenessContext, you can do the following:
+Legacy UI that is not being updated to support PMA mode, may still need minor tweaks to work while Visual Studio is running in PMA mode. One such fix involves making sure the UI is being created in the right DpiAwarenessContext. To force your UI into a particular DpiAwarenessContext, you can enter a DPI scope with the following code:
 
 C#:
 ```cs
@@ -247,13 +247,13 @@ void MyClass::ShowDialog()
 }
 ```
 
-**NOTE**: Focing the DpiAwarenessContext only works on non-WPF UI and top-level WPF dialogs. When creating WPF UI that is to be hosted inside tool windows or designers, as soon as the content is inserted into the WPF UI tree, it gets converted to the current process DpiAwarenessContext.
+**NOTE**: Forcing the DpiAwarenessContext only works on non-WPF UI and top-level WPF dialogs. When creating WPF UI that is to be hosted inside tool windows or designers, as soon as the content is inserted into the WPF UI tree, it gets converted to the current process DpiAwarenessContext.
 
 ## Known issues
 ### Windows Forms
 
 To optimize for the new mixed-mode scenarios, Windows Forms changed how it creates controls and windows whenever their parent was not explicitly set. Earlier, controls without an explicit parent used an internal "Parking Window" as a temporary parent to the control or window being created. 
 
-Prior to .NET 4.8, there was a single "Parking Window" that gets its DpiAwarenessContext from the current thread DPI awareness context at the window's creation time. Any unparented control inherits the same DpiAwarenessContext as the Parking Window when the control's handle is created and would need be reparented to the final/expected parent by the application developer.  This would cause timing based failures if the "Parking Window" had a higher DpiAwarenessContext than the final parent window.
+Prior to .NET 4.8, there was a single "Parking Window" that gets its DpiAwarenessContext from the current thread DPI awareness context at the window's creation time. Any unparented control inherits the same DpiAwarenessContext as the Parking Window when the control's handle is created and would be reparented to the final/expected parent by the application developer. This would cause timing-based failures if the "Parking Window" had a higher DpiAwarenessContext than the final parent window.
 
-As of .NET 4.8, there is now a "Parking Window" for every DpiAwarenessContext that's been encountered. The other major difference is that the DpiAwarenessContext used for the control is cached when the control is created, not when the handle is created. This means the overall end behavior is the same, but can turn what used to be a timing based issue into a consistent issue. It also gives the application developer more deterministic behavior to write their code around.
+As of .NET 4.8, there is now a "Parking Window" for every DpiAwarenessContext that's been encountered. The other major difference is that the DpiAwarenessContext used for the control is cached when the control is created, not when the handle is created. This means the overall end behavior is the same, but can turn what used to be a timing-based issue into a consistent issue. It also gives the application developer more deterministic behavior for writing their UI code and scopeing it correctly.
