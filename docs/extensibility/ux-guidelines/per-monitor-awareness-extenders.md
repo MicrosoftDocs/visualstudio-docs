@@ -167,7 +167,7 @@ VsUI::CDpiAwareness::LogicalToDeviceUnitsX(m_hwnd, &cx);
 VsUI::CDpiAwareness::LogicalToDeviceUnitsY(m_hwnd, &cy);
 ```
 
-The new DpiAwareness and CDpiAwareness classes offer the same unit conversion helpers as the DpiHelper classes but require an additional input parameter: the UI element to use as a reference for the conversion operation. It's important to note that the image scaling helpers do not exist in the new DpiAwareness/CDpiAwareness helpers, and if needed, the [ImageService](https://docs.microsoft.com/en-us/visualstudio/extensibility/image-service-and-catalog?view=vs-2019) should be used instead.
+The new DpiAwareness and CDpiAwareness classes offer the same unit conversion helpers as the DpiHelper classes but require an additional input parameter: the UI element to use as a reference for the conversion operation. It's important to note that the image scaling helpers do not exist in the new DpiAwareness/CDpiAwareness helpers, and if needed, the [ImageService](https://docs.microsoft.com/visualstudio/extensibility/image-service-and-catalog?view=vs-2019) should be used instead.
 
 The managed DpiAwareness class offers helpers for WPF Visuals, Windows Forms Controls, and Win32 HWNDs and HMONITORs (both in the form of IntPtrs), while the native CDpiAwareness class offers HWND and HMONITOR helpers.
 
