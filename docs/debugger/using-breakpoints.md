@@ -143,21 +143,24 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
     ```
 ::: moniker range=">= vs-2019"
 
-## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints ([.NET Core 3.0 or higher](https://dotnet.microsoft.com/download/dotnet-core/3.0))
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.0 or higher)
 
 Data breakpoints break execution when a specific object's property changes.
 
 **To set a data breakpoint**
 
-1.  In a .NET Core project, start debugging, and wait until a breakpoint is reached. In the the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
+1. In a .NET Core project, start debugging, and wait until a breakpoint is reached.
 
-![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
+2. In the the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
 
-Data breakpoints in .NET Core don't work for the following scenarios:
--   Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
--   Static variables
--   Classes with the DebuggerTypeProxy Attribute
--   Fields inside of structs 
+    ![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
+
+Data breakpoints in .NET Core won't work for:
+
+- Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
+- Static variables
+- Classes with the DebuggerTypeProxy Attribute
+- Fields inside of structs 
 
 ::: moniker-end
 
