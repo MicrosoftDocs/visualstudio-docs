@@ -155,7 +155,7 @@ Point deviceTopLeft = window.LogicalToDevicePoint(new Point(window.Left, window.
 
 For native code, it will entail replacing calls to the old *VsUI::CDpiHelper* class with calls to the new *VsUI::CDpiAwareness* class. 
 
-```cplusplus
+```cpp
 // Remove this kind of use:
 int cx = VsUI::DpiHelper::LogicalToDeviceUnitsX(m_cxS);
 int cy = VsUI::DpiHelper::LogicalToDeviceUnitsY(m_cyS);
@@ -199,7 +199,7 @@ public interface IVsDpiAeware
 ```
  
 C++:
-```cplusplus
+```cpp
 IVsDpiAware : public IUnknown
 {
     public:
@@ -239,7 +239,7 @@ using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
 ```
 
 C++:
-```cplusplus
+```cpp
 void MyClass::ShowDialog()
 {
     VsUI::CDpiScope dpiScope(DPI_AWARENESS_CONTEXT_SYSTEM_AWARE);
