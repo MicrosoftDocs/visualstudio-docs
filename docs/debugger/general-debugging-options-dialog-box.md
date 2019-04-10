@@ -190,7 +190,7 @@ Enables the Edit and Continue functionality while debugging.
     Get warnings about stale code.
 
 **Show Run to Click button in editor while debugging**:
-When this option is selected, the [Run to Click]([First look at the debugger]#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
+When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
