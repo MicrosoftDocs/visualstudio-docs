@@ -63,7 +63,7 @@ When you add or enable Docker support, Visual Studio adds the following to the p
 ::: moniker range=">=vs-2019"
 The solution looks like this once you add Docker support:
 
-![Screenshot of solution explorer with Dockerfile and .dockerignore file](media/vs-2019/dockerfile-dockerignore.png)
+![Screenshot of solution explorer with Dockerfile and .dockerignore file](media/visual-studio-tools-for-docker/vs-2019/dockerfile-dockerignore.png)
 ::: moniker-end
 
 ::: moniker range="vs-2017"
