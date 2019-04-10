@@ -76,14 +76,14 @@ IntPtr monitor = NativeMethods.MonitorFromPoint(screenIntTopRight, NativeMethods
 
 In the previous example, a rectangle representing the logical bounds of a window is converted to device units so that it can be passed to the native method MonitorFromPoint that expects device coordinates in order to return back an accurate monitor pointer.
 
-### Classes of Issues
+### Classes of issues
 
 When PMA is enabled for Visual Studio, the UI could replicate issues in several common ways. Most, if not all, of these issues can happen in any of Visual Studios supported UI frameworks. Additionally, these issues can happen even when a piece of UI is being hosted in mixed-mode DPI scaling scenarios (refer to the Windows [documentation](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) to learn more). 
 
-#### Win32 Window creation
+#### Win32 window creation
 When creating windows with CreateWindow() or CreateWindowEx(), a common pattern is to create the window at coordinates 0,0 (the top/left corner of the primary display), then move it to its final position. However, doing so can cause the window to trigger a DPI changed message or event, which can retrigger other UI messages or events, and eventually lead to undesired behavior or rendering.
 
-#### WPF Element placement
+#### WPF element placement
 When moving WPF elements using the old Microsoft.VisualStudio.Utilities.Dpi.DpiHelper, top-left coordinates might not be calculated correctly whenever elements are in the non-primary DPI case.
 
 #### Serialization of UI element sizes or positions
@@ -98,19 +98,19 @@ Similarly, to the scaling problem, UI elements will calculate their bounds corre
 #### Drag & drop
 Whenever inside mixed-mode DPI scenarios (e.g. different UI elements rendering in both primary and non-primary DPI context), drag and drop coordinates could be miscalculated, resulting in the final drop position end up incorrect.
 
-#### Out-of-Process UI
-Some UI is created out-of-proc and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
+#### Out-of-process UI
+Some UI is created out-of-process and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
 
 #### Windows Forms controls, images, or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a different DpiAwarenessContext window. 
 
-The following pictures show the current Windows Operating system restrictions in parenting windows, unless thread hosting behavior is explicitly changed:
+The following pictures show the current Windows operating system restrictions in parenting windows, unless thread hosting behavior is explicitly changed:
 
 ![A screenshot of the correct parenting behavior](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
 
 As a result, if you set parent-child relationship between unsupported modes, it will fail, and the control or window may not be rendered as expected.
 
-### Diagnosing Issues
+### Diagnosing issues
 There are many factors to consider when identifying PMA-related issues: 
 
 1. Does the UI or API expected logical or device values.
@@ -132,18 +132,18 @@ There are many factors to consider when identifying PMA-related issues:
 ### PMA Nugget package
 The new DpiAwarness libraries can be found on the Microsoft.VisualStudio.DpiAwareness NuGet package.
 
-### Recommended Tools
+### Recommended tools
 The following tools can help debug PMA-related issues across some of the different UI stacks supported by Visual Studio.
 
 #### Snoop
 Snoop is a XAML debugging tool that has some extra functionality that the built-in Visual Studio XAML tools doesn’t have. Additionally, Snoop doesn’t need to actively debug Visual Studio to be able to view and tweak its WPF UI. The two main ways Snoop can be useful for diagnosing PMA issues is for validating logical placement coordinates or size bounds, and for validating the UI has the right DPI.
  
-#### Visual Studio XAML Tools
+#### Visual Studio XAML tools
 Like Snoop, the XAML tools in Visual Studio can help diagnose PMA issues. Once a likely culprit is found, you can set breakpoints, and use the Live Visual Tree window as well as the debug windows, to inspect UI bounds and current DPI.
 
 ## Strategies for fixing PMA issues
 
-### Replacing DpiHelper Calls
+### Replacing DpiHelper calls
 In most cases, fixing UI issues in PMA boils down to replacing calls in managed code to the old:
 *Microsoft.VisualStudio.Utilities.Dpi.DpiHelper* and *Microsoft.VisualStudio.PlatformUI.DpiHelper* classes, with calls to the new *Microsoft.VisualStudio.Utilities.DpiAwareness* helper class. 
 
@@ -156,7 +156,7 @@ Even after a successful parenting of windows with different DpiAwarenessContext 
 
 The solution is to set the correct DpiAwarenessContext scope for all the windows and controls in the application.
 
-### TLMM Dialogs
+### TLMM dialogs
 When creating top-level windows such as modal dialogs, it’s important to make sure the thread is in the correct state prior to the HWND being created. The thread can be put into System awareness by using the CDpiScope helper in native or the DpiAwareness.EnterDpiScope helper in managed. (TLMM should generally be used on non-WPF dialogs/windows.)
 
 ### Child-level mixed mode (CLMM)
@@ -164,10 +164,10 @@ When creating top-level windows such as modal dialogs, it’s important to make 
 By default, child windows receive the same DPI-awareness mode as their parents. However, you can use SetThreadDpiHostingBehavior to override it and have child windows run in a different scaling mode than their parent or host.
 
 
-#### CLMM Issues
+#### CLMM issues
 Most of the UI calculation work that happens as part of the main messaging loop or event chain should already be running in the right DPI context. However, if coordinate or sizing calculations are done outside these main workflows (such as during an idle time task, or off the UI thread, then the current DPI context might be incorrect leading to UI misplacement or mis-sizing issues. Putting the thread into the correct state for the UI work generally fixes the problem.
  
-#### Opting Out of CLMM
+#### Opting out of CLMM
 If a non-WPF tool window is being migrated to fully support PMA, it will need to opt out of CLMM. To do so, a new interface needs to be implemented: IVsDpiAware.
 
 C#:
@@ -209,7 +209,7 @@ enum __VSDPIMODE
 
 **NOTE**: Visual Studio only supports PerMonitorV2 awareness, so the PerMonitor enum value translates to the Windows value of DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2.
 
-## Known Issues
+## Known issues
 
 ### Windows Forms
 
