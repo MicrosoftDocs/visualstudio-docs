@@ -122,7 +122,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-    -   Added support for Visual Studio 2019.
+    -   Added support for Visual Studio 2019 (you need at least Unity 2018.3 for being able to use Visual Studio 2019 as an external script editor).
 
     -   Adopted the Visual Studio image service and catalog, with full support for HDPI scaling, pixel perfect images and theming.
 
