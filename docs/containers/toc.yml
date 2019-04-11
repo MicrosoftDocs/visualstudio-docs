@@ -3,12 +3,12 @@
   expanded: true
   items:
   - name: Overview
-    href: visual-studio-tools-for-docker.md
+    href: overview.md
   - name: Quickstart
     expanded: true
     items:
-    - name: Docker in Visual Studio
-      href: docker-tools.md
+    - name: Container Tools in Visual Studio
+      href: container-tools.md
   - name: Tutorials  
     expanded: true
     items:
@@ -19,12 +19,12 @@
   - name: How to
     items:
     - name: Debug app in a local Docker container
-      href: vs-azure-tools-docker-edit-and-refresh.md
+      href: edit-and-refresh.md
     - name: Deploy to a container registry
-      href: vs-azure-tools-docker-hosting-web-apps-in-docker.md
+      href: container-hosting-web-apps-in-docker.md
     - name: Deploy to Azure App Service
-      href: docker-deploy-app-service.md
-    - name: Configure Docker Tools
-      href: docker-tools-configure.md
+      href: deploy-app-service.md
+    - name: Configure Container Tools
+      href: container-tools-configure.md
   - name: Troubleshooting
     href: vs-azure-tools-docker-troubleshooting-docker-errors.md

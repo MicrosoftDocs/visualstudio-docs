@@ -16,18 +16,18 @@ From the main menu, choose **Tools > Options**, and expand **Container Tools > S
 
 ::: moniker range="vs-2017"
 
-![Visual Studio Docker tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/visual-studio-tools-for-docker/visual-studio-docker-tools-options.png)
+![Visual Studio Container Tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/visual-studio-tools-for-docker/visual-studio-docker-tools-options.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
 Container Tools **General** settings:
 
-![Visual Studio Docker tools options, showing: Install Docker Desktop if needed, and Trust ASP.NET Core SSL certificate.](./media/configure-container-tools/tools-options-1.png)
+![Visual Studio Container Tools options, showing: Install Docker Desktop if needed, and Trust ASP.NET Core SSL certificate.](./media/configure-container-tools/tools-options-1.png)
 
 Container Tools **Single Project** and **Docker Compose** settings:
 
-![Visual Studio Docker tools options, showing: Kill containers on project close, Pull required Docker images on project open, and Run containers on project open.](./media/configure-container-tools/tools-options-2.png)
+![Visual Studio Container Tools options, showing: Kill containers on project close, Pull required Docker images on project open, and Run containers on project open.](./media/configure-container-tools/tools-options-2.png)
 ::: moniker-end
 
 The following table might help you decide how to set these options.

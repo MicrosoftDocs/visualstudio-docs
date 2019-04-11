@@ -1,12 +1,12 @@
 ---
-title: Visual Studio Tools for Docker on Windows
-description: Get to know the Docker tools available in Visual Studio
+title: Visual Studio Container Tools on Windows
+description: Get to know the tools available in Visual Studio for working with Docker
 author: ghogen
 ms.author: ghogen
 ms.date: 03/20/2019
 ms.technology: vs-azure
 ---
-# Docker in Visual Studio
+# Container Tools in Visual Studio
 
 The tools included in Visual Studio for developing with containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose, Service Fabric, or Kubernetes to work with multiple services in containers.
 
@@ -56,9 +56,9 @@ You can add Docker support to an existing project by selecting **Add** > **Docke
 
 When you add or enable Docker support, Visual Studio adds the following to the project:
 
-- adds a *Dockerfile* file
-- adds a .dockerignore file
-- adds a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
+- a *Dockerfile* file
+- a .dockerignore file
+- a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 
 ::: moniker range=">=vs-2019"
 The solution looks like this once you add Docker support:

@@ -11,20 +11,20 @@ ms.topic: include
 
 ::: moniker range="vs-2017"
 
-[!include[Visual Studio Docker Tools](includes/vs-2017/docker-tools.md)]
+[!include[Visual Studio Container Tools](includes/vs-2017/container-tools.md)]
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-[!include[Visual Studio Docker Tools](includes/vs-2019/docker-tools.md)]
+[!include[Visual Studio Container Tools](includes/vs-2019/container-tools.md)]
 
 ::: moniker-end
 
 ## Additional resources
 
 * [Container development with Visual Studio](/visualstudio/containers)
-* [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-docker-troubleshooting-docker-errors.md)
+* [Troubleshoot Visual Studio 2017 development with Docker](vs-azure-tools-troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
 
 [0]:media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
