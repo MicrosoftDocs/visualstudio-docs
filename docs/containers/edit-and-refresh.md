@@ -91,7 +91,7 @@ Often, changes will need further inspection, leveraging the debugging features o
 4. Hit F5 to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint, inspect values, and so on.
 
-   ![Breakpoint](media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png)
+   ![Breakpoint](media/edit-and-refresh/breakpoint.png)
 
 ## Summary
 

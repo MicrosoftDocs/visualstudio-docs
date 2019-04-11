@@ -48,10 +48,10 @@ The **Add > Docker Support** and **Add > Container Orchestrator Support** comman
 You can add Docker support to an existing project by selecting **Add** > **Docker Support** in **Solution Explorer**. You can also enable Docker support during project creation by selecting **Enable Docker Support** when creating a new project, as shown in the following screenshot:
 
 ::: moniker range="vs-2017"
-![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/visual-studio-tools-for-docker/enable-docker-support-visual-studio.png)
+![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/overview/enable-docker-support-visual-studio.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/visual-studio-tools-for-docker/vs-2019/enable-docker-support-visual-studio.png)
+![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/overview/vs-2019/enable-docker-support-visual-studio.png)
 ::: moniker-end
 
 When you add or enable Docker support, Visual Studio adds the following to the project:
@@ -63,14 +63,14 @@ When you add or enable Docker support, Visual Studio adds the following to the p
 ::: moniker range=">=vs-2019"
 The solution looks like this once you add Docker support:
 
-![Screenshot of solution explorer with Dockerfile and .dockerignore file](media/visual-studio-tools-for-docker/vs-2019/dockerfile-dockerignore.png)
+![Screenshot of solution explorer with Dockerfile and .dockerignore file](media/overview/vs-2019/dockerfile-dockerignore.png)
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 > [!NOTE]
 > When you enable Docker support during project creation for a ASP.NET project (.NET Framework, not a .NET Core project) as shown in the following screenshot, container orchestration support is also added.
 
-![Enable Docker compose support for an ASP.NET project](media/visual-studio-tools-for-docker/enable-docker-compose-support.png)
+![Enable Docker compose support for an ASP.NET project](media/overview/enable-docker-compose-support.png)
 ::: moniker-end
 
 ## Docker Compose support
@@ -81,7 +81,7 @@ To add container orchestration support using Docker Compose, right-click on the 
 
 After you add container orchestration support to your project, you see a *Dockerfile* added to the project (if there wasn't one there already) and a **docker-compose** folder added to the solution in **Solution Explorer**, as shown here:
 
-![Docker files in Solution Explorer in Visual Studio](media/visual-studio-tools-for-docker/docker-support-solution-explorer.png)
+![Docker files in Solution Explorer in Visual Studio](media/overview/docker-support-solution-explorer.png)
 
 If *docker-compose.yml* already exists, Visual Studio just adds the required lines of configuration code to it.
 

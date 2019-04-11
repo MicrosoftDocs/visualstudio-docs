@@ -16,7 +16,7 @@ From the main menu, choose **Tools > Options**, and expand **Container Tools > S
 
 ::: moniker range="vs-2017"
 
-![Visual Studio Container Tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/visual-studio-tools-for-docker/visual-studio-docker-tools-options.png)
+![Visual Studio Container Tools options, showing: Automatically pull required Docker images on project load, Automatically start containers in background, Automatically kill containers on solution close, and Do not prompt for trusting SSL certificate.](./media/overview/visual-studio-docker-tools-options.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"

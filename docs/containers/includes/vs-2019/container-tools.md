@@ -27,7 +27,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Create a new project using the **ASP.NET Core Web Application** template.
 1. Select **Web Application**, and make sure the **Enable Docker Support** checkbox is selected.
 
-   ![Enable Docker Support check box](../../media/docker-tools/vs-2019/create-new-web-application.PNG)
+   ![Enable Docker Support check box](../../media/container-tools/vs-2019/create-new-web-application.PNG)
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 
@@ -110,7 +110,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Click **Create**
 
-   ![Screenshot showing successful publish](../../media/docker-tools/publish-succeeded.png)
+   ![Screenshot showing successful publish](../../media/container-tools/publish-succeeded.png)
 
 ## Next Steps
 
@@ -122,4 +122,4 @@ You can now pull the container from the registry to any host capable of running 
 * [Troubleshoot Visual Studio 2017 development with Docker](../../troubleshooting-docker-errors.md)
 * [Visual Studio Tools for Docker GitHub repository](https://github.com/Microsoft/DockerTools)
 
-[0]:../../media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog-2019.png
+[0]:../../media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog-2019.png
