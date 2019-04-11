@@ -201,7 +201,7 @@
     - name: Create custom views of data
       href: viewing-data-in-the-debugger.md
       items:
-      - name: Create custom views of native objects
+      - name: Create custom views of C++ objects
         href: create-custom-views-of-native-objects.md
         items:
         - name: "Visual C++ custom visualizer compatibility"
@@ -209,10 +209,10 @@
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:
-        - name: Use DebuggerTypeProxy attribute
-          href: using-debuggertypeproxy-attribute.md
-        - name: Use the DebuggerDisplay attribute
+        - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md
+        - name: Tell the debugger what type to show
+          href: using-debuggertypeproxy-attribute.md
       - name: Create custom visualizers of data
         href: create-custom-visualizers-of-data.md
         items:
