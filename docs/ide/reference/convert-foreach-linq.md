@@ -41,7 +41,7 @@ This refactoring applies to:
    
    ![LINQ call form result](media/convert-foreach-to-LINQ-callform-result.png)
    
- ### Sample Code
+### Sample Code
 
 ```csharp
 using System.Collections.Generic;
