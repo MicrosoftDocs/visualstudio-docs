@@ -224,8 +224,8 @@ enum __VSDPIMODE
 - System means the tool window needs to handle the DPI for the primary display DPI. Any display with a matching DPI will look crisp, but if the DPI is different or changes during the session, Windows will handle the scaling and it will be slightly blurry.
 - PerMonitor means the tool window needs to handle all DPIs on all displays and whenever the DPI changes.
 
-[!NOTE]
-Visual Studio only supports PerMonitorV2 awareness, so the PerMonitor enum value translates to the Windows value of DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2.
+> [!NOTE]
+> Visual Studio only supports PerMonitorV2 awareness, so the PerMonitor enum value translates to the Windows value of DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2.
 
 #### Forcing a control into a specific DpiAwarenessContext
 Legacy UI that is not being updated to support PMA mode, may still need minor tweaks to work while Visual Studio is running in PMA mode. One such fix involves making sure the UI is being created in the right DpiAwarenessContext. To force your UI into a particular DpiAwarenessContext, you can enter a DPI scope with the following code:
@@ -248,8 +248,8 @@ void MyClass::ShowDialog()
 }
 ```
 
-[!NOTE]
-Forcing the DpiAwarenessContext only works on non-WPF UI and top-level WPF dialogs. When creating WPF UI that is to be hosted inside tool windows or designers, as soon as the content is inserted into the WPF UI tree, it gets converted to the current process DpiAwarenessContext.
+> [!NOTE]
+> Forcing the DpiAwarenessContext only works on non-WPF UI and top-level WPF dialogs. When creating WPF UI that is to be hosted inside tool windows or designers, as soon as the content is inserted into the WPF UI tree, it gets converted to the current process DpiAwarenessContext.
 
 ## Known issues
 ### Windows Forms
