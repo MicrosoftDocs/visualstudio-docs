@@ -41,7 +41,7 @@ With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fab
 
 The **Add > Docker Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
 
-![Add Docker Support menu option in Visual Studio](./media/visual-studio-tools-for-docker/add-docker-support-menu.png)
+![Add Docker Support menu option in Visual Studio](./media/overview/add-docker-support-menu.png)
 
 ### Adding Docker support (without orchestration)
 
