@@ -7364,6 +7364,11 @@
             "source_path": "docs/containers/docker-deploy-app-service.md",
             "redirect_url": "/visualstudio/containers/deploy-app-service",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-troubleshooting-docker-errors.md",
+            "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
+            "redirect_document_id": true
         }
     ]
 }

@@ -21,10 +21,10 @@
     - name: Debug app in a local Docker container
       href: edit-and-refresh.md
     - name: Deploy to a container registry
-      href: container-hosting-web-apps-in-docker.md
+      href: hosting-web-apps-in-docker.md
     - name: Deploy to Azure App Service
       href: deploy-app-service.md
     - name: Configure Container Tools
       href: container-tools-configure.md
   - name: Troubleshooting
-    href: vs-azure-tools-docker-troubleshooting-docker-errors.md
+    href: troubleshooting-docker-errors.md

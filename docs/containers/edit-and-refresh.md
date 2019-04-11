@@ -100,7 +100,7 @@ with the production realism of developing within a Docker container.
 
 ## Troubleshooting
 
-[Troubleshooting Visual Studio Docker Development](vs-azure-tools-docker-troubleshooting-docker-errors.md)
+[Troubleshooting Visual Studio Docker Development](troubleshooting-docker-errors.md)
 
 ## More about Docker with Visual Studio, Windows, and Azure
 
