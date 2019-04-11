@@ -81,7 +81,7 @@ In this tutorial, you will:
 
     ![Overview of IntelliTrace step-back](../debugger/media/intellitrace-step-back-overview.png "Overview of IntelliTrace Step-back")
 
-    To learn more about how to inspect variables in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md)
+    To learn more about how to inspect variables in Visual Studio, see [First look at the debugger](../debugger/debugger-feature-tour.md)
 
 ## Frequently Asked Questions
 
