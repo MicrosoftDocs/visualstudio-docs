@@ -10,6 +10,8 @@ ms.technology: vs-azure
 
 Using Visual Studio settings, you can control some aspects of how Visual Studio works with Docker containers, including settings that affect performance and resource usage when working with Docker containers.
 
+## Container Tools Settings
+
 From the main menu, choose **Tools > Options**, and expand **Container Tools > Settings**. The container tools settings appear.
 
 ::: moniker range="vs-2017"
