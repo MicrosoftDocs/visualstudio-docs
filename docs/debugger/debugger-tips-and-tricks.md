@@ -49,7 +49,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 ## Configure the data to show in the debugger
 
-For C#, Visual Basic, and C++/CLI code, you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
+For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
 
 ## Change the execution flow
 
