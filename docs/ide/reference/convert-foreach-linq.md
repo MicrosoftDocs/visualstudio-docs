@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Lets you easily convert your foreach loops using IEnumerables to LINQ query or LINQ call form (also known as LINQ method).
+**What:** Lets you easily convert your *foreach* loops by using IEnumerables to a LINQ query or a LINQ call form (also known as a LINQ method).
 
 **When:** When you have a foreach loop that uses an IEnumerable that you prefer to read as a LINQ query.
 
