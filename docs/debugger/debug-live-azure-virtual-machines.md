@@ -29,9 +29,9 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* Snapshot Debugger for Azure Virtual Machines (VM) and Azure Virtual Machine Scale Sets (VMSS) is only available for Visual Studio 2019 Enterprise preview or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+* Snapshot Debugger for Azure Virtual Machines (VM) and Azure Virtual Machine Scale Sets (VMSS) is only available for Visual Studio 2019 Enterprise or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
+    If it's not already installed, install [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/).
 
 * Snapshot collection is available for the following Azure VM/VMSS web apps:
   * ASP.NET applications running on .NET Framework 4.6.1 or later.
