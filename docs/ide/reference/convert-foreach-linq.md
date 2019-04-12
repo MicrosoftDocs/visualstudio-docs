@@ -1,5 +1,5 @@
 ---
-title: Convert foreach loop to LINQ
+title: Convert foreach loops to LINQ
 ms.date: 02/20/2019
 ms.topic: reference
 author: kendrahavens
@@ -10,22 +10,22 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Convert foreach loop to LINQ
+# Convert foreach loops to LINQ
 
 This refactoring applies to:
 
 - C#
 
-**What:** Lets you easily convert your *foreach* loops by using IEnumerables to a LINQ query or a LINQ call form (also known as a LINQ method).
+**What:** Lets you easily convert your *foreach* loop to a LINQ query or a LINQ call form (also known as a LINQ method) by using IEnumerables.
 
 **When:** When you have a foreach loop that uses an IEnumerable that you prefer to read as a LINQ query.
 
-**Why:** Sometimes users may prefer using LINQ syntax rather that a foreach loop. [LINQ](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq) makes a query a first-class language construct in C#. LINQ can reduce the amount of code in a file, make it easier to read, and allow different data sources to have similar query expression patterns.
+**Why:** You prefer using LINQ syntax rather than a foreach loop. [LINQ](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq) makes a query into a first-class language construct in C#. LINQ can reduce the amount of code in a file, make it easier to read, and allow different data sources to have similar query expression patterns.
 
 > [!NOTE]
-> LINQ syntax is typically less performant than foreach loops. It's good to be aware of any performace trade off you may cause when improving the readability of your code with LINQ.
+> LINQ syntax is typically less efficient than foreach loops. It's good to be aware of any performance tradeoff that might occur when you use LINQ to improve the readability of your code.
 
-## Convert foreach loop to LINQ refactoring
+## Convert a foreach loop to LINQ refactoring
 
 1. Place your cursor in the `foreach` keyword.
 
