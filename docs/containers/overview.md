@@ -3,6 +3,7 @@ title: Visual Studio Container Tools on Windows
 description: Get to know the tools available in Visual Studio for working with Docker
 author: ghogen
 ms.author: ghogen
+ms.topic: overview
 ms.date: 03/20/2019
 ms.technology: vs-azure
 ---
@@ -113,7 +114,7 @@ For a detailed tutorial, see
 
 For more information on Azure Service Fabric, see [Service Fabric](/azure/service-fabric).
 
-## Continuous Delivery and Continuous Integration (CI/CD)
+## Continuous delivery and continuous integration (CI/CD)
 
 Visual Studio integrates readily with Azure Pipelines for automated and continuous integration and delivery of changes to your service code and configuration. To get started, see [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2).
 

@@ -14,7 +14,7 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/).
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Installation and setup
 
@@ -115,11 +115,5 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 ## Next steps
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
-
-## Additional resources
-
-* [Container development with Visual Studio](/visualstudio/containers)
-* [Troubleshoot Visual Studio 2017 development with Docker](../../troubleshooting-docker-errors.md)
-* [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
 
 [0]:../../media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
