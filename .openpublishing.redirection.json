@@ -7339,6 +7339,36 @@
             "source_path": "subscriptions/vscloud-renewals.md",
             "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/containers/docker-tools.md",
+            "redirect_url": "/visualstudio/containers/container-tools",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/visual-studio-tools-for-docker.md",
+            "redirect_url": "/visualstudio/containers/overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-edit-and-refresh.md",
+            "redirect_url": "/visualstudio/containers/edit-and-refresh",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
+            "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/docker-deploy-app-service.md",
+            "redirect_url": "/visualstudio/containers/deploy-app-service",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-troubleshooting-docker-errors.md",
+            "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
+            "redirect_document_id": true
         }
     ]
 }
