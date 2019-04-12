@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in C# | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "08/01/2018"
+ms.date: "04/12/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -52,7 +52,9 @@ Follow the tasks below to create a visualizer.
 
 3. In **Solution Explorer**, right-click **References** and choose **Add Reference** on the shortcut menu.
 
-4. In the **Add Reference** dialog box, on the **.NET** tab, choose Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+4. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse** and find the Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+
+    You can find the DLL in *\<Visual Studio Install Directory>\Common7\IDE\PublicAssemblies* subdirectory of Visual Studio's installation directory.
 
 5. Click **OK**.
 
@@ -96,7 +98,9 @@ Follow the tasks below to create a visualizer.
 
 1. In **Solution Explorer**, right-click **References** and choose **Add Reference** on the shortcut menu.
 
-2. In the **Add Reference** dialog box, on the **.NET** tab, choose System.Windows.Forms.DLL.
+2. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse**, and find the System.Windows.Forms.DLL.
+
+    You can find the DLL in *C:\Windows\Microsoft.NET\Framework\v4.0.30319*.
 
 3. Click **OK**.
 
@@ -156,7 +160,7 @@ Follow the tasks below to create a visualizer.
 
 ### To add a console application project to the solution
 
-1. On the **File** menu, choose **Add** and then click **New Project**.
+1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
 2. In the **Add New Project** dialog box, choose **Visual C#** > **Windows Desktop**, and then choose **Console Application**.
 
