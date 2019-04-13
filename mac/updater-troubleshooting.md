@@ -5,7 +5,7 @@ author: asb3993
 ms.author: amburns
 ms.date: 04/13/2019
 ms.technology: vs-ide-install
-ms.assetid: 8825BBAD-65C0-480F-9868-A01E64F28250
+ms.assetid: 31AF914A-C66B-4CD3-9429-39695E0E94AE
 ---
 
 # Troubleshooting: Updater has errors retrieving information
