@@ -77,3 +77,4 @@
 # [Troubleshooting](/visualstudio/mac/troubleshooting)
 ## [Visual Studio Customer Experience Improvement Program](/visualstudio/mac/visual-studio-experience-improvement-program)
 ## [Report a Problem](/visualstudio/mac/report-a-problem)
+## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
