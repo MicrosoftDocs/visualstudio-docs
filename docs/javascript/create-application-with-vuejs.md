@@ -92,6 +92,9 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
 
 1. Type `vue init webpack ClientApp` and follow steps when prompted to answer additional questions.
 
+    > [!NOTE]
+    > For *.vue* files, you need to use WebPack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, WebPack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
+
 #### Modify the webpack configuration to output the built files to wwwroot
 
 * Open the file *./ClientApp/config/index.js*, and change the `build.index` and `build.assetsRoot` to wwwroot path:

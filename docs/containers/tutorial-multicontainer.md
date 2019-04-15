@@ -4,10 +4,8 @@ author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
 ms.date: 02/21/2019
-ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.topic: include
-monikerRange: ">= vs-2017"
 ---
 # Tutorial: Create a multi-container app with Docker Compose
 
