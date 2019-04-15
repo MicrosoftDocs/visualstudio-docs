@@ -103,7 +103,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
 ## Set a conditional snappoint
 
-If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid collecting a Time Travel recording until the app enters a desired state, such as when a variable has a particular value that you want to inspect. [You can set conditions using expressions, filters, or hit counts](../debugger/debug-live-azure-apps-troubleshooting.md#to-create-a-conditional-snappoint).
+If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid collecting a Time Travel recording until the app enters a desired state, such as when a variable has a particular value that you want to inspect. [You can set conditions using expressions, filters, or hit counts](../debugger/debug-live-azure-apps-troubleshooting.md).
 
 ## Next steps
 
