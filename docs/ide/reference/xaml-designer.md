@@ -3,7 +3,8 @@ title: XAML Designer options page
 ms.date: 03/02/2017
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.XAMLDesigner"
+  - VS.ToolsOptionsPages.XAMLDesigner
+  - VS.ToolsOptionsPages.XAML_Designer.General
 author: gewarren
 ms.author: gewarren
 manager: jillfra
