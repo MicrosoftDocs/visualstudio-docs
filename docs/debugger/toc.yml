@@ -371,6 +371,8 @@
       href: debug-live-azure-apps-faq.md
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
+    - name: Time Travel Debugging live Azure virtual machine app
+      href: debug-live-azure-virtual-machines-time-travel-debugging.md      
   - name: Debug specific application types
     href: debugging-applications.md
     items:
