@@ -16,6 +16,8 @@ ms.workload:
 In the .NET Framework versions 4 and 4.5, property functions can be used to evaluate MSBuild scripts. Property functions can be used wherever properties appear. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
 
  Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
+ 
+String values returned from property functions have [special characters](msbuild-special-characters.md) escaped. If you want the value to be treated as though it was put directly in the project file, use `$([MSBuild]::Unescape())` to unescape the special characters.
 
 ## Property function syntax
 
