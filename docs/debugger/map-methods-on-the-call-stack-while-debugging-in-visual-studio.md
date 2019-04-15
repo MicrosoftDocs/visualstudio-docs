@@ -40,7 +40,7 @@ For a walkthrough, watch this video:
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 >[!IMPORTANT]
->You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/).
+>You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019).
 
 Here's a quick look at a code map:
 
