@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting Docker client errors on Windows | Microsoft Docs
-description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio 2017.
+description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio.
 ms.technology: vs-azure
-author: devinb
+author: ghogen
 manager: jillfra
 ms.custom: seodec18
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
@@ -10,11 +10,11 @@ ms.devlang: dotnet
 ms.topic: conceptual
 ms.workload: multiple
 ms.date: 10/13/2017
-ms.author: devinb
+ms.author: ghogen
 ---
-# Troubleshoot Visual Studio 2017 development with Docker
+# Troubleshoot Visual Studio development with Docker
 
-When you're working with Visual Studio Tools for Docker, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.
+When you're working with Visual Studio Container Tools, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.
 
 ## Volume sharing is not enabled. Enable volume sharing in the Docker CE for Windows settings  (Linux containers only)
 
@@ -26,10 +26,10 @@ To resolve this issue:
 > [!NOTE]
 > If files appear shared, you may still need to click the "Reset credentials..." link at the bottom of the dialog in order to re-enable volume sharing. To continue after you reset credentials, you might have to restart Visual Studio.
 
-![shared drives](media/vs-azure-tools-docker-troubleshooting-docker-errors/shareddrives.png)
+![shared drives](media/troubleshooting-docker-errors/shareddrives.png)
 
 > [!TIP]
-> Visual Studio 2017 versions 15.6 and later prompt when **Shared Drives** aren't configured.
+> Visual Studio versions later than Visual Studio 2017 version 15.6 prompt when **Shared Drives** aren't configured.
 
 ### Container type
 

@@ -26,7 +26,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
 
 ## Create custom views of data in variable windows and DataTips
 
- Many of the [debugger windows](../debugger/debugger-windows.md), such as the **Autos** and **Watch** windows, allow you to inspect variables. You can customize how native types, managed objects, and your own types are shown in the debugger variable windows and in [DataTips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). For more information, see [Create custom views of native objects](../debugger/create-custom-views-of-native-objects.md) and [Create custom views of objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+ Many of the [debugger windows](../debugger/debugger-windows.md), such as the **Autos** and **Watch** windows, allow you to inspect variables. You can customize how C++ types, managed objects, and your own types are shown in the debugger variable windows and in [DataTips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). For more information, see [Create custom views of C++ objects](../debugger/create-custom-views-of-native-objects.md) and [Create custom views of objects](../debugger/create-custom-views-of-dot-managed-objects.md).
 
 ## Create custom visualizers
 

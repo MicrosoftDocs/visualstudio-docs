@@ -1,6 +1,6 @@
 ---
 title: Deploy an ASP.NET Core Docker container to Azure App Service | Microsoft Docs
-description: Learn how to use Visual Studio Tools for Docker to deploy an ASP.NET Core web app to Azure App Service
+description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app to Azure App Service
 author: ghogen
 manager: jillfra
 ms.technology: vs-azure
@@ -56,21 +56,21 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. On the publish target dialog, choose **App Service Linux**.
 1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
 
-   ![Screenshot of publish dialog](media/docker-deploy-app-service/publish-app-service-linux.PNG)
+   ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux.PNG)
 
    To publish only to an Azure App Service without using Azure Container Registry, choose **Create new**, and click **Publish**.
 
 1. Check that you're signed in with the account that's associated with your Azure subscription, and choose a unique name, subscription, resource group, hosting plan, and container registry (if applicable), or accept the defaults.
 
-   ![Screenshot of publish settings](media/docker-deploy-app-service/publish-app-service-linux2.png)
+   ![Screenshot of publish settings](media/deploy-app-service/publish-app-service-linux2.png)
 
 1. Choose **Create**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 
-   ![Screenshot of publish tab](media/docker-deploy-app-service/publish-succeeded.PNG)
+   ![Screenshot of publish tab](media/deploy-app-service/publish-succeeded.PNG)
 
 1. Click on the site link to verify your app works as expected in Azure.
 
-   ![Screenshot of web application](media/docker-deploy-app-service/web-application-running.png)
+   ![Screenshot of web application](media/deploy-app-service/web-application-running.png)
 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.

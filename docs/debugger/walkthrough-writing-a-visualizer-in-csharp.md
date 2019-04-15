@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in C# | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "08/01/2018"
+ms.date: "04/12/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -29,15 +29,16 @@ Follow the tasks below to create a visualizer.
 
 ### To create a class library project
 
-1. On the **File** menu, choose **New > Project**.
+1. Create a new class library project.
 
-2. In the **New Project** dialog box, under **Visual C#**, and then select **.NET Standard**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, choose **Templates**, then choose **Create a new Class Library (.NET Standard)**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
+    ::: moniker-end
 
-3. In the middle pane, choose **Class Library**.
-
-4. In the **Name** box, type an appropriate name for the class library, such as MyFirstVisualizer.
-
-5. Click **OK**.
+2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
    After you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL so that you can use the classes defined there. Before you add the reference, however, you must rename some classes so that they have meaningful names.
 
@@ -52,7 +53,9 @@ Follow the tasks below to create a visualizer.
 
 3. In **Solution Explorer**, right-click **References** and choose **Add Reference** on the shortcut menu.
 
-4. In the **Add Reference** dialog box, on the **.NET** tab, choose Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+4. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse** and find the Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+
+    You can find the DLL in *\<Visual Studio Install Directory>\Common7\IDE\PublicAssemblies* subdirectory of Visual Studio's installation directory.
 
 5. Click **OK**.
 
@@ -96,7 +99,9 @@ Follow the tasks below to create a visualizer.
 
 1. In **Solution Explorer**, right-click **References** and choose **Add Reference** on the shortcut menu.
 
-2. In the **Add Reference** dialog box, on the **.NET** tab, choose System.Windows.Forms.DLL.
+2. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse**, and find the System.Windows.Forms.DLL.
+
+    You can find the DLL in *C:\Windows\Microsoft.NET\Framework\v4.0.30319*.
 
 3. Click **OK**.
 
@@ -156,13 +161,16 @@ Follow the tasks below to create a visualizer.
 
 ### To add a console application project to the solution
 
-1. On the **File** menu, choose **Add** and then click **New Project**.
+1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-2. In the **Add New Project** dialog box, choose **Visual C#** > **Windows Desktop**, and then choose **Console Application**.
+    ::: moniker range=">=vs-2019"
+    In the Search box, type **console app**, choose **Templates**, then choose **Create a new Console App (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    ::: moniker-end
 
-3. In the **Name** box, type a meaningful name for the console application, such as `MyTestConsole`.
-
-4. Click **OK**.
+2. Type an appropriate name for the class library, such as `MyTestConsole`, and then click **Create** or **OK**.
 
    Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.
 
@@ -170,7 +178,7 @@ Follow the tasks below to create a visualizer.
 
 1. In **Solution Explorer**, right-click **MyTestConsole** and choose **Add Reference** on the shortcut menu.
 
-2. In the **Add Reference** dialog box, **.NET** tab, choose Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+2. In the **Add Reference** dialog box, **Browse** tab, choose Microsoft.VisualStudio.DebuggerVisualizers.DLL.
 
 3. Click **OK**.
 

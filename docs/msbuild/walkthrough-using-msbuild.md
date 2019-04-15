@@ -410,7 +410,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
  adds all files with the file extension *.jpeg* in the *images* folder to the Photos item type, while
 
 ```xml
-<Photos Include="images\**.jpeg" />
+<Photos Include="images\**\*.jpeg" />
 ```
 
  adds all files with the file extension *.jpeg* in the *images* folder, and all its subfolders, to the Photos item type. For more examples, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
@@ -422,7 +422,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 <Photos Include="images\*.gif" />
 ```
 
- creates an item type named Photo containing all files in the *image* folder with a file extension of either *.jpeg* or *.gif*. This is equivalent to the following line:
+ creates an item type named Photo containing all files in the *images* folder with a file extension of either *.jpeg* or *.gif*. This is equivalent to the following line:
 
 ```xml
 <Photos Include="images\*.jpeg;images\*.gif" />

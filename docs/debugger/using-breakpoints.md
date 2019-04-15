@@ -170,13 +170,13 @@ Data breakpoints in .NET Core won't work for:
 
 **To set a data breakpoint:**
 
-1.  In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**
+1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**
 
     You can also select **New** > **Data Breakpoint** in the **Breakpoints** window or right-click an item in the **Autos**, **Watch**, or **Locals** window and select **Break when value changes**in the context menu.
 
-2.  In the **Address** box, type a memory address, or an expression that evaluates to a memory address. For example, type `&avar` to break when the contents of the variable `avar` changes.
+2. In the **Address** box, type a memory address, or an expression that evaluates to a memory address. For example, type `&avar` to break when the contents of the variable `avar` changes.
 
-3.  In the **Byte Count** dropdown, select the number of bytes you want the debugger to watch. For example, if you select **4**, the debugger will watch the four bytes starting at `&avar` and break if any of those bytes change value.
+3. In the **Byte Count** dropdown, select the number of bytes you want the debugger to watch. For example, if you select **4**, the debugger will watch the four bytes starting at `&avar` and break if any of those bytes change value.
 
 Data breakpoints don't work under the following conditions:
 -   A process that is not being debugged writes to the memory location.

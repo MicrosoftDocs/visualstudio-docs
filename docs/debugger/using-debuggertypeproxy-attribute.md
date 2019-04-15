@@ -1,5 +1,5 @@
 ---
-title: "Using DebuggerTypeProxy Attribute | Microsoft Docs"
+title: "Display custom type using DebuggerTypeProxy | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,7 +18,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
+# Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 
 <xref:System.Diagnostics.DebuggerTypeProxyAttribute> specifies a proxy, or stand-in, for a type and changes the way the type is displayed in debugger windows. When you view a variable that has a proxy, the proxy stands in for the original type in the **display**. The debugger variable window displays only the public members of the proxy type. Private members are not displayed.
 
