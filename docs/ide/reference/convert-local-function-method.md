@@ -22,11 +22,11 @@ This refactoring applies to:
 
 **When:** You have a local function that you want to define outside your current local context.
 
-**Why:** You want to convert a local function into a method so that you can call it outside your local context. You might want to convert to a method when your local function is getting too long. Defining it in a separate method makes your code easier to read.
+**Why:** You want to convert a local function into a method so that you can call it outside your local context. You might want to convert to a method when your local function is getting too long. When you define the function in a separate method, your code is easier to read.
 
 ## Convert local function to method refactoring
 
-1. Place your cursor in a local function.
+1. Place your cursor in the local function.
 
     ![Convert a local function to a method code sample](media/convert-local-function-to-method.png)
 
