@@ -30,7 +30,7 @@ In this tutorial, you will:
 
 * Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
 
 * Basic or higher Azure App Service plan.
 

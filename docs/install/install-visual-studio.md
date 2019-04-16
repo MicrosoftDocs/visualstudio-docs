@@ -2,7 +2,7 @@
 title: "Install Visual Studio"
 titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 03/30/2019
+ms.date: 04/16/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -99,7 +99,7 @@ Next, download the Visual Studio bootstrapper file. To do so, choose the followi
 ::: moniker range="vs-2017"
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
 
 ::: moniker-end
 

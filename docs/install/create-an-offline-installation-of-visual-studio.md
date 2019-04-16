@@ -1,7 +1,7 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.date: 03/28/2019
+ms.date: 04/16/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -21,7 +21,7 @@ ms.technology: vs-installation
 
 ::: moniker range="vs-2017"
 
-We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 ::: moniker-end
 
