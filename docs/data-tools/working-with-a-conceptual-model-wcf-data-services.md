@@ -19,7 +19,6 @@ When you use a conceptual model to describe the data in a database, you can quer
 
  You can use conceptual models with WCF Data Services applications. The following topics show how to query data through a conceptual model.
 
-
 | Topic | Description |
 | - | - |
 | [How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services) | Shows how to query a data service from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] application. |

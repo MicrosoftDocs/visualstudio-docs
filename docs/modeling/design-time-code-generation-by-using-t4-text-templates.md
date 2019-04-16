@@ -336,12 +336,10 @@ Warning("A warning message");
 
 4. Verify the following properties of the **.tt** file:
 
-
    | | |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |
-
 
 5. Insert the following lines at the beginning of the file:
 

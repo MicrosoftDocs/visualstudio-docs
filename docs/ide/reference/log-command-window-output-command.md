@@ -31,7 +31,6 @@ Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
 > [!TIP]
 > To change the location where the log file is saved, enter the full path of the file, surrounded by quotation marks if the path contains any spaces.
 
-
 ## Switches
  /on
 

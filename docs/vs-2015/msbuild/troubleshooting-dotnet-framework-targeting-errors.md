@@ -22,7 +22,6 @@ manager: jillfra
 # Troubleshooting .NET Framework Targeting Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  
   
 ## You Have Referenced a Project or Assembly That Targets a Different Version of the .NET Framework  

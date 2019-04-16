@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Print Diagrams from the Graph View and the Content Model View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to print a diagram from the Graph View or the Content Model View.  
   
 ### To print diagrams from the XML Schema Designer  

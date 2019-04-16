@@ -35,7 +35,6 @@ This walkthrough includes the following tasks:
 
 To define a DSL, you must have installed the following components:
 
-
 | | |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |

@@ -35,7 +35,6 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 > [!NOTE]
 > *UI Synchronization* is a feature where the playback is verified in the message queue of each control. If a control did not respond to the event that was sent to it, then the event is sent again.
 
-
 ## Platform support
 
 | Platform | Level of Support |

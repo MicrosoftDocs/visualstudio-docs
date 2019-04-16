@@ -19,14 +19,14 @@ manager: "wpickett"
 # CA2238: Implement serialization methods correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA2238: Implement serialization methods correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA2238: Implement serialization methods correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly).  
   
 |||  
 |-|-|  
 |TypeName|ImplementSerializationMethodsCorrectly|  
 |CheckId|CA2238|  
 |Category|Microsoft.Usage|  
-|Breaking Change|Breaking - If the method is visible outside the assembly.<br /><br /> Non Breaking - If the method is not visible outside the assembly.|  
+|Breaking Change|Breaking - If the method is visible outside the assembly.<br /><br /> Non-breaking - If the method is not visible outside the assembly.|  
   
 ## Cause  
  A method that handles a serialization event does not have the correct signature, return type, or visibility.  

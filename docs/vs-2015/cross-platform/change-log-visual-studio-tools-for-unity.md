@@ -13,7 +13,6 @@ manager: jillfra
 # Change Log (Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio Tools for Unity change log.
 
 ## 2.3

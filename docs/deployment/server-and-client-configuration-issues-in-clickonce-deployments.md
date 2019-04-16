@@ -88,7 +88,6 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## FTP protocol not supported for installing applications
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:
 
-
 | URL Type | Description |
 |----------| - |
 | ftp:// | You can publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |

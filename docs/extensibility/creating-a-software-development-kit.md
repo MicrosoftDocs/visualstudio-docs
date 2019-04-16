@@ -44,7 +44,6 @@ A software development kit (SDK) is a collection of APIs that you can reference 
                         \[arch]
 ```
 
-
 | Node | Description |
 |------------------------| - |
 | *References* folder | Contains binaries that contain APIs that can be coded against. These could include Windows Metadata (WinMD) files or assemblies. |

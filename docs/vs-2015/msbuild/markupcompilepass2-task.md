@@ -22,7 +22,6 @@ manager: jillfra
 # MarkupCompilePass2 Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> task performs second-pass markup compilation on [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] files that reference types in the same project.  
   
 ## Task Parameters  

@@ -77,7 +77,6 @@ When submitting an incident online, you will first be prompted to sign in. Using
 
 4. Enter your **Access ID** and **Contract ID**.  Click **Add**.
 
-
    > [!div class="mx-imgBorder"]
    > ![Technical Support Benefit Incident Submission - Add Contract ID](_img/vs-tech-support/vs-tech-support-add-contract-id.png)
 

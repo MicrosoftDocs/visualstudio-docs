@@ -15,7 +15,6 @@ manager: jillfra
 # Target Build Order
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  
   
 - `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  

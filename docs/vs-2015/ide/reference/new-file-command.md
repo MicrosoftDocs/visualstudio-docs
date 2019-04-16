@@ -18,7 +18,6 @@ manager: jillfra
 # New File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.  
   
 ## Syntax  

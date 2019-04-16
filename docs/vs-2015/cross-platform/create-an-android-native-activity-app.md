@@ -15,7 +15,6 @@ manager: jillfra
 # Create an Android Native Activity App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you install the Visual C++ for Cross-Platform Mobile Development option, Visual Studio 2015 can be used to create fully functional Android Native Activity apps. The Android Native Development Kit (NDK) is a toolset that allows you to implement the majority of your Android app using pure C/C++ code. Some Java JNI code acts as glue to allow your C/C++ code to interact with Android. The Android NDK introduced the ability to create Native Activity apps with Android API Level 9. Native Activity code is popular for creating gaming and graphic intensive apps that use Unreal Engine or OpenGL. This topic will guide you through creation of a simple Native Activity app that uses OpenGL. Additional topics walk through the developer lifecycle of editing, building, debugging and deploying Native Activity code.  
   
  [Requirements](#req)   

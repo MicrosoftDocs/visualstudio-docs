@@ -21,7 +21,6 @@ manager: jillfra
 # /Project (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.  
   
 ## Syntax  

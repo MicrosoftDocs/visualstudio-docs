@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Use XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can invoke XML snippets by using the following two commands on the XML Editor shortcut menu. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Each XML snippet has designated snippet types. The snippet types determine whether the snippet is available with the **Insert Snippet** command, the **Surround With** command, or both.  
   
  After the XML snippet has been added to the editor, any editable fields in the snippet are highlighted in yellow, and the cursor is positioned on the first editable field.  

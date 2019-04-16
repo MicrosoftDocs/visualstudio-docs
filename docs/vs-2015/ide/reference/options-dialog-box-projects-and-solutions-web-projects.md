@@ -15,7 +15,6 @@ manager: jillfra
 # Options Dialog Box, Projects and Solutions, Web Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the Web server that Web projects will use for development within [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. To access this dialog box, click **Tools Options**. Expand **Projects and Solutions** and then click **Web Projects**.  
   
  By default, when you run a Web project in Visual Studio (for example, using F5 or Ctrl+F5), Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](http://msdn.microsoft.com/31d4f588-df59-4b7e-b9ea-e1f2dd204328).  

@@ -99,7 +99,6 @@ The Graphics Log document is the record of graphics events that occurred while y
  **VSG Log File**
  Lists information about the graphics log document.
 
-
 | Property | Description |
 |------------------------| - |
 | **Created by** | The name of the app that created the graphics log document. For example, if the capture session was initiated from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (manual capture) the value of this property is [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |

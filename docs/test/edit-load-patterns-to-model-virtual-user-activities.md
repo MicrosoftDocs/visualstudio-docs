@@ -41,7 +41,6 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 > [!NOTE]
 > If the total test duration is shorter than the time that is required to step up to the maximum user load, then the test stops after the elapsed duration and does not reach the **Maximum User Count** target.
 
-
  You can use the Step goal to increase the load until the server reaches a point that where performance diminishes significantly. As load increases, the server will eventually run out of resources. The step load is a good way to determine the number of users at which this occurs. With the stepping load, you also have to monitor agent resources closely to make sure that the agents can generate the desired load.
 
  Ordinarily, you should conduct several runs that have different step durations and step user counts so that you can obtain good measurements for a given load. Frequently, loads show an initial spike for each step as users are added. Holding the load at that rate allows you to measure system performance after the system recovers from the initial spike.
@@ -116,12 +115,10 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 > [!NOTE]
 > For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
-
  A load pattern specifies the number of virtual users active during a load test, and the rate at which new users are added. You can choose from the three available patterns: step pattern, constant and goal based. For more information, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
 > [!NOTE]
 > You can also change your load properties programmatically by using a load test plug-in. For more information, see [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).
-
 
 ### To change the load pattern
 

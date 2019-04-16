@@ -31,7 +31,6 @@ Alternatively, the **SendAndReceiveReply** template designer in the **Messaging*
 
 The following table shows the <xref:System.ServiceModel.Activities.Send> properties and describes how they are used in the designer. These properties can be edited in properties grid or on Workflow Designer surface.
 
-
 | Property Name | Required | Usage |
 |-|----------|-|
 | <xref:System.Activities.Activity.DisplayName%2A> | False | The friendly name of the <xref:System.ServiceModel.Activities.Send> activity. The default is Send. Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one. |

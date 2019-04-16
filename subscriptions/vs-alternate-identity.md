@@ -29,9 +29,7 @@ This doesn’t provide a copy of subscription to the other account; it only prov
 
 For all subscriptions, you can add a "work or school account" so you can use that account with your benefits that require a login (VS IDE, Azure DevOps, and Azure).
 
-
 ### Add the alternate account
-
 
 1. Sign in to the Visual Studio subscriber portal with your Microsoft account (https://my.visualstudio.com).
 

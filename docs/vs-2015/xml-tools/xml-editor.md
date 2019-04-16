@@ -13,7 +13,6 @@ manager: jillfra
 # XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  
   
 - XML 1.0 syntax checking.  

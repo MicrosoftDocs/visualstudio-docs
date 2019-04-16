@@ -25,7 +25,6 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
 >
 >  For native code symbol provider implementation, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interface.
 
-
 ## To provide lists of symbols to the object manager
 
 1.  Get the number of items in the list of symbols by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetItemCount%2A> method. The following example demonstrates how the object manager obtains the information on the number of items in the list.

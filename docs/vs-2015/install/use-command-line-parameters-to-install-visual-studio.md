@@ -18,15 +18,16 @@ manager: jillfra
 # Use Command-Line Parameters to Install Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Use command-line parameters to install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/use-command-line-parameters-to-install-visual-studio).
+For the latest documentation on Visual Studio, see [Use command-line parameters to install Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio).
 
 When you install Visual Studio 2015 from a command prompt, you can use the following command-line parameters (also known as switches).
 
 > [!NOTE]
->  Make sure that you use the actual installer and not the bootstrapper file. For example, make sure you use **`vs_enterprise.exe`** instead of vs_enterprise_*GUID*.exe. You can download an installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015).
+> Make sure that you use the actual installer and not the bootstrapper file. For example, make sure you use **`vs_enterprise.exe`** instead of vs_enterprise_*GUID*.exe. You can download an installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015).
 
 ## List of command-line parameters
- Visual Studio command-line parameters are not case-sensitive.
+
+Visual Studio command-line parameters are not case-sensitive.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -56,4 +57,5 @@ When you install Visual Studio 2015 from a command prompt, you can use the follo
 |**/Uninstall /Force**<br /><br /> **/u /force**|Uninstalls Visual Studio and all features that are shared with other products. **Warning:**  If you use this parameter, other products that are installed on the same computer might stop functioning correctly.|
 
 ## See Also
- [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)
+
+- [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)

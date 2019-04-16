@@ -15,7 +15,6 @@ After you've created a workflow project, you can add workflow activities, design
 
 The following table lists the Windows Workflow Foundation (WF) items that you can add to a workflow project:
 
-
 | Name | Description |
 |-| - |
 | Activity | An activity to be composed of other activities. Selecting this item adds the same XAML file to the project as you would obtain when selecting the **Activity Library** template for a new project. For more information about on this procedure, see [Create a workflow project](creating-a-workflow-project.md). |

@@ -16,7 +16,6 @@ manager: jillfra
 # How to: Display an Item List Separated with Commas
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.  
   
 ## Separating Items in a List with Commas  

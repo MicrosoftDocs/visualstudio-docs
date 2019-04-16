@@ -13,7 +13,6 @@ manager: jillfra
 # This related method is the backing method for the following default insert, update, or delete methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This related method is the backing method for the following default insert, update, or delete methods. If it is deleted, these methods will be deleted as well. Do you wish to continue?  
   
  The selected `DataContext` method is currently used as one of the Insert, Update, or Delete methods for one of the entity classes on the O/R Designer. Deleting the selected method will cause the entity class that was using this method to revert to the default run-time behavior for performing the Insert, Update, or Delete during an update.  

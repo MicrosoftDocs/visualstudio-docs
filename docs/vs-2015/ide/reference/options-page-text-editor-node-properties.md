@@ -16,7 +16,6 @@ manager: jillfra
 # Options Page, Text Editor Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This document describes some pages (or properties collections) that are associated with the **Text Editor** category, `DTE.Properties("TextEditor", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the `Properties` collection, and the table in each subsection lists the properties in the collection.  
   
  The Visual Basic macros in [Controlling Options Settings](http://msdn.microsoft.com/library/a09ed242-7494-4cde-bbd1-7a8ec617965d) demonstrate how to display current options and their values for each page of the **Options** dialog box.  

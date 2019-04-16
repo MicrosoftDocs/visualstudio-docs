@@ -19,7 +19,6 @@ manager: jillfra
 # /Rebuild (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Cleans and then builds the specified solution configuration.  
   
 ## Syntax  

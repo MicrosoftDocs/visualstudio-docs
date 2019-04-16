@@ -15,7 +15,6 @@ manager: jillfra
 # Keyboard, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this page to set keyboard mappings. For more information about mappings, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
   
 ## See Also  

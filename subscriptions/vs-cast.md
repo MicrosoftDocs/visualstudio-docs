@@ -15,7 +15,6 @@ Developers need critical insights on their software when migrating to the cloud.
 
 Visual Studio Enterprise subscribers can get a free, full feature one-month subscription to CAST Highlight for up to five apps per subscriber.
 
-
 ## Activation steps
 
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -24,7 +23,6 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
 
    > [!div class="mx-imgBorder"]
    > ![CAST Highlight Benefit Tile](_img/vs-cast-highlight/vs-cast-highlight-tile.png)
-
 
 0. You will see a message letting you know your code has been retrieved successfully.  Click **Activate**, at which point you'll be redirected to the CAST Highlight page where you can continue the activation process.  (If you do not choose to activate now, you can always come back to the CAST Highlight tile in the subscription portal.  The "Get Code" link will change to "Activate", and clicking it will resume the activation process.)
 
@@ -52,7 +50,6 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
    *Best,*
    *Greg*
 
-
 Upon approval of your request, you'll receive a second email confirming successful creation of your account, and asking you to click on the activation link to complete the activation process.
 
    *We have successfully verified and validated your request to access CAST Highlight. Welcome aboard!*
@@ -73,10 +70,8 @@ Upon approval of your request, you'll receive a second email confirming successf
    *Best,*
    *Greg*
 
-
    > [!NOTE]
    > Be sure to click on the activation link in the email you receive.  Otherwise, you will not be able to access your CAST Highlight subscription. If you don't see the email in your inbox, be sure to check your spam folders.
-
 
 ## Eligibility
 
@@ -90,14 +85,10 @@ Upon approval of your request, you'll receive a second email confirming successf
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-
-
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
-
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

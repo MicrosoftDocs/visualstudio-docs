@@ -20,7 +20,6 @@ manager: jillfra
 # /Run (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Compiles and runs the specified project or solution.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: jillfra
 # Error List Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 NOTE]
 >  The Error List displays information about a specific error message. You can copy the error number or error string text from the Output window. To display the Output window, press Ctrl+Alt+O. See [Output Window](../../ide/reference/output-window.md).  
   

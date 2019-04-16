@@ -19,7 +19,6 @@ manager: jillfra
 # Options, Text Editor, C/C++, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  
   
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Advanced**.  

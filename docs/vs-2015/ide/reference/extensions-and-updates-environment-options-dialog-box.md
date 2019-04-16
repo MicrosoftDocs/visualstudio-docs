@@ -15,7 +15,6 @@ manager: jillfra
 # Extensions and Updates, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.  
   
 ### Automatically check for updates  

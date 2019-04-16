@@ -30,7 +30,6 @@ manager: jillfra
 # Options, Text Editor, C#, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access this dialog box, click **Options** on the **Tools** menu, expand **Text Editor**, expand **C#**, and then click **Formatting**.  
   
 > [!NOTE]

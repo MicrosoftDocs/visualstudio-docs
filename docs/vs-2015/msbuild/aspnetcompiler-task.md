@@ -23,7 +23,6 @@ manager: jillfra
 # AspNetCompiler Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications.  
   
 ## Task Parameters  

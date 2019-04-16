@@ -49,7 +49,6 @@ Project types must register the directories where their project and project-item
 "SortPriority"=dword:00000064
 ```
 
-
 | Name | Type | Description |
 |--------------------------|-----------| - |
 | @ | REG_SZ | Resource ID for Add Item templates. |

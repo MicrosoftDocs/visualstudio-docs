@@ -13,7 +13,6 @@ searchscope: VS Subscription
 
 Selected Visual Studio subscriptions include a six month subscription for MODERNRequirements SmartOffice 4TFS and ModernRequirements4TFS.  MODERNRequirements SmartOffice4TFS extends the capabilities of TFS or Azure DevOps Services with Microsoft Word-based reporting, and quick, simplified rich text authoring.  ModernRequirements4TFS provides work item baselining and HTML5 simulation capabilities.
 
-
 ## Activation steps
 1. To use your MODERNRequirementsTFS benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the MODERNRequirements4TFS tile in the Tools section, and click on the **Get Code** link at the bottom left of the tile.
@@ -26,11 +25,9 @@ Selected Visual Studio subscriptions include a six month subscription for MODERN
    > [!div class="mx-imgBorder"]
    > ![ModernRequirements Landing Page](_img/vs-modernreq/vs-modernreq-landing.png)
 
-
 5. The next page contains your license key.  Please review the information about the installations provided on the page, then click on the blue **To download the software please click here** link in the middle of the page.
    > [!div class="mx-imgBorder"]
    > ![ModernRequirements License Key](_img/vs-modernreq/vs-modernreq-license-new-resized.png)
-
 
 6. On the Download Page, you have the option to install the MODERNRequirements suites, or install individual modules from the SMARTOffice4TFS suite.  The right options for you will depend on your preferences, as well as which version of TFS you have installed.  Be sure to familiarize yourself with the information on the page to help you select the right version of the products for you.
    > [!div class="mx-imgBorder"]
@@ -92,7 +89,6 @@ Selected Visual Studio subscriptions include a six month subscription for MODERN
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

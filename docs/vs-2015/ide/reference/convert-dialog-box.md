@@ -19,7 +19,6 @@ manager: jillfra
 # Convert Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Convert** dialog box allows you to select a conversion tool to create a new project from an old one, such as creating a [!INCLUDE[vbprvblong](../../includes/vbprvblong-md.md)] project from a Visual Basic 6 project. You can also use the [Visual Studio Project Converter](http://go.microsoft.com/fwlink/?LinkID=246465), available on the CodePlex web site, to upgrade projects created in previous versions of Visual Studio.  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)].  

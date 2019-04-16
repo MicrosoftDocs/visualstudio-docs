@@ -52,13 +52,11 @@ This refactoring applies to:
 
    ![Extract Interface](media/extractinterface-dialog-same-file.png)
 
-
    | Field | Description |
    | - | - |
    | **New interface name** | The name of the interface to be created. The name will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
    | **New file name** | The name of the generated file that will contain the interface. As with the interface name, this name will default to I*ClassName*, where *ClassName* is the name of the class you selected above. You can also select the option to **Add to current file**. |
    | **Select public members to form interface** | The items to extract into the interface. You may select as many as you wish. |
-
 
 4. Choose **OK**.
 
@@ -67,15 +65,13 @@ This refactoring applies to:
    - C#:
 
       ![Resulting Class - C#](media/extractinterface-class-cs.png)
-      
-      
+
       ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
       ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
-      
-      
+
       ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## See also

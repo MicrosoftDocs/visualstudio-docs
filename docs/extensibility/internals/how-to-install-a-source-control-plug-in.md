@@ -56,7 +56,6 @@ Creating a source-control plug-in involves three steps:
    | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\HideInVisualStudio | 1 |
    | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\DisableSccManager | 1 |
 
-
 3. Add the subkey, **SourceCodeControlProvider**, under the **HKEY_LOCAL_MACHINE** key in the **SOFTWARE** subkey.
 
     Under this subkey, the registry entry **ProviderRegKey** is set to a string that represents the subkey that you placed in the registry in step 1. The pattern is **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey** = *SOFTWARE\\<company name\>\\<product name\>*.

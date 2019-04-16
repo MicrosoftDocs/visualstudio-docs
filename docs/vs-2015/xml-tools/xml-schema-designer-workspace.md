@@ -13,7 +13,6 @@ manager: jillfra
 # XML Schema Designer Workspace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Schema Designer (XSD Designer) is a graphical tool that helps you explore your XML schemas. In addition to the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), which allows you to browse and navigate the XML Schema tree and perform searches, the XSD Designer provides three views that enable you to explore your XSD schema in more detail. The Start View is the launching point for the XSD Designer; from the Start View, you can navigate to other views of the XSD Designer and see the details of your schema set. The Graph View enables you to see an overview of a schema set and the relationships between the schema nodes. The Content Model View provides a graphical representation of the details of local and global schema nodes, including simple and complex types, elements, groups, attributes, and attribute groups.  
   
  To start exploring the nodes you are interested in, you must add them to the workspace. The workspace is shared between all the views.  

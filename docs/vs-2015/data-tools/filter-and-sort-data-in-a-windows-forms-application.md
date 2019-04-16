@@ -26,7 +26,6 @@ manager: jillfra
 # Filter and sort data in a Windows Forms application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter%2A> property to a string expression that returns the desired records.  
   
  You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> property to the column name you want to sort on; append `DESC` to sort in descending order, or append `ASC` to sort in ascending order.  

@@ -23,7 +23,6 @@ Configuration settings are managed and modified in Visual Studio using property 
 
 For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](/azure/cloud-services/schema-csdef-file) and [.cscfg XML Schema](/azure/cloud-services/schema-cscfg-file) articles. For more information about service configuration, see [How to Configure Cloud Services](/azure/cloud-services/cloud-services-how-to-configure-portal).
 
-
 ## Configuration page
 
 ### Service Configuration

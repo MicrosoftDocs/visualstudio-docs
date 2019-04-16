@@ -100,7 +100,6 @@ You may also want to remove the following directory containing various Xamarin f
 rm -rf ~/Library/Developer/Xamarin
 ```
 
-
 ## Uninstall Mono SDK (MDK)
 
 Mono is an open-source implementation of Microsoft's .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android, and Xamarin.Mac to allow development of these platforms in C#.
