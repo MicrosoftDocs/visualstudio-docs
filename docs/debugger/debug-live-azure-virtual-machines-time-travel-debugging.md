@@ -20,7 +20,7 @@ The Time Travel Debugging (TTD) preview in Visual Studio Enterprise provides the
 
 Capturing a TTD recording will not halt the application, however, recording will add significant overhead to your running process, slowing it down based on factors that include the process size and the number of active threads.
 
-This feature will be in preview for the release of Visual Studio 2019 with a go live license. We plan to add more TTD scenarios in future updates.
+This feature is in preview for the release of Visual Studio 2019 with a go live license.
 
 In this tutorial, you will:
 
@@ -89,7 +89,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
 1. Click the View Snapshot link to open the Time Travel recording in the code editor.
   
-   You can execute every line of code recorded by the TTD by using the **Continue** and **Reverse Continue** buttons. Additionally the the Debug toolbar can be used to **Show Next Statment**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, **Step Back Out**.
+   You can execute every line of code recorded by the TTD by using the **Continue** and **Reverse Continue** buttons. Additionally the the Debug toolbar can be used to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, **Step Back Out**.
 
    ![Start Debugging](../debugger/media/time-travel-debugging-step-commands.png)
 
