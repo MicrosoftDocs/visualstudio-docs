@@ -32,7 +32,7 @@ For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCod
  Calls to the GetHashCode method of the type are a significant proportion of the profiling data or the method allocates memory.  
   
 ## Rule Description  
- Hashing is a technique for rapidly locating a particular item in a large collection. Because hash tables can be very large and have to support very high rates of access,  hash tables should be extremely efficient. An implication of this requirement is that GetHashCode methods in the .NET Framework should not allocate memory. Allocating memory increases the load on the garbage collector and exposes the method to potential delays if it become necessary to run garbage collection as a result of the allocation request.  
+ Hashing is a technique for rapidly locating a particular item in a large collection. Because hash tables can be very large and have to support high rates of access, hash tables should be extremely efficient. An implication of this requirement is that GetHashCode methods in the .NET Framework should not allocate memory. Allocating memory increases the load on the garbage collector and exposes the method to potential delays if it becomes necessary to run garbage collection as a result of the allocation request.  
   
 ## How to Fix Violations  
  Reduce the complexity of the method.
