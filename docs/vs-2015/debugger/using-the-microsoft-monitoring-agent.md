@@ -13,7 +13,7 @@ manager: jillfra
 # Using the Microsoft Monitoring Agent
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [Using the Microsoft Monitoring Agent](https://docs.microsoft.com/visualstudio/debugger/using-the-microsoft-monitoring-agent) on docs.microsoft.com.
+For the latest documentation on Visual Studio, see [Using the Microsoft Monitoring Agent](https://docs.microsoft.com/visualstudio/debugger/using-the-microsoft-monitoring-agent).
 
 You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 applications for errors, performance issues, or other problems by using **Microsoft Monitoring Agent**. You can save diagnostic events from the agent to an IntelliTrace log (.iTrace) file. You can then open the log in Visual Studio Enterprise (but not Professional or Community editions) to debug problems with all the Visual Studio diagnostic tools. You can also collect IntelliTrace diagnostic data and method data by running the agent in **Trace** mode. Microsoft Monitoring Agent can be integrated with [Application Insights](/azure/azure-monitor/app/app-insights-overview) and [System Center Operation Manager](http://technet.microsoft.com/library/hh205987.aspx). Microsoft Monitoring Agent does alter the target system's environment when it is installed.  
   

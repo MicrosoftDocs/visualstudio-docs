@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1903: Use only API from targeted framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework).  
   
 |||  
 |-|-|  

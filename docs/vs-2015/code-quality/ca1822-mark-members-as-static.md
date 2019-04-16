@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1822: Mark members as static
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1822: Mark members as static](https://docs.microsoft.com/visualstudio/code-quality/ca1822-mark-members-as-static) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1822: Mark members as static](https://docs.microsoft.com/visualstudio/code-quality/ca1822-mark-members-as-static).  
   
 |||  
 |-|-|  

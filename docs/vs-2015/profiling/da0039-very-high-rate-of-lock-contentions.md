@@ -17,7 +17,7 @@ manager: jillfra
 # DA0039: Very High Rate of Lock contentions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [DA0039: Very High Rate of Lock contentions](https://docs.microsoft.com/visualstudio/profiling/da0039-very-high-rate-of-lock-contentions) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [DA0039: Very High Rate of Lock contentions](https://docs.microsoft.com/visualstudio/profiling/da0039-very-high-rate-of-lock-contentions).  
   
 |||  
 |-|-|  

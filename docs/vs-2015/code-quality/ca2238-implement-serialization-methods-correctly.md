@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2238: Implement serialization methods correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA2238: Implement serialization methods correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA2238: Implement serialization methods correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly).  
   
 |||  
 |-|-|  

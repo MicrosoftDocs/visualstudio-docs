@@ -20,7 +20,7 @@ manager: "wpickett"
 # CA1801: Review unused parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1801: Review unused parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1801: Review unused parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters).  
   
 |||  
 |-|-|  
