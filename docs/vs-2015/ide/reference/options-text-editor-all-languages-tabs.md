@@ -25,7 +25,6 @@ manager: jillfra
 # Options, Text Editor, All Languages, Tabs
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder expand the **All Languages** subfolder, and then choose **Tabs**.  
   
 > [!CAUTION]

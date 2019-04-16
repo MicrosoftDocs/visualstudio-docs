@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Associations between entity classes in [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] are analogous to relationships between tables in a database. You can create associations between entity classes by using the **Association Editor** dialog box.  
   
  You must select a parent class and child class when you use the **Association Editor** dialog box to create an association. The parent class is the entity class that contains the primary key; the child class is the entity class that contains the foreign-key. For example, if entity classes were created that map to the Northwind Customers and Orders tables, the Customer class would be the parent class and the Order class would be the child class.  

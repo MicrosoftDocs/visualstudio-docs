@@ -90,7 +90,6 @@ As new rules are added to the C++ Core Guidelines Checker, the number of warning
 
   - **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
 
-
 You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
 
 ## Macros

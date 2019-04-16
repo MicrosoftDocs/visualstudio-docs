@@ -45,7 +45,6 @@ On a UML class diagram, you can add *attributes* to classes and interfaces. An a
 
  To view the properties of an attribute, right-click it and then click **Properties**.  
 
-
 |   **Property**    | **Default**  |                                                                                                                                                                                                         Description                                                                                                                                                                                                          |
 |-------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Default Value** |   (empty)    |                                                                                                                                                                               The value of the attribute when the classifier is instantiated.                                                                                                                                                                                |

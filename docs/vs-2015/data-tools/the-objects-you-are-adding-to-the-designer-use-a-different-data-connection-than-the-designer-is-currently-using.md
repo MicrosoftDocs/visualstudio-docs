@@ -13,7 +13,6 @@ manager: jillfra
 # The objects you are adding to the designer use a different data connection than the designer is currently using
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?  
   
  When you add items to the [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]), all items use one shared data connection. (The design surface represents the <xref:System.Data.Linq.DataContext>, which uses a single connection for all objects on the surface.) If you add an object to the designer that uses a data connection that differs from the data connection currently being used by the designer, this message appears. To resolve this error, you can choose to maintain the existing connection. If you make this choice, the selected object will not be added. Alternatively, you can choose to add the object and reset the <xref:System.Data.Linq.DataContext> connection to the new connection.  

@@ -25,7 +25,6 @@ manager: jillfra
 # Handle a concurrency exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
   
  This walkthrough takes you through the following process:  

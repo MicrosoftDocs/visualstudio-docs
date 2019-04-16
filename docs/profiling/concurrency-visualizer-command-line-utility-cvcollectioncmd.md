@@ -55,7 +55,6 @@ You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.ex
 ### Configuration file tags
  The configuration file is XML-based. Here are the valid tags and values:
 
-
 | Tag | Description | Values |
 |-------------------------| - | - |
 | Config | Demarcates the overall config file. | Must contain these elements:<br /><br /> -   MinorVersion<br />-   MajorVersion |

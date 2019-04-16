@@ -94,7 +94,6 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  **Categories** Expand and collapse categories of properties. Click **Expand** ![](../designers/media/6375953d-074c-421a-bbb3-6f5055b67b64.png "6375953d-074c-421a-bbb3-6f5055b67b64") and **Collapse** ![Collapse](../designers/media/b5-collapse-button.png "b5_collapse_button") to show or hide category details.
 
-
 |                                                                                                         |                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                 ![](../designers/media/b1-1.png "B1_1")                                 |                                                                              **Name and Type** View the icon, name and type of the selected object.                                                                              |

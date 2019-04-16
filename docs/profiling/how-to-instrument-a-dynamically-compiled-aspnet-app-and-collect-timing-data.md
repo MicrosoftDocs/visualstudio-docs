@@ -60,7 +60,6 @@ Start the profiler and then run the target application. While the profiler is at
      | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
      | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
-
 3. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application in the typical way.
 
 ## Control data collection

@@ -79,7 +79,6 @@ After you create the project, you can customize it. By using the **Properties** 
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png)
 
-
 2. On the **Create a new project** screen, search for "WPF," choose **WPF App (.NET Framework)**, and then choose **Next**.
 
    ![WPF app template in 'Create a new project' dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png)

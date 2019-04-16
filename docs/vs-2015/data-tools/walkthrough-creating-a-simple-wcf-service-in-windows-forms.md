@@ -18,7 +18,6 @@ manager: jillfra
 # Walkthrough: Creating a simple WCF Service in Windows Forms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] service, test it, and then access it from a Windows Forms application.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  

@@ -16,7 +16,6 @@ This topic explains how to add nodes that are highlighted in the **XML Schema Ex
 > [!NOTE]
 > Only global nodes can be added to the [workspace](../xml-tools/xml-schema-designer-workspace.md).
 
-
  This example uses the sample [purchase order schema](../xml-tools/sample-xsd-file-purchase-order-schema.md).
 
 ## To add schema set result nodes

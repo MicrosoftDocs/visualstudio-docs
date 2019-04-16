@@ -76,7 +76,6 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
    -   Test your designer.
 
-
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 ## See Also

@@ -15,7 +15,6 @@ manager: jillfra
 # Toolbox, Components Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays components you can add to [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] and [!INCLUDE[csprcs](../../includes/csprcs-md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] components that are included with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
  To display this tab, from the **View** menu, select **Toolbox**. In the **Toolbox**, select the **Components** tab.  

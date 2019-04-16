@@ -25,7 +25,6 @@ The AL task wraps *AL.exe*, a tool that is distributed with the [!INCLUDE[winsdk
 ## Parameters
  The following table describes the parameters of the `AL` task.
 
-
 | Parameter | Description |
 |---------------------| - |
 | `AlgorithmID` | Optional `String` parameter.<br /><br /> Specifies an algorithm to hash all files in a multifile assembly except the file that contains the assembly manifest. For more information, see the documentation for the `/algid` option in [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker). |

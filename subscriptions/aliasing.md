@@ -46,7 +46,6 @@ Please follow these steps to add a new subscriber with a directory account.
     > [!div class="mx-imgBorder"]
     > ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
 
-
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
     > [!div class="mx-imgBorder"]

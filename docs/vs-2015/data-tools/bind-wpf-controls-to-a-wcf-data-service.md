@@ -22,7 +22,6 @@ manager: jillfra
 # Bind WPF controls to a WCF data service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]. You will also add buttons that customers can use to view and update records.  
   
  This walkthrough illustrates the following tasks:  

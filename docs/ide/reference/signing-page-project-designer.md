@@ -88,7 +88,6 @@ Use the **Signing** page of the **Project Designer** to sign the application and
 > [!NOTE]
 > When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don't have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.
 
-
 ## See also
 
 - [Project Properties Reference](../../ide/reference/project-properties-reference.md)

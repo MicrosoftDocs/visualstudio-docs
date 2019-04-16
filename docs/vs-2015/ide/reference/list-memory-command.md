@@ -19,7 +19,6 @@ manager: jillfra
 # List Memory Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the contents of the specified range of memory.  
   
 ## Syntax  

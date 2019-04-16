@@ -177,7 +177,6 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker-end
 
-
 ## Step 6 - Install language packs (Optional)
 
 By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a language of your choosing, choose the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.

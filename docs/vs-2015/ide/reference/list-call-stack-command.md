@@ -18,7 +18,6 @@ manager: jillfra
 # List Call Stack Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the current call stack.  
   
 ## Syntax  

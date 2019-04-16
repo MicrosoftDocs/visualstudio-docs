@@ -17,7 +17,6 @@ manager: jillfra
 # Accessibility for People with Disabilities
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] more accessible for people with disabilities.  
   
 -   [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)  

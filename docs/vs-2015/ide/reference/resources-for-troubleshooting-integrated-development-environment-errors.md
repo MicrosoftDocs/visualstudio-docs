@@ -98,7 +98,6 @@ manager: jillfra
 # Resources for Troubleshooting Integrated Development Environment Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  
   
 ## Knowledge Base Articles  

@@ -99,7 +99,6 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Interlocked_operand_`|The annotated function parameter is the target operand of one of the various Interlocked functions.  Those operands must have specific additional properties.|
 |`_Write_guarded_by_(expr)`|Annotates a variable and indicates that whenever the variable is modified, the lock count of the lock object that's named by `expr` is at least one.|
 
-
 ## Smart Lock and RAII Annotations
  Smart locks typically wrap native locks and manage their lifetime. The following table lists annotations that can be used with smart locks and RAII coding patterns with support for `move` semantics.
 

@@ -25,7 +25,6 @@ manager: jillfra
 # XSD Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  
   
 ## Parameters  

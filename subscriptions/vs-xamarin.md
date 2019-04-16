@@ -23,7 +23,6 @@ See the [Xamarin University FAQ](https://university.xamarin.com/faq) for details
 
 Until December 21, 2018, Visual Studio Enterprise subscribers receive six months of unlimited access to the full Xamarin University catalog.  Visual Studio Professional subscribers receive three months of access.
 
-
 ## Support resources
 -  Need help with Xamarin University?  You can find a variety of support resources at [https://university.xamarin.com/support](https://university.xamarin.com/support).
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

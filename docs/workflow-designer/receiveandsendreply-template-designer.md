@@ -36,7 +36,6 @@ For more information about using the **Receive** designer to configure the <xref
 
 The following table shows the <xref:System.ServiceModel.Activities.SendReply> properties and describes how they are used in the designer. These properties can be edited in the properties grid, and some can be edited on the Workflow Designer surface.
 
-
 | Property Name | Required | Usage |
 |-|----------|-|
 | <xref:System.Activities.Activity.DisplayName%2A> | False | The optional friendly name of the <xref:System.ServiceModel.Activities.SendReply> activity. The default is SendReplyToReceive.<br /><br /> Although the use of a non-default value for the friendly <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it's best to use such a value. |

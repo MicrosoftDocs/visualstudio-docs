@@ -13,7 +13,6 @@ manager: jillfra
 # Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  
   
 ## XML Editor  

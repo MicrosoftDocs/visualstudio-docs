@@ -43,7 +43,6 @@ manager: jillfra
 |You have an individual feature or group of features and there is no shared color for similar elements.|**Custom colors**|Color token names that are specific to an area and not meant to be shared with other UI|
 |You want to allow the end user to customize UI or content (for example, for text editors or specialized designer windows).|**End-user customization**<br /><br /> **(Tools > Options dialog)**|Settings defined in the “Fonts and Colors” page of the **Tools > Options** dialog or a specialized page specific to one UI feature.|
 
-
 ### Visual Studio themes
  Visual Studio features three different color themes: light, dark, and blue . It also detects High Contrast mode, which is a system-wide color theme designed for accessibility.
 
@@ -73,7 +72,6 @@ manager: jillfra
  ![Tools &#62; Options dialog in Visual Studio](../../extensibility/ux-guidelines/media/0301-a-toolsoptionsdialog.png "0301-a_ToolsOptionsDialog")
 
  **Tools>Options dialog**
-
 
 ##  <a name="BKMK_TheVSColorService"></a> The VSColor Service
  Visual Studio provides an environment color service, also called the VSColor service or the shell color service. This service allows you to bind the color values of your UI elements to a name-value color set containing colors for each theme. The VSColor service must be used for all UI elements, so that colors automatically change to reflect the current user-selected theme, and so that UI bound to the environment color service will integrate with new themes in future versions of Visual Studio.

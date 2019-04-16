@@ -24,7 +24,6 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-3-month-tile.png)
 
-
 3. If you already have a LinkedIn account and you’re signed in automatically, you’ll immediately be taken to the LinkedIn Learning benefit activation page.  If you have a LinkedIn account but you’re not automatically signed in, simply enter your username and password, and then click **Sign in**.  Please skip to [this step](#activate-your-offer) to activate your offer.
 
 ### Create a LinkedIn account
@@ -75,7 +74,6 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png)
 
-
 16. You can begin exploring skills that interest you.  Choose from the list of recommendations, search for other skills, or click **Skip** to continue without choosing skills.
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png)
@@ -97,10 +95,8 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
-
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

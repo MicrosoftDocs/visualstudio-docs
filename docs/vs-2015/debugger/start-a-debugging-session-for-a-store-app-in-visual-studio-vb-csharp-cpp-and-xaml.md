@@ -250,13 +250,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 2. Choose one of the following options from the list:
 
-
    |                    |                                                                                                                                                                                                                                                                                                                                                                                                           |
    |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | **Local Machine**  |                                                                                                                Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).                                                                                                                 |
    |   **Simulator**    | Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md). |
    | **Remote Machine** |                          Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).                           |
-
 
 3. Choose the app from the **Installed App Packages** list.
 

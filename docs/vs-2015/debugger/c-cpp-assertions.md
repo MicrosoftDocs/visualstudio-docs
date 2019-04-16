@@ -104,7 +104,6 @@ VERIFY ( myFnctn(0)==1 ) // safe
 ##  <a name="BKMK_CRT_assertions"></a> CRT assertions  
  The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](http://msdn.microsoft.com/library/e98fd2a6-7f5e-4aa8-8fe8-e93490deba36) for assertion checking.  
 
-
 |   Macro    |                                             Result                                              |
 |------------|-------------------------------------------------------------------------------------------------|
 | `_ASSERT`  | If the specified expression evaluates to FALSE, the file name and line number of the `_ASSERT`. |

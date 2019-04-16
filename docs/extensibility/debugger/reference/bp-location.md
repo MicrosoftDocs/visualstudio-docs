@@ -95,7 +95,6 @@ A value from the [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp
 ## Remarks
 This structure is a member of the [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) and [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structures.
 
-
  [C# only] The `unionmemberX` members are interpreted according to the following table. Look down the left column for the `bpLocationType` value then look across the other columns to determine what each `unionmemberX` member represents and marshal the `unionmemberX` accordingly. See the example for a way to interpret a part of this structure in C#.
 
 |`bpLocationType`|`unionmember1`|`unionmember2`|`unionmember3`|`unionmember4`|

@@ -31,7 +31,6 @@ This section describes the procedures and options for collecting performance dat
 
 ## Related tasks
 
-
 |Task|Related Content|
 |----------|---------------------|
 |**Profile stand-alone (client) applications**|-   [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)|

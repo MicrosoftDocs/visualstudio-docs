@@ -17,7 +17,6 @@ manager: jillfra
 # /Upgrade (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] formats for these files.  
   
 ## Syntax  

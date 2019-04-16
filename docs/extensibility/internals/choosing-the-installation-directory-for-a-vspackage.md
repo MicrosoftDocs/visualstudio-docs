@@ -51,7 +51,6 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 
 5.  U.S. English (*.\1033* or *.\0x409*).
 
-
 If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to load them in the above order.
 
 ## See also

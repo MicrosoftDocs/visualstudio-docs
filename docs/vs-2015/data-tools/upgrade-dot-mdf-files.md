@@ -26,7 +26,6 @@ robots: noindex,nofollow
 # Upgrade .mdf files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes your options for upgrading your database file (.mdf) after you install a newer version of Visual Studio. It includes instructions for the following tasks:  
   
 - Upgrade a database file to use a newer version of SQL Server Express LocalDB  

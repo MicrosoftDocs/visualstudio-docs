@@ -35,7 +35,6 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|
 |**Profile memory allocation and garbage collection**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|
 
-
 ### Profile concurrency issues
 
 |Task|Related Content|

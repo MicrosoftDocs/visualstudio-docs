@@ -21,7 +21,6 @@ manager: jillfra
 # ResumeTracking
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Resumes tracking in the current context.  
   
 ## Syntax  

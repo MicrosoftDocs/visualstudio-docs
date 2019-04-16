@@ -58,7 +58,6 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
 
-
 | Tab | Property | Description |
 | --- | --- | --- |
 | Run | Startup file | The name of the file that is run with **Source startup file** command, **F5**, **Debug** > **Start debugging**, or **Debug** > **Start without debugging**. Right-clicking the file in the project and selecting **Set as startup R script** also sets it as the startup file. |

@@ -185,7 +185,6 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Stop the debugging session.
 
-
 ## Exercise 4: Working with function.json
 
 1.  In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure Function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From **Solution Pad**, right-click on your project node and select **Reveal in Finder**.
@@ -406,4 +405,3 @@ Often, the service you build might be much more complex than what we have built 
 ## Summary
 
 In this lab, you've learned how to get started building Azure Functions with Visual Studio for Mac.
-

@@ -47,7 +47,6 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 
  `PackageFile` has the following attributes.
 
-
 | Attribute | Description |
 |---------------| - |
 | `Name` | Required. The name of the package file. This is the name that the `Command` element will reference when it defines the conditions under which a package installs. This value is also used as a key into the `Strings` table to retrieve the localized name that tools such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to describe the package. |

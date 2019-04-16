@@ -22,7 +22,6 @@ manager: jillfra
 # Advanced Security Settings Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to specify security settings related to debugging in zone.  
   
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab. On the **Security** page, select **Enable ClickOnce Security Settings**, click **This is a partial trust application**, and then click **Advanced**.  

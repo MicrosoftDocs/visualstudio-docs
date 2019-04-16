@@ -44,7 +44,6 @@ A VSPackage may define one or more settings categories, which are groups of stat
 
  AlternateParent = CategoryName
 
-
 | Name | Type | Data | Description |
 |-----------------|--------| - | - |
 | (Default) | REG_SZ | Name of the Custom Settings Point | The key's name, `<CSPName`>, is the unlocalized name of the Custom Settings Point.<br /><br /> For implementations based on MPF, the key's name is obtained by combining the `categoryName` and `objectName` arguments of the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> constructor into `categoryName_objectName`.<br /><br /> The key can be empty, or it can contain the reference ID to the localized string in a satellite DLL. This value is obtained from the `objectNameResourceID` argument to the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> constructor. |

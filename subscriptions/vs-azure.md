@@ -37,10 +37,8 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 *Includes Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP)
 
-
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
@@ -85,7 +83,6 @@ A:  You’re receiving this email because you use the Azure benefit associated w
 To continue using your Visual Studio Azure credit and discounts, take one of the following steps:
 
 If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure monthly credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
-
 
 If you can purchase a subscription directly, please do one of the following:
 1.  Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace.

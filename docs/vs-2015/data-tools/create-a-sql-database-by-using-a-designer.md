@@ -29,7 +29,6 @@ robots: noindex,nofollow
 # Create a SQL database by using a designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can explore basic tasks, such as adding tables and defining columns, by using Visual Studio to create and update a local database file in SQL Server Express LocalDB. After you finish this walkthrough, you can discover more advanced capabilities by using your local database as a starting point for other walkthroughs that require it.  
   
  You can also create a database by using SQL Server Management Studio (a separate download) or Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio.  

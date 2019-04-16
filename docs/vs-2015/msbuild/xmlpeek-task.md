@@ -21,7 +21,6 @@ manager: jillfra
 # XmlPeek Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Returns values as specified by XPath Query from an XML file.  
   
 ## Parameters  

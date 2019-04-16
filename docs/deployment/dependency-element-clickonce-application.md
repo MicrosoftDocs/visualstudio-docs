@@ -116,7 +116,6 @@ Identifies a platform or assembly dependency that is required for the applicatio
 
  `dependentAssembly` has the following attributes.
 
-
 | Attribute | Description |
 |-----------------------| - |
 | `dependencyType` | Required. Specifies the dependency type. Valid values are `preprequisite` and `install`. An `install` assembly is installed as part of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. A `prerequisite` assembly must be present in the global assembly cache (GAC) before the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can install. |
@@ -147,14 +146,12 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ### dsig:Transform
  The `dsig:Transform` element is a required child of the `dsig:Transforms` element. The `dsig:Transform` element has the following attributes.
 
-
 | Attribute | Description |
 |-------------| - |
 | `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ### dsig:DigestMethod
  The `dsig:DigestMethod` element is a required child of the `hash` element. The `dsig:DigestMethod` element has the following attributes.
-
 
 | Attribute | Description |
 |-------------| - |

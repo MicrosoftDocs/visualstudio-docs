@@ -26,7 +26,6 @@ The following new functions support the batch operation:
 
 -   [SccEndBatch](../../extensibility/sccendbatch-function.md)
 
-
 The `SCCBeginBatch` function starts a group of source control operations. The `SccEndBatch` function closes the group. The groups may not be nested.
 
 ## See also

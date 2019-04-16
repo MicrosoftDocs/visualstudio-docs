@@ -72,7 +72,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="Warnings"></a> C++ code analysis warnings
  Code analysis raises the following warnings for C++ code:
 
-
 |                                      Rule                                      |                                                  Description                                                  |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 |                       [C6001](../code-quality/c6001.md)                        |                                          Using Uninitialized Memory                                           |

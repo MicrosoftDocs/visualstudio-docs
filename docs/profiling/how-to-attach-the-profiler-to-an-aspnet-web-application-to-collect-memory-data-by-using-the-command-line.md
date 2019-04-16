@@ -69,7 +69,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file. |
 
-
 6. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application in the typical way.
 
 7. Attach the profiler to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. Type:

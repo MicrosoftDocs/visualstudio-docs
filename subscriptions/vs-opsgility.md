@@ -20,13 +20,11 @@ Selected Visual Studio subscriptions include up to six months of access to exper
    > [!div class="mx-imgBorder"]
    > ![Opsgility Benefit Tile](_img/vs-opsgility/vs-opsgility-tile.png)
 
-
 3. You’ll be redirected to the appropriate Skill Me UP landing page for your subscription.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
    > [!div class="mx-imgBorder"]
    > ![Opsgility Benefit Landing Page](_img/vs-opsgility/vs-vse-landing-page.png)
 
 4. That’s all there is to it!  You’re ready to start learning!
-
 
 ## Eligibility
 
@@ -43,7 +41,6 @@ Selected Visual Studio subscriptions include up to six months of access to exper
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

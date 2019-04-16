@@ -24,7 +24,6 @@ There are two general styles of comment:
 
 2.  Block comments, where the comment may include multiple lines.
 
-
 Line comments typically have a starting character (or characters), while block comments have both start and end characters. For example, in C#, a line comment starts with `//`, and a block comment starts with `/*` and ends with `*/`.
 
 When the user selects the command **Comment Selection** from the **Edit** > **Advanced** menu, the command is routed to the <xref:Microsoft.VisualStudio.Package.Source.CommentSpan%2A> method on the <xref:Microsoft.VisualStudio.Package.Source> class. When the user selects the command **Uncomment Selection**, the command is routed to the <xref:Microsoft.VisualStudio.Package.Source.UncommentSpan%2A> method.

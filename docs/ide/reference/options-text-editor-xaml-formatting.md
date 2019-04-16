@@ -141,7 +141,6 @@ Empty lines in element content are not removed.
 ```xml
 <Grid>
 
-
 <Button Name="button1">Hello</Button>
 
 </Grid>

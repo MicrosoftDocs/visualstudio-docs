@@ -23,7 +23,6 @@ Creates a new alias for a complete command, complete command and arguments, or a
 > [!TIP]
 > Typing `>alias` without any arguments displays the current list of aliases and their definitions.
 
-
 ## Syntax
 
 ```cmd
