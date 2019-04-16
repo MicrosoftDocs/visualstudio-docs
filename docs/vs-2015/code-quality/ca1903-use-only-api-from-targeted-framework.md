@@ -19,14 +19,14 @@ manager: "wpickett"
 # CA1903: Use only API from targeted framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](https://docs.microsoft.com/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework).  
   
 |||  
 |-|-|  
 |TypeName|UseOnlyApiFromTargetedFramework|  
 |CheckId|CA1903|  
 |Category|Microsoft.Portability|  
-|Breaking Change|Breaking - when fired against the signature of an externally visible member or type.<br /><br /> Non breaking - when fired in the body of a method.|  
+|Breaking Change|Breaking - when fired against the signature of an externally visible member or type.<br /><br /> Non-Breaking - when fired in the body of a method.|  
   
 ## Cause  
  A member or type is using a member or type that was introduced in a service pack that was not included with the project's targeted framework.  
@@ -47,10 +47,10 @@ For the latest documentation on Visual Studio, see [CA1903: Use only API from ta
  To change a project's target framework, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).  
   
 ## How to Fix Violations  
- To remove the dependency on the service pack, remove all usages of the new member or type. If this is a deliberate dependency, either suppress the warning or turn this rule off.  
+ To remove the dependency on the service pack, remove all usages of the new member or type. If this is a deliberate dependency, either suppress the warning or turn off this rule.  
   
 ## When to Suppress Warnings  
- Do not suppress a warning from this rule if this was not a deliberate dependency on the specified service pack. In this situation, your application might fail to run on systems without this service pack installed. Suppress the warning or turn this rule off if this was a deliberate dependency.  
+ Do not suppress a warning from this rule if this was not a deliberate dependency on the specified service pack. In this situation, your application might fail to run on systems without this service pack installed. Suppress the warning or turn off this rule if this was a deliberate dependency.  
   
 ## Example  
  The following example shows a class that uses the type DateTimeOffset that is only available in .NET 2.0 Service Pack 1. This example requires that .NET Framework 2.0 has been selected in the Target Framework drop-down list in the Project properties.  

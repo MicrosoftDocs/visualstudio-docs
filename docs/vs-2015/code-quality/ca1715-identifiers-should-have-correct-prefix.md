@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1715: Identifiers should have correct prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1715: Identifiers should have correct prefix](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1715: Identifiers should have correct prefix](https://docs.microsoft.com/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix).  
   
 |||  
 |-|-|  
