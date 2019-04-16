@@ -19,7 +19,7 @@ manager: jillfra
 # Uninstall Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Uninstall Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/uninstall-visual-studio).
+For the latest documentation on Visual Studio, see [Uninstall Visual Studio](/visualstudio/install/uninstall-visual-studio).
 
 This page walks you through uninstalling Visual Studio 2015, an earlier version of our integrated suite of productivity tools for developers.
 
@@ -37,7 +37,7 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 1.  Locate the Visual Studio .exe file (for example, locate "vs_enterprise.exe").
 
     > [!NOTE]
-    >  The file should be in a subfolder of "%ProgramData%\Package Cache", for example: C:\ProgramData\Package Cache\\{37e19555-e88d-4aed-9d42-82d0784d2b79}\vs_enterprise.exe
+    > The file should be in a subfolder of "%ProgramData%\Package Cache", for example: C:\ProgramData\Package Cache\\{37e19555-e88d-4aed-9d42-82d0784d2b79}\vs_enterprise.exe
 
 2.  Run the .exe file by using the /uninstall /force command-line parameters.
 
@@ -59,15 +59,16 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 1. Uninstall Visual Studio by using any of the methods listed in this topic.
 
    > [!WARNING]
-   >  Uninstalling  a current release of Visual Studio (or a Visual Studio Update) and then installing a previous release might not work as expected.
+   > Uninstalling  a current release of Visual Studio (or a Visual Studio Update) and then installing a previous release might not work as expected.
    >
-   >  The outcome depends on the which version  or release of Visual Studio you have  installed, which versions of its components are installed, which products are installed that might have dependencies either the Visual Studio release or its components, and finally, on which earlier Visual Studio version you plan to install or reinstall.  Because of all these variables, a standard uninstall will often leave components behind that might not work with previous Visual Studio versions or releases.
+   > The outcome depends on the which version  or release of Visual Studio you have  installed, which versions of its components are installed, which products are installed that might have dependencies either the Visual Studio release or its components, and finally, on which earlier Visual Studio version you plan to install or reinstall.  Because of all these variables, a standard uninstall will often leave components behind that might not work with previous Visual Studio versions or releases.
    >
-   >  Therefore, for best results, we recommend using the [Visual Studio Uninstaller tool](https://github.com/Microsoft/VisualStudioUninstaller/releases).
+   > Therefore, for best results, we recommend using the [Visual Studio Uninstaller tool](https://github.com/Microsoft/VisualStudioUninstaller/releases).
 
 2. Install or reinstall the earlier version of Visual Studio that you want to use.
 
    Even if you install a previous version of Visual Studio, the Setup program might still try to use a newer version or release if one is available. For more detailed information, see the [How to: Install a Specific Release of Visual Studio](../install/how-to-install-a-specific-release-of-visual-studio.md) topic.
 
 ## See Also
- [Install Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)
+
+- [Install Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)

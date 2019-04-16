@@ -23,7 +23,7 @@ manager: jillfra
 # Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Port, Migrate, and Upgrade Visual Studio Projects](https://docs.microsoft.com/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects).
+For the latest documentation on Visual Studio, see [Project migration and upgrade reference for Visual Studio](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects).
 
 When you are considering whether you should move to a newer version of Visual Studio, you can use this document to find out which solutions, projects, files, and other assets that you created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1 will run without modification in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] and [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]. Or, you might have reached this page if you encountered an error message when trying to open a project that isn't supported in the version of Visual Studio you opened it in, or requires an SDK or extension, such as the Azure SDK for .NET.
 
@@ -124,4 +124,5 @@ When you are considering whether you should move to a newer version of Visual St
 |[!INCLUDE[vs_dev11_expwin_long](../includes/vs-dev11-expwin-long-md.md)]|A 64-bit environment such as MSBuild or [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] can't be used to build [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps that are created in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)].|
 
 ## See Also
- [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md)
+
+- [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md)
