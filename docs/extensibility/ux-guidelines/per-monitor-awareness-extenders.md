@@ -113,7 +113,8 @@ The following pictures show the current **default** Windows operating system res
 
 ![A screenshot of the correct parenting behavior](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
 
-**Note:** you can change this behaviour by setting the Thread Hosting Behaviour ( refer to [DpiHostinBehaviour](https://docs.microsoft.com/en-us/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior) )
+> [!Note]
+> You can change this behaviour by setting the Thread Hosting Behaviour ( refer to [DpiHostinBehaviour](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior) )
 
 As a result, if you set parent-child relationship between unsupported modes, it will fail, and the control or window may not be rendered as expected.
 
