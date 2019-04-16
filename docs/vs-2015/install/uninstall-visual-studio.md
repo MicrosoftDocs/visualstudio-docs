@@ -23,8 +23,7 @@ For the latest documentation on Visual Studio, see [Uninstall Visual Studio](/vi
 
 This page walks you through uninstalling Visual Studio 2015, an earlier version of our integrated suite of productivity tools for developers.
 
-##  <a name="uninstalling"></a>
-#### To uninstall Visual Studio by using the "standard" uninstallation method
+## Uninstall Visual Studio by using the "standard" uninstallation method
 
 1. In **Control Panel**, on the **Programs and Features** page, choose the product edition that you want to uninstall, and then choose **Change**.
 
@@ -32,7 +31,7 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 
    This standard, or default method will leave some items behind that your first installation of Visual Studio originally installed (for example, the Microsoft .NET Framework, Microsoft Visual C++ Redistributables, Microsoft SQL Server, etc.).   We leave these installed because many other applications depend on them. However, if you want to remove them too, select their entry  in **Programs and Features**, and then remove each individually.
 
-#### To uninstall Visual Studio and all other related files (that is, to uninstall almost everything)
+## Uninstall Visual Studio and all other related files (that is, to uninstall almost everything)
 
 1.  Locate the Visual Studio .exe file (for example, locate "vs_enterprise.exe").
 
@@ -46,7 +45,7 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
     > [!TIP]
     > Alternatively, you can use the "**Total Uninstaller**" tool to remove everything that Visual Studio or updates to Visual Studio might have installed. That is, any version of Visual Studio 2013 or later. To find out more, see the [Visual Studio Uninstaller tool](https://github.com/Microsoft/VisualStudioUninstaller/releases) on GitHub.
 
-#### To uninstall Visual Studio in silent or passive modes (that is, to uninstall from source)
+## Uninstall Visual Studio in silent or passive modes (that is, to uninstall from source)
 
 1.  On the computer where Visual Studio is installed, open the Windows command prompt.
 
@@ -54,7 +53,7 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 
      *DVDRoot* \\<Installation File\> \</quiet&#124;/passive> [/norestart]/uninstall
 
-#### To roll back to a previous version or release of  Visual Studio
+## Roll back to a previous version or release of  Visual Studio
 
 1. Uninstall Visual Studio by using any of the methods listed in this topic.
 
@@ -69,6 +68,6 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 
    Even if you install a previous version of Visual Studio, the Setup program might still try to use a newer version or release if one is available. For more detailed information, see the [How to: Install a Specific Release of Visual Studio](../install/how-to-install-a-specific-release-of-visual-studio.md) topic.
 
-## See Also
+## See also
 
 - [Install Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)
