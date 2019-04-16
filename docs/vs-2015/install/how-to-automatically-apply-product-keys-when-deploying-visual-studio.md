@@ -40,7 +40,7 @@ You can apply your product key programmatically as part of a script used to auto
 
 |Visual Studio Edition|MPC|
 |---------------------------|---------|
-|Visual Studio Enterprise 2015|07060|a
+|Visual Studio Enterprise 2015|07060|
 |Visual Studio Professional 2015|07062|
 |Visual Studio Test Professional 2015|07066|
 |Visual Studio Ultimate 2013|06181|
@@ -48,9 +48,10 @@ You can apply your product key programmatically as part of a script used to auto
 |Visual Studio Professional 2013|06177|
 |Visual Studio Test Professional 2013|06194|
 
- For more information on getting a product key, see [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md).
+For more information on getting a product key, see [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md).
 
- If StorePID.exe successfully applied the product key, it will return 0. If it encounters errors, it will return a number ranging from 1 to 6.
+If StorePID.exe successfully applied the product key, it will return 0. If it encounters errors, it will return a number ranging from 1 to 6.
 
-## See Also
- [Install Visual Studio](../install/install-visual-studio-2015.md)
+## See also
+
+- [Install Visual Studio](../install/install-visual-studio-2015.md)
