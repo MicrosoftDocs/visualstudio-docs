@@ -24,7 +24,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 To complete this tutorial:
 
 ::: moniker range="vs-2017"
-* Install the latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)with the "ASP.NET and web development" workload
+* Install the latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)with the "ASP.NET and web development" workload
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 * Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the "ASP.NET and web development" workload
