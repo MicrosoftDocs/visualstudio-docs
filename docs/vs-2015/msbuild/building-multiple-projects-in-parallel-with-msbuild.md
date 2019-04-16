@@ -17,7 +17,6 @@ manager: jillfra
 # Building Multiple Projects in Parallel with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:  
   
 -   The `/maxcpucount` switch at a command prompt.  

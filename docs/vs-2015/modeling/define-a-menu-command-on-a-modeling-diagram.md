@@ -59,7 +59,6 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 
 2. Add the following references to your project.  
 
-
    |                                                                                                    Reference                                                                                                    |                                                                                                  What this allows you to do                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                                        System.ComponentModel.Composition                                                                                        |                                         Define components by using [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).                                          |
@@ -68,7 +67,6 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
    |                                                                                  Microsoft.VisualStudio.Modeling.Sdk.[version]                                                                                  | Define model event handlers.<br /><br /> Encapsulate series of changes to your model. For more information, see [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md). |
    |                                                            Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]<br /><br /> (not always required)                                                             |                                                                                   Access additional diagram elements for gesture handlers.                                                                                   |
    | Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer<br /><br /> Required only for commands on layer diagrams. For more information, see [Extend layer diagrams](../modeling/extend-layer-diagrams.md). |                                                                                             Define commands on a Layer diagram.                                                                                              |
-
 
 3. Add a class file to the project and set its content to the following code.  
 

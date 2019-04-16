@@ -17,8 +17,6 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/talk-to-us) on docs.microsoft.com.  
 
-  
-
 We're interested in your ideas for improving our documentation. We can’t respond personally, but we’ll make sure your feedback gets to the right person.  
   
 ## I like/dislike something in the Visual Studio documentation  

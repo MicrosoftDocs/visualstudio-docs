@@ -542,7 +542,6 @@ The user should always be able to determine the effect of a drag-and-drop operat
 #### Directory-based projects
 The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for directory-based target projects:
 
-
 | Modifier | Category | Source item: Reference/Link | Source item: Physical item or file system (`CF_HDROP`) |
 |-----------------|----------| - | - |
 | No modifier | Action | Move | Move |

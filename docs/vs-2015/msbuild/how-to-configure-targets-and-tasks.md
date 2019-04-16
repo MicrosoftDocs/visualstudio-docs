@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Configure Targets and Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.  
   
 > [!NOTE]

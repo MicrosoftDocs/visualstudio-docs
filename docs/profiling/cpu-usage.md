@@ -45,7 +45,6 @@ Usually, the local machine best replicates installed app execution. For Windows 
 
    ![CPU Usage report](../profiling/media/cpu_use_wt_report.png "CPU Usage report")
 
-
 ## Analyze the CPU Usage report
 
 The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node.

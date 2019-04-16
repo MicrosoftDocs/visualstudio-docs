@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Add Schema Set Search Result Nodes to the Workspace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.  
   
 > [!NOTE]

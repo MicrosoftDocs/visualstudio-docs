@@ -22,7 +22,6 @@ manager: jillfra
 # Publish Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  
   
  To access the **Publish** page, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab.  

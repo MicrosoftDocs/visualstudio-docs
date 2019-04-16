@@ -19,7 +19,6 @@ manager: jillfra
 # How to: Change Fonts and Colors in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the Code Editor. When changing font settings keep in mind the following information:  
   
 -   The settings for **Font** and **Size** are global for all text elements in all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editors.  

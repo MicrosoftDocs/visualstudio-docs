@@ -21,7 +21,6 @@ manager: jillfra
 # Command Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
   
 ## Displaying the Values of Variables  

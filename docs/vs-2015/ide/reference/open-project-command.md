@@ -19,7 +19,6 @@ manager: jillfra
 # Open Project Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens an existing project.  
   
 ## Syntax  

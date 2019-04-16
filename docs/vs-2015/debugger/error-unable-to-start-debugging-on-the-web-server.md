@@ -82,7 +82,6 @@ If you are using an older version of Visual Studio:
     A bug in older versions (fixed later) required elevated privileges in some ASP.NET debugging scenarios.
     
 - If multiple instance of Visual Studio are running, re-open your project in one instance of Visual Studio, and try again.
-   
-  
+
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

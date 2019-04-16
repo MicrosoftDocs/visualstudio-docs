@@ -116,7 +116,6 @@ This article lists the following common errors that can occur when you deploy a 
 ## Additional errors
  The following table shows some common error messages that a client-computer user may receive when the user installs a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Each error message is listed next to a description of the most probable cause for the error.
 
-
 | Error message | Description |
 | - | - |
 | Application cannot be started. Contact the application publisher.<br /><br /> Cannot start the application. Contact the application vendor for assistance. | These are generic error messages that occur when the application cannot be started, and no other specific reason can be found. Frequently this means that the application is somehow corrupted, or that the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] store is corrupted. |

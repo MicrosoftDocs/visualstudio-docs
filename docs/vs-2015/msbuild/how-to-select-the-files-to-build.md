@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Select the Files to Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you build a project that contains several files, you can list each file separately in the project file, or you can use wildcards to include all the files in one directory or a nested set of directories.  
   
 ## Specifying Inputs  

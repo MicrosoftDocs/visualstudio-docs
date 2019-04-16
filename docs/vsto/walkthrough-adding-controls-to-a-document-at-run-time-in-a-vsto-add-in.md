@@ -72,21 +72,17 @@ ms.workload:
 
 8. In the **Properties** window, change the following properties.
 
-
    | Property | Value |
    |-----------|-----------------------|
    | **Name** | **addButtonCheckBox** |
    | **Label** | **Add Button** |
 
-
 9. Add a second check box to **group1**, and then change the following properties.
-
 
    | Property | Value |
    |-----------|---------------------------|
    | **Name** | **addRichTextCheckBox** |
    | **Label** | **Add Rich Text Control** |
-
 
 10. In the Ribbon Designer, double-click **Add Button**.
 

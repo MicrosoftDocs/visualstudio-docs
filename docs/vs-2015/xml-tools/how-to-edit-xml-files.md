@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Edit XML Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor is the new editor for XML files. It can be used on a stand-alone XML file, or on a file associated with a Visual Studio project. The XML Editor is associated with the following file extensions: .config, .dtd, .xml, .xsd, .xdr, .xsl, .xslt, and .vssettings. The XML Editor is also associated with any other file type that has no specific editor registered, and that contains XML or DTD content.  
   
 > [!NOTE]

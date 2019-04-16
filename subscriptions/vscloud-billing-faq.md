@@ -126,7 +126,6 @@ A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (
 * [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
 * [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
 
-
 ## Related resources
 
 * [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)

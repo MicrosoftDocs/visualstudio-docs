@@ -20,7 +20,6 @@ manager: jillfra
 # Options Dialog Box,  Projects and Solutions, Build and Run
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In this dialog box, you can specify the maximum number of Visual C++ or Visual C# projects that can build at the same time, certain default build behaviors, and some build log settings. To open the **Options** dialog box, choose **Tools**, **Options** on the menu bar. To access this set of options, expand **Projects and Solutions**, and then choose **Build and Run**.  
   
 ## UIElement List  

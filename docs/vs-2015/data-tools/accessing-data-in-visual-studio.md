@@ -26,7 +26,6 @@ robots: noindex,nofollow
 # Accessing data in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
  For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources,  create object models to store and manipulate data in memory, and bind data to the user interface.     Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.

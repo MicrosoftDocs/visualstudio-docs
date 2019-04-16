@@ -30,7 +30,6 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 ## Fields
  The following table lists the fields specified for each record.
 
-
 | Field | Description |
 | - | - |
 | Relative Path Name (RelPathName) | The name of the folder, template, or .vsz file, such as HeaderFile.h or MyWizard.vsz. This field can also be a name used to represent a folder. |

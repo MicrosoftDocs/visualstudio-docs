@@ -12,7 +12,6 @@ manager: "crdun"
 # Visual Studio and Xamarin
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Xamarin is a mobile app development platform for building native iOS, Android, and Windows apps from a common C#/.NET code base, achieving 75% to nearly 100% code reuse between platforms. Apps written with Xamarin and C# have full access to underlying platform APIs and the ability to build native user interfaces, and compile to platform-specific packages so there is little impact on runtime performance. (Note: Xamarin also supports F#, but this documentation will focus on C# only. Visual Basic is not supported at this time.)  
   
  Better still, developers familiar with C#, .NET, and Visual Studio will enjoy the same the power and productivity when working with Xamarin for mobile apps, including remote debugging on Android, iOS, and Windows devices—without having to learn native coding languages like Objective-C or Java. It’s little surprise, then, that many high performance apps with beautiful user interfaces—such as NASCAR, Aviva, and MixRadio—have been built using Xamarin.  

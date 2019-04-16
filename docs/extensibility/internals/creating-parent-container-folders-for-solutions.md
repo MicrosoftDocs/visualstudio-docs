@@ -37,7 +37,6 @@ In the Source Control Plug-in API Version 1.2, a user can specify a single root 
 
 -   Projects were added separately (in a source-controlled solution).
 
-
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is suggested that the name for the SUR folder be the same as the solution name without the extension. The following table summarizes the behavior in the two versions.
 
 |Feature|Source Control Plug-in API Version 1.1|Source Control Plug-in API Version 1.2|

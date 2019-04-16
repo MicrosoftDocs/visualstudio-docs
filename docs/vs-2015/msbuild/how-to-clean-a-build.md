@@ -18,7 +18,6 @@ manager: jillfra
 # How to: Clean a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
 ## Creating a Directory for Output Items  

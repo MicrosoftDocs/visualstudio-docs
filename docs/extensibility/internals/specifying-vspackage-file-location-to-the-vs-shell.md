@@ -15,7 +15,6 @@ ms.workload:
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.
 
-
 | Method | Description |
 | - | - |
 | Use the CodeBase registry key. | The CodeBase key can be used to direct [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to load the VSPackage assembly from any fully qualified file path. The value of the key should be the file path to the DLL. This is the best way to have [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] load your package assembly. This technique is sometimes referred to as the "CodeBase/private installation directory technique." During registration the value of the codebase is passed to the registration attribute classes through an instance of the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.RegistrationContext> type. |

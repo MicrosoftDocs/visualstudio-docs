@@ -126,30 +126,24 @@ ms.workload:
 
 2. From the **Common Controls** tab of the **Toolbox**, drag a **Radio Button** control to the user control, and change the following properties.
 
-
    | Property | Value |
    |----------|------------------|
    | **Name** | **columnChart** |
    | **Text** | **Column Chart** |
 
-
 3. Add a second radio button to the user control, and change the following properties.
-
 
    | Property | Value |
    |----------|---------------|
    | **Name** | **barChart** |
    | **Text** | **Bar Chart** |
 
-
 4. Add a third radio button to the user control, and change the following properties.
-
 
    | Property | Value |
    |----------|----------------|
    | **Name** | **lineChart** |
    | **Text** | **Line Chart** |
-
 
 5. Add a fourth radio button to the user control, and change the following properties.
 

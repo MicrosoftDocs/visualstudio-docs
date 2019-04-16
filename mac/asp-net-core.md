@@ -216,7 +216,6 @@ To add a controller, do the following:
 
     ![Running app in browser with arguments](media/asp-net-core-image10.png)
 
-
 ## Troubleshooting
 
 If you need to install .NET Core manually on Mac OS 10.12 (Sierra) and higher, do the following:

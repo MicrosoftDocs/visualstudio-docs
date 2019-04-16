@@ -41,7 +41,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |       [/automark](../profiling/automark.md) **:** `Interval`       | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. The default value is 500. |
    |     [/events](../profiling/events-vsperfcmd.md) **:** `Config`     |       Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.       |
 
-
 2. Start the ASP.NET application in the typical way.  
 
 3. Attach the profiler to the ASP.NET worker process by typing the following command:**VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]  

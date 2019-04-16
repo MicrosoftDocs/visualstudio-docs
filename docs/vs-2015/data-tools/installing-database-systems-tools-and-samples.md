@@ -21,7 +21,6 @@ manager: jillfra
 # Installing database systems, tools, and samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio itself does not include any database systems other than those it uses internally. To develop a data-connected application in Visual Studio, you typically install the database system on your local development machine, and then deploy the application and database to a production environment when they are ready. For the database system to be accessible from .NET applications and to be visible in Visual Studio data tools windows, it must have an ADO.NET data provider. A provider must specifically support Entity Framework if you plan to use Entity data models in your .NET application.     Many providers are offered through the NuGet Package Manager or through the Visual Studio Gallery.  
   
  For SQL development, ensure that you have SQL Server Data Tools installed in Visual Studio. Click the **View** menu. If you don't see SQL Server Object Explorer, go to Control Panel and change Visual Studio. In the installer, select **Microsoft SQL Server Data Tools**.  

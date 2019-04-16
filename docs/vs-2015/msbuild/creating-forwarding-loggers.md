@@ -16,7 +16,6 @@ manager: jillfra
 # Creating Forwarding Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Forwarding loggers improve logging efficiency by letting you choose the events you want to monitor when you build projects on a multi-processor system. By enabling forwarding loggers, you can prevent unwanted events from overwhelming the central logger, slowing build time, and cluttering your log.  
   
  To create a forwarding logger, you can either implement the <xref:Microsoft.Build.Framework.IForwardingLogger> interface and then implement its methods manually, or use the <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger> class and its pre-configured methods. (The latter will suffice for most applications.)  

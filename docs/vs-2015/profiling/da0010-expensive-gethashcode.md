@@ -20,8 +20,6 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCode](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode) on docs.microsoft.com.  
 
-  
-
 |||  
 |-|-|  
 |Rule Id|DA0010|  

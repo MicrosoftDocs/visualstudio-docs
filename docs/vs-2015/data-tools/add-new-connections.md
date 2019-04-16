@@ -13,7 +13,6 @@ manager: jillfra
 # Add new connections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:  
   
  Server Explorer  

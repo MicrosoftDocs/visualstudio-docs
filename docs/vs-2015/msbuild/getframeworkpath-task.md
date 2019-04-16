@@ -23,7 +23,6 @@ manager: jillfra
 # GetFrameworkPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Retrieves the path to the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] assemblies.  
   
 ## Task Parameters  

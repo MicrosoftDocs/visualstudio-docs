@@ -648,7 +648,6 @@ In this section, you add a key for your custom directive processor to the regist
 
      Your registry key should have the following values:
 
-
    | Name | Type | Data |
    |-|-|-|
    | (Default) | REG_SZ | (value not set) |
@@ -657,13 +656,11 @@ In this section, you add a key for your custom directive processor to the regist
 
      If you have put the assembly in the GAC, the values should look like the following:
 
-
    | Name | Type | Data |
    |-|-|-|
    | (Default) | REG_SZ | (value not set) |
    | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
    | Assembly | REG_SZ | CustomDP.dll |
-
 
 6. Restart Visual Studio.
 

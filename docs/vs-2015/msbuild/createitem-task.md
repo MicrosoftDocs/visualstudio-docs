@@ -23,7 +23,6 @@ manager: jillfra
 # CreateItem Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Populates item collections with the input items. This allows items to be copied from one list to another.  
   
 > [!NOTE]

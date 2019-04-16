@@ -166,7 +166,6 @@ Click this button to access the **Build Events** dialog box. Use this dialog box
 **Advanced Compile Options**
 Click this button to access the **AdvancedCompiler Settings** dialog box. Use the **AdvancedCompiler Settings** dialog box to specify a project's advanced build configuration properties. This dialog box applies to Visual Basic projects only. For more information, see [Advanced Compiler Settings Dialog Box (Visual Basic)](../../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md).
 
-
 ## See also
 
 - [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)

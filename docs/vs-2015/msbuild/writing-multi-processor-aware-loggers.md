@@ -17,7 +17,6 @@ manager: jillfra
 # Writing Multi-Processor-Aware Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The ability of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to take advantage of multiple processors can decrease project building time, but it also adds complexity to build event logging. In a single-processor environment, events, messages, warnings, and errors arrive at the logger in a predictable, sequential manner. However, in a multi-processor environment, events from different sources can arrive at the same time or out of sequence. To provide for this, [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a multi-processor-aware logger and a new logging model, and lets you create custom "forwarding loggers."  
   
 ## Multi-Processor Logging Challenges  

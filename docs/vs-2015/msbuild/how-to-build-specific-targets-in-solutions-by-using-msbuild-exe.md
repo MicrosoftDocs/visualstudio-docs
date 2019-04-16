@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  
   
 ### To build a specific target of a specific project in a solution  

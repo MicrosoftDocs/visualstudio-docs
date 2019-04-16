@@ -37,7 +37,6 @@ manager: jillfra
 # Documents, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Documents** in the **Environment** node. If **Documents** does not appear in the list, select **Show all settings** in the **Options** dialog box.  
   
 > [!NOTE]

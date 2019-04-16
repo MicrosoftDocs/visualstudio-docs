@@ -24,7 +24,6 @@ manager: jillfra
 # SetEnv Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sets or deletes the value of a specified environment variable.  
   
 ## Parameters  

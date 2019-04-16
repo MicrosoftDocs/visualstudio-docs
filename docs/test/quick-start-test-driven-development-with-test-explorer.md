@@ -51,7 +51,6 @@ Test Explorer supersedes the unit test windows found in earlier editions of Visu
 > [!IMPORTANT]
 > The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.
 
-
 > [!NOTE]
 > If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 

@@ -254,7 +254,6 @@ namespace MockLanguageExtension
         [BaseDefinition(CodeRemoteContentDefinition.CodeRemoteContentTypeName)]
         internal static ContentTypeDefinition BarContentTypeDefinition;
 
-
         [Export]
         [FileExtension(".bar")]
         [ContentType("bar")]

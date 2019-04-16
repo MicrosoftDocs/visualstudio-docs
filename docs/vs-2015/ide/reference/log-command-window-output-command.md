@@ -18,7 +18,6 @@ manager: jillfra
 # Log Command Window Output Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Copies all input and output from the **Command** window into a file.  
   
 ## Syntax  

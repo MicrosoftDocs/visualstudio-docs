@@ -38,7 +38,6 @@ ms.workload:
 
 ### To resize a list by using the Resize List dialog box
 
-
 1.  Click anywhere in the  <xref:Microsoft.Office.Tools.Excel.ListObject> table. The **Table Tools** > **Design** tab in the ribbon appears.
 
 2.  In the Properties section, click on **Resize Table**.

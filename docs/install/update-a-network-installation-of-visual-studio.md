@@ -99,7 +99,6 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
-
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
 >

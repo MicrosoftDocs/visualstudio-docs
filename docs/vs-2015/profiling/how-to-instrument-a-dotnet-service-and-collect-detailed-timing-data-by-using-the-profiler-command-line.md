@@ -70,7 +70,6 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                           Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                            |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                              Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                              |
 
-
 8. Start the service from Windows Service Control Manager.  
 
 ## Controlling Data Collection  

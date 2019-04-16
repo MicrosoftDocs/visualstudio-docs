@@ -33,8 +33,6 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
 
  For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory. For 64-bit apps, the folder is *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*. For more information, see <xref:Microsoft.VisualStudio.Profiler>.
 
-
-
 ## Prerequisites
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:
 

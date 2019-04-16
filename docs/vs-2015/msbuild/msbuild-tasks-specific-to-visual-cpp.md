@@ -20,7 +20,6 @@ manager: jillfra
 # MSBuild Tasks Specific to Visual C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tasks provide the code that runs during the build process. When Visual C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. For more information, see [MSBuild (Visual C++) Overview](http://msdn.microsoft.com/library/dd258f6f-ab51-48d9-b274-f7ba911d05ca).  
   
  In addition to the parameters for each task, every task also has the following parameters.  

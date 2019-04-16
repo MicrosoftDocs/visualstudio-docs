@@ -603,7 +603,6 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 ## <a name="trouble"></a> Troubleshooting
  The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibility Forum](http://go.microsoft.com/fwlink/?LinkId=186074).
 
-
 | Problem | Suggestion |
 |-|-|
 | The changes I have made in the DSL Definition file have no effect. | Click **Transform All Templates** in the toolbar above Solution Explorer, and then rebuild the solution. |

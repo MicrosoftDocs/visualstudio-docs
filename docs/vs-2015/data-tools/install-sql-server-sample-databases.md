@@ -13,7 +13,6 @@ manager: jillfra
 # Install SQL Server sample databases
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sample databases are useful for experimenting with SQL and LINQ queries, databinding,  Entity Framework modeling, and so on.  Each database product has its own sample databases. Northwind and AdventureWorks are two popular SQL Server sample databases.  
   
  **AdventureWorks** is the current sample database provided for SQL Server products. You can download it as an .mdf file from the [AdventureWorks page on Codeplex](http://msftdbprodsamples.codeplex.com/). There are regular and lightweight (LT) versions of the database available here. For most scenarios, the LT version is preferred because it is less complex.  

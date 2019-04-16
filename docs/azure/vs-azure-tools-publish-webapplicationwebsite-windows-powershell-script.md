@@ -22,7 +22,6 @@ Publishes a web project to an Azure website. The script creates the required res
     -SendHostMessagesToOutput
     -Verbose
 
-
 ## Configuration
 The path to the JSON configuration file that describes the details of the deployment.
 

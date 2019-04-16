@@ -18,7 +18,6 @@ manager: jillfra
 # Set Current Thread Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the specified thread as the current thread.  
   
 ## Syntax  

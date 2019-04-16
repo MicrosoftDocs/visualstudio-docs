@@ -35,7 +35,6 @@ You can apply filters to profiling data files to limit the profiling data that i
     |**Operator**|Select the operator that specifies the relationship that you want in the clause between the field and value.<br /><br /> =    Equals<br /><br /> <>  Not Equals<br /><br /> <    Less Than<br /><br /> >    Greater Than<br /><br /> <=  Less Than or Equals<br /><br /> >=  Greater Than or Equals|
     |**Value**|Select or enter the value to look for. Some fields list the available values for the field.|
 
-
 #### To create a profiler report filter from the Marks Report view
 
 1. Select **Marks** from the **Current View** list on the Performance Report View toolbar.

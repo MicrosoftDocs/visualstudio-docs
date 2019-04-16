@@ -13,7 +13,6 @@ manager: jillfra
 # XML Editor Components
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section discusses the XML Editor windows and dialog boxes. Because the XML Editor is based on the Text Editor, some of the integrated development environment (IDE) is configured using the general Text Editor settings.  
   
 ## In This Section  

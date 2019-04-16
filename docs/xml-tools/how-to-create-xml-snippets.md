@@ -59,7 +59,6 @@ The XML editor can be used to create new XML snippets. The editor includes an XM
 > [!NOTE]
 > The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.
 
-
  The following is the `Code` element that is created by the boilerplate snippet.
 
 ```xml

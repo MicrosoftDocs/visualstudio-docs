@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Use Environment Variables in a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.  
   
 ## Referencing Environment Variables  

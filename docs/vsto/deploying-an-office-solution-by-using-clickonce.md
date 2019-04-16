@@ -340,7 +340,6 @@ ms.workload:
 
  You can use the following parameters with *VSTOinstaller.exe*.
 
-
 | Parameter | Definition |
 |------------------| - |
 | /Install or /I | Install the solution. You must follow this option with the path of a deployment manifest. You can specify a path on the local computer, a universal naming convention (UNC) file share. You can specify a local path (*C:\FolderName\PublishFolder*), a relative path (*Publish\\*), or a fully qualified location (*\\\ServerName\FolderName* or http://<em>ServerName/FolderName</em>). |

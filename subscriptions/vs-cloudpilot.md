@@ -51,7 +51,6 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Confirmation Email](_img/vs-cloudpilot/vs-cloudpilot-email.png)
 
-
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
@@ -64,14 +63,10 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-
-
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
-
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

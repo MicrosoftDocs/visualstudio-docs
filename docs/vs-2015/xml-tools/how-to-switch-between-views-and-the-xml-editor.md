@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Switch Between Views and the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML Editor. This example uses the [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md).  
   
 ### To switch between the views and the XML Editor  

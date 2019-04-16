@@ -105,7 +105,6 @@ Now we'll create a test method that will generate a constructor stub to initiali
 
      In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties.
 
-
 3.  After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the **Quick Actions** error light bulb, and then click **Generate constructor in 'Automobile'**.
 
 ### Generate a stub for a method

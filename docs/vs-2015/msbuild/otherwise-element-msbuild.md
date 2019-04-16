@@ -23,7 +23,6 @@ manager: jillfra
 # Otherwise Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.  
   
  \<Project>  

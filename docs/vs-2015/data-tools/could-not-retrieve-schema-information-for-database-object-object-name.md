@@ -13,7 +13,6 @@ manager: jillfra
 # Could not retrieve schema information for database object &lt;object name&gt;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This message typically appears when an object in **Server Explorer/Database Explorer** is copied to the clipboard, deleted from the database, and then pasted onto the designer. Because the database object no longer exists, this message appears.  
   
 ### To correct this error  

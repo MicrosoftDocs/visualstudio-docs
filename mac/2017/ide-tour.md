@@ -117,7 +117,6 @@ For more information on using version control in Visual Studio, see the [Version
 
 > [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Overview/player]
 
-
 ## See also
 
 - [Visual Studio IDE (on Windows)](/visualstudio/ide/visual-studio-ide)

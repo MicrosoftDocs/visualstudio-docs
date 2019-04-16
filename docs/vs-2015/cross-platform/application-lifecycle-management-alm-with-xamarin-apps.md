@@ -12,7 +12,6 @@ manager: "crdun"
 # Application Lifecycle Management (ALM) with Xamarin apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).  
   
  Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app’s complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  

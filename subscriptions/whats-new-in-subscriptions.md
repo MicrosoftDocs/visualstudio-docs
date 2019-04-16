@@ -29,7 +29,6 @@ We've added new functionality for cloud admins that makes it easier to manage cl
 
    ![Export a subscriber list to Excel by using the Export button](media/export-subscriber-list-to-csv.png)
 
-
 * [**Bulk edit**](/visualstudio/subscriptions/edit-license#editing-multiple-subscribers-by-using-bulk-edit): Edit the subscription information of multiple subscribers, in bulk.
 
   ![Edit multiple users by using the Bulk Edit button](media/bulk-edit-multiple-subscribers.png)

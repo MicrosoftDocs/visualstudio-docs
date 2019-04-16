@@ -35,7 +35,6 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
   To notify the environment that a deployment operation has begun or ended, the project subtype needs to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployStatusCallback.OnStartDeploy%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployStatusCallback.OnEndDeploy%2A> methods.
 
-
 ## To handle a specialized deployment by a subtype project
 
 -   Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.AdviseDeployStatusCallback%2A> method to register the environment to receive notifications of deployment status events.

@@ -31,7 +31,6 @@ manager: jillfra
 # MIDL Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe. For more information, see "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
   
 ## Parameters  

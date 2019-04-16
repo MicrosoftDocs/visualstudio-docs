@@ -15,7 +15,6 @@ manager: jillfra
 # Resolving Assemblies at Design Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you add a reference to an assembly through the .NET tab of the Add Reference dialog, the reference points to an intermediate reference assembly, that is, an assembly that contains all the type and signature information, but that does not necessarily contain any code. The .NET tab lists reference assemblies that correspond to runtime assemblies in the .NET Framework. In addition, it lists reference assemblies that correspond to runtime assemblies in the registered AssemblyFoldersEx folders used by third parties.  
   
 ## Multi-Targeting  

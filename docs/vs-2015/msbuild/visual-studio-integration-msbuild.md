@@ -23,7 +23,6 @@ manager: jillfra
 # Visual Studio Integration (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio hosts [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] format can be successfully used in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], even if the project was authored by a different tool and has a customized build process.  
   
  This topic describes specific aspects of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]'s [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] hosting that should be considered when customizing projects and .targets files that you wish to load and build in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. These will help you make sure [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] features like IntelliSense and debugging work for your custom project.  

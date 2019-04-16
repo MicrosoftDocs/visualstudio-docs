@@ -20,7 +20,6 @@ manager: jillfra
 # Toolbox
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
   
  **Toolbox** icons can be dragged to a design view or pasted in a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.  

@@ -231,7 +231,6 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 > [!TIP]
 > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
 
-
 ##  <a name="Debug_a_failing_test"></a> Debug a failing test
 
 1. Add another test to *unittest1.cpp*:

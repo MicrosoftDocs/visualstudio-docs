@@ -23,7 +23,6 @@ manager: jillfra
 # GenerateTemporaryTargetAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
   
 ## Task Parameters  
