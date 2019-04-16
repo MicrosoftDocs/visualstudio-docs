@@ -24,7 +24,6 @@ manager: jillfra
 # GenerateApplicationManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest or a native manifest. A native manifest describes a component by defining a unique identity for the component and identifying all assemblies and files that make up the component. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest extends a native manifest by indicating the entry point of the application, and specifying the application security level.  
   
 ## Parameters  

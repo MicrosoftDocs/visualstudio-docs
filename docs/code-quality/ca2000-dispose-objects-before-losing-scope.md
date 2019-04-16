@@ -142,7 +142,6 @@ Public Function OpenPort2(ByVal PortName As String) As SerialPort
          tempPort.Close()
       End If
 
-
    End Try
 
    Return port

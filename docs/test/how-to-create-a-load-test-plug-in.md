@@ -88,7 +88,6 @@ The following code shows a load test plug-in that runs custom code after a LoadT
 > [!NOTE]
 > The following code requires that you add a reference to System.Windows.Forms.
 
-
 ```csharp
 using System;
 using Microsoft.VisualStudio.TestTools.LoadTesting;

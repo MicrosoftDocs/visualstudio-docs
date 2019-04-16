@@ -24,7 +24,6 @@ ms.workload:
 ## Reserved and well-known properties
  The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.
 
-
 | Property | Reserved or well-known | Description |
 |----------------------------------|------------------------| - |
 | `MSBuildBinPath` | Reserved | The absolute path of the folder where the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries that are currently being used are located (for example, *C:\Windows\Microsoft.Net\Framework\\\<versionNumber>*). This property is useful if you have to refer to files in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] directory.<br /><br /> Do not include the final backslash on this property. |

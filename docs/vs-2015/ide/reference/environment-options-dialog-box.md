@@ -16,7 +16,6 @@ manager: jillfra
 # Environment Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can use the pages in the **Environment** folder in the **Options** dialog box to set how certain elements of the integrated development environment (IDE) display and behave. You can access the Environment pages by, on the menu bar, choosing **Tools**, **Options**, and then selecting **Environment**.  
   
 > [!NOTE]

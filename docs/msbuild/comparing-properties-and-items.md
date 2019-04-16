@@ -81,7 +81,6 @@ During the evaluation phase of a build, imported files are incorporated into the
 
 - Items are defined and modified in the order in which they appear.
 
-
 During the execution phase of a build, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear.
 
 However, this is not the full story. When a property, item definition, or item is defined, its value is evaluated. The expression evaluator expands the string that specifies the value. The string expansion is dependent on the build phase. Here is a more detailed property and item evaluation order:

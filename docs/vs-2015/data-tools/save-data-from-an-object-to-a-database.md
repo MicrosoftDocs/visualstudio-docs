@@ -22,7 +22,6 @@ manager: jillfra
 # Save data from an object to a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`).
   
  To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's DBDirect methods.  

@@ -17,7 +17,6 @@ manager: jillfra
 # Advanced Settings for Services Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../includes/ajax-current-short-md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page in the **Project Designer** to configure client application services. For more information about the **Services** page, see [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md).  
   
  Use the **Advanced Settings for Services** dialog box of the **Services** page in the **Project Designer** to configure advanced settings for client application services. By using these settings, you can override some default application service behaviors to enable less common scenarios. For more information, see [Client Application Services](http://msdn.microsoft.com/library/1487d8df-089e-4f21-abfb-a791a652b58e).  

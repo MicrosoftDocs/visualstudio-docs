@@ -24,7 +24,6 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
  \<Project>
  \<Sdk>
 
-
 ## Syntax
 
 ```xml

@@ -23,7 +23,6 @@ manager: jillfra
 # SignFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Signs the specified file using the specified certificate.  
   
 ## Parameters  

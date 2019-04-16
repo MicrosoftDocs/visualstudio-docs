@@ -13,7 +13,6 @@ manager: jillfra
 # Walkthrough: Using XSLT Hierarchy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style sheet often uses `includes` and `imports` instructions. Compilation starts from the principal style sheet, but when you see an error as a result of compiling an XSLT style sheet, the error may come from a different source than the principal style sheet. Fixing the error or editing the style sheet may require access to included or imported style sheets. Stepping through the style sheet in the debugger may open included and imported style sheets, and you may want to add a breakpoint at some point in one or more of the included style sheets.  
   
  Another scenario where the XSLT Hierarchy tool can be useful is putting breakpoints on the built-in template rules. Template rules are special templates generated for each mode of the style sheet and called by `xsl:apply-templates` when no other template matches the node. To implement debugging in built-in templates rules, XSLT debugger generates the file with the rules in the temporary folder and compiles them together with the principal style sheet. Without stepping into the code from some `xsl:apply-template`, it can be difficult to find style sheets that have been included in the principal style sheet or to find and open the style sheet with the built-in template rules.  

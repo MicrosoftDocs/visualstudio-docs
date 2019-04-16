@@ -38,7 +38,6 @@ manager: jillfra
 # Pre-build Event/Post-build Event Command Line Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.  
   
 > [!NOTE]

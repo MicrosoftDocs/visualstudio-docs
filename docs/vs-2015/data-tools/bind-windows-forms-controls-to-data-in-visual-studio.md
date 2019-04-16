@@ -27,7 +27,6 @@ manager: jillfra
 # Bind Windows Forms controls to data in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, you can drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio. This topic describes some of the most common tasks, tools, and classes involved in creating data-bound Windows Forms applications.
 
  ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png "raddata Data Source drag operation")

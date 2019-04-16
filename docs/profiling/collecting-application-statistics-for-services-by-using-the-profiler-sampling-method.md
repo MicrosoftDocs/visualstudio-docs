@@ -33,7 +33,6 @@ This section describes the procedures and options for collecting performance sta
 |**Profile .NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|
 
-
 ### Profile by using the sampling method
 
 |Task|Related Content|

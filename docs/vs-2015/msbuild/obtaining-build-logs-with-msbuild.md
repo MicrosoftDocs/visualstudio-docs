@@ -16,7 +16,6 @@ manager: jillfra
 # Obtaining Build Logs with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]

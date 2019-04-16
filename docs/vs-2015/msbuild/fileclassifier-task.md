@@ -22,7 +22,6 @@ manager: jillfra
 # FileClassifier Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of source resources as those that will be embedded into an assembly. If a resource is not localizable, it is embedded into the main application assembly; otherwise, it is embedded into a satellite assembly.  
   
 ## Task Parameters  

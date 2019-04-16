@@ -23,7 +23,6 @@ manager: jillfra
 # ResolveKeySource Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines the strong name key source.  
   
 ## Task Parameters  

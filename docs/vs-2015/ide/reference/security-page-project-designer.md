@@ -23,7 +23,6 @@ manager: jillfra
 # Security Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../includes/ndptecclick-md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).  
   
  To access the **Security** page, click a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab.  

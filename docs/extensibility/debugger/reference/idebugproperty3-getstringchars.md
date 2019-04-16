@@ -43,7 +43,6 @@ int GetStringChars(
 
  [out] Returns the string.
 
-
  [C++ only], `rgString` is a pointer to a buffer that receives the Unicode characters of the string. This buffer must be at least `buflen` characters (not bytes) in size.
 
 `pceltFetched`

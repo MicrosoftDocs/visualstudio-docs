@@ -40,7 +40,6 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 > [!NOTE]
 > Pre-build events do not run if the project is up to date and no build is triggered.
 
-
 ## UI Element List
  **Command line edit box**
 
@@ -48,7 +47,6 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
 
 > [!NOTE]
 > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
-
 
  **Macros**
 

@@ -23,7 +23,6 @@ manager: jillfra
 # Error Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Stops a build and logs an error based on an evaluated conditional statement.  
   
 ## Parameters  

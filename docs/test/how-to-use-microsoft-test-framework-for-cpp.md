@@ -26,12 +26,10 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    2. Click on the down arrow in the following rows and choose **\<Edit>** :
 
-
       | Directory | Property |
       |-| - |
       | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
       | **Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
-
 
 2. Add a C++ Unit Test file:
 

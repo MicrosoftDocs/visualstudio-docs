@@ -75,7 +75,6 @@ Visual Studio could not connect to the remote debugger. This message may occur f
 
 - The remote debugger version does not match Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md)
 
-
 ## <a name="valid_name"></a> The requested name was valid, but no data of the requested type was found
 
 The remote computer exists, but Visual Studio could not connect to the remote debugger. This message may occur for several reasons:

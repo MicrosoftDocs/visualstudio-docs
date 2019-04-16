@@ -18,7 +18,6 @@ manager: jillfra
 # How to: Escape Special Characters in MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files. Examples of the characters include semicolons (;) and asterisks (*). For a complete list of these special characters, see [MSBuild Special Characters](../msbuild/msbuild-special-characters.md).  
   
  In order to use these special characters as literals in a project file, they must be specified by using the syntax %*xx*, where *xx* represents the ASCII hexadecimal value of the character.  

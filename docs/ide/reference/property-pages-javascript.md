@@ -43,7 +43,6 @@ The following pages and options appear in the **Property Pages**.
 > [!NOTE]
 > Some options are only available in UWP apps.
 
-
  **Output Path**
 
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.
@@ -59,7 +58,6 @@ The following pages and options appear in the **Property Pages**.
 
 > [!NOTE]
 > Some options are only available in UWP apps.
-
 
  **Debugger to Launch**
 

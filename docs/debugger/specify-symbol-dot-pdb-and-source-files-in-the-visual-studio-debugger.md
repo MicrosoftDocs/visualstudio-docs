@@ -254,7 +254,6 @@ You can specify the locations the debugger searches for source files, and exclud
 
 1. Select **OK** or **Apply**.
 
-
 ## See also
 - [Understand symbol files and Visual Studio symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)
 

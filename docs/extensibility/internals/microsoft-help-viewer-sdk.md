@@ -355,7 +355,6 @@ In the IDE, under the Help menu item, select **Debug Help Context**.
 
 In the following table, any string that appears between brackets is a placeholder that must be replaced by a recognized value. For example, in \<meta name="Microsoft.Help.Locale" content="[language code]" />, "[language code]" must be replaced by a value such as "en-us".
 
-
 | Property (HTML Representation) | Description |
 | - | - |
 | \< meta name="Microsoft.Help.Locale" content="[language-code]" /> | Sets a locale for this topic. If this tag is used in a topic, it must be used just once and it must be inserted above any other Microsoft Help tags. If this tag is not used, the body text of the topic is indexed by using word breaker that is associated with the product locale, if it is specified; otherwise, the en-us word breaker is used. This tag conforms to ISOC RFC 4646. To ensure that Microsoft Help works correctly, use this property instead of the general Language attribute. |

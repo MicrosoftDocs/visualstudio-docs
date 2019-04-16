@@ -18,7 +18,6 @@ manager: jillfra
 # AssignTargetPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This task accepts a list files and adds `<TargetPath>` attributes if they are not already specified.  
   
 ## Task Parameters  

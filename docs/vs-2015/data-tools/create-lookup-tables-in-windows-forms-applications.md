@@ -21,7 +21,6 @@ manager: jillfra
 # Create lookup tables in Windows Forms applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.  
   
  You can create lookup tables by dragging the main node of a parent table (from the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)) onto a control on your form that is already bound to the column in the related child table.  

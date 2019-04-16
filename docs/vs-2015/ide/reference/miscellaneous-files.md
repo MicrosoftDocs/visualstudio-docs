@@ -25,7 +25,6 @@ manager: jillfra
 # Miscellaneous Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You might want to use the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editors to work independently on files from a project or from a solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently from the containers are called miscellaneous files. Miscellaneous files are external to solutions and projects, are not included in builds, and cannot be included with a solution under source control.  
   
  Opening files independently from a container is useful for a variety of reasons. You might have a file that you want to view while developing a project-based solution but that is not integral to the solution's development. Common examples include development notes or instructions, database schema, and code clips. In addition, you might want to create a stand-alone file.  

@@ -31,7 +31,6 @@ Alternatively, the **ReceiveAndSendReply** template designer in the **Messaging*
 
 The following table shows the <xref:System.ServiceModel.Activities.Receive> properties and describes how they are used in the designer. These properties can be edited in properties grid or on the Workflow Designer surface. The only required property is the <xref:System.ServiceModel.Activities.Receive.OperationName%2A> property.
 
-
 | Property Name | Required | Usage |
 |-|----------|-|
 | <xref:System.Activities.Activity.DisplayName%2A> | False | Specifies the friendly name of the <xref:System.ServiceModel.Activities.Receive> activity. The default value is Receive.<br /><br /> Although the use of a non-default value for the friendly <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use such a value. |

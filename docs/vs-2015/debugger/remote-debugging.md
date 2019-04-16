@@ -69,7 +69,6 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
 > [!TIP] 
 > For command line installation and command line reference, see the Help page for **msvsmon.exe** by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help / Usage** in the remote debugger).
 
-  
 ## Supported Operating Systems  
  The remote computer must be running one of the following operating systems:  
   

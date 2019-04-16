@@ -22,7 +22,6 @@ manager: jillfra
 # ResourcesGenerator Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (.jpg, .ico, .bmp, [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] in binary format, and other extension types) into a .resources file.  
   
 ## Task Parameters  

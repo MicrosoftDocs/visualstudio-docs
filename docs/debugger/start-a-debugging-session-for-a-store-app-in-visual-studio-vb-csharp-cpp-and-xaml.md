@@ -117,7 +117,6 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 |**Native with Script**|Debug native C/C++ code and JavaScript code in your app. Managed code is ignored. Available in C++ projects or background tasks only.|
 |**GPU only (C++ AMP)**|Debug native C++ code that runs on a graphics processing unit (GPU). Available in C++ projects only.|
 
-
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> Disable network loopbacks (optional)
 
  For security, a UWP app that is installed in the standard manner can't make network calls to the device it's installed on. Visual Studio exempts deployed apps from this rule by default, so you can test communication procedures on a single machine. Before you release your app, you should test your app without the exemption.

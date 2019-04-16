@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Select the XML Schemas to Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.  
   
  The **Schemas** document property is used to select one or more XML schema definition language (XSD) schema(s) to use. It allows you to select schemas from the schema cache, or to specify a schema that is not located in the cache.  

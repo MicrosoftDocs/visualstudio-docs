@@ -132,7 +132,6 @@ The following interfaces are the core interfaces for extending debugger by using
 ##  <a name="Events"></a> Events
  These interfaces represent all events that are sent between the DE and the session debug manager (SDM).
 
-
 | Interface | Implemented by | Description |
 | - |----------------| - |
 | [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md) | DE | Sent by the DE to request a document to be opened. |
@@ -205,7 +204,6 @@ The following interfaces are the core interfaces for extending debugger by using
 
 ##  <a name="Ports"></a> Ports
  These interfaces represent ports and port suppliers.
-
 
 | Interface | Implemented by | Description |
 | - |----------------| - |

@@ -23,12 +23,10 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
     In this walkthrough, the following names are assumed:
 
-
    | | |
    |-|-|
    | Solution and DSL name | FarmApp |
    | Namespace | Company.FarmApp |
-
 
 2. Experiment with the initial example that the template provides:
 

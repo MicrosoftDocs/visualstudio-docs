@@ -144,9 +144,7 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
     - Http POST CRUD
     - Http Trigger with parameters
 
-
 - **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
-
 
 - **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
 

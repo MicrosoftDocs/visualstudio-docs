@@ -33,7 +33,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 #### Expected Behavior
  When a user loads  a solution that is under source control, the solution is automatically loaded and the appropriate source control plug-in is selected as current.
 
-
 | Action | Test Steps | Expected Results to Verify |
 | - | - | - |
 | Automatic source control plug-in change | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.)<br />2.  Create a new project.<br />3.  Add the solution to source control.<br />4.  Select another plug-in (for example, [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />5.  Accept unloading solution prompt.<br />6.  Reopen the solution from disk. | Solution is opened.<br /><br /> Plug-in under test is the current source control plug-in. |
@@ -42,7 +41,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 #### Expected Behavior
  The solution can have its associated source control plug-in changed.
-
 
 | Action | Test Steps | Expected Results to Verify |
 |----------------------------------| - | - |

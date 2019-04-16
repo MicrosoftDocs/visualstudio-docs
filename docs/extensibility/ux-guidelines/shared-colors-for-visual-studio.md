@@ -1943,7 +1943,6 @@ Visual Studio supports tagging, which allows a user to declare searchable keywor
 
 ![Selected tag with Close (&times;) glyph on hover](../../extensibility/ux-guidelines/media/0303-185_tagselectedhover.png "0303-185_TagSelectedHover")<br />Selected tag with Close (&times;) glyph on hover
 
-
 | Element | Token name: Category.color |
 | --- | --- |
 | Background | `Tag.TagSelectedGlyphHoverBackground` |

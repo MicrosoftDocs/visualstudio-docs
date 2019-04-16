@@ -21,7 +21,6 @@ The **Publish** page of the **Project Designer** is used to configure properties
 > [!NOTE]
 > Some of the ClickOnce properties described here can also be set in the **PublishWizard**, available from the **Build** menu or by clicking the **PublishWizard** button on this page.
 
-
 ## UIElement List
  **Publishing Folder Location**
 

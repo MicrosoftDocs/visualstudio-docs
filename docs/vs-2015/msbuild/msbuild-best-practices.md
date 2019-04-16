@@ -16,7 +16,6 @@ manager: jillfra
 # MSBuild Best Practices
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 We recommend the following best practices for writing MSBuild scripts:  
   
 -   Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use  

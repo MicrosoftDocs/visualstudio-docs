@@ -13,7 +13,6 @@ manager: jillfra
 # Walkthrough: Using XSLT IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.  
   
 ### To use IntelliSense in the name attribute of xsl:with-param and xsl:call-template elements  

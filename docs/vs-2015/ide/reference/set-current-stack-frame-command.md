@@ -18,7 +18,6 @@ manager: jillfra
 # Set Current Stack Frame Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Allows you to set a particular stack frame.  
   
 ## Syntax  

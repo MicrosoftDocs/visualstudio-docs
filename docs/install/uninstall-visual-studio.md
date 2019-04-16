@@ -92,7 +92,6 @@ To remove all installations of Visual Studio 2019 as well as the Visual Studio I
 
 ::: moniker-end
 
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also

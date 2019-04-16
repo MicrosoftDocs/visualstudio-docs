@@ -28,7 +28,6 @@ manager: jillfra
 # Task List, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This Options page allows you to add, delete, and change the comment tokens that generate **Task List** reminders. To display these settings, select **Options** from the **Tools** menu, expand the **Environment** folder, and choose **Task List**.  
   
 ## Task List options  

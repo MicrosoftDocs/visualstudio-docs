@@ -148,7 +148,6 @@ You can define different Natvis views to display types in different ways. For ex
 </Type>
 ```
 
-
 In the **Watch** window, use the **,view** format specifier to specify an alternate view. The simple view appears as **vec,view(simple)**:
 
 ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch window with simple view")

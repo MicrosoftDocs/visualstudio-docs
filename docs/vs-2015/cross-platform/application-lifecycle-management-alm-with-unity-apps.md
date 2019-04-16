@@ -13,7 +13,6 @@ manager: jillfra
 # Application Lifecycle Management (ALM) with Unity Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app’s complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.  
   
  Visual Studio together with Visual Studio Team Services and Team Foundation Server provide a variety of DevOps capabilities, also referred to as Application Lifecycle Management or ALM. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity—especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of ALM features don't apply as they would to other kinds of projects built in Visual Studio.  

@@ -40,7 +40,6 @@ In this walkthrough, you create a domain-specific language (DSL) that has a Name
 
 Before you can start this walkthrough, you must first install these components:
 
-
 | | |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579) |

@@ -23,7 +23,6 @@ manager: jillfra
 # Bind objects in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Frameworkautogenerates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object.    For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).
 
 > [!TIP]

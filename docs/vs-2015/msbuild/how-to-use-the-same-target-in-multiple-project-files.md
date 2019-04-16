@@ -16,7 +16,6 @@ manager: jillfra
 # How to: Use the Same Target in Multiple Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you have authored several [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.  
   
 ## Using the Import Element  

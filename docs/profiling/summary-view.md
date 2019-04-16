@@ -38,7 +38,6 @@ The Summary view displays information about the most performance-expensive funct
 ## Report
  You can click links in the Report list to open different views and to compare, save, or filter the report. The list is to the right of the timeline graph.
 
-
 | | |
 |----------------------------| - |
 | **Show Trimmed Call Tree** | Displays the most expensive execution paths in the Call Tree View. For more information, see [Call Tree view](../profiling/call-tree-view.md). |

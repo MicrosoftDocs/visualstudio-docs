@@ -48,7 +48,6 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 > [!NOTE]
 > The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
 
-
 ## Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
 

@@ -137,7 +137,6 @@ The `Package` element is the top-level XML element inside of a package file.
 ## Elements and attributes
  The `Package` element is required. It has the following attributes.
 
-
 | Attribute | Description |
 |--------------------| - |
 | `Culture` | Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation. |

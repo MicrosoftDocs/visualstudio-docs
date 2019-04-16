@@ -21,7 +21,6 @@ manager: jillfra
 # Move Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Moves files to a new location.  
   
 ## Parameters  

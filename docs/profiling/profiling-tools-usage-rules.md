@@ -12,7 +12,6 @@ ms.workload:
 # Profiling Tools Usage Rules
 Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.
 
-
 | | |
 | - | - |
 | [DA0002: VSPerfCorProf.dll is missing](../profiling/da0002-vsperfcorprof-dll-is-missing.md) | Command line profiling might contain incomplete data for [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] binaries. This might be caused by not setting the correct environment variables. |

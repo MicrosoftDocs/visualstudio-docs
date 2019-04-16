@@ -389,7 +389,6 @@ Composite patterns combine interaction and design elements in distinct configura
 ####  <a name="BKMK_GraphicalObjectSelectionAppearance"></a> Graphical object selection appearance
  The selection handles are squares drawn in a rectangular pattern around the bounding box of the object. The chart below shows examples of the various states that a graphical object can have with handle, sizing, and in-place editing appearance. The size of the handles should be tied to window border and edge metrics using the **GetSystemMetrics** API.
 
-
 |          State          |  Appearance   |                                                                  Visual details                                                                  |
 |-------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 |     **Unselected**      |    Default    |                 ![Default button state](../../extensibility/ux-guidelines/media/0713-10-defaultstate.png "0713-10_DefaultState")                 |
@@ -431,7 +430,6 @@ Composite patterns combine interaction and design elements in distinct configura
 >  **Focus** and **selection** are different concepts. *Focus* is an indication of which UI element is targeted to receive input not explicitly directed at another object, while *selection* refers to the state of an object’s inclusion in a set of objects on which subsequent operations may take place.
 
  Selections in lists may be contiguous, disjoint, or region. When multiple selections are allowed, contiguous and disjoint selection should always be supported, while support for region (box) selections is optional. Region selections are initiated by dragging in the white space of the list body.
-
 
 | Object | Selection  |
 |--------|------------|

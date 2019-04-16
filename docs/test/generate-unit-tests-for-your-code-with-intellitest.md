@@ -142,13 +142,11 @@ Test framework extensions are also available in Visual Studio Marketplace:
 * [NUnit extension for the test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
 * [xUnit.net extension for the test generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
 
-
 After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:
 
 ![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png)
 
 Then run IntelliTest to generate individual unit tests in their corresponding *.g.cs* files.
-
 
 ### Q: Can I learn more about how the tests are generated?
 

@@ -16,7 +16,6 @@ manager: jillfra
 # Project Properties Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Learn more about how to configure and customize project properties.  
   
 ## Project Properties Pages  

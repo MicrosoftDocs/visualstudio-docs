@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Create and Edit an XSD Schema File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.  
   
 ### To create a new XML Schema file  

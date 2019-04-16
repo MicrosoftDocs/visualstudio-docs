@@ -53,7 +53,6 @@ A project file can contain one or more `Target` elements that define how the pro
 ## Use the -target Switch
  If a default target is not defined in the project file, or if you do not want to use that default target, you can use the command line switch **-target** to specify a different target. The target or targets specified with the **-target** switch are run instead of the targets specified by the `DefaultTargets` attribute. Targets specified in the `InitialTargets` attribute always run first.
 
-
 #### To use a target other than the default target first
 
 -   Specify the target as the first target using the **-target** command line switch. For example:

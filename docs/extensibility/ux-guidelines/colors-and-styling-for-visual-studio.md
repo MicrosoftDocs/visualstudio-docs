@@ -107,7 +107,6 @@ In the file VSShell80.idl, the enumeration `__VSSYSCOLOREX` has shell color cons
 
 If storing a pen or brush with a new color, you must `AdviseBroadcastMessages` (off of the Visual Studio shell) and listen for `WM_SYSCOLORCHANGE` and `WM_THEMECHANGED` messages.
 
-
 To access the color service in native code, you'll make a call that resembles this:
 
 ```
