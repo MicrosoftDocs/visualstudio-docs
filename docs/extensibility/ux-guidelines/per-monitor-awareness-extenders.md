@@ -104,7 +104,7 @@ Whenever inside mixed-mode DPI scenarios (e.g. different UI elements rendering i
 Some UI is created out-of-process and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
 
 #### Windows Forms controls, images or layouts rendered incorrectly
-Not all of the Windows Forms content support PMA mode. As a result, you may see rendering issue with incorrect layouts or scaling. A possible solution here is,  force Windows Forms content to be rendered in "System Aware"  DpiAwarenessContext ( refer to [Forcing a control into a specific DpiAwarenessContext](https://github.com/MicrosoftDocs/visualstudio-docs-pr/blob/master/docs/extensibility/ux-guidelines/per-monitor-awareness-extenders.md#forcing-a-control-into-a-specific-dpiawarenesscontext)).
+Not all of the Windows Forms content support PMA mode. As a result, you may see rendering issue with incorrect layouts or scaling. A possible solution here is,  force Windows Forms content to be rendered in "System Aware"  DpiAwarenessContext ( refer to [Forcing a control into a specific DpiAwarenessContext](#forcing-a-control-into-a-specific-dpiawarenesscontext)).
 
 #### Windows Forms controls or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a window with a different DpiAwarenessContext.
