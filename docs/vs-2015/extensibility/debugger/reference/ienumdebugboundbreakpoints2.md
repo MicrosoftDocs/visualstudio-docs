@@ -30,11 +30,11 @@ IEnumDebugBoundBreakpoints2 : IUnknown
 ## Notes for Callers  
  Visual Studio calls:  
   
--   [EnumBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) to obtain this interface representing a list of all breakpoints that were triggered.  
+- [EnumBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) to obtain this interface representing a list of all breakpoints that were triggered.  
   
--   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints that were bound.  
+- [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints that were bound.  
   
--   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints bound to that pending breakpoint.  
+- [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints bound to that pending breakpoint.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IEnumDebugBoundBreakpoints2`.  

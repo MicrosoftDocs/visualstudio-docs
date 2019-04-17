@@ -35,7 +35,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
   
 #### To ignore an error in a task  
   
--   Use the `ContinueOnError` attribute of the task. For example:  
+- Use the `ContinueOnError` attribute of the task. For example:  
   
      `<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>`  
   

@@ -22,13 +22,13 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To add an element to a layout  
   
--   In XAML Designer, do one of the following:  
+- In XAML Designer, do one of the following:  
   
-    -   Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).  
+    - Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).  
   
-    -   Drag an element from the **Toolbox** to the artboard.  
+    - Drag an element from the **Toolbox** to the artboard.  
   
-    -   In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
+    - In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
   
 ## Changing the layering order of elements  
  When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.  
@@ -41,13 +41,13 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
   - Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:  
   
-    -   **Bring to Front** to bring the element all the way to the front of the order.  
+    - **Bring to Front** to bring the element all the way to the front of the order.  
   
-    -   **Bring Forward** to bring the element forward one level in the order.  
+    - **Bring Forward** to bring the element forward one level in the order.  
   
-    -   **Send Backward** to send the element back one level in the order.  
+    - **Send Backward** to send the element back one level in the order.  
   
-    -   **Send to Back** to send the element all the way to the back of the order.  
+    - **Send to Back** to send the element all the way to the back of the order.  
   
     Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a lower **ZIndex** value appears in front when elements overlap.  
   
@@ -58,15 +58,15 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To align two or more elements by using menu commands  
   
-1.  Select the elements that you want to align. You can select more than one element by pressing and holding the Ctrl key while you select the elements.  
+1. Select the elements that you want to align. You can select more than one element by pressing and holding the Ctrl key while you select the elements.  
   
-2.  Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.  
+2. Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.  
   
-3.  Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.  
+3. Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.  
   
 #### To align two or more elements by using snaplines  
   
--   In XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.  
+- In XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.  
   
      When the edges are aligned, an *alignment boundary* appears to indicate alignment. The alignment boundary is a red dashed line. Alignment boundaries appear only when **snapping to snaplines** is enabled. For an illustration of the artboard that shows an alignment boundary, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
   
@@ -75,13 +75,13 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To change an element's margins in the Properties window  
   
-1.  Select the element whose margins you want to change.  
+1. Select the element whose margins you want to change.  
   
-2.  Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).  
+2. Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).  
   
 #### To change an element's margins in the artboard  
   
--   To change the margins of an element relative to its layout container, click the *margin adorners* that appear around the element in the artboard when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
+- To change the margins of an element relative to its layout container, click the *margin adorners* that appear around the element in the artboard when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
   
      If a margin adorner is open, vertically or horizontally, that margin isn't set. If a margin adorner is closed, that margin is set.  
   
@@ -95,9 +95,9 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To group elements into a new layout container  
   
-1.  Select the elements that you want to group. (To select multiple elements, press and hold the Ctrl key while you click them.)  
+1. Select the elements that you want to group. (To select multiple elements, press and hold the Ctrl key while you click them.)  
   
-2.  Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.  
+2. Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.  
   
     > [!TIP]
     >  If you select <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> to group your elements, the elements are placed in a new <xref:Windows.UI.Xaml.Controls.Grid> panel within the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer>. If you ungroup elements in one of these layout containers, only the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> is deleted, and the <xref:Windows.UI.Xaml.Controls.Grid> panel remains. To delete the `Grid` panel, ungroup the elements again.  
@@ -113,7 +113,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To reset the element layout  
   
--   In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).  
+- In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).  
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

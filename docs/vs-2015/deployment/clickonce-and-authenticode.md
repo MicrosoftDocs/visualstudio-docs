@@ -34,11 +34,11 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
  You can obtain a certificate for code signing in one of three ways:  
   
--   Purchase one from a certificate vendor.  
+- Purchase one from a certificate vendor.  
   
--   Receive one from a group in your organization responsible for creating digital certificates.  
+- Receive one from a group in your organization responsible for creating digital certificates.  
   
--   Generate your own certificate with MakeCert.exe, which is included with the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)].  
+- Generate your own certificate with MakeCert.exe, which is included with the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)].  
   
 ### How Using Certificate Authorities Helps Users  
  A certificate generated using the MakeCert.exe utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a .snk file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
@@ -55,15 +55,15 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
 ### Updating Expired Certificates  
  In earlier versions of the .NET Framework, updating an application whose certificate had expired could cause that application to stop functioning. To resolve this problem, use one of the following methods:  
   
--   Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.  
+- Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.  
   
--   Uninstall the application, and reinstall a new version with a valid certificate.  
+- Uninstall the application, and reinstall a new version with a valid certificate.  
   
--   Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).  
+- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).  
   
 ### Storing Certificates  
   
--   You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] tools for creating [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployments, enable you to use certificates stored in either fashion.  
+- You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] tools for creating [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployments, enable you to use certificates stored in either fashion.  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   

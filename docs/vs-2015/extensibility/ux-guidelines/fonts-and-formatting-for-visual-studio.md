@@ -15,26 +15,26 @@ manager: jillfra
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:
 
--   **Environment font** — the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.
+- **Environment font** — the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.
 
--   **Text editor** — elements that surface in code and other text-based editors can be customized in the Text Editor page in **Tools > Options**.
+- **Text editor** — elements that surface in code and other text-based editors can be customized in the Text Editor page in **Tools > Options**.
 
--   **Specific collections** — designer windows that offer user customization of their interface elements may expose fonts specific to their design surface in their own settings page in **Tools > Options**.
+- **Specific collections** — designer windows that offer user customization of their interface elements may expose fonts specific to their design surface in their own settings page in **Tools > Options**.
 
 ### Editor font customization and resizing
  Users often will enlarge or zoom the size and/or color of text in the editor according to their preference, independent of the general user interface. Because the environment font is used on elements that might appear within or as part of an editor/designer, it is important to note the expected behavior when one of these font classifications is changed.
 
  When creating UI elements that appear in the editor but are not part of the *content*, it is important to use the environment font and not the text font so that elements resize in a predictable way.
 
-1.  For code text in the editor, resize with the code text font setting and respond to the editor text's zoom level.
+1. For code text in the editor, resize with the code text font setting and respond to the editor text's zoom level.
 
-2.  All other elements of the interface should be tied to the environment font setting and respond to any global changes in the environment. This includes (but is not limited to):
+2. All other elements of the interface should be tied to the environment font setting and respond to any global changes in the environment. This includes (but is not limited to):
 
-    -   Text in context menus
+    - Text in context menus
 
-    -   Text in an editor adornment, such as light bulb menu text, quick find editor pane, and navigate to pane
+    - Text in an editor adornment, such as light bulb menu text, quick find editor pane, and navigate to pane
 
-    -   Label text in dialog boxes, such as Find in Files or Refactor
+    - Label text in dialog boxes, such as Find in Files or Refactor
 
 ### Accessing the environment font
  In Native or WinForms code, the environment font can be accessed by calling the method **IUIHostLocale::GetDialogFont** after querying the interface from the SID_SUIHostLocale service.
@@ -376,9 +376,9 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### Sentence case
  Sentence case is the standard capitalization method for writing in which only the first word of the sentence is capitalized, along with any proper nouns and the pronoun "I." In general, sentence case is easier for a worldwide audience to read, especially when the content will be translated by a machine. Use sentence case for:
 
-1.  **Status bar messages.** These are simple, short, and provide only status information. Example: “Loading project file”
+1. **Status bar messages.** These are simple, short, and provide only status information. Example: “Loading project file”
 
-2.  **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: “Select all items in list”
+2. **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: “Select all items in list”
 
 ### Text formatting
  Default text formatting in Visual Studio 2013 is controlled by an [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont). This service helps ensure a consistent font appearance throughout the IDE (integrated development environment), and you must use it to guarantee a consistent experience for your users.
@@ -390,36 +390,36 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 #### Bold text
  Bold text is used sparingly in Visual Studio and should be reserved for:
 
--   question labels in wizards
+- question labels in wizards
 
--   designating the active project in Solution Explorer
+- designating the active project in Solution Explorer
 
--   overridden values in the Properties tool window
+- overridden values in the Properties tool window
 
--   certain events in the Visual Basic editor dropdown lists
+- certain events in the Visual Basic editor dropdown lists
 
--   server-generated content in the document outline for web pages
+- server-generated content in the document outline for web pages
 
--   section headers in complex dialog or designer UI
+- section headers in complex dialog or designer UI
 
 #### Italics
  Visual Studio does not use either italic or bolded italic text.
 
 #### Color
 
--   Blue is reserved for hyperlinks (navigation and commanding) and should never be used for orientation.
+- Blue is reserved for hyperlinks (navigation and commanding) and should never be used for orientation.
 
--   Larger headings (environment font x 155% or greater) can be colored for these purposes:
+- Larger headings (environment font x 155% or greater) can be colored for these purposes:
 
-    -   To provide visual appeal to signature Visual Studio UI
+    - To provide visual appeal to signature Visual Studio UI
 
-    -   To call attention to a specific area
+    - To call attention to a specific area
 
-    -   To offer relief from the standard dark gray/black environment text color
+    - To offer relief from the standard dark gray/black environment text color
 
--   Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.
+- Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.
 
--   When using color in headings, you must adhere to the [Windows color guidelines](https://msdn.microsoft.com/library/dn742482.aspx), including contrast ratio and other accessibility considerations.
+- When using color in headings, you must adhere to the [Windows color guidelines](https://msdn.microsoft.com/library/dn742482.aspx), including contrast ratio and other accessibility considerations.
 
 ### Font size
  Visual Studio UI design features a lighter appearance with more white space. Where possible, chrome and title bars have been reduced or removed. While information density is a requirement in Visual Studio, typography continues to be important, with an emphasis on more open line spacing and a variation of font sizes and weights.
@@ -479,11 +479,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ### Padding and spacing
  Headings require space around them to give them the appropriate emphasis. This space varies depending on point size and what else is near the heading, such as a horizontal rule or a line of text in the environment font.
 
--   The ideal padding for a heading by itself should be 90% of the capital character height space. For example, a 28 pt Segoe UI Light heading has a cap height of 26 pt, and the padding should be approximately 23 pt, or about 31 pixels.
+- The ideal padding for a heading by itself should be 90% of the capital character height space. For example, a 28 pt Segoe UI Light heading has a cap height of 26 pt, and the padding should be approximately 23 pt, or about 31 pixels.
 
--   The minimum space around a heading should be 50% of the capital character height. Less space may be used when a heading is accompanied by a rule or other tight-fitting element.
+- The minimum space around a heading should be 50% of the capital character height. Less space may be used when a heading is accompanied by a rule or other tight-fitting element.
 
--   Bolded environment font text should follow default line height spacing and padding.
+- Bolded environment font text should follow default line height spacing and padding.
 
 ## See Also
  [MSDN: Fonts (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742483\(v=vs.85\).aspx)

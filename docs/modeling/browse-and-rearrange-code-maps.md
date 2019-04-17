@@ -31,9 +31,9 @@ You can customize code maps without affecting the underlying code in a solution.
 
  **Requirements**
 
--   To create code maps, you must have Visual Studio Enterprise.
+- To create code maps, you must have Visual Studio Enterprise.
 
--   You can view code maps and make limited edits to code maps in Visual Studio Professional.
+- You can view code maps and make limited edits to code maps in Visual Studio Professional.
 
 ##  <a name="ManageLargeGraphs"></a> Get started working with code maps
 
@@ -41,15 +41,15 @@ Create a code map (see [Map dependencies across your solutions](../modeling/map-
 
 After you generate the map, get started with these tips for reviewing your code:
 
--   Look at the natural dependency clusters in the code. On the map toolbar, choose **Layout**, **Quick Clusters**![Quick Clusters button on graph toolbar](../modeling/media/quickclustersicon.gif). See [Change the map layout](#Selecting).
+- Look at the natural dependency clusters in the code. On the map toolbar, choose **Layout**, **Quick Clusters**![Quick Clusters button on graph toolbar](../modeling/media/quickclustersicon.gif). See [Change the map layout](#Selecting).
 
      ![Dependency graph &#45; Quick Clusters layout](../modeling/media/dependencygraph_quickclusters.png)
 
--   Organize the map into smaller areas by grouping related nodes. Collapse those groups to see only the intergroup dependencies, which appear automatically. See [Group nodes](#OrganizeGroups).
+- Organize the map into smaller areas by grouping related nodes. Collapse those groups to see only the intergroup dependencies, which appear automatically. See [Group nodes](#OrganizeGroups).
 
--   Use filters to simplify the map and focus on the types of nodes or links you are interested in. See [Filter nodes and links](#FilterNodes).
+- Use filters to simplify the map and focus on the types of nodes or links you are interested in. See [Filter nodes and links](#FilterNodes).
 
--   Maximize the performance of large maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more information.For example, turn on **Skip Build** on the map toolbar so that Visual Studio doesn't rebuild your solution when you update items on the map.
+- Maximize the performance of large maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more information.For example, turn on **Skip Build** on the map toolbar so that Visual Studio doesn't rebuild your solution when you update items on the map.
 
 ##  <a name="Selecting"></a> Change the map layout
 
@@ -89,11 +89,11 @@ The icons shown in the Legend panel of the map reflect the settings you make in 
 
 Code maps show these kinds of links:
 
--   An individual link represents a single relationship between two nodes.
+- An individual link represents a single relationship between two nodes.
 
--   A cross-group link represents a relationship between two nodes in different groups.
+- A cross-group link represents a relationship between two nodes in different groups.
 
--   An aggregate link represents all the relationships that point in the same direction between two groups.
+- An aggregate link represents all the relationships that point in the same direction between two groups.
 
 > [!TIP]
 > By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.
@@ -195,63 +195,63 @@ You can display more or fewer items on a map in order to drill down or to simpli
 
 #### Add a comment to an existing node on the map
 
-1.  Select the code element. A toolbar appears above it.
+1. Select the code element. A toolbar appears above it.
 
      ![Dependency graph toolbar](../modeling/media/depedencygraph_toolbar.png)
 
-2.  On the toolbar, choose the third icon, **Create a new comment node with a new link to the selected node**.
+2. On the toolbar, choose the third icon, **Create a new comment node with a new link to the selected node**.
 
      \- or -
 
      Open the shortcut menu for the code element and choose **Edit** > **New Comment**.
 
-3.  Type your comments. To type on a new line, press **Shift** + **Enter**.
+3. Type your comments. To type on a new line, press **Shift** + **Enter**.
 
 #### Add a comment to the map itself
 
-1.  Open the shortcut menu for the map and choose **Edit** > **New Comment**.
+1. Open the shortcut menu for the map and choose **Edit** > **New Comment**.
 
-2.  Type your comments. To type on a new line, press **Shift** + **Enter**.
+2. Type your comments. To type on a new line, press **Shift** + **Enter**.
 
 ###  <a name="RenameNodes"></a>
 
 #### Rename a code element or link
 
-1.  Select the code element or the link you want to rename.
+1. Select the code element or the link you want to rename.
 
-2.  Press **F2**, or open the shortcut menu and choose **Edit** > **Rename**.
+2. Press **F2**, or open the shortcut menu and choose **Edit** > **Rename**.
 
-3.  When the edit box appears in the map, rename the code element or the link.
+3. When the edit box appears in the map, rename the code element or the link.
 
 **OR**
 
-1.  Open the shortcut menu and choose **Edit** > **Properties**.
+1. Open the shortcut menu and choose **Edit** > **Properties**.
 
-2.  Edit the **Label** property in the Visual Studio Properties window.
+2. Edit the **Label** property in the Visual Studio Properties window.
 
 #### Remove a code element or link from the map
 
-1.  Select the code element or link and press the **Delete** key.
+1. Select the code element or link and press the **Delete** key.
 
      \- or -
 
      Open the shortcut menu for the code element or link and choose **Edit** > **Remove**.
 
-2.  If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png) appears inside the group. Click this to retrieve missing elements and links.
+2. If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png) appears inside the group. Click this to retrieve missing elements and links.
 
--   You can remove code elements and links from a map without affecting the underlying code. When you delete them, their definitions are removed from the DGML (.dgml) file.
+- You can remove code elements and links from a map without affecting the underlying code. When you delete them, their definitions are removed from the DGML (.dgml) file.
 
--   Maps created by editing the DGML, by adding undefined code elements, or by using some earlier versions of Visual Studio, do not support this capability.
+- Maps created by editing the DGML, by adding undefined code elements, or by using some earlier versions of Visual Studio, do not support this capability.
 
 #### Flag a code element for follow-up
 
-1.  Select the code element or link you want to flag for follow-up.
+1. Select the code element or link you want to flag for follow-up.
 
-2.  Open the shortcut menu and choose **Edit** > **Flag for Follow Up**.
+2. Open the shortcut menu and choose **Edit** > **Flag for Follow Up**.
 
--   By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.
+- By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.
 
--   Change the background color of the element or clear the follow-up flag by choosing **Edit** > **Other Flag Colors**.
+- Change the background color of the element or clear the follow-up flag by choosing **Edit** > **Other Flag Colors**.
 
 ##  <a name="ChangeStyleCodeOrLink"></a> Change the style of a code element or link
 
@@ -259,18 +259,18 @@ You can change the icons on code elements and the colors of code elements and li
 
 ### To apply a predefined color or icon to code elements or links with a certain category or property
 
-1.  On the map toolbar, choose **Legend**.
+1. On the map toolbar, choose **Legend**.
 
-2.  In the **Legend** box, see if the code element category or property already appears in the list.
+2. In the **Legend** box, see if the code element category or property already appears in the list.
 
-3.  If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.
+3. If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.
 
     > [!NOTE]
     > To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
 
-4.  In the **Legend** box, click the icon next to the category or property you added or you want to change.
+4. In the **Legend** box, click the icon next to the category or property you added or you want to change.
 
-5.  Use the following table to select the style that you want to change:
+5. Use the following table to select the style that you want to change:
 
     |**To change the**|**Choose**|
     |-|-|
@@ -281,7 +281,7 @@ You can change the icons on code elements and the colors of code elements and li
 
      The **Color Set Picker** or **Icon Set Picker** dialog box appears for you to select a color or icon.
 
-6.  In the **Color Set Picker** or **Icon Set Picker** dialog box, do one of the following:
+6. In the **Color Set Picker** or **Icon Set Picker** dialog box, do one of the following:
 
     |**To apply a**|**Perform these steps**|
     |-|-|
@@ -295,9 +295,9 @@ You can change the icons on code elements and the colors of code elements and li
 
 You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:
 
-1.  Open the shortcut menu for a style in the **Legend** box.
+1. Open the shortcut menu for a style in the **Legend** box.
 
-2.  Perform one of the following tasks:
+2. Perform one of the following tasks:
 
     |**To**|**Choose**|
     |-|-|
@@ -308,11 +308,11 @@ You can rearrange, delete, or temporarily inactivate styles in the **Legend** bo
 
 ##  <a name="CopyLegend"></a> Copy styles from one map to another
 
-1.  Make sure the **Legend** box appears on the source map. If it is not visible, on the map toolbar, click **Legend**.
+1. Make sure the **Legend** box appears on the source map. If it is not visible, on the map toolbar, click **Legend**.
 
-2.  Open the shortcut menu for the **Legend** box. Choose **Copy Legend**.
+2. Open the shortcut menu for the **Legend** box. Choose **Copy Legend**.
 
-3.  Paste the legend onto the target map.
+3. Paste the legend onto the target map.
 
 ##  <a name="MergeMaps"></a> Merge code maps
 

@@ -33,21 +33,21 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 ### To add a certificate to the Trusted Publishers store under the trusted root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add certificate.cer -c -s -r localMachine TrustedPublisher**  
   
 ### To add a certificate to the Trusted Publishers store under a different root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add good.cer -c -s -r localMachine Root**  
   

@@ -23,13 +23,13 @@ manager: jillfra
   
  This implementation of `IDebugProperty2::GetPropertyInfo` performs the following tasks:  
   
-1.  Obtains the local's name, property, and attributes from the [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) structure filled in when the class was instantiated and initialized.  
+1. Obtains the local's name, property, and attributes from the [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) structure filled in when the class was instantiated and initialized.  
   
-2.  Obtains the local's type from the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object.  
+2. Obtains the local's type from the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object.  
   
-3.  Obtains the local's value from the `IDebugField` object. This field is bound to the memory location of the local using the [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object and the value is obtained from the resulting [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+3. Obtains the local's value from the `IDebugField` object. This field is bound to the memory location of the local using the [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object and the value is obtained from the resulting [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
-4.  Returns all requested properties in a [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure.  
+4. Returns all requested properties in a [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure.  
   
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::GetPropertyInfo` for a method's local in managed code. It also shows a helper function, `Field.GetType`, that is used to get the field's type. `Field.GetValue` is shown in [Evaluating Locals](../../extensibility/debugger/evaluating-locals.md). The helper function `Field.MapModifiersToAttributes` (not shown) simply converts a field's [FIELD_MODIFIERS](../../extensibility/debugger/reference/field-modifiers.md) flags to [DBG_ATTRIB_FLAGS](../../extensibility/debugger/reference/dbg-attrib-flags.md) values.  

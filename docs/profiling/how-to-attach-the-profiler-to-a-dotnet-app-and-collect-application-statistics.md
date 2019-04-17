@@ -34,7 +34,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv /sampleon** [**/samplelineoff**]
 
-   -   The **/samplelineoff** option disables the collection of source code line number data.
+   - The **/samplelineoff** option disables the collection of source code line number data.
 
 3. Start the profiler. Type:
 
@@ -60,11 +60,11 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfCmd /attach:**{`PID`&#124;`ProcessName`} [`Sample Event`] [**/targetclr:**`Version`]
 
-   -   `PID` specifies the process ID of the target application. `ProcessName` specifies the name of the process. Note that if you specify `ProcessName` and multiple processes that have the same name are running, results are unpredictable. You can view the process IDs of all running processes in Windows Task Manager.
+   - `PID` specifies the process ID of the target application. `ProcessName` specifies the name of the process. Note that if you specify `ProcessName` and multiple processes that have the same name are running, results are unpredictable. You can view the process IDs of all running processes in Windows Task Manager.
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
+   - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
-   -   By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
+   - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
 
    |||
    |-|-|
@@ -79,7 +79,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -92,19 +92,19 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Perform one of the following steps to detach the profiler from the target application:
+1. Perform one of the following steps to detach the profiler from the target application:
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
          -or-
 
-    -   Close the target application.
+    - Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 
-3.  (Optional) Clear the profiling environment variables. Type:
+3. (Optional) Clear the profiling environment variables. Type:
 
      **VSPerfClrEnv /off**
 

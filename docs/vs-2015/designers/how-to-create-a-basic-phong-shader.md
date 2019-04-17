@@ -17,11 +17,11 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Adding nodes to a shader graph  
+- Adding nodes to a shader graph  
   
--   Disconnecting nodes  
+- Disconnecting nodes  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## The Phong lighting model  
  The Phong lighting model extends the Lambert lighting model to include specular highlighting, which simulates the reflective properties of a surface. The specular component provides additional illumination from the same directional light sources that are used in the Lambert lighting model, but its contribution to the final color is processed differently. Specular highlighting affects every surface in the scene differently, based on the relationship between the view direction, the direction of the light sources, and the orientation of the surface. It's a product of the specular color, specular power, and orientation of the surface, and the color, intensity, and direction of the light sources. Surfaces that reflect the light source directly at the viewer receive the maximum specular contribution and surfaces that reflect the light source away from the viewer receive no contribution. Under the Phong lighting model, one or more specular components are combined to determine the color and intensity of specular highlighting for each point on the object, and then are added to the result of the Lambert lighting model to produce the final color of the pixel.  

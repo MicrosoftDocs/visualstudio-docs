@@ -37,14 +37,14 @@ ms.workload:
 
 ### To remove the ExcelLocale1033Attribute
 
-1.  With the project open in Visual Studio, open **Solution Explorer**.
+1. With the project open in Visual Studio, open **Solution Explorer**.
 
-2.  Under the **Properties** node (for C#) or the **My Project** node (for Visual Basic), double-click the AssemblyInfo code file to open it in the code editor.
+2. Under the **Properties** node (for C#) or the **My Project** node (for Visual Basic), double-click the AssemblyInfo code file to open it in the code editor.
 
     > [!NOTE]
     >  In Visual Basic projects, you must click the **Show All Files** button in **Solution Explorer** to see the AssemblyInfo code file.
 
-3.  Locate the `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` and either remove it from the file or comment it out.
+3. Locate the `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` and either remove it from the file or comment it out.
 
     ```vb
     <Assembly: ExcelLocale1033Proxy(True)>
@@ -59,11 +59,11 @@ ms.workload:
 
 ### To remove the reference to the ExcelLocal1033Proxy class
 
-1.  Open the project in Visual Studio, and then open **Solution Explorer**.
+1. Open the project in Visual Studio, and then open **Solution Explorer**.
 
-2.  In **Solution Explorer**, open the shortcut menu for *ThisAddin.cs* (for C#) or *ThisAddin.vb* (for Visual Basic), and then choose **View Code**.
+2. In **Solution Explorer**, open the shortcut menu for *ThisAddin.cs* (for C#) or *ThisAddin.vb* (for Visual Basic), and then choose **View Code**.
 
-3.  In the Code Editor, in the `VSTO generated code` region, remove or comment out the following line of code.
+3. In the Code Editor, in the `VSTO generated code` region, remove or comment out the following line of code.
 
     ```vb
     Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)
@@ -156,7 +156,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  If you retarget the project to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must make one of the following changes to your code:
 
--   Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.
+- Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.
 
     ```vb
     DoSomethingToSheet(Globals.Sheet1.Base)
@@ -166,7 +166,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     DoSomethingToSheet(Globals.Sheet1.Base);
     ```
 
--   Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.
+- Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.
 
     ```vb
     Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)

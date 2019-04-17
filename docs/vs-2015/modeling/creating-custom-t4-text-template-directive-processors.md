@@ -36,9 +36,9 @@ The *text template transformation process* takes a *text template* file as the i
   
  Some examples of custom directive processors could be:  
   
--   A directive processor to return data from a database that accepts a user name and password as parameters.  
+- A directive processor to return data from a database that accepts a user name and password as parameters.  
   
--   A directive processor to open and read a file that accepts the name of the file as a parameter.  
+- A directive processor to open and read a file that accepts the name of the file as a parameter.  
   
 ### Principal parts of a custom directive processor  
  To develop a directive processor, you must create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  

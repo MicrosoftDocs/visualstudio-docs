@@ -21,24 +21,24 @@ ms.workload:
 
  You might need to follow the manual installation instructions below in the following situations:
 
--   You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server. For example, you want to use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to manage document-level solutions on a server.
+- You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server. For example, you want to use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to manage document-level solutions on a server.
 
--   You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
+- You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
 
     > [!NOTE]
     >  You must be an administrator on the development computer to install the .NET Framework and the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
 ## To install the Visual Studio Tools for Office runtime
 
-1.  Install the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+1. Install the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
-    -   To download the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], see [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178957).
+    - To download the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], see [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178957).
 
-    -   To download the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)], see [Microsoft .NET Framework 4 Client Profile (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178958).
+    - To download the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)], see [Microsoft .NET Framework 4 Client Profile (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178958).
 
-    -   To download the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], see [Microsoft .NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653).
+    - To download the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], see [Microsoft .NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653).
 
-2.  Run *vstor_redist.exe* to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+2. Run *vstor_redist.exe* to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
      You can download these setup files from [Visual Studio 2010 Tools for Office runtime](http://go.microsoft.com/fwlink/?LinkId=140384). The prerequisites for the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] match the prerequisites for the .NET Framework.
 

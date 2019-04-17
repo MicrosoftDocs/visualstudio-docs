@@ -21,7 +21,7 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
   
 #### Sign in to Visual Studio  
   
-1.  Sign into Visual Studio 2015 with a Microsoft account or an organizational account. You should see your user name reflected in the upper right corner of the window, similar to this:  
+1. Sign into Visual Studio 2015 with a Microsoft account or an organizational account. You should see your user name reflected in the upper right corner of the window, similar to this:  
   
      ![Currentlly logged in user](../ide/media/vs2015-username.png "VS2015_UserName")  
   
@@ -38,9 +38,9 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
   
 ### Access your Azure account via Add Connected Service dialog  
   
-1.  Create a Universal App project in C#.  
+1. Create a Universal App project in C#.  
   
-2.  Right click on the project node in Solution Explorer and choose **Add > Connected Service**. The Add Connected Service wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.  
+2. Right click on the project node in Solution Explorer and choose **Add > Connected Service**. The Add Connected Service wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.  
   
     > [!WARNING]
     >  If this is the first time you are creating a Store app in Visual Studio 2015 on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124; . Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/library/windows/apps/dn706236.aspx).  

@@ -65,13 +65,13 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To debug JavaScript code in the FlipView app  
   
-1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
+1. Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Store Apps**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
+2. Choose **JavaScript** > **Store Apps**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
   
-3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
+3. Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of default.html, replace the existing HTML code with this code:  
+4. In the BODY element of default.html, replace the existing HTML code with this code:  
   
     ```html  
     <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
@@ -85,7 +85,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     </div>  
     ```  
   
-5.  Open default.css and add the CSS for the `#fView` selector:  
+5. Open default.css and add the CSS for the `#fView` selector:  
   
     ```css  
     #fView {  
@@ -95,7 +95,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     }  
     ```  
   
-6.  Open default.js and replace the code with the following JavaScript code:  
+6. Open default.js and replace the code with the following JavaScript code:  
   
     ```javascript  
     (function () {  
@@ -147,11 +147,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     })();  
     ```  
   
-7.  If a debugging target isn't already selected, choose **Simulator** or, for Windows Phone, **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
+7. If a debugging target isn't already selected, choose **Simulator** or, for Windows Phone, **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
   
      ![Select debug target list](../debugger/media/js-select-target.png "JS_Select_Target")  
   
-8.  Press F5 to start the debugger.  
+8. Press F5 to start the debugger.  
   
      The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
   
@@ -210,11 +210,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To set a breakpoint and debug the app  
   
-1.  In the default.html file of the `FlipView` app that you previously created, open the shortcut menu for the `updateImages()` function, and then choose **Breakpoint** > **Insert Breakpoint**.  
+1. In the default.html file of the `FlipView` app that you previously created, open the shortcut menu for the `updateImages()` function, and then choose **Breakpoint** > **Insert Breakpoint**.  
   
-2.  Choose **Local Machine** or **Emulator 8.1 WVGA 4 inch 512MB** in the drop-down list next to the **Start Debugging** button on the **Debug** toolbar.  
+2. Choose **Local Machine** or **Emulator 8.1 WVGA 4 inch 512MB** in the drop-down list next to the **Start Debugging** button on the **Debug** toolbar.  
   
-3.  Choose **Debug** > **Start Debugging**, or press F5.  
+3. Choose **Debug** > **Start Debugging**, or press F5.  
   
      The app enters break mode when execution reaches the `updateImages()` function, and the current line of program execution is highlighted in yellow.  
   
@@ -222,25 +222,25 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      You can change the values of variables to immediately affect the program state without ending the current debugging session.  
   
-4.  Type `updateImages` at the prompt and press Enter. A visualizer for the function appears in the console window.  
+4. Type `updateImages` at the prompt and press Enter. A visualizer for the function appears in the console window.  
   
-5.  Select the function in the console window to show the function implementation.  
+5. Select the function in the console window to show the function implementation.  
   
      The following illustration shows the console window at this point.  
   
      ![JavaScript Console Window showing a visualizer](../debugger/media/js-console-function-visualizer.png "JS_Console_Function_Visualizer")  
   
-6.  Copy one line of the function from the output window to the input prompt, and change the index value to 3:  
+6. Copy one line of the function from the output window to the input prompt, and change the index value to 3:  
   
     ```javascript  
     pages.setAt(3, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
     ```  
   
-7.  Press Enter to run the line of code.  
+7. Press Enter to run the line of code.  
   
      If you want to step through the code line by line, press F11, or press F5 to continue program execution.  
   
-8.  Press F5 to continue program execution. The `FlipView` app appears, and now all four pages show one of the non-default images.  
+8. Press F5 to continue program execution. The `FlipView` app appears, and now all four pages show one of the non-default images.  
   
      To switch back to Visual Studio, press F12 or Alt+Tab.  
   
@@ -263,11 +263,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
+- [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
   
--   Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
+- Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
   
--   Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
+- Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

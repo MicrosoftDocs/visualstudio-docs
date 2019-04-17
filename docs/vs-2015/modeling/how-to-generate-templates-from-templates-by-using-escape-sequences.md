@@ -19,7 +19,7 @@ You can create a text template that creates another text template as its generat
   
 ### To generate a text template from within a text template  
   
--   Use the backslash (\\) as an escape character to produce the necessary markup tags within the text template for directives, statements, expressions, and class features in a separate text template file.  
+- Use the backslash (\\) as an escape character to produce the necessary markup tags within the text template for directives, statements, expressions, and class features in a separate text template file.  
   
     ```  
     \<#@ directive \#>  

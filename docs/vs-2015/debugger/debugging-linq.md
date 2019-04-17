@@ -33,9 +33,9 @@ manager: jillfra
   
  To display the result of a query, the debugger must evaluate it. This implicit evaluation, which occurs when you view a LINQ query result in the debugger, has some effects you should consider:  
   
--   Each evaluation of the query takes time. Expanding the results node takes time. For some queries, repeated evaluation might result in a noticeable performance penalty.  
+- Each evaluation of the query takes time. Expanding the results node takes time. For some queries, repeated evaluation might result in a noticeable performance penalty.  
   
--   Evaluating a query can result in side effects, which are changes to the value of data or the state of your program. Not all queries have side effects. To determine whether a query may be safely evaluated without side effects, you must understand the code that implements the query.  
+- Evaluating a query can result in side effects, which are changes to the value of data or the state of your program. Not all queries have side effects. To determine whether a query may be safely evaluated without side effects, you must understand the code that implements the query.  
   
 ##  <a name="BKMK_SteppingAndLinq"></a> Stepping and LINQ  
  When you are debugging LINQ code, stepping has some behavioral differences you should know about.  

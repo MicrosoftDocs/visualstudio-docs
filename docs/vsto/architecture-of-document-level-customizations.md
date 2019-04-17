@@ -51,18 +51,18 @@ ms.workload:
 #### Design time
  The design-time experience includes the following steps:
 
-1.  The developer creates a document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The project includes the document and the assembly that runs behind the document. The document might already exist (created by a designer), or a new document can be created along with the project.
+1. The developer creates a document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The project includes the document and the assembly that runs behind the document. The document might already exist (created by a designer), or a new document can be created along with the project.
 
-2.  The designer—either the developer who creates the project or someone else—creates the final look and feel of the document for the end user.
+2. The designer—either the developer who creates the project or someone else—creates the final look and feel of the document for the end user.
 
 #### Runtime
  The run-time experience includes the following steps:
 
-1.  The end user opens a document or workbook that has managed code extensions.
+1. The end user opens a document or workbook that has managed code extensions.
 
-2.  The document or workbook loads the compiled assembly.
+2. The document or workbook loads the compiled assembly.
 
-3.  The assembly responds to events as the user works in the document or workbook.
+3. The assembly responds to events as the user works in the document or workbook.
 
 #### Developer and end-user perspective compared
  Because the developer works primarily in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and the end user works in Word or Excel, there are two ways of understanding document-level customizations.
@@ -117,21 +117,21 @@ ms.workload:
 ### Loading process
  The following steps occur when a user opens a document that is part of a Microsoft Office solution.
 
-1.  The Microsoft Office application checks the custom document properties to see whether there are managed code extensions associated with the document. For more information, see [Custom document properties overview](../vsto/custom-document-properties-overview.md).
+1. The Microsoft Office application checks the custom document properties to see whether there are managed code extensions associated with the document. For more information, see [Custom document properties overview](../vsto/custom-document-properties-overview.md).
 
-2.  If there are managed code extensions, the application loads *VSTOEE.dll*, which loads *VSTOLoader.dll*. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+2. If there are managed code extensions, the application loads *VSTOEE.dll*, which loads *VSTOLoader.dll*. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-3.  *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+3. *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
-4.  If the document is opened from a location other than the local computer, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] verifies that the location of the document is in the **Trusted Locations** list in the **Trust Center Settings** for that particular Office application. If the document location is not in a trusted location, the customization is not trusted, and the load process stops here.
+4. If the document is opened from a location other than the local computer, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] verifies that the location of the document is in the **Trusted Locations** list in the **Trust Center Settings** for that particular Office application. If the document location is not in a trusted location, the customization is not trusted, and the load process stops here.
 
-5.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installs the solution if it has not been installed yet, downloads the most recent application and deployment manifests, and performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
+5. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installs the solution if it has not been installed yet, downloads the most recent application and deployment manifests, and performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-6.  If the customization is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+6. If the customization is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-7.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the customization assembly.
+7. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the customization assembly.
 
-8.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the customization assembly into the application domain.
+8. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the customization assembly into the application domain.
 
 9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md)
 

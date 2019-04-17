@@ -31,24 +31,24 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BKMK_Create_the_CpuUseDemo_project"></a> Create the CpuUseDemo project  
  **CpuUseDemo** is an app that was created to demonstrate how to collect and analyze CPU usage data. The buttons generate a number by calling a method that selects the maximum value from multiple calls to a function. The called function creates a very large number of random values and then returns the last one. The data is displayed in a text box.  
   
-1.  Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
+1. Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
   
      ![Create the CpuUseDemoProject](../profiling/media/cpu-use-newproject.png "CPU_USE_NewProject")  
   
-2.  Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
+2. Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
   
-3.  Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
+3. Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
   
-4.  Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
+4. Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
   
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
  ![Run a release build of the app in the simulator](../profiling/media/cpu-use-wt-setsimulatorandretail.png "CPU_USE_WT_SetSimulatorAndRetail")  
   
 1. In Visual Studio, set the deployment target to **Simulator** and the solution configuration to **Release**.  
   
-   -   Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
+   - Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
   
-   -   Running this app in **Release** mode gives you a better view of the actual performance of your app.  
+   - Running this app in **Release** mode gives you a better view of the actual performance of your app.  
   
 2. On the **Debug** menu, choose **Performance Profiler...**.  
   
@@ -135,18 +135,18 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  ![Expanded GetMaxNumberAsyncButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
--   `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
+- `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
--   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
+- `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
   
 ##  <a name="BKMK_Next_steps"></a> Next steps  
  The CpuUseDemo app is not the most brilliant of apps, but you can extend its utility by using it to experiment with asynchronous operation and other tools in the Performance and Diagnostics hub.  
   
--   Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
+- Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
   
--   Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
+- Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
   
      Create a new session in the Diagnostic and Performance hub, and add both the XAML UI Responsive tool and the CPU Usage tool. Run the collection scenario. If you’ve read this far, the report probably doesn’t tell you anything that you haven’t already figured out, but the differences in the **UI Thread utilization** timeline graph for the two methods is striking. In complex, real-world apps, the combination of tools can be very helpful.  
   

@@ -13,19 +13,19 @@ ms.workload:
 
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:
 
--   Create a new project.
+- Create a new project.
 
--   Test (debug) an application.
+- Test (debug) an application.
 
--   Add basic controls like check boxes and buttons to a form.
+- Add basic controls like check boxes and buttons to a form.
 
--   Position controls on a form using layouts.
+- Position controls on a form using layouts.
 
--   Add **Open File** and **Color** dialog boxes to a form.
+- Add **Open File** and **Color** dialog boxes to a form.
 
--   Write code using IntelliSense and code snippets.
+- Write code using IntelliSense and code snippets.
 
--   Write event handler methods.
+- Write event handler methods.
 
 When you finish, your program will look like the following picture:
 

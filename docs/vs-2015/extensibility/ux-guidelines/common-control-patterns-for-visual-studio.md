@@ -19,30 +19,30 @@ manager: jillfra
 
 #### Common controls in this topic
 
--   [Scrollbars](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
+- [Scrollbars](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
 
--   [Input fields](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
+- [Input fields](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
 
--   [Combo boxes and drop-down lists](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
+- [Combo boxes and drop-down lists](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
 
--   [Check boxes](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
+- [Check boxes](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
 
--   [Radio buttons](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
+- [Radio buttons](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
 
--   [Group frames](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
+- [Group frames](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
 
--   [Text controls](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
+- [Text controls](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
 
--   [Buttons and hyperlinks](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
+- [Buttons and hyperlinks](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
 
--   [Tree views](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
+- [Tree views](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
 
 #### Visual style
  The first thing to consider when styling controls is whether the controls will be used in themed UI. Controls in standard UI are non-themed UI and must follow [normal Windows Desktop style](https://msdn.microsoft.com/library/windows/desktop/dn742399\(v=vs.85\).aspx), meaning that they are not re-templated and should appear in their default control appearance.
 
--   **Standard (utility) dialogs:** not themed. Do not re-template. Use basic control style defaults.
+- **Standard (utility) dialogs:** not themed. Do not re-template. Use basic control style defaults.
 
--   **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
+- **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
 
 ###  <a name="BKMK_Scrollbars"></a> Scrollbars
  Scrollbars should follow [common interaction patterns for Windows scrollbars](https://msdn.microsoft.com/library/windows/desktop/bb787527\(v=vs.85\).aspx) unless they are augmented with content information, such as in the code editor.
@@ -52,19 +52,19 @@ manager: jillfra
 
 #### Visual style
 
--   Input fields should not be styled in utility dialogs. Use the basic style intrinsic to the control.
+- Input fields should not be styled in utility dialogs. Use the basic style intrinsic to the control.
 
--   Themed input fields should only be used in themed dialogs and tool windows.
+- Themed input fields should only be used in themed dialogs and tool windows.
 
 #### Specialized interactions
 
--   Read-only fields will have a gray (disabled) background but default (active) foreground.
+- Read-only fields will have a gray (disabled) background but default (active) foreground.
 
--   Required fields should have **\<Required>** as watermarks within them. You should not change the color of the background except in rare situations.
+- Required fields should have **\<Required>** as watermarks within them. You should not change the color of the background except in rare situations.
 
--   Error validation: See [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
+- Error validation: See [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
 
--   Input fields should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, such as a path. Length might be an indication to the user of limitations as to how many characters are allowed in the field.
+- Input fields should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, such as a path. Length might be an indication to the user of limitations as to how many characters are allowed in the field.
 
      ![Incorrect input field control width](../../extensibility/ux-guidelines/media/0707-01-incorrectinputfieldcontrol.png "0707-01_IncorrectInputFieldControl")
      **Incorrect input field length: It is unlikely that the name will be this long.**
@@ -77,9 +77,9 @@ manager: jillfra
 
 #### Visual style
 
--   In utility dialogs, do not re-template the control. Use the basic style intrinsic to the control.
+- In utility dialogs, do not re-template the control. Use the basic style intrinsic to the control.
 
--   In themed UI, combo boxes and drop-downs follow the standard theming for the controls.
+- In themed UI, combo boxes and drop-downs follow the standard theming for the controls.
 
 #### Layout
  Combo boxes and drop-downs should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, such as a path.
@@ -97,15 +97,15 @@ manager: jillfra
 
 #### Visual style
 
--   In utility dialogs, do not re-template the control. Use the basic style intrinsic to the control.
+- In utility dialogs, do not re-template the control. Use the basic style intrinsic to the control.
 
--   In themed UI, check boxes follow the standard theming for the controls.
+- In themed UI, check boxes follow the standard theming for the controls.
 
 #### Specialized interactions
 
--   Interaction with a check box must never pop a dialog or navigate to another area.
+- Interaction with a check box must never pop a dialog or navigate to another area.
 
--   Align check boxes with the baseline of the first line of text.
+- Align check boxes with the baseline of the first line of text.
 
      ![Incorrect check box alignment](../../extensibility/ux-guidelines/media/0707-05-incorrectcheckboxalign.png "0707-05_IncorrectCheckBoxAlign")
      **Incorrect check box alignment: Check box is centered on the text.**
@@ -130,11 +130,11 @@ manager: jillfra
 
 #### Layout
 
--   It is not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.
+- It is not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.
 
--   Never use a group frame for a single control.
+- Never use a group frame for a single control.
 
--   It is sometimes acceptable to use a horizontal rule instead of a group frame container.
+- It is sometimes acceptable to use a horizontal rule instead of a group frame container.
 
 ##  <a name="BKMK_TextControls"></a> Text controls
 
@@ -144,11 +144,11 @@ manager: jillfra
 
 ##### Utility (standard) dialogs)
 
--   In general, follow the Windows Desktop guidance for control labels.
+- In general, follow the Windows Desktop guidance for control labels.
 
--   In utility dialogs, labels should appear non-bold, in the standard environment font and text color. See [Fonts and Formatting for Visual Studio](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md).
+- In utility dialogs, labels should appear non-bold, in the standard environment font and text color. See [Fonts and Formatting for Visual Studio](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md).
 
--   Ellipses should always follow labels.
+- Ellipses should always follow labels.
 
 ##### Signature (themed) dialogs)
  Label controls may be bold or light gray.
@@ -166,11 +166,11 @@ manager: jillfra
 #### Instructional text
  Some interface elements benefit from instructional text to help the user understand the UI purpose or to indicate which action to take.
 
--   Instructional text is most common at the top of dialogs, but can appear in other areas to give instruction to a complex control grouping.
+- Instructional text is most common at the top of dialogs, but can appear in other areas to give instruction to a complex control grouping.
 
--   Instructional text is non-interactive, but may contain hyperlinks to Help topics.
+- Instructional text is non-interactive, but may contain hyperlinks to Help topics.
 
--   Use instructional text sparingly and only when needed.
+- Use instructional text sparingly and only when needed.
 
 ##### Formatting
  Instructional text should be Environment font, standard (non-themed) control text. See [Fonts and Formatting for Visual Studio](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md).
@@ -350,11 +350,11 @@ manager: jillfra
 
 #### Visual style
 
--   Hyperlinks should always use [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService). If a hyperlink is not styled correctly, it flashes red when active or shows a different color after being visited.
+- Hyperlinks should always use [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService). If a hyperlink is not styled correctly, it flashes red when active or shows a different color after being visited.
 
--   Do not include underlines at the control resting state unless the link is a sentence fragment within a full sentence, such as in a watermark.
+- Do not include underlines at the control resting state unless the link is a sentence fragment within a full sentence, such as in a watermark.
 
--   Underlines should not appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
+- Underlines should not appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
 
 ##  <a name="BKMK_TreeViews"></a> Tree views
 
@@ -365,9 +365,9 @@ manager: jillfra
 
 #### In this topic
 
--   [Visual style](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViewVisualStyle)
+- [Visual style](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViewVisualStyle)
 
--   [Interactions](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViewInteractions)
+- [Interactions](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViewInteractions)
 
 ###  <a name="BKMK_TreeViewVisualStyle"></a> Visual style
 
@@ -418,15 +418,15 @@ manager: jillfra
 ##### Tree view control
  Visual Studio tree controls should follow common keyboard navigation:
 
--   **Up Arrow:** Select items by moving up the tree
+- **Up Arrow:** Select items by moving up the tree
 
--   **Down Arrow:** Select items by moving down the tree
+- **Down Arrow:** Select items by moving down the tree
 
--   **Right Arrow:** Expand a node in the tree
+- **Right Arrow:** Expand a node in the tree
 
--   **Left Arrow:** Collapse a node in the tree
+- **Left Arrow:** Collapse a node in the tree
 
--   **Enter key:** Initiate, load, execute selected item
+- **Enter key:** Initiate, load, execute selected item
 
 ##### Trid (tree view and grid view)
  A trid control is a complex control which contains a tree view within a grid. Expanding, collapsing, and navigating the tree should respect the same keyboard commands as a tree view, with the following additions:

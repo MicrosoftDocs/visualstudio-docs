@@ -32,17 +32,17 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 ## To add user code to a TableAdapter in an n-tier application
 
-1.  Locate the project that contains the *.xsd* file.
+1. Locate the project that contains the *.xsd* file.
 
-2.  Double click the *.xsd* file to open the **Dataset Designer**.
+2. Double click the *.xsd* file to open the **Dataset Designer**.
 
-3.  Right-click the TableAdapter that you want to add code to, and then select **View Code**.
+3. Right-click the TableAdapter that you want to add code to, and then select **View Code**.
 
      A partial class is created and opens in the Code Editor.
 
-4.  Add code inside the partial class declaration.
+4. Add code inside the partial class declaration.
 
-5.  The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
+5. The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
 
     ```vb
     Partial Public Class CustomersTableAdapter

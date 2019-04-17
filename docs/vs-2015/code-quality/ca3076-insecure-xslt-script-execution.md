@@ -29,9 +29,9 @@ manager: "wpickett"
 
 ## How to Fix Violations
 
--   Replace the insecure XsltSettings argument with XsltSettings.<xref:System.Xml.Xsl.XsltSettings.Default%2A> or with an instance that has disabled document function and script execution.
+- Replace the insecure XsltSettings argument with XsltSettings.<xref:System.Xml.Xsl.XsltSettings.Default%2A> or with an instance that has disabled document function and script execution.
 
--   Replace the <xref:System.Xml.XmlResolver> argument with null or an <xref:System.Xml.XmlSecureResolver> instance.
+- Replace the <xref:System.Xml.XmlResolver> argument with null or an <xref:System.Xml.XmlSecureResolver> instance.
 
 ## When to Suppress Warnings
  Unless you're sure that the input is known to be from a trusted source, do not suppress a rule from this warning.

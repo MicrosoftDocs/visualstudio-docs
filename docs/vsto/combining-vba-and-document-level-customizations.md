@@ -80,17 +80,17 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Requirements
  Before you can enable VBA code to call into the customization assembly, your project must meet the following requirements:
 
--   The document must have one of the following file name extensions:
+- The document must have one of the following file name extensions:
 
-    -   For Word: *.docm* or *.doc*
+    - For Word: *.docm* or *.doc*
 
-    -   For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
+    - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
 
--   The document must already contain a VBA project that has VBA code in it.
+- The document must already contain a VBA project that has VBA code in it.
 
--   VBA code in the document must be allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
+- VBA code in the document must be allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
 
--   The Office project must contain at least one public class that contains one or more public members that you are exposing to VBA.
+- The Office project must contain at least one public class that contains one or more public members that you are exposing to VBA.
 
      You can expose methods, properties, and events to VBA. The class that you expose can be a host item class (such as `ThisDocument` for Word, or `ThisWorkbook` and `Sheet1` for Excel) or another class that you define in your project. For more information about host items, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
@@ -103,11 +103,11 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
    To do this, you must perform the following main steps:
 
-  1.  Expose the class to COM.
+  1. Expose the class to COM.
 
-  2.  Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.
+  2. Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.
 
-  3.  Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.
+  3. Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.
 
   For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).
 
@@ -223,9 +223,9 @@ GetManagedClass(pdispInteropObject Object) As Object
 
 2. It adds a reference to the following type libraries in the VBA project in the document:
 
-   -   The type library for your customization assembly.
+   - The type library for your customization assembly.
 
-   -   The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
    When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:
 

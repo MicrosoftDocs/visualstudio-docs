@@ -31,17 +31,17 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
 
  **Target Application Type**
 
--   [.NET Framework stand-alone components](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
+- [.NET Framework stand-alone components](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
 
--   [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
+- [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
 
--   [Statically compiled ASP.NET web applications](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
+- [Statically compiled ASP.NET web applications](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
 
--   [Dynamically compiled ASP.NET web applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
+- [Dynamically compiled ASP.NET web applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
 
--   [.NET services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [.NET services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
--   [Native services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [Native services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
 ## Use .NET memory methods to collect memory allocation and object lifetime data
  The Profiling Tools .NET memory method enables you to collect [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data and information about the lifetime of objects in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].

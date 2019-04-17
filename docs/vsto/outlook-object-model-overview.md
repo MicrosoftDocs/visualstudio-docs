@@ -31,21 +31,21 @@ ms.workload:
 ## Access objects in an Outlook project
  Outlook provides many objects with which you can interact. To use the object model effectively, you should be familiar with the following top-level objects:
 
--   <xref:Microsoft.Office.Interop.Outlook.Application>
+- <xref:Microsoft.Office.Interop.Outlook.Application>
 
--   <xref:Microsoft.Office.Interop.Outlook.Explorer>
+- <xref:Microsoft.Office.Interop.Outlook.Explorer>
 
--   <xref:Microsoft.Office.Interop.Outlook.Inspector>
+- <xref:Microsoft.Office.Interop.Outlook.Inspector>
 
--   <xref:Microsoft.Office.Interop.Outlook.Folder>
+- <xref:Microsoft.Office.Interop.Outlook.Folder>
 
--   <xref:Microsoft.Office.Interop.Outlook.MailItem>
+- <xref:Microsoft.Office.Interop.Outlook.MailItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>
+- <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.TaskItem>
+- <xref:Microsoft.Office.Interop.Outlook.TaskItem>
 
--   <xref:Microsoft.Office.Interop.Outlook.ContactItem>
+- <xref:Microsoft.Office.Interop.Outlook.ContactItem>
 
 ### Application object
  The <xref:Microsoft.Office.Interop.Outlook.Application> object represents the Outlook application, and it is the highest-level object in the Outlook object model. Some of the most important members of this object include:
@@ -66,22 +66,22 @@ ms.workload:
 
  To get an <xref:Microsoft.Office.Interop.Outlook.Explorer> object, do one of the following:
 
--   Use the <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property of the <xref:Microsoft.Office.Interop.Outlook.Application> object to access all of the <xref:Microsoft.Office.Interop.Outlook.Explorer> objects in Outlook.
+- Use the <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property of the <xref:Microsoft.Office.Interop.Outlook.Application> object to access all of the <xref:Microsoft.Office.Interop.Outlook.Explorer> objects in Outlook.
 
--   Use the <xref:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer%2A> method of the <xref:Microsoft.Office.Interop.Outlook.Application> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> that currently has focus.
+- Use the <xref:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer%2A> method of the <xref:Microsoft.Office.Interop.Outlook.Application> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> that currently has focus.
 
--   Use the `GetExplorer` method of the <xref:Microsoft.Office.Interop.Outlook.Folder> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> for the current folder.
+- Use the `GetExplorer` method of the <xref:Microsoft.Office.Interop.Outlook.Folder> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> for the current folder.
 
 ### Inspector object
  The <xref:Microsoft.Office.Interop.Outlook.Inspector> object represents a window that displays a single item such as an e-mail message, task, or appointment. The <xref:Microsoft.Office.Interop.Outlook.Inspector> object includes methods and properties that you can use to modify the window, and events that are raised when the window changes.
 
  To get an <xref:Microsoft.Office.Interop.Outlook.Inspector> object, do one of the following:
 
--   Use the <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> property of the <xref:Microsoft.Office.Interop.Outlook.Application> object to access all of the <xref:Microsoft.Office.Interop.Outlook.Inspector> objects in Outlook.
+- Use the <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> property of the <xref:Microsoft.Office.Interop.Outlook.Application> object to access all of the <xref:Microsoft.Office.Interop.Outlook.Inspector> objects in Outlook.
 
--   Use the <xref:Microsoft.Office.Interop.Outlook._Application.ActiveInspector%2A> method of the <xref:Microsoft.Office.Interop.Outlook.Application> object to get the <xref:Microsoft.Office.Interop.Outlook.Inspector> that currently has focus.
+- Use the <xref:Microsoft.Office.Interop.Outlook._Application.ActiveInspector%2A> method of the <xref:Microsoft.Office.Interop.Outlook.Application> object to get the <xref:Microsoft.Office.Interop.Outlook.Inspector> that currently has focus.
 
--   Use the `GetInspector` method of a specific item, such as a <xref:Microsoft.Office.Interop.Outlook.MailItem> or <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>, to retrieve the Inspector that is associated with it.
+- Use the `GetInspector` method of a specific item, such as a <xref:Microsoft.Office.Interop.Outlook.MailItem> or <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>, to retrieve the Inspector that is associated with it.
 
 ### Folder object
  The <xref:Microsoft.Office.Interop.Outlook.Folder> object represents a folder that contains e-mail messages, contacts, tasks, and other items. Outlook provides 16 default <xref:Microsoft.Office.Interop.Outlook.Folder> objects.

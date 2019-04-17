@@ -26,13 +26,13 @@ The `Icon` property for a project specifies the icon file (.ico) that will be di
   
 ### To specify an application icon  
   
-1.  In **Solution Explorer**, choose a project node (not the **Solution** node).  
+1. In **Solution Explorer**, choose a project node (not the **Solution** node).  
   
-2.  On the menu bar, choose **Project**, **Properties**.  
+2. On the menu bar, choose **Project**, **Properties**.  
   
-3.  When the **Project Designer** appears, choose the **Application** tab.  
+3. When the **Project Designer** appears, choose the **Application** tab.  
   
-4.  **(Visual Basic)** In the **Icon** list, choose an icon (.ico) file.  
+4. **(Visual Basic)** In the **Icon** list, choose an icon (.ico) file.  
   
      **C#** Near the **Icon** list, choose the **\<Browse...>** button, and then browse to the location of the icon file that you want.  
   

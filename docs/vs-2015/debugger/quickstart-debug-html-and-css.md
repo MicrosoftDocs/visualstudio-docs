@@ -243,11 +243,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To refresh your app while debugging  
   
-1.  While the app is still running, switch to Visual Studio.  
+1. While the app is still running, switch to Visual Studio.  
   
-2.  Open default.html and modify your source code by changing the height and width of the `"fView"` DIV element to 100%.  
+2. Open default.html and modify your source code by changing the height and width of the `"fView"` DIV element to 100%.  
   
-3.  Choose the **Refresh Windows app** button on the Debug toolbar (or press F4). The button looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh").  
+3. Choose the **Refresh Windows app** button on the Debug toolbar (or press F4). The button looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh").  
   
      The app pages reload and the Simulator or Phone Emulator returns to the foreground.  
   

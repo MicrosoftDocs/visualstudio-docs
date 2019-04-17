@@ -61,19 +61,19 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
  Your current script context is created based on the following items:
 
--   Functions that are defined in all script blocks in the active document. Inline script blocks are supported in files that have the file-name extensions .aspx., .ascx, .master, .html, and .htm.
+- Functions that are defined in all script blocks in the active document. Inline script blocks are supported in files that have the file-name extensions .aspx., .ascx, .master, .html, and .htm.
 
--   `script` elements with `src` attributes that point to another script file. The target script file must have the file-name extension .js.
+- `script` elements with `src` attributes that point to another script file. The target script file must have the file-name extension .js.
 
--   JavaScript files that reference other JavaScript files by using a `reference` directive.
+- JavaScript files that reference other JavaScript files by using a `reference` directive.
 
--   Reference groups for global objects, IntelliSense extensions, or delay-loaded script files.
+- Reference groups for global objects, IntelliSense extensions, or delay-loaded script files.
 
--   References to XML Web services.
+- References to XML Web services.
 
--   The <xref:System.Web.UI.ScriptManager> and <xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.
+- The <xref:System.Web.UI.ScriptManager> and <xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.
 
--   The [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)], if you are working in an AJAX-enabled ASP.NET Web application.
+- The [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)], if you are working in an AJAX-enabled ASP.NET Web application.
 
     > [!NOTE]
     >  IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.
@@ -81,13 +81,13 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ##  <a name="ProcessingIntelliSenseInformation"></a> Processing IntelliSense Information
  To provide JavaScript IntelliSense, the language service performs the following operations:
 
--   Creates a list of dependent JavaScript files that are based on references in the active document, and based on recursively examining script references in the referenced files.
+- Creates a list of dependent JavaScript files that are based on references in the active document, and based on recursively examining script references in the referenced files.
 
--   Traverses the list and collects type information and other relevant data from each file.
+- Traverses the list and collects type information and other relevant data from each file.
 
--   Aggregates the data and passes it to the JavaScript language service, which makes the type information and data available to IntelliSense.
+- Aggregates the data and passes it to the JavaScript language service, which makes the type information and data available to IntelliSense.
 
--   Monitors the files for changes that might affect the IntelliSense list and updates the list as needed. Scripts on remote stores (such as those referenced using HTTP) do not get monitored.
+- Monitors the files for changes that might affect the IntelliSense list and updates the list as needed. Scripts on remote stores (such as those referenced using HTTP) do not get monitored.
 
 ##  <a name="Features"></a> JavaScript IntelliSense Features
  JavaScript IntelliSense supports the following objects:
@@ -197,21 +197,21 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
  The following rules apply to a `reference` directive.
 
--   The `reference` XML comment must be declared before any script.
+- The `reference` XML comment must be declared before any script.
 
--   You must use XML comments syntax with three slashes. References made by using standard comments syntax (two slashes) are ignored.
+- You must use XML comments syntax with three slashes. References made by using standard comments syntax (two slashes) are ignored.
 
--   Only one file or resource can be specified per directive.
+- Only one file or resource can be specified per directive.
 
--   Multiple references to page-based scripts are not allowed.
+- Multiple references to page-based scripts are not allowed.
 
--   If a page reference is specified, no other type of reference directives is allowed.
+- If a page reference is specified, no other type of reference directives is allowed.
 
--   File names use relative paths. You can use the tilde operator (`~`) to make application-root-relative paths.
+- File names use relative paths. You can use the tilde operator (`~`) to make application-root-relative paths.
 
--   Absolute paths are ignored.
+- Absolute paths are ignored.
 
--   Reference directives in referenced pages will not be processed—that is, reference directives are not resolved recursively for pages. Only script that is referenced directly by the page is included.
+- Reference directives in referenced pages will not be processed—that is, reference directives are not resolved recursively for pages. Only script that is referenced directly by the page is included.
 
 ####  <a name="ReferenceGroups"></a> Reference Groups
  You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:
@@ -265,11 +265,11 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ##  <a name="Validation"></a> JavaScript Validation
  JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:
 
--   Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.
+- Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.
 
--   **Error List** window. The **Error List** window displays the error description, the file where the error occurred, the line and column number, and the project. To display the **Error List** window, in the **View** menu, click **Error List**.
+- **Error List** window. The **Error List** window displays the error description, the file where the error occurred, the line and column number, and the project. To display the **Error List** window, in the **View** menu, click **Error List**.
 
--   The Output window shows references that were not loaded.
+- The Output window shows references that were not loaded.
 
 ## See Also
 - [Using IntelliSense](../ide/using-intellisense.md)

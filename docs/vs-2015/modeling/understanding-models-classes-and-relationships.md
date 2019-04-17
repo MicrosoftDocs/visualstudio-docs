@@ -59,13 +59,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
  To rearrange the DSL Definition diagram, you can:  
   
--   Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
+- Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
   
--   Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
+- Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
   
--   Collapse or expand classes using the icon at the upper-right of each shape.  
+- Collapse or expand classes using the icon at the upper-right of each shape.  
   
--   Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
+- Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
   
 ## Inheritance  
  Domain classes can be defined using inheritance. To create an inheritance derivation, click the Inheritance tool, click the derived class, and then click the base class. A model element has all the properties that are defined on its own domain class, together with all the properties inherited from the base class. It also inherits its roles in relationships.  

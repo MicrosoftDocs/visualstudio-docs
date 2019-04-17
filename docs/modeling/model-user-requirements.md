@@ -74,15 +74,15 @@ The following topics provide more information:
 
 There are several categories of quality of service requirement. They include the following:
 
--   Performance
+- Performance
 
--   Security
+- Security
 
--   Usability
+- Usability
 
--   Reliability
+- Reliability
 
--   Robustness
+- Robustness
 
 You can include some of these requirements in the descriptions of particular use cases. Other requirements are not specific to use cases, and are most effectively written in a separate document. When you can, it is useful to adhere to the vocabulary defined by the requirements model. In the following example, notice that the main words used in the requirement are the titles of actors, use cases, and classes in the preceding illustrations:
 

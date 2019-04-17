@@ -19,21 +19,21 @@ ms.workload:
 
 ### To create a custom package validation rule
 
-1.  Create a class library project.
+1. Create a class library project.
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
-3.  Create a class that implements one of the following interfaces:
+3. Create a class that implements one of the following interfaces:
 
-    -   To create a package validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> interface.
+    - To create a package validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> interface.
 
-    -   To create a Feature validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> interface.
+    - To create a Feature validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> interface.
 
-4.  Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your validation rule. Pass the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> or <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> type to the attribute constructor.
+4. Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your validation rule. Pass the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> or <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> type to the attribute constructor.
 
 ## Example
  The following code example demonstrates how to create a custom Feature validation rule.
@@ -44,9 +44,9 @@ ms.workload:
 ## Compile the code
  This example requires references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint.
+- Microsoft.VisualStudio.SharePoint.
 
--   System.ComponentModel.Composition.
+- System.ComponentModel.Composition.
 
 ## Deploy the extension
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy Extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

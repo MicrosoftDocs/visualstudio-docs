@@ -23,9 +23,9 @@ manager: jillfra
   
  This implementation of `IEnumDebugPropertyInfo2::Next` performs the following tasks:  
   
-1.  Clears the array where the information is to be stored.  
+1. Clears the array where the information is to be stored.  
   
-2.  Calls [Next](../../extensibility/debugger/reference/ienumdebugfields-next.md) for each local, storing the returned [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) in the array to be returned. The [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object was supplied when this `CEnumPropertyInfo` class was instantiated.  
+2. Calls [Next](../../extensibility/debugger/reference/ienumdebugfields-next.md) for each local, storing the returned [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) in the array to be returned. The [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object was supplied when this `CEnumPropertyInfo` class was instantiated.  
   
 ## Managed Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in managed code.  

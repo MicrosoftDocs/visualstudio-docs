@@ -40,11 +40,11 @@ author: mikeblome
 
 - If your tests must use members that are not exported by the DLL project, and the project under test is built as a dynamic library, consider converting it to a static library.
 
-  1.  In **Solution Explorer**, on the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
+  1. In **Solution Explorer**, on the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
 
-  2.  Choose **Configuration Properties** > **General**.
+  2. Choose **Configuration Properties** > **General**.
 
-  3.  Set **Configuration Type** to **Static Library (.lib)**.
+  3. Set **Configuration Type** to **Static Library (.lib)**.
 
   Continue with the procedure [To link the tests to the object or library files](#objectRef).
 
@@ -52,19 +52,19 @@ author: mikeblome
 
 - If the DLL project exports the functions that you want to test, then you can add a reference to the code project from the test project.
 
-  1.  Create a Native Unit Test Project.
+  1. Create a Native Unit Test Project.
 
-      1.  On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
+      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
 
-  2.  In **Solution Explorer**, on the shortcut menu of the test project, choose **References**. The project **Properties** window opens.
+  2. In **Solution Explorer**, on the shortcut menu of the test project, choose **References**. The project **Properties** window opens.
 
-  3.  Select **Common Properties** > **Framework and References**, and then choose the **Add New Reference** button.
+  3. Select **Common Properties** > **Framework and References**, and then choose the **Add New Reference** button.
 
-  4.  Select **Projects**, and then the project to be tested.
+  4. Select **Projects**, and then the project to be tested.
 
        Choose the **Add** button.
 
-  5.  In the properties for the test project, add the location of the project under test to the Include Directories.
+  5. In the properties for the test project, add the location of the project under test to the Include Directories.
 
        Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
 
@@ -76,21 +76,21 @@ author: mikeblome
 
 - If the DLL does not export the functions that you want to test, you can add the output *.obj* or *.lib* file to the dependencies of the test project.
 
-  1.  Create a Native Unit Test Project.
+  1. Create a Native Unit Test Project.
 
-      1.  On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **Native Unit Test Project**.
+      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **Native Unit Test Project**.
 
-  2.  In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
+  2. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 
-  3.  Choose **Configuration Properties** > **Linker** > **Input** > **Additional Dependencies**.
+  3. Choose **Configuration Properties** > **Linker** > **Input** > **Additional Dependencies**.
 
        Choose **Edit**, and add the names of the **.obj** or **.lib** files. Do not use the full path names.
 
-  4.  Choose **Configuration Properties** > **Linker** > **General** > **Additional Library Directories**.
+  4. Choose **Configuration Properties** > **Linker** > **General** > **Additional Library Directories**.
 
        Choose **Edit**, and add the directory path of the **.obj** or **.lib** files. The path is typically within the build folder of the project under test.
 
-  5.  Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
+  5. Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
 
        Choose **Edit**, and then add the header directory of the project under test.
 
@@ -100,11 +100,11 @@ author: mikeblome
 
 1. Modify the product code project properties to include the headers and library files that are required for unit testing.
 
-   1.  In **Solution Explorer**, in the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
+   1. In **Solution Explorer**, in the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
 
-   2.  Choose **Configuration Properties** > **VC++ Directories**.
+   2. Choose **Configuration Properties** > **VC++ Directories**.
 
-   3.  Edit the Include and Library directories:
+   3. Edit the Include and Library directories:
 
        |Directory|Property|
        |-|-|
@@ -113,15 +113,15 @@ author: mikeblome
 
 2. Add a C++ Unit Test file:
 
-   -   In **Solution Explorer**, in the shortcut menu of the project, choose **Add** > **New Item** > **C++ Unit Test**.
+   - In **Solution Explorer**, in the shortcut menu of the project, choose **Add** > **New Item** > **C++ Unit Test**.
 
    Go to [Write the unit tests](#addTests).
 
 ##  <a name="addTests"></a> Write the unit tests
 
-1.  In each unit test code file, add an `#include` statement for the headers of the project under test.
+1. In each unit test code file, add an `#include` statement for the headers of the project under test.
 
-2.  Add test classes and methods to the unit test code files. For example:
+2. Add test classes and methods to the unit test code files. For example:
 
     ```cpp
     #include "stdafx.h"
@@ -143,11 +143,11 @@ author: mikeblome
 
 ## Run the tests
 
-1.  On the **Test** menu, choose **Windows** > **Test Explorer**.
+1. On the **Test** menu, choose **Windows** > **Test Explorer**.
 
 1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-1.  In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 
 ## See also
 

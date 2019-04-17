@@ -47,9 +47,9 @@ You can localize a VSIX package by creating an Extension.vsixlangpack file for e
   
 #### To set the Include in Vsix property  
   
-1.  In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.  
+1. In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.  
   
-2.  In the Property Grid, click **Include in Vsix**, and set its value to `true`.  
+2. In the Property Grid, click **Include in Vsix**, and set its value to `true`.  
   
 ## Example  
   

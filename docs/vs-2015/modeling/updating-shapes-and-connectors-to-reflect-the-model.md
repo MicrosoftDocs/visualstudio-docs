@@ -26,9 +26,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## Set Shape Map properties to control the visibility of a decorator  
  You can control the visibility of a decorator without writing program code, by configuring the mapping between the shape and the domain class in the DSL Definition. For more information, see the following topics:  
   
--   [How to: Control the Visibility of a Decorator -redirect](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
+- [How to: Control the Visibility of a Decorator -redirect](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   
--   [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
+- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
   
 ## Expose the color and style of a shape as properties  
  In the DSL Definition, right-click the shape class, point to **Add Exposed**, and then click one of the items such as **Fill Color**.  

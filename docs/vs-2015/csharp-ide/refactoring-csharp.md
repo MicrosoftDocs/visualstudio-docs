@@ -26,17 +26,17 @@ Refactoring is the process of improving your code after it has been written by c
   
  Visual C# provides the following refactoring commands on the **Refactoring** menu:  
   
--   [Extract Method Refactoring (C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
+- [Extract Method Refactoring (C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
   
--   [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md)  
+- [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md)  
   
--   [Encapsulate Field Refactoring (C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
+- [Encapsulate Field Refactoring (C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
   
--   [Extract Interface Refactoring (C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
+- [Extract Interface Refactoring (C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
   
--   [Remove Parameters Refactoring (C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
+- [Remove Parameters Refactoring (C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
   
--   [Reorder Parameters Refactoring (C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
+- [Reorder Parameters Refactoring (C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
   
 ## Multi-Project Refactoring  
  Visual Studio supports multi-project refactoring for projects that are in the same solution. All of the refactoring operations that correct references across files correct those references across all projects of the same language. This works for any project-to-project references. For example, if you have a console application that references a class library, when you rename a class library type (using the `Rename` refactoring operation), the references to the class library type in the console application are also updated.  

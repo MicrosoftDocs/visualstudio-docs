@@ -177,11 +177,11 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### To customize run settings in a command line test  
  To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](http://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a).  
   
-1.  Launch the Visual Studio Developer Command Prompt:  
+1. Launch the Visual Studio Developer Command Prompt:  
   
      On Windows **Start**, choose **All Programs**, **Microsoft Visual Studio**, **Visual Studio Tools**, **Developer Command Prompt**.  
   
-2.  Run:  
+2. Run:  
   
      `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings`  
   

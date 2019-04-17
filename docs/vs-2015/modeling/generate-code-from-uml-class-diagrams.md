@@ -47,11 +47,11 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
 2. On a class diagram or in **UML Model Explorer**, select elements from which you want to generate code. You can select one of the following:  
 
-   -   A specific set of elements.  
+   - A specific set of elements.  
 
-   -   A package or the model, to generate code from its contents.  
+   - A package or the model, to generate code from its contents.  
 
-   -   The diagram, to select all the elements on the diagram.  
+   - The diagram, to select all the elements on the diagram.  
 
 3. Open the shortcut menu for a selected element, and then choose **Generate Code**.  
 

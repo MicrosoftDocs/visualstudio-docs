@@ -66,15 +66,15 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
   
 #### To call a command from an assembly  
   
-1.  In your solution, add a reference to the assembly.  
+1. In your solution, add a reference to the assembly.  
   
-2.  At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
+2. At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
   
     ```xml  
     xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
     ```  
   
-3.  Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
+3. Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
   
      Xaml  
   

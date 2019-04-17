@@ -76,19 +76,19 @@ When selected, vertical lines appear in the editor that line up with structured 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:
 
--   Align your code to the correct tab position
+- Align your code to the correct tab position
 
--   Recase keywords, variables, and objects to the correct case
+- Recase keywords, variables, and objects to the correct case
 
--   Add a missing `Then` to an `If...Then` statement
+- Add a missing `Then` to an `If...Then` statement
 
--   Add parenthesis to function calls
+- Add parenthesis to function calls
 
--   Add missing end quotes to strings
+- Add missing end quotes to strings
 
--   Reformat exponential notation
+- Reformat exponential notation
 
--   Reformat dates
+- Reformat dates
 
 **Automatic insertion of end constructs**
 

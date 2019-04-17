@@ -42,11 +42,11 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
--   Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.
+- Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.
 
 ## Create target SharePoint subsites
  First you create two new SharePoint subsites: one to host the reusable workflows from SharePoint Designer, another to host the converted workflows.
@@ -74,27 +74,27 @@ ms.workload:
 
 #### To create a SharePoint Designer reusable workflow
 
-1.  In the **Subsites** section, choose the **SPD1** site to modify it.
+1. In the **Subsites** section, choose the **SPD1** site to modify it.
 
-2.  On the ribbon, choose the **Reusable Workflow** button.
+2. On the ribbon, choose the **Reusable Workflow** button.
 
      The Create Reusable Workflow wizard appears.
 
-3.  In the **Name** box, enter **SPD Task Workflow**.
+3. In the **Name** box, enter **SPD Task Workflow**.
 
-4.  In the **Content Type** list, choose **Task**, and then choose the **OK** button.
+4. In the **Content Type** list, choose **Task**, and then choose the **OK** button.
 
      The workflow opens in the SharePoint Designer workflow designer.
 
-5.  In the workflow designer, choose Step 1, and then, on the ribbon, choose the **Condition** button.
+5. In the workflow designer, choose Step 1, and then, on the ribbon, choose the **Condition** button.
 
-6.  In the list of conditions, choose **If current item field equals value**.
+6. In the list of conditions, choose **If current item field equals value**.
 
      This step adds a condition that's named **If field equals value**.
 
-7.  In the **If field equals value** condition, choose the **field** link.
+7. In the **If field equals value** condition, choose the **field** link.
 
-8.  In the list of values, choose **Title**.
+8. In the list of values, choose **Title**.
 
 9. In the **If field equals value** condition, choose the **value** link.
 
@@ -122,23 +122,23 @@ ms.workload:
 
 #### To save and deploy the reusable workflow
 
-1.  At the top of SharePoint Designer, choose the **Save** button to save your progress, and then choose the **Publish** button to deploy the workflow to the **SPD1** SharePoint site.
+1. At the top of SharePoint Designer, choose the **Save** button to save your progress, and then choose the **Publish** button to deploy the workflow to the **SPD1** SharePoint site.
 
-2.  In the Navigation pane, choose the **Workflows** object.
+2. In the Navigation pane, choose the **Workflows** object.
 
-3.  Under **Reusable Workflow**, choose **SPD Task Workflow**.
+3. Under **Reusable Workflow**, choose **SPD Task Workflow**.
 
-4.  On the ribbon, choose the **Save as Template** button to save the workflow as a *.wsp* file.
+4. On the ribbon, choose the **Save as Template** button to save the workflow as a *.wsp* file.
 
-5.  Open the **SPD1** SharePoint site in a browser to view the *.wsp* file in SharePoint.
+5. Open the **SPD1** SharePoint site in a browser to view the *.wsp* file in SharePoint.
 
-6.  On the QuickLaunch bar, choose the **Libraries** link.
+6. On the QuickLaunch bar, choose the **Libraries** link.
 
-7.  In the **Document Libraries** section, choose the **Site Assets** link.
+7. In the **Document Libraries** section, choose the **Site Assets** link.
 
      The **SPD Task Workflow** file is listed with other site assets.
 
-8.  In the list of files, choose the name of that file
+8. In the list of files, choose the name of that file
 
 9. In the **File Download** dialog box, choose the **Save** button to save the *.wsp* file on your local system.
 
@@ -182,11 +182,11 @@ ms.workload:
 
 11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn't import the association property values for the imported workflow, you must enter them. To do this:
 
-    1.  In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.
+    1. In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.
 
-    2.  Choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to one of the list properties, such as the **Target List** property.
+    2. Choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to one of the list properties, such as the **Target List** property.
 
-    3.  Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.
+    3. Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.
 
 12. Choose the .xoml file, and then, on the menu bar, choose **View** > **Designer** to view the imported workflow in the workflow designer.
 
@@ -200,9 +200,9 @@ ms.workload:
 
 14. Perform one of the following sets of steps:
 
-    -   Double-click **CodeActivity1** to generate an event handler and view the code.
+    - Double-click **CodeActivity1** to generate an event handler and view the code.
 
-    -   In the **Properties** window for **CodeActivity1**, set the value of the **ExecuteCode** property to **codeActivity_ExecuteCode**.
+    - In the **Properties** window for **CodeActivity1**, set the value of the **ExecuteCode** property to **codeActivity_ExecuteCode**.
 
 15. Add the following under the existing **using** or **Imports** statements:
 
@@ -219,27 +219,27 @@ ms.workload:
 
 #### To deploy the project and associate the workflow
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to run and deploy the converted workflow project.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to run and deploy the converted workflow project.
 
-2.  On the QuickLaunch bar, choose the **Tasks** link to display the Tasks list.
+2. On the QuickLaunch bar, choose the **Tasks** link to display the Tasks list.
 
-3.  On the **List Tools** tab, choose the **Items** button, and then choose the **New Item** button.
+3. On the **List Tools** tab, choose the **Items** button, and then choose the **New Item** button.
 
      The **Tasks - New Item** dialog box opens.
 
-4.  In the **Title** box, enter **New task**, and then choose the **Save** button.
+4. In the **Title** box, enter **New task**, and then choose the **Save** button.
 
-5.  On the **List Tools** tab, choose the **List** button, and then choose the **List Settings** button.
+5. On the **List Tools** tab, choose the **List** button, and then choose the **List Settings** button.
 
      The **List Settings** page appears.
 
-6.  In the **Permissions and Management** section, choose the **Workflow Settings** link.
+6. In the **Permissions and Management** section, choose the **Workflow Settings** link.
 
      The **Workflow Settings** page appears.
 
-7.  Choose the **Add a Workflow** link.
+7. Choose the **Add a Workflow** link.
 
-8.  In the **Workflow** list, choose **WorkflowImportProject1 - SPD Workflow Test**.
+8. In the **Workflow** list, choose **WorkflowImportProject1 - SPD Workflow Test**.
 
 9. In the **Name** box, enter **SPD Workflow Test**, and then choose the **OK** button.
 

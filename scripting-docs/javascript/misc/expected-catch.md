@@ -20,9 +20,9 @@ You used the exception handling **try** block, but did not write the associated 
   
 ### To correct this error  
   
--   Add the associated **catch** block.  
+- Add the associated **catch** block.  
   
--   Try using a **finally** block instead of a **catch** block.  
+- Try using a **finally** block instead of a **catch** block.  
   
 ## See Also  
  [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)   

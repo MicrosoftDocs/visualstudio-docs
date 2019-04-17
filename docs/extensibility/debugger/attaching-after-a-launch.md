@@ -17,9 +17,9 @@ After a program launches, the debug session is ready to attach the debug engine 
 ## Design decisions
  Because communication is easier within a shared address space, you must choose between two design approaches: set communication between the debug session and the DE. Or, set communication between the DE and the program. Choose between the following:
 
--   If it makes more sense to set up the communication between the debug session and the DE, the debug session co-creates the DE and asks the DE to attach to the program. This design leaves the debug session and DE together in one address space, and the run-time environment and program together in another.
+- If it makes more sense to set up the communication between the debug session and the DE, the debug session co-creates the DE and asks the DE to attach to the program. This design leaves the debug session and DE together in one address space, and the run-time environment and program together in another.
 
--   If it makes more sense to set up the communication between the DE and the program, the run-time environment co-creates the DE. This design leaves the SDM in one address space and the DE, run-time environment, and program together in another. This design is typical of a DE that is implemented with an interpreter to run scripted languages.
+- If it makes more sense to set up the communication between the DE and the program, the run-time environment co-creates the DE. This design leaves the SDM in one address space and the DE, run-time environment, and program together in another. This design is typical of a DE that is implemented with an interpreter to run scripted languages.
 
     > [!NOTE]
     >  How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.

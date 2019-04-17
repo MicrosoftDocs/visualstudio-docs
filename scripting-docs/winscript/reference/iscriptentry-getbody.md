@@ -33,11 +33,11 @@ HRESULT GetBody(
  `pbstr`  
  [out] The text that is in the body of one of the following:  
   
--   An `IScriptEntry` script block  
+- An `IScriptEntry` script block  
   
--   An `IScriptEntry` function in a function block  
+- An `IScriptEntry` function in a function block  
   
--   An `IScriptEntry` scriptlet event handler  
+- An `IScriptEntry` scriptlet event handler  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  

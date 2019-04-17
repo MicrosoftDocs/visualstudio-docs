@@ -29,17 +29,17 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
  The following layout panels are the most popularly used, but there are others. You can find them all in the **Assets** panel.  
   
--   [Grid](#Grid)  
+- [Grid](#Grid)  
   
--   [UniformGrid](#Uniform)  
+- [UniformGrid](#Uniform)  
   
--   [Canvas](#Canvas)  
+- [Canvas](#Canvas)  
   
--   [StackPanel](#Stack)  
+- [StackPanel](#Stack)  
   
--   [WrapPanel](#Wrap)  
+- [WrapPanel](#Wrap)  
   
--   [DockPanel](#Dock)  
+- [DockPanel](#Dock)  
   
 ###  <a name="Grid"></a> Grid  
  Arrange objects into rows and columns.  
@@ -94,15 +94,15 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
  The following layout controls are the most popularly used but there are others. You can find them all in the **Assets** panel.  
   
--   [Border](#Border)  
+- [Border](#Border)  
   
--   [Popup](#Popup)  
+- [Popup](#Popup)  
   
--   [ScrollViewer](#Scroll)  
+- [ScrollViewer](#Scroll)  
   
--   [UniformGrid](#Uniform)  
+- [UniformGrid](#Uniform)  
   
--   [Viewbox](#View)  
+- [Viewbox](#View)  
   
 ###  <a name="Border"></a> Border  
  Create a border, background, or both around an object. You can add only one object to a **Border**. If you want to apply a border or background for more than one object, add layout panel to the **Border**. Then, add objects to that panel or control.  

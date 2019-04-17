@@ -122,27 +122,27 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 
 ### To change the load pattern
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  In the **Load Test Editor**, in the *Scenarios* folder, expand the scenario you want to edit the load pattern for and choose the load pattern for the scenario.
+2. In the **Load Test Editor**, in the *Scenarios* folder, expand the scenario you want to edit the load pattern for and choose the load pattern for the scenario.
 
     > [!NOTE]
     > The wording of the load pattern node, as it is displayed in the scenario tree of your load test, reflects the load profile you that you chose when you created the load test. It can be either **Constant Load Profile** or **Step Load Profile**.
 
-3.  Press **F4** to display the **Properties** window.
+3. Press **F4** to display the **Properties** window.
 
      The **Load Pattern** and the **Parameters** categories are displayed in the **Properties** window.
 
-4.  (Optional) Change the **Pattern** property in the **Load Pattern** category.
+4. (Optional) Change the **Pattern** property in the **Load Pattern** category.
 
      Your choices for the **Pattern** property are **Step**, **Constant**, and **Goal Based**. For more information about the load pattern types, see [Specify the number of virtual users with load patterns in a load test scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
-5.  (Optional) In the **Parameters** category, change the values.
+5. (Optional) In the **Parameters** category, change the values.
 
     > [!NOTE]
     > The values you can set for **Parameters** differ according to the value that was selected for **Pattern** property.
 
-6.  After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new load pattern.
+6. After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new load pattern.
 
 ## See also
 

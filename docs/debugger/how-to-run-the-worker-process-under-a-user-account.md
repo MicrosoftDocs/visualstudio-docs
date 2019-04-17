@@ -39,15 +39,15 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 
 4. On [!INCLUDE[winxpsvr](../debugger/includes/winxpsvr_md.md)], IIS 6.0 is installed by default. The corresponding worker process is w3wp.exe.To run in IIS 6.0 mode with aspnet_wp.exe as the worker process, you must follow these steps:
 
-   1.  Click **Start**, click **Administrative Tools** and then choose **Internet Information Services**.
+   1. Click **Start**, click **Administrative Tools** and then choose **Internet Information Services**.
 
-   2.  In the **Internet Information Services** dialog box, right-click the **Web Sites** folder and choose **Properties**.
+   2. In the **Internet Information Services** dialog box, right-click the **Web Sites** folder and choose **Properties**.
 
-   3.  In the **Web Sites Properties** dialog box, choose **Service**.
+   3. In the **Web Sites Properties** dialog box, choose **Service**.
 
-   4.  Select **Run WWW service in IIS6.0 isolation mode**.
+   4. Select **Run WWW service in IIS6.0 isolation mode**.
 
-   5.  Close the **Properties** dialog box and **Internet Services Manager**.
+   5. Close the **Properties** dialog box and **Internet Services Manager**.
 
 5. Open a Windows Command Prompt and reset the server by running:
 

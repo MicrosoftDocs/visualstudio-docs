@@ -33,7 +33,7 @@ You can use the Visual Studio **Immediate** window to execute a function or subr
   
 ### To hit breakpoints from the Immediate window  
   
-1.  Paste the following code into a Visual Basic console application:  
+1. Paste the following code into a Visual Basic console application:  
   
     ```  
     Module Module1  
@@ -57,19 +57,19 @@ You can use the Visual Studio **Immediate** window to execute a function or subr
     End Module  
     ```  
   
-2.  Set a breakpoint on the line that reads, `s="Add BreakPoint Here"`.  
+2. Set a breakpoint on the line that reads, `s="Add BreakPoint Here"`.  
   
-3.  Type the following in the **Immediate** window: `?MyFunction<enter>`  
+3. Type the following in the **Immediate** window: `?MyFunction<enter>`  
   
-4.  Verify that the breakpoint was hit, and that the call stack is accurate.  
+4. Verify that the breakpoint was hit, and that the call stack is accurate.  
   
-5.  On the **Debug** menu, click **Continue**, and verify that you are still in design mode.  
+5. On the **Debug** menu, click **Continue**, and verify that you are still in design mode.  
   
-6.  Type the following in the **Immediate** window: `?MyFunction<enter>`  
+6. Type the following in the **Immediate** window: `?MyFunction<enter>`  
   
-7.  Type the following in the **Immediate** window: `?MySub<enter>`  
+7. Type the following in the **Immediate** window: `?MySub<enter>`  
   
-8.  Verify that you hit the breakpoint, and examine the value of static variable `i` in the **Locals** window. It should have the value of 3.  
+8. Verify that you hit the breakpoint, and examine the value of static variable `i` in the **Locals** window. It should have the value of 3.  
   
 9. Verify that the call stack is accurate.  
   

@@ -46,22 +46,22 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
 
 ##### To view a shader's source code
 
-1.  In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.
+1. In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.
 
-2.  Under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.
+2. Under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.
 
-3.  Under the primitive you're interested in, follow the shader title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.
+3. Under the primitive you're interested in, follow the shader title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.
 
     > [!TIP]
     >  The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pipeline stages window.
 
 ##### To debug a shader
 
-1.  In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.
+1. In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.
 
-2.  Then, under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.
+2. Then, under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.
 
-3.  Under the primitive you're interested in, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding primitive—that is, the first pixel or vertex that's processed by the shader. There's only one pixel associated with the primitive, but there's more than one vertex shader invocations for lines and triangles.
+3. Under the primitive you're interested in, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding primitive—that is, the first pixel or vertex that's processed by the shader. There's only one pixel associated with the primitive, but there's more than one vertex shader invocations for lines and triangles.
 
      To debug the vertex shader invocation for a specific vertex, expand the VertexShader title link and locate the vertex you're interested in, then choose **Start Debugging** next to it.
 

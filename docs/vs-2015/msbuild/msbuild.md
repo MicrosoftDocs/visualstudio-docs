@@ -32,13 +32,13 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   
 - You want to modify the build system. For example, you might want to enable the following actions:  
   
-  -   Preprocess files before they reach the compiler.  
+  - Preprocess files before they reach the compiler.  
   
-  -   Copy the build outputs to a different place.  
+  - Copy the build outputs to a different place.  
   
-  -   Create compressed files from build outputs.  
+  - Create compressed files from build outputs.  
   
-  -   Do a post-processing step. For example, you might want to stamp an assembly with a different version.  
+  - Do a post-processing step. For example, you might want to stamp an assembly with a different version.  
   
   You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.  
   
@@ -49,23 +49,23 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   
  **In this topic**  
   
--   [Using MSBuild at a Command Prompt](#BKMK_CommandPrompt)  
+- [Using MSBuild at a Command Prompt](#BKMK_CommandPrompt)  
   
--   [Project File](#BKMK_ProjectFile)  
+- [Project File](#BKMK_ProjectFile)  
   
-    -   [Properties](#BKMK_Properties)  
+    - [Properties](#BKMK_Properties)  
   
-    -   [Items](#BKMK_Items)  
+    - [Items](#BKMK_Items)  
   
-    -   [Tasks](#BKMK_Tasks)  
+    - [Tasks](#BKMK_Tasks)  
   
-    -   [Targets](#BKMK_Targets)  
+    - [Targets](#BKMK_Targets)  
   
--   [Build Logs](#BKMK_BuildLogs)  
+- [Build Logs](#BKMK_BuildLogs)  
   
--   [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  
+- [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  
   
--   [Multitargeting](#BKMK_Multitargeting)  
+- [Multitargeting](#BKMK_Multitargeting)  
   
 ##  <a name="BKMK_CommandPrompt"></a> Using MSBuild at a Command Prompt  
  To run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] at a command prompt, pass a project file to MSBuild.exe, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file `MyProj.proj` with the `Configuration` property set to `Debug`.  

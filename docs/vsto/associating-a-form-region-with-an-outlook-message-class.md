@@ -44,9 +44,9 @@ ms.workload:
 ## Associate a form region with an Outlook message class
  There are two ways to associate a form region with a message class:
 
--   Use the **New Outlook Form Region** wizard.
+- Use the **New Outlook Form Region** wizard.
 
--   Apply class attributes.
+- Apply class attributes.
 
 ### Use the New Outlook Form Region wizard
  On the final page of the **New Outlook Form Region** wizard, you can select standard message classes and type the names of custom message classes that you want to associate with the form region.

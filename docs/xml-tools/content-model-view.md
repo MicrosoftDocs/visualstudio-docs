@@ -91,13 +91,13 @@ You can pan the design surface by using the scrollbars or by holding the **Ctrl*
 
 The undo/redo capability is enabled in the Content Model View for the following actions:
 
--   Adding a single node by dragging and dropping.
+- Adding a single node by dragging and dropping.
 
--   Adding multiple nodes from the search results window in Schema Explorer.
+- Adding multiple nodes from the search results window in Schema Explorer.
 
--   Adding nodes from the Start View.
+- Adding nodes from the Start View.
 
--   Deleting single or multiple nodes.
+- Deleting single or multiple nodes.
 
 ## Zoom
 
@@ -105,9 +105,9 @@ Zoom is available in the lower right corner of the Content Model View.
 
 Zoom can be controlled in the following ways:
 
--   By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.
+- By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.
 
--   By using the slider control. The slider shows the current zoom level.
+- By using the slider control. The slider shows the current zoom level.
 
 The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** with the mouse wheel to zoom; at all other times, it is transparent.
 

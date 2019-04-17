@@ -20,13 +20,13 @@ For color tokens to use with existing UI, see [Shared colors for Visual Studio](
 
 When using this reference guide, remember:
 
--   **Always copy both foreground and background hues together.** Don't choose a foreground from one UI element and a background from another just because you like the hues.
+- **Always copy both foreground and background hues together.** Don't choose a foreground from one UI element and a background from another just because you like the hues.
 
--   **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
+- **These are hex codes, not color tokens.** You can't use the actual color token names of these UI elements because you can't control how the tokens might be changed in the future. Instead, create tokens within your own category and use the hue values shown in the tables. Color tokens for existing UI can be found in [Shared colors for Visual Studio](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md).
 
 - **High Contrast swatches are shown for comparison only.** Use the system color name for High Contrast UI, and do not use an eyedropper or color picker on these swatches. High Contrast swatches in this topic reflect the High Contrast #1 theme in Windows. The colors will look different in other High Contrast themes.
 
--   **For best results, pair color sets with UI similar to the example.**
+- **For best results, pair color sets with UI similar to the example.**
 
 ## Properties window
 

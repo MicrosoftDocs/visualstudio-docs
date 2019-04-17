@@ -21,9 +21,9 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../../include
 ## Upgrade Strategies  
  To support an upgrade, your project system implementation must define and implement an upgrade strategy. In determining your strategy, you can choose to support side-by-side (SxS) backup, copy backup, or both.  
   
--   SxS backup means that a project copies only those files that need upgrading in place, adding a suitable file name suffix, for example, ".old".  
+- SxS backup means that a project copies only those files that need upgrading in place, adding a suitable file name suffix, for example, ".old".  
   
--   Copy backup means that a project copies all project items to a user-provided backup location. The relevant files at the original project location are then upgraded.  
+- Copy backup means that a project copies all project items to a user-provided backup location. The relevant files at the original project location are then upgraded.  
   
 ## How Upgrade Works  
  When a solution created in an earlier version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is opened in a newer version, the IDE checks the solution file to determine if it needs to be upgraded. If upgrading is required, the **Upgrade Wizard** is automatically launched to walk the user through the upgrade process.  

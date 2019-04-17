@@ -31,14 +31,14 @@ The XML data in a dataset can be accessed by calling the available XML methods  
   
 ### To save the data in a dataset as XML to a variable  
   
--   The <xref:System.Data.DataSet.GetXml%2A> method returns a <xref:System.String>.This means that you declare a variable of type <xref:System.String> and assign it the results of the <xref:System.Data.DataSet.GetXml%2A> method.  
+- The <xref:System.Data.DataSet.GetXml%2A> method returns a <xref:System.String>.This means that you declare a variable of type <xref:System.String> and assign it the results of the <xref:System.Data.DataSet.GetXml%2A> method.  
   
      [!code-csharp[VbRaddataSaving#12](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#12)]
      [!code-vb[VbRaddataSaving#12](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#12)]  
   
 ### To save the data in a dataset as XML to a file  
   
--   The <xref:System.Data.DataSet.WriteXml%2A> method has several overloads. The following code shows how to save the data to a file.Declare a variable and assign it a valid path to save the file to.  
+- The <xref:System.Data.DataSet.WriteXml%2A> method has several overloads. The following code shows how to save the data to a file.Declare a variable and assign it a valid path to save the file to.  
   
      [!code-csharp[VbRaddataSaving#13](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#13)]
      [!code-vb[VbRaddataSaving#13](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#13)]  

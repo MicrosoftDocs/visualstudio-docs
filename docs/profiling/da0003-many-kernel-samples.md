@@ -35,6 +35,6 @@ ms.workload:
 ## How to fix violations
  Consider profiling your application again using one of the following options:
 
--   Profile by using the instrumentation method.
+- Profile by using the instrumentation method.
 
--   Increase the sampling rate to try to collect more samples in user mode.
+- Increase the sampling rate to try to collect more samples in user mode.

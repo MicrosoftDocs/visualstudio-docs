@@ -29,11 +29,11 @@ Localization is the process of making your application appropriate for a specifi
 
  This topic describes three ways to deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application for other cultures:
 
--   Include all satellite assemblies in a single deployment.
+- Include all satellite assemblies in a single deployment.
 
--   Generate one deployment for each culture, with a single satellite assembly included in each.
+- Generate one deployment for each culture, with a single satellite assembly included in each.
 
--   Download satellite assemblies on demand.
+- Download satellite assemblies on demand.
 
 ## Including All Satellite Assemblies in a Deployment
  Instead of publishing multiple [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, you can publish a single [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment that contains all of the satellite assemblies.

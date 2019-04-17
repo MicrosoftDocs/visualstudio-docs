@@ -36,9 +36,9 @@ ms.workload:
 
  This example requires:
 
--   An extension of the SharePoint project system that has a reference to the *EnvDTE.dll* assembly. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
+- An extension of the SharePoint project system that has a reference to the *EnvDTE.dll* assembly. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
--   Code that registers the `projectService_ProjectAdded` method to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For an example, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).
+- Code that registers the `projectService_ProjectAdded` method to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For an example, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).
 
 ## See also
 

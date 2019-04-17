@@ -24,7 +24,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
   
 ### To retrieve a list of code snippets  
   
-1.  The following code shows how to get a list of code snippets for a given language. The results are stored in an array of <xref:Microsoft.VisualStudio.TextManager.Interop.VsExpansion> structures. This method uses the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method to get the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> interface from the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service. However, you can also use the service provider given to your VSPackage and call the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> method.  
+1. The following code shows how to get a list of code snippets for a given language. The results are stored in an array of <xref:Microsoft.VisualStudio.TextManager.Interop.VsExpansion> structures. This method uses the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method to get the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> interface from the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service. However, you can also use the service provider given to your VSPackage and call the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> method.  
   
     ```csharp  
     using System;  
@@ -99,7 +99,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
   
 ### To call the GetSnippets method  
   
-1.  The following method shows how to call the `GetSnippets` method at the completion of a parsing operation. The <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> method is called after a parsing operation that was started with the reason <xref:Microsoft.VisualStudio.Package.ParseReason>.  
+1. The following method shows how to call the `GetSnippets` method at the completion of a parsing operation. The <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> method is called after a parsing operation that was started with the reason <xref:Microsoft.VisualStudio.Package.ParseReason>.  
   
 > [!NOTE]
 >  The `expansionsList` array listis cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]).  
@@ -123,7 +123,7 @@ class TestLanguageService : LanguageService
   
 ### To use the snippet information  
   
-1.  The following code shows how to use the snippet information returned by the `GetSnippets` method. The `AddSnippets` method is called from the parser in response to any parse reason that is used to populate a list of code snippets. This should take place after the full parse has been done for the first time.  
+1. The following code shows how to use the snippet information returned by the `GetSnippets` method. The `AddSnippets` method is called from the parser in response to any parse reason that is used to populate a list of code snippets. This should take place after the full parse has been done for the first time.  
   
      The `AddDeclaration` method builds a list of declarations that is later displayed in a completion list.  
   

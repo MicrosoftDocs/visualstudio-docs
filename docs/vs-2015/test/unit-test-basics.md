@@ -22,28 +22,28 @@ Check that your code is working as expected by creating and running unit tests. 
   
  Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
--   [Quick starts](#BKMK_Quick_starts)  
+- [Quick starts](#BKMK_Quick_starts)  
   
--   [The MyBank Solution example](#BKMK_The_MyBank_Solution_example)  
+- [The MyBank Solution example](#BKMK_The_MyBank_Solution_example)  
   
--   [Create unit test projects and test methods](#BKMK_Creating_the_unit_test_projects)  
+- [Create unit test projects and test methods](#BKMK_Creating_the_unit_test_projects)  
   
--   [Write your tests](#BKMK_Writing_your_tests)  
+- [Write your tests](#BKMK_Writing_your_tests)  
   
--   [Run tests in Test Explorer](#BKMK_Running_tests_in_Test_Explorer)  
+- [Run tests in Test Explorer](#BKMK_Running_tests_in_Test_Explorer)  
   
--   [Run and view tests](#BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar)  
+- [Run and view tests](#BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar)  
   
 ##  <a name="BKMK_Unit_testing_overview"></a> Unit testing overview  
   
 ###  <a name="BKMK_Quick_starts"></a> Quick starts  
  For an introduction to unit testing that takes you directly into coding, see one of these topics:  
   
--   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
+- [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
   
--   [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
+- [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
--   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
+- [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
 ##  <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
  In this topic, we use the development of a fictional application called `MyBank` as an example. You don’t need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
@@ -124,17 +124,17 @@ public void Withdraw(double amount)
   
     To create the reference to the code project:  
   
-   1.  Select the project in Solution Explorer.  
+   1. Select the project in Solution Explorer.  
   
-   2.  On the **Project** menu, choose **Add Reference**.  
+   2. On the **Project** menu, choose **Add Reference**.  
   
-   3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
+   3. On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
   
    Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:  
   
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project  
+- `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project  
   
--   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.  
+- `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.  
   
 ##  <a name="BKMK_Writing_your_tests"></a> Write your tests  
  The unit test framework that you use and Visual Studio IntelliSense will guide you through writing the code for your unit tests for a code project. To run in Test Explorer, most frameworks require that you add specific attributes to identify unit test methods. The frameworks also provide a way—usually through assert statements or method attributes—to indicate whether the test method has passed or failed. Other attributes identify optional setup methods that are at class initialization and before each test method and teardown methods that are run after each test method and before the class is destroyed.  
@@ -182,9 +182,9 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
  For more information about the Microsoft Unit Testing Frameworks, see one of the following topics:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
+- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+- [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
   
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  

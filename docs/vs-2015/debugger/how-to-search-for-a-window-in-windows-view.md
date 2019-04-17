@@ -21,16 +21,16 @@ You can search for a specific window in Windows view by using its handle, captio
   
 ### To search for a window in Windows view  
   
-1.  Arrange your windows so that Spy++, the [Windows View](../debugger/windows-view.md) window, and the target window are visible.  
+1. Arrange your windows so that Spy++, the [Windows View](../debugger/windows-view.md) window, and the target window are visible.  
   
-2.  From the **Search** menu, choose **Find Window**.  
+2. From the **Search** menu, choose **Find Window**.  
   
      The [Window Search Dialog Box](../debugger/window-search-dialog-box.md) opens.  
   
     > [!TIP]
     >  To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window and leaves only the **Window Search** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
   
-3.  Drag the **Finder Tool** over the target window. As you drag the tool, the **Window Search** dialog box displays details on the selected window.  
+3. Drag the **Finder Tool** over the target window. As you drag the tool, the **Window Search** dialog box displays details on the selected window.  
   
      – or –  
   
@@ -40,8 +40,8 @@ You can search for a specific window in Windows view by using its handle, captio
   
      If you know the caption and/or class of the window you want, you can type them in the **Caption** and **Class** text boxes, and clear the **Handle** text box.  
   
-4.  Choose **Up** or **Down** for the initial direction of the search.  
+4. Choose **Up** or **Down** for the initial direction of the search.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
      If a matching window is found, it is highlighted in the [Windows View](../debugger/windows-view.md) window.

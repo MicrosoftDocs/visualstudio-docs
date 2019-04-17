@@ -40,13 +40,13 @@ ms.workload:
 
  For more information about the host controls you can use in Word projects, see the following topics:
 
--   [Content controls](../vsto/content-controls.md)
+- [Content controls](../vsto/content-controls.md)
 
--   [Bookmark control](../vsto/bookmark-control.md)
+- [Bookmark control](../vsto/bookmark-control.md)
 
--   [XMLNode control](../vsto/xmlnode-control.md)
+- [XMLNode control](../vsto/xmlnode-control.md)
 
--   [XMLNodes control](../vsto/xmlnodes-control.md)
+- [XMLNodes control](../vsto/xmlnodes-control.md)
 
 ## See also
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

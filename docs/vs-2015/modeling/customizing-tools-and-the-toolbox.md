@@ -23,13 +23,13 @@ You must define toolbox items for the elements that you want to let users add to
   
  In this topic:  
   
--   [How the Toolbox is Defined](#ToolboxDef)  
+- [How the Toolbox is Defined](#ToolboxDef)  
   
--   [Customizing Element Tools](#customizing)  
+- [Customizing Element Tools](#customizing)  
   
--   [Creating Groups of Elements from a Tool](#groups)  
+- [Creating Groups of Elements from a Tool](#groups)  
   
--   [Customizing Connection Tools](#connections)  
+- [Customizing Connection Tools](#connections)  
   
 ##  <a name="ToolboxDef"></a> How the toolbox is defined  
  In the DSL Explorer, expand the Editor node and the nodes underneath it. Typically you will see a hierarchy that resembles this:  
@@ -47,15 +47,15 @@ Editor
   
  In this part of DSL Explorer, you can:  
   
--   Create new tabs. Tabs define the section headings in the toolbox.  
+- Create new tabs. Tabs define the section headings in the toolbox.  
   
--   Create new tools.  
+- Create new tools.  
   
--   Copy and paste tools.  
+- Copy and paste tools.  
   
--   Move tools up or down in the list.  
+- Move tools up or down in the list.  
   
--   Delete tabs and tools.  
+- Delete tabs and tools.  
   
 > [!IMPORTANT]
 >  To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.  
@@ -68,36 +68,36 @@ Editor
   
 #### To add a tool to the toolbox  
   
-1.  You usually create an element tool after you have created a shape class and mapped it to a domain class.  
+1. You usually create an element tool after you have created a shape class and mapped it to a domain class.  
   
      You usually create a connector tool after you have created a connector class and mapped it to a reference relationship.  
   
-2.  In DSL Explorer, expand the **Editor** node and the **Toolbox Tabs** node.  
+2. In DSL Explorer, expand the **Editor** node and the **Toolbox Tabs** node.  
   
      Right-click a toolbox tab node, and then click **Add New Element Tool** or **Add New Connection Tool**.  
   
-3.  Set the **Toolbox Icon** property to refer to a 16x16 bitmap.  
+3. Set the **Toolbox Icon** property to refer to a 16x16 bitmap.  
   
      If you want to define a new icon, create a bitmap file in Solution Explorer in the **Dsl\Resources** folder. The file should have the following property values: **Build Action** = **Content**; **Copy to Output Directory** = **Do not copy**.  
   
-4.  **For an element tool:** Set the **Class** property of the tool to refer to a concrete domain class that is mapped to a shape.  
+4. **For an element tool:** Set the **Class** property of the tool to refer to a concrete domain class that is mapped to a shape.  
   
      **For a connector tool:** Set the **Connection Builder** property of the tool to one of the items that are offered in the drop-down list. Connection builders are automatically created when you map a connector to a domain relationship. If you have recently created a connector, you would normally select the associated connection builder.  
   
-5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.  
+5. To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.  
   
      If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.  
   
 ##  <a name="customizing"></a> Customizing Element Tools  
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:  
   
--   Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.  
+- Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.  
   
      These customizations also affect what happens when the user pastes or drags and drops an element.  
   
      For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).  
   
--   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
+- Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
   
 ##  <a name="groups"></a> Creating Groups of Elements from a Tool  
  Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  

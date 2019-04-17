@@ -27,6 +27,6 @@ HRESULT StopScriptTracing(void); }
 ## Return Value  
  The possible return values for this method are as follows:  
   
-1.  S_OK: Success.  
+1. S_OK: Success.  
   
-2.  E_NOTIMPL: Not implemented.
+2. E_NOTIMPL: Not implemented.

@@ -37,13 +37,13 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 > [!NOTE]
 > Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
-1.  On the **Architecture** menu, choose **New Dependency Diagram**.
+1. On the **Architecture** menu, choose **New Dependency Diagram**.
 
-2.  Under **Templates**, choose **dependency diagram**.
+2. Under **Templates**, choose **dependency diagram**.
 
-3.  Name the diagram.
+3. Name the diagram.
 
-4.  In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.
+4. In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.
 
      -or-
 
@@ -52,7 +52,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
     > [!NOTE]
     > The dependency diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.
 
-5.  Make sure to save both the modeling project and the dependency diagram.
+5. Make sure to save both the modeling project and the dependency diagram.
 
 ## Drag and drop, or copy and paste, from a Code Map
 
@@ -95,19 +95,19 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
  The number on a layer indicates the number of artifacts that are linked to the layer. However, when reading this number, remember the following:
 
--   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
+- If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
      For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
 
--   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
+- If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
 ## <a name="Managing"></a> Manage links between layers and artifacts
 
-1.  On the dependency diagram, open the shortcut menu for the layer, and then choose **View Links**.
+1. On the dependency diagram, open the shortcut menu for the layer, and then choose **View Links**.
 
      **Layer Explorer** shows the artifact links for the selected layer.
 
-2.  Use the following tasks to manage these links:
+2. Use the following tasks to manage these links:
 
 |**To**|**In Layer Explorer**|
 |-|-|
@@ -144,11 +144,11 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 ## <a name="Codemaps"></a> Discover patterns and dependencies on a code map
  While creating dependency diagrams, you might also create **code maps**. These diagrams can help you discover patterns and dependencies while you explore the code. Use Solution Explorer, Class View, or Object Browser to explore assemblies, namespaces, and classes - which often correspond well to existing layers. For more information about code maps, see:
 
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
 ## See Also
 

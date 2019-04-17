@@ -30,7 +30,7 @@ Once you have written a visualizer, you need to debug and test it.
   
 ### To create a visualizer development host  
   
-1.  In your debugger-side class, include a static method that creates a <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost> object and calls its show method:  
+1. In your debugger-side class, include a static method that creates a <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost> object and calls its show method:  
   
     ```  
     public static void TestShowVisualizer(object objectToVisualize)  
@@ -42,7 +42,7 @@ Once you have written a visualizer, you need to debug and test it.
   
      The parameters used to construct the host are the data object that will be shown in the visualizer (`objectToVisualize`) and the type of the debugger side class.  
   
-2.  Add the following statement to call `TestShowVisualizer`. If you created your visualizer in a class library, you need to create an executable to call the class library and place this statement in your executable:  
+2. Add the following statement to call `TestShowVisualizer`. If you created your visualizer in a class library, you need to create an executable to call the class library and place this statement in your executable:  
   
     ```  
     DebuggerSide.TestShowVisualizer(myString);  

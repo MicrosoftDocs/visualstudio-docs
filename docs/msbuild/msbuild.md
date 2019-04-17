@@ -21,21 +21,21 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
  The following examples illustrate when you might run builds by using an MSBuild command line instead of the Visual Studio IDE.
 
--   Visual Studio isn't installed. ([download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools))
+- Visual Studio isn't installed. ([download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools))
 
--   You want to use the 64-bit version of MSBuild. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
+- You want to use the 64-bit version of MSBuild. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
--   You want to run a build in multiple processes. However, you can use the IDE to achieve the same result on projects in C++ and C#.
+- You want to run a build in multiple processes. However, you can use the IDE to achieve the same result on projects in C++ and C#.
 
--   You want to modify the build system. For example, you might want to enable the following actions:
+- You want to modify the build system. For example, you might want to enable the following actions:
 
-    -   Preprocess files before they reach the compiler.
+    - Preprocess files before they reach the compiler.
 
-    -   Copy the build outputs to a different place.
+    - Copy the build outputs to a different place.
 
-    -   Create compressed files from build outputs.
+    - Create compressed files from build outputs.
 
-    -   Do a post-processing step. For example, you might want to stamp an assembly with a different version.
+    - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
 
 You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.
 
@@ -148,15 +148,15 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 
  These are some of the benefits of multitargeting:
 
--   You can develop applications that target earlier versions of the .NET Framework, for example, versions 2.0, 3.0, and 3.5.
+- You can develop applications that target earlier versions of the .NET Framework, for example, versions 2.0, 3.0, and 3.5.
 
--   You can target frameworks other than the .NET Framework, for example, Silverlight.
+- You can target frameworks other than the .NET Framework, for example, Silverlight.
 
--   You can target a *framework profile*, which is a predefined subset of a target framework.
+- You can target a *framework profile*, which is a predefined subset of a target framework.
 
--   If a service pack for the current version of the .NET Framework is released, you could target it.
+- If a service pack for the current version of the .NET Framework is released, you could target it.
 
--   Multitargeting guarantees that an application uses only the functionality that's available in the target framework and platform.
+- Multitargeting guarantees that an application uses only the functionality that's available in the target framework and platform.
 
 For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
 

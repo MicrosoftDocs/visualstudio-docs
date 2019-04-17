@@ -28,9 +28,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
 ## Creating a Gesture Handler  
  To define a gesture handler for a UML designer, you must create a class that defines the behavior of the gesture handler, and embed that class in a Visual Studio Integration Extension (VSIX). The VSIX acts as a container that can install the handler. There are two alternative methods of defining a gesture handler:  
   
--   **Create a gesture handler in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your handler with other types of extension such as validation extensions, custom toolbox items, or menu commands.  
+- **Create a gesture handler in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your handler with other types of extension such as validation extensions, custom toolbox items, or menu commands.  
   
--   **Create separate gesture handler and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your gesture handler expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
+- **Create separate gesture handler and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your gesture handler expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
   
 #### To create a gesture handler in its own VSIX  
   
@@ -50,9 +50,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 1. Create a Class Library project, either in a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, or in an existing solution.  
   
-   1.  On the **File** menu, choose **New**, **Project**.  
+   1. On the **File** menu, choose **New**, **Project**.  
   
-   2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column choose **Class Library**.  
+   2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column choose **Class Library**.  
   
 2. Add the following references to your project.  
   
@@ -198,25 +198,25 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 #### To add a separate gesture handler to a VSIX project  
   
-1.  You do not need this procedure if you have created the gesture handler with its own VSIX.  
+1. You do not need this procedure if you have created the gesture handler with its own VSIX.  
   
-2.  Create a VSIX project, unless your solution already has one.  
+2. Create a VSIX project, unless your solution already has one.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, in the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
+    - In Solution Explorer, in the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
+4. In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   
@@ -235,9 +235,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start:  
   
-   -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
+   - If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-   -   In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
+   - In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
   
         `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
@@ -249,15 +249,15 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
    **Troubleshooting**: If the gesture handler does not work, make sure that:  
   
--   The gesture handler project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
+- The gesture handler project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
   
--   The parameters of all the `Import` and `Export` attributes are valid.  
+- The parameters of all the `Import` and `Export` attributes are valid.  
   
--   The `CanDragDrop` method is not returning `false`.  
+- The `CanDragDrop` method is not returning `false`.  
   
--   The type of model diagram you are using (UML class, sequence, and so on) is listed as one of the gesture handler class attributes [ClassDesignerExtension], [SequenceDesignerExtension] and so on.  
+- The type of model diagram you are using (UML class, sequence, and so on) is listed as one of the gesture handler class attributes [ClassDesignerExtension], [SequenceDesignerExtension] and so on.  
   
--   There is no built-in functionality already defined for this type of target and dropped element.  
+- There is no built-in functionality already defined for this type of target and dropped element.  
   
 ##  <a name="Implementing"></a> Implementing the Gesture Handler  
   
@@ -274,17 +274,17 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
  The parameters of these methods are:  
   
--   `ShapeElement target`. The shape or diagram onto which the user has dragged something.  
+- `ShapeElement target`. The shape or diagram onto which the user has dragged something.  
   
      `ShapeElement` is a class in the implementation that underlies the UML modeling tools. To reduce the risk of putting the UML model and diagrams into an inconsistent state, we recommend that you do not use the methods of this class directly. Instead, wrap the element in an `IShape`, and then use the methods described in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
-    -   To obtain an `IShape`:  
+    - To obtain an `IShape`:  
   
         ```  
         IShape targetIShape = target.CreateIShape(target);  
         ```  
   
-    -   To obtain the model element that is targeted by the drag or double-click operation:  
+    - To obtain the model element that is targeted by the drag or double-click operation:  
   
         ```  
         IElement target = targetIShape.Element;  
@@ -292,20 +292,20 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
          You can cast this to a more specific type of element.  
   
-    -   To obtain the UML model store that contains the UML model:  
+    - To obtain the UML model store that contains the UML model:  
   
         ```  
         IModelStore modelStore =   
           targetIShape.Element.GetModelStore();   
         ```  
   
-    -   To obtain access to the host and service provider:  
+    - To obtain access to the host and service provider:  
   
         ```  
         target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
         ```  
   
--   `DiagramDragEventArgs eventArgs`. This parameter carries the serialized form of the source object of a drag operation:  
+- `DiagramDragEventArgs eventArgs`. This parameter carries the serialized form of the source object of a drag operation:  
   
     ```  
     System.Windows.Forms.IDataObject data = eventArgs.Data;    
@@ -347,21 +347,21 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
 #### To install an extension  
   
-1.  In your computer, find the **.vsix** file that was built by your VSIX project.  
+1. In your computer, find the **.vsix** file that was built by your VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
      The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
   
-3.  On the target computer, open the **.vsix** file.  
+3. On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+4. Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
 #### To uninstall an extension  
   

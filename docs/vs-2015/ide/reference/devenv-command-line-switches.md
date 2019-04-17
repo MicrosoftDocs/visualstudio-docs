@@ -40,24 +40,24 @@ Devenv lets you set various options for the integrated development environment (
   
  The syntax rules for `devenv` switches resemble those for other DOS command-line utilities. The following syntax rules apply to all `devenv` switches and their arguments:  
   
--   Commands begin with `devenv`.  
+- Commands begin with `devenv`.  
   
--   Switches are not case-sensitive.  
+- Switches are not case-sensitive.  
   
--   When specifying a solution or project, the first argument is the name of the solution file or project file, including file path.  
+- When specifying a solution or project, the first argument is the name of the solution file or project file, including file path.  
   
--   If the first argument is a file that is not a solution or project, that file will open in the appropriate editor, in a new instance of the IDE.  
+- If the first argument is a file that is not a solution or project, that file will open in the appropriate editor, in a new instance of the IDE.  
   
--   When you supply a project file name instead of a solution file name, a `devenv` command will search the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` will search the parent folder for a solution file that is named "myproject1.sln".  
+- When you supply a project file name instead of a solution file name, a `devenv` command will search the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` will search the parent folder for a solution file that is named "myproject1.sln".  
   
     > [!NOTE]
     >  One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file will be created that is named for this project and references it.  
   
--   When file paths and file names include spaces, you must enclose them in double quotation marks (""). For example, "c:\project a\\".  
+- When file paths and file names include spaces, you must enclose them in double quotation marks (""). For example, "c:\project a\\".  
   
--   Insert one space character between switches and arguments on the same line. For example, the command **devenv /log output.txt** opens the IDE and outputs all log information for that session to output.txt.  
+- Insert one space character between switches and arguments on the same line. For example, the command **devenv /log output.txt** opens the IDE and outputs all log information for that session to output.txt.  
   
--   You cannot use pattern-matching syntax in `devenv` commands.  
+- You cannot use pattern-matching syntax in `devenv` commands.  
   
 ## Devenv Switches  
  Use the following command-line switches to display the IDE and perform the described task.  

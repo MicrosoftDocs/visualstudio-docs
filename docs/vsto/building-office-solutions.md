@@ -39,15 +39,15 @@ ms.workload:
 ### Document-level projects
  When you build a document-level project, the following items are included in the project output:
 
--   A copy of the project document.
+- A copy of the project document.
 
--   The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.
+- The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.
 
--   The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+- The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
--   The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).
+- The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).
 
--   A program database (*PDB*) file.
+- A program database (*PDB*) file.
 
 > [!NOTE]
 >  If you build a document-level solution to a remote location instead of the local computer, add the fully qualified path to the Trusted Locations list in the application's Trust Center. For more information, see the section called Granting Trust to Documents in [Secure Office solutions](../vsto/securing-office-solutions.md).

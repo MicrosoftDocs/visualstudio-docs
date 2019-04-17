@@ -35,7 +35,7 @@ Getting started with Azure Community is easy.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
 
-4.  Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
+4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
 
@@ -60,7 +60,7 @@ Availability of the Azure Community benefit depends on your subscription level a
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support Resources
--  For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
--  [Azure documentation](/azure/).
--  Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
+- [Azure documentation](/azure/).
+- Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

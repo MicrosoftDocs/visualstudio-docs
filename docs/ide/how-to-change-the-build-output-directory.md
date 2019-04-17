@@ -21,11 +21,11 @@ You can specify the location of output on a per-configuration basis (for debug, 
 
 ## Change the build output directory
 
-1.  On the menu bar, choose **Project** > **\<Appname> Properties**. You can also right-click the project node in **Solution Explorer** and select **Properties**.
+1. On the menu bar, choose **Project** > **\<Appname> Properties**. You can also right-click the project node in **Solution Explorer** and select **Properties**.
 
-2.  If you have a Visual Basic project, select the **Compile** tab. If you have a C# project, select the **Build** tab. If you have a C++ project or a JavaScript project, select the **General** tab.
+2. If you have a Visual Basic project, select the **Compile** tab. If you have a C# project, select the **Build** tab. If you have a C++ project or a JavaScript project, select the **General** tab.
 
-3.  In the configuration drop-down at the top, choose the configuration whose output file location you want to change (debug, release, or all).
+3. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (debug, release, or all).
 
      Find the output path entry (**Build output path** in Visual Basic, **Output directory** in Visual C++, **Output path** in JavaScript and C#). Specify a new build output directory relative to the project directory.
 

@@ -193,19 +193,19 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
 
  **To obtain specific information about why a code type failed to attach:**
 
-1.  Detach from the process. On the **Debug** menu, select **Detach All**.
+1. Detach from the process. On the **Debug** menu, select **Detach All**.
 
-1.  Reattach to the process, selecting only the code type that failed to attach.
+1. Reattach to the process, selecting only the code type that failed to attach.
 
-    1.  In the **Attach to Process** dialog box, select the process in the **Available processes** list.
+    1. In the **Attach to Process** dialog box, select the process in the **Available processes** list.
 
-    2.  Select **Select**.
+    2. Select **Select**.
 
-    3.  In the **Select Code Type** dialog box, select **Debug these code types** and the code type that failed to attach. Deselect the other code types.
+    3. In the **Select Code Type** dialog box, select **Debug these code types** and the code type that failed to attach. Deselect the other code types.
 
-    4.  Select **OK**.
+    4. Select **OK**.
 
-    5.  In the **Attach to Process** dialog box, select **Attach**.
+    5. In the **Attach to Process** dialog box, select **Attach**.
 
     This time, the attach will fail completely, and you will get a specific error message.
 

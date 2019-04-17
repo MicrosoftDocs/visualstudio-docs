@@ -57,15 +57,15 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To create a package in a UML class diagram  
   
-1.  Open a UML class diagram, or create a new one.  
+1. Open a UML class diagram, or create a new one.  
   
-2.  Click the **Package** tool.  
+2. Click the **Package** tool.  
   
-3.  Click anywhere on the diagram. A new package shape will appear.  
+3. Click anywhere on the diagram. A new package shape will appear.  
   
      You can click inside an existing package to nest one package in another.  
   
-4.  Type a new name for the package.  
+4. Type a new name for the package.  
   
 #### To create a package in UML Model Explorer  
   
@@ -86,7 +86,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To show an existing package on a UML Class Diagram  
   
--   Drag the package from UML Model Explorer onto the class diagram.  
+- Drag the package from UML Model Explorer onto the class diagram.  
   
     > [!NOTE]
     >  This creates a view of the package on this diagram. It will not necessarily show all the elements that the package contains. To make sure that you see all of a package's contents, view it in UML Model Explorer.  
@@ -106,48 +106,48 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To create an element in a package in UML Model Explorer  
   
-1.  Open **UML Model Explorer**. On the **View** menu, point to **Other Windows**, and then click **UML Model Explorer**.  
+1. Open **UML Model Explorer**. On the **View** menu, point to **Other Windows**, and then click **UML Model Explorer**.  
   
-2.  Right-click a package or a model to which you want to add a new element.  
+2. Right-click a package or a model to which you want to add a new element.  
   
-3.  Point to **Add**, and then click the kind of element that you want to add.  
+3. Point to **Add**, and then click the kind of element that you want to add.  
   
      The new element appears underneath the package.  
   
-4.  Type a name for the new element.  
+4. Type a name for the new element.  
   
     > [!NOTE]
     >  The new element does not appear on any diagram. To create a view of the new element, you can drag it from UML Model Explorer onto a diagram. The diagram must be a type that will display this kind of element.  
   
 #### To create an element in a package on a UML class diagram  
   
-1.  Open a class diagram on which the package appears.  
+1. Open a class diagram on which the package appears.  
   
-    -   Create a new package, if you have not already done this.  
+    - Create a new package, if you have not already done this.  
   
-    -   To make an existing package appear on a class diagram, you can drag the package from **UML Model Explorer** onto the class diagram.  
+    - To make an existing package appear on a class diagram, you can drag the package from **UML Model Explorer** onto the class diagram.  
   
-2.  Click the tool for a class, interface, or enumeration, or package.  
+2. Click the tool for a class, interface, or enumeration, or package.  
   
-3.  Click the package where you want to put the new element.  
+3. Click the package where you want to put the new element.  
   
      The new element appears inside the package.  
   
 #### To create all the elements of a diagram in a specified package  
   
-1.  Create the package, if you have not already done this.  
+1. Create the package, if you have not already done this.  
   
-2.  Open a component diagram, use case diagram, or UML class diagram.  
+2. Open a component diagram, use case diagram, or UML class diagram.  
   
-3.  Open the properties of the diagram. Right-click in a blank part of the diagram and then click **Properties**.  
+3. Open the properties of the diagram. Right-click in a blank part of the diagram and then click **Properties**.  
   
-4.  In the **Linked Package** property, choose the package that you want to contain the diagram's content.  
+4. In the **Linked Package** property, choose the package that you want to contain the diagram's content.  
   
-5.  Create new elements in the diagram. These will be placed into the package.  
+5. Create new elements in the diagram. These will be placed into the package.  
   
-    -   The **Qualified Name** of each element will begin with the package's qualified name.  
+    - The **Qualified Name** of each element will begin with the package's qualified name.  
   
-    -   In **UML Model Explorer**, each element will appear under the package.  
+    - In **UML Model Explorer**, each element will appear under the package.  
   
 ##  <a name="Moving"></a> Moving Elements into and out of Packages  
  You can move one or more elements in or out of a package.  
@@ -156,13 +156,13 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To move an element into or out of a package  
   
--   In UML Model Explorer, drag the element into or out of the tree whose root is the package.  
+- In UML Model Explorer, drag the element into or out of the tree whose root is the package.  
   
      The qualified name of the element will change to show its new owning package or model.  
   
      \- or -  
   
--   In a class diagram, drag the element into a package shape.  
+- In a class diagram, drag the element into a package shape.  
   
      The qualified name of the element will change to show its new owning package.  
   
@@ -174,9 +174,9 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To paste elements into a package on a UML class diagram  
   
-1.  On a UML class diagram, select all the elements that you want to copy. Right-click one of them and then click **Copy**.  
+1. On a UML class diagram, select all the elements that you want to copy. Right-click one of them and then click **Copy**.  
   
-2.  Right-click the package and then click **Paste**.  
+2. Right-click the package and then click **Paste**.  
   
     > [!NOTE]
     >  The package can be on a different diagram.  
@@ -193,9 +193,9 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
  For example, suppose that package `SalesCommon` defines type `CustomerAddress`. In another package `RestaurantSales`, you want to define a type `MealOrder`, which has an attribute of type Customer Address. You have two options:  
   
--   Specify the type of the attribute using the fully qualified name `SalesCommon::CustomerAddress`. You should do this can only if `CustomerAddress` has its **Visibility** property set to **Public**.  
+- Specify the type of the attribute using the fully qualified name `SalesCommon::CustomerAddress`. You should do this can only if `CustomerAddress` has its **Visibility** property set to **Public**.  
   
--   Create an Import relationship from the `RestaurantSales` package to the `SalesCommon` package. Then you can use `CustomerAddress` without using its qualified name.  
+- Create an Import relationship from the `RestaurantSales` package to the `SalesCommon` package. Then you can use `CustomerAddress` without using its qualified name.  
   
 ##  <a name="Properties"></a> Properties of Packages  
  Each package has the following properties. To see the properties, right-click the package, either on a diagram or in UML Model Explorer, and then click **Properties**.  

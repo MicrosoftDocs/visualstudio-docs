@@ -243,11 +243,11 @@ Two-stage update process and the role of the DataRowVersion in a successful upda
   
  For the second row, however, the `Update` method automatically invokes the correct data command and transmits it to the database. The specific syntax of the SQL statement depends on the dialect of SQL that's supported by the underlying data store. But the following general traits of the transmitted SQL statement are noteworthy:  
   
--   The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState>.  
+- The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState>.  
   
--   The transmitted SQL statement includes a WHERE clause indicating that the target of the UPDATE statement is the row where `CustomerID = 'c400'`. This part of the SELECT statement distinguishes the target row from all others because the `CustomerID` is the primary key of the target table. The information for the WHERE clause is derived from the original version of the record (`DataRowVersion.Original`), in case the values that are required to identify the row have  changed.  
+- The transmitted SQL statement includes a WHERE clause indicating that the target of the UPDATE statement is the row where `CustomerID = 'c400'`. This part of the SELECT statement distinguishes the target row from all others because the `CustomerID` is the primary key of the target table. The information for the WHERE clause is derived from the original version of the record (`DataRowVersion.Original`), in case the values that are required to identify the row have  changed.  
   
--   The transmitted SQL statement includes the SET clause, to set the new values of the modified columns.  
+- The transmitted SQL statement includes the SET clause, to set the new values of the modified columns.  
   
     > [!NOTE]
     >  If the TableAdapter's `UpdateCommand` property has been set to the name of a stored procedure, the adapter does not construct an SQL statement. Instead, it invokes the stored procedure with the appropriate parameters passed in.  

@@ -37,46 +37,46 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 ### Support for Code Pages
  Some Visual Studio tools do not display text correctly when the text contains characters that are not in the current code page. Instead, question marks appear or the text is corrupted. The following tools or areas are affected:
 
--   Sites deployed by using FTP.
+- Sites deployed by using FTP.
 
--   Non-ASCII computer names in some controls.
+- Non-ASCII computer names in some controls.
 
--   Command line tools that run outside of Visual Studio.
+- Command line tools that run outside of Visual Studio.
 
--   Visual Basic Migration Wizard.
+- Visual Basic Migration Wizard.
 
--   ActiveX Control Test Container.
+- ActiveX Control Test Container.
 
--   OLE/COM Object Viewer.
+- OLE/COM Object Viewer.
 
--   ISAPI Web Debug Tool.
+- ISAPI Web Debug Tool.
 
--   MFC application projects that have HTML Help content.
+- MFC application projects that have HTML Help content.
 
--   Visual SourceSafe / SCCI UI falls back to English when there is an incompatible code page.
+- Visual SourceSafe / SCCI UI falls back to English when there is an incompatible code page.
 
--   Visual SourceSafe does not support Unicode file names.
+- Visual SourceSafe does not support Unicode file names.
 
--   End User-Defined Characters (private use zone) cannot be used as tokens/identifiers.
+- End User-Defined Characters (private use zone) cannot be used as tokens/identifiers.
 
--   Latin Extended-B characters cannot be displayed in some Visual Studio tool windows when the Windows code page is set to an East Asian language.
+- Latin Extended-B characters cannot be displayed in some Visual Studio tool windows when the Windows code page is set to an East Asian language.
 
--   Text runs that consist of characters from multiple language scripts may display the default glyph for some characters.
+- Text runs that consist of characters from multiple language scripts may display the default glyph for some characters.
 
--   Copying and pasting complex script strings into common controls may cause character shaping to be lost. Instead, use the corresponding language keyboard to input text.
+- Copying and pasting complex script strings into common controls may cause character shaping to be lost. Instead, use the corresponding language keyboard to input text.
 
 ##### To correctly display characters that are not included in the current code page
 
-1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../includes/win8-md.md)]).
+1. Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../includes/win8-md.md)]).
 
     > [!NOTE]
     >  You must be an administrator on the computer to follow these steps.
 
-2.  Click the **Advanced** tab.
+2. Click the **Advanced** tab.
 
-3.  In the **Select a language to match the language version of the non-Unicode programs you want to use** list, select the language you are currently using.
+3. In the **Select a language to match the language version of the non-Unicode programs you want to use** list, select the language you are currently using.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## Changing the Language Used for the UI Text in Visual Studio
  When you install multiple language versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on the same computer, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] UI defaults to **Same as Microsoft Windows**. This setting indicates that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will display the UI text in the language that is specified as the display language for the operating system.

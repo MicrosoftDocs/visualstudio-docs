@@ -29,15 +29,15 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 ## In this topic
  You can learn how to:
 
--   [Create the sample app](#BKMK_CreateTheApplication)
+- [Create the sample app](#BKMK_CreateTheApplication)
 
--   [Set and run to a breakpoint, step into a method, and examine program data](#BKMK_StepInto)
+- [Set and run to a breakpoint, step into a method, and examine program data](#BKMK_StepInto)
 
--   [Step into, over, and out of methods](#BKMK_StepIntoOverOut)
+- [Step into, over, and out of methods](#BKMK_StepIntoOverOut)
 
--   [Set a conditional breakpoint, run to the cursor, and visualize a variable](#BKMK_ConditionCursorVisualize)
+- [Set a conditional breakpoint, run to the cursor, and visualize a variable](#BKMK_ConditionCursorVisualize)
 
--   [Edit and continue, recover from an exception](#BKMK_EditContinueRecoverExceptions)
+- [Edit and continue, recover from an exception](#BKMK_EditContinueRecoverExceptions)
 
 ##  <a name="BKMK_CreateTheApplication"></a> Create the sample app
  Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine and change program state. All of the code that you will invoke is called from the constructor of the main page; no controls are added and no events are handled.

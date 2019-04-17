@@ -17,9 +17,9 @@ manager: jillfra
 
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
--   Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  
+- Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
--   Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
+- Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
   
 ## Scalars and Vectors  
  Because MSBuild properties are name-value pairs that have just one string value, they are often described as *scalar*. Because MSBuild item types are lists of items, they are often described as *vector*. However, in practice, properties can represent multiple values, and item types can have zero or one items.  
@@ -90,15 +90,15 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
 - During the evaluation phase of a build:  
   
-  -   Properties are defined and modified in the order in which they appear. Property functions are executed. Property values in the form $(PropertyName) are expanded within expressions. The property value is set to the expanded expression.  
+  - Properties are defined and modified in the order in which they appear. Property functions are executed. Property values in the form $(PropertyName) are expanded within expressions. The property value is set to the expanded expression.  
   
-  -   Item definitions are defined and modified in the order in which they appear. Property functions have already been expanded within expressions. Metadata values are set to the expanded expressions.  
+  - Item definitions are defined and modified in the order in which they appear. Property functions have already been expanded within expressions. Metadata values are set to the expanded expressions.  
   
-  -   Item types are defined and modified in the order in which they appear. Item values in the form @(ItemType) are expanded. Item transformations are also expanded. Property functions and values have already been expanded within expressions. The item list and metadata values are set to the expanded expressions.  
+  - Item types are defined and modified in the order in which they appear. Item values in the form @(ItemType) are expanded. Item transformations are also expanded. Property functions and values have already been expanded within expressions. The item list and metadata values are set to the expanded expressions.  
   
 - During the execution phase of a build:  
   
-  -   Properties and items that are defined within targets are evaluated together in the order in which they appear. Property functions are executed and property values are expanded within expressions. Item values and item transformations are also expanded. The property values, item type values, and metadata values are set to the expanded expressions.  
+  - Properties and items that are defined within targets are evaluated together in the order in which they appear. Property functions are executed and property values are expanded within expressions. Item values and item transformations are also expanded. The property values, item type values, and metadata values are set to the expanded expressions.  
   
 ### Subtle Effects of the Evaluation Order  
  In the evaluation phase of a build, property evaluation precedes item evaluation. Nevertheless, properties can have values that appear to depend on item values. Consider the following script.  

@@ -113,11 +113,11 @@ Before we dig in to the details, here's a list of our most frequently requested 
 
 #### To install optional components
 
-1.  In **Control Panel**, on the **Programs and Features** page, choose the product edition to which you want to add one or more components, and then choose **Change**.
+1. In **Control Panel**, on the **Programs and Features** page, choose the product edition to which you want to add one or more components, and then choose **Change**.
 
-2.  In the Setup wizard, choose **Modify**, and then choose the components that you want to install.
+2. In the Setup wizard, choose **Modify**, and then choose the components that you want to install.
 
-3.  Choose **Next**, and then follow the remaining instructions.
+3. Choose **Next**, and then follow the remaining instructions.
 
 ##  <a name="helpContent"></a> Installing offline Help content
  After you install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can download additional Help content so that it will be available offline.
@@ -141,40 +141,40 @@ Before we dig in to the details, here's a list of our most frequently requested 
 
 #### To automatically check for service releases
 
-1.  On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools**, **Options**.
 
-2.  In the **Options** dialog box, expand **Environment**, and then select **Extensions and Updates**. Make sure the **Automatically check for updates** check box is selected, and then choose **OK**.
+2. In the **Options** dialog box, expand **Environment**, and then select **Extensions and Updates**. Make sure the **Automatically check for updates** check box is selected, and then choose **OK**.
 
 ## Registering Visual Studio
 
-1.  On the menu bar, choose **Help**, **About**.
+1. On the menu bar, choose **Help**, **About**.
 
      The **About** dialog box shows the product identification number (PID). You'll need the PID and Windows Account credentials (such as a Hotmail or Outlook.com email address and password) to register the product.
 
-2.  On the menu bar, choose **Help**, **Register Product**.
+2. On the menu bar, choose **Help**, **Register Product**.
 
 ##  <a name="repair"></a> Repairing Visual Studio
 
 #### To repair Visual Studio
 
-1.  In **Control Panel**, on the **Programs and Features** page, choose the product edition that you want to repair, and then choose **Change**.
+1. In **Control Panel**, on the **Programs and Features** page, choose the product edition that you want to repair, and then choose **Change**.
 
-2.  In the Setup wizard, choose **Repair**, choose **Next**, and then follow the remaining instructions.
+2. In the Setup wizard, choose **Repair**, choose **Next**, and then follow the remaining instructions.
 
 #### To repair Visual Studio in silent or passive modes (that is, to repair from source)
 
-1.  On the computer where Visual Studio is installed, open the Windows command prompt.
+1. On the computer where Visual Studio is installed, open the Windows command prompt.
 
-2.  Enter the following parameters:
+2. Enter the following parameters:
 
      *DVDRoot* \\<Installation File\> \</quiet&#124;/passive> [/norestart]/Repair
 
 ##  <a name="troubleshooting"></a> Troubleshooting an installation
  Use these resources to get help for setup and installation issues:
 
--   [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
+- [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
 
--   [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
+- [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
 
 ##  <a name="relatedTopics"></a> Related Topics
 

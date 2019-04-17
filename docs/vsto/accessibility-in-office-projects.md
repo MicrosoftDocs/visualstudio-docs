@@ -34,21 +34,21 @@ In most cases, Office projects in Visual Studio meet accessibility standards or 
 
 #### To view shortcut keys for Ribbon tabs and controls in the designer
 
-1.  In Visual Studio, on the **Tools** menu, click **Options**.
+1. In Visual Studio, on the **Tools** menu, click **Options**.
 
-2.  Expand the **Office Tools** node, and select **Microsoft Office Excel Keyboard** or **Microsoft Office Word Keyboard**, as appropriate.
+2. Expand the **Office Tools** node, and select **Microsoft Office Excel Keyboard** or **Microsoft Office Word Keyboard**, as appropriate.
 
-3.  Select **Dynamic keyboard scheme**.
+3. Select **Dynamic keyboard scheme**.
 
      A message appears that states that you must restart Visual Studio for the change to take effect.
 
-4.  Click **OK**.
+4. Click **OK**.
 
-5.  Restart Visual Studio, and reopen your project.
+5. Restart Visual Studio, and reopen your project.
 
-6.  Open the document or workbook designer for your project.
+6. Open the document or workbook designer for your project.
 
-7.  Press **F6** to display the shortcut keys for the Ribbon.
+7. Press **F6** to display the shortcut keys for the Ribbon.
 
 ## Accessibility at runtime
 

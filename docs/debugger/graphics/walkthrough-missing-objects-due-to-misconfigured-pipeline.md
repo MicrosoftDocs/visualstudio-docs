@@ -14,13 +14,13 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 
  This walkthrough illustrates these tasks:
 
--   Using the **Graphics Event List** to locate potential sources of the problem.
+- Using the **Graphics Event List** to locate potential sources of the problem.
 
--   Using the **Graphics Pipeline Stages** window to examine the effect of the `DrawIndexed` Direct3D API call.
+- Using the **Graphics Pipeline Stages** window to examine the effect of the `DrawIndexed` Direct3D API call.
 
--   Inspecting the device context to confirm that a shader stage was not set.
+- Inspecting the device context to confirm that a shader stage was not set.
 
--   Using the **Graphics Pipeline Stages** window together with the **Graphics Event Call Stack** to help find the source of the unset pixel shader.
+- Using the **Graphics Pipeline Stages** window together with the **Graphics Event Call Stack** to help find the source of the unset pixel shader.
 
 ## Scenario
  When an object is missing in a 3-D app, it's sometimes because one of the shader stages is not set before the object is rendered. In apps that have simple rendering needs, the source of this error is usually located somewhere in the call stack of the object's draw call. However, as an optimization, some apps batch together objects that have shader programs, textures, or other data in common to minimize state-change overhead. In these apps, the source of the error might be buried in the batching system, rather than located in the call stack of the draw call. The scenario in this walkthrough demonstrates an app that has simple rendering needs, and so the source of the error can be found in the call stack.

@@ -17,9 +17,9 @@ Controls enable users to interact with your app. You can use them to collect inf
   
  **In this topic:**  
   
--   [Add controls to the artboard](#Insert)  
+- [Add controls to the artboard](#Insert)  
   
--   [Make controls do things](#Modify)  
+- [Make controls do things](#Modify)  
   
 ##  <a name="Insert"></a> Add controls to the artboard  
  You can drag controls from the **Assets** panel onto the **artboard**, and then modify them in the **Properties** window.  

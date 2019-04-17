@@ -430,49 +430,49 @@ pMyPerson->Dump( afxDump );
   
 3. First, you will create a new project configuration.  
   
-   1.  In the **\<Project> Property Pages** dialog box, click the **Configuration Manager** button.  
+   1. In the **\<Project> Property Pages** dialog box, click the **Configuration Manager** button.  
   
-   2.  In the [Configuration Manager dialog box](http://msdn.microsoft.com/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
+   2. In the [Configuration Manager dialog box](http://msdn.microsoft.com/fa182dca-282e-4ae5-bf37-e155344ca18b), locate your project in the grid. In the **Configuration** column, select **\<New...>**.  
   
-   3.  In the [New Project Configuration dialog box](http://msdn.microsoft.com/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
+   3. In the [New Project Configuration dialog box](http://msdn.microsoft.com/cca616dc-05a6-4fe3-bdc1-40c72a66f2be), type a name for your new configuration, such as "Partial Debug", in the **Project Configuration Name** box.  
   
-   4.  In the **Copy Settings from** list, choose **Release**.  
+   4. In the **Copy Settings from** list, choose **Release**.  
   
-   5.  Click **OK** to close the **New Project Configuration**dialog box.  
+   5. Click **OK** to close the **New Project Configuration**dialog box.  
   
-   6.  Close the **Configuration Manager** dialog box.  
+   6. Close the **Configuration Manager** dialog box.  
   
 4. Now, you will set options for the entire project.  
   
-   1.  In the **Property Pages** dialog box, under the **Configuration Properties** folder, select the **General** category.  
+   1. In the **Property Pages** dialog box, under the **Configuration Properties** folder, select the **General** category.  
   
-   2.  In the project settings grid, expand **Project Defaults** (if necessary).  
+   2. In the project settings grid, expand **Project Defaults** (if necessary).  
   
-   3.  Under **Project Defaults**, find **Use of MFC**. The current setting appears in the right column of the grid. Click on the current setting and change it to **Use MFC in a Static Library**.  
+   3. Under **Project Defaults**, find **Use of MFC**. The current setting appears in the right column of the grid. Click on the current setting and change it to **Use MFC in a Static Library**.  
   
-   4.  In the left pane of the **Properties Pages** dialog box, open the **C/C++** folder and select **Preprocessor**. In the properties grid, find **Preprocessor Definitions** and replace "NDEBUG" with "_DEBUG".  
+   4. In the left pane of the **Properties Pages** dialog box, open the **C/C++** folder and select **Preprocessor**. In the properties grid, find **Preprocessor Definitions** and replace "NDEBUG" with "_DEBUG".  
   
-   5.  In the left pane of the **Properties Pages** dialog box, open the **Linker** folder and select the **Input** Category. In the properties grid, find **Additional Dependencies**. In the **Additional Dependencies** setting, type "NAFXCWD.LIB" and "LIBCMT."  
+   5. In the left pane of the **Properties Pages** dialog box, open the **Linker** folder and select the **Input** Category. In the properties grid, find **Additional Dependencies**. In the **Additional Dependencies** setting, type "NAFXCWD.LIB" and "LIBCMT."  
   
-   6.  Click **OK** to save the new build options and close the **Property Pages** dialog box.  
+   6. Click **OK** to save the new build options and close the **Property Pages** dialog box.  
   
 5. From the **Build** menu, select **Rebuild**. This removes all debug information from your modules but does not affect the MFC library.  
   
 6. Now you must add debug information back to selected modules in your application. Remember that you can set breakpoints and perform other debugger functions only in modules you have compiled with debug information. For each project file in which you want to include debug information, carry out the following steps:  
   
-   1.  In Solution Explorer, open the **Source Files** folder located under your project.  
+   1. In Solution Explorer, open the **Source Files** folder located under your project.  
   
-   2.  Select the file you want to set debug information for.  
+   2. Select the file you want to set debug information for.  
   
-   3.  From the **View** menu, select **Property Pages**.  
+   3. From the **View** menu, select **Property Pages**.  
   
-   4.  In the **Property Pages** dialog box, under the **Configuration Settings** folder, open the **C/C++** folder then select the **General** category.  
+   4. In the **Property Pages** dialog box, under the **Configuration Settings** folder, open the **C/C++** folder then select the **General** category.  
   
-   5.  In the properties grid, find **Debug Information Format.**  
+   5. In the properties grid, find **Debug Information Format.**  
   
-   6.  Click the **Debug Information Format** settings and select the desired option (usually **/ZI**) for debug information.  
+   6. Click the **Debug Information Format** settings and select the desired option (usually **/ZI**) for debug information.  
   
-   7.  If you are using an application wizard-generated application or have precompiled headers, you have to turn off the precompiled headers or recompile them before compiling the other modules. Otherwise, you will receive warning C4650 and error message C2855. You can turn off precompiled headers by changing the **Create/Use Precompiled Headers** setting in the **\<Project> Properties** dialog box (**Configuration Properties** folder, **C/C++** subfolder, **Precompiled Headers** category).  
+   7. If you are using an application wizard-generated application or have precompiled headers, you have to turn off the precompiled headers or recompile them before compiling the other modules. Otherwise, you will receive warning C4650 and error message C2855. You can turn off precompiled headers by changing the **Create/Use Precompiled Headers** setting in the **\<Project> Properties** dialog box (**Configuration Properties** folder, **C/C++** subfolder, **Precompiled Headers** category).  
   
 7. From the **Build** menu, select **Build** to rebuild project files that are out of date.  
   

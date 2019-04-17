@@ -19,17 +19,17 @@ Changing the return type of a DataContext method cannot be undone. To revert bac
   
 ### To change the return type of a DataContext  
   
--   Click **Yes**.  
+- Click **Yes**.  
   
 ### To exit the message box and leave the return type unchanged  
   
--   Click **No**.  
+- Click **No**.  
   
 ### To revert to the original return type after changing the return type  
   
-1.  Select the <xref:System.Data.Linq.DataContext> method on the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] and delete it.  
+1. Select the <xref:System.Data.Linq.DataContext> method on the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] and delete it.  
   
-2.  Locate the item in **Server Explorer/Database Explorer** and drag it onto the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+2. Locate the item in **Server Explorer/Database Explorer** and drag it onto the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
      A <xref:System.Data.Linq.DataContext> method is created with the original default return type.  
   

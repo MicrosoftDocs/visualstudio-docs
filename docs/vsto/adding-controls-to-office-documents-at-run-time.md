@@ -43,11 +43,11 @@ ms.workload:
 
  The way that you access these objects depends on the type of project you are developing:
 
--   In a document-level project for Excel, use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> property of the `Sheet1`, `Sheet2`, and `Sheet3` classes. For more information about these classes, see [Worksheet host item](../vsto/worksheet-host-item.md).
+- In a document-level project for Excel, use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> property of the `Sheet1`, `Sheet2`, and `Sheet3` classes. For more information about these classes, see [Worksheet host item](../vsto/worksheet-host-item.md).
 
--   In a document-level project for Word, use the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class. For more information about this class, see [Document host item](../vsto/document-host-item.md).
+- In a document-level project for Word, use the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class. For more information about this class, see [Document host item](../vsto/document-host-item.md).
 
--   In a VSTO Add-in project for Excel or Word, use the `Controls` property of a <xref:Microsoft.Office.Tools.Excel.Worksheet> or <xref:Microsoft.Office.Tools.Word.Document> that you generate at runtime. For more information about generating these objects at runtime, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+- In a VSTO Add-in project for Excel or Word, use the `Controls` property of a <xref:Microsoft.Office.Tools.Excel.Worksheet> or <xref:Microsoft.Office.Tools.Word.Document> that you generate at runtime. For more information about generating these objects at runtime, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ### Add controls
  The <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> types include helper methods that you can use to add host controls and common Windows Forms controls to documents and worksheets. Each method name has the format `Add`*control class*, where *control class* is the class name of the control that you want to add. For example, to add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to your document, use the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddNamedRange%2A> method.

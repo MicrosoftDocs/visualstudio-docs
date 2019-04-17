@@ -36,39 +36,39 @@ Windows Forms applications can be configured for multiple cultures through the u
   
 ### To mark satellite assemblies as optional  
   
-1.  Build your project. This will generate satellite assemblies for all of the cultures you are localizing to.  
+1. Build your project. This will generate satellite assemblies for all of the cultures you are localizing to.  
   
-2.  Right-click on your project name in Solution Explorer, and click **Properties**.  
+2. Right-click on your project name in Solution Explorer, and click **Properties**.  
   
-3.  Click the **Publish** tab, and then click **Application Files**.  
+3. Click the **Publish** tab, and then click **Application Files**.  
   
-4.  Select the **Show all files** check box to display satellite assemblies. By default, all satellite assemblies will be included in your deployment and will be visible in this dialog box.  
+4. Select the **Show all files** check box to display satellite assemblies. By default, all satellite assemblies will be included in your deployment and will be visible in this dialog box.  
   
      A satellite assembly will have a name in the form *isoCode*\ApplicationName.resources.dll, where *isoCode* is a language identifier in RFC 1766 format.  
   
-5.  Click **New...** in the **Download Group** list for each language identifier. When prompted for a download group name, enter the language identifier. For example, for a Japanese satellite assembly, you would specify the download group name `ja-JP`.  
+5. Click **New...** in the **Download Group** list for each language identifier. When prompted for a download group name, enter the language identifier. For example, for a Japanese satellite assembly, you would specify the download group name `ja-JP`.  
   
-6.  Close the **Application Files** dialog box.  
+6. Close the **Application Files** dialog box.  
   
 ### To download satellite assemblies on demand in C#  
   
-1.  Open the Program.cs file. If you do not see this file in Solution Explorer, select your project, and on the **Project** menu, click **Show All Files**.  
+1. Open the Program.cs file. If you do not see this file in Solution Explorer, select your project, and on the **Project** menu, click **Show All Files**.  
   
-2.  Use the following code to download the appropriate satellite assembly and start your application.  
+2. Use the following code to download the appropriate satellite assembly and start your application.  
   
      [!code-csharp[ClickOnce.SatelliteAssemblies#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnce.SatelliteAssemblies/CS/Program.cs#1)]  
   
 ### To download satellite assemblies on demand in Visual Basic  
   
-1.  In the **Properties** window for the application, click the **Application** tab.  
+1. In the **Properties** window for the application, click the **Application** tab.  
   
-2.  At the bottom of the tab page, click **View Application Events**.  
+2. At the bottom of the tab page, click **View Application Events**.  
   
-3.  Add the following imports to the beginning of the ApplicationEvents.VB file.  
+3. Add the following imports to the beginning of the ApplicationEvents.VB file.  
   
      [!code-vb[ClickOnce.SatelliteAssembliesVB#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesVB/VB/ApplicationEvents.vb#1)]  
   
-4.  Add the following code to the `MyApplication` class.  
+4. Add the following code to the `MyApplication` class.  
   
      [!code-vb[ClickOnce.SatelliteAssembliesVB#2](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesVB/VB/ApplicationEvents.vb#2)]  
   

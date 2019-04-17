@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1702: Compound words should be cased correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1702: Compound words should be cased correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1702-compound-words-should-be-cased-correctly) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1702: Compound words should be cased correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1702-compound-words-should-be-cased-correctly).  
   
 |||  
 |-|-|  

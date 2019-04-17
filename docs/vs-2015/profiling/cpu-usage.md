@@ -27,13 +27,13 @@ When you need to investigate performance issues in your app, a good place to sta
   
     ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
   
-   -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
+   - Running the app in **Release** mode gives you a better view of the actual performance of your app.  
   
-   -   Running the app on the local machine best replicates the execution of the installed app.  
+   - Running the app on the local machine best replicates the execution of the installed app.  
   
-   -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
+   - If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
   
-   -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
+   - For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
   
 2. On the **Debug** menu, choose **Performance Profiler...**.  
   
@@ -102,8 +102,8 @@ When you need to investigate performance issues in your app, a good place to sta
   
  ![Expanded GetMaxNumberAsyncButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
--   `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
+- `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
--   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.
+- `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.

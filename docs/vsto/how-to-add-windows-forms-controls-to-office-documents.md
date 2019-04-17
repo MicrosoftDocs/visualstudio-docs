@@ -38,20 +38,20 @@ ms.workload:
 
 ### To drag a Windows Forms control to the document
 
-1.  Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In the **Common Controls** tab of the **Toolbox**, click the control you want to add, and drag it to the document.
+2. In the **Common Controls** tab of the **Toolbox**, click the control you want to add, and drag it to the document.
 
     > [!NOTE]
     >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ### To draw a Windows Forms control on the document
 
-1.  Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In the **Common Controls** tab of the **Toolbox**, click the control you want to add.
+2. In the **Common Controls** tab of the **Toolbox**, click the control you want to add.
 
-3.  On the document, click where you want the upper-left corner of the control to be located, and drag to where you want the lower-right corner of the control to be located.
+3. On the document, click where you want the upper-left corner of the control to be located, and drag to where you want the lower-right corner of the control to be located.
 
      The control is added to the document with the specified location and size.
 
@@ -60,11 +60,11 @@ ms.workload:
 
 ### To add a Windows Forms control to the document by single-clicking the control
 
-1.  Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In the **Common Controls** tab of the **Toolbox**, click the control you want to add
+2. In the **Common Controls** tab of the **Toolbox**, click the control you want to add
 
-3.  One the document, click where you want the control to be added.
+3. One the document, click where you want the control to be added.
 
      The control is added to the document with the default size.
 
@@ -73,9 +73,9 @@ ms.workload:
 
 ### To add a Windows Forms control to the document by double-clicking the control
 
-1.  Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In the **Common Controls** tab of the **Toolbox**, double-click the control you want to add.
+2. In the **Common Controls** tab of the **Toolbox**, double-click the control you want to add.
 
      The control is added to the document at the center of the document or active pane.
 
@@ -84,9 +84,9 @@ ms.workload:
 
 ### To add a Windows Forms control to the document by pressing the Enter key
 
-1.  Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel Workbook project or Word Document project in Visual Studio so that the document is visible in the designer. For information on creating projects, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In the **Common Controls** tab of the **Toolbox**, click the control you want to add, and press the **Enter** key.
+2. In the **Common Controls** tab of the **Toolbox**, click the control you want to add, and press the **Enter** key.
 
      The control is added to the document at the center of the document or active pane.
 
@@ -100,7 +100,7 @@ ms.workload:
 
 ### To add a Windows Forms control at runtime
 
-1.  Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
+1. Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
 
      The following code example demonstrates how to add a <xref:Microsoft.Office.Tools.Excel.Controls.Button> to cell **C5** of `Sheet1` in a document-level project for Excel.
 
@@ -116,7 +116,7 @@ ms.workload:
 
 ### To add a Windows Forms control at runtime
 
-1.  Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
+1. Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
 
     > [!NOTE]
     >  In VSTO Add-in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.

@@ -40,11 +40,11 @@ manager: "wpickett"
   
  The following are some situations where the using statement is not enough to protect IDisposable objects and can cause CA2000 to occur.  
   
--   Returning a disposable object requires that the object is constructed in a try/finally block outside a using block.  
+- Returning a disposable object requires that the object is constructed in a try/finally block outside a using block.  
   
--   Initializing members of a disposable object should not be done in the constructor of a using statement.  
+- Initializing members of a disposable object should not be done in the constructor of a using statement.  
   
--   Nesting constructors that are protected only by one exception handler. For example,  
+- Nesting constructors that are protected only by one exception handler. For example,  
   
     ```  
     using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))  
@@ -53,7 +53,7 @@ manager: "wpickett"
   
      causes CA2000 to occur because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.  
   
--   Dynamic objects should use a shadow object to implement the Dispose pattern of IDisposable objects.  
+- Dynamic objects should use a shadow object to implement the Dispose pattern of IDisposable objects.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule unless you have called a method on your object that calls `Dispose`, such as <xref:System.IO.Stream.Close%2A>, or if the method that raised the warning returns an IDisposable object wraps your object.  

@@ -78,9 +78,9 @@ You can use editor extensions to add language service features such as outlining
   
  You can also create editor MEF components from a Visual Studio Package extension. See the following walkthroughs for details:  
   
--   [Walkthrough: Using a Shell Command with an Editor Extension](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)  
+- [Walkthrough: Using a Shell Command with an Editor Extension](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)  
   
--   [Walkthrough: Using a Shortcut Key with an Editor Extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)  
+- [Walkthrough: Using a Shortcut Key with an Editor Extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)  
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

@@ -76,9 +76,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - [Attach the debugger to a running app](#BKMK_Attach_the_debugger_to_a_running_app_)
 
-  -   [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)
+  - [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)
 
-  -   [Attach the debugger](#BKMK_Attach_the_debugger)
+  - [Attach the debugger](#BKMK_Attach_the_debugger)
 
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> The easy way to start debugging
 
@@ -92,23 +92,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 ###  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project
 
-1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.
+1. In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.
 
-2.  Do this to open the debug property page for the project :
+2. Do this to open the debug property page for the project :
 
-    -   For Visual C# and Visual Basic apps, choose **Debug**.
+    - For Visual C# and Visual Basic apps, choose **Debug**.
 
          ![C&#35; &#47; VB project debug property page](../debugger/media/dbg-csvb-debugpropertypage.png "DBG_CsVb_DebugPropertyPage")
 
-    -   For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.
+    - For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.
 
          ![C&#43;&#43; Windows Store app debugging property page](../debugger/media/dbg-cpp-debugpropertypage.png "DBG_CPP_DebugPropertyPage")
 
 ###  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options
 
-1.  From the **Configuration** list, choose **Debug** or **(Active) Debug**.
+1. From the **Configuration** list, choose **Debug** or **(Active) Debug**.
 
-2.  From the **Platform** list choose the target platform to build for. In most cases, **Any CPU** (**All Platforms** in Visual C++) is the best choice.
+2. From the **Platform** list choose the target platform to build for. In most cases, **Any CPU** (**All Platforms** in Visual C++) is the best choice.
 
 ###  <a name="BKMK_Choose_the_deployment_target"></a> Choose the deployment target
  ![Applies to Windows only](../debugger/media/windows-only-content.png "windows_only_content")
@@ -131,9 +131,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - Enter the name or IP address of the remote machine.
 
-  -   For C# and Visual Basic apps, enter the name or IP address in the **Remote machine** box.
+  - For C# and Visual Basic apps, enter the name or IP address in the **Remote machine** box.
 
-  -   For C++ apps, enter the name or IP address in the **Machine Name** box.
+  - For C++ apps, enter the name or IP address in the **Machine Name** box.
 
 - Choose the remote machine from the **Select Remote Debugger Connection** dialog box.
 
@@ -180,9 +180,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  To delay the launch of your app, you can:
 
--   For Visual C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** on the **Debug** property page.
+- For Visual C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** on the **Debug** property page.
 
--   For Visual C++ apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.
+- For Visual C++ apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.
 
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks
  ![Applies to Windows only](../debugger/media/windows-only-content.png "windows_only_content")
@@ -191,9 +191,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  To remove the network loopback exemption:
 
--   For Visual C# and Visual Basic apps, clear the **Allow Network Loopback** check box on the **Debug** property page.
+- For Visual C# and Visual Basic apps, clear the **Allow Network Loopback** check box on the **Debug** property page.
 
--   For Visual C++ apps, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.
+- For Visual C++ apps, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.
 
 ###  <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> (Optional) Reinstall the app when you start debugging
  To diagnose problems with the installation and initial configuration of your Visual C# or Visual Basic app, choose **Uninstall and then reinstall my package** on the **Debug**  property page to recreate an original install when you start debugging. This option is not available for Visual C++ projects.
@@ -224,9 +224,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - On the **Debugging** property page of the app (**Debug** in Visual C++)
 
-  -   For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.
+  - For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.
 
-  -   For Visual C++ apps, choose **Yes** from the **Launch Application** list.
+  - For Visual C++ apps, choose **Yes** from the **Launch Application** list.
 
 - Choose **Start Debugging** on the **Debug** menu (Keyboard: F5).
 
@@ -271,23 +271,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  Attaching the debugger to an app requires these steps:
 
-1.  Set the app to run in debug mode. This must be done when the app is not running.
+1. Set the app to run in debug mode. This must be done when the app is not running.
 
-2.  Start the app. You can start the app from the Start screen, an execution contract, or some other method.
+2. Start the app. You can start the app from the Start screen, an execution contract, or some other method.
 
-3.  Attach the debugger to the running app.
+3. Attach the debugger to the running app.
 
 ####  <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> Set the app to run in debug mode
 
-1.  Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
+1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
 
-2.  On the Start screen, search for `Debuggable Package Manager` and then start it.
+2. On the Start screen, search for `Debuggable Package Manager` and then start it.
 
      A PowerShell window properly configured for the AppxDebug cmdlet appears.
 
-3.  To enable debugging of an app, you must specify the PackageFullName identifier of the app. To view a list all apps that includes the PackageFullName, type `Get-AppxPackage` at the PowerShell prompt.
+3. To enable debugging of an app, you must specify the PackageFullName identifier of the app. To view a list all apps that includes the PackageFullName, type `Get-AppxPackage` at the PowerShell prompt.
 
-4.  At the PowerShell prompt, enter `Enable-AppxDebug` *PackageFullName* where *PackageFullName* is the PackageFullName identifier of the app.
+4. At the PowerShell prompt, enter `Enable-AppxDebug` *PackageFullName* where *PackageFullName* is the PackageFullName identifier of the app.
 
 ####  <a name="BKMK_Attach_the_debugger"></a> Attach the debugger
  To attach the debugger:
@@ -298,19 +298,19 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 2. To attach to an app on a remote device, specify the remote device in the **Qualifier** box. You can:
 
-   -   Enter the name in the **Qualifier** box.
+   - Enter the name in the **Qualifier** box.
 
-   -   Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.
+   - Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.
 
-   -   Choose **Find** to select the device from a list of devices on your local subnet.
+   - Choose **Find** to select the device from a list of devices on your local subnet.
 
 3. Specify the type of code that you want to debug in the **Attach to** box.
 
     Choose **Select** and then do one of the following:
 
-   -   Choose **Automatically determine the type of code to debug**
+   - Choose **Automatically determine the type of code to debug**
 
-   -   Choose **Debug these code types** and then choose one or more types from the list.
+   - Choose **Debug these code types** and then choose one or more types from the list.
 
 4. In the **Available Processes**  list, choose the app process.
 

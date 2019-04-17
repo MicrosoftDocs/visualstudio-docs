@@ -22,9 +22,9 @@ When Visual Studio generates a unit test for a generic class, such as `MyList<T>
 ## Examples
  The following examples illustrate unit tests for generics:
 
--   [Edit generated test code](#EditingGeneratedTestCode). This example has two sections, Generated Test Code and Edited Test Code. It shows how to edit the raw test code that is generated from a generic method into a useful test method.
+- [Edit generated test code](#EditingGeneratedTestCode). This example has two sections, Generated Test Code and Edited Test Code. It shows how to edit the raw test code that is generated from a generic method into a useful test method.
 
--   [Use a type constraint](#TypeConstraintNotSatisfied). This example shows a unit test for a generic method that uses a type constraint. In this example, the type constraint is not satisfied.
+- [Use a type constraint](#TypeConstraintNotSatisfied). This example shows a unit test for a generic method that uses a type constraint. In this example, the type constraint is not satisfied.
 
 ###  <a name="EditingGeneratedTestCode"></a> Example 1: Editing generated test code
  The test code in this section tests a code-under-test method named `SizeOfLinkedList()`. This method returns an integer that specifies the number of nodes in the linked list.
@@ -33,9 +33,9 @@ When Visual Studio generates a unit test for a generic class, such as `MyList<T>
 
  This code illustrates two methods:
 
--   a test helper method, `SizeOfLinkedListTestHelper<T>()`. By default, a test helper method has "TestHelper" in its name.
+- a test helper method, `SizeOfLinkedListTestHelper<T>()`. By default, a test helper method has "TestHelper" in its name.
 
--   a test method, `SizeOfLinkedListTest()`. Every test method is marked with the TestMethod attribute.
+- a test method, `SizeOfLinkedListTest()`. Every test method is marked with the TestMethod attribute.
 
 #### Generated test code
  The following test code was generated from the `SizeOfLinkedList()` method. Because this is the unedited generated test, it must be modified to correctly test the SizeOfLinkedList method.
@@ -67,22 +67,22 @@ public void SizeOfLinkedListTest()
 ##### Test helper method
  The test helper method performs the following steps, which correspond to lines in the code labeled step 1 through step 5.
 
-1.  Create a generic linked list.
+1. Create a generic linked list.
 
-2.  Append four nodes to the linked list. The data type of the contents of these nodes is unknown.
+2. Append four nodes to the linked list. The data type of the contents of these nodes is unknown.
 
-3.  Assign the expected size of the linked list to the variable `expected`.
+3. Assign the expected size of the linked list to the variable `expected`.
 
-4.  Compute the actual size of the linked list and assign it to the variable `actual`.
+4. Compute the actual size of the linked list and assign it to the variable `actual`.
 
-5.  Compare `actual` with `expected` in an Assert statement. If the actual is not equal to the expected, the test fails.
+5. Compare `actual` with `expected` in an Assert statement. If the actual is not equal to the expected, the test fails.
 
 ##### Test method
  The test method is compiled into the code that is called when you run the test named SizeOfLinkedListTest. It performs the following steps, which correspond to lines in the code labeled step 6 and step 7.
 
-1.  Specify `<int>` when you call the test helper method, to verify that the test works for `integer` variables.
+1. Specify `<int>` when you call the test helper method, to verify that the test works for `integer` variables.
 
-2.  Specify `<char>` when you call the test helper method, to verify that the test works for `char` variables.
+2. Specify `<char>` when you call the test helper method, to verify that the test works for `char` variables.
 
 ```csharp
 public void SizeOfLinkedListTestHelper<T>()

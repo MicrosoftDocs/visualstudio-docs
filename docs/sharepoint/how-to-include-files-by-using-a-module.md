@@ -23,31 +23,31 @@ ms.workload:
 
 #### To add a module
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open or create a SharePoint project.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open or create a SharePoint project.
 
      For more information, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
 
-2.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.
+2. In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.
 
      The **Add New Item** dialog box opens.
 
-3.  In the list of SharePoint templates, choose the **Module** template, and then choose the **Add** button.
+3. In the list of SharePoint templates, choose the **Module** template, and then choose the **Add** button.
 
      This step creates a node in the project named Module1.
 
-4.  Under Module1, delete the *Sample.txt* file.
+4. Under Module1, delete the *Sample.txt* file.
 
      Sample.txt is included in all new modules for example purposes and is not needed. (Note that deleting the file also removes its entry from the module's *Elements.xml* file.)
 
-5.  If you want your files to deploy to a particular folder structure in SharePoint, create those folders under Module1 in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by choosing the Module1 node, and then, on the menu bar, choosing **Project**, **New Folder**.
+5. If you want your files to deploy to a particular folder structure in SharePoint, create those folders under Module1 in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by choosing the Module1 node, and then, on the menu bar, choosing **Project**, **New Folder**.
 
-6.  Choose the folder in which you want to add the file, and then, on the menu bar, choose **Project**, **Add Existing Item**.
+6. Choose the folder in which you want to add the file, and then, on the menu bar, choose **Project**, **Add Existing Item**.
 
-7.  Choose one or more files that you want to deploy to SharePoint, and then choose the **Add** button.
+7. Choose one or more files that you want to deploy to SharePoint, and then choose the **Add** button.
 
      When you add a file to the project, an entry for it is automatically added to the module's Elements.xml file. When the project is deployed, the files are copied to SharePoint server, relative to the project's root directory, which is specified by the **File** element's **Url** attribute, such as `Url="Module1/New Folder/SomeFile.doc`. If you want to change the deployment location for a file, either move it to another folder in **Solution Explorer** or change its **Url** setting.
 
-8.  For any files that you want to appear in a document library, append the `Type="GhostableInLibrary"` attribute to their entry in *Elements.xml*. For example,
+8. For any files that you want to appear in a document library, append the `Type="GhostableInLibrary"` attribute to their entry in *Elements.xml*. For example,
 
     ```xml
     <File Path="Module1\Some Folder\SomePage.aspx" Url="Module1/Some Folder/SomePage.aspx" Type="GhostableInLibrary" />

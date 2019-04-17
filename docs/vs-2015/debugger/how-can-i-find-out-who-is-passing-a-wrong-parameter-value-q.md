@@ -34,19 +34,19 @@ Problem Description
   
 #### To resolve this problem  
   
-1.  Set a location breakpoint at the beginning of the function.  
+1. Set a location breakpoint at the beginning of the function.  
   
-2.  Right-click the breakpoint and select **Condition**.  
+2. Right-click the breakpoint and select **Condition**.  
   
-3.  In the **Breakpoint Condition** dialog box, click on the **Condition** check box. See [Advanced Breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression).  
+3. In the **Breakpoint Condition** dialog box, click on the **Condition** check box. See [Advanced Breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression).  
   
-4.  Enter an expression, such as `Var==3`, into the text box, where `Var` is the name of the parameter that contains the bad value, and `3` is the bad value passed to it.  
+4. Enter an expression, such as `Var==3`, into the text box, where `Var` is the name of the parameter that contains the bad value, and `3` is the bad value passed to it.  
   
-5.  Select the **is True** radio button, and click the **OK** button.  
+5. Select the **is True** radio button, and click the **OK** button.  
   
-6.  Now run the program again. The breakpoint causes the program to halt at the beginning of the function when the `Var` parameter has the value `3`.  
+6. Now run the program again. The breakpoint causes the program to halt at the beginning of the function when the `Var` parameter has the value `3`.  
   
-7.  Use the Call Stack window to find the calling function and navigate to its source code. For more information, see [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md).  
+7. Use the Call Stack window to find the calling function and navigate to its source code. For more information, see [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md).  
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   

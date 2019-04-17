@@ -178,19 +178,19 @@ abXefYj
 ## Editor Features  
  The features of the editor are designed so that the definition of the feature is separate from its implementation. The editor includes these features:  
   
--   Tags and classifiers  
+- Tags and classifiers  
   
--   Adornments  
+- Adornments  
   
--   Projection  
+- Projection  
   
--   Outlining  
+- Outlining  
   
--   Mouse and key bindings  
+- Mouse and key bindings  
   
--   Operations and primitives  
+- Operations and primitives  
   
--   IntelliSense  
+- IntelliSense  
   
 ###  <a name="tagsandclassifiers"></a> Tags and Classifiers  
  Tags are markers that are associated with a span of text. They can be presented in different ways, for example, by using text coloring, underlines, graphics, or pop-ups. Classifiers are one kind of tag.  

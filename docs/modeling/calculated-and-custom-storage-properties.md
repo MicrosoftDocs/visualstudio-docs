@@ -27,30 +27,30 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
 
 #### To define a Calculated or Custom Storage Property
 
-1.  In DslDefinition.dsl, select the domain property either in the diagram or in **DSL Explorer**.
+1. In DslDefinition.dsl, select the domain property either in the diagram or in **DSL Explorer**.
 
-2.  In the **Properties** window, set the **Kind** field to **Calculated** or **Custom Storage**.
+2. In the **Properties** window, set the **Kind** field to **Calculated** or **Custom Storage**.
 
      Make sure that you have also set its **Type** to what you want.
 
-3.  Click **Transform All Templates** in the toolbar of **Solution Explorer**.
+3. Click **Transform All Templates** in the toolbar of **Solution Explorer**.
 
-4.  On the **Build** menu, click **Build Solution**.
+4. On the **Build** menu, click **Build Solution**.
 
      You receive the following error message: "*YourClass* does not contain a definition for Get*YourProperty*."
 
-5.  Double-click the error message.
+5. Double-click the error message.
 
      Dsl\GeneratedCode\DomainClasses.cs or DomainRelationships.cs opens. Above the highlighted method call, a comment prompts you to provide an implementation for Get*YourProperty*().
 
     > [!NOTE]
     >  This file is generated from DslDefinition.dsl. If you edit this file, your changes will be lost the next time that you click **Transform All Templates**. Instead, add the required method in a separate file.
 
-6.  Create or open a class file in a separate folder, for example CustomCode\\*YourDomainClass*.cs.
+6. Create or open a class file in a separate folder, for example CustomCode\\*YourDomainClass*.cs.
 
      Make sure that the namespace is the same as in the generated code.
 
-7.  In the class file, write a partial implementation of the domain class. In the class, write a definition for the missing `Get` method that resembles the following example:
+7. In the class file, write a partial implementation of the domain class. In the class, write a definition for the missing `Get` method that resembles the following example:
 
     ```
     namespace Company.FamilyTree
@@ -60,7 +60,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
     }  }
     ```
 
-8.  If you set **Kind** to **Custom Storage**, you will also have to provide a `Set` method. For example:
+8. If you set **Kind** to **Custom Storage**, you will also have to provide a `Set` method. For example:
 
     ```
     void SetAgeValue(int value)

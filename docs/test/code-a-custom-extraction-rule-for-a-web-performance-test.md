@@ -25,24 +25,24 @@ You can create your own extraction rules. To do this, you derive your own rules 
 
 ## To create a custom extraction rule
 
-1.  Open a Test project that contains a web performance test.
+1. Open a Test project that contains a web performance test.
 
-2.  (Optional) Create a separate Class library project in which to store your extraction rule.
+2. (Optional) Create a separate Class library project in which to store your extraction rule.
 
     > [!IMPORTANT]
     > You can create the class in the same project that your tests are in. However, if you want to reuse the rule, it is better to create a separate Class library project in which to store your rule. If you create a separate project, you must complete the optional steps in this procedure.
 
-3.  (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework dll.
+3. (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework dll.
 
-4.  Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.Extract*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.RuleName*> members.
+4. Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.Extract*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.RuleName*> members.
 
-5.  (Optional) Build the new Class library project.
+5. (Optional) Build the new Class library project.
 
-6.  (Optional) In the Test project, add a reference to the Class library project that contains the custom extraction rule.
+6. (Optional) In the Test project, add a reference to the Class library project that contains the custom extraction rule.
 
-7.  In the Test project, open a web performance test in the **Web Performance Test Editor**.
+7. In the Test project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom extraction rule, right-click a web performance test request and select **Add Extraction Rule**.
+8. To add the custom extraction rule, right-click a web performance test request and select **Add Extraction Rule**.
 
      The **Add Extraction Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom extraction rule and then choose **OK**.
 

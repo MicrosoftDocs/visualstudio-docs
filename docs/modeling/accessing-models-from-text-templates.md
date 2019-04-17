@@ -69,9 +69,9 @@ Here is a list of elements in the model:
 
  The DSL directive processor performs two principal tasks:
 
--   It effectively inserts assembly and import directives into the template that references your DSL. This lets you use your domain classes in the template code.
+- It effectively inserts assembly and import directives into the template that references your DSL. This lets you use your domain classes in the template code.
 
--   It loads the file that you specify in the `requires` parameter, and sets a property in `this` that refers to the root element of the loaded model.
+- It loads the file that you specify in the `requires` parameter, and sets a property in `this` that refers to the root element of the loaded model.
 
 ## Validating the model before running the template
  You can cause the model to be validated before the template is executed.
