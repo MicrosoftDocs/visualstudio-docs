@@ -56,9 +56,9 @@ msbuild.exe myproj.proj /maxcpucount:3
     Properties="%(_MSBuildProjectReferenceExistent.SetConfiguration);   
         %(_MSBuildProjectReferenceExistent.SetPlatform)"  
     Condition="'@(NonVCProjectReference)'!='' and   
-        ('$(BuildingSolutionFile)' == 'true' or   
-        '$(BuildingInsideVisualStudio)' == 'true' or   
-        '$(BuildProjectReferences)' != 'true') and     
+        ($(BuildingSolutionFile) or   
+        $(BuildingInsideVisualStudio) or   
+        !$(BuildProjectReferences)) and     
         '@(_MSBuildProjectReferenceExistent)' != ''"  
     ContinueOnError="!$(BuildingProject)">  
     <Output TaskParameter="TargetOutputs"   

@@ -390,7 +390,7 @@ msbuild /p:SolutionDir=*solution-directory-with-trailing-backslash*;Configuratio
 
 This command produces a detailed build log, *msbuild.log*, that has a performance summary for the targets and tasks at the end.
 
-Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations that only make sense for regular builds and not for design-time builds.
+Make sure to use `Condition ="!$(DesignTimeBuild)"` in all operations that only make sense for regular builds and not for design-time builds.
 
 ### Design-time targets that generate sources
 
@@ -422,7 +422,7 @@ For instance, to automatically generate .cpp or .h files from .xaml files, the `
 <Target Name="DesignTimeMarkupCompilation">
   <!-- BuildingProject is used in Managed builds (always true in Native) -->
   <!-- DesignTimeBuild is used in Native builds (always false in Managed) -->
-  <CallTarget Condition="'$(BuildingProject)' != 'true' Or $(DesignTimeBuild) == 'true'" Targets="DesignTimeMarkupCompilationCT" />
+  <CallTarget Condition="!$(BuildingProject) Or $(DesignTimeBuild)" Targets="DesignTimeMarkupCompilationCT" />
 </Target>
 ```
 

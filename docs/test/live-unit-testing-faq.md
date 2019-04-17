@@ -81,7 +81,7 @@ If your solution requires custom steps to build for instrumentation (Live Unit T
 For example, there may be a target that produces NuGet packages during a regular build. You probably do not want NuGet packages to be generated after every edit you make. So you can disable that target in the Live Unit Testing build by doing something like the following:  
 
 ```xml
-<Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="'$(BuildingForLiveUnitTesting)' != 'true'">
+<Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="!$(BuildingForLiveUnitTesting)">
     <Exec Command='"$(MSBuildThisFileDirectory)..\tools\GenPac" '/>
 </Target>
 ```
