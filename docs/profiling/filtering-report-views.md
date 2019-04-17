@@ -22,11 +22,11 @@ You can apply filters to profiling data files to limit the profiling data that i
 
 #### To create a profiler report filter
 
-1.  If the Performance Report View Filter window is not displayed, click **Show Filter** on the Performance Report View toolbar.
+1. If the Performance Report View Filter window is not displayed, click **Show Filter** on the Performance Report View toolbar.
 
      The Performance Report View Filter is a table. Each row of the table represents a clause of the filter. You can add as many clauses as you want to a filter.
 
-2.  For each clause that you want to add to a filter, select or enter values in the following fields of a row.
+2. For each clause that you want to add to a filter, select or enter values in the following fields of a row.
 
     |Field|Description|
     |-----------|-----------------|
@@ -55,33 +55,33 @@ You can apply filters to profiling data files to limit the profiling data that i
 
 #### To load an existing filter from a file
 
-1.  On the Performance Report View toolbar, click **Import Filter**.
+1. On the Performance Report View toolbar, click **Import Filter**.
 
      The **Load Filter** dialog box is displayed.
 
-2.  Specify the location and file name of the filter (.vspf) file to load.
+2. Specify the location and file name of the filter (.vspf) file to load.
 
 #### To execute a filter
 
--   On the Performance Report View toolbar, click **Execute Filter**.
+- On the Performance Report View toolbar, click **Execute Filter**.
 
 #### To stop a filter that is taking too long to execute
 
--   On the Performance Report View toolbar, click **Stop Filter**.
+- On the Performance Report View toolbar, click **Stop Filter**.
 
 #### To remove a filter on a report view
 
-1.  Delete the rows of clauses in the Performance Report View Filter.
+1. Delete the rows of clauses in the Performance Report View Filter.
 
-2.  On the Performance Report View toolbar, click **Execute Filter**.
+2. On the Performance Report View toolbar, click **Execute Filter**.
 
 #### To save a filter to a file
 
-1.  On the Performance Report View toolbar, click **Export Filter**.
+1. On the Performance Report View toolbar, click **Export Filter**.
 
      The **Save Filter** dialog box is displayed.
 
-2.  Specify the location and file name of the filter (.vspf) file to save.
+2. Specify the location and file name of the filter (.vspf) file to save.
 
 ## See also
 - [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)

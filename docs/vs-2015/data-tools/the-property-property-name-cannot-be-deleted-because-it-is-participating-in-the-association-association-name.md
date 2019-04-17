@@ -19,13 +19,13 @@ The selected property is set as the **Association Property** for the association
   
 ### To correct this error  
   
-1.  Select the association line on the O/R Designer that connects the data classes indicated in the error message.  
+1. Select the association line on the O/R Designer that connects the data classes indicated in the error message.  
   
-2.  Double-click the line to open the **Association Editor** dialog box.  
+2. Double-click the line to open the **Association Editor** dialog box.  
   
-3.  Remove the property from the **Association Properties**.  
+3. Remove the property from the **Association Properties**.  
   
-4.  Try to delete the property again.  
+4. Try to delete the property again.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

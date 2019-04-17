@@ -69,13 +69,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Design-time IntelliSense
  To get IntelliSense support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] before a build has generated an output assembly, the following conditions must be met:
 
--   There must be a target named `Compile`.
+- There must be a target named `Compile`.
 
--   Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
+- Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
 
--   Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
+- Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
 
--   The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
+- The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
 
 ## Build solutions
  Within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself. When building a solution with *msbuild.exe* on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with *msbuild.exe*, project to project references are traversed.
@@ -125,17 +125,17 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 
 #### To unload and edit a project file in Visual Studio
 
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
 
      The project is marked **(unavailable)**.
 
-2.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
+2. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
 
      The project file opens in the Visual Studio XML Editor.
 
-3.  Edit, save, and then close the project file.
+3. Edit, save, and then close the project file.
 
-4.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
+4. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
 
 ## IntelliSense and validation
  When using the XML editor to edit project files, IntelliSense and validation is driven by the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] schema files. These are installed in the schema cache, which can be found in *\<Visual Studio installation directory>\Xml\Schemas\1033\MSBuild*.

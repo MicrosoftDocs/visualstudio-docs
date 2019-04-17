@@ -24,11 +24,11 @@ manager: jillfra
   
  Each interface in the table shows the component that can implement it from the following list:  
   
--   Debug Engine (DE)  
+- Debug Engine (DE)  
   
--   Expression Evaluator (EE)  
+- Expression Evaluator (EE)  
   
--   Visual Studio (VS)  
+- Visual Studio (VS)  
   
 |Interface|Implemented by|Description|  
 |---------------|--------------------|-----------------|  

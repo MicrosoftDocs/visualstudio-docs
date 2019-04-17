@@ -24,30 +24,30 @@ ms.workload:
 
 ## To add an XMLMappedRange control to a worksheet
 
-1.  Open the Excel workbook in the Visual Studio designer.
+1. Open the Excel workbook in the Visual Studio designer.
 
-2.  Open the worksheet where you want to add the control.
+2. Open the worksheet where you want to add the control.
 
-3.  On the **Developer** tab, click **Source**.
+3. On the **Developer** tab, click **Source**.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible on the Ribbon, you must enable it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
      The **XML Source** task pane appears.
 
-4.  In the **XML Source** task pane, click **XML Maps**.
+4. In the **XML Source** task pane, click **XML Maps**.
 
-5.  In the **XML Maps** dialog box, click **Add**.
+5. In the **XML Maps** dialog box, click **Add**.
 
      The **XML Source** dialog box appears.
 
-6.  Select an XML schema from the **XML Source** dialog box and click **Open**.
+6. Select an XML schema from the **XML Source** dialog box and click **Open**.
 
      The schema is added to the **XML Maps** dialog box.
 
-7.  In the **XML Maps** dialog box, click **OK**.
+7. In the **XML Maps** dialog box, click **OK**.
 
-8.  Drag an element from the **XML Source** task pane to a cell on the worksheet.
+8. Drag an element from the **XML Source** task pane to a cell on the worksheet.
 
      An <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is created and added to the project.
 

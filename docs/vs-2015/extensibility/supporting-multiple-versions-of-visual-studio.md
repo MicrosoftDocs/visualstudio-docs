@@ -20,15 +20,15 @@ The term *side-by-side* means that you can install and maintain multiple version
 
  Before you make your VSPackage able to be loaded into side-by-side versions of Visual Studio, consider the following:
 
--   You must determine which side-by-side implementation strategy you want to follow.
+- You must determine which side-by-side implementation strategy you want to follow.
 
      For more information, see [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md).
 
--   Your solution and project file formats must fit your implementation strategy.
+- Your solution and project file formats must fit your implementation strategy.
 
      For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md) and [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).
 
--   Your installer must handle your implementation strategy so that versioned components, and also components shared across all versions, are correctly installed and registered.
+- Your installer must handle your implementation strategy so that versioned components, and also components shared across all versions, are correctly installed and registered.
 
      For more information, see [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md) and also [Component Management](../extensibility/internals/component-management.md).
 

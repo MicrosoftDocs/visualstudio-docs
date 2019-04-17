@@ -20,11 +20,11 @@ If your load test contains only one run setting, it is always the active node. I
 
 ## To change the run setting from the command line
 
-1.  If you want to use different run settings from the command line to take advantage of the context parameter strategy, use the following command:
+1. If you want to use different run settings from the command line to take advantage of the context parameter strategy, use the following command:
 
     `Set Test.UseRunSetting= CorporateStagingWebServer`
 
-2.  Run the load test using mstest:
+2. Run the load test using mstest:
 
     `mstest /testcontainer:loadtest1.loadtest`
 

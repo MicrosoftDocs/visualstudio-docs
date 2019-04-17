@@ -35,31 +35,31 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
   
 ### To specify prerequisites to install with a ClickOnce application  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
+3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
   
-4.  In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
+4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
   
-5.  In the **Prerequisites** list, check the components that you wish to install, and then click **OK**.  
+5. In the **Prerequisites** list, check the components that you wish to install, and then click **OK**.  
   
      The selected components will be packaged and published along with your application.  
   
 ### To specify a different download location for prerequisites  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
+3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
   
-4.  In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
+4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
   
-5.  In the **Specify the install location for prerequisites** section, select **Download prerequisites from the following location**.  
+5. In the **Specify the install location for prerequisites** section, select **Download prerequisites from the following location**.  
   
-6.  Select a location from the drop-down list, or enter a URL, file path, or FTP location, and then click **OK.**  
+6. Select a location from the drop-down list, or enter a URL, file path, or FTP location, and then click **OK.**  
   
     > [!NOTE]
     >  You must make sure that installers for the specified components exist at the specified location.  

@@ -21,13 +21,13 @@ Cannot create an association \<association name> - property types do not match. 
   
 ### To correct this error  
   
-1.  Examine the message and note the properties called out in the message.  
+1. Examine the message and note the properties called out in the message.  
   
-2.  Click **OK** to dismiss the dialog box.  
+2. Click **OK** to dismiss the dialog box.  
   
-3.  Inspect the **Association Properties** and select properties of the same data type.  
+3. Inspect the **Association Properties** and select properties of the same data type.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## See Also  
  [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)   

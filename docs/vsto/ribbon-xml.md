@@ -49,9 +49,9 @@ ms.workload:
 ## Define the behavior of the custom ribbon
  You can respond to user actions, such as clicking a button on the ribbon, by creating *callback methods*. Callback methods resemble events in Windows Forms controls, but they are identified by an attribute in the XML of the UI element. You write methods in the Ribbon class, and a control calls the method that has the same name as the attribute value. For example, you can create a callback method that is called when a user clicks a button on the ribbon. Two steps are required to create a callback method:
 
--   Assign an attribute to a control in the Ribbon XML file that identifies a callback method in your code.
+- Assign an attribute to a control in the Ribbon XML file that identifies a callback method in your code.
 
--   Define the callback method in the Ribbon class.
+- Define the callback method in the Ribbon class.
 
 > [!NOTE]
 >  Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).

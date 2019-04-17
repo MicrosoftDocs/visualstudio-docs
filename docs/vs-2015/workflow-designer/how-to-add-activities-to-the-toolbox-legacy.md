@@ -18,13 +18,13 @@ When building a workflow solution with the legacy [!INCLUDE[wfd1](../includes/wf
   
 ### To add an activity to the Toolbox from a DLL  
   
-1.  Right-click the Toolbox window surface under **Windows Workflow**, and then click **Choose Items**.  
+1. Right-click the Toolbox window surface under **Windows Workflow**, and then click **Choose Items**.  
   
-2.  In the **Choose Toolbox Items** dialog box, click the **System.Activities Components** tab, and then click **Browse** from the lower right-hand side of the window.  
+2. In the **Choose Toolbox Items** dialog box, click the **System.Activities Components** tab, and then click **Browse** from the lower right-hand side of the window.  
   
-3.  Select the DLL from the file directory that contains the implementation of the custom activity to add to the **Toolbox**, and then click **Open**.  
+3. Select the DLL from the file directory that contains the implementation of the custom activity to add to the **Toolbox**, and then click **Open**.  
   
-4.  Click **OK** to finish adding the activity to the Toolbox.  
+4. Click **OK** to finish adding the activity to the Toolbox.  
   
 ## See Also  
  [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md)   

@@ -86,7 +86,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 ##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
  Often the preferred method of debugging code, these methods are useful when you know exactly what code you want to inspect, or at least you know where you want to start debugging.  
   
--   **Set breakpoints in the code**  
+- **Set breakpoints in the code**  
   
      To set a simple breakpoint in your code, open the source file in the Visual Studio editor. Set the cursor at the line of code where you want to suspend execution, and then right-click in the code window to see the context menu and choose **Breakpoint / Insert Breakpoint** (or press **F9**). The debugger suspends execution right before the line is executed.  
   
@@ -94,21 +94,21 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
      Breakpoints in Visual Studio provide a rich set of additional functionality, such as conditional breakpoints and tracepoints. See [Using Breakpoints](../debugger/using-breakpoints.md).  
   
--   **Run to the cursor location**  
+- **Run to the cursor location**  
   
      To run to the cursor location, place the cursor on an executable line of code in a source window. On the editor's context menu (right-click in the editor), choose **Run to Cursor**. This is like setting a temporary breakpoint.  
   
--   **Manually break into code**  
+- **Manually break into code**  
   
      To break into the next available line of code in an executing app, choose **Debug**, **Break All** (keyboard: **Ctrl+Alt+Break**).  
   
      If you break while executing code without corresponding source or symbol (.pdb) files), the debugger displays a **Source Files Not Found** or a **Symbols Not Found** page that can help you find the appropriate files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't access the supporting files, you can still debug the assembly instructions in the Disassembly window.  
   
--   **Run to a function on the call stack**  
+- **Run to a function on the call stack**  
   
      In the **Call Stack** window (available while debugging), select the function, right-click and  choose **Run to Cursor**. To visually trace the call stack, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
--   **Run to a function specified by name**  
+- **Run to a function specified by name**  
   
      You can tell the debugger to run your application until it reaches a specified function. You can specify the function by name or you can choose it from the call stack.  
   
@@ -127,28 +127,28 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  To set the next statement to execute, use one of these procedures:  
   
--   In a source window, drag the yellow arrowhead to a location where you want to set the next statement in the same source file  
+- In a source window, drag the yellow arrowhead to a location where you want to set the next statement in the same source file  
   
--   In a source window, set the cursor on the line that you want to execute next, right-click and choose **Set Next Statement**.  
+- In a source window, set the cursor on the line that you want to execute next, right-click and choose **Set Next Statement**.  
   
--   In the Disassembly window, set the cursor on the assembly instruction that you want to execute next, right-click an and choose **Set Next Statement**.  
+- In the Disassembly window, set the cursor on the assembly instruction that you want to execute next, right-click an and choose **Set Next Statement**.  
   
 > [!CAUTION]
 >  Setting the next statement causes the program counter to jump directly to the new location. Use this command with caution:  
 > 
 > - Instructions between the old and new execution points are not executed.  
->   -   If you move the execution point backwards, intervening instructions are not undone.  
->   -   Moving the next statement to another function or scope usually results in call-stack corruption, causing a run-time error or exception. If you try moving the next statement to another scope, the debugger opens a dialog box with a warning and gives you a chance to cancel the operation. In Visual Basic, you cannot move the next statement to another scope or function.  
->   -   In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
->   -   When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
+>   - If you move the execution point backwards, intervening instructions are not undone.  
+>   - Moving the next statement to another function or scope usually results in call-stack corruption, causing a run-time error or exception. If you try moving the next statement to another scope, the debugger opens a dialog box with a warning and gives you a chance to cancel the operation. In Visual Basic, you cannot move the next statement to another scope or function.  
+>   - In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
+>   - When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
 > 
 > [!NOTE]
 >  In managed code, you cannot move the next statement under the following conditions:  
 > 
 > - The next statement is in a different method than the current statement.  
->   -   Debugging was started by using Just-In-Time debugging.  
->   -   A callstack unwind is in progress.  
->   -   A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
+>   - Debugging was started by using Just-In-Time debugging.  
+>   - A callstack unwind is in progress.  
+>   - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
   
  You cannot set the next statement while your application is actively running. To set the next statement, the debugger must be in break mode.  
   
@@ -170,13 +170,13 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  To load symbols for a specific system component while you are debugging:  
   
-1.  Open the Modules window (keyboard: **Ctrl+Alt+U**).  
+1. Open the Modules window (keyboard: **Ctrl+Alt+U**).  
   
-2.  Select the module that you want to load symbols for.  
+2. Select the module that you want to load symbols for.  
   
      You can tell which modules have symbols loaded by looking at the **Symbol Status** column.  
   
-3.  Choose **Load Symbols** on the context menu.  
+3. Choose **Load Symbols** on the context menu.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** / **Options**. On the **Debugging** / **General** page, clear the **Step over properties and operators (Managed only)** check box

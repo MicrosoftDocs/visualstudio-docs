@@ -35,23 +35,23 @@ ms.workload:
 
 ### To configure a ClickOnce solution to load VSTO Add-ins on demand
 
-1.  In **Solution Explorer**, choose the project node.
+1. In **Solution Explorer**, choose the project node.
 
-2.  On the menu bar, choose **View** > **Property Pages**.
+2. On the menu bar, choose **View** > **Property Pages**.
 
-3.  On the **Publish** tab, choose the **Options** button.
+3. On the **Publish** tab, choose the **Options** button.
 
-4.  In the **Publish Options** dialog box, choose the **Office Settings** list item, choose the **Load on Demand** option, and then choose the **OK** button.
+4. In the **Publish Options** dialog box, choose the **Office Settings** list item, choose the **Load on Demand** option, and then choose the **OK** button.
 
 ### To configure a Windows Installer solution to load VSTO Add-ins on demand
 
-1.  In the registry, set the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\\_Add-in ID_** key to **0x10**.
+1. In the registry, set the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\\_Add-in ID_** key to **0x10**.
 
      For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).
 
 ### To configure a solution to load VSTO Add-ins on demand while you debug the solution
 
-1.  Create a script that sets the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\\_Add-in ID_** key to **0x10**.
+1. Create a script that sets the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\\_Add-in ID_** key to **0x10**.
 
      The following code shows an example of this script.
 
@@ -64,7 +64,7 @@ ms.workload:
 
     ```
 
-2.  Create a post-build event that updates the registry by using the script.
+2. Create a post-build event that updates the registry by using the script.
 
      The following code shows an example of a command string that you might add to a post-build event.
 

@@ -25,19 +25,19 @@ ms.workload:
 
 ### To add a BDC resource file to a SharePoint project
 
-1.  In **Solution Explorer**, expand the folder for the SharePoint project, and then choose the folder that contains the BDC model.
+1. In **Solution Explorer**, expand the folder for the SharePoint project, and then choose the folder that contains the BDC model.
 
-2.  On the menu bar, choose **Project** > **Add New Item**.
+2. On the menu bar, choose **Project** > **Add New Item**.
 
-3.  Expand the **SharePoint** node, and then choose the **2010** node.
+3. Expand the **SharePoint** node, and then choose the **2010** node.
 
-4.  In the **Add New Item** dialog box, choose **Business Data Connectivity Resource Item**.
+4. In the **Add New Item** dialog box, choose **Business Data Connectivity Resource Item**.
 
-5.  In the **Name** box, specify the name of the resource file, and then choose the **Add** button.
+5. In the **Name** box, specify the name of the resource file, and then choose the **Add** button.
 
      A resource file that has the .bdcr extension is added to the project and opened for editing.
 
-6.  Add XML to define the localized names, properties, and permissions that you want to apply the BDC model.
+6. Add XML to define the localized names, properties, and permissions that you want to apply the BDC model.
 
      For information about how to define these elements, see [Model and Resource Files](http://go.microsoft.com/fwlink/?LinkID=169283).
 

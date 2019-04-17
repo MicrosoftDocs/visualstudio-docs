@@ -31,11 +31,11 @@ Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and bac
 ## Remarks  
  The render target format is reset to DXGI_FORMAT_B5G6R5_UNORM on every call to `ID3D11Device::CreateTexture2D` that creates a render target. Specifically, the format is overridden when the D3D11_TEXTURE2D_DESC object passed in pDesc describes a render target; that is:  
   
--   The BindFlags member has the D3D11_BIND_REDNER_TARGET flag set.  
+- The BindFlags member has the D3D11_BIND_REDNER_TARGET flag set.  
   
--   The BindFlags member has the D3D11_BIND_DEPTH_STENCIL flag cleared.  
+- The BindFlags member has the D3D11_BIND_DEPTH_STENCIL flag cleared.  
   
--   The Usage member is set to D3D11_USAGE_DEFAULT.  
+- The Usage member is set to D3D11_USAGE_DEFAULT.  
   
 ## Restrictions and limitations  
  Because the B5G6R5 format doesn't have an alpha channel, alpha content is not preserved by this variant. If your app's rendering requires an alpha channel in your render target, you can't just switch to the B5G6R5 format.  

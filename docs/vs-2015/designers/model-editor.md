@@ -34,13 +34,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To add a 3-D model to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **3D Scene (.fbx)**.  
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **3D Scene (.fbx)**.  
   
-3.  Specify the **Name** of the model file, and the **Location** where you want it to be created.  
+3. Specify the **Name** of the model file, and the **Location** where you want it to be created.  
   
-4.  Choose the **Add** button.  
+4. Choose the **Add** button.  
   
 ### Axis orientation  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports every orientation of the 3-D axis, and loads axis orientation information from model file formats that support it. If no axis orientation is specified, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses the right-handed coordinate system by default. The **axis indicator** shows the current axis orientation in the lower-right corner of the design surface. On the **axis indicator**, red represents the x-axis, green represents the y-axis, and blue represents the z-axis.  
@@ -138,11 +138,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To transform an object by using modeling tools  
   
-1.  In **Select** mode, select the object you want to transform. A wireframe overlay indicates that the object is selected.  
+1. In **Select** mode, select the object you want to transform. A wireframe overlay indicates that the object is selected.  
   
-2.  On the **Model Editor** toolbar, choose the **Translate**, **Scale**, or **Rotate** tool. A translation, scaling, or rotation manipulator appears for the selected object.  
+2. On the **Model Editor** toolbar, choose the **Translate**, **Scale**, or **Rotate** tool. A translation, scaling, or rotation manipulator appears for the selected object.  
   
-3.  Use the manipulator to perform the transformation. For translation and scaling transformations, the manipulator is an axis indicator. You can change one axis at a time, or you can change all axes at the same time by using the white cube at the center of the indicator. For rotation, the manipulator is a sphere made of color-coded circles that correspond to the x-axis (red), y-axis (green), and z-axis (blue). You have to change each axis individually to create the rotation you want.  
+3. Use the manipulator to perform the transformation. For translation and scaling transformations, the manipulator is an axis indicator. You can change one axis at a time, or you can change all axes at the same time by using the white cube at the center of the indicator. For rotation, the manipulator is a sphere made of color-coded circles that correspond to the x-axis (red), y-axis (green), and z-axis (blue). You have to change each axis individually to create the rotation you want.  
   
 ##### To transform an object by setting its properties  
   
@@ -174,9 +174,9 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To extrude a face from an object  
   
-1.  In face-select mode, select the face you want to extrude.  
+1. In face-select mode, select the face you want to extrude.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Extrude**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Extrude**.  
   
 ##### To subdivide faces  
   
@@ -188,21 +188,21 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To triangulate a face  
   
-1.  In face-select mode, select the face you want to triangulate.  
+1. In face-select mode, select the face you want to triangulate.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Triangulate**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Triangulate**.  
   
 ##### To merge objects  
   
-1.  In object-select mode, select the objects you want to merge.  
+1. In object-select mode, select the objects you want to merge.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Merge Objects**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Merge Objects**.  
   
 ##### To create an object from a polygon selection  
   
-1.  In face-select mode, select the faces you want to create a new object from.  
+1. In face-select mode, select the faces you want to create a new object from.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Create New Object from Polygon Selection**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Create New Object from Polygon Selection**.  
   
 ### Working with materials and shaders  
  The appearance of an object is determined by the interaction of lighting in the scene and the material of the object. Materials are defined by properties that describe how the surface reacts to different types of light and by a shader program that calculates the final color of each pixel on the object surface based on lighting information, texture maps, normal maps, and other data.  
@@ -242,9 +242,9 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To create a hierarchy that has a parent object  
   
-1.  In **Select** mode, select two or more objects. The first one you select will be the parent object.  
+1. In **Select** mode, select two or more objects. The first one you select will be the parent object.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Attach to Parent**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Attach to Parent**.  
   
 ##### To create a hierarchy of sibling objects  
   

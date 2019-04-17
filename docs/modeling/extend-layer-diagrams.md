@@ -17,23 +17,23 @@ You can write code to create and update dependency diagrams, and to validate the
 
  For more information about dependency diagrams, see:
 
--   [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
+- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 
--   [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
+- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
 
--   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
+- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
 
--   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
+- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 ##  <a name="prereqs"></a> Requirements
 
 You must have the following installed on the computer where you want to develop your layer extensions:
 
--   Visual Studio
+- Visual Studio
 
--   [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
 
--   Modeling SDK for Visual Studio
+- Modeling SDK for Visual Studio
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

@@ -45,17 +45,17 @@ Before you change the display of a graph by zooming in or out or by scrolling, f
 
 To display graphs:
 
-1.  Run a load test until it is completed.
+1. Run a load test until it is completed.
 
-2.  At the end of the load test run, choose **Yes** in the dialog box that asks about viewing results from the load test results store.
+2. At the end of the load test run, choose **Yes** in the dialog box that asks about viewing results from the load test results store.
 
      \- or -
 
      View the details of a previously run load test. For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
-3.  Choose **Graphs** if your graphs are not displayed.
+3. Choose **Graphs** if your graphs are not displayed.
 
-4.  If zoom bars are not displayed, choose **Show Zoom Controls**.
+4. If zoom bars are not displayed, choose **Show Zoom Controls**.
 
      Two zoom bars are available for each graph. The zoom bar that controls vertical scale appears to the left of the graph. The zoom bar that controls horizontal scale appears under the graph.
 
@@ -67,21 +67,21 @@ When you have multiple graphs displayed, you can keep them synchronized so that 
 
 ### To synchronize zooming and scrolling
 
-1.  On the **Load Test Analyzer**, choose **Synchronize Horizontal Zoom Controls**.
+1. On the **Load Test Analyzer**, choose **Synchronize Horizontal Zoom Controls**.
 
      When the **Synchronize Horizontal Zoom Controls** button is selected, zooming and scrolling the time scale of an individual graph also zooms and scrolls the time scale of the other graphs.
 
-2.  Again, choose **Synchronize Horizontal Zoom Controls**.
+2. Again, choose **Synchronize Horizontal Zoom Controls**.
 
      When the **Synchronize Horizontal Zoom Controls** button is not selected, zooming and scrolling the time scale of an individual graph affects that graph only.
 
 ### To zoom and scroll to a region of the graph
 
-1.  On the zoom bar under a graph, drag the left-side handle to the right.
+1. On the zoom bar under a graph, drag the left-side handle to the right.
 
      This zooms in on the latter part of the test run. Similarly, dragging the right-side handle to the left zooms in on earlier parts of the test run.
 
-2.  To zoom in on a particular area, slide both handles toward the center of a graph.
+2. To zoom in on a particular area, slide both handles toward the center of a graph.
 
      The closer the two handles are to each other, the more you zoom in to display shorter, finer segments of the load test.
 
@@ -101,9 +101,9 @@ When you have multiple graphs displayed, you can keep them synchronized so that 
 
 ### To zoom out
 
-1.  Right-click a zoomed-in graph.
+1. Right-click a zoomed-in graph.
 
-2.  On the shortcut menu, select **Zoom Out Horizontal**.
+2. On the shortcut menu, select **Zoom Out Horizontal**.
 
      This zooms out to show the entire duration of the load test run.
 

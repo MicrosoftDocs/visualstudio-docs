@@ -37,13 +37,13 @@ ms.workload:
 
  This topic provides the following information:
 
--   [Automate Word](#automating).
+- [Automate Word](#automating).
 
--   [Develop document-level customizations for Word](#doclevel).
+- [Develop document-level customizations for Word](#doclevel).
 
--   [Develop VSTO Add-ins for Word](#applevel).
+- [Develop VSTO Add-ins for Word](#applevel).
 
--   [Customize the user interface of Word](#UI).
+- [Customize the user interface of Word](#UI).
 
 ##  <a name="automating"></a> Automate Word
  The Word object model exposes many types that you can use to automate Word. For example, you can programmatically create tables, format documents, and set the text in ranges and paragraphs. For more information, see [Word object model overview](../vsto/word-object-model-overview.md).

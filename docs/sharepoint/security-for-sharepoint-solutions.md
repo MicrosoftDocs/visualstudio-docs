@@ -40,42 +40,42 @@ ms.workload:
 ## SharePoint permissions considerations
  To develop SharePoint solutions, you must have sufficient permissions to run and debug SharePoint solutions. Before you can test a SharePoint solution, take the following steps to ensure that you have the necessary permissions:
 
-1.  Add your user account as an Administrator on the system.
+1. Add your user account as an Administrator on the system.
 
-2.  Add your user account as a Farm Administrator for the SharePoint server.
+2. Add your user account as a Farm Administrator for the SharePoint server.
 
-    1.  In SharePoint 2010 Central Administration, choose the **Manage the farm administrators group** link.
+    1. In SharePoint 2010 Central Administration, choose the **Manage the farm administrators group** link.
 
-    2.  On the **Farm Administrators** page, choose the **New** menu option
+    2. On the **Farm Administrators** page, choose the **New** menu option
 
-3.  Add your user account to the to the WSS_ADMIN_WPG group.
+3. Add your user account to the to the WSS_ADMIN_WPG group.
 
 ## Additional security resources
  For more information about security issues, see the following.
 
 ### Visual Studio security
 
--   [Security and User Permissions](http://go.microsoft.com/fwlink/?LinkId=177503)
+- [Security and User Permissions](http://go.microsoft.com/fwlink/?LinkId=177503)
 
--   [Security in Native and .NET Framework Code](http://go.microsoft.com/fwlink/?LinkId=177504)
+- [Security in Native and .NET Framework Code](http://go.microsoft.com/fwlink/?LinkId=177504)
 
--   [Security in the .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177502)
+- [Security in the .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177502)
 
 ### SharePoint security
 
--   [SharePoint Foundation Administration and Security](http://go.microsoft.com/fwlink/?LinkId=177501)
+- [SharePoint Foundation Administration and Security](http://go.microsoft.com/fwlink/?LinkId=177501)
 
--   [SharePoint Security Resource Center](http://go.microsoft.com/fwlink/?LinkId=177498)
+- [SharePoint Security Resource Center](http://go.microsoft.com/fwlink/?LinkId=177498)
 
--   [Securing Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177511)
+- [Securing Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177511)
 
--   [Improving Web Application Security: Threats and Countermeasures](http://go.microsoft.com/fwlink/?LinkID=140080)
+- [Improving Web Application Security: Threats and Countermeasures](http://go.microsoft.com/fwlink/?LinkID=140080)
 
 ### General security
 
--   [MSDN Security Development Lifecycle](http://go.microsoft.com/fwlink/?LinkID=147149)
+- [MSDN Security Development Lifecycle](http://go.microsoft.com/fwlink/?LinkID=147149)
 
--   [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](http://go.microsoft.com/fwlink/?LinkId=177494)
+- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](http://go.microsoft.com/fwlink/?LinkId=177494)
 
 ## See also
 

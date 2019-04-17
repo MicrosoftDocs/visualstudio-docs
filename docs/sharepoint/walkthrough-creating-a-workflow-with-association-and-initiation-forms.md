@@ -51,34 +51,34 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create a SharePoint sequential workflow project
  First, create a sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. A sequential workflow is a series of steps that executes in order until the last activity finishes. In this procedure, you will create a sequential workflow that applies to the Shared Documents list in SharePoint. The workflow's wizard lets you associate the workflow with either the site or the list definition and lets you determine when the workflow will start.
 
 #### To create a SharePoint sequential workflow project
 
-1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.
+1. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.
 
-2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.
+2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.
 
-3.  In the **Templates** pane, choose the **SharePoint 2010 Project** project template.
+3. In the **Templates** pane, choose the **SharePoint 2010 Project** project template.
 
-4.  In the **Name** box, enter **ExpenseReport** and then choose the **OK** button.
+4. In the **Name** box, enter **ExpenseReport** and then choose the **OK** button.
 
      The **SharePoint Customization Wizard** appears.
 
-5.  In the **Specify the site and security level for debugging** page, choose the **Deploy as a farm solution** option button, and then choose the **Finish** button to accept the trust level and default site.
+5. In the **Specify the site and security level for debugging** page, choose the **Deploy as a farm solution** option button, and then choose the **Finish** button to accept the trust level and default site.
 
      This step also sets the trust level for the solution as farm solution, which is the only available option for workflow projects.
 
-6.  In **Solution Explorer**, choose the project node.
+6. In **Solution Explorer**, choose the project node.
 
-7.  On the menu bar, choose **Project** > **Add New Item**.
+7. On the menu bar, choose **Project** > **Add New Item**.
 
-8.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.
+8. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.
 
 9. In the **Templates** pane, choose **Sequential Workflow (Farm Solution only)** template, and then choose the **Add** button.
 
@@ -97,26 +97,26 @@ ms.workload:
 
 #### To add an association form to the workflow
 
-1.  Choose the **Workflow1** node in **Solution Explorer**.
+1. Choose the **Workflow1** node in **Solution Explorer**.
 
-2.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.
+2. On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.
 
-3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic** (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.
+3. In the dialog box tree view, expand either **Visual C#** or **Visual Basic** (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.
 
-4.  In the list of templates, choose the **Workflow Association Form** template.
+4. In the list of templates, choose the **Workflow Association Form** template.
 
-5.  In the **Name** text box, enter **ExpenseReportAssocForm.aspx**.
+5. In the **Name** text box, enter **ExpenseReportAssocForm.aspx**.
 
-6.  Choose the **Add** button to add the form to the project.
+6. Choose the **Add** button to add the form to the project.
 
 ## Designing and coding the association form
  In this procedure, you introduce functionality to the association form by adding controls and code to it.
 
 #### To design and code the association form
 
-1.  In the association form (ExpenseReportAssocForm.aspx), locate the `asp:Content` element that has `ID="Main"`.
+1. In the association form (ExpenseReportAssocForm.aspx), locate the `asp:Content` element that has `ID="Main"`.
 
-2.  Directly after the first line in this content element, add the following code to create a label and textbox that prompts for the expense approval limit (*AutoApproveLimit*):
+2. Directly after the first line in this content element, add the following code to create a label and textbox that prompts for the expense approval limit (*AutoApproveLimit*):
 
     ```aspx-csharp
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />
@@ -125,14 +125,14 @@ ms.workload:
     <br /><br />
     ```
 
-3.  Expand the **ExpenseReportAssocForm.aspx** file in **Solution Explorer** to display its dependent files.
+3. Expand the **ExpenseReportAssocForm.aspx** file in **Solution Explorer** to display its dependent files.
 
     > [!NOTE]
     >  If your project is in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)], you must choose the **View All Files** button to perform this step.
 
-4.  Open the shortcut menu for the ExpenseReportAssocForm.aspx file and choose **View Code**.
+4. Open the shortcut menu for the ExpenseReportAssocForm.aspx file and choose **View Code**.
 
-5.  Replace the `GetAssociationData` method with:
+5. Replace the `GetAssociationData` method with:
 
     ```vb
     Private Function GetAssociationData() As String
@@ -158,26 +158,26 @@ ms.workload:
 
 #### To create an initiation form
 
-1.  Choose the **Workflow1** node in **Solution Explorer**.
+1. Choose the **Workflow1** node in **Solution Explorer**.
 
-2.  On the menu bar, choose **Project** > **Add New Item** display the **Add New Item** dialog box.
+2. On the menu bar, choose **Project** > **Add New Item** display the **Add New Item** dialog box.
 
-3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic**  (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.
+3. In the dialog box tree view, expand either **Visual C#** or **Visual Basic**  (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.
 
-4.  In the list of templates, choose the **Workflow Initiation Form** template.
+4. In the list of templates, choose the **Workflow Initiation Form** template.
 
-5.  In the **Name** text box, enter **ExpenseReportInitForm.aspx**.
+5. In the **Name** text box, enter **ExpenseReportInitForm.aspx**.
 
-6.  Choose the **Add** button to add the form to the project.
+6. Choose the **Add** button to add the form to the project.
 
 ## Designing and coding the initiation form
  Next, introduce functionality to the initiation form by adding controls and code to it.
 
 #### To code the initiation form
 
-1.  In the initiation form (ExpenseReportInitForm.aspx), locate the `asp:Content` element that contains `ID="Main"`.
+1. In the initiation form (ExpenseReportInitForm.aspx), locate the `asp:Content` element that contains `ID="Main"`.
 
-2.  Directly after the first line in this content element, add the following code to create a label and textbox that displays the expense approval limit (*AutoApproveLimit*) that was entered in the association form, and another label and textbox to prompt for the expense total (*ExpenseTotal*):
+2. Directly after the first line in this content element, add the following code to create a label and textbox that displays the expense approval limit (*AutoApproveLimit*) that was entered in the association form, and another label and textbox to prompt for the expense total (*ExpenseTotal*):
 
     ```aspx-csharp
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />
@@ -190,11 +190,11 @@ ms.workload:
     <br /><br />
     ```
 
-3.  Expand the **ExpenseReportInitForm.aspx** file in **Solution Explorer** to display its dependent files.
+3. Expand the **ExpenseReportInitForm.aspx** file in **Solution Explorer** to display its dependent files.
 
-4.  Open the shortcut menu for the ExpenseReportInitForm.aspx file and choose **View Code**.
+4. Open the shortcut menu for the ExpenseReportInitForm.aspx file and choose **View Code**.
 
-5.  Replace the `Page_Load` method with the following example:
+5. Replace the `Page_Load` method with the following example:
 
     ```vb
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As
@@ -216,7 +216,7 @@ ms.workload:
     }
     ```
 
-6.  Replace the `GetInitiationData` method with the following example:
+6. Replace the `GetInitiationData` method with the following example:
 
     ```vb
     ' This method is called when the user clicks the button to start the workflow.
@@ -245,29 +245,29 @@ ms.workload:
 
 #### To customize the workflow
 
-1.  Display the workflow in the workflow designer by opening Workflow1 in the project.
+1. Display the workflow in the workflow designer by opening Workflow1 in the project.
 
-2.  In the **Toolbox**, expand the **Windows Workflow v3.0** node and locate the **IfElse** activity.
+2. In the **Toolbox**, expand the **Windows Workflow v3.0** node and locate the **IfElse** activity.
 
-3.  Add this activity to the workflow by performing one of the following steps:
+3. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **IfElse** activity, choose **Copy**, open the shortcut menu for the line under the **onWorkflowActivated1** activity in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **IfElse** activity, choose **Copy**, open the shortcut menu for the line under the **onWorkflowActivated1** activity in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **IfElse** activity from the **Toolbox**, and connect it to the line under the **onWorkflowActiviated1** activity in the workflow designer.
+    - Drag the **IfElse** activity from the **Toolbox**, and connect it to the line under the **onWorkflowActiviated1** activity in the workflow designer.
 
-4.  In the Toolbox, expand the **SharePoint Workflow** node and locate the **CreateTask** activity.
+4. In the Toolbox, expand the **SharePoint Workflow** node and locate the **CreateTask** activity.
 
-5.  Add this activity to the workflow by performing one of the following steps:
+5. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **CreateTask** activity, choose **Copy**, open the shortcut menu for one of the two **Drop Activities Here** areas within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **CreateTask** activity, choose **Copy**, open the shortcut menu for one of the two **Drop Activities Here** areas within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **CreateTask** activity from the **Toolbox** onto one of the two **Drop Activities Here** areas within **IfElseActivity1**.
+    - Drag the **CreateTask** activity from the **Toolbox** onto one of the two **Drop Activities Here** areas within **IfElseActivity1**.
 
-6.  In the **Properties** window, enter a property value of *taskToken* for the **CorrelationToken** property.
+6. In the **Properties** window, enter a property value of *taskToken* for the **CorrelationToken** property.
 
-7.  Expand the **CorrelationToken** property by choosing the plus sign (![TreeView plus](../sharepoint/media/plus.gif "TreeView plus")) next to it.
+7. Expand the **CorrelationToken** property by choosing the plus sign (![TreeView plus](../sharepoint/media/plus.gif "TreeView plus")) next to it.
 
-8.  Choose the drop-down arrow on the **OwnerActivityName** sub property, and set the *Workflow1* value.
+8. Choose the drop-down arrow on the **OwnerActivityName** sub property, and set the *Workflow1* value.
 
 9. Choose the **TaskId** property, and then choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button to display the **Bind Property** dialog box.
 
@@ -281,18 +281,18 @@ ms.workload:
 
 14. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **LogToHistoryListActivity** activity, choose **Copy**, open the shortcut menu for the other **Drop Activities Here** area within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **LogToHistoryListActivity** activity, choose **Copy**, open the shortcut menu for the other **Drop Activities Here** area within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **LogToHistoryListActivity** activity from the **Toolbox**, and drop it onto the other **Drop Activities Here** area within **IfElseActivity1**.
+    - Drag the **LogToHistoryListActivity** activity from the **Toolbox**, and drop it onto the other **Drop Activities Here** area within **IfElseActivity1**.
 
 ## Add code to the workflow
  Next, add code to the workflow to give it functionality.
 
 #### To add code to the workflow
 
-1.  Open the shortcut menu for the **createTask1** activity in the workflow designer, and then choose **View Code**.
+1. Open the shortcut menu for the **createTask1** activity in the workflow designer, and then choose **View Code**.
 
-2.  Add the following method:
+2. Add the following method:
 
     ```vb
     Private Sub createTask1_MethodInvoking(ByVal sender As
@@ -321,7 +321,7 @@ ms.workload:
     > [!NOTE]
     >  In the code, replace `somedomain\\someuser` with a domain and user name for which a task will be created, such as, "`Office\\JoeSch`". For testing it is easiest to use the account you are developing with.
 
-3.  Below the `MethodInvoking` method, add the following example:
+3. Below the `MethodInvoking` method, add the following example:
 
     ```vb
     Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
@@ -349,15 +349,15 @@ ms.workload:
     }
     ```
 
-4.  In the workflow designer, choose the **ifElseBranchActivity1** activity.
+4. In the workflow designer, choose the **ifElseBranchActivity1** activity.
 
-5.  In the **Properties** window, choose the drop-down arrow of the **Condition** property, and then set the *Code Condition* value.
+5. In the **Properties** window, choose the drop-down arrow of the **Condition** property, and then set the *Code Condition* value.
 
-6.  Expand the **Condition** property by choosing the plus sign (![TreeView plus](../sharepoint/media/plus.gif "TreeView plus")) next to it, and then set its value to *checkApprovalNeeded*.
+6. Expand the **Condition** property by choosing the plus sign (![TreeView plus](../sharepoint/media/plus.gif "TreeView plus")) next to it, and then set its value to *checkApprovalNeeded*.
 
-7.  In the workflow designer, open the shortcut menu for the **logToHistoryListActivity1** activity, and then choose **Generate Handlers** to generate an empty method for the `MethodInvoking` event.
+7. In the workflow designer, open the shortcut menu for the **logToHistoryListActivity1** activity, and then choose **Generate Handlers** to generate an empty method for the `MethodInvoking` event.
 
-8.  Replace the `MethodInvoking` code with the following:
+8. Replace the `MethodInvoking` code with the following:
 
     ```vb
     Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
@@ -385,46 +385,46 @@ ms.workload:
 
 #### To associate the workflow
 
-1.  Choose the **Shared Documents** link on the QuickLaunch bar.
+1. Choose the **Shared Documents** link on the QuickLaunch bar.
 
-2.  Choose the **Library** link on the **Library Tools** tab and then choose the **Library Settings** ribbon button.
+2. Choose the **Library** link on the **Library Tools** tab and then choose the **Library Settings** ribbon button.
 
-3.  In the **Permissions and Management** section, choose the **Workflow Settings** link and then choose the **Add a workflow** link on the **Workflows** page.
+3. In the **Permissions and Management** section, choose the **Workflow Settings** link and then choose the **Add a workflow** link on the **Workflows** page.
 
-4.  In the top list in the workflow settings page, choose the **ExpenseReport - Workflow1** template.
+4. In the top list in the workflow settings page, choose the **ExpenseReport - Workflow1** template.
 
-5.  In the next field, enter **ExpenseReportWorkflow** and then choose the **Next** button.
+5. In the next field, enter **ExpenseReportWorkflow** and then choose the **Next** button.
 
      This associates the workflow with the **Shared Documents** list and displays the workflow association form.
 
-6.  In the **Auto Approval Limit** text box, enter **1200** and then choose the **Associate Workflow** button.
+6. In the **Auto Approval Limit** text box, enter **1200** and then choose the **Associate Workflow** button.
 
 ## Start the workflow
  Next, associate the workflow to one of the documents in the **Shared Documents** list to display the workflow initiation form.
 
 #### To start the workflow
 
-1.  On the SharePoint page, choose the **Home** button.
+1. On the SharePoint page, choose the **Home** button.
 
-2.  Choose the **Shared Documents** link on the QuickLaunch bar to display the **Shared Documents** list.
+2. Choose the **Shared Documents** link on the QuickLaunch bar to display the **Shared Documents** list.
 
-3.  Choose the **Documents** link on the **Library Tools** tab at the top of the page, and then choose the **Upload Document** button on the ribbon to upload a new document into the **Shared Documents** list.
+3. Choose the **Documents** link on the **Library Tools** tab at the top of the page, and then choose the **Upload Document** button on the ribbon to upload a new document into the **Shared Documents** list.
 
-4.  In the **Upload Document** dialog box, choose the **Browse** button, choose any document file, choose the **Open** button, and then choose the **OK** button.
+4. In the **Upload Document** dialog box, choose the **Browse** button, choose any document file, choose the **Open** button, and then choose the **OK** button.
 
      You can change the settings for the document in this dialog box, but leave them at the default values by choosing the **Save** button.
 
-5.  Choose the uploaded document, choose the drop-down arrow that appears, and then choose the **Workflows** item.
+5. Choose the uploaded document, choose the drop-down arrow that appears, and then choose the **Workflows** item.
 
-6.  Choose the image next to ExpenseReportWorkflow.
+6. Choose the image next to ExpenseReportWorkflow.
 
      This displays the workflow initiation form. (Note that the value displayed in the **Auto Approval Limit** box is read-only because it was entered in the association form.)
 
-7.  In the **Expense Total** text box, enter **1600**, and then choose the **Start Workflow** button.
+7. In the **Expense Total** text box, enter **1600**, and then choose the **Start Workflow** button.
 
      This displays the **Shared Documents** list again. A new column named **ExpenseReportWorkflow** with the value **Completed** is added to the item the workflow just started.
 
-8.  Choose the drop-down arrow next to the uploaded document and then choose the **Workflows** item to display the workflow status page. Choose the **Completed** value under **Completed Workflows**. The task is listed under the **Tasks** section.
+8. Choose the drop-down arrow next to the uploaded document and then choose the **Workflows** item to display the workflow status page. Choose the **Completed** value under **Completed Workflows**. The task is listed under the **Tasks** section.
 
 9. Choose the title of the task to display its task details.
 
@@ -437,7 +437,7 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
--   To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).
+- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

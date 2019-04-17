@@ -22,11 +22,11 @@ You can use Visual Studio to create applications that correctly display text in 
 
 ## Types of applications that support bidirectional languages
 
--  Windows apps
+- Windows apps
 
    You can create fully bidirectional applications that include support for bidirectional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [bidirectional support for Windows Forms applications](/dotnet/framework/winforms/advanced/bi-directional-support-for-windows-forms-applications).
 
--  Web apps
+- Web apps
 
    Web services support sending and receiving UTF-8 and Unicode text, making them suitable for applications that involve bidirectional languages. Web client applications rely on browsers for their user interface, so the degree of bidirectional support in a web application is dependent on how well the user's browser supports those bidirectional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional support for ASP.NET web applications](https://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03).
 

@@ -32,26 +32,26 @@ Unable to attach to the process. Debugger component on server received access de
 
 ### To solve Scenario 1
 
--   Run the debugger and managed application under the same user account name and password.
+- Run the debugger and managed application under the same user account name and password.
 
 ### To solve Scenario 2
 
-1.  From the **Start** menu, choose **Control Panel**.
+1. From the **Start** menu, choose **Control Panel**.
 
-2.  In Control Panel, double-click **Administrative tools**.
+2. In Control Panel, double-click **Administrative tools**.
 
-3.  In the Administrative tools window, double-click **Local Security Policy**.
+3. In the Administrative tools window, double-click **Local Security Policy**.
 
-4.  In the Local Security Policy window, select **Local Policies**.
+4. In the Local Security Policy window, select **Local Policies**.
 
-5.  In the **Policies** column, double-click **Network access: Sharing and security model for local accounts**.
+5. In the **Policies** column, double-click **Network access: Sharing and security model for local accounts**.
 
-6.  In the **Network access: Sharing and security model for local accounts** dialog box, change the local security setting to **Classic**, and click **OK**.
+6. In the **Network access: Sharing and security model for local accounts** dialog box, change the local security setting to **Classic**, and click **OK**.
 
     > [!CAUTION]
     >  Changing the security model to Classic can result in unexpected access to shared files and DCOM components. If you make this change, a remote user can authenticate with your local user account rather than Guest. If a remote user matches your user name and password, that user will be able to access any folder or DCOM object you have shared out. If you use this security model, make sure that all user accounts on the machine have strong passwords or set up an isolated network island for the debugging and debugged machines to prevent unauthorized access.
 
-7.  Close all windows.
+7. Close all windows.
 
 ## See Also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

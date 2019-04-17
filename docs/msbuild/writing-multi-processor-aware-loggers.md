@@ -56,9 +56,9 @@ public interface INodeLogger: ILogger
 
  There are two ways to use distributed logging, as follows:
 
--   Customize the pre-fabricated forwarding logger named <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.
+- Customize the pre-fabricated forwarding logger named <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.
 
--   Write your own custom forwarding logger.
+- Write your own custom forwarding logger.
 
 You can modify ConfigurableForwardingLogger to suit your requirements. To do this, call the logger on the command line by using *MSBuild.exe*, and list the build events that you want the logger to forward to the central node.
 

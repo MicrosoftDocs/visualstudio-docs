@@ -29,30 +29,30 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 
 ### To unflag all threads
 
--   In the **Threads** window, right-click any thread and then click **Unflag All Threads**.
--   In the **Parallel Watch** window, select all flagged threads, then right-click and select **Unflag**.
+- In the **Threads** window, right-click any thread and then click **Unflag All Threads**.
+- In the **Parallel Watch** window, select all flagged threads, then right-click and select **Unflag**.
 
 ### To display only flagged threads
 
--   Choose the **Show Flagged Threads Only** button in one of the multithreaded debugging windows.
+- Choose the **Show Flagged Threads Only** button in one of the multithreaded debugging windows.
 
 ### To flag Just My Code
 
-1.  On the toolbar at the top of the **Threads** window, click the flag icon.
+1. On the toolbar at the top of the **Threads** window, click the flag icon.
 
-2.  In the drop-down list, click **Flag Just My Code**.
+2. In the drop-down list, click **Flag Just My Code**.
 
 ### To flag threads that are associated with selected modules
 
-1.  On the toolbar of the **Threads** window, click the flag icon.
+1. On the toolbar of the **Threads** window, click the flag icon.
 
-2.  In the drop-down list, click **Flag Custom Module Selection**.
+2. In the drop-down list, click **Flag Custom Module Selection**.
 
-3.  In the **Select Modules** dialog box, select the modules that you want.
+3. In the **Select Modules** dialog box, select the modules that you want.
 
-4.  (Optional) In the **Search** box, type a string to search for specific modules.
+4. (Optional) In the **Search** box, type a string to search for specific modules.
 
-5.  Click **OK**.
+5. Click **OK**.
 
 ## See Also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

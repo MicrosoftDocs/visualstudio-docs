@@ -45,17 +45,17 @@ Your choice of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools comm
   
  **Target Application Type**  
   
--   [.NET Framework Stand-Alone Components](../profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)  
+- [.NET Framework Stand-Alone Components](../profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)  
   
--   [Native Stand-Alone Components](../profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)  
+- [Native Stand-Alone Components](../profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)  
   
--   [Statically Compiled ASP.NET Web Applications](../profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)  
+- [Statically Compiled ASP.NET Web Applications](../profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)  
   
--   [Dynamically Compiled ASP.NET Web Applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)  
+- [Dynamically Compiled ASP.NET Web Applications](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)  
   
--   [.NET Services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)  
+- [.NET Services](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)  
   
--   [Native Services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)  
+- [Native Services](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)  
   
 ##  <a name="BKMK_Using__NET_memory_methods_to_collect_memory_allocation_and_object_lifetime_data"></a> Using .NET memory methods to collect memory allocation and object lifetime data  
  The Profiling Tools .NET memory method enables you to collect [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] memory allocation data and information about the lifetime of objects in the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].  

@@ -34,25 +34,25 @@ Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[v
   
 ### To create an EXE project for an existing executable  
   
-1.  On the **File** menu, click **Open** and select **Project**.  
+1. On the **File** menu, click **Open** and select **Project**.  
   
-2.  In the **Open Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
+2. In the **Open Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
   
-3.  Locate the executable, and click **OK**.  
+3. Locate the executable, and click **OK**.  
   
      This creates a temporary solution that contains the executable.  
   
 ### To import an executable into a Visual Studio solution  
   
-1.  On the **File** menu, point to **Add Project**, and then click **Existing Project**.  
+1. On the **File** menu, point to **Add Project**, and then click **Existing Project**.  
   
-2.  In the **Add Existing Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
+2. In the **Add Existing Project** dialog box, click the drop-down list next to the **File name** box, and select **All Project Files**.  
   
-3.  Locate and select the executable.  
+3. Locate and select the executable.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
-5.  Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.  
+5. Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.  
   
     > [!NOTE]
     >  Not all programming languages support EXE projects. Install [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] if you need to use this feature.  

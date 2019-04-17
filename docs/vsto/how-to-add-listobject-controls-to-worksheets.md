@@ -38,25 +38,25 @@ ms.workload:
 
 ### To use the Ribbon in Excel
 
-1.  On the **Insert** tab, in the **Tables** group, click **Table**.
+1. On the **Insert** tab, in the **Tables** group, click **Table**.
 
-2.  Select the cell or cells you want to include in the list and click **OK**.
+2. Select the cell or cells you want to include in the list and click **OK**.
 
 #### To use the Toolbox
 
-1.  From the **Excel Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.ListObject> to the worksheet.
+1. From the **Excel Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.ListObject> to the worksheet.
 
      The **Add ListObject Control** dialog box appears.
 
-2.  Select the cell or cells you want to include in the list and click **OK**.
+2. Select the cell or cells you want to include in the list and click **OK**.
 
      If you do not want to keep the default name, you can change the name in the **Properties** window.
 
 #### To use the Data Sources window
 
-1.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+1. Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-2.  Drag a table from the **Data Sources** window to your worksheet.
+2. Drag a table from the **Data Sources** window to your worksheet.
 
      A data-bound <xref:Microsoft.Office.Tools.Excel.ListObject> control is added to the worksheet. For more information, see [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
@@ -65,7 +65,7 @@ ms.workload:
 
 #### To add a ListObject control to a worksheet programmatically
 
-1.  In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
+1. In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#2)]
      [!code-vb[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#2)]
@@ -75,7 +75,7 @@ ms.workload:
 
 #### To add a ListObject control to a worksheet programmatically
 
-1.  The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
+1. The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#8)]
      [!code-vb[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#8)]

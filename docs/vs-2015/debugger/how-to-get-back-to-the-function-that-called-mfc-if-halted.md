@@ -38,7 +38,7 @@ NOTE]
   
 ### To navigate to the function from which MFC was called  
   
--   Use the **Call Stack** window.  
+- Use the **Call Stack** window.  
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   

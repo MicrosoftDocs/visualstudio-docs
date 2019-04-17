@@ -16,7 +16,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 
  **Requirements**
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
 > [!NOTE]
 >  Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).

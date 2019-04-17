@@ -29,17 +29,17 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Designing the user interface (UI) of the custom task pane.
+- Designing the user interface (UI) of the custom task pane.
 
--   Creating a custom Ribbon UI.
+- Creating a custom Ribbon UI.
 
--   Displaying the custom Ribbon UI with email messages.
+- Displaying the custom Ribbon UI with email messages.
 
--   Creating a class to manage Inspector windows and custom task panes.
+- Creating a class to manage Inspector windows and custom task panes.
 
--   Initializing and cleaning up resources used by the VSTO Add-in.
+- Initializing and cleaning up resources used by the VSTO Add-in.
 
--   Synchronizing the Ribbon toggle button with the custom task pane.
+- Synchronizing the Ribbon toggle button with the custom task pane.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -58,7 +58,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an **Outlook Add-in** project with the name **OutlookMailItemTaskPane**. Use the **Outlook Add-in** project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an **Outlook Add-in** project with the name **OutlookMailItemTaskPane**. Use the **Outlook Add-in** project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the *ThisAddIn.cs* or *ThisAddIn.vb* code file and adds the **OutlookMailItemTaskPane** project to **Solution Explorer**.
 
@@ -67,47 +67,47 @@ ms.workload:
 
 ### To design the user interface of the custom task pane
 
-1.  In **Solution Explorer**, click the **OutlookMailItemTaskPane** project.
+1. In **Solution Explorer**, click the **OutlookMailItemTaskPane** project.
 
-2.  On the **Project** menu, click **Add User Control**.
+2. On the **Project** menu, click **Add User Control**.
 
-3.  In the **Add New Item** dialog box, change the name of the user control to **TaskPaneControl**, and then click **Add**.
+3. In the **Add New Item** dialog box, change the name of the user control to **TaskPaneControl**, and then click **Add**.
 
      The user control opens in the designer.
 
-4.  From the **Common Controls** tab of the **Toolbox**, drag a **TextBox** control to the user control.
+4. From the **Common Controls** tab of the **Toolbox**, drag a **TextBox** control to the user control.
 
 ## Design the user interface of the ribbon
  One of the goals for this VSTO Add-in is to give users a way to hide or display the custom task pane from the Ribbon of each email message. To provide the user interface, create a custom Ribbon UI that displays a toggle button that users can click to display or hide the custom task pane.
 
 ### To create a custom Ribbon UI
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
 
-3.  Change the name of the new Ribbon to **ManageTaskPaneRibbon**, and click **Add**.
+3. Change the name of the new Ribbon to **ManageTaskPaneRibbon**, and click **Add**.
 
      The *ManageTaskPaneRibbon.cs* or *ManageTaskPaneRibbon.vb* file opens in the Ribbon Designer and displays a default tab and group.
 
-4.  In the Ribbon Designer, click **group1**.
+4. In the Ribbon Designer, click **group1**.
 
-5.  In the **Properties** window, set the **Label** property to **Task Pane Manager**.
+5. In the **Properties** window, set the **Label** property to **Task Pane Manager**.
 
-6.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag a ToggleButton control onto the **Task Pane Manager** group.
+6. From the **Office Ribbon Controls** tab of the **Toolbox**, drag a ToggleButton control onto the **Task Pane Manager** group.
 
-7.  Click **toggleButton1**.
+7. Click **toggleButton1**.
 
-8.  In the **Properties** window, set the **Label** property to **Show Task Pane**.
+8. In the **Properties** window, set the **Label** property to **Show Task Pane**.
 
 ## Display the custom Ribbon user interface with email messages
  The custom task pane that you create in this walkthrough is designed to appear only with Inspector windows that contain e-mail messages. Therefore, set the properties to display your custom Ribbon UI only with these windows.
 
 ### To display the custom Ribbon UI with email messages
 
-1.  In the Ribbon Designer, click the **ManageTaskPaneRibbon** Ribbon.
+1. In the Ribbon Designer, click the **ManageTaskPaneRibbon** Ribbon.
 
-2.  In the **Properties** window, click the drop-down list next to **RibbonType**, and select **Microsoft.Outlook.Mail.Compose** and **Microsoft.Outlook.Mail.Read**.
+2. In the **Properties** window, click the drop-down list next to **RibbonType**, and select **Microsoft.Outlook.Mail.Compose** and **Microsoft.Outlook.Mail.Read**.
 
 ## Create a class to manage inspector windows and custom task panes
  There are several cases in which the VSTO Add-in must identify which custom task pane is associated with a specific email message. These cases include the following:
@@ -122,34 +122,34 @@ ms.workload:
 
 ### To create a class to manage inspector windows and custom task panes
 
-1.  In **Solution Explorer**, right-click the *ThisAddIn.cs* or *ThisAddIn.vb* file, and then click **View Code**.
+1. In **Solution Explorer**, right-click the *ThisAddIn.cs* or *ThisAddIn.vb* file, and then click **View Code**.
 
-2.  Add the following statements to the top of the file.
+2. Add the following statements to the top of the file.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#2](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#2)]
      [!code-vb[Trin_OutlookMailItemTaskPane#2](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#2)]
 
-3.  Add the following code to the *ThisAddIn.cs* or *ThisAddIn.vb* file, outside the `ThisAddIn` class (for Visual C#, add this code inside the `OutlookMailItemTaskPane` namespace). The `InspectorWrapper` class manages a pair of <xref:Microsoft.Office.Interop.Outlook.Inspector> and <xref:Microsoft.Office.Tools.CustomTaskPane> objects. You will complete the definition of this class in the following steps.
+3. Add the following code to the *ThisAddIn.cs* or *ThisAddIn.vb* file, outside the `ThisAddIn` class (for Visual C#, add this code inside the `OutlookMailItemTaskPane` namespace). The `InspectorWrapper` class manages a pair of <xref:Microsoft.Office.Interop.Outlook.Inspector> and <xref:Microsoft.Office.Tools.CustomTaskPane> objects. You will complete the definition of this class in the following steps.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#3](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#3)]
      [!code-vb[Trin_OutlookMailItemTaskPane#3](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#3)]
 
-4.  Add the following constructor after the code that you added in the previous step. This constructor creates and initializes a new custom task pane that is associated with the <xref:Microsoft.Office.Interop.Outlook.Inspector> object that is passed in. In C#, the constructor also attaches event handlers to the <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Inspector> object and to the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event of the <xref:Microsoft.Office.Tools.CustomTaskPane> object.
+4. Add the following constructor after the code that you added in the previous step. This constructor creates and initializes a new custom task pane that is associated with the <xref:Microsoft.Office.Interop.Outlook.Inspector> object that is passed in. In C#, the constructor also attaches event handlers to the <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Inspector> object and to the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event of the <xref:Microsoft.Office.Tools.CustomTaskPane> object.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#4](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#4)]
      [!code-vb[Trin_OutlookMailItemTaskPane#4](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#4)]
 
-5.  Add the following method after the code that you added in the previous step. This method is an event handler for the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event of the <xref:Microsoft.Office.Tools.CustomTaskPane> object that is contained in the `InspectorWrapper` class. This code updates the state of the toggle button whenever the user opens or closes the custom task pane.
+5. Add the following method after the code that you added in the previous step. This method is an event handler for the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event of the <xref:Microsoft.Office.Tools.CustomTaskPane> object that is contained in the `InspectorWrapper` class. This code updates the state of the toggle button whenever the user opens or closes the custom task pane.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#5](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#5)]
      [!code-vb[Trin_OutlookMailItemTaskPane#5](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#5)]
 
-6.  Add the following method after the code that you added in the previous step. This method is an event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Inspector> object that contains the current email message. The event handler frees resources when the email message is closed. The event handler also removes the current custom task pane from the `CustomTaskPanes` collection. This helps prevent multiple instances of the custom task pane when the next email message is opened.
+6. Add the following method after the code that you added in the previous step. This method is an event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorEvents_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Inspector> object that contains the current email message. The event handler frees resources when the email message is closed. The event handler also removes the current custom task pane from the `CustomTaskPanes` collection. This helps prevent multiple instances of the custom task pane when the next email message is opened.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#6](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#6)]
      [!code-vb[Trin_OutlookMailItemTaskPane#6](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#6)]
 
-7.  Add the following code after the code that you added in the previous step. Later in this walkthrough, you will call this property from a method in the custom Ribbon UI to display or hide the custom task pane.
+7. Add the following code after the code that you added in the previous step. Later in this walkthrough, you will call this property from a method in the custom Ribbon UI to display or hide the custom task pane.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#7](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ThisAddIn.cs#7)]
      [!code-vb[Trin_OutlookMailItemTaskPane#7](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ThisAddIn.vb#7)]
@@ -195,23 +195,23 @@ ms.workload:
 
 ### To build your project
 
-1.  In **Solution Explorer**, right-click the **OutlookMailItemTaskPane** project and then click **Build**. Verify that the project compiles without errors.
+1. In **Solution Explorer**, right-click the **OutlookMailItemTaskPane** project and then click **Build**. Verify that the project compiles without errors.
 
 ## Synchronize the Ribbon toggle button with the custom task pane
  The toggle button will appear to be pressed in when the task pane is visible, and it will appear to be not pressed in when the task pane is hidden. To synchronize the state of the button with the custom task pane, modify the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event handler of the toggle button.
 
 ### To synchronize the custom task pane with the toggle button
 
-1.  In the Ribbon Designer, double-click the **Show Task Pane** toggle button.
+1. In the Ribbon Designer, double-click the **Show Task Pane** toggle button.
 
      Visual Studio automatically generates an event handler named `toggleButton1_Click`, which handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Visual Studio also opens the *ManageTaskPaneRibbon.cs* or *ManageTaskPaneRibbon.vb* file in the Code Editor.
 
-2.  Add the following statements to the top of the *ManageTaskPaneRibbon.cs* or *ManageTaskPaneRibbon.vb* file.
+2. Add the following statements to the top of the *ManageTaskPaneRibbon.cs* or *ManageTaskPaneRibbon.vb* file.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#14](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ManageTaskPaneRibbon.cs#14)]
      [!code-vb[Trin_OutlookMailItemTaskPane#14](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ManageTaskPaneRibbon.vb#14)]
 
-3.  Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this method hides or displays the custom task pane that is associated with the current Inspector window.
+3. Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this method hides or displays the custom task pane that is associated with the current Inspector window.
 
      [!code-csharp[Trin_OutlookMailItemTaskPane#15](../vsto/codesnippet/CSharp/Trin_OutlookMailItemTaskPane/ManageTaskPaneRibbon.cs#15)]
      [!code-vb[Trin_OutlookMailItemTaskPane#15](../vsto/codesnippet/VisualBasic/Trin_OutlookMailItemTaskPane/ManageTaskPaneRibbon.vb#15)]
@@ -256,11 +256,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to create custom task panes from these topics:
 
--   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
+- Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
 
--   Automate a Microsoft Office application by using a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
+- Automate a Microsoft Office application by using a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
 
--   Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
+- Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
 
 ## See also
 - [Custom task panes](../vsto/custom-task-panes.md)

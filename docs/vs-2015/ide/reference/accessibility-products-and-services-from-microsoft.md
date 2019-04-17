@@ -25,13 +25,13 @@ manager: jillfra
 
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:  
   
--   [Accessibility Features of Windows](../../ide/reference/accessibility-products-and-services-from-microsoft.md#windows)  
+- [Accessibility Features of Windows](../../ide/reference/accessibility-products-and-services-from-microsoft.md#windows)  
   
--   [Documentation in Alternative Formats](../../ide/reference/accessibility-products-and-services-from-microsoft.md#altfortmats)  
+- [Documentation in Alternative Formats](../../ide/reference/accessibility-products-and-services-from-microsoft.md#altfortmats)  
   
--   [Customer Service for People with Hearing Impairments](../../ide/reference/accessibility-products-and-services-from-microsoft.md#hearing)  
+- [Customer Service for People with Hearing Impairments](../../ide/reference/accessibility-products-and-services-from-microsoft.md#hearing)  
   
--   [For More Information](../../ide/reference/accessibility-products-and-services-from-microsoft.md#moreinfo)  
+- [For More Information](../../ide/reference/accessibility-products-and-services-from-microsoft.md#moreinfo)  
   
 > [!NOTE]
 >  The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility Web site](http://go.microsoft.com/fwlink/?LinkId=8431) for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.  

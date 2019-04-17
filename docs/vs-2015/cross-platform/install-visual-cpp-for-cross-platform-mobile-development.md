@@ -44,17 +44,17 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
 ##  <a name="InstallTheTools"></a> Install the tools  
  The installer for Visual Studio 2015 includes an option to install Visual C++ for Cross-Platform Mobile Development. This installs the required C++ language tools, templates and components for Visual Studio, the GCC and Clang toolsets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.  
   
--   Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.  
+- Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.  
   
--   Android SDK, Apache Ant, and Java SE Development Kit are required for the Android build process.  
+- Android SDK, Apache Ant, and Java SE Development Kit are required for the Android build process.  
   
--   Microsoft Visual Studio Emulator for Android is an optional high-performance emulator useful for testing and debugging your code.  
+- Microsoft Visual Studio Emulator for Android is an optional high-performance emulator useful for testing and debugging your code.  
   
 #### To install Visual C++ for Cross-Platform Mobile Development and the third-party tools  
   
-1.  Run the Visual Studio 2015 installer that you downloaded following the link in [Get the tools](#GetTheTools). To install optional components, choose **Custom** as the type of installation. Choose **Next** to select the optional components to install.  
+1. Run the Visual Studio 2015 installer that you downloaded following the link in [Get the tools](#GetTheTools). To install optional components, choose **Custom** as the type of installation. Choose **Next** to select the optional components to install.  
   
-2.  In Select features, expand **Cross Platform Mobile Development** and check **Visual C++ Mobile Development**.  
+2. In Select features, expand **Cross Platform Mobile Development** and check **Visual C++ Mobile Development**.  
   
      ![Select Visual C&#43;&#43; Mobile Development](../cross-platform/media/cppmdd-install-vcmdd.png "CPPMDD_Install_VCMDD")  
   
@@ -64,9 +64,9 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
      Choose **Next** to continue.  
   
-3.  The third-party components have their own license terms. You can view the license terms by choosing the **License Terms** link next to each component. Choose **Install** to add the components and install Visual Studio and Visual C++ for Cross-Platform Mobile Development.  
+3. The third-party components have their own license terms. You can view the license terms by choosing the **License Terms** link next to each component. Choose **Install** to add the components and install Visual Studio and Visual C++ for Cross-Platform Mobile Development.  
   
-4.  When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components do not take effect until the computer is restarted.  
+4. When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components do not take effect until the computer is restarted.  
   
     > [!IMPORTANT]
     >  You must restart to make sure everything is installed correctly.  
@@ -76,7 +76,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
     > [!NOTE]
     >  If your computer or your version of Windows does not support Hyper-V, you can't use the Microsoft Visual Studio Emulator for Android component. The Home Edition of Windows does not include Hyper-V support.  
   
-5.  Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, on the **Tools** menu, select **Extensions and Updates**, **Updates**. If there are Visual Studio updates available for Visual C++ for Cross-Platform Mobile Development or for Microsoft Visual Studio Emulator for Android, install them.  
+5. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, on the **Tools** menu, select **Extensions and Updates**, **Updates**. If there are Visual Studio updates available for Visual C++ for Cross-Platform Mobile Development or for Microsoft Visual Studio Emulator for Android, install them.  
   
 ##  <a name="InstallForiOS"></a> Install tools for iOS  
  You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.  
@@ -117,15 +117,15 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
 #### To set the paths for third-party tools  
   
-1.  On the Visual Studio menu bar, select **Tools**, **Options**.  
+1. On the Visual Studio menu bar, select **Tools**, **Options**.  
   
-2.  In the **Options** dialog box, expand **Cross Platform**, **C++**, and select **Android**.  
+2. In the **Options** dialog box, expand **Cross Platform**, **C++**, and select **Android**.  
   
      ![Android tool path options](../cross-platform/media/cppmdd-options-android.PNG "CPPMDD_Options_Android")  
   
-3.  To change the path used by a tool, check the checkbox next to the path, and edit the folder path in the textbox. You can also use the browse button (**...**) to open a **Select location** dialog to choose the folder.  
+3. To change the path used by a tool, check the checkbox next to the path, and edit the folder path in the textbox. You can also use the browse button (**...**) to open a **Select location** dialog to choose the folder.  
   
-4.  Choose **OK** to save the custom tool folder locations.  
+4. Choose **OK** to save the custom tool folder locations.  
   
 ## See Also  
  [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   

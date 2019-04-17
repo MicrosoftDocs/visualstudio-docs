@@ -50,13 +50,13 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 **To examine the project file**
 
-1.  In **Solution Explorer**, click the project node **BuildApp**.
+1. In **Solution Explorer**, click the project node **BuildApp**.
 
-2.  In the **Properties** browser, notice that the **Project File** property is *BuildApp.csproj*. All project files are named with the suffix *proj*. If you had created a Visual Basic project, the project file name would be *BuildApp.vbproj*.
+2. In the **Properties** browser, notice that the **Project File** property is *BuildApp.csproj*. All project files are named with the suffix *proj*. If you had created a Visual Basic project, the project file name would be *BuildApp.vbproj*.
 
-3.  Right-click the project node, then click **Unload Project**.
+3. Right-click the project node, then click **Unload Project**.
 
-4.  Right-click the project node again, then click **Edit BuildApp.csproj**.
+4. Right-click the project node again, then click **Edit BuildApp.csproj**.
 
      The project file appears in the code editor.
 
@@ -257,13 +257,13 @@ $(PropertyName)
 
 **To set a property value from the command line**
 
-1.  From the **Command Window**, enter and execute this line:
+1. From the **Command Window**, enter and execute this line:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld -p:Configuration=Release
     ```
 
-2.  Examine the output. You should see this line:
+2. Examine the output. You should see this line:
 
     ```
     Configuration is Release.
@@ -375,21 +375,21 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
 **To display item type values one per line**
 
-1.  From the code editor, replace the Message task with this line:
+1. From the code editor, replace the Message task with this line:
 
     ```xml
     <Message Text="Compile item type contains @(Compile, '%0A%0D')" />
     ```
 
-2.  Save the project file.
+2. Save the project file.
 
-3.  From the **Command Window**, enter and execute this line:
+3. From the **Command Window**, enter and execute this line:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld
     ```
 
-4.  Examine the output. You should see these lines:
+4. Examine the output. You should see these lines:
 
     ```
     Compile item type contains Form1.cs

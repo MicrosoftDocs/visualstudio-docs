@@ -18,11 +18,11 @@ Compared to previous versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnsh
   
 ### To create a new argument  
   
-1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1. Open a workflow or activity solution in [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
   
-2.  Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.  
+2. Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.  
   
-3.  Click the empty row labeled **Create Argument**. This will add a new row with a new argument using the following default values: argumentx for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique argument names, **In** for the **Direction**, and **String** for the **Argument type**. No value is added for **Default value**. You can change these values at any time during the workflow design process.  
+3. Click the empty row labeled **Create Argument**. This will add a new row with a new argument using the following default values: argumentx for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique argument names, **In** for the **Direction**, and **String** for the **Argument type**. No value is added for **Default value**. You can change these values at any time during the workflow design process.  
   
     > [!NOTE]
     >  To delete an argument, select the argument by clicking it and then press the **Delete** key.  

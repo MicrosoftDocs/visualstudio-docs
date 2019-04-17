@@ -21,42 +21,42 @@ ms.workload:
 
 ## To publish a sandboxed SharePoint solution to a remote SharePoint server
 
-1.  In **Solution Explorer**, open the shortcut menu for the sandboxed SharePoint project that you want to publish, and then choose **Publish**.
+1. In **Solution Explorer**, open the shortcut menu for the sandboxed SharePoint project that you want to publish, and then choose **Publish**.
 
-2.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as: `https://mytestsite.sharepoint.microsoftonline.com`.
+2. In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as: `https://mytestsite.sharepoint.microsoftonline.com`.
 
-3.  Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.
+3. Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.
 
-4.  Choose the **Publish** button.
+4. Choose the **Publish** button.
 
-5.  Log on to the remote server if user authentication is required.
+5. Log on to the remote server if user authentication is required.
 
      The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (*.wsp*) file is installed on the remote SharePoint server. However, it must still be activated before it can be used in SharePoint.
 
-6.  On the **Solution Gallery** page, select the SharePoint application and then on the ribbon, choose the **Activate** button.
+6. On the **Solution Gallery** page, select the SharePoint application and then on the ribbon, choose the **Activate** button.
 
-7.  In the **Activate Solution** dialog box, on the ribbon, choose the **Activate** button again.
+7. In the **Activate Solution** dialog box, on the ribbon, choose the **Activate** button again.
 
      The **Status** column on the **Solution Gallery** page indicates that the application is active.
 
 ## To upgrade a sandboxed SharePoint solution on a remote SharePoint server
  If a sandboxed SharePoint solution is already published on a remote server, the following process enables you to upgrade it after you make changes to the application in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-1.  Rename the SharePoint package in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To do this, in **Solution Explorer** open the package. It appears in the **Package Explorer**.
+1. Rename the SharePoint package in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To do this, in **Solution Explorer** open the package. It appears in the **Package Explorer**.
 
-2.  In **Package Explorer**, in the **Name** box, change the package name to a unique name.
+2. In **Package Explorer**, in the **Name** box, change the package name to a unique name.
 
-3.  Save the project.
+3. Save the project.
 
-4.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Publish**.
+4. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Publish**.
 
-5.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then, if the URL for the remote server where the solution is saved is missing, enter it.
+5. In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then, if the URL for the remote server where the solution is saved is missing, enter it.
 
-6.  Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.
+6. Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.
 
-7.  Choose the **Publish** button.
+7. Choose the **Publish** button.
 
-8.  Log on to the remote server if user authentication is required.
+8. Log on to the remote server if user authentication is required.
 
      If you logged in to the remote server recently, authentication may not be required.
 

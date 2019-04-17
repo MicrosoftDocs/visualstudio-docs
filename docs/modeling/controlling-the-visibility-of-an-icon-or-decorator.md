@@ -18,11 +18,11 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
 1. In the DSL Definition diagram, add to the shape class the icons or text decorators that you want to appear.
 
-   1.  Right-click the shape class, point to **Add**, and then click the required type of decorator.
+   1. Right-click the shape class, point to **Add**, and then click the required type of decorator.
 
-   2.  Set the decorator's **Position** property. More than one decorator can have the same position. For example, you could have icons for male and female sharing the same position.
+   2. Set the decorator's **Position** property. More than one decorator can have the same position. For example, you could have icons for male and female sharing the same position.
 
-   3.  Set the **Default Icon** property of an icon decorator.
+   3. Set the **Default Icon** property of an icon decorator.
 
 2. Select the diagram element map, which is the gray line between the shape class and the domain class on the DSL Definition diagram.
 
@@ -34,7 +34,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
     Otherwise, click the drop-down menu and navigate to the relationship or class where the property is located.
 
-   -   To avoid an error report, you should not navigate through a relationship marked with "*" in the navigation tool.
+   - To avoid an error report, you should not navigate through a relationship marked with "*" in the navigation tool.
 
 6. Set the **Filter Property** to a domain property. For example, Gender.
 
@@ -50,7 +50,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
 #### To control the visibility of a decorator based on a formula
 
-1.  Add a calculated domain property to the domain class. In the **Properties** window, set the following values:
+1. Add a calculated domain property to the domain class. In the **Properties** window, set the following values:
 
      **IsBrowsable =**  `False`  **- this hides the property from the user**
 
@@ -62,27 +62,27 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
      For more information, see [Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md).
 
-2.  Make the new property control the decorator visibility.
+2. Make the new property control the decorator visibility.
 
-    1.  Select the diagram element map, which is the gray line from the domain class to the shape. In the **DSL Details** window, open the **DecoratorMap** tab.
+    1. Select the diagram element map, which is the gray line from the domain class to the shape. In the **DSL Details** window, open the **DecoratorMap** tab.
 
-    2.  Check the **Visibility Filter** box.
+    2. Check the **Visibility Filter** box.
 
-    3.  In **Filter Property**, select the control property **DecoratorControl**.
+    3. In **Filter Property**, select the control property **DecoratorControl**.
 
-    4.  Under **Visibility Entries**, enter `True`.
+    4. Under **Visibility Entries**, enter `True`.
 
-3.  Click **Transform All Templates** in the **Solution Explorer** toolbar.
+3. Click **Transform All Templates** in the **Solution Explorer** toolbar.
 
-4.  Click **Build Solution** on the **Build** menu.
+4. Click **Build Solution** on the **Build** menu.
 
-5.  Double-click the error report that has appeared: "*YourClass* does not contain a definition for GetDecoratorControlValue ...".
+5. Double-click the error report that has appeared: "*YourClass* does not contain a definition for GetDecoratorControlValue ...".
 
      The text editor opens on Dsl\GeneratedCode\DomainClasses.cs. Above the highlighted error is a comment that requests you to add a method.
 
-6.  Note the namespace, class and method that are missing.  For example, Company.FamilyTree.Person.GetDecoratorControlValue().
+6. Note the namespace, class and method that are missing.  For example, Company.FamilyTree.Person.GetDecoratorControlValue().
 
-7.  In a separate code file, write a partial class definition that contains the missing method. For example:
+7. In a separate code file, write a partial class definition that contains the missing method. For example:
 
     ```
     namespace Company.FamilyTree
@@ -95,7 +95,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
      For more information about customizing the model with program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-8.  Rebuild and run the solution.
+8. Rebuild and run the solution.
 
 ## See Also
 

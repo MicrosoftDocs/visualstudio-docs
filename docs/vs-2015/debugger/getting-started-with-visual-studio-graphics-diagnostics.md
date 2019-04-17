@@ -81,7 +81,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 
 ##### To capture single frames
 
--   In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press **Print Screen**.
+- In Visual Studio, choose the **Capture Frame** button from the Graphics toolbar or diagnostics session window. Or, if your app has focus, just press **Print Screen**.
 
 ##### To capture a sequence of frames
 

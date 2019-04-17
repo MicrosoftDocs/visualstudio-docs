@@ -564,11 +564,11 @@ is a great color. I love Blue.
   
  The text value must be one of the following values:  
   
--   `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.  
+- `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.  
   
--   `Expansion`: allows the code snippet to be inserted at the cursor.  
+- `Expansion`: allows the code snippet to be inserted at the cursor.  
   
--   `Refactoring`: specifies that the code snippet is used during Visual C# refactoring. `Refactoring` cannot be used in custom code snippets.  
+- `Refactoring`: specifies that the code snippet is used during Visual C# refactoring. `Refactoring` cannot be used in custom code snippets.  
   
 ##  <a name="snippettypes"></a> SnippetTypes Element  
  Groups individual `SnippetType` elements. If the `SnippetTypes` element is not present, the code snippet can be inserted anywhere in the code.  

@@ -21,11 +21,11 @@ Build your SharePoint solution is no different than building other applications 
 
 ## To build SharePoint solutions
 
-1.  Decide whether you are making a debug or a release build. For more information, see [Debugger Project Settings](../debugger/debugger-project-settings.md).
+1. Decide whether you are making a debug or a release build. For more information, see [Debugger Project Settings](../debugger/debugger-project-settings.md).
 
-2.  Choose the appropriate option for building or rebuilding your solution or project. For more information, see [Compiling and Building in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
+2. Choose the appropriate option for building or rebuilding your solution or project. For more information, see [Compiling and Building in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
 
-3.  On the menu bar, choose **Build** > **Build Solution**.
+3. On the menu bar, choose **Build** > **Build Solution**.
 
 ## See also
 

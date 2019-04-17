@@ -84,9 +84,9 @@ ms.workload:
 
 - VSTO Add-in Load Behavior.
 
-  -   Load at Startup: specifies that the VSTO Add-in loads when the Office application starts.
+  - Load at Startup: specifies that the VSTO Add-in loads when the Office application starts.
 
-  -   Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.
+  - Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.
 
   **Publish language**
   This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.

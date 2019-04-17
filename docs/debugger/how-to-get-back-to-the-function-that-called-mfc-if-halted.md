@@ -36,7 +36,7 @@ Sometimes your code may break in the message pump. In that case, there is no use
 
 ## Navigate to the function from which MFC was called
 
--   Use the **Call Stack** window.
+- Use the **Call Stack** window.
 
 ## See also
 

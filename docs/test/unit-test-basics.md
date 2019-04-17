@@ -124,17 +124,17 @@ A unit test project usually mirrors the structure of a single code project. In t
 
    To create the reference to the code project:
 
-   1.  Select the project in **Solution Explorer**.
+   1. Select the project in **Solution Explorer**.
 
-   2.  On the **Project** menu, choose **Add Reference**.
+   2. On the **Project** menu, choose **Add Reference**.
 
-   3.  On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
+   3. On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
 
 Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
+- `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 
--   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
+- `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
 
 ## Write your tests
 
@@ -182,11 +182,11 @@ Note that `Withdraw_ValidAmount_ChangesBalance` uses an explicit `Assert` statem
 
 For more information about the Microsoft unit testing frameworks, see one of the following topics:
 
--   [Unit test your code](unit-test-your-code.md)
+- [Unit test your code](unit-test-your-code.md)
 
--   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
--   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## Set timeouts for unit tests
 
@@ -257,12 +257,12 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 **A:** Use **Test Explorer** to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 
-1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
+1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
+2. In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
 Learn more details about [debugging unit tests](../debugger/debugger-feature-tour.md).
 
@@ -324,9 +324,9 @@ Learn more about [code coverage](../test/using-code-coverage-to-determine-how-mu
 
 Microsoft Fakes uses two approaches to create substitute classes for external dependencies:
 
-1.  *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.
+1. *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.
 
-2.  *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.
+2. *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.
 
 In both approaches, you use the generated delegates of calls to the dependency method to specify the behavior that you want in the test method.
 

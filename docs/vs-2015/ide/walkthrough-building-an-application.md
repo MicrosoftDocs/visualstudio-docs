@@ -50,13 +50,13 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To create a solution for the sample application  
   
-1.  Open the **New Project** dialog box.  
+1. Open the **New Project** dialog box.  
   
      ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")  
   
-2.  In the **Installed** category, choose the **Samples** category to display the Introduction to Building WPF Applications sample.  
+2. In the **Installed** category, choose the **Samples** category to display the Introduction to Building WPF Applications sample.  
   
-3.  Name the solution `IntroWPFcsharp` for Visual C#.  
+3. Name the solution `IntroWPFcsharp` for Visual C#.  
   
      ![New Project dialog box, Installed Samples](../ide/media/buildwalk-newprojectdlgintrotowpfsample.png "BuildWalk_NewProjectdlgIntrotoWPFsample")  
   
@@ -66,7 +66,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      ![New Project dialog box, Visual Basic Sample](../ide/media/buildwalk-newprojectdlgintrotowpfsamplevb.png "BuildWalk_NewProjectdlgIntrotoWPFsampleVB")  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
 ##  <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration  
  When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
@@ -123,19 +123,19 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To hide a specific Visual C# warning  
   
-1.  In **Solution Explorer**, choose the top-level project node.  
+1. In **Solution Explorer**, choose the top-level project node.  
   
-2.  On the menu bar, choose **View**, **Property Pages**.  
+2. On the menu bar, choose **View**, **Property Pages**.  
   
      The **Project Designer** opens.  
   
-3.  Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number `1762`.  
+3. Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number `1762`.  
   
      ![Build page, Project Designer](../ide/media/buildwalk-csharpsuppresswarnings.png "BuildWalk_CsharpSuppressWarnings")  
   
      For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
-4.  Build the solution.  
+4. Build the solution.  
   
      The **Output** window displays only summary information for the build.  
   
@@ -201,24 +201,24 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 #### To specify a release build for Visual Basic  
   
-1.  Open the **Project Designer**.  
+1. Open the **Project Designer**.  
   
      ![View menu, Property Pages command](../ide/media/buildwalk-viewpropertypages.png "BuildWalk_ViewPropertyPages")  
   
-2.  Choose the **Compile** page.  
+2. Choose the **Compile** page.  
   
-3.  In the **Configuration** list, choose **Release**.  
+3. In the **Configuration** list, choose **Release**.  
   
-4.  In the **Platform** list, choose **x86**.  
+4. In the **Platform** list, choose **x86**.  
   
-5.  In the **Build output path** box, specify a network path.  
+5. In the **Build output path** box, specify a network path.  
   
      For example, you can specify \\\myserver\builds.  
   
     > [!IMPORTANT]
     >  A message box might appear, warning you that the network share that you’ve specified might not be a trusted location. If you trust the location that you’ve specified, choose the **OK** button in the message box.  
   
-6.  Build the application.  
+6. Build the application.  
   
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   

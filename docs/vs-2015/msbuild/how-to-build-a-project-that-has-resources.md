@@ -25,13 +25,13 @@ If you are building localized versions of a project, all user interface elements
   
 #### To compile resources with MSBuild  
   
-1.  Identify the project's resource files and pass them to the `GenerateResource` task, either as item lists, or as file names.  
+1. Identify the project's resource files and pass them to the `GenerateResource` task, either as item lists, or as file names.  
   
-2.  Specify the `OutputResources` parameter of the `GenerateResource` task, which allows you to set the names for the output resource files.  
+2. Specify the `OutputResources` parameter of the `GenerateResource` task, which allows you to set the names for the output resource files.  
   
-3.  Use the `Output` element of the task to store the value of the `OutputResources` parameter in an item.  
+3. Use the `Output` element of the task to store the value of the `OutputResources` parameter in an item.  
   
-4.  Use the item created from the `Output` element as an input into another task.  
+4. Use the item created from the `Output` element as an input into another task.  
   
 ## Example  
  The following code example shows how the `Output` element specifies that the `OutputResources` attribute of the `GenerateResource` task will contain the compiled resource files `alpha.resources` and `beta.resources` and that those two files will be placed inside the `Resources` item list. By identifying those .resources files as a collection of items of the same name, you can easily use them as inputs for another task, such as the [Csc](../msbuild/csc-task.md) task.  

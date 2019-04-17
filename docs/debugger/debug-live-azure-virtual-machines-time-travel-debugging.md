@@ -89,7 +89,7 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
 1. Click the View Snapshot link to open the Time Travel recording in the code editor.
   
-   You can execute every line of code recorded by the TTD by using the **Continue** and **Reverse Continue** buttons. Additionally the the Debug toolbar can be used to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, **Step Back Out**.
+   You can execute every line of code recorded by the TTD by using the **Continue** and **Reverse Continue** buttons. Additionally the Debug toolbar can be used to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, **Step Back Out**.
 
    ![Start Debugging](../debugger/media/time-travel-debugging-step-commands.png)
 

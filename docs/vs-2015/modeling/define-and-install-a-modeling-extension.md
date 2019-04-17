@@ -36,35 +36,35 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To create a class library project for menu commands, gesture handlers, or validation  
   
-1.  On the **File** menu, choose **New**, **Project**.  
+1. On the **File** menu, choose **New**, **Project**.  
   
-2.  Under **Installed Templates**, select **Visual C#** or **Visual Basic**, then choose **Class Library**.  
+2. Under **Installed Templates**, select **Visual C#** or **Visual Basic**, then choose **Class Library**.  
   
 #### To create a VSIX project  
   
-1.  If you are creating a component with code, it is easiest to create the class library project first. You will add your code to that project.  
+1. If you are creating a component with code, it is easiest to create the class library project first. You will add your code to that project.  
   
-2.  Create a VSIX project.  
+2. Create a VSIX project.  
   
-    1.  In **Solution Explorer**, in the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, in the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
-4.  Open **source.extension.vsixmanifest**. The file opens in the manifest editor.  
+4. Open **source.extension.vsixmanifest**. The file opens in the manifest editor.  
   
-5.  On the **MetaData** tab, set the name and descriptive fields of the VSIX.  
+5. On the **MetaData** tab, set the name and descriptive fields of the VSIX.  
   
-6.  On the **Install Targets** tab, choose **New** and set the Visual Studio versions as the targets.  
+6. On the **Install Targets** tab, choose **New** and set the Visual Studio versions as the targets.  
   
-7.  On the **Assets** tab, add your components to the Visual Studio extension.  
+7. On the **Assets** tab, add your components to the Visual Studio extension.  
   
-    1.  Choose **New**.  
+    1. Choose **New**.  
   
-    2.  For a component with code, set these fields in the **Add New Asset** dialog box:  
+    2. For a component with code, set these fields in the **Add New Asset** dialog box:  
   
         |||  
         |-|-|  
@@ -91,36 +91,36 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To run an extension during its development  
   
-1.  In the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **Debug** menu, choose **Start Debugging**.  
+1. In the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **Debug** menu, choose **Start Debugging**.  
   
      The project builds, and a new instance of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] starts in Experimental mode.  
   
-    -   Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
+    - Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
   
-2.  Create or open a modeling project in the experimental instance of Visual Studio, and create or open a diagram.  
+2. Create or open a modeling project in the experimental instance of Visual Studio, and create or open a diagram.  
   
      Your extension will load and run.  
   
-3.  If you used **Start Without Debugging** but you want to use the debugger, go back to the main instance of Visual Studio. On the **Debug** menu, click **Attach to Process**. In the dialog box, select the experimental instance of Visual Studio, which has the program name **devenv**.  
+3. If you used **Start Without Debugging** but you want to use the debugger, go back to the main instance of Visual Studio. On the **Debug** menu, click **Attach to Process**. In the dialog box, select the experimental instance of Visual Studio, which has the program name **devenv**.  
   
 ##  <a name="Installing"></a> Installing and uninstalling an extension  
  Perform the following steps to run your extension in the main instance of Visual Studio either on your own computer or on other computers.  
   
-1.  In your computer, find the **.vsix** file that was built by your extension project.  
+1. In your computer, find the **.vsix** file that was built by your extension project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of your project, and then choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of your project, and then choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of Visual Studio that you specified on the **Installation Targets** tab of **source.extension.vsixmanifest**.  
+    - The target computer must have one of the editions of Visual Studio that you specified on the **Installation Targets** tab of **source.extension.vsixmanifest**.  
   
-3.  On the target computer, open the **.vsix** file, for example by double-clicking it.  
+3. On the target computer, open the **.vsix** file, for example by double-clicking it.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart Visual Studio.  
+4. Start or restart Visual Studio.  
   
 #### To uninstall an extension  
   

@@ -41,15 +41,15 @@ ms.workload:
 
 ### To resize a bookmark in a document-level project at design time
 
-1.  Select the bookmark in the **Properties** window.
+1. Select the bookmark in the **Properties** window.
 
-2.  Increase or decrease the value of the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> property.
+2. Increase or decrease the value of the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> property.
 
-3.  Increase or decrease the value of the <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> property.
+3. Increase or decrease the value of the <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> property.
 
 ### To resize a bookmark in a document-level project at runtime
 
-1.  Modify the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of a <xref:Microsoft.Office.Tools.Word.Bookmark> you created at runtime or at design time.
+1. Modify the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of a <xref:Microsoft.Office.Tools.Word.Bookmark> you created at runtime or at design time.
 
      The following code example adds five characters to the start of a bookmark named `SampleBookmark`. This code assumes that there are at least five characters of text before the bookmark.
 
@@ -63,7 +63,7 @@ ms.workload:
 
 ### To resize a bookmark in a VSTO Add-in project at runtime
 
-1.  Modify the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of a <xref:Microsoft.Office.Tools.Word.Bookmark> you created at runtime.
+1. Modify the <xref:Microsoft.Office.Tools.Word.Bookmark.Start%2A> and <xref:Microsoft.Office.Tools.Word.Bookmark.End%2A> properties of a <xref:Microsoft.Office.Tools.Word.Bookmark> you created at runtime.
 
      The following code example creates a <xref:Microsoft.Office.Tools.Word.Bookmark> that contains the text in the first paragraph of the active document, and then removes five characters from the start and end of the <xref:Microsoft.Office.Tools.Word.Bookmark>.
 
@@ -75,11 +75,11 @@ ms.workload:
 
 ### To recreate a bookmark in a document-level project at design time
 
-1.  Select the text to be included in the new <xref:Microsoft.Office.Tools.Word.Bookmark> control.
+1. Select the text to be included in the new <xref:Microsoft.Office.Tools.Word.Bookmark> control.
 
-2.  On the **Insert** menu, click **Bookmark**.
+2. On the **Insert** menu, click **Bookmark**.
 
-3.  In the **Bookmark** dialog box, select the name of the bookmark that you want to resize and click **Add**.
+3. In the **Bookmark** dialog box, select the name of the bookmark that you want to resize and click **Add**.
 
 ## See also
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)

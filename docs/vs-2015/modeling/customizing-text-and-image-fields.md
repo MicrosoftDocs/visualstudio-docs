@@ -182,13 +182,13 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
 #### To create a subclass of ImageField  
   
-1.  Set the **Generates Double Derived** property of the parent shape class in your DSL Definition.  
+1. Set the **Generates Double Derived** property of the parent shape class in your DSL Definition.  
   
-2.  Override the `InitializeShapeFields` method of your shape class.  
+2. Override the `InitializeShapeFields` method of your shape class.  
   
-    -   Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
+    - Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
   
-3.  Inspect the code of `InitializeShapeFields` in DSL\GeneratedCode\Shapes.cs.  
+3. Inspect the code of `InitializeShapeFields` in DSL\GeneratedCode\Shapes.cs.  
   
      In your override method, call the base method and then create an instance of your own image field class. Use this to replace the regular image field in the `shapeFields` list.  
   

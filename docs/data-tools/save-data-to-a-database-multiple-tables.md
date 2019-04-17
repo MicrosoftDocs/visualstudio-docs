@@ -25,15 +25,15 @@ You can save data in your application back to the database by calling the `Updat
 
 Tasks illustrated in this walkthrough include:
 
--  Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
+- Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
--  Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#data-sources-window). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+- Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#data-sources-window). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
--  Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
+- Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
 
--  Modifying a few records in each table in the dataset.
+- Modifying a few records in each table in the dataset.
 
--  Modifying the code to send the updated data in the dataset back to the database.
+- Modifying the code to send the updated data in the dataset back to the database.
 
 ## Prerequisites
 

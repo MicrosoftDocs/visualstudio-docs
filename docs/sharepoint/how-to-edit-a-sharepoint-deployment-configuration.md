@@ -22,15 +22,15 @@ ms.workload:
 
 #### To create a SharePoint deployment configuration
 
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, _ProjectName_**Properties**.
+1. In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, _ProjectName_**Properties**.
 
-2.  On the **SharePoint** tab, choose the **New** button.
+2. On the **SharePoint** tab, choose the **New** button.
 
      The **Add New Deployment Configuration** dialog box appears.
 
-3.  In the **Name** text box, enter a name for the deployment configuration.
+3. In the **Name** text box, enter a name for the deployment configuration.
 
-4.  In the **Available Deployment Steps** pane, choose the steps that you want to add to the deployment configuration, choose the (**>**) button, and then choose the **OK** button.
+4. In the **Available Deployment Steps** pane, choose the steps that you want to add to the deployment configuration, choose the (**>**) button, and then choose the **OK** button.
 
     > [!NOTE]
     >  If you have configured a pre-deployment command or a post-deployment command, these steps run only if you add them to a customized deployment configuration.
@@ -39,11 +39,11 @@ ms.workload:
 
 #### To change the active deployment configuration
 
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project** > **\<*ProjectName*> Properties**.
+1. In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project** > **\<*ProjectName*> Properties**.
 
-2.  Choose the **SharePoint** tab.
+2. Choose the **SharePoint** tab.
 
-3.  In the **Active Deployment Configuration** list box, choose the name of the deployment configuration that you want to use.
+3. In the **Active Deployment Configuration** list box, choose the name of the deployment configuration that you want to use.
 
 ## See also
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

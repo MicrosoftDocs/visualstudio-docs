@@ -33,13 +33,13 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
 
 ### To customize the publish Web page
 
-1.  Publish your ClickOnce application to a Web location. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+1. Publish your ClickOnce application to a Web location. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
 
-2.  On the Web server, open the *Publish.htm* file in Visual Web Designer or another HTML editor.
+2. On the Web server, open the *Publish.htm* file in Visual Web Designer or another HTML editor.
 
-3.  Customize the page as desired and save it.
+3. Customize the page as desired and save it.
 
-4.  Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment Web page after every publish** in the **Publish Options** dialog box.
+4. Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment Web page after every publish** in the **Publish Options** dialog box.
 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

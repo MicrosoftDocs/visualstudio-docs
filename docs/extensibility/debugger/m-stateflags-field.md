@@ -31,15 +31,15 @@ Stores information about the current state of the <xref:System.Threading.Tasks.T
 
  This member can be any combination of the following values:
 
--   [TASK_STATE_EXECUTED](../../extensibility/debugger/task-state-executed-field.md)
+- [TASK_STATE_EXECUTED](../../extensibility/debugger/task-state-executed-field.md)
 
--   [TASK_STATE_FAULTED](../../extensibility/debugger/task-state-faulted-field.md)
+- [TASK_STATE_FAULTED](../../extensibility/debugger/task-state-faulted-field.md)
 
--   [TASK_STATE_CANCELED](../../extensibility/debugger/task-state-canceled-field.md)
+- [TASK_STATE_CANCELED](../../extensibility/debugger/task-state-canceled-field.md)
 
--   [TASK_STATE_WAITING_ON_CHILDREN](../../extensibility/debugger/task-state-waiting-on-children-field.md)
+- [TASK_STATE_WAITING_ON_CHILDREN](../../extensibility/debugger/task-state-waiting-on-children-field.md)
 
--   [TASK_STATE_RAN_TO_COMPLETION](../../extensibility/debugger/task-state-ran-to-completion-field.md)
+- [TASK_STATE_RAN_TO_COMPLETION](../../extensibility/debugger/task-state-ran-to-completion-field.md)
 
 ## See also
 - [Task class](../../extensibility/debugger/task-class-internal-members.md)

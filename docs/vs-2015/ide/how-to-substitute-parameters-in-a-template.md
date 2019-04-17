@@ -23,7 +23,7 @@ You may replace template parameters such as class names and namespaces when a fi
   
 #### To use a parameter to replace namespace name with the project name  
   
-1.  Insert the parameter in one or more of the code files in the template. For example:  
+1. Insert the parameter in one or more of the code files in the template. For example:  
   
     ```  
     namespace $safeprojectname$  
@@ -32,9 +32,9 @@ You may replace template parameters such as class names and namespaces when a fi
     > [!NOTE]
     >  Template parameters are written in the format $*parameter*$.  
   
-2.  In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.  
+2. In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.  
   
-3.  Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element. For example:  
+3. Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element. For example:  
   
     ```  
     <ProjectItem ReplaceParameters="true">Class1.cs</ProjectItem>  

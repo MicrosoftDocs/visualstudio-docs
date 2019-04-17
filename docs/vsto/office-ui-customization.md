@@ -20,19 +20,19 @@ ms.workload:
 # Office UI customization
   You can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio. This topic describes the UI features that you can customize in the following sections:
 
--   [Comparison of UI features](#Comparison)
+- [Comparison of UI features](#Comparison)
 
--   [Actions panes and custom task panes](#Actions)
+- [Actions panes and custom task panes](#Actions)
 
--   [Custom Ribbon UI](#Ribbon)
+- [Custom Ribbon UI](#Ribbon)
 
--   [Backstage view](#Backstage)
+- [Backstage view](#Backstage)
 
--   [Outlook form regions](#FormRegion)
+- [Outlook form regions](#FormRegion)
 
--   [Controls on documents](#Controls)
+- [Controls on documents](#Controls)
 
--   [Shortcut menus](#Shortcut)
+- [Shortcut menus](#Shortcut)
 
 ##  <a name="Comparison"></a> Comparison of UI Features
  The following table compares the main UI features that you can customize in Microsoft Office projects.

@@ -46,7 +46,7 @@ In the rare cases where this error appears, you can set a registry key to indica
 
 5. After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.
 
-   1.  If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.
+   1. If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.
 
 6. Double-click **CLRVersionForDebugging**.
 

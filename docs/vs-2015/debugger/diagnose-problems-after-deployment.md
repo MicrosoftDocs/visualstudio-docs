@@ -21,11 +21,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
  **You'll need:**  
   
--   Visual Studio 2015 or Team Foundation Server 2015, 2013, 2012, or 2010 to set up your build  
+- Visual Studio 2015 or Team Foundation Server 2015, 2013, 2012, or 2010 to set up your build  
   
--   Microsoft Monitoring Agent to monitor your app and record diagnostic data  
+- Microsoft Monitoring Agent to monitor your app and record diagnostic data  
   
--   Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace  
+- Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace  
   
 ##  <a name="SetUpBuild"></a> Step 1: Include build information with your release  
  Set up your build process to create a build manifest (BuildInfo.config file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.  
@@ -87,15 +87,15 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 3. Add these MSBuild arguments to your build definition:  
   
-   -   **/p:VisualStudioVersion=12.0**  
+   - **/p:VisualStudioVersion=12.0**  
   
-   -   **/p:MSBuildAssemblyVersion=12.0**  
+   - **/p:MSBuildAssemblyVersion=12.0**  
   
-   -   **/tv:12.0**  
+   - **/tv:12.0**  
   
-   -   **/p:IncludeServerNameInBuildInfo=True**  
+   - **/p:IncludeServerNameInBuildInfo=True**  
   
-   -   **/p:BuildSymbolStorePath=**\<*path to symbols*>  
+   - **/p:BuildSymbolStorePath=**\<*path to symbols*>  
   
 4. Run a new build.  
   
@@ -150,9 +150,9 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Open the IntelliTrace log and matching solution  
   
-1.  Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.  
+1. Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.  
   
-2.  Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)  
+2. Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)  
   
      Visual Studio automatically shelves any pending changes when it opens the matching solution or project. To get more details about this shelveset, look in the **Output** window or **Team Explorer**.  
   
@@ -176,13 +176,13 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Diagnose a performance problem  
   
-1.  Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.  
+1. Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.  
   
      ![View performance event details](../debugger/media/ffr-itsummarypageperformance.png "FFR_ITSummaryPagePerformance")  
   
      You can also just double-click the event.  
   
-2.  On the event page, review the execution times for these calls. Find a slow call in the execution tree.  
+2. On the event page, review the execution times for these calls. Find a slow call in the execution tree.  
   
      The slowest calls appear in their own section when you have multiple calls, nested or otherwise.  
   
@@ -200,7 +200,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Diagnose an exception  
   
-1.  Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.  
+1. Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.  
   
      ![Start debugging from exception event](../debugger/media/ffr-itsummarypageexception.png "FFR_ITSummaryPageException")  
   
@@ -214,13 +214,13 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ###  <a name="WhatElse"></a> What else can I do from here?  
   
--   [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests – all without leaving the editor - use the CodeLens indicators in the editor.  
+- [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests – all without leaving the editor - use the CodeLens indicators in the editor.  
   
      ![CodeLens &#45; View references to this code](../debugger/media/ffr-itsummarypageperformancecodelensreferences.png "FFR_ITSummaryPagePerformanceCodeLensReferences")  
   
      ![CodeLens &#45; View change history for this code](../debugger/media/ffr-itsummarypageperformancecodelensauthors.png "FFR_ITSummaryPagePerformanceCodeLensAuthors")  
   
--   [Map your place in the code while you're debugging.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) To visually track the methods that were called during your debugging session, map the call stack.  
+- [Map your place in the code while you're debugging.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) To visually track the methods that were called during your debugging session, map the call stack.  
   
      ![Map the call stack while debugging](../debugger/media/ffr-itsummarypageperformancedebuggermap.png "FFR_ITSummaryPagePerformanceDebuggerMap")  
   
@@ -234,11 +234,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 ####  <a name="InvalidConfigFile"></a> Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?  
  This might happen when you deploy from your development computer or you're not connected to TFS during deployment.  
   
-1.  Go to your project's deployment folder.  
+1. Go to your project's deployment folder.  
   
-2.  Find and open the build manifest (BuildInfo.config file).  
+2. Find and open the build manifest (BuildInfo.config file).  
   
-3.  Make sure the file has the required information:  
+3. Make sure the file has the required information:  
   
 - **ProjectName**  
   
@@ -343,15 +343,15 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 ####  <a name="ChooseTeamProject"></a> Q: Why can't I continue until I choose a team collection or a different collection?  
  **A:** This might happen for any of these reasons:  
   
--   Visual Studio isn't connected to TFS.  
+- Visual Studio isn't connected to TFS.  
   
      ![Open from source control &#45; not connected](../debugger/media/ffr-openprojectfromsourcecontrol-notconnected.png "FFR_OpenProjectFromSourceControl_NotConnected")  
   
--   Visual Studio didn't find the solution or project in your current team collection.  
+- Visual Studio didn't find the solution or project in your current team collection.  
   
      When the build manifest file (\<*ProjectName*>.BuildInfo.config) doesn't specify where Visual Studio can find the matching source, Visual Studio uses your currently connected TFS to find the matching solution or project. If your current team collection doesn't have the matching source, Visual Studio prompts you to connect to a different team collection.  
   
--   Visual Studio didn't find the solution or project in the collection specified by the build manifest file (\<*ProjectName*>.BuildInfo.config).  
+- Visual Studio didn't find the solution or project in the collection specified by the build manifest file (\<*ProjectName*>.BuildInfo.config).  
   
      The specified TFS might not have the matching source anymore or even exist, maybe because you migrated to a new TFS. If the specified TFS doesn't exist, Visual Studio might time out after a minute or so, and then prompt you to connect to a different collection. To continue, connect to the correct TFS server.  
   

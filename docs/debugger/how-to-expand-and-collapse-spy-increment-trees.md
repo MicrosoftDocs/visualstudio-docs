@@ -28,9 +28,9 @@ You can expand and collapse the Windows, Processes, and Threads views using two 
 
 ### To expand or collapse Spy++ trees
 
-1.  Highlight one of the items in the Windows, Processes, or Threads view.
+1. Highlight one of the items in the Windows, Processes, or Threads view.
 
-2.  From the **Tree** menu, choose one of the expand or collapse commands.
+2. From the **Tree** menu, choose one of the expand or collapse commands.
 
 ## See Also
 - [Using Spy++](../debugger/using-spy-increment.md)

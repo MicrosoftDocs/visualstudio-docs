@@ -25,9 +25,9 @@ To design new types on class diagrams, see [How to: Create types by using Class 
 
 ## To see types in a project on a class diagram
 
-1.  From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
+1. From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
-2.  From the project in **Solution Explorer**, drag a source code file to the class diagram.
+2. From the project in **Solution Explorer**, drag a source code file to the class diagram.
 
     > [!NOTE]
     > If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:

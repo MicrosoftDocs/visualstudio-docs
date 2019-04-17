@@ -23,8 +23,8 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 >  Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
 > 
 > - Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
->   -   Run your tests after every build.  
->   -   VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
+>   - Run your tests after every build.  
+>   - VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
 > 
 >   For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
   
@@ -45,19 +45,19 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 ##  <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project  
   
-1.  On the **File** menu, choose **New**, and then choose **New Project**.  
+1. On the **File** menu, choose **New**, and then choose **New Project**.  
   
-2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store**. Then choose **Blank App** from the list of project templates.  
+2. In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store**. Then choose **Blank App** from the list of project templates.  
   
-3.  Name the project `Maths` and make sure **Create directory for solution** is selected.  
+3. Name the project `Maths` and make sure **Create directory for solution** is selected.  
   
-4.  In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.  
+4. In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.  
   
-5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store** . Then choose **Unit Test Library (Windows Store apps)** from the list of project templates.  
+5. In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Store** . Then choose **Unit Test Library (Windows Store apps)** from the list of project templates.  
   
      ![Create the unit test project](../test/media/ute-cs-windows-createunittestproject.png "UTE_Cs_windows_CreateUnitTestProject")  
   
-6.  Open UnitTest1.cs in the Visual Studio editor.  
+6. Open UnitTest1.cs in the Visual Studio editor.  
   
     ```csharp  
   
@@ -83,17 +83,17 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
      Note that:  
   
-    1.  Each test is defined by using the `[TestMethod]`. A test method must return void and can't have any parameters.  
+    1. Each test is defined by using the `[TestMethod]`. A test method must return void and can't have any parameters.  
   
-    2.  Test methods must be in a class decorated with the `[TestClass]` attribute.  
+    2. Test methods must be in a class decorated with the `[TestClass]` attribute.  
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order.  
   
-    3.  You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) in the MSDN Library.  
+    3. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) in the MSDN Library.  
   
 ##  <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer  
   
-1.  Insert some test code in `TestMethod1` of the **UnitTest1.cs** file:  
+1. Insert some test code in `TestMethod1` of the **UnitTest1.cs** file:  
   
     ```csharp  
   
@@ -107,7 +107,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
      Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.  
   
-2.  On the **Test** menu, choose **Run** and then choose **Run All**.  
+2. On the **Test** menu, choose **Run** and then choose **Run All**.  
   
      The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.  
   
@@ -115,11 +115,11 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 ##  <a name="BKMK_Add_the_Rooter_class_to_the_Maths_project"></a> Add the Rooter class to the Maths project  
   
-1.  In Solution Explorer, choose the **Maths** project name. From the shortcut menu, choose **Add**, and then **Class**.  
+1. In Solution Explorer, choose the **Maths** project name. From the shortcut menu, choose **Add**, and then **Class**.  
   
-2.  Name the class file `Rooter.cs`  
+2. Name the class file `Rooter.cs`  
   
-3.  Add the following code to the Rooter class **Rooter.cs** file:  
+3. Add the following code to the Rooter class **Rooter.cs** file:  
   
     ```csharp  
   
@@ -137,23 +137,23 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
      The `Rooter` class declares a constructor and the `SqareRoot` estimator method.  
   
-4.  The `SqareRoot` method is only a minimal implementation, just enough to test the basic structure of the testing setup.  
+4. The `SqareRoot` method is only a minimal implementation, just enough to test the basic structure of the testing setup.  
   
 ##  <a name="BKMK_Couple_the_test_project_to_the_app_project"></a> Couple the test project to the app project  
   
 1. Add a reference to the Maths app to the RooterTests project.  
   
-   1.  In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
+   1. In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
   
-   2.  On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
+   2. On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
   
         ![Add a reference to the Maths project](../test/media/ute-cs-windows-addreference.png "UTE_Cs_windows_AddReference")  
   
 2. Add a using statement to the UnitTest1.cs file:  
   
-   1.  Open **UnitTest1.cs**.  
+   1. Open **UnitTest1.cs**.  
   
-   2.  Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
+   2. Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
   
        ```csharp  
        using Maths;  
@@ -186,7 +186,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 ##  <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass  
   
-1.  Add a new test:  
+1. Add a new test:  
   
     ```csharp  
     [TestMethod]  
@@ -209,16 +209,16 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
     >   
     >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
-3.  The test fails.  
+3. The test fails.  
   
      ![The RangeTest fails](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
     >  Immediately after you have written it, verify that each test fails. This helps you avoid the easy mistake of writing a test that never fails.  
   
-4.  Enhance the code under test so that the new test passes. Change the `SqareRoot` function in **Rooter.cs** to this:  
+4. Enhance the code under test so that the new test passes. Change the `SqareRoot` function in **Rooter.cs** to this:  
   
     ```csharp  
     public double SquareRoot(double x)  
@@ -236,7 +236,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
     ```  
   
-5.  Build the solution and then in Test Explorer, choose **Run All**.  
+5. Build the solution and then in Test Explorer, choose **Run All**.  
   
      All three tests now pass.  
   
@@ -286,13 +286,13 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 3. To see why the test fails, step through the function:  
   
-   1.  Set a breakpoint at the start of the `SquareRoot` function.  
+   1. Set a breakpoint at the start of the `SquareRoot` function.  
   
-   2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
+   2. On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
   
         When the run stops at the breakpoint, step through the code.  
   
-   3.  Add code to the Rooter method to catch the exception:  
+   3. Add code to the Rooter method to catch the exception:  
   
        ```csharp  
        public double SquareRoot(double x)  
@@ -304,7 +304,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
        ```  
   
-   1.  In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
+   1. In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
   
    All tests now pass.  
   
@@ -313,7 +313,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 ##  <a name="BKMK_Refactor_the_code_"></a> Refactor the code  
  **Simplify the central calculation in the SquareRoot function.**  
   
-1.  Change the result implementation  
+1. Change the result implementation  
   
     ```csharp  
     // old code  
@@ -323,7 +323,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
     ```  
   
-2.  Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.  
+2. Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.  
   
 > [!TIP]
 >  A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
@@ -332,7 +332,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
  Note that the `RangeTest` method hard codes the denominator of the tolerance variable that is used in the `Assert` method. If you plan to add additional tests that use the same tolerance calculation, the use of a hard-coded value in multiple locations could lead to errors.  
   
-1.  Add a private method to the Unit1Test class to calculate the tolerance value and then call that method instead.  
+1. Add a private method to the Unit1Test class to calculate the tolerance value and then call that method instead.  
   
     ```csharp  
     private double ToleranceHelper(double expected)  
@@ -356,7 +356,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
     ```  
   
-2.  Choose **Run All** to test the refactored method and make sure that you haven't introduced an error.  
+2. Choose **Run All** to test the refactored method and make sure that you haven't introduced an error.  
   
 > [!NOTE]
 >  To add a helper method to a test class, do not add the `[TestMethod]` attribute to the method. Test Explorer does not register the method to be run.

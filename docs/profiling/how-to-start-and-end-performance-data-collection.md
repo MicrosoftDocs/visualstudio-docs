@@ -21,15 +21,15 @@ You must add the target binary that you want to profile to the performance sessi
 
 ### To start profiling
 
-1.  Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:
+1. Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:
 
-    -   **Launch with Profiling** - starts the application and immediately begins profiling.
+    - **Launch with Profiling** - starts the application and immediately begins profiling.
 
-    -   **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and resume performance data collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).
+    - **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and resume performance data collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).
 
 ### To end profiling
 
--   The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.
+- The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.
 
 ## See also
 - [Control data collection](../profiling/controlling-data-collection.md)

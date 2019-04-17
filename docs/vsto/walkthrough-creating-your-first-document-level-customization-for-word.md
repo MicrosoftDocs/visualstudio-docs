@@ -37,31 +37,31 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word
+- Microsoft Word
 
 ## Create the project
 
 ### To create a new Word document project in Visual Studio
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
 
-5.  In the list of project templates, select a Word VSTO document project .
+5. In the list of project templates, select a Word VSTO document project .
 
-6.  In the **Name** box, type **FirstDocumentCustomization**.
+6. In the **Name** box, type **FirstDocumentCustomization**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      The **Visual Studio Tools for Office Project Wizard** opens.
 
-8.  Select **Create a new document**, and click **OK**.
+8. Select **Create a new document**, and click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
 
@@ -70,9 +70,9 @@ ms.workload:
 
 ### To close and reopen the document in the designer
 
-1.  Close the document by clicking the **Close** button (X) for the designer window.
+1. Close the document by clicking the **Close** button (X) for the designer window.
 
-2.  In **Solution Explorer**, right-click the **ThisDocument** code file, and click **View Designer**.
+2. In **Solution Explorer**, right-click the **ThisDocument** code file, and click **View Designer**.
 
      \- or -
 
@@ -83,24 +83,24 @@ ms.workload:
 
 ### To add text to your document by using the designer
 
-1.  In the document that is open in the designer, type the following text.
+1. In the document that is open in the designer, type the following text.
 
      **This text was added by using the designer.**
 
 ## Add text to the document programmatically
  Next, add code to the ThisDocument code file. The new code uses the object model of Word to add a second paragraph of text to the document. By default, the ThisDocument code file contains the following generated code:
 
--   A partial definition of the `ThisDocument` class, which represents the programming model of the document and provides access to the object model of Word. For more information, see [Document host item](../vsto/document-host-item.md) and [Word object model overview](../vsto/word-object-model-overview.md). The remainder of the `ThisDocument` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `ThisDocument` class, which represents the programming model of the document and provides access to the object model of Word. For more information, see [Document host item](../vsto/document-host-item.md) and [Word object model overview](../vsto/word-object-model-overview.md). The remainder of the `ThisDocument` class is defined in a hidden code file that you should not modify.
 
--   The `ThisDocument_Startup` and `ThisDocument_Shutdown` event handlers. These event handlers are called when the document is opened and closed. Use these event handlers to initialize your customization when the document is opened, and to clean up resources used by your customization when the document is closed. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `ThisDocument_Startup` and `ThisDocument_Shutdown` event handlers. These event handlers are called when the document is opened and closed. Use these event handlers to initialize your customization when the document is opened, and to clean up resources used by your customization when the document is closed. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add a second paragraph of text to the document by using code
 
-1.  In **Solution Explorer**, right-click **ThisDocument**, and then click **View Code**.
+1. In **Solution Explorer**, right-click **ThisDocument**, and then click **View Code**.
 
      The code file opens in Visual Studio.
 
-2.  Replace the `ThisDocument_Startup` event handler with the following code. When the document is opened, this code adds a second paragraph of text to the document.
+2. Replace the `ThisDocument_Startup` event handler with the following code. When the document is opened, this code adds a second paragraph of text to the document.
 
      [!code-vb[Trin_WordDocumentTutorial#1](../vsto/codesnippet/VisualBasic/FirstDocumentCustomization/ThisDocument.vb#1)]
      [!code-csharp[Trin_WordDocumentTutorial#1](../vsto/codesnippet/CSharp/FirstDocumentCustomization/ThisDocument.cs#1)]
@@ -112,41 +112,41 @@ ms.workload:
 
 ### To test your document
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is associated with the document. Visual Studio puts a copy of the document and the assembly in the build output folder for the project, and it configures the security settings on the development computer to enable the customization to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In the document, verify that you see the following text.
+2. In the document, verify that you see the following text.
 
      **This text was added by using the designer.**
 
      **This text was added by using code.**
 
-3.  Close the document.
+3. Close the document.
 
 ## Clean up the project
  When you finish developing a project, you should remove the files in the build output folder and the security settings created by the build process.
 
 ### To clean up the completed project on your development computer
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic document-level customization for Word, you can learn more about how to develop customizations from these topics:
 
--   General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).
+- General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).
 
--   Programming tasks that are specific to document-level customizations for Word: [Word solutions](../vsto/word-solutions.md).
+- Programming tasks that are specific to document-level customizations for Word: [Word solutions](../vsto/word-solutions.md).
 
--   Using the object model of Word: [Word object model overview](../vsto/word-object-model-overview.md).
+- Using the object model of Word: [Word object model overview](../vsto/word-object-model-overview.md).
 
--   Customizing the UI of Word, for example, by adding a custom tab to the Ribbon or creating your own actions pane: [Office UI customization](../vsto/office-ui-customization.md).
+- Customizing the UI of Word, for example, by adding a custom tab to the Ribbon or creating your own actions pane: [Office UI customization](../vsto/office-ui-customization.md).
 
--   Using extended Word objects provided by Office solutions in Visual Studio to perform tasks that are not possible by using the Word object model (for example, hosting managed controls on documents and binding Word controls to data by using the Windows Forms data binding model): [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md).
+- Using extended Word objects provided by Office solutions in Visual Studio to perform tasks that are not possible by using the Word object model (for example, hosting managed controls on documents and binding Word controls to data by using the Windows Forms data binding model): [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md).
 
--   Building and debugging document-level customizations for Word: [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging document-level customizations for Word: [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying document-level customizations for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying document-level customizations for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

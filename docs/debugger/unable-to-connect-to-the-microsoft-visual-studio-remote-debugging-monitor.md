@@ -124,16 +124,16 @@ The remote debugger will, by default, only accept connections from the user who 
 
 You can solve this in one of the following ways:
 
--   Add the Visual Studio user to the remote debugger's permissions (in the remote debugger window, choose **Tools > Permissions**).
+- Add the Visual Studio user to the remote debugger's permissions (in the remote debugger window, choose **Tools > Permissions**).
 
--   On the remote computer, restart the remote debugger under the same user account and password that you are using on the Visual Studio computer.
+- On the remote computer, restart the remote debugger under the same user account and password that you are using on the Visual Studio computer.
 
     > [!NOTE]
     > If you are running the remote debugger on a remote server, right-click the Remote Debugger app and choose **Run as administrator** (Or, you can run the remote debugger as a service). If you are not running it on a remote server, just start it normally.
 
--   You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`.
+- You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`.
 
--   Alternatively, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools > Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should try this option only if the other options fail, or if you are on a private network.
+- Alternatively, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools > Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should try this option only if the other options fail, or if you are on a private network.
 
 ### <a name="firewall"></a> The firewall on the remote machine doesn't allow incoming connections to the remote debugger
  The firewall on the Visual Studio machine and the firewall on the remote machine must be configured to allow communication between Visual Studio and the remote debugger. For information about the ports the remote debugger is using, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). For information about configuring the Windows firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).

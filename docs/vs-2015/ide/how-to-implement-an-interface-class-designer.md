@@ -33,14 +33,14 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
 ### To implement an interface from the Class View window  
   
-1.  On the class diagram, display the class that you want to implement the interface.  
+1. On the class diagram, display the class that you want to implement the interface.  
   
-2.  Open Class View and locate the interface.  
+2. Open Class View and locate the interface.  
   
     > [!TIP]
     >  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
   
-3.  Drag the interface node to the class shape on the diagram.  
+3. Drag the interface node to the class shape on the diagram.  
   
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members; at this point, the interface is implemented.  
   

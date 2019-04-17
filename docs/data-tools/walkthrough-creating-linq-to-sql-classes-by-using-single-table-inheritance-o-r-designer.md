@@ -36,12 +36,12 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 ### To create a base table to demonstrate inheritance
 
-1.  In **Server Explorer** or **Database Explorer**, right-click the **Tables** node and click **Add New Table**.
+1. In **Server Explorer** or **Database Explorer**, right-click the **Tables** node and click **Add New Table**.
 
     > [!NOTE]
     >  You can use the Northwind database or any other database that you can add a table to.
 
-2.  In the **Table Designer**, add the following columns to the table:
+2. In the **Table Designer**, add the following columns to the table:
 
     |Column Name|Data Type|Allow Nulls|
     |-----------------|---------------|-----------------|
@@ -51,18 +51,18 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     |**LastName**|**nvarchar(200)**|**False**|
     |**Manager**|**int**|**True**|
 
-3.  Set the ID column as the primary key.
+3. Set the ID column as the primary key.
 
-4.  Save the table and name it **Person**.
+4. Save the table and name it **Person**.
 
 ## Add data to the table
  So that you can verify that inheritance is configured correctly, the table needs some data for each class in the single-table inheritance.
 
 ### To add data to the table
 
-1.  Open the table in data view. (Right-click the **Person** table in **Server Explorer** or **Database Explorer** and click **Show Table Data**.)
+1. Open the table in data view. (Right-click the **Person** table in **Server Explorer** or **Database Explorer** and click **Show Table Data**.)
 
-2.  Copy the following data into the table. (You can copy it and then paste it into the table by selecting the whole row in the **Results** Pane.)
+2. Copy the following data into the table. (You can copy it and then paste it into the table by selecting the whole row in the **Results** Pane.)
 
     ||||||
     |-|-|-|-|-|
@@ -99,9 +99,9 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 ### To add a LINQ to SQL file to the project
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  Click the **LINQ to SQL Classes** template and then click **Add**.
+2. Click the **LINQ to SQL Classes** template and then click **Add**.
 
      The *.dbml* file is added to the project and the **O/R Designer** opens.
 
@@ -110,21 +110,21 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 ### To create the inheritance
 
-1.  In **Server Explorer** or **Database Explorer**, navigate to the **Person** table that you created earlier.
+1. In **Server Explorer** or **Database Explorer**, navigate to the **Person** table that you created earlier.
 
-2.  Drag the **Person** table onto the **O/R Designer** design surface.
+2. Drag the **Person** table onto the **O/R Designer** design surface.
 
-3.  Drag a second **Person** table onto the **O/R Designer** and change its name to **Employee**.
+3. Drag a second **Person** table onto the **O/R Designer** and change its name to **Employee**.
 
-4.  Delete the **Manager** property from the **Person** object.
+4. Delete the **Manager** property from the **Person** object.
 
-5.  Delete the **Type**, **ID**, **FirstName**, and **LastName** properties from the **Employee** object. (In other words, delete all properties except for **Manager**.)
+5. Delete the **Type**, **ID**, **FirstName**, and **LastName** properties from the **Employee** object. (In other words, delete all properties except for **Manager**.)
 
-6.  From the **Object Relational Designer** tab of the **Toolbox**, create an **Inheritance** between the **Person** and **Employee** objects. To do this, click the **Inheritance** item in the **Toolbox** and release the mouse button. Next, click the **Employee** object and then the **Person** object in the **O/R Designer**. The arrow on the inheritance line then points to the **Person** object.
+6. From the **Object Relational Designer** tab of the **Toolbox**, create an **Inheritance** between the **Person** and **Employee** objects. To do this, click the **Inheritance** item in the **Toolbox** and release the mouse button. Next, click the **Employee** object and then the **Person** object in the **O/R Designer**. The arrow on the inheritance line then points to the **Person** object.
 
-7.  Click the **Inheritance** line on the design surface.
+7. Click the **Inheritance** line on the design surface.
 
-8.  Set the **Discriminator Property** property to **Type**.
+8. Set the **Discriminator Property** property to **Type**.
 
 9. Set the **Derived Class Discriminator Value** property to **2**.
 
@@ -139,11 +139,11 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 ### To create a LINQ query and display the results on the form
 
-1.  Drag a **ListBox** onto **Form1**.
+1. Drag a **ListBox** onto **Form1**.
 
-2.  Double-click the form to create a `Form1_Load` event handler.
+2. Double-click the form to create a `Form1_Load` event handler.
 
-3.  Add the following code to the `Form1_Load` event handler:
+3. Add the following code to the `Form1_Load` event handler:
 
     ```vb
     Dim dc As New DataClasses1DataContext
@@ -173,11 +173,11 @@ The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 ### To test the application
 
-1.  Press **F5**.
+1. Press **F5**.
 
-2.  Verify that only records that have a value of 2 in their **Type** column are displayed.
+2. Verify that only records that have a value of 2 in their **Type** column are displayed.
 
-3.  Close the form. (On the **Debug** menu, click **Stop Debugging**.)
+3. Close the form. (On the **Debug** menu, click **Stop Debugging**.)
 
 ## See also
 

@@ -28,9 +28,9 @@ This topic summarizes the different ways in which you can extend the UML modelin
   
 ##  <a name="Requirements"></a> Requirements  
   
--   [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
--   [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148).  
+- [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148).  
   
 ## Profiles  
  Profiles let you define stereotypes and additional properties on UML elements.  

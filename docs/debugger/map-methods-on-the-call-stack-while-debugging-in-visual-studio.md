@@ -84,9 +84,9 @@ To control the map's layout, select the **Layout** menu on the map toolbar.
 
 In the **Layout** menu, you can:
 
--   Change the default layout.
--   Stop rearranging the map automatically, by deselecting **Automatically Layout when Debugging**.
--   Rearrange the map as little as possible when you add items, by deselecting **Incremental Layout**.
+- Change the default layout.
+- Stop rearranging the map automatically, by deselecting **Automatically Layout when Debugging**.
+- Rearrange the map as little as possible when you add items, by deselecting **Incremental Layout**.
 
 ##  <a name="MakeNotes"></a> Make notes about the code
 

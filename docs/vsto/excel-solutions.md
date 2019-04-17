@@ -37,13 +37,13 @@ ms.workload:
 
  This topic provides the following information:
 
--   [Automate Excel](#automating).
+- [Automate Excel](#automating).
 
--   [Develop document-level customizations for Excel](#doclevel).
+- [Develop document-level customizations for Excel](#doclevel).
 
--   [Develop VSTO Add-ins for Excel](#applevel).
+- [Develop VSTO Add-ins for Excel](#applevel).
 
--   [Customize the user interface of Excel](#UI).
+- [Customize the user interface of Excel](#UI).
 
 ##  <a name="automating"></a> Automate Excel
  The Excel object model exposes many types that you can use to automate Excel. For example, you can programmatically create charts, format worksheets, and set the values of ranges and cells. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).

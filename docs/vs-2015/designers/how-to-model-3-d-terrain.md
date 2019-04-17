@@ -17,15 +17,15 @@ This document demonstrates how to use the Model Editor to create a 3-D terrain m
   
  This document demonstrates these activities:  
   
--   Adding objects to a scene  
+- Adding objects to a scene  
   
--   Selecting faces and points  
+- Selecting faces and points  
   
--   Translating selections  
+- Translating selections  
   
--   Using the **Subdivide face** tool  
+- Using the **Subdivide face** tool  
   
--   Framing an object in the design surface  
+- Framing an object in the design surface  
   
 ## Creating a 3-D terrain model  
  You can create a 3-D terrain by subdividing a plane to make additional faces, and then manipulating their vertices to create interesting terrain features.  

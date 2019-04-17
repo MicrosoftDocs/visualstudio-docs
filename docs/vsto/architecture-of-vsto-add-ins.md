@@ -69,21 +69,21 @@ ms.workload:
 ### Loading process
  The following steps occur when a user starts an application:
 
-1.  The application checks the registry for entries that identify VSTO Add-ins that were created by using the Office developer tools in Visual Studio.
+1. The application checks the registry for entries that identify VSTO Add-ins that were created by using the Office developer tools in Visual Studio.
 
-2.  If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+2. If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-3.  *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+3. *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
-4.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] checks for manifest updates, and downloads the most recent application and deployment manifests.
+4. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] checks for manifest updates, and downloads the most recent application and deployment manifests.
 
-5.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
+5. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-6.  If the VSTO Add-in is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+6. If the VSTO Add-in is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-7.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the VSTO Add-in assembly.
+7. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the VSTO Add-in assembly.
 
-8.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the VSTO Add-in assembly into the application domain.
+8. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the VSTO Add-in assembly into the application domain.
 
 9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in your VSTO Add-in, if you have overridden it.
 

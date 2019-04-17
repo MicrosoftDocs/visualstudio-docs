@@ -20,13 +20,13 @@ You can write code to create and update layer diagrams, and to validate the stru
   
  For more information about layer diagrams, see:  
   
--   [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)  
+- [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)  
   
--   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
+- [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+- [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
--   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
+- [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
 ##  <a name="prereqs"></a> Requirements  
  You must have the following installed on the computer where you want to develop your layer extensions:  

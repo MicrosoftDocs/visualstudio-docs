@@ -101,9 +101,9 @@ The transaction results section contains a list of all the transactions in the l
 
 The percentile values report the following transaction information:
 
--   90% of the total transactions were completed in less than \<time> seconds.
+- 90% of the total transactions were completed in less than \<time> seconds.
 
--   95% of the total transactions were completed in less than \<time> seconds.
+- 95% of the total transactions were completed in less than \<time> seconds.
 
 ## System under test resources
 

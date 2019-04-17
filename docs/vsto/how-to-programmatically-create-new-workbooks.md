@@ -23,7 +23,7 @@ ms.workload:
 
 ## To create a new workbook
 
-1.  Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection.
+1. Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#1](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#1)]
      [!code-vb[Trin_VstcoreExcelAutomation#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#1)]

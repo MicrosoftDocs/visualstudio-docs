@@ -37,7 +37,7 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/v
   
 #### To use an MSBuild special character as a literal character  
   
--   Use the notation %*xx* in place of the special character, where *xx* represents the hexadecimal value of the ASCII character. For example, to use an asterisk (*) as a literal character, use the value `%2A`.  
+- Use the notation %*xx* in place of the special character, where *xx* represents the hexadecimal value of the ASCII character. For example, to use an asterisk (*) as a literal character, use the value `%2A`.  
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   

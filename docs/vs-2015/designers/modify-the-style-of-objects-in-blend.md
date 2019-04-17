@@ -19,13 +19,13 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  **In this topic**:  
   
--   [Brushes: Modify the appearance of an object](#Brushes)  
+- [Brushes: Modify the appearance of an object](#Brushes)  
   
--   [Styles and Templates: Create a consistent look and feel across controls](#Styles)  
+- [Styles and Templates: Create a consistent look and feel across controls](#Styles)  
   
--   [Visual States: Change the appearance of a control based on its state](#Visual)  
+- [Visual States: Change the appearance of a control based on its state](#Visual)  
   
--   [Resources: Create colors, styles, and templates and reuse them later](#Resources)  
+- [Resources: Create colors, styles, and templates and reuse them later](#Resources)  
   
 ##  <a name="Brushes"></a> Brushes: Modify the appearance of an object  
  Apply a brush to an object if you want to change its appearance.  

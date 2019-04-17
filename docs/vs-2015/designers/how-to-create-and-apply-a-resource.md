@@ -22,27 +22,27 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
   
 ### To create a new resource  
   
-1.  With a XAML file open in XAML Designer, create an element, or choose an element in the Document Outline window.  
+1. With a XAML file open in XAML Designer, create an element, or choose an element in the Document Outline window.  
   
-2.  In the Properties window, choose the property marker, which appears as a box symbol to the right of a property value, and then choose **Convert to New Resource**. A white box symbol indicates a default value, and a black box symbol typically indicates that a local resource has been applied  
+2. In the Properties window, choose the property marker, which appears as a box symbol to the right of a property value, and then choose **Convert to New Resource**. A white box symbol indicates a default value, and a black box symbol typically indicates that a local resource has been applied  
   
      The appropriate dialog box for creating a resource appears. This dialog box appears when you create a resource from a brush:  
   
      ![Create Resource Dialog Box](../designers/media/xaml-create-resource.png "xaml_create_resource")  
   
-3.  In the **Name (Key)** box, enter a key name. This is the name that you can use when you want other elements to reference the resource.  
+3. In the **Name (Key)** box, enter a key name. This is the name that you can use when you want other elements to reference the resource.  
   
-4.  Under **Define in**, choose the option that specifies where you want the resource to be defined:  
+4. Under **Define in**, choose the option that specifies where you want the resource to be defined:  
   
-    -   To make the resource available to any document in your application, choose **Application**.  
+    - To make the resource available to any document in your application, choose **Application**.  
   
-    -   To make the resource available to only the current document, choose **This document**.  
+    - To make the resource available to only the current document, choose **This document**.  
   
-    -   To make the resource available to only the element from which you created the resource or to its child elements, choose **This document**, and in the drop-down list, select *element*: *name*.  
+    - To make the resource available to only the element from which you created the resource or to its child elements, choose **This document**, and in the drop-down list, select *element*: *name*.  
   
-    -   To define the resource in a resource dictionary file that can be reused in other projects, click **Resource dictionary**, and then select an existing resource dictionary file, such as **StandardStyles.xaml**, in the drop-down list.  
+    - To define the resource in a resource dictionary file that can be reused in other projects, click **Resource dictionary**, and then select an existing resource dictionary file, such as **StandardStyles.xaml**, in the drop-down list.  
   
-5.  Choose the **OK** button to create the resource and apply it to the element from which you created it.  
+5. Choose the **OK** button to create the resource and apply it to the element from which you created it.  
   
 ### To apply a resource to an element or property  
   
@@ -63,11 +63,11 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
   
 ### To edit a resource  
   
-1.  Choose an element on the artboard or in the Document Outline window.  
+1. Choose an element on the artboard or in the Document Outline window.  
   
-2.  Choose the Default or Local property marker to the right of the property in the Properties window, and then choose **Edit Resource** to open the **Edit Resource** dialog box.  
+2. Choose the Default or Local property marker to the right of the property in the Properties window, and then choose **Edit Resource** to open the **Edit Resource** dialog box.  
   
-3.  Modify options for the resource.  
+3. Modify options for the resource.  
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

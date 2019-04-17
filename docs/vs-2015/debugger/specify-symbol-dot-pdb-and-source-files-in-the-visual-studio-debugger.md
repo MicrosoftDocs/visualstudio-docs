@@ -39,15 +39,15 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 
 ##  <a name="BKMK_Find_symbol___pdb__files"></a> Where the debugger searches for .pdb files
 
-1.  The location that is specified inside the DLL or the executable file.
+1. The location that is specified inside the DLL or the executable file.
 
      (By default, if you have built a DLL or an executable file on your computer, the linker places the full path and file name of the associated .pdb file inside the DLL or the executable file. The debugger first checks to see if the symbol file exists in the location that is specified inside the DLL or the executable file. This is helpful, because you always have symbols available for code that you have compiled on your computer.)
 
-2.  .pdb files that could be present in the same folder as the DLL or executable file.
+2. .pdb files that could be present in the same folder as the DLL or executable file.
 
-3.  Any local symbol cache folders.
+3. Any local symbol cache folders.
 
-4.  Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled.
+4. Any network, internet, or local symbol servers and locations that are specified on, such as the Microsoft symbol server if enabled.
 
 ###  <a name="BKMK_Why_do_symbol_files_need_to_exactly_match_the_executable_files_"></a> Why do symbol files need to exactly match the executable files?
  The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). Because the compiler is optimized for compilation speed in addition to its main task of creating correct and efficient code, the actual layout of an executable can change even if the code itself has not changed. For more information see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).
@@ -190,13 +190,13 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 ###  <a name="BKMK_Where_the_debugger_searches_for_source_files"></a> Where the debugger searches for source files
  The debugger looks for source files in the following locations:
 
-1.  Files that are open in the IDE of the Visual Studio instance that launched the debugger.
+1. Files that are open in the IDE of the Visual Studio instance that launched the debugger.
 
-2.  Files in the solution that is open in the Visual Studio instance.
+2. Files in the solution that is open in the Visual Studio instance.
 
-3.  Directories that are specified in the **Common Properties** / **Debug Source Files** page in the properties of the solution. (In the **Solution Explorer**, select the solution node, right-click, and select **Properties**. )
+3. Directories that are specified in the **Common Properties** / **Debug Source Files** page in the properties of the solution. (In the **Solution Explorer**, select the solution node, right-click, and select **Properties**. )
 
-4.  The source information of the .pdb of the module. This can be the location of the source file when the module was built, or it can be a command to a source server.
+4. The source information of the .pdb of the module. This can be the location of the source file when the module was built, or it can be a command to a source server.
 
 ###  <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> Find and load source files with the No Source / No Symbols Loaded pages
  When the debugger breaks execution at a location where the source file is not available, it will display the **No Source Loaded** or **No Symbols Loaded** pages that can help you find the source file. The **No Symbols Loaded** appears when the debugger cannot find a symbol (.pdb) file for the executable file to complete its search. The No Symbols page provides options to search for the file. If the .pdb is found of after you execute one of the options and the debugger can retrieve the source file using the information in the symbols file, the source is displayed. Otherwise, a **No Source Loaded** page appears that describes the issue. The page displays option links that can perform actions that might resolve the issue.
@@ -222,19 +222,19 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 
  **To enable the use of a Source Server**
 
-1.  Ensure that you have complied with the security measures described in the previous section.
+1. Ensure that you have complied with the security measures described in the previous section.
 
-2.  On the **Tools** menu, choose **Options**.
+2. On the **Tools** menu, choose **Options**.
 
      The **Options** dialog box appears.
 
-3.  In the **Debugging** node, choose **General**.
+3. In the **Debugging** node, choose **General**.
 
-4.  Select the **Enable source server support** check box.
+4. Select the **Enable source server support** check box.
 
      ![Enable source server options](../debugger/media/dbg-options-general-enablesrcsrvr-checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
 
-5.  (Optional) Choose the child options that you want.
+5. (Optional) Choose the child options that you want.
 
      Note that both **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks discussed above.
 

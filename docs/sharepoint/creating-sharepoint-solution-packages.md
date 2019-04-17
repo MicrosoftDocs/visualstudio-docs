@@ -50,17 +50,17 @@ ms.workload:
 ## Packaging architecture
  The following steps occur when you create a SharePoint package (*.wsp*) in Visual Studio.
 
-1.  The Features and packages are validated to make sure that the physical and semantic structure of the package is correct.
+1. The Features and packages are validated to make sure that the physical and semantic structure of the package is correct.
 
-2.  The Features, project items, and package files in the package are enumerated. Manifest files for packages and Features are transformed to include all necessary information for deployment and activation. The tokens are replaced with the fully qualified value.
+2. The Features, project items, and package files in the package are enumerated. Manifest files for packages and Features are transformed to include all necessary information for deployment and activation. The tokens are replaced with the fully qualified value.
 
-3.  The customizable BeforeLayout MSBuild target is performed. You can create this step to make any custom modifications to the package before the *.wsp* file is created.
+3. The customizable BeforeLayout MSBuild target is performed. You can create this step to make any custom modifications to the package before the *.wsp* file is created.
 
-4.  The enumerated files are copied to an intermediate directory.
+4. The enumerated files are copied to an intermediate directory.
 
-5.  The customizable AfterLayout MSBuild target is performed. You can create this step to make any custom modifications to the package before the *.wsp* file is created.
+5. The customizable AfterLayout MSBuild target is performed. You can create this step to make any custom modifications to the package before the *.wsp* file is created.
 
-6.  The files in the intermediate directory are added to the *.wsp* file.
+6. The files in the intermediate directory are added to the *.wsp* file.
 
 ## Package folder structure
  When you package your SharePoint project, a *.wsp* file is created for you in the *SolutionFolder\bin\\\<BuildConfiguration>* folder. For example, if your solution is in *C:\Visual Studio 2013\Projects\ListDefinition1* and your build configuration is set to Release, the *.wsp* file is located in *C:\Visual Studio 2013\Projects\ListDefinition1\bin\Release*.

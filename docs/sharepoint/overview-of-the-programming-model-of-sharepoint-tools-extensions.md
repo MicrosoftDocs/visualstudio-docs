@@ -39,14 +39,14 @@ ms.workload:
 ## Understand the object models that you use in SharePoint tools extensions
  There are several object models you can use when you create extensions for the SharePoint tools:
 
--   *SharePoint tools object model*. This object model provides the extensibility interfaces that you implement to create SharePoint tools extensions, and other related types.
+- *SharePoint tools object model*. This object model provides the extensibility interfaces that you implement to create SharePoint tools extensions, and other related types.
 
--   *Visual Studio automation and integration object models*. Use these object models to access Visual Studio features that are beyond the scope of the SharePoint tools object model.
+- *Visual Studio automation and integration object models*. Use these object models to access Visual Studio features that are beyond the scope of the SharePoint tools object model.
 
     > [!NOTE]
     >  You can convert some objects in the SharePoint tools object model to objects in the Visual Studio automation and integration object models, and vice versa, by using the SharePoint project service. For more information, see [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md).
 
--   *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
+- *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 
 ### SharePoint tools object model
  Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.

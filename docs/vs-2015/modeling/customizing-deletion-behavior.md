@@ -21,32 +21,32 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
  This topic includes the following sections:  
   
--   [Default Deletion Behavior](#default)  
+- [Default Deletion Behavior](#default)  
   
--   [Setting the Propagate Delete option of a role](#property)  
+- [Setting the Propagate Delete option of a role](#property)  
   
--   [Overriding the Delete Closure](#closure) – Use this technique where deletion might lead to deletion of neighboring elements.  
+- [Overriding the Delete Closure](#closure) – Use this technique where deletion might lead to deletion of neighboring elements.  
   
--   [Using OnDeleting and OnDeleted](#ondeleting) – Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
+- [Using OnDeleting and OnDeleted](#ondeleting) – Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
   
--   [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
+- [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
   
--   [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documents.  
+- [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documents.  
   
--   [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
+- [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
   
 ##  <a name="default"></a> Default Deletion Behavior  
  By default, the following rules govern delete propagation:  
   
--   If an element is deleted, all embedded elements are also deleted. The embedded elements are those that are the targets of embedding relationships for which this element is the source. For example, if there is an embedding relationship from **Album** to **Song**, then when a particular Album is deleted, all its Songs will also be deleted.  
+- If an element is deleted, all embedded elements are also deleted. The embedded elements are those that are the targets of embedding relationships for which this element is the source. For example, if there is an embedding relationship from **Album** to **Song**, then when a particular Album is deleted, all its Songs will also be deleted.  
   
      By contrast, deleting a song does not delete the album.  
   
--   By default, deletion does not propagate along reference relationships. If there is a reference relationship **ArtistPlaysOnAlbum** from **Album** to **Artist**, deleting an album does not delete any related artist, and deleting an artist does not delete any album.  
+- By default, deletion does not propagate along reference relationships. If there is a reference relationship **ArtistPlaysOnAlbum** from **Album** to **Artist**, deleting an album does not delete any related artist, and deleting an artist does not delete any album.  
   
      However, deletion does propagate along some built-in relationships. For example, when a model element is deleted, its shape on the diagram is also deleted. The element and shape are related by the `PresentationViewsSubject` reference relationship.  
   
--   Every relationship that is connected to the element, either at the source or target role, is deleted. The role property of the element at the opposite role no longer contains the deleted element.  
+- Every relationship that is connected to the element, either at the source or target role, is deleted. The role property of the element at the opposite role no longer contains the deleted element.  
   
 ##  <a name="property"></a> Setting the Propagate Delete option of a role  
  You can cause deletion to propagate along a reference relationship, or from an embedded child to its parent.  
@@ -61,9 +61,9 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
 3. Press F5 and verify that:  
   
-   -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
+   - When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
   
-   -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
+   - When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
   
    You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.  
   
@@ -76,11 +76,11 @@ Deleting an element usually causes related elements to be deleted also. All rela
 ##  <a name="closure"></a> Defining a Delete Closure  
  The deletion operation uses the class _YourModel_**DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link’s roles. It should return one of the following values:  
   
--   **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element’s other links.  
+- **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element’s other links.  
   
--   **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
+- **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
   
--   **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element’s other links.  
+- **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element’s other links.  
   
 ```  
 // When a musician is deleted, delete their albums with a low rating.  
@@ -196,13 +196,13 @@ partial class Artist
 ##  <a name="rules"></a> Deletion Rules and Events  
  As an alternative  to  OnDelete handlers, you can define deletion rules and deletion events.  
   
-1.  **Deleting** and **Delete** rules are triggered only in a transaction, and not in an Undo or Redo. You can set them to be queued to execute at the end of the transaction in which the deletion is performed. Deleting rules are always executed before any Deleted rules that are in the queue.  
+1. **Deleting** and **Delete** rules are triggered only in a transaction, and not in an Undo or Redo. You can set them to be queued to execute at the end of the transaction in which the deletion is performed. Deleting rules are always executed before any Deleted rules that are in the queue.  
   
      Use rules to propagate changes that affect only elements in the store, including relationships, diagram elements and their properties. Typically, a Deleting rule is used to propagate deletion, and a Delete rule is used to create replacement elements and relationships.  
   
      For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
-2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+2. **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   

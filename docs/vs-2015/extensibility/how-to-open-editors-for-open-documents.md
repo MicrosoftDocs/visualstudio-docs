@@ -42,11 +42,11 @@ Before a project opens a document window, the project first must determine wheth
   
 #### To open a standard editor for an open file  
   
-1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>.  
+1. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>.  
   
      This method first verifies that the document is not already open by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A>. If the document is already open, then its editor window is resurfaced.  
   
-2.  If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md).  
+2. If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md).  
   
 ## See Also  
  [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   

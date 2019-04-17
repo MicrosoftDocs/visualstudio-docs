@@ -28,28 +28,28 @@ ms.workload:
 
 ## To map an XML schema to an Excel worksheet in Visual Studio
 
-1.  Open the Excel workbook or template project inside Visual Studio.
+1. Open the Excel workbook or template project inside Visual Studio.
 
-2.  Click in the worksheet to move the focus to the designer.
+2. Click in the worksheet to move the focus to the designer.
 
-3.  On the Ribbon, click the **Developer** tab.
+3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-4.  In the **XML** group, click **Source**.
+4. In the **XML** group, click **Source**.
 
      The **XML Source** window opens.
 
-5.  In the **XML Source** window, click **XML Maps**.
+5. In the **XML Source** window, click **XML Maps**.
 
      The **XML Maps** dialog box opens.
 
-6.  In the **XML Maps** dialog box, click **Add**.
+6. In the **XML Maps** dialog box, click **Add**.
 
-7.  Browse to your schema file, select it, and then click **Open**.
+7. Browse to your schema file, select it, and then click **Open**.
 
-8.  Click **OK**.
+8. Click **OK**.
 
      The schema is represented in the **XML Source** window. In your project, a typed <xref:System.Data.DataSet> is generated based on the schema, and a <xref:System.Windows.Forms.BindingSource> is created.
 

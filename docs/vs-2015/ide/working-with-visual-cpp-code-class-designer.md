@@ -27,19 +27,19 @@ Class Designer displays a visual design surface called a *class diagram* that pr
   
  Class Designer supports the following C++ code elements:  
   
--   Class (resembles a managed class shape, except that it can have multiple inheritance relationships)  
+- Class (resembles a managed class shape, except that it can have multiple inheritance relationships)  
   
--   Anonymous class (displays Class View's generated name for the anonymous type)  
+- Anonymous class (displays Class View's generated name for the anonymous type)  
   
--   Template class  
+- Template class  
   
--   Struct  
+- Struct  
   
--   Enum  
+- Enum  
   
--   Macro (displays the post-processed view of the macro)  
+- Macro (displays the post-processed view of the macro)  
   
--   Typedef  
+- Typedef  
   
 > [!NOTE]
 >  This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
@@ -80,25 +80,25 @@ Class Designer displays a visual design surface called a *class diagram* that pr
   
 ##  <a name="limitations"></a> Limitations for C++ Code Elements  
   
--   When a Visual C++ project is loaded, Class Designer functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
+- When a Visual C++ project is loaded, Class Designer functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
   
--   Class Designer supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, Class Designer will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but Class Designer will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).  
+- Class Designer supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, Class Designer will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but Class Designer will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).  
   
--   For Visual C++ projects, the Class Designer reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, Class Designer displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, Class Designer again displays nothing.  
+- For Visual C++ projects, the Class Designer reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, Class Designer displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, Class Designer again displays nothing.  
   
--   IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.  
+- IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.  
   
--   Class Designer does not support global functions and variables.  
+- Class Designer does not support global functions and variables.  
   
--   Class Designer does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.  
+- Class Designer does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.  
   
--   Class Designer does not display basic data types such as `int` and `char`.  
+- Class Designer does not display basic data types such as `int` and `char`.  
   
--   Class Designer does not display types that are defined outside the current project if the project does not have correct references to those types.  
+- Class Designer does not display types that are defined outside the current project if the project does not have correct references to those types.  
   
--   Class Designer can display nested types but not the relationships between a nested type and other types.  
+- Class Designer can display nested types but not the relationships between a nested type and other types.  
   
--   Class Designer cannot display types that are void or that derive from a void type.  
+- Class Designer cannot display types that are void or that derive from a void type.  
   
 ## See Also  
  [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md)   

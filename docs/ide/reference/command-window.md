@@ -74,13 +74,13 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 
  In this example,
 
--   `Edit.ReplaceInFiles` is the command
+- `Edit.ReplaceInFiles` is the command
 
--   `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)
+- `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)
 
--   `regex` is the value of the `/pattern` switch; the `/case` switch has no value
+- `regex` is the value of the `/pattern` switch; the `/case` switch has no value
 
--   `var[1-3]+` and `oldpar` are parameters
+- `var[1-3]+` and `oldpar` are parameters
 
     > [!NOTE]
     >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.

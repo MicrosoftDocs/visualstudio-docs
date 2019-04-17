@@ -28,7 +28,7 @@ When you author project files, you might need to use reserved XML characters, fo
 
 #### To use double quotes in a project file
 
--   Replace the double quotes with the corresponding named entity, &amp;quot;. For example, to place double quotes around the `EXEFile` item list, type:
+- Replace the double quotes with the corresponding named entity, &amp;quot;. For example, to place double quotes around the `EXEFile` item list, type:
 
     ```xml
     <Message Text="The output file is &quot;@(EXEFile)&quot;."/>

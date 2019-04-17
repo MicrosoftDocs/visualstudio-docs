@@ -60,7 +60,7 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 #### To start and stop data collection  
 
--   The pairs of options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The pairs of options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -73,10 +73,10 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 #### To end a profiling session  
 
-1.  Detach the profiler from the target application by stopping the service or by typing the following command at a command prompt:  
+1. Detach the profiler from the target application by stopping the service or by typing the following command at a command prompt:  
 
      Type **VSPerfCmd /detach**  
 
-2.  Shut down the profiler by typing the following command at a command prompt:  
+2. Shut down the profiler by typing the following command at a command prompt:  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)

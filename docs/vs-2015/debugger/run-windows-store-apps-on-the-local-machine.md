@@ -40,11 +40,11 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
   
  You can also set the run target directly in the project properties file. Right-click the project name in **Solution Explorer** and then choose **Properties**. Then do one of the following:  
   
--   In C# and Visual Basic projects, click **Debug** and then select **Local Machine** from the **Target Device** drop-down list.  
+- In C# and Visual Basic projects, click **Debug** and then select **Local Machine** from the **Target Device** drop-down list.  
   
      ![C&#35; and Visual Basic project property page](../debugger/media/vsrun-cs-vb-projprop-local.png "VSRUN_CS_VB_ProjProp_Local")  
   
--   In C++ and JavaScript projects, expand the **Configuration Properties** node, click **Debugging**, and then select **Local Debugger** from the **Debugger to launch** list.  
+- In C++ and JavaScript projects, expand the **Configuration Properties** node, click **Debugging**, and then select **Local Debugger** from the **Debugger to launch** list.  
   
      ![C&#43;&#43; and JavaScript project properties page](../debugger/media/vsrun-cpp-js-projprop-local.png "VSRUN_CPP_JS_ProjProp_Local")  
   

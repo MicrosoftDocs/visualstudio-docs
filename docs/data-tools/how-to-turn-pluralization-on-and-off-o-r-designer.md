@@ -19,18 +19,18 @@ By default, when you drag database objects that have names ending in s or ies fr
 
 ### To turn pluralization on and off
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  In the **Options** dialog box, expand **Database Tools**.
+2. In the **Options** dialog box, expand **Database Tools**.
 
     > [!NOTE]
     >  Select **Show all settings** if the **Database Tools** node is not visible.
 
-3.  Click **O/R Designer**.
+3. Click **O/R Designer**.
 
-4.  Set **Pluralization of names** to **Enabled** = **False** to set the **O/R Designer** so that it does not change class names.
+4. Set **Pluralization of names** to **Enabled** = **False** to set the **O/R Designer** so that it does not change class names.
 
-5.  Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the **O/R Designer**.
+5. Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the **O/R Designer**.
 
 ## See also
 

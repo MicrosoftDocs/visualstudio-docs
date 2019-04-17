@@ -87,22 +87,22 @@ For more information, see [Configure load test run settings](../test/configure-l
 
 ### To change run settings
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Expand the **Run Settings** folder.
+2. Expand the **Run Settings** folder.
 
-3.  Choose a **Run Settings** node.
+3. Choose a **Run Settings** node.
 
-4.  On the **View** menu, choose **Properties Window**.
+4. On the **View** menu, choose **Properties Window**.
 
      The **Properties Window** is displayed and the properties for the selected run setting are displayed.
 
-5.  Use the **Properties Window** to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
+5. Use the **Properties Window** to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
 
     > [!NOTE]
     > For a complete list of the run settings properties and their descriptions, see [Load test run setting properties](../test/load-test-run-settings-properties.md).
 
-6.  When you are finished changing properties, save your load test. On the **File** menu, choose **Save**.
+6. When you are finished changing properties, save your load test. On the **File** menu, choose **Save**.
 
 > [!NOTE]
 > Counter set mappings are also a part of run settings. For more information, see [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).

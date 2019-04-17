@@ -31,23 +31,23 @@ ms.workload:
 # Debugging Web Applications: Errors and Troubleshooting
 You may encounter the following errors when attempting to debug Web applications.
 
--   [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)
+- [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)
 
--   [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
+- [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
 
--   [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](../debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md)
+- [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](../debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md)
 
--   [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md)
+- [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md)
 
--   [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)
+- [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)
 
--   [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md)
+- [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md)
 
--   [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
+- [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
 
--   [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
+- [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
 
--   [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
+- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
 
 ## See Also
 - [Debugger Security](../debugger/debugger-security.md)

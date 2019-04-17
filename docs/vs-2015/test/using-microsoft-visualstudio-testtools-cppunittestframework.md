@@ -25,11 +25,11 @@ This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTest
   
 - [Initialize and cleanup](#BKMK_Initialize_and_cleanup)  
   
-  -   [Test methods](#BKMK_Test_methods)  
+  - [Test methods](#BKMK_Test_methods)  
   
-  -   [Test classes](#BKMK_Test_classes)  
+  - [Test classes](#BKMK_Test_classes)  
   
-  -   [Test modules](#BKMK_Test_modules)  
+  - [Test modules](#BKMK_Test_modules)  
   
 - [Create test attributes](#BKMK_Create_test_attributes)  
   
@@ -45,37 +45,37 @@ This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTest
   
   - [General Asserts](#BKMK_General_Asserts)  
   
-    -   [Are Equal](#BKMK_General_Are_Equal)  
+    - [Are Equal](#BKMK_General_Are_Equal)  
   
-    -   [Are Not Equal](#BKMK_General_Are_Not_Equal)  
+    - [Are Not Equal](#BKMK_General_Are_Not_Equal)  
   
-    -   [Are Same](#BKMK_General_Are_Same)  
+    - [Are Same](#BKMK_General_Are_Same)  
   
-    -   [Are Not Same](#BKMK_General_Are_Not_Same)  
+    - [Are Not Same](#BKMK_General_Are_Not_Same)  
   
-    -   [Is Null](#BKMK_General_Is_Null)  
+    - [Is Null](#BKMK_General_Is_Null)  
   
-    -   [Is Not Null](#BKMK_General_Is_Not_Null)  
+    - [Is Not Null](#BKMK_General_Is_Not_Null)  
   
-    -   [Is True](#BKMK_General_Is_True)  
+    - [Is True](#BKMK_General_Is_True)  
   
-    -   [Is False](#BKMK_General_Is_False)  
+    - [Is False](#BKMK_General_Is_False)  
   
-    -   [Fail](#BKMK_General_Fail)  
+    - [Fail](#BKMK_General_Fail)  
   
   - [Windows Runtime Asserts](#BKMK_WinRT_Asserts)  
   
-    -   [Are Equal](#BKMK_WinRT_Are_Equal)  
+    - [Are Equal](#BKMK_WinRT_Are_Equal)  
   
-    -   [Are Same](#BKMK_WinRT_Are_Same)  
+    - [Are Same](#BKMK_WinRT_Are_Same)  
   
-    -   [Are Not Equal](#BKMK_WinRT_Are_Not_Equal)  
+    - [Are Not Equal](#BKMK_WinRT_Are_Not_Equal)  
   
-    -   [Are Not Same](#BKMK_WinRT_Are_Not_Same)  
+    - [Are Not Same](#BKMK_WinRT_Are_Not_Same)  
   
-    -   [Is Null](#BKMK_WinRT_Is_Null)  
+    - [Is Null](#BKMK_WinRT_Is_Null)  
   
-    -   [Is Not Null](#BKMK_WinRT_Is_Not_Null)  
+    - [Is Not Null](#BKMK_WinRT_Is_Not_Null)  
   
   - [Exception Asserts](#BKMK_Exception_Asserts)  
   

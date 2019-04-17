@@ -67,22 +67,22 @@ ms.workload:
 ### Bind data in document-level projects at design time
  The following topics show examples of binding data at design time:
 
--   [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
 
--   [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 
--   [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
 
--   [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
+- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
 
--   [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
+- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
 
 ### Bind data in VSTO Add-in projects
  In VSTO Add-in projects, you can add controls only at runtime. The following topics show examples of binding data at runtime:
 
--   [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
+- [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 
--   [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
+- [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
 
 ## Update data that is bound to host controls
  Data binding between a data source and a host control involves a two-way data update. In simple data binding, changes in the data source are reflected automatically in the host control, but changes in the host control require an explicit call to update the data source. The reason is that in some cases, changes in one data-bound field are not accepted unless they are accompanied by changes in another data-bound field. For example, you might have two fields, one for age and one for years of experience. Experience cannot exceed age. A user cannot update the age from 50 to 25 and then the experience from 30 to 10 unless he or she makes the changes at the same time. To solve this problem, fields with simple data binding are not updated until the updates are explicitly sent by code.

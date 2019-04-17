@@ -26,7 +26,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To save a build related data in the project file
 
--   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save a full path of the project file.
+- Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save a full path of the project file.
 
     ```
     private SpecializedProject project;
@@ -41,7 +41,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To retrieve build related data from the project file
 
--   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> method to retrieve a full path of the project file.
+- Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> method to retrieve a full path of the project file.
 
     ```
     private SpecializedProject project;
@@ -58,7 +58,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To save non-build related data in the project file
 
-1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.IsFragmentDirty%2A> method to determine whether an XML fragment has changed since it was last saved to its current file.
+1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.IsFragmentDirty%2A> method to determine whether an XML fragment has changed since it was last saved to its current file.
 
     ```
     public int IsFragmentDirty(uint storage, out int pfDirty)
@@ -88,7 +88,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
     }
     ```
 
-2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> method to save the XML data in the project file.
+2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Save%2A> method to save the XML data in the project file.
 
     ```
     public int Save(ref Guid guidFlavor, uint storage, out string pbstrXMLFragment, int fClearDirty)
@@ -139,7 +139,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To retrieve non-build related data in the project file
 
-1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.InitNew%2A> method to initialize the project extension properties and other build-independent data. This method is called if there is no XML configuration data present in the project file.
+1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.InitNew%2A> method to initialize the project extension properties and other build-independent data. This method is called if there is no XML configuration data present in the project file.
 
     ```
     public int InitNew(ref Guid guidFlavor, uint storage)
@@ -155,7 +155,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
         return VSConstants.S_OK;
     ```
 
-2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> method to load the XML data from the project file.
+2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.Load%2A> method to load the XML data from the project file.
 
     ```
     public int Load(ref Guid guidFlavor, uint storage, string pszXMLFragment)

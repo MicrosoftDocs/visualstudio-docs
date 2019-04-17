@@ -20,7 +20,7 @@ By using the information in this section, you can use IntelliTrace extensibility
 ## In This Section  
  This IntelliTrace extensibility APIs are contained in one namespace  
   
--   <xref:Microsoft.VisualStudio.IntelliTrace>  
+- <xref:Microsoft.VisualStudio.IntelliTrace>  
   
 ## Related Sections  
  [IntelliTrace](../debugger/intellitrace.md)  
