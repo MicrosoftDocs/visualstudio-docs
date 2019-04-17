@@ -151,7 +151,7 @@ Data breakpoints break execution when a specific object's property changes.
 
 1. In a .NET Core project, start debugging, and wait until a breakpoint is reached.
 
-2. In the the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
+2. In the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
 
     ![Managed Data Breakpoint](../debugger/media/managed-data-breakpoint.png "Managed Data Breakpoint")
 
