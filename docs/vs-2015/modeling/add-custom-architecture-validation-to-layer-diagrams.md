@@ -45,7 +45,7 @@ In Visual Studio, users can validate the source code in a project against a laye
    >  To makethe template work properly:  
    > 
    > - Edit calls to `LogValidationError` to remove the optional arguments `errorSourceNodes` and `errorTargetNodes`.  
-   >   -   If you use custom properties, apply the update mentioned in [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
+   >   - If you use custom properties, apply the update mentioned in [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
   
 3. Edit the code to define your validation. For more information, see [Programming Validation](#programming).  
   

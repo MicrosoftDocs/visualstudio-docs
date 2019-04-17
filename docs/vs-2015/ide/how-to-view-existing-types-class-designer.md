@@ -35,9 +35,9 @@ To see an existing type and its members, add its shape to a class diagram.
    >  If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:  
    > 
    > - The app project that contains the diagram  
-   >   -   A shared project that was imported by the app project  
-   >   -   A referenced project  
-   >   -   An assembly  
+   >   - A shared project that was imported by the app project  
+   >   - A referenced project  
+   >   - An assembly  
   
     Shapes representing the types defined in the source code file appear on the diagram at the position where you dragged the file.  
   
