@@ -26,10 +26,10 @@ manager: jillfra
 
 - [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)
 
-##  <a name="provide"></a> Providing Access to a DSL
+## <a name="provide"></a> Providing Access to a DSL
  Before you can create ModelBus references to a model or its elements, you must define a ModelBusAdapter for the DSL. The easiest way to do this is to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Bus Extension, which adds commands to the DSL Designer.
 
-###  <a name="expose"></a> To expose a DSL Definition to Model Bus
+### <a name="expose"></a> To expose a DSL Definition to Model Bus
 
 1. Download and install the Visual Studio Model Bus extension, unless you have already installed it. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
@@ -78,7 +78,7 @@ manager: jillfra
 
 - Override `ResolveElementReference` to locate the correct element from a Model Bus reference.
 
-##  <a name="editRef"></a> Accessing a DSL from another DSL
+## <a name="editRef"></a> Accessing a DSL from another DSL
  You can store model bus references in a domain property in a DSL, and you can write custom code that uses them. You can also let the user create a model bus reference by picking a model file and an element within it.
 
  To enable a DSL to use references to another DSL, you should first make it a *consumer* of model bus references.

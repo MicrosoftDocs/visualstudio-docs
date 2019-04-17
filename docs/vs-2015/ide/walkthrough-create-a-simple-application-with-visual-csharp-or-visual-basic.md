@@ -26,7 +26,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 > [!NOTE]
 >  This walkthrough is based on Visual Studio Professional, which offers the WPF Application template on which you'll build the project for this walkthrough. Visual Studio Express for Windows Desktop also offers that template, but Visual Studio Express for Windows and Visual Studio Express for Web don't. For introductory information about how to use Visual Studio Express for Windows, see the [Developer Center for Windows Store apps](http://msdn.microsoft.com/windows/apps/br229519). For introductory information about how to use Visual Studio Express for Web, see [Get Started with ASP.NET](http://www.asp.net/get-started). In addition, your edition of Visual Studio and the settings that you use determine the names and locations of some elements of the user interface. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
+## <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
  When you start Visual Studio for the first time, Visual Studio prompts you to sign in with a Microsoft Service Account (MSA), [Sign into Visual Studio](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx). You do not need to sign in and can do that later.  
   
  On your Visual Studio launch, you next must choose a settings combination that applies a set of pre-defined customizations to the IDE. Each settings combination has been designed to make it easier for you to develop applications.  
@@ -63,7 +63,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
    The color theme used for pictures in the rest of this walkthrough is the light theme. For more information about customizing the IDE, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_CreateApp"></a> Create a simple application  
+## <a name="BKMK_CreateApp"></a> Create a simple application  
   
 ### Create the project  
  When you create an application in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows Presentation Foundation (WPF) project.  
@@ -241,7 +241,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 3. Save the application.  
   
-##  <a name="BKMK_DebugTest"></a> Debug and test the application  
+## <a name="BKMK_DebugTest"></a> Debug and test the application  
  Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  

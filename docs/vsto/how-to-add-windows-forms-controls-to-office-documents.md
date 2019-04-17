@@ -31,7 +31,7 @@ ms.workload:
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).
 
-##  <a name="designtime"></a> Add controls at design time
+## <a name="designtime"></a> Add controls at design time
  There are several ways to add Windows Forms controls to the document in a document-level project at design time.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
@@ -93,7 +93,7 @@ ms.workload:
     > [!NOTE]
     >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
-##  <a name="runtimedoclevel"></a> Add controls at runtime in document-level projects
+## <a name="runtimedoclevel"></a> Add controls at runtime in document-level projects
  You can programmatically add Windows Forms controls to a document at runtime. In Word, use methods of the <xref:Microsoft.Office.Tools.Word.DocumentBase.Controls%2A> property of the `ThisDocument` class. In Excel, use methods of the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Controls%2A> property of a `Sheet`*n* class. Each method has several overloads that enable you to specify the location of the control in different ways.
 
  When you add a Windows Forms control to a document at runtime, the control is not persisted in the document when the document is closed. You can recreate the control the next time the document is opened. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
@@ -107,7 +107,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#4](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#4)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#4)]
 
-##  <a name="runtimeaddin"></a> Add controls at runtime in VSTO Add-ins
+## <a name="runtimeaddin"></a> Add controls at runtime in VSTO Add-ins
  You can add Windows Forms controls programmatically to any open document at runtime. First, generate a host item that is based on an open document or worksheet. Then, in Word, use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the new host item. In Excel, use methods of the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> property of the new host item. Each method has several overloads that enable you to specify the location of the control in different ways.
 
  When you add a Windows Forms control to a document at runtime, the control is not persisted in the document when the document is closed. You can recreate the control the next time the document is opened. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).

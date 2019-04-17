@@ -39,7 +39,7 @@ ms.workload:
 
   For more information about how to deploy an Office solution by creating a Windows Installer file, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
-##  <a name="Publish"></a> Publish the solution
+## <a name="Publish"></a> Publish the solution
  You can publish your solution by using the **Publish Wizard** or the **Project Designer**. In this procedure, you'll use the **Project Designer** because it provides the complete set of publishing options. See [Publish wizard &#40;Office development in Visual Studio&#41;](../vsto/publish-wizard-office-development-in-visual-studio.md).
 
 #### To publish the solution
@@ -127,12 +127,12 @@ ms.workload:
 
 14. Copy the solution files to the installation location that you specified earlier in this procedure.
 
-##  <a name="Trust"></a> Decide how you want to grant trust to the solution
+## <a name="Trust"></a> Decide how you want to grant trust to the solution
  Before a solution can run on user computers, either you must grant trust or users must respond to a trust prompt when they install the solution. To grant trust to the solution, sign the manifests by using a certificate that identifies a known and trusted publisher. See [Trust the solution by signing the application and deployment manifests](../vsto/granting-trust-to-office-solutions.md#Signing).
 
  If you're deploying a document-level customization and you want to put the document into a folder on the user's computer or make the document available on a SharePoint site, ensure that Office trusts the location of the document. See [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
-##  <a name="Helping"></a> Help users install the solution
+## <a name="Helping"></a> Help users install the solution
  Users can install the solution by running the setup program, opening the deployment manifest, or during document-level customization, opening the document directly. As a best practice, users should install your solution by using the setup program. The other two approaches don't ensure that the prerequisite software is installed. If users want to open the document from the installation location, they must add it to the list of trusted locations in the Trust Center of the Office application.
 
 ### Opening the document of a document-level customization
@@ -181,7 +181,7 @@ ms.workload:
     > [!NOTE]
     >  For the changes to take effect, you must restart the World Wide Web Publishing Service, or you must wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
 
-##  <a name="Put"></a> Put the document of a solution onto the end user's computer (document-level customizations only)
+## <a name="Put"></a> Put the document of a solution onto the end user's computer (document-level customizations only)
  You can copy the document of your solution onto the end user's computer for them by creating a post-deployment action. That way, the user doesn't have to manually copy the document from the installation location to their computer after they install your solution. You'll have to create a class that defines the post-deployment action, build and publish the solution, modify the application manifest, and re-sign the application and deployment manifest.
 
  The following procedures assume that your project name is **ExcelWorkbook** and that you publish the solution into a created folder named **C:\publish** on your computer.
@@ -300,7 +300,7 @@ ms.workload:
 
 5. Copy the *ExcelWorkbook.vsto* file to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ directory.
 
-##  <a name="SharePoint"></a> Put the document of a solution onto a server that's running SharePoint (document-level customizations only)
+## <a name="SharePoint"></a> Put the document of a solution onto a server that's running SharePoint (document-level customizations only)
  You can publish your document-level customization to end users by using SharePoint. When users go to the SharePoint site and open the document, the runtime automatically installs the solution from the shared network folder to the user's local computer. After the solution is installed locally, the customization will still function even if the document is copied elsewhere, such as the desktop.
 
 #### To put the document on a server that's running SharePoint
@@ -329,7 +329,7 @@ ms.workload:
 
              When users open the document from the SharePoint site, the document opens, and the customization is installed. Users can copy the document to their desktop. The customization will still run because properties in the document point to the network location of the document.
 
-##  <a name="Custom"></a> Create a custom installer
+## <a name="Custom"></a> Create a custom installer
  You can create a custom installer for your Office solution, instead of using the setup program that's created for you when you publish the solution. For example, you could use a sign in script to start the installation, or you could use a batch file to install the solution without user interaction. These scenarios work best if the prerequisites are already installed on end-user computers.
 
  As part of your custom installation process, call the installer tool for Office solutions (*VSTOInstaller.exe*), which is installed in the following location by default:
@@ -363,12 +363,12 @@ ms.workload:
 |-401|The solution couldn't be uninstalled.|
 |-500|The operation has been canceled because the solution couldn't be installed or uninstalled or the deployment manifest couldn't be downloaded.|
 
-##  <a name="Update"></a> Publish an update
+## <a name="Update"></a> Publish an update
  To update a solution, you publish it again by using the **Project Designer** or **Publish Wizard**, and then you copy the updated solution to the installation location. When you copy the files to the installation location, make sure that you overwrite the previous files.
 
  The next time that the solution checks for an update, it will find and load the new version automatically.
 
-##  <a name="Location"></a> Change the installation location of a solution
+## <a name="Location"></a> Change the installation location of a solution
  You can add or change the installation path after a solution is published. You might want to change the installation path for one or more of the following reasons:
 
 - The setup program was compiled before the installation path was known.
@@ -426,7 +426,7 @@ ms.workload:
 
 6. Run the setup program without the /url parameter to install the solution in the specified location.
 
-##  <a name="Roll"></a> Roll back a solution to an earlier version
+## <a name="Roll"></a> Roll back a solution to an earlier version
  When you roll back a solution, you revert users back to an earlier version of that solution.
 
 #### To roll back a solution

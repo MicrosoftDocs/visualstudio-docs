@@ -29,12 +29,12 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 > [!IMPORTANT]
 >  The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation. If you need to do this kind of simulation, you can use the Visual Studio 2013 simulator on Windows 8.1 or earlier operating systems.  
   
-##  <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target  
+## <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target  
  To run your Windows Store app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar.  
   
  ![Running in the Simulator](../debugger/media/vsrun-f5-simulator.png "VSRUN_F5_Simulator")  
   
-##  <a name="BKMK_Choose_an_interaction_mode"></a> Choose an interaction mode  
+## <a name="BKMK_Choose_an_interaction_mode"></a> Choose an interaction mode  
  You can choose the following interaction modes  
   
 - ![Mouse mode button](../debugger/media/simulator-mousemodebtn.png "SIMULATOR_MouseModeBtn") Mouse mode: sets the interaction mode to mouse gestures. Mouse gestures include clicks, double-clicks, and drags.  
@@ -73,10 +73,10 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
     - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
   
-##  <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> Enable or disable Always on top mode  
+## <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> Enable or disable Always on top mode  
  You can set the simulator window to always be on top of other windows. The **Toggle Topmost Window** button enables or disables the **Always on top** mode of the simulator window.  
   
-##  <a name="BKMK_Change_the_device_orientation"></a> Change the device orientation  
+## <a name="BKMK_Change_the_device_orientation"></a> Change the device orientation  
  You can switch the device orientation between portrait and landscape by rotating the simulator 90 degrees in any direction.  
   
 > [!NOTE]
@@ -85,7 +85,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 > [!NOTE]
 >  If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
   
-##  <a name="BKMK_Change_the_simulated_screen_size_and_resolution"></a> Change the simulated screen size and resolution  
+## <a name="BKMK_Change_the_simulated_screen_size_and_resolution"></a> Change the simulated screen size and resolution  
  To change the simulated screen size and resolution, choose the **Change Resolution** button  on the palette and choose a new size and resolution from the list.  
   
  The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location co-ordinates on the simulator are translated to the co-ordinates of the selected device size and resolution.  
@@ -93,7 +93,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 > [!NOTE]
 >  You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Responsive Design 101](https://msdn.microsoft.com/library/windows/apps/dn958435.aspx). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.  
   
-##  <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to the Windows Store  
+## <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to the Windows Store  
  When you submit an app to the Windows app store, you must include screenshots of the app.  
   
 > [!NOTE]
@@ -105,7 +105,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
      ![Screenshot settings context menu](../debugger/media/simulator-screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")  
   
-##  <a name="BKMK_Simulate_network_connection_properties"></a> Simulate network connection properties  
+## <a name="BKMK_Simulate_network_connection_properties"></a> Simulate network connection properties  
  You can help your app’s users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx) APIs lets you respond to [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) and [TriggerType](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) events that sign. See [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).  
   
  To debug or test your network cost-aware code, the simulator can mimic properties of a network that are exposed through the [ConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.aspx) object returned by [GetInternetConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.getinternetconnectionprofile.aspx)..  
@@ -142,7 +142,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
-##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
+## <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL+ALT+Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  
   
  You can shut down the simulator by pressing **CTRL+ALT+F4**.  

@@ -28,9 +28,9 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 3. [Common concepts using arrows](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDArrows)
 4. [Status indicators](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDStatus)
 
-##  <a name="BKMK_VLDConcepts"></a> Concepts A-Z
+## <a name="BKMK_VLDConcepts"></a> Concepts A-Z
 
-###  <a name="BKMK_VLDConceptsA"></a> A
+### <a name="BKMK_VLDConceptsA"></a> A
 
 | Concept | Main icon | Other examples | Notes |
 | - | - | - | - |
@@ -55,7 +55,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Audio recording** | ![Audio recording icon](../../extensibility/ux-guidelines/media/vld_c_audiorecording.png "VLD_C_AudioRecording") | ![Record mute icon](../../extensibility/ux-guidelines/media/vld_c_audiorecording_recordmute.png "VLD_C_AudioRecording_RecordMute")<br />Record mute<br />![Record screen and voice icon](../../extensibility/ux-guidelines/media/vld_c_audiorecording_recordscreenandvoice.png "VLD_C_AudioRecording_RecordScreenAndVoice")<br />Record screen and voice | |
 | **Autosum** | ![Autosum icon](../../extensibility/ux-guidelines/media/vld_c_autosum.png "VLD_C_Autosum") | | |
 
-###  <a name="BKMK_VLDConceptsB"></a> B
+### <a name="BKMK_VLDConceptsB"></a> B
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -71,7 +71,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Business** | ![Business icon](../../extensibility/ux-guidelines/media/vld_c_business.png "VLD_C_Business") | ![Business model template icon](../../extensibility/ux-guidelines/media/vld_c_business_businessmodeltemplate.png "VLD_C_Business_BusinessModelTemplate")<br />Business model template<br />![Business objects data source icon](../../extensibility/ux-guidelines/media/vld_c_business_businessobjectsdatasource.png "VLD_C_Business_BusinessObjectsDataSource")<br />Business objects data source<br />![Online business icon](../../extensibility/ux-guidelines/media/vld_c_business_onlinebusiness.png "VLD_C_Business_OnlineBusiness")<br />Online business ||
 | **Button** |![Button icon](../../extensibility/ux-guidelines/media/vld_c_button.png "VLD_C_Button") | ![Add button icon](../../extensibility/ux-guidelines/media/vld_c_button_addbutton.png "VLD_C_Button_AddButton")<br />Add button<br />![Image button icon](../../extensibility/ux-guidelines/media/vld_c_button_imagebutton.png "VLD_C_Button_ImageButton")<br />Image button<br />![Linked button icon](../../extensibility/ux-guidelines/media/vld_c_button_linkedbutton.png "VLD_C_Button_LinkedButton")<br />Linked button ||
 
-###  <a name="BKMK_VLDConceptsC"></a> C
+### <a name="BKMK_VLDConceptsC"></a> C
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -110,7 +110,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Custom expression**<br />Prediction | ![Custom expression icon](../../extensibility/ux-guidelines/media/vld_c_customexpression.png "VLD_C_CustomExpression") | ![Data mining prediction](../../extensibility/ux-guidelines/media/vld_c_customexpression_dataminingprediction.png "VLD_C_CustomExpression_DataMiningPrediction")<br />Data mining prediction ||
 | **Cut** | ![Cut icon](../../extensibility/ux-guidelines/media/vld_c_cut.png "VLD_C_Cut") |||
 
-###  <a name="BKMK_VLDConceptsD"></a> D
+### <a name="BKMK_VLDConceptsD"></a> D
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -132,7 +132,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Dynamic** | ![Dynamic icon](../../extensibility/ux-guidelines/media/vld_c_dynamic.png "VLD_C_Dynamic") | ![ASP.NET dynamic control icon](../../extensibility/ux-guidelines/media/vld_c_dynamic_aspnetdynamiccontrol.png "VLD_C_Dynamic_ASPNETDynamicControl")<br />ASP.NET dynamic control<br />![C&#35; dynamic data website icon](../../extensibility/ux-guidelines/media/vld_c_dynamic_csdynamicdatawebsite.png "VLD_C_Dynamic_CSDynamicDataWebsite")<br />C# dynamic data website<br />![Dynamic validator icon](../../extensibility/ux-guidelines/media/vld_c_dynamic_dynamicvalidator.png "VLD_C_Dynamic_DynamicValidator")<br />Dynamic validator ||
 | **Dynamic value** | ![Dynamic value icon](../../extensibility/ux-guidelines/media/vld_c_dynamicvalue.png "VLD_C_DynamicValue") | ![Copy dynamic value icon](../../extensibility/ux-guidelines/media/vld_c_dynamicvalue_copydynamicvalue.png "VLD_C_DynamicValue_CopyDynamicValue")<br />Copy dynamic value<br />![Empty dynamic value icon](../../extensibility/ux-guidelines/media/vld_c_dynamicvalue_emptydynamicvalue.png "VLD_C_DynamicValue_EmptyDynamicValue")<br />Empty dynamic value ||
 
-###  <a name="BKMK_VLDConceptsE"></a> E
+### <a name="BKMK_VLDConceptsE"></a> E
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -146,7 +146,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Expand/Contract** | ![Expand icon](../../extensibility/ux-guidelines/media/vld_c_contractexpand_expand.png "VLD_C_ContractExpand_expand") ![Contract &#40;verb&#41; icon](../../extensibility/ux-guidelines/media/vld_c_contractexpand_contract.png "VLD_C_ContractExpand_contract") || The **expand/contract** icons are used in layout situations to indicate that space between two elements will be condensed. |
 | **Export**<br />*Same as "Open"*| ![Export icon](../../extensibility/ux-guidelines/media/vld_c_export.png "VLD_C_Export") | ![Export filter icon](../../extensibility/ux-guidelines/media/vld_c_export_exportfilter.png "VLD_C_Export_ExportFilter")<br />Export filter<br />![Export report data icon](../../extensibility/ux-guidelines/media/vld_c_export_exportreportdata.png "VLD_C_Export_ExportReportData") <br />Export report data<br />![Export report filter icon](../../extensibility/ux-guidelines/media/vld_c_export_exportreportfilter.png "VLD_C_Export_ExportReportFilter")<br />Export report filter ||
 
-###  <a name="BKMK_VLDConceptsF"></a> F
+### <a name="BKMK_VLDConceptsF"></a> F
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -163,7 +163,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Friend** | ![Friend icon](../../extensibility/ux-guidelines/media/vld_c_friend.png "VLD_C_Friend") |||
 | **Function**<br />Expression<br />*Same as "Effects" and "Variable (global)"* | ![Function icon](../../extensibility/ux-guidelines/media/vld_c_function.png "VLD_C_Function") | ![Function warning icon](../../extensibility/ux-guidelines/media/vld_c_function_functionwarning.png "VLD_C_Function_FunctionWarning")<br />Function warning<br />![WPF page function icon](../../extensibility/ux-guidelines/media/vld_c_function_wpfpagefunction.png "VLD_C_Function_WPFPageFunction")<br />WPF page function ||
 
-###  <a name="BKMK_VLDConceptsG"></a> G
+### <a name="BKMK_VLDConceptsG"></a> G
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -174,7 +174,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Grid web layout** | ![Grid web layout icon](../../extensibility/ux-guidelines/media/vld_c_gridweblayout.png "VLD_C_GridWebLayout") | ![Grid element icon](../../extensibility/ux-guidelines/media/vld_c_gridweblayout_gridelement.png "VLD_C_GridWebLayout_GridElement")<br />Grid element<br />![Grid splitter element icon](../../extensibility/ux-guidelines/media/vld_c_gridweblayout_gridsplitterelement.png "VLD_C_GridWebLayout_GridSplitterElement")<br />Grid splitter element ||
 | **Grouping** | ![Grouping icon](../../extensibility/ux-guidelines/media/vld_c_grouping.png "VLD_C_Grouping") | ![Dialog group icon](../../extensibility/ux-guidelines/media/vld_c_grouping_dialoggroup.png "VLD_C_Grouping_DialogGroup")<br />Dialog group<br />![Team icon](../../extensibility/ux-guidelines/media/vld_c_grouping_team.png "VLD_C_Grouping_Team")<br />Team<br />![Virtual machines icon](../../extensibility/ux-guidelines/media/vld_c_grouping_virtualmachines.png "VLD_C_Grouping_VirtualMachines")<br />Virtual machines| Stacking multiple objects on top of each other represents the concept of **grouping** or multiplicity. |
 
-###  <a name="BKMK_VLDConceptsH"></a> H
+### <a name="BKMK_VLDConceptsH"></a> H
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -182,7 +182,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **History** | ![History icon](../../extensibility/ux-guidelines/media/vld_c_history.png "VLD_C_History") |||
 | **Home** | ![Home icon](../../extensibility/ux-guidelines/media/vld_c_home.png "VLD_C_Home") | ![LightSwitch home screen icon](../../extensibility/ux-guidelines/media/vld_c_home_lightswitchhomescreen.png "VLD_C_Home_LightSwitchHomeScreen")<br />LightSwitch home screen ||
 
-###  <a name="BKMK_VLDConceptsI"></a> I
+### <a name="BKMK_VLDConceptsI"></a> I
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -195,14 +195,14 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Interface** | ![Interface icon](../../extensibility/ux-guidelines/media/vld_c_interface.png "VLD_C_Interface") | ![Implement interface icon](../../extensibility/ux-guidelines/media/vld_c_interface_implementinterface.png "VLD_C_Interface_ImplementInterface")<br />Implement interface ||
 | **Item** | ![Item icon](../../extensibility/ux-guidelines/media/vld_c_item.png "VLD_C_Item") | ![Copy item icon](../../extensibility/ux-guidelines/media/vld_c_item_copyitem.png "VLD_C_Item_CopyItem")<br />Copy item<br />![Create list item icon](../../extensibility/ux-guidelines/media/vld_c_item_createlistitem.png "VLD_C_Item_CreateListItem")<br />Create list item<br />![Check in item icon](../../extensibility/ux-guidelines/media/vld_c_item_checkinitem.png "VLD_C_Item_CheckInItem")<br />Check in item ||
 
-###  <a name="BKMK_VLDConceptsK"></a> K
+### <a name="BKMK_VLDConceptsK"></a> K
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
 | **Key**<br />Permission, ID | ![Key icon](../../extensibility/ux-guidelines/media/vld_c_key.png "VLD_C_Key") | ![New key icon](../../extensibility/ux-guidelines/media/vld_c_key_newkey.png "VLD_C_Key_NewKey")<br />New key<br />![Permission icon](../../extensibility/ux-guidelines/media/vld_c_key_permission.png "VLD_C_Key_Permission")<br />Permission<br />![Get current item ID icon](../../extensibility/ux-guidelines/media/vld_c_key_getcurrentitemid.png "VLD_C_Key_GetCurrentItemID")<br />Get current item ID ||
 | **Key performance indicator (KPI)** | ![KPI icon](../../extensibility/ux-guidelines/media/vld_c_kpi.png "VLD_C_KPI") | ![Delete KPI icon](../../extensibility/ux-guidelines/media/vld_c_kpi_deletekpi.png "VLD_C_KPI_DeleteKPI")<br />Delete KPI<br />![KPI browser view icon](../../extensibility/ux-guidelines/media/vld_c_kpi_kpibrowserview.png "VLD_C_KPI_KPIBrowserView")<br />KPI browser view<br />![KPI with error icon](../../extensibility/ux-guidelines/media/vld_c_kpi_kpiwitherror.png "VLD_C_KPI_KPIWithError")<br />KPI with error ||
 
-###  <a name="BKMK_VLDConceptsL"></a> L
+### <a name="BKMK_VLDConceptsL"></a> L
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -212,7 +212,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Log** | ![Log icon](../../extensibility/ux-guidelines/media/vld_c_log.png "VLD_C_Log") | ![Catalog properties icon](../../extensibility/ux-guidelines/media/vld_c_log_catalogproperties.png "VLD_C_Log_CatalogProperties")<br />Catalog properties<br />![Action log icon](../../extensibility/ux-guidelines/media/vld_c_log_actionlog.png "VLD_C_Log_ActionLog")<br />Action log<br />![Connect test plan icon](../../extensibility/ux-guidelines/media/vld_c_log_connecttestplan.png "VLD_C_Log_ConnectTestPlan")<br />Connect test plan ||
 | **Loop** | ![Loop icon](../../extensibility/ux-guidelines/media/vld_c_loop.png "VLD_C_Loop") | ![Add or insert conditional loop icon](../../extensibility/ux-guidelines/media/vld_c_loop_addorinsertconditionalloop.png "VLD_C_Loop_AddOrInsertConditionalLoop")<br />Add or insert conditional loop<br />![Conditional loop icon](../../extensibility/ux-guidelines/media/vld_c_loop_conditionalloop.png "VLD_C_Loop_ConditionalLoop")<br />Conditional loop ||
 
-###  <a name="BKMK_VLDConceptsM"></a> M
+### <a name="BKMK_VLDConceptsM"></a> M
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -235,7 +235,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Module** | ![Module icon](../../extensibility/ux-guidelines/media/vld_c_module.png "VLD_C_Module") | ![Merge module project icon](../../extensibility/ux-guidelines/media/vld_c_module_mergemoduleproject.png "VLD_C_Module_MergeModuleProject")<br />Merge module project<br />![Add module icon](../../extensibility/ux-guidelines/media/vld_c_module_addmodule.png "VLD_C_Module_AddModule")<br />Add module<br />![Merge module exclude icon](../../extensibility/ux-guidelines/media/vld_c_module_mergemoduleexclude.png "VLD_C_Module_MergeModuleExclude")<br />Merge module exclude ||
 | **Move** | ![Move icon](../../extensibility/ux-guidelines/media/vld_c_move.png "VLD_C_Move") |||
 
-###  <a name="BKMK_VLDConceptsN"></a> N
+### <a name="BKMK_VLDConceptsN"></a> N
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -245,14 +245,14 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Nonsubstantive (hidden or template)**<br />*Same as "Virtual"* | ![Nonsubstantive icon](../../extensibility/ux-guidelines/media/vld_c_nonsubstantive.png "VLD_C_Nonsubstantive") | ![Hidden field icon](../../extensibility/ux-guidelines/media/vld_c_nonsubstantive_hiddenfield.png "VLD_C_Nonsubstantive_HiddenField")<br />Hidden field<br />![Hidden folder icon](../../extensibility/ux-guidelines/media/vld_c_nonsubstantive_hiddenfolder.png "VLD_C_Nonsubstantive_HiddenFolder")<br />Hidden folder<br />![Dynamic template icon](../../extensibility/ux-guidelines/media/vld_c_nonsubstantive_dynamictemplate.png "VLD_C_Nonsubstantive_DynamicTemplate")<br />Dynamic template | A dotted outline of an object indicates that it is **hidden or templated**. |
 | **Note** | ![Note icon](../../extensibility/ux-guidelines/media/vld_c_note.png "VLD_C_Note") |||
 
-###  <a name="BKMK_VLDConceptsO"></a> O
+### <a name="BKMK_VLDConceptsO"></a> O
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
 | **Open**<br />*Same as "Export"* | ![Open icon](../../extensibility/ux-guidelines/media/vld_c_open.png "VLD_C_Open") | ![Open attachment icon](../../extensibility/ux-guidelines/media/vld_c_open_openattachment.png "VLD_C_Open_OpenAttachment")<br />Open attachment<br />![Open comparison result icon](../../extensibility/ux-guidelines/media/vld_c_open_opencomparisonresult.png "VLD_C_Open_OpenComparisonResult")<br />Open comparison result<br />![Open file dialog icon](../../extensibility/ux-guidelines/media/vld_c_open_openfiledialog.png "VLD_C_Open_OpenFileDialog")<br />Open file dialog ||
 | **Output** | ![Output icon](../../extensibility/ux-guidelines/media/vld_c_output.png "VLD_C_Output") |||
 
-###  <a name="BKMK_VLDConceptsP"></a> P
+### <a name="BKMK_VLDConceptsP"></a> P
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -271,13 +271,13 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Procedure**<br />Interactive window | ![Procedure icon](../../extensibility/ux-guidelines/media/vld_c_procedure.png "VLD_C_Procedure") | ![Python interactive window icon](../../extensibility/ux-guidelines/media/vld_c_procedure_pythoninteractivewindow.png "VLD_C_Procedure_PythonInteractiveWindow")<br />Python interactive window<br />![Procedure warning icon](../../extensibility/ux-guidelines/media/vld_c_procedure_procedurewarning.png "VLD_C_Procedure_ProcedureWarning")<br />Procedure warning<br />![Stored procedure icon](../../extensibility/ux-guidelines/media/vld_c_procedure_storedprocedure.png "VLD_C_Procedure_StoredProcedure")<br />Stored procedure ||
 | **Property**<br />Settings, Configurations | ![Property icon](../../extensibility/ux-guidelines/media/vld_c_property.png "VLD_C_Property") | ![Add property icon](../../extensibility/ux-guidelines/media/vld_c_property_addproperty.png "VLD_C_Property_AddProperty")<br />Add property<br />![Extended property warning icon](../../extensibility/ux-guidelines/media/vld_c_property_extendedpropertywarning.png "VLD_C_Property_ExtendedPropertyWarning")<br />Extended property&mdash;warning<br />![New property icon](../../extensibility/ux-guidelines/media/vld_c_property_newproperty.png "VLD_C_Property_NewProperty")<br />New property ||
 
-###  <a name="BKMK_VLDConceptsQ"></a> Q
+### <a name="BKMK_VLDConceptsQ"></a> Q
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
 | **Query** | ![Query icon](../../extensibility/ux-guidelines/media/vld_c_query.png "VLD_C_Query") | ![Edit query icon](../../extensibility/ux-guidelines/media/vld_c_query_editquery.png "VLD_C_Query_EditQuery")<br />Edit query<br />![Query extender icon](../../extensibility/ux-guidelines/media/vld_c_query_queryextender.png "VLD_C_Query_QueryExtender")<br />Query extender<br />![Quick query icon](../../extensibility/ux-guidelines/media/vld_c_query_quickquery.png "VLD_C_Query_QuickQuery")<br />Quick query ||
 
-###  <a name="BKMK_VLDConceptsR"></a> R
+### <a name="BKMK_VLDConceptsR"></a> R
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -295,7 +295,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Rule** | ![Rule icon](../../extensibility/ux-guidelines/media/vld_c_rule.png "VLD_C_Rule") | ![New extraction rule icon](../../extensibility/ux-guidelines/media/vld_c_rule_newextractionrule.png "VLD_C_Rule_NewExtractionRule")<br />New extraction rule<br />![New threshold rule icon](../../extensibility/ux-guidelines/media/vld_c_rule_newthresholdrule.png "VLD_C_Rule_NewThresholdRule")<br />New threshold rule<br />![New validation rule icon](../../extensibility/ux-guidelines/media/vld_c_rule_newvalidationrule.png "VLD_C_Rule_NewValidationRule")<br />New validation rule ||
 | **Ruler**<br />Measure, Guide | ![Ruler icon](../../extensibility/ux-guidelines/media/vld_c_ruler.png "VLD_C_Ruler") | ![Measure mode on icon](../../extensibility/ux-guidelines/media/vld_c_ruler_measuremodeon.png "VLD_C_Ruler_MeasureModeOn")<br />Measure mode on<br />![Units of measure icon](../../extensibility/ux-guidelines/media/vld_c_ruler_unitsofmeasure.png "VLD_C_Ruler_UnitsOfMeasure")<br />Units of measure ||
 
-###  <a name="BKMK_VLDConceptsS"></a> S
+### <a name="BKMK_VLDConceptsS"></a> S
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -316,7 +316,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Style sheet** | ![Style sheet icon](../../extensibility/ux-guidelines/media/vld_c_stylesheet.png "VLD_C_StyleSheet") | ![New style sheet icon](../../extensibility/ux-guidelines/media/vld_c_stylesheet_newstylesheet.png "VLD_C_StyleSheet_NewStyleSheet")<br />New style sheet<br />![Attach style sheet icon](../../extensibility/ux-guidelines/media/vld_c_stylesheet_attachstylesheet.png "VLD_C_StyleSheet_AttachStyleSheet")<br />Attach style sheet ||
 | **Synchronize**<br />Update | ![Synchronize icon](../../extensibility/ux-guidelines/media/vld_c_synchronize.png "VLD_C_Synchronize") | ![Updated JavaScript icon](../../extensibility/ux-guidelines/media/vld_c_synchronize_updatedjavascript.png "VLD_C_Synchronize_UpdatedJavaScript")<br />Updated JavaScript<br />![Database updated items icon](../../extensibility/ux-guidelines/media/vld_c_synchronize_databaseupdateditems.png "VLD_C_Synchronize_DatabaseUpdatedItems")<br />Database updated items<br />![Sync icon](../../extensibility/ux-guidelines/media/vld_c_synchronize_sync.png "VLD_C_Synchronize_Sync")<br />Sync ||
 
-###  <a name="BKMK_VLDConceptsT"></a> T
+### <a name="BKMK_VLDConceptsT"></a> T
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -332,7 +332,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Toggle** | ![Toggle icon](../../extensibility/ux-guidelines/media/vld_c_toggle.png "VLD_C_Toggle") | ![Toggle all breakpoints icon](../../extensibility/ux-guidelines/media/vld_c_toggle_toggleallbreakpoints.png "VLD_C_Toggle_ToggleAllBreakpoints")<br />Toggle all breakpoints<br />![Toggle icon](../../extensibility/ux-guidelines/media/vld_c_toggle_toggle.png "VLD_C_Toggle_Toggle")<br />Toggle ||
 | **Toolbox** | ![Toolbox icon](../../extensibility/ux-guidelines/media/vld_c_toolbox.png "VLD_C_Toolbox") | ![Winform toolbox control icon](../../extensibility/ux-guidelines/media/vld_c_toolbox_winformtoolboxcontrol.png "VLD_C_Toolbox_WinformToolboxControl")<br />Winform toolbox control<br />![WPF toolbox control icon](../../extensibility/ux-guidelines/media/vld_c_toolbox_wpftoolboxcontrol.png "VLD_C_Toolbox_WPFToolboxControl")<br />WPF toolbox control ||
 
-###  <a name="BKMK_VLDConceptsU"></a> U
+### <a name="BKMK_VLDConceptsU"></a> U
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -341,7 +341,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **User**<br />Role, Profile | ![User icon](../../extensibility/ux-guidelines/media/vld_c_user.png "VLD_C_User") | ![Add user icon](../../extensibility/ux-guidelines/media/vld_c_user_adduser.png "VLD_C_User_AddUser")<br />Add user<br />![Add web user control icon](../../extensibility/ux-guidelines/media/vld_c_user_addwebusercontrol.png "VLD_C_User_AddWebUserControl")<br />Add web user control<br />![SQL user&#45;defined types icon](../../extensibility/ux-guidelines/media/vld_c_user_sqluserdefinedtype.png "VLD_C_User_SQLUserDefinedType")<br />SQL user-defined types ||
 | **User interface**<br />UI | ![User interface icon](../../extensibility/ux-guidelines/media/vld_c_userinterface.png "VLD_C_UserInterface") |||
 
-###  <a name="BKMK_VLDConceptsV"></a> V
+### <a name="BKMK_VLDConceptsV"></a> V
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Virtual**<br />*Same as "Nonsubstantive (hidden or template)"* | ![Virtual icon](../../extensibility/ux-guidelines/media/vld_c_virtual.png "VLD_C_Virtual") | ![Virtual environment icon](../../extensibility/ux-guidelines/media/vld_c_virtual_virtualenvironment.png "VLD_C_Virtual_VirtualEnvironment")<br />Virtual environment ||
 | **Visible** | ![Visible icon](../../extensibility/ux-guidelines/media/vld_c_visible.png "VLD_C_Visible") | ![Cloak or hide icon](../../extensibility/ux-guidelines/media/vld_c_visible_cloakorhide.png "VLD_C_Visible_CloakOrHide")<br />Cloak or hide ||
 
-###  <a name="BKMK_VLDConceptsW"></a> W
+### <a name="BKMK_VLDConceptsW"></a> W
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
@@ -361,19 +361,19 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Wizard** | ![Wizard icon](../../extensibility/ux-guidelines/media/vld_c_wizard.png "VLD_C_Wizard") | ![Map layer wizard icon](../../extensibility/ux-guidelines/media/vld_c_wizard_maplayerwizard.png "VLD_C_Wizard_MapLayerWizard")<br />Map layer wizard<br />![MFC class wizard icon](../../extensibility/ux-guidelines/media/vld_c_wizard_mfcclasswizard.png "VLD_C_Wizard_MFCCLassWizard")<br />MFC class wizard<br />![Map wizard icon](../../extensibility/ux-guidelines/media/vld_c_wizard_mapwizard.png "VLD_C_Wizard_MapWizard")<br />Map wizard ||
 | **Work item** | ![Work item icon](../../extensibility/ux-guidelines/media/vld_c_workitem.png "VLD_C_WorkItem") | ![Go to work item icon](../../extensibility/ux-guidelines/media/vld_c_workitem_gotoworkitem.png "VLD_C_WorkItem_GoToWorkItem")<br />Go to work item<br />![Work item query icon](../../extensibility/ux-guidelines/media/vld_c_workitem_workitemquery.png "VLD_C_WorkItem_WorkItemQuery")<br />Work item query ||
 
-###  <a name="BKMK_VLDConceptsY"></a> Y
+### <a name="BKMK_VLDConceptsY"></a> Y
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
 | **Yield** | ![Yield icon](../../extensibility/ux-guidelines/media/vld_c_yield.png "VLD_C_Yield") |||
 
-###  <a name="BKMK_VLDConceptsZ"></a> Z
+### <a name="BKMK_VLDConceptsZ"></a> Z
 
 | Concept | Main icon | Other examples | Notes |
 | --- | --- | --- | --- |
 | **Zoom** | ![Zoom icon](../../extensibility/ux-guidelines/media/vld_c_zoom.png "VLD_C_Zoom") | ![Zoom in icon](../../extensibility/ux-guidelines/media/vld_c_zoom_zoomin.png "VLD_C_Zoom_ZoomIn")<br />Zoom in<br />![Zoom out icon](../../extensibility/ux-guidelines/media/vld_c_zoom_zoomout.png "VLD_C_Zoom_ZoomOut")<br />Zoom out ||
 
-##  <a name="BKMK_VLDProducts"></a> Products and platforms
+## <a name="BKMK_VLDProducts"></a> Products and platforms
 
 | Concept | Main icon | Other examples |
 | --- | --- | --- |
@@ -389,7 +389,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **WCF** | ![WCF icon](../../extensibility/ux-guidelines/media/vld_p_wcf.png "VLD_P_WCF") | ![WCF data services icon](../../extensibility/ux-guidelines/media/vld_p_wcf_wcfdataservices.png "VLD_P_WCF_WCFDataServices")<br />WCF data services<br />![WCF project F&#35; icon](../../extensibility/ux-guidelines/media/vld_p_wcf_wcfprojectfs.png "VLD_P_WCF_WCFProjectFS")<br />WCF project F#<br />![WCF project VB icon](../../extensibility/ux-guidelines/media/vld_p_wcf_wcfprojectvb.png "VLD_P_WCF_WCFProjectVB")<br />WCF project VB |
 | **WF** | ![WF icon](../../extensibility/ux-guidelines/media/vld_p_wf.png "VLD_P_WF") | ![WF project C&#35; icon](../../extensibility/ux-guidelines/media/vld_p_wf_wfprojectcs.png "VLD_P_WF_WFProjectCS")<br />WF project C#<br />![WF project VB icon](../../extensibility/ux-guidelines/media/vld_p_wf_wfprojectvb.png "VLD_P_WF_WFProjectVB")<br />WF project VB |
 
-##  <a name="BKMK_VLDArrows"></a> Common concepts using arrows
+## <a name="BKMK_VLDArrows"></a> Common concepts using arrows
 
 | Concept | Main icon | Other examples |
 | --- | --- | --- | --- |
@@ -431,7 +431,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Undo**<br />Revert, Restore | ![Undo icon](../../extensibility/ux-guidelines/media/vld_a_undo.png "VLD_A_Undo") | ![Image restore icon](../../extensibility/ux-guidelines/media/vld_a_undo_imagerestore.png "VLD_A_Undo_ImageRestore")<br />Image restore<br />![Uncomment icon](../../extensibility/ux-guidelines/media/vld_a_undo_uncomment.png "VLD_A_Undo_Uncomment")<br />Uncomment |
 | **Up**<br />Upload | ![Up icon](../../extensibility/ux-guidelines/media/vld_a_up.png "VLD_A_Up") | ![File upload parameter icon](../../extensibility/ux-guidelines/media/vld_a_up_fileuploadparameter.png "VLD_A_Up_FileUploadParameter")<br />File upload parameter<br />![One level up icon](../../extensibility/ux-guidelines/media/vld_a_up_onelevelup.png "VLD_A_Up_OneLevelUp")<br />One level up |
 
-##  <a name="BKMK_VLDStatus"></a> Status indicators
+## <a name="BKMK_VLDStatus"></a> Status indicators
 
 | Concept | Main icon | Other examples |
 | --- | --- | --- |

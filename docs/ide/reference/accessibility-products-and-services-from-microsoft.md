@@ -38,7 +38,7 @@ Microsoft is committed to making its products and services easier for everyone t
 > [!NOTE]
 > The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
 
-##  <a name="windows"></a> Accessibility features of Windows
+## <a name="windows"></a> Accessibility features of Windows
 
  The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
@@ -54,7 +54,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
  If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.
 
-##  <a name="altfortmats"></a> Documentation in alternative formats
+## <a name="altfortmats"></a> Documentation in alternative formats
 
 If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
@@ -66,7 +66,7 @@ In addition, you can obtain additional Microsoft publications from Learning Ally
 
 Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
 
-##  <a name="hearing"></a> Customer service for people with hearing impairments
+## <a name="hearing"></a> Customer service for people with hearing impairments
 
 If you are deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:
 
@@ -76,7 +76,7 @@ If you are deaf or hard-of-hearing, complete access to Microsoft product and cus
 
 Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.
 
-##  <a name="moreinfo"></a> For more information
+## <a name="moreinfo"></a> For more information
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 

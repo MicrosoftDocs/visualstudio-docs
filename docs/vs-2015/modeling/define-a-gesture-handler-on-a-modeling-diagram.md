@@ -224,7 +224,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
          **Project** = *Your class library project*  
   
-##  <a name="Executing"></a> Executing the Gesture Handler  
+## <a name="Executing"></a> Executing the Gesture Handler  
  For test purposes, execute your gesture handler in debug mode.  
   
 #### To test the gesture handler  
@@ -259,7 +259,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 - There is no built-in functionality already defined for this type of target and dropped element.  
   
-##  <a name="Implementing"></a> Implementing the Gesture Handler  
+## <a name="Implementing"></a> Implementing the Gesture Handler  
   
 ### The Gesture Handler Methods  
  The gesture handler class implements and exports <xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement.IGestureExtension>. The methods you need to define are as follows:  
@@ -342,7 +342,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
  For more information, see [Navigate the UML model](../modeling/navigate-the-uml-model.md).  
   
-##  <a name="Installing"></a> Installing and uninstalling an extension  
+## <a name="Installing"></a> Installing and uninstalling an extension  
  You can install a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
@@ -375,7 +375,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
    *%LocalAppData%* **\Local\Microsoft\VisualStudio\\[version]\Extensions**  
   
-##  <a name="DragExample"></a> Example  
+## <a name="DragExample"></a> Example  
  The following sample shows how to create lifelines in a sequence diagram, based on the parts and ports of a component, dragged from a component diagram.  
   
  To test it, press F5. An experimental instance of Visual Studio opens. In this instance, open a UML model and create a component on a component diagram. Add to this component some interfaces and internal component parts. Select the interfaces and parts. Then drag the interfaces and parts onto a sequence diagram. (Drag from the component diagram up to the tab for the sequence diagram, and then down into the sequence diagram.) A lifeline will appear for each interface and part.  

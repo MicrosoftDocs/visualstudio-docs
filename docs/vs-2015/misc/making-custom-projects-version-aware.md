@@ -43,7 +43,7 @@ In your custom project system, you can allow projects of that type to load in mu
   
  Here is an example to help summarize the compatibility user experience. If a project was created in an earlier version, and the current version determines that an upgrade is required, Visual Studio displays a dialog box to ask the user for permission to make the changes. If the user agrees, the project is modified and then loaded. If the solution is then closed and reopened in the earlier version, the one-way-upgraded project will be incompatible and not loaded. If the project had only required a repair (instead of an upgrade), the repaired project will still open in both versions.  
   
-##  <a name="BKMK_Incompat"></a> Marking a Project as Incompatible  
+## <a name="BKMK_Incompat"></a> Marking a Project as Incompatible  
  You can mark a project as incompatible with earlier versions of Visual Studio.  For example, suppose you create a project that uses a .NET Framework 4.5 feature. Because this project can’t be built in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)], you can mark it as incompatible to prevent that version from trying to load it.  
   
  The component that adds the incompatible feature is responsible for marking the project as incompatible. The component must have access to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface that represents the projects of interest.  
@@ -127,7 +127,7 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
  For example, if the `UpgradeProject_CheckOnly` and `CreateProject` methods that are written for a [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] with SP1 project system examine a project file and find that the `<MinimumVisualStudioVersion>` build property is "11.0", Visual Studio 2010 with SP1 won’t load the project. In addition, **Solution Navigator** would indicate that the project is “incompatible” and won’t load it.  
   
-##  <a name="BKMK_UpgradeLogger"></a> The Upgrade Logger  
+## <a name="BKMK_UpgradeLogger"></a> The Upgrade Logger  
  The call to `IVsProjectUpgradeViaFactory::UpgradeProject` contains an `IVsUpgradeLogger` logger, which project systems and flavors should use to provide detailed upgrade tracing for troubleshooting. If a warning or an error is logged, Visual Studio shows the upgrade report.  
   
  When you write to the upgrade logger, consider the following guidelines:  

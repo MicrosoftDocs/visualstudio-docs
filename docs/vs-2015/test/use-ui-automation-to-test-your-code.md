@@ -59,7 +59,7 @@ Automated tests that drive your application through its user interface (UI) are 
 
 - [What’s Next](#VerifyCodeUsingCUITWhatsNext)
 
-##  <a name="VerifyingCodeUsingCUITCreate"></a> Creating Coded UI Tests
+## <a name="VerifyingCodeUsingCUITCreate"></a> Creating Coded UI Tests
 
 1. **Create a Coded UI Test project.**
 
@@ -150,7 +150,7 @@ Automated tests that drive your application through its user interface (UI) are 
 
    For a more detailed example, see  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
 
-###  <a name="starting"></a> Starting and stopping the application under test
+### <a name="starting"></a> Starting and stopping the application under test
  *I don’t want to start and stop my application, browser, or database separately for each test. How do I avoid that?*
 
 - ![Prerequsite](../test/media/prereq.png "Prereq") If you do not want to record the actions to start your application under test, you must start your application before you choose the **Record** icon.
@@ -161,7 +161,7 @@ Automated tests that drive your application through its user interface (UI) are 
 
 - ![Prerequsite](../test/media/prereq.png "Prereq") You can add a test cleanup method, identified by a [TestCleanup] attribute, that runs code at the end of each test method. For example, the method to close the application could be called from the TestCleanup method.
 
-###  <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> Validating the properties of UI controls
+### <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> Validating the properties of UI controls
  You can use the **Coded UI Test Builder** to add a user interface (UI) control to the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> for your test, or to generate code for a validation method that uses an assertion for a UI control.
 
  To generate assertions for your UI controls, choose the **Add Assertions** tool in the Coded UI Test Builder and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the `UIMap.Designer.cs` file.
@@ -282,7 +282,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 ```
 
-##  <a name="VerifyingCodeCUITModify"></a> Customizing your coded UI test
+## <a name="VerifyingCodeCUITModify"></a> Customizing your coded UI test
  After you’ve created your coded UI test, you can edit it by using any of the following tools in Visual Studio:
 
 - **Coded UI Test Builder:** Use the Coded UI Test Builder to add additional controls and validation to your tests. See the section [Adding controls and validating their properties](#VerifyingCodeUsingCUITGenerateAssertions) in this topic.
@@ -309,7 +309,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
         - [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
-###  <a name="generatedCode"></a> The Generated Code
+### <a name="generatedCode"></a> The Generated Code
  When you choose **Generate Code**, several pieces of code are created:
 
 - **A line in the test method.**
@@ -377,7 +377,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
   For more information about the generated code, see [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md).
 
-###  <a name="actions"></a> Coding UI control actions and properties
+### <a name="actions"></a> Coding UI control actions and properties
  When you work with UI test controls in coded UI tests they are separated into two parts: actions and properties.
 
 - The first part consists of actions that you can perform on UI test controls. For example, coded UI tests can simulate mouse clicks on a UI test control, or simulate keys typed on the keyboard to affect a UI test control.
@@ -433,10 +433,10 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
      `SetProperty(myWinCheckBox.PropertyNames.Checked, true);`
 
-###  <a name="debugging"></a> Debugging
+### <a name="debugging"></a> Debugging
  You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filter and record important information about your coded UI test runs. The format of the logs lets you debug issues quickly. For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).
 
-##  <a name="VerifyCodeUsingCUITWhatsNext"></a> What’s next?
+## <a name="VerifyCodeUsingCUITWhatsNext"></a> What’s next?
  **Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from [!INCLUDE[TCMext](../includes/tcmext-md.md)], or from [!INCLUDE[esprbuild](../includes/esprbuild-md.md)]. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
 
 - [How to: Run Tests from Microsoft Visual Studio](http://msdn.microsoft.com/library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

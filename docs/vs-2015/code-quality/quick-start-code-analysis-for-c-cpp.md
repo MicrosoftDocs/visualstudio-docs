@@ -32,7 +32,7 @@ You can improve the quality of your application by running code analysis regular
   
 - [Searching and filtering code analysis results](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Search)  
   
-##  <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
+## <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
   
 1. In **Solution Explorer**, open the shortcut menu for the project name and then choose **Properties**.  
   
@@ -65,7 +65,7 @@ You can improve the quality of your application by running code analysis regular
 |Microsoft Native Minimum Recommended Rules|This rule set focuses on the most critical problems in your native code, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your native projects.|  
 |Microsoft Native Recommended Rules|This rule set covers a broad range of problems. It includes all the rules in Microsoft Native Minimum Recommended Rules.|  
   
-##  <a name="BKMK_Run"></a> Run code analysis  
+## <a name="BKMK_Run"></a> Run code analysis  
  On the Code analysis page of the project properties pages, you can configure code analysis to run each time you build your project. You can also run code analysis manually.  
   
  To run code analysis on a solution:  
@@ -80,7 +80,7 @@ You can improve the quality of your application by running code analysis regular
   
   The project or solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
   
-##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings  
+## <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings  
  To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning id to display the help topic in the MSND Library for the message.  
   
  When you expand a warning, the line of code that caused the warning is highlighted in the Visual Studio code editor.  
@@ -90,7 +90,7 @@ You can improve the quality of your application by running code analysis regular
 > [!TIP]
 >  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.  
   
-##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings  
+## <a name="BKMK_Suppress"></a> Suppressing code analysis warnings  
  There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.  
   
  To suppress a warning:  
@@ -103,7 +103,7 @@ You can improve the quality of your application by running code analysis regular
   
    Suppressing a message inserts `#pragma warning (disable:`*WarningId*`)` that suppresses the warning for the line of code.  
   
-##  <a name="BKMK_Creating_work_items_for_code_analysis_warnings"></a> Creating work items for code analysis warnings  
+## <a name="BKMK_Creating_work_items_for_code_analysis_warnings"></a> Creating work items for code analysis warnings  
  You can use the work item tracking feature to log bugs from within Visual Studio. To use this feature, you must connect to an instance of Team Foundation Server.  
   
  **To create a work item for one or more C/C++ code warnings**  
@@ -116,7 +116,7 @@ You can improve the quality of your application by running code analysis regular
   
 4. Add any additional information, and then choose **Save Work Item**.  
   
-##  <a name="BKMK_Search"></a> Searching and filtering code analysis results  
+## <a name="BKMK_Search"></a> Searching and filtering code analysis results  
  You can search long lists of warning messages and you can filter warnings in multi-project solutions.  
   
 1. **To filter warnings by title or warning id**: Enter the keyword in the **Filter** text box.  

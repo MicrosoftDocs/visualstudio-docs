@@ -28,7 +28,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 > [!NOTE]
 >  When you have updated the DSL Definitions file, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before rebuilding your solution.  
   
-##  <a name="customShapes"></a> In this Section  
+## <a name="customShapes"></a> In this Section  
   
 |To achieve this effect|Refer to this topic|  
 |----------------------------|-------------------------|  

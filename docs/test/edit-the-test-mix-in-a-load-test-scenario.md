@@ -65,7 +65,7 @@ You can add more web performance and unit tests to the text mix of the scenario 
 
 4. When you finish removing tests, choose **OK**.
 
-##  <a name="EditingTestMixAboutMixControl"></a> About the Mix Control
+## <a name="EditingTestMixAboutMixControl"></a> About the Mix Control
  The mix control allows you to adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. You adjust the percentage values by moving sliders. Adjusting the mix for tests specifies the probability of a virtual user running a specific test in a load test scenario.
 
  When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.

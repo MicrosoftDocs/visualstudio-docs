@@ -112,7 +112,7 @@ ms.workload:
 
  For an example that shows how to create a new contact, see [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md). For an example that shows how to search for an existing contact, see [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md).
 
-##  <a name="refdoc"></a> Use the Outlook object model documentation
+## <a name="refdoc"></a> Use the Outlook object model documentation
  For complete information about the Outlook object model, you can refer to the Outlook primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference

@@ -32,7 +32,7 @@ ms.workload:
 
   For more information about <xref:Microsoft.Office.Tools.Word.Bookmark> controls, see [Bookmark control](../vsto/bookmark-control.md).
 
-##  <a name="designtime"></a> Add Bookmark controls at Design Time
+## <a name="designtime"></a> Add Bookmark controls at Design Time
  There are several ways to add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to the document in a document-level project at design time:
 
 - From the Visual Studio **Toolbox**.
@@ -71,7 +71,7 @@ ms.workload:
 
 3. In the **Bookmark** dialog box, type the name of the new bookmark, and click **Add**.
 
-##  <a name="runtimedoclevel"></a> Add Bookmark controls at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Add Bookmark controls at runtime in a document-level project
  You can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. There are two method overloads that you can use to add a <xref:Microsoft.Office.Tools.Word.Bookmark> control in the following ways:
 
 - Add a <xref:Microsoft.Office.Tools.Word.Bookmark> at a specified range.
@@ -90,7 +90,7 @@ ms.workload:
     > [!NOTE]
     >  If you want create a <xref:Microsoft.Office.Tools.Word.Bookmark> control from an existing <xref:Microsoft.Office.Interop.Word.Bookmark>, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method and pass in the existing <xref:Microsoft.Office.Interop.Word.Bookmark>.
 
-##  <a name="runtimeaddin"></a> Add Bookmark controls at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Add Bookmark controls at runtime in a VSTO Add-in project
  You can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls programmatically to any open document at runtime by using a VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. There are two method overloads that you can use to add a <xref:Microsoft.Office.Tools.Word.Bookmark> control in the following ways:
 
 - Add a <xref:Microsoft.Office.Tools.Word.Bookmark> at a specified range.

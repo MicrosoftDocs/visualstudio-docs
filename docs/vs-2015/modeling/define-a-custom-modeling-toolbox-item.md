@@ -28,7 +28,7 @@ To make it easy to create an element or group of elements according to a pattern
 > [!NOTE]
 >  You can use this method to create element tools. That is, you can create tools that you drag from the toolbox onto a diagram. You cannot create connector tools.  
   
-##  <a name="DefineTool"></a> Defining a Custom Modeling Tool  
+## <a name="DefineTool"></a> Defining a Custom Modeling Tool  
   
 #### To define a custom modeling tool  
   
@@ -77,7 +77,7 @@ To make it easy to create an element or group of elements according to a pattern
   
 - Connector routing. If you route connectors manually, the routing will not be preserved when your tool is used. The positions of some nested shapes, such as Ports, are not preserved relative to their owners.  
   
-##  <a name="tbxinfo"></a> How to Define the Properties of Custom Tools  
+## <a name="tbxinfo"></a> How to Define the Properties of Custom Tools  
  A toolbox information (**.tbxinfo**) file allows you to specify a toolbox name, icon, tooltip, tab, and help keyword for one or more custom tools. Give it any name, such as **MyTools.tbxinfo**.  
   
  The general form of the file is as follows:  
@@ -132,7 +132,7 @@ To make it easy to create an element or group of elements according to a pattern
 > [!NOTE]
 >  If you start to use a .tbxinfo file after experimenting with using diagram files on their own, you might find that the toolbox contains both the old and the new versions of a toolbox item. This can also occur if the name of the diagram file was mistyped in the .tbxinfo file. If this occurs, on the shortcut menu of the toolbox choose **Reset Toolbox**. The custom toolbox items will disappear. Restart Visual Studio, and the correct custom items will appear.  
   
-##  <a name="Extension"></a> How to Distribute Toolbox Items in a Visual Studio Extension  
+## <a name="Extension"></a> How to Distribute Toolbox Items in a Visual Studio Extension  
  You can distribute toolbox items to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
   
  The usual way to build a Visual Studio extension is to use the VSIX project template. To do this, you must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].  

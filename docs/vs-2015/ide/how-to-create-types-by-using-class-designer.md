@@ -30,7 +30,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
 - [Apply a custom attribute to a type member](#CustAttributeMember)  
   
-##  <a name="CreateType"></a> Create a new type  
+## <a name="CreateType"></a> Create a new type  
   
 1. In the Toolbox, under Class Designer, drag one of these onto a class diagram:  
   
@@ -69,7 +69,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
      See [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
   
-##  <a name="CustAttributeType"></a> Apply a custom attribute to a type  
+## <a name="CustAttributeType"></a> Apply a custom attribute to a type  
   
 1. Click the type's shape on a class diagram.  
   
@@ -79,7 +79,7 @@ To design new types for Visual C# .NET and Visual Basic .NET projects, create th
   
      When you're done, the custom attributes are applied to the type.  
   
-##  <a name="CustAttributeMember"></a> Apply a custom attribute to a type member  
+## <a name="CustAttributeMember"></a> Apply a custom attribute to a type member  
   
 1. Click the member's name in its type's shape on a class diagram, or its row in the Class Details window.  
   

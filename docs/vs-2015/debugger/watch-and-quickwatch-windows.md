@@ -106,7 +106,7 @@ static void Main(string[] args)
   
  ![WatchExpressionError](../debugger/media/watchexpressionerror.png "WatchExpressionError")  
   
-##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
+## <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
  In certain circumstances you might see a refresh icon (a circle with two arrows, or a circle with two wavy lines) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and you have the following code:  
   
 ```csharp  
@@ -137,7 +137,7 @@ static void Main(string[] args)
   
   If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
   
-##  <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
+## <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
  Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating the following expression changes the value of `var1`:  
   
 ```  

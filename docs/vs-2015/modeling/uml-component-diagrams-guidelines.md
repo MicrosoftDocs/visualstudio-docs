@@ -35,7 +35,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
   You can use a component diagram to represent your design regardless of what language or platform the design uses or will use.  
   
-##  <a name="OtherDiagrams"></a> Relationship to Other Diagrams  
+## <a name="OtherDiagrams"></a> Relationship to Other Diagrams  
  You can use a component diagram in conjunction with other diagrams.  
   
 |Other diagram|Helps you discuss and communicate these aspects of your design|  
@@ -45,7 +45,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
 |Activity Diagrams|-   The internal processing performed by a component in response to incoming messages.<br /><br /> For more information, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).|  
 |Layer Diagrams|-   Logical architectural tiers for your components.<br /><br /> For more information, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md).|  
   
-##  <a name="Basics"></a> Basic Steps for Drawing Component Diagrams  
+## <a name="Basics"></a> Basic Steps for Drawing Component Diagrams  
  For reference information about the elements on component diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md).  
   
  For more information about how to use component diagrams in the process of design, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
@@ -155,7 +155,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
     3. If you wanted to create a required interface, click the Action tag and then click **Convert to Required Interface**.  
   
-##  <a name="Parts"></a> Showing the Internal Parts of a Component  
+## <a name="Parts"></a> Showing the Internal Parts of a Component  
  ![Component diagram showing internal parts](../modeling/media/uml-compshowing.png "UML_CompShowing")  
   
  You can place parts (3) in a component (1) to show how it is composed of smaller components that interact with one another.  
@@ -249,7 +249,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
      You can now add parts inside it.  
   
-##  <a name="Designing"></a> Designing the Component  
+## <a name="Designing"></a> Designing the Component  
   
 ### Describing How the Parts Collaborate  
  You can draw a sequence diagram to show how the parts work together in response to a message that arrives at the parent component.  

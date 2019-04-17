@@ -38,7 +38,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 - You can view code maps and make limited edits to code maps in Visual Studio Professional.  
   
-##  <a name="ManageLargeGraphs"></a> Get started working with code maps  
+## <a name="ManageLargeGraphs"></a> Get started working with code maps  
  Create a code map (see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more details). If you don't want to wait for the map to finish generating, click the **Cancel** link at any time to stop the generation process. However, you will not see the details of all dependencies and links if you do this.  
   
  After you generate the map, get started with these tips for reviewing your code:  
@@ -53,7 +53,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 - Maximize the performance of large maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more information.For example, turn on **Skip Build** on the map toolbar so that Visual Studio doesn't rebuild your solution when you update items on the map.  
   
-##  <a name="Selecting"></a> Change the map layout  
+## <a name="Selecting"></a> Change the map layout  
   
 |**To**|**Perform these steps**|  
 |------------|-----------------------------|  
@@ -64,7 +64,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Change the layout inside a group independently of the other nodes and groups on the map.|Select a node and open the shortcut menu. Choose **Layout** and select a layout style.<br /><br /> - or -<br /><br /> Select a node and expand it to show the child nodes. Click the node title to show group pop-up toolbar, and open the **Change the layout style of the group**![Dependency graph &#45; group toolbar &#45; layout](../modeling/media/dependencygraph-grouptoolbar.gif "DependencyGraph_GroupToolbar") list. Select one of the tree layouts, **Quick Clusters**, or **List View** (which arranges the group's contents into a list).<br /><br /> See [Group nodes](#OrganizeGroups) for more details.|  
 |Undo an action in the map.|Press **CTRL** + **Z** or use the Visual Studio **Undo** command.|  
   
-##  <a name="Explore"></a> Browse the map  
+## <a name="Explore"></a> Browse the map  
   
 |**To**|**Perform these steps**|  
 |------------|-----------------------------|  
@@ -76,7 +76,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Select all unselected nodes.|Open the shortcut menu for the selected nodes. Choose **Select**, **Invert Selection**.|  
 |Select additional nodes that link to the selected ones.|Open the shortcut menu for the selected nodes. Choose **Select** and one of these:<br /><br /> -   To select additional nodes that link directly to the selected node, choose **Incoming Dependencies**.<br />-   To select additional nodes that link directly from the selected node, choose **Outgoing Dependencies**.<br />-   To select additional nodes that link directly to and from the selected node, choose **Both**.<br />-   To select all nodes that link to and from the selected node, choose **Connected Subgraph**.<br />-   To select all children of the selected node, choose **Children**.|  
   
-##  <a name="FilterNodes"></a> Filter nodes and links  
+## <a name="FilterNodes"></a> Filter nodes and links  
   
 |**To**|**Perform these steps**|  
 |------------|-----------------------------|  
@@ -87,7 +87,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
  The icons shown in the Legend panel of the map reflect the settings you make in the list. To show or hide the Legend panel, click the **Legend** button on the code map toolbar.  
   
-##  <a name="Inspect"></a> Examine nodes and links  
+## <a name="Inspect"></a> Examine nodes and links  
  Code maps show these kinds of links:  
   
 - An individual link represents a single relationship between two nodes.  
@@ -108,7 +108,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Examine dependencies across multiple nodes in different groups.|Expand the groups so you can see all their children. Select all the nodes that interest you, including their children. The map shows the cross-group links between the selected nodes.<br /><br /> To select all nodes in a group, press and hold **SHIFT** and the left mouse button while you draw a rectangle around that group. To select all nodes on a map, press **CTRL**+**A**. **Tip:**  To show cross-group links at all times, choose **Layout** on the map toolbar, **Advanced**, **Show All Cross-Group Links**.|  
 |See the items that a node or link references.|Open the shortcut menu for the node and choose **Find All References**. **Note:**  This applies only when the `Reference` attribute is set for the node or link in the map's .dgml file. To add references to items from nodes or links, see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).|  
   
-##  <a name="HidingShowing"></a> Hide or show nodes and links  
+## <a name="HidingShowing"></a> Hide or show nodes and links  
  Hiding nodes keeps them from participating in layout algorithms. By default, cross-group links are hidden. Cross-group links are individual links that connect nodes across groups. When groups are collapsed, the map aggregates all cross-group links into single links between groups. When you expand a group and select nodes inside the group, cross-group links appear and show the dependencies in that group.  
   
 > [!CAUTION]
@@ -131,7 +131,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Show only cross-group links for selected nodes.|**Show Cross-Group Links On Selected Nodes**|  
 |Hide all links.|**Hide All Links**. To show links again, choose one of the options listed above.|  
   
-##  <a name="OrganizeGroups"></a> Group nodes  
+## <a name="OrganizeGroups"></a> Group nodes  
   
 |**To**|**Perform these steps**|  
 |------------|-----------------------------|  
@@ -143,7 +143,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Remove groups.|Select the group or groups that you want to remove. Open the shortcut menu for your selection and choose **Group**, **Remove Group**.|  
 |Remove nodes from their parent group.|Select the nodes that you want to move. Open the shortcut menu for your selection and choose **Group**, **Remove From Parent**. This removes nodes up to their grandparent, or to outside the group if they have no grandparent group.<br /><br /> - or -<br /><br /> Select the nodes and drag them out of the group.|  
   
-##  <a name="AddRemoveNodesLinks"></a> Add, remove, or rename nodes, links, and comments  
+## <a name="AddRemoveNodesLinks"></a> Add, remove, or rename nodes, links, and comments  
  You can display more or fewer items on a map in order to drill down or to simplify the map. You can also rename items, and add comments to items.  
   
 > [!CAUTION]
@@ -166,7 +166,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Code elements related to code elements on the map.|Click the **Show Related** button on the code map toolbar and choose the type of related items you are interested in.<br /><br /> - or -<br /><br /> Open the shortcut menu for the code element. Choose one of the **Show …** items on the menu depending on the kind of relationship that interests you. For example, you can see items that the current item references, items that reference the current item, base and derived types for classes, method callers, and the containing classes, namespaces, and assemblies.<br /><br /> For more details, see [this topic](../modeling/map-dependencies-across-your-solutions.md).|  
 |Compiled .NET assemblies (.dll or .exe) or binaries.|Drag the assemblies or binaries from outside Visual Studio to a map.<br /><br /> You can drag from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation.|  
   
-###  <a name="AddNodes"></a>   
+### <a name="AddNodes"></a>   
 ##### Add a link between existing code elements  
   
 1. Select the source code element. A toolbar appears above the code element.  
@@ -189,7 +189,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 8. Press **RETURN**.  
   
-###  <a name="AddComments"></a>   
+### <a name="AddComments"></a>   
 ##### Add a comment to an existing node on the map  
   
 1. Select the code element. A toolbar appears above it.  
@@ -210,7 +210,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 2. Type your comments. To type on a new line, press **SHIFT** + **RETURN**.  
   
-###  <a name="RenameNodes"></a>   
+### <a name="RenameNodes"></a>   
 ##### Rename a code element or link  
   
 1. Select the code element or the link you want to rename.  
@@ -249,7 +249,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 - Change the background color of the element or clear the follow-up flag by choosing **Edit**, **Other Flag Colors**.  
   
-##  <a name="ChangeStyleCodeOrLink"></a> Change the style of a code element or link  
+## <a name="ChangeStyleCodeOrLink"></a> Change the style of a code element or link  
  You can change the icons on code elements and the colors of code elements and links using predefined icons and colors. For example, you can choose a color to highlight code elements and links that have a certain category or property. This lets you identify and focus on specific areas of the map. You can specify custom icons and colors by editing the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
   
 #### To apply a predefined color or icon to code elements or links with a certain category or property  
@@ -286,7 +286,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
     > [!NOTE]
     >  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).  
   
-##  <a name="ModifyLegend"></a> Edit the Legend box  
+## <a name="ModifyLegend"></a> Edit the Legend box  
  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:  
   
 1. Open the shortcut menu for a style in the **Legend** box.  
@@ -300,7 +300,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
     |Move the style up|**Move Up**|  
     |Move the code element down|**Move Down**|  
   
-##  <a name="CopyLegend"></a> Copy styles from one map to another  
+## <a name="CopyLegend"></a> Copy styles from one map to another  
   
 1. Make sure the **Legend** box appears on the source map. If it is not visible, on the map toolbar, click **Legend**.  
   
@@ -308,7 +308,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 3. Paste the legend onto the target map.  
   
-##  <a name="MergeMaps"></a> Merge code maps  
+## <a name="MergeMaps"></a> Merge code maps  
  You can merge maps by copying and pasting code elements between maps. If the code element identifiers match, then pasting code elements functions like a merge operation. To make this task easier, put all the assemblies or binaries that you want to visualize in the same folder so that the full path of each assembly or binary is the same for each map that you want to merge.  
   
  Alternatively, you can drag those assemblies or binaries to the same map from that folder.  

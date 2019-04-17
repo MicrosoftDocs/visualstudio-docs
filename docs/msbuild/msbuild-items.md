@@ -110,7 +110,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
  An item can have zero or more metadata values. You can change metadata values at any time. If you set metadata to an empty value, you effectively remove it from the build.
 
-###  <a name="BKMK_ReferencingItemMetadata"></a> Reference item metadata in a project file
+### <a name="BKMK_ReferencingItemMetadata"></a> Reference item metadata in a project file
  You can reference item metadata throughout the project file by using the syntax %(\<ItemMetadataName>). If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify %(\<ItemType.ItemMetaDataName>).The following example uses the Display metadata to batch the Message task. For more information about how to use item metadata for batching, see [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md).
 
 ```xml
@@ -129,10 +129,10 @@ For more information about wildcard characters, see [How to: Select the files to
 </Project>
 ```
 
-###  <a name="BKMK_WellKnownItemMetadata"></a> Well-known item metadata
+### <a name="BKMK_WellKnownItemMetadata"></a> Well-known item metadata
  When an item is added to an item type, that item is assigned some well-known metadata. For example, all items have the well-known metadata %(\<Filename>), whose value is the file name of the item. For more information, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).
 
-###  <a name="BKMK_Transforming"></a> Transform item types by using metadata
+### <a name="BKMK_Transforming"></a> Transform item types by using metadata
  You can transform item lists into new item lists by using metadata. For example, you can transform an item type `CppFiles` that has items that represent *.cpp* files into a corresponding list of *.obj* files by using the expression `@(CppFiles -> '%(Filename).obj')`.
 
  The following code creates a `CultureResource` item type that contains copies of all `EmbeddedResource` items with `Culture` metadata. The `Culture` metadata value becomes the value of the new metadata `CultureResource.TargetDirectory`.
@@ -172,7 +172,7 @@ For more information about wildcard characters, see [How to: Select the files to
 ##  Attributes for items in an ItemGroup of a Target
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
 
-###  <a name="BKMK_RemoveAttribute"></a> Remove attribute
+### <a name="BKMK_RemoveAttribute"></a> Remove attribute
  The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5, but was only supported inside targets until MSBuild 15.0.
 
  The following example removes every *.config* file from the Compile item type.
@@ -185,7 +185,7 @@ For more information about wildcard characters, see [How to: Select the files to
 </Target>
 ```
 
-###  <a name="BKMK_KeepMetadata"></a> KeepMetadata attribute
+### <a name="BKMK_KeepMetadata"></a> KeepMetadata attribute
  If an item is generated within a target, the item element can contain the `KeepMetadata` attribute. If this attribute is specified, only the metadata that is specified in the semicolon-delimited list of names will be transferred from the source item to the target item. An empty value for this attribute is equivalent to not specifying it. The `KeepMetadata` attribute was introduced in the .NET Framework 4.5.
 
  The following example illustrates how to use the `KeepMetadata` attribute.
@@ -227,7 +227,7 @@ Output:
 -->
 ```
 
-###  <a name="BKMK_RemoveMetadata"></a> RemoveMetadata attribute
+### <a name="BKMK_RemoveMetadata"></a> RemoveMetadata attribute
  If an item is generated within a target, the item element can contain the `RemoveMetadata` attribute. If this attribute is specified, all metadata is transferred from the source item to the target item except metadata whose names are contained in the semicolon-delimited list of names. An empty value for this attribute is equivalent to not specifying it. The `RemoveMetadata` attribute was introduced in the .NET Framework 4.5.
 
  The following example illustrates how to use the `RemoveMetadata` attribute.
@@ -276,7 +276,7 @@ Output:
 -->
 ```
 
-###  <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
+### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
  If an item is generated within a target, the item element can contain the `KeepDuplicates` attribute. `KeepDuplicates` is a `Boolean` attribute that specifies whether an item should be added to the target group if the item is an exact duplicate of an existing item.
 
  If the source and target item have the same Include value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. An empty value for this attribute is equivalent to not specifying it. The `KeepDuplicates` attribute was introduced in the .NET Framework 4.5.

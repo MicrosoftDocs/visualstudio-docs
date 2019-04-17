@@ -46,7 +46,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
 - You must have [Visual Studio installed](https://visualstudio.microsoft.com/vs/older-downloads/) to view the detailed information about the error and to try to debug it. See [Using JIT](#BKMK_Using_JIT) for detailed instructions. If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
 
-##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging
+## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging
  You can enable or disable Just-In-Time debugging from the Visual Studio **Tools / Options** dialog box.
 
 #### To enable or disable Just-In-Time debugging

@@ -39,7 +39,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
  You can also define localized variants of a profile. Users loading your extension see the variant that is appropriate to their own culture.  
   
-##  <a name="DefineProfile"></a> How to Define a Profile  
+## <a name="DefineProfile"></a> How to Define a Profile  
   
 #### To define a UML Profile  
   
@@ -69,7 +69,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 6. Send the extension file to other users of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to install on their computers.  
   
-##  <a name="AddProfile"></a> How to Add a Profile to a Visual Studio Extension  
+## <a name="AddProfile"></a> How to Add a Profile to a Visual Studio Extension  
  To install a profile, and to allow you to send it to other users, you must add the profile to a Visual Studio extension. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
   
 #### To define a profile in a new Visual Studio Extension  
@@ -176,7 +176,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 3. To uninstall or temporarily disable the extension, open **Extensions and Updates** from the **Tools** menu.  
   
-##  <a name="Localized"></a> How to Define Localized Profiles  
+## <a name="Localized"></a> How to Define Localized Profiles  
  You can define different profiles for different cultures or languages, and package them all into the same extension. When a user loads your extension, they will see the profile that you have defined for their culture.  
   
  You must always provide a default profile. If you have not defined a profile for the user's culture, they will see the default profile.  
@@ -213,7 +213,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 7. Build the Visual Studio extension, either by building the Extension Project or compressing all the files, as described in the previous sections.  
   
-##  <a name="Schema"></a> The Structure of a Profile  
+## <a name="Schema"></a> The Structure of a Profile  
  The XSD file for UML profiles can be found in the following sample: [Setting Stereotypes and Profiles XSD](http://go.microsoft.com/fwlink/?LinkID=213811). To help you edit profile files, install the `.xsd` file in:  
   
  **%ProgramFiles%\Microsoft Visual Studio [version]\Xml\Schemas**  
@@ -329,7 +329,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 </stereotype>  
 ```  
   
-##  <a name="Elements"></a> Model Element Types  
+## <a name="Elements"></a> Model Element Types  
  The set of types for which you can define stereotypes is listed in [UML model element types](../modeling/uml-model-element-types.md).  
   
 ## Troubleshooting  

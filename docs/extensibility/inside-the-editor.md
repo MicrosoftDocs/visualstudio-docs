@@ -256,7 +256,7 @@ Embedded adornments are graphics that form part of the formatted text view. They
 
 Pop-up adornments are graphics that appear in a small window above the text view, for example, tooltips.
 
-###  <a name="projection"></a> Projection
+### <a name="projection"></a> Projection
 
 Projection is a technique for constructing a different kind of text buffer that does not actually store text, but instead combines text from other text buffers. For example, a projection buffer can be used to concatenate the text from two other buffers and present the result as if it is in just one buffer, or to hide parts of the text in one buffer. A projection buffer can act as a source buffer to another projection buffer. A set of buffers that are related by projection can be constructed to rearrange text in many different ways. (Such a set is also known as a *buffer graph*.) The Visual Studio text outlining feature is implemented by using a projection buffer to hide the collapsed text, and the Visual Studio editor for ASP.NET pages uses projection to support embedded languages such as Visual Basic and C#.
 

@@ -48,7 +48,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
  [Describing Control Structures with Fragments](#Fragments)  
   
-##  <a name="Using"></a> Using UML Sequence Diagrams  
+## <a name="Using"></a> Using UML Sequence Diagrams  
  You can use sequence diagrams for a variety of purposes at different levels of program detail. Typical occasions for drawing a sequence diagram are as follows:  
   
 - If you have a use case diagram that summarizes your system's users and their goals, you can draw sequence diagrams to describe how the main components of the system interact to fulfill the goal of each use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
@@ -73,7 +73,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 #### Use case details  
  A use case represents a user's goal, together with a sequence of steps for achieving the goal. The sequence of steps can be described in several ways. One option is to draw a sequence diagram that shows the interactions between the users and the system's major components. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
-##  <a name="BasicSteps"></a> Basic Steps for Drawing Sequence Diagrams  
+## <a name="BasicSteps"></a> Basic Steps for Drawing Sequence Diagrams  
  For a complete list of elements on sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md).  
   
 > [!NOTE]
@@ -163,7 +163,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
      Right-click the Interaction, and then click **Cut**. Right-click the Package, and then click **Paste**.  
   
-##  <a name="Simple"></a> Creating and Using Simple Sequence Diagrams  
+## <a name="Simple"></a> Creating and Using Simple Sequence Diagrams  
  The simplest and most widely-used form of sequence diagram contains just lifelines and messages. A diagram of this kind lets you show clearly a typical sequence of interactions between objects in your design, or between your system and its users. This is frequently enough to help you discuss and communicate your design.  
   
  Here are some things to consider when you draw a simple sequence diagram.  
@@ -250,7 +250,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 - Some lifelines seem to handle more than one kind of task. It should easy to find one succinct sentence that describes the responsibilities of each lifeline, summarizing the work it does in response to each message that it receives.  
   
-##  <a name="ClassesAndLifelines"></a> Classes and Lifelines  
+## <a name="ClassesAndLifelines"></a> Classes and Lifelines  
  The lifelines in your sequence diagrams show instances of classes or component interfaces. You can name a lifeline in two ways:  
   
 |**For this purpose**|**Use this format**|  
@@ -326,7 +326,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 ### Creating classes for parameters  
  You can include parameters in the messages on a sequence diagram. You can use a UML class diagram to describe the parameter types.  
   
-##  <a name="Multiple"></a> Creating Reusable Interaction Sequences  
+## <a name="Multiple"></a> Creating Reusable Interaction Sequences  
  You can use a separate diagram to describe a sequence that contains detail that you want to separate out, or that is common between several diagrams.  
   
  You can create an Interaction Use rectangle (12) on one diagram that points to the details in another diagram.  
@@ -385,7 +385,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 ### Creating a Placeholder with an Interaction Use  
  You can create an interaction use without linking it to another diagram. You can use this as a placeholder for a part of the sequence whose details are yet to be worked out. Use the name of the interaction use to indicate the outcome that you want.  
   
-##  <a name="Collapse"></a> Collapsing Groups of Lifelines  
+## <a name="Collapse"></a> Collapsing Groups of Lifelines  
  You can collapse a set of lifelines together, so that the group appears as one lifeline. This helps you visualize a group of objects as a single component. Messages and interaction uses between lifelines in a collapsed group are hidden. Messages and interaction sequences that include other lifelines are shown.  
   
 #### To collapse a group of lifelines together  
@@ -410,7 +410,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
     > [!NOTE]
     >  The name of the group will be lost, together with any links from the group to comments or work items.  
   
-##  <a name="Fragments"></a> Describing Control Structures with Fragments  
+## <a name="Fragments"></a> Describing Control Structures with Fragments  
  You can use combined fragments (13) to define loops, branches and concurrent processing in a sequence diagram. Alternatively, consider using an activity diagram instead. The activity diagram is not as useful at showing messages between actors, but in some cases is better at showing loops, branches, and concurrency.  
   
  For a full list of the types of fragment, see [Describe control flow with fragments on UML sequence diagrams](../modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md).  

@@ -36,7 +36,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
 > [!NOTE]
 >  There is another kind of diagram, the .NET class diagram, which is used to visualize program code. For more information, see [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
   
-##  <a name="CreatingModelingDiagrams"></a> Create a Diagram in a Modeling Project  
+## <a name="CreatingModelingDiagrams"></a> Create a Diagram in a Modeling Project  
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 #### To create a diagram and add it to a project  
@@ -95,7 +95,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 5. In the **Solution** box, select **Add to Solution** to add the new project to a solution you already have open; or **Create new Solution** to close any open solution and add the project to a new solution.  
   
-##  <a name="RemovingModelingDiagrams"></a> Removing Modeling Diagrams from a Project  
+## <a name="RemovingModelingDiagrams"></a> Removing Modeling Diagrams from a Project  
  You can permanently delete a diagram, or you can temporarily exclude a diagram from a project and then restore it.  
   
 #### To permanently delete a diagram from a project  
@@ -132,7 +132,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
     > [!NOTE]
     >  Each diagram has a pair of files in the file system. Do not select a file that has the extension `.layout`. Also, Visual Studio does not support adding existing UML diagrams to multiple modeling projects. Each diagram file must be opened within the modeling project in which it was created. This is because a UML diagram shows a view of a model that is owned by its modeling project.  
   
-##  <a name="NonModelDiagrams"></a> Diagrams that Do Not Require Modeling Projects  
+## <a name="NonModelDiagrams"></a> Diagrams that Do Not Require Modeling Projects  
  The following kinds of diagrams are not part of a modeling project:  
   
 - Class diagrams that are created as views of the source code. These are not related to UML class diagrams. For more information, see [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md).  
@@ -141,7 +141,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 - Diagrams that are not UML diagrams or layer diagrams, such as domain specific languages.  
   
-##  <a name="TroubleshootingModelingProjects"></a> Troubleshooting Modeling Projects and Diagrams  
+## <a name="TroubleshootingModelingProjects"></a> Troubleshooting Modeling Projects and Diagrams  
  The following table describes issues that can occur with modeling projects or diagrams and how to resolve them:  
   
 |**Issue**|**Causes**|**Resolution**|  

@@ -102,7 +102,7 @@ If you want to create one VSIX that contains commands, layer validators, and oth
 
 8. To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in File Explorer.
 
-##  <a name="command"></a> Defining a Menu Command
+## <a name="command"></a> Defining a Menu Command
 
 You can add more menu command definitions to an existing gesture or command project. Each command is defined by a class that has the following characteristics:
 
@@ -206,7 +206,7 @@ namespace MyLayerExtension // Change to your preference.
 }
 ```
 
-##  <a name="gesture"></a> Defining a Gesture Handler
+## <a name="gesture"></a> Defining a Gesture Handler
 
 A gesture handler responds when the user drags items onto the dependency diagram, and when the user double-clicks anywhere in the diagram.
 

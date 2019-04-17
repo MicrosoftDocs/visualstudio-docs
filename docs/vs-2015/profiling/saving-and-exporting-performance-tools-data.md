@@ -17,7 +17,7 @@ manager: jillfra
 
 This topic describes how to save and export performance data files.  
   
-##  <a name="BKMK_Save_Profiler_Data_Files_As_Analyzed_Report_Files"></a> How to: Save Performance Data Files As Analyzed Report Files  
+## <a name="BKMK_Save_Profiler_Data_Files_As_Analyzed_Report_Files"></a> How to: Save Performance Data Files As Analyzed Report Files  
  You can save filtered or unfiltered views of profiling data (.vsp) files as analyzed report (.vsps) files. An analyzed report file can be viewed in the Report view window and is significantly smaller than the original .vsp file. However, you cannot apply a filter to the data of a .vsps file. You can create an analyzed report file from the Performance Explorer without opening the file in the integrated development environment (IDE), or you can open and filter the .vsp file and then save the results.  
   
 #### To save an analyzed performance report from the Performance Explorer  

@@ -23,7 +23,7 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-##  <a name="createSimpleMathVSIX"></a> To create the SimpleMathVSIX extension SDK project  
+## <a name="createSimpleMathVSIX"></a> To create the SimpleMathVSIX extension SDK project  
   
 1. On the menu bar, choose **File**, **New**, **Project**.  
   
@@ -134,7 +134,7 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 21. Restart Visual Studio.  
   
-##  <a name="createSampleApp"></a> To create a sample app that uses the SDK  
+## <a name="createSampleApp"></a> To create a sample app that uses the SDK  
   
 1. On the menu bar, choose **File**, **New**, **Project**.  
   

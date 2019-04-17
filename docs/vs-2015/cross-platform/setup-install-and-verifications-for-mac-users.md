@@ -34,7 +34,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 - [Verify your environment](#verify)  
   
-##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
+## <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
   
 1. Create a free Apple ID at [My Apple ID](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
   
@@ -44,7 +44,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 4. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
   
-##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)  
+## <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)  
   
 1. Using the Windows desktop that you’ve configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.  
   
@@ -71,7 +71,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 6. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.  
   
-##  <a name="verify"></a> Verify your environment  
+## <a name="verify"></a> Verify your environment  
  Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.  
   
 ### Xamarin Studio  

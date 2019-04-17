@@ -29,7 +29,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
 ## Command structures
 
-###  <a name="BKMK_CommandMenus"></a> Menus
+### <a name="BKMK_CommandMenus"></a> Menus
  Menus can occur at several places within Visual Studio: the main menu bar, embedded in document or tool windows, or on right-click in various locations throughout the IDE. Implementations of menus associated with other UI elements are discussed in the section for the respective element. You should always use the standard menu implementation provided by the Visual Studio environment. However, in some rare instances you might not have access to the standard Visual Studio menus. In these situations, use the following token names to ensure that your UI is consistent with other menus in Visual Studio.
 
  ![Menus redline](../../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303-000_MenuRedline")
@@ -545,7 +545,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
   N/A
 
-####  <a name="BKMK_CommandComboBox"></a> Combo box
+#### <a name="BKMK_CommandComboBox"></a> Combo box
 
 > [!IMPORTANT]
 >  Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens found under [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown).
@@ -792,7 +792,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
   `Environment.ComboBoxDisabledGlyph`
 
-####  <a name="BKMK_CommandDropDown"></a> Drop-down
+#### <a name="BKMK_CommandDropDown"></a> Drop-down
 
 > [!IMPORTANT]
 >  Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens found under [Combo box](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).
@@ -2901,7 +2901,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 
  `Environment.ScrollBarArrowGlyphPressed`
 
-###  <a name="BKMK_TreeView"></a> Tree view
+### <a name="BKMK_TreeView"></a> Tree view
  Several tool windows, including the Solution Explorer, Server Explorer, and Class View, implement a hierarchical organizational scheme whose colors are controlled by color names in the TreeView category. All items in a tree view have background and text colors. Items that have nested child elements also have glyphs that indicate whether the item is expanded or collapsed.
 
  ![Tree view redline](../../extensibility/ux-guidelines/media/0303-147-treeviewredline.png "0303-147_TreeViewRedline")

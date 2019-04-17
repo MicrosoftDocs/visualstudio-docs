@@ -18,7 +18,7 @@ This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTest
 
 Header and lib paths are automatically configured in a Native Test project.
 
-##  <a name="In_this_topic"></a> In this topic
+## <a name="In_this_topic"></a> In this topic
  [CppUnitTest.h](#cppUnitTest_h)
 
 - [Create test classes and methods](#create_test_classes_and_methods)
@@ -89,9 +89,9 @@ Header and lib paths are automatically configured in a Native Test project.
 
   - [Usage Example](#example)
 
-##  <a name="cppUnitTest_h"></a> CppUnitTest.h
+## <a name="cppUnitTest_h"></a> CppUnitTest.h
 
-###  <a name="create_test_classes_and_methods"></a> Create test classes and methods
+### <a name="create_test_classes_and_methods"></a> Create test classes and methods
 
 ```cpp
 TEST_CLASS(className)
@@ -108,9 +108,9 @@ TEST_METHOD(methodName)
 
  Defines *methodName* as a test method. `TEST_METHOD` must be declared in the scope of the method's class.
 
-###  <a name="Initialize_and_cleanup"></a> Initialize and cleanup
+### <a name="Initialize_and_cleanup"></a> Initialize and cleanup
 
-####  <a name="test_methods"></a> Test methods
+#### <a name="test_methods"></a> Test methods
 
 ```cpp
 TEST_METHOD_INITIALIZE(methodName)
@@ -130,7 +130,7 @@ TEST_METHOD_CLEANUP(methodName)
 
  Defines *methodName* as a method that runs after each test method is run. `TEST_METHOD_CLEANUP` can only be defined once in a test class and must be defined in the scope of the test class.
 
-####  <a name="test_classes"></a> Test classes
+#### <a name="test_classes"></a> Test classes
 
 ```cpp
 TEST_CLASS_INITIALIZE(methodName)
@@ -150,7 +150,7 @@ TEST_CLASS_CLEANUP(methodName)
 
  Defines *methodName* as a method that runs after each test class is created. `TEST_CLASS_CLEANUP` can only be defined once in a test class and must be defined in the scope of the test class.
 
-####  <a name="test_modules"></a> Test modules
+#### <a name="test_modules"></a> Test modules
 
 ```cpp
 TEST_MODULE_INITIALIZE(methodName)
@@ -167,9 +167,9 @@ TEST_MODULE_CLEANUP(methodName)
 
  Defines the method *methodName* that runs when a module is unloaded. `TEST_MODULE_CLEANUP` can only be defined once in a test module and must be declared at namespace scope.
 
-###  <a name="create_test_attributes"></a> Create test attributes
+### <a name="create_test_attributes"></a> Create test attributes
 
-####  <a name="test_method_attributes"></a> Test method attributes
+#### <a name="test_method_attributes"></a> Test method attributes
 
 ```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(testMethodName)
@@ -182,7 +182,7 @@ END_TEST_METHOD_ATTRIBUTE()
 
  A `TEST_METHOD_ATTRIBUTE` macro defines an attribute with the name *attributeName* and the value *attributeValue*.
 
-####  <a name="test_class_attributes"></a> Test class attributes
+#### <a name="test_class_attributes"></a> Test class attributes
 
 ```cpp
 BEGIN_TEST_CLASS_ATTRIBUTE(testClassName)
@@ -195,7 +195,7 @@ END_TEST_CLASS_ATTRIBUTE()
 
  A `TEST_CLASS_ATTRIBUTE` macro defines an attribute with the name *attributeName* and the value *attributeValue*.
 
-####  <a name="test_module_attributes"></a> Test module attributes
+#### <a name="test_module_attributes"></a> Test module attributes
 
 ```cpp
 BEGIN_TEST_MODULE_ATTRIBUTE(testModuleName)
@@ -208,7 +208,7 @@ END_TEST_MODULE_ATTRIBUTE()
 
  A `TEST_MODULE_ATTRIBUTE` macro defines an attribute with the name *attributeName* and the value *attributeValue*.
 
-####  <a name="pre_defined_attributes"></a> Pre-defined attributes
+#### <a name="pre_defined_attributes"></a> Pre-defined attributes
  These pre-defined attribute macros can be substituted for the macros `TEST_METHOD_ATTRIBUTE`, `TEST_CLASS_ATTRIBUTE`, OR `TEST_MODULE_ATTRIBUTE` described above.
 
 ```cpp
@@ -241,11 +241,11 @@ TEST_IGNORE()
 
  Defines an attribute with the name `Ignore` and the attribute value of `true`.
 
-##  <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
+## <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
 
-###  <a name="general_asserts"></a> General Asserts
+### <a name="general_asserts"></a> General Asserts
 
-####  <a name="general_are_equal"></a> Are Equal
+#### <a name="general_are_equal"></a> Are Equal
  Verify that two objects are equal
 
 ```cpp
@@ -301,7 +301,7 @@ static void Assert::AreEqual(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_not_equal"></a> Are Not Equal
+#### <a name="general_are_not_equal"></a> Are Not Equal
  Verify that two doubles are not equal
 
 ```cpp
@@ -357,7 +357,7 @@ static void Assert::AreNotEqual(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_same"></a> Are Same
+#### <a name="general_are_same"></a> Are Same
  Verify that two references refer to the same object instance (identity).
 
 ```cpp
@@ -369,7 +369,7 @@ static void Assert::AreSame(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_not_same"></a> Are Not Same
+#### <a name="general_are_not_same"></a> Are Not Same
  Verify that two references do not refer to the same object instance (identity).
 
 ```cpp
@@ -381,7 +381,7 @@ static void Assert::AreNotSame (
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_null"></a> Is Null
+#### <a name="general_is_null"></a> Is Null
  Verify that a pointer is NULL.
 
 ```cpp
@@ -392,7 +392,7 @@ static void Assert::IsNull(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_not_null"></a> Is Not Null
+#### <a name="general_is_not_null"></a> Is Not Null
  Verify that a pointer is not NULL
 
 ```cpp
@@ -403,7 +403,7 @@ static void Assert::IsNotNull(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_True"></a> Is True
+#### <a name="general_is_True"></a> Is True
  Verify that a condition is true
 
 ```cpp
@@ -413,7 +413,7 @@ static void Assert::IsTrue(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_false"></a> Is False
+#### <a name="general_is_false"></a> Is False
  Verify that a condition is false
 
 ```cpp
@@ -423,7 +423,7 @@ static void Assert::IsFalse(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_Fail"></a> Fail
+#### <a name="general_Fail"></a> Fail
  Force the test case result to be failed
 
 ```cpp
@@ -432,9 +432,9 @@ static void Assert::Fail(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-###  <a name="winrt_asserts"></a> Windows Runtime Asserts
+### <a name="winrt_asserts"></a> Windows Runtime Asserts
 
-####  <a name="winrt_are_equal"></a> Are Equal
+#### <a name="winrt_are_equal"></a> Are Equal
  Verifies that two Windows Runtime pointers are equal.
 
 ```cpp
@@ -457,7 +457,7 @@ static void Assert::AreEqual(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_same"></a> Are Same
+#### <a name="winrt_are_same"></a> Are Same
  Verifies that two Windows Runtime references reference the same object.
 
 ```cpp
@@ -469,7 +469,7 @@ static void Assert::AreSame(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_not_equal"></a> Are Not Equal
+#### <a name="winrt_are_not_equal"></a> Are Not Equal
  Verifies that two Windows Runtime pointers are not equal.
 
 ```cpp
@@ -492,7 +492,7 @@ static void Assert::AreNotEqual(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_not_same"></a> Are Not Same
+#### <a name="winrt_are_not_same"></a> Are Not Same
  Verifies that two Windows Runtime references do not reference the same object.
 
 ```cpp
@@ -504,7 +504,7 @@ static void Assert::AreNotSame(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_is_null"></a> Is Null
+#### <a name="winrt_is_null"></a> Is Null
  Verifies that a Windows Runtime pointer is a nullptr.
 
 ```cpp
@@ -515,7 +515,7 @@ static void Assert::IsNull(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_is_not_null"></a> Is Not Null
+#### <a name="winrt_is_not_null"></a> Is Not Null
  Verifies that a Windows Runtime pointer is not a nullptr.
 
 ```cpp
@@ -526,9 +526,9 @@ static void Assert::IsNotNull(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-###  <a name="exception_asserts"></a> Exception Asserts
+### <a name="exception_asserts"></a> Exception Asserts
 
-####  <a name="expect_exception"></a> Expect Exception
+#### <a name="expect_exception"></a> Expect Exception
  Verify that a function raises an exception:
 
 ```cpp
@@ -549,12 +549,12 @@ template<typename _EXPECTEDEXCEPTION, typename _RETURNTYPE>
     const __LineInfo* pLineInfo = NULL)
 ```
 
-##  <a name="cppunittestlogger_h"></a> CppUnitTestLogger.h
+## <a name="cppunittestlogger_h"></a> CppUnitTestLogger.h
 
-###  <a name="logger"></a> Logger
+### <a name="logger"></a> Logger
  The Logger class contains static methods to write to the **Output Window**.
 
-###  <a name="write_message"></a> Write Message
+### <a name="write_message"></a> Write Message
 Write a string to the **Output Window**
 
 ```cpp

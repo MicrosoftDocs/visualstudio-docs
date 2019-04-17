@@ -25,14 +25,14 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 - Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace
 
-##  <a name="SetUpBuild"></a> Step 1: Include build information with your release
+## <a name="SetUpBuild"></a> Step 1: Include build information with your release
  Set up your build process to create a build manifest (*BuildInfo.config* file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.
 
-###  <a name="AutomatedBuild"></a> Create the build manifest for an automated build using Team Foundation Server
+### <a name="AutomatedBuild"></a> Create the build manifest for an automated build using Team Foundation Server
 
  Follow these steps whether you use Team Foundation Version Control or Git.
 
-####  <a name="TFS2017"></a> Azure DevOps and Team Foundation Server 2017
+#### <a name="TFS2017"></a> Azure DevOps and Team Foundation Server 2017
 
 Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
 
@@ -40,7 +40,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 * If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 
-####  <a name="TFS2013"></a> Team Foundation Server 2013
+#### <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
 
 1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts)
@@ -85,7 +85,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     Go to [Step 2: Release your app](#DeployRelease)
 
-####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 or 2010
+#### <a name="TFS2012_2010"></a> Team Foundation Server 2012 or 2010
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.
 
 1. Install Visual Studio 2013 (any edition) on your Team Foundation build server.
@@ -110,7 +110,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     Go to [Step 2: Release your app](#DeployRelease)
 
-###  <a name="ManualBuild"></a> Create the build manifest for a manual build using Visual Studio
+### <a name="ManualBuild"></a> Create the build manifest for a manual build using Visual Studio
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.
 
 1. In **Solution Explorer**, unload your web project.
@@ -137,7 +137,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     Go to [Step 2: Release your app](#DeployRelease)
 
-###  <a name="MSBuild"></a> Create the build manifest for a manual build using MSBuild.exe
+### <a name="MSBuild"></a> Create the build manifest for a manual build using MSBuild.exe
  Add these build arguments when you run a build:
 
  **/p:GenerateBuildInfoConfigFile=True**
@@ -146,7 +146,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
  **/p:BuildSymbolStorePath=**\<*path to symbols*>
 
-##  <a name="DeployRelease"></a> Step 2: Release your app
+## <a name="DeployRelease"></a> Step 2: Release your app
  If you use the [Web.Deploy package](https://msdn.microsoft.com/library/dd394698.aspx) that was created by your build process to deploy your app, the build manifest is automatically renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on your web server.
 
  If you use other methods to deploy your app, make sure that the build manifest is renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on the web server.
@@ -154,7 +154,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 ## Step 3: Monitor your app
  Set up application performance monitoring on your web server so that you can monitor your app for problems, record diagnostic events, and save those events to an IntelliTrace log file. See [Monitor your release for deployment problems](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
-##  <a name="InvestigateEvents"></a> Step 4: Find the problem
+## <a name="InvestigateEvents"></a> Step 4: Find the problem
  You'll need Visual Studio Enterprise on your development computer or another computer to review the recorded events and debug your code using IntelliTrace. You can also use tools like CodeLens, debugger maps, and code maps to help you diagnose the problem.
 
 ### Open the IntelliTrace log and matching solution
@@ -227,7 +227,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
 
-###  <a name="WhatElse"></a> What else can I do from here?
+### <a name="WhatElse"></a> What else can I do from here?
 
 - [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests - all without leaving the editor - use the CodeLens indicators in the editor.
 
@@ -239,14 +239,14 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      ![Map the call stack while debugging](../debugger/media/ffr_itsummarypageperformancedebuggermap.png "FFR_ITSummaryPagePerformanceDebuggerMap")
 
-###  <a name="FAQ"></a> Q & A
+### <a name="FAQ"></a> Q & A
 
-####  <a name="WhyInclude"></a> Q: Why include information about my project, source control, build, and symbols with my release?
+#### <a name="WhyInclude"></a> Q: Why include information about my project, source control, build, and symbols with my release?
  Visual Studio uses this information to find the matching solution and source for the release that you're trying to debug. After you open the IntelliTrace log and select an event to start debugging, Visual Studio uses symbols to find and show you the code where the event happened. You can then look at the values that were recorded and move forwards or backwards through your code's execution.
 
  If you're using TFS and this information isn't in the build manifest (BuildInfo.config file), Visual Studio looks for the matching source and symbols on your currently connected TFS. If Visual Studio can't find the correct TFS or matching source, you're prompted to choose a different TFS.
 
-####  <a name="InvalidConfigFile"></a> Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?
+#### <a name="InvalidConfigFile"></a> Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?
  This might happen when you deploy from your development computer or you're not connected to TFS during deployment.
 
 1. Go to your project's deployment folder.
@@ -350,12 +350,12 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
     </Build>
     ```
 
-####  <a name="IneligibleWorkspace"></a> Q: Why does Visual Studio say my selected workspace is ineligible?
+#### <a name="IneligibleWorkspace"></a> Q: Why does Visual Studio say my selected workspace is ineligible?
  **A:** The selected workspace doesn't have any mappings between the source control folder and a local folder. To create a mapping for this workspace, choose **Manage**. Otherwise, choose an already mapped workspace or create a new workspace.
 
  ![Open from source control with no mapped workspace](../debugger/media/ffr_openprojectfromsourcecontrol_notmapped.png "FFR_OpenProjectFromSourceControl_NotMapped")
 
-####  <a name="ChooseTeamProject"></a> Q: Why can't I continue until I choose a team collection or a different collection?
+#### <a name="ChooseTeamProject"></a> Q: Why can't I continue until I choose a team collection or a different collection?
  **A:** This might happen for any of these reasons:
 
 - Visual Studio isn't connected to TFS.
@@ -372,10 +372,10 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      ![Open from source control &#45; migrated](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")
 
-####  <a name="WhatWorkspace"></a> Q: What's a workspace?
+#### <a name="WhatWorkspace"></a> Q: What's a workspace?
  **A:** Your [workspace stores a copy of the source](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.
 
-####  <a name="UntrustedSymbols"></a> Q: Why do I get this message about untrusted symbols?
+#### <a name="UntrustedSymbols"></a> Q: Why do I get this message about untrusted symbols?
  ![Debug with untrusted symbols path?](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")
 
  **A:** This message appears when the symbols path in the build manifest file (\<*ProjectName*>.BuildInfo.config) isn't included in the list of trusted symbol paths. You can add the path to the symbols path list in the debugger options.

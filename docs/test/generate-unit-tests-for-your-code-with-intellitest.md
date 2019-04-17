@@ -123,7 +123,7 @@ Specify the general relationship between inputs and outputs that you want the ge
 
  If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.
 
-###  <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
+### <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 

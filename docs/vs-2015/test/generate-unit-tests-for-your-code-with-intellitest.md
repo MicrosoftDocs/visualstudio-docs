@@ -79,7 +79,7 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
 ### Specify: Use IntelliTest to validate correctness properties that you specify in code  
  Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.  
   
-##  <a name="QandALink"></a> Q & A  
+## <a name="QandALink"></a> Q & A  
   
 ### Q: Can you use IntelliTest for unmanaged code?  
  **A:** No, IntelliTest only works with managed code.  
@@ -111,7 +111,7 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
   
  If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.  
   
-###  <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?  
+### <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?  
  **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.  
   
  ![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png "PEXCreateIntelliTest")  

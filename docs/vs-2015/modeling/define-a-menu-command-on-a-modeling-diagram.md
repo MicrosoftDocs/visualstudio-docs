@@ -160,7 +160,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 
          **Project** = *Your class library project*  
 
-##  <a name="Implementing"></a> Implementing the Menu Command  
+## <a name="Implementing"></a> Implementing the Menu Command  
  The menu command class implements the required methods for <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.  
 
 |||  
@@ -203,7 +203,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
  However, you should be aware that the model store is not thread safe. You should always use the user interface (UI) thread to make updates, and if it is possible, prevent the user from making edits while the background operation is in progress. For an example, see [Update a UML model from a background thread](../modeling/update-a-uml-model-from-a-background-thread.md).  
 
-##  <a name="Executing"></a> Executing the Menu Command  
+## <a name="Executing"></a> Executing the Menu Command  
  For test purposes, execute your command in debug mode.  
 
 #### To test the menu command  
@@ -234,7 +234,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
     - The type of model diagram that you are using (UML class, sequence, and so on) is listed as one of the menu command class attributes `[ClassDesignerExtension]`, `[SequenceDesignerExtension]` and so on.  
 
-##  <a name="Installing"></a> Installing and uninstalling an extension  
+## <a name="Installing"></a> Installing and uninstalling an extension  
  You can install a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension both on your own computer and on other computers.  
 
 #### To install an extension  
@@ -267,7 +267,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
    *%LocalAppData%* **\Local\Microsoft\VisualStudio\\[version]\Extensions**  
 
-##  <a name="MenuExample"></a> Example  
+## <a name="MenuExample"></a> Example  
  The following example shows the code for a menu command that will interchange the names of two elements on a class diagram. This code must be built in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension project and installed as described in the previous sections.  
 
 ```  

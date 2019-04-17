@@ -35,7 +35,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
 |[Function Element](../ide/code-snippets-schema-reference.md#function)|[Object Element](../ide/code-snippets-schema-reference.md#object)|[Url Element](../ide/code-snippets-schema-reference.md#url)|  
 |[Header Element](../ide/code-snippets-schema-reference.md#header)|[Reference Element](../ide/code-snippets-schema-reference.md#reference)||  
   
-##  <a name="assembly"></a> Assembly Element  
+## <a name="assembly"></a> Assembly Element  
  Specifies the name of the assembly referenced by the code snippet.  
   
 > [!NOTE]
@@ -55,7 +55,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
   
  A text value is required. This text specifies the assembly that the code snippet references.  
   
-##  <a name="author"></a> Author Element  
+## <a name="author"></a> Author Element  
  Specifies the name of the snippet author. The **Code Snippets Manager** displays the name stored in the `Author` element of the code snippet.  
   
 ```xml  
@@ -71,7 +71,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
   
  A text value is required. This text specifies the author of the code snippet.  
   
-##  <a name="code"></a> Code Element  
+## <a name="code"></a> Code Element  
  Provides a container for short code blocks.  
   
  Two reserved words are available for use in the text of the `Code` element: `$end$` and `$selected$`. `$end$` marks the location to place the cursor after the code snippet is inserted. `$selected$` represents text selected in the document that is to be inserted into the snippet when it is invoked. For example, given a snippet that includes:  
@@ -140,7 +140,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the code, along with the literals and objects, that you can use when this code snippet is inserted into a project.  
   
-##  <a name="codesnippet"></a> CodeSnippet Element  
+## <a name="codesnippet"></a> CodeSnippet Element  
  Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.  
   
 ```xml  
@@ -164,7 +164,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[CodeSnippets Element](../ide/code-snippets-schema-reference.md#codesnippets)|Root element of the code snippet XML schema.|  
   
-##  <a name="codesnippets"></a> CodeSnippets Element  
+## <a name="codesnippets"></a> CodeSnippets Element  
  Groups [CodeSnippet Element](../ide/code-snippets-schema-reference.md#codesnippet)elements. The `CodeSnippets` element is the root element of the code snippet XML schema.  
   
 ```xml  
@@ -178,7 +178,7 @@ is a great color. I love Blue.
 |-------------------|-----------------|  
 |[CodeSnippet Element](../ide/code-snippets-schema-reference.md#codesnippet)|Optional element. Parent element for all code snippet data. There may be zero or more `CodeSnippet` elements in a `CodeSnippets` element.|  
   
-##  <a name="declarations"></a> Declarations Element  
+## <a name="declarations"></a> Declarations Element  
  Specifies the literals and objects that make up the parts of a code snippet that you can edit.  
   
 ```xml  
@@ -198,7 +198,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Snippet Element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|  
   
-##  <a name="default"></a> Default Element  
+## <a name="default"></a> Default Element  
  Specifies the default value of the literal or object for an IntelliSense Code Snippet.  
   
 ```xml  
@@ -215,7 +215,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the default value of the literal or object that fills the fields of the code snippet that you can edit.  
   
-##  <a name="description"></a> Description Element  
+## <a name="description"></a> Description Element  
  Specifies descriptive information about the contents of an IntelliSense Code Snippet.  
   
 ```xml  
@@ -230,7 +230,7 @@ is a great color. I love Blue.
   
  A text value is required. This text describes the code snippet.  
   
-##  <a name="function"></a> Function Element  
+## <a name="function"></a> Function Element  
  Specifies a function to execute when the literal or object receives focus in Visual Studio.  
   
 > [!NOTE]
@@ -249,7 +249,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies a function to execute when the literal or object field receives focus in Visual Studio.  
   
-##  <a name="header"></a> Header Element  
+## <a name="header"></a> Header Element  
  Specifies general information about the IntelliSense Code Snippet.  
   
 ```xml  
@@ -279,7 +279,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[CodeSnippet Element](../ide/code-snippets-schema-reference.md#codesnippet)|Parent element for all code snippet data.|  
   
-##  <a name="helpurl"></a> HelpUrl Element  
+## <a name="helpurl"></a> HelpUrl Element  
  Specifies a URL that provides more information about a code snippet.  
   
 > [!NOTE]
@@ -298,7 +298,7 @@ is a great color. I love Blue.
   
  A text value is optional. This text specifies the URL to visit for more information about a code snippet.  
   
-##  <a name="id"></a> ID Element  
+## <a name="id"></a> ID Element  
  Specifies a unique identifier for a `Literal` or `Object` element. No two literals or objects in the same code snippet can have the same text value in their `ID` elements.Literals and objects cannot contain an `ID` element with a value of end. The value `$end$` is reserved, and is used to mark the location to place the cursor after the code snippet is inserted.  
   
 ```xml  
@@ -315,7 +315,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the unique identifier for the object or literal.  
   
-##  <a name="import"></a> Import Element  
+## <a name="import"></a> Import Element  
  Specifies the imported namespaces used by an IntelliSense Code Snippet.  
   
 > [!NOTE]
@@ -336,7 +336,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Imports Element](../ide/code-snippets-schema-reference.md#imports)|Grouping element for **Import** elements.|  
   
-##  <a name="imports"></a> Imports Element  
+## <a name="imports"></a> Imports Element  
  Groups individual `Import` elements.  
   
 > [!NOTE]
@@ -356,7 +356,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Snippet Element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|  
   
-##  <a name="keyword"></a> Keyword Element  
+## <a name="keyword"></a> Keyword Element  
  Specifies a custom keyword for the code snippet. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization.  
   
 ```xml  
@@ -371,7 +371,7 @@ is a great color. I love Blue.
   
  A text value is required. The keyword for the code snippet.  
   
-##  <a name="keywords"></a> Keywords Element  
+## <a name="keywords"></a> Keywords Element  
  Groups individual `Keyword` elements. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization  
   
 ```xml  
@@ -389,7 +389,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Header Element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|  
   
-##  <a name="literal"></a> Literal Element  
+## <a name="literal"></a> Literal Element  
  Defines the literals of the code snippet that you can edit. The `Literal` element is used to identify a replacement for a piece of code that is entirely contained within the snippet, but will likely be customized after it is inserted into the code. For example, literal strings, numeric values, and some variable names should be declared as literals.  
   
  Literals and objects cannot contain an **ID** element with a value of selected or end. The value `$selected$` represents text selected in the document that is to be inserted into the snippet when it is invoked. `$end$` marks the location to place the cursor after the code snippet is inserted.  
@@ -418,7 +418,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Declarations Element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|  
   
-##  <a name="namespace"></a> Namespace Element  
+## <a name="namespace"></a> Namespace Element  
  Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to an `Imports` statement at the beginning of the code, if it does not already exist.  
   
 > [!NOTE]
@@ -436,7 +436,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies a namespace that the code snippet assumes is imported.  
   
-##  <a name="object"></a> Object Element  
+## <a name="object"></a> Object Element  
  Defines the objects of the code snippet that you can edit. The `Object` element is used to identify an item that is required by the code snippet but is likely to be defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require that a type be specified, which is done with the `Type` element.  
   
 ```xml  
@@ -465,7 +465,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Declarations Element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|  
   
-##  <a name="reference"></a> Reference Element  
+## <a name="reference"></a> Reference Element  
  Specifies information about the assembly references required by the code snippet.  
   
 > [!NOTE]
@@ -487,7 +487,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[References Element](../ide/code-snippets-schema-reference.md#references)|Grouping element for `Reference` elements.|  
   
-##  <a name="references"></a> References Element  
+## <a name="references"></a> References Element  
  Groups individual `Reference` elements.  
   
 > [!NOTE]
@@ -507,7 +507,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Snippet Element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|  
   
-##  <a name="shortcut"></a> Shortcut Element  
+## <a name="shortcut"></a> Shortcut Element  
  Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).  
   
 > [!CAUTION]
@@ -525,7 +525,7 @@ is a great color. I love Blue.
   
  A text value is optional. This text is used as a shortcut for inserting the code snippet.  
   
-##  <a name="snippet"></a> Snippet Element  
+## <a name="snippet"></a> Snippet Element  
  Specifies the references, imports, declarations, and code for the code snippet.  
   
 ```xml  
@@ -549,7 +549,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[CodeSnippet Element](../ide/code-snippets-schema-reference.md#codesnippet)|Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.|  
   
-##  <a name="snippettype"></a> SnippetType Element  
+## <a name="snippettype"></a> SnippetType Element  
  Specifies how Visual Studio inserts the code snippet.  
   
 ```xml  
@@ -570,7 +570,7 @@ is a great color. I love Blue.
   
 - `Refactoring`: specifies that the code snippet is used during Visual C# refactoring. `Refactoring` cannot be used in custom code snippets.  
   
-##  <a name="snippettypes"></a> SnippetTypes Element  
+## <a name="snippettypes"></a> SnippetTypes Element  
  Groups individual `SnippetType` elements. If the `SnippetTypes` element is not present, the code snippet can be inserted anywhere in the code.  
   
 ```xml  
@@ -588,7 +588,7 @@ is a great color. I love Blue.
 |--------------------|-----------------|  
 |[Header Element](../ide/code-snippets-schema-reference.md#header)|Specifies general information about the code snippet.|  
   
-##  <a name="title"></a> Title Element  
+## <a name="title"></a> Title Element  
  Specifies the title for the code snippet. The title stored in the `Title` element of the code snippet appears in the **Code Snippet Picker** and in the code snippet's description in the **Code Snippets Manager**.  
   
 ```xml  
@@ -603,7 +603,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the title of the code snippet.  
   
-##  <a name="tooltip"></a> ToolTip Element  
+## <a name="tooltip"></a> ToolTip Element  
  Describes the expected value and usage of a literal or object in a code snippet, which Visual Studio displays in a ToolTip when it inserts the code snippet into a project. The ToolTip text is displayed when the mouse hovers over the literal or object after the code snippet has been inserted.  
   
 ```xml  
@@ -619,7 +619,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the ToolTip description to be associated with the object or literal in the code snippet.  
   
-##  <a name="type"></a> Type Element  
+## <a name="type"></a> Type Element  
  Specifies the type of the object. The `Object` element is used to identify an item that is required by the code snippet but is likely to be defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require that a type be specified, which is done with the `Type` element.  
   
 ```xml  
@@ -634,7 +634,7 @@ is a great color. I love Blue.
   
  A text value is required. This text specifies the type of the object.  
   
-##  <a name="url"></a> Url Element  
+## <a name="url"></a> Url Element  
  Specifies a URL that provides more information about the referenced assembly.  
   
 > [!NOTE]

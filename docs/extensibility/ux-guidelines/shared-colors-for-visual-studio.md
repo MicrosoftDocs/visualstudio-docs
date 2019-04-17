@@ -848,7 +848,7 @@ The search box drop-down menu has the potential to be slightly more complex than
 | Link background | `SearchControl.PopupButtonMouseDownBackgroundGradientBegin`<br />(Gradient stops for this token not used in themed UI.) |
 | Foreground (Link text) | `SearchControl.PopupButtonMouseDownText` |
 
-###  <a name="BKMK_TreeView"></a> Tree views
+### <a name="BKMK_TreeView"></a> Tree views
 Several tool windows, including the Solution Explorer, Server Explorer, and Class View, implement a hierarchical organizational scheme whose colors are controlled by color names in the `TreeView` category. All items in a tree view have background and text colors. Items that have nested child elements also have glyphs that indicate whether the item is expanded or collapsed.
 
 ![Tree view (redline)](../../extensibility/ux-guidelines/media/0303-147_treeviewredline.png "0303-147_TreeViewRedline")<br />Tree view (redline)
@@ -1031,7 +1031,7 @@ The Manifest Designer was designed as a way to make it easier to edit the manife
 
 ## Command structures
 
-###  <a name="BKMK_CommandMenus"></a> Menus
+### <a name="BKMK_CommandMenus"></a> Menus
 Menus can occur at several places within Visual Studio: the main menu bar, embedded in document or tool windows, or on right-click in various locations throughout the IDE. Implementations of menus associated with other UI elements are discussed in the section for the respective element. You should always use the standard menu implementation provided by the Visual Studio environment. However, in some rare instances you might not have access to the standard Visual Studio menus. In these situations, use the following token names to ensure that your UI is consistent with other menus in Visual Studio.
 
 ![Visual Studio menu (redline)](../../extensibility/ux-guidelines/media/0303-000_menuredline.png "0303-000_MenuRedline")<br />Visual Studio menu (redline)
@@ -1272,7 +1272,7 @@ A command bar group consists of a related set of command bar controls and might 
 | Foreground (Text) | `Environment.CommandBarTextInactive` |
 | Border | N/A |
 
-####  <a name="BKMK_CommandComboBox"></a> Command bar combo boxes
+#### <a name="BKMK_CommandComboBox"></a> Command bar combo boxes
 
 > [!IMPORTANT]
 > Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens for [command bar drop-downs](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown).
@@ -1404,7 +1404,7 @@ A command bar group consists of a related set of command bar controls and might 
 | Background | None |
 | Foreground (Glyph) | `Environment.ComboBoxDisabledGlyph` |
 
-####  <a name="BKMK_CommandDropDown"></a> Command bar drop-downs
+#### <a name="BKMK_CommandDropDown"></a> Command bar drop-downs
 
 > [!IMPORTANT]
 >  Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens for [command bar combo boxes](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).

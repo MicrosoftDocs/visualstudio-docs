@@ -94,7 +94,7 @@ Here is a list of elements in the model:
   
    If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
   
-##  <a name="Multiple"></a> Accessing multiple models from a text template  
+## <a name="Multiple"></a> Accessing multiple models from a text template  
   
 > [!NOTE]
 >  This method lets you read multiple models in the same template but does not support ModelBus references. To read models that are interlinked by ModelBus References, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).  

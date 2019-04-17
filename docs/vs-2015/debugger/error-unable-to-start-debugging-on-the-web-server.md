@@ -36,7 +36,7 @@ When you try to debug an ASP.NET application running on a Web server, you may ge
   
 In many cases, this error occurs because IIS is not configured correctly.
 
-##  <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
+## <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
 After taking steps to resolve an issue detailed here, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`, or you can do this in IIS Manager. 
 

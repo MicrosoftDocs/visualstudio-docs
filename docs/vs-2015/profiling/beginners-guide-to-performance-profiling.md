@@ -30,7 +30,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
 > [!TIP]
 >  If you profile code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
   
-##  <a name="Step1"></a> Create and run a performance session  
+## <a name="Step1"></a> Create and run a performance session  
  To get the data that you need to analyze, you must first create a performance session and then run the session. The **Performance Wizard** lets you do both.  
   
  If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [Profiling Tools](../profiling/profiling-tools.md).  
@@ -56,7 +56,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
      After you finish running the application, the **Summary** view of the profiling data appears in the main Visual Studio window and an icon for the new session appears in the **Performance Explorer** window.  
   
-##  <a name="Step2"></a> Step 2: Analyze Sampling data  
+## <a name="Step2"></a> Step 2: Analyze Sampling data  
  When you finish running a performance session, the **Summary** view of the profiling report appears in the main window in Visual Studio.  
   
  We recommend that you begin analyzing your data by examining the **Hot Path,** then the list of functions that are doing the most work, and finally by focusing on other functions by using the **Summary Timeline**. You can also view profiling suggestions and warnings in the **Error List** window.  
@@ -101,7 +101,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
     - To view detailed information about the warning, right-click the error and then click **Show Error Help**  
   
-##  <a name="Step3"></a> Step 3: Revise code and rerun a session  
+## <a name="Step3"></a> Step 3: Revise code and rerun a session  
  After you find and optimize one or more functions, you can repeat the profiling run and compare the data to see the difference that your changes have made to the performance of your application.  
   
 #### To revise code and rerun the profiler  

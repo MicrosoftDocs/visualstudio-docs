@@ -16,7 +16,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
  This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/how-to-use-microsoft-test-framework-for-cpp.md) for tips on which structure to use.
 
-##  <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
+## <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
 1. On the **File** menu, choose **New** > **New Project**.
 
@@ -40,7 +40,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md).
 
-##  <a name="Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer
+## <a name="Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer
 
 1. Insert some test code:
 
@@ -59,7 +59,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
      ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
 
-##  <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
+## <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
 1. In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
 
@@ -119,7 +119,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     ```
 
-##  <a name="make_the_dll_functions_visible_to_the_test_code"></a> Make the dll functions visible to the test code
+## <a name="make_the_dll_functions_visible_to_the_test_code"></a> Make the dll functions visible to the test code
 
 1. Add RooterLib to the RooterLibTests project.
 
@@ -171,7 +171,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
    You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
-##  <a name="Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass
+## <a name="Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass
 
 1. Add a new test:
 
@@ -231,7 +231,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 > [!TIP]
 > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
 
-##  <a name="Debug_a_failing_test"></a> Debug a failing test
+## <a name="Debug_a_failing_test"></a> Debug a failing test
 
 1. Add another test to *unittest1.cpp*:
 
@@ -300,7 +300,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
    ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
-##  <a name="Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests
+## <a name="Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests
 
 1. Simplify the central calculation in the `SquareRoot` function:
 

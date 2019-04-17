@@ -12,7 +12,7 @@ manager: jillfra
 # Application Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-##  <a name="BKMK_WindowInteractions"></a> Window interactions
+## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 ### Overview
  The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This topic covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
@@ -34,7 +34,7 @@ manager: jillfra
 |**Instances**|*Multi-instance*<br /><br /> Several editors can be open at the same time and editing different files, while some editors also allow the same file to be open in more than one editor (using the **Window > New Window** command).<br /><br /> A single editor may be editing one or multiple files at the same time (Project Designer).|*Single- or multi-instance*<br /><br /> Contents change to reflect context (as in the Property Browser) or push focus/context to other windows (Task List, Solution Explorer).<br /><br /> Both single-instance and multi-instance tool windows should be associated with the active document window unless there is a compelling reason not to.|*Single-instance*|
 |**Examples**|**Text editors**, such as the code editor<br /><br /> **Design surfaces**, such as a form designer or a modeling surface<br /><br /> **Control layouts similar to dialogs**, such as the Manifest Designer|The **Solution Explorer** provides a solution and projects contained within the solution<br /><br /> The **Server Explorer** provides a hierarchical view of servers and data connections that the user chooses to open in the window. Opening an object from the database hierarchy, such as a query, opens a document window and allows the user to edit the query.<br /><br /> The **Property Browser** displays properties for the object selected either in a document window or another tool window. The properties are presented either in a hierarchical grid view or in complex dialog-like controls and allow the user to set the values for those properties.||
 
-##  <a name="BKMK_ToolWindows"></a> Tool windows
+## <a name="BKMK_ToolWindows"></a> Tool windows
 
 ### Overview
  Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
@@ -125,7 +125,7 @@ manager: jillfra
 |**Debugger:** a group of windows specific to debugging tasks and monitoring activities|Registers||
 |**Debugger:** a group of windows specific to debugging tasks and monitoring activities|Threads||
 
-##  <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
+## <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
 
 ### Document interactions
  The "document well" is the largest space within the IDE and is where the user generally has focused their attention in order to complete their tasks, assisted by supplemental tool windows. Document editors represent the fundamental units of work that the user opens and saves within Visual Studio. They retain a strong sense of selection tied to Solution Explorer or other active hierarchy windows. The user should be able to point to one of those hierarchy windows and know where the document is contained and its relationship to either the solution, the project, or another root object provided by a Visual Studio package.
@@ -233,7 +233,7 @@ manager: jillfra
 
 - Users must be able to interact with the controls using keyboard only, either by activating the editor and tabbing through controls or by using standard mnemonics.
 
-##  <a name="BKMK_Dialogs"></a> Dialogs
+## <a name="BKMK_Dialogs"></a> Dialogs
 
 ### Introduction
  Dialogs in Visual Studio should typically support one discrete unit of the user's work and then be dismissed.
@@ -289,14 +289,14 @@ manager: jillfra
 
 - [Wizards](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Wizards) are useful for directing the user through a logical sequence of steps toward the completion of a task. A series of choices are offered in sequential panels, sometimes introducing different workflows ("branches") dependent on a choice made in the previous panel.
 
-####  <a name="BKMK_SimpleDialogs"></a> Simple dialogs
+#### <a name="BKMK_SimpleDialogs"></a> Simple dialogs
  A simple dialog is a presentation of controls in a single modal window. This presentation might include variations of complex control patterns, such as a field picker. For simple dialogs, follow the standard general layout as well as any specific layout required for complex control groupings.
 
  ![Simple dialog in Visual Studio](../../extensibility/ux-guidelines/media/0704-01-createstrongnamekey.png "0704-01_CreateStrongNameKey")
 
  **Create Strong Name Key is an example of a simple dialog in Visual Studio.**
 
-####  <a name="BKMK_LayeredDialogs"></a> Layered dialogs
+#### <a name="BKMK_LayeredDialogs"></a> Layered dialogs
  Layered dialogs include tabs, dashboards, and embedded trees. They are used to maximize real estate when there are multiple groups of controls offered in a single piece of UI. The groupings are layered so that the user can choose which grouping to see at any one time.
 
  In the most straightforward case, the mechanism for switching between groupings is a tab control. There are several alternatives available. See Prioritizing and layering for how to choose the most appropriate style.
@@ -307,7 +307,7 @@ manager: jillfra
 
  **Tools > Options is an example of a layered dialog in Visual Studio.**
 
-####  <a name="BKMK_Wizards"></a> Wizards
+#### <a name="BKMK_Wizards"></a> Wizards
  Wizards are useful for directing the user through a logical sequence of steps in the completion of a task. A series of choices are offered in sequential panels, and the user must continue through each step before proceeding to the next. Once sufficient defaults are available, the **Finish** button is enabled.
 
  Modal wizards are used for tasks that:
@@ -388,7 +388,7 @@ manager: jillfra
 #### Imagery
  Use images sparingly in dialogs. Do not use large icons in dialogs merely to use up space. Use images only if they are an important part of conveying the message to the user, such as warning icons or status animations.
 
-###  <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
+### <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
 
 #### Prioritizing your UI
  It might be necessary to bring certain UI elements to the forefront and place more advanced behavior and options (including obscure commands) into dialogs. Bring commonly used functionality to the forefront by making room for it, and by making it visible by default in the UI with a text label when the dialog is shown.
@@ -419,7 +419,7 @@ manager: jillfra
 ##### Adaptive UI
  Showing or hiding UI based on usage or a user's self-reported experience is another way of presenting necessary UI while hiding other portions. This is not recommended in Visual Studio as the algorithms for deciding when to show or hide UI can be tricky, and the rules will always be wrong for some set of cases.
 
-##  <a name="BKMK_Projects"></a> Projects
+## <a name="BKMK_Projects"></a> Projects
 
 ### Projects in the Solution Explorer
  Most projects are classified as reference-based, directory-based, or mixed. All three types of projects are supported simultaneously in the Solution Explorer. The root of the user experience in working with projects takes place inside this window. Although different project nodes are reference, directory, or mixed-mode type projects, there is a common interaction pattern that should be applied as a starting point before diverging into project-specific user patterns.

@@ -15,7 +15,7 @@ manager: jillfra
 
 a name="introduction"></a> This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You’ll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
   
-##  <a name="Create_The_Application_Code_Files"></a> Creating the Application Project  
+## <a name="Create_The_Application_Code_Files"></a> Creating the Application Project  
  In this section, you’ll create the application infrastructure, which includes the project and a main window or form.  
   
 #### To create the project  
@@ -93,7 +93,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
      This changes the `MainWindow` class to derive from `NavigationWindow`. In Visual Basic, this happens automatically when you change the window in XAML, so no code changes are necessary.  
   
-##  <a name="add_files_to_the_application"></a> Adding Files to the Application  
+## <a name="add_files_to_the_application"></a> Adding Files to the Application  
  In this section, you’ll add two pages and an image to the application.  
   
 #### To add a home screen  
@@ -238,7 +238,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
 6. Close the application to return to design mode.  
   
-##  <a name="Add_Layout"></a> Creating the User Interface  
+## <a name="Add_Layout"></a> Creating the User Interface  
  Layout provides an ordered way to place elements, and also manages the size and position of those elements when a form is resized. In this section, you’ll create a single-column grid with three rows. You’ll add controls to the two pages, add some code, and finally define reusable styles for the controls.  
   
 #### To create the layout  
@@ -931,7 +931,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
      ![ExpenseIt sample screen shots](../designers/media/gettingstartedfigure5.png "GettingStartedFigure5")  
   
-##  <a name="Best_Practices"></a> Best Practices  
+## <a name="Best_Practices"></a> Best Practices  
  This sample demonstrates the basics of WPF and, consequently, does not follow application development best practices. For comprehensive coverage of WPF and .NET Framework application development best practices, see the following topics as appropriate:  
   
 - Accessibility - [Accessibility Best Practices](https://msdn.microsoft.com/library/aa350483\(v=vs.100\).aspx)  
@@ -942,7 +942,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
 - Performance - [Optimizing WPF Application Performance](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
   
-##  <a name="Whats_Next"></a> What's Next  
+## <a name="Whats_Next"></a> What's Next  
  You now have a number of techniques at your disposal for creating a desktop application by using WPF. You should now have a basic understanding of the building blocks of a data-bound WPF application. This topic is by no means exhaustive, but hopefully you also now have a sense of some of the possibilities you might discover on your own beyond the techniques in this topic.  
   
  For more information about the WPF architecture and programming models, see the following topics:  

@@ -50,7 +50,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
   [Navigate to code by using the Call Stack window](#BKMK_Navigate_to_code_by_using_the_Call_Stack_window)
 
-##  <a name="BKMK_Create_the_sample_app"></a> Create the sample app
+## <a name="BKMK_Create_the_sample_app"></a> Create the sample app
  Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine program state. All of the code that you will invoke is called from the `module` function of the default.js file. No controls are added and no events are handled.
 
 1. **Create a blank JavaScript Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.
@@ -67,14 +67,14 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
    You can now follow along with the examples in this topic.
 
-##  <a name="BKMK_Set_and_run_to_a_breakpoint__step_into_a_function__and_examine_program_data"></a> Set and run to a breakpoint, step into a function, and examine program data
+## <a name="BKMK_Set_and_run_to_a_breakpoint__step_into_a_function__and_examine_program_data"></a> Set and run to a breakpoint, step into a function, and examine program data
  The most common way to start a debug session is to choose **Start Debugging** from the **Debug** menu (Keyboard: F5). The app starts and continues executing until a breakpoint is reached, you manually suspend execution, an exception occurs, or the app ends.
 
  When execution is suspended in the debugger, you can view the value of an active variable in a data tip by pausing the mouse on the variable.
 
  After you suspend execution of the app (which is also called breaking into the debugger), you control the way the rest of the program code executes. You can continue line by line, moving from a function call into the function itself, or you can execute a called function in a single step. These procedures are called stepping through the app. You can also resume the standard execution of the app, running to the next breakpoint that you have set, or to the line where you positioned your cursor. You can stop the debug session at any time. The debugger is designed to perform the necessary clean-up operations and exit execution.
 
-###  <a name="BKMK_Example_1"></a> Example 1
+### <a name="BKMK_Example_1"></a> Example 1
  In this example, you set a breakpoint in the body of the `module` function in `default.js` as it calls the first of our user statements. You then step into the function, view variable values in debugger data tips, and then stop debugging.
 
 1. **Set a breakpoint.** Set a breakpoint at the statement `callTrack = "module function";` that occurs right after the call to `app.start()`. Choose the line in the shaded gutter of the source code editor (Keyboard: Position the cursor on the line and choose the **F9** key).
@@ -117,7 +117,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
-##  <a name="BKMK_Step_into__over__and_out_of_functions"></a> Step into, over, and out of functions
+## <a name="BKMK_Step_into__over__and_out_of_functions"></a> Step into, over, and out of functions
  In contrast to stepping into a function called by a parent function, stepping over a function executes the child function and then suspends execution in the calling function as the parent resumes. You might step over a function when you are familiar with the way the function works and are sure that its execution will not affect the issue that you are investigating.
 
  Stepping over a line of code that doesn't contain a function call executes the line just like stepping into the line.
@@ -128,7 +128,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
  ![Step into, over, and out of methods](../debugger/media/dbg-basics-stepintooverout.png "DBG_Basics_StepIntoOverOut")
 
-###  <a name="BKMK_Example_2"></a> Example 2
+### <a name="BKMK_Example_2"></a> Example 2
  In this example, you step into, over, and out of functions.
 
 1. **Call the example2 function in the module function.** Edit the `module` function and replace the line following `var callTrack = "module function"` with `example2();`.
@@ -149,14 +149,14 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
-##  <a name="BKMK_Set_a_conditional_breakpoint__run_to_the_cursor__and_visualize_a_variable"></a> Set a conditional breakpoint, run to the cursor, and visualize a variable
+## <a name="BKMK_Set_a_conditional_breakpoint__run_to_the_cursor__and_visualize_a_variable"></a> Set a conditional breakpoint, run to the cursor, and visualize a variable
  A conditional breakpoint specifies a condition that causes the debugger to suspend execution. The condition is specified by any code expression that can be evaluated as true or false. For example, you might use a conditional breakpoint to examine the program state in a frequently called function only when a variable reaches a certain value.
 
  Running to the cursor is like setting a one-time breakpoint. When execution is suspended, you can select a line in the source and resume execution until the selected line is reached. For example, you might be stepping through a loop in a function and determine that the code in the loop is performing correctly. Rather than stepping through every iteration of the loop, you can run to the cursor that is positioned after the loop is executed.
 
  Sometimes, it's difficult to view a variable value in the row of a data tip or other data window. The debugger can display strings, HTML, and Xml in a text visualizer that presents a formatted view of the value in a scrollable window.
 
-###  <a name="BKMK_Example_3"></a> Example 3
+### <a name="BKMK_Example_3"></a> Example 3
  In this example, you set a conditional breakpoint to break at a specific iteration of a loop, then run to the cursor that is positioned after the loop. You also view the value of a variable in a text visualizer.
 
 1. **Call the example3 function in the module function.** Edit the `module` function and replace the line following `var callTrack = "module function";` with the line `example3();`.
@@ -185,7 +185,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 8. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
-###  <a name="BKMK_Use_Run_to_Cursor_to_return_to_your_code_and_delete_a_breakpoint"></a> Use Run to Cursor to return to your code and delete a breakpoint
+### <a name="BKMK_Use_Run_to_Cursor_to_return_to_your_code_and_delete_a_breakpoint"></a> Use Run to Cursor to return to your code and delete a breakpoint
  Running to the cursor can be very useful when you have stepped into library code from Microsoft or a third party. While stepping through library code can be informative, it often can take a long time. And usually, you are far more interested in your own code. This exercise shows you how to do it.
 
 1. **Set a breakpoint at the app.start call.** In the `module` function, set a breakpoint at the line `app.start()`
@@ -198,10 +198,10 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 4. **Set the cursor to your code and run to it.** Switch back to the `default.js` file in the code editor. Select the first line of code after `app.start()` (You can't run to a comment or a blank line). Choose **Run to Cursor** from the shortcut menu. The debugger continues execution of the app.start function and suspends execution at the breakpoint.
 
-##  <a name="BKMK_View_variable_data_in_the_Locals_window"></a> View variable data in the Locals window
+## <a name="BKMK_View_variable_data_in_the_Locals_window"></a> View variable data in the Locals window
  The Locals windows is a tree view of the parameters and variables in the scope chain of the currently executing function.
 
-###  <a name="BKMK_View_variable_data_and_the_prototype_chain_of_an_object"></a> View variable data and the prototype chain of an object
+### <a name="BKMK_View_variable_data_and_the_prototype_chain_of_an_object"></a> View variable data and the prototype chain of an object
 
 1. **Add an array object the module function.** Edit the `module` function and replace the line following `var callTrack = "module function"` with `var myArray = new Array(1, 2, 3);`
 
@@ -227,7 +227,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: Shift+F5). This ends your debug session.
 
-##  <a name="BKMK_Examine_scope_chain_data"></a> Examine scope chain data
+## <a name="BKMK_Examine_scope_chain_data"></a> Examine scope chain data
  The *scope chain* of a function includes all variables that are active and reachable by the function. Global variables are part of the scope chain, as are any objects (including functions) that are defined in the function that defines the currently executing function. For example, the `callTrack` variable that is defined in the `module` function of `default.js` is reachable by any function that is defined in the `module` function. Each scope is listed separately in the Locals window.
 
 - The variables of the currently executing function are listed at the top of the window.
@@ -238,7 +238,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
   Scope chains can be confusing and are best illustrated by example. In the following example, you can see how the `module` function creates its own scope, and how you can create another level of scope by creating a closure.
 
-###  <a name="BKMK_Example_4"></a> Example 4
+### <a name="BKMK_Example_4"></a> Example 4
 
 1. **Call the example4 function from the module function.** Edit the `module` function and replace the line following `var callTrack = "module function"` with the `example4()`:
 
@@ -266,12 +266,12 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 9. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.
 
-##  <a name="BKMK_Navigate_to_code_by_using_the_Call_Stack_window"></a> Navigate to code by using the Call Stack window
+## <a name="BKMK_Navigate_to_code_by_using_the_Call_Stack_window"></a> Navigate to code by using the Call Stack window
  The call stack is a data structure that contains information about the functions that are executing in the current thread of the application. When you hit a breakpoint, the Call Stack window displays a list of all of the functions that are active on the stack. The currently executing function is at the top of the Call Stack window list. The function that initiates the thread is at the bottom of the list. The functions in between show the call path from the initiating function to the current function.
 
  In addition to showing the call path to the currently executing function, the Call Stack window can be used to navigate to code in the code editor. This functionality can be valuable when you are working with multiple files and you want to quickly move to a particular function.
 
-###  <a name="BKMK_Example_5"></a> Example 5
+### <a name="BKMK_Example_5"></a> Example 5
  In this example, you step into a call path that contains five user-defined functions.
 
 1. **Call the example5 function in the module function.** Edit the `module` function and replace the line following `var callTrack = "module function";` with the line `example5();`.

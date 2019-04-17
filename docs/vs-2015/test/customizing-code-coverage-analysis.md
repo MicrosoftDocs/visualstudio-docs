@@ -202,7 +202,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
    The results are visible in the summary section of the build report.  
   
-##  <a name="sample"></a> Sample .runsettings file  
+## <a name="sample"></a> Sample .runsettings file  
  Copy this code and edit it to suit your own needs. This is the default .runsettings file.  
   
  (For other uses of the .runsettings file, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md).)  

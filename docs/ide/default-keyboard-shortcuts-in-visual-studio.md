@@ -34,22 +34,22 @@ The sections in the following table include commands that are global in that you
 |[Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
 |[Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
 
-##  <a name="bkmk_global"></a> Global
+## <a name="bkmk_global"></a> Global
 
-###  <a name="bkmk_analyze"></a> Analyze
+### <a name="bkmk_analyze"></a> Analyze
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Analyze.NavigateBackward|**Shift+Alt+3**|
 |Analyze.NavigateForward|**Shift+Alt+4**|
 
-###  <a name="bkmk_architecture"></a> Architecture
+### <a name="bkmk_architecture"></a> Architecture
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Architecture.NewDiagram|**Ctrl+\\, Ctrl+N**|
 
-###  <a name="bkmk_build"></a> Build
+### <a name="bkmk_build"></a> Build
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -58,13 +58,13 @@ The sections in the following table include commands that are global in that you
 |Build.Compile|**Ctrl+F7**|
 |Build.RunCodeAnalysisonSolution|**Alt+F11**|
 
-###  <a name="bkmk_classview"></a> Class View context menus
+### <a name="bkmk_classview"></a> Class View context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties|**Alt+Enter**|
 
-###  <a name="bkmk_debug"></a> Debug
+### <a name="bkmk_debug"></a> Debug
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -132,7 +132,7 @@ The sections in the following table include commands that are global in that you
 |Debug.Watch3|**Ctrl+Alt+W, 3**|
 |Debug.Watch4|**Ctrl+Alt+W, 4**|
 
-###  <a name="bkmk_debugger"></a> Debugger context menus
+### <a name="bkmk_debugger"></a> Debugger context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -140,13 +140,13 @@ The sections in the following table include commands that are global in that you
 |DebuggerContextMenus.BreakpointsWindow.GoToDisassembly|**Alt+F9, A**|
 |DebuggerContextMenus.BreakpointsWindow.GoToSourceCode|**Alt+F9, S**|
 
-###  <a name="bkmk_diagnostics"></a> Diagnostics Hub
+### <a name="bkmk_diagnostics"></a> Diagnostics Hub
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |DiagnosticsHub.StopCollection|**Ctrl+Alt+F2**|
 
-###  <a name="bkmk_edit"></a> Edit
+### <a name="bkmk_edit"></a> Edit
 
 |Commands|Keyboard shortcuts|
 |--------------|-|
@@ -205,7 +205,7 @@ The sections in the following table include commands that are global in that you
 |Edit.SurroundWith|**Ctrl+K, Ctrl+S**|
 |Edit.Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**|
 
-###  <a name="bkmk_editorContext"></a> Editor context menus
+### <a name="bkmk_editorContext"></a> Editor context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -216,7 +216,7 @@ The sections in the following table include commands that are global in that you
 |EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|**Ctrl+K, Ctrl+O** (letter 'O')|
 |EditorContextMenus.CodeWindow.ViewCallHierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**|
 
-###  <a name="bkmk_file"></a> File
+### <a name="bkmk_file"></a> File
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -232,7 +232,7 @@ The sections in the following table include commands that are global in that you
 |File.SaveSelectedItems|**Ctrl+S**|
 |File.ViewinBrowser|**Ctrl+Shift+W**|
 
-###  <a name="bkmk_help"></a> Help
+### <a name="bkmk_help"></a> Help
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -241,19 +241,19 @@ The sections in the following table include commands that are global in that you
 |Help.ViewHelp|**Ctrl+F1**|
 |Help.WindowHelp|**Shift+F1**|
 
-###  <a name="bkmk_loadtest"></a> Load test
+### <a name="bkmk_loadtest"></a> Load test
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |LoadTest.JumpToCounterPane|**Ctrl+R, Q**|
 
-###  <a name="bkmk_otherContext"></a> Other context menus
+### <a name="bkmk_otherContext"></a> Other context menus
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram|**Insert**|
 
-###  <a name="bkmk_project"></a> Project
+### <a name="bkmk_project"></a> Project
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -265,14 +265,14 @@ The sections in the following table include commands that are global in that you
 |Project.Publishselectedfiles|**Alt+;** then **Alt+P**|
 |Project.Replaceselectedfilesfromserver|**Alt+;** then **Alt+R**|
 
-###  <a name="bkmk_projectContext"></a> Project and solution context menus
+### <a name="bkmk_projectContext"></a> Project and solution context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ProjectandSolutionContextMenus.Item.MoveDown|**Alt+Down Arrow**|
 |ProjectandSolutionContextMenus.Item.MoveUp|**Alt+Up Arrow**|
 
-###  <a name="bkmk_refactor"></a> Refactor
+### <a name="bkmk_refactor"></a> Refactor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -283,7 +283,7 @@ The sections in the following table include commands that are global in that you
 |Refactor.Rename|**Ctrl+R, Ctrl+R**|
 |Refactor.ReorderParameters|**Ctrl+R, Ctrl+O** (letter 'O')|
 
-###  <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
+### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -291,7 +291,7 @@ The sections in the following table include commands that are global in that you
 |SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**|
 |SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**|
 
-###  <a name="bkmk_team"></a> Team
+### <a name="bkmk_team"></a> Team
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -300,7 +300,7 @@ The sections in the following table include commands that are global in that you
 |Team.Git.GoToGitCommits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**|
 |Team.TeamExplorerSearch|**Ctrl+'**|
 
-###  <a name="bkmk_TFcontext"></a> Team Foundation context menus
+### <a name="bkmk_TFcontext"></a> Team Foundation context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -315,14 +315,14 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.Commands.GoToWebAccess|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**|
 |TeamFoundationContextMenus.Commands.GoToWorkItems|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**|
 
-###  <a name="bkmk_test"></a> Test
+### <a name="bkmk_test"></a> Test
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Test.UseCodedUITestBuilder|**Ctrl+\\, Ctrl+C**|
 |Test.UseExistingActionRecording|**Ctrl+\\, Ctrl+A**|
 
-###  <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
+### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -332,7 +332,7 @@ The sections in the following table include commands that are global in that you
 |TestExplorer.RunAllTests|**Ctrl+R, A**|
 |TestExplorer.RunAllTestsInContext|**Ctrl+R, T**|
 
-###  <a name="bkmk_tools"></a> Tools
+### <a name="bkmk_tools"></a> Tools
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -341,7 +341,7 @@ The sections in the following table include commands that are global in that you
 |Tools.ForceGC|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
 |Tools.GoToCommandLine|**Ctrl+/**|
 
-###  <a name="bkmk_view"></a> View
+### <a name="bkmk_view"></a> View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -390,7 +390,7 @@ The sections in the following table include commands that are global in that you
 |View.ZoomIn|**Ctrl+Shift+.**|
 |View.ZoomOut|**Ctrl+Shift+,**|
 
-###  <a name="bkmk_window"></a> Window
+### <a name="bkmk_window"></a> Window
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -421,7 +421,7 @@ The sections in the following table include commands that are global in that you
 |Window.SolutionExplorerSearch|**Ctrl+;**|
 |Window.WindowSearch|**Alt+`**|
 
-###  <a name="bkmk_windowsazure"></a> Azure
+### <a name="bkmk_windowsazure"></a> Azure
 
 |Commands|Keyboard shortcuts|
 |--------------| - |

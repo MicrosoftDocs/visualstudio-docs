@@ -56,7 +56,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
   For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], see [Using IntelliSense](../ide/using-intellisense.md).
 
-##  <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context
+## <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context
  JavaScript IntelliSense provides coding choices based on all script that is relevant to your current script context. This includes scripting elements in the current file. It also includes any code that is referenced directly or indirectly from your script, such as script file references, assembly script references, service references, and page-associated references.
 
  Your current script context is created based on the following items:
@@ -78,7 +78,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
     > [!NOTE]
     >  IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.
 
-##  <a name="ProcessingIntelliSenseInformation"></a> Processing IntelliSense Information
+## <a name="ProcessingIntelliSenseInformation"></a> Processing IntelliSense Information
  To provide JavaScript IntelliSense, the language service performs the following operations:
 
 - Creates a list of dependent JavaScript files that are based on references in the active document, and based on recursively examining script references in the referenced files.
@@ -89,7 +89,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
 - Monitors the files for changes that might affect the IntelliSense list and updates the list as needed. Scripts on remote stores (such as those referenced using HTTP) do not get monitored.
 
-##  <a name="Features"></a> JavaScript IntelliSense Features
+## <a name="Features"></a> JavaScript IntelliSense Features
  JavaScript IntelliSense supports the following objects:
 
 - [Document Object Model (DOM) elements](#HTMLDom)
@@ -112,21 +112,21 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
   When IntelliSense is unable to determine the type of an object, it provides options for statement completion using identifiers in the active document. For more information, see [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md).
 
-###  <a name="HTMLDom"></a> HTML DOM Elements
+### <a name="HTMLDom"></a> HTML DOM Elements
  JavaScript IntelliSense provides programming references for Dynamic HTML (DHTML) DOM elements, such as `body`, `form`, and `div`. Only the elements that are included in the current document and master page are displayed by IntelliSense. JavaScript IntelliSense also supports the `window` and `document` objects and their members.
 
-###  <a name="IntrinsicObjects"></a> Intrinsic Objects
+### <a name="IntrinsicObjects"></a> Intrinsic Objects
  JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`. For more information about intrinsic objects, see [Standard built-in objects](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects).
 
-###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects
+### <a name="UserDefined"></a> User-defined Variables, Functions, and Objects
  When you change a JavaScript file, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.
 
  For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](http://go.microsoft.com/fwlink/?LinkId=108671) on the MSDN website.
 
-###  <a name="External"></a> External File References
+### <a name="External"></a> External File References
  You can include various types of external file references to achieve IntelliSense support in your code. External file references may be script references, reference directives, or they can be specified using reference groups.
 
-####  <a name="Script"></a> Script References
+#### <a name="Script"></a> Script References
  Instead of writing all client script in a page, you can reference external files that include scripting code. This makes it easier for you to reuse code between pages, and it enables client script to be cached by the browser.
 
  If you are not working with an ASP.NET AJAX-enabled Web page, you can reference an external script file by using the `src` attribute in the opening tag of a `script` element. The `src` attribute specifies the URL to an external file that contains the source code or data.
@@ -153,7 +153,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
  IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](http://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89).
 
-####  <a name="ReferenceDirectives"></a> Reference Directives
+#### <a name="ReferenceDirectives"></a> Reference Directives
  A `reference` directive enables [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.
 
  You create a `reference` directive in the form of an XML comment. The directive must be declared earlier in the file than any script. A `reference` directive can include a disk-based script reference, an assembly-based script reference, a service-based script reference, or a page-based script reference.
@@ -213,7 +213,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
 - Reference directives in referenced pages will not be processed—that is, reference directives are not resolved recursively for pages. Only script that is referenced directly by the page is included.
 
-####  <a name="ReferenceGroups"></a> Reference Groups
+#### <a name="ReferenceGroups"></a> Reference Groups
  You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:
 
 - Implicit (Windows), for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.
@@ -240,7 +240,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 > [!WARNING]
 >  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.
 
-###  <a name="XMLDocComments"></a> XML Documentation Comments
+### <a name="XMLDocComments"></a> XML Documentation Comments
  XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).
 
  IntelliSense can display XML documentation comments in the following scenarios:
@@ -253,16 +253,16 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 
   IntelliSense is not available when one .aspx file references another .aspx file.
 
-###  <a name="ASPNet"></a> ASP.NET AJAX Objects
+### <a name="ASPNet"></a> ASP.NET AJAX Objects
  ASP.NET AJAX also supports JavaScript IntelliSense. ASP.NET AJAX includes a client framework that extends the standard types that are available in ECMAScript (JavaScript). To enable JavaScript IntelliSense to provide details about ASP.NET AJAX objects, XML documentation comments have been added throughout the [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)]. These XML documentation comments are displayed when you use types and members that are contained in the ASP.NET AJAX Library.
 
 > [!NOTE]
 >  Private members are not displayed by JavaScript IntelliSense. Private members are denoted in ASP.NET AJAX as members that begin with an underscore (_).
 
-##  <a name="Extensibility"></a> JavaScript IntelliSense Extensibility
+## <a name="Extensibility"></a> JavaScript IntelliSense Extensibility
  The JavaScript language service provides objects and functions that enable you to modify the IntelliSense experience for developers who use third-party libraries. These features are especially useful when the default language service isn't able to provide all the information that you want to provide to customers. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).
 
-##  <a name="Validation"></a> JavaScript Validation
+## <a name="Validation"></a> JavaScript Validation
  JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:
 
 - Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.

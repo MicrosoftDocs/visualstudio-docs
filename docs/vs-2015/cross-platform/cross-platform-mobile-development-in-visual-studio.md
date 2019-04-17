@@ -32,7 +32,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 - [Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity](#Unity)
 
-##  <a name="NET"></a> Build an app for Android, iOS, and Windows (.NET Framework)
+## <a name="NET"></a> Build an app for Android, iOS, and Windows (.NET Framework)
  ![Devices](../cross-platform/media/homedevices.png "HomeDevices")
 
  With Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
@@ -47,7 +47,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Learn about the similarities between Swift and C#](https://aka.ms/scposter) (download.microsoft.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
-###  <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
+### <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
  You can build native apps for Android,  iOS, and Windows by using C# or F# (Visual Basic is not supported at this time).  To get started, install Visual Studio 2015, select the **Custom** option in the installer, and check the box under **Cross Platform Mobile Development > C#/.NET (Xamarin)**. You can also start with the [Xamarin Installer](https://www.xamarin.com/download), which is required to install Xamarin for Visual Studio 2013.
 
  If you already have Visual Studio 2015 installed, run the installer from **Control Panel > Programs and Features** and select the same **Custom** option for Xamarin as above.
@@ -61,7 +61,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 #### Design one set of pages that render across all devices by using Xamarin.Forms
  Depending on the complexity of your apps design, you might consider building it by using *Xamarin.Forms* templates in the **Mobile Apps** group of project templates. Xamarin.Forms is a UI toolkit that lets you create a single interface that you can share across Android, iOS, and Windows.  When you compile a Xamarin.Forms solution, you’ll get an Android app, an iOS app, and a Windows app. For more details, see [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md).
 
-####  <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
+#### <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
  If you’re not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can’t share is code that targets a specific platform.
 
  ![Share code between Windows, iOs, and Android UI's](../cross-platform/media/sharecode.png "ShareCode")
@@ -72,7 +72,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |--------------------|
 |Choose whether to share your code by using shared projects, Portable Class Library projects, or both.<br /><br /> [Sharing code across platforms](http://blogs.msdn.com/b/dotnet/archive/2014/04/21/sharing-code-across-platforms.aspx) (.NET Framework blog)<br /><br /> [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (Xamarin)<br /><br /> [Code sharing options with the .NET Framework](http://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
 
-###  <a name="WindowsHTML"></a> Target Windows 10 devices
+### <a name="WindowsHTML"></a> Target Windows 10 devices
  ![Windows Devices](../cross-platform/media/windowsdevices.png "WindowsDevices")
 
  If you want to create a single app that targets the full breadth of Windows 10 devices, create a universal Windows app. You’ll design the app by using a single project and your pages will render properly no matter what device is used to view them.
@@ -88,7 +88,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](../misc/migrate-apps-to-the-universal-windows-platform-uwp.md)|
 
-##  <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
+## <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
  ![Devices](../cross-platform/media/homedevices.png "HomeDevices")
 
  If you’re a web developer, and you’re familiar with HTML and JavaScript, you can target Windows, Android, and iOS by using Visual Studio Tools for Apache Cordova. These apps can target all three platforms and you can build them by using the skills and processes that you’re most familiar with.
@@ -113,7 +113,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Get started with Visual Studio Tools for Apache Cordova](http://taco.visualstudio.com/docs/get-started-vs-tools-apache-cordova/) (taco.visualstudio.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
-##  <a name="CPP"></a> Build an app for Android and Windows (C++)
+## <a name="CPP"></a> Build an app for Android and Windows (C++)
  ![Use C&#43;&#43; to build for Android, iOS, and Windows](../cross-platform/media/cross-plat-cpp-intro-image.png "Cross_Plat_CPP_Intro_Image")
 
  First, install Visual Studio 2015 and the Visual C++ for Cross Platform Mobile Development tools. Then, you can build a native activity application for Android or an app that targets Windows. C++ templates that target iOS are not yet available. You can target Android and Windows in the same solution if you want, and then share code between them by using a cross-platform static or dynamic shared library.
@@ -145,7 +145,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Cross-platform mobile development examples for C++](https://msdn.microsoft.com/library/dn707596.aspx) (MSDN Library)|
 |[Additional cross-platform mobile development examples for C++](https://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=android&f%5B1%5D.Type=ProgrammingLanguage&f%5B1%5D.Value=C%2B%2B&f%5B1%5D.Text=C%2B%2B) (code.msdn)|
 
-##  <a name="Unity"></a> Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity
+## <a name="Unity"></a> Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity
  Visual Studio Tools for Unity is a free extension for Visual Studio that integrates Visual Studio’s powerful code editing, productivity, and debugging tools with *Unity*, the popular cross-platform gaming/graphics engine and development environment for immersive apps that target Windows, iOS, Android, and other platforms including the web.
 
  ![VSTU development environment](../cross-platform/media/vstu-overview.png "VSTU_Overview")

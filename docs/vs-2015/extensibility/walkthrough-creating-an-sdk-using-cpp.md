@@ -23,7 +23,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-##  <a name="createClassLibrary"></a> To create the native and Windows Runtime libraries  
+## <a name="createClassLibrary"></a> To create the native and Windows Runtime libraries  
   
 1. On the menu bar, choose **File**, **New**, **Project**.  
   
@@ -51,7 +51,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 9. On the menu bar, choose **Build**, **Build Solution**.  
   
-##  <a name="createVSIX"></a> To create the NativeMathVSIX extension project  
+## <a name="createVSIX"></a> To create the NativeMathVSIX extension project  
   
 1. In **Solution Explorer**, open the shortcut menu for **Solution ‘NativeMath’**, and then choose **Add**, **New Project**.  
   
@@ -135,7 +135,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 19. Choose the **Install** button, wait for the installation to finish, and then restart Visual Studio.  
   
-##  <a name="createSample"></a> To create a sample app that uses the class library  
+## <a name="createSample"></a> To create a sample app that uses the class library  
   
 1. On the menu bar, choose **File**, **New**, **Project**.  
   

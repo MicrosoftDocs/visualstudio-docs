@@ -49,7 +49,7 @@ When you open a model in a version of Visual Studio that does not support model 
   
   You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.  
   
-##  <a name="RelatedTopics"></a> Related Topics  
+## <a name="RelatedTopics"></a> Related Topics  
   
 |Title|Description|  
 |-----------|-----------------|  

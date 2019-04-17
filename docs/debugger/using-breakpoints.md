@@ -38,7 +38,7 @@ ms.workload:
 # Use breakpoints in the Visual Studio debugger
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
-##  <a name="BKMK_Overview"></a> Set breakpoints in source code
+## <a name="BKMK_Overview"></a> Set breakpoints in source code
  You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.
 
  To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
@@ -61,7 +61,7 @@ In C# code, breakpoint and current execution lines are automatically highlighted
 
 - Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
 
-##  <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints from debugger windows
+## <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints from debugger windows
 
 You can also set breakpoints from the **Call Stack** and **Disassembly** debugger windows.
 
@@ -91,7 +91,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**.
 
-##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Set function breakpoints
+## <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Set function breakpoints
 
   You can break execution when a function is called.
 
@@ -188,7 +188,7 @@ Data breakpoints don't work under the following conditions:
 >
 >- If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
 
-##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
+## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
 
  You can use the **Breakpoints** window to see and manage all the breakpoints in your solution. This centralized location is especially helpful in a large solution, or for complex debugging scenarios where breakpoints are critical.
 
@@ -200,7 +200,7 @@ To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoin
 
 To select the columns to display in the **Breakpoints** window, select **Show Columns**. Select a column header to sort the breakpoints list by that column.
 
-###  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels
+### <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels
 You can use labels to sort and filter the list of breakpoints in the **Breakpoints** window.
 
 1. To add a label to a breakpoint, right-click the breakpoint in the source code or the **Breakpoints** window, and then select **Edit labels**. Add a new label or choose an existing one, and then select **OK**.
@@ -295,7 +295,7 @@ Under **Conditions** in the **Breakpoint Settings** window, select **Filter**, a
 
 Enclose string values in double quotes. You can combine clauses using `&` (AND), `||` (OR), `!` (NOT), and parentheses.
 
-##  <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint actions and tracepoints
+## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint actions and tracepoints
  A *tracepoint* is a breakpoint that prints a message to the **Output** window. A tracepoint can act like a temporary trace statement in the programming language.
 
 **To set a tracepoint:**

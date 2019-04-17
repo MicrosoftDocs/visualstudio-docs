@@ -53,7 +53,7 @@ The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change
 Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
 ::: moniker-end
 
-###  <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
+### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
 |||
 |-|-|
@@ -61,11 +61,11 @@ Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show
 |**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
 |**Module**|The name of the module containing the function.
 
-###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree
+### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree
 
 To view the call tree, select the parent node in the report. The **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
 
-####  <a name="BKMK_Call_tree_structure"></a> Call tree structure
+#### <a name="BKMK_Call_tree_structure"></a> Call tree structure
 
 ::: moniker range=">=vs-2019"
 ![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
@@ -81,7 +81,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
-####  <a name="BKMK_External_Code"></a> External code
+#### <a name="BKMK_External_Code"></a> External code
 
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
 
@@ -102,7 +102,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 ![Search for nested external code](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "Search for nested external code")
 ::: moniker-end
 
-###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
+### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
  When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 

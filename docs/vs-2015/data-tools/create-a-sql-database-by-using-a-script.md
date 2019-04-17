@@ -31,7 +31,7 @@ In this walkthrough, you use Visual Studio to create a small database that conta
 ## Prerequisites  
  To complete this walkthrough, you must have SQL Server Express LocalDB, or another SQL database, installed.  
   
-##  <a name="CreateScript"></a> Create a script that contains a database schema  
+## <a name="CreateScript"></a> Create a script that contains a database schema  
   
 #### To create a script from which you can import a schema  
   
@@ -217,7 +217,7 @@ In this walkthrough, you use Visual Studio to create a small database that conta
   
      Next, create a database project, and then import the schema from the script that you've created.  
   
-##  <a name="CreateProject"></a> Create a database project and import a schema  
+## <a name="CreateProject"></a> Create a database project and import a schema  
   
 #### To create a database project  
   
@@ -264,5 +264,5 @@ In this walkthrough, you use Visual Studio to create a small database that conta
   
      At this point, the database contains only system objects, such as tables and stored procedures. After you deploy the database, it will contain the user tables and stored procedures that the scripts define.  
   
-##  <a name="DeployDatabase"></a> Deploy the database  
+## <a name="DeployDatabase"></a> Deploy the database  
  When you press the **F5** key, you deploy (or publish) the database to a LocalDB database by default. You can deploy the database to a different location by opening the properties page for the project, selecting the **Debug** tab, and then changing the connection string.

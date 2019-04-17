@@ -126,7 +126,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 
  Frame Analysis limits the number of retries to 10. If your platform has aggressive power management or clock-gating, it might cause Frame Analysis to fail and report an error because it has exceeded the retry limit. You might be able to mitigate this problem by resetting your platform's power management and clock speed throttling to be less aggressive, if the platform enables it.
 
-##  <a name="HardwareSupport"></a> Hardware support
+## <a name="HardwareSupport"></a> Hardware support
 
 ### Timestamps and occlusion queries
  Timestamps are supported on all platforms that support Frame Analysis. Depth occlusion queries—required for the Pixels Occluded counter—are supported on platforms that support feature level 9.2 or higher.
@@ -164,7 +164,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 ### WARP
  Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented, but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.
 
-##  <a name="Variants"></a> Variants
+## <a name="Variants"></a> Variants
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:
 
 |Variant|Description|

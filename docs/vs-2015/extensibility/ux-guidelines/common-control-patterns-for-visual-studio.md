@@ -12,7 +12,7 @@ manager: jillfra
 # Common Control Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-##  <a name="BKMK_CommonControls"></a> Common controls
+## <a name="BKMK_CommonControls"></a> Common controls
 
 ### Overview
  Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx). This document is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.
@@ -44,10 +44,10 @@ manager: jillfra
 
 - **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
 
-###  <a name="BKMK_Scrollbars"></a> Scrollbars
+### <a name="BKMK_Scrollbars"></a> Scrollbars
  Scrollbars should follow [common interaction patterns for Windows scrollbars](https://msdn.microsoft.com/library/windows/desktop/bb787527\(v=vs.85\).aspx) unless they are augmented with content information, such as in the code editor.
 
-###  <a name="BKMK_InputFields"></a> Input fields
+### <a name="BKMK_InputFields"></a> Input fields
  For typical interaction behavior, follow the [Windows Desktop guidelines for text boxes](https://msdn.microsoft.com/library/windows/desktop/dn742442\(v=vs.85\).aspx).
 
 #### Visual style
@@ -72,7 +72,7 @@ manager: jillfra
      ![Correct input field control width](../../extensibility/ux-guidelines/media/0707-02-correctinputfieldcontrol.png "0707-02_CorrectInputFieldControl")
      **Correct input field length: The input field is a reasonable width for the expected content.**
 
-###  <a name="BKMK_ComboBoxesAndDropDowns"></a> Combo boxes and drop-down lists
+### <a name="BKMK_ComboBoxesAndDropDowns"></a> Combo boxes and drop-down lists
  For typical interaction behavior, follow the [Windows Desktop guidelines for drop-down lists and combo boxes](https://msdn.microsoft.com/library/windows/desktop/dn742404\(v=vs.85\).aspx).
 
 #### Visual style
@@ -92,7 +92,7 @@ manager: jillfra
 
  **Correct field length for a drop-down control**
 
-###  <a name="BKMK_CheckBoxes"></a> Check boxes
+### <a name="BKMK_CheckBoxes"></a> Check boxes
  For typical interaction behavior, follow the [Windows Desktop guidelines for check boxes](https://msdn.microsoft.com/library/windows/desktop/dn742401\(v=vs.85\).aspx).
 
 #### Visual style
@@ -113,7 +113,7 @@ manager: jillfra
      ![Correct check box alignment](../../extensibility/ux-guidelines/media/0707-06-correctcheckboxalign.png "0707-06_CorrectCheckBoxAlign")
      **Correct check box alignment: Check box is aligned with the baseline of the first line of text.**
 
-###  <a name="BKMK_RadioButtons"></a> Radio buttons
+### <a name="BKMK_RadioButtons"></a> Radio buttons
  For typical interaction behavior, follow the [Windows Desktop guidelines for radio buttons](https://msdn.microsoft.com/library/windows/desktop/dn742436\(v=vs.85\).aspx).
 
 #### Visual style
@@ -122,7 +122,7 @@ manager: jillfra
 #### Specialized interactions
  It is not necessary to use a group frame to enclose radio choices.
 
-###  <a name="BKMK_GroupFrames"></a> Group frames
+### <a name="BKMK_GroupFrames"></a> Group frames
  For typical interaction behavior, follow the [Windows Desktop guidelines for group frames](https://msdn.microsoft.com/library/windows/desktop/dn742405\(v=vs.85\).aspx).
 
 #### Visual style
@@ -136,7 +136,7 @@ manager: jillfra
 
 - It is sometimes acceptable to use a horizontal rule instead of a group frame container.
 
-##  <a name="BKMK_TextControls"></a> Text controls
+## <a name="BKMK_TextControls"></a> Text controls
 
 ### Labels
 
@@ -225,7 +225,7 @@ manager: jillfra
 
   **Examples of watermark text in Visual Studio**
 
-##  <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
+## <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
 
 ### Overview
  Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](https://msdn.microsoft.com/library/windows/desktop/dn742406\(v=vs.85\).aspx) for usage, wording, sizing, and spacing.
@@ -356,7 +356,7 @@ manager: jillfra
 
 - Underlines should not appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
 
-##  <a name="BKMK_TreeViews"></a> Tree views
+## <a name="BKMK_TreeViews"></a> Tree views
 
 ### Overview
  Tree views provide a way to organize complex lists into parent-child groups. A user can expand or collapse parent groups to reveal or hide underlying child items. Each item within a tree view can be selected to provide further action.
@@ -369,7 +369,7 @@ manager: jillfra
 
 - [Interactions](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViewInteractions)
 
-###  <a name="BKMK_TreeViewVisualStyle"></a> Visual style
+### <a name="BKMK_TreeViewVisualStyle"></a> Visual style
 
 #### Expanders
  Tree view controls should conform to the expander design used by Windows and Visual Studio. Each node uses an expander control to reveal or hide underlying items. Using an expander control provides consistency for users who might encounter different tree views within Windows and Visual Studio.
@@ -403,7 +403,7 @@ manager: jillfra
 
  **Both vertical and horizontal scroll bars are displayed because the contents have exceeded the limits of the tree view control.**
 
-###  <a name="BKMK_TreeViewInteractions"></a> Interactions
+### <a name="BKMK_TreeViewInteractions"></a> Interactions
 
 #### Context menus
  A tree view node can reveal submenu options in a context menu. Typically, this occurs when a user has right-clicked an item or pressed the Menu key on a Windows keyboard with the item selected. It's important that the node gains focus and is selected. This helps the user identify which item the submenu belongs to.

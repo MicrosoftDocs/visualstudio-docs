@@ -41,7 +41,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
  [Properties of Packages](#Properties)  
   
-##  <a name="Namespaces"></a> Namespaces  
+## <a name="Namespaces"></a> Namespaces  
  Packages are useful for separating work into different areas. Each package defines a namespace so that names that are defined in different packages do not conflict with each other.  
   
  The qualified name property of each element is the qualified name of the package to which it belongs, followed by the element's own name. For example, if your package is called `MyPackage`, a class within the package will have a qualified name like `MyPackage::MyClass`. Because every element is contained inside a model, every qualified name begins with the model's name.  
@@ -52,7 +52,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
  Packages are containers. If you move or delete a package, the classes, packages, and other things defined inside it are also moved or deleted. The same is true of other elements that define namespaces.  
   
-##  <a name="Packages"></a> Creating and Viewing Packages  
+## <a name="Packages"></a> Creating and Viewing Packages  
  You can create a package either on a UML class diagram, or in UML Model Explorer.  
   
 #### To create a package in a UML class diagram  
@@ -91,7 +91,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
     > [!NOTE]
     >  This creates a view of the package on this diagram. It will not necessarily show all the elements that the package contains. To make sure that you see all of a package's contents, view it in UML Model Explorer.  
   
-##  <a name="Elements"></a> Creating Model Elements inside Packages  
+## <a name="Elements"></a> Creating Model Elements inside Packages  
  There are four ways in which you can place model elements inside a package:  
   
 - Add a new element to a package in UML Model Explorer.  
@@ -149,7 +149,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
     - In **UML Model Explorer**, each element will appear under the package.  
   
-##  <a name="Moving"></a> Moving Elements into and out of Packages  
+## <a name="Moving"></a> Moving Elements into and out of Packages  
  You can move one or more elements in or out of a package.  
   
  If you move a package, everything inside it moves with it.  
@@ -169,7 +169,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
     > [!NOTE]
     >  If you drag an element out of a package into a blank part of the diagram, its owning package does not change. This lets you make a diagram that shows elements from several packages without having to show the packages themselves.  
   
-##  <a name="Pasting"></a> Pasting Elements into a Package  
+## <a name="Pasting"></a> Pasting Elements into a Package  
  You can paste an element into a package. If you paste a group of related elements into a package, the relationships between them will also be pasted.  
   
 #### To paste elements into a package on a UML class diagram  
@@ -181,14 +181,14 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
     > [!NOTE]
     >  The package can be on a different diagram.  
   
-##  <a name="Import"></a> Import Relationships between Packages  
+## <a name="Import"></a> Import Relationships between Packages  
  You can define an import relationship between packages, using the **Import** tool.  
   
  Import means that the elements defined in the imported package, which are the elements at the arrow end of the relationship, are effectively defined also in the importing package. Any elements whose visibility is defined as **Package** will be visible also in the importing package.  
   
  Avoid creating loops in import relationships.  
   
-##  <a name="References"></a> References from One Namespace to Another  
+## <a name="References"></a> References from One Namespace to Another  
  If you want to refer to an element of one package from another, you must use the element's qualified name.  
   
  For example, suppose that package `SalesCommon` defines type `CustomerAddress`. In another package `RestaurantSales`, you want to define a type `MealOrder`, which has an attribute of type Customer Address. You have two options:  
@@ -197,7 +197,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 - Create an Import relationship from the `RestaurantSales` package to the `SalesCommon` package. Then you can use `CustomerAddress` without using its qualified name.  
   
-##  <a name="Properties"></a> Properties of Packages  
+## <a name="Properties"></a> Properties of Packages  
  Each package has the following properties. To see the properties, right-click the package, either on a diagram or in UML Model Explorer, and then click **Properties**.  
   
 |Property|Default value|Description|  

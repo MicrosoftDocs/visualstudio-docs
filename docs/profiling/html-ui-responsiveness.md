@@ -65,7 +65,7 @@ This topic describes how to isolate performance problems in your apps using the 
 ## Isolate an issue
  The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](/visualstudio/profiling/html-ui-responsiveness).
 
-###  <a name="Workflow"></a> Isolate a UI responsiveness problem
+### <a name="Workflow"></a> Isolate a UI responsiveness problem
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:
 
 1. Open your app in Visual Studio.
@@ -122,12 +122,12 @@ This topic describes how to isolate performance problems in your apps using the 
 
 13. When zoomed in, select a portion of the CPU utilization or visual throughput graph. When you make a selection, the timeline details graph in the profiler's lower pane changes to show only the selected time period.
 
-###  <a name="IsolateVisualThroughput"></a> Isolate a visual throughput problem
+### <a name="IsolateVisualThroughput"></a> Isolate a visual throughput problem
  Periods of excessive CPU utilization can result in low or inconsistent frame rates. If you develop rich media apps and games, the visual throughput graph may provide more important data than the CPU utilization graph.
 
  To isolate a visual throughput problem, follow the steps described in the previous section, but use the visual throughput graph as one of the key data points.
 
-###  <a name="ProfileMark"></a> Mark code for analysis
+### <a name="ProfileMark"></a> Mark code for analysis
  To help isolate a section of app code that's associated with data that appears in the graphs, you can add a function call in your app that instructs the profiler to insert a user mark—an inverted triangle—in the timeline at the moment the function gets executed. Any user mark that you add appears in the timeline for the CPU utilization graph, the visual throughput graph, and the timeline details graph.
 
  To add a user mark, add the following code to your app. This example uses "getting data" as the description of the event.
@@ -166,7 +166,7 @@ if (performance.mark && performance.measure) {
 ## Analyze data
  The following sections provide information to help interpret data that appears in the profiler.
 
-###  <a name="Ruler"></a> View the diagnostic session timeline
+### <a name="Ruler"></a> View the diagnostic session timeline
  The ruler at the top of the profiler shows the timeline for profiled information. This timeline applies to both the CPU utilization graph and the visual throughput graph.
 
  Here's what the diagnostic session timeline looks like with a tooltip displayed for several app lifecycle events:
@@ -181,7 +181,7 @@ if (performance.mark && performance.measure) {
 
 - A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.
 
-###  <a name="CPUUtilization"></a> View CPU utilization
+### <a name="CPUUtilization"></a> View CPU utilization
  The CPU utilization graph enables you to identify periods of time in which there is excessive CPU activity. It provides information about the app's average CPU consumption over a period of time. Information is color-coded to represent the following specific categories: **Loading**, **Scripting**, garbage collection (**GC**), **Styling**, **Rendering**, and **Image decoding**. For more info about these categories, see [Profiler event reference](#profiler-event-reference) later in this topic.
 
  The CPU utilization graph shows the amount of time spent on all app threads, combining CPU utilization values for one or more CPUs into a single percentage value. The CPU utilization value might exceed 100 percent when more than one CPU is in use.
@@ -203,7 +203,7 @@ if (performance.mark && performance.measure) {
 
   For more info on using the graph, see [Isolate a UI responsiveness problem](#Workflow) in this topic.
 
-###  <a name="VisualThroughput"></a> View visual throughput (FPS)
+### <a name="VisualThroughput"></a> View visual throughput (FPS)
  The visual throughput graph enables you to identify periods of time in which the frame rate dropped. It shows the frames per second (FPS) for the app. This graph is most useful for the development of games and rich media apps.
 
  The displayed FPS value might differ from the actual frame rate. Keep this information in mind when examining data in this graph:
@@ -226,7 +226,7 @@ if (performance.mark && performance.measure) {
 
 - Get a more detailed view of a selected time period by choosing the **Zoom in** button.
 
-###  <a name="TimelineDetails"></a> View timeline details
+### <a name="TimelineDetails"></a> View timeline details
  The timeline details graph appears in the lower pane of the UI Responsiveness Profiler. It provides sequential and hierarchical information about events that consumed the most CPU time during selected time periods. This graph can help you determine what triggered a particular event and, for some events, how the event maps back to source code. This graph also helps you determine the time required to paint visual updates on the screen.
 
  The graph shows UI thread work and work on background threads that can contribute to slow visual updates. The graph doesn't show JavaScript JIT work, asynchronous GPU work, work performed outside the host process (such as RuntimeBroker.exe and dwm.exe work), or work for areas of the Windows Runtime that haven't yet been instrumented for profiling (such as disk I/O).
@@ -265,12 +265,12 @@ if (performance.mark && performance.measure) {
     > [!TIP]
     >  The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.
 
-###  <a name="FilterTimelineDetails"></a> Filter timeline details
+### <a name="FilterTimelineDetails"></a> Filter timeline details
  You can filter the view in the timeline details to a particular event by selecting **Filter to event** from the context menu for a specific event. When you choose this option, the timeline and grid view are scoped to the selected event. The selection in the CPU utilization graph also scopes to the specific event.
 
  ![Filtering timeline to an event](../profiling/media/js_htmlvizprofiler_filtertoevent.png "JS_HTMLVizProfiler_FilterToEvent")
 
-###  <a name="FilterEvents"></a> Filter events
+### <a name="FilterEvents"></a> Filter events
  You can filter out some events from the timeline details graph to reduce noise in the data, or to eliminate data that is not interesting for your performance scenario. You can filter by event name or event duration, or by specific filters described here.
 
  To filter out image decoding, speculative downloading, and GC events, clear the **Background activity** option from the filter icon in the lower pane. Because these events are not very actionable, they are hidden by default.
@@ -286,7 +286,7 @@ if (performance.mark && performance.measure) {
 
  To filter out user measures, clear the **User measures** option. User measures are top-level events with no children.
 
-###  <a name="GroupFrames"></a> Group events by frame
+### <a name="GroupFrames"></a> Group events by frame
  You can group events that appear in the timeline details view to individual frames. These frame events are tool-generated events, and represent top-level event containers for all UI thread work that occurs between paint events. To enable this view, select **Group top level events by frames**.
 
  ![Group top level events by frame](../profiling/media/js_htmlvizprofiler_frame_grouping_button.png "JS_HTMLVizProfiler_Frame_Grouping_Button")

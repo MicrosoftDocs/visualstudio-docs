@@ -33,7 +33,7 @@ ms.workload:
 
 - [Create a SharePoint solution](#Solutions)
 
-##  <a name="Apps"></a> Create add-ins for Office and SharePoint
+## <a name="Apps"></a> Create add-ins for Office and SharePoint
  Office 2013 and SharePoint 2013 introduce a new add-in model that helps you build, distribute, and monetize add-ins that extend Office and SharePoint.  These add-ins can run in Office or SharePoint Online, and users can interact with them from many devices.
 
  Find out how to use the new [Office Add-in model](/office/dev/add-ins/overview/office-add-ins) to extend the Office experience for your users.
@@ -75,7 +75,7 @@ ms.workload:
 |Compare add-ins for SharePoint with traditional SharePoint solutions.|[SharePoint Add-ins compared with SharePoint solutions](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management)|
 |Choose whether to build a SharePoint add-in or a SharePoint solution.|[Decide between SharePoint Add-ins and SharePoint solutions](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management)|
 
-##  <a name="Add-ins"></a> Create a VSTO Add-in
+## <a name="Add-ins"></a> Create a VSTO Add-in
  Create a VSTO add-in to target Office 2007 or Office 2010, or to extend Office 2013 and Office 2016 beyond what's possible with Office add-ins. VSTO add-ins run only on the desktop. Users have to install VSTO add-ins, so they're typically more difficult to deploy and support.  However, your VSTO add-in can be integrated more closely with Office. For example, it can add tabs and controls to the Office Ribbon and perform advanced automation tasks such as merging documents or modifying charts. You can leverage the .NET Framework and use C# and Visual Basic to interact with Office objects.
 
  Here's an example what a VSTO add-in can do. This VSTO add-in adds Ribbon controls, a custom task pane, and a dialog box to PowerPoint.
@@ -89,7 +89,7 @@ ms.workload:
 |Compare the different ways in which you can extend Office, and decide whether you should use a VSTO add-in or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](https://blogs.msdn.microsoft.com/officeapps/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba/)|
 |Create a VSTO add-in.|[VSTO add-ins build with Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)|
 
-##  <a name="Solutions"></a> Create a SharePoint solution
+## <a name="Solutions"></a> Create a SharePoint solution
  Create a SharePoint solution to target SharePoint Foundation 2010 and SharePoint Server 2010, or to extend SharePoint 2013 and SharePoint 2016 in ways beyond what's possible with a SharePoint add-in.
 
  SharePoint solutions require on-premises SharePoint farm servers. Administrators must install them, and because solutions execute in SharePoint, they can affect the performance of the server. However, solutions provide deeper access to SharePoint objects. Also, when you build a SharePoint solution, you can leverage the .NET Framework and use C# and Visual Basic to interact with SharePoint objects.

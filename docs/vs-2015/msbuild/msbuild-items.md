@@ -51,7 +51,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
     - [KeepDuplicates Attribute](#BKMK_KeepDuplicates)  
   
-##  <a name="BKMK_Creating1"></a> Creating Items in a Project File  
+## <a name="BKMK_Creating1"></a> Creating Items in a Project File  
  You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
   
 ```  
@@ -71,7 +71,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>  
 ```  
   
-##  <a name="BKMK_Creating2"></a> Creating Items During Execution  
+## <a name="BKMK_Creating2"></a> Creating Items During Execution  
  Items that are outside [Target](../msbuild/target-element-msbuild.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:  
   
 - Any task can emit an item. To emit an item, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has an `ItemName` attribute.  
@@ -80,12 +80,12 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
 - Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.  
   
-##  <a name="BKMK_ReferencingItems"></a> Referencing Items in a Project File  
+## <a name="BKMK_ReferencingItems"></a> Referencing Items in a Project File  
  To reference item types throughout the project file, you use the syntax @(`ItemType`). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  
   
  By default, the items of an item type are separated by semicolons (;) when it’s expanded. You can use the syntax @(*ItemType*, '*separator*') to specify a separator other than the default. For more information, see [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
   
-##  <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
+## <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
  You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
   
 - The ? wildcard character matches a single character.  
@@ -108,7 +108,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  For more information about wildcard characters, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  
   
-##  <a name="BKMK_ExcludeAttribute"></a> Using the Exclude Attribute  
+## <a name="BKMK_ExcludeAttribute"></a> Using the Exclude Attribute  
  Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every .cs file in the directory to the CSFile item type, except the `DoNotBuild.cs` file.  
   
 ```  
@@ -126,7 +126,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  For more information, see [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md).  
   
-##  <a name="BKMK_ItemMetadata"></a> Item Metadata  
+## <a name="BKMK_ItemMetadata"></a> Item Metadata  
  Items may contain metadata in addition to the information in the `Include` and `Exclude` attributes. This metadata can be used by tasks that require more information about the items or to batch tasks and targets. For more information, see [Batching](../msbuild/msbuild-batching.md).  
   
  Metadata is a collection of key-value pairs that are declared in the project file as child elements of an item element. The name of the child element is the name of the metadata, and the value of the child element is the value of the metadata.  
@@ -143,7 +143,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  An item can have zero or more metadata values. You can change metadata values at any time. If you set metadata to an empty value, you effectively remove it from the build.  
   
-###  <a name="BKMK_ReferencingItemMetadata"></a> Referencing Item Metadata in a Project File  
+### <a name="BKMK_ReferencingItemMetadata"></a> Referencing Item Metadata in a Project File  
  You can reference item metadata throughout the project file by using the syntax %(`ItemMetadataName`). If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify %(*ItemType.ItemMetaDataName*).The following example uses the Display metadata to batch the Message task. For more information about how to use item metadata for batching, see [Item Metadata in Task Batching](../msbuild/item-metadata-in-task-batching.md).  
   
 ```  
@@ -162,10 +162,10 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </Project>  
 ```  
   
-###  <a name="BKMK_WellKnownItemMetadata"></a> Well-known Item Metadata  
+### <a name="BKMK_WellKnownItemMetadata"></a> Well-known Item Metadata  
  When an item is added to an item type, that item is assigned some well-known metadata. For example, all items have the well-known metadata `%(Filename)`, whose value is the file name of the item. For more information, see [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md).  
   
-###  <a name="BKMK_Transforming"></a> Transforming Item Types By Using Metadata  
+### <a name="BKMK_Transforming"></a> Transforming Item Types By Using Metadata  
  You can transform item lists into new item lists by using metadata. For example, you can transform an item type `CppFiles` that has items that represent .cpp files into a corresponding list of .obj files by using the expression `@(CppFiles -> '%(Filename).obj')`.  
   
  The following code creates a `CultureResource` item type that contains copies of all `EmbeddedResource` items with `Culture` metadata. The `Culture` metadata value becomes the value of the new metadata `CultureResource.TargetDirectory`.  
@@ -183,7 +183,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  For more information, see [Transforms](../msbuild/msbuild-transforms.md).  
   
-##  <a name="BKMK_ItemDefinitions"></a> Item Definitions  
+## <a name="BKMK_ItemDefinitions"></a> Item Definitions  
  Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items "one.cs" and "three.cs" the metadata `BuildDay` with the value "Monday". The code gives the item "two.cs" the metadata `BuildDay` with the value "Tuesday".  
   
 ```  
@@ -202,10 +202,10 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  For more information, see [Item Definitions](../msbuild/item-definitions.md).  
   
-##  <a name="BKMK_AttributesWithinTargets"></a> Attributes for Items in an ItemGroup of a Target  
+## <a name="BKMK_AttributesWithinTargets"></a> Attributes for Items in an ItemGroup of a Target  
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.  
   
-###  <a name="BKMK_RemoveAttribute"></a> Remove Attribute  
+### <a name="BKMK_RemoveAttribute"></a> Remove Attribute  
  Items in an `ItemGroup` of a target may contain the `Remove` attribute, which removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5.  
   
  The following example removes every .config file from the Compile item type.  
@@ -218,7 +218,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </Target>  
 ```  
   
-###  <a name="BKMK_KeepMetadata"></a> KeepMetadata Attribute  
+### <a name="BKMK_KeepMetadata"></a> KeepMetadata Attribute  
  If an item is generated within a target, the item element can contain the `KeepMetadata` attribute. If this attribute is specified, only the metadata that is specified in the semicolon-delimited list of names will be transferred from the source item to the target item. An empty value for this attribute is equivalent to not specifying it. The `KeepMetadata` attribute was introduced in the .NET Framework 4.5.  
   
  The following example illustrates how to use the `KeepMetadata` attribute.  
@@ -260,7 +260,7 @@ Output:
 -->  
 ```  
   
-###  <a name="BKMK_RemoveMetadata"></a> RemoveMetadata Attribute  
+### <a name="BKMK_RemoveMetadata"></a> RemoveMetadata Attribute  
  If an item is generated within a target, the item element can contain the `RemoveMetadata` attribute. If this attribute is specified, all metadata is transferred from the source item to the target item except metadata whose names are contained in the semicolon-delimited list of names. An empty value for this attribute is equivalent to not specifying it. The `RemoveMetadata` attribute was introduced in the .NET Framework 4.5.  
   
  The following example illustrates how to use the `RemoveMetadata` attribute.  
@@ -309,7 +309,7 @@ Output:
 -->  
 ```  
   
-###  <a name="BKMK_KeepDuplicates"></a> KeepDuplicates Attribute  
+### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates Attribute  
  If an item is generated within a target, the item element can contain the `KeepDuplicates` attribute. `KeepDuplicates` is a `Boolean` attribute that specifies whether an item should be added to the target group if the item is an exact duplicate of an existing item.  
   
  If the source and target item have the same Include value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. An empty value for this attribute is equivalent to not specifying it. The `KeepDuplicates` attribute was introduced in the .NET Framework 4.5.  

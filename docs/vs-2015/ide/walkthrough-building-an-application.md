@@ -29,7 +29,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
  [Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)  
   
-##  <a name="BKMK_installapp"></a> Install the Sample Application  
+## <a name="BKMK_installapp"></a> Install the Sample Application  
  You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.  
   
 #### To install the sample application  
@@ -68,7 +68,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 4. Choose the **OK** button.  
   
-##  <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration  
+## <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration  
  When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you’ll create a build configuration for testing.  
@@ -101,7 +101,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
    ![Solution Configuration option Standard Toolbar](../ide/media/buildwalk-standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
   
-##  <a name="BKMK_building"></a> Build the Application  
+## <a name="BKMK_building"></a> Build the Application  
  Next, you’ll build the solution with the custom build configuration.  
   
 #### To build the solution  
@@ -118,7 +118,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
   ![Output Window Visual C&#35;](../ide/media/buildwalk-csharpbuildoutputwnd.png "BuildWalk_CsharpBuildOutputWnd")  
   
-##  <a name="BKMK_hidewarning"></a> Hide Compiler Warnings  
+## <a name="BKMK_hidewarning"></a> Hide Compiler Warnings  
  You can temporarily hide certain warning messages during a build rather than have them clutter up the build output.  
   
 #### To hide a specific Visual C# warning  
@@ -163,7 +163,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
    For more information, see [How to: Suppress Compiler Warnings](../ide/how-to-suppress-compiler-warnings.md).  
   
-##  <a name="BKMK_outputdetails"></a> Display Additional Build Details in the Output Window  
+## <a name="BKMK_outputdetails"></a> Display Additional Build Details in the Output Window  
  You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to Minimal, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Options Dialog Box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md).  
   
 > [!IMPORTANT]
@@ -194,7 +194,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
    For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
-##  <a name="BKMK_releasebuild"></a> Create a Release Build  
+## <a name="BKMK_releasebuild"></a> Create a Release Build  
  You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.  
   
  For more information, see [How to: Change the Build Output Directory](../ide/how-to-change-the-build-output-directory.md) and [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md).  

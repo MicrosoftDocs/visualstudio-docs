@@ -26,7 +26,7 @@ Your control can be more easily tested if you implement support for the coded UI
   
    ![CUIT&#95;Full](../test/media/cuit-full.png "CUIT_Full")  
   
-##  <a name="recordandplayback"></a> Support Record and Playback and Property Validation by implementing Accessibility  
+## <a name="recordandplayback"></a> Support Record and Playback and Property Validation by implementing Accessibility  
  The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder will capture actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code will issue those mouse clicks in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform that action on your control. This can result in failures if the test is played back on different screen configurations, in different environments, or after there have been changes to the UI layout.  
   
  ![CUIT&#95;RecordNoSupport](../test/media/cuit-recordnosupport.png "CUIT_RecordNoSupport")  
@@ -74,7 +74,7 @@ Your control can be more easily tested if you implement support for the coded UI
 > [!NOTE]
 >  This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject> in this procedure, and then builds on that in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in Program.cs with the sample code. You’ll need to add references to Accessibility, System.Drawing, and System.Windows.Forms. You should change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project’s output type to from **Console Application** to **Windows Application** so that a console window doesn’t appear when you run the application.  
   
-##  <a name="customproprties"></a> Support Custom Property Validation by implementing a Property Provider  
+## <a name="customproprties"></a> Support Custom Property Validation by implementing a Property Provider  
  Once you’ve implemented basic support for record and playback and property validation, you can make your control’s custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control’s CurveLegend child controls.  
   
  ![CUIT&#95;CustomProps](../test/media/cuit-customprops.png "CUIT_CustomProps")  
@@ -320,7 +320,7 @@ Your control can be more easily tested if you implement support for the coded UI
 > [!NOTE]
 >  This extension package will be applied to any control that is of type “Text”. If you’re testing multiple controls of the same type, you’ll need to test them separately and manage which extension packages are deployed when you record the tests.  
   
-##  <a name="codegeneration"></a> Support Code Generation by implementing a Class to Access Custom Properties  
+## <a name="codegeneration"></a> Support Code Generation by implementing a Class to Access Custom Properties  
  When the coded UI test builder generates code from a session recording, it uses the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl> class to access your controls.  
   
 ```csharp  
@@ -400,7 +400,7 @@ Assert.AreEqual(this.AssertMethod3ExpectedValues.UIATextState, uIAText.State);
     }  
     ```  
   
-##  <a name="intentawareactions"></a> Support Intent-Aware Actions by implementing an Action Filter  
+## <a name="intentawareactions"></a> Support Intent-Aware Actions by implementing an Action Filter  
  When Visual Studio records a test, it captures each mouse and keyboard event. However, in some cases, the intent of the action can be lost in the series of mouse and keyboard events. For example, if your control supports autocomplete, the same set of mouse and keyboard events may result in a different value when the test is played back in a different environment. You can add an action filter plug-in that replaces the series of keyboard and mouse events with a single action. This way, you can replace the series of mouse and keyboard events resulting in the selection of a value with a single action that sets the value. Doing that protects coded UI tests from the differences in autocomplete from one environment to another.  
   
 ### To support intent-aware actions  

@@ -42,7 +42,7 @@ ms.workload:
 
   For information about content controls, see [Content controls](../vsto/content-controls.md).
 
-##  <a name="designtime"></a> Add Content controls at design time
+## <a name="designtime"></a> Add Content controls at design time
  There are several ways to add content controls to the document in a document-level project at design time:
 
 - Add a content control from the **Word Controls** tab of the **Toolbox**.
@@ -88,7 +88,7 @@ ms.workload:
 
 3. In the **Controls** group, click the icon for the content control that you want to add.
 
-##  <a name="runtimedoclevel"></a> Add content controls at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Add content controls at runtime in a document-level project
  You can add content controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. Each method has three overloads that you can use to add a content control in the following ways:
 
 - Add a control at the current selection.
@@ -129,7 +129,7 @@ ms.workload:
      [!code-csharp[Trin_ContentControlReference#702](../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/RichText.cs#702)]
      [!code-vb[Trin_ContentControlReference#702](../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/RichText.vb#702)]
 
-##  <a name="runtimeaddin"></a> Add content controls at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Add content controls at runtime in a VSTO Add-in project
  You can add content controls programmatically to any open document at runtime by using a VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. Each method has three overloads that you can use to add a content control in the following ways:
 
 - Add a control at the current selection.

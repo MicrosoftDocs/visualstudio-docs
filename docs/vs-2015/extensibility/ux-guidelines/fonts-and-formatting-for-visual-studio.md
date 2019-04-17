@@ -12,7 +12,7 @@ manager: jillfra
 # Fonts and Formatting for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-##  <a name="BKMK_TheEnvironmentFont"></a> The environment font
+## <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:
 
 - **Environment font** — the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.
@@ -84,7 +84,7 @@ window.ShowModal()
 
 ```
 
-###  <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference
+### <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference
  Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as “environment font +2” or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (such as Light or Semilight).
 
 > **Note: Before you apply formatting, ensure you are following the guidance found in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).**
@@ -317,7 +317,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
  To reset the font, click "Use Defaults" under **Tools > Options > Environment > Fonts and Colors**.
 
-##  <a name="BKMK_TextStyle"></a> Text style
+## <a name="BKMK_TextStyle"></a> Text style
  Text style refers to font size, weight, and casing. For implementation guidance, see [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont).
 
 ### Text casing

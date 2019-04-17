@@ -98,7 +98,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
         - Verify that in your iOS project properties in the iOS bundle signing tab, that the Custom entitlement field is empty for the   active debug configuration.  Note: you should only try removing this setting if you’ve encountered the above error message.  
   
-##  <a name="missing"></a> Are the Xamarin project templates missing? Try this  
+## <a name="missing"></a> Are the Xamarin project templates missing? Try this  
  Templates might be missing if you install Xamarin directly from the Xamarin website and you have Visual Studio 2013 and Visual Studio 2015 installed side-by-side. It’s easy to fix, though: just enable the **Xamarin for Visual Studio 2015** feature in the Xamarin setup program.  
   
 1. In Control Panel, open **Programs and Features**, choose the **Xamarin** item, and click **Change**.  

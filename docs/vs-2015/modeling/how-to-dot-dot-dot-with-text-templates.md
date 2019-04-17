@@ -102,7 +102,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
   
 ## More general questions  
   
-###  <a name="starting"></a> What is the best way to start writing a text template?  
+### <a name="starting"></a> What is the best way to start writing a text template?  
   
 1. Write a specific example of the generated file.  
   

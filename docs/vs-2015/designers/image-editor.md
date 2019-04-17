@@ -140,7 +140,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|  
 |**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold Shift and then choose the area to fill.|  
   
-###  <a name="ImageProperties"></a> Image properties  
+### <a name="ImageProperties"></a> Image properties  
  You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.  
   
  The following table describes image properties.  
@@ -201,7 +201,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |Ctrl|||Copies and then resizes the content of the selected region.|  
 |Ctrl|Shift||Copies and then proportionally resizes the content of the selected region.|  
   
-####  <a name="ToolProperties"></a> Tool Properties  
+#### <a name="ToolProperties"></a> Tool Properties  
  While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.  
   
  You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.  

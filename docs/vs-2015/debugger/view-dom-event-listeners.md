@@ -69,7 +69,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
      The **Events** tab shows event listeners for any element that you choose in the hierarchy list.
 
-###  <a name="Tips"></a> Tips for resolving issues with event listeners
+### <a name="Tips"></a> Tips for resolving issues with event listeners
  In some app scenarios, event listeners must be explicitly removed using [removeEventListener](http://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx). Use the **Events** tab in the DOM Explorer to test whether event listeners have been removed from DOM elements while running code. Here are some tips to help resolve these types of issues:
 
 - For apps that use the single-page navigation model implemented in the Visual Studio [project templates](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), it's not typically necessary to remove event listeners registered for objects, such as DOM elements, that are part of a page. In this scenario, a DOM element and its associated event listeners have the same lifetime, and they can be garbage-collected.

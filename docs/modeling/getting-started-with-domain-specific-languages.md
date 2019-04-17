@@ -94,7 +94,7 @@ Notice the following aspects of the new solution:
 
 - **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in Visual Studio.
 
-##  <a name="Debugging"></a> Running the DSL
+## <a name="Debugging"></a> Running the DSL
 
 You can run the DSL solution as soon as you have created it. Later, you can modify the DSL definition gradually, running the solution again after each change.
 
@@ -388,7 +388,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 
-##  <a name="Reset"></a> Removing old Experimental DSLs
+## <a name="Reset"></a> Removing old Experimental DSLs
  If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the Visual Studio Experimental instance.
 
  This will remove from your computer all experimental DSLs and other experimental Visual Studio extensions. These are extensions that have been executed in debugging mode.

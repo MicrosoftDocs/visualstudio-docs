@@ -28,7 +28,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
   
 ## Use methods to assign a unique automation property  
   
-###  <a name="UniquePropertyWindowsStoreControlsStaticXAML"></a> Static XAML definition  
+### <a name="UniquePropertyWindowsStoreControlsStaticXAML"></a> Static XAML definition  
  To specify a unique automation property for a control that is defined in your XAML file, you can set the AutomationProperties.AutomationId or AutomationProperties.Name implicitly or explicitly, as shown in the following examples. Setting either of these values gives the control a unique automation property that can be used to identify the control when you create a coded UI test or action recording.  
   
  **Set the property implicitly**  
@@ -62,7 +62,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
 <Button AutomationProperties.Name="ButtonY" Height="31" HorizontalAlignment="Left" Margin="23,76,0,0" VerticalAlignment="Top" Width="140" Click="ButtonY_Click" />  
 ```  
   
-###  <a name="UniquePropertyWindowsStoreControlsExpressionBlend"></a> Assign unique automation properties using Visual Studio or Blend for Visual Studio  
+### <a name="UniquePropertyWindowsStoreControlsExpressionBlend"></a> Assign unique automation properties using Visual Studio or Blend for Visual Studio  
  You can use Visual Studio or Blend for Visual Studio to assign unique names to interactive elements such as buttons, list boxes, combo boxes and text boxes. This gives the control a unique value for AutomationProperties.Name.  
   
  **Visual Studio:** On the **Tools** menu, point to **Options** and then choose **Text Editor**, then **XAML**, and finally **Miscellaneous**.  
@@ -88,7 +88,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
   
  ![Set project to name interactive elements](../test/media/cuit-windowsstoreproeprty-blend-2.png "CUIT_WindowsStoreProeprty_Blend_2")  
   
-###  <a name="UniquePropertyWindowsStoreControlsDataTemplate"></a> Use a data template  
+### <a name="UniquePropertyWindowsStoreControlsDataTemplate"></a> Use a data template  
  You can define a simple template using ItemTemplate to bind the values in a list box to variables using the following XAML.  
   
 ```xaml  
@@ -151,7 +151,7 @@ public override string ToString()
   
 ```  
   
-###  <a name="UniquePropertyWindowsStoreControlsControlTemplate"></a> Use a control template  
+### <a name="UniquePropertyWindowsStoreControlsControlTemplate"></a> Use a control template  
  You can use a control template so that each instance of a specific type obtains a unique automation property when it is defined in the code. You must create the template so that the AutomationProperty binds to a unique ID in the control instance. The following XAML demonstrates one approach to create this binding with a control template.  
   
 ```xaml  
@@ -179,7 +179,7 @@ public override string ToString()
 <Button Content=”Button2” Style="{StaticResource MyButton}" Width="140"/>  
 ```  
   
-###  <a name="UniquePropertyWindowsStoreControlsDynamicControls"></a> Dynamic controls  
+### <a name="UniquePropertyWindowsStoreControlsDynamicControls"></a> Dynamic controls  
  If you have controls that are created dynamically from your code and not created statically or through templates in XAML files, you must set the Content or Name properties for the control. This makes sure that each dynamic control has a unique automation property. For example, if you have a check box that must be displayed when you select a list item, you can set these properties, as shown here:  
   
 ```csharp  

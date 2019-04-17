@@ -36,7 +36,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 - [Shortcuts](../ide/using-the-task-list.md#shortcuts)  
   
-##  <a name="taskListWindow"></a> The Task List window  
+## <a name="taskListWindow"></a> The Task List window  
  When the **Task List** is open, it appears at the bottom of the application window.  
   
 #### To open the Task List  
@@ -59,12 +59,12 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 - Drag any column header to the location that you want.  
   
-##  <a name="userTasks"></a> User Tasks  
+## <a name="userTasks"></a> User Tasks  
  The user task feature has been removed in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier in Visual Studio 2015, the user task data in your .suo file will not be affected, but the user tasks will not be displayed in the task list.  
   
  If you wish to continue to access and update your user task data, you should open the project in Visual Studio 2013 and copy the content of any user tasks into your preferred project management tool (such as Team Foundation Server).  
   
-##  <a name="tokensComments"></a> Tokens and comments  
+## <a name="tokensComments"></a> Tokens and comments  
  A comment in your code preceded by a comment marker and a predefined token will also appear in the **Task List** window. For example, the following C# comment has three distinct parts:  
   
 - The comment marker (`//`)  
@@ -79,7 +79,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
  Because `TODO` is a predefined token,   this comment appears as a `TODO` task in the list.  
   
-###  <a name="customTokens"></a> Custom tokens  
+### <a name="customTokens"></a> Custom tokens  
  By default, Visual Studio includes the following tokens: HACK, TODO, UNDONE, NOTE. These are not case sensitive.  
   
  You can also create your own custom tokens.  
@@ -98,7 +98,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 4. In the **Priority** drop-down list, choose a default priority for the new token. Choose the **Add** button.  
   
-###  <a name="cppComments"></a> C++ TODO comments  
+### <a name="cppComments"></a> C++ TODO comments  
  By default, C++ TODO comments are displayed in the **Task List** window. You can change this behavior.  
   
 ##### To turn off C++ TODO comments  
@@ -109,7 +109,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 3. Under **C/C++**, choose **View**, and then set **Enumerate Comment Tasks** to **False**.  
   
-##  <a name="shortcuts"></a> Shortcuts  
+## <a name="shortcuts"></a> Shortcuts  
  A *shortcut* is a bookmark in the code that is tracked in the **Task List**; it has a different icon than a regular bookmark. Double-click the shortcut in the **Task List** to go to the corresponding location in the code.  
   
  ![Visual Studio Task List Shortcut Icon](../ide/media/vs2015-task-list-bookmark.png "vs2015_task_list_bookmark")  
