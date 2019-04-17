@@ -23,18 +23,18 @@ This topic describes how to isolate performance problems in your apps using the 
 
  The UI Responsiveness Profiler can help you isolate problems such as UI responsiveness issues or platform side effects that typically occur with these symptoms:
 
--   Lack of responsiveness in the UI. The app might be slow to respond if the UI thread is getting blocked. Some things that might block the UI thread include excessive synchronous JavaScript code, excessive CSS layout or CSS calculation work, synchronous XHR requests, garbage collection, excessive paint times, or processor-intensive JavaScript code.
+- Lack of responsiveness in the UI. The app might be slow to respond if the UI thread is getting blocked. Some things that might block the UI thread include excessive synchronous JavaScript code, excessive CSS layout or CSS calculation work, synchronous XHR requests, garbage collection, excessive paint times, or processor-intensive JavaScript code.
 
--   Slow loading time for the app or for a page. This is typically caused by excessive time spent loading resources.
+- Slow loading time for the app or for a page. This is typically caused by excessive time spent loading resources.
 
--   Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)
+- Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)
 
 ## Run the HTML UI Responsiveness tool
  You can use the HTML UI Responsiveness tool when you have a working UWP app open in Visual Studio.
 
-1.  If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.
+1. If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.
 
-2.  On the **Debug** menu, choose **Performance Profiler**.
+2. On the **Debug** menu, choose **Performance Profiler**.
 
      If you want to change the analysis target for the profiler, choose **Change Target**.
 
@@ -42,25 +42,25 @@ This topic describes how to isolate performance problems in your apps using the 
 
      The following options are available for the analysis target:
 
-    -   **Startup Project**. Choose this option to analyze the current startup project. If you're running the app on a remote machine or device, you must use this setting, which is the default value.
+    - **Startup Project**. Choose this option to analyze the current startup project. If you're running the app on a remote machine or device, you must use this setting, which is the default value.
 
-    -   **Running App**. Choose this option to select a UWP app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.
+    - **Running App**. Choose this option to select a UWP app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.
 
          You can use this option to analyze performance of apps that are running on your computer when you don't have access to source code.
 
-    -   **Installed App**. Choose this option to select an installed app that you want to analyze. You can't use this option when you're running the app on a remote machine or device.
+    - **Installed App**. Choose this option to select an installed app that you want to analyze. You can't use this option when you're running the app on a remote machine or device.
 
          You can use this option to analyze the performance of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the performance of any app outside your own app development.
 
-3.  From **Available Tools**, select **HTML UI Responsiveness**, and then choose **Start**.
+3. From **Available Tools**, select **HTML UI Responsiveness**, and then choose **Start**.
 
-4.  When you start the UI Responsiveness Profiler, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
+4. When you start the UI Responsiveness Profiler, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
 
      Interact with the app to test the relevant performance scenario. For a detailed workflow, see [Isolate a UI responsiveness problem](#Workflow) and [Isolate a visual throughput problem](#IsolateVisualThroughput).
 
-5.  Switch to Visual Studio by pressing Alt+Tab.
+5. Switch to Visual Studio by pressing Alt+Tab.
 
-6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.
+6. To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.
 
 ## Isolate an issue
  The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](/visualstudio/profiling/html-ui-responsiveness).
@@ -68,36 +68,36 @@ This topic describes how to isolate performance problems in your apps using the 
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:
 
-1.  Open your app in Visual Studio.
+1. Open your app in Visual Studio.
 
-2.  Test your app for UI responsiveness issues. (Press **Ctrl**+**F5** to start your app without debugging.)
+2. Test your app for UI responsiveness issues. (Press **Ctrl**+**F5** to start your app without debugging.)
 
      If you find an issue, continue testing to try to narrow the time frame in which the issue occurs, or try to identify triggers that cause the behavior.
 
-3.  Switch to Visual Studio (press **Alt**+**Tab**) and stop your app (**Shift**+**F5**).
+3. Switch to Visual Studio (press **Alt**+**Tab**) and stop your app (**Shift**+**F5**).
 
-4.  Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).
+4. Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).
 
     > [!TIP]
     >  User marks can help you identify the responsiveness problem while you're viewing profiler data. For example, you can add a user mark at the beginning and end of a section of code that is causing a responsiveness issue.
 
-5.  Run the UI Responsiveness Profiler by following the instructions in the previous section.
+5. Run the UI Responsiveness Profiler by following the instructions in the previous section.
 
-6.  Put the app into the state that results in a UI responsiveness issue.
+6. Put the app into the state that results in a UI responsiveness issue.
 
-7.  Switch to Visual Studio (press Alt+Tab) and choose **Stop collection** in the profiler tab of the UI Responsiveness Profiler.
+7. Switch to Visual Studio (press Alt+Tab) and choose **Stop collection** in the profiler tab of the UI Responsiveness Profiler.
 
-8.  If you have added user marks, they will appear in the [View the diagnostic session timeline](#Ruler) of the profiler. The following illustration shows a single user mark used to specify a particular operation in your code.
+8. If you have added user marks, they will appear in the [View the diagnostic session timeline](#Ruler) of the profiler. The following illustration shows a single user mark used to specify a particular operation in your code.
 
      ![Diagnostics Ruler showing a user mark](../profiling/media/js_htmlvizprofiler_usermark.png "JS_HTMLVizProfiler_UserMark")
 
 9. Identify an area of interest in the timeline and the profiler graphs by using user marks, app lifecycle events, or data visible in the graphs. Here are some guidelines to help you analyze and use the data in the graphs:
 
-    -   Use the [View the diagnostic session timeline](#Ruler) to view [Mark code for analysis](#ProfileMark), app lifecycle events, and the associated timeline for these events and the timeline for data in the other graphs.
+    - Use the [View the diagnostic session timeline](#Ruler) to view [Mark code for analysis](#ProfileMark), app lifecycle events, and the associated timeline for these events and the timeline for data in the other graphs.
 
-    -   Use the [CPU utilization graph](#CPUUtilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.
+    - Use the [CPU utilization graph](#CPUUtilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.
 
-    -   If you're developing a game or rich media app, use the [View visual throughput (FPS)](#VisualThroughput) to identify periods of time in which the frame rate dropped.
+    - If you're developing a game or rich media app, use the [View visual throughput (FPS)](#VisualThroughput) to identify periods of time in which the frame rate dropped.
 
 10. Select the area of interest in one of the graphs by clicking a part of the graph and dragging the pointer to make a selection (or by using the Tab key and arrow keys). When you select a time period by making a selection, the timeline details graph in the profiler's lower pane changes to show only the selected time period.
 
@@ -107,13 +107,13 @@ This topic describes how to isolate performance problems in your apps using the 
 
 11. Use the [View timeline details](#TimelineDetails) to get detailed information about events that are either running too frequently or taking too much time to complete. For example, look for the following:
 
-    -   Event listeners, timers, and animation frame callbacks. Depending on the specific event, data provided may include the ID of modified DOM elements, the name of modified CSS properties, a link to the source location, and the name of the associated event or callback function.
+    - Event listeners, timers, and animation frame callbacks. Depending on the specific event, data provided may include the ID of modified DOM elements, the name of modified CSS properties, a link to the source location, and the name of the associated event or callback function.
 
-    -   Layout or scripting events that resulted in rendering elements, such as calls to `window.getComputedStyles`. The associated DOM element for the event is provided.
+    - Layout or scripting events that resulted in rendering elements, such as calls to `window.getComputedStyles`. The associated DOM element for the event is provided.
 
-    -   Pages or URL resources that are loaded by the app, such as script evaluations for HTML parsing events. The file name or resource is provided.
+    - Pages or URL resources that are loaded by the app, such as script evaluations for HTML parsing events. The file name or resource is provided.
 
-    -   Other events specified in [Profiler event reference](#profiler-event-reference).
+    - Other events specified in [Profiler event reference](#profiler-event-reference).
 
     > [!TIP]
     >  Most of the usable information in the profiler appears in the timeline details graph.
@@ -177,9 +177,9 @@ if (performance.mark && performance.measure) {
 
  App lifecycle events appear as diamond symbols. These are DOM events, which include the following:
 
--   `DOMContentLoaded` and `Load` events, which typically occur in the activated event handler in your code. A tooltip for the event shows the specific event and the URL.
+- `DOMContentLoaded` and `Load` events, which typically occur in the activated event handler in your code. A tooltip for the event shows the specific event and the URL.
 
--   A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.
+- A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.
 
 ###  <a name="CPUUtilization"></a> View CPU utilization
  The CPU utilization graph enables you to identify periods of time in which there is excessive CPU activity. It provides information about the app's average CPU consumption over a period of time. Information is color-coded to represent the following specific categories: **Loading**, **Scripting**, garbage collection (**GC**), **Styling**, **Rendering**, and **Image decoding**. For more info about these categories, see [Profiler event reference](#profiler-event-reference) later in this topic.
@@ -246,21 +246,21 @@ if (performance.mark && performance.measure) {
 
  Use the timeline details graph to:
 
--   View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:
+- View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:
 
-    -   Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.
+    - Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.
 
-    -   Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.
+    - Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.
 
--   Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.
+- Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.
 
--   Sort events by start time (the default) or duration. Use the **Sort by** list to select a sorting method.
+- Sort events by start time (the default) or duration. Use the **Sort by** list to select a sorting method.
 
--   View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:
+- View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:
 
-    -   For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.
+    - For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.
 
-    -   For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.
+    - For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.
 
     > [!TIP]
     >  The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.
@@ -345,11 +345,11 @@ if (performance.mark && performance.measure) {
 
 ## Additional information
 
--   Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.
+- Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.
 
--   Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).
+- Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).
 
--   For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
+- For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
 
 ## See also
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

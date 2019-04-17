@@ -12,7 +12,7 @@ ms.workload:
 # Troubleshooting Code Analysis Issues
 This topic contains troubleshooting information for the following Visual Studio code analysis issues.
 
--   [Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions](#ChildRuleSetChangesInPreviousVersions)
+- [Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions](#ChildRuleSetChangesInPreviousVersions)
 
 ##  <a name="ChildRuleSetChangesInPreviousVersions"></a> Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions
  When you create a rule set in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] that contains a child rule set, a change to the child rule set might not be applied in code analysis runs on computers that use an earlier version of Visual Studio. To resolve this issue, you must force a rewrite of the parent rule set, that is the rule set that contains the child rule set.

@@ -20,27 +20,27 @@ You can play back graphics information by using your local machine, or by using 
   
 #### To use the local machine to play back graphics information  
   
-1.  On the Graphics Log document window, choose the **Playback Machine** link. The **Remote Debugger Connections** dialog box appears.  
+1. On the Graphics Log document window, choose the **Playback Machine** link. The **Remote Debugger Connections** dialog box appears.  
   
-2.  Under **Manual Configuration**, in the **Address** property, enter `localhost`.  
+2. Under **Manual Configuration**, in the **Address** property, enter `localhost`.  
   
-3.  Set the **Authentication Mode** property to **None**.  
+3. Set the **Authentication Mode** property to **None**.  
   
-4.  Choose the **Select** button.  
+4. Choose the **Select** button.  
   
 #### To use a remote machine to play back graphics information  
   
-1.  On the Graphics Log document window, choose the **Playback Machine** link. The **Remote Debugger Connections** dialog box appears.  
+1. On the Graphics Log document window, choose the **Playback Machine** link. The **Remote Debugger Connections** dialog box appears.  
   
-2.  Under **Manual Configuration**, in the **Address** property, enter the Windows domain name or IP address of the machine or device that you want to use to play back graphics information.  
+2. Under **Manual Configuration**, in the **Address** property, enter the Windows domain name or IP address of the machine or device that you want to use to play back graphics information.  
   
-3.  Specify the kind of authorization that you want to use to secure the connection to the playback machine.  
+3. Specify the kind of authorization that you want to use to secure the connection to the playback machine.  
   
-    -   For Windows Authentication, set the **Authentication Mode** property to **Windows**.  
+    - For Windows Authentication, set the **Authentication Mode** property to **Windows**.  
   
-    -   For no authentication, set the **Authentication Mode** property to **None**.  
+    - For no authentication, set the **Authentication Mode** property to **None**.  
   
-4.  Choose the **Select** button.  
+4. Choose the **Select** button.  
   
 > [!NOTE]
 >  The **Remote Debugger Connections** dialog box might also display remote debugging targets that are directly connected to your development machine or are on the same subnet. You can use one of these remote debugging targets as the Graphics Diagnostics playback machine without manually configuring it. In the **Remote Debugger Connections** dialog box, select the target you want and then choose the **Select** button.  

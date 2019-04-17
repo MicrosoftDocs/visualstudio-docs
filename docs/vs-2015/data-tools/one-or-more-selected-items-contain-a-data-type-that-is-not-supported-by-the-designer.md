@@ -17,9 +17,9 @@ One or more of the items dragged from **Server Explorer**/**Database Explorer** 
   
 ### To correct this error  
   
-1.  Create a view that is based on the desired table and that does not include the unsupported data type.  
+1. Create a view that is based on the desired table and that does not include the unsupported data type.  
   
-2.  Drag the view from **Server Explorer**/**Database Explorer** onto the designer.  
+2. Drag the view from **Server Explorer**/**Database Explorer** onto the designer.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

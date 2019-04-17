@@ -19,7 +19,7 @@ This topic describes how to run unit tests by using the Test Explorer in Microso
 >  The topics in this section describe the functionality of Visual Studio Express for Windows 8. Visual Studio Community, Enterprise, and Professional provide additional features for unit testing.
 >
 > - Use any third-party or open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for your tests.
->   -   Run your tests after every build. You can also use Microsoft Fakes, an isolation framework for managed code to focus your tests on your own code by substituting test code for system and third-party functionality.
+>   - Run your tests after every build. You can also use Microsoft Fakes, an isolation framework for managed code to focus your tests on your own code by substituting test code for system and third-party functionality.
 >
 >   For more information, see [Unit Test Your Code](../test/unit-test-your-code.md) in the MSDN Library.
 

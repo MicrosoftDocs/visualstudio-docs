@@ -202,23 +202,23 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 ###  <a name="BKMK_JS_Stepping_behavior"></a> Stepping behavior  
   
--   If a function is not user (**MyCode**) code, **Step Into** (Keyboard shortcut: F11) behaves as **Step Over** (Keyboard: F10).  
+- If a function is not user (**MyCode**) code, **Step Into** (Keyboard shortcut: F11) behaves as **Step Over** (Keyboard: F10).  
   
--   If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, then stepping temporarily behaves as if Just My Code is not enabled. As soon as you step back to user code, Just My Code stepping is re-enabled.  
+- If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, then stepping temporarily behaves as if Just My Code is not enabled. As soon as you step back to user code, Just My Code stepping is re-enabled.  
   
--   When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code the debugger continues until the next line of user code executes.  
+- When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code the debugger continues until the next line of user code executes.  
   
--   **Step Out** (Keyboard: Shift + F11) stops on the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
+- **Step Out** (Keyboard: Shift + F11) stops on the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
 ###  <a name="BKMK_JS_Breakpoint_behavior"></a> Breakpoint behavior  
   
--   Breakpoints that have been set in any code will always be hit regardless of the classification of that code  
+- Breakpoints that have been set in any code will always be hit regardless of the classification of that code  
   
--   If the `debugger` keyword is encountered in:  
+- If the `debugger` keyword is encountered in:  
   
-    -   **LibraryCode** code, the debugger always breaks.  
+    - **LibraryCode** code, the debugger always breaks.  
   
-    -   **UnrelatedCode** code, the debugger doesn’t stop.  
+    - **UnrelatedCode** code, the debugger doesn’t stop.  
   
 ###  <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  

@@ -14,37 +14,37 @@ manager: jillfra
 
 In this walkthrough, you’ll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You’ll complete the following procedures:  
   
--   [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)  
+- [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)  
   
--   [To create the SimpleMathVSIX extension project](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createVSIX)  
+- [To create the SimpleMathVSIX extension project](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createVSIX)  
   
--   [To create a sample app that uses the class library](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createSample)  
+- [To create a sample app that uses the class library](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createSample)  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ##  <a name="createClassLibrary"></a> To create the SimpleMath Windows Runtime component  
   
-1.  On the menu bar, choose **File**, **New**, **New Project**.  
+1. On the menu bar, choose **File**, **New**, **New Project**.  
   
-2.  In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Windows Store** node, and then choose the **Windows Runtime Component** template.  
+2. In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Windows Store** node, and then choose the **Windows Runtime Component** template.  
   
-3.  In the **Name** box, specify **SimpleMath**, and then choose the **OK** button.  
+3. In the **Name** box, specify **SimpleMath**, and then choose the **OK** button.  
   
-4.  In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Properties**.  
+4. In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Properties**.  
   
-5.  Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:  
+5. Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:  
   
      [!code-csharp[CreatingAnSDKUsingWinRT#3](../snippets/csharp/VS_Snippets_VSSDK/creatingansdkusingwinrt/cs/winrtmath/arithmetic.cs#3)]
      [!code-vb[CreatingAnSDKUsingWinRT#3](../snippets/visualbasic/VS_Snippets_VSSDK/creatingansdkusingwinrt/vb/winrtmath/arithmetic.vb#3)]  
   
-6.  In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.  
+6. In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.  
   
      The **Configuration Manager** dialog box opens.  
   
-7.  In the **Active solution configuration** list, choose **Release**.  
+7. In the **Active solution configuration** list, choose **Release**.  
   
-8.  In the **Configuration** column, verify that **SimpleMath** row is set to **Release**, and then choose the **Close** button to accept the change.  
+8. In the **Configuration** column, verify that **SimpleMath** row is set to **Release**, and then choose the **Close** button to accept the change.  
   
     > [!IMPORTANT]
     >  The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the[!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)].  
@@ -53,23 +53,23 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 ##  <a name="createVSIX"></a> To create the SimpleMathVSIX extension project  
   
-1.  On the shortcut menu for the **Solution ‘SimpleMath’** node, choose **Add**, **New Project**.  
+1. On the shortcut menu for the **Solution ‘SimpleMath’** node, choose **Add**, **New Project**.  
   
-2.  In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Extensibility** node, and then choose the **VSIX Project** template.  
+2. In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Extensibility** node, and then choose the **VSIX Project** template.  
   
-3.  In the **Name** box, specify **SimpleMathVSIX**, and then choose the **OK** button.  
+3. In the **Name** box, specify **SimpleMathVSIX**, and then choose the **OK** button.  
   
-4.  In **Solution Explorer**, choose the **source.extension.vsixmanifest** item.  
+4. In **Solution Explorer**, choose the **source.extension.vsixmanifest** item.  
   
-5.  On the menu bar, choose **View**, **Code**.  
+5. On the menu bar, choose **View**, **Code**.  
   
-6.  Replace the existing XML with the following XML:  
+6. Replace the existing XML with the following XML:  
   
      [!code-xml[CreatingAnSDKUsingWinRT#1](../../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
   
-7.  In **Solution Explorer**, choose the **SimpleMathVSIX** project.  
+7. In **Solution Explorer**, choose the **SimpleMathVSIX** project.  
   
-8.  On the menu bar, choose **Project**, **Add New Item**.  
+8. On the menu bar, choose **Project**, **Add New Item**.  
   
 9. In the list of **Common Items**, expand **Data**, and then choose **XML File**.  
   

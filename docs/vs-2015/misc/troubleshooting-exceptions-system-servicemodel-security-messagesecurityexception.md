@@ -16,11 +16,11 @@ manager: jillfra
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  
   
--   You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
+- You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
   
--   You do not have Administrator permissions on the remote site.  
+- You do not have Administrator permissions on the remote site.  
   
--   Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
+- Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
   
 ## Associated Tips  
  **Resolve NTLM authentication problems when using the ASP.Net Development Server.**  
@@ -72,11 +72,11 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
   
 #### To turn off NTLM security  
   
-1.  In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
+1. In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
   
-2.  Select **Start Options**, and then clear the **NTLM Authentication** check box.  
+2. Select **Start Options**, and then clear the **NTLM Authentication** check box.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
 ## See Also  
  <xref:System.ServiceModel.Security.MessageSecurityException>   

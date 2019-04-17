@@ -16,7 +16,7 @@ Use the following procedure to create one of the default text marker types provi
 
 ## To create a text marker
 
-1.  Depending on whether you are using a one- or two-dimensional coordinate system, call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method to create a new text marker.
+1. Depending on whether you are using a one- or two-dimensional coordinate system, call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method to create a new text marker.
 
      In this method call, specify a marker type, a range of text to create the marker over, and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface. This method then returns a pointer to the newly created text marker. Marker types are taken from the <xref:Microsoft.VisualStudio.TextManager.Interop.MARKERTYPE> enumeration. Specify an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface if you want to be informed of marker events.
 
@@ -28,15 +28,15 @@ Use the following procedure to create one of the default text marker types provi
 
 ### To add a custom command to the context menu
 
-1.  Before the Context menu is displayed, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> method and passes you a pointer to the text marker affected and the number of the command item in the context menu.
+1. Before the Context menu is displayed, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> method and passes you a pointer to the text marker affected and the number of the command item in the context menu.
 
      For example, the breakpoint-specific commands on the context menu include **Remove Breakpoint** through **New Breakpoint**, as displayed in the following screenshot.
 
      ![Marker Context Menu](../extensibility/media/vsmarkercontextmenu.gif "vsMarkercontextmenu")
 
-2.  Pass back some text identifying the name of the custom command. For example, **Remove Breakpoint** might be a custom command if the environment did not already provide it. You also pass back whether the command is supported, available and enabled, and/or an on-off toggle. The environment uses this information to display the custom command in the context menu in the correct way.
+2. Pass back some text identifying the name of the custom command. For example, **Remove Breakpoint** might be a custom command if the environment did not already provide it. You also pass back whether the command is supported, available and enabled, and/or an on-off toggle. The environment uses this information to display the custom command in the context menu in the correct way.
 
-3.  To execute the command, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method, passing you a pointer to the text marker and the number of the command selected from the context menu.
+3. To execute the command, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method, passing you a pointer to the text marker and the number of the command selected from the context menu.
 
      Use this information from this call to execute whatever actions of the text marker your custom command dictates.
 

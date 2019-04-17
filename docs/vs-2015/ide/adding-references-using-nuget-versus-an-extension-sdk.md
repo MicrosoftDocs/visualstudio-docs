@@ -18,9 +18,9 @@ manager: jillfra
 
 You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.  
   
--   NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see [NuGet Overview](http://go.microsoft.com/fwlink/?LinkId=254877).  
+- NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see [NuGet Overview](http://go.microsoft.com/fwlink/?LinkId=254877).  
   
--   An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that’s open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
+- An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that’s open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
 ## Which Mechanism Should I Use?  
  The following table helps you compare the referencing features of an SDK with the referencing features of NuGet.  

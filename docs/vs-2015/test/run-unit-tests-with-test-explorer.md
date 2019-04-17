@@ -271,9 +271,9 @@ FullName:"MyClass" - FullName:"PerfTest"
   
 2. Choose one of the following commands from the sub-menu:  
   
-   -   **Selected tests** runs the test methods that you have selected in Test Explorer.  
+   - **Selected tests** runs the test methods that you have selected in Test Explorer.  
   
-   -   **All tests** runs all the test methods in the solution.  
+   - **All tests** runs all the test methods in the solution.  
   
    The Code Coverage Results window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.  
   

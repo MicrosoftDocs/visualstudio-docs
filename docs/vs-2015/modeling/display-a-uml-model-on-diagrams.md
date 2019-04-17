@@ -18,17 +18,17 @@ manager: jillfra
 In the program code for an extension to Visual Studio, you can control how model elements are displayed on diagrams. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  In this topic:  
- -   [To display an element on a diagram](#Display)  
+ - [To display an element on a diagram](#Display)  
   
--   [Accessing the shapes that represent an element](#GetShapes)  
+- [Accessing the shapes that represent an element](#GetShapes)  
   
--   [Moving and resizing shapes](#Moving)  
+- [Moving and resizing shapes](#Moving)  
   
--   [To remove a shape from a diagram](#Removing)  
+- [To remove a shape from a diagram](#Removing)  
   
--   [Opening and creating diagrams](#Opening)  
+- [Opening and creating diagrams](#Opening)  
   
--   [Example: Command for Aligning Shapes](#AlignCommand)  
+- [Example: Command for Aligning Shapes](#AlignCommand)  
   
 ##  <a name="Display"></a> To display an element on a diagram  
  When you create an element such as a use case or an action, the user can see it in UML Model Explorer, but it does not always automatically appear in a diagram. In some cases, you must write code to display it. The following table summarizes the alternatives.  

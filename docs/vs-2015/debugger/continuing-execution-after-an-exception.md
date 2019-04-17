@@ -43,9 +43,9 @@ When the debugger breaks execution because of an exception, a dialog box appears
 ## Native Code  
  In native C/C++, you have two options:  
   
--   You can click **Break** and try to fix the problem. While you are in Break mode, you can unwind the call stack by right-clicking on a frame in the **Call Stack** window and selecting **Unwind to this Frame** on the shortcut menu. When you continue to debug, the **Exception** dialog box appears again if you have not fixed the problem. Otherwise, the **Exception** dialog box will not reappear.  
+- You can click **Break** and try to fix the problem. While you are in Break mode, you can unwind the call stack by right-clicking on a frame in the **Call Stack** window and selecting **Unwind to this Frame** on the shortcut menu. When you continue to debug, the **Exception** dialog box appears again if you have not fixed the problem. Otherwise, the **Exception** dialog box will not reappear.  
   
--   You can click **Continue** to continue execution without trying to fix the problem. The **Exception** dialog box reappears.  
+- You can click **Continue** to continue execution without trying to fix the problem. The **Exception** dialog box reappears.  
   
 ## Mixed Code  
  If you hit an unhandled exception while debugging a mixed native and managed code, operating system constraints prevent unwinding the call stack. If you try rewinding the call stack using the shortcut menu, an error message explains that the debugger cannot unwind from an unhandled except during mixed-code debugging.  

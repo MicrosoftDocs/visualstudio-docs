@@ -37,18 +37,18 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To change the content installation source  
   
-1.  On the **Manage Content** tab, choose the **Disk** option button.  
+1. On the **Manage Content** tab, choose the **Disk** option button.  
   
     > [!NOTE]
     >  The **Disk** option won't be available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
-2.  Perform one of the following steps:  
+2. Perform one of the following steps:  
   
-    -   Enter the path of an .msha file or the URL of a service endpoint.  
+    - Enter the path of an .msha file or the URL of a service endpoint.  
   
-    -   Choose the Browse (**…**) button to navigate to an .msha file.  
+    - Choose the Browse (**…**) button to navigate to an .msha file.  
   
-    -   In the list, choose the entry that was used most recently.  
+    - In the list, choose the entry that was used most recently.  
   
 ## Download and install content locally  
  You can view topics without an Internet connection if you download and install content on your local computer.  
@@ -60,13 +60,13 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To download and install content  
   
-1.  Choose the **Manage Content** tab.  
+1. Choose the **Manage Content** tab.  
   
-2.  In the content list, choose the **Add** link next to the book or books that you want to download and install.  
+2. In the content list, choose the **Add** link next to the book or books that you want to download and install.  
   
      The book is added to the **Pending changes** list, and the estimated size of the book or books that you specified appears below that list. Because some books share topics, the total download size of multiple books might be smaller than the result of adding together the sizes of every book that you specified.  
   
-3.  Choose the **Update** button.  
+3. Choose the **Update** button.  
   
      The book or books that you specified are installed along with any updates for books that you already have on your computer. Installation times vary, but you can view the progress in the status bar.  
   
@@ -80,13 +80,13 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To remove content  
   
-1.  Choose the **Manage Content** tab.  
+1. Choose the **Manage Content** tab.  
   
-2.  In the content list, choose the **Remove** link next to the book or books that you want to remove.  
+2. In the content list, choose the **Remove** link next to the book or books that you want to remove.  
   
      The book is added to the **Pending changes** list.  
   
-3.  Choose the **Update** button.  
+3. Choose the **Update** button.  
   
      The book or books that you specified are removed from your computer.  
   
@@ -110,13 +110,13 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To move local content  
   
-1.  On the **Manage Content** tab, choose the **Move** button under **Local Store Path**.  
+1. On the **Manage Content** tab, choose the **Move** button under **Local Store Path**.  
   
      The **Move Content** dialog box opens.  
   
-2.  In the **To** text box, enter a different location for the content, and then choose the **OK** button.  
+2. In the **To** text box, enter a different location for the content, and then choose the **OK** button.  
   
-3.  Choose the **Close** button when the content has been moved.  
+3. Choose the **Close** button when the content has been moved.  
   
 ## See Also  
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

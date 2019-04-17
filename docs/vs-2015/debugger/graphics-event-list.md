@@ -48,7 +48,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
   
 ##### To change the event list view mode  
   
--   In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **Draw calls** view.  
+- In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **Draw calls** view.  
   
 ### Filtering events  
  You can use the Search box—located in the upper-right corner of the **Graphics Event List** window—to filter the events list to include only events whose names contain specific keywords. You can specify single keywords like `Vertex`—as shown in the previous illustration—or multiple keywords by using a semicolon-delimited list like `Draw;Primitive`—which matches events that have either `Draw` or `Primitive` in their names. Searches are sensitive to whitespace—for example, `VSSet` and `VS Set` are different searches—so make sure to form searches carefully.  

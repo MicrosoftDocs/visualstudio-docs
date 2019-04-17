@@ -26,27 +26,27 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
 
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")
 
--   The **Break Events** timeline mark the breakpoints that were hit in the debugging session. Click on an event to select it the **Debugger** details list.
+- The **Break Events** timeline mark the breakpoints that were hit in the debugging session. Click on an event to select it the **Debugger** details list.
 
--   The **CPU Utilization** graph shows the change in CPU use across all processor cores in the debugging session.
+- The **CPU Utilization** graph shows the change in CPU use across all processor cores in the debugging session.
 
--   The **Events** list of the **Debugger** details pane include items for each break event.
+- The **Events** list of the **Debugger** details pane include items for each break event.
 
--   The **Duration** column of a break event displays the elapsed time between the event and the previous breakpoint.
+- The **Duration** column of a break event displays the elapsed time between the event and the previous breakpoint.
 
 ## Turn PerfTips on or off
  To enable or disable PerfTips:
 
-1.  On the **Debug** menu, choose **Options**.
+1. On the **Debug** menu, choose **Options**.
 
-2.  Check or clear **Show elapsed PerfTip while debugging**.
+2. Check or clear **Show elapsed PerfTip while debugging**.
 
 ## Turn the Diagnostic Tools window on or off
  To enable or disable the Diagnostic Tools window:
 
-1.  On the **Debug** menu, choose **Options**.
+1. On the **Debug** menu, choose **Options**.
 
-2.  Check or clear **Enable Diagnostics Tools while debugging**.
+2. Check or clear **Enable Diagnostics Tools while debugging**.
 
 ## See also
 - [Profiling in Visual Studio](../profiling/index.md)

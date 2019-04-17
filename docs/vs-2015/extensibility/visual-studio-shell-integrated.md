@@ -62,15 +62,15 @@ The Visual Studio integrated shell includes the integrated development environme
 ## Features Not Included in the Integrated Shell  
  The following is a list of features that are not included in the integrated shell:  
   
--   Class Designer  
+- Class Designer  
   
--   PreEmptive Protection - Dotfuscator  
+- PreEmptive Protection - Dotfuscator  
   
--   Language features  
+- Language features  
   
--   VSHost  
+- VSHost  
   
--   No Visual Studio languages or their associated project templates or project item templates, are included in the integrated shell. No language-specific implementations of other features are included, for example Visual Basic code snippets.  
+- No Visual Studio languages or their associated project templates or project item templates, are included in the integrated shell. No language-specific implementations of other features are included, for example Visual Basic code snippets.  
   
 ## See Also  
  [Extending Visual Studio Overview](http://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)

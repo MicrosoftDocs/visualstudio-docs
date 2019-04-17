@@ -35,21 +35,21 @@ ms.workload:
 ## Events
  The events available for the <xref:Microsoft.Office.Tools.Word.XMLNodes> control are:
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.AfterInsert>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.AfterInsert>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.BeforeDelete>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.BeforeDelete>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.ContextEnter>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.ContextEnter>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.ContextLeave>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.ContextLeave>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.Deselect>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.Deselect>
 
--   <xref:System.ComponentModel.IComponent.Disposed>
+- <xref:System.ComponentModel.IComponent.Disposed>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.Select>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.Select>
 
--   <xref:Microsoft.Office.Tools.Word.XMLNodes.ValidationError>
+- <xref:Microsoft.Office.Tools.Word.XMLNodes.ValidationError>
 
 ## Compare events
  You can capture an event when the user moves his or her cursor inside the context of a particular <xref:Microsoft.Office.Tools.Word.XMLNodes> control. For example, you might have an <xref:Microsoft.Office.Tools.Word.XMLNodes> control named `Customer` that has a child <xref:Microsoft.Office.Tools.Word.XMLNodes> control named `Company`, and `Company` has two child <xref:Microsoft.Office.Tools.Word.XMLNodes> controls named `CompanyName` and `CompanyRegion` as follows:

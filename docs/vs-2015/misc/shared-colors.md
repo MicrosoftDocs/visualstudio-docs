@@ -18,11 +18,11 @@ Insert introduction here.
   
  Make sure to use token names correctly:  
   
--   **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it may no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.  
+- **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it may no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.  
   
--   **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there is not an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors may result in an unreadable interface.  
+- **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there is not an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors may result in an unreadable interface.  
   
--   **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls do not have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.  
+- **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls do not have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.  
   
 > [!IMPORTANT]
 >  Do not use tokens found in the categories "Start Page" or "Cider"!  
@@ -35,7 +35,7 @@ Insert introduction here.
  ![Menus redline](../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303-000_MenuRedline")  
   
  Use …  
- -   whenever you need to create a custom menu.  
+ - whenever you need to create a custom menu.  
   
 - when you have a new UI component that you want to match the Visual Studio menus.  
   
@@ -51,7 +51,7 @@ Insert introduction here.
  whenever you are creating a custom menu title.  
   
  Do not use…  
- -   for anything that you don't want to always match the menu title.  
+ - for anything that you don't want to always match the menu title.  
   
 - in any background/foreground combination other than specified.  
   
@@ -100,7 +100,7 @@ Insert introduction here.
  for any drop-down list that is launched from a menu bar or command bar.  
   
  Do not use…  
- -   for any drop-down list that occurs in another context.  
+ - for any drop-down list that occurs in another context.  
   
 - in any background/foreground combination other than specified.  
   
@@ -154,9 +154,9 @@ Insert introduction here.
  in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.  
   
  Do not use…  
- -   for UI elements that are not similar to a command bar.  
+ - for UI elements that are not similar to a command bar.  
   
--   for command bar components other than the ones for which token names are specified.  
+- for command bar components other than the ones for which token names are specified.  
   
 ##### Command bar group  
  A command bar group consists of a related set of command bar controls and might contain any number of buttons, split buttons, drop-down menus, combo boxes, or menus. Colors for those controls are regulated by separate token names and are discussed individually elsewhere in this guide. A separator line is used to divide a command bar group into related subgroups.  
@@ -167,7 +167,7 @@ Insert introduction here.
  in places where you need an embedded command bar but are unable to use the standard Visual Studio command bar implementation.  
   
  Do not use…  
- -   for UI elements that are not similar to a command bar.  
+ - for UI elements that are not similar to a command bar.  
   
 - for command bar components other than the ones for which token names are specified.  
   
@@ -189,7 +189,7 @@ Insert introduction here.
  for any buttons that will be placed on a command bar.  
   
  Do not use…  
- -   for controls that have their own token names.  
+ - for controls that have their own token names.  
   
 - in any background/foreground combination other than specified.  
   
@@ -239,12 +239,12 @@ Insert introduction here.
  ![Combo box redline](../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")  
   
  Use …  
- -   when building custom combo boxes.  
+ - when building custom combo boxes.  
   
 - when creating a command bar control that is similar to a combo box.  
   
   Do not use …  
-  -   for anything you don’t want always to match the command bar UI.  
+  - for anything you don’t want always to match the command bar UI.  
   
 - when you have access to a styled combo box.  
   
@@ -320,7 +320,7 @@ Insert introduction here.
  when you are creating custom drop-down list controls.  
   
  Do not use …  
- -   for anything that is not similar to a drop-down list.  
+ - for anything that is not similar to a drop-down list.  
   
 - for combo boxes or split buttons.  
   
@@ -384,7 +384,7 @@ Insert introduction here.
  when you are building a custom split button.  
   
  Do not use …  
- -   for other kinds of buttons.  
+ - for other kinds of buttons.  
   
 - in any background/foreground combination other than specified.  
   
@@ -549,7 +549,7 @@ Insert introduction here.
   when you are creating custom document tabs.  
   
   Do not use …  
-  -   for provisional (preview) tabs.  
+  - for provisional (preview) tabs.  
   
 - for any UI that you don't want to change automatically if the shell has a theme update.  
   
@@ -598,7 +598,7 @@ Insert introduction here.
  anywhere you are creating provisional preview and want some element to match the current preview tab color.  
   
  Do not use …  
- -   for any kind of document or tab that is not provisional (preview).  
+ - for any kind of document or tab that is not provisional (preview).  
   
 - for any UI that you don't want to change automatically if the shell has a theme update.  
   
@@ -645,7 +645,7 @@ Insert introduction here.
  when you are creating a custom document overflow button.  
   
  Do not use …  
- -   for UI that is not similar to an overflow button.  
+ - for UI that is not similar to an overflow button.  
   
 - for command bar overflow buttons.  
   
@@ -752,7 +752,7 @@ Insert introduction here.
  for buttons that appear in UI that uses color tokens from the tool window title bars.  
   
  Do not use …  
- -   for buttons that appear in other locations.  
+ - for buttons that appear in other locations.  
   
 - in any background/foreground combination other than specified.  
   
@@ -873,7 +873,7 @@ Insert introduction here.
   when you are designing a custom search box.  
   
   Do not use …  
-  -   for anything that is not a search box.  
+  - for anything that is not a search box.  
   
 - for anything that you do not want always to match the search box UI.  
   
@@ -956,12 +956,12 @@ Insert introduction here.
  ![Search drop&#45;down redline](../extensibility/ux-guidelines/media/0303-124-searchdropdownredline.png "0303-124_SearchDropdownRedline")  
   
  Use …  
- -   when you are creating a custom search dropdown list.  
+ - when you are creating a custom search dropdown list.  
   
 - the correct token names for the correct list components.  
   
   Do not use …  
-  -   for dropdown lists that appear in other contexts.  
+  - for dropdown lists that appear in other contexts.  
   
 - in any background/foreground combination other than specified.  
   
@@ -1120,7 +1120,7 @@ Insert introduction here.
  anywhere you need to implement a hierarchical organizational view.  
   
  Do not use …  
- -   for anything that is not similar to a tree view.  
+ - for anything that is not similar to a tree view.  
   
 - in any background/foreground combination other than specified.  
   
@@ -1282,7 +1282,7 @@ Insert introduction here.
  for drop-downs and combo boxes that are part of the document well.  
   
  Do not use …  
- -   for any UI that is not a drop-down or combo box.  
+ - for any UI that is not a drop-down or combo box.  
   
 - for a [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
   
@@ -1415,12 +1415,12 @@ Insert introduction here.
  ![Manifest Designer redline](../extensibility/ux-guidelines/media/0303-175-manifestdesignerredline.png "0303-175_ManifestDesignerRedline")  
   
  Use …  
- -   for designers that are similar to the Manifest Designer.  
+ - for designers that are similar to the Manifest Designer.  
   
 - in place of using common tab controls at the top of an editor within the document well.  
   
   Do not use …  
-  -   if you have more than six tabs.  
+  - if you have more than six tabs.  
   
 - for any UI that is not structured like the Manifest Designer.  
   
@@ -1516,9 +1516,9 @@ Insert introduction here.
  for places that you want to match the background of the Visual Studio environment.  
   
  Do not use …  
- -   as a fill for places that are not background surfaces.  
+ - as a fill for places that are not background surfaces.  
   
--   as a background on which you wish to place foreground elements.  
+- as a background on which you wish to place foreground elements.  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -1537,7 +1537,7 @@ Insert introduction here.
  ![Command shelf redline](../extensibility/ux-guidelines/media/0303-188-commandshelfredline.png "0303-188_CommandShelfRedline")  
   
  Use …  
- -   for areas where you place menus or toolbars.  
+ - for areas where you place menus or toolbars.  
   
 - with the correct background/ foreground token name combination.  
   

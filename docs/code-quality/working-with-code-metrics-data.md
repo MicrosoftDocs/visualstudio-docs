@@ -42,15 +42,15 @@ The **Filter** drop-down box contains the names of the results columns. When a f
 
 ### To filter the code metrics results
 
-1.  From the **Filter** list, select the column name.
+1. From the **Filter** list, select the column name.
 
-2.  In **Min**, type the minimum value to be displayed.
+2. In **Min**, type the minimum value to be displayed.
 
-3.  In **Max**, type the maximum value to be displayed.
+3. In **Max**, type the maximum value to be displayed.
 
-4.  Click the **Apply Filter** button.
+4. Click the **Apply Filter** button.
 
-5.  To see the result details, expand the hierarchy tree.
+5. To see the result details, expand the hierarchy tree.
 
 ## Add, remove, and rearrange data columns
 
@@ -82,23 +82,23 @@ For more information about Azure Boards work items, see [Work items](/azure/devo
 
 ### To create a work item based on a result
 
-1.  Right-click the result.
+1. Right-click the result.
 
-2.  Point to **Create Work Item**, and then click the type of work item you want to create (**Bug**, **Task**, and so forth).
+2. Point to **Create Work Item**, and then click the type of work item you want to create (**Bug**, **Task**, and so forth).
 
-3.  Complete the work item form by filling in all required fields.
+3. Complete the work item form by filling in all required fields.
 
-4.  On the **File** menu, click **Save All** to save the work item.
+4. On the **File** menu, click **Save All** to save the work item.
 
 ### To create a bug based on a result
 
-1.  Click the result to select it.
+1. Click the result to select it.
 
-2.  Click the **Create Work Item** button.
+2. Click the **Create Work Item** button.
 
-3.  Complete the work item form by filling in all required fields.
+3. Complete the work item form by filling in all required fields.
 
-4.  On the **File** menu, click **Save All** to save the work item.
+4. On the **File** menu, click **Save All** to save the work item.
 
 ## See also
 

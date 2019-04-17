@@ -39,13 +39,13 @@ To install a Shell app you must perform the following steps.
   
 #### To prepare a Shell application for MSI deployment  
   
-1.  Edit each .vsixmanifest file in your solution.  
+1. Edit each .vsixmanifest file in your solution.  
   
      In the `Identifier` element, add an `InstalledByMSI` element and a `SystemComponent` element, and then set their values to `true`.  
   
      These elements prevent the VSIX installer from trying to install your components and the user from uninstalling them by using the **Extensions and Updates** dialog box.  
   
-2.  For each project that contains a VSIX manifest, edit the build tasks to output the content to the location from which your MSI will install. Include the VSIX manifest in the build output, but don't build a .vsix file.  
+2. For each project that contains a VSIX manifest, edit the build tasks to output the content to the location from which your MSI will install. Include the VSIX manifest in the build output, but don't build a .vsix file.  
   
 ## Creating an MSI for Your Shell  
  To build your MSI package, we recommend that you use the [Windows Installer XML Toolset](http://go.microsoft.com/fwlink/?LinkId=82720) because it gives greater flexibility than a standard Setup project.  
@@ -79,7 +79,7 @@ To install a Shell app you must perform the following steps.
   
 ##### To set the layout of Shell components  
   
-1.  Create a hierarchy of `Directory` elements to represent all of the directories to create on the file system on the target computer, as the following example shows.  
+1. Create a hierarchy of `Directory` elements to represent all of the directories to create on the file system on the target computer, as the following example shows.  
   
     ```xml  
     <Directory Id="TARGETDIR" Name="SourceDir">  
@@ -99,7 +99,7 @@ To install a Shell app you must perform the following steps.
   
      These directories are referred to by `Id` when files that must be installed are specified.  
   
-2.  Identify the components that the Shell and your Shell application require, as the following example shows.  
+2. Identify the components that the Shell and your Shell application require, as the following example shows.  
   
     > [!NOTE]
     >  Some elements may refer to definitions in other .wxs files.  
@@ -117,7 +117,7 @@ To install a Shell app you must perform the following steps.
     </Feature>  
     ```  
   
-    1.  The `ComponentRef` element refers to another .wxs file that identifies files that the current component requires. For example, GeneralProfile has the following definition in HelpAbout.wxs.  
+    1. The `ComponentRef` element refers to another .wxs file that identifies files that the current component requires. For example, GeneralProfile has the following definition in HelpAbout.wxs.  
   
         ```xml  
         <Fragment Id="FragmentProfiles">  
@@ -133,7 +133,7 @@ To install a Shell app you must perform the following steps.
   
          The `DirectoryRef` element specifies where these files go on the user's computer. The `Directory` element specifies that it will be installed into a sub-directory, and each `File` element represents a file that's built or that exists as part of the solution and identifies where that file can be found when the MSI file is created.  
   
-    2.  The `ComponentGroupRef` element refers to a group of other components (or components and component groups). For instance, `ComponentGroupRef` under ApplicationGroup is defined as follows in Application.wxs.  
+    2. The `ComponentGroupRef` element refers to a group of other components (or components and component groups). For instance, `ComponentGroupRef` under ApplicationGroup is defined as follows in Application.wxs.  
   
         ```xml  
         <ComponentGroup Id="ApplicationGroup">  
@@ -160,15 +160,15 @@ To install a Shell app you must perform the following steps.
   
 ##### To integrate registry entries into the MSI  
   
-1.  In the **Shell Customization** folder, open *ProjectName*.reg.  
+1. In the **Shell Customization** folder, open *ProjectName*.reg.  
   
-2.  Replace all instances of the $RootFolder$ token with the path of the target installation directory.  
+2. Replace all instances of the $RootFolder$ token with the path of the target installation directory.  
   
-3.  Add any other registry entries that your application requires.  
+3. Add any other registry entries that your application requires.  
   
-4.  Open ApplicationRegistry.wxs.  
+4. Open ApplicationRegistry.wxs.  
   
-5.  For each registry entry in *ProjectName*.reg, add a corresponding registry block, as the following examples show.  
+5. For each registry entry in *ProjectName*.reg, add a corresponding registry block, as the following examples show.  
   
     |*ProjectName*.reg|ApplicationRegisty.wxs|  
     |-----------------------|----------------------------|  
@@ -180,24 +180,24 @@ To install a Shell app you must perform the following steps.
 ## Creating a Setup Bootstrapper  
  Your completed MSI will install only if all the prerequisites are installed first. To ease the end user experience, create a Setup program that gathers and installs all prerequisites before it installs your application. To ensure a successful installation, perform these actions:  
   
--   Enforce installation by Administrator.  
+- Enforce installation by Administrator.  
   
--   Detect whether the Visual Studio Shell (Isolated) is installed.  
+- Detect whether the Visual Studio Shell (Isolated) is installed.  
   
--   Run one or both Shell installers in order.  
+- Run one or both Shell installers in order.  
   
--   Handle restart requests.  
+- Handle restart requests.  
   
--   Run your MSI.  
+- Run your MSI.  
   
 ### Enforcing Installation by Administrator  
  This procedure is required to enable the Setup program to access required directories such as \Program Files\\.  
   
 ##### To enforce installation by Administrator  
   
-1.  Open the shortcut menu for the Setup project, and then choose **Properties**.  
+1. Open the shortcut menu for the Setup project, and then choose **Properties**.  
   
-2.  Under **Configuration Properties/Linker/Manifest File**, set **UAC Execution Level** to **requireAdministrator**.  
+2. Under **Configuration Properties/Linker/Manifest File**, set **UAC Execution Level** to **requireAdministrator**.  
   
      This property puts the attribute that requires the program to be run as Administrator into the embedded manifest file.  
   
@@ -246,15 +246,15 @@ dwResult = ExecCmd("Vs_IsoShellLP.exe /norestart /q", TRUE);
   
  To handle restarts, perform these actions:  
   
--   Set the registry to resume installation when Windows starts.  
+- Set the registry to resume installation when Windows starts.  
   
--   Perform a double restart of the bootstrapper.  
+- Perform a double restart of the bootstrapper.  
   
--   Delete the Shell installer ResumeData key.  
+- Delete the Shell installer ResumeData key.  
   
--   Restart Windows.  
+- Restart Windows.  
   
--   Reset the start path of the MSI.  
+- Reset the start path of the MSI.  
   
 ### Setting the Registry to Resume Setup When Windows Starts  
  The HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\ registry key executes at system startup with administrative permissions and then is erased. HKEY_CURRENT_USER contains a similar key, but it runs as a normal user and isn't appropriate for installations. You can resume installation by putting a string value in the RunOnce key that calls your installer. However, we recommend that you call the installer by using a **/restart** or similar parameter to notify the application that it's resuming instead of starting. You can also include parameters to indicate where you are in the installation process, which is especially useful in installations that may require multiple restarts.  

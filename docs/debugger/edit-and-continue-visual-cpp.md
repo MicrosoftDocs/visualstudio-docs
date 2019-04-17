@@ -50,7 +50,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
 
  When you apply code changes explicitly, your program remains in break mode - no execution occurs.
 
--   To apply code changes explicitly, on the **Debug** menu, choose **Apply Code Changes**.
+- To apply code changes explicitly, on the **Debug** menu, choose **Apply Code Changes**.
 
 ##  <a name="BKMK_How_to_stop_code_changes"></a> How to stop code changes
  While Edit and Continue is in the process of applying code changes, you can stop the operation.

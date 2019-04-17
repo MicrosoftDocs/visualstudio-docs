@@ -49,11 +49,11 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 
  Some thread ownership rules to keep in mind:
 
--   Spin locks are uncounted locks that have clear thread ownership.
+- Spin locks are uncounted locks that have clear thread ownership.
 
--   Mutexes and critical sections are counted locks that have clear thread ownership.
+- Mutexes and critical sections are counted locks that have clear thread ownership.
 
--   Semaphores and events are counted locks that do not have clear thread ownership.
+- Semaphores and events are counted locks that do not have clear thread ownership.
 
 ## Locking Annotations
  The following table lists the locking annotations.

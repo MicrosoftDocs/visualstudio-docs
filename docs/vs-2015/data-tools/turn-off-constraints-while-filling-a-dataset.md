@@ -36,16 +36,16 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 ### To suspend update constraints programmatically  
   
--   The following example shows how to temporarily turn off constraint checking in a dataset:  
+- The following example shows how to temporarily turn off constraint checking in a dataset:  
   
      [!code-csharp[VbRaddataEditing#10](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#10)]
      [!code-vb[VbRaddataEditing#10](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#10)]  
   
 ### To suspend update constraints using the Dataset Designer  
   
-1.  Open your dataset in the Dataset Designer. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1. Open your dataset in the Dataset Designer. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
-2.  In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.  
+2. In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)   

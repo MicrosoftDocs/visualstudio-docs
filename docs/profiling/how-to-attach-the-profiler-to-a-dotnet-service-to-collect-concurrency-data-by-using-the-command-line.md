@@ -25,21 +25,21 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To attach the profiler to a .NET Framework service
 
-1.  Install the service.
+1. Install the service.
 
-2.  Open a command window.
+2. Open a command window.
 
-3.  Initialize the profiling environment variables. Type:
+3. Initialize the profiling environment variables. Type:
 
      [VSPerfClrEnv](../profiling/vsperfclrenv.md) **/globalsampleon** [**/samplelineoff**]
 
-    -   **/globalsampleon** enables sampling.
+    - **/globalsampleon** enables sampling.
 
-    -   **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.
+    - **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.
 
-4.  Restart the computer.
+4. Restart the computer.
 
-5.  Start the profiler. Type:
+5. Start the profiler. Type:
 
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency  /output:** `OutputFile` [`Options`]
 
@@ -58,22 +58,22 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.|
 
-6.  If necessary, start the service.
+6. If necessary, start the service.
 
-7.  Attach the profiler to the service. Type:
+7. Attach the profiler to the service. Type:
 
      **VSPerfCmd /attach:** `PID` [[/targetclr](../profiling/targetclr.md)**:**`Version`]
 
-    -   `PID` specifies the process ID or process name of the service. You can view the process IDs of all running processes in Windows Task Manager.
+    - `PID` specifies the process ID or process name of the service. You can view the process IDs of all running processes in Windows Task Manager.
 
-    -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
+    - **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
 ## Control data collection
  While the service is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as the starting or shutdown of the application.
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -81,21 +81,21 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|
     |**/attach:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[:{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process specified by the process ID or process name. **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|
 
--   You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data in profiler reports and data views. The following pairs of VSPerfCmd options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
+- You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data in profiler reports and data views. The following pairs of VSPerfCmd options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
 
 ## End the profiling session
  To end a profiling session, the profiler must not be collecting data. You can stop collecting data from a application profiled with the concurrency method by stopping the service or by invoking the **VSPerfCmd /detach** option. You then invoke the **VSPerfCmd /shutdown** option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /globaloff** command clears the profiling environment variables, but the system configuration is not reset until the computer is restarted.
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
-    -   Stop the service.
+    - Stop the service.
 
          -or-
 
-    -   Type **VSPerfCmd /detach.**
+    - Type **VSPerfCmd /detach.**
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [Shutdown](../profiling/shutdown.md)

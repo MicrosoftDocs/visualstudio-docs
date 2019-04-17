@@ -91,15 +91,15 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 ##  <a name="BKMK_Open_a_dump_file"></a> Open a dump file  
   
-1.  In Visual Studio, choose **File**, **Open**, **File**.  
+1. In Visual Studio, choose **File**, **Open**, **File**.  
   
-2.  In the **Open File** dialog box, locate and select the dump file. It will usually have a .dmp extension. Then choose **OK**.  
+2. In the **Open File** dialog box, locate and select the dump file. It will usually have a .dmp extension. Then choose **OK**.  
   
-3.  The **Dump File Summary** window appears. In this window, you can view debugging summary information for the dump file, set the symbol path, start debugging, and copy the summary information to the clipboard.  
+3. The **Dump File Summary** window appears. In this window, you can view debugging summary information for the dump file, set the symbol path, start debugging, and copy the summary information to the clipboard.  
   
      ![Minidump summary page](../debugger/media/dbg-dump-summarypage.png "DBG_DUMP_SummaryPage")  
   
-4.  To start debugging, go to the **Actions** section, and choose either **Debug with Native Only** or **Debug with Mixed**.  
+4. To start debugging, go to the **Actions** section, and choose either **Debug with Native Only** or **Debug with Mixed**.  
   
 ##  <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find binaries, symbol (.pdb) files, and source files  
  To use the full features of Visual Studio to debug a dump file, you need access to:  

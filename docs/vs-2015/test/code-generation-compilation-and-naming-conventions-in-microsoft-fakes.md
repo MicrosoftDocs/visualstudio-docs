@@ -16,7 +16,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
@@ -66,23 +66,23 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  The filter strings use a simple grammar to define how the matching should be done:  
   
--   Filters are case-insensitive by default; filters perform a substring matching:  
+- Filters are case-insensitive by default; filters perform a substring matching:  
   
      `el` matches "hello"  
   
--   Adding `!` to the end of the filter will make it a precise case-sensitive match:  
+- Adding `!` to the end of the filter will make it a precise case-sensitive match:  
   
      `el!` does not match "hello"  
   
      `hello!` matches "hello"  
   
--   Adding `*` to the end of the filter will make it match the prefix of the string:  
+- Adding `*` to the end of the filter will make it match the prefix of the string:  
   
      `el*` does not match "hello"  
   
      `he*` matches "hello"  
   
--   Multiple filters in a semicolon-separated list are combined as a disjunction:  
+- Multiple filters in a semicolon-separated list are combined as a disjunction:  
   
      `el;wo` matches "hello" and "world"  
   
@@ -163,19 +163,19 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.  
   
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
+1. Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
   
-2.  Add reference to all the System and third-party assemblies you need Fakes for.  
+2. Add reference to all the System and third-party assemblies you need Fakes for.  
   
-3.  Add a .fakes file for each of the assemblies and build.  
+3. Add a .fakes file for each of the assemblies and build.  
   
-4.  From your test project  
+4. From your test project  
   
-    -   Make sure that you have a reference to the Fakes runtime DLL:  
+    - Make sure that you have a reference to the Fakes runtime DLL:  
   
          C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll  
   
-    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.  
+    - For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.  
   
 ###  <a name="BKMK_Avoiding_assembly_name_clashing"></a> Avoiding assembly name clashing  
  In a Team Build environment, all build outputs are merged into a single directory. In the case of multiple projects using Fakes, it might happen that Fakes assemblies from different version override each other. For example, TestProject1 fakes mscorlib.dll from the .NET Framework 2.0 and TestProject2 fakes mscorlib.dll for the .NET Framework 4 would both yield to a mscorlib.Fakes.dll Fakes assembly.  
@@ -248,11 +248,11 @@ attribute of the Assembly element in the .fakes:
   
  **Notes**  
   
--   **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.  
+- **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.  
   
--   **Parameter type** names are transformed and concatenated.  
+- **Parameter type** names are transformed and concatenated.  
   
--   **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
+- **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   
@@ -272,9 +272,9 @@ attribute of the Assembly element in the .fakes:
 ###  <a name="BKMK_Recursive_rules"></a> Recursive rules  
  The following rules are applied recursively:  
   
--   Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).  
+- Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).  
   
--   If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.  
+- If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.  
   
 ##  <a name="BKMK_External_resources"></a> External resources  
   

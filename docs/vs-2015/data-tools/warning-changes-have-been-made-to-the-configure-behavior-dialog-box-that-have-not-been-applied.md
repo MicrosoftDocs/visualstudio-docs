@@ -19,11 +19,11 @@ Warning. Changes have been made to the Configure Behavior dialog box that have n
   
 ### To apply the change and continue  
   
--   Click **Yes** to apply the change to the selected **Class** and **Behavior**.  
+- Click **Yes** to apply the change to the selected **Class** and **Behavior**.  
   
 ### To cancel the previous change and continue  
   
--   Click **No** to cancel the change to the selected **Class** and **Behavior**.  
+- Click **No** to cancel the change to the selected **Class** and **Behavior**.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

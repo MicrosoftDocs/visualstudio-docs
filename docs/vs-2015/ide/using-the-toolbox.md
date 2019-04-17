@@ -42,23 +42,23 @@ You can use the toolbox to add controls and other items to your project. You can
   
  You can rearrange the items in a toolbox tab or add custom tabs and items by using the following commands on the context menu:  
   
--   **Rename item** - Renames the selected item.  
+- **Rename item** - Renames the selected item.  
   
--   **Show All** - Shows all possible controls (not just the ones that apply to the current designer).  
+- **Show All** - Shows all possible controls (not just the ones that apply to the current designer).  
   
--   **List View** - Shows the controls in a vertical list. If unchecked, the controls appear horizontally.  
+- **List View** - Shows the controls in a vertical list. If unchecked, the controls appear horizontally.  
   
--   **Choose Items** - Opens the **Choose Toolbox Items** dialog box so that you can specify the items that appear in the **Toolbox**. You can show or hide an item by selecting or clearing its check box.  
+- **Choose Items** - Opens the **Choose Toolbox Items** dialog box so that you can specify the items that appear in the **Toolbox**. You can show or hide an item by selecting or clearing its check box.  
   
--   **Sort items alphabetically** - Sorts the items by name.  
+- **Sort items alphabetically** - Sorts the items by name.  
   
--   **Reset Toolbar** - Restores the default toolbox settings and items.  
+- **Reset Toolbar** - Restores the default toolbox settings and items.  
   
--   **Add Tab** - Adds a new toolbox tab.  
+- **Add Tab** - Adds a new toolbox tab.  
   
--   **Move Up** - Moves the selected item up.  
+- **Move Up** - Moves the selected item up.  
   
--   **Move Down** - Moves the selected item down.  
+- **Move Down** - Moves the selected item down.  
   
 ## Creating and Distributing Custom Toolbox Controls  
  You can create a custom toolbox control in either Visual Basic or Visual C#, and you can start with a project template that's based on [Windows Presentation Foundation](../extensibility/creating-a-wpf-toolbox-control.md) or [Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md). You can then distribute your control to your teammates or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).

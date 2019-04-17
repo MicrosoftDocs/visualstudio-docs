@@ -39,18 +39,18 @@ When you want to understand dependencies across your code, visualize them by cre
   
  **Here are some videos**:  
   
--   [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)  
+- [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)  
   
--   [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)  
+- [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)  
   
--   [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
+- [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
   
 ##  <a name="GetStarted"></a> Get started with code maps  
  **To use code maps you’ll need either**:  
   
--   Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
+- Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
   
--   Visual Studio Professional: Open code maps, make limited edits, and navigate code.  
+- Visual Studio Professional: Open code maps, make limited edits, and navigate code.  
   
 > [!WARNING]
 >  Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are made visible.  
@@ -67,45 +67,45 @@ When you want to understand dependencies across your code, visualize them by cre
   
 #### To see the overall dependencies across your solution  
   
-1.  Open the **Architecture** menu.  
+1. Open the **Architecture** menu.  
   
-2.  If you just opened the solution and haven’t yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
+2. If you just opened the solution and haven’t yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.  
   
-3.  If your code hasn't changed since the last time you built it, choose **Generate Code Map for Solution Without Building** to get faster performance when creating the map.  
+3. If your code hasn't changed since the last time you built it, choose **Generate Code Map for Solution Without Building** to get faster performance when creating the map.  
   
-4.  [See overall dependencies](#SeeOverviewSource) to understand how you can use code maps to view the overall dependencies across your solution.  
+4. [See overall dependencies](#SeeOverviewSource) to understand how you can use code maps to view the overall dependencies across your solution.  
   
 #### To see specific dependencies within your solution  
   
-1.  With your solution loaded, open **Solution Explorer**.  
+1. With your solution loaded, open **Solution Explorer**.  
   
-2.  Select all the projects, assembly references, folders, files, types, or members that you want to map.  
+2. Select all the projects, assembly references, folders, files, types, or members that you want to map.  
   
-3.  On the **Solution Explorer** toolbar, choose **Show on Code Map**![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton"). Or open the shortcut menu and choose **Show on Code Map**. You can also drag items from Class View or Object Browser into a new or an existing code map.  
+3. On the **Solution Explorer** toolbar, choose **Show on Code Map**![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton"). Or open the shortcut menu and choose **Show on Code Map**. You can also drag items from Class View or Object Browser into a new or an existing code map.  
   
-4.  [See specific dependencies](#SeeSpecificSource) to understand how you can use code maps to view specific dependencies within your solution.  
+4. [See specific dependencies](#SeeSpecificSource) to understand how you can use code maps to view specific dependencies within your solution.  
   
 ###  <a name="CreateEmptyMap"></a> To add a new empty code map to your solution  
   
-1.  In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** then choose **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** then choose **New Item**.  
   
-2.  Under **Installed**, choose **General**.  
+2. Under **Installed**, choose **General**.  
   
-3.  In the right pane, choose **Directed Graph Document** and then choose **Add**.  
+3. In the right pane, choose **Directed Graph Document** and then choose **Add**.  
   
      You now have a blank map, which appears in your solution's **Solution Items** folder.  
   
 #### To create a new empty code map without adding it to your solution  
   
-1.  Open the **Architecture** menu and choose **New Code Map**.  
+1. Open the **Architecture** menu and choose **New Code Map**.  
   
      \- or -  
   
-2.  Open the **File** menu and choose **New** then choose **File**.  
+2. Open the **File** menu and choose **New** then choose **File**.  
   
-3.  Under **Installed**, choose **General**.  
+3. Under **Installed**, choose **General**.  
   
-4.  In the right pane, choose **Directed Graph Document** and then choose **Open**.  
+4. In the right pane, choose **Directed Graph Document** and then choose **Open**.  
   
      You now have a blank map, which does not appear in your solution's folders.  
   
@@ -177,17 +177,17 @@ When you want to understand dependencies across your code, visualize them by cre
   
     See also:  
   
--   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
--   [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)  
+- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)  
   
--   Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).  
+- Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).  
   
 ###  <a name="OverviewCompiled"></a> See dependencies across assemblies or binaries  
   
-1.  [Create an empty code map](#GetStarted), or open an existing code map (.dgml file).  
+1. [Create an empty code map](#GetStarted), or open an existing code map (.dgml file).  
   
-2.  Drag the assemblies or binaries you want to map from outside Visual Studio onto the map. For example, drag assemblies or binaries from Windows Explorer or File Explorer.  
+2. Drag the assemblies or binaries you want to map from outside Visual Studio onto the map. For example, drag assemblies or binaries from Windows Explorer or File Explorer.  
   
 > [!NOTE]
 >  You can drag assemblies or binaries from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation. To work around this, make sure that both are running with the same permission level, or turn UAC off.  
@@ -199,13 +199,13 @@ When you want to understand dependencies across your code, visualize them by cre
   
 ### See specific dependencies in your solution  
   
-1.  Open **Solution Explorer**. Select the projects, assembly references, folders, files, types, and members that interest you. To find items that have dependencies on types or members, open the type or member's shortcut menu from **Solution Explorer**. Choose the dependency type, and then select the results.  
+1. Open **Solution Explorer**. Select the projects, assembly references, folders, files, types, and members that interest you. To find items that have dependencies on types or members, open the type or member's shortcut menu from **Solution Explorer**. Choose the dependency type, and then select the results.  
   
-2.  Map your items and their members. On the **Solution Explorer** toolbar click **Show on Code Map**![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton").  
+2. Map your items and their members. On the **Solution Explorer** toolbar click **Show on Code Map**![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton").  
   
      ![Select the items you want to map](../modeling/media/codemapsselectinsolutionexplorer.png "CodeMapsSelectInSolutionExplorer")  
   
-3.  The map shows the selected items within their containing assemblies.  
+3. The map shows the selected items within their containing assemblies.  
   
      ![Selected items shown as groups on the map](../modeling/media/codemapsshowitemsfromsolnexplorer.png "CodeMapsShowItemsFromSolnExplorer")  
   
@@ -214,19 +214,19 @@ When you want to understand dependencies across your code, visualize them by cre
     > [!NOTE]
     >  When you add items from a project that's shared across multiple apps, like Windows Phone or Windows Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.  
   
-4.  To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.  
+4. To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.  
   
      ![Expanding a node in a code map](../modeling/media/dependencygraph-containment.png "DependencyGraph_Containment")  
   
      To expand all items, select them using **CTRL+A**, then open the shortcut menu for the map and choose **Group**, **Expand**. However, this option isn't available if expanding all groups creates an unusable map or memory issues.  
   
-5.  Continue to expand items you are interested in, right down to the class and member level if required.  
+5. Continue to expand items you are interested in, right down to the class and member level if required.  
   
      ![Expand groups to class and member level](../modeling/media/codemapsexpandtoclassandmember.png "CodeMapsExpandToClassAndMember")  
   
      To see members that are in the code but don't appear on the map, click the **Refetch Children** icon ![Refetch Children Icon](../modeling/media/dependencygraph-deletednodesicon.png "DependencyGraph_DeletedNodesIcon") in the top left corner of a group.  
   
-6.  To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show…** option for the type of related items to add to the map. For example:  
+6. To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show…** option for the type of related items to add to the map. For example:  
   
      For an **assembly**, choose:  
   
@@ -269,11 +269,11 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![Show methods called by this member](../modeling/media/codemapsshowrelatedmethods.png "CodeMapsShowRelatedMethods")  
   
-7.  The map shows the relationships. In this example, the methods called by the `Find` method, and their location in the solution or externally.  
+7. The map shows the relationships. In this example, the methods called by the `Find` method, and their location in the solution or externally.  
   
      ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
   
-8.  To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, turn off display of Solution Folders, Assemblies, and Namespaces.  
+8. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, turn off display of Solution Folders, Assemblies, and Namespaces.  
   
      ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
   
@@ -284,11 +284,11 @@ When you want to understand dependencies across your code, visualize them by cre
   
  When you open a solution that contains Visual C++ projects, it might take some time to update the IntelliSense database. During this time, you might not be able to create code maps for header (.h or `#include`) files until the IntelliSense database finishes updating. You can monitor the update progress in the Visual Studio status bar. To resolve issues or messages that appear because certain IntelliSense settings are disabled, see [Troubleshoot maps for C and C++ code](#Troubleshooting).  
   
--   To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.  
+- To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.  
   
      ![Dependency graph for native code](../modeling/media/dependencygraphgeneral-nativecode.png "DependencyGraphGeneral_NativeCode")  
   
--   To see dependencies between the currently open file and related source files and header files, open either the source file or the header file. Open the file shortcut menu anywhere inside the file. Choose **Generate Graph of Include Files**.  
+- To see dependencies between the currently open file and related source files and header files, open either the source file or the header file. Open the file shortcut menu anywhere inside the file. Choose **Generate Graph of Include Files**.  
   
      ![First&#45;level dependency graph for .h file](../modeling/media/dependencygraph-native-firstlevel.png "DependencyGraph_Native_FirstLevel")  
   
@@ -357,26 +357,26 @@ When you want to understand dependencies across your code, visualize them by cre
   
 ### Export the map as an image so you can copy it into other applications, such as Microsoft Word or PowerPoint  
   
-1.  On the code map toolbar, choose **Share**, **Email as Image** or **Copy Image**.  
+1. On the code map toolbar, choose **Share**, **Email as Image** or **Copy Image**.  
   
-2.  Paste the image into another application.  
+2. Paste the image into another application.  
   
 ### Export the map as an XPS file so you can see it in XML or XAML viewers like Internet Explorer  
   
-1.  On the code map toolbar, choose **Share**, **Email As Portable XPS** or **Save As Portable XPS**.  
+1. On the code map toolbar, choose **Share**, **Email As Portable XPS** or **Save As Portable XPS**.  
   
-2.  Browse to where you want to save the file.  
+2. Browse to where you want to save the file.  
   
-3.  Name the code map. Make sure that the **Save as type** box is set to **XPS files (\*.xps)**. Choose **Save**.  
+3. Name the code map. Make sure that the **Save as type** box is set to **XPS files (\*.xps)**. Choose **Save**.  
   
 ## What else can I do?  
   
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
   
--   [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)  
+- [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)  
   
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
   
--   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
--   [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
+- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)

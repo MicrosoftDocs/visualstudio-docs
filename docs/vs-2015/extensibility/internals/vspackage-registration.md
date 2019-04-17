@@ -41,15 +41,15 @@ VSPackages must advise [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] that they
   
  While good in theory, self-registration has several flaws that make it unsuitable for VSPackage installation:  
   
--   Correctly supporting installation, uninstallation, installation rollback, and uninstallation rollback requires you to author four custom actions for every managed VSPackage that self-registers by calling RegPkg.  
+- Correctly supporting installation, uninstallation, installation rollback, and uninstallation rollback requires you to author four custom actions for every managed VSPackage that self-registers by calling RegPkg.  
   
--   Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
+- Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
--   An installation with self-registered modules cannot be safely rolled back because there is no way of telling if the self-registered keys are used by another feature or application.  
+- An installation with self-registered modules cannot be safely rolled back because there is no way of telling if the self-registered keys are used by another feature or application.  
   
--   Self-registered DLLs sometimes link to auxiliary DLLs that are not present or are the wrong version. In contrast, Windows Installer can register DLLs using the registry tables with no dependency on the current state of the system.  
+- Self-registered DLLs sometimes link to auxiliary DLLs that are not present or are the wrong version. In contrast, Windows Installer can register DLLs using the registry tables with no dependency on the current state of the system.  
   
--   Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
+- Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
   
 ## See Also  
  [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   

@@ -23,20 +23,20 @@ ms.workload:
 
 ### To include a custom assembly in a business data connectivity (BDC) feature
 
-1.  In **Solution Explorer**, choose the folder that contains the BDC model.
+1. In **Solution Explorer**, choose the folder that contains the BDC model.
 
-2.  On the **View** menu, click **Properties Window**.
+2. On the **View** menu, click **Properties Window**.
 
-3.  In the **Properties** window, choose the **Assemblies** property, and then the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
+3. In the **Properties** window, choose the **Assemblies** property, and then the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
 
      The **Assign referenced assemblies to LobSystems** dialog box appears.
 
-4.  In the **Select an Assembly** list, choose the custom assembly.
+4. In the **Select an Assembly** list, choose the custom assembly.
 
     > [!NOTE]
     >  Assemblies only appear in the **Assign referenced assemblies to LobSystems** dialog box if you have added a reference to the project that contains the assembly. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).
 
-5.  In the **Reference Properties** group, open the list that appears for the **LobSystem Scope** property, choose the LOB System of the methods that use the custom assembly, and then choose the **OK** button.
+5. In the **Reference Properties** group, open the list that appears for the **LobSystem Scope** property, choose the LOB System of the methods that use the custom assembly, and then choose the **OK** button.
 
     > [!NOTE]
     >  To debug code in the custom assembly, you must add the assembly to the solution package. For more information, see [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).

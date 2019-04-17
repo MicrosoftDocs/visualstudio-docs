@@ -24,24 +24,24 @@ ms.workload:
 
 #### To modify an event receiver to respond to a specific list instance
 
-1.  In a browser, open the SharePoint site.
+1. In a browser, open the SharePoint site.
 
-2.  In the navigation pane, **Lists** link.
+2. In the navigation pane, **Lists** link.
 
-3.  In the **All Site Content** page, choose the **Create** link.
+3. In the **All Site Content** page, choose the **Create** link.
 
-4.  In the **Create** dialog box, choose the **Announcements** type, name the announcement **TestAnnouncements**, and then choose the **Create** button.
+4. In the **Create** dialog box, choose the **Announcements** type, name the announcement **TestAnnouncements**, and then choose the **Create** button.
 
-5.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an event receiver project.
+5. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an event receiver project.
 
-6.  In the **What type of event receiver do you want?** list, choose **List Item Events**.
+6. In the **What type of event receiver do you want?** list, choose **List Item Events**.
 
     > [!NOTE]
     >  You can also select any other kind of event receiver that scopes to a list definition, for example, **List Email Events** or **List Workflow Events**.
 
-7.  In the **What item should be the event source?** list, choose **Announcements**.
+7. In the **What item should be the event source?** list, choose **Announcements**.
 
-8.  In the **Handle the following events** list, select the **An item is being added** check box, and then choose the **Finish** button.
+8. In the **Handle the following events** list, select the **An item is being added** check box, and then choose the **Finish** button.
 
 9. In **Solution Explorer**, under EventReceiver1, open *Elements.xml*.
 

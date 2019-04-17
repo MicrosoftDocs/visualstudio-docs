@@ -27,11 +27,11 @@ The **Convert** dialog box allows you to select a conversion tool to create a ne
   
 #### To access the Convert dialog box  
   
-1.  On the menu bar, choose **File**, **Open**, **Convert**.  
+1. On the menu bar, choose **File**, **Open**, **Convert**.  
   
      You will see a list of the code-conversion tools that are currently available.  
   
-2.  Select the tool that is appropriate for your application.  
+2. Select the tool that is appropriate for your application.  
   
 ## See Also  
  [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   

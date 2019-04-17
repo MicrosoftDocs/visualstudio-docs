@@ -76,9 +76,9 @@ Uninstalling a VSPackage that writes registry entries for file associations remo
 
 - Instruct the user to run a repair of the version of the VSPackage that the user wants to own the file association.
 
--   Provide a separate executable program that rewrites the appropriate registry entries.
+- Provide a separate executable program that rewrites the appropriate registry entries.
 
--   Provide a configuration options page or dialog box that lets users choose file associations and reclaim lost associations. Instruct users to run it after uninstallation.
+- Provide a configuration options page or dialog box that lets users choose file associations and reclaim lost associations. Instruct users to run it after uninstallation.
 
 ## See also
 

@@ -31,21 +31,21 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 > [!NOTE]
 >  These steps appear in approximate order. You will probably want to overlap the tasks, reorder them to suit your own situation, and revisit them at the start of each iteration in your project.  
   
-1.  [Create a layer diagram](#Create) for the whole application, or for a layer within it.  
+1. [Create a layer diagram](#Create) for the whole application, or for a layer within it.  
   
-2.  [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.  
+2. [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.  
   
-3.  [Discover the existing dependencies](#Generate) between layers.  
+3. [Discover the existing dependencies](#Generate) between layers.  
   
-4.  [Edit the layers and dependencies](#EditArchitecture) to show the updated design that you want the code to reflect.  
+4. [Edit the layers and dependencies](#EditArchitecture) to show the updated design that you want the code to reflect.  
   
-5.  [Design new areas of your application](#NewAreas) by creating layers to represent the principal architectural blocks or components and defining dependencies to show how each layer uses the others.  
+5. [Design new areas of your application](#NewAreas) by creating layers to represent the principal architectural blocks or components and defining dependencies to show how each layer uses the others.  
   
-6.  [Edit the layout and appearance of the diagram](#EditLayout) to help you discuss it with colleagues.  
+6. [Edit the layout and appearance of the diagram](#EditLayout) to help you discuss it with colleagues.  
   
-7.  [Validate the code against the layer diagram](#Validate) to highlight the conflicts between the code and the architecture you require.  
+7. [Validate the code against the layer diagram](#Validate) to highlight the conflicts between the code and the architecture you require.  
   
-8.  [Update the code to conform to your new architecture](#UpdateCode). Iteratively develop and refactor code until the validation shows no conflicts.  
+8. [Update the code to conform to your new architecture](#UpdateCode). Iteratively develop and refactor code until the validation shows no conflicts.  
   
 9. [Include layer validation in the build process](#BuildValidation) to ensure that the code continues to adhere to your design.  
   
@@ -69,11 +69,11 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
  See:  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+- [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
   
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
 ##  <a name="Generate"></a> Discover existing dependencies between layers  
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can discover existing dependencies by reverse-engineering them.  
@@ -109,35 +109,35 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ##  <a name="NewAreas"></a> Design new areas of your application  
  When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.  
   
--   **Show identifiable architectural patterns** in your layer diagrams, if possible. For example, a layer diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A layer diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).  
+- **Show identifiable architectural patterns** in your layer diagrams, if possible. For example, a layer diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A layer diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).  
   
      If you frequently create similar patterns, create a custom tool. See [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md).  
   
--   **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.  
+- **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.  
   
--   **You do not have to link most classes and other artifacts to layers** because they fall within larger artifacts such as namespaces that you have already linked to layers.  
+- **You do not have to link most classes and other artifacts to layers** because they fall within larger artifacts such as namespaces that you have already linked to layers.  
   
--   **Create a new diagram for a new feature**. Typically, there will be one or more layer diagrams describing the whole application. If you are designing a new feature within the application, do not add to or change the existing diagrams. Instead, create your own diagram that reflects the new parts of the code. The layers in the new diagram might include presentation, domain logic, and database layers for the new feature.  
+- **Create a new diagram for a new feature**. Typically, there will be one or more layer diagrams describing the whole application. If you are designing a new feature within the application, do not add to or change the existing diagrams. Instead, create your own diagram that reflects the new parts of the code. The layers in the new diagram might include presentation, domain logic, and database layers for the new feature.  
   
      When you build the application, your code will be validated both against the overall diagram and your more detailed feature diagram.  
   
 ##  <a name="EditLayout"></a> Edit the layout for presentation and discussion  
  To help you identify layers and dependencies or discuss them with team members, edit the appearance and layout of the diagram in the following ways:  
   
--   Change the sizes, shapes, and positions of layers.  
+- Change the sizes, shapes, and positions of layers.  
   
--   Change the colors of layers and dependencies.  
+- Change the colors of layers and dependencies.  
   
-    -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.  
+    - Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.  
   
 ##  <a name="Validate"></a> Validate the code against the diagram  
  When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].  
   
  See:  
   
--   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
+- [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
--   [Include Layer Validation in the Build Process](#BuildValidation)  
+- [Include Layer Validation in the Build Process](#BuildValidation)  
   
 ##  <a name="UpdateCode"></a> Update the code to conform to the new architecture  
  Typically, errors will appear the first time that you validate code against an updated layer diagram. These errors can have several causes:  

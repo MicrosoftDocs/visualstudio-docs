@@ -59,24 +59,24 @@ manager: "wpickett"
 
  The following exceptions are allowed to be thrown from a property get method:
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
+- <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
 
--   <xref:System.ArgumentException?displayProperty=fullName> (only from indexed get)
+- <xref:System.ArgumentException?displayProperty=fullName> (only from indexed get)
 
--   <xref:System.Collections.Generic.KeyNotFoundException> (only from indexed get)
+- <xref:System.Collections.Generic.KeyNotFoundException> (only from indexed get)
 
 ### Event Accessor Methods
  Event accessors should be simple operations that do not throw exceptions. An event should not throw an exception when you try to add or remove an event handler.
 
  The following exceptions are allowed to be thrown from an event accesor:
 
--   <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
+- <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
--   <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
+- <xref:System.NotSupportedException?displayProperty=fullName> and all derivatives
 
--   <xref:System.ArgumentException> and derivatives
+- <xref:System.ArgumentException> and derivatives
 
 ### Equals Methods
  The following **Equals** methods should not throw exceptions:

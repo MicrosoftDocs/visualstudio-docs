@@ -36,25 +36,25 @@ To attach to a running [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applicat
   
 ### To determine whether project code resides on the file system or IIS  
   
-1.  In Visual Studio, open **Solution Explorer** if it is not already open.  
+1. In Visual Studio, open **Solution Explorer** if it is not already open.  
   
-2.  Select the top node that contains the name of the application.  
+2. Select the top node that contains the name of the application.  
   
-3.  If the **Properties** window title contains a file path, the application code resides on the file system.  
+3. If the **Properties** window title contains a file path, the application code resides on the file system.  
   
      Otherwise, the **Properties** window title will contain the name of the Web site.  
   
 ### To determine the IIS version under which the application is running  
   
-1.  Find **Administrative Tools** and run it. Depending on your operating system, this might be an icon inside **Control Panel**, or a menu entry that appears when you click **Start**.  
+1. Find **Administrative Tools** and run it. Depending on your operating system, this might be an icon inside **Control Panel**, or a menu entry that appears when you click **Start**.  
   
      In Windows XP, **Control Panel** can be in Category View or Classic View. In Category View, you have to click **Switch to Classic View** or **Performance and Maintenance** to see the **Administrative Tools** icon.  
   
-2.  From **Administrative Tools**, run Internet Information Services. An MMC dialog box appears.  
+2. From **Administrative Tools**, run Internet Information Services. An MMC dialog box appears.  
   
-3.  If there is more than one computer listed in the left pane, select the one on which the application code resides.  
+3. If there is more than one computer listed in the left pane, select the one on which the application code resides.  
   
-4.  The IIS version is in the **Version** column of the right pane.  
+4. The IIS version is in the **Version** column of the right pane.  
   
 ## See Also  
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)   

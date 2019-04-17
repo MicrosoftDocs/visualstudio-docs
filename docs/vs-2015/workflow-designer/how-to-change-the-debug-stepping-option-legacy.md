@@ -27,13 +27,13 @@ This topic describes how to change the debug stepping option for [!INCLUDE[wf](.
   
 #### To change the debug stepping option  
   
-1.  Start Visual Studio.  
+1. Start Visual Studio.  
   
-2.  Open an existing legacy workflow project or create a new project that employs concurrent activities and that targets either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
+2. Open an existing legacy workflow project or create a new project that employs concurrent activities and that targets either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].  
   
-3.  On the **Workflow** menu in the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)], point to **Debug**, and then point to **Stepping Options**.  
+3. On the **Workflow** menu in the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)], point to **Debug**, and then point to **Stepping Options**.  
   
-4.  Select either **Instance** or **Branch**.  
+4. Select either **Instance** or **Branch**.  
   
 ## See Also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   

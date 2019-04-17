@@ -16,11 +16,11 @@ This article describes common UI elements and the token names that they use, whi
 
 Make sure to use token names correctly:
 
--   **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it might no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.
+- **Use token names based on function, not on the color itself.** The common shared colors are associated with specific interface elements and are only intended to be used for the same or similar features. For example, don't reuse the color of a pressed combo box for a spinning progress animation just because you like the color. The functions of the combo box and the animation are different, and if the color associated with the combo box changes, it might no longer be an appropriate color for your animation element. Consistent use of color helps orient your users and prevent confusion.
 
--   **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there isn't an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors might result in an unreadable interface.
+- **Use background and text colors in the correct combination.** Background colors that are intended to be used with text will have an associated text color. Don't use text colors other than what is specified for that background. If there isn't an associated text color, don't use that background color for any surface on which you expect to display text. Other combinations of text and background colors might result in an unreadable interface.
 
--   **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls don't have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.
+- **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls don't have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.
 
 > [!IMPORTANT]
 > Don't use tokens found in the categories "Start Page" or "Cider."
@@ -617,13 +617,13 @@ Whenever possible, use the common search control provided by the Visual Studio e
 
 A search box can be one of several states, some of which are mutually exclusive:
 
--   "Focused" or "unfocused" refers to whether or not the cursor is in the text box.
+- "Focused" or "unfocused" refers to whether or not the cursor is in the text box.
 
--   "Active" or "inactive" refers to whether the user has input a search query in the text box.
+- "Active" or "inactive" refers to whether the user has input a search query in the text box.
 
--   "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).
+- "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).
 
--   "Disabled" means that search functionality is turned off for the current context.
+- "Disabled" means that search functionality is turned off for the current context.
 
 ![Search box (redline)](../../extensibility/ux-guidelines/media/0303-110_searchboxredline.png "0303-110_SearchBoxRedline")<br />Search box (redline)
 
@@ -1707,9 +1707,9 @@ Document tabs sit in the tab channel to indicate which documents are currently o
 #### Open document tabs
 Each open document has a tab in the document tab channel that displays its name. Documents can be either selected or open in the background, and their tabs reflect these states:
 
--   The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.
+- The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.
 
--   Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.
+- Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.
 
 ![Open document tab (redline)](../../extensibility/ux-guidelines/media/0303-073_opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")<br />Open document tab (redline)
 

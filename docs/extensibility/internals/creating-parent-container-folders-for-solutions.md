@@ -29,13 +29,13 @@ In the Source Control Plug-in API Version 1.2, a user can specify a single root 
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE almost always creates an SUR folder when adding a solution to source control. Specifically, it does so in the following cases:
 
--   The project is a file share web project.
+- The project is a file share web project.
 
--   There are different drives for the project and the solution file.
+- There are different drives for the project and the solution file.
 
--   There are different shares for the project and the solution file.
+- There are different shares for the project and the solution file.
 
--   Projects were added separately (in a source-controlled solution).
+- Projects were added separately (in a source-controlled solution).
 
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is suggested that the name for the SUR folder be the same as the solution name without the extension. The following table summarizes the behavior in the two versions.
 

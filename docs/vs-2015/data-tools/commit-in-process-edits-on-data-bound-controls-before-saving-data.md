@@ -38,12 +38,12 @@ When editing values in data-bound controls, users must navigate off the current 
   
 ## To call EndEdit for all BindingSource components on a form  
   
-1.  Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.  
+1. Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.  
   
      [!code-csharp[VSProDataOrcasEndEditOnAll#1](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs#1)]
      [!code-vb[VSProDataOrcasEndEditOnAll#1](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb#1)]  
   
-2.  Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):  
+2. Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):  
   
      [!code-csharp[VSProDataOrcasEndEditOnAll#2](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs#2)]
      [!code-vb[VSProDataOrcasEndEditOnAll#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb#2)]  

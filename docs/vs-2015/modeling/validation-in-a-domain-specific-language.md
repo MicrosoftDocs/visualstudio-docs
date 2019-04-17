@@ -52,13 +52,13 @@ As the author of a domain-specific language (DSL), you can define validation con
   
 1. Enable validation in the **Editor\Validation** node:  
   
-   1.  Open **Dsl\DslDefinition.dsl**.  
+   1. Open **Dsl\DslDefinition.dsl**.  
   
-   2.  In DSL Explorer, expand the **Editor** node and select **Validation**.  
+   2. In DSL Explorer, expand the **Editor** node and select **Validation**.  
   
-   3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
+   3. In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
   
-   4.  Click **Transform All Templates** in the Solution Explorer toolbar.  
+   4. Click **Transform All Templates** in the Solution Explorer toolbar.  
   
 2. Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.  
   
@@ -68,7 +68,7 @@ As the author of a domain-specific language (DSL), you can define validation con
    [ValidationState(ValidationState.Enabled)]  
    ```  
   
-   -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
+   - By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
   
 4. Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
   

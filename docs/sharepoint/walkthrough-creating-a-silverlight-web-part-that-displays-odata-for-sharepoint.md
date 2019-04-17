@@ -21,9 +21,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
--   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
 
 ## Create a Silverlight application and Silverlight web part
  First, create a Silverlight application in Visual Studio. The Silverlight application retrieves data from the SharePoint Announcements list by using the ListData.svc service.
@@ -62,30 +62,30 @@ ms.workload:
 
 #### To customize the Silverlight application
 
-1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).
+1. Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).
 
-2.  In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Service Reference**.
+2. In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Service Reference**.
 
     > [!NOTE]
     >  If you're using Visual Basic, you must choose the **Show All Files** icon at the top of **Solution Explorer** to display the **References** node.
 
-3.  In the Address box of the **Add Service Reference** dialog box, enter the URL of your SharePoint site, such as **http://MySPSite**, and then choose the **Go** button.
+3. In the Address box of the **Add Service Reference** dialog box, enter the URL of your SharePoint site, such as **http://MySPSite**, and then choose the **Go** button.
 
      When Silverlight locates the SharePoint OData service ListData.svc, it replaces the address with the full service URL. For this example, http://myserver becomes http://myserver/_vti_bin/ListData.svc.
 
-4.  Choose the **OK** button to add the service reference to the project, and use the default service name, ServiceReference1.
+4. Choose the **OK** button to add the service reference to the project, and use the default service name, ServiceReference1.
 
-5.  On the menu bar, choose **Build** > **Build Solution**.
+5. On the menu bar, choose **Build** > **Build Solution**.
 
-6.  Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View** > **Other Windows** > **Data Sources**.
+6. Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View** > **Other Windows** > **Data Sources**.
 
      The **Data Sources** window shows all of the available SharePoint list data, such as Tasks, Announcements, and Calendar.
 
-7.  Add the Announcements list data to the Silverlight application. You can drag "Announcements" from the **Data Sources** window onto the Silverlight designer.
+7. Add the Announcements list data to the Silverlight application. You can drag "Announcements" from the **Data Sources** window onto the Silverlight designer.
 
      This creates a grid control bound to the SharePoint site's Announcements list.
 
-8.  Resize the grid control to fit the Silverlight page.
+8. Resize the grid control to fit the Silverlight page.
 
 9. In the MainPage.xaml code file (*MainPage.xaml.cs* for Visual C# or *MainPage.xaml.vb* for Visual Basic), add the following namespace references.
 
@@ -189,34 +189,34 @@ ms.workload:
 
 #### To modify the Silverlight web part
 
-1.  Open the shortcut menu for the Silverlight web part project (**SLWebPartTest**), and then choose **Properties**.
+1. Open the shortcut menu for the Silverlight web part project (**SLWebPartTest**), and then choose **Properties**.
 
-2.  In the **Properties** window, choose the **SharePoint** tab.
+2. In the **Properties** window, choose the **SharePoint** tab.
 
-3.  If it's not already selected, select the **Enable Silverlight debugging (instead of Script debugging)** check box.
+3. If it's not already selected, select the **Enable Silverlight debugging (instead of Script debugging)** check box.
 
-4.  Save the project.
+4. Save the project.
 
 ## Test the Silverlight web part
  Test the new Silverlight web part in SharePoint to ensure that it displays the SharePoint list data properly.
 
 #### To test the Silverlight web part
 
-1.  Choose the **F5** key to build and run the SharePoint solution.
+1. Choose the **F5** key to build and run the SharePoint solution.
 
-2.  In SharePoint, on the **Site Actions** menu, choose **New Page**.
+2. In SharePoint, on the **Site Actions** menu, choose **New Page**.
 
-3.  In the **New Page** dialog, enter a title, such as **SL Web Part Test**, and then choose the **Create** button.
+3. In the **New Page** dialog, enter a title, such as **SL Web Part Test**, and then choose the **Create** button.
 
-4.  In the page designer, on the **Editing Tools** tab, choose **Insert**.
+4. In the page designer, on the **Editing Tools** tab, choose **Insert**.
 
-5.  On the tab strip, choose **Web Part**.
+5. On the tab strip, choose **Web Part**.
 
-6.  In the **Categories** box, choose the **Custom** folder.
+6. In the **Categories** box, choose the **Custom** folder.
 
-7.  In the **Web Parts** list, choose the Silverlight web part, and then choose the **Add** button to add the web part to the designer.
+7. In the **Web Parts** list, choose the Silverlight web part, and then choose the **Add** button to add the web part to the designer.
 
-8.  After you have made all of the additions to the web page that you want, choose the **Page** tab, and then choose the **Save & Close** button on the tool bar.
+8. After you have made all of the additions to the web page that you want, choose the **Page** tab, and then choose the **Save & Close** button on the tool bar.
 
      The Silverlight web part should now be displaying Announcement data from the SharePoint site. By default, the page is stored in the Site Pages list in SharePoint.
 

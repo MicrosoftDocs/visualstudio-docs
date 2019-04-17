@@ -29,11 +29,11 @@ After you make changes to deployment properties in the application manifest for 
 
 #### To re-sign the application and deployment manifests with Mage.exe
 
-1.  Open a **Visual Studio Command Prompt** window.
+1. Open a **Visual Studio Command Prompt** window.
 
-2.  Change directories to the folder that contains the manifest files that you want to sign.
+2. Change directories to the folder that contains the manifest files that you want to sign.
 
-3.  Type the following command to sign the application manifest file. Replace *ManifestFileName* with the name of your manifest file plus the extension. Replace *Certificate* with the relative or fully qualified path of the certificate file and replace *Password* with the password for the certificate.
+3. Type the following command to sign the application manifest file. Replace *ManifestFileName* with the name of your manifest file plus the extension. Replace *Certificate* with the relative or fully qualified path of the certificate file and replace *Password* with the password for the certificate.
 
     ```cmd
     mage -sign ManifestFileName.manifest -CertFile Certificate -Password Password
@@ -47,7 +47,7 @@ After you make changes to deployment properties in the application manifest for 
     mage -sign WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx
     ```
 
-4.  Type the following command to update and sign the deployment manifest file, replacing the placeholder names as in the previous step.
+4. Type the following command to update and sign the deployment manifest file, replacing the placeholder names as in the previous step.
 
     ```cmd
     mage -update DeploymentManifest -appmanifest ApplicationManifest -CertFile Certificate -Password Password
@@ -61,20 +61,20 @@ After you make changes to deployment properties in the application manifest for 
     mage -update WpfBrowserApplication1.xbap -appmanifest WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx
     ```
 
-5.  Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
+5. Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
 
 ## Update and re-sign the application and deployment manifests
  This procedure assumes that you have already made changes to your application manifest file (*.manifest*), but that there are other files that were updated. When files are updated, the hash that represents the file must also be updated.
 
 #### To update and re-sign the application and deployment manifests with Mage.exe
 
-1.  Open a **Visual Studio Command Prompt** window.
+1. Open a **Visual Studio Command Prompt** window.
 
-2.  Change directories to the folder that contains the manifest files that you want to sign.
+2. Change directories to the folder that contains the manifest files that you want to sign.
 
-3.  Remove the *.deploy* file extension from the files in the publish output folder.
+3. Remove the *.deploy* file extension from the files in the publish output folder.
 
-4.  Type the following command to update the application manifest with the new hashes for the updated files and sign the application manifest file. Replace *ManifestFileName* with the name of your manifest file plus the extension. Replace *Certificate* with the relative or fully qualified path of the certificate file and replace *Password* with the password for the certificate.
+4. Type the following command to update the application manifest with the new hashes for the updated files and sign the application manifest file. Replace *ManifestFileName* with the name of your manifest file plus the extension. Replace *Certificate* with the relative or fully qualified path of the certificate file and replace *Password* with the password for the certificate.
 
     ```cmd
     mage -update ManifestFileName.manifest -CertFile Certificate -Password Password
@@ -88,7 +88,7 @@ After you make changes to deployment properties in the application manifest for 
     mage -update WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx
     ```
 
-5.  Type the following command to update and sign the deployment manifest file, replacing the placeholder names as in the previous step.
+5. Type the following command to update and sign the deployment manifest file, replacing the placeholder names as in the previous step.
 
     ```cmd
     mage -update DeploymentManifest -appmanifest ApplicationManifest -CertFile Certificate -Password Password
@@ -102,9 +102,9 @@ After you make changes to deployment properties in the application manifest for 
     mage -update WpfBrowserApplication1.xbap -appmanifest WpfBrowserApplication1.exe.manifest -CertFile ..\WpfBrowserApplication1_TemporaryKey.pfx
     ```
 
-6.  Add the *.deploy* file extension back to the files, except the application and deployment manifest files.
+6. Add the *.deploy* file extension back to the files, except the application and deployment manifest files.
 
-7.  Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
+7. Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
 
 ## See also
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

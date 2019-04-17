@@ -19,13 +19,13 @@ The variable designer is used to create variables for use in data-binding scenar
   
 ### To create a new variable  
   
-1.  Open a workflow or activity solution in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+1. Open a workflow or activity solution in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
-2.  On the design canvas, select an activity in your workflow.  
+2. On the design canvas, select an activity in your workflow.  
   
-3.  Open the variable designer by clicking the **Variables** button in the lower-left corner of the design canvas. The variable designer appears.  
+3. Open the variable designer by clicking the **Variables** button in the lower-left corner of the design canvas. The variable designer appears.  
   
-4.  Click the empty row labeled **Create Variable**. This will add a new row with a new variable using the following default values: variablex for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique variable names, **String** for the **Variable type**, and **Sequence** for the **Scope**. No value is added for **Default**. You can change these values at any time during the workflow design process.  
+4. Click the empty row labeled **Create Variable**. This will add a new row with a new variable using the following default values: variablex for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique variable names, **String** for the **Variable type**, and **Sequence** for the **Scope**. No value is added for **Default**. You can change these values at any time during the workflow design process.  
   
     > [!NOTE]
     >  To delete a variable, select the variable by clicking it and then press the **Delete** key.  

@@ -31,11 +31,11 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
   
 ### To disable automatically incrementing the Publish Version  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.  
+3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.  
   
 ## See Also  
  [How to: Set the ClickOnce Publish Version](../deployment/how-to-set-the-clickonce-publish-version.md)   

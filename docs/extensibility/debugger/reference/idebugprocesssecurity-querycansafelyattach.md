@@ -27,11 +27,11 @@ int QueryCanSafelyAttach();
 ## Return Value
  The return values are as follows:
 
--   `S_OK`: Attaching to process is safe and no warning dialog box is shown.
+- `S_OK`: Attaching to process is safe and no warning dialog box is shown.
 
--   `S_FALSE`: Attaching could be a security problem and a dialog box with a warning is shown.
+- `S_FALSE`: Attaching could be a security problem and a dialog box with a warning is shown.
 
--   `FAILURE`: Attaching to process fails.
+- `FAILURE`: Attaching to process fails.
 
 ## See Also
 - [IDebugProcessSecurity](../../../extensibility/debugger/reference/idebugprocesssecurity.md)

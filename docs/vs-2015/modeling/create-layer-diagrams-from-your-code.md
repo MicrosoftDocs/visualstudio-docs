@@ -34,13 +34,13 @@ To visualize your software system's high-level, logical architecture, create a *
   
 #### To add a new layer diagram to a modeling project  
   
-1.  On the **Architecture** menu, choose **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, choose **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, choose **Layer Diagram**.  
+2. Under **Templates**, choose **Layer Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.  
+4. In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.  
   
      -or-  
   
@@ -49,7 +49,7 @@ To visualize your software system's high-level, logical architecture, create a *
     > [!NOTE]
     >  The layer diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.  
   
-5.  Make sure to save both the modeling project and the layer diagram.  
+5. Make sure to save both the modeling project and the layer diagram.  
   
 ##  <a name="CreateLayers"></a> Create layers from artifacts  
  You can create layers from Visual Studio solution items, such as projects, code files, namespaces, classes, and methods. This automatically creates links between layers and items, including them in the layer validation process.  
@@ -74,19 +74,19 @@ To visualize your software system's high-level, logical architecture, create a *
   
  The number on a layer indicates the number of artifacts that are linked to the layer. However, when reading this number, remember the following:  
   
--   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
+- If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
   
      For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.  
   
--   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
+- If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
   
 ##  <a name="Managing"></a> Manage links between layers and artifacts  
   
-1.  On the layer diagram, open the shortcut menu for the layer, and then choose **View Links**.  
+1. On the layer diagram, open the shortcut menu for the layer, and then choose **View Links**.  
   
      **Layer Explorer** shows the artifact links for the selected layer.  
   
-2.  Use the following tasks to manage these links:  
+2. Use the following tasks to manage these links:  
   
 |**To**|**In Layer Explorer**|  
 |------------|---------------------------|  
@@ -123,11 +123,11 @@ To visualize your software system's high-level, logical architecture, create a *
 ##  <a name="Codemaps"></a> Discover patterns and dependencies on a code map  
  While creating layer diagrams, you might also create **code maps**. These diagrams can help you discover patterns and dependencies while you explore the code. Use Solution Explorer, Class View, or Object Browser to explore assemblies, namespaces, and classes - which often correspond well to existing layers. For more information about code maps, see:  
   
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
   
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
   
 ## See Also  
  [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073)   

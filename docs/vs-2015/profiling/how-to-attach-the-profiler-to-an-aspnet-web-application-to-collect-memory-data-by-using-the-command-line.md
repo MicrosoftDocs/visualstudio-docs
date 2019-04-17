@@ -34,7 +34,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv** {**/globalsamplegc** &#124; **/globalsamplegclife**} [**/samplelineoff**]  
 
-   -   The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.  
+   - The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.  
 
         Specify one and only one of the following options.  
 
@@ -43,7 +43,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
        |**/globalsamplegc**|Enables the collection of memory allocation data.|  
        |**/globalsamplegclife**|Enables the collection of both memory allocation data and object lifetime data.|  
 
-   -   The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.  
+   - The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.  
 
 3. Restart the computer to set the new environment configuration.  
 
@@ -77,16 +77,16 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfCmd**  [/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   The process ID `(PID)` specifies the process ID or the process name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process. You can view the process IDs of all running processes in Windows Task Manager.  
+   - The process ID `(PID)` specifies the process ID or the process name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process. You can view the process IDs of all running processes in Windows Task Manager.  
 
-   -   **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.  
+   - **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.  
 
 ## Controlling Data Collection  
  While the application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  

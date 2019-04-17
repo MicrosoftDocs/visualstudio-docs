@@ -35,16 +35,16 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
 
 ## Create the project
  The first step is to create a Word Document project.
 
 ### Create a new project
 
-1.  Create a Word Document project with the name **My Word Formatting**. In the wizard, select **Create a new document**.
+1. Create a Word Document project with the name **My Word Formatting**. In the wizard, select **Create a new document**.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -55,29 +55,29 @@ ms.workload:
 
 ### Add three check boxes
 
-1.  Verify that the document is open in the Visual Studio designer.
+1. Verify that the document is open in the Visual Studio designer.
 
-2.  From the **Common Controls** tab of the **Toolbox**, drag the first <xref:Microsoft.Office.Tools.Word.Controls.CheckBox> control to the document.
+2. From the **Common Controls** tab of the **Toolbox**, drag the first <xref:Microsoft.Office.Tools.Word.Controls.CheckBox> control to the document.
 
-3.  In the **Properties** window, change the following properties.
+3. In the **Properties** window, change the following properties.
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**applyBoldFont**|
     |**Text**|**Bold**|
 
-4.  Press **Enter** to move the insertion point below the first check box.
+4. Press **Enter** to move the insertion point below the first check box.
 
-5.  Add a second check box to the document below the `ApplyBoldFont` check box and change the following properties.
+5. Add a second check box to the document below the `ApplyBoldFont` check box and change the following properties.
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**applyItalicFont**|
     |**Text**|**Italic**|
 
-6.  Press **Enter** to move the insertion point below the second check box.
+6. Press **Enter** to move the insertion point below the second check box.
 
-7.  Add a third check box to the document below the `ApplyItalicFont` check box and change the following properties.
+7. Add a third check box to the document below the `ApplyItalicFont` check box and change the following properties.
 
     |Property|Value|
     |--------------|-----------|
@@ -107,28 +107,28 @@ ms.workload:
 
 ### Change formatting when a check box is selected
 
-1.  Right-click `ThisDocument` in **Solution Explorer**, and then click **View Code** on the shortcut menu.
+1. Right-click `ThisDocument` in **Solution Explorer**, and then click **View Code** on the shortcut menu.
 
-2.  For C# only, add the following constants to the **ThisDocument** class.
+2. For C# only, add the following constants to the **ThisDocument** class.
 
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#2)]
 
-3.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyBoldFont` check box.
+3. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyBoldFont` check box.
 
      [!code-vb[Trin_VstcoreProgrammingControlsWord#3](../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb#3)]
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#3)]
 
-4.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyItalicFont` check box.
+4. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyItalicFont` check box.
 
      [!code-vb[Trin_VstcoreProgrammingControlsWord#4](../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb#4)]
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#4](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#4)]
 
-5.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyUnderlineFont` check box.
+5. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyUnderlineFont` check box.
 
      [!code-vb[Trin_VstcoreProgrammingControlsWord#5](../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb#5)]
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#5](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#5)]
 
-6.  In C#, you must add event handlers for the text boxes to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+6. In C#, you must add event handlers for the text boxes to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#6)]
 
@@ -137,18 +137,18 @@ ms.workload:
 
 ### Test your document
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Select or clear a check box.
+2. Select or clear a check box.
 
-3.  Confirm that the text is formatted correctly.
+3. Confirm that the text is formatted correctly.
 
 ## Next steps
  This walkthrough shows the basics of using check boxes and programmatically changing text formatting on Word documents. Here are some tasks that might come next:
 
--   Use a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).
+- Use a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).
 
--   Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
 
 ## See also
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)

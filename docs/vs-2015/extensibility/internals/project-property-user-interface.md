@@ -35,11 +35,11 @@ A project subtype can use the items in the project **Property Pages** dialog box
   
 - A project subtype can determine the appropriate CATIDs for the various extendable objects of the base project at runtime by retrieving the following <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> values:  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2>  
   
   To determine the CATIDs for the project scope, the project subtype retrieves the above properties for <xref:Microsoft.VisualStudio.VSConstants.VSITEMID>  from the `VSITEMID``typedef`. A project subtype may also want to control which **Property Pages** dialog box pages are displayed for the project, both configuration dependent and configuration independent. Some project subtypes may need to remove built-in pages and add project subtype specific pages. In order to enable this, the managed client project calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> method for the following properties:  
   

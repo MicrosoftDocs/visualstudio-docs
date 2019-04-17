@@ -55,9 +55,9 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
      \- or -  
   
-   1.  Select **Create a new modeling project**, and then click **OK**.  
+   1. Select **Create a new modeling project**, and then click **OK**.  
   
-   2.  In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
+   2. In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
   
         ![Create New Modeling Project dialog](../modeling/media/uml-createmodel.png "UML_CreateModel")  
   
@@ -67,16 +67,16 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To add a diagram to an existing modeling project  
   
-1.  In **Solution Explorer**, click the modeling project node.  
+1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
     >  The modeling project contains a model definition folder named **ModelDefinition**.  
   
-2.  On the **Project** menu, click **Add New Item**.  
+2. On the **Project** menu, click **Add New Item**.  
   
-3.  In the **Add New Item -** *\<project name>* dialog box, under **Templates**, click the modeling diagram type, for example, **UML Component Diagram**.  
+3. In the **Add New Item -** *\<project name>* dialog box, under **Templates**, click the modeling diagram type, for example, **UML Component Diagram**.  
   
-4.  Type a name for the diagram, and then click **Add**.  
+4. Type a name for the diagram, and then click **Add**.  
   
      The modeling diagram opens and appears in the modeling project.  
   
@@ -85,22 +85,22 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To create a blank modeling project  
   
-1.  On the **File** menu, point to **New**, and then click **Project**.  
+1. On the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, under **Installed Templates**, click **Modeling Projects**.  
+2. In the **New Project** dialog box, under **Installed Templates**, click **Modeling Projects**.  
   
-3.  In the middle window, click **Modeling Project**.  
+3. In the middle window, click **Modeling Project**.  
   
-4.  Name the project and specify a location in the **Name** and **Location** boxes.  
+4. Name the project and specify a location in the **Name** and **Location** boxes.  
   
-5.  In the **Solution** box, select **Add to Solution** to add the new project to a solution you already have open; or **Create new Solution** to close any open solution and add the project to a new solution.  
+5. In the **Solution** box, select **Add to Solution** to add the new project to a solution you already have open; or **Create new Solution** to close any open solution and add the project to a new solution.  
   
 ##  <a name="RemovingModelingDiagrams"></a> Removing Modeling Diagrams from a Project  
  You can permanently delete a diagram, or you can temporarily exclude a diagram from a project and then restore it.  
   
 #### To permanently delete a diagram from a project  
   
--   In **Solution Explorer**, right-click the main file that represents the diagram, and then click **Delete**.  
+- In **Solution Explorer**, right-click the main file that represents the diagram, and then click **Delete**.  
   
      The diagram is removed from the project and the file system. The elements shown on the diagram are not removed from **UML Model Explorer**.  
   
@@ -109,7 +109,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To temporarily exclude a diagram from a project  
   
--   In **Solution Explorer**, right-click the diagram file, and then click **Exclude from Project**.  
+- In **Solution Explorer**, right-click the diagram file, and then click **Exclude from Project**.  
   
      The diagram is removed from the project. It is not removed from the file system.  
   
@@ -118,14 +118,14 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To restore a temporarily excluded diagram to a project  
   
-1.  In **Solution Explorer**, click the modeling project node.  
+1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
     >  The modeling project contains a model definition folder named **ModelDefinition**.  
   
-2.  On the **Project** menu, click **Add Existing Item**.  
+2. On the **Project** menu, click **Add Existing Item**.  
   
-3.  In the **Add Existing Item** dialog box, locate the diagram file, select the file, and then click **Add**.  
+3. In the **Add Existing Item** dialog box, locate the diagram file, select the file, and then click **Add**.  
   
      The modeling diagram opens and appears in the modeling project.  
   
@@ -135,11 +135,11 @@ UML models help you understand, discuss, and design software systems. Visual Stu
 ##  <a name="NonModelDiagrams"></a> Diagrams that Do Not Require Modeling Projects  
  The following kinds of diagrams are not part of a modeling project:  
   
--   Class diagrams that are created as views of the source code. These are not related to UML class diagrams. For more information, see [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md).  
+- Class diagrams that are created as views of the source code. These are not related to UML class diagrams. For more information, see [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md).  
   
--   Code maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+- Code maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
--   Diagrams that are not UML diagrams or layer diagrams, such as domain specific languages.  
+- Diagrams that are not UML diagrams or layer diagrams, such as domain specific languages.  
   
 ##  <a name="TroubleshootingModelingProjects"></a> Troubleshooting Modeling Projects and Diagrams  
  The following table describes issues that can occur with modeling projects or diagrams and how to resolve them:  

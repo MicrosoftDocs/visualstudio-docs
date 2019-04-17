@@ -27,20 +27,20 @@ The following procedures describe how to create the rudimentary code for a recor
 
 ### To create a recorder plug-in
 
-1.  Open a solution that contains the web performance and load test project with the web performance test for which you want to create a recorder plug-in.
+1. Open a solution that contains the web performance and load test project with the web performance test for which you want to create a recorder plug-in.
 
-2.  Add a new **Class Library** project to the solution.
+2. Add a new **Class Library** project to the solution.
 
-3.  In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
+3. In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
 
     > [!TIP]
     > An example of a new class library project folder is **RecorderPlugins**.
 
      The **Add Reference** dialog box is displayed.
 
-4.  Select the **.NET** tab.
+4. Select the **.NET** tab.
 
-5.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
+5. Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
      The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in **Solution Explorer**.
 
@@ -82,11 +82,11 @@ After you compile the recorder plug-in, place the resulting DLL in one of two lo
 
 ### Execute the recorder plug-in
 
-1.  Create a new web performance test.
+1. Create a new web performance test.
 
      The **Enable WebTestRecordPlugins** dialog box displays.
 
-2.  Select the check box for the recorder plug-in and choose **OK**.
+2. Select the check box for the recorder plug-in and choose **OK**.
 
      After the web performance test completes recording, the new recorder plug-in will be executed.
 

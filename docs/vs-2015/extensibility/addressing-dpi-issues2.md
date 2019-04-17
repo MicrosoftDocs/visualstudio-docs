@@ -114,15 +114,15 @@ VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
   
  To access the DPI helper functions from managed code that will run inside the Visual Studio environment:  
   
--   The consuming project must reference the latest version of Shell MPF. For example:  
+- The consuming project must reference the latest version of Shell MPF. For example:  
   
     ```csharp  
     <Reference Include="Microsoft.VisualStudio.Shell.14.0.dll" />  
     ```  
   
--   Ensure the project has references to **System.Windows.Forms**, **PresentationCore**, and **PresentationUI**.  
+- Ensure the project has references to **System.Windows.Forms**, **PresentationCore**, and **PresentationUI**.  
   
--   In code, use the **Microsoft.VisualStudio.PlatformUI** namespace and call static functions of DpiHelper class. For supported types (points, sizes, rectangles, and so on), there are provided extension functions that return new scaled objects. For example:  
+- In code, use the **Microsoft.VisualStudio.PlatformUI** namespace and call static functions of DpiHelper class. For supported types (points, sizes, rectangles, and so on), there are provided extension functions that return new scaled objects. For example:  
   
     ```csharp  
     using Microsoft.VisualStudio.PlatformUI;  
@@ -201,13 +201,13 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.V
   
  Because WPF will scale the UI for the current DPI using the BitmapScalingMode property set on the UIElement, an Image control using a prescaled image as its source will look two or three times larger than it should. The following are a couple ways to counter this effect:  
   
--   If you know the dimension of the original image at 100%, you can specify the exact size of the Image control. These sizes will reflect the size of the UI before scaling is applied.  
+- If you know the dimension of the original image at 100%, you can specify the exact size of the Image control. These sizes will reflect the size of the UI before scaling is applied.  
   
     ```xaml  
     <Image Source="{Binding Path=SelectedImage, Converter={StaticResource DpiPrescaleImageSourceConverter}}" Width="16" Height="16" />  
     ```  
   
--   If the size of the original image is not known, a LayoutTransform can be used to scale down the final Image object. For example:  
+- If the size of the original image is not known, a LayoutTransform can be used to scale down the final Image object. For example:  
   
     ```xaml  
     <Image Source="{Binding Path=SelectedImage, Converter={StaticResource DpiPrescaleImageSourceConverter}}" >  
@@ -338,9 +338,9 @@ public int GetHostInfo(DOCHOSTUIINFO info)
   
 ## Tips  
   
-1.  If the document property on the WebOC control changes, you might need to reassociate the document with the IDocHostUIHandler class.  
+1. If the document property on the WebOC control changes, you might need to reassociate the document with the IDocHostUIHandler class.  
   
-2.  If the above does not work, there is a known issue with the WebOC not picking up the change to the DPI flag. The most reliable way of fixing this is to toggle the optical zoom of the WebOC, meaning two calls with two different values for the zoom percentage. Additionally, if this workaround is required, it might be necessary to perform it on every navigate call.  
+2. If the above does not work, there is a known issue with the WebOC not picking up the change to the DPI flag. The most reliable way of fixing this is to toggle the optical zoom of the WebOC, meaning two calls with two different values for the zoom percentage. Additionally, if this workaround is required, it might be necessary to perform it on every navigate call.  
   
     ```csharp  
     // browser2 is a SHDocVw.IWebBrowser2 in this case  

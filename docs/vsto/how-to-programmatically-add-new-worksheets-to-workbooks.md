@@ -23,7 +23,7 @@ ms.workload:
 
 ## To add a new worksheet to a workbook in a document-level customization
 
-1.  Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
+1. Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#15](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#15)]
      [!code-vb[Trin_VstcoreExcelAutomation#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#15)]
@@ -32,7 +32,7 @@ ms.workload:
 
 ## To add a new worksheet to a workbook in a VSTO Add-in
 
-1.  Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
+1. Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
 
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#11](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#11)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#11](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#11)]

@@ -17,9 +17,9 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  
   
--   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke%2A> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke%2A> to have the UI thread perform the actual updates.  
+- Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke%2A> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke%2A> to have the UI thread perform the actual updates.  
   
--   If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
+- If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
   
 ## Example  
  This example uses a background thread to make several changes to a model. A dialog box is used to exclude the user while the thread is running. In this simple example, no Cancel button is provided in the dialog box. However, it would be easy to add that feature.  
@@ -30,17 +30,17 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 2. Make sure that the project includes references to these assemblies:  
   
-   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
+   - Microsoft.VisualStudio.ArchitectureTools.Extensibility  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
+   - Microsoft.VisualStudio.Modeling.Sdk.[version]  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
   
-   -   Microsoft.VisualStudio.Uml.Interfaces  
+   - Microsoft.VisualStudio.Uml.Interfaces  
   
-   -   System.ComponentModel.Composition  
+   - System.ComponentModel.Composition  
   
-   -   System.Windows.Forms  
+   - System.Windows.Forms  
   
 3. Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
   
@@ -156,9 +156,9 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
   
 #### To allow the user to cancel the thread in the example  
   
-1.  Add a cancel button to the progress dialog.  
+1. Add a cancel button to the progress dialog.  
   
-2.  Add the following code to the progress dialog box:  
+2. Add the following code to the progress dialog box:  
   
      `public event MethodInvoker Cancel;`  
   
@@ -170,7 +170,7 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
   
      `}`  
   
-3.  In the Execute() method, insert this line after the construction of the form:  
+3. In the Execute() method, insert this line after the construction of the form:  
   
      `form.Cancel += delegate() { worker.CancelAsync(); };`  
   

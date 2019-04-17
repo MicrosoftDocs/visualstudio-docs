@@ -23,17 +23,17 @@ ms.workload:
 
 The **Error List** window lets you perform the following tasks:
 
--   Display the errors, warnings, and messages produced while you write code.
+- Display the errors, warnings, and messages produced while you write code.
 
--   Find syntax errors noted by IntelliSense.
+- Find syntax errors noted by IntelliSense.
 
--   Find deployment errors, certain Static Analysis errors, and errors detected while applying Enterprise Template policies.
+- Find deployment errors, certain Static Analysis errors, and errors detected while applying Enterprise Template policies.
 
--   Double-click any error message entry to open the file where the problem occurs, and move to the error location.
+- Double-click any error message entry to open the file where the problem occurs, and move to the error location.
 
--   Filter which entries are displayed, and which columns of information appear for each entry.
+- Filter which entries are displayed, and which columns of information appear for each entry.
 
--   Search for specific terms and scope the search to just the current project or document.
+- Search for specific terms and scope the search to just the current project or document.
 
 To display the **Error List**, choose **View** > **Error List**, or press **Ctrl**+**\\**+**E**.
 
@@ -47,14 +47,14 @@ There are two types of filter in two dropdown boxes, one on the right side of th
 
 You can restrict the scope of the search to analyze and act on groups of errors. For example, you might want to focus on core errors that are preventing a project from compiling. The scoping options include:
 
-1.  **Open Documents**: Show errors, warnings, and messages for the open documents.
+1. **Open Documents**: Show errors, warnings, and messages for the open documents.
 
-2.  **Current Project**: Show errors, warnings, and messages from the project of the currently selected document in the **Editor** or the selected project in **Solution Explorer**.
+2. **Current Project**: Show errors, warnings, and messages from the project of the currently selected document in the **Editor** or the selected project in **Solution Explorer**.
 
     > [!NOTE]
     > The filtered list of errors, warnings, and messages will change if the project of the currently selected document is different from the project selected in **Solution Explorer**.
 
-3.  **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.
+3. **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.
 
 If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items. For example, the buttons show "x of y Errors". If no filter is applied, the title bar says only "Error List".
 

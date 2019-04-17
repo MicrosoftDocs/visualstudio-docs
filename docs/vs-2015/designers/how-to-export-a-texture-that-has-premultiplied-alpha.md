@@ -17,20 +17,20 @@ The Image Content Pipeline can generate premultiplied alpha textures from a sour
   
  This document demonstrates these activities:  
   
--   Configuring the source image to be processed by the Image Content Pipeline.  
+- Configuring the source image to be processed by the Image Content Pipeline.  
   
--   Configuring the Image Content Pipeline to generate premultiplied alpha.  
+- Configuring the Image Content Pipeline to generate premultiplied alpha.  
   
 ## Premultiplied Alpha  
  Premultiplied alpha offers several advantages over conventional, non-premultiplied alpha, because it better represents the real-world interaction of light with physical materials by separating the texel’s color contribution (the color that it adds to the scene) from its translucency (the amount of underlying color that it allows through). Some of the advantages of using premultiplied alpha are:  
   
--   Blending with premultiplied alpha is an associative operation; the result of blending multiple translucent textures is the same, regardless of the order in which the textures are blended.  
+- Blending with premultiplied alpha is an associative operation; the result of blending multiple translucent textures is the same, regardless of the order in which the textures are blended.  
   
--   Because of the associative nature of blending with premultiplied alpha, multi-pass rendering of translucent objects is simplified.  
+- Because of the associative nature of blending with premultiplied alpha, multi-pass rendering of translucent objects is simplified.  
   
--   By using premultiplied alpha, both pure additive blending (by setting alpha to zero) and linearly interpolated blending can be achieved simultaneously. For example, in a particle system, an additively blended fire particle can become a translucent smoke particle that’s blended by using linear interpolation. Without premultiplied alpha, you would have to draw the fire particles separately from the smoke particles, and modify the render state between draw calls.  
+- By using premultiplied alpha, both pure additive blending (by setting alpha to zero) and linearly interpolated blending can be achieved simultaneously. For example, in a particle system, an additively blended fire particle can become a translucent smoke particle that’s blended by using linear interpolation. Without premultiplied alpha, you would have to draw the fire particles separately from the smoke particles, and modify the render state between draw calls.  
   
--   Textures that use premultiplied alpha compress with higher quality than those that don’t, and they don’t exhibit the discolored edges—or "halo effect"—that can result when you blend textures that don’t use premultiplied alpha.  
+- Textures that use premultiplied alpha compress with higher quality than those that don’t, and they don’t exhibit the discolored edges—or "halo effect"—that can result when you blend textures that don’t use premultiplied alpha.  
   
 #### To create a texture that uses premultiplied alpha  
   

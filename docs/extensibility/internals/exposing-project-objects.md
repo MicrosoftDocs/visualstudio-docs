@@ -22,7 +22,7 @@ It is a common convention for projects to expose a custom, project-specific proj
 
 ## To contribute a VSPackage-specific object for a project
 
-1.  Add the appropriate keys to the *.pkgdef* file of your VSPackage.
+1. Add the appropriate keys to the *.pkgdef* file of your VSPackage.
 
      For example, here are the *.pkgdef* settings for the C++ language project:
 
@@ -33,7 +33,7 @@ It is a common convention for projects to expose a custom, project-specific proj
     "VCProjectEngineEventsObject"=""
     ```
 
-2.  Implement the code in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method, as in the following example.
+2. Implement the code in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method, as in the following example.
 
     ```cpp
     STDMETHODIMP CVsPackage::GetAutomationObject(

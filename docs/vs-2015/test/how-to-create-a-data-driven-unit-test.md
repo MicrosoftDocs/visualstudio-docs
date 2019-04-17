@@ -31,21 +31,21 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
 - [Writing the test method](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Writing_the_test_method)  
   
-  -   [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
+  - [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
   
-  -   [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
+  - [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
   
 - [Running the test and viewing results](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Running_the_test_and_viewing_results)  
   
   Creating a data-driven unit test involves the following steps:  
   
-1.  Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
+1. Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
   
-2.  Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
+2. Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
   
-3.  Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
+3. Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
   
-4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
+4. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
   
 ##  <a name="BKMK_The_method_under_test"></a> The method under test  
  As an example, let's assume that we have created:  

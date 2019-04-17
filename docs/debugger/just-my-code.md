@@ -204,10 +204,10 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 The JavaScript debugger classifies code as user or non-user in this order:
 
 1. The default classifications.
-   -   Script executed by passing a string to the host-provided `eval` function is **MyCode**.
-   -   Script executed by passing a string to the `Function` constructor is **LibraryCode**.
-   -   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.
-   -   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.
+   - Script executed by passing a string to the host-provided `eval` function is **MyCode**.
+   - Script executed by passing a string to the `Function` constructor is **LibraryCode**.
+   - Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.
+   - Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.
 
 2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.
 

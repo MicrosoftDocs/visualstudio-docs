@@ -100,9 +100,9 @@ namespace EEMC
 ### DLL server process
  When registering the EE, the DLL server:
 
-1.  Registers its class factory `CLSID` as per normal COM conventions.
+1. Registers its class factory `CLSID` as per normal COM conventions.
 
-2.  Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified as follows are part of the *dbgmetric.lib* library. See [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.
+2. Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified as follows are part of the *dbgmetric.lib* library. See [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.
 
     |Metric|Description|
     |------------|-----------------|
@@ -114,7 +114,7 @@ namespace EEMC
     > [!NOTE]
     >  The `metricLanguage``GUID` identifies the language by name, but it is the `guidLang` argument to `SetEEMetric` that selects the language. When the compiler generates the debug information file, it should write the appropriate `guidLang` so that the DE knows which EE to use. The DE typically asks the symbol provider for this language `GUID`, which is stored in the debug information file.
 
-3.  Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.
+3. Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.
 
 ### Example
  The following function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.

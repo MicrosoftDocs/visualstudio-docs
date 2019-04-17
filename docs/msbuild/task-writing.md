@@ -21,9 +21,9 @@ Tasks provide the code that runs during the build process. Tasks are contained i
 
  There are two approaches you can use when implementing a task:
 
--   Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.
+- Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.
 
--   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
+- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
 
 In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.
 

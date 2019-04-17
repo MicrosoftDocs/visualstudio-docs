@@ -81,13 +81,13 @@ The following templates create DLLs:
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
  Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047). The calling application might fit any one of the following criteria:  
   
--   An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
+- An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
   
--   An existing application already deployed on a test or production computer.  
+- An existing application already deployed on a test or production computer.  
   
--   Located on the Web and accessed through a URL.  
+- Located on the Web and accessed through a URL.  
   
--   A Web application that contains a Web page which embeds the DLL.  
+- A Web application that contains a Web page which embeds the DLL.  
   
 ###  <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the Calling Application  
  To debug a DLL, start by debugging the calling application, typically either an EXE or a Web application. There are several ways to debug it.  
@@ -110,9 +110,9 @@ The following templates create DLLs:
 ###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> The Immediate Window  
  You can evaluate functions or methods in the DLL without having a calling application. You do design-time debugging and you use the **Immediate** window. To debug in this manner, do the follow these steps while the DLL project is open:  
   
-1.  Open the Debugger **Immediate** window.  
+1. Open the Debugger **Immediate** window.  
   
-2.  To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
+2. To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
   
     ```  
     Class1 obj = new Class1();  
@@ -120,7 +120,7 @@ The following templates create DLLs:
   
      In C#, all names must be fully qualified. In addition, any methods or variables must be in the current scope and context of the debugging session.  
   
-3.  Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
+3. Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
   
     ```  
     ?obj.Test(10)  
@@ -128,7 +128,7 @@ The following templates create DLLs:
   
      The result will be printed in the **Immediate** window.  
   
-4.  You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
+4. You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
   
     ```  
     ?obj.Test(10);  

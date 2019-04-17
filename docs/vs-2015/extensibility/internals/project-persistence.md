@@ -21,9 +21,9 @@ Persistence is a key design consideration for your project. Most projects use pr
   
  Project items can be file-based or non-file-based:  
   
--   File-based items can be local or remote. In Web projects in C#, for example, connections to files on a remote system persist locally, whereas the files themselves persist on the remote system.  
+- File-based items can be local or remote. In Web projects in C#, for example, connections to files on a remote system persist locally, whereas the files themselves persist on the remote system.  
   
--   Non-file-based items can save items to a database or repository.  
+- Non-file-based items can save items to a database or repository.  
   
 ## Commit Models  
  After deciding where the project items are located, you must choose the appropriate commit model. For example, in a file-based model with local files, each project can be saved autonomously. In a repository model, you can save several items in one transaction. For more information, see [Project Type Design Decisions](../../extensibility/internals/project-type-design-decisions.md).  

@@ -35,15 +35,15 @@ You can modify the behavior of some of the standard commands that are defined au
   
 #### To discover what commands you can modify  
   
-1.  In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.  
+1. In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.  
   
-2.  Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.  
+2. Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.  
   
-3.  In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".  
+3. In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".  
   
-4.  Note which of the command set classes contains the command you want to modify.  
+4. Note which of the command set classes contains the command you want to modify.  
   
-5.  Close the file without saving your edits.  
+5. Close the file without saving your edits.  
   
     > [!NOTE]
     >  Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
@@ -53,15 +53,15 @@ You can modify the behavior of some of the standard commands that are defined au
   
 #### To extend the Command Set class  
   
-1.  In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
+1. In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
   
      `namespace Company.Language1`  
   
      `{ ...  internal partial class Language1CommandSet : ...`  
   
-2.  In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.  
+2. In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.  
   
-3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
+3. In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
   
     ```  
     using System;  

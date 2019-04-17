@@ -154,9 +154,9 @@ You can write code to create and delete model elements, set their properties, an
   
  The ancestor classes of model elements are as follows:  
   
--   ModelElement - all elements and relationships are ModelElements  
+- ModelElement - all elements and relationships are ModelElements  
   
--   ElementLink - all relationships are ElementLinks  
+- ElementLink - all relationships are ElementLinks  
   
 ##  <a name="transaction"></a> Perform Changes inside a Transaction  
  Whenever your program code changes anything in the Store, it must do so inside a transaction. This applies to all model elements, relationships, shapes, diagrams, and their properties. For more information, see <xref:Microsoft.VisualStudio.Modeling.Transaction>.  
@@ -231,25 +231,25 @@ using (Transaction t =
   
 - Set the property of the source role player. For example:  
   
-  -   `familyTree.People.Add(edward);`  
+  - `familyTree.People.Add(edward);`  
   
-  -   `edward.Parents.Add(henry);`  
+  - `edward.Parents.Add(henry);`  
   
 - Set the property of the target role player. For example:  
   
-  -   `edward.familyTreeModel = familyTree;`  
+  - `edward.familyTreeModel = familyTree;`  
   
        The multiplicity of this role is `1..1`, so we assign the value.  
   
-  -   `henry.Children.Add(edward);`  
+  - `henry.Children.Add(edward);`  
   
        The multiplicity of this role is `0..*`, so we add to the collection.  
   
 - Construct an instance of the relationship explicitly. For example:  
   
-  -   `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`  
+  - `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`  
   
-  -   `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`  
+  - `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`  
   
   The last method is useful if you want to set properties on the relationship itself.  
   
@@ -443,15 +443,15 @@ FamilyTreeDiagram diagram =
   
  However, it is useful to make some explicit changes to shapes in properties that are independent of the model elements. For example, you could change these properties:  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size%2A> - determines the height and width of the shape.  
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size%2A> - determines the height and width of the shape.  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location%2A> - position relative to the parent shape or diagram  
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location%2A> - position relative to the parent shape or diagram  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet%2A> - the set of pens and brushes used for drawing the shape or connector  
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet%2A> - the set of pens and brushes used for drawing the shape or connector  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide%2A> - makes the shape invisible  
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide%2A> - makes the shape invisible  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`  
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`  
   
 ###  <a name="merge"></a> Creating an Element and its Shape  
  When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.  

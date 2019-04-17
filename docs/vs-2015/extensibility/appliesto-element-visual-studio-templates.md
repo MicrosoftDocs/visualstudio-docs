@@ -48,19 +48,19 @@ Specifies an optional expression to match one or more capabilities. (see <xref:M
   
  Valid expression syntax is defined as:  
   
--   The capability expression, such as "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".  
+- The capability expression, such as "(VisualC &#124; CSharp) + (MSTest &#124; NUnit)".  
   
--   The "&#124;" is the OR operator.  
+- The "&#124;" is the OR operator.  
   
--   The "&" and "+" characters are both AND operators.  
+- The "&" and "+" characters are both AND operators.  
   
--   The "!" character is the NOT operator.  
+- The "!" character is the NOT operator.  
   
--   Parentheses force evaluation-precedence order.  
+- Parentheses force evaluation-precedence order.  
   
--   A null or empty expression is evaluated as a match.  
+- A null or empty expression is evaluated as a match.  
   
--   Project capabilities may be any character except these reserved characters: "'`:;,+-*/\\!~&#124;&%$@^()={}[]<>? \t\b\n\r  
+- Project capabilities may be any character except these reserved characters: "'`:;,+-*/\\!~&#124;&%$@^()={}[]<>? \t\b\n\r  
   
 ## Example  
  The following example shows three different templates. `Template1` applies either to all C# project types or any other project type that supports the `WindowsAppContainer` capability. `Template2` applies to all C# projects of any kind. `Template3` applies to C# projects that are not `WindowsAppContainer` projects.  

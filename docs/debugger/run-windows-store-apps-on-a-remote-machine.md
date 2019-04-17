@@ -42,23 +42,23 @@ You use the project **Properties** to specify the remote device to connect to. T
 
 1. Select the C# or Visual Basic project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
-1.  Select the **Debug** tab.
+1. Select the **Debug** tab.
 
-1.  Under **Target device**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
+1. Under **Target device**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
 
-1.  For a remote machine, enter the network name or IP address in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections).
+1. For a remote machine, enter the network name or IP address in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections).
 
     ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "Managed Debug project properties")
 
 ###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a C++ project for remote debugging
 
-1.  Select the C++ project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the C++ project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
-1.  Select the **Debugging** tab.
+1. Select the **Debugging** tab.
 
-3.  Under **Debugger to launch**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
+3. Under **Debugger to launch**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
 
-1.  For a remote machine, enter or select the network name or IP address in the **Machine Name** field, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections).
+1. For a remote machine, enter or select the network name or IP address in the **Machine Name** field, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections).
 
     ![C++ project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "C++ Debugging project properties")
 

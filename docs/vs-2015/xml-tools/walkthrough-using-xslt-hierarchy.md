@@ -21,7 +21,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
   
 ### Procedure Title  
   
-1.  Open an XML document in Visual Studio. This example uses the following `collection.xml` document.  
+1. Open an XML document in Visual Studio. This example uses the following `collection.xml` document.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -45,7 +45,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </COLLECTION>  
     ```  
   
-2.  Add the following `xslincludefile.xsl`:  
+2. Add the following `xslincludefile.xsl`:  
   
     ```  
     <?xml version='1.0'?>  
@@ -68,7 +68,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </xsl:stylesheet>  
     ```  
   
-3.  Add the following `xslinclude.xsl` file:  
+3. Add the following `xslinclude.xsl` file:  
   
     ```  
     <?xml version='1.0'?>  
@@ -102,11 +102,11 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </xsl:stylesheet>  
     ```  
   
-4.  Add a breakpoint at the instruction: `<xsl:include href="xslincludefile.xsl" />`  
+4. Add a breakpoint at the instruction: `<xsl:include href="xslincludefile.xsl" />`  
   
-5.  Start debugging.  
+5. Start debugging.  
   
-6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the step into button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
+6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the step into button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
   
 ## See Also  
  [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)

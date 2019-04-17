@@ -51,13 +51,13 @@ The following list shows the gestures used to construct a flowchart by keyboard.
 
 - To connect activities:
 
-    1.  Select the source activity by tabbing to the activity.
+    1. Select the source activity by tabbing to the activity.
 
-    2.  Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.
+    2. Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.
 
-    3.  Press CTRL+E, S to add the destination activity to the selection.
+    3. Press CTRL+E, S to add the destination activity to the selection.
 
-    4.  Press CTRL+E, F to add the connector from the source to the destination.
+    4. Press CTRL+E, F to add the connector from the source to the destination.
 
 Notes about connecting activities by keyboard:
 

@@ -25,15 +25,15 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify va
 
 ### To set debugger options
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  In the **Options** dialog box, open the **Debugging** folder.
+2. In the **Options** dialog box, open the **Debugging** folder.
 
-3.  In the **Debugging** folder, choose the category of options you want.
+3. In the **Debugging** folder, choose the category of options you want.
 
      The most common options are located in the **General** category. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).
 
-4.  Select or clear the desired option or options. Press F1 to get Help about the options.
+4. Select or clear the desired option or options. Press F1 to get Help about the options.
 
 ## See Also
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)

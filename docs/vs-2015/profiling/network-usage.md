@@ -61,11 +61,11 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 ### Analysis tips  
  This tool highlights certain areas that can be useful when you are running network related analysis:  
   
-1.  Requests that are fully served from the cache are shown as **(from cache)** in the **Received** column. This can help you determine whether you are using the cache effectively to save user bandwidth, or whether you are caching responses by mistake and providing the end-user of your application with outdated data.  
+1. Requests that are fully served from the cache are shown as **(from cache)** in the **Received** column. This can help you determine whether you are using the cache effectively to save user bandwidth, or whether you are caching responses by mistake and providing the end-user of your application with outdated data.  
   
-2.  Error responses (4xx or 5xx) are displayed in the in the **Results** column with a red status code and are also highlighted in the summary bar. This makes it easy to spot errors among the many potential requests on your application.  
+2. Error responses (4xx or 5xx) are displayed in the in the **Results** column with a red status code and are also highlighted in the summary bar. This makes it easy to spot errors among the many potential requests on your application.  
   
-3.  The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript and TypeScript response payloads by increasing the readability of the content.  
+3. The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript and TypeScript response payloads by increasing the readability of the content.  
   
 ## See Also  
  [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)   

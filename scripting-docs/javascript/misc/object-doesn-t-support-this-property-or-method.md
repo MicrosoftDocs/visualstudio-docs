@@ -20,11 +20,11 @@ You specified a property or method that does not exist for this object. Not all 
   
 ### To correct this error  
   
--   Check the properties and methods to ensure there were no typing errors.  
+- Check the properties and methods to ensure there were no typing errors.  
   
--   Verify that the object's runtime type is the expected object type.  
+- Verify that the object's runtime type is the expected object type.  
   
--   See the object's documentation for more information.  
+- See the object's documentation for more information.  
   
 ## See Also  
  [Object Object](../../javascript/reference/object-object-javascript.md)   

@@ -106,27 +106,27 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
    To help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:  
   
-  -   Values in the **Locals** window. Keep the **Locals** window open to see these values.  
+  - Values in the **Locals** window. Keep the **Locals** window open to see these values.  
   
-  -   Values in the **Autos** window only if the **Autos** window is open  
+  - Values in the **Autos** window only if the **Autos** window is open  
   
-  -   Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.  
+  - Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.  
   
 - **Exceptions**  
   
    IntelliTrace records the exception type and message for these kinds of exceptions:  
   
-  -   Handled exceptions where the exception is thrown and caught  
+  - Handled exceptions where the exception is thrown and caught  
   
-  -   Unhandled exceptions  
+  - Unhandled exceptions  
   
 - **.NET Framework events**  
   
    By default, IntelliTrace records the most common .NET Framework events. For example:  
   
-  -   For a File Access event, IntelliTrace collects the file name.  
+  - For a File Access event, IntelliTrace collects the file name.  
   
-  -   For a Check Checkbox event, IntelliTrace collects the checkbox state and text.  
+  - For a Check Checkbox event, IntelliTrace collects the checkbox state and text.  
   
 - **SharePoint 2010 and SharePoint 2013 application events**  
   
@@ -136,11 +136,11 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
    See:  
   
-  -   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
+  - [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
   
-  -   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
+  - [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
-  -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
+  - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
   
   **Collecting function call information**  
   

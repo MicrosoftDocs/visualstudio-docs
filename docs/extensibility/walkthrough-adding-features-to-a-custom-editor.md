@@ -16,74 +16,74 @@ After you create a custom editor, you can add more features to it.
 
 ## To create an editor for a VSPackage
 
-1.  Create a custom editor by using the Visual Studio Package project template.
+1. Create a custom editor by using the Visual Studio Package project template.
 
      For more information, see [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md).
 
-2.  Decide whether you want your editor to support a single view or multiple views.
+2. Decide whether you want your editor to support a single view or multiple views.
 
      An editor that supports the **New Window** command, or has form view and code view, requires separate document data objects and document view objects. In an editor that supports only a single view, the document data object, and the document view object can be implemented on the same object.
 
      For an example of multiple views, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).
 
-3.  Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
+3. Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
 
      For more information, see [Editor factories](../extensibility/editor-factories.md).
 
-4.  Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
+4. Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
 
      A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](../extensibility/in-place-activation.md).
 
-5.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
+5. Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
 
-6.  Provide document persistence and response to external file changes:
+6. Provide document persistence and response to external file changes:
 
-    1.  To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.
+    1. To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.
 
-    2.  To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.
+    2. To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.
 
         > [!NOTE]
         >  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to get a pointer to `IVsFileChangeEx`.
 
-7.  Coordinate document edit events with source code control. Follow these steps:
+7. Coordinate document edit events with source code control. Follow these steps:
 
-    1.  Get a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.
+    1. Get a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.
 
-    2.  When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method.
+    2. When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method.
 
          This method prompts the user to check out the file if it's not already checked out. Be sure to handle a "file not checked out" condition to avert errors.
 
-    3.  Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> method.
+    3. Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> method.
 
          This method prompts the user to save the file if it hasn't been saved or if it changed since the last save.
 
-8.  Enable the **Properties** window to display properties for text selected in the editor. Follow these steps:
+8. Enable the **Properties** window to display properties for text selected in the editor. Follow these steps:
 
-    1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.
+    1. Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.
 
-    2.  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.
+    2. Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.
 
 9. Enable users to drag and drop items between the editor and the **Toolbox**, or between external editors (like Microsoft Word) and the **Toolbox**. Follow these steps:
 
-    1.  Implement `IDropTarget` on your editor to alert the IDE that your editor is a drop target.
+    1. Implement `IDropTarget` on your editor to alert the IDE that your editor is a drop target.
 
-    2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.
+    2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.
 
-    3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.
+    3. Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.
 
          These steps enable your VSPackage to add new items to the **Toolbox**.
 
 10. Decide whether you want any other optional features for your editor.
 
-    -   If you want your editor to support find and replace commands, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.
+    - If you want your editor to support find and replace commands, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.
 
-    -   If you want to use a document outline tool window in your editor, implement `IVsDocOutlineProvider`.
+    - If you want to use a document outline tool window in your editor, implement `IVsDocOutlineProvider`.
 
-    -   If you want to use a status bar in your editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to get a pointer to `IVsStatusBar`.
+    - If you want to use a status bar in your editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to get a pointer to `IVsStatusBar`.
 
          For example, an editor can display line / column information, selection mode (stream / box), and insertion mode (insert / overstrike).
 
-    -   If you want your editor to support the `Undo` command, the recommended method is to use the OLE undo manager model. As an alternative, you can have the editor handle the `Undo` command directly.
+    - If you want your editor to support the `Undo` command, the recommended method is to use the OLE undo manager model. As an alternative, you can have the editor handle the `Undo` command directly.
 
 11. Create registry Information, including the GUIDs for the VSPackage, the menus, the editor, and other features.
 
@@ -142,9 +142,9 @@ After you create a custom editor, you can add more features to it.
 
 - There are two places a custom editor can expose automation objects:
 
-  -   `Document.Object`
+  - `Document.Object`
 
-  -   `Window.Object`
+  - `Window.Object`
 
 ## See also
 - [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)

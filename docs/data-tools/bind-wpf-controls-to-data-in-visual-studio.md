@@ -55,9 +55,9 @@ The following table lists the [!INCLUDE[TLA#tla_titlexaml](../data-tools/include
 
 When you drag a table or column from the **Data Sources** window to the designer, Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 
--   Adds the dataset and a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the dataset.
+- Adds the dataset and a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the dataset.
 
--   Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
+- Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
 
 Visual Studio also makes the following changes to the code-behind file:
 
@@ -96,9 +96,9 @@ When you drag an object or property from the **Data Sources** window to the desi
 
 Visual Studio generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 
--   Adds a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container that you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the object.
+- Adds a new <xref:System.Windows.Data.CollectionViewSource> to the resources of the container that you dragged the item to. The <xref:System.Windows.Data.CollectionViewSource> is an object that can be used to navigate and display the data in the object.
 
--   Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
+- Creates a data binding for a control. If you drag the item to an existing control in the designer, the XAML binds the control to the item. If you drag the item to a container, the XAML creates the control that was selected for the dragged item, and it binds the control to the item. The control is created inside a new <xref:System.Windows.Controls.Grid>.
 
 ## See also
 

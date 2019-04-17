@@ -35,9 +35,9 @@ manager: "wpickett"
 ## How to Fix Violations  
  Use cryptographically stronger options:  
   
--   For TripleDES encryption, use <xref:System.Security.Cryptography.Aes> encryption.  
+- For TripleDES encryption, use <xref:System.Security.Cryptography.Aes> encryption.  
   
--   For SHA1 or RIPEMD160 hashing functions, use ones in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
+- For SHA1 or RIPEMD160 hashing functions, use ones in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
   
 ## When to Suppress Warnings  
  Suppress a warning from this rule when the level of protection needed for the data does not require a security guarantee.  

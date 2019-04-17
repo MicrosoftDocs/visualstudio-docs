@@ -55,7 +55,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
 > [!NOTE]
 > - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
->   -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
+>   - Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
   
@@ -76,23 +76,23 @@ if (performance && performance.mark) {
   
 > [!TIP]
 > - We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
->   -   Profile on the target device while it is powered by its batteries.  
->   -   Close other apps that might use the same resources (network, CPU, or display).  
+>   - Profile on the target device while it is powered by its batteries.  
+>   - Close other apps that might use the same resources (network, CPU, or display).  
   
 ##  <a name="BKMK_Collect_energy_profile_data_for_your_app"></a> Collect energy profile data for your app  
   
-1.  On the **Debug** menu, choose **Start Diagnostics Without Debugging**.  
+1. On the **Debug** menu, choose **Start Diagnostics Without Debugging**.  
   
      ![Choose Energy Consumption in the diagnostics hub](../profiling/media/energyprof-diagnosticshub.png "ENERGYPROF_DiagnosticsHub")  
   
-2.  Choose **Energy Consumption** and then choose **Start**.  
+2. Choose **Energy Consumption** and then choose **Start**.  
   
     > [!NOTE]
     >  When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
   
-3.  Exercise your app to collect data.  
+3. Exercise your app to collect data.  
   
-4.  To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
+4. To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
   
      ![Stop collecting data](../profiling/media/xamlprof-stopcollection.png "XAMLProf_StopCollection")  
   
@@ -142,8 +142,8 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+- The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
--   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
+- The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).

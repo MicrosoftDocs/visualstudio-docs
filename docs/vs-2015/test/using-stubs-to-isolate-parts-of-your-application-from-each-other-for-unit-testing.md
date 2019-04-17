@@ -26,7 +26,7 @@ Stub types* are one of two technologies that the Microsoft Fakes framework provi
   
  **Requirements**  
   
--   Visual Studio Enterprise
+- Visual Studio Enterprise
   
 ##  <a name="How"></a> How to use stubs  
   
@@ -147,13 +147,13 @@ analyzer = new StockAnalyzer(new StockFeed())
   
 ##### Adding a Fakes Assembly  
   
-1.  In Solution Explorer, expand your unit test project’s **References**.  
+1. In Solution Explorer, expand your unit test project’s **References**.  
   
-    -   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.  
+    - If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.  
   
-2.  Select the assembly that contains the interface definitions for which you want to create stubs.  
+2. Select the assembly that contains the interface definitions for which you want to create stubs.  
   
-3.  On the shortcut menu, choose **Add Fakes Assembly**.  
+3. On the shortcut menu, choose **Add Fakes Assembly**.  
   
 ###  <a name="WriteTest"></a> Write your test with stubs  
   
@@ -437,9 +437,9 @@ Assert.AreEqual(43,stub.DoVirtual(1));
   
 ##  <a name="BKMK_Stub_limitation"></a> Stub limitations  
   
-1.  Method signatures with pointers aren’t supported.  
+1. Method signatures with pointers aren’t supported.  
   
-2.  Sealed classes or static methods can’t be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
+2. Sealed classes or static methods can’t be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
   
 ##  <a name="BKMK_Changing_the_default_behavior_of_stubs"></a> Changing the default behavior of stubs  
  Each generated stub type holds an instance of the `IStubBehavior` interface (through the `IStub.InstanceBehavior` property). The behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it will use the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.  

@@ -27,25 +27,25 @@ To enable build tasks on your development computer, install [Modeling SDK for Vi
 
 If [your build server](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for ‘*’.
 
--   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
+- $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    -   Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    -   Microsoft.TextTemplating.Build.Tasks.dll
+    - Microsoft.TextTemplating.Build.Tasks.dll
 
-    -   Microsoft.TextTemplating.targets
+    - Microsoft.TextTemplating.targets
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
+- $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    -   Microsoft.VisualStudio.TextTemplating.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
+    - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
 
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
+- $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## To edit the project file
 
@@ -84,7 +84,7 @@ After that line, insert the Text Templating import:
 
 There are some properties that you can insert into your project file to control the transformation task:
 
--   Run the Transform task at the start of every build:
+- Run the Transform task at the start of every build:
 
     ```xml
     <PropertyGroup>
@@ -92,7 +92,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Overwrite files that are read-only, for example because they are not checked out:
+- Overwrite files that are read-only, for example because they are not checked out:
 
     ```xml
     <PropertyGroup>
@@ -100,7 +100,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Transform every template every time:
+- Transform every template every time:
 
     ```xml
     <PropertyGroup>
@@ -265,13 +265,13 @@ If you update an included file, or another file read by the template, Visual Stu
 
 **What other options are there for transforming text templates?**
 
--   The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it’s easier to use MSBuild.
+- The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it’s easier to use MSBuild.
 
--   [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
+- [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
 
--   [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
+- [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
 
--   [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
+- [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
 
 ## Read more
 

@@ -38,11 +38,11 @@ ms.workload:
 
  For more information, see the following topics:
 
--   [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 
--   [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
+- [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 
--   [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
+- [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 
 ## Customize the user interface of Excel
  Most Microsoft Office solutions modify the user interface (UI) of the Office application to provide some way for users to interact with the solution. There are many ways in which you can modify the UI of Excel by using a document-level customization. For example, you can add controls to the ribbon, or you can display an actions pane. For more information, see [Office UI customization](../vsto/office-ui-customization.md).

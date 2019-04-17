@@ -14,13 +14,13 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
 
  This walkthrough demonstrates how to:
 
--   Use the **Graphics Event List** to locate potential sources of the problem.
+- Use the **Graphics Event List** to locate potential sources of the problem.
 
--   Use the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.
+- Use the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.
 
--   Use the **Graphics Pixel History** window to locate the problem more specifically.
+- Use the **Graphics Pixel History** window to locate the problem more specifically.
 
--   Inspect the device state for potential problems or misconfigurations.
+- Inspect the device state for potential problems or misconfigurations.
 
 ## Scenario
  One of the reasons that objects might not appear where they are expected in a 3-D app is a misconfiguration of the graphics device that causes the objects to be excluded from rendering—for example, when the winding order causes triangles to be culled in error, or when the depth test function causes all pixels in the object to be rejected.

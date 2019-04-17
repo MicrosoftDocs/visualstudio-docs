@@ -36,35 +36,35 @@ ms.workload:
 ## Events
  The following events are available for the <xref:Microsoft.Office.Tools.Excel.Chart> control:
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
 
--   <xref:System.ComponentModel.Component.Disposed>
+- <xref:System.ComponentModel.Component.Disposed>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
 
 ## See also
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

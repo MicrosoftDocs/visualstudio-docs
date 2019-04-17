@@ -40,11 +40,11 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 #### To change the size of text in text-based tool windows and editors
 
-1.  From the **Tools** menu, choose **Options**.
+1. From the **Tools** menu, choose **Options**.
 
-2.  Choose **Fonts and Colors** on the **Environment** folder.
+2. Choose **Fonts and Colors** on the **Environment** folder.
 
-3.  Select an option on the **Show settings for** drop-down menu.
+3. Select an option on the **Show settings for** drop-down menu.
 
      To change the font size for text in an editor, choose **Text Editor**.
 
@@ -54,16 +54,16 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
      To change the font size for text in statement completion pop-ups, choose **Statement Completion**.
 
-4.  From **Display items**, select **Plain Text**.
+4. From **Display items**, select **Plain Text**.
 
-5.  In **Font**, select a new font type.
+5. In **Font**, select a new font type.
 
-6.  In **Size**, select a new font size.
+6. In **Size**, select a new font size.
 
     > [!NOTE]
     > To reset the text size for text-based tool windows and editors, choose **Use Defaults**.
 
-7.  Choose **OK**.
+7. Choose **OK**.
 
 ### Change the colors that are used in the IDE
 
@@ -74,17 +74,17 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 #### To change the color of items in the editor
 
-1.  From the **Tools** menu, choose **Options**.
+1. From the **Tools** menu, choose **Options**.
 
-2.  In the **Environment** folder, choose **Fonts and Colors**.
+2. In the **Environment** folder, choose **Fonts and Colors**.
 
-3.  In **Show settings for**, choose **Text Editor**.
+3. In **Show settings for**, choose **Text Editor**.
 
-4.  From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
+4. From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
 
-5.  Select display settings from the following options: **Item foreground**, **Item background**, and **Bold**.
+5. Select display settings from the following options: **Item foreground**, **Item background**, and **Bold**.
 
-6.  Choose **OK**.
+6. Choose **OK**.
 
 ## Toolbars
 
@@ -92,23 +92,23 @@ In addition, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] suppor
 
 ### To assign text to toolbar buttons
 
-1.  From the **Tools** menu, choose **Customize**.
+1. From the **Tools** menu, choose **Customize**.
 
-2.  In the **Customize** dialog box, select the **Commands** tab.
+2. In the **Customize** dialog box, select the **Commands** tab.
 
-3.  Select **Toolbar** and then choose the toolbar name that contains the button you intend to display text for.
+3. Select **Toolbar** and then choose the toolbar name that contains the button you intend to display text for.
 
-4.  In the list, select the command you intend to change.
+4. In the list, select the command you intend to change.
 
-5.  Choose **Modify Selection**.
+5. Choose **Modify Selection**.
 
-6.  Choose **Image and Text**.
+6. Choose **Image and Text**.
 
 ### To modify the displayed text in a button
 
-1.  Re-select **Modify Selection**.
+1. Re-select **Modify Selection**.
 
-2.  Adjacent to In **Name**, insert provide a new caption for the selected button.
+2. Adjacent to In **Name**, insert provide a new caption for the selected button.
 
 ## See also
 

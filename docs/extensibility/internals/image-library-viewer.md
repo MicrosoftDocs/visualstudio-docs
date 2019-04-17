@@ -218,9 +218,9 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 
 ## Notes
 
--   By default, the tool will pull in several image manifests present in the Visual Studio install directory. The only one that has publicly consumable monikers is the **Microsoft.VisualStudio.ImageCatalog** manifest. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (do **not** override this GUID in a custom manifest) Type: KnownMonikers
+- By default, the tool will pull in several image manifests present in the Visual Studio install directory. The only one that has publicly consumable monikers is the **Microsoft.VisualStudio.ImageCatalog** manifest. GUID: ae27a6b0-e345-4288-96df-5eaf394ee369 (do **not** override this GUID in a custom manifest) Type: KnownMonikers
 
--   The tool attempts on launch to load all image manifests it finds, so it might take several seconds for the application to actually appear. It might also be slow or nonresponsive while loading the manifests.
+- The tool attempts on launch to load all image manifests it finds, so it might take several seconds for the application to actually appear. It might also be slow or nonresponsive while loading the manifests.
 
 ## Sample Output
  This tool does not generate any output.

@@ -33,12 +33,12 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 
 ## Uninstall Visual Studio and all other related files (that is, to uninstall almost everything)
 
-1.  Locate the Visual Studio .exe file (for example, locate "vs_enterprise.exe").
+1. Locate the Visual Studio .exe file (for example, locate "vs_enterprise.exe").
 
     > [!NOTE]
     > The file should be in a subfolder of "%ProgramData%\Package Cache", for example: C:\ProgramData\Package Cache\\{37e19555-e88d-4aed-9d42-82d0784d2b79}\vs_enterprise.exe
 
-2.  Run the .exe file by using the /uninstall /force command-line parameters.
+2. Run the .exe file by using the /uninstall /force command-line parameters.
 
      For example, run ```vs_enterprise.exe /uninstall /force```, which will remove Visual Studio and most of the core components that are left behind in a default uninstallation. However, it will not remove all of the additional content that Visual Studio add-ons and extensions can install (for example, Visual Studio updates, and other optional components).
 
@@ -47,9 +47,9 @@ This page walks you through uninstalling Visual Studio 2015, an earlier version 
 
 ## Uninstall Visual Studio in silent or passive modes (that is, to uninstall from source)
 
-1.  On the computer where Visual Studio is installed, open the Windows command prompt.
+1. On the computer where Visual Studio is installed, open the Windows command prompt.
 
-2.  Enter the following parameters:
+2. Enter the following parameters:
 
      *DVDRoot* \\<Installation File\> \</quiet&#124;/passive> [/norestart]/uninstall
 

@@ -21,7 +21,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 
 **Requirements**
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
 ## Supported configurations
 

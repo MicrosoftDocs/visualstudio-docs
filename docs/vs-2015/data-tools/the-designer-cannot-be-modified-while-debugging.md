@@ -17,7 +17,7 @@ This message appears when an attempt is made to modify items on the O/R Designer
   
 ### To correct this error  
   
--   Click **Stop Debugging** on the **Debug** menu.  
+- Click **Stop Debugging** on the **Debug** menu.  
   
      The application stops debugging, and items in the O/R Designer can be modified.  
   

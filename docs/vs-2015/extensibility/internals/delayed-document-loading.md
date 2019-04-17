@@ -23,17 +23,17 @@ When a user reopens a Visual Studio solution, most of the associated documents a
   
 - The window frame GetProperty method <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> on any of the following properties:  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
   If your extension uses managed code, you should not call <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.GetDocumentInfo%2A> unless you are certain that the document is not in the pending-initialization state, or you want the document to be fully initialized.. This is because this method always returns the doc data object, creating it if necessary. Instead, you should call one of the methods on the IVsRunningDocumentTable4 interface.  
   

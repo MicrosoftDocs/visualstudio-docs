@@ -28,16 +28,16 @@ The **Type Collection Editor** dialog box is used to add known types to the **Se
   
 #### To bring up the Type Collection Editor for the Send and Receive activities  
   
-1.  Select the **Send** or **Receive** activity in the design view.  
+1. Select the **Send** or **Receive** activity in the design view.  
   
-2.  Press **F4** to bring up the **Properties** window.  
+2. Press **F4** to bring up the **Properties** window.  
   
-3.  In the **Properties** window, click the ellipsis button next to the **KnownTypes** property.  
+3. In the **Properties** window, click the ellipsis button next to the **KnownTypes** property.  
   
 #### To bring up the Type Collection Editor for the InvokeMethod activity  
   
-1.  Select the **InvokeMethod** activity in the design view.  
+1. Select the **InvokeMethod** activity in the design view.  
   
-2.  Press **F4** to bring up the **Properties** window.  
+2. Press **F4** to bring up the **Properties** window.  
   
-3.  In the **Properties** window, click the ellipsis button next to the **GenericTypeArguments** property.
+3. In the **Properties** window, click the ellipsis button next to the **GenericTypeArguments** property.

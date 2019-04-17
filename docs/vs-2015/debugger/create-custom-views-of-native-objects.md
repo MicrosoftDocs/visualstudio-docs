@@ -28,8 +28,8 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 >  You cannot use the Natvis framework for visualizations when:  
 > 
 > - You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
->   -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
->   -   You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
+>   - You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
+>   - You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
 
 ##  <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
  You can use the Natvis framework to create visualization rules for the types you create so developers can see them easily during debugging.  
@@ -81,13 +81,13 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The order in which .natvis files are evaluated is as follows:  
 
-1.  .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
+1. .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
 
-2.  .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
+2. .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
 
-3.  The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
+3. The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
 
-4.  The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
+4. The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
 
 ## Modifying .natvis files while debugging  
  You can modify a .natvis file in the IDE while debugging the project in which it is included. Open the file in the IDE (using the same instance of Visual Studio that you are debugging with), modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows should be updated to reflect the change. If you modify the .natvis file outside the IDE, the changes do not take effect automatically. To update the windows, you can evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debug session.  
@@ -337,9 +337,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The `Expand` node is optional.  
 
--   If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
+- If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
 
--   If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
+- If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
 
 ####  <a name="BKMK_Item_expansion"></a> Item expansion  
  The `Item` element is the most basic and the most common element to be used in an `Expand` node. `Item` defines a single child element. For example, suppose that you have a `CRect` class with `top`, `left`, `right`, and `bottom` as its fields and the following visualization entry:  
@@ -462,9 +462,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The `Size` element refers to the length of the list. `HeadPointer` points to the first element, `NextPointer` refers to the next element, and `ValueNode` refers to the value of the item.  
 
--   The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
+- The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
 
--   The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
+- The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
 
 #### CustomListItems expansion  
  The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. You should use `CustomListItems` to visualize data structures in which everything you need to evaluate is expressible via C++ expressions, but don’t quite fit the mold for `ArrayItems`, `TreeItems`, or `LinkedListItems.`  

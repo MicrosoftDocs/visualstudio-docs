@@ -20,7 +20,7 @@ You attempted to pass an invalid argument to the function **Number.prototype.toP
   
 ### To correct this error  
   
--   Ensure the argument to `toPrecision` is not too large or too small.  
+- Ensure the argument to `toPrecision` is not too large or too small.  
   
 ## See Also  
  [toPrecision Method (Number)](../../javascript/reference/toprecision-method-number-javascript.md)

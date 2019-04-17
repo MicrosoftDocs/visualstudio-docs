@@ -38,15 +38,15 @@ This topic describes how to configure the firewall to enable remote debugging on
 ## To Configure Windows Firewall on the Visual Studio Computer  
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 7 or Windows Server 2008, the word **program** is used; on Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used.  In the following steps we will use the word **app**.  
   
-1.  Open the Windows Firewall page. (In the **Start** menu search box, type **Windows Firewall**).  
+1. Open the Windows Firewall page. (In the **Start** menu search box, type **Windows Firewall**).  
   
-2.  Click **Allow an app or feature through Windows Firewall**.  
+2. Click **Allow an app or feature through Windows Firewall**.  
   
-3.  In the **Allowed apps and features** list, look for **Visual Studio Remote Debugger Discovery**. If it is listed, make sure that it is selected, and that one or more network types are also selected.  
+3. In the **Allowed apps and features** list, look for **Visual Studio Remote Debugger Discovery**. If it is listed, make sure that it is selected, and that one or more network types are also selected.  
   
-4.  If **Visual Studio Remote Debugger Discovery** is not listed, click **Allow another app**. If you still don’t see it in the **Add an app** window, click **Browse** and navigate to **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger**. Find the appropriate folder for the application (x86, x64, Appx) and then select **msvsmon.exe**. Then click **Add**.  
+4. If **Visual Studio Remote Debugger Discovery** is not listed, click **Allow another app**. If you still don’t see it in the **Add an app** window, click **Browse** and navigate to **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger**. Find the appropriate folder for the application (x86, x64, Appx) and then select **msvsmon.exe**. Then click **Add**.  
   
-5.  In the **Allowed apps and features** list, select **Visual Studio Remote Debugging Monitor**. Check one or more network types (**Domain, Home/Work (Private), Public**) that you want the remote debugging monitor to communicate with. The types must include the network to which the Visual Studio computer is connected.  
+5. In the **Allowed apps and features** list, select **Visual Studio Remote Debugging Monitor**. Check one or more network types (**Domain, Home/Work (Private), Public**) that you want the remote debugging monitor to communicate with. The types must include the network to which the Visual Studio computer is connected.  
   
 ## To open a port on the Visual Studio computer to enable discovery  
  You must allow UDP port 3702 incoming to allow discovery of the computer(s) running the remote debugger. To add it, see How to Configure Ports in a Firewall.  
@@ -58,15 +58,15 @@ This topic describes how to configure the firewall to enable remote debugging on
   
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 7 or Windows Server 2008, the word **program** is used; on Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used.  In the following steps we will use the word **app**.  
   
-1.  Open the Windows Firewall page. (On the **Start** menu search box, type **Windows Firewall**.)  
+1. Open the Windows Firewall page. (On the **Start** menu search box, type **Windows Firewall**.)  
   
-2.  Click **Allow an app or feature through Windows Firewall**.  
+2. Click **Allow an app or feature through Windows Firewall**.  
   
-3.  In the **Allowed apps and features** list, look for **Visual Studio Remote Debugging Monitor**. If it is listed, make sure that it is selected, and that one or more network types are also selected.  
+3. In the **Allowed apps and features** list, look for **Visual Studio Remote Debugging Monitor**. If it is listed, make sure that it is selected, and that one or more network types are also selected.  
   
-4.  If **Visual Studio Remote Debugging Monitor** is not listed, click **Allow another app**. If you still don’t see it in the **Add an app window**, click **Browse** and navigate to **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger**. Find the appropriate folder for the application (x86, x64, Appx) and then select **msvsmon.exe**. Then click **Add**.  
+4. If **Visual Studio Remote Debugging Monitor** is not listed, click **Allow another app**. If you still don’t see it in the **Add an app window**, click **Browse** and navigate to **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger**. Find the appropriate folder for the application (x86, x64, Appx) and then select **msvsmon.exe**. Then click **Add**.  
   
-5.  In the **Allowed apps** list, select **Visual Studio Remote Debugging Monitor**. Check one or more network types (**Domain, Home/Work (Private), Public**) that you want the remote debugging monitor to communicate with. The types must include the network to which the Visual Studio computer is connected.  
+5. In the **Allowed apps** list, select **Visual Studio Remote Debugging Monitor**. Check one or more network types (**Domain, Home/Work (Private), Public**) that you want the remote debugging monitor to communicate with. The types must include the network to which the Visual Studio computer is connected.  
   
 ## Ports on the remote computer that enable remote debugging  
   
@@ -89,21 +89,21 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 ## How to Configure Ports in Windows Firewall  
   
-1.  On the **Start** menu, search for **Windows Firewall with Advanced Security**.  
+1. On the **Start** menu, search for **Windows Firewall with Advanced Security**.  
   
-2.  Click **Inbound Rules** or **Outbound Rules** and then click **New Rule** in the **Actions** list.  
+2. Click **Inbound Rules** or **Outbound Rules** and then click **New Rule** in the **Actions** list.  
   
-3.  On the **Rule Type** page, select **Port** and then click **Next**.  
+3. On the **Rule Type** page, select **Port** and then click **Next**.  
   
-4.  On the **Protocol and Ports** page, select the port protocol (TCP or UDP). Select **Specific local ports** and enter one or more port numbers that you want to enable for the protocol. Separate numbers with commas. Then click **Next**.  
+4. On the **Protocol and Ports** page, select the port protocol (TCP or UDP). Select **Specific local ports** and enter one or more port numbers that you want to enable for the protocol. Separate numbers with commas. Then click **Next**.  
   
-5.  On the **Action** page, select **Allow the connection** and then click **Next**.  
+5. On the **Action** page, select **Allow the connection** and then click **Next**.  
   
-6.  On the **Profile** page, select one or more network types to enable for the port. The type you select must include the network to which the remote computer is connected. Then click **Next**.  
+6. On the **Profile** page, select one or more network types to enable for the port. The type you select must include the network to which the remote computer is connected. Then click **Next**.  
   
-7.  On the **Name** page, type a name for the rule, and then click **Finish**.  
+7. On the **Name** page, type a name for the rule, and then click **Finish**.  
   
-8.  You should see your new rule in the **Inbound Rules** or **Outbound Rules** list.  
+8. You should see your new rule in the **Inbound Rules** or **Outbound Rules** list.  
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)

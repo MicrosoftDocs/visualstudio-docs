@@ -76,19 +76,19 @@ You can view the profiling data of a performance session in the **Performance Re
 ## Customizable Filter Control  
  The customizable filter control has the following options:  
   
--   **Import Filter** - retrieves a previously saved custom query.  
+- **Import Filter** - retrieves a previously saved custom query.  
   
--   **Export Filter** - saves the custom query to the specified location.  
+- **Export Filter** - saves the custom query to the specified location.  
   
--   **Execute Query** - runs the query as displayed in the custom query control.  
+- **Execute Query** - runs the query as displayed in the custom query control.  
   
--   **Stop Query** - stops execution of a query that is running. This button is not available if no query is running.  
+- **Stop Query** - stops execution of a query that is running. This button is not available if no query is running.  
   
--   **Show Query** - shows/hides the custom query control.  
+- **Show Query** - shows/hides the custom query control.  
   
--   **Save Analyzed** - saves the report together with its current analysis as a .vsps file.  
+- **Save Analyzed** - saves the report together with its current analysis as a .vsps file.  
   
--   **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
+- **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   

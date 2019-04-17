@@ -38,7 +38,7 @@ To set up a Git repository, execute the following steps:
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
 
-1.  Select the Solution name from the Solution Pad in Visual Studio for Mac.
+1. Select the Solution name from the Solution Pad in Visual Studio for Mac.
 
 2. In the Menu bar, select **Version Control > Publish in Version Control** to display the **Select Repository** dialog:
 

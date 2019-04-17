@@ -27,11 +27,11 @@ ms.workload:
 
  In this topic:
 
--   [Create add-ins for Office and SharePoint](#Apps)
+- [Create add-ins for Office and SharePoint](#Apps)
 
--   [Create a VSTO Add-in](#Add-ins)
+- [Create a VSTO Add-in](#Add-ins)
 
--   [Create a SharePoint solution](#Solutions)
+- [Create a SharePoint solution](#Solutions)
 
 ##  <a name="Apps"></a> Create add-ins for Office and SharePoint
  Office 2013 and SharePoint 2013 introduce a new add-in model that helps you build, distribute, and monetize add-ins that extend Office and SharePoint.  These add-ins can run in Office or SharePoint Online, and users can interact with them from many devices.

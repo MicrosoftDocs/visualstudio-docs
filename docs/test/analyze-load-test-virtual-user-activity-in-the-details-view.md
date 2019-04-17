@@ -39,11 +39,11 @@ The **Details** view displays the **Virtual User Activity Chart**, which is used
 
  The Filter results panel is visible in the **Virtual User Activity Chart**. The Filter results panel can filter on the following:
 
--   **Show only results with logs** Displays only test results that have test logs associated with them.
+- **Show only results with logs** Displays only test results that have test logs associated with them.
 
--   **Show successful results** Displays successful results.
+- **Show successful results** Displays successful results.
 
--   **Show results with errors** Displays results with errors that can help in debugging.
+- **Show results with errors** Displays results with errors that can help in debugging.
 
 ## Tasks
 

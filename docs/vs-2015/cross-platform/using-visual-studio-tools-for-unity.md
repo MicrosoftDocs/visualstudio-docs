@@ -23,7 +23,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 ##### To access Unity documentation  
   
--   In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl+Alt+M, Ctrl+H**  
+- In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl+Alt+M, Ctrl+H**  
   
 ### Unity MonoBehavior scripting wizard  
  In Unity, most scripts are implemented by deriving from the MonoBehavior class and overriding some of its methods. You can use the MonoBehavior wizard to quickly create empty definitions of the MonoBehavior methods you want to overload. Using this wizard, you can specify one or more methods that you want to overload from the list of available methods, choose where they will be inserted into your code, and decide whether to include comments about how they are used.  
@@ -53,13 +53,13 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 ###### To create an empty MonoBehavior method definition by using the Quick MonoBehavior wizard  
   
-1.  In Visual Studio, position the cursor where you want the method to be inserted, then press **Ctrl+Shift+Q** to launch the Quick MonoBehavior wizard. Unlike the other MonoBehavior wizard, you must position the cursor intentionally when using this wizard because the new method is always inserted there.  
+1. In Visual Studio, position the cursor where you want the method to be inserted, then press **Ctrl+Shift+Q** to launch the Quick MonoBehavior wizard. Unlike the other MonoBehavior wizard, you must position the cursor intentionally when using this wizard because the new method is always inserted there.  
   
-2.  Ensure that the framework version displayed in the upper right-hand corner of the **Create script method** window matches the version you're using. If it doesn't match, change the value of the dropdown to the version you want to use.  
+2. Ensure that the framework version displayed in the upper right-hand corner of the **Create script method** window matches the version you're using. If it doesn't match, change the value of the dropdown to the version you want to use.  
   
-3.  Find the method that you want to overload. In the Create script method window, begin typing the name of the method in the textbox. A list of the methods whose names match what you've entered will appear.  
+3. Find the method that you want to overload. In the Create script method window, begin typing the name of the method in the textbox. A list of the methods whose names match what you've entered will appear.  
   
-4.  Choose the method you want to overload. When the method you want is displayed in the list, select it with the mouse or arrow keys, then press **Enter**. If it’s the only method in the list, you can just press **Enter**. The method is inserted into your code.  
+4. Choose the method you want to overload. When the method you want is displayed in the list, select it with the mouse or arrow keys, then press **Enter**. If it’s the only method in the list, you can just press **Enter**. The method is inserted into your code.  
   
 ### Unity Project Explorer  
  You can use the Unity Project Explorer to navigate your Unity project inside Visual Studio.  
@@ -102,11 +102,11 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 ##### To open the Select Unity Instance dialog  
   
--   In Visual Studio, on the main menu, choose **Debug**, **Attach Unity Debugger**.  
+- In Visual Studio, on the main menu, choose **Debug**, **Attach Unity Debugger**.  
   
      ![Attach the debugger of Unity.](../cross-platform/media/vstu-debugging-attach-unity-debugger.png "vstu_debugging_attach_unity_debugger")  
   
--   *Or*, in Visual Studio, on the status bar, choose the plug icon in the lower right-hand corner of Visual Studio.  
+- *Or*, in Visual Studio, on the status bar, choose the plug icon in the lower right-hand corner of Visual Studio.  
   
      ![This icon shows VSTU is connected to Unity.](../cross-platform/media/vstu-connection-connected.png "vstu_connection_connected")  
   

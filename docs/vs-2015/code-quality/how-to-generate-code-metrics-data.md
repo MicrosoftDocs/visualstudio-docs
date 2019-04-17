@@ -25,15 +25,15 @@ You can decide to generate code metrics results for either an entire solution or
   
 ### To generate code metrics results for an entire solution  
   
--   Click **Analyze menu**, and then click **CalculateCode Metrics for Solution**.  
+- Click **Analyze menu**, and then click **CalculateCode Metrics for Solution**.  
   
      \- or -  
   
--   In **Solution Explorer**, right-click the solution and then click **CalculateCode Metrics**.  
+- In **Solution Explorer**, right-click the solution and then click **CalculateCode Metrics**.  
   
      \- or -  
   
--   In the **Code Metrics Results** window, click the **CalculateCode Metrics for Solution** button.  
+- In the **Code Metrics Results** window, click the **CalculateCode Metrics for Solution** button.  
   
      The results are generated and the **Code Metrics Results** window is displayed.  
   
@@ -51,7 +51,7 @@ You can decide to generate code metrics results for either an entire solution or
   
 ### To view the results details  
   
--   Expand the tree in the **Hierarchy** column.  
+- Expand the tree in the **Hierarchy** column.  
   
 ## See Also  
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

@@ -18,7 +18,7 @@ When you create a Coded UI Test in a coded UI test project, several files are ad
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## Contents of a Coded UI Test  
  When you create a Coded UI Test, the **Coded UI Test Builder** creates a map of the user interface under test, and also the test methods, parameters, and assertions for all tests. It also creates a class file for each test.  

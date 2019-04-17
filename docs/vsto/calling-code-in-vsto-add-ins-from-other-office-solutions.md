@@ -25,29 +25,29 @@ ms.workload:
 
  There are two main steps in this process:
 
--   In your VSTO Add-in, expose an object to other solutions.
+- In your VSTO Add-in, expose an object to other solutions.
 
--   In another solution, access the object exposed by your VSTO Add-in, and call members of the object.
+- In another solution, access the object exposed by your VSTO Add-in, and call members of the object.
 
 ## Types of solutions that can call code in an add-in
  You can expose an object in a VSTO Add-in to the following types of solutions:
 
--   Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.
+- Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.
 
--   Document-level customizations that are loaded in the same application process as your VSTO Add-in.
+- Document-level customizations that are loaded in the same application process as your VSTO Add-in.
 
--   Other VSTO Add-ins created by using the Office project templates in Visual Studio.
+- Other VSTO Add-ins created by using the Office project templates in Visual Studio.
 
--   COM VSTO Add-ins (that is, VSTO Add-ins that implement the <xref:Extensibility.IDTExtensibility2> interface directly).
+- COM VSTO Add-ins (that is, VSTO Add-ins that implement the <xref:Extensibility.IDTExtensibility2> interface directly).
 
--   Any solution that is running in a different process than your VSTO Add-in (these types of solutions are also named *out-of-process clients*). These include applications that automate an Office application, such as a Windows Forms or console application, and VSTO Add-ins that are loaded in a different process.
+- Any solution that is running in a different process than your VSTO Add-in (these types of solutions are also named *out-of-process clients*). These include applications that automate an Office application, such as a Windows Forms or console application, and VSTO Add-ins that are loaded in a different process.
 
 ## Expose objects to other solutions
  To expose an object in your VSTO Add-in to other solutions, perform the following steps in your VSTO Add-in:
 
-1.  Define a class that you want to expose to other solutions.
+1. Define a class that you want to expose to other solutions.
 
-2.  Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in the `ThisAddIn` class. Return an instance of the class that you want to expose to other solutions.
+2. Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in the `ThisAddIn` class. Return an instance of the class that you want to expose to other solutions.
 
 ### Define the class you want to expose to other solutions
  At a minimum, the class you want to expose must be public, it must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**, and it must expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface.
@@ -64,9 +64,9 @@ ms.workload:
 
 5. If you want to expose this class to out-of-process clients, you might also need to do the following:
 
-   -   Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).
+   - Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).
 
-   -   Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.
+   - Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.
 
    The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 

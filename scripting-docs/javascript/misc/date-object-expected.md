@@ -26,7 +26,7 @@ o.f();
   
 ### To correct this error  
   
--   Only invoke the **Date.prototype.toString** or **Date.prototype.valueOf** methods on objects of type `Date`.  
+- Only invoke the **Date.prototype.toString** or **Date.prototype.valueOf** methods on objects of type `Date`.  
   
 ## See Also  
  [Date Object](../../javascript/reference/date-object-javascript.md)   

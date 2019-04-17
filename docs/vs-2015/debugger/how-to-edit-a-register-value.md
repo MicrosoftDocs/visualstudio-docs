@@ -31,9 +31,9 @@ The Registers window is available only if address-level debugging is enabled in 
   
 ### To change the value of a register  
   
-1.  In the **Registers** window, use the TAB key or the mouse to move the insertion point to the value you want to change. When you start to type, the cursor must be located in front of the value you want to overwrite.  
+1. In the **Registers** window, use the TAB key or the mouse to move the insertion point to the value you want to change. When you start to type, the cursor must be located in front of the value you want to overwrite.  
   
-2.  Type the new value.  
+2. Type the new value.  
   
     > [!CAUTION]
     >  Changing register values (especially in the EIP and EBP registers) can affect program execution.  

@@ -19,17 +19,17 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  **In this topic:**  
   
--   [Draw a shape](#Shape)  
+- [Draw a shape](#Shape)  
   
--   [Draw a path](#Path)  
+- [Draw a path](#Path)  
   
--   [Convert a shape to a path](#Convert)  
+- [Convert a shape to a path](#Convert)  
   
--   [Combine paths](#Combine)  
+- [Combine paths](#Combine)  
   
--   [Create a compound path](#Compound)  
+- [Create a compound path](#Compound)  
   
--   [Create a clipping path](#Clipping)  
+- [Create a clipping path](#Clipping)  
   
 ##  <a name="Shape"></a> Draw a shape  
  You can find shapes in the **Assets** panel.  

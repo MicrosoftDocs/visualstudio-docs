@@ -40,9 +40,9 @@ Because Spy++ runs independently, after you start it you can close Visual Studio
 
 ## Start Spy++ at a command prompt
 
-1.  In a Command Prompt window, change directories to the folder that contains spyxx.exe. Typically, the path to this folder is ..\\*Visual Studio installation folder*\Common7\Tools\\.
+1. In a Command Prompt window, change directories to the folder that contains spyxx.exe. Typically, the path to this folder is ..\\*Visual Studio installation folder*\Common7\Tools\\.
 
-2.  Enter **spyxx.exe**.
+2. Enter **spyxx.exe**.
 
 ## See also
 - [Using Spy++](../debugger/using-spy-increment.md)

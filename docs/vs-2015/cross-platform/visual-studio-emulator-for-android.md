@@ -20,19 +20,19 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
   
  This topic contains the following sections.  
   
--   [Installing and uninstalling](#Installing)  
+- [Installing and uninstalling](#Installing)  
   
--   [System Requirements and backward compatibility](#Requirements)  
+- [System Requirements and backward compatibility](#Requirements)  
   
--   [Networking in the Visual Studio Emulator for Android](#Networking)  
+- [Networking in the Visual Studio Emulator for Android](#Networking)  
   
--   [Configure the Visual Studio Emulator for Android](#Configuring)  
+- [Configure the Visual Studio Emulator for Android](#Configuring)  
   
--   [Features that you can test in the emulator](#FeaturesTest)  
+- [Features that you can test in the emulator](#FeaturesTest)  
   
--   [Features that you can’t test in the emulator](#FeaturesNonTest)  
+- [Features that you can’t test in the emulator](#FeaturesNonTest)  
   
--   [Support Resources](#Support)  
+- [Support Resources](#Support)  
   
 ##  <a name="Installing"></a> Installing and uninstalling  
  Installing  
@@ -89,20 +89,20 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 ##  <a name="FeaturesNonTest"></a> Features that you can’t test in the emulator  
  The following list describes features of the Android platform that you **cannot** test in the emulator. You have to test these features on a physical device.  
   
--   Compass  
+- Compass  
   
--   Gyroscope  
+- Gyroscope  
   
--   Vibration controller  
+- Vibration controller  
   
--   Brightness. Changing the brightness level of the emulator will not visually impact the way the device appears on your screen.  
+- Brightness. Changing the brightness level of the emulator will not visually impact the way the device appears on your screen.  
   
 ##  <a name="Support"></a> Support Resources  
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:  
   
--   Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.  
+- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.  
   
--   Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.  
+- Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.  
   
 ## See Also  
  [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)   

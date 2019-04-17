@@ -42,11 +42,11 @@ devenv SolutionName /rebuild SolnConfigName [/project ProjName] [/projectconfig 
   
 ## Remarks  
   
--   This switch performs the same function as the **Rebuild Solution** menu command within the integrated development environment (IDE).  
+- This switch performs the same function as the **Rebuild Solution** menu command within the integrated development environment (IDE).  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information for cleans and builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information for cleans and builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example cleans and rebuilds the project `CSharpWinApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.  

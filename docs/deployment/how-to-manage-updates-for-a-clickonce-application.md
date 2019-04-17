@@ -35,69 +35,69 @@ ms.workload:
 
 ### To check for updates before the application starts
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Updates** button to open the **Application Updates** dialog box.
+3. Click the **Updates** button to open the **Application Updates** dialog box.
 
-4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
+4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
 
-5.  In the **Choose when the application should check for updates** section, select **Before the application starts**. This ensures that users connected to the network always run the application with the latest updates.
+5. In the **Choose when the application should check for updates** section, select **Before the application starts**. This ensures that users connected to the network always run the application with the latest updates.
 
 ### To check for updates in the background after the application starts
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Updates** button to open the **Application Updates** dialog box.
+3. Click the **Updates** button to open the **Application Updates** dialog box.
 
-4.  In the **Application Updates** dialog box, make sure that the check box **The application should check for updates** is selected.
+4. In the **Application Updates** dialog box, make sure that the check box **The application should check for updates** is selected.
 
-5.  In the **Choose when the application should check for updates section**, select **After the application starts**. The application will start more quickly this way, and then it will check for updates in the background, and only notify the user when an update is available. Once installed, updates will not take effect until the application is restarted.
+5. In the **Choose when the application should check for updates section**, select **After the application starts**. The application will start more quickly this way, and then it will check for updates in the background, and only notify the user when an update is available. Once installed, updates will not take effect until the application is restarted.
 
-6.  In the **Specify how frequently the application should check for updates** section, select either **Check every time the application runs** (the default) or **Check every** and enter a number and time interval.
+6. In the **Specify how frequently the application should check for updates** section, select either **Check every time the application runs** (the default) or **Check every** and enter a number and time interval.
 
 ### To specify a minimum required version for the application
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Updates** button to open the **Application Updates** dialog box.
+3. Click the **Updates** button to open the **Application Updates** dialog box.
 
-4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
+4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
 
-5.  Select the **Specify a minimum required version for this application** check box, and then enter **Major**, **Minor**, **Build**, and **Revision** numbers for the application.
+5. Select the **Specify a minimum required version for this application** check box, and then enter **Major**, **Minor**, **Build**, and **Revision** numbers for the application.
 
 ### To specify a different update location
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Updates** button to open the **Application Updates** dialog box.
+3. Click the **Updates** button to open the **Application Updates** dialog box.
 
-4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
+4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
 
-5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location.
+5. In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location.
 
 ### To check for updates programmatically
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Updates** button to open the **Application Updates** dialog box.
+3. Click the **Updates** button to open the **Application Updates** dialog box.
 
-4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is cleared. (Optionally, you can select this check box to check for updates programmatically and also let the ClickOnce runtime check for updates automatically.)
+4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is cleared. (Optionally, you can select this check box to check for updates programmatically and also let the ClickOnce runtime check for updates automatically.)
 
-5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location. The update location is where the application will look for an updated version of itself.
+5. In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location. The update location is where the application will look for an updated version of itself.
 
-6.  Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md).
+6. Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md).
 
-7.  Build your application.
+7. Build your application.
 
 ## See also
 - <xref:System.Deployment.Application.ApplicationDeployment>

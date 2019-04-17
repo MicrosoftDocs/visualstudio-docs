@@ -17,11 +17,11 @@ manager: "ghogen"
 # Active Script Profiling Overview
 The [Active Script Profiler Interfaces](../winscript/reference/active-script-profiler-interfaces.md) enable profiling of a scripting engine. Active Script Profiling consists of the following parts:  
   
--   Language Engine  
+- Language Engine  
   
--   Host  
+- Host  
   
--   Profiler  
+- Profiler  
   
 ## Language Engine  
  The language engine executes the script. It provides methods that enable profiling of the script code as it is executed. When profiling is enabled, the language engine takes the class identifier (CLSID) of the profiler COM object as an argument. It creates an instance of the profiler COM object and then calls into the profiler when various events occur.  

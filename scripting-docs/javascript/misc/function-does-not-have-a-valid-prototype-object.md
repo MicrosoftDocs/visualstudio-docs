@@ -20,7 +20,7 @@ You attempted to use **instanceof** to determine if an object was derived from a
   
 ### To correct this error  
   
--   Ensure the function's `prototype` property refers to a valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] object.  
+- Ensure the function's `prototype` property refers to a valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] object.  
   
 ## See Also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   

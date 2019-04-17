@@ -53,23 +53,23 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
  Visual C# filters the completion lists that appear for these items:  
   
--   **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
+- **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
   
--   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
+- **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
   
--   `as` and `is` operators.  
+- `as` and `is` operators.  
   
--   **Catch clauses.**  
+- **Catch clauses.**  
   
--   **Object Initializers:** Only members that can be initialized will appear in the completion list.  
+- **Object Initializers:** Only members that can be initialized will appear in the completion list.  
   
--   **new keyword**: When you type `new` and then press the SPACEBAR, a completion list appears. An item is automatically selected in the list, based on the context in your code. For example, items are automatically selected in the completion list for declarations and for return statements in methods.  
+- **new keyword**: When you type `new` and then press the SPACEBAR, a completion list appears. An item is automatically selected in the list, based on the context in your code. For example, items are automatically selected in the completion list for declarations and for return statements in methods.  
   
--   **as and is Operators:** A filtered completion list is displayed automatically when you press the SPACEBAR after you have typed the `as` or `is` keyword.  
+- **as and is Operators:** A filtered completion list is displayed automatically when you press the SPACEBAR after you have typed the `as` or `is` keyword.  
   
--   Events: When you type the keyword `event`, the completion list only contains delegate types.  
+- Events: When you type the keyword `event`, the completion list only contains delegate types.  
   
--   Parameter help automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.  
+- Parameter help automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.  
   
 ## Most recently used members  
  IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.  

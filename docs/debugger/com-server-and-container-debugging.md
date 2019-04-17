@@ -35,11 +35,11 @@ COM applications perform a number of tasks outside of the programmer's direct co
 ##  <a name="BKMK_ServerApplicationWithoutContainerInformation"></a> Debugging a Server Application Without Container Information
  If you do not have or do not want to use debugging information for your container application, starting to debug the server application is a three-step process:
 
-1.  Start debugging the server as a normal application.
+1. Start debugging the server as a normal application.
 
-2.  Set breakpoints as desired.
+2. Set breakpoints as desired.
 
-3.  Start the container application.
+3. Start the container application.
 
 ##  <a name="BKMK_DebuggingaServerandDomainIsolationSDIApplication"></a> Debugging a Server and Domain Isolation (SDI) Application
  If you are debugging an SDI server application, you must specify `/Embedding` or `/Automation` in the **Command line arguments** property in the *Project* Property Pages dialog box for C/C++, C#, or Visual Basic projects.

@@ -113,9 +113,9 @@ ms.workload:
 
  When you get this error, the item is not created. This problem occurs most often with imported modules. To avoid this problem, do the following:
 
--   Use short names for your project when you enter them in the **Add New Project** dialog box.
+- Use short names for your project when you enter them in the **Add New Project** dialog box.
 
--   Create the project in a location as close to the root folder as possible, so as to shorten the path.
+- Create the project in a location as close to the root folder as possible, so as to shorten the path.
 
 ## The SharePointProductVersion attribute
  If you import a solution created in an earlier version of SharePoint such as [!INCLUDE[winshare3](../sharepoint/includes/winshare3-md.md)] or [!INCLUDE[offshare7](../sharepoint/includes/offshare7-md.md)], either change the SharePointProductVersion attribute value in the package manifest to 12.0, or insert a script manager control into all imported Web pages and leave SharePointProductVersion set to 14.0. Otherwise, imported Web forms will not display in SharePoint.

@@ -68,17 +68,17 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 #### To create an object ID
 
-1.  Set a breakpoint near a variable that you want to track.
+1. Set a breakpoint near a variable that you want to track.
 
-2.  Start the debugger (**F5**) and stop at the breakpoint.
+2. Start the debugger (**F5**) and stop at the breakpoint.
 
 3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
     ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
 
-4.  You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
+4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
-5.  Right-click the object ID variable and choose **Add Watch**.
+5. Right-click the object ID variable and choose **Add Watch**.
 
 For more information, see [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
@@ -120,13 +120,13 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
 #### To show threads in your source code
 
-1.  While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
+1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
-2.  Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
+2. Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
     Notice that a thread marker may be partially concealed by a breakpoint.
 
-3.  Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
+3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
 

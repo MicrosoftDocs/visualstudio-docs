@@ -45,19 +45,19 @@ IDiaPropertyStorage : IUnknown
 ## Notes for Callers  
  Obtain this interface by calling the `QueryInterface` method on another interface. The following interfaces can be queried for the `IDiaPropertyStorage` interface:  
   
--   [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)  
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)  
   
--   [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)  
+- [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)  
   
--   [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)  
+- [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)  
   
--   [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)  
+- [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)  
   
--   [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)  
   
--   [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
+- [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)  
   
--   [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)  
+- [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)  
   
 ## Example  
  This example shows a function that displays all properties exposed by the `IDiaPropertyStorage` object. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of how the `IDiaPropertyStorage` interface is obtained from the [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) interface.  

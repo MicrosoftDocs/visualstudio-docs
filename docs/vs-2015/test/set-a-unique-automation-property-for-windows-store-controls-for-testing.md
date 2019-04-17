@@ -16,15 +16,15 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
   
  You can assign a unique automation property based on the type of XAML control in your application. Here’s how to assign this unique automation property in the following situations:  
   
--   [Static XAML definition of controls](#UniquePropertyWindowsStoreControlsStaticXAML)  
+- [Static XAML definition of controls](#UniquePropertyWindowsStoreControlsStaticXAML)  
   
--   [Assign unique automation properties using Visual Studio or Blend for Visual Studio](#UniquePropertyWindowsStoreControlsExpressionBlend)  
+- [Assign unique automation properties using Visual Studio or Blend for Visual Studio](#UniquePropertyWindowsStoreControlsExpressionBlend)  
   
--   [Use a DataTemplate](#UniquePropertyWindowsStoreControlsDataTemplate)  
+- [Use a DataTemplate](#UniquePropertyWindowsStoreControlsDataTemplate)  
   
--   [Use a control template](#UniquePropertyWindowsStoreControlsControlTemplate)  
+- [Use a control template](#UniquePropertyWindowsStoreControlsControlTemplate)  
   
--   [Dynamic controls](#UniquePropertyWindowsStoreControlsDynamicControls)  
+- [Dynamic controls](#UniquePropertyWindowsStoreControlsDynamicControls)  
   
 ## Use methods to assign a unique automation property  
   

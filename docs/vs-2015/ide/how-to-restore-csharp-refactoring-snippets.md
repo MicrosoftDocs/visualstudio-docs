@@ -24,23 +24,23 @@ C# refactoring operations rely on code snippets found in the following directory
   
 ### To verify C# refactoring snippets are available through the Code Snippet Manager  
   
-1.  In the **Tools** menu, select **Code Snippet Manager**.  
+1. In the **Tools** menu, select **Code Snippet Manager**.  
   
-2.  In the **Code Snippet Manager** dialog box, select **Visual C#** from the **Language** drop-down list.  
+2. In the **Code Snippet Manager** dialog box, select **Visual C#** from the **Language** drop-down list.  
   
      A **Refactoring** folder should appear in the tree view folder list.  
   
 ### To restore refactoring see comment in Code Snippet Manager  
   
-1.  If the **Refactoring** folder does not appear in the tree view folder list of the Code Snippet Manager, then use this procedure to add refactoring snippets back into Code Snippet Manager.  
+1. If the **Refactoring** folder does not appear in the tree view folder list of the Code Snippet Manager, then use this procedure to add refactoring snippets back into Code Snippet Manager.  
   
-2.  In the **Tools** menu, select **Code Snippet Manager**.  
+2. In the **Tools** menu, select **Code Snippet Manager**.  
   
-3.  In the **Code Snippet Manager** dialog box, select **Visual C#** from the **Language** drop-down list.  
+3. In the **Code Snippet Manager** dialog box, select **Visual C#** from the **Language** drop-down list.  
   
-4.  Click **Add**. The **Code Snippets Directory** dialog box, which helps you locate and specify the directory to add back into the Code Snippet Manager, appears.  
+4. Click **Add**. The **Code Snippets Directory** dialog box, which helps you locate and specify the directory to add back into the Code Snippet Manager, appears.  
   
-5.  Locate the **Refactoring** folder whose directory path is:  
+5. Locate the **Refactoring** folder whose directory path is:  
   
      *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  
   
@@ -48,7 +48,7 @@ C# refactoring operations rely on code snippets found in the following directory
   
      C:\Program Files\Microsoft Visual Studio 14.0\VC#\Snippets\1033\Refactoring.  
   
-6.  Click **Open** in the **Code Snippets Directory** dialog box, and then click **OK** in the Code Snippets Manager.  
+6. Click **Open** in the **Code Snippets Directory** dialog box, and then click **OK** in the Code Snippets Manager.  
   
 ## See Also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
