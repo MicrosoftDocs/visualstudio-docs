@@ -72,7 +72,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
    > [!NOTE]
    >  If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
   
-##  <a name="settings"></a> The DSL Designer Wizard Pages  
+## <a name="settings"></a> The DSL Designer Wizard Pages  
  You can leave several of the fields unchanged from their default values. However, make sure that you set the File Extension field.  
   
 ### Solution Settings page  

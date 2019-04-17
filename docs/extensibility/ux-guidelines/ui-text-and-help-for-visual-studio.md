@@ -10,7 +10,7 @@ ms.workload:
   - "vssdk"
 ---
 # UI Text and Help for Visual Studio
-##  <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
+## <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
  Comprehensible text is crucial to effective UI. Software users tend to read labels first, namely those most relevant to completing the task at hand. Static text is read with less frequency. Plan for users to start their work sessions with a quick scan of the whole window, followed by a reading of the UI in this approximate order:
 
 1. Interactive controls in the center

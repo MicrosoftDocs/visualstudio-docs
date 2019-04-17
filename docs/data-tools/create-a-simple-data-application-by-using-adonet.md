@@ -132,7 +132,7 @@ Create the sample database by following these steps:
 > [!NOTE]
 > In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
 
-##  Write the code for the forms
+## Write the code for the forms
 
 This section contains brief overviews of what each form does. It also provides the code that defines the underlying logic when a button on the form is clicked.
 

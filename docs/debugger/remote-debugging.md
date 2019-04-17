@@ -94,7 +94,7 @@ You can change some aspects of the configuration of the remote debugger after yo
      > [!WARNING]
      >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
-##  <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
+## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
 
  If you want to configure the remote debugger as a service, follow these steps.

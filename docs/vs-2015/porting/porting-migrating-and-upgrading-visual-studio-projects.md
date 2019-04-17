@@ -31,7 +31,7 @@ When you are considering whether you should move to a newer version of Visual St
 
  If you use [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] together with [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)],[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1, you can create and modify projects and files in any of the versions. You can transfer projects and files among the versions as long as you don't add features that are not supported by one of the versions.
 
-##  <a name="project"></a> Projects
+## <a name="project"></a> Projects
  The following list describes support in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] and [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] for projects that were created in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1. Use this list to help determine whether you can open a project "as is" in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)],  [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or Visual Studio 2010 SP1, or whether you have to modify it to ensure compatibility.
 
 |Type of Project|Compatibility|
@@ -95,7 +95,7 @@ When you are considering whether you should move to a newer version of Visual St
 
   For additional troubleshooting information, see the [Visual Studio 2013 Compatibility](http://support.microsoft.com/kb/2863286) KB article.
 
-##  <a name="file"></a> Files
+## <a name="file"></a> Files
  The following list identifies whether [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] supports each type of file, whether you can open the file in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and Visual Studio 2010 SP1, and whether you have to modify it to ensure compatibility.
 
 |Type of File|Compatibility|
@@ -115,7 +115,7 @@ When you are considering whether you should move to a newer version of Visual St
 |IntelliTrace log files from [!INCLUDE[vs2010](../includes/vs2010-md.md)]|You can open these files in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], and Visual Studio 2010 SP1.|
 |JavaScript Memory Analyzer (.diagsession) files|Files created by older versions of Visual Studio can be viewed in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. However, depending on the information gathered, files created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] may not open in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1.|
 
-##  <a name="integration"></a> Integration assets
+## <a name="integration"></a> Integration assets
  You might encounter compatibility issues if you use clients and servers from different versions of Visual Studio Team Foundation Server.
 
 |Kind of Integration|Compatibility|

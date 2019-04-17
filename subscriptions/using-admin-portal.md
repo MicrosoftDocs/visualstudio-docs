@@ -9,7 +9,7 @@ description: Learn how to manage your organization's Visual Studio subscriptions
 searchscope: VS Subscription
 ---
 
-#  Using the Visual Studio subscriptions administrator portal
+# Using the Visual Studio subscriptions administrator portal
 
 Keep this in mind when you use the Visual Studio Subscriptions Administration Portal:
 

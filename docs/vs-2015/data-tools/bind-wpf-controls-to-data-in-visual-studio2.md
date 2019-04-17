@@ -28,7 +28,7 @@ manager: jillfra
 
 You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] controls by using the **Data Sources** window. First, add a data source to the **Data Sources** window. Then, drag items from the **Data Sources** window to the**WPF Designer**.
 
-##  <a name="adding"></a> Add a data source to the Data Sources window
+## <a name="adding"></a> Add a data source to the Data Sources window
  Before you can create data-bound controls, you must first add a data source to the **Data Sources** window.
 
 #### To add a data source to the Data Sources window
@@ -47,7 +47,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
     - [Binding data to existing controls in the designer](#existing).
 
-##  <a name="simple"></a> Create a control that is bound to a single field of data
+## <a name="simple"></a> Create a control that is bound to a single field of data
  After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>.
 
 #### To create a control that is bound to a single field of data
@@ -62,7 +62,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates the new data-bound control and an appropriately titled <xref:System.Windows.Controls.Label> in the container. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
-##  <a name="complex"></a> Create a control that is bound to multiple fields of data
+## <a name="complex"></a> Create a control that is bound to multiple fields of data
  After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays multiple fields of data, such as a <xref:System.Windows.Controls.DataGrid> or <xref:System.Windows.Controls.ListView>.
 
 #### To create a control that is bound to multiple fields of data
@@ -80,7 +80,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates the new data-bound control in the container. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
-##  <a name="details"></a> Create a set of controls that are bound to multiple fields of data
+## <a name="details"></a> Create a set of controls that are bound to multiple fields of data
  After you add a data source to the **Data Sources** window, you can bind a data table or object to a set of controls. A different control is created for each column or property in the table or object.
 
 #### To create a set of controls that are bound to multiple fields of data
@@ -96,7 +96,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates the new data-bound controls in the container. Each control is bound to a different column or property, and each control is accompanied by an appropriately titled <xref:System.Windows.Controls.Label> control. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] and code to bind the controls to the data. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
-##  <a name="existing"></a> Binddata to existing controls in the designer
+## <a name="existing"></a> Binddata to existing controls in the designer
  After you add a data source to the **Data Sources** window, you can add a data binding to an existing control in the designer.
 
 #### To bind data to an existing control in the designer

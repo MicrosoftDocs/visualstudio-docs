@@ -25,7 +25,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
   If you don’t want to make all these changes, learn how to [port your existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) into a new Universal Windows project.  
   
-##  <a name="MigrateCSharp"></a> Migrate your C#/VB Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
+## <a name="MigrateCSharp"></a> Migrate your C#/VB Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
   
 #### Migrate your C#/VB project files  
   
@@ -240,7 +240,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
      Now you need to follow the steps to [update the package manifest files](#PackageManifest) for all your Windows Store 8.1 or Windows Phone 8.1 projects.  
   
-##  <a name="MigrateCPlusPlus"></a> Migrate your C++ Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
+## <a name="MigrateCPlusPlus"></a> Migrate your C++ Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
   
 #### Migrate your C++ project files  
   
@@ -317,7 +317,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
      Now you need to follow the steps to [update the package manifest files](#PackageManifest) for all your Windows Store 8.1 or Windows Phone 8.1 projects.  
   
-##  <a name="PackageManifest"></a> Update your package manifest file for all your Windows Store 8.1 or Windows Phone 8.1 projects  
+## <a name="PackageManifest"></a> Update your package manifest file for all your Windows Store 8.1 or Windows Phone 8.1 projects  
  You must update the package manifest file for each project in your solution.  
   
 #### Update your package manifest file  
@@ -587,14 +587,14 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
          Learn how to [adapt your code](https://msdn.microsoft.com/library/windows/apps/dn954974.aspx) to take advantage of what’s new with the Universal Windows Platform.  
   
-##  <a name="PreviousVersions"></a> Changes required for existing Universal Windows apps created with Visual Studio 2015 RC  
+## <a name="PreviousVersions"></a> Changes required for existing Universal Windows apps created with Visual Studio 2015 RC  
  If you created Windows 10 universal apps with Visual Studio 2015 RC, you need to retarget your project to use the version of the Universal Windows Platform installed with the latest release of Visual Studio 2015. Any previous version is not supported. The changes required are different depending on the language you used to create your app:  
   
 - [C#/VB apps](#RCUpdate10CSharp)  
   
 - [C++ apps](#RCUpdate10CPlusPlus)  
   
-###  <a name="RCUpdate10CSharp"></a> Update your C#/VB projects to use the latest Universal Windows Platform  
+### <a name="RCUpdate10CSharp"></a> Update your C#/VB projects to use the latest Universal Windows Platform  
  When you open your solution for your existing app, you will see that your app requires an update:  
   
  ![View your project in Solution Explorer](../misc/media/uwp-updaterequired.png "UWP_UpdateRequired")  
@@ -739,7 +739,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     If you have unit test projects for your Universal Windows apps, you must also follow [these steps](#MigrateUnitTest).  
   
-###  <a name="RCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
+### <a name="RCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
   
 1. To find which Universal Windows Platform you have installed, open this folder: **\Program Files (x86)\Windows Kits\10\Platforms\UAP**. This contains a list of folders for each Universal Windows Platform that is installed. The folder name is the Universal Windows Platform version that you have installed. For example, this Windows 10 device has version 10.0.10240.0 of the Universal Windows Platform installed.  
   
@@ -806,14 +806,14 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
          If you have unit test projects for your Universal Windows apps, you must also follow [these steps](#MigrateUnitTest).  
   
-##  <a name="MigrateUnitTest"></a> Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC  
+## <a name="MigrateUnitTest"></a> Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC  
  If you created unit test projects for Windows 10 universal apps with Visual Studio 2015 RC, you need to make these additional changes to your project files to use these test projects with the latest release of Visual Studio 2015. The changes required are different depending on the language you used to create your app:  
   
 - [C#/VB apps](#UnitTestRCUpdate10CSharp)  
   
 - [C++ apps](#UnitTestRCUpdate10CPlusPlus)  
   
-###  <a name="UnitTestRCUpdate10CSharp"></a> Update your C#/VB unit test projects  
+### <a name="UnitTestRCUpdate10CSharp"></a> Update your C#/VB unit test projects  
   
 1. With Visual Studio, open your solution that contains your C#/VB unit test project. Change the value of the \<OuttputType> element to: AppContainerExe.  
   
@@ -986,7 +986,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
    You can now run your unit tests.  
   
-###  <a name="UnitTestRCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
+### <a name="UnitTestRCUpdate10CPlusPlus"></a> Update your C++ projects to use the latest Universal Windows Platform  
   
 1. With Visual Studio, open your solution that contains your C++ unit test project. Remove the following elements:  
   

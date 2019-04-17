@@ -49,7 +49,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 3. Select the **Application Configuration File** template and click **Add**.  
   
-##  <a name="DefineCustomConfigurationSection"></a> Define a Custom Configuration Section  
+## <a name="DefineCustomConfigurationSection"></a> Define a Custom Configuration Section  
  Examine the app.config file. It contains at least the XML declaration and a root element.  
   
 #### To add the custom configuration section to the app.config file  

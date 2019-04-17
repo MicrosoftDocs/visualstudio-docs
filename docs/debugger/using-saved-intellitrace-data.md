@@ -34,7 +34,7 @@ Go to specific points in your application's execution when you start debugging f
     |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](/previous-versions/system-center/system-center-2012-R2/dn249700(v=sc.12))|
 
-##  <a name="GetStarted"></a> What do you want to do?
+## <a name="GetStarted"></a> What do you want to do?
 
 - [Open an IntelliTrace log](#Open)
 
@@ -42,7 +42,7 @@ Go to specific points in your application's execution when you start debugging f
 
 - [Start debugging from an IntelliTrace log](#StartDebugging)
 
-##  <a name="Open"></a> Open an IntelliTrace log
+## <a name="Open"></a> Open an IntelliTrace log
  On a computer with Visual Studio Enterprise, open the .iTrace file.
 
 - Double-click the .iTrace file outside Visual Studio, or open the file from inside Visual Studio.
@@ -60,7 +60,7 @@ Go to specific points in your application's execution when you start debugging f
 > [!TIP]
 >  If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.
 
-##  <a name="Understand"></a> Understand the IntelliTrace log
+## <a name="Understand"></a> Understand the IntelliTrace log
  Some of the following sections in the .iTrace file appear only if you collected data from a particular source, for example, from Test Manager or from SharePoint applications.
 
 |**Section**|**Contains**|**Collection Source**|
@@ -84,9 +84,9 @@ Go to specific points in your application's execution when you start debugging f
 
      `Description:slow`
 
-##  <a name="StartDebugging"></a> Start debugging from an IntelliTrace log
+## <a name="StartDebugging"></a> Start debugging from an IntelliTrace log
 
-###  <a name="Performance"></a> Performance Violations
+### <a name="Performance"></a> Performance Violations
  Review the performance events that were recorded for your app. You can hide those events that don't happen often.
 
 ##### To start debugging from a performance event
@@ -117,7 +117,7 @@ Go to specific points in your application's execution when you start debugging f
 
      Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event.
 
-###  <a name="ExceptionData"></a> Exception Data
+### <a name="ExceptionData"></a> Exception Data
  Review the exceptions that were thrown and recorded for your app. You can group exceptions that have the same type and call stack so that you see only the most recent exception.
 
 ##### To start debugging from an exception
@@ -143,7 +143,7 @@ Go to specific points in your application's execution when you start debugging f
     |**Newest Event Time** or **Event Time**|Time stamp recorded when the exception was thrown|
     |**Call Stack**|Call stack for an exception.<br /><br /> To see the call stack, choose an exception in the list. The call stack appears below the exception list.|
 
-###  <a name="Analysis"></a> Analysis
+### <a name="Analysis"></a> Analysis
  Diagnose problems with SharePoint 2010 and SharePoint 2013 applications by using a SharePoint correlation ID or review any unhandled exceptions that Microsoft Monitoring Agent found.
 
 - Use a SharePoint correlation ID to find its matching web request and events. Choose an event and then start debugging at the point where and when the event happened.
@@ -202,7 +202,7 @@ Go to specific points in your application's execution when you start debugging f
 
    For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 
-###  <a name="ThreadsList"></a> Threads List
+### <a name="ThreadsList"></a> Threads List
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.
 
 ##### To start debugging from a specific thread
@@ -222,7 +222,7 @@ Go to specific points in your application's execution when you start debugging f
 |**Start Time**|Time the thread was created|
 |**End Time**|Time the thread was completed|
 
-###  <a name="TestData"></a> Test Data
+### <a name="TestData"></a> Test Data
  Examine the IntelliTrace data that Test Manager recorded while testing your app.
 
 ##### To start debugging from a specific test step
@@ -241,10 +241,10 @@ Go to specific points in your application's execution when you start debugging f
 |**Test Case**|Test cases from the selected test session. This list is empty if test data was created using a manual exploratory test.|
 |**Test Steps Grid**|Test steps that were recorded with the test result of pass or fail|
 
-###  <a name="SystemInfo"></a> System Info
+### <a name="SystemInfo"></a> System Info
  This section shows you details about the system that hosted the app, for example, hardware, operating system, environmental and process-specific information.
 
-###  <a name="Modules"></a> Modules
+### <a name="Modules"></a> Modules
  This section shows you the modules that the target process loaded. Modules appear in the order that they loaded.
 
 |**Column**|**Shows the**|

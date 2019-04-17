@@ -37,7 +37,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 ## Prerequisites  
  Visual Studio  
   
-##  <a name="CreateAndRunUnitTestWin8Tailored_Create"></a> Create unit test projects  
+## <a name="CreateAndRunUnitTestWin8Tailored_Create"></a> Create unit test projects  
   
 #### To create a unit test project for a Windows Store app  
   
@@ -64,7 +64,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
      ![New tailored unit test project](../test/media/unit-test-win8-unittestexplorer-newprojectcreated.png "Unit_Test_Win8_UnitTestExplorer_NewProjectCreated")  
   
-##  <a name="CreateAndRunUnitTestWin8Tailored_Manifest"></a> Edit the Manifest for the Unit Test Project  
+## <a name="CreateAndRunUnitTestWin8Tailored_Manifest"></a> Edit the Manifest for the Unit Test Project  
  It may be necessary to edit the manifest for the unit test project to provide required capabilities to run the app.  
   
 #### To edit the unit test project’s Windows Store application manifest file  
@@ -84,7 +84,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
      ![Unit Test Manifest](../test/media/unit-test-win8.png "Unit_Test_Win8_")  
   
-##  <a name="CreateAndRunUnitTestWin8Tailored_Code"></a> Code the Unit Test  
+## <a name="CreateAndRunUnitTestWin8Tailored_Code"></a> Code the Unit Test  
   
 #### To code the unit test for a Windows Store app  
   
@@ -92,7 +92,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
      For more information, see in [Using the Assert Classes](http://go.microsoft.com/fwlink/?LinkID=224991) in the MSDN library.  
   
-##  <a name="CreateAndRunUnitTestWin8Tailored_Run"></a> Run Unit Tests  
+## <a name="CreateAndRunUnitTestWin8Tailored_Run"></a> Run Unit Tests  
   
 #### To build the solution and run the unit test using Test Explorer  
   

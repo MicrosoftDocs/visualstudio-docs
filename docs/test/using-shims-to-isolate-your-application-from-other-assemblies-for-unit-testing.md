@@ -55,9 +55,9 @@ using (ShimsContext.Create()) {
 }
 ```
 
-##  How to use shims
+## How to use shims
 
-###  <a name="AddFakes"></a> Add Fakes Assemblies
+### <a name="AddFakes"></a> Add Fakes Assemblies
 
 1. In **Solution Explorer**, expand your unit test project's **References**.
 
@@ -67,7 +67,7 @@ using (ShimsContext.Create()) {
 
 3. On the shortcut menu, choose **Add Fakes Assembly**.
 
-###  <a name="ShimsContext"></a> Use ShimsContext
+### <a name="ShimsContext"></a> Use ShimsContext
 
 When using shim types in a unit test framework, you must wrap the test code in a `ShimsContext` to control the lifetime of your shims. If we didn't require this, your shims would last until the AppDomain shut down. The easiest way to create a `ShimsContext` is by using the static `Create()` method as shown in the following code:
 
@@ -83,7 +83,7 @@ public void Y2kCheckerTest() {
 
 It's critical to properly dispose each shim context. As a rule of thumb, always call the `ShimsContext.Create` inside of a `using` statement to ensure proper clearing of the registered shims. For example, you might register a shim for a test method that replaces the `DateTime.Now` method with a delegate that always returns the first of January 2000. If you forget to clear the registered shim in the test method, the rest of the test run would always return the first of January 2000 as the DateTime.Now value. This might be surprising and confusing.
 
-###  <a name="WriteShims"></a> Write a test with shims
+### <a name="WriteShims"></a> Write a test with shims
 
 In your test code, insert a *detour* for the method you want to fake. For example:
 
@@ -152,11 +152,11 @@ Notice that detours are created and deleted at run time. You must always create 
 
 You might see a build error stating that the Fakes namespace does not exist. This error sometimes appears when there are other compilation errors. Fix the other errors and it will vanish.
 
-##  <a name="BKMK_Shim_basics"></a> Shims for different kinds of methods
+## <a name="BKMK_Shim_basics"></a> Shims for different kinds of methods
 
 Shim types allow you to replace any .NET method, including static methods or non-virtual methods, with your own delegates.
 
-###  <a name="BKMK_Static_methods"></a> Static methods
+### <a name="BKMK_Static_methods"></a> Static methods
 
 The properties to attach shims to static methods are placed in a shim type. Each property has only a setter that can be used to attach a delegate to the target method. For example, given a class `MyClass` with a static method `MyMethod`:
 
@@ -176,7 +176,7 @@ We can attach a shim to `MyMethod` that always returns 5:
 ShimMyClass.MyMethod = () =>5;
 ```
 
-###  <a name="BKMK_Instance_methods__for_all_instances_"></a> Instance methods (for all instances)
+### <a name="BKMK_Instance_methods__for_all_instances_"></a> Instance methods (for all instances)
 
 Similarly to static methods, instance methods can be shimmed for all instances. The properties to attach those shims are placed in a nested type named AllInstances to avoid confusion. For example, given a class `MyClass` with an instance method `MyMethod`:
 
@@ -213,7 +213,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 Notice that Fakes passes the runtime instance as the first argument of the delegate in this case.
 
-###  <a name="BKMK_Instance_methods__for_one_instance_"></a> Instance methods (for one runtime instance)
+### <a name="BKMK_Instance_methods__for_one_instance_"></a> Instance methods (for one runtime instance)
 
 Instance methods can also be shimmed by different delegates, based on the receiver of the call. This enables the same instance method to have different behaviors per instance of the type. The properties to set up those shims are instance methods of the shim type itself. Each instantiated shim type is also associated with a raw instance of a shimmed type.
 
@@ -274,7 +274,7 @@ MyClass instance = shim; // implicit cast retrieves the runtime
                          // instance
 ```
 
-###  <a name="BKMK_Constructors"></a> Constructors
+### <a name="BKMK_Constructors"></a> Constructors
 
 Constructors can also be shimmed in order to attach shim types to future objects. Each constructor is exposed as a static method Constructor in the shim type. For example, given a class `MyClass` with a constructor taking an integer:
 
@@ -325,7 +325,7 @@ public class ShimMyClass : ShimBase<MyClass>
 }
 ```
 
-###  <a name="BKMK_Base_members"></a> Base members
+### <a name="BKMK_Base_members"></a> Base members
 
 The shim properties of base members can be accessed by creating a shim for the base type and passing the child instance as a parameter to the constructor of the base shim class.
 
@@ -368,19 +368,19 @@ public class ShimMyBase : ShimBase<MyBase> {
 }
 ```
 
-###  <a name="BKMK_Static_constructors"></a> Static constructors
+### <a name="BKMK_Static_constructors"></a> Static constructors
 
 Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to make sure that the shim is configured before any member of the type is accessed.
 
-###  <a name="BKMK_Finalizers"></a> Finalizers
+### <a name="BKMK_Finalizers"></a> Finalizers
 
 Finalizers are not supported in Fakes.
 
-###  <a name="BKMK_Private_methods"></a> Private methods
+### <a name="BKMK_Private_methods"></a> Private methods
 
 The Fakes code generator creates shim properties for private methods that only have visible types in the signature, that is, parameter types and return type visible.
 
-###  <a name="BKMK_Binding_interfaces"></a> Binding interfaces
+### <a name="BKMK_Binding_interfaces"></a> Binding interfaces
 
 When a shimmed type implements an interface, the code generator emits a method that allows it to bind all the members from that interface at once.
 
@@ -414,7 +414,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 }
 ```
 
-##  Change the default behavior
+## Change the default behavior
 
 Each generated shim type holds an instance of the `IShimBehavior` interface, through the `ShimBase<T>.InstanceBehavior` property. The behavior is used whenever a client calls an instance member that was not explicitly shimmed.
 
@@ -439,7 +439,7 @@ ShimsBehaviors.Current =
     ShimsBehaviors.DefaultValue;
 ```
 
-##  Detect environment accesses
+## Detect environment accesses
 
 It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimsBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
 
@@ -451,11 +451,11 @@ ShimMyClass.Behavior = ShimsBehaviors.NotImplemented;
 ShimMyClass.BehaveAsNotImplemented();
 ```
 
-##  <a name="BKMK_Concurrency"></a> Concurrency
+## <a name="BKMK_Concurrency"></a> Concurrency
 
 Shim types apply to all threads in the AppDomain and don't have thread affinity. This is an important fact if you plan to use a test runner that support concurrency: tests involving shim types cannot run concurrently. This property is not enforced by the Fakes runtime.
 
-##  Call the original method from the shim method
+## Call the original method from the shim method
 
 Imagine that we wanted to actually write the text to the file system after validating the file name passed to the method. In that case, we would want to call the original method in the middle of the shim method.
 
@@ -496,7 +496,7 @@ shim = (fileName, content) => {
 ShimFile.WriteAllTextStringString = shim;
 ```
 
-##  <a name="BKMK_Limitations"></a> Limitations
+## <a name="BKMK_Limitations"></a> Limitations
 
 Shims cannot be used on all types from the .NET base class library **mscorlib** and **System**.
 

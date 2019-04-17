@@ -18,7 +18,7 @@ This article covers some common problems you might encounter when you work with 
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-##  Unable to collect performance counters on test agent computer
+## Unable to collect performance counters on test agent computer
 
 When you run a load test, you might receive errors when you try to connect to a test agent computer and collect performance counters. The Remote Registry service is the service responsible for providing performance counter data to a remote computer. On some operating systems, the Remote Registry service does not start automatically. To fix this problem, manually start the Remote Registry service.
 

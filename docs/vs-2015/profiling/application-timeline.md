@@ -34,7 +34,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 > [!NOTE]
 >  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
   
-##  <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect Application Timeline data  
+## <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect Application Timeline data  
  You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01).  
   
 > [!TIP]
@@ -59,34 +59,34 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
      ![Timeline profiler report](../profiling/media/timeline-base.png "TIMELINE_Base")  
   
-##  <a name="BKMK_Analyze_Timeline_profiling_data"></a> Analyze Timeline profiling data  
+## <a name="BKMK_Analyze_Timeline_profiling_data"></a> Analyze Timeline profiling data  
  After you have collected the profiling data, you can use these steps to start your analysis:  
   
 1. Examine the information in the **UI thread utilization** and **Visual throughput (FPS)** graphs and then use the timeline navigation bars to select a time range that you want to analyze.  
   
 2. Using the information in the **UI thread utilization** or **Visual throughput (FPS)** graphs, examine the details in the **Timeline details** view to discover possible causes for any apparent lack of responsiveness.  
   
-###  <a name="BKMK_Report_scenarios_categories_and_events"></a> Report scenarios, categories, and events  
+### <a name="BKMK_Report_scenarios_categories_and_events"></a> Report scenarios, categories, and events  
  The **Application Timeline** tool displays timing data for scenarios, categories, and events that are related to XAML performance.  
   
-###  <a name="BKMK_Diagnostic_session_timeline"></a> Diagnostic session timeline  
+### <a name="BKMK_Diagnostic_session_timeline"></a> Diagnostic session timeline  
  ![Performance and Diagnostics timeline](../profiling/media/diaghub-timelinewithusermarks.png "DIAGHUB_TimelineWithUserMarks")  
   
  The ruler at the top of the page shows the timeline for profiled information. This timeline applies to both the **UI thread utilization** graph and the **Visual throughput** graph. You can narrow the scope of the report by dragging the navigation bars on the timeline to select a segment of the timeline.  
   
  The timeline also displays any user marks that you have inserted, and the app's activation lifecycle events.  
   
-###  <a name="BKMK_UI_thread_utilization_graph"></a> UI thread utilization graph  
+### <a name="BKMK_UI_thread_utilization_graph"></a> UI thread utilization graph  
  ![CPU Utilization Graph](../profiling/media/timeline-cpuutilization.png "TIMELINE_CpuUtilization")  
   
  The **UI thread utilization (%)** graph is a bar chart that displays the relative amount of time spent in a category for during a collection span.  
   
-###  <a name="BKMK_Visual_throughput_FPS_graph"></a> Visual throughput (FPS) graph  
+### <a name="BKMK_Visual_throughput_FPS_graph"></a> Visual throughput (FPS) graph  
  ![Visual throughput graph](../profiling/media/timeline-visualthroughput.png "TIMELINE_VisualThroughput")  
   
  The **Visual throughput (FPS)** line graph shows the frames per second (FPS) on the UI and composition thread for the app.  
   
-###  <a name="BKMK_Timeline_details_"></a> Timeline details  
+### <a name="BKMK_Timeline_details_"></a> Timeline details  
  The details view is where you will be spending most of your time analyzing the report. It shows a detailed view of CPU utilization of your application categorized by the UI Framework subsystem or the system component that consumed the CPU.  
   
  The following events are supported:  
@@ -103,7 +103,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 > [!TIP]
 >  Choose the **CPU Usage** tool along with the **Application Timeline** tool when you start profiling to view app methods that execute on the UI thread. Moving long-running app code to a background thread can improve UI responsiveness.  
   
-####  <a name="BKMK_Customizing_Timeline_details_"></a> Customizing Timeline details  
+#### <a name="BKMK_Customizing_Timeline_details_"></a> Customizing Timeline details  
  Use the **Timeline details** toolbar to sort, filter, and specify the annotations of **Timeline details** view entries.  
   
 |||  

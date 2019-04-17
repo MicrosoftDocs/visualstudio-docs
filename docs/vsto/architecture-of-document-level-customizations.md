@@ -33,7 +33,7 @@ ms.workload:
 
   For general information about creating document-level customizations, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md), [Get started programming document-level customizations for Word](../vsto/getting-started-programming-document-level-customizations-for-word.md), and [Get started programming document-level customizations for Excel](../vsto/getting-started-programming-document-level-customizations-for-excel.md).
 
-##  <a name="UnderstandingCustomizations"></a> Understand customizations
+## <a name="UnderstandingCustomizations"></a> Understand customizations
  When you use the Office developer tools in Visual Studio to build a document-level customization, you create a managed code assembly that is associated with a specific document. A document or workbook with a linked assembly is said to have managed code extensions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
  When a user opens the document, the assembly is loaded by the Microsoft Office application. After the assembly is loaded, the customization can respond to events while the document is open. The customization can also call into the object model to automate and extend the application while the document is open, and it can use any of the classes in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].
@@ -91,7 +91,7 @@ ms.workload:
 
   If you want your end users to use customizations in these file formats, build and deploy a customization that uses one of the supported file formats specified in the table above. After installing the customization, end users can save the document in the Word XML Document (*\*xml*) format or the Word 2003 XML Document (*\*xml*) format, and the customization will continue to work as expected.
 
-##  <a name="Components"></a> Components of customizations
+## <a name="Components"></a> Components of customizations
  The main components of a customization are the document and the assembly. In addition to these components, there are several other parts that play an important role in how Microsoft Office applications discover and load customizations.
 
 ### Deployment manifest and application manifest
@@ -102,7 +102,7 @@ ms.workload:
 
  For more information, see [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-##  <a name="HowCustomizationsWork"></a> How customizations work with Microsoft Office applications
+## <a name="HowCustomizationsWork"></a> How customizations work with Microsoft Office applications
  When a user opens a document that is part of a Microsoft Office customization, the application uses the deployment manifest that is linked to the document to locate and load the most current version of the customization assembly. The location of the deployment manifest is stored in a custom document property named **AssemblyLocation**. The string that identifies this location is inserted into the property when you build the solution.
 
  The deployment manifest points to the application manifest, which then points to the most current assembly. For more information, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).

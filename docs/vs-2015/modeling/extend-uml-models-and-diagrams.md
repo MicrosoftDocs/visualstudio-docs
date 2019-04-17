@@ -26,7 +26,7 @@ This topic summarizes the different ways in which you can extend the UML modelin
   
  For more information, see this video: ![link to video](../data-tools/media/playvideo.gif "PlayVideo")[MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467).  
   
-##  <a name="Requirements"></a> Requirements  
+## <a name="Requirements"></a> Requirements  
   
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   

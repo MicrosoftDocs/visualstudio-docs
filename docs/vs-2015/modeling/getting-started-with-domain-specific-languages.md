@@ -90,7 +90,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 - **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-##  <a name="Debugging"></a> Running the DSL  
+## <a name="Debugging"></a> Running the DSL  
  You can run the DSL solution as soon as you have created it. Later, you can modify the DSL definition gradually, running the solution again after each change.  
   
 #### To experiment with the DSL  
@@ -379,7 +379,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).  
   
-##  <a name="Reset"></a> Removing old Experimental DSLs  
+## <a name="Reset"></a> Removing old Experimental DSLs  
  If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Experimental instance.  
   
  This will remove from your computer all experimental DSLs and other experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions. These are extensions that have been executed in debugging mode.  

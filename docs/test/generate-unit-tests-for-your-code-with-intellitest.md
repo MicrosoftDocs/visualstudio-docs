@@ -87,7 +87,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.
 
-##  Q & A
+## Q & A
 
 ### Q: Can you use IntelliTest for unmanaged code?
 
@@ -123,7 +123,7 @@ Specify the general relationship between inputs and outputs that you want the ge
 
  If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.
 
-###  <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
+### <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 

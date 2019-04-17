@@ -65,7 +65,7 @@ You can add stereotypes to UML model elements to provide additional information 
   
 3. Some stereotypes allow you to set the values of additional properties for the model element. To see these properties, expand the **Stereotypes** property.  
   
-###  <a name="L2"></a> UML Standard Profile L2  
+### <a name="L2"></a> UML Standard Profile L2  
  The following stereotypes can be used to specialize the meaning of UML model elements, unless the link to the profile has been removed from the model.  
   
  The exact meaning of these stereotypes is determined by your own local conventions, and by any tools that you might use to process the model.  
@@ -105,7 +105,7 @@ You can add stereotypes to UML model elements to provide additional information 
 |type|Class|Specifies the behavior of an object without stating how it is implemented. An object is a member of a type if it conforms to the specification.|  
 |utility|Class|A collection of static functions. The class has no instances.|  
   
-###  <a name="L3"></a> UML Standard Profile L3  
+### <a name="L3"></a> UML Standard Profile L3  
  The following stereotypes can be used to specialize the meaning of UML model elements, unless the profile has been unlinked from the model.  
   
  The exact meaning of these stereotypes is determined by your own local conventions, and by any tools that you might use to process the model.  
@@ -116,7 +116,7 @@ You can add stereotypes to UML model elements to provide additional information 
 |metaModel|Model|Defines a modeling language such as a variant of UML, or a domain specific language.|  
 |systemModel|Model|A model that is a collection of models that apply to the same system, for example, a specification, a realization, and trace relationships between them.|  
   
-##  <a name="NetProfile"></a> C# Profile  
+## <a name="NetProfile"></a> C# Profile  
  The stereotypes defined in this profile let you indicate that a model element is intended for translation to program code. Each stereotype defines additional properties that you can set on the model element.  
   
  To make these stereotypes available, link a model or package to the C# Profile. You can then apply the stereotypes to model elements in that model or package.  

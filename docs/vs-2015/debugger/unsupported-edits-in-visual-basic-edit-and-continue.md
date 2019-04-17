@@ -25,7 +25,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
  If you need to make a change that is not supported, you must stop debugging, make the changes, and start a new debugging session.  
   
-###  <a name="BKMK_MethodandPropertyBodyEdits"></a> Method and Property Body Edits  
+### <a name="BKMK_MethodandPropertyBodyEdits"></a> Method and Property Body Edits  
  **Unsupported Changes to Static Local Variables**: Adding or updating a local variable, or removing a static local variable if that would cause a compilation error.  
   
  **Unsupported Changes to Generics**: Changes to the generic method itself or generic method body are not supported. Instantiation of a generic type or calls to existing generic methods can be added, deleted, or changed.  
@@ -42,7 +42,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Adding a `SynchLock` block around the current instruction pointer.  
   
-###  <a name="BKMK_AttributeEdits"></a> Attribute Edits  
+### <a name="BKMK_AttributeEdits"></a> Attribute Edits  
  Edit and Continue does not support modifying attributes. Specifically, Edit and Continue does not support the following changes:  
   
 - Defining, editing, or deleting an attribute class.  
@@ -51,7 +51,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Editing or removing an existing attribute.  
   
-###  <a name="BKMK_ClassDeclarationEdits"></a> Class Declaration Edits  
+### <a name="BKMK_ClassDeclarationEdits"></a> Class Declaration Edits  
  Most changes to class declarations are not allowed by Edit and Continue while in Break mode. Specifically, Edit and Continue does not support the following changes:  
   
 - Renaming, deleting, or changing the inheritance of an existing class.  
@@ -64,7 +64,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Editing any generic class declaration.  
   
-###  <a name="BKMK_ClassMemberDeclarationEdits"></a> Class Member Declaration Edits  
+### <a name="BKMK_ClassMemberDeclarationEdits"></a> Class Member Declaration Edits  
  Changes to member declarations are prohibited in most Edit and Continue cases. For example, you cannot change the signature or access level of a member, and you cannot completely remove members if that would cause a compilation error. Specifically, Edit and Continue does not support the following changes:  
   
 - Shadowing an existing member variable by declaring a global or member variable of the same name in the containing block.  
@@ -97,7 +97,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing a public field.  
   
-###  <a name="BKMK_CompilerOptionEdits"></a> Compiler Option Edits  
+### <a name="BKMK_CompilerOptionEdits"></a> Compiler Option Edits  
  While using Edit and Continue in Break mode, you cannot change, add, or remove the following compiler options:  
   
 - **Option Strict**  
@@ -106,7 +106,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - **Option Compare**  
   
-###  <a name="BKMK_ConstantsEdits"></a> Constants Edits  
+### <a name="BKMK_ConstantsEdits"></a> Constants Edits  
  Changes to constants while in Edit and Continue mode are very limited. Specifically, Edit and Continue does not support the following changes:  
   
 - Adding or updating a constant variable.  
@@ -115,14 +115,14 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Removing a constant.  
   
-###  <a name="BKMK_DelegateandEventDeclarationEdits"></a> Delegate and Event Declaration Edits  
+### <a name="BKMK_DelegateandEventDeclarationEdits"></a> Delegate and Event Declaration Edits  
  Some changes to delegates and events are not allowed by Edit and Continue during Break mode. Specifically, Edit and Continue does not support the following changes:  
   
 - Changing or deleting a delegate definition.  
   
 - Deleting an event.  
   
-###  <a name="BKMK_EnumerationEdits"></a> Enumeration Edits  
+### <a name="BKMK_EnumerationEdits"></a> Enumeration Edits  
  Changes to enumerations (`Enums`) are not allowed by Edit and Continue during Break Mode. Specifically, Edit and Continue does not support the following changes:  
   
 - Modifying the underlying type of an `Enum`.  
@@ -131,17 +131,17 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing the access modifier of an `Enum`.  
   
-###  <a name="BKMK_ExternalDeclarationsEdits"></a> External Declarations Edits  
+### <a name="BKMK_ExternalDeclarationsEdits"></a> External Declarations Edits  
  In general, you cannot change the declarations of external methods during Edit and Continue. Specifically, Edit and Continue does not support the following changes:  
   
 - Adding or removing an external declaration.  
   
 - Changing the signature or marshaling attributes of an external declaration.  
   
-###  <a name="BKMK_ImportsEdits"></a> Imports Edits  
+### <a name="BKMK_ImportsEdits"></a> Imports Edits  
  Edit and Continue does not allow adding, changing, or removing `Imports` statements while in Break mode.  
   
-###  <a name="BKMK_InterfaceDefinitionEdits"></a> Interface Definition Edits  
+### <a name="BKMK_InterfaceDefinitionEdits"></a> Interface Definition Edits  
  Although you are frequently allowed to make changes to members that implement interfaces, changes to the actual interface definitions are generally not allowed by Edit and Continue. Specifically, Edit and Continue does not support the following changes:  
   
 - Adding, changing, or removing interface members.  
@@ -152,7 +152,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing the interface inheritance hierarchy.  
   
-###  <a name="BKMK_ModuleDeclarationEdits"></a> Module Declaration Edits  
+### <a name="BKMK_ModuleDeclarationEdits"></a> Module Declaration Edits  
  Most changes to module declarations are not allowed by Edit and Continue while in Break mode. Specifically, Edit and Continue does not support the following changes:  
   
 - Creating a new module.  
@@ -161,7 +161,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing the access modifier for a module.  
   
-###  <a name="BKMK_ModuleMemberDeclarationEdits"></a> Module Member Declaration Edits  
+### <a name="BKMK_ModuleMemberDeclarationEdits"></a> Module Member Declaration Edits  
  Using Edit and Continue, you can make a variety of changes to module members, such as properties, methods, and fields, while in Break mode. Some changes, however, are not supported. Most notably, Edit and Continue does not support adding, deleting, or changing the type or signature of any members.  
   
  Specifically, Edit and Continue does not support the following changes:  
@@ -180,10 +180,10 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Deleting or changing the type of an existing field.  
   
-###  <a name="BKMK_NestedTypeDeclarationEdits"></a> Nested Type Declaration Edits  
+### <a name="BKMK_NestedTypeDeclarationEdits"></a> Nested Type Declaration Edits  
  Edit and Continue does not support moving a nested type to another namespace or type.  
   
-###  <a name="BKMK_StructureDeclarationEdits"></a> Structure Declaration Edits  
+### <a name="BKMK_StructureDeclarationEdits"></a> Structure Declaration Edits  
  Most changes to structure declarations are not allowed by Edit and Continue while in **Break** mode. Specifically, Edit and Continue does not support the following changes:  
   
 - Renaming or deleting an existing structure.  
@@ -192,7 +192,7 @@ Edit and Continue les you stop program execution in Break mode, make changes to 
   
 - Changing the access modifier for a structure.  
   
-###  <a name="BKMK_StructureMemberDeclarationEdits"></a> Structure Member Declaration Edits  
+### <a name="BKMK_StructureMemberDeclarationEdits"></a> Structure Member Declaration Edits  
  Using Edit and Continue, you can make a variety of changes to structure members (properties, methods, and fields) while in Break mode. Some changes, however, are not supported, most notably changes that affect the declaration of structure members. Specifically, Edit and Continue does not support the following changes:  
   
 - Removing a property or method.  

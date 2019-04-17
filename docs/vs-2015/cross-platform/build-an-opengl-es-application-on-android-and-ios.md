@@ -23,10 +23,10 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
  [Build and run the iOS app](#BuildIOS)   
  [Customize your apps](#Customize)  
   
-##  <a name="req"></a> Requirements  
+## <a name="req"></a> Requirements  
  Before you can create an OpenGL ES app for iOS and Android, you must make sure you've met all system requirements. You must install the Visual C++ for Cross-Platform Mobile Development option in Visual Studio 2015. Make sure that the required third-party tools and SDKs are included in the installation, and that the Visual Studio Emulator for Android is installed. For more information and detailed instructions, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
   
-##  <a name="Create"></a> Create a new OpenGLES Application project  
+## <a name="Create"></a> Create a new OpenGLES Application project  
  In this tutorial, you first create a new OpenGL ES Application project and then build and run the default app in the Visual Studio Emulator for Android. Next you build the app for iOS and run the app in the iOS Simulator.  
   
 #### To create a new project  
@@ -57,7 +57,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
 - **MyOpenGLESApp.iOS.Application** contains the resources and Objective-C glue code to create an iOS app that links to the C++ static library code in MyOpenGLESApp.iOS.StaticLibrary. This project creates a build package that is transferred to your Mac by Visual Studio and the remote agent. When you build this project, Visual Studio sends the files and commands to build and deploy your app on the Mac.  
   
-##  <a name="BuildAndroid"></a> Build and run the Android app  
+## <a name="BuildAndroid"></a> Build and run the Android app  
  The solution created by the template sets the Android app as the default project.  You can build and run this app to verify your installation and setup. For an initial test, run the app on one of the device profiles installed by the Visual Studio Emulator for Android. If you prefer to test your app on another target, you can load the target emulator or connect the device to your computer.  
   
 #### To build and run the Android Native Activity app  
@@ -98,7 +98,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
    Visual Studio builds Android Native Activity projects by using the Android NDK, which uses Clang as the platform toolset. Visual Studio maps the properties in the NativeActivity project to the command-line switches and options that are used to compile, link, and debug on the target platform. For details, open the **Property Pages** dialog for the MyOpenGLESApp.Android.NativeActivity project. For more information about the command line switches, see the [Clang Compiler User's Manual](http://clang.llvm.org/docs/UsersManual.html).  
   
-##  <a name="BuildIOS"></a> Build and run the iOS app  
+## <a name="BuildIOS"></a> Build and run the iOS app  
  The iOS app project is created and edited in Visual Studio, but because of licensing restrictions, it must be built and deployed from a Mac. Visual Studio communicates with a remote agent running on the Mac to transfer project files and execute build, deployment, and debugging commands. You must set up and configure your Mac and Visual Studio to communicate before you can build the iOS app. For detailed instructions, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). Once the remote agent is running and Visual Studio is paired with your Mac, you can build and run the iOS app to verify your installation and setup.  
   
 #### To build and run the iOS app  
@@ -137,7 +137,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
   
    Visual Studio transfers the project files and sends commands to the remote client to build the app using Xcode. The remote client sends build status information back to Visual Studio. When the app has built successfully, you can use Visual Studio to send commands to run and debug the app. The debugger in Visual Studio controls the app running in the iOS Simulator running on your Mac, or on an attached iOS device. Visual Studio maps the properties in the StaticLibrary project to the command-line switches and options that are used to build, link, and debug on the target iOS platform. For compiler command-line option details, open the **Property Pages** dialog for the MyOpenGLESApp.iOS.StaticLibrary project.  
   
-##  <a name="Customize"></a> Customize your apps  
+## <a name="Customize"></a> Customize your apps  
  You can modify the shared C++ code to add or change common functionality. You must change the calls to the shared code in the MyOpenGLESApp.Android.NativeActivity and MyOpenGLESApp.iOS.Application projects to match. You can use preprocessor macros to specify platform-specific sections in your common code. The preprocessor macro `__ANDROID__` is predefined when you build for Android. The preprocessor macro `__APPLE__` is predefined when you build for iOS.  
   
  To see the IntelliSense for a particular project platform, choose the project in the context switcher dropdown in the Navigation bar at the top of the editor window.  

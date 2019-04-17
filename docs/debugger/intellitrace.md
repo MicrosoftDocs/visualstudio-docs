@@ -53,7 +53,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 > [!NOTE]
 > If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
 
-##  <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?
+## <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?
 
 Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.
 
@@ -91,7 +91,7 @@ Here are some examples of how IntelliTrace can help you with debugging:
 
      This is useful when you want to diagnose problems with apps in deployment. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
-##  <a name="WhatData"></a> What data does IntelliTrace collect?
+## <a name="WhatData"></a> What data does IntelliTrace collect?
 
 **Collect event information**
 

@@ -38,7 +38,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 
  To use a remote playback machine that's running Windows 10 from a development machine running Windows 8.1, you must install the Windows 10 SDK on the development machine, and the optional Graphics Tools feature on the playback machine.
 
-##  <a name="InstallGraphicsTools"></a> Install Graphics Tools for Windows 10
+## <a name="InstallGraphicsTools"></a> Install Graphics Tools for Windows 10
  In Windows 10, the Graphics Diagnostics infrastructure is provided by an optional feature of Windows called *Graphics Tools*. This feature is required to capture and play back graphics information on Windows 10 regardless of whether the app being captured targets a previous version of windows or which version of Direct3D it uses. You can choose to install the Graphics Tools feature ahead of time; otherwise it will be installed on-demand the first time you start a Graphics Diagnostics session from Visual Studio.
 
 #### To install Graphics Tools for Windows 10

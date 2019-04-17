@@ -8,7 +8,7 @@ ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 searchscope: VS Subscription
 ---
-#  WhiteSource Bolt in Visual Studio subscriptions
+# WhiteSource Bolt in Visual Studio subscriptions
 
 Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Some Visual Studio subscriptions include six months of free access.
 

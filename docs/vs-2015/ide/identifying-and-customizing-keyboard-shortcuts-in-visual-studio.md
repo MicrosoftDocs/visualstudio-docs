@@ -46,7 +46,7 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
 > [!NOTE]
 >  Your settings and edition of Visual Studio might change the names and locations of menu commands and the options that appear in dialog boxes. This topic is based on the **General Development Settings**.
 
-##  <a name="bkmk_identify"></a> Identifying a keyboard shortcut
+## <a name="bkmk_identify"></a> Identifying a keyboard shortcut
 
 1. On the menu bar, choose **Tools**, **Options**.
 
@@ -66,7 +66,7 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
 
      ![View a shortcut for a specified command](../ide/media/viewshortcut.png "ViewShortcut")
 
-##  <a name="bkmk_assign"></a> Customizing a keyboard shortcut
+## <a name="bkmk_assign"></a> Customizing a keyboard shortcut
 
 1. On the menu bar, choose **Tools**, **Options**.
 
@@ -101,7 +101,7 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
     > [!NOTE]
     >  If you specify a different shortcut for a command, choose the **Assign** button, and then choose the **Cancel** button, the dialog box closes, but the change isn't reverted.
 
-##  <a name="bkmk_transfer"></a> Sharing custom keyboard shortcuts
+## <a name="bkmk_transfer"></a> Sharing custom keyboard shortcuts
  You can share your custom keyboard shortcuts by exporting them to a file and then giving the file to others so that they can import the data.
 
 #### To export only keyboard shortcuts

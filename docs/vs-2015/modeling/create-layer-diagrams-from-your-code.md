@@ -24,7 +24,7 @@ To visualize your software system's high-level, logical architecture, create a *
   
  A layer diagram lets you organize Visual Studio solution items into logical, abstract groups called *layers*. You can use layers to describe major tasks that these artifacts perform or the system's major components. Each layer can contain other layers that describe more detailed tasks. You can also specify the intended or existing *dependencies* between layers. These dependencies, which are represented as arrows, show which layers can use or currently use the functionality represented by other layers. To maintain architectural control of the code, show the intended dependencies on the diagram and then validate the code against the diagram.  
   
-##  <a name="CreateDiagram"></a> Create a layer diagram  
+## <a name="CreateDiagram"></a> Create a layer diagram  
  Before you create a layer diagram, make sure your solution has a modeling project. See [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
 > [!IMPORTANT]
@@ -51,7 +51,7 @@ To visualize your software system's high-level, logical architecture, create a *
   
 5. Make sure to save both the modeling project and the layer diagram.  
   
-##  <a name="CreateLayers"></a> Create layers from artifacts  
+## <a name="CreateLayers"></a> Create layers from artifacts  
  You can create layers from Visual Studio solution items, such as projects, code files, namespaces, classes, and methods. This automatically creates links between layers and items, including them in the layer validation process.  
   
  You can also link layers to items that don't support validation, such as Word documents or PowerPoint presentations, so that you can associate a layer with specifications or plans. You can also link layers to files in projects that are shared across multiple apps, but the validation process won't include those layers, which appear with generic names such as "Layer 1" and "Layer 2".  
@@ -80,7 +80,7 @@ To visualize your software system's high-level, logical architecture, create a *
   
 - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
   
-##  <a name="Managing"></a> Manage links between layers and artifacts  
+## <a name="Managing"></a> Manage links between layers and artifacts  
   
 1. On the layer diagram, open the shortcut menu for the layer, and then choose **View Links**.  
   
@@ -96,7 +96,7 @@ To visualize your software system's high-level, logical architecture, create a *
 |Create a new layer from an existing artifact link|Drag the artifact link to a blank area on the diagram.|  
 |Verify that a linked artifact supports validation against the layer diagram.|Look at the **Supports Validation** column for the artifact link.|  
   
-##  <a name="Discovering"></a> Reverse-engineer existing dependencies  
+## <a name="Discovering"></a> Reverse-engineer existing dependencies  
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can reverse-engineer existing dependencies for artifacts that are linked to layers on the diagram.  
   
 > [!NOTE]
@@ -106,7 +106,7 @@ To visualize your software system's high-level, logical architecture, create a *
   
   Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
   
-##  <a name="EditDependencies"></a> Edit layers and dependencies to show the intended design  
+## <a name="EditDependencies"></a> Edit layers and dependencies to show the intended design  
  To describe the changes that you plan to make to your system or the intended architecture, edit the layer diagram:  
   
 |**To**|**Perform these steps**|  
@@ -117,10 +117,10 @@ To visualize your software system's high-level, logical architecture, create a *
 |Specify that artifacts associated with a layer must not belong to the specified namespaces|Type the namespaces in the layer's **Forbidden Namespaces** property. Use a semicolon (**;**) to separate the namespaces.|  
 |Specify that artifacts associated with a layer must belong to one of the specified namespaces|Type the namespace in the layer's **Required Namespaces** property. Use a semicolon (**;**) to separate the namespaces.|  
   
-##  <a name="EditLayout"></a> Change how elements appear on the diagram  
+## <a name="EditLayout"></a> Change how elements appear on the diagram  
  You can change the size, shape, color, and position of layers or the color of dependencies by editing their properties.  
   
-##  <a name="Codemaps"></a> Discover patterns and dependencies on a code map  
+## <a name="Codemaps"></a> Discover patterns and dependencies on a code map  
  While creating layer diagrams, you might also create **code maps**. These diagrams can help you discover patterns and dependencies while you explore the code. Use Solution Explorer, Class View, or Object Browser to explore assemblies, namespaces, and classes - which often correspond well to existing layers. For more information about code maps, see:  
   
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  

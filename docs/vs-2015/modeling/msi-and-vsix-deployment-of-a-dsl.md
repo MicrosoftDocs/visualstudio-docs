@@ -15,7 +15,7 @@ manager: jillfra
 
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] must already be installed on the target computer.  
   
-##  <a name="which"></a> Choosing between VSIX and MSI Deployment  
+## <a name="which"></a> Choosing between VSIX and MSI Deployment  
  There are two methods of deploying a domain-specific language:  
   
 |Method|Benefits|  
@@ -23,7 +23,7 @@ You can install a domain-specific language on your own computer or on other comp
 |VSX ([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension)|Very easy to deploy: Copy and execute the **.vsix** file from the DslPackage project.<br /><br /> For more information see [Installing and Uninstalling a DSL by using the VSX](#Installing).|  
 |MSI (installer file)|-   Allows the user to open [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] by double-clicking a DSL file.<br />-   Associates an icon with the DSL file type in the target computer.<br />-   Associates an XSD (XML schema) with the DSL file type. This avoids warnings when the file is loaded into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].<br /><br /> You must add a setup project to your solution to create an MSI.<br /><br /> For more information, see [Deploying a DSL by using an MSI file](#msi).|  
   
-##  <a name="Installing"></a> Installing and Uninstalling a DSL by using the VSX  
+## <a name="Installing"></a> Installing and Uninstalling a DSL by using the VSX  
  When your DSL is installed by this method, the user can open a DSL file from within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], but the file cannot be opened from Windows Explorer.  
   
 #### To install a DSL by using the VSX  
@@ -60,7 +60,7 @@ You can install a domain-specific language on your own computer or on other comp
   
    *LocalAppData* **\Microsoft\VisualStudio\10.0\Extensions**  
   
-##  <a name="msi"></a> Deploying a DSL in an MSI  
+## <a name="msi"></a> Deploying a DSL in an MSI  
  By defining an MSI (Windows Installer) file for your DSL, you can allow users to open DSL files from Windows Explorer. You can also associate an icon and short description with your file name extension. In addition, the MSI can install an XSD that can be used to validate DSL files. If you want, you can add other components into the MSI that will be installed at the same time.  
   
  For more information about MSI files and other deployment options, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).  

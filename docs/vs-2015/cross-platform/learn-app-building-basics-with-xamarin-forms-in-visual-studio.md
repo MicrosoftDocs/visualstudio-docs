@@ -29,7 +29,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 > [!TIP]
 >  You can find the complete source code for this project in the [xamarin-forms-samples repository on GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather).
 
-##  <a name="solution"></a> Set up your solution
+## <a name="solution"></a> Set up your solution
  These steps create a Xamarin.Forms solution that contains a PCL for shared code and two added NuGet packages.
 
 1. In Visual Studio, create a new **Blank App (Xamarin.Forms Portable)** solution and name it **WeatherApp**. You can find this template most easily by entering **Xamarin.Forms** into the search field.
@@ -87,7 +87,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 6. Build your solution and verify that there are no build errors.
 
-##  <a name="dataservice"></a> Write shared data service code
+## <a name="dataservice"></a> Write shared data service code
  The **WeatherApp (Portable)** project is where you’ll write code for the portable class library (PCL) that’s shared across all platforms. The PCL is automatically included in the app packages build by the iOS, Android, and Windows Phone projects.
 
  To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).
@@ -206,7 +206,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 7. Build the **WeatherApp** PCL project to make sure the code is correct.
 
-##  <a name="uicode"></a> Begin writing shared UI code
+## <a name="uicode"></a> Begin writing shared UI code
  Xamarin.Forms let you implement shared UI code in the PCL. In these steps you’ll add a screen to the PCL with a button that updates its text with data returned by the weather data service code added in the previous section:
 
 1. Add a **Forms Xaml Page** named **WeatherPage.cs** by right-clicking the **WeatherApp** project and selecting **Add > New Item...**. In the **Add New Item** dialog, search on “Forms,” select **Forms Xaml Page**, and name it **WeatherPage.cs**.
@@ -268,7 +268,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 5. Build the WeatherApp PCL project to make sure the code is correct.
 
-##  <a name="test"></a> Test your app using the Visual Studio Emulator for Android
+## <a name="test"></a> Test your app using the Visual Studio Emulator for Android
  Now you’re ready to run the app! Let’s run just the Android version for now to verify that the app is getting data from the weather service. Later you’ll also run the iOS and Windows Phone versions after you’ve added more UI elements. (Note: if you’re running Visual Studio on Windows 7, you’ll follow these same steps but will the Xamarin Player instead.)
 
 1. Set the **WeatherApp.Droid** project as the startup project by right-clicking it and selecting **Set as Startup Project**.
@@ -281,7 +281,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
      ![Weather App before and after tapping the button](../cross-platform/media/crossplat-xamarin-formsguide-8.png "CrossPlat Xamarin FormsGuide 8")
 
-##  <a name="finish"></a> Finish the UI with a native look and feel across platforms
+## <a name="finish"></a> Finish the UI with a native look and feel across platforms
  Xamarin.Forms renders native UI controls for each platform so that your app automatically has a native look and feel. To see this more clearly, let’s finish the UI with an input field for a zip code and then display the weather data that’s returned from the service.
 
 1. Replace the contents of **WeatherPage.xaml** with the code below. Note that every element is named using the **x:Name** attribute as described earlier so that the element can be referenced from code. Xamarin.Forms also provides a number of [layout options](http://developer.xamarin.com/guides/xamarin-forms/controls/layouts/) (xamarin.com); here, WeatherPage is using [StackLayout](http://developer.xamarin.com/api/type/Xamarin.Forms.StackLayout/) (xamarin.com).

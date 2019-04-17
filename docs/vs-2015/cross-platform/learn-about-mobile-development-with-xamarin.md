@@ -88,7 +88,7 @@ This topic directs you to overview material that helps you understand developing
   
 3. **Microsoft’s Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
   
-##  <a name="components"></a> Deeper Dive: Xamarin Components  
+## <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  
   
  Many extended capabilities are available to Xamarin apps through Xamarin components. You can find the full catalog available for download on [http://components.xamarin.com/](http://components.xamarin.com/), which includes components for additional UI controls, authentication, a variety of cloud services such as Microsoft Azure, and much more.

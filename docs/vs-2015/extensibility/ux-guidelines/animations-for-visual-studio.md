@@ -189,7 +189,7 @@ manager: jillfra
 
 - Determinate indicators give the user a sense of how far along the action is progressing, as well as a feeling of getting closer to the finish.
 
-##  <a name="BKMK_AnimationPatterns"></a> Animation patterns
+## <a name="BKMK_AnimationPatterns"></a> Animation patterns
 
 ### Overview
  Animations in Visual Studio are meant to serve a specific function and not hinder user productivity. General animation characteristics to adhere to include:

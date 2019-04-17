@@ -37,7 +37,7 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 > [!TIP]
 > Not sure whether to use **Attach to Process** for your debugging scenario? See [Common debugging scenarios](#BKMK_Scenarios).
 
-##  <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on your local machine
+## <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on your local machine
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
 
@@ -73,7 +73,7 @@ To debug a process on a remote computer, see [Attach to a process on a remote co
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
 
-##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
+## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
 
 You can also select a remote computer in the **Attach to Process** dialog box, view a list of available processes running on that computer, and attach to one or more of the processes for debugging. The remote debugger (*msvsmon.exe*) must be running on the remote computer. For more information, see [Remote debugging](../debugger/remote-debugging.md).
 
@@ -180,7 +180,7 @@ For remote debugging scenarios, you must have the source code (or a copy of the 
 
 In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app. By default, this requires a debug build. For more information, see [Specify symbol and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
-##  <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
+## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
  When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the **Select Code Type** dialog box.
 
  Sometimes, the debugger can successfully attach to one code type, but not to another code type. This might occur if you are trying to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others. It can also occur if you try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.

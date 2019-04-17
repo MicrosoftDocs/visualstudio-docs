@@ -26,7 +26,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
  If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
   
-##  <a name="templates"></a> Selecting a Template Solution  
+## <a name="templates"></a> Selecting a Template Solution  
  To define a DSL, you must have installed the following components:  
   
 |||  
@@ -117,7 +117,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
   Delete or rename other classes to suit your requirements.  
   
-##  <a name="patterns"></a> Patterns for Defining a DSL  
+## <a name="patterns"></a> Patterns for Defining a DSL  
  We recommend that you develop a DSL by adding or adjusting one or two features at a time. Add a feature, run the DSL and test it, and then add one or two more features. A typical feature of your DSL might be:  
   
 - A domain class, the embedding relationship that connects the element to the model, the shape required to display elements of that class on the diagram, and the element tool that lets users create elements.  
@@ -144,7 +144,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
 > [!NOTE]
 >  "Model" refers to an instance of your DSL that users create, and typically is displayed as a diagram. This topic discusses both the DSL Definition diagram and the model diagrams that appear when your DSL is used.  
   
-##  <a name="classes"></a> Defining Domain Classes  
+## <a name="classes"></a> Defining Domain Classes  
  Domain Classes represent the concepts of your DSL. The instances are *model elements*. For example in a **MusicLibrary** DSL you might have Domain Classes named **Album** and **Song**.  
   
  To create a domain class, you can drag from the **Named Domain Class** tool to the diagram, and then rename the class.  
@@ -226,7 +226,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 7. **Save the file, close it, and re-open it**. All the instances you created should be visible in the explorer, after you expand the nodes.  
   
-##  <a name="shapes"></a> Defining Shapes on the Diagram  
+## <a name="shapes"></a> Defining Shapes on the Diagram  
  You can define classes of elements that appear on a diagram as rectangles, ellipses, or icons.  
   
 #### To define a class of elements that appear as shapes on a diagram  
@@ -322,7 +322,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
    After you first test a shape, you might want to adjust some its properties and add some more advanced features. For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
-##  <a name="references"></a> Defining Reference Relationships  
+## <a name="references"></a> Defining Reference Relationships  
  You can define a reference relationship between any source domain class and any target domain class. Reference relationships are typically displayed on a diagram as connectors, which are lines between shapes.  
   
  For example, if music Albums and Artists are displayed as shapes on your diagram, you could define a relationship named ArtistsAppearedOnAlbums that links Artists to the Albums on which they have worked. See the example in the figure.  
@@ -404,7 +404,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
    After you first test a connector, you might want to adjust some its properties and add some more advanced features. For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
-##  <a name="compartments"></a> Defining Shapes that Contain Lists: Compartment Shapes  
+## <a name="compartments"></a> Defining Shapes that Contain Lists: Compartment Shapes  
  A compartment shape contains one or more lists of items. For example, in a Music Library DSL, you could use compartment shapes to represent music Albums. In each Album, there is a list of Songs.  
   
  ![Compartment Shape](../modeling/media/compartmentshape.png "CompartmentShape")  
@@ -532,7 +532,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 7. Select either the link or the item in the compartment shape. Both the link and the item should disappear.  
   
-##  <a name="ports"></a> Defining Ports on the Boundary of another Shape  
+## <a name="ports"></a> Defining Ports on the Boundary of another Shape  
  A port is a shape that is located on the boundary of another shape.  
   
  Ports can also be used to provide a fixed connection point on another shape, to which the user can draw connectors. In this case, you can make the port shape transparent.  
@@ -555,7 +555,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
   For more information, see [Properties of Port Shapes](../modeling/properties-of-port-shapes.md).  
   
-##  <a name="swimlanes"></a> Defining a DSL that has Swimlanes  
+## <a name="swimlanes"></a> Defining a DSL that has Swimlanes  
  Swimlanes are a horizontal or vertical partition of a diagram. Each swimlane corresponds to a model element. Your DSL definition requires one domain class for the swimlane elements.  
   
  The best way to create a DSL with swimlanes is to create a new DSL solution and choose the Task Flow solution template. In the DSL Definition, the Actor class is the domain class mapped to the swimlane. Rename this and the other classes to suit your project.  
@@ -566,7 +566,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
  For more information, see [Properties of Swimlanes](../modeling/properties-of-swimlanes.md).  
   
-##  <a name="addTypes"></a> Adding Property Types  
+## <a name="addTypes"></a> Adding Property Types  
   
 ### Domain Enumerations and Literals  
  A domain enumeration is a type with several literal values.  
@@ -582,7 +582,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
  To add a type, right-click the root of the model in DSL Explorer, and then click **Add New External Type**. In the Properties window, set the name to **Color** and the namespace to **System.Drawing**. This type now appears in DSL Explorer under **Domain Types**. You can choose it whenever you set the type of a domain property.  
   
-##  <a name="custom"></a> Customizing the DSL  
+## <a name="custom"></a> Customizing the DSL  
  Using the techniques described in this topic, you can quickly create a DSL with a diagrammatic notation, a readable XML form, and the basic tools that are required to generate code and other artifacts.  
   
  There are two methods of extending the DSL definition:  
@@ -602,7 +602,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
  See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).  
   
-##  <a name="trouble"></a> Troubleshooting  
+## <a name="trouble"></a> Troubleshooting  
  The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibililty Forum](http://go.microsoft.com/fwlink/?LinkId=186074).  
   
 |Problem|Suggestion|  

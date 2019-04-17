@@ -31,7 +31,7 @@ You can modify the behavior of some of the standard commands that are defined au
 > [!NOTE]
 >  If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
-##  <a name="what"></a> What commands can you modify?  
+## <a name="what"></a> What commands can you modify?  
   
 #### To discover what commands you can modify  
   
@@ -48,7 +48,7 @@ You can modify the behavior of some of the standard commands that are defined au
     > [!NOTE]
     >  Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
   
-##  <a name="extend"></a> Extend the appropriate command set class  
+## <a name="extend"></a> Extend the appropriate command set class  
  Create a new file that contains a partial declaration of the command set class.  
   
 #### To extend the Command Set class  
@@ -73,7 +73,7 @@ You can modify the behavior of some of the standard commands that are defined au
   
      **Note** If you used the class file template to create the new file, you must correct both the namespace and the class name.  
   
-##  <a name="override"></a> Override the command methods  
+## <a name="override"></a> Override the command methods  
  Most commands have two associated methods: The method with a name like `ProcessOnStatus`... determines whether the command should be visible and enabled. It is called whenever the user right-clicks the diagram, and should execute quickly and make no changes. `ProcessOnMenu`... is called when the user clicks the command, and should perform the function of the command. You might want to override either one or both of these methods.  
   
 ### To change when the command appears on a menu  

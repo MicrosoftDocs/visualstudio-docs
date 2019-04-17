@@ -124,7 +124,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
  When you postpone the collection of profiling information by using this setting, an additional link becomes available in the bottom portion of the GPU Usage tool window when you run your app under the GPU Usage tool. To start collecting profiling information, choose the **Start** link in the **Start collecting additional detailed GPU Usage Data** message.  
   
-##  <a name="hwsupport"></a> Hardware and driver support  
+## <a name="hwsupport"></a> Hardware and driver support  
  The following GPU hardware and drivers are supported:  
   
 |Vendor|GPU Description|Driver Version Required|  

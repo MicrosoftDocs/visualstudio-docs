@@ -21,7 +21,7 @@ When you need to investigate performance issues in your app, a good place to sta
   
  the Performance and Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Windows Store. For more information, see [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
   
-##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
+## <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
   
 1. In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
   
@@ -53,10 +53,10 @@ When you need to investigate performance issues in your app, a good place to sta
   
 ## Analyze the CPU Usage report  
   
-###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree  
+### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree  
  To get started understanding call tree information, reselect the `GetMaxNumberButton_Click` segment, and look at the call tree details.  
   
-####  <a name="BKMK_Call_tree_structure"></a> Call tree structure  
+#### <a name="BKMK_Call_tree_structure"></a> Call tree structure  
  ![GetMaxNumberButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumbercalltree-annotated.png "CPU_USE_WT_GetMaxNumberCallTree_annotated")  
   
 |||  
@@ -66,7 +66,7 @@ When you need to investigate performance issues in your app, a good place to sta
 |![Step 3](../profiling/media/procguid-3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|  
 |![Step 4](../profiling/media/procguid-4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
   
-####  <a name="BKMK_External_Code"></a> External Code  
+#### <a name="BKMK_External_Code"></a> External Code  
  External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won’t be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
   
  When you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
@@ -81,7 +81,7 @@ When you need to investigate performance issues in your app, a good place to sta
   
  ![Search for nested external code](../profiling/media/cpu-use-wt-showexternalcodetoowide-found.png "CPU_USE_WT_ShowExternalCodeTooWide_Found")  
   
-###  <a name="BKMK_Call_tree_data_columns"></a> Call tree data columns  
+### <a name="BKMK_Call_tree_data_columns"></a> Call tree data columns  
   
 |||  
 |-|-|  
@@ -91,7 +91,7 @@ When you need to investigate performance issues in your app, a good place to sta
 |**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
 |**Module**|The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.|  
   
-###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU Usage call tree  
+### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU Usage call tree  
  When the compiler encounters an asynchronous method, it creates a hidden class to control the method’s execution. Conceptually, the class is a state machine that includes a list of compiler-generated functions that call operations of the original method asynchronously, and the callbacks, scheduler, and iterators required to them correctly. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent, and runs the methods of the hidden class in the context of the system and framework code that control the app’s execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code is shown in the CPU Usage call tree as children of the **[External Code]** node immediately below the top node of the tree.  
   
  To see this in our example, re-select the `GetMaxNumberAsyncButton_Click` segment in the timeline.  

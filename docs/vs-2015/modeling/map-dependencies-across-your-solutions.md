@@ -45,7 +45,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 - [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
   
-##  <a name="GetStarted"></a> Get started with code maps  
+## <a name="GetStarted"></a> Get started with code maps  
  **To use code maps you’ll need either**:  
   
 - Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
@@ -85,7 +85,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 4. [See specific dependencies](#SeeSpecificSource) to understand how you can use code maps to view specific dependencies within your solution.  
   
-###  <a name="CreateEmptyMap"></a> To add a new empty code map to your solution  
+### <a name="CreateEmptyMap"></a> To add a new empty code map to your solution  
   
 1. In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** then choose **New Item**.  
   
@@ -109,9 +109,9 @@ When you want to understand dependencies across your code, visualize them by cre
   
      You now have a blank map, which does not appear in your solution's folders.  
   
-##  <a name="SeeOverviewSource"></a> See overall dependencies  
+## <a name="SeeOverviewSource"></a> See overall dependencies  
   
-###  <a name="OverviewSource"></a> See dependencies across your solution  
+### <a name="OverviewSource"></a> See dependencies across your solution  
   
 1. On the **Architecture** menu, choose **Generate Code Map for Solution**.  
   
@@ -183,7 +183,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 - Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).  
   
-###  <a name="OverviewCompiled"></a> See dependencies across assemblies or binaries  
+### <a name="OverviewCompiled"></a> See dependencies across assemblies or binaries  
   
 1. [Create an empty code map](#GetStarted), or open an existing code map (.dgml file).  
   
@@ -192,7 +192,7 @@ When you want to understand dependencies across your code, visualize them by cre
 > [!NOTE]
 >  You can drag assemblies or binaries from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation. To work around this, make sure that both are running with the same permission level, or turn UAC off.  
   
-##  <a name="SeeSpecificSource"></a> See specific dependencies  
+## <a name="SeeSpecificSource"></a> See specific dependencies  
  For example, suppose you have a code review to perform in some files with pending changes. To see the dependencies in those changes, you can create a code map from those files.  
   
  ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
@@ -277,7 +277,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
   
-##  <a name="SeeSourceHeader"></a> See dependencies between C and C++ source files and header files  
+## <a name="SeeSourceHeader"></a> See dependencies between C and C++ source files and header files  
  If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. See [/FR, /Fr (Create .Sbr File)](http://msdn.microsoft.com/library/3fd8f88b-3924-4feb-9393-287036a28896). Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to `0` or delete the key:  
   
  **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\NativeProvider : AutoEnableSbr**  
@@ -292,7 +292,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![First&#45;level dependency graph for .h file](../modeling/media/dependencygraph-native-firstlevel.png "DependencyGraph_Native_FirstLevel")  
   
-###  <a name="Troubleshooting"></a> Troubleshoot maps for C and C++ code  
+### <a name="Troubleshooting"></a> Troubleshoot maps for C and C++ code  
  These items aren't supported for C and C++ code:  
   
 - Base types don't appear on maps that include the parent hierarchy.  
@@ -312,7 +312,7 @@ When you want to understand dependencies across your code, visualize them by cre
 ||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.<br /><br /> See [/PDBSTRIPPED (Strip Private Symbols)](http://msdn.microsoft.com/library/9b9e0070-6a13-4142-8180-19c003fbbd55).|  
 ||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.<br /><br /> See:<br /><br /> -   [General Rules and Limitations](http://msdn.microsoft.com/library/6c48902d-4259-4761-95d4-e421d69aa050)<br />-   [Importing Function Calls Using __declspec(dllimport)](http://msdn.microsoft.com/library/6b53c616-0c6d-419a-8e2a-d2fff20510b3)<br />-   [dllexport, dllimport](http://msdn.microsoft.com/library/ff95b645-ef55-4e72-b848-df44657b3208)|  
   
-##  <a name="RenderMoreQuickly"></a> Make code maps render more quickly  
+## <a name="RenderMoreQuickly"></a> Make code maps render more quickly  
  When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:  
   
 - [Map only the dependencies that interest you.](#SeeSpecificSource)  
@@ -333,7 +333,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
   The completed map will show dependencies only for successfully-built code. If build errors occur for certain components, these errors appear on the map. Make sure that a component actually builds and has dependencies on it before you make architectural decisions based on the map.  
   
-##  <a name="SavingExporting"></a> Share code maps  
+## <a name="SavingExporting"></a> Share code maps  
   
 ### Share the map with other Visual Studio users  
  Use the **File** menu to save the map.  

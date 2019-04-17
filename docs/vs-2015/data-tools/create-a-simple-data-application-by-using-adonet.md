@@ -52,10 +52,10 @@ When you create an application that manipulates data in a database, you perform 
   
   This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
   
-##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
+## <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
  The sample database for this walkthrough consists of the Customer and Orders tables. The tables contain no data initially, but you’ll add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
   
-##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
+## <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   
 1. Create a project for a Windows Forms application, and then name it SimpleDataApp.  
   
@@ -113,7 +113,7 @@ When you create an application that manipulates data in a database, you perform 
 |Button|Name = btnFillOrder|  
 |Button|Name = btnFinishUpdates|  
   
-##  <a name="BKMK_storetheconnectionstring"></a> Store the connection string  
+## <a name="BKMK_storetheconnectionstring"></a> Store the connection string  
  When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the App config file in your project, and create a method that returns the string when the method is called from any form in your application.  
   
  You can find the connection string in **SQL Server Object Explorer** by right-clicking the database, selecting **Properties**, and then finding the ConnectionString property. Use Ctrl+A to select the string.  
@@ -131,7 +131,7 @@ When you create an application that manipulates data in a database, you perform 
 > [!NOTE]
 >  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
   
-##  <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
+## <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   
 1. On the menu bar, select **Project** > **Add Reference**, and then add a reference to System.Configuration.dll.  
   
@@ -213,7 +213,7 @@ When you create an application that manipulates data in a database, you perform 
     |Util-2|Define a variable, `returnValue`, and initialize it to `null` (C#) or `Nothing` (Visual Basic).|  
     |Util-3|Even though you entered `connString` as the name of the connection string in the **Properties** window, you must specify `"SimpleDataApp.Properties.Settings.connString"` (C#) or `"SimpleDataApp.My.MySettings.connString"` (Visual Basic) in the code.|  
   
-##  <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
+## <a name="BKMK_writethecodefortheforms"></a> Write the code for the forms  
  This section contains brief overviews of what each form does and shows the code that creates the forms. Numbered comments identify sections of the code.  
   
 ### Navigation form  
@@ -1133,5 +1133,5 @@ End Namespace
 |FC-8|Add code to the Click event handler for `btnFillOrder`. This code runs the `Sales.uspFillOrder` stored procedure.|  
 |FC-9|Create a method to verify that `OrderID` is ready to submit as a parameter to the `SqlCommand` object.<br /><br /> -   Make sure that an ID has been entered in `txtOrderID`.<br />-   Use `Regex.IsMatch` to define a simple check for non-integer characters.<br />-   You declared the `parsedOrderID` variable at FC-2.<br />-   If the input is valid, convert the text to an integer, and store the value in the `parsedOrderID` variable.<br />-   Wrap the `isOrderID` method around the `btnFindByOrderID`, `btnCancelOrder`, and `btnFillOrder` Click event handlers.|  
   
-##  <a name="BKMK_testyourapplication"></a> Test your application  
+## <a name="BKMK_testyourapplication"></a> Test your application  
  Select the F5 key to build and test your application after you code each Click event handler, and then after you finish coding.

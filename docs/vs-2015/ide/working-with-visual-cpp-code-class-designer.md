@@ -78,7 +78,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 ### Troubleshooting Other Error Messages  
  You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).  
   
-##  <a name="limitations"></a> Limitations for C++ Code Elements  
+## <a name="limitations"></a> Limitations for C++ Code Elements  
   
 - When a Visual C++ project is loaded, Class Designer functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
   

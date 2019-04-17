@@ -65,7 +65,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
    Some validation tests are applied to the model to ensure that it can be translated to C#. If these tests fail, an error message is displayed and code generation is not performed. If you have created a validation menu command, code is not generated for any element for which your validation command fails. For more information, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
 
-##  <a name="default"></a> Default Code Generation Transforms  
+## <a name="default"></a> Default Code Generation Transforms  
  This section summarizes the results that are produced by the **Generate Code** command, unless you customize the command. For more information, see [Customizing the Generate Code Command](#custom).  
 
 - One C# type is produced for each type that you have selected in the UML model. Each type is placed in a separate code file under the **GeneratedCode** folder.  
@@ -120,7 +120,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
   Each attribute and operation also has stereotype properties that you can set. If you do not see the properties on a new attribute, run **Generate Code**.  
 
-##  <a name="custom"></a> Customizing the Generate Code Command  
+## <a name="custom"></a> Customizing the Generate Code Command  
  The **Generate Code** command works by transforming your model elements using a set of text templates. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
 
  The templates are specified in a set of *text template bindings*. A text template binding specifies what template should be applied, where the generated output should be placed, and other parameters of the **Generate Code** command.  
@@ -169,7 +169,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
 5. You can attach as many bindings to an element as you want.  
 
-##  <a name="writing"></a> Writing a Text Template  
+## <a name="writing"></a> Writing a Text Template  
  You can write your own text templates. Text templates can generate program code or any other kind of text file.  
 
  We recommend that you start by modifying copies of the standard templates. You can copy the templates from the following locations:  

@@ -65,7 +65,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [Dictionary/Acronyms/CasingExceptions/Acronym](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryAcronymsCasingExceptionsAcronym)
 
-###  <a name="BKMK_DictionaryWordsRecognizedWord"></a> Dictionary/Words/Recognized/Word
+### <a name="BKMK_DictionaryWordsRecognizedWord"></a> Dictionary/Words/Recognized/Word
  To include a term in the list of terms that code analysis identifies as correctly spelled, add the term as the inner text of a Dictionary/Words/Recognized/Word element. Terms in Dictionary/Words/Recognized/Word elements are not case-sensitive.
 
  **Example**
@@ -99,7 +99,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
 
-###  <a name="BKMK_DictionaryWordsUnrecognizedWord"></a> Dictionary/Words/Unrecognized/Word
+### <a name="BKMK_DictionaryWordsUnrecognizedWord"></a> Dictionary/Words/Unrecognized/Word
  To exclude a term from the list of terms that code analysis identifies as correctly spelled, add the term to exclude as the inner text of a Dictionary/Words/Unrecognized/Word element. Terms in Dictionary/Words/Unrecognized/Word elements are not case-sensitive.
 
  **Example**
@@ -133,7 +133,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)
 
-###  <a name="BKMK_DictionaryWordsDeprecatedTermPreferredAlternate"></a> Dictionary/Words/Deprecated/Term[@PreferredAlternate]
+### <a name="BKMK_DictionaryWordsDeprecatedTermPreferredAlternate"></a> Dictionary/Words/Deprecated/Term[@PreferredAlternate]
  To include a term in the list of terms that code analysis identifies as deprecated, add the term as the inner text of a Dictionary/Words/Deprecated/Term element. A deprecated term is a word that is spelled correctly but should not be used.
 
  To include a suggested alternate term in the warning, specify the alternate in the PreferredAlternate attribute of the Term element. You can leave the attribute value empty if you do not want to suggest an alternate.
@@ -169,7 +169,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
 
-###  <a name="BKMK_DictionaryWordsCompoundTermCompoundAlternate"></a> Dictionary/Words/Compound/Term[@CompoundAlternate]
+### <a name="BKMK_DictionaryWordsCompoundTermCompoundAlternate"></a> Dictionary/Words/Compound/Term[@CompoundAlternate]
  The built-in dictionary identifies some terms as single, discrete terms rather than a compound term. To include a term in the list of terms that code analysis identifies as a compound word and to specify the correct casing of the term, add the term as the inner text of a Dictionary/Words/Compound/Term element. In the CompoundAlternate attribute of the Term element, specify the individual words that make up the compound term by capitalizing the first letter of the individual words (Pascal case). Note that the term specified in the inner text is automatically added to the Dictionary/Words/DiscreteExceptions list.
 
 - The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
@@ -201,7 +201,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
 
-###  <a name="BKMK_DictionaryWordsDiscreteExceptionsTerm"></a> Dictionary/Words/DiscreteExceptions/Term
+### <a name="BKMK_DictionaryWordsDiscreteExceptionsTerm"></a> Dictionary/Words/DiscreteExceptions/Term
  To exclude a term in the list of terms that code analysis identifies as a single, discrete word when the term is checked by the casing rules for compound words, add the term as the inner text of a Dictionary/Words/DiscreteExceptions/Term element. The term in Dictionary/Words/DiscreteExceptions/Term element is not case-sensitive.
 
  **Example**
@@ -225,7 +225,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
 
-###  <a name="BKMK_DictionaryAcronymsCasingExceptionsAcronym"></a> Dictionary/Acronyms/CasingExceptions/Acronym
+### <a name="BKMK_DictionaryAcronymsCasingExceptionsAcronym"></a> Dictionary/Acronyms/CasingExceptions/Acronym
  To include an acronym in the list of terms that code analysis identifies as correctly spelled and to indicate how the acronym when the term is checked by the casing rules for compound words, add the term as the inner text of a Dictionary/Acronyms/CasingExceptions/Acronym element. The acronym in the Dictionary/Acronyms/CasingExceptions/Acronym element is case-sensitive.
 
  **Example**
@@ -247,7 +247,7 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 - [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 
-##  <a name="BKMK_ToApplyACustomDictionaryToAProject"></a> To apply a custom dictionary to a project
+## <a name="BKMK_ToApplyACustomDictionaryToAProject"></a> To apply a custom dictionary to a project
 
 1. In **Solution Explorer**, use one of the following procedures:
 

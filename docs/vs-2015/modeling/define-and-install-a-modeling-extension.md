@@ -103,7 +103,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 3. If you used **Start Without Debugging** but you want to use the debugger, go back to the main instance of Visual Studio. On the **Debug** menu, click **Attach to Process**. In the dialog box, select the experimental instance of Visual Studio, which has the program name **devenv**.  
   
-##  <a name="Installing"></a> Installing and uninstalling an extension  
+## <a name="Installing"></a> Installing and uninstalling an extension  
  Perform the following steps to run your extension in the main instance of Visual Studio either on your own computer or on other computers.  
   
 1. In your computer, find the **.vsix** file that was built by your extension project.  

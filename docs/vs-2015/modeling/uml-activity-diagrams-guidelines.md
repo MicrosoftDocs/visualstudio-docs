@@ -37,7 +37,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
   For reference information about the elements on activity diagrams, see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
   
-##  <a name="Relationships"></a> Relationship to Other Diagrams  
+## <a name="Relationships"></a> Relationship to Other Diagrams  
  If you draw an activity diagram to describe a business process, or a way in which users use your system, you can draw a use case diagram to show a different view of the same information. In the use case diagram, you draw actions as use cases. Give the use cases the same names as the corresponding actions. The advantages of the use case view are that you can:  
   
 - Show in one diagram how larger actions/use cases are composed of smaller ones, using the Includes relation.  
@@ -50,7 +50,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
   In an activity diagram, you can show the flow of data passed between actions. See the section on [Describing Data Flow](#DataFlows). But an activity diagram does not describe the structure of the data. For that purpose, you can draw a UML class diagram. For information see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
   
-##  <a name="BasicSteps"></a> Basic Steps for Drawing Activity Diagrams  
+## <a name="BasicSteps"></a> Basic Steps for Drawing Activity Diagrams  
  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To draw an activity diagram  
@@ -94,7 +94,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
     > [!NOTE]
     >  The activity will appear in UML Model Explorer only when you add the first element to the diagram.  
   
-##  <a name="SimpleControlFlow"></a> Describing Control Flow  
+## <a name="SimpleControlFlow"></a> Describing Control Flow  
  An activity diagram describes a business process or software algorithm as a series of actions. Connector arrows show how control is passed sequentially from one action to the next. Ordinarily, an action can start only after the previous action has been completed.  
   
  The following figure is an example of how you can show a sequence of actions with actions, connectors, branches and loops. Each element is explained in more detail in the following sections.  
@@ -168,7 +168,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
   Simple shapes do not form part of the UML model, and do not appear in UML Model Explorer.  
   
-##  <a name="DataFlows"></a> Describing Data Flow  
+## <a name="DataFlows"></a> Describing Data Flow  
  You can describe the data passing in and out of an activity in either of two ways:  
   
 - Use an **Object Node**. This is the simplest method of describing the information flowing between activities. An object node is like a variable in a program. It represents something that stores one or more values that are passing from one action to another.  
@@ -230,7 +230,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
  Alternatively you can specify that the object flow includes a transformation that converts data between the type of the output pin and the type of the input pin. The most common transformation of this kind just extracts the appropriate part from a larger type. The example in the figure implies the existence of a transformation that extracts the Shipping Address from the Order Detail.  
   
-##  <a name="Details"></a> Defining an Action in More Detail  
+## <a name="Details"></a> Defining an Action in More Detail  
  In addition to using the name of the action to make clear the result it should ordinarily achieve, here are some ways you can add more detail to an action:  
   
 - Write a more detailed description in the **Body** property. For example, you could write a fragment of program code or pseudo code, or a complete description of the results achieved.  
@@ -239,7 +239,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - Set the action's **Local Postconditions** and **Local Preconditions** properties to describe its outcome in more specific detail. For more information, see [Defining Postconditions and Preconditions](#Postcondition).  
   
-###  <a name="Subactivities"></a> Describing Sub-activities with Call Behavior Actions  
+### <a name="Subactivities"></a> Describing Sub-activities with Call Behavior Actions  
  You can describe the detailed behavior of an action using a separate activity diagram. A called behavior is an activity diagram that is represented on your main activity diagram by a Call Behavior Action. You can also use the Call Behavior Action to describe behavior that is shared between different activities so that you do not have to draw the sub-activity multiple times.  
   
  In the following figure, Diagram 1 shows an activity that has a Call Behavior Action and Diagram 2 shows the sub-activity diagram that shows the called behavior.  
@@ -279,7 +279,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
   ![Pins on Call Behavior map to activity parameters](../modeling/media/uml-actguidesub.png "UML_ActGuideSub")  
   
-###  <a name="Postcondition"></a> Defining Postconditions and Preconditions  
+### <a name="Postcondition"></a> Defining Postconditions and Preconditions  
  You can use the **Local Postconditions** and **Local Preconditions** properties to specify in detail the outcome of an action. These properties describe the effect of the action without describing how the effect is achieved.  
   
  To set these properties, right-click the action and then click **Properties**. Type values into the properties in the Properties window.  
@@ -313,7 +313,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
     - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
   
-##  <a name="Concurrent"></a> Concurrent Flows  
+## <a name="Concurrent"></a> Concurrent Flows  
  You can use the **Fork Node** and the **Join Node** to describe two or more threads of activities that can execute at the same time.  
   
  ![The fork and join nodes show concurrent flows](../modeling/media/uml-actguideconcurrent.png "UML_ActGuideConcurrent")  

@@ -33,7 +33,7 @@ You can specify one of the following test mix model options for your load test s
 
 - **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete. For more information, see [Sequential order](#SequentialOrder).
 
-###  <a name="BasedOnTestsStarted"></a> Percentage based on tests started
+### <a name="BasedOnTestsStarted"></a> Percentage based on tests started
  For each test in the mix, you can specify a percentage that determines how frequently the test is selected as the next test to run. For example, you might assign the following percentage values to three tests:
 
 - TestA (50%)
@@ -44,10 +44,10 @@ You can specify one of the following test mix model options for your load test s
 
   If you use this setting, the next test to start is based on the assigned percentages. You do this without taking into account the number of virtual users who are currently running each test.
 
-###  <a name="PercentageBasedonVirtualUsers"></a> Percentage based on virtual users
+### <a name="PercentageBasedonVirtualUsers"></a> Percentage based on virtual users
  This model of test mix determines the percentage of virtual users who will run a particular test. If you use this model of test mix, the next test to start is based not only on the assigned percentages but also on the percentage of virtual users who are currently running a particular test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution as closely as possible.
 
-###  <a name="PacingTestMix"></a> Pacing test mix
+### <a name="PacingTestMix"></a> Pacing test mix
  If you specify a pacing test mix, you set a rate of test execution for each virtual user for each test in the test mix. For each test, this rate is expressed as tests run per virtual user per hour. For example, you might assign the following pacing test mix to the following tests:
 
 - TestA: 4 tests per user per hour
@@ -73,7 +73,7 @@ You can specify one of the following test mix model options for your load test s
 
   For more information, see [How to: Apply distribution to pacing delay when using a user pace test mix model](../test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md).
 
-###  <a name="SequentialOrder"></a> Sequential order
+### <a name="SequentialOrder"></a> Sequential order
  Selecting the Based on sequential test order option makes each virtual user run all the tests in the scenario in the order that the tests were defined.
 
 ## Test iterations property

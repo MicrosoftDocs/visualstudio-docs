@@ -34,7 +34,7 @@ ms.workload:
 
 - [Deployment tasks](#deployment).
 
-##  <a name="projects"></a> Setup and general tasks
+## <a name="projects"></a> Setup and general tasks
 
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -54,7 +54,7 @@ ms.workload:
 
 - [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md).
 
-##  <a name="ui"></a> User interface customization tasks
+## <a name="ui"></a> User interface customization tasks
 
 ### Controls on documents and worksheets
 
@@ -100,7 +100,7 @@ ms.workload:
 
 - [How to: Add commands to shortcut menus](../vsto/how-to-add-commands-to-shortcut-menus.md).
 
-##  <a name="excel"></a> Excel automation tasks
+## <a name="excel"></a> Excel automation tasks
 
 - [How to: Programmatically display a string in a worksheet cell](../vsto/how-to-programmatically-display-a-string-in-a-worksheet-cell.md).
 
@@ -134,7 +134,7 @@ ms.workload:
 
 - [How to: Programmatically sort data in worksheets](../vsto/how-to-programmatically-sort-data-in-worksheets.md).
 
-##  <a name="word"></a> Word automation tasks
+## <a name="word"></a> Word automation tasks
 
 - [How to: Programmatically create new documents](../vsto/how-to-programmatically-create-new-documents.md).
 
@@ -166,7 +166,7 @@ ms.workload:
 
 - [How to: Programmatically count characters in documents](../vsto/how-to-programmatically-count-characters-in-documents.md).
 
-##  <a name="data"></a> Data tasks
+## <a name="data"></a> Data tasks
 
 ### Data-bound controls
 
@@ -198,17 +198,17 @@ ms.workload:
 
 - [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md).
 
-##  <a name="server"></a> Server-side document management tasks
+## <a name="server"></a> Server-side document management tasks
 
 - [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md).
 
 - [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md).
 
-##  <a name="security"></a> Security tasks
+## <a name="security"></a> Security tasks
 
 - [How to: Sign Office solutions](../vsto/how-to-sign-office-solutions.md).
 
-##  <a name="deployment"></a> Deployment tasks
+## <a name="deployment"></a> Deployment tasks
 
 - [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
 

@@ -17,7 +17,7 @@ You can use IntelliTrace to collect information about specific events or categor
   
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).  
   
-##  <a name="GettingStarted"></a> Using IntelliTrace with events only  
+## <a name="GettingStarted"></a> Using IntelliTrace with events only  
  You can try debugging with just IntelliTrace events. IntelliTrace events are debugger events, exceptions, .NET Framework events, and other system events. You should turn on or turn off specific events to control the events that IntelliTrace records before you start debugging. For more information, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
  The following steps show how to debug with IntelliTrace events only:  

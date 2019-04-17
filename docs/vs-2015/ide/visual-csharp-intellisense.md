@@ -34,13 +34,13 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
   The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
-###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
+### <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
  In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
   
-###  <a name="Keywords"></a> Language Keywords in Completion Lists  
+### <a name="Keywords"></a> Language Keywords in Completion Lists  
  In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](http://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad).  
   
-###  <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
+### <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]

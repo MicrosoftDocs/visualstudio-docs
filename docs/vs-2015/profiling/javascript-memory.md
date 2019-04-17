@@ -61,7 +61,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   [Associate source code with memory usage data](#JSConsoleCommands)   
   [Tips for identifying memory issues](#Tips)  
   
-##  <a name="Run"></a> Run the JavaScript memory analyzer  
+## <a name="Run"></a> Run the JavaScript memory analyzer  
  You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../includes/win8-md.md)] or later.  
   
 #### To run the memory analyzer  
@@ -100,7 +100,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 7. To view data that the memory analyzer is gathering, choose **Take Heap Snapshot**. See [View a snapshot summary](#SnapshotSummary) later in this topic.  
   
-##  <a name="Check"></a> Check memory usage  
+## <a name="Check"></a> Check memory usage  
  You can try to identify memory leaks by using different views in the JavaScript memory analyzer. If you already suspect that your app is leaking memory, see [Isolate a memory leak](#Isolate) for a suggested workflow.  
   
  Use the following views to help identify memory leaks in an app:  
@@ -119,7 +119,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 - [View a snapshot diff](#SnapshotDiff). Shows differential values between snapshots. These views show differences in object size and object counts.  
   
-##  <a name="Isolate"></a> Isolate a memory leak  
+## <a name="Isolate"></a> Isolate a memory leak  
  These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).  
   
 1. Open your app in Visual Studio.  
@@ -185,7 +185,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 14. If there are too many objects in the view of objects left over, try to further isolate the period in which the memory leak is occurring, and then retake the three snapshots. To further isolate the memory leak, use [Associate source code with memory usage data](#JSConsoleCommands), [Associate source code with memory usage data](#JSConsoleCommands), and other memory usage data available in the memory analyzer.  
   
-##  <a name="LiveMemory"></a> View live memory usage summary  
+## <a name="LiveMemory"></a> View live memory usage summary  
  The live memory usage summary view provides a memory usage graph for the running app and a collection of all the snapshot summary tiles. In this view, you can perform basic tasks like taking snapshots, analyzing summary info, and navigating to other views. When you stop collecting data, the memory graph goes away and you see only the [View a snapshot summary](#SnapshotSummary) view.  
   
  The memory graph shows you a live view of the app's process memory, which includes private bytes, native memory, and the JavaScript heap. The memory graph is a scrollable view of the process memory. Here's what it looks like:  
@@ -196,7 +196,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
  Some of the memory shown in the memory graph is allocated by the JavaScript runtime. You can't control this memory usage in your app. The memory usage shown in the graph increases when you take your first snapshot, and then increases minimally for each additional snapshot.  
   
-##  <a name="SnapshotSummary"></a> View a snapshot summary  
+## <a name="SnapshotSummary"></a> View a snapshot summary  
  To take a snapshot of the current state of your app's memory usage, choose **Take Heap Snapshot** from the memory graph. A snapshot summary tile, which appears in both the live memory usage summary (while the app is running) and the snapshot summary (when the app is stopped), provides info about the JavaScript heap and links to more detailed info. If you take two or more snapshots, a snapshot provides additional info comparing its data to that of the previous snapshot.  
   
 > [!NOTE]
@@ -222,7 +222,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 - Screenshot of the screen at the time the snapshot is taken.  
   
-##  <a name="SnapshotDetails"></a> View snapshot details  
+## <a name="SnapshotDetails"></a> View snapshot details  
  You can view detailed info about memory usage for each snapshot in the snapshot details views.  
   
  From the snapshot summary view, choose a link to see snapshot details. For example, the heap size link opens snapshot details with the Types view open by default.  
@@ -257,7 +257,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 - **Count**. Number of object instances. This value appears only in the Types view.  
   
-##  <a name="SnapshotDiff"></a> View a snapshot diff  
+## <a name="SnapshotDiff"></a> View a snapshot diff  
  In the JavaScript memory analyzer, you can compare a snapshot against the previous snapshot in the snapshot diff views.  
   
  In the snapshot summary view, you can view the differential snapshot details by choosing the differential heap size or differential object count links after two or more snapshots have been taken.  
@@ -290,22 +290,22 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 > [!TIP]
 >  We recommend that you follow the steps in [Isolate a memory leak](#Isolate) and then use the objects left over **Scope** filter to help identify objects that are leaking memory.  
   
-##  <a name="FoldObjects"></a> View objects by dominator  
+## <a name="FoldObjects"></a> View objects by dominator  
  In the Types and Dominators views, you can choose whether to view objects folded into their dominators (this is the default view in the Dominators tab). When this view is selected, only dominators are shown in the top-level view of objects. (Objects that are descendants of non-Global objects are hidden from the top-level view.) For some apps, this can clarify which objects are causing a memory leak by reducing noise in the data.  
   
  To toggle the view of objects by dominator, choose the **Fold in objects by dominator** button. ![Folding objects into their dominators](../profiling/media/js-mem-fold-objects.png "JS_Mem_Fold_Objects")  
   
  For more info on dominators, see [View snapshot details](#SnapshotDetails).  
   
-##  <a name="Filter"></a> Filter data by identifier  
+## <a name="Filter"></a> Filter data by identifier  
  In the Dominators and Types views, you can filter out data by searching for particular identifiers. To search for an identifier, just type its name in the **Identifier filter** text box in the upper right. When you begin typing, identifiers that don't contain the typed characters are filtered out.  
   
  Each view has its own filter, so the filter isn't preserved when you switch to another view.  
   
-##  <a name="ShowInRootsView"></a> Find an object in the object tree  
+## <a name="ShowInRootsView"></a> Find an object in the object tree  
  In the Types and Dominators views, you can see the relationship of a particular object to the `Global` object. Objects rooted to the `Global` object will not be garbage-collected. You can easily find a known object in the Roots view without searching through the `Global` object tree. To do this, open the shortcut menu for an object in the Dominators or Type view, and then choose **Show in roots view**.  
   
-##  <a name="References"></a> View shared object references  
+## <a name="References"></a> View shared object references  
  In the Types and Dominators views, the lower pane contains an Object references list that displays shared references. When you choose an object in the upper pane, the Object references list displays all objects that point to that object.  
   
 > [!NOTE]
@@ -317,15 +317,15 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
  ![Object references with displayed IDs](../profiling/media/js-mem-shared-refs.png "JS_Mem_Shared_Refs")  
   
-##  <a name="BuiltInValues"></a> Show built-in objects  
+## <a name="BuiltInValues"></a> Show built-in objects  
  By default, the Dominators and Types views show only the objects that you create in your app. This helps you filter out unneeded info and isolate app-related issues. However, at times it might be useful to view all objects that the JavaScript runtime generates for your app.  
   
  To display these objects, choose **Show built-ins** in the settings list ![Settings drop&#45;down list in memory analyzer](../profiling/media/js-mem-settings.png "JS_Mem_Settings") in the upper-right corner of the pane.  
   
-##  <a name="Save"></a> Save diagnostic session files  
+## <a name="Save"></a> Save diagnostic session files  
  Diagnostic snapshot summaries and their associated details views are saved as .diagsession files. **Solution Explorer** displays previous diagnostics sessions in the Diagnostic Sessions folder. In **Solution Explorer**, you can open previous sessions or remove or rename files.  
   
-##  <a name="JSConsoleCommands"></a> Associate source code with memory usage data  
+## <a name="JSConsoleCommands"></a> Associate source code with memory usage data  
  To help isolate the section of code that has a memory issue, use the following methods:  
   
 - Look for class names and IDs for DOM elements in the details and differential views.  
@@ -366,7 +366,7 @@ if (performance && performance.mark) {
   
  ![Using a Profile Mark](../profiling/media/js-mem-performance-marks.png "JS_Mem_Performance_Marks")  
   
-##  <a name="Tips"></a> Tips for identifying memory issues  
+## <a name="Tips"></a> Tips for identifying memory issues  
   
 - Follow the workflow described in [Isolate a memory leak](#Isolate) and use the **Objects left over from Snapshot #\<number>** filter in a diff view to identify likely candidates for memory leaks.  
   

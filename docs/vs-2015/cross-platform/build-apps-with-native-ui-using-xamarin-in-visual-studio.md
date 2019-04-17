@@ -48,7 +48,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 >   - [Hello, Xamarin.Forms](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)
 >   - [Hello, Xamarin.Forms Multiscreen](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)
 
-##  <a name="solution"></a> Set up your solution
+## <a name="solution"></a> Set up your solution
  These steps create a Xamarin solution with native UI that contains a PCL for shared code and two added NuGet packages.
 
 1. In Visual Studio, create a new **Blank App (Native Portable)** solution and name it **WeatherApp**. You can find this template most easily by entering **Native Portable** into the search field.
@@ -87,7 +87,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 5. Build your solution and verify that there are no build errors.
 
-##  <a name="dataservice"></a> Write shared data service code
+## <a name="dataservice"></a> Write shared data service code
  The **WeatherApp (Portable)** project is where you’ll write code for the portable class library (PCL) that’s shared across all platforms. The PCL is automatically included in the app packages built by the iOS, Android, and Windows Phone projects.
 
  The following steps then add code to the PCL to access and store data from that weather service:
@@ -216,7 +216,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 10. Build the **WeatherApp** PCL project to make sure the code is correct.
 
-##  <a name="Android"></a> Design UI for Android
+## <a name="Android"></a> Design UI for Android
  Now, we’ll design the user interface, connect it to your shared code, and then run the app.
 
 ### Design the look and feel of your app
@@ -519,7 +519,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 > [!TIP]
 >  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 
-##  <a name="Windows"></a> Design UI for Windows Phone
+## <a name="Windows"></a> Design UI for Windows Phone
  Now we’ll design the user interface for Windows Phone, connect it to your shared code, and then run the app.
 
 ### Design the look and feel of your app
@@ -625,7 +625,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 > [!TIP]
 >  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 
-##  <a name="next"></a> Next steps
+## <a name="next"></a> Next steps
  **Add UI for iOS to the solution**
 
  Extend this sample by adding native UI for iOS. For this you’ll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do, you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.

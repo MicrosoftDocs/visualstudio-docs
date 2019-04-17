@@ -28,7 +28,7 @@ You can write code to create and update layer diagrams, and to validate the stru
   
 - [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
-##  <a name="prereqs"></a> Requirements  
+## <a name="prereqs"></a> Requirements  
  You must have the following installed on the computer where you want to develop your layer extensions:  
   
 - Visual Studio  

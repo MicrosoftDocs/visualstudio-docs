@@ -50,7 +50,7 @@ ms.workload:
 
      Visual Studio opens the new workbook in the designer and adds the **MyExcelRibbon** project to **Solution Explorer**.
 
-##  <a name="BKMK_CreateActionsPanes"></a> Create actions panes
+## <a name="BKMK_CreateActionsPanes"></a> Create actions panes
  Add two custom actions panes to the project. You will later add buttons that show and hide these actions panes to the custom tab.
 
 ### To create actions panes
@@ -67,7 +67,7 @@ ms.workload:
 
 5. Repeat steps 1 through 5 to create a second actions pane and label. Set the **Text** property of the second label to **Actions Pane 2**.
 
-##  <a name="BKMK_CreateCustomTab"></a> Create a custom tab
+## <a name="BKMK_CreateCustomTab"></a> Create a custom tab
  One of the Office application design guidelines is that users should always have control of the Office application UI. To add this capability for the actions panes, you can add buttons that show and hide each actions pane from a custom tab on the ribbon. To create a custom tab, add a **Ribbon (Visual Designer)** item to the project. The designer helps you add and position controls, set control properties, and handle control events.
 
 ### To create a custom tab
@@ -102,7 +102,7 @@ ms.workload:
 
 14. Set the **Label** property to **Hide Actions Pane**.
 
-##  <a name="BKMK_HideShowActionsPane"></a> Hide and show actions panes by using buttons on the custom tab
+## <a name="BKMK_HideShowActionsPane"></a> Hide and show actions panes by using buttons on the custom tab
  The last step is to add code that responds to the user. Add event handlers for the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> events of the two buttons and the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Add code to these event handlers to enable hiding and showing the actions panes.
 
 ### To hide and show actions panes by using buttons in the custom tab

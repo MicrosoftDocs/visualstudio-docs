@@ -25,7 +25,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ## What is a layer diagram?  
  Like a traditional architecture diagram, a layer diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on [!INCLUDE[esprtfs](../includes/esprtfs-md.md)], you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md).  
   
-##  <a name="Update"></a> How to design or update your app with layer diagrams  
+## <a name="Update"></a> How to design or update your app with layer diagrams  
  The following steps provide an overview of how to use layer diagrams within the development process. Later sections in this topic describe more detail about each step. If you are developing a new design, omit the steps that refer to existing code.  
   
 > [!NOTE]
@@ -49,7 +49,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 9. [Include layer validation in the build process](#BuildValidation) to ensure that the code continues to adhere to your design.  
   
-##  <a name="Create"></a> Create a layer diagram  
+## <a name="Create"></a> Create a layer diagram  
  A layer diagram must be created inside a modeling project. You can add a new layer diagram to an existing modeling project, create a new modeling project for the layer diagram, or copy an existing layer diagram within the same modeling project.  
   
 > [!IMPORTANT]
@@ -57,7 +57,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
  See [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
   
-##  <a name="CreateLayers"></a> Define layers to represent functional areas or components  
+## <a name="CreateLayers"></a> Define layers to represent functional areas or components  
  Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# .NET and Visual Basic .NET projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.  
   
  As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](http://go.microsoft.com/fwlink/?LinkId=145794).  
@@ -75,7 +75,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
-##  <a name="Generate"></a> Discover existing dependencies between layers  
+## <a name="Generate"></a> Discover existing dependencies between layers  
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can discover existing dependencies by reverse-engineering them.  
   
 > [!NOTE]
@@ -87,7 +87,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
   Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
   
-##  <a name="EditArchitecture"></a> Edit layers and dependencies to show the intended design  
+## <a name="EditArchitecture"></a> Edit layers and dependencies to show the intended design  
  To describe the changes that you plan to make to your system or the intended architecture, use the following steps to edit the layer diagram. You might also consider making some refactoring changes to improve the structure of the code before extending it. See [Improving the structure of the code](#Improving).  
   
 |**To**|**Perform these steps**|  
@@ -99,14 +99,14 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 |Specify that artifacts associated with a layer must not belong to the specified namespaces|Type the namespaces in the layer's **Forbidden Namespaces** property. Use a semicolon (**;**) to separate the namespaces.|  
 |Specify that artifacts associated with a layer must belong to one of the specified namespaces|Type the namespace in the layer's **Required Namespaces** property. Use a semicolon (**;**) to separate the namespaces.|  
   
-###  <a name="Improving"></a> Improving the structure of the code  
+### <a name="Improving"></a> Improving the structure of the code  
  Refactoring changes are improvements that do not affect the behavior of the application, but help make the code easier to change and extend in the future. Well-structured code has a design that is easy to abstract to a layer diagram.  
   
  For example, if you create a layer for each namespace in the code and then reverse-engineer the dependencies, there should be a minimal set of one-way dependencies between the layers. If you create a more detailed diagram using classes or methods as your layers, then the result should also have the same characteristics.  
   
  If this is not the case, the code will be more difficult to change throughout its life and will be less suitable for validation using layer diagrams.  
   
-##  <a name="NewAreas"></a> Design new areas of your application  
+## <a name="NewAreas"></a> Design new areas of your application  
  When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.  
   
 - **Show identifiable architectural patterns** in your layer diagrams, if possible. For example, a layer diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A layer diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).  
@@ -121,7 +121,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
      When you build the application, your code will be validated both against the overall diagram and your more detailed feature diagram.  
   
-##  <a name="EditLayout"></a> Edit the layout for presentation and discussion  
+## <a name="EditLayout"></a> Edit the layout for presentation and discussion  
  To help you identify layers and dependencies or discuss them with team members, edit the appearance and layout of the diagram in the following ways:  
   
 - Change the sizes, shapes, and positions of layers.  
@@ -130,7 +130,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
     - Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.  
   
-##  <a name="Validate"></a> Validate the code against the diagram  
+## <a name="Validate"></a> Validate the code against the diagram  
  When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].  
   
  See:  
@@ -139,7 +139,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 - [Include Layer Validation in the Build Process](#BuildValidation)  
   
-##  <a name="UpdateCode"></a> Update the code to conform to the new architecture  
+## <a name="UpdateCode"></a> Update the code to conform to the new architecture  
  Typically, errors will appear the first time that you validate code against an updated layer diagram. These errors can have several causes:  
   
 - An artifact is assigned to the wrong layer. In this case, move the artifact.  
@@ -153,7 +153,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../includes/esprfound-md.md)]. To perform this task, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
-##  <a name="BuildValidation"></a> Include layer validation in the build process  
+## <a name="BuildValidation"></a> Include layer validation in the build process  
  To ensure that future changes in the code conform to the layer diagrams, include layer validation to your solution's standard build process. Whenever other team members build the solution, any differences between the dependencies in the code and the layer diagram will be reported as build errors. For more information about including layer validation in the build process, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
 ## See Also  

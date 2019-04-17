@@ -57,7 +57,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
-##  <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window  
+## <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window  
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
 > [!CAUTION]
@@ -203,7 +203,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      For the complete default.html page containing corrected sample code, see [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md).  
   
-##  <a name="InteractiveDebuggingBreakMode"></a> Interactive debugging and break mode  
+## <a name="InteractiveDebuggingBreakMode"></a> Interactive debugging and break mode  
  You can use breakpoints and step into code while you're using JavaScript debugging tools like the JavaScript Console window. When a program that's running in the debugger encounters a breakpoint, the debugger temporarily suspends execution of the program. When execution is suspended, your program switches from run mode to break mode. You can resume execution at any time.  
   
  When a program is in break mode, you can use the JavaScript Console window to run scripts and commands that are valid in the current script execution context. In this procedure, you'll use the fixed version of the `FlipView` app that you created earlier to demonstrate the use of break mode.  
@@ -244,14 +244,14 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      To switch back to Visual Studio, press F12 or Alt+Tab.  
   
-##  <a name="SinglelineMultilineMode"></a> Single-line mode and multiline mode in the JavaScript Console window  
+## <a name="SinglelineMultilineMode"></a> Single-line mode and multiline mode in the JavaScript Console window  
  The input prompt for the JavaScript Console window supports both single-line mode and multiline mode. The interactive debugging procedure in this topic provides an example of using both modes. You can press Ctrl+Alt+M to switch between modes.  
   
  Single-line mode provides input history. You can navigate through the input history by using the Up Arrow and Down Arrow keys. Single-line mode clears the input prompt when you run scripts. To run a script in single-line mode, press Enter.  
   
  Multiline mode does not clear the input prompt when you run scripts. When you switch to single-line mode from multiline mode, you can clear the input line by pressing **Clear input** (the red “X”). To run a script in multiline mode, press Ctrl+Enter or choose the arrow symbol in the lower-right corner of the window.  
   
-##  <a name="Switching"></a> Switching the script execution context  
+## <a name="Switching"></a> Switching the script execution context  
  The JavaScript Console window allows you to interact with a single execution context, which represents a single instance of the web platform host (WWAHost.exe), at a time. In some scenarios, your app may start another instance of the host, such as when you use an `iframe`, a share contract, a web worker, or a `WebView` control. If another instance of the host is running, you can select a different execution context while running the app by selecting the execution context in the **Target** list.  
   
  The following illustration shows the Target list in the JavaScript Console window.  
@@ -260,7 +260,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.  
   
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
+## <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
 - [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  

@@ -141,7 +141,7 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
    > [!WARNING]
   >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
-##  <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
+## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
  For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
   
  If you want to configure the remote debugger as a service, follow these steps.  
@@ -276,7 +276,7 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
   
  For more information, please see the remote debugging help (press **F1** in the remote debugger window, or click **Help / Usage**). You can find more information at [.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)  
   
-##  <a name="bkmk_winstoreAzure"></a> Remote Debugging on Windows Store and Azure apps  
+## <a name="bkmk_winstoreAzure"></a> Remote Debugging on Windows Store and Azure apps  
  For information about remote debugging with Windows Store apps, see [Debug and test Windows Store apps on a remote device from Visual Studio](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx).  
   
  For information about debugging on Azure, see one of these topics:  

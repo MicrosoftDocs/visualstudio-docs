@@ -97,7 +97,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
 ## Unity Debugging  
  Visual Studio Tools for Unity lets you debug both editor and game scripts for your Unity project using Visual Studio's powerful debugger.  
   
-###  <a name="connecting-visual-studio-to-unity"></a> Connecting Visual Studio to Unity  
+### <a name="connecting-visual-studio-to-unity"></a> Connecting Visual Studio to Unity  
  Visual Studio Tools for Unity communicates with Unity through a UDP connection. This means that you can connect to a Unity instance running locally or anywhere on your network in exactly the same way. You can connect to any of the Unity instances you can see on your network by using the **Select Unity Instance** dialog.  
   
 ##### To open the Select Unity Instance dialog  
@@ -132,7 +132,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
 > [!IMPORTANT]
 >  Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.  
   
-###  <a name="debugging-your-project-in-a-unity-player"></a> Debugging your project in a Unity Player  
+### <a name="debugging-your-project-in-a-unity-player"></a> Debugging your project in a Unity Player  
  You can connect Visual Studio Tools for Unity directly to your Unity app running in a stand-alone player when you are not running Unity Editor, or to debug problems that are platform specific.  
   
 ##### To enable script debugging in a Unity player  

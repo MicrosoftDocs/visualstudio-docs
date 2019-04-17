@@ -23,7 +23,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
  [Install tools for iOS](#InstallForiOS)   
  [Install or update dependencies manually](#ThirdParty)  
   
-##  <a name="Requirements"></a> Requirements  
+## <a name="Requirements"></a> Requirements  
   
 - For installation requirements, see [Visual Studio 2015 System Requirements](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs).  
   
@@ -38,10 +38,10 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
 - Building code for iOS requires an Apple ID, an iOS Developer Program account, and a Mac computer that can run [Xcode 6](http://go.microsoft.com/fwlink/p/?LinkId=536387) or later on OS X Mavericks or later versions. For simple installation steps, see [Install tools for iOS](#InstallForiOS).  
   
-##  <a name="GetTheTools"></a> Get the tools  
+## <a name="GetTheTools"></a> Get the tools  
  Visual C++ for Cross-Platform Mobile Development is an installable component included in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio 2015 Downloads](http://go.microsoft.com/fwlink/p/?linkid=517106) page and download Visual Studio 2015 with Update 2 or later.  
   
-##  <a name="InstallTheTools"></a> Install the tools  
+## <a name="InstallTheTools"></a> Install the tools  
  The installer for Visual Studio 2015 includes an option to install Visual C++ for Cross-Platform Mobile Development. This installs the required C++ language tools, templates and components for Visual Studio, the GCC and Clang toolsets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.  
   
 - Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.  
@@ -78,10 +78,10 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
 5. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, on the **Tools** menu, select **Extensions and Updates**, **Updates**. If there are Visual Studio updates available for Visual C++ for Cross-Platform Mobile Development or for Microsoft Visual Studio Emulator for Android, install them.  
   
-##  <a name="InstallForiOS"></a> Install tools for iOS  
+## <a name="InstallForiOS"></a> Install tools for iOS  
  You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.  
   
-##  <a name="ThirdParty"></a> Install or update dependencies manually  
+## <a name="ThirdParty"></a> Install or update dependencies manually  
  If you decide not to install one or more third-party dependencies using the Visual Studio installer when you install the Visual C++ Mobile Development option, you can install them later by using the steps in [Install the tools](#InstallTheTools). You can also install or update them independently of Visual Studio.  
   
 > [!CAUTION]

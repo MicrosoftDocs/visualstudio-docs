@@ -99,7 +99,7 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 
-###  <a name="AccessingDocuments"></a> Access a document when the Office application starts
+### <a name="AccessingDocuments"></a> Access a document when the Office application starts
  Not all [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] applications automatically open a document when you start them, and none of the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications open a document when you start them. Therefore, don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. That way, you can guarantee that a document is open before your code performs operations on it.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.

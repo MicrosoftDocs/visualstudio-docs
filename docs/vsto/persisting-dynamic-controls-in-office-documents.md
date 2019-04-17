@@ -74,7 +74,7 @@ You can re-create deleted Windows Forms controls when the user reopens the docum
 
 2. Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.
 
-###  <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
+### <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in
 
 When you add dynamic Windows Forms controls to documents by using a VSTO Add-in, you can prevent the ActiveX wrappers for the controls from appearing in the document the next time it is opened in the following ways.
 

@@ -34,7 +34,7 @@ ms.workload:
 > [!NOTE]
 >  If you have a legacy application that uses the `ServerDocument` class in the `Visual Studio Tools for Office` system (version 3.0 Runtime), the `Visual Studio Tools for Office` system (version 3.0 runtime) must be installed on computers that run the application. The `Visual Studio 2010 Tools for Office runtime` cannot run these applications.
 
-##  <a name="CachedData"></a> Work with cached data in the document
+## <a name="CachedData"></a> Work with cached data in the document
  The `ServerDocument` class provides members you can use to work with the data cache in customized documents. For more information about cached data, see [Cache data](../vsto/caching-data.md) and [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).
 
  The following table lists the members you can use to work with cached data.
@@ -44,7 +44,7 @@ ms.workload:
 |To determine whether a document has a data cache.|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.IsCacheEnabled%2A> method.|
 |To access the cached data in a document.<br /><br /> For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.CachedData%2A> property.|
 
-##  <a name="CustomizationInfo"></a> Manage the document customization
+## <a name="CustomizationInfo"></a> Manage the document customization
  You can use members of the `ServerDocument` class to manage the customization assembly that is associated with a document. For example, you can programmatically remove the customization from a document so that the document is no longer part of a customization.
 
  The following table lists the members you can use to manage the customization assembly.

@@ -154,7 +154,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     > [!NOTE]
     > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties** > **Application** > **Startup Object**).
 
-##  Step 1: Collect profiling data
+## Step 1: Collect profiling data
 
 1. First, set a breakpoint in your app on this line of code in the `Main` function:
 

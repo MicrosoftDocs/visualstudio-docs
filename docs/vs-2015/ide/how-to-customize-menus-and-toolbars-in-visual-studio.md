@@ -47,7 +47,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 - [Resetting a menu or a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_reset)
 
-##  <a name="bkmk_addmenu"></a> Adding, removing, or moving a menu on the menu bar
+## <a name="bkmk_addmenu"></a> Adding, removing, or moving a menu on the menu bar
 
 1. On the menu bar, choose **Tools**, **Customize**.
 
@@ -63,7 +63,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
     - To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
 
-##  <a name="bkmk_addtoolbar"></a> Adding, removing, or moving a toolbar
+## <a name="bkmk_addtoolbar"></a> Adding, removing, or moving a toolbar
 
 1. On the menu bar, choose **Tools**, **Customize**.
 
@@ -87,7 +87,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
         > [!NOTE]
         >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide/reference/how-to-set-ide-accessibility-options.md).
 
-##  <a name="bkmk_customize"></a> Customizing a menu or a toolbar
+## <a name="bkmk_customize"></a> Customizing a menu or a toolbar
 
 1. On the menu bar, choose **Tools**, **Customize**.
 
@@ -109,7 +109,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
     - To separate commands into groups, choose a command in the **Controls** list, choose the **Modify Selection** button, and then choose **Begin a Group** in the menu that appears.
 
-##  <a name="bkmk_reset"></a> Resetting a menu or a toolbar
+## <a name="bkmk_reset"></a> Resetting a menu or a toolbar
 
 1. On the menu bar, choose **Tools**, **Customize**.
 

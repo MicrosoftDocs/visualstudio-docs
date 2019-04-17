@@ -33,7 +33,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 > [!NOTE]
 >  To create code maps, you must have Visual Studio Enterprise. When you edit a code map in Visual Studio, it cleans up any unused DGML elements and attributes by deleting them when you save the .dgml file. It also creates code elements automatically when you manually add new links. When you save the .dgml file, any attributes that you added to an element might rearrange themselves in alphabetical order.  
   
-##  <a name="OrganizeNodes"></a> Group code elements  
+## <a name="OrganizeNodes"></a> Group code elements  
  You can add new groups or convert existing nodes into a group.  
   
 1. Open the .dgml file in a text or XML editor.  
@@ -74,7 +74,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
     For more information about the `Category` attribute, see [Assign categories to code elements and links](#AssignCategories).  
   
-##  <a name="ChangeGraphStyle"></a> Change the style of the map  
+## <a name="ChangeGraphStyle"></a> Change the style of the map  
  You can change the background color and border color of the map by editing the map's .dgml file. To change the style of code elements and links, see [Change the style of code elements and links](#Highlight).  
   
 1. Open the .dgml file in a text or XML editor.  
@@ -102,9 +102,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </DirectedGraph>  
     ```  
   
-##  <a name="Highlight"></a> Change the style of code elements and links  
+## <a name="Highlight"></a> Change the style of code elements and links  
   
-###  <a name="CreateCustomStyles"></a>   
+### <a name="CreateCustomStyles"></a>   
  You can apply custom styles to the following code elements:  
   
 - Single code elements and links  
@@ -432,7 +432,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 </DirectedGraph>  
 ```  
   
-##  <a name="AssignProperties"></a> Assign properties to code elements and links  
+## <a name="AssignProperties"></a> Assign properties to code elements and links  
  You can organize code elements and links by assigning properties to them. For example, you can select code elements that have specific properties so that you can group them, change their style, or hide them.  
   
 #### To assign a property to a code element  
@@ -477,7 +477,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </Properties>  
     ```  
   
-##  <a name="AssignCategories"></a> Assign categories to code elements and links  
+## <a name="AssignCategories"></a> Assign categories to code elements and links  
  The following sections demonstrate how you can organize code elements by assigning categories to them, and how you can create hierarchical categories that help you organize code elements and add attributes to child categories by using inheritance.  
   
 #### To assign a category to a code element  
@@ -548,7 +548,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
      In this example, the background of `MyFirstNode` is green because its `Category` attribute inherits the `Background` attribute of `MyParentCategory`.  
   
-##  <a name="AddReferences"></a> Link documents or URLs to code elements and links  
+## <a name="AddReferences"></a> Link documents or URLs to code elements and links  
  You can link documents or URLs to code elements or to links by editing the map's .dgml file and adding a `Reference` attribute to the `<Node/>` element for a code element or the `<Link/>` element for a link. You can then open and view that content from the code element or link. The `Reference` attribute specifies the path of that content. This can be a path relative to the location of the .dgml file or an absolute path.  
   
 > [!CAUTION]
