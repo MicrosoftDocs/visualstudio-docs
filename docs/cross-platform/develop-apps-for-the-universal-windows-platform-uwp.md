@@ -52,7 +52,6 @@ Here is the list of software that you need:
 
 ::: moniker-end
 
-
 After installing this software, you need to enable your Windows 10 device for development. See [Enable your device for development](/windows/uwp/get-started/enable-your-device-for-development). You no longer need a developer license for each Windows 10 device.
 
 ## Universal Windows apps
