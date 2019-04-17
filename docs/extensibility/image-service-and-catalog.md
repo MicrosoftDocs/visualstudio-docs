@@ -344,6 +344,7 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
  **Requesting the image**
 
 ::: moniker range="vs-2017"
+
 ```cpp  
 ImageAttributes attr = { 0 };  
 attr.StructSize      = sizeof(attributes);  
@@ -361,9 +362,11 @@ CComPtr<IVsUIObject> spImg;
 // Replace this KnownMoniker with your desired ImageMoniker  
 spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
 ```  
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
+
 ```cpp 
 UINT dpiX, dpiY;
 HWND hwnd = // get the HWND where the image will be displayed
@@ -385,6 +388,7 @@ CComPtr<IVsUIObject> spImg;
 // Replace this KnownMoniker with your desired ImageMoniker  
 spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
 ```  
+
 ::: moniker-end
 
 ## How do I update WinForms UI?
@@ -407,6 +411,7 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
  **Request the image**
 
 ::: moniker range="vs-2017"
+
 ```csharp  
 ImageAttributes attributes = new ImageAttributes  
 {  
@@ -428,9 +433,11 @@ IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
 Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
 // Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
 ```  
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
+
 ```csharp  
 Control control = // get the control where the image will be displayed
 
@@ -454,6 +461,7 @@ IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
 Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
 // Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
 ```  
+
 ::: moniker-end
 
 ## How do I use image monikers in a new tool window?

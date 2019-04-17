@@ -27,13 +27,17 @@ By default, Visual Studio continues to look online for updates even if the insta
 If you want direct control over where Visual Studio looks for updates, you can modify the location where it looks. You can also control the version your users are updated to. To do so, follow these steps:
 
 1. Create an offline layout:
+
    ```cmd
    vs_enterprise.exe --layout C:\vsoffline --lang en-US
    ```
+
 2. Copy it to the file share where you want to host it:
+
    ```cmd
    xcopy /e C:\vsoffline \\server\share\VS
    ```
+
 3. Modify the response.json file in the layout and change the `channelUri` value to point to a copy of the channelManifest.json that the admin controls.
 
    Be sure to escape backslashes in the value, as in the following example:
@@ -43,6 +47,7 @@ If you want direct control over where Visual Studio looks for updates, you can m
    ```
 
    Now end-users can run setup from this share to install Visual Studio.
+
    ```cmd
    \\server\share\VS\vs_enterprise.exe
    ```
@@ -50,13 +55,17 @@ If you want direct control over where Visual Studio looks for updates, you can m
 When an enterprise administrator determines it is time for their users to update to a newer version of Visual Studio, they can [update the layout location](update-a-network-installation-of-visual-studio.md) to incorporate the updated files, as follows.
 
 1. Use a command that is similar to the following command:
+
    ```cmd
    vs_enterprise.exe --layout \\server\share\VS --lang en-US
    ```
+
 2. Ensure that the response.json file in the updated layout still contains your customizations, specifically the channelUri modification, as follows:
+
    ```json
    "channelUri":"\\\\server\\share\\VS\\ChannelManifest.json"
    ```
+
    Existing Visual Studio installs from this layout look for updates at `\\server\share\VS\ChannelManifest.json`. If the channelManifest.json is newer than what the user has installed, Visual Studio notifies the user that an update is available.
 
    New installs automatically install the updated version of Visual Studio directly from the layout.
@@ -88,6 +97,7 @@ Because Visual Studio 2017 [stores registry entries in a private registry](tools
 ```cmd
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"

@@ -32,6 +32,7 @@ When you write extension code for layer diagrams, you can store values with any 
 >    ```xml  
 >    <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
 >    ```  
+>
 >    3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
 > 
 >    Enter:  

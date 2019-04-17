@@ -94,6 +94,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
       </publishProfile>
     </publishData>
     ```
+
     Typically, the preceding *.publishsettings file contains two publishing profiles that you can use in Visual Studio, one to deploy using Web Deploy, and one to deploy using FTP. The preceding code shows the Web Deploy profile. Both profiles will be imported later when you import the profile.
 
 ## Import the publish settings in Visual Studio and deploy

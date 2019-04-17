@@ -199,6 +199,7 @@ Most of the UI calculation work that happens as part of the main messaging loop 
 If a non-WPF tool window is being migrated to fully support PMA, it will need to opt out of CLMM. To do so, a new interface needs to be implemented: IVsDpiAware.
 
 C#:
+
 ```cs
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
 public interface IVsDpiAeware
@@ -209,6 +210,7 @@ public interface IVsDpiAeware
 ```
  
 C++:
+
 ```cpp
 IVsDpiAware : public IUnknown
 {
@@ -241,6 +243,7 @@ enum __VSDPIMODE
 Legacy UI that is not being updated to support PMA mode, may still need minor tweaks to work while Visual Studio is running in PMA mode. One such fix involves making sure the UI is being created in the right DpiAwarenessContext. To force your UI into a particular DpiAwarenessContext, you can enter a DPI scope with the following code:
 
 C#:
+
 ```cs
 using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
 {
@@ -250,6 +253,7 @@ using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
 ```
 
 C++:
+
 ```cpp
 void MyClass::ShowDialog()
 {

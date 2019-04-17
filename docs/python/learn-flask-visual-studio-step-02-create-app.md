@@ -72,6 +72,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
         app.run(HOST, PORT)
     ```
+
 6. Your project structure should look like the following image:
 
     ![Project structure after refactoring the code](media/flask/step02-project-structure.png)

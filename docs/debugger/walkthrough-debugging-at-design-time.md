@@ -96,6 +96,7 @@ In some declarative data binding scenarios, it can help to debug code behind in 
     ```xaml
     <TextBlock Text="{Binding title, ConverterParameter=lower, Converter={StaticResource StringFormatConverter}, Mode=TwoWay}"  />
     ```
+
    When the page loads, the breakpoint is hit.
 
 ## See also
