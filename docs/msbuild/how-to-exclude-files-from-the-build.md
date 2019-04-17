@@ -79,7 +79,7 @@ In a project file you can use wildcards to include all the files in one director
     ```xml
     <Compile
         Include="Formula.vb"
-        Condition=" '$(Configuration)' == 'Release' " />
+        Condition=" $(Configuration) == 'Release' " />
     ```
 
 ## Example

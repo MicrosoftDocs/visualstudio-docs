@@ -1,7 +1,7 @@
 ﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Configuration Condition=" $(Configuration) == '' ">Debug</Configuration>
+    <Platform Condition=" $(Platform) == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.11031</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8C8F9E6D-307B-4BFC-86C3-6C72C3D27F0B}</ProjectGuid>

@@ -21,7 +21,7 @@ A project subtype may need to persist subtype-specific data into the project fil
     2.  Configuration-dependent data. That is, data stored in MSBuild elements that are conditioned for a particular project configuration. For example:
 
         ```
-        <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <PropertyGroup Condition=" $(Configuration) == 'Debug' ">
         ```
 
 2.  Persist data that is not relevant to build. This data can be expressed in free-form XML that is not validated against an XML schema.

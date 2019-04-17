@@ -3,8 +3,8 @@
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Configuration Condition=" $(Configuration) == '' ">Debug</Configuration>
+    <Platform Condition=" $(Platform) == '' ">AnyCPU</Platform>
     <OutputType>Library</OutputType>
     <RootNamespace>Trin_BindableComponent</RootNamespace>
     <AssemblyName>Trin_BindableComponent</AssemblyName>
@@ -45,7 +45,7 @@
   <PropertyGroup>
     <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  <PropertyGroup Condition=" $(Configuration) == 'Debug' ">
     <DefineConstants>
     </DefineConstants>
     <DefineDebug>true</DefineDebug>
@@ -58,7 +58,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+  <PropertyGroup Condition=" $(Configuration) == 'Release' ">
     <DefineConstants>
     </DefineConstants>
     <DefineDebug>false</DefineDebug>

@@ -227,7 +227,7 @@ $(PropertyName)
  Many properties like Configuration are defined conditionally, that is, the Condition attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true". Note that undefined properties are given the default value of an empty string. For example,  
   
 ```  
-<Configuration   Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
+<Configuration   Condition=" $(Configuration) == '' ">Debug</Configuration>  
 ```  
   
  means "If the Configuration property has not been defined yet, define it and give it the value 'Debug'".  

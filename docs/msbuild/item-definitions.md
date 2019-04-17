@@ -140,7 +140,7 @@ When you override the previously defined metadata, the last specification takes 
 You can use conditions in an ItemDefinitionGroup to control the inclusion of metadata. For example:
 
 ```xml
-<ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
+<ItemDefinitionGroup Condition="$(Configuration)=='Debug'">
     <i>
         <m>m1</m>
     </i>

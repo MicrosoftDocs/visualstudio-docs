@@ -29,14 +29,14 @@ The **Properties** window in the [!INCLUDE[vsprvs](../../code-quality/includes/v
 ```
 <Project MSBuildVersion="2.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Configuration Condition=" $(Configuration) == '' ">Debug</Configuration>
     <Name>SomeProjectSix</Name>
     <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  <PropertyGroup Condition=" $(Configuration) == 'Debug' ">
     <Optimize>false</Optimize>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+  <PropertyGroup Condition=" $(Configuration) == 'Release' ">
     <Optimize>true</Optimize>
 ```
 

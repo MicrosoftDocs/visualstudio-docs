@@ -287,8 +287,8 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ItemGroup>
-    <_MdMergeOutput Condition="'$(Platform)' == 'Win32'" Include="$(SolutionDir)$(Configuration)\$(ProjectName)\$(ProjectName).winmd" />
-    <_MdMergeOutput Condition="'$(Platform)' != 'Win32'" Include="$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName)\$(ProjectName).winmd" />
+    <_MdMergeOutput Condition="$(Platform) == 'Win32'" Include="$(SolutionDir)$(Configuration)\$(ProjectName)\$(ProjectName).winmd" />
+    <_MdMergeOutput Condition="$(Platform) != 'Win32'" Include="$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName)\$(ProjectName).winmd" />
   </ItemGroup>
   <Target Name="CopyWinmdArtifactsOutputGroup" Returns="@(CopyWinmdArtifactsOutputGroupOutputs)">
     <ItemGroup>

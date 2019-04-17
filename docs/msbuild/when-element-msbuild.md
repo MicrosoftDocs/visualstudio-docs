@@ -76,14 +76,14 @@ Specifies a possible block of code for the `Choose` element to select.
 <Project
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
     <PropertyGroup>
-        <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+        <Configuration Condition="$(Configuration) == ''">Debug</Configuration>
         <OutputType>Exe</OutputType>
         <RootNamespace>ConsoleApplication1</RootNamespace>
         <AssemblyName>ConsoleApplication1</AssemblyName>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <Choose>
-        <When Condition=" '$(Configuration)'=='debug' ">
+        <When Condition=" $(Configuration)=='debug' ">
             <PropertyGroup>
                 <DebugSymbols>true</DebugSymbols>
                 <DebugType>full</DebugType>
@@ -96,7 +96,7 @@ Specifies a possible block of code for the `Choose` element to select.
                 <Reference Include="NUnit.dll" />
             </ItemGroup>
         </When>
-        <When Condition=" '$(Configuration)'=='retail' ">
+        <When Condition=" $(Configuration)=='retail' ">
             <PropertyGroup>
                 <DebugSymbols>false</DebugSymbols>
                 <Optimize>true</Optimize>

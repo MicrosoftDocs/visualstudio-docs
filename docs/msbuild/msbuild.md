@@ -73,7 +73,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
  You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` element is defined if it hasn't yet been defined.
 
 ```xml
-<Configuration  Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+<Configuration  Condition=" $(Configuration) == '' ">Debug</Configuration>
 ```
 
  Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.

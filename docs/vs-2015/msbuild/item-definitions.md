@@ -143,7 +143,7 @@ manager: jillfra
  You can use conditions in an ItemDefinitionGroup to control the inclusion of metadata. For example:  
   
 ```  
-<ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">  
+<ItemDefinitionGroup Condition="$(Configuration)=='Debug'">  
     <i>  
         <m>m1</m>  
     </i>  

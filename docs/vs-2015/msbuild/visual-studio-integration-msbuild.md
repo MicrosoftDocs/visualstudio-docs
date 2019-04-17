@@ -42,7 +42,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to 
   
 ```  
 Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "  
-Condition=" '$(Configuration)' == 'Release' "   
+Condition=" $(Configuration) == 'Release' "   
 Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' "  
 ```  
   

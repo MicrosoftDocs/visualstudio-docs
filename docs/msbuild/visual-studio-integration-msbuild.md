@@ -41,7 +41,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/
 
 ```xml
 Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "
-Condition=" '$(Configuration)' == 'Release' " 
+Condition=" $(Configuration) == 'Release' " 
 Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' "
 ```
 

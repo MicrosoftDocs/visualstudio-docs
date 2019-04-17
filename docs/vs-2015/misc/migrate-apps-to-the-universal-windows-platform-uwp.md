@@ -111,7 +111,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
         ```xml  
         <PropertyGroup>  
             …  
-             <Platform Condition=" '$(Platform)' == '' ">x86</Platform>  
+             <Platform Condition=" $(Platform) == '' ">x86</Platform>  
              <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>  
              <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>  
              <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>  

@@ -114,7 +114,7 @@ In Visual Studio, projects are the containers that developers use to organize so
     <?xml version="1.0" encoding="utf-8" ?>  
     <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
       <PropertyGroup>  
-        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
+        <Configuration Condition=" $(Configuration) == '' ">Debug</Configuration>  
         <SchemaVersion>2.0</SchemaVersion>  
         <ProjectGuid></ProjectGuid>  
         <OutputType>Exe</OutputType>  
@@ -122,11 +122,11 @@ In Visual Studio, projects are the containers that developers use to organize so
         <AssemblyName>MyAssemblyName</AssemblyName>  
         <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>  
       </PropertyGroup>  
-      <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">  
+      <PropertyGroup Condition=" $(Configuration) == 'Debug' ">  
         <DebugSymbols>true</DebugSymbols>  
         <OutputPath>bin\Debug\</OutputPath>  
       </PropertyGroup>  
-      <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">  
+      <PropertyGroup Condition=" $(Configuration) == 'Release' ">  
         <DebugSymbols>false</DebugSymbols>  
         <OutputPath>bin\Release\</OutputPath>  
       </PropertyGroup>  

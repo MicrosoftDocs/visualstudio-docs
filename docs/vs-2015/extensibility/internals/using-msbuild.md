@@ -26,7 +26,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
  MSBuild does not have native support for configuration objects, but does provide conditional attributes for specifying configuration-specific data. For example:  
   
 ```  
-<OutputDir Condition="'$(Configuration)'=="release'">Bin\MyReleaseConfig</OutputDir>  
+<OutputDir Condition="$(Configuration)=="release'">Bin\MyReleaseConfig</OutputDir>  
 ```  
   
  For more information on conditional attributes, see [Conditional Constructs](../../msbuild/msbuild-conditional-constructs.md).  

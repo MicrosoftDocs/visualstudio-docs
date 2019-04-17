@@ -61,8 +61,8 @@ For example, the PropertyGroup for a simple console application might look like 
 
 ```xml
 <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Configuration Condition=" $(Configuration) == '' ">Debug</Configuration>
+    <Platform Condition=" $(Platform) == '' ">x86</Platform>
     <ProjectGuid>{E248730E-1393-43CC-9183-FFA42F63BE81}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>refactoring</RootNamespace>
