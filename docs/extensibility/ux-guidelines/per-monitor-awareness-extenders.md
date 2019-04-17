@@ -40,7 +40,8 @@ To enable PMA in Visual Studio, the following requirements need to be met:
 
 Once these requirements are met, Visual Studio will automatically enable PMA mode across the process.
 
-**Note:** Windows Forms content in VS (for example Property Browser) will support PMA only when you have Visual Studio 2019 Update #1.
+> [!NOTE]
+> Windows Forms content in VS (for example Property Browser) will support PMA only when you have Visual Studio 2019 Update #1.
 
 ## Testing your extensions for PMA issues
 
