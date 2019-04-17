@@ -30,7 +30,7 @@ Visual Studio for Mac's support for macOS assistive technologies is turned off b
 
 2. Check the **Enable Accessibility** checkbox:
 
-![Preferences accessibility checkbox](media/accessibility-preferences.png)
+   ![Preferences accessibility checkbox](media/accessibility-preferences.png)
 
 3. Select the **Restart Visual Studio** button to restart Visual Studio and enable support for Apple's assistive technologies.
 
