@@ -89,7 +89,7 @@ Coded UI tests can automate testing for web applications by recording your tests
   
     2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.  
   
-##  <a name="generate"></a> *I don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test.*  
+## <a name="generate"></a> *I don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test.*  
  You might be using a version of [!INCLUDE[vs2011_first](../includes/vs2011-first-md.md)] that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise.  
   
  *What else should I know?*  

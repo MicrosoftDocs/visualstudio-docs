@@ -66,7 +66,7 @@ You can create a build environment within your organization by installing Visual
   
 - A copy of the .NET Framework 4.5.1, which you can download from the [Microsoft](https://www.microsoft.com/download/details.aspx?id=40779) website.  
   
-##  <a name="InstallingSoftware"></a> Installing software on the computers  
+## <a name="InstallingSoftware"></a> Installing software on the computers  
  First, set up the host computer and then set up the build computer.  
   
  By installing Visual Studio on the host computer, you create the files and settings that you will copy to the build computer later. You can install Visual Studio on an x86 or an x64 computer, but the architecture of the build computer must match the architecture of the host computer.  
@@ -77,7 +77,7 @@ You can create a build environment within your organization by installing Visual
   
 2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version starts with "4.5".  
   
-##  <a name="CopyingFiles"></a> Copying files from the host computer to the build computer  
+## <a name="CopyingFiles"></a> Copying files from the host computer to the build computer  
  This section covers the copying of specific files, compilers, build tools, MSBuild assets, and registry settings from the host computer to the build computer. These instructions assume that you've installed Visual Studio in the default location on the host computer; if you installed in another location, adjust the steps accordingly.  
   
 - On an x86 computer, the default location is C:\Program Files\Microsoft Visual Studio 11.0\  
@@ -209,7 +209,7 @@ You can create a build environment within your organization by installing Visual
   
    - \Microsoft.VC110.DebugOpenMP\vcomp110d.dll  
   
-##  <a name="CreatingRegistry"></a> Creating registry settings  
+## <a name="CreatingRegistry"></a> Creating registry settings  
  You must create registry entries to configure settings for MSBuild.  
   
 #### To create registry settings  
@@ -271,7 +271,7 @@ You can create a build environment within your organization by installing Visual
   
    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11  
   
-##  <a name="SettingEnvVariables"></a> Setting environment variables on the build computer  
+## <a name="SettingEnvVariables"></a> Setting environment variables on the build computer  
  To use MSBuild on the build computer, you must set the PATH environment variables. You can use vcvarsall.bat to set the variables, or you can manually configure them.  
   
 #### To use vcvarsall.bat to set environment variables  
@@ -308,7 +308,7 @@ You can create a build environment within your organization by installing Visual
   
    - %windir%\Microsoft.NET\Framework64\v4.0.30319  
   
-##  <a name="InstallingMSBuildToGAC"></a> Installing MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer  
+## <a name="InstallingMSBuildToGAC"></a> Installing MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer  
  MSBuild requires some additional assemblies to be installed to the GAC on the build computer.  
   
 #### To copy assemblies from the host computer and install them on the build computer  
@@ -330,7 +330,7 @@ You can create a build environment within your organization by installing Visual
     > [!NOTE]
     >  A reboot may be required for an assembly to fully install into the GAC.  
   
-##  <a name="BuildingProjects"></a> Building projects  
+## <a name="BuildingProjects"></a> Building projects  
  You can use Team Foundation Build to build [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects and solutions, or you can build them on the command line. When you use Team Foundation Build to build projects, it invokes the MSBuild executable that corresponds to the system architecture.  On the command line, you can use either 32-bit MSBuild or 64-bit MSBuild, and you can choose the architecture of MSBuild by setting the PATH environment variable or by directly invoking the architecture-specific MSBuild executable.  
   
  To use msbuild.exe at the command prompt, run the following command, in which *solution.sln* is a placeholder for the name of your solution.  
@@ -344,7 +344,7 @@ You can create a build environment within your organization by installing Visual
 >   
 >  **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
   
-##  <a name="CreatingForSourceControl"></a> Creating the build environment so that it can be checked into source control  
+## <a name="CreatingForSourceControl"></a> Creating the build environment so that it can be checked into source control  
  You can create a build environment that can be deployed to various computers and doesn’t require GAC’ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.  
   
 > [!NOTE]

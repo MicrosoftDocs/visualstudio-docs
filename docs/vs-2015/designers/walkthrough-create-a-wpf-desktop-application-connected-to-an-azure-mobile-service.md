@@ -15,7 +15,7 @@ manager: jillfra
 
 You can use Windows Presentation Foundation (WPF) to quickly create a modern desktop application that uses an Azure Mobile Service to store and provide data.  
   
-##  <a name="Requirements"></a> Prerequisites  
+## <a name="Requirements"></a> Prerequisites  
  You’ll need the following to complete this walkthrough:  
   
 - Visual Studio 2015 – any version that supports WPF development.  

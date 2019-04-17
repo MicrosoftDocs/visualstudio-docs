@@ -10,7 +10,7 @@ ms.workload:
   - "vssdk"
 ---
 # Common Control Patterns for Visual Studio
-##  <a name="BKMK_CommonControls"></a> Common controls
+## <a name="BKMK_CommonControls"></a> Common controls
 
 ### Overview
 Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](/windows/desktop/uxguide/controls). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.
@@ -42,10 +42,10 @@ The first thing to consider when styling controls is whether the controls will b
 
 - **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
 
-###  <a name="BKMK_Scrollbars"></a> Scroll bars
+### <a name="BKMK_Scrollbars"></a> Scroll bars
  Scroll bars should follow [common interaction patterns for Windows scroll bars](/windows/desktop/Controls/about-scroll-bars) unless they're augmented with content information, like in the code editor.
 
-###  <a name="BKMK_InputFields"></a> Input fields
+### <a name="BKMK_InputFields"></a> Input fields
  For typical interaction behavior, follow the [Windows Desktop guidelines for text boxes](/windows/desktop/uxguide/ctrl-text-boxes).
 
 #### Visual style
@@ -68,7 +68,7 @@ The first thing to consider when styling controls is whether the controls will b
 
      ![Correct input field length: the input field is a reasonable width for the expected content.](../../extensibility/ux-guidelines/media/0707-02_correctinputfieldcontrol.png "0707-02_CorrectInputFieldControl")<br />Correct input field length: the input field is a reasonable width for the expected content.
 
-###  <a name="BKMK_ComboBoxesAndDropDowns"></a> Combo boxes and drop-down lists
+### <a name="BKMK_ComboBoxesAndDropDowns"></a> Combo boxes and drop-down lists
 For typical interaction behavior, follow the [Windows Desktop guidelines for drop-down lists and combo boxes](/windows/desktop/uxguide/ctrl-drop).
 
 #### Visual style
@@ -84,7 +84,7 @@ Combo boxes and drop-downs should be sized to fit the content, not to fit the wi
 
 ![Correct: the drop-down is sized to allow for translation growth, but not unnecessarily long.](../../extensibility/ux-guidelines/media/0707-04_correctdropdownlayout.png "0707-04_CorrectDropDownLayout")<br />Correct: the drop-down is sized to allow for translation growth, but not unnecessarily long.
 
-###  <a name="BKMK_CheckBoxes"></a> Check boxes
+### <a name="BKMK_CheckBoxes"></a> Check boxes
 For typical interaction behavior, follow the [Windows Desktop guidelines for check boxes](/windows/desktop/uxguide/ctrl-check-boxes).
 
 #### Visual style
@@ -103,7 +103,7 @@ For typical interaction behavior, follow the [Windows Desktop guidelines for che
 
      ![Correct: the check box is aligned with the first line of the text.](../../extensibility/ux-guidelines/media/0707-06_correctcheckboxalign.png "0707-06_CorrectCheckBoxAlign")<br />Correct: the check box is aligned with the first line of the text.
 
-###  <a name="BKMK_RadioButtons"></a> Radio buttons
+### <a name="BKMK_RadioButtons"></a> Radio buttons
 For typical interaction behavior, follow the [Windows Desktop guidelines for radio buttons](/windows/desktop/uxguide/ctrl-radio-buttons).
 
 #### Visual style
@@ -112,7 +112,7 @@ In utility dialogs, do not style radio buttons. Use the basic style intrinsic to
 #### Specialized interactions
 It's not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.
 
-###  <a name="BKMK_GroupFrames"></a> Group frames
+### <a name="BKMK_GroupFrames"></a> Group frames
 For typical interaction behavior, follow the [Windows Desktop guidelines for group frames](/windows/desktop/uxguide/ctrl-group-boxes).
 
 #### Visual style
@@ -126,7 +126,7 @@ In utility dialogs, don't style group frames. Use the basic style intrinsic to t
 
 - It's sometimes acceptable to use a horizontal rule instead of a group frame container.
 
-##  <a name="BKMK_TextControls"></a> Text controls
+## <a name="BKMK_TextControls"></a> Text controls
 
 ### Static text fields
 
@@ -207,7 +207,7 @@ Dynamic text can be used one of two ways in a dialog or modeless UI: either as a
 
 If you want users to have the ability to copy the info, dynamic text should be in a read-only text field.
 
-##  <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
+## <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
 
 ### Overview
 Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](/windows/desktop/uxguide/ctrl-links) for usage, wording, sizing, and spacing.
@@ -321,11 +321,11 @@ Follow the [Windows Desktop guidance for user interface text](/windows/desktop/u
 
 - Underlines shouldn't appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
 
-##  <a name="BKMK_TreeViews"></a> Tree views
+## <a name="BKMK_TreeViews"></a> Tree views
 
 Tree views provide a way to organize complex lists into parent-child groups. A user can expand or collapse parent groups to reveal or hide underlying child items. Each item within a tree view can be selected to provide further action.
 
-###  <a name="BKMK_TreeViewVisualStyle"></a> Tree view visual style
+### <a name="BKMK_TreeViewVisualStyle"></a> Tree view visual style
 
 #### Expanders
 Tree view controls should conform to the expander design used by Windows and Visual Studio. Each node uses an expander control to reveal or hide underlying items. Using an expander control provides consistency for users who might encounter different tree views within Windows and Visual Studio.
@@ -349,7 +349,7 @@ Scroll bars should always be hidden if the content fits within the tree view con
 
 ![Both vertical and horizontal scroll bars are displayed because the contents have exceeded the limits of the tree view control.](../../extensibility/ux-guidelines/media/070705-4_scrollbars.png "070705-4_Scrollbars")<br />Both vertical and horizontal scroll bars are displayed because the contents have exceeded the limits of the tree view control.
 
-###  <a name="BKMK_TreeViewInteractions"></a> Tree view interactions
+### <a name="BKMK_TreeViewInteractions"></a> Tree view interactions
 
 #### Context menus
 A tree view node can reveal submenu options in a context menu. Typically, this occurs when a user has right-clicked an item or pressed the Menu key on a Windows keyboard with the item selected. It's important that the node gains focus and is selected. This helps the user identify which item the submenu belongs to.

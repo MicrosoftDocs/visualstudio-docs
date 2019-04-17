@@ -30,7 +30,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
 > [!NOTE]
 >  This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
   
-##  <a name="Using"></a> Using UML Class Diagrams  
+## <a name="Using"></a> Using UML Class Diagrams  
  You can use a UML class diagram for a variety of purposes:  
   
 - To provide an implementation-independent description of the types that are used in a system and passed between its components.  
@@ -72,7 +72,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  See [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
-##  <a name="BasicSteps"></a> Basic Steps for Drawing Class Diagrams  
+## <a name="BasicSteps"></a> Basic Steps for Drawing Class Diagrams  
  For reference information about the elements on UML class diagrams, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
   
 > [!NOTE]
@@ -108,7 +108,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
 6. Every diagram is a view on a model that is shared between other diagrams in the same project. To see a tree view of the complete model, choose **View**, **Other Windows**, **UML Model Explorer**.  
   
-##  <a name="UsingTypes"></a> Using Classes, Interfaces, and Enumerations  
+## <a name="UsingTypes"></a> Using Classes, Interfaces, and Enumerations  
  There are three standard kinds of classifier available on the toolbox. These are referred to as *types* throughout this document.  
   
  ![A class, an enumeration, and an interface](../modeling/media/uml-classguidetypes.png "UML_ClassGuideTypes")  
@@ -148,7 +148,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  To create a class from a lifeline, open the shortcut menu for the lifeline, and then choose **Create Class** or **Create Interface**. See [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
-##  <a name="AttributesAndOperations"></a> Attributes and Operations  
+## <a name="AttributesAndOperations"></a> Attributes and Operations  
  An attribute (4) is a named value that every instance of a type can have. Accessing an attribute does not change the state of the instance.  
   
  An operation (5) is a method or function that instances of the type can perform. It can return a value. If its **isQuery** property is true, it cannot change the state of the instance.  
@@ -324,7 +324,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  Usually the full signature appears on the diagram only while you are editing it. When you finish editing, the additional properties are hidden. If you want to see the full signature all the time, open the shortcut menu for the type, and then choose **Show Full Signature**.  
   
-##  <a name="Associations"></a> Drawing and Using Associations  
+## <a name="Associations"></a> Drawing and Using Associations  
  Use an association to represent any kind of linkage between two elements, regardless of how the linkage is implemented in the software. For example, you could use an association to represent a pointer in C#, a relation in a database, or a cross reference from one part of an XML file to another. It can represent an association between objects in the real world, such as the earth and the sun. The association does not say how the link is represented, only that the information exists.  
   
 ### Properties of an Association  
@@ -356,7 +356,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  ![Equivalent association and attributes](../modeling/media/uml-classguideattrib.png "UML_ClassGuideAttrib")  
   
-##  <a name="Inheritance"></a> Inheritance  
+## <a name="Inheritance"></a> Inheritance  
  Use the **Inheritance** tool to create the following relationships:  
   
 - A *generalization* relationship between a specialized type and a general type  
@@ -399,7 +399,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  ![Realization shown with conector and lollipop](../modeling/media/uml-classguiderealize.png "UML_ClassGuideRealize")  
   
-##  <a name="Templates"></a> Template Types  
+## <a name="Templates"></a> Template Types  
  You can define a generic or template type that can be parameterized by other types or values.  
   
  For example, you can create a generic Dictionary parameterized by key and value types:  
@@ -452,14 +452,14 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
 5. Set each parameter to a suitable value. For example, set the `Key` parameter to a class called `Name`.  
   
-##  <a name="Packages"></a> Packages  
+## <a name="Packages"></a> Packages  
  You can view packages in a UML class diagram. A package is a container for other model elements. You can create any element inside a package. On the diagram, the elements inside the package will move around when you move the package.  
   
  You can use the collapse/expand control to hide or show the contents of the package.  
   
  See [Define packages and namespaces](../modeling/define-packages-and-namespaces.md).  
   
-##  <a name="generating"></a> Generating Code from UML Class Diagrams  
+## <a name="generating"></a> Generating Code from UML Class Diagrams  
  To start implementing the classes on a UML class diagram, you can generate C# code or customize the templates for code generation. To start generating code by using the provided C# templates:  
   
 - Open the shortcut menu for the diagram or an element, choose **Generate Code**, and then set the necessary properties.  

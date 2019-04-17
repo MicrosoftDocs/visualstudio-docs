@@ -32,7 +32,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
  You can expand each primitive to examine how the pixel shader output was merged with the existing pixel color to produce the result color. From here you can also examine or debug the pixel shader code that's associated with the primitive, and you can further expand the vertex shader node to examine the vertex shader input.  
   
-###  <a name="exclusion"></a> Primitive exclusion  
+### <a name="exclusion"></a> Primitive exclusion  
  If a primitive is excluded from affecting the pixel color, the exclusion could occur for a variety of reasons. Each reason is represented by an icon that's described in this table:  
   
 |Icon|Reason for exclusion|  

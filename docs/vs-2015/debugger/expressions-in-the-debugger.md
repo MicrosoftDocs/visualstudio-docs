@@ -88,7 +88,7 @@ int main()
   
 ```  
   
-###  <a name="BKMK_Using_debugger_intrinisic_functions_to_maintain_state"></a> Using debugger intrinsic functions to maintain state  
+### <a name="BKMK_Using_debugger_intrinisic_functions_to_maintain_state"></a> Using debugger intrinsic functions to maintain state  
  The debugger intrinsic functions give you a way to call certain C/C++ functions in expressions without changing the state of the application.  
   
  Debugger intrinsic functions:  

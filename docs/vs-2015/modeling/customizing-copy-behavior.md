@@ -211,7 +211,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  **Let the user drag and drop elements.**  
  See [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).  
   
-##  <a name="customizeLinks"></a> Customizing Link Copy Behavior  
+## <a name="customizeLinks"></a> Customizing Link Copy Behavior  
  When the user copies an element, the standard behavior is that any embedded elements are also copied. You can modify the standard copying behavior. In the DSL Definition, select a role at one side of a relationship and in the Properties window set the **Propagates Copy** value.  
   
  ![Propagates Copy property of domain role](../modeling/media/dslpropagatescopy.png "DslPropagatesCopy")  

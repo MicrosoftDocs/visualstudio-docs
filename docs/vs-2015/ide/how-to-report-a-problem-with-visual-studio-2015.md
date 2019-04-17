@@ -27,7 +27,7 @@ Click on the user feedback icon next to **Quick Launch** in the title bar, or cl
 
 ## Describe the problem
 
-###  <a name="describe_the_problem"></a>
+### <a name="describe_the_problem"></a>
 
 1. Give a descriptive title for the problem that will help us route it to the correct team within Visual Studio.
 
@@ -43,7 +43,7 @@ Choose **Include a screenshot** to send your current screen to Microsoft. The to
 
 ## Provide a trace and heap dump (optional)
 
-###  <a name="provide_a_trace_and_heap_dump"></a>
+### <a name="provide_a_trace_and_heap_dump"></a>
 
 1. Trace and heap dump files are very useful in helping us diagnose problems.   We appreciate it very much when you use the Report a Problem tool to record your repro steps and send the data to Microsoft.
 

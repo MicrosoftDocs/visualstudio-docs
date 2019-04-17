@@ -28,7 +28,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
  To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
-##  <a name="FindReferences"></a> Find references to your code  
+## <a name="FindReferences"></a> Find references to your code  
  You'll need:  
   
 - Visual Studio Enterprise or Visual Studio Professional  
@@ -49,7 +49,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
   ![CodeLens &#45; References on code map](../ide/media/codelensmappedreferences.png "CodeLensMappedReferences")  
   
-##  <a name="FindCodeHistory"></a> Find your code's history and linked items  
+## <a name="FindCodeHistory"></a> Find your code's history and linked items  
  Review your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.  
   
  You'll need:  
@@ -169,7 +169,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
  ![Contact options for an item](../ide/media/codelensitemcontactmenu.png "CodeLensItemContactMenu")  
   
-##  <a name="FindRunUnitTests"></a> Find unit tests for your code  
+## <a name="FindRunUnitTests"></a> Find unit tests for your code  
  Find out more about unit tests that exist for your code without opening Test Explorer. You'll need:  
   
 - Visual Studio Enterprise or Visual Studio Professional  
@@ -198,9 +198,9 @@ Stay focused on your work while you find out what happened to your code - withou
   
 6. To see how many people changed this test, who changed this test, or how many changes were made to this test, [Find your code's history and linked items](#FindCodeHistory).  
   
-##  <a name="QA"></a> Q & A  
+## <a name="QA"></a> Q & A  
   
-###  <a name="ChangeOrTurnOff"></a> Q: How do I turn CodeLens off or on? Or choose which indicators to see?  
+### <a name="ChangeOrTurnOff"></a> Q: How do I turn CodeLens off or on? Or choose which indicators to see?  
  **A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
  When the indicators are turned on, you can also open the CodeLens options from the indicators.  
@@ -211,7 +211,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
  ![Turn file&#45;level indicators on and off](../ide/media/codelensfilelevelonandoff.png "CodeLensFileLevelOnAndOff")  
   
-###  <a name="NoIndicators"></a> Q: Where is CodeLens?  
+### <a name="NoIndicators"></a> Q: Where is CodeLens?  
  **A:** CodeLens appears in Visual C# .NET and Visual Basic .NET code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.  
   
 - Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
@@ -225,7 +225,7 @@ Stay focused on your work while you find out what happened to your code - withou
 ### Q: Why don't I see the work item details for a commit?  
  **A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items and that you have permissions to see those work items. This might also happen if the commit description has incorrect information about the work item IDs in TFS.  
   
-###  <a name="NoLync"></a> Q: Why don't I see the Lync or Skype indicators?  
+### <a name="NoLync"></a> Q: Why don't I see the Lync or Skype indicators?  
  **A:** They don't appear if you're not signed into Lync or Skype for Business, don't have one of these installed, or don't have a supported configuration. But you can still send mail:  
   
  ![CodeLens &#45; Contact changeset owner by mail](../ide/media/codelenscodesendmailchangesetnolync1.png "CodeLensCodeSendMailChangesetNoLync1")  
@@ -273,7 +273,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
 - **Test**: [Find unit tests for your code](#FindRunUnitTests) to refresh this indicator.  
   
-###  <a name="LocalVersion"></a> Q: What's "Local Version"?  
+### <a name="LocalVersion"></a> Q: What's "Local Version"?  
  **A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.  
   
 ### Q: Can I manage how CodeLens processes code to show history and linked items?  

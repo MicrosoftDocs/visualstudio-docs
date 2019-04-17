@@ -17,7 +17,7 @@ manager: jillfra
 
 You can load a UML model and its diagrams using the UML API.  
   
-##  <a name="Reading"></a> Reading a Model in Program Code  
+## <a name="Reading"></a> Reading a Model in Program Code  
  To access the content of a model without showing it in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] window, use `ModelingProject.LoadReadOnly()`.  
   
  For example:  
@@ -64,7 +64,7 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
  You can also open models and diagrams in the user interface using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] API. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
-##  <a name="Standalone"></a> Stand-Alone Applications  
+## <a name="Standalone"></a> Stand-Alone Applications  
  The example in the previous section will work in Visual Studio extensions. It is possible to read a model in a stand-alone application, but you must add some references to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   
 > [!NOTE]

@@ -23,7 +23,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 - Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at runtime.  
   
-##  <a name="CaptureDX11_2"></a> Programmatic capture in Windows 8.1  
+## <a name="CaptureDX11_2"></a> Programmatic capture in Windows 8.1  
  This part of the walkthrough demonstrates programmatic capture in apps that use the DirectX 11.2 API on Windows 8.1, which uses the robust capture method. For information about how to use programmatic capture in apps that use earlier versions of DirectX on Windows 8.0, see [Programmatic capture in Windows 8.0 and earlier](#CaptureDX11_1) later in this walkthrough.  
   
  This section shows how to do these tasks:  
@@ -123,7 +123,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
     ...  
     ```  
   
-##  <a name="CaptureDX11_1"></a> Programmatic capture in Windows 8.0 and earlier  
+## <a name="CaptureDX11_1"></a> Programmatic capture in Windows 8.0 and earlier  
  This part of the walkthrough demonstrates programmatic capture in apps for Windows 8.0 and earlier that use the DirectX 11.1 API, which uses the legacy capture method. For information about how to use programmatic capture in apps that use DirectX 11.2 on Windows 8.1, see [Programmatic capture in Windows 8.1](#CaptureDX11_2) earlier in this walkthrough.  
   
  This part shows these tasks:  

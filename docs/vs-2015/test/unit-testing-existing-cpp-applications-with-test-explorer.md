@@ -47,7 +47,7 @@ We recommend that, before you change an existing application, you make sure that
   
 ## Creating the tests  
   
-###  <a name="staticLink"></a> To change the code under test to a static library  
+### <a name="staticLink"></a> To change the code under test to a static library  
   
 - If your tests must use members that are not exported by a project under test, and the project under test is built as a dynamic library, consider converting it to a static library.  
   
@@ -59,7 +59,7 @@ We recommend that, before you change an existing application, you make sure that
   
   Continue with the procedure [To link the tests to the object or library files](#objectRef).  
   
-###  <a name="projectRef"></a> To reference exported functions from the test project  
+### <a name="projectRef"></a> To reference exported functions from the test project  
   
 - If a project under test exports the functions that you want to test, then you can add a reference to the code project from the test project.  
   
@@ -83,7 +83,7 @@ We recommend that, before you change an existing application, you make sure that
   
   Go to [Writing the unit tests](#addTests).  
   
-###  <a name="objectRef"></a> To link the tests to the object or library files  
+### <a name="objectRef"></a> To link the tests to the object or library files  
   
 - If the code under test does not export the functions that you want to test, you can add the output **.obj** or **.lib** file to the dependencies of the test project.  
   
@@ -107,7 +107,7 @@ We recommend that, before you change an existing application, you make sure that
   
   Go to [Writing the unit tests](#addTests).  
   
-###  <a name="sameProject"></a> To add unit tests in the same project  
+### <a name="sameProject"></a> To add unit tests in the same project  
   
 1. Modify the product code project properties to include the headers and library files that are required for unit testing.  
   
@@ -128,7 +128,7 @@ We recommend that, before you change an existing application, you make sure that
   
    Go to [Writing the unit tests](#addTests).  
   
-##  <a name="addTests"></a> Writing the unit tests  
+## <a name="addTests"></a> Writing the unit tests  
   
 1. In each unit test code file, add an `#include` statement for the headers of the project under test.  
   

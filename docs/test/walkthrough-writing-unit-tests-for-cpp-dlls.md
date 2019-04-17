@@ -28,7 +28,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 8. [Isolate units from external resources](using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md). Typically, a DLL is dependent on other components of the system that you are developing, such as other DLLs, databases, or remote subsystems. It is useful to test each unit in isolation from its dependencies. External components can make tests run slowly. During development, the other components might not be complete.
 
-##  <a name="create_test_project"></a> Create a native unit test project
+## <a name="create_test_project"></a> Create a native unit test project
 
 1. On the **File** menu, choose **New** > **Project**.
 
@@ -77,7 +77,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          ![Unit Test Explorer with one passed test](../test/media/utecpp04.png)
 
-##  <a name="create_dll_project"></a> Create a DLL project
+## <a name="create_dll_project"></a> Create a DLL project
 
 1. Create a **Visual C++** project by using the **Win32 Project** template.
 
@@ -107,7 +107,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
         }
     ```
 
-##  <a name="make_functions_visible"></a> Couple the test project to the DLL project
+## <a name="make_functions_visible"></a> Couple the test project to the DLL project
 
 1. Add the DLL project to the project references of the test project:
 
@@ -157,7 +157,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
    You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
-##  <a name="iterate"></a> Iteratively augment the tests and make them pass
+## <a name="iterate"></a> Iteratively augment the tests and make them pass
 
 1. Add a new test:
 
@@ -215,7 +215,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     > [!TIP]
     > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
 
-##  <a name="debug"></a> Debug a failing test
+## <a name="debug"></a> Debug a failing test
 
 1. Add another test:
 
@@ -289,7 +289,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 > [!TIP]
 > If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-##  <a name="refactor"></a> Refactor the code without changing tests
+## <a name="refactor"></a> Refactor the code without changing tests
 
 1. Simplify the central calculation in the SquareRoot function:
 

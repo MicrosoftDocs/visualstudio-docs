@@ -27,7 +27,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
  [Build a release version of the app](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_BuildRelease)
 
-##  <a name="BKMK_Configure"></a> Sign In to Visual Studio
+## <a name="BKMK_Configure"></a> Sign In to Visual Studio
  When you start Visual Studio for the first time, you are given the chance to sign in using a Microsoft account such as Live or Outlook. Signing in allows your settings to be synchronized across all your devices. For more information, see [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
 
  Figure 1: Visual Studio IDE
@@ -36,7 +36,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
  After you open Visual Studio, you can see the three basic parts of the IDE: tool windows, menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the app window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. The center of the application window contains the **Start Page**. When you open a solution or project, editors and designers appear in this space. When you develop an application, you’ll spend most of your time in this central area.
 
-##  <a name="BKMK_CreateApp"></a> Create a simple application
+## <a name="BKMK_CreateApp"></a> Create a simple application
  When you create an app in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows console application.
 
 #### To create a console app
@@ -59,7 +59,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
    ![Files for the solution in Solution Explorer](../ide/media/c-ide-solutioncontents.png "C++IDE_SolutionContents")
 
-##  <a name="BKMK_AddCode"></a> Add Code to the Application
+## <a name="BKMK_AddCode"></a> Add Code to the Application
  Next, you'll add code to display the word "Hello" in the console window.
 
 #### To display “Hello” in the console window
@@ -93,7 +93,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
      ![Code that fixes cout error](../ide/media/c-ide-coutfix.png "C++IDE_CoutFix")
 
-##  <a name="BKMK_DebugTest"></a> Debug and Test the application
+## <a name="BKMK_DebugTest"></a> Debug and Test the application
  You can debug GreetingsConsoleApp to see whether the word "Hello" appears in the console window.
 
 #### To debug the application
@@ -122,7 +122,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
    For more information, see [Console Projects](../debugger/debugging-preparation-console-projects.md).
 
-##  <a name="BKMK_BuildRelease"></a> Build a release version of the app
+## <a name="BKMK_BuildRelease"></a> Build a release version of the app
  Now that you’ve verified that everything works, you can prepare a release build of the application.
 
 #### To clean the solution files and build a release version

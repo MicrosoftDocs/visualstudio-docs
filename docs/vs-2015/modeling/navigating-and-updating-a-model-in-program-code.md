@@ -50,7 +50,7 @@ You can write code to create and delete model elements, set their properties, an
   
  Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
   
-##  <a name="example"></a> An Example DSL Definition  
+## <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  
   
  ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt-person.png "FamilyT_Person")  
@@ -70,7 +70,7 @@ You can write code to create and delete model elements, set their properties, an
   
  In addition, if you are writing the code in a different project from the one in which your DSL is defined, you should import the assembly that is built by the Dsl project.  
   
-##  <a name="navigation"></a> Navigating the Model  
+## <a name="navigation"></a> Navigating the Model  
   
 ### Properties  
  Domain properties that you define in the DSL definition become properties that you can access in program code:  
@@ -137,7 +137,7 @@ You can write code to create and delete model elements, set their properties, an
   
  `store.ElementDirectory.GetElement(elementId);`  
   
-##  <a name="metadata"></a> Accessing Class Information  
+## <a name="metadata"></a> Accessing Class Information  
  You can get information about the classes, relationships, and other aspects of the DSL definition. For example:  
   
  `DomainClassInfo personClass = henry.GetDomainClass();`  
@@ -158,7 +158,7 @@ You can write code to create and delete model elements, set their properties, an
   
 - ElementLink - all relationships are ElementLinks  
   
-##  <a name="transaction"></a> Perform Changes inside a Transaction  
+## <a name="transaction"></a> Perform Changes inside a Transaction  
  Whenever your program code changes anything in the Store, it must do so inside a transaction. This applies to all model elements, relationships, shapes, diagrams, and their properties. For more information, see <xref:Microsoft.VisualStudio.Modeling.Transaction>.  
   
  The most convenient method of managing a transaction is with a `using` statement enclosed in a `try...catch` statement:  
@@ -191,7 +191,7 @@ catch (Exception ex)
   
  To make your changes permanent, you should `Commit` the transaction before it is disposed. If an exception occurs that is not caught inside the transaction, the Store will be reset to its state before the changes.  
   
-##  <a name="elements"></a> Creating Model Elements  
+## <a name="elements"></a> Creating Model Elements  
  This example adds an element to an existing model:  
   
 ```  
@@ -224,7 +224,7 @@ using (Transaction t =
   
   When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).  
   
-##  <a name="links"></a> Creating Relationship Links  
+## <a name="links"></a> Creating Relationship Links  
  There are two relationships defined in the example DSL definition. Each relationship defines a *role property* on the class at each end of the relationship.  
   
  There are three ways in which you can create an instance of a relationship. Each of these three methods has the same effect:  
@@ -255,7 +255,7 @@ using (Transaction t =
   
   When you create an element in this way, a connector on the diagram is automatically created, but it has a default shape, color, and other features. To control how the associated connector is created, see [Creating an Element and its Shape](#merge).  
   
-##  <a name="deleteelements"></a> Deleting Elements  
+## <a name="deleteelements"></a> Deleting Elements  
  Delete an element by calling `Delete()`:  
   
  `henry.Delete();`  
@@ -278,7 +278,7 @@ using (Transaction t =
   
   In some cases, deletion is prevented by the existence of a lock, either on the element or on an element that would be deleted by propagation. You can use `element.CanDelete()` to check whether the element can be deleted.  
   
-##  <a name="deletelinks"></a> Deleting Relationship Links  
+## <a name="deletelinks"></a> Deleting Relationship Links  
  You can delete a relationship link by removing an element from a role property:  
   
  `henry.Children.Remove(edward); // or:`  
@@ -297,7 +297,7 @@ using (Transaction t =
   
  `edward.FamilyTreeModel = anotherFamilyTree;`  
   
-##  <a name="reorder"></a> Re-ordering the Links of a Relationship  
+## <a name="reorder"></a> Re-ordering the Links of a Relationship  
  The links of a particular relationship that are sourced or targeted at a particular model element have a specific sequence. They appear in the order in which they were added. For example, this statement will always yield the children in the same order:  
   
  `foreach (Person child in henry.Children) ...`  
@@ -314,12 +314,12 @@ using (Transaction t =
   
  `link.MoveBefore(role, nextLink);`  
   
-##  <a name="locks"></a> Locks  
+## <a name="locks"></a> Locks  
  Your changes might be prevented by a lock. Locks can be set on individual elements, on partitions, and on the store. If any of these levels has a lock that prevents the kind of change that you want to make, an exception might be thrown when you attempt it. You can discover whether locks are set by using element.GetLocks(), which is an extension method that is defined in the namespace <xref:Microsoft.VisualStudio.Modeling.Immutability>.  
   
  For more information, see [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md).  
   
-##  <a name="copy"></a> Copy and Paste  
+## <a name="copy"></a> Copy and Paste  
  You can copy elements or groups of elements to an <xref:System.Windows.Forms.IDataObject>:  
   
 ```  
@@ -344,7 +344,7 @@ using (Transaction t = targetDiagram.Store.
   
  `Merge ()` can accept either a `PresentationElement` or a `ModelElement`. If you give it a `PresentationElement`, you can also specify a position on the target diagram as a third parameter.  
   
-##  <a name="diagrams"></a> Navigating and updating diagrams  
+## <a name="diagrams"></a> Navigating and updating diagrams  
  In a DSL, the domain model element, which represents a concept such as Person or Song, is separate from the shape element, which represents what you see on the diagram. The domain model element stores the important properties and relationships of the concepts. The shape element stores the size, position and color of the object's view on the diagram, and the layout of its component parts.  
   
 ### Presentation Elements  
@@ -366,7 +366,7 @@ using (Transaction t = targetDiagram.Store.
   
  Shapes can have child shapes in two sets. A shape in the `NestedChildShapes` set is confined to the bounding box of its parent. A shape in the `RelativeChildShapes` list can appear outside or partly outside the bounds of the parent – for example a label or a port. A diagram has no `RelativeChildShapes` and no `Parent`.  
   
-###  <a name="views"></a> Navigating between shapes and elements  
+### <a name="views"></a> Navigating between shapes and elements  
  Domain model elements and shape elements are related by the <xref:Microsoft.VisualStudio.Modeling.Diagrams.PresentationViewsSubject> relationship.  
   
 ```csharp  
@@ -438,7 +438,7 @@ FamilyTreeDiagram diagram =
   
  --------- *YourConnector*  
   
-###  <a name="shapeProperties"></a> Properties of Shapes and Connectors  
+### <a name="shapeProperties"></a> Properties of Shapes and Connectors  
  In most cases, it is not necessary to make explicit changes to shapes. When you have changed the model elements, the "fix up" rules update the shapes and connectors. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
   
  However, it is useful to make some explicit changes to shapes in properties that are independent of the model elements. For example, you could change these properties:  
@@ -453,7 +453,7 @@ FamilyTreeDiagram diagram =
   
 - <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`  
   
-###  <a name="merge"></a> Creating an Element and its Shape  
+### <a name="merge"></a> Creating an Element and its Shape  
  When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.  
   
  This method:  
@@ -506,7 +506,7 @@ partial class MyDiagram
 ### Use Transactions  
  Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
-##  <a name="docdata"></a> Document View and Document Data  
+## <a name="docdata"></a> Document View and Document Data  
  ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")  
   
 ## Store Partitions  

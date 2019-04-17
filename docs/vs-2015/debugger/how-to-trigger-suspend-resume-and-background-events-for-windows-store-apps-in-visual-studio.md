@@ -26,7 +26,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
  For more information about Process Lifetime Management and background tasks see [Launching, resuming, and multitasking](http://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b).
 
-##  <a name="BKMK_In_this_topic"></a> In this topic
+## <a name="BKMK_In_this_topic"></a> In this topic
  [Trigger Process Lifetime Management events](#BKMK_Trigger_Process_Lifecycle_Management_events)
 
  [Trigger background tasks](#BKMK_Trigger_background_tasks)
@@ -39,7 +39,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
   [Diagnosing background task activation errors](#BKMK_Diagnosing_background_task_activation_errors)
 
-##  <a name="BKMK_Trigger_Process_Lifecycle_Management_events"></a> Trigger Process Lifetime Management events
+## <a name="BKMK_Trigger_Process_Lifecycle_Management_events"></a> Trigger Process Lifetime Management events
  Windows can suspend your app when the user switches away from it or when Windows enters a low power state. You can respond to the `Suspending` event to save relevant app and user data to persistent storage and to release resources. When an app is resumed from the **Suspended** state, it enters the **Running** state and continues from where it was when it was suspended. You can respond to the `Resuming` event to restore or refresh application state and reclaim resources.
 
  Although Windows attempts to keep as many suspended apps in memory as possible, Windows can terminate your app if there aren't enough resources to keep it in memory. A user can also explicitly close your app. There's no special event to indicate that the user has closed an app.
@@ -56,7 +56,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
      Note that **Suspend and terminate** closes the app and ends the debug session.
 
-##  <a name="BKMK_Trigger_background_tasks"></a> Trigger background tasks
+## <a name="BKMK_Trigger_background_tasks"></a> Trigger background tasks
  Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](http://msdn.microsoft.com/4c7bb148-eb1f-4640-865e-41f627a46e8e)
 
  You can trigger the events that start background tasks for your app from the debugger.
@@ -66,7 +66,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
  The most realistic way to trigger a background task event is when your app is not running. However, triggering the event in a standard debugging session is also supported.
 
-###  <a name="BKMK_Trigger_a_background_task_event_from_a_standard_debug_session"></a> Trigger a background task event from a standard debug session
+### <a name="BKMK_Trigger_a_background_task_event_from_a_standard_debug_session"></a> Trigger a background task event from a standard debug session
 
 1. Set a breakpoint in the background task code that you want to debug.
 
@@ -76,7 +76,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
      ![Suspend, resume, terminate, and background tasks](../debugger/media/dbg-suspendresumebackground.png "DBG_SuspendResumeBackground")
 
-###  <a name="BKMK_Trigger_a_background_task_when_the_app_is_not_running"></a> Trigger a background task when the app is not running
+### <a name="BKMK_Trigger_a_background_task_when_the_app_is_not_running"></a> Trigger a background task when the app is not running
 
 1. Set a breakpoint in the background task code that you want to debug.
 
@@ -102,12 +102,12 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
      ![Suspend, resume, terminate, and background tasks](../debugger/media/dbg-suspendresumebackground.png "DBG_SuspendResumeBackground")
 
-##  <a name="BKMK_Trigger_Process_Lifetime_Management_events_and_background_tasks_from_an_installed_app"></a> Trigger Process Lifetime Management events and background tasks from an installed app
+## <a name="BKMK_Trigger_Process_Lifetime_Management_events_and_background_tasks_from_an_installed_app"></a> Trigger Process Lifetime Management events and background tasks from an installed app
  Use the Debug Installed App dialog box to load an app that is already installed into the debugger. For example, you might debug an app that was installed from the Windows store, or debug an app when you have the source files for the app, but not a Visual Studio project for the app. The Debug Installed App dialog box allows you start an app in debug mode on the Visual Studio machine or on a remote device, or to set the app to run in debug mode but not start it. See the **Start an installed app in the debugger** section of either the [JavaScript](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Start_an_installed_app_in_the_debugger) or [Visual C++, Visual C#, and Visual Basic](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md#BKMK_Start_an_installed_app_in_the_debugger) versions of **How to start a debugging session** for more information.
 
  Once the app is loaded into the debugger, you can use any of the procedures described above.
 
-##  <a name="BKMK_Diagnosing_background_task_activation_errors"></a> Diagnosing background task activation errors
+## <a name="BKMK_Diagnosing_background_task_activation_errors"></a> Diagnosing background task activation errors
  The diagnostic logs in Windows Event Viewer for the background infrastructure contained detailed information that you can use to diagnose and troubleshoot background task errors. To view the log:
 
 1. Open the Event Viewer application.

@@ -55,7 +55,7 @@ You can create and edit a UML model through the views provided by several differ
   
 - [Extending the UML Designers](#extensions)  
   
-##  <a name="Views"></a> UML Diagrams are Views of a UML Model  
+## <a name="Views"></a> UML Diagrams are Views of a UML Model  
  You can create and use UML diagrams only in modeling projects. For more information about how to create diagrams and projects, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
 - A modeling project contains a single UML model. Every UML diagram in the project is a view of the UML model.  
@@ -66,7 +66,7 @@ You can create and edit a UML model through the views provided by several differ
   
 - When you save any diagram, Visual Studio saves the whole model, all its diagrams, and the modeling project file.  
   
-##  <a name="Creating"></a> Creating UML Modeling Diagrams  
+## <a name="Creating"></a> Creating UML Modeling Diagrams  
   
 1. On the **Architecture** menu in Visual Studio, click **New UML or Layer Diagram**.  
   
@@ -85,7 +85,7 @@ You can create and edit a UML model through the views provided by several differ
   
   For more information about how to manage modeling projects, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
-##  <a name="Drawing"></a> Drawing UML Modeling Diagrams  
+## <a name="Drawing"></a> Drawing UML Modeling Diagrams  
  A modeling diagram displays a collection of model elements linked by relationships. Each element is displayed as a shape and each relationship is displayed as a connector between two shapes.  
   
  There are two kinds of tools, one for elements and one for relationships. For example, in the UML class diagram Toolbox, **Class** is an element tool, and **Association** is a relationship tool.  
@@ -111,7 +111,7 @@ You can create and edit a UML model through the views provided by several differ
   
    On some kinds of diagrams, you can also draw simple shapes. These shapes are not part of the model, but you can use them to draw attention to parts of the diagram or to divide it into different areas.  
   
-##  <a name="Editing"></a> Editing Shapes and Connectors  
+## <a name="Editing"></a> Editing Shapes and Connectors  
  When you resize or color a shape, or reroute a connector, there is no effect on the underlying model. However, when you rename a shape on the diagram or in the UML Model Explorer, the corresponding element is renamed in UML Model Explorer and in any other diagrams that present that element.  
   
 > [!NOTE]
@@ -160,7 +160,7 @@ You can create and edit a UML model through the views provided by several differ
   
 - On the **Architecture Designers** toolbar, click the plus sign (**+**) or minus sign (**-**), or choose a zoom level.  
   
-##  <a name="Searching"></a> Searching in a Diagram  
+## <a name="Searching"></a> Searching in a Diagram  
  The Quick Find function will find items on a diagram. You must set **Look in:** to **Current Document**.  
   
 #### To search for text in a modeling diagram  
@@ -179,7 +179,7 @@ You can create and edit a UML model through the views provided by several differ
     > [!NOTE]
     >  If the text you want to find is inside a collapsed shape, the shape will be highlighted. Expand the shape, and then click **Find Next** again.  
   
-##  <a name="Undo"></a> Undoing Changes to the Model  
+## <a name="Undo"></a> Undoing Changes to the Model  
  You can undo and redo changes that you have made to the model and diagrams by using the **Undo** and **Redo** commands on the **Edit** menu.  
   
  **Each modeling project has a single stack of changes.** All changes that you make to the model and the diagrams are kept on this stack. The stack also includes changes of focus from one diagram to another. The Undo command reverses the changes on this stack.  
@@ -192,7 +192,7 @@ You can create and edit a UML model through the views provided by several differ
   
  **Closing a diagram without saving might not have the effect you expect.** If you make some changes, and then close a diagram without saving it, your changes will still be preserved in the model. It is recommended to close the whole model if you want to do so without saving it.  
   
-##  <a name="Sharing"></a> Sharing Elements between Diagrams  
+## <a name="Sharing"></a> Sharing Elements between Diagrams  
  You can make a specific instance of a model element appear more than once in your diagrams. This applies to classes, interfaces, components, use cases, and actors.  
   
  This is useful if you want to show different groups of relationships in different diagrams. For example, on one diagram, you could show the associations between the Customer and Address classes. On another diagram, you could show the Address class again, with its association to Postal Area.  
@@ -228,7 +228,7 @@ You can create and edit a UML model through the views provided by several differ
 > [!NOTE]
 >  If you add to a diagram views of two model elements that are already connected by a relationship, a view of the relationship will also appear on the diagram. You can delete this view only by removing one of the elements from the diagram, or by deleting the relationship from the model.  
   
-##  <a name="Copying"></a> Copying Elements and Groups of Related Elements  
+## <a name="Copying"></a> Copying Elements and Groups of Related Elements  
  You can copy and paste model elements, and you can copy and paste groups of elements together with the relationships between them.  
   
 > [!NOTE]
@@ -264,7 +264,7 @@ You can create and edit a UML model through the views provided by several differ
   
    You cannot replicate a diagram by copying and pasting in Solution Explorer.  
   
-##  <a name="Deleting"></a> Deleting a Model Element or its Views  
+## <a name="Deleting"></a> Deleting a Model Element or its Views  
  Some kinds of elements, specifically classifiers, can be removed from a diagram without deleting them from the model. Classifiers are the major elements that are displayed on class diagrams, component diagrams, and use case diagrams. They can appear on more than one diagram. For these types of elements, there are two separate commands: **Remove from Diagram** and **Delete from Model**.  
   
  By contrast, when you delete a relationship from a diagram, you are always deleting it from the model.  
@@ -301,7 +301,7 @@ You can create and edit a UML model through the views provided by several differ
   
      The relationship is deleted from the model and is deleted from every diagram on which it appears.  
   
-##  <a name="presentation"></a> Preparing a Diagram for Presentation  
+## <a name="presentation"></a> Preparing a Diagram for Presentation  
  The following features help you to draw attention to particular parts of your diagram, add explanations, or divide a diagram into different areas of interest.  
   
 - You can copy any part of a diagram into a Word, PowerPoint, or other document. Select the shapes and connectors you want, right-click and then click **Copy**.  
@@ -319,7 +319,7 @@ You can create and edit a UML model through the views provided by several differ
 ### To export a diagram as an image  
  For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  
   
-##  <a name="extensions"></a> Extending the UML Designers  
+## <a name="extensions"></a> Extending the UML Designers  
  You can add new functionality to the UML tools and adapt the diagram notation to your own needs. For more information, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
   
  There are several sample extensions available. You can either just install and use them, or you can use their source code as the basis for your own extensions. The samples include:  

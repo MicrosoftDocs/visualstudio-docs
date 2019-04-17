@@ -34,7 +34,7 @@ The same `TextBox` looks much simpler in the variable window when Natvis custom 
 
 ![TextBox data using visualizer](../debugger/media/dbg_natvis_textbox_visualizer.png "TextBox data using visualizer")
 
-##  <a name="BKMK_Using_Natvis_files"></a>Use .natvis files in C++ projects
+## <a name="BKMK_Using_Natvis_files"></a>Use .natvis files in C++ projects
 
 Natvis uses *.natvis* files to specify visualization rules. A *.natvis* file is an XML file with a *.natvis* extension. The Natvis schema is defined in *%VSINSTALLDIR%\Xml\Schemas\natvis.xsd*.
 
@@ -121,7 +121,7 @@ If you modify the *.natvis* file outside of Visual Studio, the changes don't tak
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made.
 
-##  <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting
+## <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting
 Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger, which are described in [Context operator (C++)](../debugger/context-operator-cpp.md), be aware of the following:
 
 - Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, `x` in a Natvis expression refers to the field named **x** in the object being visualized, not to a local variable named **x** in the current function. You can't access local variables in Natvis expressions, although you can access global variables.
@@ -152,7 +152,7 @@ In the **Watch** window, use the **,view** format specifier to specify an altern
 
 ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch window with simple view")
 
-##  <a name="BKMK_Diagnosing_Natvis_errors"></a> Natvis errors
+## <a name="BKMK_Diagnosing_Natvis_errors"></a> Natvis errors
 
 When the debugger encounters errors in a visualization entry, it ignores them. It either displays the type in its raw form, or picks another suitable visualization. You can use Natvis diagnostics to understand why the debugger ignored a visualization entry, and to see underlying syntax and parse errors.
 
@@ -162,9 +162,9 @@ When the debugger encounters errors in a visualization entry, it ignores them. I
 
 The errors appear in the **Output** window.
 
-##  <a name="BKMK_Syntax_reference"></a> Natvis syntax reference
+## <a name="BKMK_Syntax_reference"></a> Natvis syntax reference
 
-###  <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element
+### <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element
 The `AutoVisualizer`  element is the root node of the *.natvis* file, and contains the namespace `xmlns:` attribute.
 
 ```xml
@@ -177,7 +177,7 @@ The `AutoVisualizer`  element is the root node of the *.natvis* file, and contai
 
 The `AutoVisualizer` element can have [Type](#BKMK_Type), [HResult](#BKMK_HResult), [UIVisualizer](#BKMK_UIVisualizer), and [CustomVisualizer](#BKMK_CustomVisualizer) children.
 
-###  <a name="BKMK_Type"></a> Type element
+### <a name="BKMK_Type"></a> Type element
 
 A basic `Type` looks like this example:
 
@@ -211,7 +211,7 @@ In the following example, the same visualization is used whether the object is a
 
 You can reference template parameters in the visualization entry by using macros $T1, $T2, and so forth. To find examples of these macros, see the *.natvis* files shipped with Visual Studio.
 
-####  <a name="BKMK_Visualizer_type_matching"></a> Visualizer type matching
+#### <a name="BKMK_Visualizer_type_matching"></a> Visualizer type matching
 If a visualization entry fails to validate, the next available visualization is used.
 
 #### Inheritable attribute
@@ -261,7 +261,7 @@ You can put an `Optional` attribute on any node. If a subexpression inside an op
 </Type>
 ```
 
-###  <a name="BKMK_Condition_attribute"></a> Condition attribute
+### <a name="BKMK_Condition_attribute"></a> Condition attribute
 
 The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule doesn't apply. If it evaluates to `true`, or there is no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries.
 
@@ -297,7 +297,7 @@ The `IncludeView` and `ExcludeView` attributes specify elements to display or no
 
 You can use the `IncludeView` and `ExcludeView` attributes on types and on individual members.
 
-###  <a name="BKMK_Versioning"></a> Version element
+### <a name="BKMK_Versioning"></a> Version element
 The `Version` element scopes a visualization entry to a specific module and version. The `Version` element helps avoid name collisions, reduces inadvertent mismatches, and allows different visualizations for different type versions.
 
 If a common header file that is used by different modules defines a type, the versioned visualization appears only when the type is in the specified module version.
@@ -314,7 +314,7 @@ In the following example, the visualization is applicable only for the `DirectUI
 </Type>
 ```
 
-###  <a name="BKMK_DisplayString"></a> DisplayString element
+### <a name="BKMK_DisplayString"></a> DisplayString element
 The `DisplayString` element specifies a string to show as the value of a variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, the following `DisplayString` entry:
 
 ```xml
@@ -332,7 +332,7 @@ In the `DisplayString` expression, `x` and `y`, which are members of `CPoint`, a
 > [!NOTE]
 > The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that the debugger can evaluate.
 
-###  <a name="BKMK_StringView"></a> StringView element
+### <a name="BKMK_StringView"></a> StringView element
 
 The `StringView` element defines a value that the debugger can send to the built-in text visualizer. For example, given the following visualization for the `ATL::CStringT` type:
 
@@ -361,7 +361,7 @@ During debugging, you can select the magnifying glass icon next to the variable,
 
 The expression `{m_pszData,su}` includes a C++ format specifier **su**, to display the value as a Unicode string. For more information, see [Format specifiers in C++](../debugger/format-specifiers-in-cpp.md).
 
-###  <a name="BKMK_Expand"></a> Expand element
+### <a name="BKMK_Expand"></a> Expand element
 
 The optional `Expand` node customizes the children of a visualized type when you expand the type in a variable window. The `Expand` node accepts a list of child nodes that define the child elements.
 
@@ -369,7 +369,7 @@ The optional `Expand` node customizes the children of a visualized type when you
 
 - If an `Expand` node is specified with no child nodes under it, the type isn't expandable in the debugger windows.
 
-####  <a name="BKMK_Item_expansion"></a> Item expansion
+#### <a name="BKMK_Item_expansion"></a> Item expansion
 
  The `Item` element is the most basic and common element in an `Expand` node. `Item` defines a single child element. For example, a `CRect` class with fields `top`, `left`, `right`, and `bottom` has the following visualization entry:
 
@@ -394,7 +394,7 @@ The debugger automatically creates the **[Raw View]** node for every custom expa
 > [!NOTE]
 > If the expression of the item element points to a complex type, the **Item** node itself is expandable.
 
-####  <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion
+#### <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion
 Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:
 
 ```xml
@@ -450,7 +450,7 @@ Here's how a two-dimensional `Concurrency::array` object looks in the debugger w
 
 ![Two-dimensional array with ArrayItems expansion](../debugger/media/dbg_natvis_expand_arrayitems_2d.png "Two-dimensional array with ArrayItems expansion")
 
-####  <a name="BKMK_IndexListItems_expansion"></a> IndexListItems expansion
+#### <a name="BKMK_IndexListItems_expansion"></a> IndexListItems expansion
 
 You can use `ArrayItems` expansion only if the array elements are laid out contiguously in memory. The debugger gets to the next element by simply incrementing its pointer. If you need to manipulate the index to the value node, use `IndexListItems` nodes. Here's a visualization with an `IndexListItems` node:
 
@@ -472,7 +472,7 @@ The only difference between `ArrayItems` and `IndexListItems` is the `ValueNode`
 >[!NOTE]
 >You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `IndexListItems`, even if the type itself (for example `CATLArray`) does not allow this operator.
 
-####  <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion
+#### <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion
 
 If the visualized type represents a linked list, the debugger can display its children by using a `LinkedListItems` node. The following visualization for the `CAtlList` type uses `LinkedListItems`:
 
@@ -549,7 +549,7 @@ You can use `Exec` to execute code inside of a `CustomListItems` expansion, usin
 - `TreeTraverse_Next // Returns nodes in a tree`
 - `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
 
-####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion
+#### <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here's the visualization for the `std::map` type using a `TreeItems` node:
 
 ```xml
@@ -571,7 +571,7 @@ You can use `Exec` to execute code inside of a `CustomListItems` expansion, usin
 
 The syntax is similar to the `LinkedListItems` node. `LeftPointer`, `RightPointer`, and `ValueNode` are evaluated under the context of the tree node class. `ValueNode` can be left empty or use `this` to refer to the `TreeItems` node itself.
 
-####  <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem expansion
+#### <a name="BKMK_ExpandedItem_expansion"></a> ExpandedItem expansion
  The `ExpandedItem` element generates an aggregated child view by displaying properties of base classes or data members as if they were children of the visualized type. The debugger evaluates the specified expression, and appends the child nodes of the result to the child list of the visualized type.
 
 For example, the smart pointer type `auto_ptr<vector<int>>` typically displays as:
@@ -605,7 +605,7 @@ The following example shows how to aggregate properties from the base class in a
 
 The **nd** format specifier, which turns off visualization matching for the derived class, is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` would cause the `CPanel` visualization to be applied again, because the default visualization type matching rules consider it the most appropriate one. Use the **nd** format specifier to instruct the debugger to use the base class visualization, or the default expansion if the base class has no visualization.
 
-####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion
+#### <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion
  While the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that isn't a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:
 
 ```xml
@@ -627,7 +627,7 @@ The **nd** format specifier, which turns off visualization matching for the deri
 
  ![Concurrency::Array with Synthetic element expansion](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array with Synthetic element expansion")
 
-###  <a name="BKMK_HResult"></a> HResult element
+### <a name="BKMK_HResult"></a> HResult element
  The `HResult` element lets you customize the information shown for an **HRESULT** in debugger windows. The `HRValue` element must contain the 32-bit value of the **HRESULT** that is to be customized. The `HRDescription` element contains the information to show in the debugger window.
 
 ```xml
@@ -638,7 +638,7 @@ The **nd** format specifier, which turns off visualization matching for the deri
 </HResult>
 ```
 
-###  <a name="BKMK_UIVisualizer"></a> UIVisualizer element
+### <a name="BKMK_UIVisualizer"></a> UIVisualizer element
 A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer creates a dialog box or other interface that shows a variable or object in a way consistent with its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md), and must expose a service that the debugger can consume. The *.natvis* file contains registration information for the plug-in, such as its name, the GUID of the exposed service, and the types it can visualize.
 
 Here's an example of a UIVisualizer element:

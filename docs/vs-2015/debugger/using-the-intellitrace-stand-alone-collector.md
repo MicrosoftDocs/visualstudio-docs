@@ -45,7 +45,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 - [Where else can I get IntelliTrace data?](#WhereElse)
 
-##  <a name="WhatApps"></a> What apps work with the collector?
+## <a name="WhatApps"></a> What apps work with the collector?
 
 - ASP.NET Web apps hosted on Internet Information Services (IIS) version 7.0, 7.5, and 8.0
 
@@ -53,7 +53,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 - Windows Presentation Foundation (WPF) and Windows Forms apps.
 
-##  <a name="GetStarted"></a> How do I get started?
+## <a name="GetStarted"></a> How do I get started?
 
 1. [Install the collector](#BKMK_Install_the_IntelliTrace_Stand_Alone_Collector)
 
@@ -71,7 +71,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
-##  <a name="BKMK_Install_the_IntelliTrace_Stand_Alone_Collector"></a> Install the collector
+## <a name="BKMK_Install_the_IntelliTrace_Stand_Alone_Collector"></a> Install the collector
 
 1. On your app’s server, create the collector directory, for example: **C:\IntelliTraceCollector**
 
@@ -108,7 +108,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
        > [!NOTE]
        >  The period (**.**) preserves the subfolders that contain localized collection plans.
 
-##  <a name="ConfigurePermissionsRunningCollector"></a> Set up permissions for the collector directory
+## <a name="ConfigurePermissionsRunningCollector"></a> Set up permissions for the collector directory
 
 1. On your app’s server, open a command prompt window as an administrator.
 
@@ -136,7 +136,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
              `icacls "C:\IntelliTraceCollector" /grant "IIS APPPOOL\SharePoint - 80":RX`
 
-##  <a name="BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets"></a> Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications
+## <a name="BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets"></a> Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications
 
 1. On your app’s server, make sure that PowerShell is enabled. On most versions of Windows Server, you can add this feature in the **Server Manager** administrative tool.
 
@@ -160,7 +160,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
          `Import-Module "C:\IntelliTraceCollector\Microsoft.VisualStudio.IntelliTrace.PowerShell.dll"`
 
-##  <a name="BKMK_Create_and_Configure_a_Log_File_Directory"></a> Set up permissions for the .iTrace file directory
+## <a name="BKMK_Create_and_Configure_a_Log_File_Directory"></a> Set up permissions for the .iTrace file directory
 
 1. On your app’s server, create the .iTrace file directory, for example: **C:\IntelliTraceLogFiles**
 
@@ -204,7 +204,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
      7. Make sure the application pool has **Full control**.
 
-##  <a name="BKMK_Collect_Data_from_IIS_Application_Pools"></a> Collect data from a Web app or SharePoint application
+## <a name="BKMK_Collect_Data_from_IIS_Application_Pools"></a> Collect data from a Web app or SharePoint application
 
 1. To start collecting data, open a PowerShell command window as an administrator, then run this command:
 
@@ -246,7 +246,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
-##  <a name="BKMK_Collect_Data_from_Executables"></a> Collect data from a managed app
+## <a name="BKMK_Collect_Data_from_Executables"></a> Collect data from a managed app
 
 1. To start your app and collect data at the same time, use this syntax:
 
@@ -267,7 +267,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 3. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
-##  <a name="BKMK_View_IntelliTrace_Log_Files"></a> Open the .iTrace file in Visual Studio Enterprise
+## <a name="BKMK_View_IntelliTrace_Log_Files"></a> Open the .iTrace file in Visual Studio Enterprise
 
 > [!NOTE]
 >  To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
@@ -281,7 +281,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
     > [!NOTE]
     >  To debug with IntelliTrace and step through code, you must have the matching source files and symbol files on your development machine. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
-##  <a name="Minimizing"></a> How do I get the most data without slowing down my app?
+## <a name="Minimizing"></a> How do I get the most data without slowing down my app?
  IntelliTrace can collect lots of data, so the impact on your app's performance depends on the data that IntelliTrace collects and the kind of code it analyzes. See [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233).
 
  Here are some ways to get the most data without slowing down your app:
@@ -373,7 +373,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
    The collector records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the collector doesn't record information about the `Address` object other than whether it was null or not. The collector also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.
 
-##  <a name="WhereElse"></a> Where else can I get IntelliTrace data?
+## <a name="WhereElse"></a> Where else can I get IntelliTrace data?
 
 - From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 

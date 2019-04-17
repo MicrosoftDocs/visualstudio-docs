@@ -19,7 +19,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
  This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md) for tips on which structure to use.  
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
+## <a name="BKMK_In_this_topic"></a> In this topic  
  This topic takes you through the following tasks:  
   
  [Create the solution and the unit test project](#BKMK_Create_the_solution_and_the_unit_test_project)  
@@ -36,7 +36,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
  [Refactor the code without changing tests](#BKMK_Refactor_the_code_without_changing_tests)  
   
-##  <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project  
+## <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project  
   
 1. On the **File** menu, choose **New**, and then choose **New Project**.  
   
@@ -62,7 +62,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md) in the MSDN Library.  
   
-##  <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer  
+## <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer  
   
 1. Insert some test code:  
   
@@ -81,7 +81,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
      ![Test Explorer](../test/media/ute-cpp-testexplorer-testmethod1.png "UTE_Cpp_TestExplorer_TestMethod1")  
   
-##  <a name="BKMK_Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution  
+## <a name="BKMK_Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution  
   
 1. In Solution Explorer, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.  
   
@@ -141,7 +141,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
     ```  
   
-##  <a name="BKMK_Couple_the_test_project_to_the_dll_project"></a> Couple the test project to the dll project  
+## <a name="BKMK_Couple_the_test_project_to_the_dll_project"></a> Couple the test project to the dll project  
   
 1. Add RooterLib to the RooterLibTests project.  
   
@@ -194,7 +194,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
    You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.  
   
-##  <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass  
+## <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass  
   
 1. Add a new test:  
   
@@ -255,7 +255,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
 > [!TIP]
 >  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
   
-##  <a name="BKMK_Debug_a_failing_test"></a> Debug a failing test  
+## <a name="BKMK_Debug_a_failing_test"></a> Debug a failing test  
   
 1. Add another test to **unittest1.cpp**:  
   
@@ -325,7 +325,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
    ![All tests pass](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
-##  <a name="BKMK_Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests  
+## <a name="BKMK_Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests  
   
 1. Simplify the central calculation in the `SquareRoot` function:  
   

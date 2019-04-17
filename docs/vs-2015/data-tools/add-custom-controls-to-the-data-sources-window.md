@@ -34,7 +34,7 @@ When you drag an item from the **Data Sources** window to a design surface to cr
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, on the **Tools** menu, select **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="customizinglist"></a> Customize the list of bindable controls for a data type  
+## <a name="customizinglist"></a> Customize the list of bindable controls for a data type  
  To add or remove controls from the list of available controls for items in the **Data Sources** window that have a specific data type, perform the following steps.  
   
 #### To select the controls to be listed for a data type  
@@ -68,7 +68,7 @@ When you drag an item from the **Data Sources** window to a design surface to cr
   
      The controls you selected in the **Associated controls** box now appear in the drop-down menu for the item.  
   
-##  <a name="addingcontrols"></a> Addcontrols to the list of associated controls for a data type  
+## <a name="addingcontrols"></a> Addcontrols to the list of associated controls for a data type  
  If you want to associate a control with a data type, but the control does not appear in the **Associated controls** box, you must add the control to the list. The control must be located in the current solution or in a referenced assembly. It must also be available in the **Toolbox**, and have an attribute that specifies the control's data binding behavior.  
   
 #### To add controls to the list of associated controls  

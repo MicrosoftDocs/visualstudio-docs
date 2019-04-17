@@ -38,7 +38,7 @@ If you break in code that doesn't have source or symbol (*.pdb*) files loaded, t
 
 You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or [run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All).
 
-##  Step through code
+## Step through code
 
 The debugger step commands help you inspect your app state or find out more about its execution flow.
 
@@ -69,7 +69,7 @@ On a nested function call, **Step Into** steps into the most deeply nested funct
 >[!TIP]
 >As you execute each line of code, you can hover over variables to see their values, or use the [Locals](autos-and-locals-windows.md) and [Watch](watch-and-quickwatch-windows.md) windows to watch the values change. You can also visually trace the call stack while stepping into functions. See [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).
 
-###  <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
+### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
 You may not care about a function while debugging, or you know it works, like well-tested library code. You can use the following commands to skip through code. The functions still execute, but the debugger skips over them.
 
@@ -78,7 +78,7 @@ You may not care about a function while debugging, or you know it works, like we
 |**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code, then suspends execution at the first line of code after the called function returns.|
 |**Shift**+**F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns. The debugger skips through the current function.|
 
-##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function
+## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function
 
 You may prefer to run directly to a specific location or function when you know exactly what code you want to inspect, or you know where you want to start debugging.
 
@@ -133,7 +133,7 @@ While paused in the debugger, you can hover over a statement in source code or t
 
 To break in the next available line of code in a running app, select **Debug** > **Break All**, or press **Ctrl**+**Alt**+**Break**.
 
-##  <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
+## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
 
 While the debugger is paused, a yellow arrowhead in the margin of the source code or **Disassembly** window marks the location of the next statement to be executed. You can change the next statement to execute by moving this arrowhead. You can skip over a portion of code, or return to a previous line. Moving the pointer is useful for situations such as skipping a section of code that contains a known bug.
 
@@ -175,7 +175,7 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
 
 1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Right-click the module that you want to load symbols for, and select **Load Symbols**.
 
-##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
+## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** check box.
 
 ## See also

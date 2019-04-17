@@ -24,7 +24,7 @@ This page describes how to install Visual Studio 2015 when you are not connected
 > [!IMPORTANT]
 > If your offline machine is running Windows 7 SP1 or Windows Server 2008 R2, please see the special instructions in the [Troubleshooting an offline installation](#BKMK_tshoot) section  of this topic.  You must follow these instructions *before* you install Visual Studio 2015.
 
-##  <a name="BKMK_Offline"></a> Installing by creating an offline installation
+## <a name="BKMK_Offline"></a> Installing by creating an offline installation
 
 #### To create an offline installation layout
 
@@ -50,7 +50,7 @@ This page describes how to install Visual Studio 2015 when you are not connected
 ## Updating an offline installation
  Microsoft has released several Updates for Visual Studio 2015. To update your Visual Studio installation, simply download  the edition you want from the from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page. Next, follow the steps outlined in this topic to create a new offline installation layout and then use it to update your copy of Visual Studio 2015.
 
-##  <a name="BKMK_tshoot"></a> Troubleshooting an offline installation
+## <a name="BKMK_tshoot"></a> Troubleshooting an offline installation
  When you install offline from your offline install cache, you might see warning messages about not being able to install some components and packages. The following table includes possible solutions for these scenarios.
 
 | Component or Package | Solution |

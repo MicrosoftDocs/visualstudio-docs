@@ -23,7 +23,7 @@ You can also open models and diagrams in the Visual Studio user interface by usi
   
 - You can open a model in read-only mode. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
-##  <a name="Showing"></a> Opening Models and Diagrams in Visual Studio  
+## <a name="Showing"></a> Opening Models and Diagrams in Visual Studio  
  To open a model in the user interface, use the standard Visual Studio API `EnvDTE.DTE`. There are two useful casts that you can perform on modeling project items:  
   
 - `EnvDTE.Project` can be cast to and from `IModelingProject`, if the project is a modeling project, and if the project is loaded in the current AppDomain.  

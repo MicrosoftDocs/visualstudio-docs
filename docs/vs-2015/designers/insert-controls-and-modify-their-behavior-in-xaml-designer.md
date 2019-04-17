@@ -21,7 +21,7 @@ Controls enable users to interact with your app. You can use them to collect inf
   
 - [Make controls do things](#Modify)  
   
-##  <a name="Insert"></a> Add controls to the artboard  
+## <a name="Insert"></a> Add controls to the artboard  
  You can drag controls from the **Assets** panel onto the **artboard**, and then modify them in the **Properties** window.  
   
  ![Blend &#45; Assets &#45; FlipView](../designers/media/blend-assetsflipview-xaml.png "blend_AssetsFlipView_XAML")  
@@ -47,7 +47,7 @@ Controls enable users to interact with your app. You can use them to collect inf
   
  To make a control, select an object. Then, on the **Tools** menu, click **Make Control**.  
   
-##  <a name="Modify"></a> Make controls do things  
+## <a name="Modify"></a> Make controls do things  
  Controls can perform actions when users interact with them. For example, they can start an animation, update a data source or play a video.  
   
  Use *triggers*, *behaviors*, and *events* to make controls do things.  

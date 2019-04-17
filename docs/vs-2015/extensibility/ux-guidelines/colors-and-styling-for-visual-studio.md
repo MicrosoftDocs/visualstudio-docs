@@ -73,7 +73,7 @@ manager: jillfra
 
  **Tools>Options dialog**
 
-##  <a name="BKMK_TheVSColorService"></a> The VSColor Service
+## <a name="BKMK_TheVSColorService"></a> The VSColor Service
  Visual Studio provides an environment color service, also called the VSColor service or the shell color service. This service allows you to bind the color values of your UI elements to a name-value color set containing colors for each theme. The VSColor service must be used for all UI elements, so that colors automatically change to reflect the current user-selected theme, and so that UI bound to the environment color service will integrate with new themes in future versions of Visual Studio.
 
 ### How the service works
@@ -250,7 +250,7 @@ protected override void Dispose(bool disposing)
 }
 ```
 
-##  <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
+## <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
 
 ### Overview
  Windows uses several high-contrast system-level themes that increase the color contrast of text, backgrounds, and images, making elements appear more distinct on the screen. For accessibility reasons, it is important that Visual Studio interface elements respond correctly when users switch to a High Contrast theme.
@@ -317,7 +317,7 @@ protected override void Dispose(bool disposing)
 |WindowFrame|-   IDE border|
 |WindowText|-   Auto-hide tab foreground<br />-   Selected tool window tab foreground<br />-   Unfocused document window tab and unfocused or unselected provisional tab foreground<br />-   Tree view default foreground and hover over unselected glyph<br />-   Tool window selected tab border<br />-   Scrollbar thumb background, border, and glyph|
 
-##  <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
+## <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
 
 ### Overview
  Sometimes you will want to allow the end user to customize your UI, such as when you are creating a code editor or design surface. The most common way to do this is by using the **Tools > Options** dialog. Unless you have highly specialized UI that requires special controls, the easiest way to present the customization is through the **Fonts and Colors** page within the **Environment** section of the dialog. For each element that you expose for customization, the user can choose to change the foreground color, background color, or both.

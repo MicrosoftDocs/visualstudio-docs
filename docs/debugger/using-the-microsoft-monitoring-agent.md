@@ -26,11 +26,11 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 3. [Step 3: Save recorded events](#SaveEvents)
 
-##  <a name="SetUpMonitoring"></a> Step 1: Set up Microsoft Monitoring Agent
+## <a name="SetUpMonitoring"></a> Step 1: Set up Microsoft Monitoring Agent
 
  Set up the standalone agent on your web server to perform local monitoring without changing your application. If you use System Center 2012, see [Installing Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465156(v=sc.12)).
 
-###  <a name="SetUpStandaloneMMA"></a> Set up the standalone agent
+### <a name="SetUpStandaloneMMA"></a> Set up the standalone agent
 
 1. Make sure that:
 
@@ -59,7 +59,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 ### Q & A
 
-####  <a name="PowerShell2"></a> Q: What if I have Windows PowerShell 2.0?
+#### <a name="PowerShell2"></a> Q: What if I have Windows PowerShell 2.0?
  **A:** We strongly recommend that you use PowerShell 3.0. Otherwise, you'll have to import the Microsoft Monitoring Agent PowerShell cmdlets each time you run PowerShell. You also won't have access to downloadable Help content.
 
 1. Open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.
@@ -70,7 +70,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 3. [Visit TechNet](http://technet.microsoft.com/systemcenter/default) to get the most recent Help content.
 
-####  <a name="FullPermissionsITLog"></a> Q: How do I set up permissions for the application pool?
+#### <a name="FullPermissionsITLog"></a> Q: How do I set up permissions for the application pool?
  **A:** Use the Windows **icacls** command or use Windows Explorer (or File Explorer). For example:
 
 - To set up permissions with the Windows **icacls** command:
@@ -101,7 +101,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
   7. Make sure the application pool has **Read & execute** permissions.
 
-##  <a name="MonitorEvents"></a> Step 2: Start monitoring your app
+## <a name="MonitorEvents"></a> Step 2: Start monitoring your app
  Use the Windows PowerShell [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).
 
 1. On your web server, open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.
@@ -140,7 +140,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 ### Q & A
 
-####  <a name="Minimizing"></a> Q: How do I get the most data without slowing down my app?
+#### <a name="Minimizing"></a> Q: How do I get the most data without slowing down my app?
  **A:** Microsoft Monitoring Agent can collect lots of data and affects your app's performance depending on the data that you choose to collect and how you collect it. Here are some ways to get the most data without slowing down your app:
 
 - For web apps and SharePoint applications, the agent records data for every app that shares the specified application pool. This might slow down any app that shares the same application pool, even though you can restrict collection to the modules for a single app. To avoid slowing down other apps, host each app in its own application pool.
@@ -222,7 +222,7 @@ The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress
 
 The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.
 
-##  <a name="SaveEvents"></a> Step 3: Save recorded events
+## <a name="SaveEvents"></a> Step 3: Save recorded events
  When you find an error or a performance issue, save the recorded events to an IntelliTrace log. The agent creates the log only if it recorded events. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).
 
 ### Save recorded events but continue monitoring

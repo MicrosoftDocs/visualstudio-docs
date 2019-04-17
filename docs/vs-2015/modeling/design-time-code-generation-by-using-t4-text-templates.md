@@ -289,7 +289,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 > [!TIP]
 >  A text template runs in its own app domain, and services are accessed by marshaling. In this circumstance, GetCOMService() is more reliable than GetService().  
   
-##  <a name="Regenerating"></a> Regenerating the code automatically  
+## <a name="Regenerating"></a> Regenerating the code automatically  
  Typically, several files in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.  
   
  If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.  
@@ -314,7 +314,7 @@ Error("An error message");
 Warning("A warning message");  
 ```  
   
-##  <a name="Converting"></a> Converting an existing file to a template  
+## <a name="Converting"></a> Converting an existing file to a template  
  A useful feature of templates is that they look very much like the files that they generate, together with some inserted program code. This suggests a useful method of creating a template. First create an ordinary file as a prototype, such as a [!INCLUDE[csprcs](../includes/csprcs-md.md)] file, and then gradually introduce generation code that varies the resulting file.  
   
 #### To convert an existing file to a design-time template  

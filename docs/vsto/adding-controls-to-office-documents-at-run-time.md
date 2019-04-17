@@ -38,7 +38,7 @@ ms.workload:
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).
 
-##  <a name="ControlsCollection"></a> Manage controls at runtime by using control collections
+## <a name="ControlsCollection"></a> Manage controls at runtime by using control collections
  To add, get, or remove controls at runtime, use helper methods of <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> objects.
 
  The way that you access these objects depends on the type of project you are developing:
@@ -70,7 +70,7 @@ ms.workload:
 > [!NOTE]
 >  Do not programmatically remove controls in the `Shutdown` event handler of the document. The UI elements of the document are no longer available when the `Shutdown` event is raised. If you want to remove controls before the document closes, add your code to the event handler for another event, such as <xref:Microsoft.Office.Tools.Word.Document.BeforeClose> or <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> for Word, or <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeClose>, or <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeSave> for Excel.
 
-##  <a name="HostControls"></a> Add host controls to documents
+## <a name="HostControls"></a> Add host controls to documents
 
 When you programmatically add host controls to documents, you must provide a name that uniquely identifies the control, and you must specify where to add the control on the document. For specific instructions, see the following topics:
 
@@ -91,7 +91,7 @@ When a document is saved and then closed, all dynamically created host controls 
 > [!NOTE]
 > Helper methods are not provided for the following host controls, because these controls cannot be added programmatically to documents: <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>, and <xref:Microsoft.Office.Tools.Word.XMLNodes>.
 
-##  <a name="WindowsForms"></a> Add Windows Forms controls to documents
+## <a name="WindowsForms"></a> Add Windows Forms controls to documents
  When you programmatically add a Windows Forms control to a document, you must provide the location of the control and a name that uniquely identifies the control. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for each control. These methods are overloaded so that you can pass either a range or specific coordinates for the location of the control.
 
  When a document is saved and then closed, all dynamically created Windows Forms controls are removed from the document. You can add code to your solution to re-create the controls when the document is reopened. If you create dynamic Windows Forms controls by using a VSTO Add-in, the ActiveX wrappers for the controls are left in the document. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).

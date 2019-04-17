@@ -109,7 +109,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 - On the **Shader Designer Modes** toolbar, choose the shape that you want.  
   
-####  <a name="WWS_MaterialParameters"></a> Textures and material parameters  
+#### <a name="WWS_MaterialParameters"></a> Textures and material parameters  
  Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.  
   
 ###### To bind a different texture to a texture register, or to modify other material parameters  

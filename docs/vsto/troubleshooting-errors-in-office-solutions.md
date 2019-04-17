@@ -34,7 +34,7 @@ ms.workload:
 
 - [Debug projects](#debugging)
 
-##  <a name="creating"></a> Create, upgrade, and open projects
+## <a name="creating"></a> Create, upgrade, and open projects
  You might encounter the following errors when you create or open Office projects.
 
 ### The project cannot be created
@@ -78,7 +78,7 @@ ms.workload:
 
  After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions.
 
-##  <a name="designers"></a> Use the designers
+## <a name="designers"></a> Use the designers
  You might encounter the following errors when you work with the document, workbook, or worksheet designer in document-level projects.
 
 ### Designer failed to load correctly
@@ -99,7 +99,7 @@ ms.workload:
 ### Insert clip art command does nothing in the Visual Studio designer
  When Excel or Word is open in the Visual Studio designer, clicking the **Clip Art** button on the **Illustrations** tab in the ribbon does not open the **Clip Art** task pane. To add clip art, you must open the copy of the workbook or document that is in the main project folder (not the copy that is in the *\bin* folder) outside of Visual Studio, add the clip art, and then save the workbook or document.
 
-##  <a name="code"></a> Write code
+## <a name="code"></a> Write code
  You might encounter the following errors when you write code in Office projects.
 
 ### Some events of Office objects are not accessible when using C#
@@ -164,7 +164,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 
  Even though you have imported the Word or Excel namespace and have access to all the classes inside it, you must fully qualify all the types with Word or Excel to remove namespace ambiguity.
 
-##  <a name="building"></a> Build projects
+## <a name="building"></a> Build projects
  You might encounter the following errors when you build Office projects.
 
 ### Cannot build a document-level project that is based on a document with restricted permissions
@@ -177,7 +177,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ### Compiler errors occur after a NamedRange control is deleted
  If you delete a <xref:Microsoft.Office.Tools.Excel.NamedRange> control from a worksheet that is not the active worksheet in the designer, the auto-generated code might not be removed from your project and compiler errors might occur. To make sure the code is removed, you should always select the worksheet that contains the <xref:Microsoft.Office.Tools.Excel.NamedRange> control to make it the active worksheet before deleting the control. If auto-generated code is not deleted when you delete the control, you can cause the designer to delete the code by activating the worksheet and making a change so that the worksheet becomes marked as modified. When you rebuild the project, the code is removed.
 
-##  <a name="debugging"></a> Debug projects
+## <a name="debugging"></a> Debug projects
  You might encounter the following errors when you debug Office projects.
 
 ### Prompt to uninstall appears when you publish and install a solution on the development computer

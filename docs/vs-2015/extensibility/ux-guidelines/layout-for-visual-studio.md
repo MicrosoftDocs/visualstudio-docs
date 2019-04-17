@@ -14,7 +14,7 @@ manager: jillfra
 
 The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](https://msdn.microsoft.com/library/windows/desktop/dn742499\(v=vs.85\).aspx). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.
 
-##  <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout
+## <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout
 
 - All controls within a utility dialog should start at the top/left and flow downward.
 
@@ -96,7 +96,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 - The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.
 
-####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons
+#### <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons
  In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog’s commit buttons are located.
 
 - Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.
@@ -116,7 +116,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 #### [Browse…] button
  **[Browse…]** buttons that follow a text box should spell out "Browse…" in full, including the ellipsis. If space is tight or there are multiple **[Browse…]** buttons on the screen, the button can be reduced to just the ellipsis.
 
-##  <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout
+## <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout
  Themed dialogs in Visual Studio have a lighter appearance and offer more white space. Typography provides more emphasis and interest, offering more open line spacing and a variation of font sizes and weights. Where possible, chrome and title bars have been reduced or removed. The layout of these dialogs should follow this basic pattern:
 
 1. The background of the dialog is white.

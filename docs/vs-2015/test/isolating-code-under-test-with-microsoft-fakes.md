@@ -45,7 +45,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
  In general, we recommend that you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. Shim types can be used to isolate from third-party components that do not provide a testable API.  
   
-##  <a name="stubs"></a> Getting started with stubs  
+## <a name="stubs"></a> Getting started with stubs  
  For a more detailed description, see [Using stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).  
   
 1. **Inject interfaces**  
@@ -139,7 +139,7 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
      Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Using stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).  
   
-##  <a name="shims"></a> Getting started with shims  
+## <a name="shims"></a> Getting started with shims  
  (For a more detailed description, see [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).)  
   
  Suppose your component contains calls to `DateTime.Now`:  

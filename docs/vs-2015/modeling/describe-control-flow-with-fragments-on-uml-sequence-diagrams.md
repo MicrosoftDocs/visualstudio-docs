@@ -96,7 +96,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
     > [!NOTE]
     >  Different kinds of combined fragment have different properties.  
   
-##  <a name="KindsOfFragment"></a> Kinds of Combined Fragment  
+## <a name="KindsOfFragment"></a> Kinds of Combined Fragment  
   
 ### Fragments Describing Control Flow  
  A simple sequence diagram shows just one typical sequence. You can use the following types of combined fragments to describe variations that may occur on different occasions.  

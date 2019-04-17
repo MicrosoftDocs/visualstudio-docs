@@ -53,7 +53,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
    A use case diagram can show which use cases are supported by your system or its subsystems.  
   
-##  <a name="BasicSteps"></a> Basic Steps for Drawing Use Case Diagrams  
+## <a name="BasicSteps"></a> Basic Steps for Drawing Use Case Diagrams  
   
 > [!NOTE]
 >  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
@@ -104,7 +104,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 7. Draw separate diagrams to focus on different subsystems or different groups of related use cases. All the diagrams in one modeling project are views of the same model.  
   
-##  <a name="Actors"></a> Drawing Actors and Use Cases  
+## <a name="Actors"></a> Drawing Actors and Use Cases  
  The main purpose of a use case diagram is to show who interacts with your system, and the main goals they achieve with it.  
   
 - Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
@@ -211,7 +211,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
     > [!NOTE]
     >  If you place on the new diagram an actor and a use case that are already associated, the association between them will automatically appear on the new diagram.  
   
-##  <a name="Details"></a> Describing use cases in detail  
+## <a name="Details"></a> Describing use cases in detail  
  A use case represents:  
   
 - A goal of an actor in using the system, such as **Buy a Meal**; and  
@@ -284,7 +284,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Link tasks to the use case so that you can track the progress of development work.  
   
-##  <a name="Structuring"></a> Structuring Use Cases  
+## <a name="Structuring"></a> Structuring Use Cases  
  You should try to describe your system's behavior with just a few major use cases. Each large use case defines a major goal that an actor achieves, such as buying a product, or, from the vendor's point of view, providing products for sale.  
   
  When you have made these goals clear, you can go into more detail about how the each goal is achieved, and about variations in the basic goals.  
@@ -299,7 +299,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - [Separating out variant cases with Extend](#Extend)  
   
-###  <a name="Include"></a> Showing the details of a use case with Include  
+### <a name="Include"></a> Showing the details of a use case with Include  
  Use an **Include** relation to show that one use case describes some of the detail of another. In the illustration, **Order a Meal** includes **Pay**, **Choose Menu**, and **Choose Menu Item**. Each of the included, more detailed use cases is a step that the actor or actors might have to perform to achieve the overall goal of the including use case. The arrow should point at the more detailed, included use case.  
   
 > [!CAUTION]
@@ -317,7 +317,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Avoid repeating shared scenarios in different use cases.  
   
-####  <a name="Steps"></a> Defining the order of the detailed steps  
+#### <a name="Steps"></a> Defining the order of the detailed steps  
  The use case diagram says nothing about the order in which the more detailed steps must be performed, nor about whether each of them is always necessary.  
   
  To make the order of the steps clear, you can use an **Artifact** to attach a separate document to the including use case. In the following example, an activity diagram attached to the Order a Meal use case. Alternatively, you could use a text document that has a list of steps or a sequence of screen shots. For more information, see [Describing Use Cases in Detail](#Details).  
@@ -332,7 +332,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
   ![Use case steps shown in linked activity diagram](../modeling/media/uml-ucguidesteps.png "UML_UCGuideSteps")  
   
-###  <a name="Inheritance"></a> Sharing goals with Generalization  
+### <a name="Inheritance"></a> Sharing goals with Generalization  
  Use a Generalization relation to show that a *specialized* use case is a particular way to achieve the goals expressed by another *general* use case. The open arrowhead should point at the more general use case.  
   
  ![Use cases showing the generalization relation](../modeling/media/uml-ucguidegeneral.png "UML_UCGuideGeneral")  
@@ -362,7 +362,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 4. Actors that are shared between the specialized use cases can be moved to the general use case.  
   
-###  <a name="Extend"></a> Separating variant cases with Extend  
+### <a name="Extend"></a> Separating variant cases with Extend  
  Use an Extend link to show that one use case may add functionality to another use case under certain circumstances. The arrow should point at the main, extended use case.  
   
  ![One use case extending another](../modeling/media/uml-ucguideextend.png "UML_UCGuideExtend")  
@@ -401,7 +401,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - This extension will be available only in specific versions of the system. You can show each version as a separate subsystem in the use case diagram.  
   
-##  <a name="Subsystems"></a> Using Subsystem Boundaries  
+## <a name="Subsystems"></a> Using Subsystem Boundaries  
  Use a subsystem boundary to show what use cases are within the scope of your system.  
   
 #### To draw a subsystem boundary  

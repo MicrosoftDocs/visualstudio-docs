@@ -29,7 +29,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
  [Managing Files, Toolbars, and Windows](../ide/productivity-tips-for-visual-studio.md#BKMK_Managing)
 
-##  <a name="BKMK_Access"></a> Accessing Visual Studio Tools
+## <a name="BKMK_Access"></a> Accessing Visual Studio Tools
  You can more easily access the Developer Command Prompt or another tool if you pin it to the Start screen or the taskbar.
 
 1. From the Start screen, enter `Visual Studio Tools`, and then choose the Enter key.
@@ -54,7 +54,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
 3. Choose **Pin to Start** or **Pin to Taskbar**.
 
-##  <a name="BKMK_Writing"></a> Writing Code
+## <a name="BKMK_Writing"></a> Writing Code
  Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from the MSDN Code Gallery. You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
@@ -87,7 +87,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
      To open a definition in a pop-up window, highlight the element and then choose the Alt+F12 keys, or open the shortcut menu for the element and then choose **Peek Definition**. To open a definition in a separate code window, open the shortcut menu for the element, and then choose **Go to Definition**.
 
-##  <a name="BKMK_Navigating"></a> Navigating Within Your Code
+## <a name="BKMK_Navigating"></a> Navigating Within Your Code
  You can use various techniques to find and move to specific locations in your code more quickly.
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
@@ -100,7 +100,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method’s Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md).
 
-##  <a name="BKMK_Finding"></a> Finding Items Faster
+## <a name="BKMK_Finding"></a> Finding Items Faster
  You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.
 
 - **Filter the contents of tool windows**. You can search within the contents of many tool windows, such as the **Toolbox**, the **Properties** window, and **Solution Explorer**, but display only items whose names contain the characters that you specify.
@@ -115,7 +115,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
      **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the Projects and Solutions page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
-##  <a name="BKMK_Debugging"></a> Debugging Code
+## <a name="BKMK_Debugging"></a> Debugging Code
  Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you’re using as you debug or view pages.
@@ -138,7 +138,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
      For more information about additional commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).
 
-##  <a name="BKMK_Managing"></a> Managing Files, Toolbars, and Windows
+## <a name="BKMK_Managing"></a> Managing Files, Toolbars, and Windows
  At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.
 
 - **Keep files that you frequently use visible in the editor**. You can pin files to the left side of the tab well so that they remain visible regardless of how many files are open in the editor.

@@ -33,7 +33,7 @@ ms.workload:
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add columns to a data-bound List object at runtime?](http://go.microsoft.com/fwlink/?LinkID=130318).
 
-##  <a name="designtime"></a> Resize a ListObject control at design time
+## <a name="designtime"></a> Resize a ListObject control at design time
  To resize a list, you can click and drag one of the sizing handles, or you can redefine its size in the **Resize List** dialog box.
 
 ### To resize a list by using the Resize List dialog box
@@ -48,7 +48,7 @@ ms.workload:
 
 4. Click **OK**.
 
-##  <a name="runtimedoclevel"></a> Resize a ListObject control at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Resize a ListObject control at runtime in a document-level project
  You can resize a <xref:Microsoft.Office.Tools.Excel.ListObject> control at runtime by using the <xref:Microsoft.Office.Tools.Excel.ListObject.Resize%2A> method. You cannot use this method to move the <xref:Microsoft.Office.Tools.Excel.ListObject> control to a new location on the worksheet. The headers must remain in the same row, and the resized <xref:Microsoft.Office.Tools.Excel.ListObject> control must overlap the original list object. The resized <xref:Microsoft.Office.Tools.Excel.ListObject> control must contain a header row, and at least one row of data.
 
 ### To resize a list object programmatically
@@ -63,7 +63,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#7)]
      [!code-vb[Trin_VstcoreHostControlsExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#7)]
 
-##  <a name="runtimeaddin"></a> Resize a ListObject at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Resize a ListObject at runtime in a VSTO Add-in project
  You can resize a <xref:Microsoft.Office.Tools.Excel.ListObject> control on any open worksheet at runtime. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a worksheet by using a VSTO Add-in, see [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md).
 
 ### To resize a list object programmatically

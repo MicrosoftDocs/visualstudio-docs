@@ -47,7 +47,7 @@ You can change the way that class diagrams display information. You can customiz
   
 - [Delete a type shape and its underlying code](../ide/how-to-customize-class-diagrams-class-designer.md#DeleteTypeShapeAndCode)  
   
-##  <a name="ZoomInOut"></a> Zoom in and out of the class diagram  
+## <a name="ZoomInOut"></a> Zoom in and out of the class diagram  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -60,7 +60,7 @@ You can change the way that class diagrams display information. You can customiz
     > [!NOTE]
     >  Changing the zoom level does not affect the scale of your class diagram printout.  
   
-##  <a name="CustomizeGroupingSorting"></a> Customize grouping and sorting of type members  
+## <a name="CustomizeGroupingSorting"></a> Customize grouping and sorting of type members  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -74,7 +74,7 @@ You can change the way that class diagrams display information. You can customiz
   
     3. **Sort Alphabetically** displays the items that make up an entity as a single alphabetized list. The list is sorted in ascending order.  
   
-##  <a name="HideCompartments"></a> Hide compartments on a type  
+## <a name="HideCompartments"></a> Hide compartments on a type  
   
 1. Open and select a class diagram file in the class designer.  
   
@@ -84,7 +84,7 @@ You can change the way that class diagrams display information. You can customiz
   
      The selected compartment disappears from the type container.  
   
-##  <a name="HideMembers"></a> Hide individual members on a type  
+## <a name="HideMembers"></a> Hide individual members on a type  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -94,7 +94,7 @@ You can change the way that class diagrams display information. You can customiz
   
      The selected member disappears from the type container.  
   
-##  <a name="DisplayHiddenCompartmentsAndMemberrs"></a> Show hidden compartments and members on a type  
+## <a name="DisplayHiddenCompartmentsAndMemberrs"></a> Show hidden compartments and members on a type  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -104,7 +104,7 @@ You can change the way that class diagrams display information. You can customiz
   
      All hidden compartments and members appear in the type container.  
   
-##  <a name="HideAssociationAndInheritance"></a> Hide relationships  
+## <a name="HideAssociationAndInheritance"></a> Hide relationships  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -116,7 +116,7 @@ You can change the way that class diagrams display information. You can customiz
   
      All hidden compartments and members appear in the type container.  
   
-##  <a name="DisplayAssociationAndInheritance"></a> Show hidden relationships  
+## <a name="DisplayAssociationAndInheritance"></a> Show hidden relationships  
   
 1. Open and select a class diagram file in Class Designer.  
   
@@ -124,7 +124,7 @@ You can change the way that class diagrams display information. You can customiz
   
    Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.  
   
-##  <a name="RemoveCodeAndShape"></a> Remove a shape from a class diagram  
+## <a name="RemoveCodeAndShape"></a> Remove a shape from a class diagram  
  You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.  
   
 1. On the class diagram, select the type shape you want to remove from the diagram.  
@@ -133,7 +133,7 @@ You can change the way that class diagrams display information. You can customiz
   
      The type shape and any lines of association or inheritance connected to the shape no longer appear on the diagram.  
   
-##  <a name="DeleteTypeShapeAndCode"></a> Delete a type shape and its underlying code  
+## <a name="DeleteTypeShapeAndCode"></a> Delete a type shape and its underlying code  
   
 1. Right-click the shape on the design surface.  
   

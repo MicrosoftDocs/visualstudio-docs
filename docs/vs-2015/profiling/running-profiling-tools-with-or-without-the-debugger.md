@@ -32,7 +32,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
   
      Debug builds lack certain optimizations that Release builds provide, for example inlining function calls and constants, pruning unused code paths, and storing variables in ways that can’t be used by the debugger. The debugger itself changes performance times because it performs certain operations that are necessary for debugging (for example, intercepting exception and module load events). So performance numbers in the debugger-integrated tools are accurate only to within tens of milliseconds. Performance numbers for Release configurations with the non-debugger tools are much more precise.  
   
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
+## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
  The following section deals with debugging locally. You can find out about debugging on a device or remote debugging, in later sections.  
   
 1. Open the project you want to debug, then click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).  

@@ -22,7 +22,7 @@ ms.workload:
 
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).
 
-##  <a name="CreateType"></a> Create a new type
+## <a name="CreateType"></a> Create a new type
 
 1. In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:
 
@@ -61,7 +61,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
      See [Creating Members](creating-and-configuring-type-members.md#create-members).
 
-##  <a name="CustAttributeType"></a> Apply a custom attribute to a type
+## <a name="CustAttributeType"></a> Apply a custom attribute to a type
 
 1. Click the type's shape on a class diagram.
 
@@ -71,7 +71,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
    The custom attributes are applied to the type.
 
-##  <a name="CustAttributeMember"></a> Apply a custom attribute to a type member
+## <a name="CustAttributeMember"></a> Apply a custom attribute to a type member
 
 1. Click the member's name in its type's shape on a class diagram, or its row in the Class Details window.
 

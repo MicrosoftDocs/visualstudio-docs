@@ -18,7 +18,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
 > [!NOTE]
 >  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
+## <a name="BKMK_In_this_topic"></a> In this topic  
  [Collecting data on Windows Store apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
   
  [Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE)  
@@ -29,7 +29,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
   [Collecting tier interaction (TIP) data](#BKMK_Collecting_tier_interaction__TIP__data)  
   
-##  <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Collecting data on Windows Store apps from the Visual Studio IDE  
+## <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Collecting data on Windows Store apps from the Visual Studio IDE  
  When you profile a Windows Store app that is written in JavaScript and HTML 5, you collect instrumentation data for the JavaScript code. When you profile a Windows Store app or component that is written in Visual C++, Visual C#, or Visual Basic, you collect sampling data for the native and managed code. You can profile your app locally or on a remote machine.  
   
  These profiling features and options are not supported when profiling Windows Store apps:  
@@ -70,19 +70,19 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
   [In this topic](#BKMK_In_this_topic)  
   
-##  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE  
+## <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE  
  Profiling using the instrumentation method has not changed for Windows 8.  
   
  Tier interaction profiling (TIP) is not supported using the sampling method.  
   
-###  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 by using sampling from the Visual Studio IDE  
+### <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 by using sampling from the Visual Studio IDE  
  These profiling features and options are not supported when profiling Windows 8 desktop applications or Windows Server 2012 applications using the sampling method:  
   
 - Tier interaction profiling (TIP). Collecting TIP data is supported using instrumentation.  
   
 - Sampling options such as setting the sampling event and timing interval, or collecting additional performance counter data.  
   
-##  <a name="BKMK_Profiling_from_the_command_line"></a> Profiling from the command line  
+## <a name="BKMK_Profiling_from_the_command_line"></a> Profiling from the command line  
  You use two command line tools to collect profiling data on Windows 8 and Windows Server 2012 devices, including devices that do not have an installation of Visual Studio:  
   
 |Tool name|Description|  
@@ -109,7 +109,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
 - Sampling options such as setting the sampling event and timing interval, or collecting additional performance counter data.  
   
-##  <a name="BKMK_Collecting_tier_interaction__TIP__data"></a> Collecting tier interaction (TIP) data  
+## <a name="BKMK_Collecting_tier_interaction__TIP__data"></a> Collecting tier interaction (TIP) data  
  Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.  
   
  **Visual Studio editions**  

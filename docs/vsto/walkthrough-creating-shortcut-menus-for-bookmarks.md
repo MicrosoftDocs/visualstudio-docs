@@ -40,7 +40,7 @@ ms.workload:
 
 - [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
 
-##  <a name="BKMK_CreateProject"></a> Create the project
+## <a name="BKMK_CreateProject"></a> Create the project
  The first step is to create a Word document project in Visual Studio.
 
 ### To create a new project
@@ -49,7 +49,7 @@ ms.workload:
 
      Visual Studio opens the new Word document in the designer and adds the **My Bookmark Shortcut Menu** project to **Solution Explorer**.
 
-##  <a name="BKMK_addtextandbookmarks"></a> Add text and bookmarks to the document
+## <a name="BKMK_addtextandbookmarks"></a> Add text and bookmarks to the document
  Add some text to your document and then add two overlapping bookmarks.
 
 ### To add text to your document
@@ -77,7 +77,7 @@ ms.workload:
 
    When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.
 
-##  <a name="BKMK_AddCmndsShortMenu"></a> Add commands to a shortcut menu
+## <a name="BKMK_AddCmndsShortMenu"></a> Add commands to a shortcut menu
  Add buttons to the shortcut menu that appears when you right-click the document.
 
 ### To add commands to a shortcut menu
@@ -137,7 +137,7 @@ ms.workload:
      [!code-csharp[Trin_Word_Document_Menus#5](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs#5)]
      [!code-vb[Trin_Word_Document_Menus#5](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb#5)]
 
-##  <a name="BKMK_formattextbkmk"></a> Format the text in the bookmark
+## <a name="BKMK_formattextbkmk"></a> Format the text in the bookmark
 
 ### To format the text in the bookmark
 

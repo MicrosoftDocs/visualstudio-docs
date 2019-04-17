@@ -41,7 +41,7 @@ After you have specified a browser mix, you can later add and remove web browser
 
 4. When you are finished adding browsers, choose **OK**.
 
-##  Remove browsers from a scenario
+## Remove browsers from a scenario
 
 ### To remove browsers from a scenario
 

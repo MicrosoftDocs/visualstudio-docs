@@ -168,7 +168,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 
  This method returns an object that represents the class that you exposed to VBA. The members and method parameters of the returned object appear in IntelliSense.
 
-##  <a name="Guidelines"></a> Guidelines for adding VBA code to the document
+## <a name="Guidelines"></a> Guidelines for adding VBA code to the document
  There are several different copies of the document where you can add VBA code that calls into the document-level customization.
 
  As you develop and test your solution, you can write VBA code in the document that opens while you debug or run your project in Visual Studio (that is, the document in the build output folder). However, any VBA code you add to this document will be overwritten the next time that you build the project, because Visual Studio replaces the document in the build output folder with a copy of the document from the main project folder.
@@ -195,7 +195,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 ### On the end-user computer
  If the end users are VBA developers who are calling into services that you provide in the document-level customization, you can tell them how to call your code by using the `CallVSTOAssembly` property or the `GetManagedClass` method in their copies of the document. When you publish updates to the solution, VBA code in the document on the end-user computer will not be overwritten, because the document is not modified by publish updates.
 
-##  <a name="PropertyTasks"></a> Tasks performed by the host item properties
+## <a name="PropertyTasks"></a> Tasks performed by the host item properties
  When you use the **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties, Visual Studio performs different sets of tasks.
 
 ### EnableVbaCallers

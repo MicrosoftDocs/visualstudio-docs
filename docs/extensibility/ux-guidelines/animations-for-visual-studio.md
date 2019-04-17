@@ -187,7 +187,7 @@ Progress indicators have a couple of notable advantages:
 
 - Determinate indicators give the user a sense of how far along the action is progressing, as well as a feeling of getting closer to the finish.
 
-##  <a name="BKMK_AnimationPatterns"></a> Animation patterns
+## <a name="BKMK_AnimationPatterns"></a> Animation patterns
 
 ### Overview
 Animations in Visual Studio are meant to serve a specific function without hindering user productivity. Generally, animations in Visual Studio should be:

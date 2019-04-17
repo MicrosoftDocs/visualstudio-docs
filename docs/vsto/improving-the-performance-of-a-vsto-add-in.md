@@ -24,7 +24,7 @@ ms.workload:
 
   For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](http://go.microsoft.com/fwlink/?LinkID=266503).
 
-##  <a name="Load"></a> Load VSTO Add-ins on demand
+## <a name="Load"></a> Load VSTO Add-ins on demand
  You can configure a VSTO Add-in to load only under the following circumstances:
 
 - The first time that the user starts the application after the VSTO Add-in is installed.
@@ -77,7 +77,7 @@ ms.workload:
 
      For information about how to create a post-build event in a Visual Basic project, see [How to: Specify build events &#40;Visual Basic&#41;](../ide/how-to-specify-build-events-visual-basic.md).
 
-##  <a name="Publish"></a> Publish Office solutions by using Windows Installer
+## <a name="Publish"></a> Publish Office solutions by using Windows Installer
  If you publish your solution by using Windows Installer, the Visual Studio 2010 Tools for Office runtime bypasses the following steps when the VSTO Add-in loads.
 
 - Validating the manifest schema.
@@ -91,7 +91,7 @@ ms.workload:
 
   For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
-##  <a name="Bypass"></a> Bypass Ribbon reflection
+## <a name="Bypass"></a> Bypass Ribbon reflection
  If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of that runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
 
  As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office runtime from using reflection to identify Ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return Ribbon objects. If your VSTO Add-in doesn't contain any Ribbon customizations, return `null` inside of the method.
@@ -101,7 +101,7 @@ ms.workload:
  [!code-vb[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb#1)]
  [!code-csharp[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs#1)]
 
-##  <a name="Perform"></a> Perform expensive operations in a separate execution thread
+## <a name="Perform"></a> Perform expensive operations in a separate execution thread
  Consider performing time-consuming tasks (such as long running tasks, database connections, or other sorts of network calls) in a separate thread. For more information, see [Threading support in Office](../vsto/threading-support-in-office.md).
 
 > [!NOTE]

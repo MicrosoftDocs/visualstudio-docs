@@ -30,7 +30,7 @@ Deployment is automatic when you debug your app from Visual Studio by using the 
 
 - Deploying an app that will be debugged when it is started by another app or method.
 
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app
+## <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app
  Manually deploying an app is a simple process:
 
 1. If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).
@@ -41,7 +41,7 @@ Deployment is automatic when you debug your app from Visual Studio by using the 
 
 3. On the **Build** menu, choose **Deploy**
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
+## <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
 
 **Prerequisites**
 
@@ -86,7 +86,7 @@ Deployment uses the remote debugger network channel to send the app files to the
 
 10. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.
 
-##  <a name="BKMK_Deployment_options"></a> Deployment options
+## <a name="BKMK_Deployment_options"></a> Deployment options
 
 You can set the following deployment options on the Debug property page of the startup project.
 

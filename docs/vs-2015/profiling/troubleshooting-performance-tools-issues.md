@@ -19,7 +19,7 @@ You might experience one of the following issues when you use the Profiling Tool
   
 - [Performance Views and Reports Display Numbers for Function Names](#NoSymbols)  
   
-##  <a name="NoDataCollected"></a> No Data is Collected by the Profiling Tools  
+## <a name="NoDataCollected"></a> No Data is Collected by the Profiling Tools  
  After you profile an application, a profiling data (.vsp) file is not created and you receive the following warning in the Output window or in the command window:  
   
  PRF0025: No data was collected.  
@@ -30,7 +30,7 @@ You might experience one of the following issues when you use the Profiling Tool
   
      To collect profiling data in this situation, attach the profiler to the child process instead of starting the application with the profiler. For more information, see [How to: Attach and Detach Performance Tools to Running Processes](../profiling/how-to-attach-and-detach-performance-tools-to-running-processes.md) and [Attach (VSPerfCmd)](../profiling/attach.md)  
   
-##  <a name="NoSymbols"></a> Performance Views and Reports Display Numbers for Function Names  
+## <a name="NoSymbols"></a> Performance Views and Reports Display Numbers for Function Names  
  After you profile an application, you see numbers instead of function names in reports and views.  
   
  This problem is caused by the Profiling Tools analysis engine being unable to find the .pdb files that contain the symbol information that maps source code information, such function names and line numbers to the compiled file. By default, the compiler creates the .pdb file when the application file is built. A reference to the local directory of the .pdb file is stored in the compiled application. The analysis engine looks in the referenced directory for the .pdb file and then in the file that currently contains the application file. If the .pdb file is not found, the analysis engine uses the function offsets instead of the function names.  

@@ -172,7 +172,7 @@ using Microsoft.VisualStudio.Uml.Classes;
     }  
     ```  
   
-##  <a name="Executing"></a> Executing a Validation Constraint  
+## <a name="Executing"></a> Executing a Validation Constraint  
  For test purposes, execute your validation methods in debug mode.  
   
 #### To test the validation constraint  
@@ -213,7 +213,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
     - The parameters of all the `Import` and `Export` attributes are valid.  
   
-##  <a name="Implementing"></a> Evaluating the Constraint  
+## <a name="Implementing"></a> Evaluating the Constraint  
  The validation method should determine whether the validation constraint that you want to apply is true or false. If true, it should do nothing. If false, it should report an error using the methods provided by the `ValidationContext` parameter.  
   
 > [!NOTE]
@@ -343,7 +343,7 @@ IUseCase useCase = useCaseShape.Element;
 context.LogError(... , usecase);  
 ```  
   
-###  <a name="ContextCache"></a> Coordinating Multiple Validations  
+### <a name="ContextCache"></a> Coordinating Multiple Validations  
  When validation is invoked, for example by the user from a diagram menu, each validation method is applied to each model element. This means that, in a single invocation of the validation framework, the same method may be applied many times to different elements.  
   
  This presents a problem for validations that deal with the relationships between elements. For example, you might write a validation that starts from, say, a use case, and traverses the **include** relationships to verify that there are no loops. But when the method is applied to each use case in a model that has many **include** links, it is likely to repeatedly process the same areas of the model.  
@@ -357,7 +357,7 @@ context.LogError(... , usecase);
 |`context.GetValue<T>(name)`|Get a value.|  
 |`Context.GetValue<T>()`|Get a value of the specified type.|  
   
-##  <a name="Installing"></a> Installing and uninstalling an extension  
+## <a name="Installing"></a> Installing and uninstalling an extension  
  You can install a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
@@ -390,7 +390,7 @@ context.LogError(... , usecase);
   
    *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
-##  <a name="Example"></a> Example  
+## <a name="Example"></a> Example  
  This example finds loops in the Dependency relationship between elements.  
   
  It will validate both on save and on the validate menu command.  

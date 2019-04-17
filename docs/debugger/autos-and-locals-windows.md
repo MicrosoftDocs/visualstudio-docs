@@ -120,7 +120,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
-##  <a name="bkmk_returnValue"></a> View return values of method calls
+## <a name="bkmk_returnValue"></a> View return values of method calls
  In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call. Viewing method call return values can be useful when they are not stored in local variables. A method could be used as a parameter, or as the return value of another method.
 
  For example, the following C# code adds the return values of two functions:

@@ -23,7 +23,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-##  <a name="createClassLibrary"></a> To create the SimpleMath Windows Runtime component  
+## <a name="createClassLibrary"></a> To create the SimpleMath Windows Runtime component  
   
 1. On the menu bar, choose **File**, **New**, **New Project**.  
   
@@ -51,7 +51,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 9. In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Build**.  
   
-##  <a name="createVSIX"></a> To create the SimpleMathVSIX extension project  
+## <a name="createVSIX"></a> To create the SimpleMathVSIX extension project  
   
 1. On the shortcut menu for the **Solution ‘SimpleMath’** node, choose **Add**, **New Project**.  
   
@@ -125,7 +125,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 30. Choose the **Install** button, wait for the installation to finish, and then restart Visual Studio.  
   
-##  <a name="createSample"></a> To create a sample app that uses the class library  
+## <a name="createSample"></a> To create a sample app that uses the class library  
   
 1. On the menu bar, choose **File**, **New**, **New Project**.  
   

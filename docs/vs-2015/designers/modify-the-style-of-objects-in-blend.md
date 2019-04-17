@@ -27,7 +27,7 @@ The easiest way to customize an object is to set properties in the **Properties*
   
 - [Resources: Create colors, styles, and templates and reuse them later](#Resources)  
   
-##  <a name="Brushes"></a> Brushes: Modify the appearance of an object  
+## <a name="Brushes"></a> Brushes: Modify the appearance of an object  
  Apply a brush to an object if you want to change its appearance.  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Brushes Editor](http://www.popscreen.com/v/6A4mO/Microsoft-Expression-Blend-The-Brushes-Editor).  
@@ -51,7 +51,7 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Tile Brushes](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes).  
   
-##  <a name="Styles"></a> Styles and Templates: Create a consistent look and feel across controls  
+## <a name="Styles"></a> Styles and Templates: Create a consistent look and feel across controls  
  You can design the appearance and behavior of a control one time and apply that design to other controls so that you don’t have to maintain them individually.  
   
  **Should you use a style?**: If you just want to set default properties (such as the color of a button), use a *style*. You can modify a control even after you’ve applied a style to it.  
@@ -96,14 +96,14 @@ The easiest way to customize an object is to set properties in the **Properties*
 ### Restore the default style or template of a control  
  Select the control, and in the [Properties](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
   
-##  <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
+## <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
  Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.  
   
  ![](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png "a95c671a-5639-40b9-83db-1e6b214330d5")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw).  
   
-##  <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later  
+## <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later  
  You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.  
   
  ![](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png "89203705-cf66-46e0-b153-52a23cd744f7") ![](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png "6bff8b19-3cd5-41a0-bbf9-ff65532d5aae")  

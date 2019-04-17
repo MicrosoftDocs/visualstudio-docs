@@ -20,7 +20,7 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 > [!TIP]
 > If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
 
-##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
+## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
 >[!NOTE]
 >To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.

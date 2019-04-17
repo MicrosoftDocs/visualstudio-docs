@@ -22,7 +22,7 @@ Manage different versions of your modeling projects and diagrams, including code
 > [!IMPORTANT]
 >  Use caution when several users work on the same modeling project. Find out how you can [organize models in medium or large projects](../modeling/structure-your-modeling-solution.md).  
   
-##  <a name="ModelingProjects"></a> Files in a Modeling Project  
+## <a name="ModelingProjects"></a> Files in a Modeling Project  
  More than one user can work on a modeling project at the same time, provided they work on different files.  
   
  To avoid or resolve conflicts between changes made by different users, it is important to understand how the model is stored in files.  
@@ -38,7 +38,7 @@ Manage different versions of your modeling projects and diagrams, including code
 > [!NOTE]
 >  It is important to maintain consistency between the files. For example, if you use source control to roll back changes in a .uml file, you should roll back the corresponding changes in the .*diagram and .layout files at the same time. Elements represented in a .\*diagram file will be lost if they are not also represented in a .uml file.  
   
-##  <a name="Shared"></a> Working on Shared Modeling Projects  
+## <a name="Shared"></a> Working on Shared Modeling Projects  
  To minimize conflicts between concurrent work on different parts of a project:  
   
 - Divide your modeling project into packages representing different areas of work. Move the entire model into the packages, instead of leaving it in the root model. For more information, see [Define packages and namespaces](../modeling/define-packages-and-namespaces.md).  
@@ -64,7 +64,7 @@ Manage different versions of your modeling projects and diagrams, including code
     > [!NOTE]
     >  If a file is open when you perform a **Get**, and the operation results in local changes, then you will be prompted to reload the file. In this case, click **No**, and then reload the complete project. In **Solution Explorer**, right-click the modeling project node, click **Unload Project**, and then click **Reload Project**.  
   
-###  <a name="Exclusive"></a> Changes Requiring Exclusive Access to the Model  
+### <a name="Exclusive"></a> Changes Requiring Exclusive Access to the Model  
  Before you make the following kinds of changes, make sure that you have a Check Out lock on the whole project.  
   
 - Renaming or deleting elements that are referenced from other packages.  
@@ -90,7 +90,7 @@ Manage different versions of your modeling projects and diagrams, including code
     > [!NOTE]
     >  You cannot move the file to a different project.  
   
-##  <a name="Merging"></a> Merging Changes in Model Files and Diagrams  
+## <a name="Merging"></a> Merging Changes in Model Files and Diagrams  
  After more than one user has worked on a model concurrently, [!INCLUDE[esprscc](../includes/esprscc-md.md)] will prompt you to merge the changes in the model files. Working on separate projects as described in the previous preceding sections will avoid most of the merges. Ordinarily, the remaining conflicts can be safely merged automatically. The following kinds of changes should cause no difficulty:  
   
 - Types of lifelines. When you add a lifeline to an interaction (sequence diagram), its type is stored in the root model, unless you have created the lifeline from an existing type.  

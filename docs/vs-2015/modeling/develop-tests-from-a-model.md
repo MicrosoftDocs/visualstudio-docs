@@ -141,7 +141,7 @@ Assert (countAfter == countBefore = 1);
   
  From a testing point of view, a requirements model can be seen as a shorthand for the tests. Therefore, it's important to maintain the relationship between tests and model throughout the project.  
   
-##  <a name="Attaching"></a> Attaching Test Cases to Model Elements  
+## <a name="Attaching"></a> Attaching Test Cases to Model Elements  
  If your project uses [!INCLUDE[TCMlong](../includes/tcmlong-md.md)], you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.  
   
  You can link tests to all kinds of element. Here are some examples:  

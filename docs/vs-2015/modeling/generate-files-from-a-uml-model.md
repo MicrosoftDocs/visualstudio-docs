@@ -27,7 +27,7 @@ From a UML model, you can generate program code, schemas, documents, resources, 
   
   This topic ends with a discussion of [how to use text generation](#What). For more information, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
-##  <a name="Command"></a> Generating files from a menu command  
+## <a name="Command"></a> Generating files from a menu command  
  You can use preprocess text templates within a UML menu command. Within the code of the text template, or in a separate partial class, you can read the model that is viewed by the diagram.  
   
  For more information about these features, read the following topics:  
@@ -128,12 +128,12 @@ Type Class2 ::
           Attribute3 : string   
 ```  
   
-##  <a name="Application"></a> Generating Files from an Application  
+## <a name="Application"></a> Generating Files from an Application  
  You can generate files from an application that reads a UML model. For this purpose, the most flexible and robust method of accessing the model and its elements is [Visual Studio Modelbus](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
  You can also use the basic API to load the model, and pass the model to text templates using the same techniques as in the previous section. For more information about loading a model, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
-##  <a name="Design"></a> Generating Files at Design Time  
+## <a name="Design"></a> Generating Files at Design Time  
  If your project has a standard method of interpreting UML as code, you can create text templates that let you generate code within your project from a UML model. Typically you would have a solution that contains the UML model project, and one or more projects for the application code. Each code project could contain several templates that generate program code, resources, and configuration files, based on the content of the model. The developer can run all the templates by clicking the **Transform All Templates** in the Solution Explorer toolbar. Program code is usually generated in the form of partial classes, to make it easy to integrate manually-written parts.  
   
  A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project of this kind can be distributed in the form of a template, so that every member of a team is able to create projects that generate code from a model in the same way. Typically, the template is part of an extension package that includes validation constraints on the model to ensure that the preconditions of the generation code are met.  
@@ -290,7 +290,7 @@ namespace Test{
 }  
 ```  
   
-##  <a name="What"></a> How to Use Text Generation  
+## <a name="What"></a> How to Use Text Generation  
  The real power of modeling is obtained when you use models to design at the level of requirements or architecture. You can use text templates to do some of the work of converting the high-level ideas into code. In many cases, this does not lead to a one-to-one correspondence between the elements in the UML models and classes or other parts of the program code.  
   
  Furthermore, the transformation depends on your problem domain; there is no universal mapping between models and code.  

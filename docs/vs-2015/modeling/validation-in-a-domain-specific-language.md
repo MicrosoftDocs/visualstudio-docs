@@ -298,7 +298,7 @@ namespace Company.FamilyTree
   
  The handlers are also called after Undo or Redo operations that affect the links or elements.  
   
-##  <a name="custom"></a> Custom Validation Categories  
+## <a name="custom"></a> Custom Validation Categories  
  In addition to the standard validation categories, such as Menu and Open, you can define your own categories. You can invoke these categories from program code. The user cannot invoke them directly.  
   
  A typical use for custom categories is to define a category that tests whether the model satisfies the preconditions of a particular tool.  
@@ -326,7 +326,7 @@ validationController.ValidateCustom
    "PreconditionsForGeneratePartsList");  
 ```  
   
-##  <a name="alternatives"></a> Alternatives to Validation  
+## <a name="alternatives"></a> Alternatives to Validation  
  Validation constraints report errors, but do not change the model. If, instead, you want to prevent the model becoming invalid, you can use other techniques.  
   
  However, these techniques are not recommended. It is usually better to let the user decide how to correct an invalid model.  

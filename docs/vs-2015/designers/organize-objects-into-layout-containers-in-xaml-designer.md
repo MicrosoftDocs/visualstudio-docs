@@ -41,14 +41,14 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
 - [DockPanel](#Dock)  
   
-###  <a name="Grid"></a> Grid  
+### <a name="Grid"></a> Grid  
  Arrange objects into rows and columns.  
   
  ![](../designers/media/98b234b2-ac3b-441f-9136-98375fee87b7.png "98b234b2-ac3b-441f-9136-98375fee87b7")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Using Grids](http://www.popscreen.com/v/6A4hj/Microsoft-Expression-Blend-Using-Grids)  
   
-###  <a name="Uniform"></a> UniformGrid  
+### <a name="Uniform"></a> UniformGrid  
  Arrange objects into equal, or uniform, grid regions. This panel is great for arranging a list of images.  
   
  ![](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png "928b9284-a7e8-4678-875a-656b80b78076")  
@@ -57,21 +57,21 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with a UniformGrid](http://www.popscreen.com/v/6A4iq/Microsoft-Expression-Blend-Working-with-a-UniformGrid)  
   
-###  <a name="Canvas"></a> Canvas  
+### <a name="Canvas"></a> Canvas  
  Arrange objects any way you want. When users run your app, these elements will have fixed positions on the screen.  
   
  ![](../designers/media/e1ae27f0-3a57-454e-b580-877dcea8836d.png "e1ae27f0-3a57-454e-b580-877dcea8836d")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with the canvas](http://www.popscreen.com/v/6A4hT/Microsoft-Expression-Blend-Working-with-the-Canvas)  
   
-###  <a name="Stack"></a> StackPanel  
+### <a name="Stack"></a> StackPanel  
  Arrange objects in a single line horizontally or vertically.  
   
  ![](../designers/media/a85a7b57-b0a8-495e-b985-f0291e41d093.png "a85a7b57-b0a8-495e-b985-f0291e41d093")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel)  
   
-###  <a name="Wrap"></a> WrapPanel  
+### <a name="Wrap"></a> WrapPanel  
  Arrange objects sequentially from left to right. When the panel runs out of room at the far-right edge, it *wraps* the content to the next line, and so on from left-to-right, top-to-bottom. You can also make the orientation of a wrap panel vertical so that objects flow from top-to-bottom, left-to-right.  
   
  (Available only for WPF projects)  
@@ -80,7 +80,7 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel)  
   
-###  <a name="Dock"></a> DockPanel  
+### <a name="Dock"></a> DockPanel  
  Arrange objects so that they stay, or *dock*, to one edge of the panel.  
   
  (Available only for WPF projects)  
@@ -104,22 +104,22 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
   
 - [Viewbox](#View)  
   
-###  <a name="Border"></a> Border  
+### <a name="Border"></a> Border  
  Create a border, background, or both around an object. You can add only one object to a **Border**. If you want to apply a border or background for more than one object, add layout panel to the **Border**. Then, add objects to that panel or control.  
   
  ![](../designers/media/e761238b-99fd-43c5-bbc4-57538b8289ff.png "e761238b-99fd-43c5-bbc4-57538b8289ff")  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with Borders](http://www.popscreen.com/v/6A4hB/Microsoft-Expression-Blend-Working-with-Borders)  
   
-###  <a name="Popup"></a> Popup  
+### <a name="Popup"></a> Popup  
  Show information or options to users in a window. You can add only one object to a **Popup**. By default, a **Popup** contains a **Grid** but you can change that.  
   
-###  <a name="Scroll"></a> ScrollViewer  
+### <a name="Scroll"></a> ScrollViewer  
  Enable uses to scroll down a page or area of a page. You can add only one object to a **ScrollViewer** so it makes a lot of sense to add a layout panel such as a **Grid** or **StackPanel**.  
   
  ![](../designers/media/06b326d4-f23d-41a6-b26b-e1aff37572a7.png "06b326d4-f23d-41a6-b26b-e1aff37572a7")  
   
-###  <a name="View"></a> Viewbox  
+### <a name="View"></a> Viewbox  
  Scale objects much like you would with a zoom control. You can add only one object to a **Viewbox**. If you want to apply that effect to more than one object, add a layout panel to the **ViewBox**, and then add your controls to that layout panel.  
   
  (Available only for WPF projects)  

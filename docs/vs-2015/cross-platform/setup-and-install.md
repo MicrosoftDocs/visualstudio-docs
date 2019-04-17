@@ -31,7 +31,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
 - [Mac setup (Apple ID, Xcode, and Xamarin)](#mac)  
   
-##  <a name="prereq"></a> Pre-requisites  
+## <a name="prereq"></a> Pre-requisites  
   
 1. For targeting Windows and Android:  
   
@@ -47,7 +47,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
     1. When using Visual Studio on a Windows (7+) computer as your primary development environment, a networked Mac is necessary only to compile and debug iOS apps, attach to the iOS simulator or tethered devices, and to use the storyboard designer in Visual Studio for designing the user interface. Older Mac models are entirely sufficient for this secondary role.  
   
-##  <a name="windows"></a> Windows setup (Visual Studio and Xamarin)  
+## <a name="windows"></a> Windows setup (Visual Studio and Xamarin)  
   
 > [!TIP]
 >  These instructions apply to Visual Studio 2015. To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
@@ -85,7 +85,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
    **Note about emulators on Windows computers:** Because CPUs support only one virtualization technology at a time, it’s best to have only one in use on a development computer. There are three main virtualizations technologies are Hyper-V (used by the Visual Studio Emulator for Android and the Windows Phone emulator), Virtual Box (used by Genymotion), and Intel HAXM (used by the Android SDK emulator). Because of various issues between Hyper-V and Virtual Box, it’s best to use emulators of only one type on any given computer, hence the recommendations above to use Hyper-V on Windows 8 and above computers, and Intel HAXM emulators on Windows 7 and earlier as well as when running Windows on a Mac.  
   
-##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
+## <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
   
 1. Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
   

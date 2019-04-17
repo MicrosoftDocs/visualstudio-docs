@@ -84,7 +84,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
 > [!NOTE]
 >  In JavaScript, Quick Info refers to the pop-up box that appears to the right of a completion list. You cannot manually invoke Quick Info.  
   
-##  <a name="intellisenseObject"></a> intellisense Object  
+## <a name="intellisenseObject"></a> intellisense Object  
  The following table shows the functions that are available for the `intellisense` object. The `intellisense` object is available only at design time.  
   
 |Function|Description|  
@@ -102,7 +102,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ## Event Members  
  The following sections describe the members that are exposed in the event object for the following events: `statementcompletion`, `signaturehelp`, and `statementcompletionhint`.  
   
-###  <a name="CompletionItem"></a> completionItem Property  
+### <a name="CompletionItem"></a> completionItem Property  
  Returns the identifier, known as the completion item, for which a Quick Info pop-up box is requested. This property is available for the `statementcompletionhint` event object and for the [items Property](#Items) property of the `statementcompletion` event object.  
   
  Return value: `completionItem` object  
@@ -123,12 +123,12 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 - `scope`. Read-only. Returns the scope of the completion item. The possible values are global, local, parameter, and member.  
   
-###  <a name="Items"></a> items Property  
+### <a name="Items"></a> items Property  
  Gets or sets the array of statement completion items. Each element in the array is a [completionItem Property](#CompletionItem) object. The `items` property is available for the `statementcompletion` event object.  
   
  Return value: array  
   
-###  <a name="FunctionComments"></a> functionComments Property  
+### <a name="FunctionComments"></a> functionComments Property  
  Returns the comments for the function. This property is available for the `signaturehelp` event object.  
   
  Return value: `comments` object  
@@ -145,7 +145,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
     - `comment`. Returns a string that contains the parameter comment.  
   
-###  <a name="FunctionHelp"></a> functionHelp Property  
+### <a name="FunctionHelp"></a> functionHelp Property  
  Returns the Help for the function. This property is available for the `signaturehelp` event object.  
   
  Return value: `functionHelp` object  
@@ -198,22 +198,22 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
         - `externalid`. Read/write. Returns a string that represents the member ID of the function.  
   
-###  <a name="ParentObject"></a> parentObject Property  
+### <a name="ParentObject"></a> parentObject Property  
  Returns the parent object of a member function. For example, for `document.getElementByID`, `parentObject` returns the `document` object. This property is available for the `signaturehelp` event object.  
   
  Return value: object  
   
-###  <a name="Target"></a> target Property  
+### <a name="Target"></a> target Property  
  Returns an object that represents the item to the left of the trigger character, which is a period (.). For functions, `target` returns the function for which Parameter Info is requested. This property is available for the `statementcompletion` and `signaturehelp` event objects.  
   
  Return value: object  
   
-###  <a name="TargetName"></a> targetName Property  
+### <a name="TargetName"></a> targetName Property  
  Returns a string that represents the target. For example, for "this.", `targetName` returns "this". For "A.B" (when the cursor is after "B"), `targetName` returns "B". This property is available for the `statementcompletion` event object.  
   
  Return value: string  
   
-###  <a name="SymbolHelp"></a> symbolHelp Property  
+### <a name="SymbolHelp"></a> symbolHelp Property  
  Returns the completion item for which a Quick Info pop-up box is requested. This property is available for the `statementcompletionhint` event object.  
   
  Return value: `symbolHelp` object.  
@@ -244,7 +244,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 - `functionHelp`. Read/write. Returns a [functionHelp Property](#FunctionHelp), which might contain information when the `symbolType` is Function.  
   
-###  <a name="Scope"></a> scope Property  
+### <a name="Scope"></a> scope Property  
  Returns the completion scope of the event. The possible values for the completion scope are global and members. This property is available for the `statementcompletion` event object.  
   
  Return value: string  
@@ -252,14 +252,14 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ## Debugging IntelliSense extensions  
  You can't debug extensions, but you can use the [intellisense Object](#intellisenseObject) function to send information to the Visual Studio Output window. For an example that shows how to use this function, see [Sending Messages to the Output Window](#Logging) later in this topic. For `logMessage` to work, at least one event handler must be registered in an extension.  
   
-##  <a name="CodeExamples"></a> Code Examples  
+## <a name="CodeExamples"></a> Code Examples  
  This section includes code examples that show how to use the IntelliSense extensibility APIs. There are also other ways to use these APIs. For additional examples, see the following files in the \\\\*Visual Studio installation path*\JavaScript\References folder. These are working examples used by the JavaScript language service.  
   
 - underscoreFilter.js. This code hides private members from IntelliSense. It includes event handlers for the `statementcompletion` event.  
   
 - showPlainComments.js. This code provides IntelliSense support for standard comments. It includes event handlers for the `signaturehelp` and `statementcompletionhint` events.  
   
-###  <a name="Annotations"></a> Adding IntelliSense Annotations  
+### <a name="Annotations"></a> Adding IntelliSense Annotations  
  The following procedure shows how to provide IntelliSense documentation support for a third-party library without modifying the library directly. To do this, you can use `intellisense.annotate` in an extension.  
   
  For this example to work, you need the following JavaScript files in your project:  
@@ -311,7 +311,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
      ![Example showing the use of intellisense.annotate](../ide/media/js-intellisense-annotations.png "js_intellisense_annotations")  
   
-###  <a name="Logging"></a> Sending Messages to the Output Window  
+### <a name="Logging"></a> Sending Messages to the Output Window  
  The following procedure shows how to send messages to the Output window. You can send messages to help debug IntelliSense extensions.  
   
  For this example to work, you need the following JavaScript files in your project:  
@@ -396,7 +396,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
     …  
     ```  
   
-###  <a name="Icons"></a> Changing the IntelliSense icons  
+### <a name="Icons"></a> Changing the IntelliSense icons  
  The following procedure shows how to change the icons displayed by IntelliSense by default. This might be useful when you provide IntelliSense information about library-specific concepts such as namespaces, classes, interfaces, and enumerations.  
   
  For available icon values, see <xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup>.  
@@ -488,7 +488,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
      ![Example showing use of the glyph property](../ide/media/js-intellisense-glyph-class-enum.png "js_intellisense_glyph_class_enum")  
   
-###  <a name="Overriding"></a> Avoiding run-time effects on IntelliSense results  
+### <a name="Overriding"></a> Avoiding run-time effects on IntelliSense results  
  The JavaScript language service runs code to dynamically provide IntelliSense information. As a result, run-time behavior can occasionally interfere with desired results. The following procedure shows how to override IntelliSense results when run-time behavior results in incorrect IntelliSense.  
   
  For this example to work, you need the following JavaScript files in your project:  

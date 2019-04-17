@@ -71,7 +71,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 - [Troubleshooting](#Troubleshooting)  
   
-##  <a name="ConnectTFS"></a> Connect to a team project  
+## <a name="ConnectTFS"></a> Connect to a team project  
  You must first connect to your team project to create, view, or remove links.  
   
 1. On the **Team** menu, choose **Manage Connections** to show the Team Explorer window.  
@@ -80,7 +80,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 3. In **Team Explorer**, choose the project where you want to create, link, or view work items.  
   
-##  <a name="LinkNew"></a> Link a model element to a new work item  
+## <a name="LinkNew"></a> Link a model element to a new work item  
   
 1. Make sure you are connected to the TFS instance you want to use.  
   
@@ -95,7 +95,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 > [!WARNING]
 >  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
-##  <a name="LinkExisting"></a> Link a model element to an existing work item  
+## <a name="LinkExisting"></a> Link a model element to an existing work item  
  When you link model elements to work items, start from the model element, not from the work item.  
   
 1. Make sure you are connected to the TFS instance you want to use.  
@@ -119,7 +119,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 > [!WARNING]
 >  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
-##  <a name="OpenWorkItem"></a> View work items linked to a model element  
+## <a name="OpenWorkItem"></a> View work items linked to a model element  
   
 1. In **Team Explorer**, make sure you're connected to the team project where the work items are linked to the model element.  
   
@@ -128,7 +128,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
     > [!NOTE]
     >  Only work items from the currently connected server appear. If you don't see any work items, make sure you're connected to the correct server in **Team Explorer**.  
   
-##  <a name="ViewLinkedModels"></a> View model elements linked to a work item  
+## <a name="ViewLinkedModels"></a> View model elements linked to a work item  
  You can view modeling diagrams and elements that are linked to a work item in Visual Studio Team Services and in Team Foundation Server 2012 or later. For example, a work item might be linked to class models that show the design of new classes to be implemented.  
   
 1. In **Team Explorer**, make sure you're connected to the team project where the model elements are linked to the work item.  
@@ -140,7 +140,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
      ![Open linked model element from a work item](../modeling/media/workitem-openlinkedmodelelement.png "WorkItem_OpenLinkedModelElement")  
   
-##  <a name="RemoveLinks"></a> Delete links between model elements and work items  
+## <a name="RemoveLinks"></a> Delete links between model elements and work items  
  Remove a linked work item by starting from the model element. This correctly removes the reciprocal link to that model element from the work item. Otherwise, if you start with the work item, the reciprocal link from the model element to the work item won't be deleted.  
   
 1. On the modeling diagram or in **UML Model Explorer**, open the shortcut menu for the model element.  
@@ -158,7 +158,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 3. Under **Remove Links to Work Items**, clear the selected items that you want to unlink. Choose **OK**.  
   
-##  <a name="Troubleshooting"></a> Troubleshooting  
+## <a name="Troubleshooting"></a> Troubleshooting  
   
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  

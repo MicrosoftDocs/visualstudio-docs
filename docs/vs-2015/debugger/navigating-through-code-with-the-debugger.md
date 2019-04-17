@@ -44,7 +44,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  Most debugger features, such as viewing variable values in the Locals window or evaluating expressions in the Watch window, are available only while the debugger is paused (also called *break mode*). When the debugger is paused, your app state is suspended while functions, variables, and objects remain in memory. While in break mode, you can examine the elements' positions and states to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode.  
   
-##  <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code, line by line  
+## <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code, line by line  
  To stop on each line of code (each statement) while debugging, use the **F11** keyboard shortcut (or **Debug** / **Step Into** on the menu).  
   
 > [!TIP]
@@ -72,7 +72,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
   To visually trace the call stack while stepping into functions, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
-##  <a name="BKMK_Step_over_Step_out"></a> Step through code, skipping functions  
+## <a name="BKMK_Step_over_Step_out"></a> Step through code, skipping functions  
  When running code in the debugger, often you will realize that you don't need to see what happens in a particular function (you don't care about it or you know it works, like well-tested library code). Use these commands to skip through code (the functions still execute, of course, but the debugger skips over them).  
   
 |Keyboard Command|Menu Command|Description|  
@@ -83,7 +83,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 > [!TIP]
 >  If you need to find the entry point in your app, start with **F10** or **F11**. These commands are often helpful when you are inspecting your app state or trying to find out more about its execution flow.  
   
-##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
+## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
  Often the preferred method of debugging code, these methods are useful when you know exactly what code you want to inspect, or at least you know where you want to start debugging.  
   
 - **Set breakpoints in the code**  
@@ -120,7 +120,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
      ![Choose Breakpoints dialog box](../debugger/media/dbg-execution-overloadedbreakpoints.png "DBG_Execution_OverloadedBreakpoints")  
   
-##  <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow  
+## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow  
  While the debugger is paused, you can move the instruction pointer to set the next statement of code to be executed. A yellow arrowhead in the margin of a source or Disassembly window marks the location of the next statement to be executed. By moving this arrowhead, you can skip over a portion of code or return to a line previously executed. You can use this for situations such as skipping a section of code that contains a known bug.  
   
  ![Example2](../debugger/media/dbg-basics-example2.png "DBG_Basics_Example2")  
@@ -178,5 +178,5 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 3. Choose **Load Symbols** on the context menu.  
   
-##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
+## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** / **Options**. On the **Debugging** / **General** page, clear the **Step over properties and operators (Managed only)** check box

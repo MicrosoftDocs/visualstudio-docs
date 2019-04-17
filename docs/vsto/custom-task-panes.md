@@ -120,7 +120,7 @@ ms.workload:
 
  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically cleans up resources used by the custom task pane when the VSTO Add-in is unloaded. Do not call the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> or <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> methods in the `ThisAddIn_Shutdown` event handler in your project. These methods will throw an <xref:System.ObjectDisposedException>, because the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] cleans up resources used by the <xref:Microsoft.Office.Tools.CustomTaskPane> object before `ThisAddIn_Shutdown` is called. For more information about `ThisAddIn_Shutdown`, see [Events in Office projects](../vsto/events-in-office-projects.md)
 
-##  <a name="Managing"></a> Manage custom task panes in multiple application windows
+## <a name="Managing"></a> Manage custom task panes in multiple application windows
  When you create a custom task pane in an application that uses multiple windows to display documents and other items, you need to take extra steps to ensure that the task pane is visible when the user expects it to be.
 
  Custom task panes in all applications are associated with a document frame window, which presents a view of a document or item to the user. The task pane is visible only when the associated window is visible. However, not all applications use document frame windows the same way.
@@ -131,7 +131,7 @@ ms.workload:
 
 - [Word, InfoPath, and PowerPoint](#WordAndInfoPath)
 
-##  <a name="Outlook"></a> Outlook
+## <a name="Outlook"></a> Outlook
  When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.
 
  If you want to display a custom task pane with multiple Explorer or Inspector windows, you need to create a new instance of the custom task pane when an Explorer or Inspector window opens. To do this, handle an event that is raised when an Explorer or Inspector window is created, and then create the task pane in the event handler. You can also handle Explorer and Inspector events to hide or display task panes depending on which window is visible.
@@ -161,7 +161,7 @@ ms.workload:
 
  If you do not explicitly remove the custom task pane, Outlook windows might display multiple instances of the custom task pane. Outlook sometimes recycles windows, and recycled windows retain references to any custom task panes that were attached to them.
 
-##  <a name="WordAndInfoPath"></a> Word, InfoPath, and PowerPoint
+## <a name="WordAndInfoPath"></a> Word, InfoPath, and PowerPoint
  Word, InfoPath, and PowerPoint display each document in a different document frame window. When you create a custom task pane for these applications, the custom task pane is associated only with a specific document. If the user opens a different document, the custom task pane is hidden until the earlier document is visible again.
 
  If you want to display a custom task pane with multiple documents, create a new instance of the custom task pane when the user creates a new document or opens an existing document. To do this, handle events that are raised when a document is created or opened, and then create the task pane in the event handlers. You can also handle document events to hide or display task panes depending on which document is visible.

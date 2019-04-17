@@ -218,7 +218,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     > [!TIP]
     >  Sometimes, locating an object in relation to the `Global` object may help identify that object. To do this, open the shortcut menu for the identifier, and then choose **Show in roots view**.  
   
-##  <a name="FixingMemory"></a> Fixing the memory issue  
+## <a name="FixingMemory"></a> Fixing the memory issue  
   
 1. Using data revealed by the profiler, you examine code that is responsible for removing DOM elements with an ID of "item". That occurs in the `initialize()` function.  
   

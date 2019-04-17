@@ -51,7 +51,7 @@ Other considerations are:
 
 In general, we recommend that you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. Shim types can be used to isolate from third-party components that do not provide a testable API.
 
-##  Get started with stubs
+## Get started with stubs
 For a more detailed description, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
 1. **Inject interfaces**
@@ -145,7 +145,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
-##  Get started with shims
+## Get started with shims
 (For a more detailed description, see [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).)
 
 Suppose your component contains calls to `DateTime.Now`:

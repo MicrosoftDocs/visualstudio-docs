@@ -28,7 +28,7 @@ ms.workload:
 
   [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
-##  <a name="EditDeleteControl"></a> Protect a content control
+## <a name="EditDeleteControl"></a> Protect a content control
  You can prevent users from editing or deleting a content control by setting properties of the control in a document-level project at design time or at runtime.
 
  You can also protect content controls that you add to a document at run time by using a VSTO Add-in project. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).
