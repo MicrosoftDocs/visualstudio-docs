@@ -34,7 +34,7 @@ When you build projects, it is often necessary to set build options using inform
 
 -   Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to *c:\tools* only if the `ToolsPath` environment variable is not set:
 
-     `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`
+     `<ToolsPath Condition="$(TOOLSPATH) == ''">c:\tools</ToolsPath>`
 
     > [!NOTE]
     >  Property names are not case-sensitive so both `$(ToolsPath)` and `$(TOOLSPATH)` reference the same property or environment variable.
@@ -46,7 +46,7 @@ When you build projects, it is often necessary to set build options using inform
 <Project DefaultTargets="FakeBuild">
     <PropertyGroup>
         <FinalOutput>$(BIN_PATH)\myassembly.dll</FinalOutput>
-        <ToolsPath Condition=" '$(ToolsPath)' == '' ">
+        <ToolsPath Condition=" $(ToolsPath) == '' ">
             C:\Tools
         </ToolsPath>
     </PropertyGroup>

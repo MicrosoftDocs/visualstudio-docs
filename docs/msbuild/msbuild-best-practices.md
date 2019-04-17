@@ -18,7 +18,7 @@ We recommend the following best practices for writing MSBuild scripts:
 -   Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use
 
 ```xml
-<MyProperty Condition="'$(MyProperty)' == ''">
+<MyProperty Condition="$(MyProperty) == ''">
    MyDefaultValue
 </MyProperty>
 ```

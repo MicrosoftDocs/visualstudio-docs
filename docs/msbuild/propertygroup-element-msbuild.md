@@ -59,7 +59,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
  The following code example shows how to set properties based on a condition. In this example, if the value of the `CompileConfig` property is `DEBUG`, the `Optimization`, `Obfuscate`, and `OutputPath` properties inside of the `PropertyGroup` element are set.
 
 ```xml
-<PropertyGroup Condition="'$(CompileConfig)' == 'DEBUG'" >
+<PropertyGroup Condition="$(CompileConfig) == 'DEBUG'" >
     <Optimization>false</Optimization>
     <Obfuscate>false</Obfuscate>
     <OutputPath>$(OutputPath)\debug</OutputPath>

@@ -49,7 +49,7 @@ When you build projects, it is often necessary to set build options using inform
 <Project DefaultTargets="FakeBuild">  
     <PropertyGroup>  
         <FinalOutput>$(BIN_PATH)\myassembly.dll</FinalOutput>  
-        <ToolsPath Condition=" '$(ToolsPath)' == '' ">  
+        <ToolsPath Condition=" $(ToolsPath) == '' ">  
             C:\Tools  
         </ToolsPath>  
     </PropertyGroup>  
