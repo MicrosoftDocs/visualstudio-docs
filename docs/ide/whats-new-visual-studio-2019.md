@@ -164,7 +164,7 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, check out our [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
 
 Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
 
