@@ -20,14 +20,14 @@ manager: "wpickett"
 # CA1801: Review unused parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1801: Review unused parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1801: Review unused parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1801-review-unused-parameters).  
   
 |||  
 |-|-|  
 |TypeName|ReviewUnusedParameters|  
 |CheckId|CA1801|  
 |Category|Microsoft.Usage|  
-|Breaking Change|Non Breaking - If the member is not visible outside the assembly, regardless of the change you make.<br /><br /> Non Breaking - If you change the member to use the parameter within its body.<br /><br /> Breaking - If you remove the parameter and it is visible outside the assembly.|  
+|Breaking Change|Non-breaking - If the member is not visible outside the assembly, regardless of the change you make.<br /><br /> Non-breaking - If you change the member to use the parameter within its body.<br /><br /> Breaking - If you remove the parameter and it is visible outside the assembly.|  
   
 ## Cause  
  A method signature includes a parameter that is not used in the method body. This rule does not examine the following methods:  

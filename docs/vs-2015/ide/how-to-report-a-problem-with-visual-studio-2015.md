@@ -13,16 +13,17 @@ manager: jillfra
 # How to Report a Problem with Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [How to report a problem in Visual Studio 2017](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017).
+For the latest documentation on Visual Studio, see [How to report a problem in Visual Studio](/visualstudio/ide/how-to-report-a-problem-with-visual-studio).
 
 If you encounter a problem with Visual Studio 2015, we want to know about it so that we can diagnose and fix it.  By using the **Report a Problem** tool, you can collect detailed  information about the problem, and send it to Microsoft with just a few button clicks.
 
- Microsoft respects your privacy. For information about how we treat the data that you send to us, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/dn948229).
+Microsoft respects your privacy. For information about how we treat the data that you send to us, see [Microsoft Visual Studio Product Family Privacy Statement](https://www.visualstudio.com/dn948229).
 
 ## Open the Report a Problem tool
- Click on the user feedback icon next to **Quick Launch** in the title bar, or click on           **Help &#124; Send Feedback &#124; Report a Problem**.
 
- ![Report a Problem Menu Item](../ide/media/report-a-problem-menu-item.png "Report a Problem Menu Item")
+Click on the user feedback icon next to **Quick Launch** in the title bar, or click on **Help > Send Feedback > Report a Problem**.
+
+![Report a Problem Menu Item](../ide/media/report-a-problem-menu-item.png "Report a Problem Menu Item")
 
 ## Describe the problem
 
@@ -37,7 +38,8 @@ If you encounter a problem with Visual Studio 2015, we want to know about it so 
    ![Report A Problem Dialog](../ide/media/report-a-problem-dialog.png "Report A Problem Dialog")
 
 ## Provide a screenshot (optional)
- Choose **Include a screenshot** to send your current screen to Microsoft. The tool enables you to crop the image to show only            the part of the screen that shows the problem. You can attach additional screenshots or other files by clicking the **Attach Additional Files** button.
+
+Choose **Include a screenshot** to send your current screen to Microsoft. The tool enables you to crop the image to show only the part of the screen that shows the problem. You can attach additional screenshots or other files by clicking the **Attach Additional Files** button.
 
 ## Provide a trace and heap dump (optional)
 
@@ -54,10 +56,13 @@ If you encounter a problem with Visual Studio 2015, we want to know about it so 
      ![Record a Trace File](../ide/media/record-a-trace-file.png "Record a Trace File")
 
 ## Describe the workaround, if there is one
- If you were able to work around the problem, please describe the workaround in the edit box provided for that purpose. This helps us not only to diagnose the problem, but also to help other users who may encounter the same problem.
+
+If you were able to work around the problem, please describe the workaround in the edit box provided for that purpose. This helps us not only to diagnose the problem, but also to help other users who may encounter the same problem.
 
 ## Submit the report
- Click on the submit button to send your report, along with any images and trace or dump files. If the **Submit** button is grayed out, make sure that you have provided a title and description.
+
+Click on the submit button to send your report, along with any images and trace or dump files. If the **Submit** button is grayed out, make sure that you have provided a title and description.
 
 ## See Also
- [Talk to Us](../ide/talk-to-us.md)
+
+- [Talk to Us](../ide/talk-to-us.md)
