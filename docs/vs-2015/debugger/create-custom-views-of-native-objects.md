@@ -28,8 +28,8 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 >  You cannot use the Natvis framework for visualizations when:  
 > 
 > - You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
->   -   You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
->   -   You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
+>   - You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
+>   - You are debugging in a Windows desktop application in native compatibility mode (**Tools / Options / Debugging / General / Use Native Compatibility Mode**).  
 
 ##  <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
  You can use the Natvis framework to create visualization rules for the types you create so developers can see them easily during debugging.  

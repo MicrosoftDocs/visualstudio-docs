@@ -42,7 +42,7 @@ To determine what proportion of your project's code is actually being tested by 
 > - Make sure that compiler optimization is turned off.  
 > 
 >   If you are working with unmanaged (native) code, use a debug build.  
->   -   Make sure that you are generating .pdb (symbol) files for each assembly.  
+>   - Make sure that you are generating .pdb (symbol) files for each assembly.  
 > 
 >   If you don’t get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don’t forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.  
   

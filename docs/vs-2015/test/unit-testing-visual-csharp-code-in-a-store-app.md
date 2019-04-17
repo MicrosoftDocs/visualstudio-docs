@@ -23,8 +23,8 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 >  Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
 > 
 > - Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
->   -   Run your tests after every build.  
->   -   VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
+>   - Run your tests after every build.  
+>   - VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
 > 
 >   For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
   

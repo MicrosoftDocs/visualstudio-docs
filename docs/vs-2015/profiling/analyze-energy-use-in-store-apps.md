@@ -55,7 +55,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
 > [!NOTE]
 > - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
->   -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
+>   - Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
   
@@ -76,8 +76,8 @@ if (performance && performance.mark) {
   
 > [!TIP]
 > - We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
->   -   Profile on the target device while it is powered by its batteries.  
->   -   Close other apps that might use the same resources (network, CPU, or display).  
+>   - Profile on the target device while it is powered by its batteries.  
+>   - Close other apps that might use the same resources (network, CPU, or display).  
   
 ##  <a name="BKMK_Collect_energy_profile_data_for_your_app"></a> Collect energy profile data for your app  
   

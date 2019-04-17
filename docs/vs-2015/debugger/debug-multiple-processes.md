@@ -63,7 +63,7 @@ Here’s how to start debugging processes, switch between processes, break and c
 > - Attach to the child process after it has been started.  
 > 
 >   -or-  
->   -   Configure Windows to automatically start the child process in a new instance of the debugger.  
+>   - Configure Windows to automatically start the child process in a new instance of the debugger.  
   
 ###  <a name="BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution"></a> Start debugging multiple processes in a Visual Studio solution  
  When you have more than one project in a Visual Studio solution that can run independently (projects that run in separate processes), you can select which projects the debugger starts.  
