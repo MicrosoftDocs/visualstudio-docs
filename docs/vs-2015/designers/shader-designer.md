@@ -85,7 +85,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To perform basic operations in Select mode  
   
--   Here's how:  
+- Here's how:  
   
     -   To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.  
   
@@ -107,7 +107,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To choose a preview shape  
   
--   On the **Shader Designer Modes** toolbar, choose the shape that you want.  
+- On the **Shader Designer Modes** toolbar, choose the shape that you want.  
   
 ####  <a name="WWS_MaterialParameters"></a> Textures and material parameters  
  Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.  
@@ -134,14 +134,14 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To enable real-time rendering  
   
--   On the Shader Designer toolbar, choose **Real time Rendering**.  
+- On the Shader Designer toolbar, choose **Real time Rendering**.  
   
 #### Examining the effect  
  Many shaders are affected by variables such as viewing angle or directional lighting. To examine how the effect responds as these variables change, you can rotate the preview shape freely and observe how the shader behaves.  
   
 ###### To rotate the shape  
   
--   Press and hold Alt, and then select any point on the design surface and move it.  
+- Press and hold Alt, and then select any point on the design surface and move it.  
   
 ### Exporting shaders  
  Before you can use a shader in your app, you have to export it in a format that DirectX understands.  

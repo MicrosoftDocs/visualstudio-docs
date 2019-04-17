@@ -218,10 +218,10 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 
 There are several ways for the debugger to break into code that does not have symbol or source files available:
 
--  Step into code.
--  Break into code from a breakpoint or exception.
--  Switch to a different thread.
--  Change the stack frame by double-clicking a frame in the **Call Stack** window.
+- Step into code.
+- Break into code from a breakpoint or exception.
+- Switch to a different thread.
+- Change the stack frame by double-clicking a frame in the **Call Stack** window.
 
 When this happens, the debugger displays the **No Symbols Loaded** or **No Source Loaded** pages to help you find and load the necessary symbols or source.
 
@@ -229,11 +229,11 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 
 **To use the No Symbols Loaded document page to help find and load missing symbols:**
 
--   To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it is found.
--   To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.
--   To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.
--   To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found.
--   To show the locations searched and the outcome, expand **Symbol load information**.
+- To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it is found.
+- To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.
+- To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.
+- To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found.
+- To show the locations searched and the outcome, expand **Symbol load information**.
 
 If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
 

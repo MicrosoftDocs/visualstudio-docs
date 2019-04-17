@@ -80,14 +80,14 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 ### <a name="configure_msvsmon"></a> Configure the remote debugger
 You can change some aspects of the configuration of the remote debugger after you have started it for the first time.
 
--   If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
+- If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
 
      > [!IMPORTANT]
      > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
 
--   If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
+- If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
 
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 

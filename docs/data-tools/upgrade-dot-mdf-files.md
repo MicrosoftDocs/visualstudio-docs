@@ -39,15 +39,15 @@ You may also be prompted to upgrade a database file that was created through an 
 
 Before you upgrade a database, consider the following criteria:
 
--   Don't upgrade if you want to work on your project in both an older version and a newer version of Visual Studio.
+- Don't upgrade if you want to work on your project in both an older version and a newer version of Visual Studio.
 
--   Don't upgrade if your application will be used in environments that use SQL Server Express rather than LocalDB.
+- Don't upgrade if your application will be used in environments that use SQL Server Express rather than LocalDB.
 
--   Don't upgrade if your application uses remote connections, because LocalDB doesn't accept them.
+- Don't upgrade if your application uses remote connections, because LocalDB doesn't accept them.
 
--   Don't upgrade if your application relies on Internet Information Services (IIS).
+- Don't upgrade if your application relies on Internet Information Services (IIS).
 
--   Consider upgrading if you want to test database applications in a sandbox environment but don't want to administer a database.
+- Consider upgrading if you want to test database applications in a sandbox environment but don't want to administer a database.
 
 ### To upgrade a database file to use the LocalDB version
 
@@ -87,7 +87,7 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
 
 ### To work with the database in Visual Studio but retain compatibility with SQL Server Express
 
--   In Visual Studio, open the project without upgrading it.
+- In Visual Studio, open the project without upgrading it.
 
     -   To run the project, select the **F5** key.
 

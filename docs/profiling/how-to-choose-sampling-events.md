@@ -22,13 +22,13 @@ ms.workload:
 # How to: Choose sampling events
 By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:
 
--   Clock cycles - for CPU-bound problems.
+- Clock cycles - for CPU-bound problems.
 
--   Page faults - for memory-related problems.
+- Page faults - for memory-related problems.
 
--   System calls - for I/O-related problems.
+- System calls - for I/O-related problems.
 
--   Performance counter - CPU counters for low-level performance problems.
+- Performance counter - CPU counters for low-level performance problems.
 
 > [!IMPORTANT]
 >  If you are collecting .NET memory data (allocations or object lifetimes, or both) by using the sampling method, all user-specified sampling events are ignored and the appropriate memory allocations or garbage collection events, or both, are used to collect data.

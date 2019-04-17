@@ -24,11 +24,11 @@ This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.m
   
  You can set breakpoints on an activity on the workflow design surface in the following ways:  
   
--   Right-click the activity and select **Breakpoint \ Insert Breakpoint**.  
+- Right-click the activity and select **Breakpoint \ Insert Breakpoint**.  
   
--   Select the activity and press F9.  
+- Select the activity and press F9.  
   
--   Select **New Breakpoint** from the **Debug** menu.  
+- Select **New Breakpoint** from the **Debug** menu.  
   
      You can also use this option to set a new breakpoint while debugging, when the debugger stops at a breakpoint.  
   

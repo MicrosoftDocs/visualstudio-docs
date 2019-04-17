@@ -39,6 +39,6 @@ The program needs to track which Label controls the player chooses. Right now, t
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).
+- To go to the next tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).
 
--   To return to the previous tutorial step, see [Step 4: Add a Click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).
+- To return to the previous tutorial step, see [Step 4: Add a Click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).

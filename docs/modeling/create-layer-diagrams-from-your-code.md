@@ -95,11 +95,11 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
  The number on a layer indicates the number of artifacts that are linked to the layer. However, when reading this number, remember the following:
 
--   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
+- If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
      For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
 
--   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
+- If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
 ## <a name="Managing"></a> Manage links between layers and artifacts
 
@@ -144,11 +144,11 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 ## <a name="Codemaps"></a> Discover patterns and dependencies on a code map
  While creating dependency diagrams, you might also create **code maps**. These diagrams can help you discover patterns and dependencies while you explore the code. Use Solution Explorer, Class View, or Object Browser to explore assemblies, namespaces, and classes - which often correspond well to existing layers. For more information about code maps, see:
 
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
 ## See Also
 

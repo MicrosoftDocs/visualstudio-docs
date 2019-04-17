@@ -22,11 +22,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+- Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
--   Creating workflow activities.
+- Creating workflow activities.
 
--   Handling workflow activity events.
+- Handling workflow activity events.
 
 > [!NOTE]
 >  Although this walkthrough uses a sequential workflow project, the process is identical for a state machine workflow project.
@@ -36,9 +36,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Add properties to the SharePoint shared documents library
  To track the review status of documents in the **Shared Documents** library, we will create three new properties for shared documents on our SharePoint site: `Status`, `Assignee`, and `Review Comments`. We define these properties in the **Shared Documents** library.
@@ -277,9 +277,9 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
--   To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=178992).
+- To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=178992).
 
--   To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).
+- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

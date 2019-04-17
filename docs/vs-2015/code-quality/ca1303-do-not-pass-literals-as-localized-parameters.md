@@ -32,11 +32,11 @@ manager: "wpickett"
 
  This warning is raised when a literal string is passed as a value to a parameter or property and one or more of the following cases is true:
 
--   The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
+- The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
 
--   The parameter or property name contains "Text", "Message", or "Caption".
+- The parameter or property name contains "Text", "Message", or "Caption".
 
--   The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
+- The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
 
 ## Rule Description
  String literals that are embedded in source code are difficult to localize.

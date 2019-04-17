@@ -57,20 +57,20 @@ The integrated development environment (IDE) has been designed to allow you to m
 
 #### To switch to specific files in the editor
 
--   Press CTRL + TAB to display the **IDE Navigator**. Hold down the CTRL key and press TAB repeatedly until you select the file you intend to switch to.
+- Press CTRL + TAB to display the **IDE Navigator**. Hold down the CTRL key and press TAB repeatedly until you select the file you intend to switch to.
 
     > [!TIP]
     >  To reverse the order in which you go through the **Active Files** list, hold down the CTRL + SHIFT keys and press TAB.
 
      \- or -
 
--   In the upper right corner of the editor, choose the **Active Files** button, and then select a file from the list to switch to.
+- In the upper right corner of the editor, choose the **Active Files** button, and then select a file from the list to switch to.
 
      \- or -
 
--   On the menu bar, choose **Window**, **Windows**.
+- On the menu bar, choose **Window**, **Windows**.
 
--   In the list, select the file you want to view and then choose **Activate**.
+- In the list, select the file you want to view and then choose **Activate**.
 
 ## Navigating Among Tool Windows in the IDE
  The **IDE Navigator** also lets you cycle through the tool windows you have open in the IDE. You can use either of two commands to access the **IDE Navigator** to cycle through tool windows, depending on the order in which you want to cycle through. `Window.PreviousToolWindowNav` allows you to move to the file most recently accessed and `Window.NextToolWindowNav` allows you to move in the reverse order. General Development Settings assigns SHIFT + ALT + F7 to `Window.PreviousDocumentWindowNav` and ALT + F7 to `Window.NextDocumentWindowNav`.
@@ -80,7 +80,7 @@ The integrated development environment (IDE) has been designed to allow you to m
 
 #### To switch to a specific tool window in the IDE
 
--   Press ALT+F7 to display the **IDE Navigator**. Hold down the ALT key and press F7 repeatedly until you select the window you intend to switch to.
+- Press ALT+F7 to display the **IDE Navigator**. Hold down the ALT key and press F7 repeatedly until you select the window you intend to switch to.
 
     > [!TIP]
     >  To reverse the order in which you go through the **Active Tool Windows** list, hold down the SHIFT + ALT keys and press F7.

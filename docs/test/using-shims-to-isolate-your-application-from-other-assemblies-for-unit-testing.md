@@ -18,8 +18,8 @@ For an overview and quick start guidance, see [Isolate code under test with Micr
 
 **Requirements**
 
--   Visual Studio Enterprise
--   A .NET Framework project
+- Visual Studio Enterprise
+- A .NET Framework project
 
 > [!NOTE]
 > .NET Standard projects are not supported.

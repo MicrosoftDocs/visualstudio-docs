@@ -99,13 +99,13 @@ Specify the general relationship between inputs and outputs that you want the ge
 
  If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:
 
--   **PexAllowedExceptionAttribute**
+- **PexAllowedExceptionAttribute**
 
--   **PexAllowedExceptionFromTypeAttribute**
+- **PexAllowedExceptionFromTypeAttribute**
 
--   **PexAllowedExceptionFromTypeUnderTestAttribute**
+- **PexAllowedExceptionFromTypeUnderTestAttribute**
 
--   **PexAllowedExceptionFromAssemblyAttribute**
+- **PexAllowedExceptionFromAssemblyAttribute**
 
 ### Q: Can I add assumptions to the parameterized unit test?
 

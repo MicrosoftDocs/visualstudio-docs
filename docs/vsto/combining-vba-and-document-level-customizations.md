@@ -80,17 +80,17 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Requirements
  Before you can enable VBA code to call into the customization assembly, your project must meet the following requirements:
 
--   The document must have one of the following file name extensions:
+- The document must have one of the following file name extensions:
 
     -   For Word: *.docm* or *.doc*
 
     -   For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
 
--   The document must already contain a VBA project that has VBA code in it.
+- The document must already contain a VBA project that has VBA code in it.
 
--   VBA code in the document must be allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
+- VBA code in the document must be allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
 
--   The Office project must contain at least one public class that contains one or more public members that you are exposing to VBA.
+- The Office project must contain at least one public class that contains one or more public members that you are exposing to VBA.
 
      You can expose methods, properties, and events to VBA. The class that you expose can be a host item class (such as `ThisDocument` for Word, or `ThisWorkbook` and `Sheet1` for Excel) or another class that you define in your project. For more information about host items, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 

@@ -35,13 +35,13 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
--   Access to a server with the Northwind SQL Server sample database.
+- Access to a server with the Northwind SQL Server sample database.
 
--   Permissions to read from and write to the SQL Server database.
+- Permissions to read from and write to the SQL Server database.
 
 ## Create a new project
  In this step, you will create an Excel workbook project.
@@ -179,11 +179,11 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of binding a named range to a field in a database. Here are some tasks that might come next:
 
--   Cache the data so that it can be used offline. For more information, see [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).
+- Cache the data so that it can be used offline. For more information, see [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).
 
--   Bind cells to multiple columns in a table, instead of to one field. For more information, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md).
+- Bind cells to multiple columns in a table, instead of to one field. For more information, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md).
 
--   Use a <xref:System.Windows.Forms.BindingNavigator> control to scroll through the records. For more information, see [How to: Navigate data with the Windows Forms BindingNavigator control](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).
+- Use a <xref:System.Windows.Forms.BindingNavigator> control to scroll through the records. For more information, see [How to: Navigate data with the Windows Forms BindingNavigator control](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).
 
 ## See also
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

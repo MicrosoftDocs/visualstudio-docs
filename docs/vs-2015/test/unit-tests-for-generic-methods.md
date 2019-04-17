@@ -23,9 +23,9 @@ You can generate unit tests for generic methods exactly as you do for other meth
 ## Examples  
  The following examples illustrate unit tests for generics:  
   
--   [Editing Generated Test Code](#EditingGeneratedTestCode). This example has two sections, Generated Test Code and Edited Test Code. It shows how to edit the raw test code that is generated from a generic method into a useful test method.  
+- [Editing Generated Test Code](#EditingGeneratedTestCode). This example has two sections, Generated Test Code and Edited Test Code. It shows how to edit the raw test code that is generated from a generic method into a useful test method.  
   
--   [Using a Type Constraint](#TypeConstraintNotSatisfied). This example shows a unit test for a generic method that uses a type constraint. In this example, the type constraint is not satisfied.  
+- [Using a Type Constraint](#TypeConstraintNotSatisfied). This example shows a unit test for a generic method that uses a type constraint. In this example, the type constraint is not satisfied.  
   
 ###  <a name="EditingGeneratedTestCode"></a> Example 1: Editing Generated Test Code  
  The test code in this section tests a code-under-test method named `SizeOfLinkedList()`. This method returns an integer that specifies the number of nodes in the linked list.  
@@ -34,9 +34,9 @@ You can generate unit tests for generic methods exactly as you do for other meth
   
  This code illustrates two methods:  
   
--   a test helper method, `SizeOfLinkedListTestHelper<T>()`. By default, a test helper method has "TestHelper" in its name.  
+- a test helper method, `SizeOfLinkedListTestHelper<T>()`. By default, a test helper method has "TestHelper" in its name.  
   
--   a test method, `SizeOfLinkedListTest()`. Every test method is marked with the TestMethod attribute.  
+- a test method, `SizeOfLinkedListTest()`. Every test method is marked with the TestMethod attribute.  
   
 #### Generated Test Code  
  The following test code was generated from the `SizeOfLinkedList()` method. Because this is the unedited generated test, it must be modified to correctly test the SizeOfLinkedList method.  

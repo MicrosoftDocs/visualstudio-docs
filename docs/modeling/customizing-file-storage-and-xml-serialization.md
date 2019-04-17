@@ -27,9 +27,9 @@ You can also write program code for more advanced customization.
 
 Each model is usually saved in two files:
 
--   The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.
+- The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.
 
--   The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model is not lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors will be created.
+- The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model is not lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors will be created.
 
 ### To change the file extension of a DSL
 
@@ -73,17 +73,17 @@ This model was saved and then re-opened in the XML text editor:
 
 Notice the following points about the serialized model:
 
--   Each XML node has a name that is the same as a domain class name, except that the initial letter is lowercase. For example, `familyTreeModel` and `person`.
+- Each XML node has a name that is the same as a domain class name, except that the initial letter is lowercase. For example, `familyTreeModel` and `person`.
 
--   Domain properties such as Name and BirthYear are serialized as attributes in the XML nodes. Again, the initial character of the property name is converted to lowercase.
+- Domain properties such as Name and BirthYear are serialized as attributes in the XML nodes. Again, the initial character of the property name is converted to lowercase.
 
--   Each relationship is serialized as an XML node nested inside the source end of the relationship. The node has the same name as the source role property, but with a lower case initial character.
+- Each relationship is serialized as an XML node nested inside the source end of the relationship. The node has the same name as the source role property, but with a lower case initial character.
 
      For example, in the DSL Definition, a role that is named **People** is sourced at the **FamilyTree** class.  In the XML, this is represented by the node named `people` nested inside the `familyTreeModel` node.
 
--   The target end of each embedding relationship is serialized as a node nested under the relationship. For example, the `people` node contains several `person` nodes.
+- The target end of each embedding relationship is serialized as a node nested under the relationship. For example, the `people` node contains several `person` nodes.
 
--   The target end of each reference relationship is serialized as a *moniker*, which encodes a reference to the target element.
+- The target end of each reference relationship is serialized as a *moniker*, which encodes a reference to the target element.
 
      For example, under a `person` node, there can be a `children` relationship. This node contains monikers such as:
 
@@ -95,13 +95,13 @@ Notice the following points about the serialized model:
 
 Monikers are used to represent cross-references between different parts of the model and diagram files. They are also used in the `.diagram` file to refer to nodes in the model file. There are two forms of moniker:
 
--   *Id monikers* quote the GUID of the target element. For example:
+- *Id monikers* quote the GUID of the target element. For example:
 
     ```xml
     <personShapeMoniker Id="f79734c0-3da1-4d72-9514-848fa9e75157" />
     ```
 
--   *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed by the moniker of its parent element in the tree of embedding relationships.
+- *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed by the moniker of its parent element in the tree of embedding relationships.
 
      The following examples are taken from a DSL in which there is a domain class named Album, which has an embedding relationship to a domain class named Song:
 
@@ -130,19 +130,19 @@ Qualified key monikers are easier to read than ID monikers. If you intend the XM
 
 ### To set a domain class to be referenced by qualified key monikers
 
--   Set **Is Moniker Key** for a domain property of an existing domain class. The type of the property must be `string`.
+- Set **Is Moniker Key** for a domain property of an existing domain class. The type of the property must be `string`.
 
     1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\\<the domain class>\Element Data**, and then select the domain property.
 
     2.  In the Properties window, set **Is Moniker Key** to `true`.
 
--   \- or -
+- \- or -
 
      Create a new domain class using the **Named Domain Class** tool.
 
      This tool creates a new class that has a domain property called Name. The **Is Element Name** and **Is Moniker Key** properties of this domain property are initialized to `true`.
 
--   \- or -
+- \- or -
 
      Create an Inheritance relationship from the domain class to another class that has a moniker key property.
 
@@ -152,11 +152,11 @@ If you use qualified key monikers, it is possible that two elements in a user's 
 
 There are several methods that help avoid this situation:
 
--   Set **Is Element Name** = `true` for the key domain property. Select the domain property on the DSL Definition diagram and then set the value in the Properties window.
+- Set **Is Element Name** = `true` for the key domain property. Select the domain property on the DSL Definition diagram and then set the value in the Properties window.
 
      When the user creates a new instance of the class, this value causes the domain property to be automatically assigned a different value. The default behavior adds a number to the end of the class name. This does not prevent the user from changing the name to a duplicate, but it helps in the case when the user does not set the value before saving the model.
 
--   Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.
+- Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.
 
      There is an automatically generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to re-open the file.
 
@@ -196,7 +196,7 @@ If you know that a particular domain property will always have a unique value wi
 
 To make the following customizations, expand the **Xml Serialization Behavior** node in DSL Explorer. Under a domain class, expand the Element Data node to see the list of properties and relationships that are sourced at this class. Select a relationship and adjust its options in the Properties window.
 
--   Set **Omit Element** to true to omit the source role node, leaving just the list of target elements. You should not set this option if there is more than one relationship between the source and target classes.
+- Set **Omit Element** to true to omit the source role node, leaving just the list of target elements. You should not set this option if there is more than one relationship between the source and target classes.
 
     ```xml
     <familyTreeModel ...>
@@ -208,7 +208,7 @@ To make the following customizations, expand the **Xml Serialization Behavior** 
     </familyTreeModel>
     ```
 
--   Set **Use Full Form** to embed the target nodes in nodes representing the relationship instances. This option is set automatically when you add domain properties to a domain relationship.
+- Set **Use Full Form** to embed the target nodes in nodes representing the relationship instances. This option is set automatically when you add domain properties to a domain relationship.
 
     ```xml
     <familyTreeModel ...>
@@ -224,7 +224,7 @@ To make the following customizations, expand the **Xml Serialization Behavior** 
     </familyTreeModel>
     ```
 
--   Set **Representation** = **Element** to have a domain property saved as an element instead of as an attribute value.
+- Set **Representation** = **Element** to have a domain property saved as an element instead of as an attribute value.
 
     ```xml
     <person name="Elizabeth I" birthYear="1533">
@@ -232,7 +232,7 @@ To make the following customizations, expand the **Xml Serialization Behavior** 
     </person>
     ```
 
--   To change the order in which attributes and relationships are serialized, right-click an item under Element Data, and use the **Move Up** or **Move Down** menu commands.
+- To change the order in which attributes and relationships are serialized, right-click an item under Element Data, and use the **Move Up** or **Move Down** menu commands.
 
 ## Major customization using program code
 

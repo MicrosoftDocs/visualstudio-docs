@@ -20,9 +20,9 @@ The Virtual User Activity Chart lets you visualize the virtual user activity tha
 
 ## Prerequisites
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
--   Complete these procedures:
+- Complete these procedures:
 
     -   [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
 
@@ -40,7 +40,7 @@ The Virtual User Activity Chart lets you visualize the virtual user activity tha
 
 Run your load test to collect virtual user activity data.
 
--   In the **Load Test Editor**, choose the **Run** button on the toolbar. LoadTest1 starts to run.
+- In the **Load Test Editor**, choose the **Run** button on the toolbar. LoadTest1 starts to run.
 
 ## Isolate issues in the Virtual User Activity Chart
 

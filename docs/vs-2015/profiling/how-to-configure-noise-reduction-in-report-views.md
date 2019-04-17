@@ -23,9 +23,9 @@ Performance reports can be configured for noise reduction by limiting the amount
   
  Noise reduction configuration options include the following settings:  
   
--   **Trimming** When a report is analyzed, the view will omit functions that fall in the value and threshold settings that you have configured, as described in the trimming procedure that follows. By default, trimming is enabled.  
+- **Trimming** When a report is analyzed, the view will omit functions that fall in the value and threshold settings that you have configured, as described in the trimming procedure that follows. By default, trimming is enabled.  
   
--   **Folding** If you enable folding, consecutive functions on a path that meet the settings that you have configured will be merged, as described in the folding procedure that follows. By default, folding is enabled by default.  
+- **Folding** If you enable folding, consecutive functions on a path that meet the settings that you have configured will be merged, as described in the folding procedure that follows. By default, folding is enabled by default.  
   
 ### To configure trimming for a performance report  
   

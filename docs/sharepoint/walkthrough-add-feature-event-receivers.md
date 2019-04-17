@@ -41,9 +41,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create a feature event receiver project
  First, create a project to contain the feature event receiver.

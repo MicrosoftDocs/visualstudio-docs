@@ -19,11 +19,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
  **You'll need:**
 
--   Visual Studio, Azure DevOps, or Team Foundation Server 2017, 2015, 2013, 2012, or 2010 to set up your build
+- Visual Studio, Azure DevOps, or Team Foundation Server 2017, 2015, 2013, 2012, or 2010 to set up your build
 
--   Microsoft Monitoring Agent to monitor your app and record diagnostic data
+- Microsoft Monitoring Agent to monitor your app and record diagnostic data
 
--   Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace
+- Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace
 
 ##  <a name="SetUpBuild"></a> Step 1: Include build information with your release
  Set up your build process to create a build manifest (*BuildInfo.config* file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.
@@ -229,13 +229,13 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 ###  <a name="WhatElse"></a> What else can I do from here?
 
--   [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests - all without leaving the editor - use the CodeLens indicators in the editor.
+- [Get more information about this code](../ide/find-code-changes-and-other-history-with-codelens.md). To find references to this code, its change history, related bugs, work items, code reviews, or unit tests - all without leaving the editor - use the CodeLens indicators in the editor.
 
      ![CodeLens &#45; View references to this code](../debugger/media/ffr_itsummarypageperformancecodelensreferences.png "FFR_ITSummaryPagePerformanceCodeLensReferences")
 
      ![CodeLens &#45; View change history for this code](../debugger/media/ffr_itsummarypageperformancecodelensauthors.png "FFR_ITSummaryPagePerformanceCodeLensAuthors")
 
--   [Map your place in the code while you're debugging.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) To visually track the methods that were called during your debugging session, map the call stack.
+- [Map your place in the code while you're debugging.](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md) To visually track the methods that were called during your debugging session, map the call stack.
 
      ![Map the call stack while debugging](../debugger/media/ffr_itsummarypageperformancedebuggermap.png "FFR_ITSummaryPagePerformanceDebuggerMap")
 
@@ -358,15 +358,15 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 ####  <a name="ChooseTeamProject"></a> Q: Why can't I continue until I choose a team collection or a different collection?
  **A:** This might happen for any of these reasons:
 
--   Visual Studio isn't connected to TFS.
+- Visual Studio isn't connected to TFS.
 
      ![Open from source control &#45; not connected](../debugger/media/ffr_openprojectfromsourcecontrol_notconnected.png "FFR_OpenProjectFromSourceControl_NotConnected")
 
--   Visual Studio didn't find the solution or project in your current team collection.
+- Visual Studio didn't find the solution or project in your current team collection.
 
      When the build manifest file (\<*ProjectName*>.BuildInfo.config) doesn't specify where Visual Studio can find the matching source, Visual Studio uses your currently connected TFS to find the matching solution or project. If your current team collection doesn't have the matching source, Visual Studio prompts you to connect to a different team collection.
 
--   Visual Studio didn't find the solution or project in the collection specified by the build manifest file (\<*ProjectName*>.BuildInfo.config).
+- Visual Studio didn't find the solution or project in the collection specified by the build manifest file (\<*ProjectName*>.BuildInfo.config).
 
      The specified TFS might not have the matching source anymore or even exist, maybe because you migrated to a new TFS. If the specified TFS doesn't exist, Visual Studio might time out after a minute or so, and then prompt you to connect to a different collection. To continue, connect to the correct TFS server.
 

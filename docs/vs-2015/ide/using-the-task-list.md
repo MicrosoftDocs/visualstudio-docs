@@ -24,40 +24,40 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
  In this topic:  
   
--   [The Task List window](../ide/using-the-task-list.md#taskListWindow)  
+- [The Task List window](../ide/using-the-task-list.md#taskListWindow)  
   
--   [User Tasks](../ide/using-the-task-list.md#userTasks)  
+- [User Tasks](../ide/using-the-task-list.md#userTasks)  
   
--   [Tokens and comments](../ide/using-the-task-list.md#tokensComments)  
+- [Tokens and comments](../ide/using-the-task-list.md#tokensComments)  
   
--   [Custom tokens](../ide/using-the-task-list.md#customTokens)  
+- [Custom tokens](../ide/using-the-task-list.md#customTokens)  
   
--   [C++ TODO comments](../ide/using-the-task-list.md#cppComments)  
+- [C++ TODO comments](../ide/using-the-task-list.md#cppComments)  
   
--   [Shortcuts](../ide/using-the-task-list.md#shortcuts)  
+- [Shortcuts](../ide/using-the-task-list.md#shortcuts)  
   
 ##  <a name="taskListWindow"></a> The Task List window  
  When the **Task List** is open, it appears at the bottom of the application window.  
   
 #### To open the Task List  
   
--   On the **View** menu, choose **Task List** (Keyboard: Ctrl+\\,T).  
+- On the **View** menu, choose **Task List** (Keyboard: Ctrl+\\,T).  
   
      ![Task List window](../ide/media/vs2015-task-list.png "vs2015_task_list")  
   
 #### To change the sort order of the list  
   
--   Click the header of any column. To further refine your search results, press Shift and click a second column header.  
+- Click the header of any column. To further refine your search results, press Shift and click a second column header.  
   
      As an alternative, on the shortcut menu, choose **Sort by**, and choose a header. To further refine your search results, press Shift and choose a second header.  
   
 #### To show or hide columns  
   
--   On the shortcut menu, choose **Show Columns**. Choose the columns that you want to show or hide.  
+- On the shortcut menu, choose **Show Columns**. Choose the columns that you want to show or hide.  
   
 #### To change the order of the columns  
   
--   Drag any column header to the location that you want.  
+- Drag any column header to the location that you want.  
   
 ##  <a name="userTasks"></a> User Tasks  
  The user task feature has been removed in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier in Visual Studio 2015, the user task data in your .suo file will not be affected, but the user tasks will not be displayed in the task list.  
@@ -67,11 +67,11 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
 ##  <a name="tokensComments"></a> Tokens and comments  
  A comment in your code preceded by a comment marker and a predefined token will also appear in the **Task List** window. For example, the following C# comment has three distinct parts:  
   
--   The comment marker (`//`)  
+- The comment marker (`//`)  
   
--   The token, for example (`TODO`)  
+- The token, for example (`TODO`)  
   
--   The comment (the rest of the text)  
+- The comment (the rest of the text)  
   
 ```  
 // TODO: Load state from previously suspended application  
@@ -116,7 +116,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 #### To create a shortcut  
   
--   Insert the pointer into the code where you want to place a shortcut. Choose **Edit &#124; Bookmarks &#124; Add Task List Shortcut** or press (Keyboard: Ctrl+K, Ctrl+H).  
+- Insert the pointer into the code where you want to place a shortcut. Choose **Edit &#124; Bookmarks &#124; Add Task List Shortcut** or press (Keyboard: Ctrl+K, Ctrl+H).  
   
      To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the shortcut menu.  
   

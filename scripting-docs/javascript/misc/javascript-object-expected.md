@@ -20,7 +20,7 @@ You attempted to pass a non-[!INCLUDE[javascript](../../javascript/includes/java
   
 ### To correct this error  
   
--   Ensure that the object you are passing in as a parameter is of the correct type.  
+- Ensure that the object you are passing in as a parameter is of the correct type.  
   
 ## See Also  
  [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)   

@@ -52,15 +52,15 @@ A project subtype may need to persist subtype-specific data into the project fil
   
  The following points outline the main concepts regarding the persistence of non-build related information.  
   
--   The base project calls on the main project subtype (that is, the outermost project subtype) aggregator object to load and save configuration independent data, and it calls on the project subtype project configuration objects to load or save configuration dependent data.  
+- The base project calls on the main project subtype (that is, the outermost project subtype) aggregator object to load and save configuration independent data, and it calls on the project subtype project configuration objects to load or save configuration dependent data.  
   
--   The base project calls the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> multiple times for each level of project subtype aggregation, and passes the GUID for each level.  
+- The base project calls the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> multiple times for each level of project subtype aggregation, and passes the GUID for each level.  
   
--   The base project passes or receives an XML fragment that is dedicated to a particular project subtype and uses this mechanism as a way of persisting state between the aggregation levels.  
+- The base project passes or receives an XML fragment that is dedicated to a particular project subtype and uses this mechanism as a way of persisting state between the aggregation levels.  
   
--   The base project calls the outermost project subtype's <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>implementation passing in a GUID. If the GUID belongs to the outermost project subtype, it handles the call itself; otherwise it delegates the call to an inner project subtype, and so on, until the project subtype that the GUID corresponds to is found.  
+- The base project calls the outermost project subtype's <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>implementation passing in a GUID. If the GUID belongs to the outermost project subtype, it handles the call itself; otherwise it delegates the call to an inner project subtype, and so on, until the project subtype that the GUID corresponds to is found.  
   
--   A project subtype can also modify the XML fragment before or after it delegates the call to an inner project subtype. The following example shows an excerpt from a project file, where a name of a file that contains properties specific to a project subtype, is passed to that project subtype.  
+- A project subtype can also modify the XML fragment before or after it delegates the call to an inner project subtype. The following example shows an excerpt from a project file, where a name of a file that contains properties specific to a project subtype, is passed to that project subtype.  
   
     ```  
     <ProjectExtensions>  

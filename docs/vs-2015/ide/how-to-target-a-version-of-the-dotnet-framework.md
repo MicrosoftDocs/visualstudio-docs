@@ -23,9 +23,9 @@ This document describes how to target a version of the .NET Framework when you c
   
  **In this topic**  
   
--   [Targeting a version when you create a project](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_new)  
+- [Targeting a version when you create a project](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_new)  
   
--   [Changing the target version](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_existing)  
+- [Changing the target version](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_existing)  
   
 ##  <a name="bkmk_new"></a> Targeting a version when you create a project  
  When you create a project, the version of the .NET Framework that you target determines which templates you can use.  

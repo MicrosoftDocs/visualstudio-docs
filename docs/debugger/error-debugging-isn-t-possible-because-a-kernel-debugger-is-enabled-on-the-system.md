@@ -50,7 +50,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
 #### To disable kernel debugging in the current session
 
--   At the command prompt, type:
+- At the command prompt, type:
 
     ```cmd
     Kdbgctrl.exe -d

@@ -109,19 +109,19 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  Following are the members of the `completionItem` object:  
   
--   `name`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that identifies the completion item.  
+- `name`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that identifies the completion item.  
   
--   `kind`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents the type of completion item. The possible values are method, field, property, parameter, variable, and reserved.  
+- `kind`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents the type of completion item. The possible values are method, field, property, parameter, variable, and reserved.  
   
--   `glyph`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents an icon that's displayed in the completion list. The possible values for `glyph` use the following format: vs:*glyphType*, where *glyphType* corresponds to the language-independent members in the <xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup> enumeration. For example, `vs:GlyphGroupMethod` is one possible value for `glyph`. When `glyph` is not set, the `kind` property determines the default icon.  
+- `glyph`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents an icon that's displayed in the completion list. The possible values for `glyph` use the following format: vs:*glyphType*, where *glyphType* corresponds to the language-independent members in the <xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup> enumeration. For example, `vs:GlyphGroupMethod` is one possible value for `glyph`. When `glyph` is not set, the `kind` property determines the default icon.  
   
--   `parentObject`. Read-only. Returns the parent object.  
+- `parentObject`. Read-only. Returns the parent object.  
   
--   `value`. Read-only. Returns an object that represents the value of the completion item.  
+- `value`. Read-only. Returns an object that represents the value of the completion item.  
   
--   `comments`. Read-only. Returns a string that contains the comments that are above the field or variable.  
+- `comments`. Read-only. Returns a string that contains the comments that are above the field or variable.  
   
--   `scope`. Read-only. Returns the scope of the completion item. The possible values are global, local, parameter, and member.  
+- `scope`. Read-only. Returns the scope of the completion item. The possible values are global, local, parameter, and member.  
   
 ###  <a name="Items"></a> items Property  
  Gets or sets the array of statement completion items. Each element in the array is a [completionItem Property](#CompletionItem) object. The `items` property is available for the `statementcompletion` event object.  
@@ -135,11 +135,11 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  Following are the members of the `comments` object:  
   
--   `above`. Returns the comments above the function.  
+- `above`. Returns the comments above the function.  
   
--   `inside`. Returns the comments inside the function, typically in VSDoc format.  
+- `inside`. Returns the comments inside the function, typically in VSDoc format.  
   
--   `paramComments`. Returns an array representing comments for each parameter in the function. The members of the array include:  
+- `paramComments`. Returns an array representing comments for each parameter in the function. The members of the array include:  
   
     -   `name`. Returns a string representing the parameter name.  
   
@@ -152,9 +152,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  Following are the members of the `functionHelp` object:  
   
--   `functionName`. Read/write. Returns a string that contains the function name.  
+- `functionName`. Read/write. Returns a string that contains the function name.  
   
--   `signatures`. Read/write. Gets or sets the array of function signatures. Each element in the array is a `signature` object. Some `signature` properties, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) attributes.  
+- `signatures`. Read/write. Gets or sets the array of function signatures. Each element in the array is a `signature` object. Some `signature` properties, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) attributes.  
   
      The members of the `signature` object include:  
   
@@ -222,27 +222,27 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  Following are the members of the `symbolHelp` object:  
   
--   `name`. Read/write. Returns a string that contains the identifier name.  
+- `name`. Read/write. Returns a string that contains the identifier name.  
   
--   `symbolType`. Read/write. Returns a string that represents the symbol type. Possible values include Unknown, Boolean, Number, String, Object, Function, Array, Date, and Regex.  
+- `symbolType`. Read/write. Returns a string that represents the symbol type. Possible values include Unknown, Boolean, Number, String, Object, Function, Array, Date, and Regex.  
   
--   `symbolDisplayType`. Read/write. Returns a string that contains the type name to display. If `symbolDisplayType` isn't set, `symbolType` is used.  
+- `symbolDisplayType`. Read/write. Returns a string that contains the type name to display. If `symbolDisplayType` isn't set, `symbolType` is used.  
   
--   `elementType`. Read/write. If the `symbolType` is `Array`, returns a string that represents the type of the elements in the array.  
+- `elementType`. Read/write. If the `symbolType` is `Array`, returns a string that represents the type of the elements in the array.  
   
--   `scope`. Read/write. Returns a string that represents the scope of the symbol. Possible values include global, local, parameter, and member.  
+- `scope`. Read/write. Returns a string that represents the scope of the symbol. Possible values include global, local, parameter, and member.  
   
--   `description`. Read/write. Returns a string that contains a description of the symbol.  
+- `description`. Read/write. Returns a string that contains a description of the symbol.  
   
--   `locid`. Read/write. Returns a string identifier that contains localization information about the symbol.  
+- `locid`. Read/write. Returns a string identifier that contains localization information about the symbol.  
   
--   `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
+- `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
   
--   `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
+- `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
   
--   `externalid`. Read/write. Returns a string that represents the member ID of the symbol.  
+- `externalid`. Read/write. Returns a string that represents the member ID of the symbol.  
   
--   `functionHelp`. Read/write. Returns a [functionHelp Property](#FunctionHelp), which might contain information when the `symbolType` is Function.  
+- `functionHelp`. Read/write. Returns a [functionHelp Property](#FunctionHelp), which might contain information when the `symbolType` is Function.  
   
 ###  <a name="Scope"></a> scope Property  
  Returns the completion scope of the event. The possible values for the completion scope are global and members. This property is available for the `statementcompletion` event object.  
@@ -255,20 +255,20 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ##  <a name="CodeExamples"></a> Code Examples  
  This section includes code examples that show how to use the IntelliSense extensibility APIs. There are also other ways to use these APIs. For additional examples, see the following files in the \\\\*Visual Studio installation path*\JavaScript\References folder. These are working examples used by the JavaScript language service.  
   
--   underscoreFilter.js. This code hides private members from IntelliSense. It includes event handlers for the `statementcompletion` event.  
+- underscoreFilter.js. This code hides private members from IntelliSense. It includes event handlers for the `statementcompletion` event.  
   
--   showPlainComments.js. This code provides IntelliSense support for standard comments. It includes event handlers for the `signaturehelp` and `statementcompletionhint` events.  
+- showPlainComments.js. This code provides IntelliSense support for standard comments. It includes event handlers for the `signaturehelp` and `statementcompletionhint` events.  
   
 ###  <a name="Annotations"></a> Adding IntelliSense Annotations  
  The following procedure shows how to provide IntelliSense documentation support for a third-party library without modifying the library directly. To do this, you can use `intellisense.annotate` in an extension.  
   
  For this example to work, you need the following JavaScript files in your project:  
   
--   demoLib.js, which is a project file that represents a third-party library.  
+- demoLib.js, which is a project file that represents a third-party library.  
   
--   demoLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
+- demoLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
   
--   appCode.js, which is a project file that represents app code.  
+- appCode.js, which is a project file that represents app code.  
   
 ##### To add an IntelliSense annotation  
   
@@ -316,11 +316,11 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  For this example to work, you need the following JavaScript files in your project:  
   
--   exampleLib.js, which is a project file that represents a third-party library.  
+- exampleLib.js, which is a project file that represents a third-party library.  
   
--   exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
+- exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
   
--   appCode.js, which is a project file that represents app code.  
+- appCode.js, which is a project file that represents app code.  
   
 ##### To send a message to the Output window  
   
@@ -403,11 +403,11 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  For this example to work, you need the following JavaScript files in your project:  
   
--   exampleLib.js, which is a project file that represens a third-party library.  
+- exampleLib.js, which is a project file that represens a third-party library.  
   
--   exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
+- exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
   
--   appCode.js, which is a project file that represents app code.  
+- appCode.js, which is a project file that represents app code.  
   
 ##### To change the icons  
   
@@ -493,11 +493,11 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  For this example to work, you need the following JavaScript files in your project:  
   
--   exampleLib.js, which is a project file that represents a third-party library.  
+- exampleLib.js, which is a project file that represents a third-party library.  
   
--   exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
+- exampleLib.intellisense.js, which is the IntelliSense extension. This file doesn't need to be included in the project, but it does need to be in the same folder as exampleLib.js.  
   
--   appCode.js, which is a project file that represents app code.  
+- appCode.js, which is a project file that represents app code.  
   
 ##### To avoid run-time effects on IntelliSense results  
   

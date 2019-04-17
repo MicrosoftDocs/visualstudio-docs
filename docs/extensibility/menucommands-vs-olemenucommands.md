@@ -241,11 +241,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
 
 #### To implement the Exec method
 
--   If the command `GUID` is unknown, return `OLECMDERR_E_UNKNOWNGROUP`.
+- If the command `GUID` is unknown, return `OLECMDERR_E_UNKNOWNGROUP`.
 
--   If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.
+- If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.
 
--   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the *.vsct* file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.
+- If the `GUID` and command ID match the GUID:ID pair that is used by the command in the *.vsct* file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.
 
 ## See also
 

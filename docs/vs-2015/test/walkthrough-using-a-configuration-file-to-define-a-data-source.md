@@ -18,24 +18,24 @@ manager: jillfra
 
 This walkthrough illustrates how to use a data source defined in an app.config file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:  
   
--   Creating an app.config file.  
+- Creating an app.config file.  
   
--   Defining a custom configuration section.  
+- Defining a custom configuration section.  
   
--   Defining connection strings.  
+- Defining connection strings.  
   
--   Defining the data sources.  
+- Defining the data sources.  
   
--   Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.  
+- Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
--   Either Microsoft Access or Microsoft Excel to provide data for at least one of the test methods.  
+- Either Microsoft Access or Microsoft Excel to provide data for at least one of the test methods.  
   
--   A Visual Studio solution that contains a test project.  
+- A Visual Studio solution that contains a test project.  
   
 ## Create the App.config File  
   
@@ -177,9 +177,9 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ## Create a Unit Test Using Data Sources Defined in app.config  
  Now that an app.config file has been defined, you will create a unit test that uses data located in the data sources that are defined in the app.config file. In this section, we will:  
   
--   Create the data sources found in the app.config file.  
+- Create the data sources found in the app.config file.  
   
--   Use the data sources in two test methods that compare the values in each data source.  
+- Use the data sources in two test methods that compare the values in each data source.  
   
 #### To create a Microsoft Access data source  
   

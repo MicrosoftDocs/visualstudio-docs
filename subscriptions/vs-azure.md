@@ -102,8 +102,8 @@ If you believe you’ve received this email in error, please contact [Azure cust
 
 ## Support Resources
 
--  Need help with Azure?  Check out these resources:
+- Need help with Azure?  Check out these resources:
     - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
     - [Azure documentation](/azure/)
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

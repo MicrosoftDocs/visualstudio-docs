@@ -52,6 +52,6 @@ The game works well, as long as the player only chooses pairs of icons that don'
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).
+- To go to the next tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).
 
--   To return to the previous tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).
+- To return to the previous tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).

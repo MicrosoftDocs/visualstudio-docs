@@ -38,13 +38,13 @@ NOTE]
   
 ### To display the Modules window in break mode or in run mode  
   
--   On the **Debug** menu, choose **Windows**, and then click **Modules**.  
+- On the **Debug** menu, choose **Windows**, and then click **Modules**.  
   
      By default, the **Modules** window sorts modules by load order. However, you can choose to sort by any column.  
   
 ### To sort by any column  
   
--   Click the button at the top of the column.  
+- Click the button at the top of the column.  
   
      You can load symbols or specify a symbol path from the **Modules** window by using the shortcut menu.  
   

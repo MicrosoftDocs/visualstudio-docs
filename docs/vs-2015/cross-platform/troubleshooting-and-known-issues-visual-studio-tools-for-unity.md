@@ -38,11 +38,11 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
 ## Known Issues  
  There are known issues in Visual Studio Tools for Unity that result from how the debugger interacts with Unity's older version of the C# compiler. We're working to help fix these problems, but you might experience the following issues in the meantime.  
   
--   When debugging, Unity sometimes crashes.  
+- When debugging, Unity sometimes crashes.  
   
--   When debugging, Unity sometimes freezes.  
+- When debugging, Unity sometimes freezes.  
   
--   Stepping into and out of methods sometimes behaves incorrectly, especially in iterators or within switch statements.  
+- Stepping into and out of methods sometimes behaves incorrectly, especially in iterators or within switch statements.  
   
 ## Reporting Errors  
  Please help us improve the quality of Visual Studio Tools for Unity by sending error reports when you experience crashing, freezes, or other errors. This helps us investigate and fix problems in Visual Studio Tools for Unity. Thank you!  

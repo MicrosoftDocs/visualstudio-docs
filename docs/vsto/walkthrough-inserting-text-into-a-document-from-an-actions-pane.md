@@ -23,9 +23,9 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Design an interface by using Windows Forms controls on an actions pane control.
+- Design an interface by using Windows Forms controls on an actions pane control.
 
--   Display the actions pane when the application opens.
+- Display the actions pane when the application opens.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -33,9 +33,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
 
 ## Create the project
  The first step is to create a Word Document project.
@@ -169,9 +169,9 @@ ms.workload:
 ## Next steps
  Here are some tasks that might come next:
 
--   Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100)).
+- Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100)).
 
--   Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
+- Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
 ## See also
 - [Actions pane overview](../vsto/actions-pane-overview.md)

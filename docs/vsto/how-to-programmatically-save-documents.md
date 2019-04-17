@@ -75,9 +75,9 @@ ms.workload:
 ## Compile the code
  This code example requires the following:
 
--   To save a document by name, a document named *NewDocument.doc* must exist in a directory named *Test* on drive C.
+- To save a document by name, a document named *NewDocument.doc* must exist in a directory named *Test* on drive C.
 
--   To save a document with a new name, a directory named *Test* must exist on drive C.
+- To save a document with a new name, a directory named *Test* must exist on drive C.
 
 ## See also
 - [How to: Programmatically close documents](../vsto/how-to-programmatically-close-documents.md)

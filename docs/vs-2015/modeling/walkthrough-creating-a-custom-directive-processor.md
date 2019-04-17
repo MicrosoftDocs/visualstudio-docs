@@ -22,18 +22,18 @@ Directive processors* work by adding code to the *generated transformation class
 
  Tasks that are illustrated in this walkthrough include the following:  
 
--   Creating a custom directive processor  
+- Creating a custom directive processor  
 
--   Registering the directive processor  
+- Registering the directive processor  
 
--   Testing the directive processor  
+- Testing the directive processor  
 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
 
--   Visual Studio 2010  
+- Visual Studio 2010  
 
--   Visual Studio 2010 SDK  
+- Visual Studio 2010 SDK  
 
 ## Creating a Custom Directive Processor  
  In this walkthrough, you create a custom directive processor. You add a custom directive that reads an XML file, stores it in an <xref:System.Xml.XmlDocument> variable, and exposes it through a property. In the section "Testing the Directive Processor," you use this property in a text template to access the XML file.  

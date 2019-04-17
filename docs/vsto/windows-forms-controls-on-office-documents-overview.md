@@ -74,32 +74,32 @@ ms.workload:
 ### Create custom user controls
  You can add a user control to your project and then add it to the **Toolbox**. You can then drag the user control directly to your document in the same way you would add a Windows Forms control to your document. There are some things to keep in mind when you create user controls:
 
--   Do not create a **sealed** user control. When you drag the control to your document, Visual Studio generates a wrapper class derived from the user control to extend it and support its use on the document. If the user control is **sealed**, Visual Studio cannot generate the wrapper class.
+- Do not create a **sealed** user control. When you drag the control to your document, Visual Studio generates a wrapper class derived from the user control to extend it and support its use on the document. If the user control is **sealed**, Visual Studio cannot generate the wrapper class.
 
--   User controls must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**. User controls created inside an Office project have this attribute set to **true** by default, but user controls that are part of outside projects might not have this attribute set to **true**.
+- User controls must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**. User controls created inside an Office project have this attribute set to **true** by default, but user controls that are part of outside projects might not have this attribute set to **true**.
 
--   After you have added a user control to the document, do not rename or delete the <xref:System.Windows.Forms.UserControl> class from the project. If you need to change the name of a user control you must first delete it from the document, and then add it again after the name has been changed.
+- After you have added a user control to the document, do not rename or delete the <xref:System.Windows.Forms.UserControl> class from the project. If you need to change the name of a user control you must first delete it from the document, and then add it again after the name has been changed.
 
 ### Arrange controls at design time
  If you add multiple controls to your Word and Excel documents at design time, you can quickly set the alignment of all of the selected controls by using the **Microsoft Office Word** and **Microsoft Office Excel** toolbars in Visual Studio. These toolbars are available only when a document or worksheet is open in the designer.
 
  When you select multiple controls in the designer, you can use the following buttons on these toolbars to arrange the controls:
 
--   **Align Lefts**
+- **Align Lefts**
 
--   **Align Centers**
+- **Align Centers**
 
--   **Align Rights**
+- **Align Rights**
 
--   **Align Tops**
+- **Align Tops**
 
--   **Align Middles**
+- **Align Middles**
 
--   **Align Bottoms**
+- **Align Bottoms**
 
--   **Make Horizontal Spacing Equal**
+- **Make Horizontal Spacing Equal**
 
--   **Make Vertical Spacing Equal**
+- **Make Vertical Spacing Equal**
 
 > [!NOTE]
 >  In Word projects, these buttons are enabled only if the selected controls are not in line with text. By default, controls that you add to the document at design time are in line with text.

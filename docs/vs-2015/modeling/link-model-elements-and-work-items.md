@@ -57,19 +57,19 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 > [!WARNING]
 >  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
--   [Connect to a team project](#ConnectTFS)  
+- [Connect to a team project](#ConnectTFS)  
   
--   [Link a model element to a new work item](#LinkNew)  
+- [Link a model element to a new work item](#LinkNew)  
   
--   [Link a model element to an existing work item](#LinkExisting)  
+- [Link a model element to an existing work item](#LinkExisting)  
   
--   [View work items linked to a model element](#OpenWorkItem)  
+- [View work items linked to a model element](#OpenWorkItem)  
   
--   [View model elements linked to a work item](#ViewLinkedModels)  
+- [View model elements linked to a work item](#ViewLinkedModels)  
   
--   [Delete links between model elements and work items](#RemoveLinks)  
+- [Delete links between model elements and work items](#RemoveLinks)  
   
--   [Troubleshooting](#Troubleshooting)  
+- [Troubleshooting](#Troubleshooting)  
   
 ##  <a name="ConnectTFS"></a> Connect to a team project  
  You must first connect to your team project to create, view, or remove links.  

@@ -118,13 +118,13 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 ### Troubleshooting a Directive Processor in a VSIX  
  If the directive processor does not work, the following suggestions might help:  
   
--   The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.  
+- The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.  
   
--   Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.  
+- Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.  
   
--   If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.  
+- If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.  
   
--   Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:  
+- Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:  
   
      `<Content>`  
   

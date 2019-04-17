@@ -33,19 +33,19 @@ This walkthrough creates a simple control that displays data from a single colum
 
 During this walkthrough, you will learn how to:
 
--   Create a new **Windows Forms Application**.
+- Create a new **Windows Forms Application**.
 
--   Add a new **User Control** to your project.
+- Add a new **User Control** to your project.
 
--   Visually design the user control.
+- Visually design the user control.
 
--   Implement the `DefaultBindingProperty` attribute.
+- Implement the `DefaultBindingProperty` attribute.
 
--   Create a dataset with the **Data Source Configuration** wizard.
+- Create a dataset with the **Data Source Configuration** wizard.
 
--   Set the **Phone** column in the **Data Sources** window to use the new control.
+- Set the **Phone** column in the **Data Sources** window to use the new control.
 
--   Create a form to display data in the new control.
+- Create a form to display data in the new control.
 
 ## Prerequisites
 
@@ -170,9 +170,9 @@ Press **F5** to run the application.
 
 Depending on your application requirements, there are several steps you may want to perform after creating a control that supports data binding. Some typical next steps include:
 
--   Placing your custom controls in a control library so you can reuse them in other applications.
+- Placing your custom controls in a control library so you can reuse them in other applications.
 
--   Creating controls that support more complex data-binding scenarios. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md) and [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).
+- Creating controls that support more complex data-binding scenarios. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md) and [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).
 
 ## See also
 

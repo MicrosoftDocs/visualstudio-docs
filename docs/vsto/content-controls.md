@@ -185,15 +185,15 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 
  You can bind the following types of content controls to custom XML parts:
 
--   <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
+- <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
+- <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
+- <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PictureContentControl>
+- <xref:Microsoft.Office.Tools.Word.PictureContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
+- <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
 
 ### Data bind events for content controls
  All content controls provide a set of events that you can handle to perform data-related tasks, such as validating that the text in a control meets certain criteria before the data source is updated. The following table lists the content control events that are related to data binding.

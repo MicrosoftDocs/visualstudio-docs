@@ -31,24 +31,24 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+- Creating a new **Windows Application** project.  
   
--   Creating and configuring a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Creating and configuring a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
--   Selecting the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+- Selecting the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
--   Creating a data-bound control by dragging items from the **Data Sources** window onto a form.  
+- Creating a data-bound control by dragging items from the **Data Sources** window onto a form.  
   
--   Creating a second form with a grid to display data.  
+- Creating a second form with a grid to display data.  
   
--   Creating a TableAdapter query to fetch orders for a specific customer.  
+- Creating a TableAdapter query to fetch orders for a specific customer.  
   
--   Passing data between forms.  
+- Passing data between forms.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database.
+- Access to the Northwind sample database.
   
 ## Create the Windows Application  
   
@@ -95,7 +95,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 #### To create a data-bound grid on the form  
   
--   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
+- Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form1**. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
@@ -178,16 +178,16 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 #### To run the application  
   
--   Press F5 to run the application.  
+- Press F5 to run the application.  
   
--   Double-click a customer record in **Form1** to open **Form2** with that customer's orders.  
+- Double-click a customer record in **Form1** to open **Form2** with that customer's orders.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after passing data between forms. Some enhancements you could make to this walkthrough include:  
   
--   Editing the dataset, to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
+- Editing the dataset, to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
   
--   Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).  
+- Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

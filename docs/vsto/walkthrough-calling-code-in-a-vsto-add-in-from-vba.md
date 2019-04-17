@@ -39,9 +39,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Excel
+- Microsoft Excel
 
 ## Create the VSTO Add-in project
  The first step is to create a VSTO Add-in project for Excel.
@@ -138,11 +138,11 @@ ms.workload:
 ## Next steps
  You can learn more about programming VSTO Add-ins from these topics:
 
--   Use the `ThisAddIn` class to automate the host application and perform other tasks in VSTO Add-in projects. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+- Use the `ThisAddIn` class to automate the host application and perform other tasks in VSTO Add-in projects. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
--   Create a custom task pane in a VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md) and [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).
+- Create a custom task pane in a VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md) and [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).
 
--   Customize the ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
+- Customize the ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

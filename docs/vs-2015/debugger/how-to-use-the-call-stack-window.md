@@ -56,15 +56,15 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To display the Call Stack window in break mode or in run mode  
   
--   On the **Debug** menu, select **Windows** and then click **Call Stack**.  
+- On the **Debug** menu, select **Windows** and then click **Call Stack**.  
   
 ### To change the optional information displayed  
   
--   Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
+- Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
 ### To display non-user code frames in the Call Stack window  
   
--   Right-click the **Call Stack** window and select **Show External Code**.  
+- Right-click the **Call Stack** window and select **Show External Code**.  
   
 ### To switch to another stack frame  
   
@@ -76,11 +76,11 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To display calls to or from another thread  
   
--   Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.  
+- Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.  
   
 ### To view the source code for a function on the call stack  
   
--   In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.  
+- In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.  
   
 ### To visually trace the call stack  
   
@@ -90,19 +90,19 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To view the disassembly code for a function on the call stack  
   
--   In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.  
+- In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.  
   
 ### To run to a specific function from the Call Stack window  
   
--  In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
+- In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
   
 ### To set a breakpoint on the exit point of a function call  
   
--   See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).  
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).  
   
 ### To load symbols for a module  
   
--   In the **Call Stack** window, right-click the frame that shows the module whose symbols you want to reload and select **Load Symbols**.  
+- In the **Call Stack** window, right-click the frame that shows the module whose symbols you want to reload and select **Load Symbols**.  
   
 ## Loading Symbols  
  In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers or symbols in a symbol path on the computer that you are debugging.  

@@ -13,9 +13,9 @@ ms.workload:
 
 The **XML Schema Explorer** enables you to search the schema set in the following ways:
 
--   Keyword search.
+- Keyword search.
 
--   Schema-specific search.
+- Schema-specific search.
 
 ## Keyword search
 
@@ -25,11 +25,11 @@ The **XML Schema Explorer** enables you to search the schema set in the followin
 
  The **XML Schema Explorer** searches the schema set for the following attributes:
 
--   Any `name` or `ref` attributes that match the specified keyword. You can find elements, attributes, types, and so on, by name.
+- Any `name` or `ref` attributes that match the specified keyword. You can find elements, attributes, types, and so on, by name.
 
--   The `schemaLocation` attributes of include statements.
+- The `schemaLocation` attributes of include statements.
 
--   The `namespace` attributes of import statements.
+- The `namespace` attributes of import statements.
 
 ## Schema specific search
 

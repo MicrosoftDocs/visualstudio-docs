@@ -123,38 +123,38 @@ For the first table dropped onto your form, code is added by default to the `cli
 
 The order for reconciling changes to related data is as follows:
 
--   Delete child records. (In this case, delete records from the `Orders` table.)
+- Delete child records. (In this case, delete records from the `Orders` table.)
 
--   Delete parent records. (In this case, delete records from the `Customers` table.)
+- Delete parent records. (In this case, delete records from the `Customers` table.)
 
--   Insert parent records. (In this case, insert records in the `Customers` table.)
+- Insert parent records. (In this case, insert records in the `Customers` table.)
 
--   Insert child records. (In this case, insert records in the `Orders` table.)
+- Insert child records. (In this case, insert records in the `Orders` table.)
 
 ### To delete existing orders
 
--   Add the following `DeleteOrders` method to **Form1**:
+- Add the following `DeleteOrders` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#5](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_2.vb)]
      [!code-csharp[VbRaddataSaving#5](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_2.cs)]
 
 ### To delete existing customers
 
--   Add the following `DeleteCustomers` method to **Form1**:
+- Add the following `DeleteCustomers` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#6](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_3.vb)]
      [!code-csharp[VbRaddataSaving#6](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_3.cs)]
 
 ### To add new customers
 
--   Add the following `AddNewCustomers` method to **Form1**:
+- Add the following `AddNewCustomers` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#7](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_4.vb)]
      [!code-csharp[VbRaddataSaving#7](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_4.cs)]
 
 ### To add new orders
 
--   Add the following `AddNewOrders` method to **Form1**:
+- Add the following `AddNewOrders` method to **Form1**:
 
      [!code-vb[VbRaddataSaving#8](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_5.vb)]
      [!code-csharp[VbRaddataSaving#8](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_5.cs)]

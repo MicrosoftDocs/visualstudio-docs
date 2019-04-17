@@ -21,17 +21,17 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Creating a Visual Studio extension that extends **Server Explorer** in the following ways:
+- Creating a Visual Studio extension that extends **Server Explorer** in the following ways:
 
     -   The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
 
     -   The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that it represents. The node type also includes a custom shortcut menu item that you can use as a starting point for performing other tasks that relate to the Web Part.
 
--   Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. In this walkthrough, you create commands that retrieve Web Part information from the local SharePoint site on the development computer. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
+- Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. In this walkthrough, you create commands that retrieve Web Part information from the local SharePoint site on the development computer. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
--   Building a Visual Studio Extension (VSIX) package to deploy the extension.
+- Building a Visual Studio Extension (VSIX) package to deploy the extension.
 
--   Debugging and testing the extension.
+- Debugging and testing the extension.
 
 > [!NOTE]
 >  For an alternate version of this walkthrough that uses the client object model for SharePoint instead of its server object model, see [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md).

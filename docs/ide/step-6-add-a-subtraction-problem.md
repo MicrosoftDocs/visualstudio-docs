@@ -12,13 +12,13 @@ ms.workload:
 # Step 6: Add a subtraction problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:
 
--   Store the subtraction values.
+- Store the subtraction values.
 
--   Generate random numbers for the problem (and be sure that the answer is between 0 and 100).
+- Generate random numbers for the problem (and be sure that the answer is between 0 and 100).
 
--   Update the method that checks the answers so that it checks the new subtraction problem too.
+- Update the method that checks the answers so that it checks the new subtraction problem too.
 
--   Update your timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that the event handler fills in the correct answer when time runs out.
+- Update your timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that the event handler fills in the correct answer when time runs out.
 
 ## To add a subtraction problem
 
@@ -74,6 +74,6 @@ Overload for **Next()** method in **IntelliSense**
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
+- To go to the next tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
 
--   To return to the previous tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).
+- To return to the previous tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).

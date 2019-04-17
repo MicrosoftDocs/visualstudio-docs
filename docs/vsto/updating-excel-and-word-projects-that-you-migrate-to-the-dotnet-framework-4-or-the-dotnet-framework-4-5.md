@@ -156,7 +156,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 
  If you retarget the project to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must make one of the following changes to your code:
 
--   Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.
+- Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.
 
     ```vb
     DoSomethingToSheet(Globals.Sheet1.Base)
@@ -166,7 +166,7 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
     DoSomethingToSheet(Globals.Sheet1.Base);
     ```
 
--   Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.
+- Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.
 
     ```vb
     Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)

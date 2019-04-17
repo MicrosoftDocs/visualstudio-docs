@@ -90,7 +90,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 ##### To reactivate a dormant or tombstoned app  
   
--   In the emulator, press the **Back** button to return to the app. If you navigated to other pages or opened another app, you may have to press the **Back** button more than once to reactivate the app.  
+- In the emulator, press the **Back** button to return to the app. If you navigated to other pages or opened another app, you may have to press the **Back** button more than once to reactivate the app.  
   
      The debugging session resumes. If the debugger has detached from the app, you may have to press F5 to resume the debugging session.  
   
@@ -211,6 +211,6 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 #### To disable frame rate counters in the emulator before capturing screenshots  
   
--   Specify a release build in Visual Studio. After specifying a release build, launch your app by selecting the **Deploy _[app name]_** link on the **Build** menu.  
+- Specify a release build in Visual Studio. After specifying a release build, launch your app by selecting the **Deploy _[app name]_** link on the **Build** menu.  
   
--   Alternately, you can comment out the line of code in the app.xaml.cs or app.xaml.vb file that sets the value of `EnableFrameRateCounter` to `true`.
+- Alternately, you can comment out the line of code in the app.xaml.cs or app.xaml.vb file that sets the value of `EnableFrameRateCounter` to `true`.

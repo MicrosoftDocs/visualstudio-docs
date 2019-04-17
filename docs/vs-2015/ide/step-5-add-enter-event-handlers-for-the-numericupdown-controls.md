@@ -66,6 +66,6 @@ Properties dialog box
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).  
+- To go to the next tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).  
   
--   To return to the previous tutorial step, see [Step 4: Add the CheckTheAnswer() Method](../ide/step-4-add-the-checktheanswer-parens-method.md).
+- To return to the previous tutorial step, see [Step 4: Add the CheckTheAnswer() Method](../ide/step-4-add-the-checktheanswer-parens-method.md).

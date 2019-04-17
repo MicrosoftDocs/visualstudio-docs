@@ -20,7 +20,7 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../includes/vsprvs-
 
 ### To find the product key for Visual Studio
 
--   Look for the product key in one of these locations:
+- Look for the product key in one of these locations:
 
     -   On the installation media (if applicable).
 

@@ -135,18 +135,18 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  ![Expanded GetMaxNumberAsyncButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
--   `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
+- `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
--   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
+- `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
   
 ##  <a name="BKMK_Next_steps"></a> Next steps  
  The CpuUseDemo app is not the most brilliant of apps, but you can extend its utility by using it to experiment with asynchronous operation and other tools in the Performance and Diagnostics hub.  
   
--   Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
+- Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
   
--   Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
+- Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
   
      Create a new session in the Diagnostic and Performance hub, and add both the XAML UI Responsive tool and the CPU Usage tool. Run the collection scenario. If you’ve read this far, the report probably doesn’t tell you anything that you haven’t already figured out, but the differences in the **UI Thread utilization** timeline graph for the two methods is striking. In complex, real-world apps, the combination of tools can be very helpful.  
   

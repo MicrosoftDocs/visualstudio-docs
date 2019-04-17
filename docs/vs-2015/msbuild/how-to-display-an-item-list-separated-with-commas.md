@@ -35,7 +35,7 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstec
   
 #### To insert a comma and a space between items  
   
--   Use item notation similar to the following:  
+- Use item notation similar to the following:  
   
      `@(TXTFile, ', ')`  
   

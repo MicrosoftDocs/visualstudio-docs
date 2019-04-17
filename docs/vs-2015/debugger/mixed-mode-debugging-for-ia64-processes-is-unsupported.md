@@ -24,7 +24,7 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
   
 ### Workarounds  
   
--   Debug your managed and native code in separate debugging sessions.  
+- Debug your managed and native code in separate debugging sessions.  
   
      –or–  
   

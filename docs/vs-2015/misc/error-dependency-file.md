@@ -21,11 +21,11 @@ There is a conflict between references; more than one distinct dependency with t
   
  **To correct this error**  
   
--   Make one of the assemblies a direct reference of your project. A possible downside to this approach is that the assembly you choose is not guaranteed to work with assemblies that require some other version of the referenced assembly.  
+- Make one of the assemblies a direct reference of your project. A possible downside to this approach is that the assembly you choose is not guaranteed to work with assemblies that require some other version of the referenced assembly.  
   
      \- or -  
   
--   Make sure that both copies of the assembly are strong-named and in the global assembly cache. This eliminates the need to copy the assemblies to the bin directory.  
+- Make sure that both copies of the assembly are strong-named and in the global assembly cache. This eliminates the need to copy the assemblies to the bin directory.  
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)   

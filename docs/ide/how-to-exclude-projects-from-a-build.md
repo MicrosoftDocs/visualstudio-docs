@@ -16,9 +16,9 @@ You can build a solution without building all projects that it contains. For exa
 
 You can exclude a project by taking the following approaches:
 
--   Removing it temporarily from the active solution configuration.
+- Removing it temporarily from the active solution configuration.
 
--   Creating a solution configuration that doesn't include the project.
+- Creating a solution configuration that doesn't include the project.
 
 For more information, see [Understand build configurations](../ide/understanding-build-configurations.md).
 

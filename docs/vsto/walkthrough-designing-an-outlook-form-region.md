@@ -20,15 +20,15 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating a new Outlook VSTO Add-in project.
+- Creating a new Outlook VSTO Add-in project.
 
--   Adding a form region to the VSTO Add-in project.
+- Adding a form region to the VSTO Add-in project.
 
--   Designing the layout of the form region.
+- Designing the layout of the form region.
 
--   Customizing the behavior of the form region.
+- Customizing the behavior of the form region.
 
--   Testing the Outlook form region.
+- Testing the Outlook form region.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -164,7 +164,7 @@ ms.workload:
 ## Next steps
  You can learn more about how to customize the UI of an Outlook application from these topics:
 
--   To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+- To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
 ## See also
 - [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

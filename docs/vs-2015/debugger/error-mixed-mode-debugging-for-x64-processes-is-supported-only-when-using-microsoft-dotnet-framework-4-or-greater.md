@@ -24,7 +24,7 @@ To debug mixed native and managed code in a 64-bit process, you must have [!INCL
   
 ### To correct this error  
   
--   Perform one of the following steps:  
+- Perform one of the following steps:  
   
     -   Upgrade your [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] to version 4.  
   

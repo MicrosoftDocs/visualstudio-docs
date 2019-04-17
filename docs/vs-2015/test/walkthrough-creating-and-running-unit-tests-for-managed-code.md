@@ -48,7 +48,7 @@ This walkthrough will step you through creating, running, and customizing a seri
   
 ## Prerequisites  
   
--   The Bank project. See [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
+- The Bank project. See [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
   
 ##  <a name="BKMK_Prepare_the_walkthrough"></a> Prepare the walkthrough  
   
@@ -210,11 +210,11 @@ using BankAccountNS;
 ###  <a name="BKMK_Test_method_requirements"></a> Test method requirements  
  A test method must meet the following requirements:  
   
--   The method must be decorated with the `[TestMethod]` attribute.  
+- The method must be decorated with the `[TestMethod]` attribute.  
   
--   The method must return `void`.  
+- The method must return `void`.  
   
--   The method cannot have parameters.  
+- The method cannot have parameters.  
   
 ##  <a name="BKMK_Build_and_run_the_test"></a> Build and run the test  
   

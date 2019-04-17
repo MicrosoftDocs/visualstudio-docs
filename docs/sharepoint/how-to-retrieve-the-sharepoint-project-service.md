@@ -16,11 +16,11 @@ ms.workload:
 # How to: Retrieve the SharePoint project service
   You can access the SharePoint project service in the following types of solutions:
 
--   An extension of the SharePoint project system, such as a project extension, project item extension, or project item type definition. For more information about these types of extensions, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
+- An extension of the SharePoint project system, such as a project extension, project item extension, or project item type definition. For more information about these types of extensions, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
--   An extension of the **SharePoint Connections** node in **Server Explorer**. For more information about these types of extensions, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
+- An extension of the **SharePoint Connections** node in **Server Explorer**. For more information about these types of extensions, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
--   Another type of Visual Studio extension, such as a VSPackage.
+- Another type of Visual Studio extension, such as a VSPackage.
 
 ## Retrieve the service in project system extensions
  In any extension of the SharePoint project system, you can access the project service by using the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.ProjectService%2A> property of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> object.

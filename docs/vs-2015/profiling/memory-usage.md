@@ -98,13 +98,13 @@ Find memory leaks and inefficient memory while you’re debugging with the debug
   
  The **Types View** displays the number and size of the types in the snapshot.  
   
--   Choose the instances icon (![The instance icon in the Object Type column](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.  
+- Choose the instances icon (![The instance icon in the Object Type column](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon")) of a selected type to display information about the objects of the selected type in the snapshot.  
   
      The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.  
   
      ![Instances view](../profiling/media/dbgdiag-mem-native-instances.png "DBGDIAG_MEM_Native_Instances")  
   
--   Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.  
+- Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.  
   
      ![Stacks View](../profiling/media/dbgdiag-mem-native-stacksview.png "DBGDIAG_MEM_Native_StacksView")  
   

@@ -129,13 +129,13 @@ You can allow an element to be dragged onto another, either from the toolbox or 
   
    Notice the following points from this procedure:  
   
--   By creating Element Merge Directives, you can allow any class of element to accept any other. The EMD is created in the receiving domain class, and the accepted domain class is specified in the **Index class** field.  
+- By creating Element Merge Directives, you can allow any class of element to accept any other. The EMD is created in the receiving domain class, and the accepted domain class is specified in the **Index class** field.  
   
--   By defining paths, you can specify what links should be used to connect the new element to the existing model.  
+- By defining paths, you can specify what links should be used to connect the new element to the existing model.  
   
      The links that you specify should include one embedding relationship.  
   
--   The EMD affects both creation from the toolbox and also paste operations.  
+- The EMD affects both creation from the toolbox and also paste operations.  
   
      If you write custom code that creates new elements, you can explicitly invoke the EMD by using the `ElementOperations.Merge` method. This makes sure that your code links new elements into the model in the same way as other operations. For more information, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).  
   

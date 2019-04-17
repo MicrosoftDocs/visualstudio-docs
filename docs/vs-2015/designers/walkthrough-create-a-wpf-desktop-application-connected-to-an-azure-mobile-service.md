@@ -18,9 +18,9 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 ##  <a name="Requirements"></a> Prerequisites  
  You’ll need the following to complete this walkthrough:  
   
--   Visual Studio 2015 – any version that supports WPF development.  
+- Visual Studio 2015 – any version that supports WPF development.  
   
--   An active Microsoft Azure account.  
+- An active Microsoft Azure account.  
   
     -   You can sign up for a free trial account [here](http://azure.microsoft.com/pricing/free-trial/).  
   

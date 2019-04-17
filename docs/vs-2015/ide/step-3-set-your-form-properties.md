@@ -66,6 +66,6 @@ Next, you use the **Properties** window to change the way your form looks.
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).  
+- To go to the next tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).  
   
--   To return to the previous tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).
+- To return to the previous tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).

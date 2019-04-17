@@ -65,9 +65,9 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
   
 #### To disable project code in the designer  
   
--   In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.  
+- In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.  
   
--   Alternatively, on the toolbar in the XAML designer, choose the **Disable project code** button.  
+- Alternatively, on the toolbar in the XAML designer, choose the **Disable project code** button.  
   
      ![The Disable Project Code button](../designers/media/xaml-disablecode.png "XAML_DisableCode")  
   
@@ -76,7 +76,7 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
     > [!NOTE]
     >  For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.  
   
--   Either option will cause the designer to reload, and will then disable all code for the associated project.  
+- Either option will cause the designer to reload, and will then disable all code for the associated project.  
   
     > [!NOTE]
     >  Disabling project code can lead to a loss of design time data. An alternative is to debug the code running in the designer.  

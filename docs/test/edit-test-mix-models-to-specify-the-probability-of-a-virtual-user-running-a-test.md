@@ -20,13 +20,13 @@ The *test mix model* specifies the probability of a virtual user running a given
 
 You can specify one of the following test mix model options for your load test scenario:
 
--   **Based on the total number of tests:** Determines which web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test was run matches the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data.
+- **Based on the total number of tests:** Determines which web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test was run matches the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data.
 
--   **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users running a particular test.
+- **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users running a particular test.
 
--   **Based on user pace:** Over the course of the load test, each web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test.
+- **Based on user pace:** Over the course of the load test, each web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test.
 
--   **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete.
+- **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete.
 
 ## Tasks
 

@@ -24,11 +24,11 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
  To work around this problem, you can:  
   
--   Update your project to use either Microsoft .NET Framework 2.0 or 3.0.  
+- Update your project to use either Microsoft .NET Framework 2.0 or 3.0.  
   
--   Debug your managed and native code in separate debugging sessions.  
+- Debug your managed and native code in separate debugging sessions.  
   
--   Debug your mixed code as a 32-bit process, as described in the following procedures.  
+- Debug your mixed code as a 32-bit process, as described in the following procedures.  
   
 ### To change the operating system to 32-bit (Visual Basic or C#)  
   
@@ -48,7 +48,7 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
 ### To correct this error  
   
--   See [Setting Up SQL Debugging](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
+- See [Setting Up SQL Debugging](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
   
 ## See Also  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

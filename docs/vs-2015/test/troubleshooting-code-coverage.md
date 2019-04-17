@@ -101,11 +101,11 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
  Resolution  
  There are two possible types of faults:  
   
--   **XML error**  
+- **XML error**  
   
      Open the .runsettings file in the Visual Studio XML editor. Look for error indications.  
   
--   **Regular expression error**  
+- **Regular expression error**  
   
      Each string in the file is a regular expression. Review each one for errors, and in particular look for :  
   

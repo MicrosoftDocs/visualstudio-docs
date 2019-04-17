@@ -35,7 +35,7 @@ When you build projects, it is often necessary to set build options using inform
   
 #### To provide a default value for a property  
   
--   Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to c:\tools only if the `ToolsPath` environment variable is not set:  
+- Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to c:\tools only if the `ToolsPath` environment variable is not set:  
   
      `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`  
   

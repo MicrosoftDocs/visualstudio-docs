@@ -17,9 +17,9 @@ manager: jillfra
 
 After the debug engine has acquired a port, represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, the next step in enabling the program to be debugged is to register it with the port. Once registered, the program is available for debugging by one of the following means:  
   
--   The process of attaching, which allows the debugger to gain complete debugging control of a running application.  
+- The process of attaching, which allows the debugger to gain complete debugging control of a running application.  
   
--   Just-in-time (JIT) debugging, which allows for after-the-fact debugging of a program that runs independently of a debugger. When the run-time architecture catches a fault, the debugger is notified before the operating system or runtime environment releases the memory and resources of the faulting program.  
+- Just-in-time (JIT) debugging, which allows for after-the-fact debugging of a program that runs independently of a debugger. When the run-time architecture catches a fault, the debugger is notified before the operating system or runtime environment releases the memory and resources of the faulting program.  
   
 ## Registering Procedure  
   

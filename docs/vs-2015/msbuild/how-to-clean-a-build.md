@@ -40,7 +40,7 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
 #### To remove a directory and all files contained in the directory  
   
--   Use the `RemoveDir` task to remove the directory. For example:  
+- Use the `RemoveDir` task to remove the directory. For example:  
   
      `<RemoveDir Directories="$(builtdir)" />`  
   

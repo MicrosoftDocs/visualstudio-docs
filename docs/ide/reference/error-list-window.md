@@ -23,17 +23,17 @@ ms.workload:
 
 The **Error List** window lets you perform the following tasks:
 
--   Display the errors, warnings, and messages produced while you write code.
+- Display the errors, warnings, and messages produced while you write code.
 
--   Find syntax errors noted by IntelliSense.
+- Find syntax errors noted by IntelliSense.
 
--   Find deployment errors, certain Static Analysis errors, and errors detected while applying Enterprise Template policies.
+- Find deployment errors, certain Static Analysis errors, and errors detected while applying Enterprise Template policies.
 
--   Double-click any error message entry to open the file where the problem occurs, and move to the error location.
+- Double-click any error message entry to open the file where the problem occurs, and move to the error location.
 
--   Filter which entries are displayed, and which columns of information appear for each entry.
+- Filter which entries are displayed, and which columns of information appear for each entry.
 
--   Search for specific terms and scope the search to just the current project or document.
+- Search for specific terms and scope the search to just the current project or document.
 
 To display the **Error List**, choose **View** > **Error List**, or press **Ctrl**+**\\**+**E**.
 

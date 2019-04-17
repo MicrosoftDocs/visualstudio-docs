@@ -36,7 +36,7 @@ Unable to attach to the process. Debugger component on server received access de
   
 ### To solve Scenario 1  
   
--   Run the debugger and managed application under the same user account name and password.  
+- Run the debugger and managed application under the same user account name and password.  
   
 ### To solve Scenario 2  
   

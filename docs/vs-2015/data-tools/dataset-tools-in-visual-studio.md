@@ -69,11 +69,11 @@ NOTE]
 ## Dataset workflow
  Visual Studio provides a lot of tooling to simplify working with datasets. The basic end-to-end workflow is:
 
--   Use the **Data Source** window to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset will require. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+- Use the **Data Source** window to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset will require. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
--   Specify the relationships between the tables so that foreign keys are handled correctly. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
+- Specify the relationships between the tables so that foreign keys are handled correctly. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 
--   Use the **TableAdapter Configuration Wizard** to specify the query or stored procedure that will populate the dataset, and what database operations (update, delete, and so on) to implement. For more information, see these topics:
+- Use the **TableAdapter Configuration Wizard** to specify the query or stored procedure that will populate the dataset, and what database operations (update, delete, and so on) to implement. For more information, see these topics:
 
     -   [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 
@@ -83,9 +83,9 @@ NOTE]
 
     -   [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 
--   Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../includes/linq-dataset-md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17).
+- Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../includes/linq-dataset-md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17).
 
--   Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
+- Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
 ## Datasets and N-tier architecture
  For information about datasets in N-tier applications, see [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md).

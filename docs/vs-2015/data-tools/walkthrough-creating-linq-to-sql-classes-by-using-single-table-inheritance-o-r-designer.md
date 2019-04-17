@@ -17,19 +17,19 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
  During this walkthrough, you will perform the following tasks:  
   
--   Create a database table and add data to it.  
+- Create a database table and add data to it.  
   
--   Create a Windows Forms application.  
+- Create a Windows Forms application.  
   
--   Add a [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] file to a project.  
+- Add a [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] file to a project.  
   
--   Create new entity classes.  
+- Create new entity classes.  
   
--   Configure the entity classes to use inheritance.  
+- Configure the entity classes to use inheritance.  
   
--   Query the inherited class.  
+- Query the inherited class.  
   
--   Display the data on a Windows Form.  
+- Display the data on a Windows Form.  
   
 ## Create a Table to Inherit From  
  To see how inheritance works, you will create a small Person table, use it as a base class, and then create an Employee object that inherits from it.  

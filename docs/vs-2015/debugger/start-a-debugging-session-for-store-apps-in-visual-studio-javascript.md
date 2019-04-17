@@ -135,9 +135,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  You specify whether to delay the launch of your app in the **Launch Application** list on the **Debugging** property page of the app project. Choose one of these options:
 
--   Choose **No** to delay the launch of your app.
+- Choose **No** to delay the launch of your app.
 
--   Choose **Yes** to launch the app immediately.
+- Choose **Yes** to launch the app immediately.
 
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks
  ![Applies to Windows only](../debugger/media/windows-only-content.png "windows_only_content")

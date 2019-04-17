@@ -16,13 +16,13 @@ To facilitate creating larger, more complex workflows, Search can be used in the
 ## Quick Find  
  Quick find will find the following in the designer:  
   
--   Properties of <xref:System.Activities.Activity> objects, <xref:System.Activities.Statements.FlowNode> objects, <xref:System.Activities.Statements.State> objects, transitions, and other custom flow-control items.  
+- Properties of <xref:System.Activities.Activity> objects, <xref:System.Activities.Statements.FlowNode> objects, <xref:System.Activities.Statements.State> objects, transitions, and other custom flow-control items.  
   
--   Variables  
+- Variables  
   
--   Arguments  
+- Arguments  
   
--   Expressions  
+- Expressions  
   
 #### Using Quick Find  
   

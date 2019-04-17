@@ -22,11 +22,11 @@ Accesing data in a data object works the same way in document-level projects for
 
 You must complete three basic steps to populate the document with data from an object:
 
--   Add a control to the document that you can bind to data.
+- Add a control to the document that you can bind to data.
 
--   Add a data object to the document.
+- Add a data object to the document.
 
--   Connect the data object to the BindingSource.
+- Connect the data object to the BindingSource.
 
 ## To add a data object
 

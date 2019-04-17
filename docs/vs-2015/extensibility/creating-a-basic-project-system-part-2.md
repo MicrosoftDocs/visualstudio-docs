@@ -22,15 +22,15 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
  This walkthrough teaches how to accomplish these tasks:  
   
--   Create a Visual Studio template.  
+- Create a Visual Studio template.  
   
--   Deploy a Visual Studio template.  
+- Deploy a Visual Studio template.  
   
--   Create a project type child node in the **New Project** dialog box.  
+- Create a project type child node in the **New Project** dialog box.  
   
--   Enable parameter substitution in the Visual Studio template.  
+- Enable parameter substitution in the Visual Studio template.  
   
--   Create a project property page.  
+- Create a project property page.  
   
 > [!NOTE]
 >  The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
@@ -342,11 +342,11 @@ ZipProjects:
   
  The property page you create in this section lets you alter and save these project properties:  
   
--   AssemblyName  
+- AssemblyName  
   
--   OutputType  
+- OutputType  
   
--   RootNamespace.  
+- RootNamespace.  
   
 1. In the SimpleProjectPackage.cs file, add this `ProvideObject` attribute to the `SimpleProjectPackage` class:  
   

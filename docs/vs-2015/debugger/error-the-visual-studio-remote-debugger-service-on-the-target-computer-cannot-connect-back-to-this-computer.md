@@ -34,11 +34,11 @@ This error means that the Visual Studio Remote Debugger service is running under
   
  In addition:  
   
--   The account you run the Visual Studio Remote Debugger service under should be an administrator on the remote computer so that it can debug any process.  
+- The account you run the Visual Studio Remote Debugger service under should be an administrator on the remote computer so that it can debug any process.  
   
--   The account also has to be granted the `Log on as a service` privilege on the remote computer that is using the **Local Security Policy** administrative tool.  
+- The account also has to be granted the `Log on as a service` privilege on the remote computer that is using the **Local Security Policy** administrative tool.  
   
--   If you are using a local account access the computer, you must run the Visual Studio Remote Debugger service under a local account.  
+- If you are using a local account access the computer, you must run the Visual Studio Remote Debugger service under a local account.  
   
 ### To correct this error  
   
@@ -68,7 +68,7 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 ### To work around this error  
   
--   Run the Remote Debugging Monitor as an application instead of a service.  
+- Run the Remote Debugging Monitor as an application instead of a service.  
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   

@@ -19,11 +19,11 @@ The Expression Editor is a [!INCLUDE[wfd1](../includes/wfd1-md.md)] control that
   
  The **Expression Editor** behaves as follows:  
   
--   If the focus is not on the Expression Editor, it looks like a regular TextBlock control.  
+- If the focus is not on the Expression Editor, it looks like a regular TextBlock control.  
   
--   Once the focus is on the Expression Editor, it looks and behaves like the Expression Editor control. After it loses focus, the it looks like a regular TextBlock again.  
+- Once the focus is on the Expression Editor, it looks and behaves like the Expression Editor control. After it loses focus, the it looks like a regular TextBlock again.  
   
--   If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
+- If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
   
 > [!NOTE]
 >  IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../includes/vs2010-md.md)]. In both the [!INCLUDE[vs2010](../includes/vs2010-md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  

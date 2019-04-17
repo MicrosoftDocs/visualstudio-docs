@@ -934,13 +934,13 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
 ##  <a name="Best_Practices"></a> Best Practices  
  This sample demonstrates the basics of WPF and, consequently, does not follow application development best practices. For comprehensive coverage of WPF and .NET Framework application development best practices, see the following topics as appropriate:  
   
--   Accessibility - [Accessibility Best Practices](https://msdn.microsoft.com/library/aa350483\(v=vs.100\).aspx)  
+- Accessibility - [Accessibility Best Practices](https://msdn.microsoft.com/library/aa350483\(v=vs.100\).aspx)  
   
--   Security - [Windows Presentation Foundation Security](https://msdn.microsoft.com/library/aa970906\(v=vs.100\).aspx)  
+- Security - [Windows Presentation Foundation Security](https://msdn.microsoft.com/library/aa970906\(v=vs.100\).aspx)  
   
--   Localization - [WPF Globalization and Localization Overview](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx)  
+- Localization - [WPF Globalization and Localization Overview](https://msdn.microsoft.com/library/ms788718\(v=vs.100\).aspx)  
   
--   Performance - [Optimizing WPF Application Performance](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
+- Performance - [Optimizing WPF Application Performance](https://msdn.microsoft.com/library/aa970683\(v=vs.100\).aspx)  
   
 ##  <a name="Whats_Next"></a> What's Next  
  You now have a number of techniques at your disposal for creating a desktop application by using WPF. You should now have a basic understanding of the building blocks of a data-bound WPF application. This topic is by no means exhaustive, but hopefully you also now have a sense of some of the possibilities you might discover on your own beyond the techniques in this topic.  

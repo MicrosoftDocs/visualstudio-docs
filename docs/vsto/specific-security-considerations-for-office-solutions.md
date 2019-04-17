@@ -33,13 +33,13 @@ ms.workload:
 
 ### Recommendations
 
--   Always validate input and data, whether it comes from the user, the document, a database, a web service, or any other source.
+- Always validate input and data, whether it comes from the user, the document, a database, a web service, or any other source.
 
--   Be careful about exposing particular types of functionality, such as getting privileged data on behalf of the user and putting it into an unprotected worksheet.
+- Be careful about exposing particular types of functionality, such as getting privileged data on behalf of the user and putting it into an unprotected worksheet.
 
--   Depending on the type of application, it might make sense to verify that the original document is running before executing any code. For example, verify that it is running from a document stored at a known, secure location.
+- Depending on the type of application, it might make sense to verify that the original document is running before executing any code. For example, verify that it is running from a document stored at a known, secure location.
 
--   It might be a good idea to display a warning when the document opens if your application performs any privileged actions. For example, you might create a splash screen or a startup dialog box saying that the application will access personal information, and have the user choose to continue or cancel. If an end user gets such a warning from a seemingly innocent document, he or she will be able to quit the application before anything is compromised.
+- It might be a good idea to display a warning when the document opens if your application performs any privileged actions. For example, you might create a splash screen or a startup dialog box saying that the application will access personal information, and have the user choose to continue or cancel. If an end user gets such a warning from a seemingly innocent document, he or she will be able to quit the application before anything is compromised.
 
 ## Code is blocked by the Outlook object model guard
  Microsoft Office can restrict code from using certain properties, methods, and objects in the object model. By restricting access to these objects, Outlook helps to prevent email worms and viruses from using the object model for malicious purposes. This security feature is known as the Outlook object model guard. If a VSTO Add-in attempts to use a restricted property or method while the object model guard is enabled, Outlook displays a security warning that enables the user to stop the operation, or enables the user to grant access to the property or method for a limited period of time. If the user stops the operation, Outlook VSTO Add-ins created by using Office solutions in Visual Studio will throw a <xref:System.Runtime.InteropServices.COMException>.

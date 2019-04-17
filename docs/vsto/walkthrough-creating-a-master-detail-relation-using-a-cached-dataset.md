@@ -21,13 +21,13 @@ ms.workload:
 
  During this walkthrough, you will learn how to:
 
--   Add controls to a worksheet.
+- Add controls to a worksheet.
 
--   Set up a dataset to be cached in a worksheet.
+- Set up a dataset to be cached in a worksheet.
 
--   Add code to enable scrolling through the records.
+- Add code to enable scrolling through the records.
 
--   Test your project.
+- Test your project.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -35,13 +35,13 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
--   Access to the Northwind SQL Server sample database. The database can be on your development computer or on a server.
+- Access to the Northwind SQL Server sample database. The database can be on your development computer or on a server.
 
--   Permissions to read from and write to the SQL Server database.
+- Permissions to read from and write to the SQL Server database.
 
 ## Create a new project
  In this step, you will create an Excel Workbook project.
@@ -180,7 +180,7 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of creating a master/detail data relationship on a worksheet and caching a dataset. Here are some tasks that might come next:
 
--   Deploy the solution. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- Deploy the solution. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 
 ## See also
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

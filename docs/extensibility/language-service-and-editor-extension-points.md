@@ -14,23 +14,23 @@ ms.workload:
 # Language service and editor extension points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:
 
--   Content types
+- Content types
 
--   Classification types and classification formats
+- Classification types and classification formats
 
--   Margins and scrollbars
+- Margins and scrollbars
 
--   Tags
+- Tags
 
--   Adornments
+- Adornments
 
--   Mouse processors
+- Mouse processors
 
--   Drop handlers
+- Drop handlers
 
--   Options
+- Options
 
--   IntelliSense
+- IntelliSense
 
 ## Extend content types
  Content types are the definitions of the kinds of text handled by the editor, for example, "text", "code", or "CSharp". You define a new content type by declaring a variable of the type <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> and giving the new content type a unique name. To register the content type with the editor, export it together with the following attributes:
@@ -493,39 +493,39 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 ### Implement an IntelliSense Source
  To customize a source, you must implement one (or more) of the following source interfaces:
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
 
 > [!IMPORTANT]
 >  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.
 
  In addition, you must implement a provider of the same kind:
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
 
 > [!IMPORTANT]
 >  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>.
 
  You must export the provider together with the following attributes:
 
--   <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: the name of the source.
+- <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: the name of the source.
 
--   <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") to which the source applies.
+- <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") to which the source applies.
 
--   <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: the order in which the source should appear (with respect to other sources).
+- <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: the order in which the source should appear (with respect to other sources).
 
--   The following example shows export attributes on a completion source provider.
+- The following example shows export attributes on a completion source provider.
 
 ```
 Export(typeof(ICompletionSourceProvider))]

@@ -53,6 +53,6 @@ Debugging toolbar
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 3: Set Your Form Properties](../ide/step-3-set-your-form-properties.md).  
+- To go to the next tutorial step, see [Step 3: Set Your Form Properties](../ide/step-3-set-your-form-properties.md).  
   
--   To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application Project](../ide/step-1-create-a-windows-forms-application-project.md).
+- To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application Project](../ide/step-1-create-a-windows-forms-application-project.md).

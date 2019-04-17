@@ -85,11 +85,11 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 #### To move an activity to another package  
   
--   In **UML Model Explorer**, drag the activity into a package.  
+- In **UML Model Explorer**, drag the activity into a package.  
   
      \- or -  
   
--   In **UML Model Explorer**, right-click the activity and click **Cut**. Then right-click the package and click **Paste**.  
+- In **UML Model Explorer**, right-click the activity and click **Cut**. Then right-click the package and click **Paste**.  
   
     > [!NOTE]
     >  The activity will appear in UML Model Explorer only when you add the first element to the diagram.  
@@ -118,18 +118,18 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 ### Describing Decisions and Loops  
   
--   Use a **Decision Node** (3) to indicate a point where the outcome of a decision dictates the next step. You can draw as many outgoing paths as you want.  
+- Use a **Decision Node** (3) to indicate a point where the outcome of a decision dictates the next step. You can draw as many outgoing paths as you want.  
   
--   If you use the activity diagram to define part of an application, you should define the guards (4) so that it is clear when each path should be taken. Right-click the connector, click **Properties**, and in the **Properties** window, type a value for the **Guard** field.  
+- If you use the activity diagram to define part of an application, you should define the guards (4) so that it is clear when each path should be taken. Right-click the connector, click **Properties**, and in the **Properties** window, type a value for the **Guard** field.  
   
--   It is not always necessary to define the guards. For example, if you use the activity diagram to describe a business process or an interaction protocol, a branch defines the range of options open to the user or to the interacting components.  
+- It is not always necessary to define the guards. For example, if you use the activity diagram to describe a business process or an interaction protocol, a branch defines the range of options open to the user or to the interacting components.  
   
--   Use a **Merge Node** (5) to bring together two or more alternative flows that branched at a **Decision Node**.  
+- Use a **Merge Node** (5) to bring together two or more alternative flows that branched at a **Decision Node**.  
   
     > [!NOTE]
     >  You should use a **Merge Node** to bring together alternative flows, instead of bringing the flows together at an action. In the example, it would not be correct to connect from the decision node directly back to **Choose Menu Item**. This is because an action does not start until threads of control have arrived at all its incoming connectors. Therefore, you should bring only concurrent flows together at an action. For more information, see [Concurrent Flows](#Concurrent).  
   
--   Use branches to describe loops, as shown in the example.  
+- Use branches to describe loops, as shown in the example.  
   
     > [!NOTE]
     >  Try to nest loops in a well-structured way, as you would in program code. If you are describing an existing business process, this might reveal some opportunities for improving it.  
@@ -137,13 +137,13 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Starting the Activity  
  There are two ways to indicate entry points into an activity:  
   
--   **Initial Node**  
+- **Initial Node**  
   
      Create one **Initial Node** (6) to indicate the first action of the activity.  
   
      This method is most useful when you are describing a sub-activity, or where you do not have to explicitly state what initiates the activity. For example, the activity Order a Meal clearly begins when a customer gets hungry.  
   
--   **Accept Event Node**  
+- **Accept Event Node**  
   
      Create **Accept Event Nodes**, as described in the section [Concurrent Flows](#Concurrent), to indicate the start of a thread that responds to a particular event, such as a user input. Do not provide an incoming flow to the node. Omitting an incoming flow indicates that a thread will be started every time that the event occurs.  
   
@@ -152,9 +152,9 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Ending the Activity  
  Use an **Activity Final Node** (7) to indicate the end of an activity.  
   
--   When a thread of control reaches an **Activity Final Node**, all the activity's concurrent actions and sub-activities terminate.  
+- When a thread of control reaches an **Activity Final Node**, all the activity's concurrent actions and sub-activities terminate.  
   
--   You can use more than one Activity Final Node to reduce the clutter of additional connectors.  
+- You can use more than one Activity Final Node to reduce the clutter of additional connectors.  
   
 ### Interrupting the Activity  
  To describe how the ordinary flow of an activity can be interrupted, for example, if the user decides to cancel the process, you can create an Accept Event Node that listens for that event. For more information, see the section [Concurrent Flows](#Concurrent). Create a control flow from that to an Activity Final Node (7).  
@@ -171,9 +171,9 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ##  <a name="DataFlows"></a> Describing Data Flow  
  You can describe the data passing in and out of an activity in either of two ways:  
   
--   Use an **Object Node**. This is the simplest method of describing the information flowing between activities. An object node is like a variable in a program. It represents something that stores one or more values that are passing from one action to another.  
+- Use an **Object Node**. This is the simplest method of describing the information flowing between activities. An object node is like a variable in a program. It represents something that stores one or more values that are passing from one action to another.  
   
--   Use an **Output Pin** and an **Input Pin**. This method lets you separately describe the outputs from one action and the inputs to another. Pins are like parameters in a program. Pins represent ports where objects can enter and leave an action.  
+- Use an **Output Pin** and an **Input Pin**. This method lets you separately describe the outputs from one action and the inputs to another. Pins are like parameters in a program. Pins represent ports where objects can enter and leave an action.  
   
     > [!NOTE]
     >  For an overview of the elements used in this section, see the Data Flows section of the topic see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
@@ -201,7 +201,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
  You can specify how the items in a buffer are stored by setting properties of the object node:  
   
--   Set the **Ordering** property:  
+- Set the **Ordering** property:  
   
     -   **Unordered** to specify a random or unspecified order. (Default.)  
   
@@ -211,7 +211,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
     -   **Lifo** to specify an order of last-in, first-out.  
   
--   Set the **Upper Bound** property to specify the maximum number of objects that can be contained in the buffer. The default is *. This means that there is no limit.  
+- Set the **Upper Bound** property to specify the maximum number of objects that can be contained in the buffer. The default is *. This means that there is no limit.  
   
 ### Describing Data Flow with Input and Output Pins  
  Use an **Output Pin** and an **Input Pin** to separately describe the outputs from one action and the inputs to another.  
@@ -233,11 +233,11 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ##  <a name="Details"></a> Defining an Action in More Detail  
  In addition to using the name of the action to make clear the result it should ordinarily achieve, here are some ways you can add more detail to an action:  
   
--   Write a more detailed description in the **Body** property. For example, you could write a fragment of program code or pseudo code, or a complete description of the results achieved.  
+- Write a more detailed description in the **Body** property. For example, you could write a fragment of program code or pseudo code, or a complete description of the results achieved.  
   
--   Replace the action with a Call Behavior Action, and describe its detailed behavior within a separate activity diagram. See [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
+- Replace the action with a Call Behavior Action, and describe its detailed behavior within a separate activity diagram. See [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
   
--   Set the action's **Local Postconditions** and **Local Preconditions** properties to describe its outcome in more specific detail. For more information, see [Defining Postconditions and Preconditions](#Postcondition).  
+- Set the action's **Local Postconditions** and **Local Preconditions** properties to describe its outcome in more specific detail. For more information, see [Defining Postconditions and Preconditions](#Postcondition).  
   
 ###  <a name="Subactivities"></a> Describing Sub-activities with Call Behavior Actions  
  You can describe the detailed behavior of an action using a separate activity diagram. A called behavior is an activity diagram that is represented on your main activity diagram by a Call Behavior Action. You can also use the Call Behavior Action to describe behavior that is shared between different activities so that you do not have to draw the sub-activity multiple times.  
@@ -305,11 +305,11 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Describing Calls to Operations  
  Generally, an action describes work that is performed by any mixture of people, software, or machines. But you can use a Call Operation Action to describe a call to a specific software method or function.  
   
--   Set the name of the Call Operation Action to indicate what operation is called, and on what object or component.  
+- Set the name of the Call Operation Action to indicate what operation is called, and on what object or component.  
   
--   Add input and output pins to the Call Operation Action, to describe parameters and return values.  
+- Add input and output pins to the Call Operation Action, to describe parameters and return values.  
   
--   You can set the **Is Synchronous** property of the action to indicate whether your activity waits for the operation to complete.  
+- You can set the **Is Synchronous** property of the action to indicate whether your activity waits for the operation to complete.  
   
     -   If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
   
@@ -330,22 +330,22 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 #### Sending a Signal  
  Use a Send Signal Action (3) to indicate that a signal or message of some kind is sent to other activities or processes. Use the name of the action to indicate what kind of message it sends.  
   
--   Control immediately passes to the next action in the control flow, if there is one.  
+- Control immediately passes to the next action in the control flow, if there is one.  
   
--   You cannot use a Send Signal Action to describe how your process responds to any returned information. To do that, use a separate Accept Event Action.  
+- You cannot use a Send Signal Action to describe how your process responds to any returned information. To do that, use a separate Accept Event Action.  
   
--   You can show incoming data flow to a Send Signal Action, to indicate what data can be sent with the outgoing message. For more information, see [Describing Data Flow](#DataFlows).  
+- You can show incoming data flow to a Send Signal Action, to indicate what data can be sent with the outgoing message. For more information, see [Describing Data Flow](#DataFlows).  
   
 #### Waiting for a signal or event  
  Use an Accept Event Action (4) to indicate that this activity waits for some external event or incoming message. Use the name of the action to indicate the type of event that it waits for.  
   
--   To show that your activity waits for an external event or message at a specific point in its flow, draw an Accept Event Action with an incoming flow, at the appropriate place in the activity.  
+- To show that your activity waits for an external event or message at a specific point in its flow, draw an Accept Event Action with an incoming flow, at the appropriate place in the activity.  
   
--   To show that your activity can respond to an external event or message at any time, draw an Accept Event Action without any incoming flow. When the named external event occurs, a new thread will begin in your activity, starting from the Accept Event Action.  
+- To show that your activity can respond to an external event or message at any time, draw an Accept Event Action without any incoming flow. When the named external event occurs, a new thread will begin in your activity, starting from the Accept Event Action.  
   
--   You cannot use an Accept Event Action to describe any value returned to the sender of the signal. Use a separate Send Signal Action for that purpose.  
+- You cannot use an Accept Event Action to describe any value returned to the sender of the signal. Use a separate Send Signal Action for that purpose.  
   
--   You can show outgoing data flows from the action, to show how your activity processes data that is received in the signal. If you want to show more than one output flow, you should set the **IsUnmarshall** property of the Accept Event Action, which indicates that the action parses the incoming signal into its separate components. For more information, see [Describing Data Flow](#DataFlows).  
+- You can show outgoing data flows from the action, to show how your activity processes data that is received in the signal. If you want to show more than one output flow, you should set the **IsUnmarshall** property of the Accept Event Action, which indicates that the action parses the incoming signal into its separate components. For more information, see [Describing Data Flow](#DataFlows).  
   
 ### Describing Multiple Data Flows  
  You can draw more than one control flow or object flow coming out of an action to indicate that more than one thread emerges when the action ends. The effect resembles that of a fork, except that you can use a mixture of control and object flows.  

@@ -64,6 +64,6 @@ Save All toolbar button
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).  
+- To go to the next tutorial step, see [Step 2: Run Your Program](../ide/step-2-run-your-program.md).  
   
--   To return to the overview topic, see [Tutorial 1: Create a Picture Viewer](../ide/tutorial-1-create-a-picture-viewer.md).
+- To return to the overview topic, see [Tutorial 1: Create a Picture Viewer](../ide/tutorial-1-create-a-picture-viewer.md).

@@ -32,22 +32,22 @@ One of the most common scenarios in application development is to display data o
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+- Creating a new **Windows Application** project.  
   
--   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Creating and configuring a data source in your application with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
--   Setting the controls of the items in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+- Setting the controls of the items in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
--   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.  
+- Creating data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
--   Modifying a few records in each table in the dataset.  
+- Modifying a few records in each table in the dataset.  
   
--   Modifying the code to send the updated data in the dataset back to the database.  
+- Modifying the code to send the updated data in the dataset back to the database.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.
+- Access to the Northwind sample database.
   
 ## Create the Windows application  
  The first step is to create a **Windows Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we're planning on saving it later.  
@@ -146,9 +146,9 @@ One of the most common scenarios in application development is to display data o
 ## Next Steps  
  Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form in your Windows application. Some enhancements you could make to this walkthrough include:  
   
--   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
+- Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
   
--   Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](http://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3).  
+- Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](http://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3).  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -59,9 +59,9 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 
  To deploy an app to a remote device:
 
--   A developer's license must be installed on the remote device.
+- A developer's license must be installed on the remote device.
 
--   The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.
+- The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.
 
      Deployment uses the remote debugger network channel to send the app files to the remote device.
 

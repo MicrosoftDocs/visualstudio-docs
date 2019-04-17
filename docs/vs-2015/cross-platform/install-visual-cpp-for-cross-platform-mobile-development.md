@@ -44,11 +44,11 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
 ##  <a name="InstallTheTools"></a> Install the tools  
  The installer for Visual Studio 2015 includes an option to install Visual C++ for Cross-Platform Mobile Development. This installs the required C++ language tools, templates and components for Visual Studio, the GCC and Clang toolsets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.  
   
--   Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.  
+- Android Native Development Kit (NDK) is required to build C++ code that targets the Android platform.  
   
--   Android SDK, Apache Ant, and Java SE Development Kit are required for the Android build process.  
+- Android SDK, Apache Ant, and Java SE Development Kit are required for the Android build process.  
   
--   Microsoft Visual Studio Emulator for Android is an optional high-performance emulator useful for testing and debugging your code.  
+- Microsoft Visual Studio Emulator for Android is an optional high-performance emulator useful for testing and debugging your code.  
   
 #### To install Visual C++ for Cross-Platform Mobile Development and the third-party tools  
   

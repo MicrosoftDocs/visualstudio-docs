@@ -43,7 +43,7 @@ You can create several build configurations for a solution. For example, you can
   
 #### To set properties based on configurations  
   
--   In **Solution Explorer**, open the shortcut menu for a project and then choose **Properties**.  
+- In **Solution Explorer**, open the shortcut menu for a project and then choose **Properties**.  
   
      The  **Property Pages** window opens.  
   

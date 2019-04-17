@@ -378,11 +378,11 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ## Next steps  
   
--   **Isolation.** Most DLLs are dependent on other subsystems such as databases and other DLLs. These other components are often developed in parallel. To allow unit testing to be performed while the other components are not yet available, you have to substitute mock or  
+- **Isolation.** Most DLLs are dependent on other subsystems such as databases and other DLLs. These other components are often developed in parallel. To allow unit testing to be performed while the other components are not yet available, you have to substitute mock or  
   
--   **Build Verification Tests.** You can have tests performed on your team’s build server at set intervals. This ensures that bugs are not introduced when the work of several team members is integrated.  
+- **Build Verification Tests.** You can have tests performed on your team’s build server at set intervals. This ensures that bugs are not introduced when the work of several team members is integrated.  
   
--   **Checkin tests.** You can mandate that some tests are performed before each team member checks code into source control. Typically this is a subset of the complete set of build verification tests.  
+- **Checkin tests.** You can mandate that some tests are performed before each team member checks code into source control. Typically this is a subset of the complete set of build verification tests.  
   
      You can also mandate a minimum level of code coverage.  
   

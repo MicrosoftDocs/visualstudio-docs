@@ -29,7 +29,7 @@ ms.workload:
 ## Compile the code
  This code example requires the following:
 
--   A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
+- A workbook named `YourWorkbook.xls` must exist in a directory named `Test` on drive C.
 
 ## See also
 - [Work with workbooks](../vsto/working-with-workbooks.md)

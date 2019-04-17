@@ -21,9 +21,9 @@ ms.workload:
 
  You might need to follow the manual installation instructions below in the following situations:
 
--   You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server. For example, you want to use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to manage document-level solutions on a server.
+- You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server. For example, you want to use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to manage document-level solutions on a server.
 
--   You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
+- You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
 
     > [!NOTE]
     >  You must be an administrator on the development computer to install the .NET Framework and the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].

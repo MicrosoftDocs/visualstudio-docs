@@ -29,7 +29,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
 #### To select a collection method using the Performance Wizard  
   
--   On the first page of the wizard, select one of the following options:  
+- On the first page of the wizard, select one of the following options:  
   
 |Option|Description|  
 |------------|-----------------|  

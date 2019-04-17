@@ -245,11 +245,11 @@ You can define a *UML profile* to customize the standard model elements for spec
   
  Every profile contains three main sections. In reverse order, they are as follows:  
   
--   `<propertyTypes>` - a list of types that are used for properties defined in the stereotypes section.  
+- `<propertyTypes>` - a list of types that are used for properties defined in the stereotypes section.  
   
--   `<metaclasses>` - a list of model element types to which the stereotypes in this profile apply, such as IClass, IInterface, IOperation, IDependency.  
+- `<metaclasses>` - a list of model element types to which the stereotypes in this profile apply, such as IClass, IInterface, IOperation, IDependency.  
   
--   `<stereotypes>` - the stereotype definitions. Each definition includes the names and types of properties that are added to the target model element.  
+- `<stereotypes>` - the stereotype definitions. Each definition includes the names and types of properties that are added to the target model element.  
   
 #### Property Types  
  The `<propertyTypes>` section declares a list of types that are used for properties in the `<stereotypes>` section. There are two kinds of property types: external and enumeration.  

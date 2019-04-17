@@ -23,11 +23,11 @@ This topic describes how to isolate performance problems in your apps using the 
 
  The UI Responsiveness Profiler can help you isolate problems such as UI responsiveness issues or platform side effects that typically occur with these symptoms:
 
--   Lack of responsiveness in the UI. The app might be slow to respond if the UI thread is getting blocked. Some things that might block the UI thread include excessive synchronous JavaScript code, excessive CSS layout or CSS calculation work, synchronous XHR requests, garbage collection, excessive paint times, or processor-intensive JavaScript code.
+- Lack of responsiveness in the UI. The app might be slow to respond if the UI thread is getting blocked. Some things that might block the UI thread include excessive synchronous JavaScript code, excessive CSS layout or CSS calculation work, synchronous XHR requests, garbage collection, excessive paint times, or processor-intensive JavaScript code.
 
--   Slow loading time for the app or for a page. This is typically caused by excessive time spent loading resources.
+- Slow loading time for the app or for a page. This is typically caused by excessive time spent loading resources.
 
--   Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)
+- Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)
 
 ## Run the HTML UI Responsiveness tool
  You can use the HTML UI Responsiveness tool when you have a working UWP app open in Visual Studio.
@@ -177,9 +177,9 @@ if (performance.mark && performance.measure) {
 
  App lifecycle events appear as diamond symbols. These are DOM events, which include the following:
 
--   `DOMContentLoaded` and `Load` events, which typically occur in the activated event handler in your code. A tooltip for the event shows the specific event and the URL.
+- `DOMContentLoaded` and `Load` events, which typically occur in the activated event handler in your code. A tooltip for the event shows the specific event and the URL.
 
--   A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.
+- A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.
 
 ###  <a name="CPUUtilization"></a> View CPU utilization
  The CPU utilization graph enables you to identify periods of time in which there is excessive CPU activity. It provides information about the app's average CPU consumption over a period of time. Information is color-coded to represent the following specific categories: **Loading**, **Scripting**, garbage collection (**GC**), **Styling**, **Rendering**, and **Image decoding**. For more info about these categories, see [Profiler event reference](#profiler-event-reference) later in this topic.
@@ -246,17 +246,17 @@ if (performance.mark && performance.measure) {
 
  Use the timeline details graph to:
 
--   View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:
+- View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:
 
     -   Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.
 
     -   Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.
 
--   Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.
+- Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.
 
--   Sort events by start time (the default) or duration. Use the **Sort by** list to select a sorting method.
+- Sort events by start time (the default) or duration. Use the **Sort by** list to select a sorting method.
 
--   View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:
+- View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:
 
     -   For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.
 
@@ -345,11 +345,11 @@ if (performance.mark && performance.measure) {
 
 ## Additional information
 
--   Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.
+- Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.
 
--   Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).
+- Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).
 
--   For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
+- For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
 
 ## See also
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

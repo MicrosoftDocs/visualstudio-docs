@@ -36,7 +36,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 
  To fix this error:
 
--   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
+- In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
 ## Error Accessing a Service over a Remote Desktop
  When a user accesses a Web-hosted WCF service over a remote desktop connection and the user does not have administrative permissions, NTLM authentication is used. If the user does not have administrative permissions, the user may receive the following error message: "The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'NTLM'."

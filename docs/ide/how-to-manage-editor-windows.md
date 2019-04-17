@@ -38,7 +38,7 @@ An instance of an editor window can be split into two separate views for easier 
 
 ### To return to single-pane view
 
--   From the **Window** menu, select **Remove Split**.
+- From the **Window** menu, select **Remove Split**.
 
 ## Create new windows
 

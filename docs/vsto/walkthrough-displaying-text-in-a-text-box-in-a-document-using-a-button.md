@@ -29,9 +29,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word
+- Microsoft Word
 
 ## Create the project
  The first step is to create a Word Document project.
@@ -99,9 +99,9 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of using buttons and text boxes on Word documents. Here are some tasks that might come next:
 
--   Using a combo box to change formatting. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
+- Using a combo box to change formatting. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
--   Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
 
 ## See also
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)

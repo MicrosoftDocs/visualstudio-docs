@@ -98,7 +98,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
 #### To debug the application
 
--   Start the debugger.
+- Start the debugger.
 
      ![Start Debugging command on the Debug menu](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")
 

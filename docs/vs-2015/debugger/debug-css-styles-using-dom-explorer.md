@@ -32,14 +32,14 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  The **Styles**, **Computed**, and **Changes** tabs provide different views of style information.  
   
--   Use the **Styles** tab to view rules organized by CSS selector name, such as `html, body`. You can also use this tab to enable or disable specific styles, manually edit values, and to see the immediate results of these changes.  
+- Use the **Styles** tab to view rules organized by CSS selector name, such as `html, body`. You can also use this tab to enable or disable specific styles, manually edit values, and to see the immediate results of these changes.  
   
--   Use the **Computed** tab to view the computed values of a style. For example, if you set a size to 1em, the value computed by Internet Explorer might be 16px. Styles in this tab are organized by style name, such as `height`. You can also use this tab to enable or disable specific styles, manually edit values, and to see the immediate results of these changes.  
+- Use the **Computed** tab to view the computed values of a style. For example, if you set a size to 1em, the value computed by Internet Explorer might be 16px. Styles in this tab are organized by style name, such as `height`. You can also use this tab to enable or disable specific styles, manually edit values, and to see the immediate results of these changes.  
   
     > [!NOTE]
     >  In Visual Studio 2013 Update 2, the information provided in the **Trace** tab has been merged with the **Computed** tab, and the **Trace** tab has been removed.  
   
--   Use the **Changes** tab (Windows Store and Windows Phone Store apps only) to identify and track CSS styles that you have changed during a debugging session.  
+- Use the **Changes** tab (Windows Store and Windows Phone Store apps only) to identify and track CSS styles that you have changed during a debugging session.  
   
 > [!TIP]
 >  Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  

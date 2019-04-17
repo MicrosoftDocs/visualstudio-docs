@@ -21,9 +21,9 @@ To make it easy to create an element or group of elements according to a pattern
   
  A custom tool creates one or more new elements in a diagram. For example, you could make a custom tool to create elements such as these:  
   
--   A package linked to the .NET profile, and a class with the .NET stereotype.  
+- A package linked to the .NET profile, and a class with the .NET stereotype.  
   
--   A pair of classes linked by an association to represent the Observer pattern.  
+- A pair of classes linked by an association to represent the Observer pattern.  
   
 > [!NOTE]
 >  You can use this method to create element tools. That is, you can create tools that you drag from the toolbox onto a diagram. You cannot create connector tools.  

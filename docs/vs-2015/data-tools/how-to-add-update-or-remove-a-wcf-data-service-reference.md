@@ -71,7 +71,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
   
 #### To update a service reference  
   
--   In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.  
+- In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.  
   
      A progress dialog box is displayed while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.  
   
@@ -80,7 +80,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
   
 #### To remove a service reference  
   
--   In **Solution Explorer**, right-click the service reference and then click **Delete**.  
+- In **Solution Explorer**, right-click the service reference and then click **Delete**.  
   
      The service client will be removed from the solution, and the metadata that describes the service will be removed from the app.config file.  
   

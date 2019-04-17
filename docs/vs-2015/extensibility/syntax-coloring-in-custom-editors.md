@@ -30,9 +30,9 @@ Visual Studio Environment SDK editors, including the core editor, use language s
   
  The IDE transparently:  
   
--   Calls the colorizer as needed to parse and analyze text as it is added or modified in the implementation of <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.  
+- Calls the colorizer as needed to parse and analyze text as it is added or modified in the implementation of <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.  
   
--   Ensures that the display supplied by the document view provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> implementation is updated and repainted using the information returned by the colorizer.  
+- Ensures that the display supplied by the document view provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> implementation is updated and repainted using the information returned by the colorizer.  
   
 ## Non-core Editor Usage of a Language Service's Colorizer  
  Non-core editor instances can also use a language service's syntax colorization service, but they must explicitly retrieve and apply the service's colorizer and repaint their document views themselves.  

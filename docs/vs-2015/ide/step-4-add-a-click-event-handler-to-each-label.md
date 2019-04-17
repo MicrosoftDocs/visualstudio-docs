@@ -53,6 +53,6 @@ Properties window showing Click event
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).  
+- To go to the next tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).  
   
--   To return to the previous tutorial step, see [Step 3: Assign a Random Icon to Each Label](../ide/step-3-assign-a-random-icon-to-each-label.md).
+- To return to the previous tutorial step, see [Step 3: Assign a Random Icon to Each Label](../ide/step-3-assign-a-random-icon-to-each-label.md).

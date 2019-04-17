@@ -24,13 +24,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
 ## Creating an Isolated Shell Solution  
  This section shows how to use the Visual Studio Shell Isolated project template to create an isolated shell solution. The solution contains the following projects:  
   
--   The *SolutionName*.AboutBoxPackage project, which allows you to customize the appearance of the Help/About box.  
+- The *SolutionName*.AboutBoxPackage project, which allows you to customize the appearance of the Help/About box.  
   
--   The ShellExtensionsVSIX project, which contains the source.extension.vsixmanifest file that defines the different components of the isolated shell application.  
+- The ShellExtensionsVSIX project, which contains the source.extension.vsixmanifest file that defines the different components of the isolated shell application.  
   
--   The *SolutionName* project, which produces the executable file that invokes the isolated shell application. This project contains the Shell Customization folder, which allows you to customiz the appearance and behavior of the isolated shell application.  
+- The *SolutionName* project, which produces the executable file that invokes the isolated shell application. This project contains the Shell Customization folder, which allows you to customiz the appearance and behavior of the isolated shell application.  
   
--   The *SolutionName* UI project, which produces a satellite assembly that defines active menu commands and localizable strings.  
+- The *SolutionName* UI project, which produces a satellite assembly that defines active menu commands and localizable strings.  
   
 #### To create a basic isolated shell solution  
   

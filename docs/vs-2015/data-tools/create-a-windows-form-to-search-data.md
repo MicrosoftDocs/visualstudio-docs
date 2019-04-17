@@ -32,24 +32,24 @@ A common application scenario is to display selected data on a form. For example
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new Windows Forms Application project.  
+- Creating a new Windows Forms Application project.  
   
--   Creating and configuring the data source in your application with the **Data Source Configuration** wizard.  
+- Creating and configuring the data source in your application with the **Data Source Configuration** wizard.  
   
--   Setting the drop type of the items in the **Data Sources** window.  
+- Setting the drop type of the items in the **Data Sources** window.  
   
--   Creating controls that display data by dragging items from the **Data Sources** window onto a form.  
+- Creating controls that display data by dragging items from the **Data Sources** window onto a form.  
   
--   Adding controls to display the data on the form.  
+- Adding controls to display the data on the form.  
   
--   Completing the **Search Criteria Builder** dialog box.  
+- Completing the **Search Criteria Builder** dialog box.  
   
--   Entering parameters into the form and executing the parameterized query.  
+- Entering parameters into the form and executing the parameterized query.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database.  
+- Access to the Northwind sample database.  
   
 ## Create the Windows Application  
  The first step is to create a **Windows Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save it later.  
@@ -142,9 +142,9 @@ A common application scenario is to display selected data on a form. For example
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:  
   
--   Adding controls that display related data.  
+- Adding controls that display related data.  
   
--   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
+- Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

@@ -17,7 +17,7 @@ You can use the full-text search feature to locate all topics that contain a par
   
 ### To open the Search tab  
   
--   Choose the **Search** tab in the Help Viewer window, or choose the Ctrl + E keys.  
+- Choose the **Search** tab in the Help Viewer window, or choose the Ctrl + E keys.  
   
 ### To perform a full-text search  
   

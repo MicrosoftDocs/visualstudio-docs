@@ -24,20 +24,20 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 ### PackageManifest element
  Within the `<PackageManifest>` root element, you can use the following elements:
 
--   `<Metadata>` - Metadata and advertising information about the package itself. Only one `Metadata` element is allowed in the manifest.
+- `<Metadata>` - Metadata and advertising information about the package itself. Only one `Metadata` element is allowed in the manifest.
 
--   `<Installation>` - This section defines the way this extension package can be installed, including the application SKUs that it can install into. Only a single `Installation` element is allowed in the manifest. A manifest must have an `Installation` element, or this package won't install into any SKU.
+- `<Installation>` - This section defines the way this extension package can be installed, including the application SKUs that it can install into. Only a single `Installation` element is allowed in the manifest. A manifest must have an `Installation` element, or this package won't install into any SKU.
 
--   `<Dependencies>` - An optional list of dependencies for this package are defined here.
+- `<Dependencies>` - An optional list of dependencies for this package are defined here.
 
--   `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won't surface any content.
+- `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won't surface any content.
 
--   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements%2A> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements%2A>.
+- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements%2A> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements%2A>.
 
 ### Metadata element
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
 
--   `<Identity>` -  Defines identification information for this package and includes the following attributes:
+- `<Identity>` -  Defines identification information for this package and includes the following attributes:
 
     -   `Id` - This attribute must be a unique ID for the package chosen by its author. The name should be qualified the same way CLR types are namespaced: Company.Product.Feature.Name. The `Id` attribute is limited to 100 characters.
 
@@ -47,46 +47,46 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     -   `Publisher` - This attribute identifies the publisher of this package, either a company or individual name. The `Publisher` attribute is limited to 100 characters.
 
--   `<DisplayName>` - This element specifies the user-friendly package name that is displayed in the Extension Manager UI. The `DisplayName` content is limited to 50 characters.
+- `<DisplayName>` - This element specifies the user-friendly package name that is displayed in the Extension Manager UI. The `DisplayName` content is limited to 50 characters.
 
--   `<Description>` - This optional element is a short description of the package and its contents that is displayed in Extension Manager UI. The `Description` content can contain any text that you want, but it's limited to 1000 characters.
+- `<Description>` - This optional element is a short description of the package and its contents that is displayed in Extension Manager UI. The `Description` content can contain any text that you want, but it's limited to 1000 characters.
 
--   `<MoreInfo>` - This optional element is a URL to a page online that contains a full description of this package. The protocol must be specified as http.
+- `<MoreInfo>` - This optional element is a URL to a page online that contains a full description of this package. The protocol must be specified as http.
 
--   `<License>` - This optional element is a relative path to a license file (.txt, .rtf) contained in the package.
+- `<License>` - This optional element is a relative path to a license file (.txt, .rtf) contained in the package.
 
--   `<ReleaseNotes>` - This optional element is either a relative path to a release notes file contained in the package (.txt, .rtf) or else a URL to a website that displays the release notes.
+- `<ReleaseNotes>` - This optional element is either a relative path to a release notes file contained in the package (.txt, .rtf) or else a URL to a website that displays the release notes.
 
--   `<Icon>` - This optional element is a relative path to an image file (png, bmp, jpeg, ico) contained in the package. The icon image should be 32x32 pixels (or will be shrunk to that size) and appears in the listview UI. If no `Icon` element is specified, the UI uses a default.
+- `<Icon>` - This optional element is a relative path to an image file (png, bmp, jpeg, ico) contained in the package. The icon image should be 32x32 pixels (or will be shrunk to that size) and appears in the listview UI. If no `Icon` element is specified, the UI uses a default.
 
--   `<PreviewImage>` - This optional element is a relative path to an image file (png, bmp, jpeg) contained in the package. The preview image should be 200x200 pixels, and displayed in the details UI. If no `PreviewImage` element is specified, the UI uses a default.
+- `<PreviewImage>` - This optional element is a relative path to an image file (png, bmp, jpeg) contained in the package. The preview image should be 200x200 pixels, and displayed in the details UI. If no `PreviewImage` element is specified, the UI uses a default.
 
--   `<Tags>` - This optional element lists additional semicolon-delimited text tags that are used for search hints. The `Tags` element is limited to 100 characters.
+- `<Tags>` - This optional element lists additional semicolon-delimited text tags that are used for search hints. The `Tags` element is limited to 100 characters.
 
--   `<GettingStartedGuide>` - This optional element is either a relative path to an HTML file or a URL to a website that contains information about how to use the extension or content within this package. This guide is launched as part of an installation.
+- `<GettingStartedGuide>` - This optional element is either a relative path to an HTML file or a URL to a website that contains information about how to use the extension or content within this package. This guide is launched as part of an installation.
 
--   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at runtime.
+- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at runtime.
 
 ### Installation element
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
 
--   `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
+- `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
 
--   `Scope` - This attribute can take the value "Global" or "ProductExtension":
+- `Scope` - This attribute can take the value "Global" or "ProductExtension":
 
     -   "Global" specifies that the installation is not scoped to a specific SKU. For example, this value is used when an Extension SDK is installed.
 
     -   "ProductExtension" specifies that a traditional VSIX Extension (version 1.0) scoped to individual Visual Studio SKUs is installed. This is the default value.
 
--   `AllUsers` - This optional attribute specifies whether this package will be installed for all users. By default, this attribute is false, which specifies that the package is per user. (When you set this value to true, the installing user must elevate to administrative privilege level to install the resulting VSIX.
+- `AllUsers` - This optional attribute specifies whether this package will be installed for all users. By default, this attribute is false, which specifies that the package is per user. (When you set this value to true, the installing user must elevate to administrative privilege level to install the resulting VSIX.
 
--   `InstalledByMsi` - This optional attribute specifies whether this package is installed by an MSI. Packages installed by an MSI are installed and managed by MSI (Programs and Features) and not by the Visual Studio Extension Manager.  By default, this attribute is false, which specifies that the package is not installed by an MSI.
+- `InstalledByMsi` - This optional attribute specifies whether this package is installed by an MSI. Packages installed by an MSI are installed and managed by MSI (Programs and Features) and not by the Visual Studio Extension Manager.  By default, this attribute is false, which specifies that the package is not installed by an MSI.
 
--   `SystemComponent` - This optional attribute specifies whether this package should be considered a system component. System components don't show in the Extension Manager UI and cannot be updated. By default, this attribute is false, which specifies that the package isn't a system component.
+- `SystemComponent` - This optional attribute specifies whether this package should be considered a system component. System components don't show in the Extension Manager UI and cannot be updated. By default, this attribute is false, which specifies that the package isn't a system component.
 
--   `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.
+- `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.
 
--   `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":
+- `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":
 
     -   `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:
 
@@ -132,7 +132,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 ### Dependencies element
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
 
--   `<Dependency>` element - This child element has the following attributes:
+- `<Dependency>` element - This child element has the following attributes:
 
     -   `Id` - This attribute must be a unique ID for the dependent package. This identity value must match the `<Metadata><Identity>Id` attribute of a package that this package is dependent on. The `Id` attribute follows the namespace convention: Company.Product.Feature.Name. The attribute can contain only alphanumeric characters and is limited to 100 characters.
 

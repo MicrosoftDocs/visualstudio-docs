@@ -48,13 +48,13 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
   
--   The remote device and the Visual Studio computer must be connected over a network or connected directly through an Ethernet cable. Debugging over the internet is not supported.  
+- The remote device and the Visual Studio computer must be connected over a network or connected directly through an Ethernet cable. Debugging over the internet is not supported.  
   
--   A developer's license must be installed on the remote device.  
+- A developer's license must be installed on the remote device.  
   
--   The remote device must be running the remote debugging components.  
+- The remote device must be running the remote debugging components.  
   
--   You must be an administrator on the remote device to configure the firewall during installation. You must have user access to the remote device to run or connect to the remote debugger.  
+- You must be an administrator on the remote device to configure the firewall during installation. You must have user access to the remote device to run or connect to the remote debugger.  
   
 ##  <a name="BKMK_Security"></a> Security  
  By default, the remote debugger uses Windows Authentication.  

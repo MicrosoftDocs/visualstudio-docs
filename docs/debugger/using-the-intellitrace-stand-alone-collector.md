@@ -46,11 +46,11 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="WhatApps"></a> What apps work with the collector?
 
--   ASP.NET Web apps hosted on Internet Information Services (IIS) version 7.0, 7.5, and 8.0
+- ASP.NET Web apps hosted on Internet Information Services (IIS) version 7.0, 7.5, and 8.0
 
--   SharePoint 2010 and SharePoint 2013 applications
+- SharePoint 2010 and SharePoint 2013 applications
 
--   Windows Presentation Foundation (WPF) and Windows Forms apps.
+- Windows Presentation Foundation (WPF) and Windows Forms apps.
 
 ##  <a name="GetStarted"></a> How do I get started?
 
@@ -371,9 +371,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="WhereElse"></a> Where else can I get IntelliTrace data?
 
--   From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).
+- From an IntelliTrace debugging session in Visual Studio Enterprise, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 
--   From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).
+- From a test session in Microsoft Test Manager, see [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).
 
 ## Where can I get more information?
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)

@@ -32,9 +32,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint. For more information, see Requirements for Developing SharePoint Solutions.
+- Supported editions of Microsoft Windows and SharePoint. For more information, see Requirements for Developing SharePoint Solutions.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create a site definition solution
  First, create the site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
@@ -141,9 +141,9 @@ ms.workload:
 
 #### To deploy and run the site definition
 
--   On the menu bar, choose **Build** > **Deploy TestSiteDef**.
+- On the menu bar, choose **Build** > **Deploy TestSiteDef**.
 
--   Choose the **F5** key.
+- Choose the **F5** key.
 
      Visual Studio compiles the code, adds its features, packages all of the files into a SharePoint solution (WSP) file, and deploys the WSP file to SharePoint Server. SharePoint then installs the files and then activates the features.
 
@@ -171,7 +171,7 @@ ms.workload:
 
 #### To test the new site
 
--   On the default ASPX page, enter some text, and then choose the **Change Label Text** button next to the text box.
+- On the default ASPX page, enter some text, and then choose the **Change Label Text** button next to the text box.
 
      The text appears in the label on the right side of the button.
 

@@ -47,7 +47,7 @@ manager: jillfra
   
 #### To begin the walkthrough  
   
--   In the source window, look for the following code:  
+- In the source window, look for the following code:  
   
     ```vb  
     Thread.Sleep(3000)   

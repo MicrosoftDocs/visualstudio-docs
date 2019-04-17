@@ -15,13 +15,13 @@ In many cases, unhandled exceptions in the **XAML** designer can be caused by pr
 
 Project code includes:
 
--   Custom controls and user controls
+- Custom controls and user controls
 
--   Class libraries
+- Class libraries
 
--   Value converters
+- Value converters
 
--   Bindings against design time data generated from project code
+- Bindings against design time data generated from project code
 
 When project code is disabled, Visual Studio shows placeholders. For example, Visual Studio shows the name of the property for a binding where the data is no longer available, or a placeholder for a control that's no longer running.
 
@@ -63,9 +63,9 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 ## To disable project code in the designer
 
--   In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
+- In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
 
--   Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
+- Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
 
      ![The Disable Project Code button](../designers/media/xaml_disablecode.png)
 
@@ -74,7 +74,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
     > [!NOTE]
     > For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.
 
--   Either option causes the designer to reload and then disable all code for the associated project.
+- Either option causes the designer to reload and then disable all code for the associated project.
 
     > [!NOTE]
     > Disabling project code can lead to a loss of design-time data. An alternative is to debug the code running in the designer.

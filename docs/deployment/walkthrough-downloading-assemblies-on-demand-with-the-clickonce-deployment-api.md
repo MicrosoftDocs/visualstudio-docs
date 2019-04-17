@@ -26,9 +26,9 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 ## Prerequisites
  You will need one of the following components to complete this walkthrough:
 
--   The Windows SDK. The Windows SDK can be downloaded from the Microsoft Download Center.
+- The Windows SDK. The Windows SDK can be downloaded from the Microsoft Download Center.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create the projects
 

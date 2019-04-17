@@ -81,6 +81,6 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+- To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
 
--   To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
+- To return to the previous tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).

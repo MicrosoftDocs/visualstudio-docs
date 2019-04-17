@@ -65,7 +65,7 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|

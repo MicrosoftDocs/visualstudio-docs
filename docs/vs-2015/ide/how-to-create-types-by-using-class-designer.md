@@ -24,11 +24,11 @@ manager: jillfra
 
 To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md).  
   
--   [Create a new type](#CreateType)  
+- [Create a new type](#CreateType)  
   
--   [Apply a custom attribute to a type](#CustAttributeType)  
+- [Apply a custom attribute to a type](#CustAttributeType)  
   
--   [Apply a custom attribute to a type member](#CustAttributeMember)  
+- [Apply a custom attribute to a type member](#CustAttributeMember)  
   
 ##  <a name="CreateType"></a> Create a new type  
   

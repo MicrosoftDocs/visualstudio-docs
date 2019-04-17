@@ -25,17 +25,17 @@ You can write a custom host if you want to use the *text template transformation
 
 This walkthrough illustrates the following tasks:
 
--   Creating a custom text template host.
+- Creating a custom text template host.
 
--   Testing the custom host.
+- Testing the custom host.
 
 ## Prerequisites
 
 To complete this walkthrough, you must have the following:
 
--   Visual Studio 2010 or later
+- Visual Studio 2010 or later
 
--   Visual Studio SDK
+- Visual Studio SDK
 
 ## Create a Custom Text Template Host
 

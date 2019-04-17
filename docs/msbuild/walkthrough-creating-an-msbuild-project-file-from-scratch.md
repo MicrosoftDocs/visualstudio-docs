@@ -82,15 +82,15 @@ To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5,
 ## Create a minimal MSBuild project file
  Now that you have a minimal application source file, you can create a minimal project file to build the application. This project file contains the following elements:
 
--   The required root `Project` node.
+- The required root `Project` node.
 
--   An `ItemGroup` node to contain item elements.
+- An `ItemGroup` node to contain item elements.
 
--   An item element that refers to the application source file.
+- An item element that refers to the application source file.
 
--   A `Target` node to contain tasks that are required to build the application.
+- A `Target` node to contain tasks that are required to build the application.
 
--   A `Task` element to start the Visual C# compiler to build the application.
+- A `Task` element to start the Visual C# compiler to build the application.
 
 #### To create a minimal MSBuild project file
 
@@ -153,7 +153,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 
 #### To add MSBuild to your path
 
--   Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system, or *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
+- Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system, or *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
 
      At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**.
 
@@ -180,9 +180,9 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 ## Add build properties
  You can add build properties to the project file to further control the build. Now add these properties:
 
--   An `AssemblyName` property to specify the name of the application.
+- An `AssemblyName` property to specify the name of the application.
 
--   An `OutputPath` property to specify a folder to contain the application.
+- An `OutputPath` property to specify a folder to contain the application.
 
 #### To add build properties
 
@@ -264,9 +264,9 @@ Your project file should now resemble the following code:
 ## Add build targets
  Next, add two more targets to the project file, as follows:
 
--   A Clean target that deletes old files.
+- A Clean target that deletes old files.
 
--   A Rebuild target that uses the `DependsOnTargets` attribute to force the Clean task to run before the Build task.
+- A Rebuild target that uses the `DependsOnTargets` attribute to force the Clean task to run before the Build task.
 
 Now that you have multiple targets, you can set the Build target as the default target.
 
@@ -316,13 +316,13 @@ Your project file should now resemble the following code:
 ## Test the build targets
  You can exercise the new build targets to test these features of the project file:
 
--   Building the default build.
+- Building the default build.
 
--   Setting the application name at the command prompt.
+- Setting the application name at the command prompt.
 
--   Deleting the application before another application is built.
+- Deleting the application before another application is built.
 
--   Deleting the application without building another application.
+- Deleting the application without building another application.
 
 #### To test the build targets
 

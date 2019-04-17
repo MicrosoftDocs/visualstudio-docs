@@ -76,7 +76,7 @@ namespace ExampleNamespace
 
 ### To define a rule on a domain class
 
--   In a custom code file, define a class and prefix it with the <xref:Microsoft.VisualStudio.Modeling.RuleOnAttribute> attribute:
+- In a custom code file, define a class and prefix it with the <xref:Microsoft.VisualStudio.Modeling.RuleOnAttribute> attribute:
 
     ```csharp
     [RuleOn(typeof(ExampleElement),
@@ -86,19 +86,19 @@ namespace ExampleNamespace
 
     ```
 
--   The subject type in the first parameter can be a domain class, domain relationship, shape, connector, or diagram. Usually, you apply rules to domain classes and relationships.
+- The subject type in the first parameter can be a domain class, domain relationship, shape, connector, or diagram. Usually, you apply rules to domain classes and relationships.
 
      The `FireTime` is usually `TopLevelCommit`. This ensures that the rule is executed only after all the primary changes of the transaction have been made. The alternatives are Inline, which executes the rule soon after the change; and LocalCommit, which executes the rule at the end of the current transaction (which might not be the outermost). You can also set the priority of a rule to affect its ordering in the queue, but this is an unreliable method of achieving the result you require.
 
--   You can specify an abstract class as the subject type.
+- You can specify an abstract class as the subject type.
 
--   The rule applies to all instances of the subject class.
+- The rule applies to all instances of the subject class.
 
--   The default value for `FireTime` is TimeToFire.TopLevelCommit. This causes the rule to be executed when the outermost transaction is committed. An alternative is TimeToFire.Inline. This causes the rule to be executed soon after the triggering event.
+- The default value for `FireTime` is TimeToFire.TopLevelCommit. This causes the rule to be executed when the outermost transaction is committed. An alternative is TimeToFire.Inline. This causes the rule to be executed soon after the triggering event.
 
 ### To register the rule
 
--   Add your rule class to the list of types returned by `GetCustomDomainModelTypes` in your domain model:
+- Add your rule class to the list of types returned by `GetCustomDomainModelTypes` in your domain model:
 
     ```csharp
     public partial class ExampleDomainModel
@@ -114,9 +114,9 @@ namespace ExampleNamespace
 
     ```
 
--   If you are not sure of the name of your domain model class, look inside the file **Dsl\GeneratedCode\DomainModel.cs**
+- If you are not sure of the name of your domain model class, look inside the file **Dsl\GeneratedCode\DomainModel.cs**
 
--   Write this code in a custom code file in your DSL project.
+- Write this code in a custom code file in your DSL project.
 
 ### To write the code of the rule
 

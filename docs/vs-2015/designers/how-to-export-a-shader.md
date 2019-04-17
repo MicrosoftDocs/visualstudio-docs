@@ -17,7 +17,7 @@ This document demonstrates how to use the Shader Designer to export a Directed G
   
  This document demonstrates this activity:  
   
--   Exporting a shader  
+- Exporting a shader  
   
 ## Exporting a shader  
  After you create a shader by using the Shader Designer and before you can use it in your app, you have to export it in a format that your graphics API understands. You can export a shader in different ways to meet different needs.  

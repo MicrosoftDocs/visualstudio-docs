@@ -27,9 +27,9 @@ For more information about creating VSIX packages and deploying them to the [Vis
 
 You can use the **VSIX Project** template provided by the Visual Studio SDK to create VSIX packages for SharePoint tools extensions. Using a VSIX project provides several benefits over creating a VSIX package manually:
 
--   Visual Studio automatically generates the VSIX package when you build the project. Tasks such as adding the deployment files to the package and creating the [Content_Types].xml file for the package are done for you.
+- Visual Studio automatically generates the VSIX package when you build the project. Tasks such as adding the deployment files to the package and creating the [Content_Types].xml file for the package are done for you.
 
--   You can configure the VSIX project to include the build output of your extension project and other files, such as project templates and item templates, in the VSIX package.
+- You can configure the VSIX project to include the build output of your extension project and other files, such as project templates and item templates, in the VSIX package.
 
 For more information about using a VSIX project, see [VSIX Project Template](../extensibility/vsix-project-template.md).
 
@@ -37,17 +37,17 @@ For more information about using a VSIX project, see [VSIX Project Template](../
 
 By default, VSIX projects only generate VSIX packages, not assemblies. Therefore, you typically do not implement a SharePoint tools extension in a VSIX project. You generally work with at least two projects:
 
--   A VSIX project.
+- A VSIX project.
 
--   A class library project that implements your extension.
+- A class library project that implements your extension.
 
 You might also work with additional projects for certain types of extensions:
 
--   A class library project that implements any SharePoint commands that are used by your extension. For a walkthrough that demonstrates this scenario, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
+- A class library project that implements any SharePoint commands that are used by your extension. For a walkthrough that demonstrates this scenario, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
 
--   An Item Template or Project Template project that creates an item template or project template, if your extension defines a new type of SharePoint project item. For a walkthrough that demonstrates this scenario, see [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).
+- An Item Template or Project Template project that creates an item template or project template, if your extension defines a new type of SharePoint project item. For a walkthrough that demonstrates this scenario, see [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).
 
--   A class library project that implements a custom wizard for an item template or project template, if your extension includes a template. For a walkthrough that demonstrates this scenario, see [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md).
+- A class library project that implements a custom wizard for an item template or project template, if your extension includes a template. For a walkthrough that demonstrates this scenario, see [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md).
 
 If you include all of the projects in the same Visual Studio solution, you can modify the source.extension.vsixmanifest file in the VSIX project to include the build output of the class library projects.
 
@@ -57,13 +57,13 @@ You must edit the source.extension.vsixmanifest file in the VSIX project to incl
 
 You must add entries to the source.extension.vsixmanifest file for the following items:
 
--   The extension assembly.
+- The extension assembly.
 
--   The assembly that implements any SharePoint commands that are used by your extension.
+- The assembly that implements any SharePoint commands that are used by your extension.
 
--   Any project templates or item templates that are associated with your extension.
+- Any project templates or item templates that are associated with your extension.
 
--   A custom wizard for a template that is associated with your extension.
+- A custom wizard for a template that is associated with your extension.
 
 The following procedures describe how to add entries to the .vsixmanifest file for each of these items.
 

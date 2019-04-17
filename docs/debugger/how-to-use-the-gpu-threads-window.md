@@ -62,7 +62,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 
 ### To switch to a different thread
 
--   Double-click the column. (Keyboard: Select the row and choose Enter.)
+- Double-click the column. (Keyboard: Select the row and choose Enter.)
 
 ### To display a particular tile and thread
 
@@ -74,27 +74,27 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 
 ### To display or hide a column
 
--   Open the shortcut menu for the GPU Threads window, choose **Columns**, and then choose the column that you want to display or hide.
+- Open the shortcut menu for the GPU Threads window, choose **Columns**, and then choose the column that you want to display or hide.
 
 ### To sort by a column
 
--   Select the column heading.
+- Select the column heading.
 
 ### To group threads
 
--   Open the shortcut menu for the GPU Threads window, choose **Group By**, and then choose one of the column names displayed. Choose **None** to ungroup the threads.
+- Open the shortcut menu for the GPU Threads window, choose **Group By**, and then choose one of the column names displayed. Choose **None** to ungroup the threads.
 
 ### To freeze or thaw a row of threads
 
--   Open the shortcut menu for the row and choose **Freeze** or **Thaw**.
+- Open the shortcut menu for the row and choose **Freeze** or **Thaw**.
 
 ### To flag or unflag a row of threads
 
--   Select the flag column for the thread, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.
+- Select the flag column for the thread, or open the shortcut menu for the thread and choose **Flag** or **Unflag**.
 
 ### To display only flagged threads
 
--   Choose the flag button in the GPU Threads window.
+- Choose the flag button in the GPU Threads window.
 
 ## See Also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

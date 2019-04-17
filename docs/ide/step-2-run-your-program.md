@@ -50,6 +50,6 @@ When you created a new solution, you actually built a program that runs. It does
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
+- To go to the next tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).
 
--   To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application project](../ide/step-1-create-a-windows-forms-application-project.md).
+- To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application project](../ide/step-1-create-a-windows-forms-application-project.md).

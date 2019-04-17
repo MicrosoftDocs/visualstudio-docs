@@ -14,9 +14,9 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
  Once you have completed these verifications, you can do either or both of the following walkthroughs:  
   
--   [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md)  
+- [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md)  
   
--   [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)  
+- [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)  
   
 ## All platforms  
  First, select **Tools > Options**, expand **Xamarin > Other**,  and click the **Check now** link for updates. You need to be using Xamarin 4.0.3.214 or later to avoid previous licensing issues.  

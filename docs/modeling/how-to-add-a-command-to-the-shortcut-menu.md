@@ -338,11 +338,11 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 **OnStatus method is not called**:
 
--   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
+- Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
 
--   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
+- In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
 
--   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
+- In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
 
 - Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.
 

@@ -24,15 +24,15 @@ ms.workload:
 # Troubleshoot errors in Office solutions
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:
 
--   [Create, upgrade, and open projects](#creating)
+- [Create, upgrade, and open projects](#creating)
 
--   [Use the designers](#designers)
+- [Use the designers](#designers)
 
--   [Write code](#code)
+- [Write code](#code)
 
--   [Build projects](#building)
+- [Build projects](#building)
 
--   [Debug projects](#debugging)
+- [Debug projects](#debugging)
 
 ##  <a name="creating"></a> Create, upgrade, and open projects
  You might encounter the following errors when you create or open Office projects.
@@ -84,11 +84,11 @@ ms.workload:
 ### Designer failed to load correctly
  Visual Studio cannot open the designer in the following cases:
 
--   Excel or Word is already open and is displaying a modal dialog box. To open the designer, check to see if Excel or Word has a modal dialog box open, and close any open modal dialog boxes. If there are no modal dialog boxes open, there might be some other action required before Excel or Word responds.
+- Excel or Word is already open and is displaying a modal dialog box. To open the designer, check to see if Excel or Word has a modal dialog box open, and close any open modal dialog boxes. If there are no modal dialog boxes open, there might be some other action required before Excel or Word responds.
 
--   The project is currently being debugged. To open the designer, stop or finish debugging.
+- The project is currently being debugged. To open the designer, stop or finish debugging.
 
--   An Excel VSTO Add-in that is installed on the development computer is displaying a dialog box when Excel starts. To create an Excel document-level project, you must first disable the VSTO Add-in.
+- An Excel VSTO Add-in that is installed on the development computer is displaying a dialog box when Excel starts. To create an Excel document-level project, you must first disable the VSTO Add-in.
 
 ### Controls appear as black rectangles on the document or worksheet
  If you group controls on a document or worksheet, Visual Studio no longer recognizes the controls. Grouped controls cannot be accessed in the **Properties** window and they appear as black rectangles on the document or worksheet. You must ungroup the controls in order to restore their functionality.

@@ -21,32 +21,32 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
  This topic includes the following sections:  
   
--   [Default Deletion Behavior](#default)  
+- [Default Deletion Behavior](#default)  
   
--   [Setting the Propagate Delete option of a role](#property)  
+- [Setting the Propagate Delete option of a role](#property)  
   
--   [Overriding the Delete Closure](#closure) – Use this technique where deletion might lead to deletion of neighboring elements.  
+- [Overriding the Delete Closure](#closure) – Use this technique where deletion might lead to deletion of neighboring elements.  
   
--   [Using OnDeleting and OnDeleted](#ondeleting) – Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
+- [Using OnDeleting and OnDeleted](#ondeleting) – Use these methods where the response could include other actions such as updating a value either inside or outside the store.  
   
--   [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
+- [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
   
--   [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documents.  
+- [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documents.  
   
--   [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
+- [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
   
 ##  <a name="default"></a> Default Deletion Behavior  
  By default, the following rules govern delete propagation:  
   
--   If an element is deleted, all embedded elements are also deleted. The embedded elements are those that are the targets of embedding relationships for which this element is the source. For example, if there is an embedding relationship from **Album** to **Song**, then when a particular Album is deleted, all its Songs will also be deleted.  
+- If an element is deleted, all embedded elements are also deleted. The embedded elements are those that are the targets of embedding relationships for which this element is the source. For example, if there is an embedding relationship from **Album** to **Song**, then when a particular Album is deleted, all its Songs will also be deleted.  
   
      By contrast, deleting a song does not delete the album.  
   
--   By default, deletion does not propagate along reference relationships. If there is a reference relationship **ArtistPlaysOnAlbum** from **Album** to **Artist**, deleting an album does not delete any related artist, and deleting an artist does not delete any album.  
+- By default, deletion does not propagate along reference relationships. If there is a reference relationship **ArtistPlaysOnAlbum** from **Album** to **Artist**, deleting an album does not delete any related artist, and deleting an artist does not delete any album.  
   
      However, deletion does propagate along some built-in relationships. For example, when a model element is deleted, its shape on the diagram is also deleted. The element and shape are related by the `PresentationViewsSubject` reference relationship.  
   
--   Every relationship that is connected to the element, either at the source or target role, is deleted. The role property of the element at the opposite role no longer contains the deleted element.  
+- Every relationship that is connected to the element, either at the source or target role, is deleted. The role property of the element at the opposite role no longer contains the deleted element.  
   
 ##  <a name="property"></a> Setting the Propagate Delete option of a role  
  You can cause deletion to propagate along a reference relationship, or from an embedded child to its parent.  
@@ -76,11 +76,11 @@ Deleting an element usually causes related elements to be deleted also. All rela
 ##  <a name="closure"></a> Defining a Delete Closure  
  The deletion operation uses the class _YourModel_**DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link’s roles. It should return one of the following values:  
   
--   **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element’s other links.  
+- **VisitorFilterResult.Yes**– The element should be deleted and the walker should proceed to try the element’s other links.  
   
--   **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
+- **VisitorFilterResult.DoNotCare** – The element should not be deleted unless another query replies that it should be deleted.  
   
--   **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element’s other links.  
+- **VisitorFilterResult.Never** – The element must not be deleted, even if another query answers **Yes**, and the walker should not try the element’s other links.  
   
 ```  
 // When a musician is deleted, delete their albums with a low rating.  

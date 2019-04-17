@@ -26,15 +26,15 @@ manager: jillfra
   
  **Extract Method** has the following benefits:  
   
--   Encourages best coding practices by emphasizing discrete, reusable methods.  
+- Encourages best coding practices by emphasizing discrete, reusable methods.  
   
--   Encourages self-documenting code through good organization.  
+- Encourages self-documenting code through good organization.  
   
      When descriptive names are used, high-level methods can read more like a series of comments.  
   
--   Encourages the creation of finer-grained methods to simplify overriding.  
+- Encourages the creation of finer-grained methods to simplify overriding.  
   
--   Reduces code duplication.  
+- Reduces code duplication.  
   
 ### To use Extract Method  
   

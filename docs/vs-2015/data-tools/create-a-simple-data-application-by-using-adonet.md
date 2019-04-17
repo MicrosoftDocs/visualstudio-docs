@@ -27,17 +27,17 @@ When you create an application that manipulates data in a database, you perform 
   
  **In this topic**  
   
--   [Set up the sample database](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
+- [Set up the sample database](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_setupthesampledatabase)  
   
--   [Create the forms and add controls](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
+- [Create the forms and add controls](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_createtheformsandaddcontrols)  
   
--   [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
+- [Store the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_storetheconnectionstring)  
   
--   [Retrieve the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
+- [Retrieve the connection string](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_retrievetheconnectionstring)  
   
--   [Write the code for the forms](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
+- [Write the code for the forms](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_writethecodefortheforms)  
   
--   [Test your application](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
+- [Test your application](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
   
 ## Prerequisites  
  To create the application, you'll need:  

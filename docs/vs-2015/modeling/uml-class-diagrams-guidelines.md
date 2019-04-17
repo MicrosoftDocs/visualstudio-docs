@@ -33,11 +33,11 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
 ##  <a name="Using"></a> Using UML Class Diagrams  
  You can use a UML class diagram for a variety of purposes:  
   
--   To provide an implementation-independent description of the types that are used in a system and passed between its components.  
+- To provide an implementation-independent description of the types that are used in a system and passed between its components.  
   
      For example, the type Meal Order might be implemented in .NET code in the business layer, in XML at the interfaces between components, in SQL in the database, and in HTML in the user interface. Although these implementations are different in detail, the relationship between a Meal Order and other types, such as Menu and Payment, is always the same. The UML class diagram makes it possible to discuss these relationships separately from the implementations.  
   
--   To clarify the glossary of terms used for communication between the application and its users, and in descriptions of the users' needs. See [Model user requirements](../modeling/model-user-requirements.md).  
+- To clarify the glossary of terms used for communication between the application and its users, and in descriptions of the users' needs. See [Model user requirements](../modeling/model-user-requirements.md).  
   
      For example, consider the user stories, use cases or other requirements descriptions of a restaurant application. In such a description, you would find terms like Menu, Order, Meal, Price, Payment, and so on. You could draw a UML class diagram that defines the relationships between these terms. This will reduce the risk of inconsistencies in the requirements descriptions, and in the user interface, and in the help documents.  
   
@@ -161,9 +161,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  For detailed information about all the properties that you can set, see:  
   
--   [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
+- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
   
--   [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
+- [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
   
 ### Types of Attributes and Operations  
  Each *Type* of an attribute or operation, and each parameter type, can be one of the following:  
@@ -208,9 +208,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  If the multiplicity is more than 1, you can also set these properties:  
   
--   **IsOrdered** - If true, the collection has a defined order.  
+- **IsOrdered** - If true, the collection has a defined order.  
   
--   **IsUnique** - If true, there are no duplicate values in the collection.  
+- **IsUnique** - If true, there are no duplicate values in the collection.  
   
 ### Visibility  
  *Visibility* indicates whether the attribute or operation can be accessed outside the class definition. The allowed values are as follows:  
@@ -462,7 +462,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
 ##  <a name="generating"></a> Generating Code from UML Class Diagrams  
  To start implementing the classes on a UML class diagram, you can generate C# code or customize the templates for code generation. To start generating code by using the provided C# templates:  
   
--   Open the shortcut menu for the diagram or an element, choose **Generate Code**, and then set the necessary properties.  
+- Open the shortcut menu for the diagram or an element, choose **Generate Code**, and then set the necessary properties.  
   
      For more information about how to set these properties and customize the provided templates, see [Generate code from UML class diagrams](../modeling/generate-code-from-uml-class-diagrams.md).  
   

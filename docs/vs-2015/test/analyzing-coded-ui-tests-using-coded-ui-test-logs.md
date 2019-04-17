@@ -16,7 +16,7 @@ Coded UI test logs filter and record important information about your coded UI t
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## Why should I do this?  
  The logs are presented in a format that allows for debugging issues quickly.  
@@ -26,7 +26,7 @@ Coded UI test logs filter and record important information about your coded UI t
 ### Step 1: Enable logging  
  Depending on your scenario, use one of the following methods to enable the log.  
   
--   Target .NET Framework version 4 with no App.config file present in the test project  
+- Target .NET Framework version 4 with no App.config file present in the test project  
   
     -   Open the **QTAgent32_40.exe.config** file.  
   
@@ -36,7 +36,7 @@ Coded UI test logs filter and record important information about your coded UI t
   
          Save the file.  
   
--   Target .NET Framework version 4.5 with no App.config file present in the test project  
+- Target .NET Framework version 4.5 with no App.config file present in the test project  
   
     -   Open the **QTAgent32.exe.config** file.  
   
@@ -46,7 +46,7 @@ Coded UI test logs filter and record important information about your coded UI t
   
          Save the file.  
   
--   App.config file present in the test project  
+- App.config file present in the test project  
   
     -   Open App.config file in the project.  
   
@@ -54,7 +54,7 @@ Coded UI test logs filter and record important information about your coded UI t
   
          `<system.diagnostics>     <switches>       <add name="EqtTraceLevel" value="4" />     </switches>  </system.diagnostics>`  
   
--   Enable logging from the test code itself  
+- Enable logging from the test code itself  
   
     -   <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;  
   

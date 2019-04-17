@@ -35,15 +35,15 @@ Before you write code against an external component or connected service, your p
   
  You can make a reference to the following types of components/services:  
   
--   Windows Store app references  
+- Windows Store app references  
   
--   .NET Framework class libraries or assemblies  
+- .NET Framework class libraries or assemblies  
   
--   COM components  
+- COM components  
   
--   Other assemblies or class libraries of projects in the same solution  
+- Other assemblies or class libraries of projects in the same solution  
   
--   XML Web services  
+- XML Web services  
   
 ## Windows Store App References  
   
@@ -78,9 +78,9 @@ Before you write code against an external component or connected service, your p
 ## Adding a Reference at Design Time  
  When you make a reference to an assembly in your project, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] searches for the assembly in the following locations:  
   
--   The current project directory. (You can find these assemblies by using the **Browse** tab.)  
+- The current project directory. (You can find these assemblies by using the **Browse** tab.)  
   
--   Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)  
+- Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)  
   
 > [!NOTE]
 >  All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.  

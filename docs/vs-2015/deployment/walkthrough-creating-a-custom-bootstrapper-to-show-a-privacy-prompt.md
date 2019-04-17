@@ -31,7 +31,7 @@ You can configure ClickOnce applications to automatically update when assemblies
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Visual Studio 2010.  
+- Visual Studio 2010.  
   
 ## Creating an Update Consent Dialog Box  
  To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.  
@@ -137,11 +137,11 @@ You can configure ClickOnce applications to automatically update when assemblies
   
  This procedure demonstrates how to create a custom bootstrapper package by creating the following documents:  
   
--   A product.xml manifest file to describe the contents of the bootstrapper.  
+- A product.xml manifest file to describe the contents of the bootstrapper.  
   
--   A package.xml manifest file to list the localization-specific aspects of your package, such as strings and the software license terms.  
+- A package.xml manifest file to list the localization-specific aspects of your package, such as strings and the software license terms.  
   
--   A document for the software license terms.  
+- A document for the software license terms.  
   
 #### Step 1: To create the bootstrapper directory  
   

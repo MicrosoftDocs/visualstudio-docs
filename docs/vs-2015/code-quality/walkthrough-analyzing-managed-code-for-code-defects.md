@@ -23,11 +23,11 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
  In this walkthrough, you:  
   
--   Analyze and correct code defect warnings.  
+- Analyze and correct code defect warnings.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
+- [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
   
 ## Create a class library  
   

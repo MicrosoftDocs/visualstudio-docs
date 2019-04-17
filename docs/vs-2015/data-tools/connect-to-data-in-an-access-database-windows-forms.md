@@ -117,11 +117,11 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 ## Next Steps  
  The dataset that you just created is now available in the **Data Sources** window. You can now perform any of the following tasks:  
   
--   Select items in the **Data Sources** window and drag them onto your form (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)).  
+- Select items in the **Data Sources** window and drag them onto your form (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)).  
   
--   Open the data source in the Dataset Designer to add or edit the objects that make up the dataset.  
+- Open the data source in the Dataset Designer to add or edit the objects that make up the dataset.  
   
--   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../data-tools/validate-data-in-datasets.md)).  
+- Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../data-tools/validate-data-in-datasets.md)).  
   
 ## See Also
 

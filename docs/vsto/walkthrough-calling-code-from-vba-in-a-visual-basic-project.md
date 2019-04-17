@@ -29,15 +29,15 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating a document that contains VBA code.
+- Creating a document that contains VBA code.
 
--   Trusting the location of the document by using the Trust Center in Word.
+- Trusting the location of the document by using the Trust Center in Word.
 
--   Adding a method to the `ThisDocument` host item class.
+- Adding a method to the `ThisDocument` host item class.
 
--   Exposing the method to VBA code.
+- Exposing the method to VBA code.
 
--   Calling the method from VBA code.
+- Calling the method from VBA code.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -45,9 +45,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word
+- Microsoft Word
 
 ## Create a document that contains VBA code
  The first step is to create a macro-enabled document that contains a simple VBA macro. The document must contain a VBA project before you create a Visual Studio project that is based on that document. Otherwise, Visual Studio cannot modify the VBA project to enable VBA code to call into the customization assembly.
@@ -205,9 +205,9 @@ ms.workload:
 ## Next steps
  You can learn more about calling code in Office solutions from VBA in these topics:
 
--   Call code in a Visual C# customization from VBA. This process is different from the Visual Basic process. For more information, see [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md).
+- Call code in a Visual C# customization from VBA. This process is different from the Visual Basic process. For more information, see [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md).
 
--   Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
+- Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
 ## See also
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)

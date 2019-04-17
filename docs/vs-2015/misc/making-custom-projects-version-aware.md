@@ -132,9 +132,9 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
  When you write to the upgrade logger, consider the following guidelines:  
   
--   Visual Studio will call Flush after all projects have finished upgrading. Don’t call it in your project system.  
+- Visual Studio will call Flush after all projects have finished upgrading. Don’t call it in your project system.  
   
--   The LogMessage function has the following ErrorLevels:  
+- The LogMessage function has the following ErrorLevels:  
   
     -   0 is for any information that you’d like to trace.  
   
@@ -144,4 +144,4 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
     -   3 is for the Report formatter. When your project is upgraded, log the word “Converted” once, and don’t localize the word.  
   
--   If a project doesn’t require any repair or upgrade, Visual Studio will generate the log file only if the project system had logged a warning or an error during UpgradeProject_CheckOnly or UpgradeProjectFlavor_CheckOnly methods.
+- If a project doesn’t require any repair or upgrade, Visual Studio will generate the log file only if the project system had logged a warning or an error during UpgradeProject_CheckOnly or UpgradeProjectFlavor_CheckOnly methods.

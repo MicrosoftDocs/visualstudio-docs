@@ -38,24 +38,24 @@ When displaying data on forms in Windows applications, you can choose existing c
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+- Create a new **Windows Application**.  
   
--   Add a new **User Control** to your project.  
+- Add a new **User Control** to your project.  
   
--   Visually design the user control.  
+- Visually design the user control.  
   
--   Implement the `ComplexBindingProperty` attribute.  
+- Implement the `ComplexBindingProperty` attribute.  
   
--   Create a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Create a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
--   Set the **Customers** table in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) to use the new complex control.  
+- Set the **Customers** table in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) to use the new complex control.  
   
--   Add the new control by dragging it from the **Data Sources Window** onto **Form1**.  
+- Add the new control by dragging it from the **Data Sources Window** onto **Form1**.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.
+- Access to the Northwind sample database.
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
@@ -86,7 +86,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To design the ComplexDataGridView control  
   
--   Drag a <xref:System.Windows.Forms.DataGridView> from the **Toolbox** onto the user control's design surface.  
+- Drag a <xref:System.Windows.Forms.DataGridView> from the **Toolbox** onto the user control's design surface.  
   
 ## Add the required data-binding attribute  
  For complex controls that support data binding, you can implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>.  
@@ -149,20 +149,20 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To create data-bound controls on the form  
   
--   Drag the main **Customers** node from the **Data Sources** window onto the form.Verify that the **ComplexDataGridView** control is used to display the table's data.  
+- Drag the main **Customers** node from the **Data Sources** window onto the form.Verify that the **ComplexDataGridView** control is used to display the table's data.  
   
 ## Running the application  
   
 #### To run the application  
   
--   Press F5 to run the application.  
+- Press F5 to run the application.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a control that supports databinding. Some typical next steps include:  
   
--   Placing your custom controls in a control library so you can reuse them in other applications.  
+- Placing your custom controls in a control library so you can reuse them in other applications.  
   
--   Creating controls that support lookup scenarios. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).  
+- Creating controls that support lookup scenarios. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   

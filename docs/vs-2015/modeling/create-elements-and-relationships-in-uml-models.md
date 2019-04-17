@@ -119,9 +119,9 @@ anElement.Delete();
   
  When you delete an element from a model:  
   
--   Every relationship that links to it is also deleted.  
+- Every relationship that links to it is also deleted.  
   
--   Every shape that represented it on a diagram is also deleted.  
+- Every shape that represented it on a diagram is also deleted.  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   

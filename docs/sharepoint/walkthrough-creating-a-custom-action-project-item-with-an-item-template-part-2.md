@@ -19,13 +19,13 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Creating a wizard for a custom SharePoint project item type that is associated with an item template.
+- Creating a wizard for a custom SharePoint project item type that is associated with an item template.
 
--   Defining a custom wizard UI that resembles the built-in wizards for SharePoint project items in Visual Studio.
+- Defining a custom wizard UI that resembles the built-in wizards for SharePoint project items in Visual Studio.
 
--   Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
+- Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
 
--   Debugging and testing the wizard.
+- Debugging and testing the wizard.
 
 > [!NOTE]
 >  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.

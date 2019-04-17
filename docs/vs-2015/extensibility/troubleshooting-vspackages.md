@@ -19,7 +19,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ### To troubleshoot a VSPackage that keeps Visual Studio from starting  
   
--   Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in safe mode.  
+- Start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in safe mode.  
   
      To start [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in safe mode, at a command prompt, type **devenv.exe /safemode**.  
   

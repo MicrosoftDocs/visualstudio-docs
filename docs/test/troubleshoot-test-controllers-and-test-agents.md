@@ -64,17 +64,17 @@ You can control the level of logging on a test controller computer. This is usef
 
 This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
 
--   *QTController.exe.config* Conttoller service
+- *QTController.exe.config* Conttoller service
 
--   *QTAgentService.exe.config* Agent service
+- *QTAgentService.exe.config* Agent service
 
--   *QTDCAgent(32).exe.config* Agent data adapter process for 32-bit architecture.
+- *QTDCAgent(32).exe.config* Agent data adapter process for 32-bit architecture.
 
--   *QTDCAgent(64).exe.config* Agent data adapter process for 64-bit architecture.
+- *QTDCAgent(64).exe.config* Agent data adapter process for 64-bit architecture.
 
--   *QTAgent(32).exe.config* Agent test process for 32-bit architecture.
+- *QTAgent(32).exe.config* Agent test process for 32-bit architecture.
 
--   *QTAgent(64).exe.config* Agent test process for 64-bit architecture.
+- *QTAgent(64).exe.config* Agent test process for 64-bit architecture.
 
 ## Bind a test controller to a network adapter
 
@@ -129,7 +129,7 @@ To fix this error, you must bind the test controller to one of the network adapt
 
 ### To connect a test agent to a bound controller
 
--   Run the test agent installation again. This time, specify the IP address for the test controller instead of the test controller name.
+- Run the test agent installation again. This time, specify the IP address for the test controller instead of the test controller name.
 
 This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Set the logging level on a test controller computer](#set-the-logging-level-on-a-test-controller-computer).
 

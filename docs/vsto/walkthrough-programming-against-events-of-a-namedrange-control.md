@@ -25,11 +25,11 @@ ms.workload:
 
  During this walkthrough, you will learn how to:
 
--   Add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet.
+- Add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet.
 
--   Program against <xref:Microsoft.Office.Tools.Excel.NamedRange> control events.
+- Program against <xref:Microsoft.Office.Tools.Excel.NamedRange> control events.
 
--   Test your project.
+- Test your project.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -37,9 +37,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
  In this step, you will create an Excel workbook project using Visual Studio.
@@ -148,7 +148,7 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of programming against events of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control. Here is a task that might come next:
 
--   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

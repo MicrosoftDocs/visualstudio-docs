@@ -14,9 +14,9 @@ manager: jillfra
 
 You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
 
--   <xref:Microsoft.VisualStudio.TestTools.WebTesting>
+- <xref:Microsoft.VisualStudio.TestTools.WebTesting>
 
 Additionally, you need to add a reference to LoadTestPackage DLL, which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\Enterprise\Common7\IDE\PrivateAssemblies* folder.
 
@@ -298,7 +298,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ### To build the solution
 
--   On the **Build** menu, select **Build Solution**.
+- On the **Build** menu, select **Build Solution**.
 
 ## Register the WebPerfTestResultsViewerAddin add-in
 
@@ -330,9 +330,9 @@ In addition, this options page allows you to specify the folders in which Visual
 
  The settings in the options page for add-in security are as follows:
 
--   **Allow Add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
+- **Allow Add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
 
--   **Allow Add-in components to load from a URL.** Not selected by default. When selected, add-ins can be loaded from external websites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The *.Addin* registration files must always be located on the local system.
+- **Allow Add-in components to load from a URL.** Not selected by default. When selected, add-ins can be loaded from external websites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The *.Addin* registration files must always be located on the local system.
 
 ## See also
 

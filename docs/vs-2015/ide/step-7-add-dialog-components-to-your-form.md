@@ -48,6 +48,6 @@ Dialog components
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 8: Write Code for the Show a Picture Button Event Handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).  
+- To go to the next tutorial step, see [Step 8: Write Code for the Show a Picture Button Event Handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).  
   
--   To return to the previous tutorial step, see [Step 6: Name Your Button Controls](../ide/step-6-name-your-button-controls.md).
+- To return to the previous tutorial step, see [Step 6: Name Your Button Controls](../ide/step-6-name-your-button-controls.md).

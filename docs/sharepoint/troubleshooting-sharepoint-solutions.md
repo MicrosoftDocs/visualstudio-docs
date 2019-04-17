@@ -121,13 +121,13 @@ ms.workload:
 
 ### Error message
 
--   SharePoint site location is not valid.
+- SharePoint site location is not valid.
 
 ### Resolution
 
--   Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].
+- Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].
 
--   Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
+- Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
 
 ## Site deletion web event does not occur in event receiver project
  When you create an event receiver project and you select certain Web events such as "a site is being deleted," the event never occurs.
@@ -159,25 +159,25 @@ ms.workload:
 
 ### Error messages
 
--   \<*model name*> has the following External Content Type activation errors ...
+- \<*model name*> has the following External Content Type activation errors ...
 
--   The IMetadataObject with Name '\<*model name*>' has a value in Field 'name' that is duplicated ...
+- The IMetadataObject with Name '\<*model name*>' has a value in Field 'name' that is duplicated ...
 
 ### Resolution
  To resolve this issue, delete the model manually, and then deploy the solution again.  You can delete the model by using either of the following tools:
 
--   SharePoint 2010 Central Administration. For more information, see [BDC Model Management](http://go.microsoft.com/fwlink/?LinkID=181472) on the Microsoft TechNet Web site.
+- SharePoint 2010 Central Administration. For more information, see [BDC Model Management](http://go.microsoft.com/fwlink/?LinkID=181472) on the Microsoft TechNet Web site.
 
--   Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=182375) on the Microsoft TechNet Web site.
+- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=182375) on the Microsoft TechNet Web site.
 
 ## An error appears when you try to view a visual web part in SharePoint
  This problem occurs when the **Path** property of the user control does not begin with the string "CONTROLTEMPLATES\\".
 
 ### Error messages
 
--   The file '/_CONTROLTEMPLATES/*\<project name>*/*\<Web Part name>*/*\<user control name>*.ascx' does not exist.
+- The file '/_CONTROLTEMPLATES/*\<project name>*/*\<Web Part name>*/*\<user control name>*.ascx' does not exist.
 
--   Server Error in '/' Application.
+- Server Error in '/' Application.
 
 ### Resolution
 

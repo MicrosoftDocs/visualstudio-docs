@@ -33,11 +33,11 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Setting up the elements in the .vsct file  
  To create a menu controller with dynamic menu items on a toolbar, you specify the following elements:  
   
--   Two command groups, one that contains the menu controller and another that contains the menu items in the dropdown  
+- Two command groups, one that contains the menu controller and another that contains the menu items in the dropdown  
   
--   One menu element of type `MenuController`  
+- One menu element of type `MenuController`  
   
--   Two buttons, one that acts as the placeholder for the menu items and another that supplies the icon and the tooltip on the toolbar.  
+- Two buttons, one that acts as the placeholder for the menu items and another that supplies the icon and the tooltip on the toolbar.  
   
 1. In DynamicMenuPackage.vsct, define the command IDs. Go to the Symbols section and replace the IDSymbol elements in the **guidDynamicMenuPackageCmdSet** GuidSymbol block. You need to define IDSymbol elements for the two groups, the menu controller, the placeholder command, and the anchor command.  
   

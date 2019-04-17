@@ -129,9 +129,9 @@ A unit test project usually mirrors the structure of a single code project. In t
 
 Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
+- `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 
--   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
+- `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
 
 ## Write your tests
 
@@ -179,11 +179,11 @@ Note that `Withdraw_ValidAmount_ChangesBalance` uses an explicit `Assert` statem
 
 For more information about the Microsoft unit testing frameworks, see one of the following topics:
 
--   [Unit test your code](unit-test-your-code.md)
+- [Unit test your code](unit-test-your-code.md)
 
--   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
--   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## Set timeouts for unit tests
 

@@ -19,44 +19,44 @@ This topic contains information to help you resolve issues that you may experien
 
  This topic contains the following sections.
 
--   [Before you start](#BeforeYouStart)
+- [Before you start](#BeforeYouStart)
 
--   [Emulator fails to install](#NoInstall)
+- [Emulator fails to install](#NoInstall)
 
--   [Cannot connect to network destinations on a domain or corporate network](#DomainNetwork)
+- [Cannot connect to network destinations on a domain or corporate network](#DomainNetwork)
 
--   [Cannot connect to network destinations when network settings require manual configuration](#ManualNetworkConfig)
+- [Cannot connect to network destinations when network settings require manual configuration](#ManualNetworkConfig)
 
--   [Emulator starts slowly, fails to start due to a timeout, or app deployment fails](#SlowStart)
+- [Emulator starts slowly, fails to start due to a timeout, or app deployment fails](#SlowStart)
 
--   [Emulator fails to start](#NoStart2)
+- [Emulator fails to start](#NoStart2)
 
--   [Emulator fails to start (first use)](#NoStart)
+- [Emulator fails to start (first use)](#NoStart)
 
--   [Computer fails to boot after installing the Emulator](#NoBoot)
+- [Computer fails to boot after installing the Emulator](#NoBoot)
 
--   [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
+- [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
 
--   [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
+- [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
 
--   [Cannot attach debugger to a Xamarin project](#Skylake)
+- [Cannot attach debugger to a Xamarin project](#Skylake)
 
--   [Emulator fails to run app that uses Google Play Services](#GooglePlay)
+- [Emulator fails to run app that uses Google Play Services](#GooglePlay)
 
--   [Drag and Drop of a file, APK, or flashable zip file does not work](#DragAndDrop)
+- [Drag and Drop of a file, APK, or flashable zip file does not work](#DragAndDrop)
 
--   [Resolution of screenshot is incorrect](#Resolution)
+- [Resolution of screenshot is incorrect](#Resolution)
 
--   [Emulator fails to render OpenGL content](#OpenGL)
+- [Emulator fails to render OpenGL content](#OpenGL)
 
--   [Emulator does not respond to multi-touch gestures](#Multitouch)
+- [Emulator does not respond to multi-touch gestures](#Multitouch)
 
--   [Support Resources](#Support)
+- [Support Resources](#Support)
 
 ##  <a name="BeforeYouStart"></a> Before you start
  Before you begin troubleshooting, it may be useful to review the following topics:
 
--   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)
+- [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)
 
 ##  <a name="NoInstall"></a> Emulator fails to install
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.
@@ -97,22 +97,22 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="SlowStart"></a> Emulator starts slowly, fails to start due to a timeout, or app deployment fails
  Under certain conditions, the emulator takes several minutes to start or fails to start due to a timeout. When the emulator fails to start, you see the following message: `App deployment failed. Please try again`. The following conditions can result in this error.
 
--   Running the Visual Studio Emulator for Android from a bootable VHD. This configuration is not supported.
+- Running the Visual Studio Emulator for Android from a bootable VHD. This configuration is not supported.
 
--   A faulty hard drive. Consider running the chkdsk program.
+- A faulty hard drive. Consider running the chkdsk program.
 
--   A hard drive that needs to be defragmented. Consider defragmenting the drive.
+- A hard drive that needs to be defragmented. Consider defragmenting the drive.
 
--   A hard drive that is almost full. Check the space available on the drive.
+- A hard drive that is almost full. Check the space available on the drive.
 
--   Not enough memory is available because of other running applications. Reduce the number of applications that are consuming memory or increase the amount of memory.
+- Not enough memory is available because of other running applications. Reduce the number of applications that are consuming memory or increase the amount of memory.
 
--   Generally, any factor that is contributing to poor performance on the system. Begin troubleshooting with the component that has the lowest subscore in the Windows Experience Index, which you can find on the Performance Information and Tools page of Control Panel.
+- Generally, any factor that is contributing to poor performance on the system. Begin troubleshooting with the component that has the lowest subscore in the Windows Experience Index, which you can find on the Performance Information and Tools page of Control Panel.
 
 ##  <a name="NoStart2"></a> Emulator fails to start
  If the emulator was working previously, but does not work now, go through the following tasks. If you are using the emulator for the first time, see [Emulator fails to start (first use)](#NoStart) before you try these steps.
 
--   Remove any other Hyper-V instances of the emulator.
+- Remove any other Hyper-V instances of the emulator.
 
     1.  Close Visual Studio.
 
@@ -122,15 +122,15 @@ This topic contains information to help you resolve issues that you may experien
 
     4.  Reboot your machine.
 
--   Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes (for example, try closing any browser windows).
+- Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes (for example, try closing any browser windows).
 
--   In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
+- In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
 
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android-emu-v-switch-man.png "Android_Emu_V_Switch_Man")
 
      If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).
 
--   If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
+- If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
 
 ##  <a name="NoStart"></a> Emulator fails to start (first use)
  If the emulator does not start, go through the following tasks to identify and fix the issue.
@@ -305,6 +305,6 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="Support"></a> Support Resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
--   Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
+- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
 
--   Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.
+- Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.

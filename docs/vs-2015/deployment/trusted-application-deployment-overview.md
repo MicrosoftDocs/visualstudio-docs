@@ -72,9 +72,9 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
   
  If you are not deploying your application in a managed desktop environment, you have the following options for adding a certificate to the trusted publisher store:  
   
--   The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
+- The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
   
--   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](http://msdn.microsoft.com/library/7e953b43-1374-4bbc-814f-53ca1b6b52bb).  
+- CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](http://msdn.microsoft.com/library/7e953b43-1374-4bbc-814f-53ca1b6b52bb).  
   
 ### Create a ClickOnce Application  
  A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  

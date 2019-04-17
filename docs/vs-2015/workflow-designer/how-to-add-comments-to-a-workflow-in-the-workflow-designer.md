@@ -16,17 +16,17 @@ manager: jillfra
 # How to: Add comments to a workflow in the Workflow Designer
 To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](../includes/net-v45-md.md)] allows the developer to add annotations to the following types of item in the designer:  
   
--   <xref:System.Activities.Activity>  
+- <xref:System.Activities.Activity>  
   
--   <xref:System.Activities.Statements.State>  
+- <xref:System.Activities.Statements.State>  
   
--   <xref:System.Activities.Statements.Transition>  
+- <xref:System.Activities.Statements.Transition>  
   
--   Classes derived from <xref:System.Activities.Statements.FlowNode>  
+- Classes derived from <xref:System.Activities.Statements.FlowNode>  
   
--   <xref:System.Activities.Variable>  
+- <xref:System.Activities.Variable>  
   
--   <xref:System.Activities.Argument>  
+- <xref:System.Activities.Argument>  
   
 > [!IMPORTANT]
 >  The contents of an annotation are saved as plain text to the XAML file associated with the workflow, and could potentially be read by others. Be cautious when entering sensitive information into an annotation.  

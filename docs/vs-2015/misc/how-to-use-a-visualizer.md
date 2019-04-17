@@ -42,7 +42,7 @@ You can use a visualizer to display the contents of a variable or object in a wa
   
 ### To use a visualizer for managed code during remote debugging  
   
--   Copy the visualizer DLL to the remote computer before you start the debugging session.  
+- Copy the visualizer DLL to the remote computer before you start the debugging session.  
   
      The path to the DLL must be the same on both the remote and the local computers. This path can be either of the following locations:  
   

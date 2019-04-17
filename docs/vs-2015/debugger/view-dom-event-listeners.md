@@ -72,13 +72,13 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ###  <a name="Tips"></a> Tips for resolving issues with event listeners
  In some app scenarios, event listeners must be explicitly removed using [removeEventListener](http://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx). Use the **Events** tab in the DOM Explorer to test whether event listeners have been removed from DOM elements while running code. Here are some tips to help resolve these types of issues:
 
--   For apps that use the single-page navigation model implemented in the Visual Studio [project templates](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), it's not typically necessary to remove event listeners registered for objects, such as DOM elements, that are part of a page. In this scenario, a DOM element and its associated event listeners have the same lifetime, and they can be garbage-collected.
+- For apps that use the single-page navigation model implemented in the Visual Studio [project templates](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), it's not typically necessary to remove event listeners registered for objects, such as DOM elements, that are part of a page. In this scenario, a DOM element and its associated event listeners have the same lifetime, and they can be garbage-collected.
 
--   If the lifetime of the DOM element or object is different from the associated event listener, you might have to call the `removeEventListener` method. For example, if you use the `window.onresize` event, you might have to remove the event listener if you navigate away from the page where you handle the event.
+- If the lifetime of the DOM element or object is different from the associated event listener, you might have to call the `removeEventListener` method. For example, if you use the `window.onresize` event, you might have to remove the event listener if you navigate away from the page where you handle the event.
 
--   If `removeEventListener` fails to remove the specified listener, it might be getting called on a different instance of the object. You can use the [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) method to resolve this issue when you add the listener.
+- If `removeEventListener` fails to remove the specified listener, it might be getting called on a different instance of the object. You can use the [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) method to resolve this issue when you add the listener.
 
--   To remove an event listener that was added by using either [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:
+- To remove an event listener that was added by using either [bind Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:
 
     ```javascript
     // You could use the following code within the constructor function of an object, or
@@ -98,9 +98,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     elem.addEventListener('mouseup', this._handlerFunc.bind(this));
     ```
 
--   You can't remove an event listener by using `removeEventListener` if you added it by using the `obj.on<eventname>` attribute, such as `window.onresize = handlerFunc`.
+- You can't remove an event listener by using `removeEventListener` if you added it by using the `obj.on<eventname>` attribute, such as `window.onresize = handlerFunc`.
 
--   Use the JavaScript memory analyzer to [JavaScript Memory](../profiling/javascript-memory.md) in your app. Event listeners that must be explicitly removed might appear as a memory leak.
+- Use the JavaScript memory analyzer to [JavaScript Memory](../profiling/javascript-memory.md) in your app. Event listeners that must be explicitly removed might appear as a memory leak.
 
 ## See Also
 

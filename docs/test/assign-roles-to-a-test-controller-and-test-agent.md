@@ -21,9 +21,9 @@ This walkthrough demonstrates how to create and configure a test setting that us
 
 ## Prerequisites
 
--   Create unit tests or coded UI tests to run with the test setting.
+- Create unit tests or coded UI tests to run with the test setting.
 
--   Install a test controller and test agents. For information about how to install a test controller and test agents, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+- Install a test controller and test agents. For information about how to install a test controller and test agents, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
 ## To create and configure a test setting
 

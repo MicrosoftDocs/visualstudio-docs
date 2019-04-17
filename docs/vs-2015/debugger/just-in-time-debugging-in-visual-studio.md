@@ -172,19 +172,19 @@ static void Main(string[] args)
 
  You might see the following error messages that are associated with Just-In-Time debugging.
 
--   **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
+- **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
 
      This error occurs when you try to attach to a process running as another user.
 
      To work around this problem, start Visual Studio, open the **Attach to Process** dialog box from the **Debug** menu, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, look at the **Visual Studio Just-In-Time Debugger** dialog and note the process ID. Select the process in the **Available Processes** list and click **Attach**. In the **Visual Studio Just-In-Time Debugger** dialog, click **No** to dismiss the dialog box.
 
--   **Debugger could not be started because no user is logged on.**
+- **Debugger could not be started because no user is logged on.**
 
      This error occurs when Just-In-Time debugging tries to start Visual Studio on a machine where there is no user logged onto the console. Because no user is logged on, there is no user session to display the Just-In-Time debugging dialog box.
 
      To fix this problem, log onto the machine.
 
--   **Class not registered.**
+- **Class not registered.**
 
      This error indicates that the debugger tried to create a COM class that is not registered, probably due to an installation problem.
 

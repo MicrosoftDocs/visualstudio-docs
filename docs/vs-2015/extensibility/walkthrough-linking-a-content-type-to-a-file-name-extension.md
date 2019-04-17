@@ -67,7 +67,7 @@ You can define your own content type and link a file name extension to it by usi
   
 ## Linking a File Name Extension to a Content Type  
   
--   To map this content type to a file name extension, export a <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> that has the extension ".hid" and the content type "hid".  
+- To map this content type to a file name extension, export a <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> that has the extension ".hid" and the content type "hid".  
   
     ```csharp  
     internal static class FileAndContentTypeDefinitions  

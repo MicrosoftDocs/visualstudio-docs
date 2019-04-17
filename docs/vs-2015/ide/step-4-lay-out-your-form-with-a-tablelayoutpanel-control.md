@@ -84,6 +84,6 @@ Form1 with resized TableLayoutPanel
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 5: Add Controls to Your Form](../ide/step-5-add-controls-to-your-form.md).  
+- To go to the next tutorial step, see [Step 5: Add Controls to Your Form](../ide/step-5-add-controls-to-your-form.md).  
   
--   To return to the previous tutorial step, see [Step 3: Set Your Form Properties](../ide/step-3-set-your-form-properties.md).
+- To return to the previous tutorial step, see [Step 3: Set Your Form Properties](../ide/step-3-set-your-form-properties.md).

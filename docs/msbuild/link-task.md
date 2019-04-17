@@ -37,7 +37,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 ## Parameters
  The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
--   **AdditionalDependencies**
+- **AdditionalDependencies**
 
      Optional **String[]** parameter.
 
@@ -45,7 +45,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [LINK input files](/cpp/build/reference/link-input-files).
 
--   **AdditionalLibraryDirectories**
+- **AdditionalLibraryDirectories**
 
      Optional **String[]** parameter.
 
@@ -53,7 +53,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/LIBPATH (Additional Libpath)](/cpp/build/reference/libpath-additional-libpath).
 
--   **AdditionalManifestDependencies**
+- **AdditionalManifestDependencies**
 
      Optional **String[]** parameter.
 
@@ -61,7 +61,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/windows/desktop/SbsCs/publisher-configuration-files).
 
--   **AdditionalOptions**
+- **AdditionalOptions**
 
      Optional **String** parameter.
 
@@ -69,7 +69,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [Linker options](/cpp/build/reference/linker-options).
 
--   **AddModuleNamesToAssembly**
+- **AddModuleNamesToAssembly**
 
      Optional **String[]** parameter.
 
@@ -77,7 +77,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ASSEMBLYMODULE (Add a MSIL module to the assembly)](/cpp/build/reference/assemblymodule-add-a-msil-module-to-the-assembly).
 
--   **AllowIsolation**
+- **AllowIsolation**
 
      Optional **Boolean** parameter.
 
@@ -85,7 +85,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ALLOWISOLATION (Manifest lookup)](/cpp/build/reference/allowisolation-manifest-lookup).
 
--   **AssemblyDebug**
+- **AssemblyDebug**
 
      Optional **Boolean** parameter.
 
@@ -93,7 +93,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ASSEMBLYDEBUG (Add DebuggableAttribute)](/cpp/build/reference/assemblydebug-add-debuggableattribute).
 
--   **AssemblyLinkResource**
+- **AssemblyLinkResource**
 
      Optional **String[]** parameter.
 
@@ -101,13 +101,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ASSEMBLYLINKRESOURCE (Link to .NET Framework resource)](/cpp/build/reference/assemblylinkresource-link-to-dotnet-framework-resource).
 
--   **AttributeFileTracking**
+- **AttributeFileTracking**
 
      Implicit **Boolean** parameter.
 
      Enables deeper file tracking to capture link incremental's behavior. Always returns `true`.
 
--   **BaseAddress**
+- **BaseAddress**
 
      Optional **String** parameter.
 
@@ -115,7 +115,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/BASE (Base address)](/cpp/build/reference/base-base-address).
 
--   **BuildingInIDE**
+- **BuildingInIDE**
 
      Optional **Boolean** parameter.
 
@@ -123,7 +123,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      This parameter has no equivalent linker option.
 
--   **CLRImageType**
+- **CLRImageType**
 
      Optional **String** parameter.
 
@@ -141,7 +141,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/CLRIMAGETYPE (Specify type of CLR image)](/cpp/build/reference/clrimagetype-specify-type-of-clr-image).
 
--   **CLRSupportLastError**
+- **CLRSupportLastError**
 
      Optional **String** parameter.
 
@@ -157,7 +157,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/CLRSUPPORTLASTERROR (Preserve last error code for PInvoke calls)](/cpp/build/reference/clrsupportlasterror-preserve-last-error-code-for-pinvoke-calls).
 
--   **CLRThreadAttribute**
+- **CLRThreadAttribute**
 
      Optional **String** parameter.
 
@@ -173,7 +173,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/CLRTHREADATTRIBUTE (Set CLR thread attribute)](/cpp/build/reference/clrthreadattribute-set-clr-thread-attribute).
 
--   **CLRUnmanagedCodeCheck**
+- **CLRUnmanagedCodeCheck**
 
      Optional **Boolean** parameter.
 
@@ -181,7 +181,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/CLRUNMANAGEDCODECHECK (Add SuppressUnmanagedCodeSecurityAttribute)](/cpp/build/reference/clrunmanagedcodecheck-add-suppressunmanagedcodesecurityattribute).
 
--   **CreateHotPatchableImage**
+- **CreateHotPatchableImage**
 
      Optional **String** parameter.
 
@@ -199,7 +199,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/FUNCTIONPADMIN (Create hotpatchable image)](/cpp/build/reference/functionpadmin-create-hotpatchable-image).
 
--   **DataExecutionPrevention**
+- **DataExecutionPrevention**
 
      Optional **Boolean** parameter.
 
@@ -207,7 +207,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NXCOMPAT (Compatible with Data Execution Prevention)](/cpp/build/reference/nxcompat-compatible-with-data-execution-prevention).
 
--   **DelayLoadDLLs**
+- **DelayLoadDLLs**
 
      Optional **String[]** parameter.
 
@@ -215,7 +215,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DELAYLOAD (Delay load import)](/cpp/build/reference/delayload-delay-load-import).
 
--   **DelaySign**
+- **DelaySign**
 
      Optional **Boolean** parameter.
 
@@ -223,7 +223,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DELAYSIGN (Partially sign an assembly)](/cpp/build/reference/delaysign-partially-sign-an-assembly).
 
--   **Driver**
+- **Driver**
 
      Optional **String** parameter.
 
@@ -241,7 +241,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/DRIVER (Windows NT kernel mode driver)](/cpp/build/reference/driver-windows-nt-kernel-mode-driver).
 
--   **EmbedManagedResourceFile**
+- **EmbedManagedResourceFile**
 
      Optional **String[]** parameter.
 
@@ -249,7 +249,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ASSEMBLYRESOURCE (Embed a managed resource)](/cpp/build/reference/assemblyresource-embed-a-managed-resource).
 
--   **EnableCOMDATFolding**
+- **EnableCOMDATFolding**
 
      Optional **Boolean** parameter.
 
@@ -257,7 +257,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `ICF[= iterations]` argument of [/OPT (Optimizations)](/cpp/build/reference/opt-optimizations).
 
--   **EnableUAC**
+- **EnableUAC**
 
      Optional **Boolean** parameter.
 
@@ -265,7 +265,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 
--   **EntryPointSymbol**
+- **EntryPointSymbol**
 
      Optional **String** parameter.
 
@@ -273,7 +273,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ENTRY (Entry-point symbol)](/cpp/build/reference/entry-entry-point-symbol).
 
--   **FixedBaseAddress**
+- **FixedBaseAddress**
 
      Optional **Boolean** parameter.
 
@@ -281,7 +281,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/FIXED (Fixed base address)](/cpp/build/reference/fixed-fixed-base-address).
 
--   **ForceFileOutput**
+- **ForceFileOutput**
 
      Optional **String** parameter.
 
@@ -297,7 +297,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/FORCE (Force file output)](/cpp/build/reference/force-force-file-output).
 
--   **ForceSymbolReferences**
+- **ForceSymbolReferences**
 
      Optional **String[]** parameter.
 
@@ -305,7 +305,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/INCLUDE (Force symbol references)](/cpp/build/reference/include-force-symbol-references).
 
--   **FunctionOrder**
+- **FunctionOrder**
 
      Optional **String** parameter.
 
@@ -313,7 +313,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ORDER (Put functions in order)](/cpp/build/reference/order-put-functions-in-order).
 
--   **GenerateDebugInformation**
+- **GenerateDebugInformation**
 
      Optional **Boolean** parameter.
 
@@ -321,7 +321,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DEBUG (Generate debug info)](/cpp/build/reference/debug-generate-debug-info).
 
--   **GenerateManifest**
+- **GenerateManifest**
 
      Optional **Boolean** parameter.
 
@@ -329,7 +329,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MANIFEST (Create side-by-side assembly manifest)](/cpp/build/reference/manifest-create-side-by-side-assembly-manifest).
 
--   **GenerateMapFile**
+- **GenerateMapFile**
 
      Optional **Boolean** parameter.
 
@@ -337,7 +337,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MAP (Generate mapfile)](/cpp/build/reference/map-generate-mapfile).
 
--   **HeapCommitSize**
+- **HeapCommitSize**
 
      Optional **String** parameter.
 
@@ -345,7 +345,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `commit` argument in [/HEAP (Set heap size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapReserveSize** parameter.
 
--   **HeapReserveSize**
+- **HeapReserveSize**
 
      Optional **String** parameter.
 
@@ -353,7 +353,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `reserve` argument in [/HEAP (Set heap size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapCommitSize** parameter in this table.
 
--   **IgnoreAllDefaultLibraries**
+- **IgnoreAllDefaultLibraries**
 
      Optional **Boolean** parameter.
 
@@ -361,7 +361,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NODEFAULTLIB (Ignore libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).
 
--   **IgnoreEmbeddedIDL**
+- **IgnoreEmbeddedIDL**
 
      Optional **Boolean** parameter.
 
@@ -369,7 +369,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/IGNOREIDL (Don't process attributes into MIDL)](/cpp/build/reference/ignoreidl-don-t-process-attributes-into-midl).
 
--   **IgnoreImportLibrary**
+- **IgnoreImportLibrary**
 
      Optional **Boolean** parameter.
 
@@ -377,7 +377,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      This parameter does not correspond to a linker option.
 
--   **IgnoreSpecificDefaultLibraries**
+- **IgnoreSpecificDefaultLibraries**
 
      Optional **String[]** parameter.
 
@@ -385,7 +385,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NODEFAULTLIB (Ignore libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).
 
--   **ImageHasSafeExceptionHandlers**
+- **ImageHasSafeExceptionHandlers**
 
      Optional **Boolean** parameter.
 
@@ -393,13 +393,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/SAFESEH (Image has safe exception handlers)](/cpp/build/reference/safeseh-image-has-safe-exception-handlers).
 
--   **ImportLibrary**
+- **ImportLibrary**
 
      A user-specified import library name that replaces the default library name.
 
      For more information, see [/IMPLIB (Name import library)](/cpp/build/reference/implib-name-import-library).
 
--   **KeyContainer**
+- **KeyContainer**
 
      Optional **String** parameter.
 
@@ -407,7 +407,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/KEYCONTAINER (Specify a key container to sign an assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly). Also, see the **KeyFile** parameter in this table.
 
--   **KeyFile**
+- **KeyFile**
 
      Optional **String** parameter.
 
@@ -415,7 +415,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/KEYFILE (Specify key or key pair to sign an assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly). Also, see the **KeyContainer** parameter.
 
--   **LargeAddressAware**
+- **LargeAddressAware**
 
      Optional **Boolean** parameter.
 
@@ -423,7 +423,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/LARGEADDRESSAWARE (Handle large addresses)](/cpp/build/reference/largeaddressaware-handle-large-addresses).
 
--   **LinkDLL**
+- **LinkDLL**
 
      Optional **Boolean** parameter.
 
@@ -431,7 +431,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DLL (Build a DLL)](/cpp/build/reference/dll-build-a-dll).
 
--   **LinkErrorReporting**
+- **LinkErrorReporting**
 
      Optional **String** parameter.
 
@@ -449,7 +449,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/ERRORREPORT (Report internal linker errors)](/cpp/build/reference/errorreport-report-internal-linker-errors).
 
--   **LinkIncremental**
+- **LinkIncremental**
 
      Optional **Boolean** parameter.
 
@@ -457,7 +457,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/INCREMENTAL (Link incrementally)](/cpp/build/reference/incremental-link-incrementally).
 
--   **LinkLibraryDependencies**
+- **LinkLibraryDependencies**
 
      Optional **Boolean** parameter.
 
@@ -465,7 +465,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      This parameter does not correspond to a linker option.
 
--   **LinkStatus**
+- **LinkStatus**
 
      Optional **Boolean** parameter.
 
@@ -473,7 +473,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `STATUS` argument of [/LTCG (Link-time code generation)](/cpp/build/reference/ltcg-link-time-code-generation).
 
--   **LinkTimeCodeGeneration**
+- **LinkTimeCodeGeneration**
 
      Optional **String** parameter.
 
@@ -495,7 +495,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/LTCG (Link-time code generation)](/cpp/build/reference/ltcg-link-time-code-generation).
 
--   **ManifestFile**
+- **ManifestFile**
 
      Optional **String** parameter.
 
@@ -503,7 +503,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MANIFESTFILE (Name manifest file)](/cpp/build/reference/manifestfile-name-manifest-file).
 
--   **MapExports**
+- **MapExports**
 
      Optional **Boolean** parameter.
 
@@ -511,13 +511,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `EXPORTS` argument of [/MAPINFO (Include information in mapfile)](/cpp/build/reference/mapinfo-include-information-in-mapfile).
 
--   **MapFileName**
+- **MapFileName**
 
      Optional **String** parameter.
 
      Changes the default map file name to the specified file name.
 
--   **MergedIDLBaseFileName**
+- **MergedIDLBaseFileName**
 
      Optional **String** parameter.
 
@@ -525,7 +525,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/IDLOUT (Name MIDL output files)](/cpp/build/reference/idlout-name-midl-output-files).
 
--   **MergeSections**
+- **MergeSections**
 
      Optional **String** parameter.
 
@@ -533,7 +533,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MERGE (Combine sections)](/cpp/build/reference/merge-combine-sections).
 
--   **MidlCommandFile**
+- **MidlCommandFile**
 
      Optional **String** parameter.
 
@@ -541,13 +541,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/MIDL (Specify MIDL command line options)](/cpp/build/reference/midl-specify-midl-command-line-options).
 
--   **MinimumRequiredVersion**
+- **MinimumRequiredVersion**
 
      Optional **String** parameter.
 
      Specifies the minimum required version of the subsystem. The arguments are decimal numbers in the range 0 through 65535.
 
--   **ModuleDefinitionFile**
+- **ModuleDefinitionFile**
 
      Optional **String** parameter.
 
@@ -555,7 +555,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DEF (Specify module-definition file)](/cpp/build/reference/def-specify-module-definition-file).
 
--   **MSDOSStubFileName**
+- **MSDOSStubFileName**
 
      Optional **String** parameter.
 
@@ -563,7 +563,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/STUB (MS-DOS stub file name)](/cpp/build/reference/stub-ms-dos-stub-file-name).
 
--   **NoEntryPoint**
+- **NoEntryPoint**
 
      Optional **Boolean** parameter.
 
@@ -571,13 +571,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NOENTRY (No entry point)](/cpp/build/reference/noentry-no-entry-point).
 
--   **ObjectFiles**
+- **ObjectFiles**
 
      Implicit **String[]** parameter.
 
      Specifies the object files that are linked.
 
--   **OptimizeReferences**
+- **OptimizeReferences**
 
      Optional **Boolean** parameter.
 
@@ -585,7 +585,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `REF` argument in [/OPT (Optimizations)](/cpp/build/reference/opt-optimizations).
 
--   **OutputFile**
+- **OutputFile**
 
      Optional **String** parameter.
 
@@ -593,19 +593,19 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/OUT (Output file name)](/cpp/build/reference/out-output-file-name).
 
--   **PerUserRedirection**
+- **PerUserRedirection**
 
      Optional **Boolean** parameter.
 
      If `true` and Register Output is enabled, forces registry writes to **HKEY_CLASSES_ROOT** to be redirected to **HKEY_CURRENT_USER**.
 
--   **PreprocessOutput**
+- **PreprocessOutput**
 
      Optional `ITaskItem[]` parameter.
 
      Defines an array of preprocessor output items that can be consumed and emitted by tasks.
 
--   **PreventDllBinding**
+- **PreventDllBinding**
 
      Optional **Boolean** parameter.
 
@@ -613,7 +613,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ALLOWBIND (Prevent DLL binding)](/cpp/build/reference/allowbind-prevent-dll-binding).
 
--   **Profile**
+- **Profile**
 
      Optional **Boolean** parameter.
 
@@ -621,7 +621,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/PROFILE (Performance Tools profiler)](/cpp/build/reference/profile-performance-tools-profiler).
 
--   **ProfileGuidedDatabase**
+- **ProfileGuidedDatabase**
 
      Optional **String** parameter.
 
@@ -629,7 +629,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/PGD (Specify database for profile-guided optimizations)](/cpp/build/reference/pgd-specify-database-for-profile-guided-optimizations).
 
--   **ProgramDatabaseFile**
+- **ProgramDatabaseFile**
 
      Optional **String** parameter.
 
@@ -637,7 +637,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/PDB (Use program database)](/cpp/build/reference/pdb-use-program-database).
 
--   **RandomizedBaseAddress**
+- **RandomizedBaseAddress**
 
      Optional **Boolean** parameter.
 
@@ -645,13 +645,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/DYNAMICBASE (Use address space layout randomization)](/cpp/build/reference/dynamicbase-use-address-space-layout-randomization).
 
--   **RegisterOutput**
+- **RegisterOutput**
 
      Optional **Boolean** parameter.
 
      If `true`, registers the primary output of this build.
 
--   **SectionAlignment**
+- **SectionAlignment**
 
      Optional **Integer** parameter.
 
@@ -659,7 +659,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/ALIGN (Section alignment)](/cpp/build/reference/align-section-alignment).
 
--   **SetChecksum**
+- **SetChecksum**
 
      Optional **Boolean** parameter.
 
@@ -667,7 +667,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/RELEASE (Set the checksum)](/cpp/build/reference/release-set-the-checksum).
 
--   **ShowProgress**
+- **ShowProgress**
 
      Optional **String** parameter.
 
@@ -691,13 +691,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/VERBOSE (Print progress messages)](/cpp/build/reference/verbose-print-progress-messages).
 
--   **Sources**
+- **Sources**
 
      Required `ITaskItem[]` parameter.
 
      Defines an array of MSBuild source file items that can be consumed and emitted by tasks.
 
--   **SpecifySectionAttributes**
+- **SpecifySectionAttributes**
 
      Optional **String** parameter.
 
@@ -705,7 +705,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/SECTION (Specify section attributes)](/cpp/build/reference/section-specify-section-attributes).
 
--   **StackCommitSize**
+- **StackCommitSize**
 
      Optional **String** parameter.
 
@@ -713,7 +713,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `commit` argument of [/STACK (Stack allocations)](/cpp/build/reference/stack-stack-allocations).
 
--   **StackReserveSize**
+- **StackReserveSize**
 
      Optional **String** parameter.
 
@@ -721,7 +721,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `reserve` argument of [/STACK (Stack allocations)](/cpp/build/reference/stack-stack-allocations).
 
--   **StripPrivateSymbols**
+- **StripPrivateSymbols**
 
      Optional **String** parameter.
 
@@ -729,7 +729,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/PDBSTRIPPED (Strip private symbols)](/cpp/build/reference/pdbstripped-strip-private-symbols).
 
--   **SubSystem**
+- **SubSystem**
 
      Optional **String** parameter.
 
@@ -759,7 +759,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/SUBSYSTEM (Specify subsystem)](/cpp/build/reference/subsystem-specify-subsystem).
 
--   **SupportNobindOfDelayLoadedDLL**
+- **SupportNobindOfDelayLoadedDLL**
 
      Optional **Boolean** parameter.
 
@@ -767,7 +767,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `NOBIND` argument of [/DELAY (Delay load import settings)](/cpp/build/reference/delay-delay-load-import-settings).
 
--   **SupportUnloadOfDelayLoadedDLL**
+- **SupportUnloadOfDelayLoadedDLL**
 
      Optional **Boolean** parameter.
 
@@ -775,7 +775,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `UNLOAD` argument of [/DELAY (Delay load import settings)](/cpp/build/reference/delay-delay-load-import-settings).
 
--   **SuppressStartupBanner**
+- **SuppressStartupBanner**
 
      Optional **Boolean** parameter.
 
@@ -783,7 +783,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NOLOGO (Suppress startup banner) (linker)](/cpp/build/reference/nologo-suppress-startup-banner-linker).
 
--   **SwapRunFromCD**
+- **SwapRunFromCD**
 
      Optional **Boolean** parameter.
 
@@ -791,7 +791,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `CD` argument of [/SWAPRUN (Load linker output to swap file)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromNET** parameter.
 
--   **SwapRunFromNET**
+- **SwapRunFromNET**
 
      Optional **Boolean** parameter.
 
@@ -799,7 +799,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `NET` argument of [/SWAPRUN (Load linker output to swap file)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromCD** parameter in this table.
 
--   **TargetMachine**
+- **TargetMachine**
 
      Optional **String** parameter.
 
@@ -833,7 +833,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see [/MACHINE (Specify target platform)](/cpp/build/reference/machine-specify-target-platform).
 
--   **TerminalServerAware**
+- **TerminalServerAware**
 
      Optional **Boolean** parameter.
 
@@ -841,13 +841,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/TSAWARE (Create Terminal Server aware application)](/cpp/build/reference/tsaware-create-terminal-server-aware-application).
 
--   **TrackerLogDirectory**
+- **TrackerLogDirectory**
 
      Optional **String** parameter.
 
      Specifies the directory of the tracker log.
 
--   **TreatLinkerWarningAsErrors**
+- **TreatLinkerWarningAsErrors**
 
      Optional **Boolean** parameter.
 
@@ -855,7 +855,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/WX (Treat linker warnings as errors)](/cpp/build/reference/wx-treat-linker-warnings-as-errors).
 
--   **TurnOffAssemblyGeneration**
+- **TurnOffAssemblyGeneration**
 
      Optional **Boolean** parameter.
 
@@ -863,7 +863,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/NOASSEMBLY (Create a MSIL module)](/cpp/build/reference/noassembly-create-a-msil-module).
 
--   **TypeLibraryFile**
+- **TypeLibraryFile**
 
      Optional **String** parameter.
 
@@ -871,7 +871,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/TLBOUT (Name .tlb file)](/cpp/build/reference/tlbout-name-dot-tlb-file).
 
--   **TypeLibraryResourceID**
+- **TypeLibraryResourceID**
 
      Optional **Integer** parameter.
 
@@ -879,7 +879,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see [/TLBID (Specify resource ID for TypeLib)](/cpp/build/reference/tlbid-specify-resource-id-for-typelib).
 
--   **UACExecutionLevel**
+- **UACExecutionLevel**
 
      Optional **String** parameter.
 
@@ -895,7 +895,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
     For more information, see the `level` argument of [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 
--   **UACUIAccess**
+- **UACUIAccess**
 
      Optional **Boolean** parameter.
 
@@ -903,13 +903,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      For more information, see the `uiAccess` argument of [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 
--   **UseLibraryDependencyInputs**
+- **UseLibraryDependencyInputs**
 
      Optional **Boolean** parameter.
 
      If `true`, the inputs to the librarian tool are used rather than the library file itself when library outputs of project dependencies are linked in.
 
--   **Version**
+- **Version**
 
      Optional **String** parameter.
 

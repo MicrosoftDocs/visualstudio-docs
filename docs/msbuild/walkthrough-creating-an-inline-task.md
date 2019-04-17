@@ -17,13 +17,13 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 
  This walkthrough shows how to create and run these inline tasks:
 
--   A task that has no input or output parameters.
+- A task that has no input or output parameters.
 
--   A task that has one input parameter and no output parameters.
+- A task that has one input parameter and no output parameters.
 
--   A task that has two input parameters, and one output parameter that returns an MSBuild property.
+- A task that has two input parameters, and one output parameter that returns an MSBuild property.
 
--   A task that has two input parameters, and one output parameter that returns an MSBuild item.
+- A task that has two input parameters, and one output parameter that returns an MSBuild item.
 
 To create and run the tasks, use Visual Studio and the **Visual Studio Command Prompt Window**, as follows:
 

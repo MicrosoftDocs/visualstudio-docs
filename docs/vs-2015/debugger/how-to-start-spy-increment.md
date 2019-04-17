@@ -24,7 +24,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
   
 ### To start Spy++ from Visual Studio  
   
--   On the **Tools** menu, click **Spy++**.  
+- On the **Tools** menu, click **Spy++**.  
   
      Because Spy++ runs independently, after you start it, you can close Visual Studio.  
   

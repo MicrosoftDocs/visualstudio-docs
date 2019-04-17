@@ -19,9 +19,9 @@ ms.workload:
 
  To inspect and debug `WebView` controls in a Windows Runtime app, you can configure Visual Studio to attach the script debugger when you start your app. You have two ways to interact with `WebView` controls using the debugger:
 
--   Open the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md) for a `WebView` instance, and inspect DOM elements, investigate CSS style issues, and test dynamically rendered changes to styles.
+- Open the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md) for a `WebView` instance, and inspect DOM elements, investigate CSS style issues, and test dynamically rendered changes to styles.
 
--   Select the webpage or `iFrame` displayed in the `WebView` instance as a target in the [JavaScript Console](../debugger/javascript-console-commands.md) window, and then interact with the webpage using console commands. The console provides access to the current script execution context.
+- Select the webpage or `iFrame` displayed in the `WebView` instance as a target in the [JavaScript Console](../debugger/javascript-console-commands.md) window, and then interact with the webpage using console commands. The console provides access to the current script execution context.
 
 ### Attach the debugger (C#, Visual Basic, C++)
 

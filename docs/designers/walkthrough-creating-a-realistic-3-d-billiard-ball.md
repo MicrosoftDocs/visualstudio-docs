@@ -17,11 +17,11 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
 You need the following components and skills to complete this walkthrough:
 
--   A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.
+- A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.
 
--   Familiarity with the Image Editor in Visual Studio.
+- Familiarity with the Image Editor in Visual Studio.
 
--   Familiarity with the Shader Designer in Visual Studio.
+- Familiarity with the Shader Designer in Visual Studio.
 
 ## Create the basic appearance with shape and texture
 

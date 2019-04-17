@@ -49,6 +49,6 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).
+- To go to the next tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).
 
--   To return to the previous tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
+- To return to the previous tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).

@@ -182,6 +182,6 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).
+- To go to the next tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).
 
--   To return to the overview topic, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+- To return to the overview topic, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).

@@ -52,17 +52,17 @@ To make sure that code doesn't conflict with its design, validate your code with
 > [!IMPORTANT]
 >  If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.  
   
--   [See if an item supports validation](#SupportsValidation)  
+- [See if an item supports validation](#SupportsValidation)  
   
--   [Include other .NET assemblies and projects for validation](#IncludeReferences)  
+- [Include other .NET assemblies and projects for validation](#IncludeReferences)  
   
--   [Validate code manually](#ValidateManually)  
+- [Validate code manually](#ValidateManually)  
   
--   [Validate code automatically](#ValidateAuto)  
+- [Validate code automatically](#ValidateAuto)  
   
--   [Troubleshoot layer validation issues](#TroubleshootingValidation)  
+- [Troubleshoot layer validation issues](#TroubleshootingValidation)  
   
--   [Understand and resolve layer validation errors](#UnderstandingValidationErrors)  
+- [Understand and resolve layer validation errors](#UnderstandingValidationErrors)  
   
 ##  <a name="SupportsValidation"></a> See if an item supports validation  
  You can link layers to Web sites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.  
@@ -159,7 +159,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 #### To validate code automatically during a local build  
   
--   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:  
+- Use a text editor to open the modeling project (.modelproj) file, and then include the following property:  
   
 ```  
 <ValidateArchitecture>true</ValidateArchitecture>  
@@ -191,15 +191,15 @@ To make sure that code doesn't conflict with its design, validate your code with
   
    For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../includes/esprbuild-md.md)], see:  
   
--   [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
--   [Use the Default Template for your build process](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
+- [Use the Default Template for your build process](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
   
--   [Modify a Legacy Build that is Based on UpgradeTemplate.xaml](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
+- [Modify a Legacy Build that is Based on UpgradeTemplate.xaml](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
   
--   [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
--   [Monitor Progress of a Running Build](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
+- [Monitor Progress of a Running Build](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
   
 ##  <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues  
  The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  

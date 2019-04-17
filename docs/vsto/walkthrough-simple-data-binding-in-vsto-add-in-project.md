@@ -23,11 +23,11 @@ You can bind data to host controls and Windows Forms controls in VSTO Add-in pro
 
 This walkthrough illustrates the following tasks:
 
--   Adding a <xref:Microsoft.Office.Tools.Word.ContentControl> to a document at runtime.
+- Adding a <xref:Microsoft.Office.Tools.Word.ContentControl> to a document at runtime.
 
--   Creating a <xref:System.Windows.Forms.BindingSource> that connects the control to an instance of a dataset.
+- Creating a <xref:System.Windows.Forms.BindingSource> that connects the control to an instance of a dataset.
 
--   Enabling the user to scroll through the records and view them in the control.
+- Enabling the user to scroll through the records and view them in the control.
 
 [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
@@ -35,11 +35,11 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
 
--   Access to a running instance of SQL Server 2005 or SQL Server 2005 Express that has the `AdventureWorksLT` sample database attached to it. You can download the `AdventureWorksLT` database from the [CodePlex website](http://go.microsoft.com/fwlink/?LinkId=115611). For more information about attaching a database, see the following topics:
+- Access to a running instance of SQL Server 2005 or SQL Server 2005 Express that has the `AdventureWorksLT` sample database attached to it. You can download the `AdventureWorksLT` database from the [CodePlex website](http://go.microsoft.com/fwlink/?LinkId=115611). For more information about attaching a database, see the following topics:
 
     -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 

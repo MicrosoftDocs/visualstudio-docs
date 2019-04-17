@@ -25,9 +25,9 @@ This article demonstrates a simple way to get data out of a database in a fast m
 
 To create the application, you'll need:
 
--   Visual Studio.
+- Visual Studio.
 
--   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
+- SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
 
 This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting started with Visual C# and Visual Basic](../ide/quickstart-visual-basic-console.md) topic before you start this walkthrough.
 

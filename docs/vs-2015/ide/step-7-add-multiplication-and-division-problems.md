@@ -48,6 +48,6 @@ Math quiz with four problems
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 8: Customize the Quiz](../ide/step-8-customize-the-quiz.md).  
+- To go to the next tutorial step, see [Step 8: Customize the Quiz](../ide/step-8-customize-the-quiz.md).  
   
--   To return to the previous tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).
+- To return to the previous tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).

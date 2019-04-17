@@ -55,17 +55,17 @@ ms.workload:
 
  To hide the task pane in your solution, you have several options:
 
--   For Word, set the <xref:Microsoft.Office.Interop.Word.TaskPane.Visible%2A> property of the <xref:Microsoft.Office.Interop.Word.TaskPane> object that represents the Document Actions task pane to **false**. The following code example is intended to be run from the `ThisDocument` class in your project.
+- For Word, set the <xref:Microsoft.Office.Interop.Word.TaskPane.Visible%2A> property of the <xref:Microsoft.Office.Interop.Word.TaskPane> object that represents the Document Actions task pane to **false**. The following code example is intended to be run from the `ThisDocument` class in your project.
 
      [!code-csharp[Trin_VstcoreActionsPaneWord#34](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#34)]
      [!code-vb[Trin_VstcoreActionsPaneWord#34](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#34)]
 
--   For Excel, set the <xref:Microsoft.Office.Interop.Excel._Application.DisplayDocumentActionTaskPane%2A> property of the <xref:Microsoft.Office.Tools.Excel.Workbook.Application%2A> object to **false**. The following code example is intended to be run from the `ThisWorkbook` class in your project.
+- For Excel, set the <xref:Microsoft.Office.Interop.Excel._Application.DisplayDocumentActionTaskPane%2A> property of the <xref:Microsoft.Office.Tools.Excel.Workbook.Application%2A> object to **false**. The following code example is intended to be run from the `ThisWorkbook` class in your project.
 
      [!code-csharp[Trin_VstcoreActionsPaneExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#11)]
      [!code-vb[Trin_VstcoreActionsPaneExcel#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#11)]
 
--   For Word or Excel, you can alternatively set the <xref:Microsoft.Office.Core.CommandBar.Visible%2A> property of the command bar that represents the task pane to **false**. The following code example is intended to be run from the `ThisDocument` or `ThisWorkbook` class in your project.
+- For Word or Excel, you can alternatively set the <xref:Microsoft.Office.Core.CommandBar.Visible%2A> property of the command bar that represents the task pane to **false**. The following code example is intended to be run from the `ThisDocument` or `ThisWorkbook` class in your project.
 
      [!code-csharp[Trin_VstcoreActionsPaneExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#9)]
      [!code-vb[Trin_VstcoreActionsPaneExcel#9](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#9)]

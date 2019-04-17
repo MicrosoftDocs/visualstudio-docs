@@ -21,13 +21,13 @@ Although solutions created by using the Office development tools in Visual Studi
 
 Any UI element that can host Windows Forms controls in an Office solution can also host WPF controls. These include the following elements:
 
--   Documents and worksheets in document-level customizations.
+- Documents and worksheets in document-level customizations.
 
--   Actions panes in document-level customizations.
+- Actions panes in document-level customizations.
 
--   Custom task panes in VSTO Add-ins.
+- Custom task panes in VSTO Add-ins.
 
--   Form regions in VSTO Add-ins for Outlook.
+- Form regions in VSTO Add-ins for Outlook.
 
 ## Add WPF controls to Office projects at design time
 
@@ -94,21 +94,21 @@ WPF controls use the <xref:System.Windows.Forms.Integration.ElementHost> class a
 
 For more information about architectural and design issues for hosting WPF controls on Windows Forms controls and forms, see the following topics:
 
--   [Windows Forms and WPF interoperability input architecture](/dotnet/framework/wpf/advanced/windows-forms-and-wpf-interoperability-input-architecture)
+- [Windows Forms and WPF interoperability input architecture](/dotnet/framework/wpf/advanced/windows-forms-and-wpf-interoperability-input-architecture)
 
--   [Windows Forms and WPF property mapping](/dotnet/framework/wpf/advanced/windows-forms-and-wpf-property-mapping)
+- [Windows Forms and WPF property mapping](/dotnet/framework/wpf/advanced/windows-forms-and-wpf-property-mapping)
 
--   [WPF and Windows Forms interoperation](/dotnet/framework/wpf/advanced/wpf-and-windows-forms-interoperation)
+- [WPF and Windows Forms interoperation](/dotnet/framework/wpf/advanced/wpf-and-windows-forms-interoperation)
 
--   [Windows Forms controls and equivalent WPF controls](/dotnet/framework/wpf/advanced/windows-forms-controls-and-equivalent-wpf-controls)
+- [Windows Forms controls and equivalent WPF controls](/dotnet/framework/wpf/advanced/windows-forms-controls-and-equivalent-wpf-controls)
 
 For more information about adding WPF controls to Windows Forms controls and forms in Visual Studio at design time, see the following topics:
 
--   [Walkthrough: Create new WPF content on Windows Forms at design time](/dotnet/framework/winforms/advanced/walkthrough-creating-new-wpf-content-on-windows-forms-at-design-time)
+- [Walkthrough: Create new WPF content on Windows Forms at design time](/dotnet/framework/winforms/advanced/walkthrough-creating-new-wpf-content-on-windows-forms-at-design-time)
 
--   [Walkthrough: Arrange WPF content on Windows Forms at design time](/dotnet/framework/winforms/advanced/walkthrough-arranging-wpf-content-on-windows-forms-at-design-time)
+- [Walkthrough: Arrange WPF content on Windows Forms at design time](/dotnet/framework/winforms/advanced/walkthrough-arranging-wpf-content-on-windows-forms-at-design-time)
 
--   [Walkthrough: Style WPF content](/dotnet/framework/winforms/advanced/walkthrough-styling-wpf-content)
+- [Walkthrough: Style WPF content](/dotnet/framework/winforms/advanced/walkthrough-styling-wpf-content)
 
 ## See also
 

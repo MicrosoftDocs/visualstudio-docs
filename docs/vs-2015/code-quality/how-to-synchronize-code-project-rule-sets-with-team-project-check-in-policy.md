@@ -17,13 +17,13 @@ manager: "wpickett"
 
 You synchronize the code analysis settings for code projects to the check-in policy for the team project by specifying a rule set that contains at least the rules that are specified in the rule set for the check-in policy. Your developer lead can inform you of the name and location of the rule set for the check-in policy. You can use one of the following options to ensure that code analysis for the project uses the correct set of rules:  
   
--   If the check-in policy uses one of the Microsoft built-in rule sets, open the properties dialog box for the code project, display the Code Analysis page, and select the rule set on the Code Analysis page of the code project settings. The Microsoft standard rule sets are automatically installed with Visual Studio are set to read-only and should not be edited. If the rule sets are not edited, the rules in the policy and local rule sets are guaranteed to match.  
+- If the check-in policy uses one of the Microsoft built-in rule sets, open the properties dialog box for the code project, display the Code Analysis page, and select the rule set on the Code Analysis page of the code project settings. The Microsoft standard rule sets are automatically installed with Visual Studio are set to read-only and should not be edited. If the rule sets are not edited, the rules in the policy and local rule sets are guaranteed to match.  
   
--   If the check-in policy uses a custom rule set, perform a get operation on the rule set file in version control to create a local copy. Then specify that local location in the code analysis settings for the code project. The rules are guaranteed to match if the rule set for the check-in policy is up to date.  
+- If the check-in policy uses a custom rule set, perform a get operation on the rule set file in version control to create a local copy. Then specify that local location in the code analysis settings for the code project. The rules are guaranteed to match if the rule set for the check-in policy is up to date.  
   
      If you map the version control location to a local folder that is in the same relationship to the team project root as your code project, the location of the rule is set by using a relative path. The relative path ensures that the code project setting for code analysis can be moved to other computers.  
   
--   Customize a copy of the rule set for the check-in policy for a code project. Make sure that the new rule set contains all the rules in the check-in policy and any other rules that you want to include. You must make sure that your rule set includes all the rules in the rule set for the check-in policy.  
+- Customize a copy of the rule set for the check-in policy for a code project. Make sure that the new rule set contains all the rules in the check-in policy and any other rules that you want to include. You must make sure that your rule set includes all the rules in the rule set for the check-in policy.  
   
 ### To specify a Microsoft standard rule set  
   

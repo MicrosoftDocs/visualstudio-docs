@@ -22,22 +22,22 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
  In this walkthrough you will:  
   
--   Create a Web application to host a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a Web application to host a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] that represents the Customers table in the Northwind database.  
+- Create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] that represents the Customers table in the Northwind database.  
   
--   Create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Create a client application and add a reference to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a client application and add a reference to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Enable data binding to the service and generate the user interface.  
+- Enable data binding to the service and generate the user interface.  
   
--   Optionally add filtering capabilities to the application.  
+- Optionally add filtering capabilities to the application.  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   The Northwind sample database.  
+- The Northwind sample database.  
   
      If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](http://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).  
   

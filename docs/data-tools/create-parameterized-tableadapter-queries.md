@@ -32,11 +32,11 @@ You create parameterized TableAdapter queries in the **Dataset Designer**.You ca
 
 ### To create a parameterized query in the Dataset Designer
 
--   Create a new TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
+- Create a new TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
      -or-
 
--   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
+- Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement.
 
 ### To create a parameterized query while designing a data-bound form
 

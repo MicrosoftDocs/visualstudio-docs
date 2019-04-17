@@ -46,34 +46,34 @@ DataTips provide a convenient way to view information about variables in your pr
   
 ### To unpin a DataTip and make it float  
   
--   In a pinned DataTip, click the **Unpin from source** icon.  
+- In a pinned DataTip, click the **Unpin from source** icon.  
   
      The pin icon changes to the unpinned position. The DataTip now floats above any open windows. The floating DataTip closes when the debugging session ends.  
   
 ### To repin a floating DataTip  
   
--   In a DataTip, click the pin icon.  
+- In a DataTip, click the pin icon.  
   
      The pin icon changes to the pinned position. If the DataTip is outside a source window, the pin icon is disabled and the DataTip cannot be pinned.  
   
 ### To close a DataTip  
   
--   Place the mouse pointer over a DataTip, and then click the **Close** icon.  
+- Place the mouse pointer over a DataTip, and then click the **Close** icon.  
   
 ### To close all DataTips  
   
--   On the **Debug** menu, click **Clear All DataTips**.  
+- On the **Debug** menu, click **Clear All DataTips**.  
   
 ### To close all DataTips for a specific file  
   
--   On the **Debug** menu, click **Clear All DataTips Pinned to** *File*.  
+- On the **Debug** menu, click **Clear All DataTips Pinned to** *File*.  
   
 ## Expanding and Editing Information  
  You can use DataTips to expand an array, a structure, or an object to view its members. You can also edit the value of a variable from a DataTip.  
   
 #### To expand a variable to see its elements  
   
--   In a DataTip, put the mouse pointer over the **+** sign that comes before the variable name.  
+- In a DataTip, put the mouse pointer over the **+** sign that comes before the variable name.  
   
      The variable expands to show its elements in tree form.  
   
@@ -90,7 +90,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
 #### To make a DataTip transparent  
   
--   In a DataTip, press CTRL.  
+- In a DataTip, press CTRL.  
   
      The DataTip will remain transparent as long as you hold down the CTRL key.  
   
@@ -99,7 +99,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
 #### To view the contents of a variable using a visualizer  
   
--   Click the magnifying glass icon to select the default visualizer for the data type.  
+- Click the magnifying glass icon to select the default visualizer for the data type.  
   
      -or-  
   
@@ -112,7 +112,7 @@ DataTips provide a convenient way to view information about variables in your pr
   
 #### To add a variable to the Watch window  
   
--   Right-click a DataTip, and then click **Add Watch**.  
+- Right-click a DataTip, and then click **Add Watch**.  
   
      The variable is added to the **Watch** window. If you are using an edition that supports multiple **Watch** windows, the variable is added to **Watch 1.**  
   

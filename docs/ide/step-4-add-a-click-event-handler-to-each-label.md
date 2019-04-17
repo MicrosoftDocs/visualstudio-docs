@@ -50,6 +50,6 @@ The matching game works as follows:
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
+- To go to the next tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
 
--   To return to the previous tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
+- To return to the previous tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).

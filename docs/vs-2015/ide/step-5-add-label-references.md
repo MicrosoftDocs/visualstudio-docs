@@ -42,6 +42,6 @@ Matching game showing one icon
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).  
+- To go to the next tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).  
   
--   To return to the previous tutorial step, see [Step 4: Add a Click Event Handler to Each Label](../ide/step-4-add-a-click-event-handler-to-each-label.md).
+- To return to the previous tutorial step, see [Step 4: Add a Click Event Handler to Each Label](../ide/step-4-add-a-click-event-handler-to-each-label.md).

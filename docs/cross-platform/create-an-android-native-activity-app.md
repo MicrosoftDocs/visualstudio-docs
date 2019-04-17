@@ -39,9 +39,9 @@ In this tutorial, you'll first create a new Android Native Activity project and 
 
    The new Android Native Activity app solution includes two projects:
 
--   `MyAndroidApp.NativeActivity` contains the references and glue code for your app to run as a Native Activity on Android. The implementation of the entry points from the glue code are in *main.cpp*. Precompiled headers are in *pch.h*. This Native Activity app project is compiled into a shared library *.so* file which is picked up by the Packaging project.
+- `MyAndroidApp.NativeActivity` contains the references and glue code for your app to run as a Native Activity on Android. The implementation of the entry points from the glue code are in *main.cpp*. Precompiled headers are in *pch.h*. This Native Activity app project is compiled into a shared library *.so* file which is picked up by the Packaging project.
 
--   `MyAndroidApp.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This contains the resources and *AndroidManifest.xml* file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
+- `MyAndroidApp.Packaging` creates the *.apk* file for deployment on an Android device or emulator. This contains the resources and *AndroidManifest.xml* file where you set manifest properties. It also contains the *build.xml* file that controls the Ant build process. It's set as the startup project by default, so that it can be deployed and run directly from Visual Studio.
 
 ## Build and run the default Android Native Activity app
 

@@ -54,11 +54,11 @@ ms.workload:
 ## Reset control placement
  You can reset the placement and resizing of the control by setting the `Placement` property to one of the following <xref:Microsoft.Office.Interop.Excel.XlPlacement> values:
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMove>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMove>
 
--   <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize>
+- <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize>
 
 ### To change the behavior of a control so that it does not resize or move with the cell
 

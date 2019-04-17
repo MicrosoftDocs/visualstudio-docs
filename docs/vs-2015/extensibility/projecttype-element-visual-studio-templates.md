@@ -51,11 +51,11 @@ Categorizes the project template so that it appears under the specified group in
   
  This value specifies the type of project the template will create, and must contain one of the following values:  
   
--   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../includes/csprcs-md.md)] project or item.  
+- `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../includes/csprcs-md.md)] project or item.  
   
--   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project or item.  
+- `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project or item.  
   
--   `Web`: Specifies that the template creates a Web project or item. If the `ProjectType` element contains this value, the language of the project or item is defined in the [ProjectSubType Element (Visual Studio Templates)](../extensibility/projectsubtype-element-visual-studio-templates.md).  
+- `Web`: Specifies that the template creates a Web project or item. If the `ProjectType` element contains this value, the language of the project or item is defined in the [ProjectSubType Element (Visual Studio Templates)](../extensibility/projectsubtype-element-visual-studio-templates.md).  
   
 ## Remarks  
  `ProjectType` is a required child element of `TemplateData`.  

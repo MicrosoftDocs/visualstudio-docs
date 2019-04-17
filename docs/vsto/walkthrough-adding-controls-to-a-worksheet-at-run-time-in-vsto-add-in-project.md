@@ -34,9 +34,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Excel
+- Excel
 
 ## Create a new Excel VSTO Add-in project
  Start by creating an Excel VSTO Add-in project.
@@ -178,7 +178,7 @@ ms.workload:
 ## Next steps
  You can learn more about controls in Excel VSTO Add-in projects from this topic:
 
--   To learn about how to save controls to a worksheet, see the Excel VSTO Add-in Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
+- To learn about how to save controls to a worksheet, see the Excel VSTO Add-in Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
 ## See also
 - [Excel solutions](../vsto/excel-solutions.md)

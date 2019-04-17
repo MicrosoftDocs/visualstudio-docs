@@ -24,21 +24,21 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
  You will complete the following steps:  
   
--   Run code analysis on native code.  
+- Run code analysis on native code.  
   
--   Analyze code defect warnings.  
+- Analyze code defect warnings.  
   
--   Treat warning as an error.  
+- Treat warning as an error.  
   
--   Annotate source code to improve code defect analysis.  
+- Annotate source code to improve code defect analysis.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] or [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)].  
+- [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] or [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)].  
   
--   A copy of the [Demo Sample](../code-quality/demo-sample.md).  
+- A copy of the [Demo Sample](../code-quality/demo-sample.md).  
   
--   Basic understanding of C/C++.  
+- Basic understanding of C/C++.  
   
 ### To run code defect analysis on native code  
   

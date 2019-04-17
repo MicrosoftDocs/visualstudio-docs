@@ -32,7 +32,7 @@ ms.workload:
 
 ## Use a NamedRange control
 
--   This example is for document-level customizations. The following code must be placed in a sheet class, not in the `ThisWorkbook` class.
+- This example is for document-level customizations. The following code must be placed in a sheet class, not in the `ThisWorkbook` class.
 
 ### To store a date value in a named range
 

@@ -20,7 +20,7 @@ You attempted to pass an invalid argument to the function **Number.prototype.toE
   
 ### To correct this error  
   
--   Ensure the argument to **toExponential()** is not too large or too small.  
+- Ensure the argument to **toExponential()** is not too large or too small.  
   
 ## See Also  
  [toExponential Method (Number)](../../javascript/reference/toexponential-method-number-javascript.md)

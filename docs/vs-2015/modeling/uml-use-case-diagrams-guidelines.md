@@ -107,17 +107,17 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 ##  <a name="Actors"></a> Drawing Actors and Use Cases  
  The main purpose of a use case diagram is to show who interacts with your system, and the main goals they achieve with it.  
   
--   Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
+- Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
   
     -   To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
     -   For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
   
--   Create **Use Cases** for each of the goals that each actor seeks to achieve with the system.  
+- Create **Use Cases** for each of the goals that each actor seeks to achieve with the system.  
   
     -   Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
   
--   Use **Associations** to link actors to use cases.  
+- Use **Associations** to link actors to use cases.  
   
 ### Inheritance between Actors  
  ![Use case diagram showing inheritance](../modeling/media/uml-ucguideinherit.png "UML_UCGuideInherit")  
@@ -196,9 +196,9 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 ### Using an actor or use case on multiple diagrams  
  You can show the same actors and use cases on several diagrams. For example:  
   
--   You can describe in different diagrams the different use cases in which one actor is involved.  
+- You can describe in different diagrams the different use cases in which one actor is involved.  
   
--   You can use one diagram to show the actors and subsystems with which a use case is associated, and use another diagram to show how the use case is structured into included and extended use cases.  
+- You can use one diagram to show the actors and subsystems with which a use case is associated, and use another diagram to show how the use case is structured into included and extended use cases.  
   
 ##### To show the same actor or use case on different diagrams  
   
@@ -278,11 +278,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  This enables you to:  
   
--   Describe the use case in the linked work item. In particular, if your project uses the Visual Studio Formal Process Template, you can link to a Use Case Work Item. This work item type provides fields for describing the goals and scenarios of the use case.  
+- Describe the use case in the linked work item. In particular, if your project uses the Visual Studio Formal Process Template, you can link to a Use Case Work Item. This work item type provides fields for describing the goals and scenarios of the use case.  
   
--   Link test cases to the use case so that you can obtain reports on how far the code being developed implements the use case.  
+- Link test cases to the use case so that you can obtain reports on how far the code being developed implements the use case.  
   
--   Link tasks to the use case so that you can track the progress of development work.  
+- Link tasks to the use case so that you can track the progress of development work.  
   
 ##  <a name="Structuring"></a> Structuring Use Cases  
  You should try to describe your system's behavior with just a few major use cases. Each large use case defines a major goal that an actor achieves, such as buying a product, or, from the vendor's point of view, providing products for sale.  
@@ -293,11 +293,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  You can summarize on a use case diagram the relationships between major and more detailed use cases. The following sections describe this:  
   
--   [Showing the details of a use case with Include](#Include)  
+- [Showing the details of a use case with Include](#Include)  
   
--   [Sharing goals with Generalization](#Inheritance)  
+- [Sharing goals with Generalization](#Inheritance)  
   
--   [Separating out variant cases with Extend](#Extend)  
+- [Separating out variant cases with Extend](#Extend)  
   
 ###  <a name="Include"></a> Showing the details of a use case with Include  
  Use an **Include** relation to show that one use case describes some of the detail of another. In the illustration, **Order a Meal** includes **Pay**, **Choose Menu**, and **Choose Menu Item**. Each of the included, more detailed use cases is a step that the actor or actors might have to perform to achieve the overall goal of the including use case. The arrow should point at the more detailed, included use case.  
@@ -313,9 +313,9 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  Separating use cases into including and included parts is useful to achieve the following goals:  
   
--   Structure your use case descriptions into different layers of detail.  
+- Structure your use case descriptions into different layers of detail.  
   
--   Avoid repeating shared scenarios in different use cases.  
+- Avoid repeating shared scenarios in different use cases.  
   
 ####  <a name="Steps"></a> Defining the order of the detailed steps  
  The use case diagram says nothing about the order in which the more detailed steps must be performed, nor about whether each of them is always necessary.  
@@ -395,11 +395,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
    Separating out extensions can be useful to describe these situations:  
   
--   There are additional actors who are involved only in the extension use case. For example, an administrator is required to approve a customer's registration on the Web site.  
+- There are additional actors who are involved only in the extension use case. For example, an administrator is required to approve a customer's registration on the Web site.  
   
--   A separate subsystem will deal with the extension use case.  
+- A separate subsystem will deal with the extension use case.  
   
--   This extension will be available only in specific versions of the system. You can show each version as a separate subsystem in the use case diagram.  
+- This extension will be available only in specific versions of the system. You can show each version as a separate subsystem in the use case diagram.  
   
 ##  <a name="Subsystems"></a> Using Subsystem Boundaries  
  Use a subsystem boundary to show what use cases are within the scope of your system.  

@@ -196,19 +196,19 @@ The text view formats one <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> a
 
 The features of the editor are designed so that the definition of the feature is separate from its implementation. The editor includes these features:
 
--   Tags and classifiers
+- Tags and classifiers
 
--   Adornments
+- Adornments
 
--   Projection
+- Projection
 
--   Outlining
+- Outlining
 
--   Mouse and key bindings
+- Mouse and key bindings
 
--   Operations and primitives
+- Operations and primitives
 
--   IntelliSense
+- IntelliSense
 
 ### Tags and classifiers
 

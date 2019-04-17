@@ -25,9 +25,9 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 ## Defining the menu command  
  To create a menu command for a UML designer, you must create a class that defines the behavior of the command, and embed the class in a Visual Studio Integration Extension (VSIX). The VSIX acts as a container that can install the command. There are two alternative methods of defining a menu command:  
 
--   **Create a menu command in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your menu commands with other types of extension such as validation extensions, custom toolbox items, or gesture handlers.  
+- **Create a menu command in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your menu commands with other types of extension such as validation extensions, custom toolbox items, or gesture handlers.  
 
--   **Create separate menu command and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
+- **Create separate menu command and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
 
 #### To create a menu command in its own VSIX  
 

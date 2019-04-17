@@ -329,13 +329,13 @@ protected override void Dispose(bool disposing)
 
  To implement custom categories or display Items, a VSPackage must:
 
--   **Create or identify categories in the registry.** The IDE's implementation of the **Fonts and Colors** property page uses this information to correctly query for the service supporting a given category.
+- **Create or identify categories in the registry.** The IDE's implementation of the **Fonts and Colors** property page uses this information to correctly query for the service supporting a given category.
 
--   **Create or identify groups in the registry (optional).** It might be useful to define a group, which represents the union of two or more categories. If a group is defined, the IDE automatically merges subcategories and distributes display items within the group.
+- **Create or identify groups in the registry (optional).** It might be useful to define a group, which represents the union of two or more categories. If a group is defined, the IDE automatically merges subcategories and distributes display items within the group.
 
--   **Implement IDE support.**
+- **Implement IDE support.**
 
--   **Handle font and color changes.**
+- **Handle font and color changes.**
 
 #### To create or identify categories
  Construct a special type of category registry entry under [HKLM\SOFTWARE\Microsoft \Visual Studio\\<Visual Studio version\>\FontAndColors\\<Category\>]. \<Category> is the non-localized name of the Category.
@@ -420,11 +420,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\FontAndColors\CSharp T
 
  **NOTE:**
 
--   "NameID" = the resource ID of the localized category name in your package
+- "NameID" = the resource ID of the localized category name in your package
 
--   "ToolWindowPackage" = Package GUID
+- "ToolWindowPackage" = Package GUID
 
--   "Category"="{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}" is just an example and the actual value can be a new GUID provided by the implementer.
+- "Category"="{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}" is just an example and the actual value can be a new GUID provided by the implementer.
 
 ### Set the Font and Color property category GUID
  The code example below demonstrates setting Category GUIDs.

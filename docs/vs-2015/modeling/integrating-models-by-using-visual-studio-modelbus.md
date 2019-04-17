@@ -22,9 +22,9 @@ manager: jillfra
 
  For additional information and sample code, see:
 
--   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
+- [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
 
--   [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)
+- [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)
 
 ##  <a name="provide"></a> Providing Access to a DSL
  Before you can create ModelBus references to a model or its elements, you must define a ModelBusAdapter for the DSL. The easiest way to do this is to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Bus Extension, which adds commands to the DSL Designer.
@@ -74,9 +74,9 @@ manager: jillfra
 
    Alternatively, if you want to use element names to identify elements instead of guids, you can override parts of the generated adapters. Override the following methods in the adapter class:
 
--   Override `GetElementId` to return the identifier you want to use. This method is called when creating references.
+- Override `GetElementId` to return the identifier you want to use. This method is called when creating references.
 
--   Override `ResolveElementReference` to locate the correct element from a Model Bus reference.
+- Override `ResolveElementReference` to locate the correct element from a Model Bus reference.
 
 ##  <a name="editRef"></a> Accessing a DSL from another DSL
  You can store model bus references in a domain property in a DSL, and you can write custom code that uses them. You can also let the user create a model bus reference by picking a model file and an element within it.
@@ -376,9 +376,9 @@ ModelBusReference elementReferenceRestored =
 
  The MBR is deserialized in two stages:
 
--   `ModelBusReferencePropertySerializer` is the standard serializer that deals with the MBR header. It uses the standard DSL `SerializationContext` property bag, which is stored in the `ReferenceContext` using the key `ModelBusReferencePropertySerializer.ModelBusLoadContextKey`. In particular, the `SerializationContext` should contain an instance of `ModelBus`.
+- `ModelBusReferencePropertySerializer` is the standard serializer that deals with the MBR header. It uses the standard DSL `SerializationContext` property bag, which is stored in the `ReferenceContext` using the key `ModelBusReferencePropertySerializer.ModelBusLoadContextKey`. In particular, the `SerializationContext` should contain an instance of `ModelBus`.
 
--   Your ModelBus Adapter deals with the adapter-specific part of the MBR. It can use additional information stored in the ReferenceContext of the MBR. The simple file-based adapter keeps root file paths using the keys `FilePathLoadContextKey` and `FilePathSaveContextKey`.
+- Your ModelBus Adapter deals with the adapter-specific part of the MBR. It can use additional information stored in the ReferenceContext of the MBR. The simple file-based adapter keeps root file paths using the keys `FilePathLoadContextKey` and `FilePathSaveContextKey`.
 
      An adapter reference in a model file is deserialized only when it is used.
 

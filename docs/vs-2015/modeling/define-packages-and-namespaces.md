@@ -86,7 +86,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To show an existing package on a UML Class Diagram  
   
--   Drag the package from UML Model Explorer onto the class diagram.  
+- Drag the package from UML Model Explorer onto the class diagram.  
   
     > [!NOTE]
     >  This creates a view of the package on this diagram. It will not necessarily show all the elements that the package contains. To make sure that you see all of a package's contents, view it in UML Model Explorer.  
@@ -156,13 +156,13 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To move an element into or out of a package  
   
--   In UML Model Explorer, drag the element into or out of the tree whose root is the package.  
+- In UML Model Explorer, drag the element into or out of the tree whose root is the package.  
   
      The qualified name of the element will change to show its new owning package or model.  
   
      \- or -  
   
--   In a class diagram, drag the element into a package shape.  
+- In a class diagram, drag the element into a package shape.  
   
      The qualified name of the element will change to show its new owning package.  
   
@@ -193,9 +193,9 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
  For example, suppose that package `SalesCommon` defines type `CustomerAddress`. In another package `RestaurantSales`, you want to define a type `MealOrder`, which has an attribute of type Customer Address. You have two options:  
   
--   Specify the type of the attribute using the fully qualified name `SalesCommon::CustomerAddress`. You should do this can only if `CustomerAddress` has its **Visibility** property set to **Public**.  
+- Specify the type of the attribute using the fully qualified name `SalesCommon::CustomerAddress`. You should do this can only if `CustomerAddress` has its **Visibility** property set to **Public**.  
   
--   Create an Import relationship from the `RestaurantSales` package to the `SalesCommon` package. Then you can use `CustomerAddress` without using its qualified name.  
+- Create an Import relationship from the `RestaurantSales` package to the `SalesCommon` package. Then you can use `CustomerAddress` without using its qualified name.  
   
 ##  <a name="Properties"></a> Properties of Packages  
  Each package has the following properties. To see the properties, right-click the package, either on a diagram or in UML Model Explorer, and then click **Properties**.  

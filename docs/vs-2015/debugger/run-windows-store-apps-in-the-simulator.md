@@ -37,9 +37,9 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 ##  <a name="BKMK_Choose_an_interaction_mode"></a> Choose an interaction mode  
  You can choose the following interaction modes  
   
--   ![Mouse mode button](../debugger/media/simulator-mousemodebtn.png "SIMULATOR_MouseModeBtn") Mouse mode: sets the interaction mode to mouse gestures. Mouse gestures include clicks, double-clicks, and drags.  
+- ![Mouse mode button](../debugger/media/simulator-mousemodebtn.png "SIMULATOR_MouseModeBtn") Mouse mode: sets the interaction mode to mouse gestures. Mouse gestures include clicks, double-clicks, and drags.  
   
--   ![Start touch emulation button](../debugger/media/simulator-starttouchemulationbtn.png "SIMULATOR_StartTouchEmulationBtn") Start touch emulation: sets the interaction mode to touch gestures of a single finger. Single-finger events include tapping, dragging, and swiping.  
+- ![Start touch emulation button](../debugger/media/simulator-starttouchemulationbtn.png "SIMULATOR_StartTouchEmulationBtn") Start touch emulation: sets the interaction mode to touch gestures of a single finger. Single-finger events include tapping, dragging, and swiping.  
   
      ![Simulator one finger target](../debugger/media/simulator-onefinger.png "SIMULATOR_OneFinger") The single target icon indicates the location of events in the simulator. Use the mouse to position the pointer.  
   
@@ -48,7 +48,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 ## Pinch and Zoom  
  Sets the interaction mode to pinch and zoom gestures of two fingers.  
   
--   ![Simulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
+- ![Simulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
   
      The double target icon indicates the location of two fingers on the device screen.  
   
@@ -56,7 +56,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
     -   Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
   
--   -   ![Pinch, zoom, and rotate targets](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
+- -   ![Pinch, zoom, and rotate targets](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
   
          Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
   
@@ -65,11 +65,11 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 ## Object rotation  
  The **Touch emulation rotate** button sets the interaction mode to rotation gestures using two fingers.  
   
--   -   Move the mouse to position the icons over the object on the device screen.  
+- -   Move the mouse to position the icons over the object on the device screen.  
   
     -   Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
   
--   -   Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.  
+- -   Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.  
   
     -   Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
   
@@ -99,9 +99,9 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
 > [!NOTE]
 >  The screenshot is saved at the current resolution of the simulator. To change the resolution, choose the **Change Resolution** button.  
   
--   To create screenshots of your app from the simulator, choose the **Capture screenshot to clipboard** button.  
+- To create screenshots of your app from the simulator, choose the **Capture screenshot to clipboard** button.  
   
--   To set the location where screenshots are located, choose the **Screenshot settings** button and choose the location from the shortcut menu.  
+- To set the location where screenshots are located, choose the **Screenshot settings** button and choose the location from the shortcut menu.  
   
      ![Screenshot settings context menu](../debugger/media/simulator-screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")  
   

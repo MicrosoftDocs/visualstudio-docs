@@ -26,13 +26,13 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  **In this topic**:
 
--   [Tour of the Tools panel](#Tools)
+- [Tour of the Tools panel](#Tools)
 
--   [Tour of the Assets panel](#Assets)
+- [Tour of the Assets panel](#Assets)
 
--   [Tour of the Objects and Timeline panel](#Objects)
+- [Tour of the Objects and Timeline panel](#Objects)
 
--   [Tour of the Properties panel](#Properties)
+- [Tour of the Properties panel](#Properties)
 
 ##  <a name="Tools"></a> Tour of the Tools panel
  You can use the **Tools** panel in Blend for Visual Studio to create and modify objects in your application. You create the objects by selecting a tool and drawing on the artboard with your mouse.

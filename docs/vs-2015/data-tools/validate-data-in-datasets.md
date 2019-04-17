@@ -149,7 +149,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all changed records from a dataset  
   
--   Call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
+- Call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
   
      The following example creates a new dataset called `changedRecords` and populates it with all the changed records from another dataset called `dataSet1`.  
   
@@ -158,7 +158,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all changed records from a data table  
   
--   Call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
+- Call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
   
      The following example creates a new data table called `changedRecordsTable` and populates it with all the changed records from another data table called `dataTable1`.  
   
@@ -167,14 +167,14 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all records that have a specific row state  
   
--   Call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
+- Call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
   
      The following example shows how to create a new dataset called `addedRecords` and populate it only with records that have been added to the `dataSet1` dataset.  
   
      [!code-csharp[VbRaddataEditing#16](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#16)]
      [!code-vb[VbRaddataEditing#16](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#16)]  
   
--   The following example shows how to return all records that were recently added to the `Customers` table:  
+- The following example shows how to return all records that were recently added to the `Customers` table:  
   
      [!code-csharp[VbRaddataEditing#17](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#17)]
      [!code-vb[VbRaddataEditing#17](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#17)]  
@@ -189,7 +189,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get the original version of a record  
   
--   Access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
+- Access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
   
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
@@ -200,7 +200,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get the current version of a record  
   
--   Access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
+- Access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
   
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   

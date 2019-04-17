@@ -60,7 +60,7 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 #### To start and stop data collection  
 
--   The pairs of options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The pairs of options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  

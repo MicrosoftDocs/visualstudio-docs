@@ -41,13 +41,13 @@ ms.workload:
 
  For more information about the structure of Open XML and custom XML parts, see the following articles:
 
--   [Introducing the Office (2007) Open XML file formats](/previous-versions/office/developer/office-2007/aa338205(v=office.12))
+- [Introducing the Office (2007) Open XML file formats](/previous-versions/office/developer/office-2007/aa338205(v=office.12))
 
--   [How to: Manipulate Open XML formats documents](/previous-versions/office/developer/office-2007/aa982683(v=office.12))
+- [How to: Manipulate Open XML formats documents](/previous-versions/office/developer/office-2007/aa982683(v=office.12))
 
--   [Walkthrough: Word 2007 XML format](/previous-versions/office/developer/office-2007/bb266220(v=office.12))
+- [Walkthrough: Word 2007 XML format](/previous-versions/office/developer/office-2007/bb266220(v=office.12))
 
--   [Build Word 2007 documents using Open XML formats](/previous-versions/office/developer/office-2007/bb264572(v=office.12))
+- [Build Word 2007 documents using Open XML formats](/previous-versions/office/developer/office-2007/bb264572(v=office.12))
 
 > [!NOTE]
 >  Excel, Word, and PowerPoint also enable you to use custom XML parts in documents that are saved in the binary file formats. However, if a document is saved in a binary format, you cannot add or modify custom XML parts without starting the Microsoft Office application.
@@ -60,9 +60,9 @@ ms.workload:
 
  To create a custom XML part by using Visual Studio, add a new <xref:Microsoft.Office.Core.CustomXMLPart> to the <xref:Microsoft.Office.Core.CustomXMLParts> collection in the document. For more information, see the following topics:
 
--   [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)
+- [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)
 
--   [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)
+- [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)
 
 ### Modify XML parts without starting the Office application
  You can add or modify a custom XML part without starting Excel, PowerPoint, or Word. This is useful if you want to work with XML data in a document on a computer that does not have Microsoft Office applications installed, such as a server.

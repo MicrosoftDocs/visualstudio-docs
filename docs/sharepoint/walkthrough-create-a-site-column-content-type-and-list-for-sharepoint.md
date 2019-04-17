@@ -38,9 +38,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Windows and SharePoint.
+- Supported editions of Windows and SharePoint.
 
--   [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
+- [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
 
 ## Create custom site columns
  This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and add site columns to it, as follows.

@@ -25,16 +25,16 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
  Tasks illustrated in this walkthrough include the following:  
   
--   Creating a custom text template host.  
+- Creating a custom text template host.  
   
--   Testing the custom host.  
+- Testing the custom host.  
   
 ## Prerequisites  
  To complete this walkthrough, you must have the following:  
   
--   Visual Studio 2010 or later  
+- Visual Studio 2010 or later  
   
--   Visual Studio SDK  
+- Visual Studio SDK  
   
 ## Creating a Custom Text Template Host  
  In this walkthrough, you create a custom host in an executable application that can be called from the command line. The application accepts a text template file as an argument, reads the template, calls the engine to transform the template, and displays any errors that occur in the command prompt window.  

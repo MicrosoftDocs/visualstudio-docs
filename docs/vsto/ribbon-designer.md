@@ -34,11 +34,11 @@ ms.workload:
 
  To open the Ribbon Designer, add a **Ribbon (Visual Designer)** item to your project. You can then use the design tools for the following tasks:
 
--   [Design the Ribbon layout](#DesigningRibbonLayout)
+- [Design the Ribbon layout](#DesigningRibbonLayout)
 
--   [Handle events and set control properties](#HandleEventsSetProperties)
+- [Handle events and set control properties](#HandleEventsSetProperties)
 
--   [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)
+- [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)
 
 > [!NOTE]
 >  There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
@@ -108,11 +108,11 @@ ms.workload:
 #### Remove custom tabs from the ribbon
  There are three ways to remove a custom tab from the ribbon:
 
--   Right-click the designer, and then click **Remove Ribbon Tab**.
+- Right-click the designer, and then click **Remove Ribbon Tab**.
 
--   In the **Commands** pane of the **Properties** window, click **Remove Ribbon Tab**.
+- In the **Commands** pane of the **Properties** window, click **Remove Ribbon Tab**.
 
--   Open the **Tab Collection Editor**, select the tab, and then click **Remove**.
+- Open the **Tab Collection Editor**, select the tab, and then click **Remove**.
 
 #### Change the position of a tab on the ribbon
  You can change the order of custom tabs on a ribbon. You can also position custom tabs before or after a built-in tab on the ribbon. For more information, see [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md).

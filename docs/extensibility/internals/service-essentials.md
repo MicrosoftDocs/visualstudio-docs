@@ -62,15 +62,15 @@ You can get most Visual Studio services by calling the static <xref:Microsoft.Vi
 
 Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> works correctly most of the time.
 
--   If a VSPackage provides a service known only to another VSPackage, the VSPackage requesting the service is sited before the VSPackage providing the service is loaded.
+- If a VSPackage provides a service known only to another VSPackage, the VSPackage requesting the service is sited before the VSPackage providing the service is loaded.
 
--   If a tool window is created by a VSPackage, the VSPackage is sited before the tool window is created.
+- If a tool window is created by a VSPackage, the VSPackage is sited before the tool window is created.
 
--   If a control container is hosted by a tool window created by a VSPackage, the VSPackage is sited before the control container is created.
+- If a control container is hosted by a tool window created by a VSPackage, the VSPackage is sited before the control container is created.
 
 ### To get a service from within a tool window or control container
 
--   Insert this code in the constructor, tool window, or control container:
+- Insert this code in the constructor, tool window, or control container:
 
     ```csharp
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;

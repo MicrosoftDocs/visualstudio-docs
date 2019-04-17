@@ -160,11 +160,11 @@ private static void AlbumTitleAdjuster(object sender,
   
  If you write an event that updates the store:  
   
--   Use `store.InUndoRedoOrRollback` to avoid making changes to model elements in Undo. The transaction manager will set everything in the store back to its original state.  
+- Use `store.InUndoRedoOrRollback` to avoid making changes to model elements in Undo. The transaction manager will set everything in the store back to its original state.  
   
--   Use `store.InSerializationTransaction` to avoid making changes while the model is being loaded from file.  
+- Use `store.InSerializationTransaction` to avoid making changes while the model is being loaded from file.  
   
--   Your changes will cause further events to be triggered. Make sure that you avoid an infinite loop.  
+- Your changes will cause further events to be triggered. Make sure that you avoid an infinite loop.  
   
 ## Store Event types  
  Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.  

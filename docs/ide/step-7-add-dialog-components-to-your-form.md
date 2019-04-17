@@ -45,6 +45,6 @@ To enable your program to open picture files and choose a background color, in t
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
+- To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
 
--   To return to the previous tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).
+- To return to the previous tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).

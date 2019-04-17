@@ -16,11 +16,11 @@ We recommend that you create unit tests to help keep your code working correctly
   
  Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:  
   
--   Run .NET, unmanaged, database and other kinds of tests using a single interface.  
+- Run .NET, unmanaged, database and other kinds of tests using a single interface.  
   
--   Use the unit test framework of your choice, such as NUnit or MSTest frameworks.  
+- Use the unit test framework of your choice, such as NUnit or MSTest frameworks.  
   
--   See in one window all the information that you need.  
+- See in one window all the information that you need.  
   
 ## Using Test Explorer  
  ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta.png "UnitTestExplorer(beta)")  

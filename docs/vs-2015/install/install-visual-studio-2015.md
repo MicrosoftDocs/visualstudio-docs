@@ -172,9 +172,9 @@ Before we dig in to the details, here's a list of our most frequently requested 
 ##  <a name="troubleshooting"></a> Troubleshooting an installation
  Use these resources to get help for setup and installation issues:
 
--   [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
+- [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
 
--   [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
+- [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
 
 ##  <a name="relatedTopics"></a> Related Topics
 

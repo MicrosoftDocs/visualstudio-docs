@@ -63,11 +63,11 @@ You can apply filters to profiling data files to limit the profiling data that i
 
 #### To execute a filter
 
--   On the Performance Report View toolbar, click **Execute Filter**.
+- On the Performance Report View toolbar, click **Execute Filter**.
 
 #### To stop a filter that is taking too long to execute
 
--   On the Performance Report View toolbar, click **Stop Filter**.
+- On the Performance Report View toolbar, click **Stop Filter**.
 
 #### To remove a filter on a report view
 

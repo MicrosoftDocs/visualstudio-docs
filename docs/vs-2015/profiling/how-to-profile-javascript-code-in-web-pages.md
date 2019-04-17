@@ -21,9 +21,9 @@ manager: jillfra
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
--   Internet Explorer 8 or later.  
+- Internet Explorer 8 or later.  
   
 > [!WARNING]
 >  To profile JavaScript in Windows Store apps, see one of the following topics:  
@@ -36,9 +36,9 @@ manager: jillfra
   
  When you specify JavaScript profiling, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code that executes on the server are profiled.  
   
--   For an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code that executes on the server are profiled.  
+- For an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code that executes on the server are profiled.  
   
--   For an arbitrary Web page, the JavaScript code that executes in the browser is profiled.  
+- For an arbitrary Web page, the JavaScript code that executes in the browser is profiled.  
   
 ### To profile JavaScript in an ASP.NET Web application project  
   

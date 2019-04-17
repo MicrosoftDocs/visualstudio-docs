@@ -337,9 +337,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The `Expand` node is optional.  
 
--   If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
+- If an `Expand` node is not specified in a visualization entry, Visual Studio’s default expansion rules are used.  
 
--   If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
+- If an `Expand` node is specified with no child nodes under it, the type won’t be expandable in the debugger windows.  
 
 ####  <a name="BKMK_Item_expansion"></a> Item expansion  
  The `Item` element is the most basic and the most common element to be used in an `Expand` node. `Item` defines a single child element. For example, suppose that you have a `CRect` class with `top`, `left`, `right`, and `bottom` as its fields and the following visualization entry:  
@@ -462,9 +462,9 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The `Size` element refers to the length of the list. `HeadPointer` points to the first element, `NextPointer` refers to the next element, and `ValueNode` refers to the value of the item.  
 
--   The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
+- The `NextPointer` and `ValueNode` expressions are evaluated in the context of the linked list node element and not the parent list type. In the example above, `CAtlList` has a `CNode` class (found in `atlcoll.h`) that represents a node of the linked list. `m_pNext` and `m_element` are fields of that `CNode` class and not of `CAtlList` class.  
 
--   The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
+- The `ValueNode` can be left empty or have `this` to refer to the linked list node itself.  
 
 #### CustomListItems expansion  
  The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. You should use `CustomListItems` to visualize data structures in which everything you need to evaluate is expressible via C++ expressions, but don’t quite fit the mold for `ArrayItems`, `TreeItems`, or `LinkedListItems.`  

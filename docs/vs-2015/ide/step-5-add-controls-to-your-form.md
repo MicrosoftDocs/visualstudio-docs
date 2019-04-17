@@ -75,6 +75,6 @@ Picture Viewer with four buttons
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 6: Name Your Button Controls](../ide/step-6-name-your-button-controls.md).  
+- To go to the next tutorial step, see [Step 6: Name Your Button Controls](../ide/step-6-name-your-button-controls.md).  
   
--   To return to the previous tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
+- To return to the previous tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).

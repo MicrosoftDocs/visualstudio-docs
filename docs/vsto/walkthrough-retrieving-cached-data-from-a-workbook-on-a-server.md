@@ -42,11 +42,11 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
--   Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
+- Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
 
     -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
@@ -285,7 +285,7 @@ ms.workload:
 ## Next steps
  You can learn more about working with cached data from these topics:
 
--   Changing the data in a cached dataset without starting Excel. For more information, see [Walkthrough: Change cached data in a workbook on a server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md).
+- Changing the data in a cached dataset without starting Excel. For more information, see [Walkthrough: Change cached data in a workbook on a server](../vsto/walkthrough-changing-cached-data-in-a-workbook-on-a-server.md).
 
 ## See also
 

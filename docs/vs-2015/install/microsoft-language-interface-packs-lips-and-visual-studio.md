@@ -37,33 +37,33 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 ### Support for Code Pages
  Some Visual Studio tools do not display text correctly when the text contains characters that are not in the current code page. Instead, question marks appear or the text is corrupted. The following tools or areas are affected:
 
--   Sites deployed by using FTP.
+- Sites deployed by using FTP.
 
--   Non-ASCII computer names in some controls.
+- Non-ASCII computer names in some controls.
 
--   Command line tools that run outside of Visual Studio.
+- Command line tools that run outside of Visual Studio.
 
--   Visual Basic Migration Wizard.
+- Visual Basic Migration Wizard.
 
--   ActiveX Control Test Container.
+- ActiveX Control Test Container.
 
--   OLE/COM Object Viewer.
+- OLE/COM Object Viewer.
 
--   ISAPI Web Debug Tool.
+- ISAPI Web Debug Tool.
 
--   MFC application projects that have HTML Help content.
+- MFC application projects that have HTML Help content.
 
--   Visual SourceSafe / SCCI UI falls back to English when there is an incompatible code page.
+- Visual SourceSafe / SCCI UI falls back to English when there is an incompatible code page.
 
--   Visual SourceSafe does not support Unicode file names.
+- Visual SourceSafe does not support Unicode file names.
 
--   End User-Defined Characters (private use zone) cannot be used as tokens/identifiers.
+- End User-Defined Characters (private use zone) cannot be used as tokens/identifiers.
 
--   Latin Extended-B characters cannot be displayed in some Visual Studio tool windows when the Windows code page is set to an East Asian language.
+- Latin Extended-B characters cannot be displayed in some Visual Studio tool windows when the Windows code page is set to an East Asian language.
 
--   Text runs that consist of characters from multiple language scripts may display the default glyph for some characters.
+- Text runs that consist of characters from multiple language scripts may display the default glyph for some characters.
 
--   Copying and pasting complex script strings into common controls may cause character shaping to be lost. Instead, use the corresponding language keyboard to input text.
+- Copying and pasting complex script strings into common controls may cause character shaping to be lost. Instead, use the corresponding language keyboard to input text.
 
 ##### To correctly display characters that are not included in the current code page
 

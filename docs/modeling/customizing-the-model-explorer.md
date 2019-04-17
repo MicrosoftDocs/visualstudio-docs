@@ -15,13 +15,13 @@ ms.workload:
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
 
--   Change the window title.
+- Change the window title.
 
--   Change the tab icon.
+- Change the tab icon.
 
--   Change the icons for nodes.
+- Change the icons for nodes.
 
--   Hide nodes.
+- Hide nodes.
 
 ## Changing the Window Title
  To change the window title of the generated explorer, select **Explorer Behavior** in the **DSL Explorer**, and then in the **Properties** window, set the **Title** property to the title you want.

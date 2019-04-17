@@ -55,6 +55,6 @@ Matching game with visible icon pairs
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).  
+- To go to the next tutorial step, see [Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).  
   
--   To return to the previous tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).
+- To return to the previous tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).

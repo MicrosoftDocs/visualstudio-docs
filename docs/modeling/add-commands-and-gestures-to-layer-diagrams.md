@@ -232,7 +232,7 @@ namespace MyLayerExtensions // change to your preference
 
 Notice the following points about gesture handlers:
 
--   The members of `IGestureExtension` are as follows:
+- The members of `IGestureExtension` are as follows:
 
      **OnDoubleClick** - called when the user double-clicks anywhere on the diagram.
 
@@ -240,7 +240,7 @@ Notice the following points about gesture handlers:
 
      **OnDragDrop** - called when the user drops an item onto the diagram.
 
--   The first argument to each method is an `IShape`, from which you can get the layer element. For example:
+- The first argument to each method is an `IShape`, from which you can get the layer element. For example:
 
     ```csharp
     public void OnDragDrop(IShape target, IDataObject data)
@@ -253,7 +253,7 @@ Notice the following points about gesture handlers:
     }
     ```
 
--   Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.
+- Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.
 
 ## See Also
 

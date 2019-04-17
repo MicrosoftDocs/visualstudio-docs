@@ -105,13 +105,13 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 ## To Handle Font and Color Changes  
  To properly support the colorization of text that a VSPackage displays, the colorization service supporting the VSPackage must respond to the user-initiated changes made through the **Fonts and Colors** properties page. A VSPackage does this by:  
   
--   Handling IDE-generated events by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> interface.  
+- Handling IDE-generated events by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> interface.  
   
      The IDE calls the appropriate method following user modifications of the **Fonts and Colors** page. For example, it calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents.OnFontChanged%2A> method if a new font is selected.  
   
      -or-  
   
--   Polling the IDE for changes.  
+- Polling the IDE for changes.  
   
      This can be done through the system-implemented <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface. Although primarily for support of persistence, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> method can be used to obtain font and color information for **Display items**. For more information, see [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md).  
   

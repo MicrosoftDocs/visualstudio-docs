@@ -14,15 +14,15 @@ manager: jillfra
 
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 
--   Creating a topic (F1 support)
+- Creating a topic (F1 support)
 
--   Creating a Help Viewer content-branding package
+- Creating a Help Viewer content-branding package
 
--   Deploying a set of articles
+- Deploying a set of articles
 
--   Adding help to the Visual Studio shell (integrated or isolated)
+- Adding help to the Visual Studio shell (integrated or isolated)
 
--   Additional Resources
+- Additional Resources
 
 ### Creating a topic (F1 support)
  This section provides an overview of the components of a presented topic, topic requirements, a short description for how to create a topic (including F1 support requirements) and finally, an example topic with its rendered result.

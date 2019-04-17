@@ -30,15 +30,15 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
  This walkthrough teaches these tasks:  
   
--   How to view the call stacks of all threads in one view.  
+- How to view the call stacks of all threads in one view.  
   
--   How to view the list of `System.Threading.Tasks.Task` instances that are created in your application.  
+- How to view the list of `System.Threading.Tasks.Task` instances that are created in your application.  
   
--   How to view the real call stacks of tasks instead of threads.  
+- How to view the real call stacks of tasks instead of threads.  
   
--   How to navigate to code from the **Parallel Tasks** and **Parallel Stacks** windows.  
+- How to navigate to code from the **Parallel Tasks** and **Parallel Stacks** windows.  
   
--   How the windows cope with scale through grouping, zooming, and other related features.  
+- How the windows cope with scale through grouping, zooming, and other related features.  
   
 ## Prerequisites  
  This walkthrough assumes that **Just My Code** is enabled. On the **Tools** menu, click **Options**, expand the **Debugging** node, select **General**, and then select **Enable Just My Code (Managed only)**. If you do not set this feature, you can still use this walkthrough, but your results may differ from the illustrations.  

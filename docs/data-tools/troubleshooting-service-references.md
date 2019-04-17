@@ -37,7 +37,7 @@ When you click the **Discover** button in the **Add Service References** dialog 
 
 To fix this error:
 
--   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
+- In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
 ## Error accessing a service over a remote desktop
 

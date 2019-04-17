@@ -64,7 +64,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|

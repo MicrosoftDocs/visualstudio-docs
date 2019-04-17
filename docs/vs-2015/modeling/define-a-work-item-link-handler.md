@@ -20,9 +20,9 @@ You can create a Visual Studio Integration Extension that responds when the user
 ## Set up a UML Extension Solution  
  This will allow you to develop handlers and then distribute them to other users. You need to set up two Visual Studio projects:  
   
--   A class library project containing the code of the link handler.  
+- A class library project containing the code of the link handler.  
   
--   A VSIX project, which acts as a container for installing the command. If you want, you can include other components in the same VSIX.  
+- A VSIX project, which acts as a container for installing the command. If you want, you can include other components in the same VSIX.  
   
 #### To set up the Visual Studio solution  
   
@@ -231,9 +231,9 @@ public void OnWorkItemRemoved
   
  To use the following example, add these .NET assemblies to your project's References:  
   
--   Microsoft.TeamFoundation.Client.dll  
+- Microsoft.TeamFoundation.Client.dll  
   
--   Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
+- Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
   
 ```  
   

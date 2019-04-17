@@ -81,13 +81,13 @@ The following templates create DLLs:
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
  Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047). The calling application might fit any one of the following criteria:  
   
--   An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
+- An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
   
--   An existing application already deployed on a test or production computer.  
+- An existing application already deployed on a test or production computer.  
   
--   Located on the Web and accessed through a URL.  
+- Located on the Web and accessed through a URL.  
   
--   A Web application that contains a Web page which embeds the DLL.  
+- A Web application that contains a Web page which embeds the DLL.  
   
 ###  <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the Calling Application  
  To debug a DLL, start by debugging the calling application, typically either an EXE or a Web application. There are several ways to debug it.  

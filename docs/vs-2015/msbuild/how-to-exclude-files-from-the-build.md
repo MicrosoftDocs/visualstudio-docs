@@ -33,7 +33,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .cs or .vb files except Form2  
   
--   Use one of the following `Include` and `Exclude` attributes:  
+- Use one of the following `Include` and `Exclude` attributes:  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
@@ -47,7 +47,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .cs or .vb files except Form2 and Form3  
   
--   Use one of the following `Include` and `Exclude` attributes:  
+- Use one of the following `Include` and `Exclude` attributes:  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
@@ -61,7 +61,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .jpg files in subdirectories of the Images directory except those in the Version2 directory  
   
--   Use the following `Include` and `Exclude` attributes:  
+- Use the following `Include` and `Exclude` attributes:  
   
     ```  
     <JPGFile  
@@ -77,7 +77,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include the file Formula.vb only in Release builds  
   
--   Use a `Condition` attribute similar to the following:  
+- Use a `Condition` attribute similar to the following:  
   
     ```  
     <Compile  

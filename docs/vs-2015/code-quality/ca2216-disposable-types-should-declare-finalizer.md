@@ -32,11 +32,11 @@ manager: "wpickett"
 ## Rule Description
  A violation of this rule is reported if the disposable type contains fields of the following types:
 
--   <xref:System.IntPtr?displayProperty=fullName>
+- <xref:System.IntPtr?displayProperty=fullName>
 
--   <xref:System.UIntPtr?displayProperty=fullName>
+- <xref:System.UIntPtr?displayProperty=fullName>
 
--   <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
+- <xref:System.Runtime.InteropServices.HandleRef?displayProperty=fullName>
 
 ## How to Fix Violations
  To fix a violation of this rule, implement a finalizer that calls your <xref:System.IDisposable.Dispose%2A> method.

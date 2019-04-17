@@ -590,9 +590,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
 ##  <a name="PreviousVersions"></a> Changes required for existing Universal Windows apps created with Visual Studio 2015 RC  
  If you created Windows 10 universal apps with Visual Studio 2015 RC, you need to retarget your project to use the version of the Universal Windows Platform installed with the latest release of Visual Studio 2015. Any previous version is not supported. The changes required are different depending on the language you used to create your app:  
   
--   [C#/VB apps](#RCUpdate10CSharp)  
+- [C#/VB apps](#RCUpdate10CSharp)  
   
--   [C++ apps](#RCUpdate10CPlusPlus)  
+- [C++ apps](#RCUpdate10CPlusPlus)  
   
 ###  <a name="RCUpdate10CSharp"></a> Update your C#/VB projects to use the latest Universal Windows Platform  
  When you open your solution for your existing app, you will see that your app requires an update:  
@@ -809,9 +809,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
 ##  <a name="MigrateUnitTest"></a> Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC  
  If you created unit test projects for Windows 10 universal apps with Visual Studio 2015 RC, you need to make these additional changes to your project files to use these test projects with the latest release of Visual Studio 2015. The changes required are different depending on the language you used to create your app:  
   
--   [C#/VB apps](#UnitTestRCUpdate10CSharp)  
+- [C#/VB apps](#UnitTestRCUpdate10CSharp)  
   
--   [C++ apps](#UnitTestRCUpdate10CPlusPlus)  
+- [C++ apps](#UnitTestRCUpdate10CPlusPlus)  
   
 ###  <a name="UnitTestRCUpdate10CSharp"></a> Update your C#/VB unit test projects  
   

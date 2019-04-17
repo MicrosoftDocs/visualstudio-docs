@@ -131,9 +131,9 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
 #### Paths to Root  
   
--   For a type selected from the **Object Type** table, the **Paths to Root** table shows the unique type hierarchies that lead to root objects for all objects of the type, along with the number of references to the type that is above it in the hierarchy.  
+- For a type selected from the **Object Type** table, the **Paths to Root** table shows the unique type hierarchies that lead to root objects for all objects of the type, along with the number of references to the type that is above it in the hierarchy.  
   
--   For an object selected from the instance of a type, **Paths to Root** shows a graph of the actual objects that hold a reference to the instance. You can hover over the name of the object to view its data values in a data tip.  
+- For an object selected from the instance of a type, **Paths to Root** shows a graph of the actual objects that hold a reference to the instance. You can hover over the name of the object to view its data values in a data tip.  
   
 #### Referenced Types / Referenced Objects  
   

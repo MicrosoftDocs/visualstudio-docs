@@ -21,11 +21,11 @@ ms.workload:
 
  For solutions that are in each of five zones, you can set the following options:
 
--   Enable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to grant trust to Office solutions that are signed with any certificate.
+- Enable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to grant trust to Office solutions that are signed with any certificate.
 
--   Restrict the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to install Office solutions that are signed with a certificate that identifies the publisher, but that is not already trusted.
+- Restrict the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to install Office solutions that are signed with a certificate that identifies the publisher, but that is not already trusted.
 
--   Disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can prevent end users from installing any Office solution that is not signed with an explicitly trusted certificate.
+- Disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can prevent end users from installing any Office solution that is not signed with an explicitly trusted certificate.
 
 ## Enable the inclusion list
  Enable the inclusion list for a zone when you want end users to be presented with the option of installing and running any Office solution that comes from that zone.

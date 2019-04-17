@@ -23,11 +23,11 @@ By using parameters in your templates, you can replace the values of key portion
 ## Declaring and Enabling Template Parameters  
  Template parameters are declared in the format $*parameter*$. For example:  
   
--   $safeprojectname$  
+- $safeprojectname$  
   
--   $guid1$  
+- $guid1$  
   
--   $guid5$  
+- $guid5$  
   
 #### To enable parameter substitution in templates  
   

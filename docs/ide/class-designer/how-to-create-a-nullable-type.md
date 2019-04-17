@@ -23,9 +23,9 @@ A *nullable type* is a value type that you extend so that it takes the typical r
 
 Nullable types are instances of the <xref:System.Nullable%601> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:
 
--   `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.
+- `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.
 
--   `Value` is of the same type as the underlying type. If `HasValue` is `True`, `Value` contains a meaningful value. If `HasValue` is `False`, accessing `Value` will throw an invalid operation exception.
+- `Value` is of the same type as the underlying type. If `HasValue` is `True`, `Value` contains a meaningful value. If `HasValue` is `False`, accessing `Value` will throw an invalid operation exception.
 
 By default, when you declare a variable as a nullable type, it has no defined value (`HasValue` is `False`), other than the default value of its underlying value type.
 

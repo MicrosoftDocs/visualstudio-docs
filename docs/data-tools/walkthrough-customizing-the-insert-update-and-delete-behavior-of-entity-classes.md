@@ -25,19 +25,19 @@ This walkthrough provides the steps that you must follow to override the default
 
 During this walkthrough, you learn how to perform the following tasks:
 
--   Create a new Windows Forms application and add a LINQ to SQL file to it.
+- Create a new Windows Forms application and add a LINQ to SQL file to it.
 
--   Create an entity class that is mapped to the Northwind `Customers` table.
+- Create an entity class that is mapped to the Northwind `Customers` table.
 
--   Create an object data source that references the LINQ to SQL `Customer` class.
+- Create an object data source that references the LINQ to SQL `Customer` class.
 
--   Create a Windows Form that contains a <xref:System.Windows.Forms.DataGridView> that is bound to the `Customer` class.
+- Create a Windows Form that contains a <xref:System.Windows.Forms.DataGridView> that is bound to the `Customer` class.
 
--   Implement save functionality for the form.
+- Implement save functionality for the form.
 
--   Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the **O/R Designer**.
+- Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the **O/R Designer**.
 
--   Configure the `Customer` class to use stored procedures to perform inserts, updates, and deletes.
+- Configure the `Customer` class to use stored procedures to perform inserts, updates, and deletes.
 
 ## Prerequisites
 

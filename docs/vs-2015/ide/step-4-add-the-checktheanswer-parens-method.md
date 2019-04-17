@@ -45,6 +45,6 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
+- To go to the next tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
   
--   To return to the previous tutorial step, see [Step 3: Add a Countdown Timer](../ide/step-3-add-a-countdown-timer.md).
+- To return to the previous tutorial step, see [Step 3: Add a Countdown Timer](../ide/step-3-add-a-countdown-timer.md).

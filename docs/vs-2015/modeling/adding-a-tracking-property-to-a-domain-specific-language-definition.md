@@ -78,13 +78,13 @@ This walkthrough shows how to add a tracking property to a domain model.
 ## Customizing the Default DSL Definition  
  In this section, you customize the DSL definition to contain the following items:  
   
--   A Namespace tracking property for every element of the model.  
+- A Namespace tracking property for every element of the model.  
   
--   A Boolean IsNamespaceTracking property for every element of the model. This property will indicate whether the tracking property is in the tracking state or in the updated by user state.  
+- A Boolean IsNamespaceTracking property for every element of the model. This property will indicate whether the tracking property is in the tracking state or in the updated by user state.  
   
--   A Default Namespace property for the model. This property will be used to calculate the default value of the Namespace tracking property.  
+- A Default Namespace property for the model. This property will be used to calculate the default value of the Namespace tracking property.  
   
--   A CustomElements calculated property for the model. This property will indicate the proportion of elements that have a custom namespace.  
+- A CustomElements calculated property for the model. This property will indicate the proportion of elements that have a custom namespace.  
   
 #### To add the domain properties  
   

@@ -28,9 +28,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
 ## Creating a Gesture Handler  
  To define a gesture handler for a UML designer, you must create a class that defines the behavior of the gesture handler, and embed that class in a Visual Studio Integration Extension (VSIX). The VSIX acts as a container that can install the handler. There are two alternative methods of defining a gesture handler:  
   
--   **Create a gesture handler in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your handler with other types of extension such as validation extensions, custom toolbox items, or menu commands.  
+- **Create a gesture handler in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your handler with other types of extension such as validation extensions, custom toolbox items, or menu commands.  
   
--   **Create separate gesture handler and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your gesture handler expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
+- **Create separate gesture handler and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your gesture handler expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
   
 #### To create a gesture handler in its own VSIX  
   
@@ -249,15 +249,15 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
    **Troubleshooting**: If the gesture handler does not work, make sure that:  
   
--   The gesture handler project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
+- The gesture handler project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
   
--   The parameters of all the `Import` and `Export` attributes are valid.  
+- The parameters of all the `Import` and `Export` attributes are valid.  
   
--   The `CanDragDrop` method is not returning `false`.  
+- The `CanDragDrop` method is not returning `false`.  
   
--   The type of model diagram you are using (UML class, sequence, and so on) is listed as one of the gesture handler class attributes [ClassDesignerExtension], [SequenceDesignerExtension] and so on.  
+- The type of model diagram you are using (UML class, sequence, and so on) is listed as one of the gesture handler class attributes [ClassDesignerExtension], [SequenceDesignerExtension] and so on.  
   
--   There is no built-in functionality already defined for this type of target and dropped element.  
+- There is no built-in functionality already defined for this type of target and dropped element.  
   
 ##  <a name="Implementing"></a> Implementing the Gesture Handler  
   
@@ -274,7 +274,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
  The parameters of these methods are:  
   
--   `ShapeElement target`. The shape or diagram onto which the user has dragged something.  
+- `ShapeElement target`. The shape or diagram onto which the user has dragged something.  
   
      `ShapeElement` is a class in the implementation that underlies the UML modeling tools. To reduce the risk of putting the UML model and diagrams into an inconsistent state, we recommend that you do not use the methods of this class directly. Instead, wrap the element in an `IShape`, and then use the methods described in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
@@ -305,7 +305,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
         target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
         ```  
   
--   `DiagramDragEventArgs eventArgs`. This parameter carries the serialized form of the source object of a drag operation:  
+- `DiagramDragEventArgs eventArgs`. This parameter carries the serialized form of the source object of a drag operation:  
   
     ```  
     System.Windows.Forms.IDataObject data = eventArgs.Data;    

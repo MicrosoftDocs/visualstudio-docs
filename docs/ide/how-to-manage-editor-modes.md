@@ -36,11 +36,11 @@ You can display the Visual Studio code editor in various display modes.
 
 You can choose to hide all tool windows and view only document windows by enabling **Full Screen** mode.
 
--   Press **Alt**+**Shift**+**Enter** to enter or exit **Full Screen** mode.
+- Press **Alt**+**Shift**+**Enter** to enter or exit **Full Screen** mode.
 
      -- or --
 
--   Issue the command `View.Fullscreen` in the **Command** window.
+- Issue the command `View.Fullscreen` in the **Command** window.
 
 ## Enable virtual space mode
 

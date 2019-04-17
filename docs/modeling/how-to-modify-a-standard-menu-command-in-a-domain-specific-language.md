@@ -122,17 +122,17 @@ If your code makes changes to the Store, such as creating, deleting or updating 
 
 The following fragments are frequently useful within these methods:
 
--   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
+- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
 
--   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
+- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
 
--   `this.IsCurrentDiagramEmpty()`
+- `this.IsCurrentDiagramEmpty()`
 
--   `this.IsSingleSelection()` - the user did not select multiple shapes
+- `this.IsSingleSelection()` - the user did not select multiple shapes
 
--   `this.SingleSelection` - the shape or diagram that the user right-clicked
+- `this.SingleSelection` - the shape or diagram that the user right-clicked
 
--   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
+- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
 
 For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 

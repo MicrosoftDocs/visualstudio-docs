@@ -39,18 +39,18 @@ When you want to understand dependencies across your code, visualize them by cre
   
  **Here are some videos**:  
   
--   [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)  
+- [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)  
   
--   [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)  
+- [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)  
   
--   [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
+- [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
   
 ##  <a name="GetStarted"></a> Get started with code maps  
  **To use code maps you’ll need either**:  
   
--   Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
+- Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
   
--   Visual Studio Professional: Open code maps, make limited edits, and navigate code.  
+- Visual Studio Professional: Open code maps, make limited edits, and navigate code.  
   
 > [!WARNING]
 >  Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are made visible.  
@@ -177,11 +177,11 @@ When you want to understand dependencies across your code, visualize them by cre
   
     See also:  
   
--   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
--   [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)  
+- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)  
   
--   Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).  
+- Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).  
   
 ###  <a name="OverviewCompiled"></a> See dependencies across assemblies or binaries  
   
@@ -284,11 +284,11 @@ When you want to understand dependencies across your code, visualize them by cre
   
  When you open a solution that contains Visual C++ projects, it might take some time to update the IntelliSense database. During this time, you might not be able to create code maps for header (.h or `#include`) files until the IntelliSense database finishes updating. You can monitor the update progress in the Visual Studio status bar. To resolve issues or messages that appear because certain IntelliSense settings are disabled, see [Troubleshoot maps for C and C++ code](#Troubleshooting).  
   
--   To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.  
+- To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.  
   
      ![Dependency graph for native code](../modeling/media/dependencygraphgeneral-nativecode.png "DependencyGraphGeneral_NativeCode")  
   
--   To see dependencies between the currently open file and related source files and header files, open either the source file or the header file. Open the file shortcut menu anywhere inside the file. Choose **Generate Graph of Include Files**.  
+- To see dependencies between the currently open file and related source files and header files, open either the source file or the header file. Open the file shortcut menu anywhere inside the file. Choose **Generate Graph of Include Files**.  
   
      ![First&#45;level dependency graph for .h file](../modeling/media/dependencygraph-native-firstlevel.png "DependencyGraph_Native_FirstLevel")  
   
@@ -371,12 +371,12 @@ When you want to understand dependencies across your code, visualize them by cre
   
 ## What else can I do?  
   
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)  
   
--   [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)  
+- [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)  
   
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)  
   
--   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
--   [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
+- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)

@@ -24,11 +24,11 @@ The code in a code snippet shows only the most basic way to do something. For mo
 ## File Locations  
  When you adapt file locations to your application, you should think about the following:  
   
--   Finding an accessible location. Users may not have access to the Program Files folder of the computer, so storing files with the application files may not work.  
+- Finding an accessible location. Users may not have access to the Program Files folder of the computer, so storing files with the application files may not work.  
   
--   Finding a secure location. Storing files in the root folder (C:\\) is not secure. For application data, we recommend the \Application Data folder. For individual user data, the application can create a file for each user in the \My Documents folder.  
+- Finding a secure location. Storing files in the root folder (C:\\) is not secure. For application data, we recommend the \Application Data folder. For individual user data, the application can create a file for each user in the \My Documents folder.  
   
--   Using a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Be aware that between the time the user selects a file and the time your code manipulates the file, the file may be deleted. In addition, the user may not have permissions to write to the file.  
+- Using a valid file name. You can use the <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> controls to reduce the likelihood of invalid file names. Be aware that between the time the user selects a file and the time your code manipulates the file, the file may be deleted. In addition, the user may not have permissions to write to the file.  
   
 ## Security  
  How secure a snippet is depends on where it is used in the source code and how it is modified once it is in the code. The following list contains a few of the areas that must be considered.  
@@ -50,9 +50,9 @@ The code in a code snippet shows only the most basic way to do something. For mo
 ## Downloaded Code Snippets  
  IntelliSense code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.  
   
--   Download snippets only from sites you trust, and use up-to-date virus software.  
+- Download snippets only from sites you trust, and use up-to-date virus software.  
   
--   Open all downloaded snippet files in Notepad or the XML editor of Visual Studio and review them carefully before installing them. Look for the following issues:  
+- Open all downloaded snippet files in Notepad or the XML editor of Visual Studio and review them carefully before installing them. Look for the following issues:  
   
     -   The snippet code could damage your system if you execute it. Read the source code carefully before running it.  
   

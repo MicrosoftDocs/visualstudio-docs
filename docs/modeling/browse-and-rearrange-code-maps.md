@@ -31,9 +31,9 @@ You can customize code maps without affecting the underlying code in a solution.
 
  **Requirements**
 
--   To create code maps, you must have Visual Studio Enterprise.
+- To create code maps, you must have Visual Studio Enterprise.
 
--   You can view code maps and make limited edits to code maps in Visual Studio Professional.
+- You can view code maps and make limited edits to code maps in Visual Studio Professional.
 
 ##  <a name="ManageLargeGraphs"></a> Get started working with code maps
 
@@ -41,15 +41,15 @@ Create a code map (see [Map dependencies across your solutions](../modeling/map-
 
 After you generate the map, get started with these tips for reviewing your code:
 
--   Look at the natural dependency clusters in the code. On the map toolbar, choose **Layout**, **Quick Clusters**![Quick Clusters button on graph toolbar](../modeling/media/quickclustersicon.gif). See [Change the map layout](#Selecting).
+- Look at the natural dependency clusters in the code. On the map toolbar, choose **Layout**, **Quick Clusters**![Quick Clusters button on graph toolbar](../modeling/media/quickclustersicon.gif). See [Change the map layout](#Selecting).
 
      ![Dependency graph &#45; Quick Clusters layout](../modeling/media/dependencygraph_quickclusters.png)
 
--   Organize the map into smaller areas by grouping related nodes. Collapse those groups to see only the intergroup dependencies, which appear automatically. See [Group nodes](#OrganizeGroups).
+- Organize the map into smaller areas by grouping related nodes. Collapse those groups to see only the intergroup dependencies, which appear automatically. See [Group nodes](#OrganizeGroups).
 
--   Use filters to simplify the map and focus on the types of nodes or links you are interested in. See [Filter nodes and links](#FilterNodes).
+- Use filters to simplify the map and focus on the types of nodes or links you are interested in. See [Filter nodes and links](#FilterNodes).
 
--   Maximize the performance of large maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more information.For example, turn on **Skip Build** on the map toolbar so that Visual Studio doesn't rebuild your solution when you update items on the map.
+- Maximize the performance of large maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more information.For example, turn on **Skip Build** on the map toolbar so that Visual Studio doesn't rebuild your solution when you update items on the map.
 
 ##  <a name="Selecting"></a> Change the map layout
 
@@ -89,11 +89,11 @@ The icons shown in the Legend panel of the map reflect the settings you make in 
 
 Code maps show these kinds of links:
 
--   An individual link represents a single relationship between two nodes.
+- An individual link represents a single relationship between two nodes.
 
--   A cross-group link represents a relationship between two nodes in different groups.
+- A cross-group link represents a relationship between two nodes in different groups.
 
--   An aggregate link represents all the relationships that point in the same direction between two groups.
+- An aggregate link represents all the relationships that point in the same direction between two groups.
 
 > [!TIP]
 > By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.
@@ -239,9 +239,9 @@ You can display more or fewer items on a map in order to drill down or to simpli
 
 2. If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png) appears inside the group. Click this to retrieve missing elements and links.
 
--   You can remove code elements and links from a map without affecting the underlying code. When you delete them, their definitions are removed from the DGML (.dgml) file.
+- You can remove code elements and links from a map without affecting the underlying code. When you delete them, their definitions are removed from the DGML (.dgml) file.
 
--   Maps created by editing the DGML, by adding undefined code elements, or by using some earlier versions of Visual Studio, do not support this capability.
+- Maps created by editing the DGML, by adding undefined code elements, or by using some earlier versions of Visual Studio, do not support this capability.
 
 #### Flag a code element for follow-up
 
@@ -249,9 +249,9 @@ You can display more or fewer items on a map in order to drill down or to simpli
 
 2. Open the shortcut menu and choose **Edit** > **Flag for Follow Up**.
 
--   By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.
+- By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.
 
--   Change the background color of the element or clear the follow-up flag by choosing **Edit** > **Other Flag Colors**.
+- Change the background color of the element or clear the follow-up flag by choosing **Edit** > **Other Flag Colors**.
 
 ##  <a name="ChangeStyleCodeOrLink"></a> Change the style of a code element or link
 

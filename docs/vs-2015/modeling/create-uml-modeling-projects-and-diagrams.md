@@ -100,7 +100,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To permanently delete a diagram from a project  
   
--   In **Solution Explorer**, right-click the main file that represents the diagram, and then click **Delete**.  
+- In **Solution Explorer**, right-click the main file that represents the diagram, and then click **Delete**.  
   
      The diagram is removed from the project and the file system. The elements shown on the diagram are not removed from **UML Model Explorer**.  
   
@@ -109,7 +109,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To temporarily exclude a diagram from a project  
   
--   In **Solution Explorer**, right-click the diagram file, and then click **Exclude from Project**.  
+- In **Solution Explorer**, right-click the diagram file, and then click **Exclude from Project**.  
   
      The diagram is removed from the project. It is not removed from the file system.  
   
@@ -135,11 +135,11 @@ UML models help you understand, discuss, and design software systems. Visual Stu
 ##  <a name="NonModelDiagrams"></a> Diagrams that Do Not Require Modeling Projects  
  The following kinds of diagrams are not part of a modeling project:  
   
--   Class diagrams that are created as views of the source code. These are not related to UML class diagrams. For more information, see [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md).  
+- Class diagrams that are created as views of the source code. These are not related to UML class diagrams. For more information, see [Designing and Viewing Classes and Types](../ide/designing-and-viewing-classes-and-types.md).  
   
--   Code maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+- Code maps. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
--   Diagrams that are not UML diagrams or layer diagrams, such as domain specific languages.  
+- Diagrams that are not UML diagrams or layer diagrams, such as domain specific languages.  
   
 ##  <a name="TroubleshootingModelingProjects"></a> Troubleshooting Modeling Projects and Diagrams  
  The following table describes issues that can occur with modeling projects or diagrams and how to resolve them:  

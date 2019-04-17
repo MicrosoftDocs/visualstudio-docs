@@ -77,7 +77,7 @@ Do not set the primary instance of Visual Studio to run the custom Start Page un
 
 ### To apply the custom start page in the primary instance of Visual Studio
 
--   After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio
+- After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio
 
 ## See also
 

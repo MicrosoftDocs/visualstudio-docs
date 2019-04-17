@@ -117,15 +117,15 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 
 The `_In_` annotation indicates that:
 
--   The parameter must be valid and will not be modified.
+- The parameter must be valid and will not be modified.
 
--   The function will only read from the single-element buffer.
+- The function will only read from the single-element buffer.
 
--   The caller must provide the buffer and initialize it.
+- The caller must provide the buffer and initialize it.
 
--   `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
+- `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.
 
--   `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
+- `_In_` is allowed but ignored by the analyzer on non-pointer scalars.
 
 ```cpp
 void InCallee(_In_ int *pInt)

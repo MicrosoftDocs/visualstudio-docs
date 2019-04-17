@@ -19,25 +19,25 @@ manager: jillfra
 
 This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] stand-alone application to collect detailed timing and call count data by using the instrumentation method of the Profiling Tools. In this walkthrough, you will accomplish the following tasks:  
   
--   Use the [VSInstr](../profiling/vsinstr.md) command line tool to generate instrumented binaries.  
+- Use the [VSInstr](../profiling/vsinstr.md) command line tool to generate instrumented binaries.  
   
--   Use the [VSPerfCLREnv](../profiling/vsperfclrenv.md) tool to set the environment variables to collect .NET profiling data.  
+- Use the [VSPerfCLREnv](../profiling/vsperfclrenv.md) tool to set the environment variables to collect .NET profiling data.  
   
--   Use the [VSPerfCmd](../profiling/vsperfcmd.md) tool to collect profiling data.  
+- Use the [VSPerfCmd](../profiling/vsperfcmd.md) tool to collect profiling data.  
   
--   Use the [VSPerfReport](../profiling/vsperfreport.md) tool to generate file-based reports of the profiling data.  
+- Use the [VSPerfReport](../profiling/vsperfreport.md) tool to generate file-based reports of the profiling data.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)]  
+- [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)]  
   
--   Intermediate understanding of C#  
+- Intermediate understanding of C#  
   
--   Intermediate understanding of working with command-line tools  
+- Intermediate understanding of working with command-line tools  
   
--   A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)  
+- A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)  
   
--   To work with the information provided by profiling, it is best to have debugging symbol information available. For more information, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
+- To work with the information provided by profiling, it is best to have debugging symbol information available. For more information, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
   
 ## Command Line Profiling Using the Instrumentation Method  
  Instrumentation is a profiling method by which specially built versions of the profiled binaries contain probe functions that collect timing information at the entry and exit to functions in an instrumented module. Because this method of profiling is more invasive than sampling, it incurs a greater amount of overhead. Instrumented binaries are also larger than debug or release binaries and are not intended for deployment.  

@@ -27,11 +27,11 @@ When you examine threads in the code editor and the different multithreaded debu
 
 ### To switch to any thread that appears
 
--   In the **Threads** or **Parallel Watch** window, double-click the thread.
+- In the **Threads** or **Parallel Watch** window, double-click the thread.
 
 ### To switch to a thread in a source window
 
--   In the left gutter, right-click a thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker"), point to **Switch to**, and then click the name of that thread to which you want to switch. The shortcut menu shows only the threads at that specific location.
+- In the left gutter, right-click a thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker"), point to **Switch to**, and then click the name of that thread to which you want to switch. The shortcut menu shows only the threads at that specific location.
 
      If no thread markers appear, right-click in the **Threads** window and verify that **Show Threads in Source** is selected.
 

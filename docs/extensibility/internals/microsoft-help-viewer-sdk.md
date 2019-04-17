@@ -13,15 +13,15 @@ ms.workload:
 
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 
--   Creating a topic (F1 support)
+- Creating a topic (F1 support)
 
--   Creating a Help Viewer content-branding package
+- Creating a Help Viewer content-branding package
 
--   Deploying a set of articles
+- Deploying a set of articles
 
--   Adding help to the Visual Studio shell (integrated or isolated)
+- Adding help to the Visual Studio shell (integrated or isolated)
 
--   Additional Resources
+- Additional Resources
 
 ## Create a topic (F1 support)
 
@@ -37,37 +37,37 @@ To be rendered correctly within the Help Viewer, raw topic content must be W3C B
 
 A topic typically contains two sections:
 
--   Metadata (see Content Metadata Reference): data about the topic, for example, the topic unique ID, keyword value, the topic TOC ID, parent node ID, etc.
+- Metadata (see Content Metadata Reference): data about the topic, for example, the topic unique ID, keyword value, the topic TOC ID, parent node ID, etc.
 
--   Body content: compliant with W3C Basic 1.1 XHTML, which includes supported content behaviors (collapsible area, code snippet, etc. A full list is shown below).
+- Body content: compliant with W3C Basic 1.1 XHTML, which includes supported content behaviors (collapsible area, code snippet, etc. A full list is shown below).
 
 Visual Studio Branding Package supported controls:
 
--   Links
+- Links
 
--   CodeSnippet
+- CodeSnippet
 
--   CollapsibleArea
+- CollapsibleArea
 
--   Inherited Member
+- Inherited Member
 
--   LanguageSpecificText
+- LanguageSpecificText
 
 Supported language strings (not case sensitive):
 
--   javascript
+- javascript
 
--   csharp or c#
+- csharp or c#
 
--   cplusplus or visualc++ or c++
+- cplusplus or visualc++ or c++
 
--   jscript
+- jscript
 
--   visualbasic or vb
+- visualbasic or vb
 
--   f# or fsharp or fs
+- f# or fsharp or fs
 
--   other - a string that represents a language name
+- other - a string that represents a language name
 
 **Creating a Help Viewer topic**
 
@@ -88,15 +88,15 @@ Create a new XHTML document named ContosoTopic4.htm, and include the title tag (
 
 Next, add data to define how the topic is to be presented (self branded or not), how to reference this topic for F1, where this topic exists within the TOC, its ID (for link reference by other topics), etc. See the "Content Metadata" table below for a complete list of supported metadata.
 
--   In this case, we will use our own branding package, a variant of the Visual Studio Help Viewer branding package.
+- In this case, we will use our own branding package, a variant of the Visual Studio Help Viewer branding package.
 
--   Add the F1 meta name and value ("Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag. (See the F1 Support section for more information.) This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.
+- Add the F1 meta name and value ("Microsoft.Help.F1" content=" ContosoTopic4") that will match the supplied F1 value in the IDE property bag. (See the F1 Support section for more information.) This is the value that is matched to the F1 call from within the IDE to display this topic when F1 is chosen in the IDE.
 
--   Add the topic ID. This is the string that is used by other topics to link to this topic. It is the Help Viewer ID for this topic.
+- Add the topic ID. This is the string that is used by other topics to link to this topic. It is the Help Viewer ID for this topic.
 
--   For the TOC, add this topic's parent node to define where this topic TOC node will appear.
+- For the TOC, add this topic's parent node to define where this topic TOC node will appear.
 
--   For the TOC, add this topic's node order. When the parent node has `n` number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.
+- For the TOC, add this topic's node order. When the parent node has `n` number of children nodes, define in the order of child nodes this topic's location. For example, this topic is number 4 of 4 child topics.
 
 Example metadata section:
 
@@ -274,15 +274,15 @@ F1 Flow Diagram:
 
 When the Help Viewer default help content source is set to online (Launch in browser):
 
--   Visual Studio Partner (VSP) features emit a value to the F1 property bag (property bag prefix.keyword and online URL for the prefix found in the registry): F1 sends a VSP URL+ parameters to the browser.
+- Visual Studio Partner (VSP) features emit a value to the F1 property bag (property bag prefix.keyword and online URL for the prefix found in the registry): F1 sends a VSP URL+ parameters to the browser.
 
--   Visual Studio features (language editor, Visual Studio specific menu items, etc.):  F1 sends  a Visual Studio URL to the browser.
+- Visual Studio features (language editor, Visual Studio specific menu items, etc.):  F1 sends  a Visual Studio URL to the browser.
 
 When the Help Viewer default help content source  is set to local Help (Launch in Help Viewer):
 
--   VSP features where keyword match between F1 property bag and local store index (that is, the property bag prefix.keyword = the value found in the local store index):  F1 renders the topic in the Help Viewer.
+- VSP features where keyword match between F1 property bag and local store index (that is, the property bag prefix.keyword = the value found in the local store index):  F1 renders the topic in the Help Viewer.
 
--   Visual Studio features (no option for the VSP to override the property bag emitted from Visual Studio features): F1 renders a Visual Studio topic in the Help Viewer.
+- Visual Studio features (no option for the VSP to override the property bag emitted from Visual Studio features): F1 renders a Visual Studio topic in the Help Viewer.
 
 Set the following registry values to enable F1 Fallback for vendor Help content. F1 Fallback means that the Help Viewer is set to look for F1 Help content online, and the vendor content is installed locally to the users' hard drive. The Help Viewer should look at local Help for the content even though the default setting is for online help.
 
@@ -322,9 +322,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudi
 
 When an F1 keyword in the format HEADER/METHOD is encountered, the '/' character will be parsed out, resulting in the following construct:
 
--   HEADER: will be the namespace that can be used to register in the registry
+- HEADER: will be the namespace that can be used to register in the registry
 
--   METHOD: this will become the keyword that gets passed through.
+- METHOD: this will become the keyword that gets passed through.
 
 For example, given a custom library called CustomLibrary and a method called MyTestMethod, when an F1 request comes in it will be formatted as `CustomLibrary/MyTestMethod`.
 
@@ -378,55 +378,55 @@ The Visual Studio release encompasses a number of different Visual Studio produc
 
 Branding packages are installed by the product containing the Help Viewer.  For Visual Studio products:
 
--   A fallback branding package (Branding_\<locale>.mshc) is installed in the Help Viewer 2.3 app root (example: C:\Program Files (x86)\Microsoft Help Viewer\v2.3) by the Help Viewer language pack.  This is used for cases where either the product branding package is not installed (no content has been installed) or where the installed branding package is corrupted.  The Visual Studio elements (logo and Feedback) are ignored when the app root fallback branding package is used.
+- A fallback branding package (Branding_\<locale>.mshc) is installed in the Help Viewer 2.3 app root (example: C:\Program Files (x86)\Microsoft Help Viewer\v2.3) by the Help Viewer language pack.  This is used for cases where either the product branding package is not installed (no content has been installed) or where the installed branding package is corrupted.  The Visual Studio elements (logo and Feedback) are ignored when the app root fallback branding package is used.
 
--   When Visual Studio content is installed from the content package service, a branding package is also installed (for the first time content installation scenario).  If there is an update to the branding package, the update is installed when the next content update or additional package install action happens.
+- When Visual Studio content is installed from the content package service, a branding package is also installed (for the first time content installation scenario).  If there is an update to the branding package, the update is installed when the next content update or additional package install action happens.
 
 The Microsoft Help Viewer supports the branding of topics based on topic metadata.
 
--   Where topic metadata defines self branded = true, render the topic as is, do nothing (as far as branding).
+- Where topic metadata defines self branded = true, render the topic as is, do nothing (as far as branding).
 
--   Where topic metadata defines self branded = false, use the branding package associated with TopicVendor metadata value.
+- Where topic metadata defines self branded = false, use the branding package associated with TopicVendor metadata value.
 
--   Where topic metadata defines name="Microsoft.Help.TopicVendor" content=\< branding package name in vendor MSHA>, use the branding package defined in the content value.
+- Where topic metadata defines name="Microsoft.Help.TopicVendor" content=\< branding package name in vendor MSHA>, use the branding package defined in the content value.
 
--   Within the Visual Studio catalog, there is a priority application of Branding Packages.  First Visual Studio default branding is applied, and then, if defined in the topic metadata and supported with the associated branding package (as defined in the installation msha), the vendor defined branding is applied as an override.
+- Within the Visual Studio catalog, there is a priority application of Branding Packages.  First Visual Studio default branding is applied, and then, if defined in the topic metadata and supported with the associated branding package (as defined in the installation msha), the vendor defined branding is applied as an override.
 
 Branding elements typically fall into three main categories:
 
--   Header elements (examples include feedback link, conditional disclaimer text, logo)
+- Header elements (examples include feedback link, conditional disclaimer text, logo)
 
--   Content behaviors (examples include expand/collapse control text elements and code snippet elements)
+- Content behaviors (examples include expand/collapse control text elements and code snippet elements)
 
--   Footer elements (example Copyright)
+- Footer elements (example Copyright)
 
 Items considered as branded elements include (detailed in this spec):
 
--   Catalog/product logo (example, Visual Studio)
+- Catalog/product logo (example, Visual Studio)
 
--   Feedback link and e-mail elements
+- Feedback link and e-mail elements
 
--   Disclaimer text
+- Disclaimer text
 
--   Copyright text
+- Copyright text
 
 Supporting files in the Visual Studio Help Viewer branding package include:
 
--   Graphics (logos, icons, etc.)
+- Graphics (logos, icons, etc.)
 
--   Branding.js - script files supporting content behaviors
+- Branding.js - script files supporting content behaviors
 
--   Branding.xml - strings that are consistently used across catalog content.  Note: for Visual Studio localization text elements in the branding.xml, include _locID="\<unique value>"
+- Branding.xml - strings that are consistently used across catalog content.  Note: for Visual Studio localization text elements in the branding.xml, include _locID="\<unique value>"
 
--   Branding.css - style definitions for presentation consistency
+- Branding.css - style definitions for presentation consistency
 
--   Printing.css - style definitions for consistent printed presentation
+- Printing.css - style definitions for consistent printed presentation
 
 As noted above, Branding Packages are associated with the topic:
 
--   When SelfBranded = false is defined in the metadata, the topic inherits the catalog branding package
+- When SelfBranded = false is defined in the metadata, the topic inherits the catalog branding package
 
--   Or when SelfBranded = false and there is a unique Branding Package defined in the MSHA and available when the content is installed
+- Or when SelfBranded = false and there is a unique Branding Package defined in the MSHA and available when the content is installed
 
 For VSPs implementing custom branding packages (VSP content, SelfBranded=True), one way to proceed is to start with the fallback branding package (installed with the Help Viewer), and change the name of the file as appropriate.  The Branding_\<locale>.mshc file is a zip file with the file extension changed to .mshc, so simply change the extension from .mshc to .zip and extract the contents.  See below for branding package elements and modify as appropriate (for example, change the logo to the VSP logo and the reference to the logo in the Branding.xml file, update Branding.xml per VSP specifics, etc.).
 
@@ -584,9 +584,9 @@ The branding package contains a set of HTM files that support scenarios for comm
 
 The Visual Studio Help Viewer Branding Package contains two css files to support consistent Visual Studio Help content presentation:
 
--   Branding.css - contains css elements for rendering where SelfBranded=false
+- Branding.css - contains css elements for rendering where SelfBranded=false
 
--   Printer.css - contains css elements for rendering where SelfBranded=false
+- Printer.css - contains css elements for rendering where SelfBranded=false
 
 Branding.css files include definitions for Visual Studio topic presentation (caveat is that the branding.css contained in the Branding_\<locale>.mshc from the package service may change).
 
@@ -716,9 +716,9 @@ The basic steps for creating an Isolated Shell-based application and its Help:
 
 Create a Visual Studio content store. For the Integrated Shell scenario, change Visual Studio12 to the product catalog name as follows:
 
--   Create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15.
+- Create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15.
 
--   Create a file named CatalogType.xml and add it to the folder. The file should contain the following lines of code:
+- Create a file named CatalogType.xml and add it to the folder. The file should contain the following lines of code:
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>

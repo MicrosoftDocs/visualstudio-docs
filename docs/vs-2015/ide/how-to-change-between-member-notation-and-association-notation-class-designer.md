@@ -36,7 +36,7 @@ In Class Designer, you can change the way the class diagram represents an associ
   
 ### To change association notation to member notation  
   
--   On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate.  
+- On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate.  
   
      The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.  
   

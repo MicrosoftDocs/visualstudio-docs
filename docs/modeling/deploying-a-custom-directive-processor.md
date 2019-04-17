@@ -16,11 +16,11 @@ To use a custom directive processor in Visual Studio on any computer, you must r
 
 The alternative methods are:
 
--   [Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.
+- [Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.
 
--   [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.
+- [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.
 
--   Set a registry key. In this method, you add a registry entry for the directive processor.
+- Set a registry key. In this method, you add a registry entry for the directive processor.
 
 You need to use one of these methods only if you want to transform your text template in Visual Studio or MSBuild. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.
 
@@ -30,9 +30,9 @@ You can add a custom directive processor to a [Visual Studio Extension (VSIX)](.
 
  You need to make sure that the following two items are contained in the .vsix file:
 
--   The assembly (.dll) that contains the custom directive processor class.
+- The assembly (.dll) that contains the custom directive processor class.
 
--   A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.
+- A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.
 
 To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.
 
@@ -114,13 +114,13 @@ There are several ways of creating a .vsix file. The following procedure describ
 ### Troubleshooting a Directive Processor in a VSIX
  If the directive processor does not work, the following suggestions might help:
 
--   The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.
+- The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.
 
--   Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.
+- Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.
 
--   If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.
+- If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.
 
--   Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:
+- Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:
 
      `<Content>`
 

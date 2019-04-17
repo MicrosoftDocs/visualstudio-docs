@@ -21,7 +21,7 @@ ms.workload:
 
 ### Workarounds
 
--   Update your project to use Microsoft .NET Framework 4 or later.
+- Update your project to use Microsoft .NET Framework 4 or later.
 
      -or-
 
@@ -49,7 +49,7 @@ ms.workload:
 
 ### To correct this error
 
--   See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
+- See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
 ## See Also
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

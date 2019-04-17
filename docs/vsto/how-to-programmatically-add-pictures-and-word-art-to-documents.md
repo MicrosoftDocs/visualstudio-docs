@@ -91,7 +91,7 @@ ms.workload:
 
 ## Compile the code
 
--   A picture named *SamplePicture.jpg* must exist on drive C.
+- A picture named *SamplePicture.jpg* must exist on drive C.
 
 ## See also
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)

@@ -69,13 +69,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Design-time IntelliSense
  To get IntelliSense support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] before a build has generated an output assembly, the following conditions must be met:
 
--   There must be a target named `Compile`.
+- There must be a target named `Compile`.
 
--   Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
+- Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.
 
--   Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
+- Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.
 
--   The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
+- The conditions listed in the [In-process compilers](#in-process-compilers) section must be met.
 
 ## Build solutions
  Within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself. When building a solution with *msbuild.exe* on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with *msbuild.exe*, project to project references are traversed.

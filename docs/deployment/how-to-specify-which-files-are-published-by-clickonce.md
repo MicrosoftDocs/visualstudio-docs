@@ -29,9 +29,9 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
  Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
 
--   Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
+- Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
 
--   References to assemblies (*.dll* files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an *.ocx* file) only if its **Isolated** property is set to **True**. By default, it will be included.
+- References to assemblies (*.dll* files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an *.ocx* file) only if its **Isolated** property is set to **True**. By default, it will be included.
 
 ### To add files to the Application Files dialog box
 

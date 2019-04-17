@@ -22,9 +22,9 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 #### To prepare projects for migration.
 
--   Make sure the **.csproj** and **.sln** files can be written. If they are under source control, make sure that they are checked out.
+- Make sure the **.csproj** and **.sln** files can be written. If they are under source control, make sure that they are checked out.
 
--   Make a copy of the folders you intend to migrate.
+- Make a copy of the folders you intend to migrate.
 
 ## Migrating a Collection of Projects
 

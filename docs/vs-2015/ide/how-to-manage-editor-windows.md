@@ -39,14 +39,14 @@ You can work on code in several locations at once. Do this by splitting an Edito
   
 #### To return to single-pane view  
   
--   From the **Window** menu, select **Remove Split**.  
+- From the **Window** menu, select **Remove Split**.  
   
 ## Creating New Windows  
  You can also create multiple instances of an editor window. This feature allows you to open a lengthy document in more than one instance of an editor, so that you can view and edit different sections simultaneously in separate, full-sized editor windows.  
   
 #### To create a new window  
   
--   On the **Window** menu, click **New Window**.  
+- On the **Window** menu, click **New Window**.  
   
      A new tabbed instance of the editor is added.  
   

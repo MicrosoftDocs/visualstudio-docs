@@ -17,17 +17,17 @@ ms.workload:
 
  When implementing any kind of notification:
 
--   **Keep the number of notifications to the minimum** effective number. Notification messages should apply to a majority of Visual Studio users or to users of a specific feature/feature area. Excessive use of notifications may sidetrack the user or diminish perceived ease of use of the system.
+- **Keep the number of notifications to the minimum** effective number. Notification messages should apply to a majority of Visual Studio users or to users of a specific feature/feature area. Excessive use of notifications may sidetrack the user or diminish perceived ease of use of the system.
 
--   **Ensure you are presenting clear, actionable messages** that the user can use to invoke the appropriate context for making more complex choices and taking further action.
+- **Ensure you are presenting clear, actionable messages** that the user can use to invoke the appropriate context for making more complex choices and taking further action.
 
--   **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user's task flow.
+- **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user's task flow.
 
--   **Use modal dialogs only when necessary to prevent the user from taking further action** before acknowledging the message or making a decision presented in the dialog.
+- **Use modal dialogs only when necessary to prevent the user from taking further action** before acknowledging the message or making a decision presented in the dialog.
 
--   **Remove ambient notifications when they are no longer valid.** Do not require the user to dismiss a notification if they have already taken action to address the issue they were notified about.
+- **Remove ambient notifications when they are no longer valid.** Do not require the user to dismiss a notification if they have already taken action to address the issue they were notified about.
 
--   **Be aware that notifications can lead to false correlations.** Users might believe that one or more of their actions has triggered a notification when in fact there was no causal relationship. Be clear in the notification message about the context, the trigger, and the source of the notification.
+- **Be aware that notifications can lead to false correlations.** Users might believe that one or more of their actions has triggered a notification when in fact there was no causal relationship. Be clear in the notification message about the context, the trigger, and the source of the notification.
 
 ### Choosing the right method
  Use this table to assist you in choosing the right method to notify the user of your message.
@@ -286,31 +286,31 @@ ms.workload:
 
 #### Appropriate uses for an infobar
 
--   To give the user a non-blocking but important message relevant to the current context
+- To give the user a non-blocking but important message relevant to the current context
 
--   To indicate that the UI is in a certain state or condition that carries some interaction implications, such as historical debugging
+- To indicate that the UI is in a certain state or condition that carries some interaction implications, such as historical debugging
 
--   To notify the user that the system has detected problems, such as when an extension is causing performance issues
+- To notify the user that the system has detected problems, such as when an extension is causing performance issues
 
--   To provide the user a way to easily take action, such as when the editor detects that a file has mixed tabs and spaces
+- To provide the user a way to easily take action, such as when the editor detects that a file has mixed tabs and spaces
 
 ##### Do:
 
--   Keep the infobar message text short and to the point.
+- Keep the infobar message text short and to the point.
 
--   Keep the text on links and buttons succinct.
+- Keep the text on links and buttons succinct.
 
--   Ensure the "action" options you provide to users are minimal, showing only required actions.
+- Ensure the "action" options you provide to users are minimal, showing only required actions.
 
 ##### Don't:
 
--   Use an infobar to offer standard commands that should be placed in a toolbar.
+- Use an infobar to offer standard commands that should be placed in a toolbar.
 
--   Use an infobar in place of a modal dialog.
+- Use an infobar in place of a modal dialog.
 
--   Create a floating message outside a window.
+- Create a floating message outside a window.
 
--   Use multiple infobars in several locations within the same window.
+- Use multiple infobars in several locations within the same window.
 
 #### Can multiple infobars show at the same time?
  Yes, multiple infobars can show at the same time. They will be displayed in first-come, first-served order with the first infobar showing on top and additional infobars showing below.
@@ -320,13 +320,13 @@ ms.workload:
 ### Creating an infobar
  The infobar has four sections, from left to right:
 
--   **Icon:** This is where you'd add any icon you'd like to display for the infobar, such as a warning icon.
+- **Icon:** This is where you'd add any icon you'd like to display for the infobar, such as a warning icon.
 
--   **Text:** You can add text to describe the scenario/situation user is in, along with links within the text, if required. Remember to keep the text succinct.
+- **Text:** You can add text to describe the scenario/situation user is in, along with links within the text, if required. Remember to keep the text succinct.
 
--   **Actions:** This section should contain links and buttons for actions that the user can take in your infobar.
+- **Actions:** This section should contain links and buttons for actions that the user can take in your infobar.
 
--   **Close button:** The last section to the right can have a close button.
+- **Close button:** The last section to the right can have a close button.
 
 #### Creating a standard infobar in managed code
  The InfoBarModel class can be used to create a data source for an infobar. Use one of these four constructors:
@@ -406,9 +406,9 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 ### Placement
  Infobars can be shown in one or more of the following locations:
 
--   Tool windows
+- Tool windows
 
--   Within a document tab
+- Within a document tab
 
 > [!IMPORTANT]
 >  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.

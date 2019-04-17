@@ -179,9 +179,9 @@ Data breakpoints in .NET Core won't work for:
 3. In the **Byte Count** dropdown, select the number of bytes you want the debugger to watch. For example, if you select **4**, the debugger will watch the four bytes starting at `&avar` and break if any of those bytes change value.
 
 Data breakpoints don't work under the following conditions:
--   A process that is not being debugged writes to the memory location.
--   The memory location is shared between two or more processes.
--   The memory location is updated within the kernel. For example, if memory is passed to the 32-bit Windows `ReadFile` function, the memory will be updated from kernel mode, so the debugger won't break on the update.
+- A process that is not being debugged writes to the memory location.
+- The memory location is shared between two or more processes.
+- The memory location is updated within the kernel. For example, if memory is passed to the 32-bit Windows `ReadFile` function, the memory will be updated from kernel mode, so the debugger won't break on the update.
 
 >[!NOTE]
 >- Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
@@ -287,11 +287,11 @@ You can restrict a breakpoint to fire only on specified devices, or in specified
 
 Under **Conditions** in the **Breakpoint Settings** window, select **Filter**, and then enter one or more of the following expressions:
 
--   MachineName = "name"
--   ProcessId = value
--   ProcessName = "name"
--   ThreadId = value
--   ThreadName = "name"
+- MachineName = "name"
+- ProcessId = value
+- ProcessName = "name"
+- ThreadId = value
+- ThreadName = "name"
 
 Enclose string values in double quotes. You can combine clauses using `&` (AND), `||` (OR), `!` (NOT), and parentheses.
 

@@ -24,7 +24,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
 ### Autoloading a VSPackage in a specific context  
   
--   Add the `ProvideAutoLoad` attribute to the VSPackage attributes:  
+- Add the `ProvideAutoLoad` attribute to the VSPackage attributes:  
   
     ```csharp  
     [DefaultRegistryRoot(@"Software\Microsoft\VisualStudio\14.0")]  
@@ -37,11 +37,11 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
      See the enumerated fields of <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> for a list of the UI contexts and their GUID values.  
   
--   Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
+- Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
--   Build the VSPackage and start debugging.  
+- Build the VSPackage and start debugging.  
   
--   Load a solution or create one.  
+- Load a solution or create one.  
   
      The VSPackage loads and stops at the breakpoint.  
   
@@ -50,7 +50,7 @@ VSPackages are loaded into Visual Studio only when their functionality is requir
   
  You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackage%2A> method to force a VSPackage to load.  
   
--   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method of the VSPackage that forces another VSPackage to load:  
+- Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method of the VSPackage that forces another VSPackage to load:  
   
     ```csharp  
     IVsShell shell = GetService(typeof(SVsShell)) as IVsShell;  

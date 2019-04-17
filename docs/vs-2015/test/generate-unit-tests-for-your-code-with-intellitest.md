@@ -89,13 +89,13 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
   
  If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:  
   
--   **PexAllowedExceptionAttribute**  
+- **PexAllowedExceptionAttribute**  
   
--   **PexAllowedExceptionFromTypeAttribute**  
+- **PexAllowedExceptionFromTypeAttribute**  
   
--   **PexAllowedExceptionFromTypeUnderTestAttribute**  
+- **PexAllowedExceptionFromTypeUnderTestAttribute**  
   
--   **PexAllowedExceptionFromAssemblyAttribute**  
+- **PexAllowedExceptionFromAssemblyAttribute**  
   
 ### Q: Can I add assumptions to the parameterized unit test?  
  **A:** Yes, use assumptions to specify which test data is not required for the unit test for a specific method. Use the <xref:Microsoft.Pex.Framework.PexAssume> class to add assumptions. For example, you can add an assumption that the lengths variable is not null like this.  

@@ -36,9 +36,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Outlook
+- Microsoft Outlook
 
 ## Create the project
 
@@ -63,9 +63,9 @@ ms.workload:
 ## Write code that adds text to each new mail message
  Next, add code to the ThisAddIn code file. The new code uses the object model of Outlook to add text to each new mail message. By default, the ThisAddIn code file contains the following generated code:
 
--   A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Outlook. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Outlook. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
 
--   The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Outlook loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Outlook loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add text to the subject and body of each new mail message
 
@@ -88,9 +88,9 @@ ms.workload:
 
    To modify each new mail message, the previous code examples use the following objects:
 
--   The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.Outlook.Application> object, which represents the current instance of Outlook.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.Outlook.Application> object, which represents the current instance of Outlook.
 
--   The `Inspector` parameter of the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event. The `Inspector` parameter is an <xref:Microsoft.Office.Interop.Outlook.Inspector> object, which represents the Inspector window of the new mail message. For more information, see [Outlook solutions](../vsto/outlook-solutions.md).
+- The `Inspector` parameter of the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event. The `Inspector` parameter is an <xref:Microsoft.Office.Interop.Outlook.Inspector> object, which represents the Inspector window of the new mail message. For more information, see [Outlook solutions](../vsto/outlook-solutions.md).
 
 ## Test the project
  When you build and run the project, verify that the text appears in the subject line and body of a new mail message.
@@ -119,15 +119,15 @@ ms.workload:
 ## Next steps
  Now that you have created a basic VSTO Add-in for Outlook, you can learn more about how to develop VSTO Add-ins from these topics:
 
--   General programming tasks that you can perform by using VSTO Add-ins for Outlook. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+- General programming tasks that you can perform by using VSTO Add-ins for Outlook. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
--   Using the object model of Outlook. For more information, see [Outlook solutions](../vsto/outlook-solutions.md).
+- Using the object model of Outlook. For more information, see [Outlook solutions](../vsto/outlook-solutions.md).
 
--   Customizing the UI of Outlook, for example, by adding a custom tab to the Ribbon or creating your own custom task pane. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
+- Customizing the UI of Outlook, for example, by adding a custom tab to the Ribbon or creating your own custom task pane. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
--   Building and debugging VSTO Add-ins for Outlook. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging VSTO Add-ins for Outlook. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying VSTO Add-ins for Outlook. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying VSTO Add-ins for Outlook. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

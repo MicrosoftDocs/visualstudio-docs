@@ -23,13 +23,13 @@ You must define toolbox items for the elements that you want to let users add to
   
  In this topic:  
   
--   [How the Toolbox is Defined](#ToolboxDef)  
+- [How the Toolbox is Defined](#ToolboxDef)  
   
--   [Customizing Element Tools](#customizing)  
+- [Customizing Element Tools](#customizing)  
   
--   [Creating Groups of Elements from a Tool](#groups)  
+- [Creating Groups of Elements from a Tool](#groups)  
   
--   [Customizing Connection Tools](#connections)  
+- [Customizing Connection Tools](#connections)  
   
 ##  <a name="ToolboxDef"></a> How the toolbox is defined  
  In the DSL Explorer, expand the Editor node and the nodes underneath it. Typically you will see a hierarchy that resembles this:  
@@ -47,15 +47,15 @@ Editor
   
  In this part of DSL Explorer, you can:  
   
--   Create new tabs. Tabs define the section headings in the toolbox.  
+- Create new tabs. Tabs define the section headings in the toolbox.  
   
--   Create new tools.  
+- Create new tools.  
   
--   Copy and paste tools.  
+- Copy and paste tools.  
   
--   Move tools up or down in the list.  
+- Move tools up or down in the list.  
   
--   Delete tabs and tools.  
+- Delete tabs and tools.  
   
 > [!IMPORTANT]
 >  To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.  
@@ -91,13 +91,13 @@ Editor
 ##  <a name="customizing"></a> Customizing Element Tools  
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:  
   
--   Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.  
+- Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.  
   
      These customizations also affect what happens when the user pastes or drags and drops an element.  
   
      For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).  
   
--   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
+- Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
   
 ##  <a name="groups"></a> Creating Groups of Elements from a Tool  
  Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  

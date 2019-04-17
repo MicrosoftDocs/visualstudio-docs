@@ -39,9 +39,9 @@ ms.workload:
 ## Compile the code
  This example requires a class library project with references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## Deploy the project item
  To enable other developers to use your project item, create a project template or a project item template. For more information, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).

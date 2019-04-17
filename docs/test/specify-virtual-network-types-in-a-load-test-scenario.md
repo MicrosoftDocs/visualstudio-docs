@@ -35,17 +35,17 @@ For more information, see [About the mix control](../test/specify-virtual-networ
 
 Visual Studio uses software-based true network emulation for all test types including load tests. True network emulation simulates network conditions by direct manipulation of the network packets. The true network emulator can emulate the behavior of both wired and wireless networks by using a reliable physical link, such as an Ethernet. The following network attributes are incorporated into true network emulation:
 
--   Round-trip time over the network (latency)
+- Round-trip time over the network (latency)
 
--   The amount of available bandwidth
+- The amount of available bandwidth
 
--   Queuing behavior
+- Queuing behavior
 
--   Packet loss
+- Packet loss
 
--   Reordering of packets
+- Reordering of packets
 
--   Error propagations.
+- Error propagations.
 
 True network emulation also provides flexibility in filtering network packets based on IP addresses or protocols such as TCP, UDP, and ICMP.
 

@@ -31,7 +31,7 @@ In Visual Studio, you can save modeling diagrams in read-only formats so that yo
   
 ### To export an image as part of an automated process  
   
--   See [Export UML diagrams to image files](../modeling/export-uml-diagrams-to-image-files.md).  
+- See [Export UML diagrams to image files](../modeling/export-uml-diagrams-to-image-files.md).  
   
 ### To save a modeling diagram as an XML Paper Specification (.xps) file  
   

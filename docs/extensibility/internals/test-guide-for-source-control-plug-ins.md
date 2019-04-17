@@ -49,7 +49,7 @@ This section provides guidance for testing your source control plug-in with [!IN
 
 ## Test Areas Covered in This Section
 
--   [Test Area 1: Add To/Open From Source Control](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)
+- [Test Area 1: Add To/Open From Source Control](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)
 
     -   Case 1a: Add Solution to Source Control
 
@@ -57,9 +57,9 @@ This section provides guidance for testing your source control plug-in with [!IN
 
     -   Case 1c: Add Solution from Source Control
 
--   [Test Area 2: Get From Source Control](../../extensibility/internals/test-area-2-get-from-source-control.md)
+- [Test Area 2: Get From Source Control](../../extensibility/internals/test-area-2-get-from-source-control.md)
 
--   [Test Area 3: Check Out/Undo Checkout](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)
+- [Test Area 3: Check Out/Undo Checkout](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)
 
     -   Case 3: Check Out/Undo Checkout
 
@@ -73,7 +73,7 @@ This section provides guidance for testing your source control plug-in with [!IN
 
     -   Case 3e: Undo Checkout
 
--   [Test Area 4: Check In](../../extensibility/internals/test-area-4-check-in.md)
+- [Test Area 4: Check In](../../extensibility/internals/test-area-4-check-in.md)
 
     -   Case 4a: Modified items
 
@@ -81,7 +81,7 @@ This section provides guidance for testing your source control plug-in with [!IN
 
     -   Case 4c: Adding projects
 
--   [Test Area 5: Change Source Control](../../extensibility/internals/test-area-5-change-source-control.md)
+- [Test Area 5: Change Source Control](../../extensibility/internals/test-area-5-change-source-control.md)
 
     -   Case 5a: Bind
 
@@ -89,11 +89,11 @@ This section provides guidance for testing your source control plug-in with [!IN
 
     -   Case 5c: Rebind
 
--   [Test Area 6: Delete](../../extensibility/internals/test-area-6-delete.md)
+- [Test Area 6: Delete](../../extensibility/internals/test-area-6-delete.md)
 
--   [Test Area 7: Share](../../extensibility/internals/test-area-7-share.md)
+- [Test Area 7: Share](../../extensibility/internals/test-area-7-share.md)
 
--   [Test Area 8: Plug-in Switching](../../extensibility/internals/test-area-8-plug-in-switching.md)
+- [Test Area 8: Plug-in Switching](../../extensibility/internals/test-area-8-plug-in-switching.md)
 
     -   Case 8a: Automatic Change
 

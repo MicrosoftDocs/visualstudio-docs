@@ -27,11 +27,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Designing the user interface of the custom task pane.
+- Designing the user interface of the custom task pane.
 
--   Automating PowerPoint from the custom task pane.
+- Automating PowerPoint from the custom task pane.
 
--   Displaying the custom task pane in PowerPoint.
+- Displaying the custom task pane in PowerPoint.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -39,9 +39,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft PowerPoint 2010 or [!INCLUDE[PowerPoint_15_short](../vsto/includes/powerpoint-15-short-md.md)].
+- Microsoft PowerPoint 2010 or [!INCLUDE[PowerPoint_15_short](../vsto/includes/powerpoint-15-short-md.md)].
 
 ## Create the Add-in project
  The first step is to create a VSTO Add-in project for PowerPoint.
@@ -128,11 +128,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to create custom task panes from these topics:
 
--   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
+- Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
 
--   Create a Ribbon button that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
+- Create a Ribbon button that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
 
--   Create a custom task pane for every e-mail message that is opened in Outlook. For more information, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).
+- Create a custom task pane for every e-mail message that is opened in Outlook. For more information, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).
 
 ## See also
 - [Custom task panes](../vsto/custom-task-panes.md)

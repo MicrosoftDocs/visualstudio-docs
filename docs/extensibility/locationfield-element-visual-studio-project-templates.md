@@ -47,11 +47,11 @@ Specifies whether or not the **Location** text box in the **New Project** dialog
 
  Valid text values are:
 
--   `Enabled`, which specifies that the **Location** box of the **New Project** dialog box is enabled.
+- `Enabled`, which specifies that the **Location** box of the **New Project** dialog box is enabled.
 
--   `Disabled`, which specifies that the **Location** box of the **New Project** dialog box is disabled.
+- `Disabled`, which specifies that the **Location** box of the **New Project** dialog box is disabled.
 
--   `Hidden`, which specifies that the **Location** box of the **New Project** dialog box is hidden.
+- `Hidden`, which specifies that the **Location** box of the **New Project** dialog box is hidden.
 
 ## Remarks
  The default value is `Enabled`.

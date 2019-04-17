@@ -55,11 +55,11 @@ ms.workload:
 
  Note the following details about the call to the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection.ExecuteCommand%2A> method:
 
--   The first parameter identifies the command that you want to call. This string matches the value that you pass to the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> on the command definition.
+- The first parameter identifies the command that you want to call. This string matches the value that you pass to the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> on the command definition.
 
--   The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the *.wsp* file that is being upgraded to the SharePoint site.
+- The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the *.wsp* file that is being upgraded to the SharePoint site.
 
--   The code does not pass the implicit <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter to the command. This parameter is passed into the command automatically when you call the command from an extension of the SharePoint project system or an extension of the **SharePoint Connections** node in **Server Explorer**. In other types of solutions, such as in a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface, this parameter is **null**.
+- The code does not pass the implicit <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter to the command. This parameter is passed into the command automatically when you call the command from an extension of the SharePoint project system or an extension of the **SharePoint Connections** node in **Server Explorer**. In other types of solutions, such as in a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface, this parameter is **null**.
 
 ## Compile the code
  This example requires a reference to the Microsoft.VisualStudio.SharePoint assembly.

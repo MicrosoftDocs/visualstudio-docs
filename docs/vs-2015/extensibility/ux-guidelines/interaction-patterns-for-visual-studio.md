@@ -30,9 +30,9 @@ manager: jillfra
 
  There are basic usage patterns for each of the key integration points in the user interface of the IDE:
 
--   [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md)
+- [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md)
 
--   [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
+- [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
 
     -   [Window interactions](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_WindowInteractions)
 
@@ -49,7 +49,7 @@ manager: jillfra
 
  Most common controls in Visual Studio should follow the Desktop Windows guidelines. Our guidelines only include areas in which we need to augment common conventions with Visual Studio-specific interactions, or places in which we supersede the guidelines entirely in order to tailor Visual Studio to meet the needs of our sophisticated users.
 
--   [Common Control Patterns for Visual Studio](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md)
+- [Common Control Patterns for Visual Studio](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md)
 
     -   [Common controls](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CommonControls)
 
@@ -62,7 +62,7 @@ manager: jillfra
 
  While there are many composite patterns within Visual Studio, some of the most important with regards to consistency are:
 
--   [Composite Patterns for Visual Studio](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md)
+- [Composite Patterns for Visual Studio](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md)
 
     -   [On-object UI and peeking](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_OnObjectUI)
 

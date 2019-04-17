@@ -17,11 +17,11 @@ ms.workload:
 
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:
 
--   Appear underlined.
+- Appear underlined.
 
--   Display a **ToolTip** when you hover over them.
+- Display a **ToolTip** when you hover over them.
 
--   Attempt to open the website indicated when you **Ctrl**+**click** on the link. By default, the website is displayed in the internal web browser.
+- Attempt to open the website indicated when you **Ctrl**+**click** on the link. By default, the website is displayed in the internal web browser.
 
 ## Display URLs as links
 

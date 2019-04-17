@@ -24,9 +24,9 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Adding a group of radio buttons to a worksheet.
+- Adding a group of radio buttons to a worksheet.
 
--   Changing the chart style when an option is selected.
+- Changing the chart style when an option is selected.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -34,9 +34,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Add a chart to a worksheet
  You can create an Excel Workbook project that customizes an existing workbook. In this walkthrough, you will add a chart to a workbook and then use this workbook in a new Excel solution. The data source in this walkthrough is a worksheet named **Data for Chart**.
@@ -237,11 +237,11 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of using radio buttons and chart styles on worksheets. Here are some tasks that might come next:
 
--   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
--   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
+- Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
 
--   Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
 ## See also
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

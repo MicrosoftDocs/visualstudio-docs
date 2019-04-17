@@ -36,16 +36,16 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
 
 ##  <a name="BKMK_CreateProject"></a> Create the project
  The first step is to create a Word document project in Visual Studio.
 
 ### To create a new project
 
--   Create a Word document project that has the name **My Bookmark Shortcut Menu**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+- Create a Word document project that has the name **My Bookmark Shortcut Menu**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new Word document in the designer and adds the **My Bookmark Shortcut Menu** project to **Solution Explorer**.
 
@@ -54,7 +54,7 @@ ms.workload:
 
 ### To add text to your document
 
--   In the document that appears in the designer of your project, type the following text.
+- In the document that appears in the designer of your project, type the following text.
 
      **This is an example of creating a shortcut menu when you right-click the text in a bookmark.**
 
@@ -182,9 +182,9 @@ ms.workload:
 ## Next steps
  Here are some tasks that might come next:
 
--   Write code to respond to events of host controls in Excel. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).
+- Write code to respond to events of host controls in Excel. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).
 
--   Use a check box to change formatting in a bookmark. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
+- Use a check box to change formatting in a bookmark. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
 ## See also
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)

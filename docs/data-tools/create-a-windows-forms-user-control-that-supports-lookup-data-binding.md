@@ -34,19 +34,19 @@ This walkthrough creates a lookup control that binds to data from two tables. Th
 
 During this walkthrough, you'll learn how to:
 
--   Create a new **Windows Forms Application**.
+- Create a new **Windows Forms Application**.
 
--   Add a new **User Control** to your project.
+- Add a new **User Control** to your project.
 
--   Visually design the user control.
+- Visually design the user control.
 
--   Implement the `LookupBindingProperty` attribute.
+- Implement the `LookupBindingProperty` attribute.
 
--   Create a dataset with the **Data Source Configuration** wizard.
+- Create a dataset with the **Data Source Configuration** wizard.
 
--   Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.
+- Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.
 
--   Create a form to display data in the new control.
+- Create a form to display data in the new control.
 
 ## Prerequisites
 
@@ -167,9 +167,9 @@ This sets up the data binding to display the `CompanyName` from the `Customers` 
 
 ## Run the application
 
--   Press **F5** to run the application.
+- Press **F5** to run the application.
 
--   Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
+- Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
 
 ## See also
 

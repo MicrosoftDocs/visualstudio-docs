@@ -39,7 +39,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To generate the application and deployment manifests
 
--   Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
+- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
 
 ### To change the deployment manifest to list the multiple .NET Framework versions
 
@@ -94,7 +94,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To update and re-sign the application and deployment manifests
 
--   Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
+- Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
 
 ## See also
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

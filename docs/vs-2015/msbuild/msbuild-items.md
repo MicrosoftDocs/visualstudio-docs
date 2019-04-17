@@ -21,17 +21,17 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
  **In this topic**  
   
--   [Creating Items in a Project File](#BKMK_Creating1)  
+- [Creating Items in a Project File](#BKMK_Creating1)  
   
--   [Creating Items During Execution](#BKMK_Creating2)  
+- [Creating Items During Execution](#BKMK_Creating2)  
   
--   [Referencing Items in a Project File](#BKMK_ReferencingItems)  
+- [Referencing Items in a Project File](#BKMK_ReferencingItems)  
   
--   [Using Wildcards to Specify Items](#BKMK_Wildcards)  
+- [Using Wildcards to Specify Items](#BKMK_Wildcards)  
   
--   [Using the Exclude Attribute](#BKMK_ExcludeAttribute)  
+- [Using the Exclude Attribute](#BKMK_ExcludeAttribute)  
   
--   [Item Metadata](#BKMK_ItemMetadata)  
+- [Item Metadata](#BKMK_ItemMetadata)  
   
     -   [Referencing Item Metadata in a Project File](#BKMK_ReferencingItemMetadata)  
   
@@ -39,9 +39,9 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
     -   [Transforming Item Types By Using Metadata](#BKMK_Transforming)  
   
--   [Item Definitions](#BKMK_ItemDefinitions)  
+- [Item Definitions](#BKMK_ItemDefinitions)  
   
--   [Attributes for Items in an ItemGroup of a Target](#BKMK_AttributesWithinTargets)  
+- [Attributes for Items in an ItemGroup of a Target](#BKMK_AttributesWithinTargets)  
   
     -   [Remove Attribute](#BKMK_RemoveAttribute)  
   
@@ -74,11 +74,11 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_Creating2"></a> Creating Items During Execution  
  Items that are outside [Target](../msbuild/target-element-msbuild.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:  
   
--   Any task can emit an item. To emit an item, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has an `ItemName` attribute.  
+- Any task can emit an item. To emit an item, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has an `ItemName` attribute.  
   
--   The [CreateItem](../msbuild/createitem-task.md) task can emit an item. This usage is deprecated.  
+- The [CreateItem](../msbuild/createitem-task.md) task can emit an item. This usage is deprecated.  
   
--   Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.  
+- Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.  
   
 ##  <a name="BKMK_ReferencingItems"></a> Referencing Items in a Project File  
  To reference item types throughout the project file, you use the syntax @(`ItemType`). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  

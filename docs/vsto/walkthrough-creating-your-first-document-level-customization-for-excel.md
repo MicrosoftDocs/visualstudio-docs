@@ -37,9 +37,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
 
@@ -105,9 +105,9 @@ ms.workload:
 ## Add text to a worksheet programmatically
  Next, add code to the Sheet1 code file. The new code uses the object model of Excel to add a second line of text to the workbook. By default, the Sheet1 code file contains the following generated code:
 
--   A partial definition of the `Sheet1` class, which represents the programming model of the worksheet and provides access to the object model of Excel. For more information, [Worksheet host item](../vsto/worksheet-host-item.md) and [Word object model overview](../vsto/word-object-model-overview.md). The remainder of the `Sheet1` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `Sheet1` class, which represents the programming model of the worksheet and provides access to the object model of Excel. For more information, [Worksheet host item](../vsto/worksheet-host-item.md) and [Word object model overview](../vsto/word-object-model-overview.md). The remainder of the `Sheet1` class is defined in a hidden code file that you should not modify.
 
--   The `Sheet1_Startup` and `Sheet1_Shutdown` event handlers. These event handlers are called when Excel loads and unloads your customization. Use these event handlers to initialize your customization when it is loaded, and to clean up resources used by your customization when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `Sheet1_Startup` and `Sheet1_Shutdown` event handlers. These event handlers are called when Excel loads and unloads your customization. Use these event handlers to initialize your customization when it is loaded, and to clean up resources used by your customization when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add a second line of text to the worksheet by using code
 
@@ -146,19 +146,19 @@ ms.workload:
 ## Next steps
  Now that you have created a basic document-level customization for Excel, you can learn more about how to develop customizations from these topics:
 
--   General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).
+- General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).
 
--   Programming tasks that are specific to document-level customizations for Excel: [Excel solutions](../vsto/excel-solutions.md).
+- Programming tasks that are specific to document-level customizations for Excel: [Excel solutions](../vsto/excel-solutions.md).
 
--   Using the object model of Excel: [Excel object model overview](../vsto/excel-object-model-overview.md).
+- Using the object model of Excel: [Excel object model overview](../vsto/excel-object-model-overview.md).
 
--   Customizing the UI of Excel, for example, by adding a custom tab to the Ribbon or creating your own actions pane: [Office UI customization](../vsto/office-ui-customization.md).
+- Customizing the UI of Excel, for example, by adding a custom tab to the Ribbon or creating your own actions pane: [Office UI customization](../vsto/office-ui-customization.md).
 
--   Using extended Excel objects provided by Office development tools in Visual Studio to perform tasks that are not possible by using the Excel object model (for example, hosting managed controls on documents and binding Excel controls to data by using the Windows Forms data binding model): [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md).
+- Using extended Excel objects provided by Office development tools in Visual Studio to perform tasks that are not possible by using the Excel object model (for example, hosting managed controls on documents and binding Excel controls to data by using the Windows Forms data binding model): [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md).
 
--   Building and debugging document-level customizations for Excel: [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging document-level customizations for Excel: [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying document-level customizations for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying document-level customizations for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

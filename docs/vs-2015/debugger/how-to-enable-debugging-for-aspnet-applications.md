@@ -50,11 +50,11 @@ To enable debugging, you must enable it in both the **Project Properties** page 
   
 The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements  
   
--   element sections between the configuration and system.web elements  
+- element sections between the configuration and system.web elements  
   
--   element sections between the system.web and compilation elements  
+- element sections between the system.web and compilation elements  
   
--   The compilation element can contain other attributes and elements  
+- The compilation element can contain other attributes and elements  
   
 ## Example  
   

@@ -115,11 +115,11 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To change the order of messages  
   
--   Drag a message up or down in its lifeline. You can drag it over other messages, or into or out of an execution block.  
+- Drag a message up or down in its lifeline. You can drag it over other messages, or into or out of an execution block.  
   
      \- or -  
   
--   Click the message and use the **UP ARROW** and **DOWN ARROW** keys to adjust message positions. Use **SHIFT+UP ARROW** and **SHIFT+DOWN ARROW** to change the order of the messages.  
+- Click the message and use the **UP ARROW** and **DOWN ARROW** keys to adjust message positions. Use **SHIFT+UP ARROW** and **SHIFT+DOWN ARROW** to change the order of the messages.  
   
 #### To move or copy message sequences on the sequence diagram  
   
@@ -146,9 +146,9 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To improve the layout of a sequence diagram  
   
--   Right-click a blank part of the diagram, and then click **Rearrange Layout**.  
+- Right-click a blank part of the diagram, and then click **Rearrange Layout**.  
   
--   To undo the operation, click **Edit**, and then click **Undo**.  
+- To undo the operation, click **Edit**, and then click **Undo**.  
   
 #### To change the package that owns the interaction  
   
@@ -171,13 +171,13 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 ### Types of message  
  There are three tools that you can use to create messages.  
   
--   Use the **Synchronous** tool to describe an interaction in which the sender waits for the receiver to return a response (3).  
+- Use the **Synchronous** tool to describe an interaction in which the sender waits for the receiver to return a response (3).  
   
      A **<\<return>>** arrow will be shown at the end of the execution occurrence. It indicates return of control to the sender.  
   
--   Use the **Asynchronous** tool to describe an interaction in which the sender can continue immediately without waiting for the receiver (4).  
+- Use the **Asynchronous** tool to describe an interaction in which the sender can continue immediately without waiting for the receiver (4).  
   
--   Use the **Create** tool to describe an interaction in which the sender creates the receiver (8).  
+- Use the **Create** tool to describe an interaction in which the sender creates the receiver (8).  
   
      A create message should be the first message that the receiver receives.  
   
@@ -191,13 +191,13 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
  Use a comment to:  
   
--   Note what has been achieved at key points in the sequence. This helps readers to see the objectives of the interactions.  
+- Note what has been achieved at key points in the sequence. This helps readers to see the objectives of the interactions.  
   
--   Describe the overall objective of the whole sequence. Attach the comment to the initial execution occurrence or leave it unattached. For example, "Customer has chosen items from the menu and has been given a price."  
+- Describe the overall objective of the whole sequence. Attach the comment to the initial execution occurrence or leave it unattached. For example, "Customer has chosen items from the menu and has been given a price."  
   
--   Describe the responsibilities of each lifeline. Attach the comment to the lifeline. For example, "Ordering Manager collects the customer's menu choices."  
+- Describe the responsibilities of each lifeline. Attach the comment to the lifeline. For example, "Ordering Manager collects the customer's menu choices."  
   
--   Note exceptions or alternatives that might be performed as an alternative to the typical sequence shown. For example "Customer can choose to skip the rest of this sequence."  
+- Note exceptions or alternatives that might be performed as an alternative to the typical sequence shown. For example "Customer can choose to skip the rest of this sequence."  
   
     -   Consider using fragments as a more formal alternative to this kind of note. See [Describing Control Structures with Fragments](#Fragments)  
   
@@ -207,11 +207,11 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 #### Initiating event  
  Each diagram should show the sequence of interactions that results from one initiating event. This might be, for example:  
   
--   A user initiating a use case, for example, opening the Web page for buying a meal.  
+- A user initiating a use case, for example, opening the Web page for buying a meal.  
   
--   A message from one system component to another, for example, querying the availability of items that a customer wants to buy.  
+- A message from one system component to another, for example, querying the availability of items that a customer wants to buy.  
   
--   An event triggered by a change of state, for example, stocks of an item falling below a threshold.  
+- An event triggered by a change of state, for example, stocks of an item falling below a threshold.  
   
 #### Level of detail  
  Sequence diagrams can show different levels of detail. You can decide the level of detail in two separate dimensions almost independently:  
@@ -237,18 +237,18 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 ## Describing variations  
  The diagram shows a single, typical sequence of events. If you want to show alternative possibilities such as failure scenarios, you can either use either of these options:  
   
--   Draw separate sequence diagrams to describe those scenarios  
+- Draw separate sequence diagrams to describe those scenarios  
   
--   Use [Describing Control Structures with Fragments](#Fragments) to show loops, alternatives, and so on.  
+- Use [Describing Control Structures with Fragments](#Fragments) to show loops, alternatives, and so on.  
   
 ## Assessing the Design  
  You can use the diagram to assess the distribution of tasks between its objects or components. Consider refactoring if you see these patterns:  
   
--   One lifeline seems to do everything, making calls to everything else, whereas the other lifelines just respond passively.  
+- One lifeline seems to do everything, making calls to everything else, whereas the other lifelines just respond passively.  
   
--   Many messages cross lifelines. Each lifeline should send messages to just a few neighbors, and should not communicate with its neighbors' neighbors. It should usually be possible to arrange the lifelines so that there are only a few places where messages cross lifelines; and where there are crossings, the target lifeline should not also exchange messages that have the crossed lifelines.  
+- Many messages cross lifelines. Each lifeline should send messages to just a few neighbors, and should not communicate with its neighbors' neighbors. It should usually be possible to arrange the lifelines so that there are only a few places where messages cross lifelines; and where there are crossings, the target lifeline should not also exchange messages that have the crossed lifelines.  
   
--   Some lifelines seem to handle more than one kind of task. It should easy to find one succinct sentence that describes the responsibilities of each lifeline, summarizing the work it does in response to each message that it receives.  
+- Some lifelines seem to handle more than one kind of task. It should easy to find one succinct sentence that describes the responsibilities of each lifeline, summarizing the work it does in response to each message that it receives.  
   
 ##  <a name="ClassesAndLifelines"></a> Classes and Lifelines  
  The lifelines in your sequence diagrams show instances of classes or component interfaces. You can name a lifeline in two ways:  
@@ -364,7 +364,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To create a reusable sequence from existing messages  
   
--   Right-click the message that you want to move, and then click **Move to Diagram**.  
+- Right-click the message that you want to move, and then click **Move to Diagram**.  
   
      Visual Studio:  
   
@@ -376,7 +376,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To navigate to the sequence referenced by an interaction use  
   
--   Double-click the interaction use.  
+- Double-click the interaction use.  
   
      \- or -  
   
@@ -405,7 +405,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To expand a collapsed group  
   
--   Right-click the collapsed lifeline, and then click **Expand**.  
+- Right-click the collapsed lifeline, and then click **Expand**.  
   
     > [!NOTE]
     >  The name of the group will be lost, together with any links from the group to comments or work items.  

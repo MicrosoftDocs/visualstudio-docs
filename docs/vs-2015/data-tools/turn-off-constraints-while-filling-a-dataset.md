@@ -36,7 +36,7 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 ### To suspend update constraints programmatically  
   
--   The following example shows how to temporarily turn off constraint checking in a dataset:  
+- The following example shows how to temporarily turn off constraint checking in a dataset:  
   
      [!code-csharp[VbRaddataEditing#10](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#10)]
      [!code-vb[VbRaddataEditing#10](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#10)]  

@@ -291,11 +291,11 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Define your build process](http://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
+- [Define your build process](http://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
   
--   [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
+- [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
   
--   [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
 ###  <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
@@ -441,13 +441,13 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Use Case Diagrams  
  Use case diagrams help you visualize:  
   
--   The activities that a system supports or does not support  
+- The activities that a system supports or does not support  
   
--   The people and external systems that perform those activities  
+- The people and external systems that perform those activities  
   
--   The major components of the system that support each activity, which you can represent as subsystems nested inside the parent system  
+- The major components of the system that support each activity, which you can represent as subsystems nested inside the parent system  
   
--   How a use case might divide into smaller ones or variations  
+- How a use case might divide into smaller ones or variations  
   
 #### Relationship to Other Diagrams  
   
@@ -474,9 +474,9 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
+- [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
   
--   [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
+- [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
   
 #### Drawing an Activity Diagram  
  An activity diagram has the following major features:  
@@ -576,9 +576,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Component Diagrams  
  Component diagrams help you visualize:  
   
--   The system as a collection of separable parts regardless of their implementation language or style.  
+- The system as a collection of separable parts regardless of their implementation language or style.  
   
--   Components with well-defined interfaces, making the design easier to understand and update when the requirements change.  
+- Components with well-defined interfaces, making the design easier to understand and update when the requirements change.  
   
 #### Relationship to Other Diagrams  
   
@@ -631,26 +631,26 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 #### Creating a Code Map  
   
--   For a quick overview of source code, follow these steps to generate a code map:  
+- For a quick overview of source code, follow these steps to generate a code map:  
   
      On the **Architecture** menu, click **Generate Code Map For Solution**.  
   
      For a quick overview of compiled code, create a blank code map, and then drag assembly files or binary files to the map surface.  
   
--   To explore specific code or solution items, use Solution Explorer to select items and relationships that you want to visualize. You can then either generate a new map or add selected items to an existing map. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+- To explore specific code or solution items, use Solution Explorer to select items and relationships that you want to visualize. You can then either generate a new map or add selected items to an existing map. See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
--   To help you explore the map, rearrange the layout so that it suits the kinds of tasks that you want to perform.  
+- To help you explore the map, rearrange the layout so that it suits the kinds of tasks that you want to perform.  
   
      For example, to visualize layering in the code, select a tree layout. See [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
   
 #### Summary: Strengths of Code Maps  
  Code maps help you:  
   
--   Learn about the organization and relationships in existing code.  
+- Learn about the organization and relationships in existing code.  
   
--   Identify areas that might be affected by a proposed change.  
+- Identify areas that might be affected by a proposed change.  
   
--   Find areas of complexity, patterns, layers, or other areas that you could improve to make the code easier to maintain, change, and reuse.  
+- Find areas of complexity, patterns, layers, or other areas that you could improve to make the code easier to maintain, change, and reuse.  
   
 #### Relationship to Other Diagrams  
   
@@ -676,11 +676,11 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
+- [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
   
--   [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
+- [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
   
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
 #### Drawing a Sequence Diagram  
  A sequence diagram has the following major features:  
@@ -704,9 +704,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Sequence Diagrams  
  Sequence diagrams help you visualize:  
   
--   The flow of control that transfers between actors or objects during the execution of a use case.  
+- The flow of control that transfers between actors or objects during the execution of a use case.  
   
--   The implementation of a method call or message.  
+- The implementation of a method call or message.  
   
 #### Relationship to Other Diagrams  
   
@@ -735,9 +735,9 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
+- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
+- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
 #### Drawing a Class Diagram  
  A class diagram has the following major features:  
@@ -783,11 +783,11 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Class Diagrams  
  Class diagrams help you define:  
   
--   A common glossary of terms to use when discussing the users' needs and the entities that participate in the system. See [Model user requirements](../modeling/model-user-requirements.md).  
+- A common glossary of terms to use when discussing the users' needs and the entities that participate in the system. See [Model user requirements](../modeling/model-user-requirements.md).  
   
--   Types that are used by parts of the system, such as components, regardless of their implementation. See [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+- Types that are used by parts of the system, such as components, regardless of their implementation. See [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
--   Relationships, such as dependencies, between types. For example, you can show that one type can be associated with multiple instances of another type.  
+- Relationships, such as dependencies, between types. For example, you can show that one type can be associated with multiple instances of another type.  
   
 #### Relationship to Other Diagrams  
   
@@ -861,9 +861,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Summary: Strengths of Layer Diagrams  
  Layer diagrams help you:  
   
--   Describe the logical architecture of a system according to the functionality of its artifacts.  
+- Describe the logical architecture of a system according to the functionality of its artifacts.  
   
--   Make sure that code under development conforms to the specified design.  
+- Make sure that code under development conforms to the specified design.  
   
 #### Relationship to Other Diagrams  
   

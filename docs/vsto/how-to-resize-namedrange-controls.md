@@ -24,11 +24,11 @@ ms.workload:
 
  This topic describes the following tasks:
 
--   [Resize NamedRange controls at design time](#designtime)
+- [Resize NamedRange controls at design time](#designtime)
 
--   [Resize NamedRange controls at runtime in a document-level project](#runtimedoclevel)
+- [Resize NamedRange controls at runtime in a document-level project](#runtimedoclevel)
 
--   [Resize NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)
+- [Resize NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)
 
 ##  <a name="designtime"></a> Resize NamedRange controls at design time
  You can resize a named range by redefining its size in the **Define Name** dialog box.

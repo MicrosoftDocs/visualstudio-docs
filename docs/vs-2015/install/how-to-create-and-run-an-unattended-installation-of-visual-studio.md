@@ -98,9 +98,9 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To maintain an installation on a client computer
 
--   Open **Control Panel**, and then choose **Programs and Features**.
+- Open **Control Panel**, and then choose **Programs and Features**.
 
--   Choose [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then choose **Change**.
+- Choose [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then choose **Change**.
 
 #### To change AdminDeployment settings on a client computer after Visual Studio has been installed
 

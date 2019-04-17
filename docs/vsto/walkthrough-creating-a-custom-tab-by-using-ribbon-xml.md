@@ -25,9 +25,9 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Adding buttons to the **Add-Ins** tab. The **Add-Ins** tab is the default tab that is defined in the Ribbon XML file.
+- Adding buttons to the **Add-Ins** tab. The **Add-Ins** tab is the default tab that is defined in the Ribbon XML file.
 
--   Automating Microsoft Office Word by using the buttons on the **Add-Ins** tab.
+- Automating Microsoft Office Word by using the buttons on the **Add-Ins** tab.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -35,9 +35,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word.
+- Microsoft Word.
 
 ## Create the project
  The first step is to create a Word VSTO Add-in project. You will later customize the **Add-Ins** tab of this document.
@@ -140,13 +140,13 @@ ms.workload:
 ## Next steps
  You can learn more about how to customize the Office UI from these topics:
 
--   Customize the ribbon of a different Office application. For more information about the applications that support customizing the ribbon, see [Ribbon overview](../vsto/ribbon-overview.md).
+- Customize the ribbon of a different Office application. For more information about the applications that support customizing the ribbon, see [Ribbon overview](../vsto/ribbon-overview.md).
 
--   Customize the ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).
+- Customize the ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).
 
--   Create a custom actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
+- Create a custom actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
 
--   Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
+- Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)

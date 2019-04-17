@@ -72,6 +72,6 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).
+- To go to the next tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).
 
--   To return to the previous tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
+- To return to the previous tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).

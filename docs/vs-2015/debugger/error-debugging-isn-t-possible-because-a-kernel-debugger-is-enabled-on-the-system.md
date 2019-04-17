@@ -33,31 +33,31 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
  This message occurs when you try to debug managed code:  
   
--   on a [!INCLUDE[win7](../includes/win7-md.md)] or [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)]system that has been started in debug mode.  
+- on a [!INCLUDE[win7](../includes/win7-md.md)] or [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)]system that has been started in debug mode.  
   
--   the application uses the CLR version CLR 2.0, 3.0, or 3.5.  
+- the application uses the CLR version CLR 2.0, 3.0, or 3.5.  
   
 ## Solution  
   
 #### To fix this problem  
   
--   Upgrade your application to use CLR version 4.0 or 4.5  
+- Upgrade your application to use CLR version 4.0 or 4.5  
   
      —or—  
   
--   Disable kernel debugging and debug in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- Disable kernel debugging and debug in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
      —or—  
   
--   Debug using the Kernel Debugger instead of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- Debug using the Kernel Debugger instead of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
      —or—  
   
--   In the Kernel Debugger, disable user-mode exceptions.  
+- In the Kernel Debugger, disable user-mode exceptions.  
   
 #### To disable kernel debugging in the current session  
   
--   At the command prompt, type:  
+- At the command prompt, type:  
   
     ```  
     Kdbgctrl.exe -d  

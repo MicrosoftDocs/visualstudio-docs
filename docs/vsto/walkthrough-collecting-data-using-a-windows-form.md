@@ -26,9 +26,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -126,9 +126,9 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of showing a Windows Form and passing data to a worksheet. Other tasks you may want to perform include:
 
--   Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
+- Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
 
--   Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
+- Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
 ## See also
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

@@ -29,23 +29,23 @@ You can change the way that class diagrams display information. You can customiz
   
  **In this topic**  
   
--   [Zoom in and out of the class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#ZoomInOut)  
+- [Zoom in and out of the class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#ZoomInOut)  
   
--   [Customize grouping and sorting of type members](../ide/how-to-customize-class-diagrams-class-designer.md#CustomizeGroupingSorting)  
+- [Customize grouping and sorting of type members](../ide/how-to-customize-class-diagrams-class-designer.md#CustomizeGroupingSorting)  
   
--   [Hide compartments on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideCompartments)  
+- [Hide compartments on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideCompartments)  
   
--   [Hide individual members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideMembers)  
+- [Hide individual members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#HideMembers)  
   
--   [Show hidden compartments and members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayHiddenCompartmentsAndMemberrs)  
+- [Show hidden compartments and members on a type](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayHiddenCompartmentsAndMemberrs)  
   
--   [Hide relationships](../ide/how-to-customize-class-diagrams-class-designer.md#HideAssociationAndInheritance)  
+- [Hide relationships](../ide/how-to-customize-class-diagrams-class-designer.md#HideAssociationAndInheritance)  
   
--   [Show hidden relationships](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayAssociationAndInheritance)  
+- [Show hidden relationships](../ide/how-to-customize-class-diagrams-class-designer.md#DisplayAssociationAndInheritance)  
   
--   [Remove a shape from a class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#RemoveCodeAndShape)  
+- [Remove a shape from a class diagram](../ide/how-to-customize-class-diagrams-class-designer.md#RemoveCodeAndShape)  
   
--   [Delete a type shape and its underlying code](../ide/how-to-customize-class-diagrams-class-designer.md#DeleteTypeShapeAndCode)  
+- [Delete a type shape and its underlying code](../ide/how-to-customize-class-diagrams-class-designer.md#DeleteTypeShapeAndCode)  
   
 ##  <a name="ZoomInOut"></a> Zoom in and out of the class diagram  
   

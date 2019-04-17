@@ -24,15 +24,15 @@ The **Step Ramp Time** property is only used with a step load pattern. For more 
 
 A step load pattern is used to increase the load on the server or servers as the load test runs so that you can see how performance varies as the user load increases. For example, to see how your server or servers perform as the user load increasing to 2,000 users, you might run a 10-hour load test using a step load pattern with the following properties:
 
--   Initial User Count: 100
+- Initial User Count: 100
 
--   Maximum User Count: 2000
+- Maximum User Count: 2000
 
--   Step Duration (seconds): 1800
+- Step Duration (seconds): 1800
 
--   Step Ramp Time (seconds): 20
+- Step Ramp Time (seconds): 20
 
--   Step User Count: 100
+- Step User Count: 100
 
 These settings have the load test running for 30 minutes (1800 seconds) at user loads of 100, 200, 300, up to 2,000 users.
 

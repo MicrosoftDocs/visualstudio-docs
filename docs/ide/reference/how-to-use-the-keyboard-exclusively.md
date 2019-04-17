@@ -69,9 +69,9 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To navigate among windows and files in the IDE from the keyboard
 
--   To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
+- To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
 
--   To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
+- To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
 
 ### To move and dock tool windows from the keyboard
 

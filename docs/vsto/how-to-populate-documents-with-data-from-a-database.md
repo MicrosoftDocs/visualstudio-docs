@@ -44,19 +44,19 @@ You can add a different control by selecting the data field in the **Data Source
 
 In addition to the control, the following data-related objects are automatically added to your project:
 
--   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
+- A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md).
 
--   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).
+- A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).
 
--   A TableAdapter that connects the typed dataset to the database. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
+- A TableAdapter that connects the typed dataset to the database. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
--   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical update](../data-tools/hierarchical-update.md) and [TableAdapterManager reference](../data-tools/fill-datasets-by-using-tableadapters.md#tableadaptermanager-reference).
+- A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical update](../data-tools/hierarchical-update.md) and [TableAdapterManager reference](../data-tools/fill-datasets-by-using-tableadapters.md#tableadaptermanager-reference).
 
 When you run the project, the control displays the first record in the data source. You can use the <xref:System.Windows.Forms.BindingSource> to enable users to scroll through the records.
 
 ### To scroll through the records
 
--   Use <xref:System.Windows.Forms.BindingSource> methods such as <xref:System.Windows.Forms.BindingSource.MoveNext%2A> and <xref:System.Windows.Forms.BindingSource.MovePrevious%2A>.
+- Use <xref:System.Windows.Forms.BindingSource> methods such as <xref:System.Windows.Forms.BindingSource.MoveNext%2A> and <xref:System.Windows.Forms.BindingSource.MovePrevious%2A>.
 
 For information about how to send updates to the typed dataset and the database, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 

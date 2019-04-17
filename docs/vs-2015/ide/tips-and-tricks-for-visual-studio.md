@@ -16,21 +16,21 @@ manager: jillfra
 
 You can navigate in Visual Studio more easily by using the shortcuts in this topic. For more general information, see [Keyboard Shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
 
--   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)
+- [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)
 
--   [Window Shortcuts](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowShortcuts)
+- [Window Shortcuts](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowShortcuts)
 
--   [Visual Studio Search](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Search)
+- [Visual Studio Search](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Search)
 
--   [Editor Find](../ide/tips-and-tricks-for-visual-studio.md#BKMK_EditorFind)
+- [Editor Find](../ide/tips-and-tricks-for-visual-studio.md#BKMK_EditorFind)
 
--   [Code Editor](../ide/tips-and-tricks-for-visual-studio.md#BKMK_CodeEditor)
+- [Code Editor](../ide/tips-and-tricks-for-visual-studio.md#BKMK_CodeEditor)
 
--   [Toolbars](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Toolbars)
+- [Toolbars](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Toolbars)
 
--   [Debugging](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Debugging)
+- [Debugging](../ide/tips-and-tricks-for-visual-studio.md#BKMK_Debugging)
 
--   [Application Lifecycle Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_ALM)
+- [Application Lifecycle Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_ALM)
 
 ##  <a name="BKMK_WindowMgmt"></a> Window Management
 

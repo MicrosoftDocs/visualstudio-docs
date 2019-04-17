@@ -17,9 +17,9 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  
   
--   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke%2A> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke%2A> to have the UI thread perform the actual updates.  
+- Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke%2A> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke%2A> to have the UI thread perform the actual updates.  
   
--   If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
+- If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
   
 ## Example  
  This example uses a background thread to make several changes to a model. A dialog box is used to exclude the user while the thread is running. In this simple example, no Cancel button is provided in the dialog box. However, it would be easy to add that feature.  

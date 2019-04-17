@@ -19,11 +19,11 @@ For example, you can use the ASP.NET Profiler diagnostic data adapter to collect
 
 Test settings for Visual Studio are stored in a file. The test settings define the following information about each role:
 
--   The set of roles that are required for your application under test
+- The set of roles that are required for your application under test
 
--   The role to use to run your tests
+- The role to use to run your tests
 
--   The diagnostic data adapters to use for each role
+- The diagnostic data adapters to use for each role
 
 When you run your tests, you select the test settings to use as the active test settings depending on what you require for that specific test run. The test settings file is stored as part of your solution. The file name has the extension *.testsettings*.
 

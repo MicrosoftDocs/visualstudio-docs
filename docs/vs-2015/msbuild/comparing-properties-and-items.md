@@ -17,9 +17,9 @@ manager: jillfra
 
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
--   Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  
+- Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
--   Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
+- Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
   
 ## Scalars and Vectors  
  Because MSBuild properties are name-value pairs that have just one string value, they are often described as *scalar*. Because MSBuild item types are lists of items, they are often described as *vector*. However, in practice, properties can represent multiple values, and item types can have zero or one items.  

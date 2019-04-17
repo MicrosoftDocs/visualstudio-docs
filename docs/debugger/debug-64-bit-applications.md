@@ -42,9 +42,9 @@ You can debug a 64-bit application that is running on the local computer or on a
 
  There are two main causes for this error:
 
--   You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.
+- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.
 
--   You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
+- You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## See Also
 

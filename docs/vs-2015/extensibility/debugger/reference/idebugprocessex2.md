@@ -35,7 +35,7 @@ IDebugProcessEx2 : IUnknown
   
 ## Notes for Callers  
   
--   The SDM calls [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProcess2` interface to obtain this interface.  
+- The SDM calls [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProcess2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProcessEx2`.  

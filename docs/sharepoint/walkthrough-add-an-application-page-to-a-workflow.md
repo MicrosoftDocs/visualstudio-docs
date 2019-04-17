@@ -32,11 +32,11 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
--   You also have to complete the project in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).
+- You also have to complete the project in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).
 
 ## Ammend the workflow code
  First, add a line of code to the workflow to set the value of the Outcome column to the amount of the expense report. This value is used later in the expense report summary calculation.
@@ -337,9 +337,9 @@ ms.workload:
 
  You can learn more about how to design SharePoint page content by using the Visual Web Designer in Visual Studio from these topics:
 
--   [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
+- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
 
--   [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
+- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 
 ## See also
 

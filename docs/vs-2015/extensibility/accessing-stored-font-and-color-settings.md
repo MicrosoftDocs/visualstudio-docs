@@ -23,11 +23,11 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environm
   
  Therefore, to initiate persistence, a VSPackage must:  
   
--   Obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface by calling `QueryService` against the global service provider.  
+- Obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface by calling `QueryService` against the global service provider.  
   
      `QueryService` must be called by using a service ID argument of `SID_SVsFontAndColorStorage` and an interface ID argument of `IID_IVsFontAndColorStorage`.  
   
--   Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method to open a category to be persisted by using the category's GUID and a mode flag as arguments.  
+- Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method to open a category to be persisted by using the category's GUID and a mode flag as arguments.  
   
      The mode, specified by the `fFlags` argument, is constructed from values in the <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> enumeration. This mode controls:  
   

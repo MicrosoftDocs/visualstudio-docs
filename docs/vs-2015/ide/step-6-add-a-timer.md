@@ -52,6 +52,6 @@ Timer
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 7: Keep Pairs Visible](../ide/step-7-keep-pairs-visible.md).  
+- To go to the next tutorial step, see [Step 7: Keep Pairs Visible](../ide/step-7-keep-pairs-visible.md).  
   
--   To return to the previous tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).
+- To return to the previous tutorial step, see [Step 5: Add Label References](../ide/step-5-add-label-references.md).

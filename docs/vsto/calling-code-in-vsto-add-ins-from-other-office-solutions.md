@@ -25,22 +25,22 @@ ms.workload:
 
  There are two main steps in this process:
 
--   In your VSTO Add-in, expose an object to other solutions.
+- In your VSTO Add-in, expose an object to other solutions.
 
--   In another solution, access the object exposed by your VSTO Add-in, and call members of the object.
+- In another solution, access the object exposed by your VSTO Add-in, and call members of the object.
 
 ## Types of solutions that can call code in an add-in
  You can expose an object in a VSTO Add-in to the following types of solutions:
 
--   Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.
+- Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.
 
--   Document-level customizations that are loaded in the same application process as your VSTO Add-in.
+- Document-level customizations that are loaded in the same application process as your VSTO Add-in.
 
--   Other VSTO Add-ins created by using the Office project templates in Visual Studio.
+- Other VSTO Add-ins created by using the Office project templates in Visual Studio.
 
--   COM VSTO Add-ins (that is, VSTO Add-ins that implement the <xref:Extensibility.IDTExtensibility2> interface directly).
+- COM VSTO Add-ins (that is, VSTO Add-ins that implement the <xref:Extensibility.IDTExtensibility2> interface directly).
 
--   Any solution that is running in a different process than your VSTO Add-in (these types of solutions are also named *out-of-process clients*). These include applications that automate an Office application, such as a Windows Forms or console application, and VSTO Add-ins that are loaded in a different process.
+- Any solution that is running in a different process than your VSTO Add-in (these types of solutions are also named *out-of-process clients*). These include applications that automate an Office application, such as a Windows Forms or console application, and VSTO Add-ins that are loaded in a different process.
 
 ## Expose objects to other solutions
  To expose an object in your VSTO Add-in to other solutions, perform the following steps in your VSTO Add-in:

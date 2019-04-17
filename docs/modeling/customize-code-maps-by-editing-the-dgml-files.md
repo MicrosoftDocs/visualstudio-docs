@@ -104,11 +104,11 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 ### <a name="CreateCustomStyles"></a>
  You can apply custom styles to the following code elements:
 
--   Single code elements and links
+- Single code elements and links
 
--   Groups of code elements and links
+- Groups of code elements and links
 
--   Groups of code elements and links based on certain conditions
+- Groups of code elements and links based on certain conditions
 
 > [!TIP]
 >  If you have repeating styles across many code elements or links, you might consider applying a category to those code elements or links, and then applying a style to that category. For more information, see [Assign Categories to Code elements and Links](#AssignCategories) and [Assign Properties to Code elements and Links](#AssignProperties).
@@ -479,11 +479,11 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
 #### To assign a category to a code element
 
--   Open the .dgml file in a text or XML editor.
+- Open the .dgml file in a text or XML editor.
 
--   Find the `<Node/>` element for the code element that you want.
+- Find the `<Node/>` element for the code element that you want.
 
--   In the `<Node/>` element, add a `Category` attribute to specify the name of the category. For example:
+- In the `<Node/>` element, add a `Category` attribute to specify the name of the category. For example:
 
     ```xml
     <Nodes>
@@ -553,13 +553,13 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
  For example, you might want to link the following code elements:
 
--   To describe the changes to a class, you might link the URL of a work code element, document, or another .dgml file to the code element for a class.
+- To describe the changes to a class, you might link the URL of a work code element, document, or another .dgml file to the code element for a class.
 
--   You might link a dependency diagram to a group code element that represents a layer in the software's logical architecture.
+- You might link a dependency diagram to a group code element that represents a layer in the software's logical architecture.
 
--   To show more information about a component that exposes an interface, you might link a component diagram to the code element for that interface.
+- To show more information about a component that exposes an interface, you might link a component diagram to the code element for that interface.
 
--   Link a code element to a Team Foundation Server work item or bug, or some other information that is related to the code element.
+- Link a code element to a Team Foundation Server work item or bug, or some other information that is related to the code element.
 
 #### To link a document or URL to a code element
 

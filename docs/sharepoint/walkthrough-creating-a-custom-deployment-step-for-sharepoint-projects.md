@@ -21,17 +21,17 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Creating a Visual Studio extension that performs two main tasks:
+- Creating a Visual Studio extension that performs two main tasks:
 
     -   The extension defines a custom deployment step to upgrade SharePoint solutions.
 
     -   The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
 
--   Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
+- Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
--   Building a Visual Studio Extension (VSIX) package to deploy both of the assemblies.
+- Building a Visual Studio Extension (VSIX) package to deploy both of the assemblies.
 
--   Testing the new deployment step.
+- Testing the new deployment step.
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:

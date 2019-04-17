@@ -86,7 +86,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 ##  <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
  Often the preferred method of debugging code, these methods are useful when you know exactly what code you want to inspect, or at least you know where you want to start debugging.  
   
--   **Set breakpoints in the code**  
+- **Set breakpoints in the code**  
   
      To set a simple breakpoint in your code, open the source file in the Visual Studio editor. Set the cursor at the line of code where you want to suspend execution, and then right-click in the code window to see the context menu and choose **Breakpoint / Insert Breakpoint** (or press **F9**). The debugger suspends execution right before the line is executed.  
   
@@ -94,21 +94,21 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
      Breakpoints in Visual Studio provide a rich set of additional functionality, such as conditional breakpoints and tracepoints. See [Using Breakpoints](../debugger/using-breakpoints.md).  
   
--   **Run to the cursor location**  
+- **Run to the cursor location**  
   
      To run to the cursor location, place the cursor on an executable line of code in a source window. On the editor's context menu (right-click in the editor), choose **Run to Cursor**. This is like setting a temporary breakpoint.  
   
--   **Manually break into code**  
+- **Manually break into code**  
   
      To break into the next available line of code in an executing app, choose **Debug**, **Break All** (keyboard: **Ctrl+Alt+Break**).  
   
      If you break while executing code without corresponding source or symbol (.pdb) files), the debugger displays a **Source Files Not Found** or a **Symbols Not Found** page that can help you find the appropriate files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't access the supporting files, you can still debug the assembly instructions in the Disassembly window.  
   
--   **Run to a function on the call stack**  
+- **Run to a function on the call stack**  
   
      In the **Call Stack** window (available while debugging), select the function, right-click and  choose **Run to Cursor**. To visually trace the call stack, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
--   **Run to a function specified by name**  
+- **Run to a function specified by name**  
   
      You can tell the debugger to run your application until it reaches a specified function. You can specify the function by name or you can choose it from the call stack.  
   
@@ -127,11 +127,11 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  To set the next statement to execute, use one of these procedures:  
   
--   In a source window, drag the yellow arrowhead to a location where you want to set the next statement in the same source file  
+- In a source window, drag the yellow arrowhead to a location where you want to set the next statement in the same source file  
   
--   In a source window, set the cursor on the line that you want to execute next, right-click and choose **Set Next Statement**.  
+- In a source window, set the cursor on the line that you want to execute next, right-click and choose **Set Next Statement**.  
   
--   In the Disassembly window, set the cursor on the assembly instruction that you want to execute next, right-click an and choose **Set Next Statement**.  
+- In the Disassembly window, set the cursor on the assembly instruction that you want to execute next, right-click an and choose **Set Next Statement**.  
   
 > [!CAUTION]
 >  Setting the next statement causes the program counter to jump directly to the new location. Use this command with caution:  

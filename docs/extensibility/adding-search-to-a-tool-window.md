@@ -14,15 +14,15 @@ ms.workload:
 # Add search to a tool window
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:
 
--   A search box that's always located in a custom area of the toolbar.
+- A search box that's always located in a custom area of the toolbar.
 
--   A progress indicator that's overlaid on the search box itself.
+- A progress indicator that's overlaid on the search box itself.
 
--   The ability to show results as soon as you enter each character (instant search) or only after you choose the **Enter** key (search on demand).
+- The ability to show results as soon as you enter each character (instant search) or only after you choose the **Enter** key (search on demand).
 
--   A list that shows terms for which you've searched most recently.
+- A list that shows terms for which you've searched most recently.
 
--   The ability to filter searches by specific fields or aspects of the search targets.
+- The ability to filter searches by specific fields or aspects of the search targets.
 
 By following this walkthrough, you'll learn how to perform the following tasks:
 

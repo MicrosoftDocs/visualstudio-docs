@@ -17,30 +17,30 @@ Common controls make up the majority of the user interface in Visual Studio. Mos
 
 #### Common controls in this topic
 
--   [Scroll bars](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
+- [Scroll bars](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
 
--   [Input fields](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
+- [Input fields](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
 
--   [Combo boxes and drop-down lists](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
+- [Combo boxes and drop-down lists](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
 
--   [Check boxes](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
+- [Check boxes](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
 
--   [Radio buttons](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
+- [Radio buttons](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
 
--   [Group frames](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
+- [Group frames](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
 
--   [Text controls](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
+- [Text controls](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
 
--   [Buttons and hyperlinks](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
+- [Buttons and hyperlinks](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
 
--   [Tree views](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
+- [Tree views](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
 
 #### Visual style
 The first thing to consider when styling controls is whether the controls will be used in themed UI. Controls in standard UI are non-themed UI and must follow [normal Windows Desktop style](/windows/desktop/uxguide/controls), meaning that they are not re-templated and should appear in their default control appearance.
 
--   **Standard (utility) dialogs:** not themed. Don't re-template. Use basic control style defaults.
+- **Standard (utility) dialogs:** not themed. Don't re-template. Use basic control style defaults.
 
--   **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
+- **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.
 
 ###  <a name="BKMK_Scrollbars"></a> Scroll bars
  Scroll bars should follow [common interaction patterns for Windows scroll bars](/windows/desktop/Controls/about-scroll-bars) unless they're augmented with content information, like in the code editor.
@@ -50,19 +50,19 @@ The first thing to consider when styling controls is whether the controls will b
 
 #### Visual style
 
--   Input fields shouldn't be styled in utility dialogs. Use the basic style intrinsic to the control.
+- Input fields shouldn't be styled in utility dialogs. Use the basic style intrinsic to the control.
 
--   Themed input fields should only be used in themed dialogs and tool windows.
+- Themed input fields should only be used in themed dialogs and tool windows.
 
 #### Specialized interactions
 
--   Read-only fields will have a gray (disabled) background but default (active) foreground.
+- Read-only fields will have a gray (disabled) background but default (active) foreground.
 
--   Required fields should have **\<Required>** as watermarks within them. You should not change the color of the background except in rare situations.
+- Required fields should have **\<Required>** as watermarks within them. You should not change the color of the background except in rare situations.
 
--   Error validation: See [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
+- Error validation: See [Notifications and Progress for Visual Studio](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
 
--   Input fields should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, like a path. Length might be an indication to the user of limitations as to how many characters are allowed in the field.
+- Input fields should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, like a path. Length might be an indication to the user of limitations as to how many characters are allowed in the field.
 
      ![Incorrect input field length: it's unlikely that the name will be this long.](../../extensibility/ux-guidelines/media/0707-01_incorrectinputfieldcontrol.png "0707-01_IncorrectInputFieldControl")<br />Incorrect input field length: it's unlikely that the name will be this long.
 
@@ -73,9 +73,9 @@ For typical interaction behavior, follow the [Windows Desktop guidelines for dro
 
 #### Visual style
 
--   In utility dialogs, don't re-template the control. Use the basic style intrinsic to the control.
+- In utility dialogs, don't re-template the control. Use the basic style intrinsic to the control.
 
--   In themed UI, combo boxes and drop-downs follow the standard theming for the controls.
+- In themed UI, combo boxes and drop-downs follow the standard theming for the controls.
 
 #### Layout
 Combo boxes and drop-downs should be sized to fit the content, not to fit the width of the window in which they are shown, nor to arbitrarily match the length of a long field, like a path.
@@ -89,15 +89,15 @@ For typical interaction behavior, follow the [Windows Desktop guidelines for che
 
 #### Visual style
 
--   In utility dialogs, don't re-template the control. Use the basic style intrinsic to the control.
+- In utility dialogs, don't re-template the control. Use the basic style intrinsic to the control.
 
--   In themed UI, check boxes follow the standard theming for the controls.
+- In themed UI, check boxes follow the standard theming for the controls.
 
 #### Specialized interactions
 
--   Interaction with a check box must never pop a dialog or navigate to another area.
+- Interaction with a check box must never pop a dialog or navigate to another area.
 
--   Align check boxes with the baseline of the first line of text.
+- Align check boxes with the baseline of the first line of text.
 
      ![Incorrect: the check box is centered on the text.](../../extensibility/ux-guidelines/media/0707-05_incorrectcheckboxalign.png "0707-05_IncorrectCheckBoxAlign")<br />Incorrect: the check box is centered on the text.
 
@@ -120,11 +120,11 @@ In utility dialogs, don't style group frames. Use the basic style intrinsic to t
 
 #### Layout
 
--   It's not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.
+- It's not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.
 
--   Never use a group frame for a single control.
+- Never use a group frame for a single control.
 
--   It's sometimes acceptable to use a horizontal rule instead of a group frame container.
+- It's sometimes acceptable to use a horizontal rule instead of a group frame container.
 
 ##  <a name="BKMK_TextControls"></a> Text controls
 
@@ -154,19 +154,19 @@ A text box can become active (editable) when a user alters an associated control
 
 Key guidelines for text in dialogs:
 
--   Labels for text boxes, list boxes, and frames in unthemed dialogs start with a verb, have an initial capital on the first word only, and end with a colon.
+- Labels for text boxes, list boxes, and frames in unthemed dialogs start with a verb, have an initial capital on the first word only, and end with a colon.
 
     > Text controls in themed dialogs follow [Windows desktop UX guidelines](/windows/desktop/uxguide/top-violations) and do not take end punctuation, with the exception of question marks in Help links.
 
--   Labels for check boxes and option buttons start with a verb, an initial capital on the first word only, and have no ending punctuation.
+- Labels for check boxes and option buttons start with a verb, an initial capital on the first word only, and have no ending punctuation.
 
--   Labels for buttons, menus, menu items, and tabs have initial capitals on each word (title case).
+- Labels for buttons, menus, menu items, and tabs have initial capitals on each word (title case).
 
--   Label terminology should be consistent with similar labels in other dialogs.
+- Label terminology should be consistent with similar labels in other dialogs.
 
--   If possible, have a writer/editor write or approve the text before it goes to the developer for implementation.
+- If possible, have a writer/editor write or approve the text before it goes to the developer for implementation.
 
--   All controls should have labels except in special circumstances in which tabbing is sufficient.
+- All controls should have labels except in special circumstances in which tabbing is sufficient.
 Use helper text when appropriate.
 
 ### Helper text
@@ -175,13 +175,13 @@ Included in dialogs to help the user understand the dialog's purpose or to indic
 
 Follow common locations for helper text and be selective in introducing new areas. Common scenarios for helper text are:
 
--   Helper text in dialogs, to give additional direction about how to interact with a complex dialog.
+- Helper text in dialogs, to give additional direction about how to interact with a complex dialog.
 
--   Watermark text in empty tool windows or dialogs, to explain why no content is visible.
+- Watermark text in empty tool windows or dialogs, to explain why no content is visible.
 
--   A description pane, like at the bottom of the **Properties window**.
+- A description pane, like at the bottom of the **Properties window**.
 
--   Watermark text in an empty editor, to explain what action the user should take to get started.
+- Watermark text in an empty editor, to explain what action the user should take to get started.
 
 ### Dialog helper text
 
@@ -191,9 +191,9 @@ A user experience designer may help determine when helper text is appropriate. T
 
 Dialogs benefit from slightly different watermark guidelines. Because a dialog can appear busy with many UI elements (labels, hint text, buttons and other container controls with text), particularly when those appear in black, watermarks stand out better in dark gray (VSColor: `ButtonShadow`). Typically a watermark appears inside a control like a list box with a white background (VSColor: `Window`).
 
--   The text appears in dark gray (VSColor: `ButtonShadow`). However, if the watermark appears on a medium gray or other-colored (VSColor: `ButtonFace`) background and there is concern about its readability, go with black text (VSColor: `WindowText`).
+- The text appears in dark gray (VSColor: `ButtonShadow`). However, if the watermark appears on a medium gray or other-colored (VSColor: `ButtonFace`) background and there is concern about its readability, go with black text (VSColor: `WindowText`).
 
--   Watermarks can be centered or flush left. Apply standard design rules when making alignment decisions. The watermark cannot be selected on the background.
+- Watermarks can be centered or flush left. Apply standard design rules when making alignment decisions. The watermark cannot be selected on the background.
 
 ![Watermark text example](../../extensibility/ux-guidelines/media/WatermarkTextExample.gif)<br />Watermark text example
 
@@ -201,9 +201,9 @@ Dialogs benefit from slightly different watermark guidelines. Because a dialog c
 
 Dynamic text can be used one of two ways in a dialog or modeless UI: either as a dynamic label or as dynamic content.
 
--   Dynamic label: a common use of dynamic text is in descriptive panels that offer more information for the selected item, such as in a dialog which contains a list of elements and properties for those elements displayed in a grid to the right. The label for the property grid may be dynamic so that when an item is selected on the left, the grid to the right shows information for that specific item.
+- Dynamic label: a common use of dynamic text is in descriptive panels that offer more information for the selected item, such as in a dialog which contains a list of elements and properties for those elements displayed in a grid to the right. The label for the property grid may be dynamic so that when an item is selected on the left, the grid to the right shows information for that specific item.
 
--   Dynamic text: can be useful in instances where you need to display specific information and not general information in this way, but care should be taken to not overuse.
+- Dynamic text: can be useful in instances where you need to display specific information and not general information in this way, but care should be taken to not overuse.
 
 If you want users to have the ability to copy the info, dynamic text should be in a read-only text field.
 
@@ -217,25 +217,25 @@ Traditionally, buttons have been used for actions and hyperlinks have been reser
 
 When to use command buttons:
 
--   Primary commands
+- Primary commands
 
--   Displaying windows used to gather input or making choices, even if they are secondary commands
+- Displaying windows used to gather input or making choices, even if they are secondary commands
 
--   Destructive or irreversible actions
+- Destructive or irreversible actions
 
--   Commitment buttons within wizards and page flows
+- Commitment buttons within wizards and page flows
 
 Avoid command buttons in tool windows, or if you need more than two words for the label. Links can have longer labels.
 
  When to use links:
 
--   Navigation to another window, document, or web page
+- Navigation to another window, document, or web page
 
--   Situations that require a longer label or short sentence to describe the intent of the action
+- Situations that require a longer label or short sentence to describe the intent of the action
 
--   Tight spaces where a button would overwhelm the UI, provided that the action is not destructive or irreversible
+- Tight spaces where a button would overwhelm the UI, provided that the action is not destructive or irreversible
 
--   De-emphasizing secondary commands in situations where there are many commands
+- De-emphasizing secondary commands in situations where there are many commands
 
 #### Examples
 ![Command links used in the InfoBar following a status message](../../extensibility/ux-guidelines/media/070703-01_commandlinkinfobar.png "070703-01_CommandLinkInfobar")<br />Command links used in the InfoBar following a status message
@@ -268,19 +268,19 @@ In some instances, buttons may be used within styled UI and these buttons must b
 
 When to use the ellipsis-only short button:
 
--   If there is more than one long **[Browse...]** button in a dialog, like when several fields allow for browsing. Use the short **[...]** button for each to avoid the confusing access keys created by this situation (**&Browse** and **B&rowse** in the same dialog).
+- If there is more than one long **[Browse...]** button in a dialog, like when several fields allow for browsing. Use the short **[...]** button for each to avoid the confusing access keys created by this situation (**&Browse** and **B&rowse** in the same dialog).
 
--   In a tight dialog, or when there is no reasonable place to put the long button.
+- In a tight dialog, or when there is no reasonable place to put the long button.
 
--   If the button will appear in a grid control.
+- If the button will appear in a grid control.
 
 Guidelines for using the button:
 
--   Don't use an access key. To access it using the keyboard, the user must tab from the adjacent control. Ensure that the tab order is such that any browse button falls immediately after the field that it will fill. Never use an underscore below the first period.
+- Don't use an access key. To access it using the keyboard, the user must tab from the adjacent control. Ensure that the tab order is such that any browse button falls immediately after the field that it will fill. Never use an underscore below the first period.
 
--   Set the Microsoft Active Accessibility (MSAA) **Name** property to **Browse...** (including the ellipsis) so that screen readers will read it as "Browse" and not "dot-dot-dot" or "period-period-period." For managed controls, this means setting the **AccessibleName** property.
+- Set the Microsoft Active Accessibility (MSAA) **Name** property to **Browse...** (including the ellipsis) so that screen readers will read it as "Browse" and not "dot-dot-dot" or "period-period-period." For managed controls, this means setting the **AccessibleName** property.
 
--   Never use an ellipsis **[...]** button for anything except a browse action. For example, if you need a **[New...]** button but don't have enough room for the text, then the dialog needs to be redesigned.
+- Never use an ellipsis **[...]** button for anything except a browse action. For example, if you need a **[New...]** button but don't have enough room for the text, then the dialog needs to be redesigned.
 
 ##### Sizing and spacing
 ![Sizing [Browse...] buttons: standard version is 75x23 pixels, short version is 26x23 pixels](../../extensibility/ux-guidelines/media/070703-06_browsesizing.png "070703-06_BrowseSizing")<br />Sizing [Browse...] buttons
@@ -315,11 +315,11 @@ Follow the [Windows Desktop guidance for user interface text](/windows/desktop/u
 
 #### Visual style
 
--   Hyperlinks should always use [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService). If a hyperlink is not styled correctly, it flashes red when active or shows a different color after being visited.
+- Hyperlinks should always use [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService). If a hyperlink is not styled correctly, it flashes red when active or shows a different color after being visited.
 
--   Don't include underlines at the control resting state unless the link is a sentence fragment within a full sentence, like in a watermark.
+- Don't include underlines at the control resting state unless the link is a sentence fragment within a full sentence, like in a watermark.
 
--   Underlines shouldn't appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
+- Underlines shouldn't appear on hover. Instead, the feedback to the user that the link is active is a slight color change and the appropriate link cursor.
 
 ##  <a name="BKMK_TreeViews"></a> Tree views
 
@@ -362,23 +362,23 @@ The tree view should provide the ability to select items and expand/collapse nod
 ##### Tree view control
 Visual Studio tree controls should follow common keyboard navigation:
 
--   **Up Arrow:** Select items by moving up the tree
+- **Up Arrow:** Select items by moving up the tree
 
--   **Down Arrow:** Select items by moving down the tree
+- **Down Arrow:** Select items by moving down the tree
 
--   **Right Arrow:** Expand a node in the tree
+- **Right Arrow:** Expand a node in the tree
 
--   **Left Arrow:** Collapse a node in the tree
+- **Left Arrow:** Collapse a node in the tree
 
--   **Enter key:** Initiate, load, execute selected item
+- **Enter key:** Initiate, load, execute selected item
 
 ##### Trid (tree view and grid view)
 A trid control is a complex control that contains a tree view within a grid. Expanding, collapsing, and navigating the tree should respect the same keyboard commands as a tree view, with the following additions:
 
--   **Right Arrow:** Expand a node. After the node is expanded, it should continue navigating to the nearest column on the right. Navigation should stop at the end of the row.
+- **Right Arrow:** Expand a node. After the node is expanded, it should continue navigating to the nearest column on the right. Navigation should stop at the end of the row.
 
--   **Tab:** Navigates to the nearest cell on the right.  At the end of the row, navigation continues to the next row.
+- **Tab:** Navigates to the nearest cell on the right.  At the end of the row, navigation continues to the next row.
 
--   **Shift + Tab:** Navigates to the nearest cell on the left.  At the beginning of the row, navigation continues to the rightmost cell in the previous row.
+- **Shift + Tab:** Navigates to the nearest cell on the left.  At the beginning of the row, navigation continues to the rightmost cell in the previous row.
 
 ![A trid control in Visual Studio](../../extensibility/ux-guidelines/media/070705-6_trid.png "070705-6_Trid")<br />A trid control in Visual Studio

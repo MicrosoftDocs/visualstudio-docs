@@ -17,11 +17,11 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md
   
  This walkthrough demonstrates how to:  
   
--   Examine the graphics log document to identify pixels that show the problem.  
+- Examine the graphics log document to identify pixels that show the problem.  
   
--   Use the **Graphics Pixel History** window to examine the pixel state more closely.  
+- Use the **Graphics Pixel History** window to examine the pixel state more closely.  
   
--   Use the **HLSL Debugger** to examine the pixel and vertex shaders.  
+- Use the **HLSL Debugger** to examine the pixel and vertex shaders.  
   
 ## Scenario  
  Incorrect coloring on objects commonly occurs when a vertex shader passes a pixel shader incorrect or incomplete information.  

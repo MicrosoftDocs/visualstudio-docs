@@ -114,11 +114,11 @@ In Visual Studio you can customize the position, size and behavior of windows to
 ### Reset, name, and switch between window layouts
  You can return the IDE to the original window layout for your settings collection by using the **Reset Window Layout** command. When you run this command, the following actions occur:
 
--   All windows are moved to their default positions.
+- All windows are moved to their default positions.
 
--   Windows that are closed in the default window layout are closed.
+- Windows that are closed in the default window layout are closed.
 
--   Windows that are open in the default window layout are opened.
+- Windows that are open in the default window layout are opened.
 
 ### Create and save custom layouts
  Visual Studio 2015 enables you to save up to 10 custom window layouts and quickly switch between them. The following steps show how to create, save, invoke, and manage custom layouts that take advantage of multiple monitors with both docked and floating tool windows.

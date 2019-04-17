@@ -39,13 +39,13 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
  **In this topic:**
 
--   [Adding, removing, or moving a menu on the menu bar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_addmenu)
+- [Adding, removing, or moving a menu on the menu bar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_addmenu)
 
--   [Adding, removing, or moving a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_addtoolbar)
+- [Adding, removing, or moving a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_addtoolbar)
 
--   [Customizing a menu or a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_customize)
+- [Customizing a menu or a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_customize)
 
--   [Resetting a menu or a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_reset)
+- [Resetting a menu or a toolbar](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#bkmk_reset)
 
 ##  <a name="bkmk_addmenu"></a> Adding, removing, or moving a menu on the menu bar
 

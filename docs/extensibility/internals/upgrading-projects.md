@@ -21,9 +21,9 @@ Changes to the project model from one version of Visual Studio to the next may r
 
 To support an upgrade, your project system implementation must define and implement an upgrade strategy. In determining your strategy, you can choose to support side-by-side (SxS) backup, copy backup, or both.
 
--   SxS backup means that a project copies only those files that need upgrading in place, adding a suitable file name suffix, for example, ".old".
+- SxS backup means that a project copies only those files that need upgrading in place, adding a suitable file name suffix, for example, ".old".
 
--   Copy backup means that a project copies all project items to a user-provided backup location. The relevant files at the original project location are then upgraded.
+- Copy backup means that a project copies all project items to a user-provided backup location. The relevant files at the original project location are then upgraded.
 
 ## How Upgrade Works
 
@@ -62,15 +62,15 @@ For a sample implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPro
 
 The following scenarios arise with project upgrades:
 
--   If the file is of a newer format than the project can support, then it must return an error stating this. This assumes that the older version of your product includes code to check for the version.
+- If the file is of a newer format than the project can support, then it must return an error stating this. This assumes that the older version of your product includes code to check for the version.
 
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is going to be implemented as an in-place upgrade prior to the opening of the project.
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is going to be implemented as an in-place upgrade prior to the opening of the project.
 
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_COPYBACKUP> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is implemented as a copy upgrade.
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_COPYBACKUP> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is implemented as a copy upgrade.
 
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then the user has been prompted by the environment to upgrade the project file as an in-place upgrade, after the project is opened. For example, the environment prompts the user to upgrade when the user opens an older version of the solution.
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then the user has been prompted by the environment to upgrade the project file as an in-place upgrade, after the project is opened. For example, the environment prompts the user to upgrade when the user opens an older version of the solution.
 
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is not specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then you must prompt the user to upgrade the project file.
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is not specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then you must prompt the user to upgrade the project file.
 
      The following is an example upgrade prompt message:
 
@@ -132,9 +132,9 @@ If your project system implements <xref:Microsoft.VisualStudio.Shell.Interop.IVs
 
 This call may cause a new copy of your project file to be checked out and the latest version retrieved, as well as a need to reload your project file. At this point, one of two things happen:
 
--   If you handle your own project reload, then the environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.ReloadItem%2A> (VSITEMID_ROOT) implementation. When you receive this call, reload the first instance of your project (Project1) and continue upgrading your project file. The environment knows that you handle your own project reload if you return `true` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_HandlesOwnReload>).
+- If you handle your own project reload, then the environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.ReloadItem%2A> (VSITEMID_ROOT) implementation. When you receive this call, reload the first instance of your project (Project1) and continue upgrading your project file. The environment knows that you handle your own project reload if you return `true` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_HandlesOwnReload>).
 
--   If you do not handle your own project reload, then you return `false` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_HandlesOwnReload>). In this case, before <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>(QEF_ForceEdit_NoPrompting, QEF_DisallowInMemoryEdits) returns, the environment creates another new instance of your project, for example, Project2, as follows:
+- If you do not handle your own project reload, then you return `false` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_HandlesOwnReload>). In this case, before <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>(QEF_ForceEdit_NoPrompting, QEF_DisallowInMemoryEdits) returns, the environment creates another new instance of your project, for example, Project2, as follows:
 
     1.  The environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.Close%2A> on your first project object, Project1, thus placing this object in the inactive state.
 

@@ -36,9 +36,9 @@ You can define validation constraints that test whether the model meets a condit
 ## Defining a Validation Extension  
  To create a validation extension for a UML designer, you must create a class that defines the validation constraints, and embed the class in a Visual Studio Integration Extension (VSIX). The VSIX acts as a container that can install the constraint. There are two alternative methods of defining a validation extension:  
   
--   **Create a validation extension in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your validation constraints with other types of extension such as menu commands, custom toolbox items, or gesture handlers. You can define several constraints in one class.  
+- **Create a validation extension in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your validation constraints with other types of extension such as menu commands, custom toolbox items, or gesture handlers. You can define several constraints in one class.  
   
--   **Create separate validation class and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
+- **Create separate validation class and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
   
 #### To create a validation extension in its own VSIX  
   

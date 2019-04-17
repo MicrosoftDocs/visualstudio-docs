@@ -23,13 +23,13 @@ A load test also exposes many run-time properties that can be modified to genera
 
 In this walkthrough, you will complete the following tasks:
 
--   Create a load test that uses unit tests.
+- Create a load test that uses unit tests.
 
--   Change some of the load test settings.
+- Change some of the load test settings.
 
--   Run a load test.
+- Run a load test.
 
--   Perform the steps in [Walkthrough: Creating and running unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a web performance and load test project with some unit tests in it.
+- Perform the steps in [Walkthrough: Creating and running unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a web performance and load test project with some unit tests in it.
 
 ## Create a load test containing unit tests using the New Load Test Wizard
 

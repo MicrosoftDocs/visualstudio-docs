@@ -39,13 +39,13 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
    **Reference Manager** opens and lists the available references by group. The project type determines which of the following groups appear:  
   
--   Assemblies, with the Framework and Extensions subgroups.  
+- Assemblies, with the Framework and Extensions subgroups.  
   
--   Solution, with the Projects subgroup.  
+- Solution, with the Projects subgroup.  
   
--   Windows, with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.  
+- Windows, with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.  
   
--   Browse, with the Recent subgroup.  
+- Browse, with the Recent subgroup.  
   
 ## Assemblies tab  
  The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn’t list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that’s registered in the GAC, the assembly won’t be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Project References](http://go.microsoft.com/fwlink/?LinkId=238512).  
@@ -82,17 +82,17 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
    Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version of your project. This can occur under the following conditions:  
   
--   A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
+- A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
   
      For information about how to change the target .NET Framework version for a project, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
--   A component that uses [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../includes/net-v45-md.md)].  
+- A component that uses [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../includes/net-v45-md.md)].  
   
      When you create a new application, some projects target the [!INCLUDE[net_v45](../includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).  
   
--   You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
+- You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
   
--   > [!NOTE]
+- > [!NOTE]
     >  In Visual Studio 2015, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
   
 #### To display an assembly in the Add Reference dialog box  
@@ -190,9 +190,9 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  When doing a file reference to a WinMD, the expected layout is that the *FileName*.winmd, *FileName*.dll, and *FileName*.pri files are all placed alongside each other. If you reference a WinMD in the following scenarios, an incomplete set of files will be copied into the project output directory and, consequently, build and runtime failures will occur.  
   
--   **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won’t recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *FileName*.dll and *FileName*.winmd will be copied, and runtime errors will occur. To work around this issue, create an Extension SDK. For more information, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
+- **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won’t recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *FileName*.dll and *FileName*.winmd will be copied, and runtime errors will occur. To work around this issue, create an Extension SDK. For more information, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
--   **Consuming controls**: at a minimum, a XAML control consists of a *FileName*.winmd, *FileName*.dll, *FileName*.pri, *XamlName*.xaml, and an *ImageName*.jpg. When the project is built, the resource files that are associated with the file reference won’t get copied into the project’s output directory, and only *FileName*.winmd, *FileName*.dll and *FileName*.pri will be copied. A build error is logged to inform the user that the resources *XamlName*.xaml and *ImageName*.jpg are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an Extension SDK by following the steps in [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:  
+- **Consuming controls**: at a minimum, a XAML control consists of a *FileName*.winmd, *FileName*.dll, *FileName*.pri, *XamlName*.xaml, and an *ImageName*.jpg. When the project is built, the resource files that are associated with the file reference won’t get copied into the project’s output directory, and only *FileName*.winmd, *FileName*.dll and *FileName*.pri will be copied. A build error is logged to inform the user that the resources *XamlName*.xaml and *ImageName*.jpg are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an Extension SDK by following the steps in [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:  
   
     ```  
     <PropertyGroup>  

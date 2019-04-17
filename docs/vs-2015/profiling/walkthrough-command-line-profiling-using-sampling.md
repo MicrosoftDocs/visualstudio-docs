@@ -23,21 +23,21 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
  In this walkthrough, you will follow these steps:  
   
--   Profile an application by using command line tools and sampling.  
+- Profile an application by using command line tools and sampling.  
   
--   Analyze sampled profiling results to locate and fix performance issues.  
+- Analyze sampled profiling results to locate and fix performance issues.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
--   Intermediate understanding of [!INCLUDE[csharp_current_short](../includes/csharp-current-short-md.md)]  
+- Intermediate understanding of [!INCLUDE[csharp_current_short](../includes/csharp-current-short-md.md)]  
   
--   Intermediate understanding of working with command line tools  
+- Intermediate understanding of working with command line tools  
   
--   A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)  
+- A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)  
   
--   To work with the information provided by profiling, it is best to have debugging symbol information available.  
+- To work with the information provided by profiling, it is best to have debugging symbol information available.  
   
 ## Command Line Profiling Using the Sampling Method  
  Sampling is a profiling method by which a specific process is periodically polled to determine the active function. The resulting data provides a count of how frequently the function was on top of the call stack when the process was sampled.  

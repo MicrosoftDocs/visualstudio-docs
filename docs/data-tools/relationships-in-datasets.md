@@ -21,18 +21,18 @@ Datasets that contain related data tables use <xref:System.Data.DataRelation> ob
 
 The <xref:System.Data.DataRelation> object performs two functions:
 
--   It can make available the records related to a record you are working with. It provides child records if you are in a parent record (<xref:System.Data.DataRow.GetChildRows%2A>) and a parent record if you are working with a child record (<xref:System.Data.DataRow.GetParentRow%2A>).
+- It can make available the records related to a record you are working with. It provides child records if you are in a parent record (<xref:System.Data.DataRow.GetChildRows%2A>) and a parent record if you are working with a child record (<xref:System.Data.DataRow.GetParentRow%2A>).
 
--   It can enforce constraints for referential integrity, such as deleting related child records when you delete a parent record.
+- It can enforce constraints for referential integrity, such as deleting related child records when you delete a parent record.
 
 It is important to understand the difference between a true join and the function of a <xref:System.Data.DataRelation> object. In a true join, records are taken from parent and child tables and put into a single, flat recordset. When you use a <xref:System.Data.DataRelation> object, no new recordset is created. Instead, the DataRelation tracks the relationship between tables and keeps parent and child records in sync.
 
 ## DataRelation objects and constraints
 A <xref:System.Data.DataRelation> object is also used to create and enforce the following constraints:
 
--   A unique constraint, which guarantees that a column in the table contains no duplicates.
+- A unique constraint, which guarantees that a column in the table contains no duplicates.
 
--   A foreign-key constraint, which can be used to maintain referential integrity between a parent and child table in a dataset.
+- A foreign-key constraint, which can be used to maintain referential integrity between a parent and child table in a dataset.
 
 Constraints that you specify in a <xref:System.Data.DataRelation> object are implemented by automatically creating appropriate objects or setting properties. If you create a foreign-key constraint by using the <xref:System.Data.DataRelation> object, instances of the <xref:System.Data.ForeignKeyConstraint> class are added to the <xref:System.Data.DataRelation> object's <xref:System.Data.DataRelation.ChildKeyConstraint%2A> property.
 
@@ -41,11 +41,11 @@ A unique constraint is implemented either by simply setting the <xref:System.Dat
 ### Referential integrity rules
 As part of the foreign-key constraint, you can specify referential integrity rules that are applied at three points:
 
--   When a parent record is updated
+- When a parent record is updated
 
--   When a parent record is deleted
+- When a parent record is deleted
 
--   When a change is accepted or rejected
+- When a change is accepted or rejected
 
 The rules that you can make are specified in the <xref:System.Data.Rule> enumeration and are listed in the following table.
 

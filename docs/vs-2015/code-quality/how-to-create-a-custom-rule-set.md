@@ -69,13 +69,13 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To modify a rule set in the rule set editor  
   
--   To change the display name of the rule set, on the **View** menu, click **Properties Window**. Enter the display name in the **Name** box. Notice that the display name can differ from the file name.  
+- To change the display name of the rule set, on the **View** menu, click **Properties Window**. Enter the display name in the **Name** box. Notice that the display name can differ from the file name.  
   
--   To add all the rules of the group to a custom rule set, select the check box of the group. To remove all the rules of the group, clear the check box.  
+- To add all the rules of the group to a custom rule set, select the check box of the group. To remove all the rules of the group, clear the check box.  
   
--   To add a specific rule to the custom rule set, select the check box of the rule. To remove the rule from the rule set, clear the check box.  
+- To add a specific rule to the custom rule set, select the check box of the rule. To remove the rule from the rule set, clear the check box.  
   
--   To change the action taken when a rule is violated in a code analysis, click in the **Action** field for the rule and then select one of the following values:  
+- To change the action taken when a rule is violated in a code analysis, click in the **Action** field for the rule and then select one of the following values:  
   
      **Warn** - generates a warning.  
   
@@ -87,23 +87,23 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To group, filter, or change the fields in the rule set editor by using the rule set editor toolbar  
   
--   To expand the rules in all groups, click **Expand All**.  
+- To expand the rules in all groups, click **Expand All**.  
   
--   To collapse the rules in all groups, click **Collapse All**.  
+- To collapse the rules in all groups, click **Collapse All**.  
   
--   To change the field that rules are grouped by, select the field from the **Group By** list. To display the rules ungrouped, select **\<None>**.  
+- To change the field that rules are grouped by, select the field from the **Group By** list. To display the rules ungrouped, select **\<None>**.  
   
--   To add or remove fields in rule columns, click **Column Options**.  
+- To add or remove fields in rule columns, click **Column Options**.  
   
--   To hide rules that do not apply to the current solution, **Hide rules that do not apply to the current solution**.  
+- To hide rules that do not apply to the current solution, **Hide rules that do not apply to the current solution**.  
   
--   To switch between showing and hiding rules that are assigned the Error action, click **Show rules that can generate Code Analysis errors**.  
+- To switch between showing and hiding rules that are assigned the Error action, click **Show rules that can generate Code Analysis errors**.  
   
--   To switch between showing and hiding rules that are assigned the Warning action, click **Show rules that can generate Code Analysis warnings**.  
+- To switch between showing and hiding rules that are assigned the Warning action, click **Show rules that can generate Code Analysis warnings**.  
   
--   To switch between showing and hiding rules that are assigned the **None** action, click **Show rules that are not enabled**.  
+- To switch between showing and hiding rules that are assigned the **None** action, click **Show rules that are not enabled**.  
   
--   To add or remove Microsoft default rule sets to the current rule set, click **Add or remove child rule sets**.  
+- To add or remove Microsoft default rule sets to the current rule set, click **Add or remove child rule sets**.  
   
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   

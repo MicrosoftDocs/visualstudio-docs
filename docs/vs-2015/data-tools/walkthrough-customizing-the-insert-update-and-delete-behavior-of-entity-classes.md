@@ -24,26 +24,26 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
  During this walkthrough, you will learn how to perform the following tasks:  
   
--   Create a new Windows Forms application and add a [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] file to it.  
+- Create a new Windows Forms application and add a [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] file to it.  
   
--   Create an entity class that is mapped to the Northwind Customers table.  
+- Create an entity class that is mapped to the Northwind Customers table.  
   
--   Create an object data source that references the LINQ to SQL Customer class.  
+- Create an object data source that references the LINQ to SQL Customer class.  
   
--   Create a Windows Form that contains a <xref:System.Windows.Forms.DataGridView> that is bound to the Customer class.  
+- Create a Windows Form that contains a <xref:System.Windows.Forms.DataGridView> that is bound to the Customer class.  
   
--   Implement save functionality for the form.  
+- Implement save functionality for the form.  
   
--   Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+- Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
--   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
+- Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
 ## Prerequisites  
  To complete this walkthrough, you need the following:  
   
--   Access to the SQL Server version of the Northwind sample database.
+- Access to the SQL Server version of the Northwind sample database.
   
--   The **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.
+- The **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.
   
 ## Creating an Application and Adding LINQ to SQL Classes  
  Because you will be working with [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
@@ -247,9 +247,9 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] entity classes. Some enhancements you could make to this application include the following:  
   
--   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](http://msdn.microsoft.com/library/c2e38512-d0c8-4807-b30a-cb7e30338694).  
+- Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](http://msdn.microsoft.com/library/c2e38512-d0c8-4807-b30a-cb7e30338694).  
   
--   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8).  
+- Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8).  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

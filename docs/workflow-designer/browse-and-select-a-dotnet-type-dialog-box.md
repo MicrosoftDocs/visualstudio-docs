@@ -18,11 +18,11 @@ In the **Properties** window, dialog boxes, or designers such as the variable de
 
 This dialog box is employed in a number of user scenarios, including the following:
 
--   When setting the type of a variable or argument.
+- When setting the type of a variable or argument.
 
--   When selecting a type for a generic activity.
+- When selecting a type for a generic activity.
 
--   When adding a catch on the <xref:System.Activities.Statements.TryCatch> activity.
+- When adding a catch on the <xref:System.Activities.Statements.TryCatch> activity.
 
 > [!NOTE]
 > The type browser can display Visual Basic jagged array types, but not multidimensional array types. See [Jagged Arrays](http://go.microsoft.com/fwlink/?LinkId=195226) and [Multidimensional Arrays](http://go.microsoft.com/fwlink/?LinkId=195227) for details.

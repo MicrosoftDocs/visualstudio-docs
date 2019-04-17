@@ -28,13 +28,13 @@ The example pulls data from the Northwind sample database to populate a combo bo
 
 This walkthrough illustrates the following tasks:
 
--   Create a new Outlook VSTO Add-in project.
+- Create a new Outlook VSTO Add-in project.
 
--   Design a custom Ribbon group.
+- Design a custom Ribbon group.
 
--   Add the custom group to a built-in tab.
+- Add the custom group to a built-in tab.
 
--   Update controls on the ribbon at runtime.
+- Update controls on the ribbon at runtime.
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -43,9 +43,9 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Outlook
+- Microsoft Outlook
 
 ## Create a new Outlook VSTO Add-in project
 
@@ -157,11 +157,11 @@ Use the **Data Sources** window to add a typed dataset to your project.
 
 Use the Ribbon object model to perform the following tasks:
 
--   Add customer names to the **Customers** combo box.
+- Add customer names to the **Customers** combo box.
 
--   Add menu and button controls to the **Products Purchased** menu that represent sales orders and products sold.
+- Add menu and button controls to the **Products Purchased** menu that represent sales orders and products sold.
 
--   Populate the To, Subject, and Body fields of new mail messages by using data from the **Customers** combo box and **Products Purchased** menu.
+- Populate the To, Subject, and Body fields of new mail messages by using data from the **Customers** combo box and **Products Purchased** menu.
 
 ### To update controls in the custom group by using the Ribbon object model
 
@@ -283,11 +283,11 @@ To create a customer follow-up email message, select a customer, and then select
 
 You can learn more about how to customize the Office UI from these topics:
 
--   Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
+- Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
 
--   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
+- Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
--   Add a custom task pane to Outlook. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
+- Add a custom task pane to Outlook. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
 

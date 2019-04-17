@@ -24,9 +24,9 @@ A DCOM error occurred when the remote machine tried to communicate with the loca
   
  running Visual Studio. This error can occur for several reasons:  
   
--   The local machine has a firewall enabled.  
+- The local machine has a firewall enabled.  
   
--   Windows authentication from the remote machine to the local machine is not working.  
+- Windows authentication from the remote machine to the local machine is not working.  
   
 ### To correct this error  
   

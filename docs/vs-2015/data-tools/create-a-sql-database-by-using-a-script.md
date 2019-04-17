@@ -22,11 +22,11 @@ In this walkthrough, you use Visual Studio to create a small database that conta
   
  **In this topic**  
   
--   [Create a script that contains a database schema](../data-tools/create-a-sql-database-by-using-a-script.md#CreateScript)  
+- [Create a script that contains a database schema](../data-tools/create-a-sql-database-by-using-a-script.md#CreateScript)  
   
--   [Create a database project and import a schema](../data-tools/create-a-sql-database-by-using-a-script.md#CreateProject)  
+- [Create a database project and import a schema](../data-tools/create-a-sql-database-by-using-a-script.md#CreateProject)  
   
--   [Deploy the database](../data-tools/create-a-sql-database-by-using-a-script.md#DeployDatabase)  
+- [Deploy the database](../data-tools/create-a-sql-database-by-using-a-script.md#DeployDatabase)  
   
 ## Prerequisites  
  To complete this walkthrough, you must have SQL Server Express LocalDB, or another SQL database, installed.  

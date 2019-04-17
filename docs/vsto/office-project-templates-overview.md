@@ -75,15 +75,15 @@ ms.workload:
 
  For information about getting started with these project types, see the following topics:
 
--   [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 
--   [Word solutions](../vsto/word-solutions.md)
+- [Word solutions](../vsto/word-solutions.md)
 
--   [Excel solutions](../vsto/excel-solutions.md)
+- [Excel solutions](../vsto/excel-solutions.md)
 
--   [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
+- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
 
--   [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
+- [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
 
 ##  <a name="AppLevel"></a> VSTO Add-ins
  The **Office/SharePoint** node in the **New Project** dialog box provides the following project templates to get you started creating VSTO Add-ins.

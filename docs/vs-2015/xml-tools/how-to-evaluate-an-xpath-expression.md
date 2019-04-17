@@ -17,11 +17,11 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
   
  The following list describes which functions are supported when evaluating an XPath expression:  
   
--   Built-in XPath functions are supported.  
+- Built-in XPath functions are supported.  
   
--   Built-in XSLT functions are not supported.  
+- Built-in XSLT functions are not supported.  
   
--   User-defined functions are not supported.  
+- User-defined functions are not supported.  
   
 > [!NOTE]
 >  The following procedure uses the belowAvg.xsl and books.xml files from the [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) topic.  

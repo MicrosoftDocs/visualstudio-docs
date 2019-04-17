@@ -46,7 +46,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database with permission to perform updates.
+- Access to the Northwind sample database with permission to perform updates.
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -162,7 +162,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 ##### To create the message to display to the user  
   
--   Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method.  
+- Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method.  
   
      [!code-csharp[VbRaddataConcurrency#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs#4)]
      [!code-vb[VbRaddataConcurrency#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb#4)]  
@@ -172,7 +172,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 ##### To process the user input from the message box  
   
--   Add the following code below the code that was added in the previous section.  
+- Add the following code below the code that was added in the previous section.  
   
      [!code-csharp[VbRaddataConcurrency#3](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs#3)]
      [!code-vb[VbRaddataConcurrency#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb#3)]  

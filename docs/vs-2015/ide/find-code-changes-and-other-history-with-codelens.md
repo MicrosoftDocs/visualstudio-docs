@@ -172,11 +172,11 @@ Stay focused on your work while you find out what happened to your code - withou
 ##  <a name="FindRunUnitTests"></a> Find unit tests for your code  
  Find out more about unit tests that exist for your code without opening Test Explorer. You'll need:  
   
--   Visual Studio Enterprise or Visual Studio Professional  
+- Visual Studio Enterprise or Visual Studio Professional  
   
--   Visual C# .NET or Visual Basic .NET code  
+- Visual C# .NET or Visual Basic .NET code  
   
--   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
+- A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
 1. Go to application code that has unit tests.  
   
@@ -214,13 +214,13 @@ Stay focused on your work while you find out what happened to your code - withou
 ###  <a name="NoIndicators"></a> Q: Where is CodeLens?  
  **A:** CodeLens appears in Visual C# .NET and Visual Basic .NET code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.  
   
--   Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
+- Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
--   If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).  
+- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).  
   
--   TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](/azure/devops/organizations/security/view-permissions)  
+- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](/azure/devops/organizations/security/view-permissions)  
   
--   Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
+- Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
   
 ### Q: Why don't I see the work item details for a commit?  
  **A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items and that you have permissions to see those work items. This might also happen if the commit description has incorrect information about the work item IDs in TFS.  
@@ -263,15 +263,15 @@ Stay focused on your work while you find out what happened to your code - withou
 ### Q: How do I refresh the indicators?  
  **A:** This depends on the indicator:  
   
--   **References**: This indicator updates automatically when the code changes. If you have this indicator docked as a separate window, refresh the indicator manually here:  
+- **References**: This indicator updates automatically when the code changes. If you have this indicator docked as a separate window, refresh the indicator manually here:  
   
      ![CodeLens &#45; Dock as window](../ide/media/codelensviewreferencesdocked.png "CodeLensViewReferencesDocked")  
   
--   **Team**: Refresh these indicators manually here:  
+- **Team**: Refresh these indicators manually here:  
   
      ![CodeLens &#45; Refresh indicators](../ide/media/codelensrefreshindicatorsfromcode.png "CodeLensRefreshIndicatorsFromCode")  
   
--   **Test**: [Find unit tests for your code](#FindRunUnitTests) to refresh this indicator.  
+- **Test**: [Find unit tests for your code](#FindRunUnitTests) to refresh this indicator.  
   
 ###  <a name="LocalVersion"></a> Q: What's "Local Version"?  
  **A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.  

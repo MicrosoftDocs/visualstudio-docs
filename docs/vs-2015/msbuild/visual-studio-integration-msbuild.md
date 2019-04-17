@@ -63,20 +63,20 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## In-Process Compilers  
  When possible, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../includes/csprcs-md.md)].) For this to work correctly, the following conditions must be met:  
   
--   In a target of the project, there must be a task named `Vbc` for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects.  
+- In a target of the project, there must be a task named `Vbc` for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects.  
   
--   The `UseHostCompilerIfAvailable` parameter of the task must be set to true.  
+- The `UseHostCompilerIfAvailable` parameter of the task must be set to true.  
   
 ## Design-Time IntelliSense  
  To get IntelliSense support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] before a build has generated an output assembly, the following conditions must be met:  
   
--   There must be a target named `Compile`.  
+- There must be a target named `Compile`.  
   
--   Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.  
+- Either the `Compile` target or one of its dependencies must call the compiler task for the project, such as `Csc` or `Vbc`.  
   
--   Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.  
+- Either the `Compile` target or one of its dependencies must cause the compiler to receive all the necessary parameters for IntelliSense, particularly all references.  
   
--   The conditions listed in the "In-Process Compilers" section must be met.  
+- The conditions listed in the "In-Process Compilers" section must be met.  
   
 ## Building Solutions  
  Within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] itself. When building a solution with msbuild.exe on the command line, [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with msbuild.exe, project to project references are traversed.  
@@ -152,7 +152,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Reference Resolution  
  Reference resolution is the process of using the reference items stored in a project file to locate actual assemblies. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] must trigger reference resolution in order to show detailed properties for each reference in the **Properties** window. The following list describes the three types of references and how they are resolved.  
   
--   Assembly references:  
+- Assembly references:  
   
      The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
   
@@ -162,11 +162,11 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
     -   `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] directory.  
   
--   COM references:  
+- COM references:  
   
      The project system calls a target with the well-known name `ResolveCOMReferences`. This target should produce items with the item type name `ComReferenceWrappers`. Each of these items should have an item specification containing the full path to the interop assembly for the COM reference. The items should have all the metadata from the input items passed through, in addition to new metadata with the name `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false  
   
--   Native references  
+- Native references  
   
      The project system calls a target with the well-known name `ResolveNativeReferences`. This target should produce items with the item type name `NativeReferenceFile`. The items should have all the metadata from the input items passed through, in addition to a new piece of metadata named `OriginalItemSpec`, containing the original item specification of the reference.  
   

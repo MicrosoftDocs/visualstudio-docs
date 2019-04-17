@@ -36,9 +36,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Project_15_short](../vsto/includes/project-15-short-md.md)] or [!INCLUDE[Project_14_short](../vsto/includes/project-14-short-md.md)].
+- [!INCLUDE[Project_15_short](../vsto/includes/project-15-short-md.md)] or [!INCLUDE[Project_14_short](../vsto/includes/project-14-short-md.md)].
 
 ## Create the project
 
@@ -63,9 +63,9 @@ ms.workload:
 ## Write code that adds a new task to a project
  Next, add code to the ThisAddIn code file. The new code uses the object model of Project to add a new task to a project. By default, the ThisAddIn code file contains the following generated code:
 
--   A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
 
--   The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Project loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Project loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add a task to a new project
 
@@ -78,9 +78,9 @@ ms.workload:
 
    To modify the project, this code example uses the following objects:
 
--   The `Application` field of the `ThisAddIn` class. The `Application` field returns an `Microsoft.Office.Interop.MSProject.Application` object, which represents the current instance of Project.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns an `Microsoft.Office.Interop.MSProject.Application` object, which represents the current instance of Project.
 
--   The `pj` parameter of the event handler for the NewProject event. The `pj` parameter is a `Microsoft.Office.Interop.MSProject.Project` object, which represents the project. For more information, see [Project solutions](../vsto/project-solutions.md).
+- The `pj` parameter of the event handler for the NewProject event. The `pj` parameter is a `Microsoft.Office.Interop.MSProject.Project` object, which represents the project. For more information, see [Project solutions](../vsto/project-solutions.md).
 
 1. If you are using C#, add the following code to the `ThisAddIn_Startup` event handler. This code connects the `Application_Newproject` event handler with the NewProject event.
 
@@ -113,13 +113,13 @@ ms.workload:
 ## Next steps
  Now that you have created a basic VSTO Add-in for Project, you can learn more about how to develop VSTO Add-ins from these topics:
 
--   General programming tasks that you can perform in VSTO Add-ins for Project: [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+- General programming tasks that you can perform in VSTO Add-ins for Project: [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
--   Using the object model of Project: [Project solutions](../vsto/project-solutions.md).
+- Using the object model of Project: [Project solutions](../vsto/project-solutions.md).
 
--   Building and debugging VSTO Add-ins for Project: [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging VSTO Add-ins for Project: [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying VSTO Add-ins for Project: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying VSTO Add-ins for Project: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

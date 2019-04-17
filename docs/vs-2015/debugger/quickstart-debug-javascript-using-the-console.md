@@ -263,11 +263,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
+- [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
   
--   Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
+- Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
   
--   Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
+- Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

@@ -27,20 +27,20 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+- Create a new **Windows Application**.  
   
--   Create and configure a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Create and configure a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
--   Select the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+- Select the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
--   Create a data-bound form by dragging items from the **Data Sources** window onto the form.  
+- Create a data-bound form by dragging items from the **Data Sources** window onto the form.  
   
--   Add methods to directly access the database and perform inserts, updates, and deletes..  
+- Add methods to directly access the database and perform inserts, updates, and deletes..  
   
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.
+- Access to the Northwind sample database.
   
 ## Create a Windows application  
  The first step is to create a **Windows Application**.  
@@ -89,7 +89,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To create data bound controls on the Windows form  
   
--   Drag the main **Region** node from the **Data Sources** window onto the form.  
+- Drag the main **Region** node from the **Data Sources** window onto the form.  
   
      A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), RegionTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
@@ -136,20 +136,20 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To run the application  
   
--   Select **F5** to run the application.  
+- Select **F5** to run the application.  
   
--   Select the **Insert** button, and verify that the new record appears in the grid.  
+- Select the **Insert** button, and verify that the new record appears in the grid.  
   
--   Select the **Update** button, and verify that the record is updated in the grid.  
+- Select the **Update** button, and verify that the record is updated in the grid.  
   
--   Select the **Delete** button, and verify that the record is removed from the grid.  
+- Select the **Delete** button, and verify that the record is removed from the grid.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form. Some enhancements you could make to this walkthrough include:  
   
--   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
+- Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
   
--   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. 
+- Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. 
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

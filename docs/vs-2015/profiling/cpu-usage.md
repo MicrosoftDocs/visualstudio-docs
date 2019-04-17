@@ -102,8 +102,8 @@ When you need to investigate performance issues in your app, a good place to sta
   
  ![Expanded GetMaxNumberAsyncButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
--   `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
+- `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
--   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.
+- `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.

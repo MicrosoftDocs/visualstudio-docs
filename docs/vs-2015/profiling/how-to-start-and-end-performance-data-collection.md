@@ -32,7 +32,7 @@ You must add the target binary that you want to profile to the performance sessi
   
 ### To end profiling  
   
--   The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.  
+- The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   

@@ -61,11 +61,11 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 ## Connect your apps to services
  You can connect to these services out of the box (assuming that you have an account for each service):
 
--   [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)
+- [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)
 
--   [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)
+- [Azure Storage](http://azure.microsoft.com/documentation/services/storage/)
 
--   Integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
+- Integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
 ## Write great Web apps with ASP.NET
  [ASP.NET 5](http://www.asp.net/vnext/overview/aspnet-vnext/aspnet-5-overview) is a major Update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
@@ -96,32 +96,32 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 ## In this section
 
--   [What's New in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)
+- [What's New in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)
 
--   [Install Visual Studio 2015](./install/install-visual-studio-2015.md)
+- [Install Visual Studio 2015](./install/install-visual-studio-2015.md)
 
--   [Porting, Migrating, and Upgrading Visual Studio Projects](./porting/porting-migrating-and-upgrading-visual-studio-projects.md)
+- [Porting, Migrating, and Upgrading Visual Studio Projects](./porting/porting-migrating-and-upgrading-visual-studio-projects.md)
 
--   [Visual Studio IDE](./ide/visual-studio-ide.md)
+- [Visual Studio IDE](./ide/visual-studio-ide.md)
 
--   [Extensibility in Visual Studio](./extensibility/extensibility-in-visual-studio.md)
+- [Extensibility in Visual Studio](./extensibility/extensibility-in-visual-studio.md)
 
--   [Accessing data in Visual Studio](./data-tools/accessing-data-in-visual-studio.md)
+- [Accessing data in Visual Studio](./data-tools/accessing-data-in-visual-studio.md)
 
--   [Cross-Platform Mobile Development](./cross-platform/cross-platform-mobile-development-in-visual-studio.md)
+- [Cross-Platform Mobile Development](./cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 
--   [C# and Visual Basic Shared Programming Concepts](http://msdn.microsoft.com/library/fa9bf5e6-07c8-4b5b-b1ae-8a22816a63c6)
+- [C# and Visual Basic Shared Programming Concepts](http://msdn.microsoft.com/library/fa9bf5e6-07c8-4b5b-b1ae-8a22816a63c6)
 
--   [Visual C++](http://msdn.microsoft.com/library/e8dcc44c-a3e2-4ffe-887c-fd15b18dc458)
+- [Visual C++](http://msdn.microsoft.com/library/e8dcc44c-a3e2-4ffe-887c-fd15b18dc458)
 
--   [JavaScript](./javascript/javascript-in-visual-studio.md)
+- [JavaScript](./javascript/javascript-in-visual-studio.md)
 
--   [Python](./python/getting-started-with-python.md)
+- [Python](./python/getting-started-with-python.md)
 
--   [Visual F#](http://msdn.microsoft.com/library/66f52f8a-a034-4c32-bb83-fa5b030faa4d)
+- [Visual F#](http://msdn.microsoft.com/library/66f52f8a-a034-4c32-bb83-fa5b030faa4d)
 
--   [Visual Studio LightSwitch](http://msdn.microsoft.com/library/2021a2cf-f684-493f-8d1b-4cdf39bc6eb3)
+- [Visual Studio LightSwitch](http://msdn.microsoft.com/library/2021a2cf-f684-493f-8d1b-4cdf39bc6eb3)
 
--   [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
+- [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)
 
--   [Talk to Us](./ide/talk-to-us.md)
+- [Talk to Us](./ide/talk-to-us.md)

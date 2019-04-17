@@ -26,15 +26,15 @@ You can flag a thread that you want to give special attention by marking it with
   
 ### To flag or unflag a thread by using the Threads window  
   
--   In the **Threads** window, find the thread you are interested in and click the flag icon to select or clear the flag.  
+- In the **Threads** window, find the thread you are interested in and click the flag icon to select or clear the flag.  
   
 ### To unflag all threads  
   
--   In the **Threads** window, right-click any thread and then click **Unflag All Threads**.  
+- In the **Threads** window, right-click any thread and then click **Unflag All Threads**.  
   
 ### To display only flagged threads  
   
--   Choose the flag button in the debugging window.  
+- Choose the flag button in the debugging window.  
   
 ### To flag Just My Code  
   

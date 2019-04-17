@@ -18,15 +18,15 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  You'll do these things to build it:
 
--   [Set up your solution](#solution)
+- [Set up your solution](#solution)
 
--   [Write shared data service code](#dataservice)
+- [Write shared data service code](#dataservice)
 
--   [Design UI for Android](#Android)
+- [Design UI for Android](#Android)
 
--   [Design UI for Windows Phone](#Windows)
+- [Design UI for Windows Phone](#Windows)
 
--   [Next steps](#next)
+- [Next steps](#next)
 
 > [!TIP]
 >  You can find the complete source code for this project in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).

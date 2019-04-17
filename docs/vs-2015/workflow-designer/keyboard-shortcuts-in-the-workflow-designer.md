@@ -67,7 +67,7 @@ All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] ca
 ### Expression Editing  
  By default, the default keyboard shortcuts for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] text editing apply inside the expression editor in [!INCLUDE[wfd2](../includes/wfd2-md.md)], with the following limitations:  
   
--   Remapping the keyboard shortcuts for the following commands has no effect. You can only use the default keyboard shortcuts to access these commands when editing an expression.  
+- Remapping the keyboard shortcuts for the following commands has no effect. You can only use the default keyboard shortcuts to access these commands when editing an expression.  
   
     1.  Cut  
   
@@ -81,4 +81,4 @@ All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] ca
   
     6.  Redo  
   
--   To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../includes/wfd2-md.md)] in [!INCLUDE[vs2010](../includes/vs2010-md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../includes/wfd2-md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../includes/wfd2-md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).
+- To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../includes/wfd2-md.md)] in [!INCLUDE[vs2010](../includes/vs2010-md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../includes/wfd2-md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../includes/wfd2-md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).

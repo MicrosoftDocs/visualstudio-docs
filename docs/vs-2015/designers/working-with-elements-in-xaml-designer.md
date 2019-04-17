@@ -22,7 +22,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To add an element to a layout  
   
--   In XAML Designer, do one of the following:  
+- In XAML Designer, do one of the following:  
   
     -   Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).  
   
@@ -66,7 +66,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To align two or more elements by using snaplines  
   
--   In XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.  
+- In XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.  
   
      When the edges are aligned, an *alignment boundary* appears to indicate alignment. The alignment boundary is a red dashed line. Alignment boundaries appear only when **snapping to snaplines** is enabled. For an illustration of the artboard that shows an alignment boundary, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
   
@@ -81,7 +81,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To change an element's margins in the artboard  
   
--   To change the margins of an element relative to its layout container, click the *margin adorners* that appear around the element in the artboard when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
+- To change the margins of an element relative to its layout container, click the *margin adorners* that appear around the element in the artboard when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
   
      If a margin adorner is open, vertically or horizontally, that margin isn't set. If a margin adorner is closed, that margin is set.  
   
@@ -113,7 +113,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To reset the element layout  
   
--   In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).  
+- In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).  
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)

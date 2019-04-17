@@ -78,7 +78,7 @@ By default, memory contents appear as 1-byte integers in hexadecimal format, and
 
 **To change the format of the memory contents:**
 
--  Right-click in the **Memory** window, and choose the formats that you want from the context menu.
+- Right-click in the **Memory** window, and choose the formats that you want from the context menu.
 
 **To change the number of columns in the Memory window:**
 

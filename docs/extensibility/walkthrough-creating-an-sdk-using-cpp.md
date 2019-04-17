@@ -12,11 +12,11 @@ ms.workload:
 # Walkthrough: Create an SDK using C++
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:
 
--   [To create the native and Windows Runtime libraries](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createClassLibrary)
+- [To create the native and Windows Runtime libraries](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createClassLibrary)
 
--   [To create the NativeMathVSIX extension project](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createVSIX)
+- [To create the NativeMathVSIX extension project](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createVSIX)
 
--   [To create a sample app that uses the class library](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createSample)
+- [To create a sample app that uses the class library](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createSample)
 
 ## Prerequisites
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).

@@ -72,27 +72,27 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
 ## Supported Operating Systems  
  The remote computer must be running one of the following operating systems:  
   
--   Windows 10  
+- Windows 10  
   
--   Windows 8 or 8.1  
+- Windows 8 or 8.1  
   
--   Windows 7 Service Pack 1  
+- Windows 7 Service Pack 1  
   
--   Windows Server 2012 or Windows Server 2012 R2  
+- Windows Server 2012 or Windows Server 2012 R2  
   
--   Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1  
+- Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1  
   
 ## Supported Hardware Configurations  
   
--   1.6 GHz or faster processor  
+- 1.6 GHz or faster processor  
   
--   1 GB of RAM (1.5 GB if running on a virtual machine)  
+- 1 GB of RAM (1.5 GB if running on a virtual machine)  
   
--   1 GB of available hard disk space  
+- 1 GB of available hard disk space  
   
--   5400 RPM hard drive  
+- 5400 RPM hard drive  
   
--   DirectX 9-capable video card running at 1024 x 768 or higher display resolution  
+- DirectX 9-capable video card running at 1024 x 768 or higher display resolution  
   
 ## Network configuration  
  The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported.  
@@ -281,11 +281,11 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
   
  For information about debugging on Azure, see one of these topics:  
   
--   [Debugging a Cloud Service or Virtual Machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md)  
+- [Debugging a Cloud Service or Virtual Machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md)  
   
--   [Debugging the .NET Backend in Visual Studio](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
+- [Debugging the .NET Backend in Visual Studio](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
   
--   Introduction to Remote Debugging on Azure Web Sites ([Part 1](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/), [Part 2](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/), [Part 3](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
+- Introduction to Remote Debugging on Azure Web Sites ([Part 1](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/), [Part 2](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/), [Part 3](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   

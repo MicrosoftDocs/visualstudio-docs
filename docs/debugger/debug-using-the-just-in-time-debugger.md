@@ -73,7 +73,7 @@ By default, Windows Form apps have a top-level exception handler that lets the a
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
--  In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
+- In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
 
     ```xml
     <configuration>
@@ -81,7 +81,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
     </configuration>
     ```
 
--  In a C++ Windows Form application, also set `DebuggableAttribute` to `true` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set `DebuggableAttribute` by adding the following line in your app's *AssemblyInfo.cpp* file:
+- In a C++ Windows Form application, also set `DebuggableAttribute` to `true` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set `DebuggableAttribute` by adding the following line in your app's *AssemblyInfo.cpp* file:
 
    ```cpp
    [assembly:System::Diagnostics::DebuggableAttribute(true, true)];

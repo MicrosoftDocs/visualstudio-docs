@@ -16,11 +16,11 @@ manager: jillfra
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  
   
--   You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
+- You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
   
--   You do not have Administrator permissions on the remote site.  
+- You do not have Administrator permissions on the remote site.  
   
--   Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
+- Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
   
 ## Associated Tips  
  **Resolve NTLM authentication problems when using the ASP.Net Development Server.**  

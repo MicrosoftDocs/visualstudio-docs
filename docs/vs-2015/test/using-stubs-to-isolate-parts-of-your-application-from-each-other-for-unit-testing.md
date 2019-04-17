@@ -26,7 +26,7 @@ Stub types* are one of two technologies that the Microsoft Fakes framework provi
   
  **Requirements**  
   
--   Visual Studio Enterprise
+- Visual Studio Enterprise
   
 ##  <a name="How"></a> How to use stubs  
   

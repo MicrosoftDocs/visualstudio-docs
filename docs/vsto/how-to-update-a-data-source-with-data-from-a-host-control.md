@@ -36,7 +36,7 @@ ms.workload:
 
 ### To update the in-memory data source at runtime
 
--   Call the <xref:System.Windows.Forms.Binding.WriteValue%2A> method of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source.
+- Call the <xref:System.Windows.Forms.Binding.WriteValue%2A> method of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source.
 
      The following example saves changes made to a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on an Excel worksheet to the data source. This example assumes that you have a <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `namedRange1` with its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property bound to a field in a data source.
 

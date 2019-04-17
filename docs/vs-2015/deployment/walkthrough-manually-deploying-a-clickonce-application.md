@@ -30,36 +30,36 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../include
 ## Prerequisites  
  This walkthrough has some prerequisites and options that you need to choose before building a deployment.  
   
--   Install Mage.exe and MageUI.exe.  
+- Install Mage.exe and MageUI.exe.  
   
      Mage.exe and MageUI.exe are part of the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)]. You must either have the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] installed or the version of the [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.  
   
--   Provide an application to deploy.  
+- Provide an application to deploy.  
   
      This walkthrough assumes that you have a Windows application that you are ready to deploy. This application will be referred to as AppToDeploy.  
   
--   Determine how the deployment will be distributed.  
+- Determine how the deployment will be distributed.  
   
      The distribution options include: Web, file share, or CD. For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
   
--   Determine whether the application requires an elevated level of trust.  
+- Determine whether the application requires an elevated level of trust.  
   
      If your application requires Full Trust—for example, full access to the user's system—you can use the `-TrustLevel` option of Mage.exe to set this. If you want to define a custom permission set for your application, you can copy the Internet or intranet permission section from another manifest, modify it to suit your needs, and add it to the application manifest using either a text editor or MageUI.exe. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
--   Obtain an Authenticode certificate.  
+- Obtain an Authenticode certificate.  
   
      You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, MageUI.exe, or MakeCert.exe and Pvk2Pfx.exe tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   
     > [!NOTE]
     >  You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.  
   
--   Make sure that the application does not have a manifest with UAC information.  
+- Make sure that the application does not have a manifest with UAC information.  
   
      You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](http://go.microsoft.com/fwlink/?LinkId=158035) utility.  
   
      If your application contains a manifest with UAC details, you must re-build it without the UAC information. For a C# project in Visual Studio, open the project properties and select the Application tab. In the **Manifest** drop-down list, select **Create application without a manifest**. For a Visual Basic project in Visual Studio, open the project properties, select the Application tab, and click **View UAC Settings**. In the opened manifest file, remove all elements within the single `<asmv1:assembly>` element.  
   
--   Determine whether the application requires prerequisites on the client computer.  
+- Determine whether the application requires prerequisites on the client computer.  
   
      [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications deployed from Visual Studio can include a prerequisite installation bootstrapper (setup.exe) with your deployment. This walkthrough creates the two manifests required for a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper Task](../msbuild/generatebootstrapper-task.md).  
   

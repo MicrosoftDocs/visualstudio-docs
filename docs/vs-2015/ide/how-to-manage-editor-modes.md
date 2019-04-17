@@ -39,11 +39,11 @@ You can display the Visual Studio Code Editor in various display modes.
   
 #### To enable Full Screen mode  
   
--   Press ALT+SHIFT+ENTER to enter or exit **Full Screen** mode.  
+- Press ALT+SHIFT+ENTER to enter or exit **Full Screen** mode.  
   
      -- or --  
   
--   Issue the command `View.Fullscreen` in the **Command** window.  
+- Issue the command `View.Fullscreen` in the **Command** window.  
   
 ## Enabling Virtual Space mode  
  In **Virtual Space** mode, spaces are inserted at the end of each line of code. Select this option to position comments at a consistent point next to your code.  

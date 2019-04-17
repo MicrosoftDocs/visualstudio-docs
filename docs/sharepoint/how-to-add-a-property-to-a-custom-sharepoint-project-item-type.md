@@ -42,22 +42,22 @@ ms.workload:
 ### Specify the behavior of custom properties
  You can define how a custom property appears and behaves in the **Properties** window by applying attributes from the <xref:System.ComponentModel> namespace to the property definition. The following attributes are useful in many scenarios:
 
--   <xref:System.ComponentModel.DisplayNameAttribute>: Specifies the name of the property that appears in the **Properties** window.
+- <xref:System.ComponentModel.DisplayNameAttribute>: Specifies the name of the property that appears in the **Properties** window.
 
--   <xref:System.ComponentModel.DescriptionAttribute>: Specifies the description string that appears in the bottom of the **Properties** window when the property is selected.
+- <xref:System.ComponentModel.DescriptionAttribute>: Specifies the description string that appears in the bottom of the **Properties** window when the property is selected.
 
--   <xref:System.ComponentModel.DefaultValueAttribute>: Specifies the default value of the property.
+- <xref:System.ComponentModel.DefaultValueAttribute>: Specifies the default value of the property.
 
--   <xref:System.ComponentModel.TypeConverterAttribute>: Specifies a custom conversion between the string that is displayed in the **Properties** window and a non-string property value.
+- <xref:System.ComponentModel.TypeConverterAttribute>: Specifies a custom conversion between the string that is displayed in the **Properties** window and a non-string property value.
 
--   <xref:System.ComponentModel.EditorAttribute>: Specifies a custom editor to use to modify the property.
+- <xref:System.ComponentModel.EditorAttribute>: Specifies a custom editor to use to modify the property.
 
 ## Compile the code
  These code examples require a class library project with references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
 ## Deploy the project item
  To enable other developers to use your project item, create a project template or a project item template. For more information, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).

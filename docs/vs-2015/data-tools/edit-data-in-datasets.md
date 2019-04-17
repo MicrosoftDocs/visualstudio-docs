@@ -52,7 +52,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To delete records from a data table  
   
--   Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.  
+- Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.  
   
      This method doesn't physically remove the record. Instead, it marks the record for deletion.  
   
@@ -77,7 +77,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To determine if changes have been made to any rows  
   
--   Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.  
+- Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.  
   
      The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges%2A> method to detect whether there are any changed rows in a dataset named `NorthwindDataset1`:  
   
@@ -89,7 +89,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To determine what type of changes have been made to a row  
   
--   Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.  
+- Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.  
   
      The following example shows how to check a dataset named `NorthwindDataset1` to determine if any new rows have been added to it:  
   

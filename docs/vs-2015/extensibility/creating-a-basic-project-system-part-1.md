@@ -35,21 +35,21 @@ In Visual Studio, projects are the containers that developers use to organize so
   
  This walkthrough teaches how to accomplish these tasks:  
   
--   Create a basic project type.  
+- Create a basic project type.  
   
--   Create a basic project template.  
+- Create a basic project template.  
   
--   Register the project template with Visual Studio.  
+- Register the project template with Visual Studio.  
   
--   Create a project instance by opening the **New Project** dialog box and then using your template.  
+- Create a project instance by opening the **New Project** dialog box and then using your template.  
   
--   Create a project factory for your project system.  
+- Create a project factory for your project system.  
   
--   Create a project node for your project system.  
+- Create a project node for your project system.  
   
--   Add custom icons for the project system.  
+- Add custom icons for the project system.  
   
--   Implement basic template parameter substitution.  
+- Implement basic template parameter substitution.  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -248,7 +248,7 @@ In Visual Studio, projects are the containers that developers use to organize so
 ## Add the Managed Package Framework code  
  Implement the connection between the project package and the project factory.  
   
--   Import the source-code files for the Managed Package Framework.  
+- Import the source-code files for the Managed Package Framework.  
   
     1.  Unload the SimpleProject project (in **Solution Explorer**, select the project node and on the context menu click **Unload Project**.) and open the project file in the XML editor.  
   

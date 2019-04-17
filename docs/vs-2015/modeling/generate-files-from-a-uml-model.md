@@ -140,25 +140,25 @@ Type Class2 ::
   
 ### Outline procedure for generating files  
   
--   To add a template to a project, select **Text Template** in the Add New File dialog box. You can add a template to most types of project, but not modeling projects.  
+- To add a template to a project, select **Text Template** in the Add New File dialog box. You can add a template to most types of project, but not modeling projects.  
   
--   The Custom Tools property of the template file should be **TextTemplatingFileGenerator**, and the file name extension should be .tt.  
+- The Custom Tools property of the template file should be **TextTemplatingFileGenerator**, and the file name extension should be .tt.  
   
--   The template should have at least an output directive:  
+- The template should have at least an output directive:  
   
      `<#@ output extension=".cs" #>`  
   
      Set the extension field according to the language of your project.  
   
--   To allow the generating code in your template to access the model, write `<#@ assembly #>` directives for the assemblies needed to read a UML model. Use `ModelingProject.LoadReadOnly()` to open the model. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
+- To allow the generating code in your template to access the model, write `<#@ assembly #>` directives for the assemblies needed to read a UML model. Use `ModelingProject.LoadReadOnly()` to open the model. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
--   The template is executed when you save it and when you click **Transform All Templates** in the Solution Explorer toolbar.  
+- The template is executed when you save it and when you click **Transform All Templates** in the Solution Explorer toolbar.  
   
--   For more information about this type of template, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).  
+- For more information about this type of template, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).  
   
--   In a typical project, you will have several templates that generate different files from the same model. The first part of every template will be the same. To reduce this duplication, move the common parts to a separate text file, and then invoke it by using the directive `<#@include file="common.txt"#>` in each template.  
+- In a typical project, you will have several templates that generate different files from the same model. The first part of every template will be the same. To reduce this duplication, move the common parts to a separate text file, and then invoke it by using the directive `<#@include file="common.txt"#>` in each template.  
   
--   You can also define a specialized directive processor that lets you provide parameters to the text generation process. For more information, see [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md).  
+- You can also define a specialized directive processor that lets you provide parameters to the text generation process. For more information, see [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md).  
   
 ### Example  
  This example generates a C# class for each UML class in the source model.  
@@ -297,16 +297,16 @@ namespace Test{
   
  Here are some examples of generating code from models:  
   
--   **Product Lines**. Fabrikam, Inc. builds and installs airport baggage handling systems. Much of the software is very similar between one installation and the next, but the software configuration depends on what bag handling machinery is installed, and how these parts are interconnected by conveyor belts. At the beginning of a contract, Fabrikam's analysts discuss the requirements with the airport management, and capture the hardware plan using a UML activity diagram. From this model, the development team generates configuration files, program code, plans, and user documents. They complete the work by manual additions and adjustments to the code. As they gain experience from one job to the next, they extend the scope of the generated material.  
+- **Product Lines**. Fabrikam, Inc. builds and installs airport baggage handling systems. Much of the software is very similar between one installation and the next, but the software configuration depends on what bag handling machinery is installed, and how these parts are interconnected by conveyor belts. At the beginning of a contract, Fabrikam's analysts discuss the requirements with the airport management, and capture the hardware plan using a UML activity diagram. From this model, the development team generates configuration files, program code, plans, and user documents. They complete the work by manual additions and adjustments to the code. As they gain experience from one job to the next, they extend the scope of the generated material.  
   
--   **Patterns**. The developers in Contoso, Ltd often build Web sites, and design the navigation scheme using UML class diagrams. Each Web page is represented by a class, and associations represent navigation links. The developers generate much of the code of a Web site from the model. Each Web page corresponds to several classes and resource file entries.  This method has the benefits that the construction of each page conforms to a single pattern, making it more reliable and flexible than hand-written code. The pattern is in the generating templates, while the model is used to capture the variable aspects.  
+- **Patterns**. The developers in Contoso, Ltd often build Web sites, and design the navigation scheme using UML class diagrams. Each Web page is represented by a class, and associations represent navigation links. The developers generate much of the code of a Web site from the model. Each Web page corresponds to several classes and resource file entries.  This method has the benefits that the construction of each page conforms to a single pattern, making it more reliable and flexible than hand-written code. The pattern is in the generating templates, while the model is used to capture the variable aspects.  
   
--   **Schemas**. Humongous Insurance has thousands of systems worldwide. These systems use different databases, languages, and interfaces. The central architecture team publishes internally models of business concepts and processes. From these models, local teams generate parts of their database and interchange schemas, declarations in program code, and so on. The graphical presentation of the models helps teams discuss proposals. The teams create multiple diagrams that show subsets of the model that apply to different business areas. They also use color to highlight areas subject to change.  
+- **Schemas**. Humongous Insurance has thousands of systems worldwide. These systems use different databases, languages, and interfaces. The central architecture team publishes internally models of business concepts and processes. From these models, local teams generate parts of their database and interchange schemas, declarations in program code, and so on. The graphical presentation of the models helps teams discuss proposals. The teams create multiple diagrams that show subsets of the model that apply to different business areas. They also use color to highlight areas subject to change.  
   
 ## Important techniques for generating artifacts  
  In the previous examples, models are used for diverse business-dependent purposes, and the interpretation of modeling elements such as classes and activities varies from one application to another. The following techniques are useful when you generate artifacts from models.  
   
--   **Profiles**. Even within one business area, the interpretation of an element type can vary. For example on a Web site diagram, some classes might represent Web pages, and others represent content blocks. To make it easy for the users to record these distinctions, define stereotypes. Stereotypes also make it possible to attach additional properties that apply to elements of that kind. Stereotypes are packaged within profiles. For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).  
+- **Profiles**. Even within one business area, the interpretation of an element type can vary. For example on a Web site diagram, some classes might represent Web pages, and others represent content blocks. To make it easy for the users to record these distinctions, define stereotypes. Stereotypes also make it possible to attach additional properties that apply to elements of that kind. Stereotypes are packaged within profiles. For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).  
   
      In template code, it is easy to access the stereotypes that are defined on an object. For example:  
   
@@ -316,14 +316,14 @@ namespace Test{
        (s => s.Profile == profile && s.Name == stereo ); }  
     ```  
   
--   **Constrained models**. Not all the models that you can create are valid for every purpose. For example, in Fabrikam's airport baggage models, it would be incorrect to have a check-in desk without an outgoing conveyor. You can define validation functions that help users to observe these constraints. For more information, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
+- **Constrained models**. Not all the models that you can create are valid for every purpose. For example, in Fabrikam's airport baggage models, it would be incorrect to have a check-in desk without an outgoing conveyor. You can define validation functions that help users to observe these constraints. For more information, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
   
--   **Preserve manual changes**. Only some of the solution files can be generated from a model. In most cases, you need to be able to add or adjust the generated content by hand. However, it is important that these manual changes should be preserved when template transformation is run again.  
+- **Preserve manual changes**. Only some of the solution files can be generated from a model. In most cases, you need to be able to add or adjust the generated content by hand. However, it is important that these manual changes should be preserved when template transformation is run again.  
   
      Where your templates generate code in [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] languages, they should generate partial classes so that developers can add methods and code. It is also useful to generate each class as a pair: an abstract base class that contains the methods, and an inheriting class that contains only the constructor. This lets developers override the methods. To allow for initialization to be overridden, it is done in a separate method, instead of in the constructors.  
   
      Where a template generates XML and other types of output, it can be more difficult to keep the manual content separate from the generated content. One method is to create a task in the build process that combines two files. Another method is for the developers to adjust a local copy of the generating template.  
   
--   **Move code into separate assemblies**. We do not recommend writing large bodies of code in templates. It is preferable to keep generated content separate from computation, and text templates are not well supported for editing code.  
+- **Move code into separate assemblies**. We do not recommend writing large bodies of code in templates. It is preferable to keep generated content separate from computation, and text templates are not well supported for editing code.  
   
      Instead, if you have to perform substantial computations to generate text, build those functions in a separate assembly, and call its methods from the template.

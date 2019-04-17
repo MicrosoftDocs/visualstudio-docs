@@ -40,7 +40,7 @@ ClickOnce provides two ways to update an application once it is deployed. In the
 
 ### Use Mage.exe to deploy an application that checks for updates programmatically
 
--   Follow the instructions for deploying your application using Mage.exe as explained in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). When calling Mage.exe to generate the deployment manifest, make sure to use the command-line switch `providerUrl`, and to specify the URL where ClickOnce should check for updates. If your application will update from [http://www.adatum.com/MyApp](http://www.adatum.com/MyApp), for example, your call to generate the deployment manifest might look like this:
+- Follow the instructions for deploying your application using Mage.exe as explained in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). When calling Mage.exe to generate the deployment manifest, make sure to use the command-line switch `providerUrl`, and to specify the URL where ClickOnce should check for updates. If your application will update from [http://www.adatum.com/MyApp](http://www.adatum.com/MyApp), for example, your call to generate the deployment manifest might look like this:
 
     ```cmd
     mage -New Deployment -ToFile WindowsFormsApp1.application -Name "My App 1.0" -Version 1.0.0.0 -AppManifest 1.0.0.0\MyApp.manifest -providerUrl http://www.adatum.com/MyApp/MyApp.application
@@ -48,7 +48,7 @@ ClickOnce provides two ways to update an application once it is deployed. In the
 
 ### Using MageUI.exe to deploy an application that checks for updates programmatically
 
--   Follow the instructions for deploying your application using Mage.exe as explained in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). On the **Deployment Options** tab, set the **Start Location** field to the application manifest ClickOnce should check for updates. On the **Update Options** tab, clear the **This application should check for updates** check box.
+- Follow the instructions for deploying your application using Mage.exe as explained in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). On the **Deployment Options** tab, set the **Start Location** field to the application manifest ClickOnce should check for updates. On the **Update Options** tab, clear the **This application should check for updates** check box.
 
 ## .NET Framework Security
  Your application must have full-trust permissions to use programmatic updating.

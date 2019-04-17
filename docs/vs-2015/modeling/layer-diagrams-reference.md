@@ -74,7 +74,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
 #### To examine the linked artifacts  
   
--   On the layer diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
+- On the layer diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
   
      **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.  
   

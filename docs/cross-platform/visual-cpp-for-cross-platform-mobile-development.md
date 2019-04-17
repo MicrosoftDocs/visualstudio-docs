@@ -34,55 +34,55 @@ You can build native C++ apps for iOS, Android and Windows devices, and share co
 
  Visual C++ for Cross-Platform Mobile Development includes several templates to help you get started on your apps:
 
--   OpenGLES 2 Application (Android, iOS, Windows Universal)
+- OpenGLES 2 Application (Android, iOS, Windows Universal)
 
      Creates a solution that includes a set of projects to build an Android Native Activity app, an iOS app, and a Universal Windows app, together with a shared C++ code library. These apps use platform-specific libraries created by using common C++ OpenGL ES code to draw the same spinning cube in each app. You must include the Universal Windows App Development Tools option when you install Visual Studio to use this template.
 
--   Native-Activity Application (Android)
+- Native-Activity Application (Android)
 
      Creates a complete C++ OpenGL app as an Android Native Activity project.
 
--   OpenGLES Application (Android, iOS)
+- OpenGLES Application (Android, iOS)
 
      Creates a solution with a set of projects to build both an Android Native Activity app and an iOS app. These apps use platform-specific libraries created by using common C++ OpenGL ES code to draw the same spinning cube in each app.
 
--   Shared Library (Android, iOS)
+- Shared Library (Android, iOS)
 
      Creates a solution with projects to create an Android dynamic library (.so) file and an iOS static library (.a) file by using common C++ code in a shared project.
 
--   Basic Application (Android, Ant)
+- Basic Application (Android, Ant)
 
      Creates an Android "Hello, World" app project that uses only Java source code and the Ant build system.
 
--   Basic Application (Android, Gradle)
+- Basic Application (Android, Gradle)
 
      Creates an Android "Hello, World" app project that uses only Java source code and the Gradle build system.
 
--   Basic Library (Android, Ant)
+- Basic Library (Android, Ant)
 
      Creates an Android "Hello, World" library project that uses only Java source code and the Ant build system.
 
--   Basic Library (Android, Gradle)
+- Basic Library (Android, Gradle)
 
      Creates an Android "Hello, World" library project that uses only Java source code and the Gradle build system.
 
--   Dynamic Shared Library (Android)
+- Dynamic Shared Library (Android)
 
      Creates an Android dynamic library (.so) file by using C++ code.
 
--   OpenGLES 2 Application (iOS)
+- OpenGLES 2 Application (iOS)
 
      Creates a solution with a set of projects to build an OpenGL ES 2 iOS app. The app uses a library of C++ OpenGL ES code to draw the spinning cube in an iOS app. This app can be a good starting point for seeing how to import C++ libraries into your iOS app.
 
--   Static Library (Android)
+- Static Library (Android)
 
      Creates a project to build a static library for Android. You can only link one dynamic library in an Android app, but you can link any number of static libraries.
 
--   Static Library (iOS)
+- Static Library (iOS)
 
      Creates a project to build a static library for iOS.
 
--   Makefile Project (Android)
+- Makefile Project (Android)
 
      Creates a project wrapper for your own Android makefile projects.
 

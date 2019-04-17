@@ -36,9 +36,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
 
 ## Create a new Word Add-in project
  Start by creating a Word VSTO Add-in project.
@@ -172,9 +172,9 @@ ms.workload:
 ## Next steps
  You can learn more about controls in VSTO Add-ins from these topics:
 
--   For a sample that demonstrates how to add many other types of controls to a document at runtime and recreate the controls when the document is reopened, see the Word Add-In Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
+- For a sample that demonstrates how to add many other types of controls to a document at runtime and recreate the controls when the document is reopened, see the Word Add-In Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
--   For a walkthrough that demonstrates how to add controls to a worksheet by using a VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).
+- For a walkthrough that demonstrates how to add controls to a worksheet by using a VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).
 
 ## See also
 - [Word solutions](../vsto/word-solutions.md)

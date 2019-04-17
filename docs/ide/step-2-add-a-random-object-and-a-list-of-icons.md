@@ -46,6 +46,6 @@ IntelliSense window
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
+- To go to the next tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
 
--   To return to the previous tutorial step, see [Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md).
+- To return to the previous tutorial step, see [Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md).

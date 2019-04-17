@@ -20,11 +20,11 @@ ms.workload:
 # How to: Programmatically insert text into Word documents
   There are three primary ways to insert text into Microsoft Office Word documents:
 
--   Insert text in a range.
+- Insert text in a range.
 
--   Replace text in a range with new text.
+- Replace text in a range with new text.
 
--   Use the <xref:Microsoft.Office.Interop.Word.Selection.TypeText%2A> method of a <xref:Microsoft.Office.Interop.Word.Selection> object to insert text at the cursor or selection.
+- Use the <xref:Microsoft.Office.Interop.Word.Selection.TypeText%2A> method of a <xref:Microsoft.Office.Interop.Word.Selection> object to insert text at the cursor or selection.
 
 > [!NOTE]
 >  You can also insert text into content controls and bookmarks. For more information, see [Content controls](../vsto/content-controls.md) and [Bookmark control](../vsto/bookmark-control.md).

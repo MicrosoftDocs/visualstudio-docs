@@ -80,11 +80,11 @@ ms.workload:
 ## Compiling the code
  This example assumes that your project contains an icon named CustomChildNodeIcon as an embedded resource. This example also requires references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint
+- Microsoft.VisualStudio.SharePoint
 
--   System.ComponentModel.Composition
+- System.ComponentModel.Composition
 
--   System.Drawing
+- System.Drawing
 
 ## Deploy the extension
  To deploy the **Server Explorer** extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

@@ -17,21 +17,21 @@ This topic describes the options that are available through the **Sorting, Filte
 
  The following filter options are available. By default, the **Show Namespaces** and **Show Schema Files** options are selected.
 
--   **Show Namespaces**.
+- **Show Namespaces**.
 
--   **Show Schema Files**.
+- **Show Schema Files**.
 
--   **Show Compositors (sequence/choice/all)**.
+- **Show Compositors (sequence/choice/all)**.
 
 ## Sorting options
 
  The following sorting options are available. The default is **Sort By Type**. **Sort By** options do not apply to files and namespaces.
 
--   **Sort By Type**.
+- **Sort By Type**.
 
--   **Sort By Name**.
+- **Sort By Name**.
 
--   **Document Order**.
+- **Document Order**.
 
 ### Sort By Type
 

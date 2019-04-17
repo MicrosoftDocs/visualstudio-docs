@@ -18,13 +18,13 @@ First, install the [Selenium components for coded UI cross browser testing](http
 
 ## What's supported across all web browsers?
 
--   [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
+- [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
 
--   Pop-ups and dialog boxes
+- Pop-ups and dialog boxes
 
--   [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
+- [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
+- Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## Why should I use coded UI tests across multiple web browser types?
 

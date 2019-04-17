@@ -24,7 +24,7 @@ You attempted to use a conditional compilation variable without first turning co
   
 ### To correct this error  
   
--   Add the following statement to the beginning of your conditional code:  
+- Add the following statement to the beginning of your conditional code:  
   
     ```JavaScript  
     /*@cc_on @*/  

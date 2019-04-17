@@ -23,11 +23,11 @@ ms.workload:
 
  During this walkthrough, you will learn how to:
 
--   Add controls to a worksheet.
+- Add controls to a worksheet.
 
--   Populate a text box when a button is clicked.
+- Populate a text box when a button is clicked.
 
--   Test your project.
+- Test your project.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -35,9 +35,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
  In this step, you will create an Excel Workbook project using Visual Studio.
@@ -100,9 +100,9 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of using buttons and text boxes on Excel worksheets. Here are some tasks that might come next:
 
--   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
--   Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
 ## See also
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)

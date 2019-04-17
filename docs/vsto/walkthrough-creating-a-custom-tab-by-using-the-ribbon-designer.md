@@ -25,11 +25,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   [Create actions panes](#BKMK_CreateActionsPanes).
+- [Create actions panes](#BKMK_CreateActionsPanes).
 
--   [Create a custom tab](#BKMK_CreateCustomTab).
+- [Create a custom tab](#BKMK_CreateCustomTab).
 
--   [Hide and show actions panes by using buttons on the custom tab](#BKMK_HideShowActionsPane).
+- [Hide and show actions panes by using buttons on the custom tab](#BKMK_HideShowActionsPane).
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -37,16 +37,16 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Excel
+- Microsoft Excel
 
 ## Create an Excel workbook project
  The steps for using the Ribbon Designer are almost identical for all Office applications. This example uses an Excel workbook.
 
 ### To create an Excel workbook project
 
--   Create an Excel workbook project with the name **MyExcelRibbon**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+- Create an Excel workbook project with the name **MyExcelRibbon**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new workbook in the designer and adds the **MyExcelRibbon** project to **Solution Explorer**.
 
@@ -148,9 +148,9 @@ ms.workload:
 ## Next steps
  You can learn more about how to customize the Office UI from these topics:
 
--   Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
+- Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).
 
--   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
+- Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
 ## See also
 - [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)

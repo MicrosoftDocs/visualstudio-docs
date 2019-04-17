@@ -138,11 +138,11 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 ##### To add a port for an existing interface to a component  
   
--   Find the interface in **UML Model Explorer** and then drag it from there onto the component.  
+- Find the interface in **UML Model Explorer** and then drag it from there onto the component.  
   
      -or-  
   
--   Copy and paste a reference to an interface from a diagram.  
+- Copy and paste a reference to an interface from a diagram.  
   
     1.  On a class diagram or a component diagram, right-click the interface and then click **Copy**.  
   
@@ -303,11 +303,11 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
 ### Defining Data and Classes  
  You can use a UML class diagram to describe the detailed content of:  
   
--   The interfaces of the components. When you add a requires or provides port to a component, an interface appears in UML Model Explorer. You can drag or copy this into a UML Class Diagram to show its attributes and operations, and relationships to other interfaces.  
+- The interfaces of the components. When you add a requires or provides port to a component, an interface appears in UML Model Explorer. You can drag or copy this into a UML Class Diagram to show its attributes and operations, and relationships to other interfaces.  
   
--   Data passed in parameters of operations in the interfaces.  
+- Data passed in parameters of operations in the interfaces.  
   
--   Data stored in the components, for example as shown in object flows in activity diagrams.  
+- Data stored in the components, for example as shown in object flows in activity diagrams.  
   
 ### General Dependencies Between Components  
  You can use a component diagram just to show the major parts of your design and their interdependencies.  

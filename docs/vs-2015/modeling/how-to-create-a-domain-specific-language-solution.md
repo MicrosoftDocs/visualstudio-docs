@@ -92,15 +92,15 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
  If you see a list of tools or packages, you should do one of the following:  
   
--   Type a different file extension.  
+- Type a different file extension.  
   
      \- or -  
   
--   Reset the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.  
+- Reset the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.  
   
      \- or -  
   
--   If a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, uninstall it. On the **Tools** menu, click **Extension Manager**.  
+- If a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, uninstall it. On the **Tools** menu, click **Extension Manager**.  
   
 ### Product Settings page  
  **What is the name of the product that the new domain-specific language belongs to?**  

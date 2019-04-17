@@ -16,15 +16,15 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  You'll do these things to build it:
 
--   [Set up your solution](#solution)
+- [Set up your solution](#solution)
 
--   [Write shared data service code](#dataservice)
+- [Write shared data service code](#dataservice)
 
--   [Begin writing shared UI code](#uicode)
+- [Begin writing shared UI code](#uicode)
 
--   [Test your app using the Visual Studio Emulator for Android](#test)
+- [Test your app using the Visual Studio Emulator for Android](#test)
 
--   [Finish the UI with a native look and feel across platforms](#finish)
+- [Finish the UI with a native look and feel across platforms](#finish)
 
 > [!TIP]
 >  You can find the complete source code for this project in the [xamarin-forms-samples repository on GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather).

@@ -29,17 +29,17 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Designing the user interface (UI) of the custom task pane.
+- Designing the user interface (UI) of the custom task pane.
 
--   Creating a custom Ribbon UI.
+- Creating a custom Ribbon UI.
 
--   Displaying the custom Ribbon UI with email messages.
+- Displaying the custom Ribbon UI with email messages.
 
--   Creating a class to manage Inspector windows and custom task panes.
+- Creating a class to manage Inspector windows and custom task panes.
 
--   Initializing and cleaning up resources used by the VSTO Add-in.
+- Initializing and cleaning up resources used by the VSTO Add-in.
 
--   Synchronizing the Ribbon toggle button with the custom task pane.
+- Synchronizing the Ribbon toggle button with the custom task pane.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -256,11 +256,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to create custom task panes from these topics:
 
--   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
+- Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
 
--   Automate a Microsoft Office application by using a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
+- Automate a Microsoft Office application by using a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
 
--   Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
+- Create a Ribbon button in Excel that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).
 
 ## See also
 - [Custom task panes](../vsto/custom-task-panes.md)

@@ -17,15 +17,15 @@ manager: jillfra
 
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:  
   
--   Add a control to the tool window.  
+- Add a control to the tool window.  
   
--   Add a toolbar to a tool window.  
+- Add a toolbar to a tool window.  
   
--   Add a command to the toolbar.  
+- Add a command to the toolbar.  
   
--   Implement the commands.  
+- Implement the commands.  
   
--   Set the default position for the tool window.  
+- Set the default position for the tool window.  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

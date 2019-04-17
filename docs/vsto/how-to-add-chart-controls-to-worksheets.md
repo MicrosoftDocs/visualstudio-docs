@@ -74,7 +74,7 @@ ms.workload:
 ## Compile the code
  This example has the following requirements:
 
--   Data to be charted, stored in the range from A5 to D8 in the worksheet.
+- Data to be charted, stored in the range from A5 to D8 in the worksheet.
 
 ## See also
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

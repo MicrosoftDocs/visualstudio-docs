@@ -34,7 +34,7 @@ You can link a use case in a use case diagram to another diagram or document. Fo
   
 ### To open a document associated with an artifact  
   
--   On the use case diagram, double-click the artifact shape.  
+- On the use case diagram, double-click the artifact shape.  
   
      The associated document opens.  
   

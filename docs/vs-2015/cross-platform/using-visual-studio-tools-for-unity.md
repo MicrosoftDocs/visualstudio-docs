@@ -23,7 +23,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 ##### To access Unity documentation  
   
--   In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl+Alt+M, Ctrl+H**  
+- In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl+Alt+M, Ctrl+H**  
   
 ### Unity MonoBehavior scripting wizard  
  In Unity, most scripts are implemented by deriving from the MonoBehavior class and overriding some of its methods. You can use the MonoBehavior wizard to quickly create empty definitions of the MonoBehavior methods you want to overload. Using this wizard, you can specify one or more methods that you want to overload from the list of available methods, choose where they will be inserted into your code, and decide whether to include comments about how they are used.  
@@ -102,11 +102,11 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
   
 ##### To open the Select Unity Instance dialog  
   
--   In Visual Studio, on the main menu, choose **Debug**, **Attach Unity Debugger**.  
+- In Visual Studio, on the main menu, choose **Debug**, **Attach Unity Debugger**.  
   
      ![Attach the debugger of Unity.](../cross-platform/media/vstu-debugging-attach-unity-debugger.png "vstu_debugging_attach_unity_debugger")  
   
--   *Or*, in Visual Studio, on the status bar, choose the plug icon in the lower right-hand corner of Visual Studio.  
+- *Or*, in Visual Studio, on the status bar, choose the plug icon in the lower right-hand corner of Visual Studio.  
   
      ![This icon shows VSTU is connected to Unity.](../cross-platform/media/vstu-connection-connected.png "vstu_connection_connected")  
   

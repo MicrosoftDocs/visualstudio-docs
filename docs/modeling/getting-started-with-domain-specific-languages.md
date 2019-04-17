@@ -88,11 +88,11 @@ This solution defines a domain specific language. For more information, see [Ove
 
 Notice the following aspects of the new solution:
 
--   **Dsl\DslDefinition.dsl** This is the file that you see when you create a DSL solution. Almost all the code in the solution is generated from this file, and most of the changes that you make to a DSL definition are made here. For more information, see Working with the [Working with the DSL Definition Diagram](../modeling/working-with-the-dsl-definition-diagram.md).
+- **Dsl\DslDefinition.dsl** This is the file that you see when you create a DSL solution. Almost all the code in the solution is generated from this file, and most of the changes that you make to a DSL definition are made here. For more information, see Working with the [Working with the DSL Definition Diagram](../modeling/working-with-the-dsl-definition-diagram.md).
 
--   **Dsl project** This project contains code that defines the domain-specific language.
+- **Dsl project** This project contains code that defines the domain-specific language.
 
--   **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in Visual Studio.
+- **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in Visual Studio.
 
 ##  <a name="Debugging"></a> Running the DSL
 

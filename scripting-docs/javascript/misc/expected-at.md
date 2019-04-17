@@ -20,7 +20,7 @@ You attempted to create a variable to be used with conditional compilation state
   
 ### To correct this error  
   
--   Add an at sign "**@**" immediately before the variable name. For example:  
+- Add an at sign "**@**" immediately before the variable name. For example:  
   
     ```JavaScript  
     @set @myvar = 1  

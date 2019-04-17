@@ -14,15 +14,15 @@ manager: jillfra
 
 Composite patterns combine interaction and design elements in distinct configurations. Some of the most important composite patterns in Visual Studio with regard to consistency include:
 
--   [Data visualization](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_DataVisualization)
+- [Data visualization](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_DataVisualization)
 
--   [On-object UI and peeking](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_OnObjectUI)
+- [On-object UI and peeking](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_OnObjectUI)
 
--   [Selection models](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_SelectionModels)
+- [Selection models](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_SelectionModels)
 
--   [Persistence and saving settings](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_PersistenceAndSavingSettings)
+- [Persistence and saving settings](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_PersistenceAndSavingSettings)
 
--   [Touch input](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_TouchInput)
+- [Touch input](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_TouchInput)
 
 ##  <a name="BKMK_DataVisualization"></a> Data visualization
 
@@ -31,33 +31,33 @@ Composite patterns combine interaction and design elements in distinct configura
 
  The user will benefit from a chart if any of the following conditions are true:
 
--   Will the chart help users identify tasks they can act on?
+- Will the chart help users identify tasks they can act on?
 
--   Will the chart enable users to forecast consequences of potential changes?
+- Will the chart enable users to forecast consequences of potential changes?
 
--   Will the chart help users discover trends and identify patterns?
+- Will the chart help users discover trends and identify patterns?
 
--   Will the chart allow users to make better decisions?
+- Will the chart allow users to make better decisions?
 
--   Will the chart help answer a specific question that users may have in the given context?
+- Will the chart help answer a specific question that users may have in the given context?
 
 #### General rules for charts
 
--   Clearly label data. Illustrations without explanation are just pretty pictures.
+- Clearly label data. Illustrations without explanation are just pretty pictures.
 
--   Start axes at zero to avoid skewing proportions. Line length and bar size are important visual cues to understanding the relationships between data points.
+- Start axes at zero to avoid skewing proportions. Line length and bar size are important visual cues to understanding the relationships between data points.
 
--   Create charts, not infographics. Infographics are artistic representations of data, and their primary goal is visual storytelling. Charts can (and should) be visually appealing, but let the data speak for itself.
+- Create charts, not infographics. Infographics are artistic representations of data, and their primary goal is visual storytelling. Charts can (and should) be visually appealing, but let the data speak for itself.
 
--   Avoid skeumorphism, pictorial bar graphs, contrast hashmarks, and other infographic touches.
+- Avoid skeumorphism, pictorial bar graphs, contrast hashmarks, and other infographic touches.
 
--   Do not use 3D effects as a decorative element. Use them only if they truly integral to the user's ability to comprehend the information.
+- Do not use 3D effects as a decorative element. Use them only if they truly integral to the user's ability to comprehend the information.
 
--   Avoid using multiple lines and fills, as more than two colors can make this type of chart difficult to read and interpret correctly.
+- Avoid using multiple lines and fills, as more than two colors can make this type of chart difficult to read and interpret correctly.
 
--   Do not use a chart (or any illustration) as the sole means of understanding a concept or interacting with data. This presents difficulties for users with visual impairments.
+- Do not use a chart (or any illustration) as the sole means of understanding a concept or interacting with data. This presents difficulties for users with visual impairments.
 
--   Do not use charts as gratuitous or decorative elements on a page. In other words, if a chart doesn't add any value or help users solve a problem, don't use it.
+- Do not use charts as gratuitous or decorative elements on a page. In other words, if a chart doesn't add any value or help users solve a problem, don't use it.
 
 ### Chart types
  Types of charts used in Visual Studio include bar charts, line charts, a modified pie chart known as a ring chart or "donut chart," timelines, scatter plots (also called "cluster charts"), and Gantt charts. Each type of chart is useful for communicating a different type of information.
@@ -102,11 +102,11 @@ Composite patterns combine interaction and design elements in distinct configura
 #### Relationships between master and detail content
  Information at the point of attention is used to display a relationship between content that the user is focused on (the "master" content) and additional related content (the "detail" content). In this pattern, the detail content is clearly related to the content the user is working with and can be displayed close to the master content. Supplemental information or information that cannot be summarized without overwhelming the master content should follow another pattern, such as a tool window.
 
--   **Always** display the detail content in close proximity to the master content.
+- **Always** display the detail content in close proximity to the master content.
 
--   **Always** ensure that the detail content still enables a user to remain focused on the master content. Often, the best way to achieve this is to render the detail content as close to the master content as possible. This can be done by rendering the detail content in a pop-up window next to the master content, or by rendering the detail content inline underneath the master content.
+- **Always** ensure that the detail content still enables a user to remain focused on the master content. Often, the best way to achieve this is to render the detail content as close to the master content as possible. This can be done by rendering the detail content in a pop-up window next to the master content, or by rendering the detail content inline underneath the master content.
 
--   **Never** use information at the point of attention that takes the user away from the master content. If users need to view the detail content separately, expose an explicit action that enables the user to do this.
+- **Never** use information at the point of attention that takes the user away from the master content. If users need to view the detail content separately, expose an explicit action that enables the user to do this.
 
 #### Design details
  Once you have determined that on-object UI is the right choice, there are four main design considerations:
@@ -216,20 +216,20 @@ Composite patterns combine interaction and design elements in distinct configura
 #### Ambient indicators (optional)
  Ambient indicators can be subtle, including text presented in a contrasting color from the rest of the code, or obvious, including tickler symbols such as squiggle underlines and smart tag icons. Ambient indicators communicate the availability of additional, relevant information. Ideally, they provide useful information even without requiring the user to interact with them.
 
--   **Always** position an ambient indicator so that it does not distract or overwhelm the user. If it is impossible to position an ambient indicator in such a way, consider another solution.
+- **Always** position an ambient indicator so that it does not distract or overwhelm the user. If it is impossible to position an ambient indicator in such a way, consider another solution.
 
--   **Always** position the ambient indicator as close as possible to the content that it’s related to.
+- **Always** position the ambient indicator as close as possible to the content that it’s related to.
 
--   **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, “3 references” instead of simply “References”) or think of some other way to summarize the data.
+- **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, “3 references” instead of simply “References”) or think of some other way to summarize the data.
 
     -   In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
 
--   **Never** add more indicators than a user can reasonably take in for a given piece of content. Ambient indicators should be useful without requiring any interaction from the user. Indicators lose their ambience if they require overflow and other management controls to bring them into view.
+- **Never** add more indicators than a user can reasonably take in for a given piece of content. Ambient indicators should be useful without requiring any interaction from the user. Indicators lose their ambience if they require overflow and other management controls to bring them into view.
 
 #### Gestures
  A key aspect of allowing the user to maintain focus on the master content is by supporting the right gestures to open and dismiss the additional detail content.
 
--   **Always** require the user to perform some explicit gesture to open the additional content. Common open gestures include:
+- **Always** require the user to perform some explicit gesture to open the additional content. Common open gestures include:
 
     -   **Hover:** tooltips or non-interactive informational content
 
@@ -237,11 +237,11 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   **Double-click the ambient indicator:** CodeLens pop-up window
 
--   **Always** dismiss the detail content whenever the user presses the Esc key.
+- **Always** dismiss the detail content whenever the user presses the Esc key.
 
--   **Always** consider the context of the on-object UI. For content presenters that allow for interaction within the container, carefully consider whether to show additional information on hover, which is likely to be disruptive to the user’s workflow.
+- **Always** consider the context of the on-object UI. For content presenters that allow for interaction within the container, carefully consider whether to show additional information on hover, which is likely to be disruptive to the user’s workflow.
 
--   **Never** display content on hover that appears to be editable or invites user interaction. This behavior can frustrate users if they try to move the cursor over the detail content, as the standard behavior for a tooltip is to immediately dismiss when the cursor is no longer over the master content that produced it.
+- **Never** display content on hover that appears to be editable or invites user interaction. This behavior can frustrate users if they try to move the cursor over the detail content, as the standard behavior for a tooltip is to immediately dismiss when the cursor is no longer over the master content that produced it.
 
 ##  <a name="BKMK_SelectionModels"></a> Selection models
 
@@ -313,11 +313,11 @@ Composite patterns combine interaction and design elements in distinct configura
 #### Interaction
  Graphical object selection can be complex and depends upon a number of factors:
 
--   **The editor's primary selection model.** Editors that contain graphical objects can also be used to edit text or grids. For example, the editor might be a text-based editor that also supports the placement of graphical objects, such as the Visual Studio XAML designer. Supporting multiple object types can affect how the user selects groups made up of different types of objects.
+- **The editor's primary selection model.** Editors that contain graphical objects can also be used to edit text or grids. For example, the editor might be a text-based editor that also supports the placement of graphical objects, such as the Visual Studio XAML designer. Supporting multiple object types can affect how the user selects groups made up of different types of objects.
 
--   **Support for primary and secondary selection states.** An editor can provide primary and secondary selection states so that objects can be edited in unison, aligned with each other, resized together, and so on.
+- **Support for primary and secondary selection states.** An editor can provide primary and secondary selection states so that objects can be edited in unison, aligned with each other, resized together, and so on.
 
--   **In-place editing support.** Editors can also allow the contents of their graphical objects to be edited. For example, a rectangle shape might also contain text on the inside that can be changed by the user. In addition, that text could be centered or justified. In-place editing involves a more detailed level of user interaction and therefore requires an appropriate set of visual cues for presenting state information to the user.
+- **In-place editing support.** Editors can also allow the contents of their graphical objects to be edited. For example, a rectangle shape might also contain text on the inside that can be changed by the user. In addition, that text could be centered or justified. In-place editing involves a more detailed level of user interaction and therefore requires an appropriate set of visual cues for presenting state information to the user.
 
 #### Mouse interaction
 
@@ -441,11 +441,11 @@ Composite patterns combine interaction and design elements in distinct configura
 
  Dragging in the list body does one of three things:
 
--   Initiates a region selection if the list supports it and the mouse-down is in white space
+- Initiates a region selection if the list supports it and the mouse-down is in white space
 
--   Initiates a drag/drop operation if the list cell or row supports being a drag source
+- Initiates a drag/drop operation if the list cell or row supports being a drag source
 
--   Selects the current row
+- Selects the current row
 
 ##### In-place editing
  When in-place editing is allowed, there are two basic models: simple edit control and property picker. With a simple edit control, the content is highlighted and ready for user input as soon as in-place editing is activated. Where a property picker is implemented, the button that invokes the property picker is displayed once in-place editing mode is activated, and the current selection is not highlighted. The picker button should be right-justified in the cell. For in-place editing examples, see the **Properties Window** and **Task List** in Visual Studio.
@@ -453,19 +453,19 @@ Composite patterns combine interaction and design elements in distinct configura
 ##### Keyboard support
  Keyboard support for selection in lists and grids follows the standard Windows conventions:
 
--   Arrow keys navigate the list, selecting each row/cell as the focus is moved.
+- Arrow keys navigate the list, selecting each row/cell as the focus is moved.
 
--   Shift + arrow performs a contiguous selection in the direction of the arrow keys.
+- Shift + arrow performs a contiguous selection in the direction of the arrow keys.
 
--   Ctrl + arrow followed by Spacebar toggles between adding and removing list items from the selection, creating a disjoint selection.
+- Ctrl + arrow followed by Spacebar toggles between adding and removing list items from the selection, creating a disjoint selection.
 
--   For grids that contain nested hierarchies, the Right Arrow key expands a parent row, and the Left Arrow key collapses one.
+- For grids that contain nested hierarchies, the Right Arrow key expands a parent row, and the Left Arrow key collapses one.
 
--   The Tab key moves focus among the cells in the current row if the cells are editable.
+- The Tab key moves focus among the cells in the current row if the cells are editable.
 
--   The Enter key performs the default command on the item in the list (often **Open**).
+- The Enter key performs the default command on the item in the list (often **Open**).
 
--   The F2 key activates in-place editing for the currently selected cell.
+- The F2 key activates in-place editing for the currently selected cell.
 
 ##  <a name="BKMK_PersistenceAndSavingSettings"></a> Persistence and saving settings
 
@@ -484,17 +484,17 @@ Composite patterns combine interaction and design elements in distinct configura
 
  What the user is doing, and when they are doing it, dictates whether a setting is being saved in memory (during the session), saved to disk (across sessions as a registry setting), as part of the project or solution file itself, as a part of the **solution options (.suo)** file, or as a custom settings file that only that software component knows about. The table above shows several events at which settings can be saved. However, there are other times in which you might want to save state:
 
--   When the user changes location within a dialog or window
+- When the user changes location within a dialog or window
 
--   When the user transfers focus to another window
+- When the user transfers focus to another window
 
--   When the user switches from design to debug mode
+- When the user switches from design to debug mode
 
--   When the user logs off their account
+- When the user logs off their account
 
--   When the computer goes into hibernation or shuts down
+- When the computer goes into hibernation or shuts down
 
--   When the computer/hard drive is about to be reformatted and set up again
+- When the computer/hard drive is about to be reformatted and set up again
 
 ### Window configurations
  A window configuration is the basic presentation of the development environment – it is a scheme consisting of the list of tool windows present and the way in which they are arranged. For windows managed by the IDE (IDE windows), layout information is persisted per user, so when a user launches the IDE, the window layout appears the same as when they last exited Visual Studio. The state and position of IDE windows is persisted in a custom options file in XML format. Tool windows that are created by packages loaded into the IDE persist their state information in the registry and may or may not be per user.
@@ -508,11 +508,11 @@ Composite patterns combine interaction and design elements in distinct configura
 ### Levels of experience
  The following levels of experience are intended to serve as a guide to help teams decide which touch capabilities to offer based on their desired level of investment interest in touch.
 
--   The **basic experience** is for teams that want to provide touch capabilities so there are no dead ends throughout their work.
+- The **basic experience** is for teams that want to provide touch capabilities so there are no dead ends throughout their work.
 
--   The **optimized experience** is for teams that want to provide the most common touch capabilities (for example, those typically available in internet browser applications).
+- The **optimized experience** is for teams that want to provide the most common touch capabilities (for example, those typically available in internet browser applications).
 
--   The **elevated experience** is for teams that want to add capabilities such as gestures or other optional capabilities that can make their application touch-first friendly.
+- The **elevated experience** is for teams that want to add capabilities such as gestures or other optional capabilities that can make their application touch-first friendly.
 
 ||Basic experience|Optimized experience|Elevated experience|
 |-|----------------------|--------------------------|-------------------------|

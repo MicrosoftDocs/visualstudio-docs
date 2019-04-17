@@ -39,11 +39,11 @@ There are three modes in which the IDE can operate, as follows:
   
  Stopping events are continued by a call to one of the following methods, which transition the debugger from break mode to run or step mode:  
   
--   [Execute](../../extensibility/debugger/reference/idebugprocess3-execute.md)  
+- [Execute](../../extensibility/debugger/reference/idebugprocess3-execute.md)  
   
--   [Step](../../extensibility/debugger/reference/idebugprocess3-step.md)  
+- [Step](../../extensibility/debugger/reference/idebugprocess3-step.md)  
   
--   [Continue](../../extensibility/debugger/reference/idebugprocess3-continue.md)  
+- [Continue](../../extensibility/debugger/reference/idebugprocess3-continue.md)  
   
 ###  <a name="vsconoperationalmodesanchor4"></a> Step Mode  
  Step mode occurs when the program steps to the next line of code, or into, over, or out of a function. A step is executed by calling the method [Step](../../extensibility/debugger/reference/idebugprocess3-step.md). This method requires `DWORD`s that specify the [STEPUNIT](../../extensibility/debugger/reference/stepunit.md) and [STEPKIND](../../extensibility/debugger/reference/stepkind.md) enumerations as input parameters.  

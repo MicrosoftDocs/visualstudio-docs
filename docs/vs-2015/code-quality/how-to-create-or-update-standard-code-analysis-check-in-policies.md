@@ -44,7 +44,7 @@ You can require that code analysis be run on all code projects in a team project
   
 ### To set policy options  
   
--   Select or clear the following options:  
+- Select or clear the following options:  
   
     |Option|Description|  
     |------------|-----------------|  
@@ -52,11 +52,11 @@ You can require that code analysis be run on all code projects in a team project
     |**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|  
     |**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|  
   
--  
+- 
   
 ### To specify a managed rule set  
   
--   From the **Run this rule set** list, use one of the following methods:  
+- From the **Run this rule set** list, use one of the following methods:  
   
     -   Select a Microsoft standard rule set.  
   

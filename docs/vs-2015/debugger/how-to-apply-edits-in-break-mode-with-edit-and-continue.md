@@ -32,23 +32,23 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
   
  Edit and Continue is not available in the following debugging scenarios:  
   
--   Mixed-mode (native/managed) debugging.  
+- Mixed-mode (native/managed) debugging.  
   
--   SQL debugging.  
+- SQL debugging.  
   
--   Debugging a Dr. Watson dump.  
+- Debugging a Dr. Watson dump.  
   
--   Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.  
+- Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.  
   
--   Debugging an embedded runtime application.  
+- Debugging an embedded runtime application.  
   
--   Debugging an application with **Attach to** rather than running the application with **Start** from the **Debug** menu.  
+- Debugging an application with **Attach to** rather than running the application with **Start** from the **Debug** menu.  
   
--   Debugging optimized code.  
+- Debugging optimized code.  
   
--   Debugging managed code when the target is a 64-bit application. If you want to use Edit and Continue, you must set the target to x86. (_Project_**Properties**, **Compile** tab, **Advanced Compiler** setting.).  
+- Debugging managed code when the target is a 64-bit application. If you want to use Edit and Continue, you must set the target to x86. (_Project_**Properties**, **Compile** tab, **Advanced Compiler** setting.).  
   
--   Debugging an old version of your code after a new version failed to build due to build errors.  
+- Debugging an old version of your code after a new version failed to build due to build errors.  
   
 ### To edit code in Break mode  
   

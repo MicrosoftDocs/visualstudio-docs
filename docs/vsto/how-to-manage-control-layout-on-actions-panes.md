@@ -57,7 +57,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   A Word document-level project with an actions pane that contains multiple user controls or nested actions pane controls.
+- A Word document-level project with an actions pane that contains multiple user controls or nested actions pane controls.
 
 ## See also
 - [Actions pane overview](../vsto/actions-pane-overview.md)

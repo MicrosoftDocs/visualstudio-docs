@@ -19,7 +19,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for automatically refreshing Unity's asset database on save. This is enabled by default and will trigger a recompilation on the Unity side when saving a script in Visual Studio. You can disable this feature in Tools\Options\Tools for Unity\Refresh Unity's AssetDatabase on save.
 
@@ -29,7 +29,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Debugger:**
+- **Debugger:**
 
     -   Fixed assembly filtering and frame inspection with empty frames.
 
@@ -38,7 +38,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Temporarily Make Mono the default and only usable debugger for this very specific release.
 
@@ -47,7 +47,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for "Attach to Unity and Play".
 
@@ -56,7 +56,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Preserve external properties when processing the solution file.
 
@@ -65,13 +65,13 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Updated the ScriptableObject API.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Removed namespaces from templates.
 
@@ -80,21 +80,21 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
 
--   **Integration:**
+- **Integration:**
 
     -   Prompt to attach to a specific instance if more that one Unity process is running.
 
--   **Evaluation:**
+- **Evaluation:**
 
     -   Added support for local functions.
 
 ### Bug fixes
 
--   **Debugger:**
+- **Debugger:**
 
     -   Fixed reading custom attribute on named arguments when using old protocol versions.
 
@@ -103,13 +103,13 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Updated the MonoBehaviour API.
    
 ### Bug fixes
 
--   **Debugger:**
+- **Debugger:**
 
     -   Fixed setting primitive values in the debugger.
 
@@ -118,7 +118,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed installation package self-containment.
 
@@ -127,7 +127,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Debugger:**
+- **Debugger:**
 
     -   Replaced the Unity debugger on the Mac with the same core Unity debugger from Windows.
 
@@ -143,7 +143,7 @@ Visual Studio Tools for Unity change log.
     
 ### Bug fixes
 
--   **Debugger:**
+- **Debugger:**
 
     -   Fixed expression evaluation with malformed or unsupported expressions.
 
@@ -152,17 +152,17 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Debugger:**
+- **Debugger:**
 
     -   Added more client information (IP, machine name) on the attach dialog.
 
 ### Bug fixes
 
--   **Debugger:**
+- **Debugger:**
 
     -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed Unity plugin activation when another default editor was selected.
 
@@ -173,7 +173,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
@@ -182,7 +182,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed Shader code coloration support.
 
@@ -191,11 +191,11 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Wizards:**
+- **Wizards:**
 
     -   Fixed typo with OnApplicationFocus message.
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
 
@@ -206,7 +206,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for basic Shader code completion.
 
@@ -217,7 +217,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for extra templates in the Unity Project Explorer.
 
@@ -226,7 +226,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for detecting and attaching to Android players connected through USB.
 
@@ -235,11 +235,11 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Added support for the new project generator in Unity 2018.1.
 
--   **Integration:**
+- **Integration:**
 
     -   Added option panel for dedicated settings.
 
@@ -248,11 +248,11 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Fixed Mono version detection.
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed timing issues with 2018.1 and plugin activation.
 
@@ -263,7 +263,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed Expand/Collapse folders on double-click
 
@@ -272,13 +272,13 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Added support for .NET Standard.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed automatic pdb to mdb debug symbol conversion.
 
@@ -287,11 +287,11 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
 
--   **Wizards:**
+- **Wizards:**
 
     -   Refresh roslyn context before inserting method.
 
@@ -300,7 +300,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Wizards:**
+- **Wizards:**
 
     -   Added "Implement Unity message" wizard.
 
@@ -311,13 +311,13 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Debugger:**
+- **Debugger:**
 
     -   Added support for portable debug symbol files.
 
 ### Bug fixes
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Fixed extra .dll extension wrongly added to the assembly filename.
 
@@ -328,7 +328,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Added support for .NET 4.6 profile.
 
@@ -337,11 +337,11 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Debugger:**
+- **Debugger:**
 
     -   Start the attach to process dialog if not sure which Unity to attach to.
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Always enable unsafe compilation switch when Unity 5.6 is used.
 
@@ -350,7 +350,7 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for localized resources.
 
@@ -359,11 +359,11 @@ Visual Studio Tools for Unity change log.
 
 ### New Features
 
--   **Integration:**
+- **Integration:**
 
     -   Added support for attaching to players and editors through the Attach to process window.
 
--   **Project Generation:**
+- **Project Generation:**
 
     -   Fixed assembly name references with mcs.rsp files.
 
@@ -373,7 +373,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed shader error message when compiling.
 
@@ -382,7 +382,7 @@ Visual Studio Tools for Unity change log.
 
 ### Bug fixes
 
--   **Integration:**
+- **Integration:**
 
     -   Fixed active document tracking with hybrid and regular projects.
 

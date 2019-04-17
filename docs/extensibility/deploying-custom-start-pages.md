@@ -21,9 +21,9 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
 
 When you create a Start Page by using the Start Page project template, and then build the project, Visual Studio creates a *.vsix* file that you can distribute. Packaging a Start Page in a *.vsix* file gives you the following options for deployment, depending on your intended audience:
 
--   You can put the *.vsix* file on a network share or on a public Web site. When someone opens the file, the Start Page is automatically installed.
+- You can put the *.vsix* file on a network share or on a public Web site. When someone opens the file, the Start Page is automatically installed.
 
--   You can upload the *.vsix* file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can install it by using **Extension Manager**.
+- You can upload the *.vsix* file to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site so that users can install it by using **Extension Manager**.
 
 The Start Page project template creates a copy of the default Visual Studio Start Page so that you can modify the copy and preserve the original.
 

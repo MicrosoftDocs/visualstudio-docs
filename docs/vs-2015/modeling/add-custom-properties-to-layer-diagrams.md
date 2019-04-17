@@ -60,15 +60,15 @@ public class MyProperty
   
  You can define properties on <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> or any of its derived classes, which include:  
   
--   `ILayerModel` - the model  
+- `ILayerModel` - the model  
   
--   `ILayer` - each layer  
+- `ILayer` - each layer  
   
--   `ILayerDependencyLink` - the links between layers  
+- `ILayerDependencyLink` - the links between layers  
   
--   `ILayerComment`  
+- `ILayerComment`  
   
--   `ILayerCommentLink`  
+- `ILayerCommentLink`  
   
 ## Example  
  The following code is a typical custom property descriptor. It defines a Boolean property on the layer model (`ILayerModel`) that lets the user provide values for a custom validation method.  

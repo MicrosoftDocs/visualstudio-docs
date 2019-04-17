@@ -16,7 +16,7 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
@@ -66,23 +66,23 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  The filter strings use a simple grammar to define how the matching should be done:  
   
--   Filters are case-insensitive by default; filters perform a substring matching:  
+- Filters are case-insensitive by default; filters perform a substring matching:  
   
      `el` matches "hello"  
   
--   Adding `!` to the end of the filter will make it a precise case-sensitive match:  
+- Adding `!` to the end of the filter will make it a precise case-sensitive match:  
   
      `el!` does not match "hello"  
   
      `hello!` matches "hello"  
   
--   Adding `*` to the end of the filter will make it match the prefix of the string:  
+- Adding `*` to the end of the filter will make it match the prefix of the string:  
   
      `el*` does not match "hello"  
   
      `he*` matches "hello"  
   
--   Multiple filters in a semicolon-separated list are combined as a disjunction:  
+- Multiple filters in a semicolon-separated list are combined as a disjunction:  
   
      `el;wo` matches "hello" and "world"  
   
@@ -248,11 +248,11 @@ attribute of the Assembly element in the .fakes:
   
  **Notes**  
   
--   **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.  
+- **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.  
   
--   **Parameter type** names are transformed and concatenated.  
+- **Parameter type** names are transformed and concatenated.  
   
--   **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
+- **Return type** is ignored unless there’s an overload ambiguity. If this is the case, the return type is appended at the end of the name  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> Parameter type naming conventions  
   
@@ -272,9 +272,9 @@ attribute of the Assembly element in the .fakes:
 ###  <a name="BKMK_Recursive_rules"></a> Recursive rules  
  The following rules are applied recursively:  
   
--   Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).  
+- Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).  
   
--   If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.  
+- If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.  
   
 ##  <a name="BKMK_External_resources"></a> External resources  
   

@@ -18,7 +18,7 @@ This topic describes the best practices to follow when you develop coded UI test
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## Best Practices  
  Use the following guidelines to create a flexible coded UI test.  

@@ -27,7 +27,7 @@ manager: jillfra
   
 ### To create XML documentation comments for a JavaScript function  
   
--   In the function, add [\<summary>](../ide/summary-javascript.md), [\<param>](../ide/param-javascript.md), and [\<returns>](../ide/returns-javascript.md) elements, and precede each element with three slash marks (///).  
+- In the function, add [\<summary>](../ide/summary-javascript.md), [\<param>](../ide/param-javascript.md), and [\<returns>](../ide/returns-javascript.md) elements, and precede each element with three slash marks (///).  
   
     > [!NOTE]
     >  Each element must be on a single line.  
@@ -46,7 +46,7 @@ manager: jillfra
     }  
     ```  
   
--   To view the XML documentation comments, type the name and the opening parenthesis of a function that is marked with XML documentation comments, as in the following example:  
+- To view the XML documentation comments, type the name and the opening parenthesis of a function that is marked with XML documentation comments, as in the following example:  
   
     ```javascript  
     var areaVal = getArea(  
@@ -56,7 +56,7 @@ manager: jillfra
   
 ### To create XML Documentation comments for a JavaScript field  
   
--   In a constructor function or object definition, add a [\<field>](../ide/field-javascript.md) element preceded by three slash marks (///).  
+- In a constructor function or object definition, add a [\<field>](../ide/field-javascript.md) element preceded by three slash marks (///).  
   
      The following example shows the use of the `<field>` element in a constructor function. For additional examples, see [\<field>](../ide/field-javascript.md).  
   
@@ -67,13 +67,13 @@ manager: jillfra
     }  
     ```  
   
--   To view the XML documentation comments, create an object by using the function constructor that is marked with XML documentation comments, as in the following example.  
+- To view the XML documentation comments, create an object by using the function constructor that is marked with XML documentation comments, as in the following example.  
   
     ```javascript  
     var eng = new Engine();  
     ```  
   
--   On the next line, type the name of the object and a period to show IntelliSense information for the field.  
+- On the next line, type the name of the object and a period to show IntelliSense information for the field.  
   
     ```javascript  
     eng.  

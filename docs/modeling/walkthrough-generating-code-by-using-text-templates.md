@@ -406,15 +406,15 @@ To regenerate the classes when the example XML file is changed, click **Transfor
 
 This walkthrough demonstrates several techniques and benefits of code generation:
 
--   *Code generation* is the creation of part of the source code of your application from a *model*. The model contains information in a form suited to the application domain, and may change over the lifetime of the application.
+- *Code generation* is the creation of part of the source code of your application from a *model*. The model contains information in a form suited to the application domain, and may change over the lifetime of the application.
 
--   Strong typing is one benefit of code generation. While the model represents information in a form more suitable to the user, the generated code allows other parts of the application to deal with the information using a set of types.
+- Strong typing is one benefit of code generation. While the model represents information in a form more suitable to the user, the generated code allows other parts of the application to deal with the information using a set of types.
 
--   IntelliSense and the compiler help you create code that adheres to the schema of the model, both when you write new code and when the schema is updated.
+- IntelliSense and the compiler help you create code that adheres to the schema of the model, both when you write new code and when the schema is updated.
 
--   The addition of a single uncomplicated template file to a project can provide these benefits.
+- The addition of a single uncomplicated template file to a project can provide these benefits.
 
--   A text template can be developed and tested rapidly and incrementally.
+- A text template can be developed and tested rapidly and incrementally.
 
 In this walkthrough, the program code is actually generated from an instance of the model, a representative example of the XML files that the application will process. In a more formal approach, the XML schema would be the input to the template, in the form of an .xsd file or a domain-specific language definition. That approach would make it easier for the template to determine characteristics such as the multiplicity of a relationship.
 

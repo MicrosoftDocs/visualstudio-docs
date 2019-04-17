@@ -64,9 +64,9 @@ ms.workload:
 ## Compiling the code
  This example requires references to the following assemblies:
 
--   Microsoft.VisualStudio.SharePoint.Commands
+- Microsoft.VisualStudio.SharePoint.Commands
 
--   Microsoft.SharePoint
+- Microsoft.SharePoint
 
 ## Deploying the command
  To deploy the command, include the command assembly in the same [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (*vsix*) package with the extension assembly that uses the command. You must also add an entry for the command assembly in the extension.vsixmanifest file. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).

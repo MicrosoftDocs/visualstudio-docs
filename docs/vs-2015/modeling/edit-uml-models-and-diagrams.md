@@ -33,38 +33,38 @@ You can create and edit a UML model through the views provided by several differ
   
 ## In this Topic  
   
--   [UML Diagrams are Views of a UML Model](#Views)  
+- [UML Diagrams are Views of a UML Model](#Views)  
   
--   [Creating UML Modeling Diagrams](#Creating)  
+- [Creating UML Modeling Diagrams](#Creating)  
   
--   [Drawing UML Modeling Diagrams](#Drawing)  
+- [Drawing UML Modeling Diagrams](#Drawing)  
   
--   [Editing Shapes and Connectors](#Editing)  
+- [Editing Shapes and Connectors](#Editing)  
   
--   [Undoing Changes to the Model](#Undo)  
+- [Undoing Changes to the Model](#Undo)  
   
--   [Sharing Elements between Diagrams](#Sharing)  
+- [Sharing Elements between Diagrams](#Sharing)  
   
--   [Copying Elements and Groups of Related Elements](#Copying)  
+- [Copying Elements and Groups of Related Elements](#Copying)  
   
--   [Deleting a Model Element or its Views](#Deleting)  
+- [Deleting a Model Element or its Views](#Deleting)  
   
--   [Searching text in a diagram](#Searching)  
+- [Searching text in a diagram](#Searching)  
   
--   [Preparing a Diagram for Presentation](#presentation)  
+- [Preparing a Diagram for Presentation](#presentation)  
   
--   [Extending the UML Designers](#extensions)  
+- [Extending the UML Designers](#extensions)  
   
 ##  <a name="Views"></a> UML Diagrams are Views of a UML Model  
  You can create and use UML diagrams only in modeling projects. For more information about how to create diagrams and projects, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
--   A modeling project contains a single UML model. Every UML diagram in the project is a view of the UML model.  
+- A modeling project contains a single UML model. Every UML diagram in the project is a view of the UML model.  
   
--   You can see the model in **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
+- You can see the model in **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
   
--   Each shape on a diagram is a view of an element in the model. When you place a new shape on a diagram, you are creating a new element in the model.  
+- Each shape on a diagram is a view of an element in the model. When you place a new shape on a diagram, you are creating a new element in the model.  
   
--   When you save any diagram, Visual Studio saves the whole model, all its diagrams, and the modeling project file.  
+- When you save any diagram, Visual Studio saves the whole model, all its diagrams, and the modeling project file.  
   
 ##  <a name="Creating"></a> Creating UML Modeling Diagrams  
   
@@ -144,21 +144,21 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To change color or other properties of an element, relationship, or diagram  
   
--   Click the element and set the fields in the **Properties** window.  
+- Click the element and set the fields in the **Properties** window.  
   
      If you cannot see the **Properties** window, right-click the element, and then click **Properties.**  
   
 #### To zoom in and out on a modeling diagram  
   
--   Press and hold the **CTRL** key while you rotate the mouse wheel.  
+- Press and hold the **CTRL** key while you rotate the mouse wheel.  
   
      \- or -  
   
--   Press and hold **CTRL+SHIFT**, and then click the left or right mouse button.  
+- Press and hold **CTRL+SHIFT**, and then click the left or right mouse button.  
   
      \- or -  
   
--   On the **Architecture Designers** toolbar, click the plus sign (**+**) or minus sign (**-**), or choose a zoom level.  
+- On the **Architecture Designers** toolbar, click the plus sign (**+**) or minus sign (**-**), or choose a zoom level.  
   
 ##  <a name="Searching"></a> Searching in a Diagram  
  The Quick Find function will find items on a diagram. You must set **Look in:** to **Current Document**.  
@@ -286,7 +286,7 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To delete an element from the model  
   
--   Right-click the element either in **UML Model Explorer** or on a diagram, and then click **Delete from Model**.  
+- Right-click the element either in **UML Model Explorer** or on a diagram, and then click **Delete from Model**.  
   
     -   The element is deleted from every diagram on which it appears.  
   
@@ -294,7 +294,7 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To delete a relationship from the model  
   
--   Right-click the relationship on a diagram or in **UML Model Explorer**, and then click **Delete from Model**.  
+- Right-click the relationship on a diagram or in **UML Model Explorer**, and then click **Delete from Model**.  
   
     > [!CAUTION]
     >  You cannot remove a relationship from a diagram without removing it from the model.  
@@ -304,17 +304,17 @@ You can create and edit a UML model through the views provided by several differ
 ##  <a name="presentation"></a> Preparing a Diagram for Presentation  
  The following features help you to draw attention to particular parts of your diagram, add explanations, or divide a diagram into different areas of interest.  
   
--   You can copy any part of a diagram into a Word, PowerPoint, or other document. Select the shapes and connectors you want, right-click and then click **Copy**.  
+- You can copy any part of a diagram into a Word, PowerPoint, or other document. Select the shapes and connectors you want, right-click and then click **Copy**.  
   
--   The color of any shape or connector can be changed. Select one or more shapes and change the **Color** property. If you cannot see the **Properties** window, press **F4**.  
+- The color of any shape or connector can be changed. Select one or more shapes and change the **Color** property. If you cannot see the **Properties** window, press **F4**.  
   
--   On diagrams of some kinds, you can draw lines, rectangles and ellipses from the **Simple Shapes** section of the Toolbox. These shapes do not form part of the UML model.  
+- On diagrams of some kinds, you can draw lines, rectangles and ellipses from the **Simple Shapes** section of the Toolbox. These shapes do not form part of the UML model.  
   
--   To label an area, you can drag a Comment from the Toolbox and then set its **Transparent** property to **True**. Like Simple Shapes, comments do not form part of the UML model and do not appear in UML Model Explorer.  
+- To label an area, you can drag a Comment from the Toolbox and then set its **Transparent** property to **True**. Like Simple Shapes, comments do not form part of the UML model and do not appear in UML Model Explorer.  
   
--   To add notes and explanations to model elements, you can create comments and then link them to the elements.  
+- To add notes and explanations to model elements, you can create comments and then link them to the elements.  
   
--   To neatly align a column or row shapes on the diagram, you can install the Align Shapes command. This is available as a sample UML extension:  [UML: Command to Align Shapes](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)  
+- To neatly align a column or row shapes on the diagram, you can install the Align Shapes command. This is available as a sample UML extension:  [UML: Command to Align Shapes](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)  
   
 ### To export a diagram as an image  
  For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  

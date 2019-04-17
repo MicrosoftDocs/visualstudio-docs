@@ -169,6 +169,6 @@ Initial math quiz form
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 2: Create a Random Addition Problem](../ide/step-2-create-a-random-addition-problem.md).  
+- To go to the next tutorial step, see [Step 2: Create a Random Addition Problem](../ide/step-2-create-a-random-addition-problem.md).  
   
--   To return to the overview topic, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+- To return to the overview topic, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).

@@ -209,35 +209,35 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 ### First steps (managed)  
  To use the image service, you need to add references to some or all of the following assemblies to your project:  
 
--   **Microsoft.VisualStudio.ImageCatalog.dll**  
+- **Microsoft.VisualStudio.ImageCatalog.dll**  
 
     -   Required if you use the built-in image catalog KnownMonikers  
 
--   **Microsoft.VisualStudio.Imaging.dll**  
+- **Microsoft.VisualStudio.Imaging.dll**  
 
     -   Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI  
 
--   **Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll**  
+- **Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll**  
 
     -   Required if you use the **ImageMoniker** and **ImageAttributes** types  
 
     -   **EmbedInteropTypes** should be set to true  
 
--   **Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime**  
+- **Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime**  
 
     -   Required if you use the **IVsImageService2** type  
 
     -   **EmbedInteropTypes** should be set to true  
 
--   **Microsoft.VisualStudio.Utilities.dll**  
+- **Microsoft.VisualStudio.Utilities.dll**  
 
     -   Required if you use the **BrushToColorConverter** for the ImageThemingUtilities.**ImageBackgroundColor** in your WPF UI  
 
--   **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
+- **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
 
     -   Required if you use the **IVsUIObject** type  
 
--   **Microsoft.VisualStudio.Shell.Interop.10.0.dll**  
+- **Microsoft.VisualStudio.Shell.Interop.10.0.dll**  
 
     -   Required if you use the WinForms-related UI helpers  
 
@@ -246,29 +246,29 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 ### First steps (native)  
  To use the image service, you need to include some or all of the following headers to your project:  
 
--   **KnownImageIds.h**  
+- **KnownImageIds.h**  
 
     -   Required if you use the built-in image catalog **KnownMonikers**, but cannot use the **ImageMoniker** type, such as when returning values from **IVsHierarchy GetGuidProperty** or **GetProperty** calls.  
 
--   **KnownMonikers.h**  
+- **KnownMonikers.h**  
 
     -   Required if you use the built-in image catalog **KnownMonikers**.  
 
--   **ImageParameters140.h**  
+- **ImageParameters140.h**  
 
     -   Required if you use the **ImageMoniker** and **ImageAttributes** types.  
 
--   **VSShell140.h**  
+- **VSShell140.h**  
 
     -   Required if you use the **IVsImageService2** type.  
 
--   **ImageThemingUtilities.h**  
+- **ImageThemingUtilities.h**  
 
     -   Required if you are unable to let the image service handle theming for you.  
 
     -   Do not use this header if the image service can handle your image theming.  
 
--   **VSUIDPIHelper.h**  
+- **VSUIDPIHelper.h**  
 
     -   Required if you use the DPI helpers to get the current DPI.  
 
@@ -670,17 +670,17 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 ## FAQ  
 
--   Are there any dependencies that you must include when loading \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" />?  
+- Are there any dependencies that you must include when loading \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" />?  
 
     -   Set EmbedInteropTypes="true" on all interop DLLs.  
 
--   How do I deploy an image manifest with my extension?  
+- How do I deploy an image manifest with my extension?  
 
     -   Add the .imagemanifest file to your project.  
 
     -   Set “Include in VSIX” to True.  
 
--   I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?  
+- I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?  
 
     -   o   These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:  
 

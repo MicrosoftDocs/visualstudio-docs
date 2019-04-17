@@ -44,9 +44,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Word.
+- Microsoft Word.
 
 ## Create a new Word document project
  Create a Word document that you will use in the walkthrough.
@@ -304,11 +304,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to use content controls from these topics:
 
--   Use all the available content controls to create a template. For more information, see [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md).
+- Use all the available content controls to create a template. For more information, see [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md).
 
--   Modify the data in the custom XML parts while the document is closed. The next time the user opens the document, the content controls that are bound to the XML elements will display the new data.
+- Modify the data in the custom XML parts while the document is closed. The next time the user opens the document, the content controls that are bound to the XML elements will display the new data.
 
--   Use content controls to protect parts of a document. For more information, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
+- Use content controls to protect parts of a document. For more information, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 
 ## See also
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)

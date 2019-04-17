@@ -76,13 +76,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create data bound controls on the Windows form  
   
--   In the **Data Sources** window, expand the **Customers** node.  
+- In the **Data Sources** window, expand the **Customers** node.  
   
--   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
+- Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
      A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
--   Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
+- Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
   
      A <xref:System.Windows.Forms.DataGridView> appears on the form. An OrdersTableAdapter and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
@@ -111,38 +111,38 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
    The order for reconciling changes to related data is as follows:  
   
--   Delete child records. (In this case, delete records from the `Orders` table.)  
+- Delete child records. (In this case, delete records from the `Orders` table.)  
   
--   Delete parent records. (In this case, delete records from the `Customers` table.)  
+- Delete parent records. (In this case, delete records from the `Customers` table.)  
   
--   Insert parent records.(In this case, insert records in the `Customers` table.)  
+- Insert parent records.(In this case, insert records in the `Customers` table.)  
   
--   Insert child records. (In this case, insert records in the `Orders` table.)  
+- Insert child records. (In this case, insert records in the `Orders` table.)  
   
 #### To delete existing orders  
   
--   Add the following `DeleteOrders` method to **Form1**:  
+- Add the following `DeleteOrders` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#5](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#5)]
      [!code-vb[VbRaddataSaving#5](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#5)]  
   
 #### To delete existing customers  
   
--   Add the following `DeleteCustomers` method to **Form1**:  
+- Add the following `DeleteCustomers` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#6)]
      [!code-vb[VbRaddataSaving#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#6)]  
   
 #### To add new customers  
   
--   Add the following `AddNewCustomers` method to **Form1**:  
+- Add the following `AddNewCustomers` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#7)]
      [!code-vb[VbRaddataSaving#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#7)]  
   
 #### To add new orders  
   
--   Add the following `AddNewOrders` method to **Form1**:  
+- Add the following `AddNewOrders` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#8](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#8)]
      [!code-vb[VbRaddataSaving#8](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#8)]  
@@ -151,7 +151,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To run the application  
   
--   Select **F5** to run the application.  
+- Select **F5** to run the application.  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

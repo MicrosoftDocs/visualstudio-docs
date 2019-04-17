@@ -180,15 +180,15 @@ To install a Shell app you must perform the following steps.
 ## Creating a Setup Bootstrapper  
  Your completed MSI will install only if all the prerequisites are installed first. To ease the end user experience, create a Setup program that gathers and installs all prerequisites before it installs your application. To ensure a successful installation, perform these actions:  
   
--   Enforce installation by Administrator.  
+- Enforce installation by Administrator.  
   
--   Detect whether the Visual Studio Shell (Isolated) is installed.  
+- Detect whether the Visual Studio Shell (Isolated) is installed.  
   
--   Run one or both Shell installers in order.  
+- Run one or both Shell installers in order.  
   
--   Handle restart requests.  
+- Handle restart requests.  
   
--   Run your MSI.  
+- Run your MSI.  
   
 ### Enforcing Installation by Administrator  
  This procedure is required to enable the Setup program to access required directories such as \Program Files\\.  
@@ -246,15 +246,15 @@ dwResult = ExecCmd("Vs_IsoShellLP.exe /norestart /q", TRUE);
   
  To handle restarts, perform these actions:  
   
--   Set the registry to resume installation when Windows starts.  
+- Set the registry to resume installation when Windows starts.  
   
--   Perform a double restart of the bootstrapper.  
+- Perform a double restart of the bootstrapper.  
   
--   Delete the Shell installer ResumeData key.  
+- Delete the Shell installer ResumeData key.  
   
--   Restart Windows.  
+- Restart Windows.  
   
--   Reset the start path of the MSI.  
+- Reset the start path of the MSI.  
   
 ### Setting the Registry to Resume Setup When Windows Starts  
  The HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\ registry key executes at system startup with administrative permissions and then is erased. HKEY_CURRENT_USER contains a similar key, but it runs as a normal user and isn't appropriate for installations. You can resume installation by putting a string value in the RunOnce key that calls your installer. However, we recommend that you call the installer by using a **/restart** or similar parameter to notify the application that it's resuming instead of starting. You can also include parameters to indicate where you are in the installation process, which is especially useful in installations that may require multiple restarts.  

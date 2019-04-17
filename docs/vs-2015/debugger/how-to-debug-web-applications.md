@@ -27,13 +27,13 @@ manager: jillfra
   
  To debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application:  
   
--   You must have required permissions. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
+- You must have required permissions. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
--   [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] debugging must be enabled in **Project Properties**.  
+- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] debugging must be enabled in **Project Properties**.  
   
--   The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
+- The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
   
--   For more information, see [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md).  
+- For more information, see [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md).  
   
 ### To debug a Web application during development  
   

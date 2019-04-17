@@ -91,7 +91,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
   
 #### To set or view the properties of a combined fragment  
   
--   Right-click in the title of the combined fragment, and then click **Properties**.  
+- Right-click in the title of the combined fragment, and then click **Properties**.  
   
     > [!NOTE]
     >  Different kinds of combined fragment have different properties.  

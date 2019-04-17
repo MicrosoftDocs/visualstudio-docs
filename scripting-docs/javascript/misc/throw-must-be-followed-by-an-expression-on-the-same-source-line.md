@@ -28,7 +28,7 @@ if (denominator == 0) {
   
 ### To correct this error  
   
--   Make sure that the `throw` keyword and the expression to be thrown appears on the same line.  
+- Make sure that the `throw` keyword and the expression to be thrown appears on the same line.  
   
 ## See Also  
  [Error Object](../../javascript/reference/error-object-javascript.md)   

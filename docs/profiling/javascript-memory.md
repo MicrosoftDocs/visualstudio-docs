@@ -26,13 +26,13 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
  The JavaScript memory analyzer can do these things for you:
 
--   Help you quickly find memory usage issues in your app by emphasizing the most relevant data.
+- Help you quickly find memory usage issues in your app by emphasizing the most relevant data.
 
      You get this data in snapshot summaries that show the differences between two snapshots and provide links to more detailed views.
 
--   Provide views of dominators, types, and roots to help isolate issues.
+- Provide views of dominators, types, and roots to help isolate issues.
 
--   Reduce non-actionable info in the JavaScript heap data.
+- Reduce non-actionable info in the JavaScript heap data.
 
      Objects that aren't created directly in your app code are automatically filtered out. You can also filter data by object name.
 
@@ -78,19 +78,19 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
  Use the following views to help identify memory leaks in an app:
 
--   [View live memory usage summary](#view-live-memory-usage-summary). Use the memory usage graph to look for sudden increases in memory usage or continually increasing memory usage that results from particular actions. Use the live memory usage summary view to take snapshots of the heap. The snapshots appear as a collection under the memory usage graph.
+- [View live memory usage summary](#view-live-memory-usage-summary). Use the memory usage graph to look for sudden increases in memory usage or continually increasing memory usage that results from particular actions. Use the live memory usage summary view to take snapshots of the heap. The snapshots appear as a collection under the memory usage graph.
 
     > [!TIP]
     >  You will see a spike in memory usage when you take a snapshot. Use the snapshot summaries for a more accurate indication of growth.
 
--   [View a snapshot summary](#view-a-snapshot-summary). You can view snapshot summary info during or after a memory profiling session. Use the snapshot summaries to link to snapshot details and snapshot diff views.
+- [View a snapshot summary](#view-a-snapshot-summary). You can view snapshot summary info during or after a memory profiling session. Use the snapshot summaries to link to snapshot details and snapshot diff views.
 
     > [!TIP]
     >  Typically, the snapshot diff views will provide the most useful information about memory leaks.
 
--   [View snapshot details](#view-snapshot-details). Shows detailed memory usage data for a single snapshot.
+- [View snapshot details](#view-snapshot-details). Shows detailed memory usage data for a single snapshot.
 
--   [View a snapshot diff](#view-a-snapshot-diff). Shows differential values between snapshots. These views show differences in object size and object counts.
+- [View a snapshot diff](#view-a-snapshot-diff). Shows differential values between snapshots. These views show differences in object size and object counts.
 
 ## Isolate a memory leak
  These steps provide a workflow that might help you use the JavaScript memory analyzer more effectively. These steps can be useful if you suspect that your app has a memory leak. For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).
@@ -181,19 +181,19 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
  The snapshot summary includes:
 
--   Snapshot title and time stamp.
+- Snapshot title and time stamp.
 
--   Potential issues count (marked by a blue info icon). This number, if present, identifies potential memory issues such as nodes that aren't attached to the DOM. The count links to the Types view of the snapshot, which is sorted by issue type to highlight the potential issues. A tooltip shows the description of the issue.
+- Potential issues count (marked by a blue info icon). This number, if present, identifies potential memory issues such as nodes that aren't attached to the DOM. The count links to the Types view of the snapshot, which is sorted by issue type to highlight the potential issues. A tooltip shows the description of the issue.
 
--   Heap size. This number includes DOM elements and objects that the JavaScript runtime engine adds to the JavaScript heap. The heap size links to the Types view of the snapshot.
+- Heap size. This number includes DOM elements and objects that the JavaScript runtime engine adds to the JavaScript heap. The heap size links to the Types view of the snapshot.
 
--   Differential heap size. This value shows the difference between the heap size of the current snapshot and the heap size of the previous snapshot. The value is followed by a red up arrow if there is a memory increase or a green down arrow if there is a memory decrease. If the heap size hasn't changed between snapshots, you'll see the text **No change** instead of a number. For the first snapshot, you'll see the text **Baseline**. The differential heap size links to the Types view of the snapshot diff.
+- Differential heap size. This value shows the difference between the heap size of the current snapshot and the heap size of the previous snapshot. The value is followed by a red up arrow if there is a memory increase or a green down arrow if there is a memory decrease. If the heap size hasn't changed between snapshots, you'll see the text **No change** instead of a number. For the first snapshot, you'll see the text **Baseline**. The differential heap size links to the Types view of the snapshot diff.
 
--   Object count. This count shows only objects created in your app and filters out built-in objects created by the JavaScript runtime. The object count links to the Types view of the snapshot details.
+- Object count. This count shows only objects created in your app and filters out built-in objects created by the JavaScript runtime. The object count links to the Types view of the snapshot details.
 
--   Differential object count. This shows two values: The first value is the number of new objects added since the previous snapshot; and the second value is the number of objects removed since the previous snapshot. For example, the illustration shows that 1,859 objects were added and 1,733 objects were removed since Snapshot #1. This information is followed by a red up arrow if the total object count has increased or a green down arrow if it has decreased. If the object count hasn't changed, you'll see the text **No change** instead of a number. For the first snapshot, you'll see the text **Baseline**. The differential object count links to the Types view of the snapshot diff.
+- Differential object count. This shows two values: The first value is the number of new objects added since the previous snapshot; and the second value is the number of objects removed since the previous snapshot. For example, the illustration shows that 1,859 objects were added and 1,733 objects were removed since Snapshot #1. This information is followed by a red up arrow if the total object count has increased or a green down arrow if it has decreased. If the object count hasn't changed, you'll see the text **No change** instead of a number. For the first snapshot, you'll see the text **Baseline**. The differential object count links to the Types view of the snapshot diff.
 
--   Screenshot of the screen at the time the snapshot is taken.
+- Screenshot of the screen at the time the snapshot is taken.
 
 ## View snapshot details
  You can view detailed info about memory usage for each snapshot in the snapshot details views.
@@ -341,13 +341,13 @@ if (performance && performance.mark) {
 
 ## Tips to identify memory issues
 
--   Follow the workflow described in [Isolate a memory leak](#isolate-a-memory-leak) and use the **Objects left over from Snapshot #\<number>** filter in a diff view to identify likely candidates for memory leaks.
+- Follow the workflow described in [Isolate a memory leak](#isolate-a-memory-leak) and use the **Objects left over from Snapshot #\<number>** filter in a diff view to identify likely candidates for memory leaks.
 
--   Use [Find an object in the object tree](#find-an-object-in-the-object-tree) to see where an object is referenced in the memory hierarchy. The Roots view shows how an object is rooted to the global object, which would prevent it from being garbage-collected.
+- Use [Find an object in the object tree](#find-an-object-in-the-object-tree) to see where an object is referenced in the memory hierarchy. The Roots view shows how an object is rooted to the global object, which would prevent it from being garbage-collected.
 
--   When the cause of a memory issue is difficult to identify, use the various views (such as Dominators and Types) to look for commonalities, especially to help identify one object (or a few objects) that might contain references to many of the other objects that appear in the view.
+- When the cause of a memory issue is difficult to identify, use the various views (such as Dominators and Types) to look for commonalities, especially to help identify one object (or a few objects) that might contain references to many of the other objects that appear in the view.
 
--   Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:
+- Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:
 
     -   The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.
 
@@ -355,11 +355,11 @@ if (performance && performance.mark) {
 
     -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
 
--   Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
+- Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
 
--   Read [Managing memory in UWP apps](https://msdn.microsoft.com/magazine/jj651575.aspx).
+- Read [Managing memory in UWP apps](https://msdn.microsoft.com/magazine/jj651575.aspx).
 
--   Consider temporarily modifying code to isolate problems. For example, you might want to:
+- Consider temporarily modifying code to isolate problems. For example, you might want to:
 
     -   Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)
 

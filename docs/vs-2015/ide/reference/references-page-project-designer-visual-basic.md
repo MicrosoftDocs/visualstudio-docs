@@ -74,11 +74,11 @@ Use the **References** page of the **Project Designer** to manage references, We
  **Update User Import**  
  Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:  
   
--   Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.  
+- Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.  
   
--   Aliased imports, such as `VB=Microsoft.VisualBasic`.  
+- Aliased imports, such as `VB=Microsoft.VisualBasic`.  
   
--   XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
+- XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
   
 ## See Also  
  [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   

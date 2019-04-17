@@ -62,9 +62,9 @@ ms.workload:
 ## Protect a part of a document that is not in a content control
  You can prevent users from changing an area of a document by putting the area in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. This is useful in the following scenarios:
 
--   You want to protect an area that does not contain content controls.
+- You want to protect an area that does not contain content controls.
 
--   You want to protect an area that already contains content controls, but the text or other items that you want to protect are not in the content controls.
+- You want to protect an area that already contains content controls, but the text or other items that you want to protect are not in the content controls.
 
 > [!NOTE]
 >  If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. To prevent users from editing an embedded content control, use the **LockContents** property of the control.

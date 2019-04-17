@@ -36,9 +36,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
 
@@ -63,9 +63,9 @@ ms.workload:
 ## Write code to add text to the saved workbook
  Next, add code to the ThisAddIn code file. The new code uses the object model of Excel to insert boilerplate text in the first row of the active worksheet. The active worksheet is the worksheet that is open when the user saves the workbook. By default, the ThisAddIn code file contains the following generated code:
 
--   A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Excel. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of Excel. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
 
--   The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Excel loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when Excel loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add a line of text to the saved workbook
 
@@ -82,9 +82,9 @@ ms.workload:
 
    To modify the workbook when it is saved, the previous code examples use the following objects:
 
--   The `Application` field of the `ThisAddIn` class. The `Application` field returns a <xref:Microsoft.Office.Interop.Excel.Application> object, which represents the current instance of Excel.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns a <xref:Microsoft.Office.Interop.Excel.Application> object, which represents the current instance of Excel.
 
--   The `Wb` parameter of the event handler for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event. The `Wb` parameter is a <xref:Microsoft.Office.Interop.Excel.Workbook> object, which represents the saved workbook. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).
+- The `Wb` parameter of the event handler for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event. The `Wb` parameter is a <xref:Microsoft.Office.Interop.Excel.Workbook> object, which represents the saved workbook. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).
 
 ## Test the project
 
@@ -112,17 +112,17 @@ ms.workload:
 ## Next steps
  Now that you have created a basic VSTO Add-in for Excel, you can learn more about how to develop VSTO Add-ins from these topics:
 
--   General programming tasks that you can perform in VSTO Add-ins: [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+- General programming tasks that you can perform in VSTO Add-ins: [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
--   Programming tasks that are specific to Excel VSTO Add-ins: [Excel solutions](../vsto/excel-solutions.md).
+- Programming tasks that are specific to Excel VSTO Add-ins: [Excel solutions](../vsto/excel-solutions.md).
 
--   Using the object model of Excel: [Excel object model overview](../vsto/excel-object-model-overview.md).
+- Using the object model of Excel: [Excel object model overview](../vsto/excel-object-model-overview.md).
 
--   Customizing the user interface (UI) of Excel, for example, by adding a custom tab to the Ribbon or creating your own custom task pane: [Office UI customization](../vsto/office-ui-customization.md).
+- Customizing the user interface (UI) of Excel, for example, by adding a custom tab to the Ribbon or creating your own custom task pane: [Office UI customization](../vsto/office-ui-customization.md).
 
--   Building and debugging VSTO Add-ins for Excel: [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging VSTO Add-ins for Excel: [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying VSTO Add-ins for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying VSTO Add-ins for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

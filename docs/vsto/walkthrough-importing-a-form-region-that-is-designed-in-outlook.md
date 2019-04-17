@@ -32,9 +32,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].
+- [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -239,11 +239,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to customize the UI of an Outlook application from these topics:
 
--   To learn more about how to design the appearance of a form region by dragging managed controls onto a visual designer, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
+- To learn more about how to design the appearance of a form region by dragging managed controls onto a visual designer, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
--   To learn about how to customize the Ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+- To learn about how to customize the Ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
--   To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
+- To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
 - [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

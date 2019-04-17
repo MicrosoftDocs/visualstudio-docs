@@ -120,9 +120,9 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Links to snapshot report in a snapshot view](../profiling/media/memuse-snapshotview-snapshotdetailslinks.png "MEMUSE_SnapshotView_SnapshotDetailsLinks")  
   
--   The **MB** link sorts the report by the **Inclusive Size (Bytes)** column.  
+- The **MB** link sorts the report by the **Inclusive Size (Bytes)** column.  
   
--   The **objects** link sorts the report by the **Count** column.  
+- The **objects** link sorts the report by the **Count** column.  
   
 ###  <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> Managed Heap tree (Snapshot details)  
  The **Managed Heap** tree lists the types of objects that are held in memory. You can expand a type name to view the ten largest instances of the type, sorted by size. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.  
@@ -159,9 +159,9 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Links to difference report in a snapshot view](../profiling/media/memuse-snapshotview-snapshotdifflinks.png "MEMUSE_SnapshotView_SnapshotDiffLinks")  
   
--   The **MB** link sorts the report by the **Inclusive Size (Bytes)** column.  
+- The **MB** link sorts the report by the **Inclusive Size (Bytes)** column.  
   
--   The **objects** link sorts the report by the **Count** column.  
+- The **objects** link sorts the report by the **Count** column.  
   
 ###  <a name="BKMK_Managed_Heap_tree__Snapshot_diff_"></a> Managed Heap tree (Snapshot diff)  
  The **Managed Heap** tree lists the types of objects that are held in memory. You can expand a type name to view the ten largest instances of the type, sorted by size. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.  

@@ -25,11 +25,11 @@ You can write your own host that processes text templates. A basic custom host i
   
  This walkthrough includes the following tasks:  
   
--   Using [!INCLUDE[dsl](../includes/dsl-md.md)] to generate a directive processor that is based on a domain model.  
+- Using [!INCLUDE[dsl](../includes/dsl-md.md)] to generate a directive processor that is based on a domain model.  
   
--   Connecting a custom text template host to the generated directive processor.  
+- Connecting a custom text template host to the generated directive processor.  
   
--   Testing the custom host with the generated directive processor.  
+- Testing the custom host with the generated directive processor.  
   
 ## Prerequisites  
  To define a DSL, you must have installed the following components:  

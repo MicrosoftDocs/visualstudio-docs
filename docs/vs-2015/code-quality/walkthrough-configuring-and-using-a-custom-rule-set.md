@@ -20,21 +20,21 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
  In this walkthrough, you will step through these processes:  
   
--   Create a class library.  
+- Create a class library.  
   
--   Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
+- Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
   
--   Add your own code to the class.  
+- Add your own code to the class.  
   
--   Run Code Analysis.  
+- Run Code Analysis.  
   
--   Customize the rule set.  
+- Customize the rule set.  
   
--   Run Code Analysis and see how the rule set customization behavior works.  
+- Run Code Analysis and see how the rule set customization behavior works.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ## Using Rule Sets with Code Analysis  
  First, create a simple class library.  

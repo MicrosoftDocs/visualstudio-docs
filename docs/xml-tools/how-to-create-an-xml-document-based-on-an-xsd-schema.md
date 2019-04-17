@@ -15,21 +15,21 @@ The **Generate Sample XML** feature generates a sample XML file based on your XM
 
  You can use this option for the following scenarios:
 
--   To understand the use of various constructs in your schema.
+- To understand the use of various constructs in your schema.
 
--   To confirm that the schema does what it is intended to do.
+- To confirm that the schema does what it is intended to do.
 
 The **Generate Sample XML** feature is only available on global elements, and requires a valid XML schema set.
 
 This feature typically generates valid XML documents. However, if the schema contains one or more of the following, the sample might not be valid:
 
--   The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.
+- The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.
 
--   `xs:pattern` facets.
+- `xs:pattern` facets.
 
--   Enumerations of the `xs:QName` type.
+- Enumerations of the `xs:QName` type.
 
--   `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.
+- `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.
 
 Also, note that `xs:base64Binary` content will be generated only if enumerations occur in the schema for that type.
 

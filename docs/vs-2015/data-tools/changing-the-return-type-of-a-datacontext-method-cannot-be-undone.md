@@ -19,11 +19,11 @@ Changing the return type of a DataContext method cannot be undone. To revert bac
   
 ### To change the return type of a DataContext  
   
--   Click **Yes**.  
+- Click **Yes**.  
   
 ### To exit the message box and leave the return type unchanged  
   
--   Click **No**.  
+- Click **No**.  
   
 ### To revert to the original return type after changing the return type  
   

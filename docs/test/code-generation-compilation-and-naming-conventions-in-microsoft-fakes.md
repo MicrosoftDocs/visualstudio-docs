@@ -14,8 +14,8 @@ This article discusses options and issues in Fakes code generation and compilati
 
 **Requirements**
 
--   Visual Studio Enterprise
--   A .NET Framework project
+- Visual Studio Enterprise
+- A .NET Framework project
 
 > [!NOTE]
 > .NET Standard projects are not supported.
@@ -56,23 +56,23 @@ For example, the following *.fakes* file generates stubs for types under the Sys
 
 The filter strings use a simple grammar to define how the matching should be done:
 
--   Filters are case-insensitive by default; filters perform a substring matching:
+- Filters are case-insensitive by default; filters perform a substring matching:
 
      `el` matches "hello"
 
--   Adding `!` to the end of the filter makes it a precise case-sensitive match:
+- Adding `!` to the end of the filter makes it a precise case-sensitive match:
 
      `el!` does not match "hello"
 
      `hello!` matches "hello"
 
--   Adding `*` to the end of the filter makes it match the prefix of the string:
+- Adding `*` to the end of the filter makes it match the prefix of the string:
 
      `el*` does not match "hello"
 
      `he*` matches "hello"
 
--   Multiple filters in a semicolon-separated list are combined as a disjunction:
+- Multiple filters in a semicolon-separated list are combined as a disjunction:
 
      `el;wo` matches "hello" and "world"
 
@@ -108,9 +108,9 @@ The Fakes code generator generates shim types and stub types for types that are 
 
  If the shimmed assembly is strongly named, and you want to access internal types of the assembly:
 
--   Both your test assembly and the Fakes assembly must be strongly named.
+- Both your test assembly and the Fakes assembly must be strongly named.
 
--   Add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how the example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
+- Add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how the example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
 
     ```csharp
     // FileSystem\AssemblyInfo.cs
@@ -264,9 +264,9 @@ attribute of the Assembly element in the .fakes:
 
 The following rules are applied recursively:
 
--   Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
+- Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
 
--   If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
+- If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
 
 ## See also
 

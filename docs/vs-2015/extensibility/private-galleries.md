@@ -17,9 +17,9 @@ manager: jillfra
 
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:  
   
--   Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom Feed for a Private Gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).  
+- Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom Feed for a Private Gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).  
   
--   Distribute a .pkgdef file that describes the private gallery. We recommend this configuration for administrators who want to connect a private gallery to many computers at the same time.  
+- Distribute a .pkgdef file that describes the private gallery. We recommend this configuration for administrators who want to connect a private gallery to many computers at the same time.  
   
 ## Adding a Private Gallery to Extensions and Updates in Visual Studio  
  When a private gallery is available, you can add it to **Extensions and Updates** in Visual Studio.  

@@ -73,11 +73,11 @@ When updating an unfamiliar application, you might also create code maps. These 
 
 See:
 
--   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
+- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
 
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 
 ## <a name="Generate"></a> Discover existing dependencies between layers
 
@@ -117,13 +117,13 @@ If this is not the case, the code will be more difficult to change throughout it
 
 When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.
 
--   **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).
+- **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](http://go.microsoft.com/fwlink/?LinkId=145794).
 
--   **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.
+- **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.
 
--   **You do not have to link most classes and other artifacts to layers** because they fall within larger artifacts such as namespaces that you have already linked to layers.
+- **You do not have to link most classes and other artifacts to layers** because they fall within larger artifacts such as namespaces that you have already linked to layers.
 
--   **Create a new diagram for a new feature**. Typically, there will be one or more dependency diagrams describing the whole application. If you are designing a new feature within the application, do not add to or change the existing diagrams. Instead, create your own diagram that reflects the new parts of the code. The layers in the new diagram might include presentation, domain logic, and database layers for the new feature.
+- **Create a new diagram for a new feature**. Typically, there will be one or more dependency diagrams describing the whole application. If you are designing a new feature within the application, do not add to or change the existing diagrams. Instead, create your own diagram that reflects the new parts of the code. The layers in the new diagram might include presentation, domain logic, and database layers for the new feature.
 
      When you build the application, your code will be validated both against the overall diagram and your more detailed feature diagram.
 
@@ -131,9 +131,9 @@ When you start development of a new project, or a new area in a new project, you
 
 To help you identify layers and dependencies or discuss them with team members, edit the appearance and layout of the diagram in the following ways:
 
--   Change the sizes, shapes, and positions of layers.
+- Change the sizes, shapes, and positions of layers.
 
--   Change the colors of layers and dependencies.
+- Change the colors of layers and dependencies.
 
     -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.
 
@@ -143,17 +143,17 @@ When you have edited the diagram, you can validate it against the code manually 
 
 See:
 
--   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
+- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
--   [Include Layer Validation in the Build Process](#BuildValidation)
+- [Include Layer Validation in the Build Process](#BuildValidation)
 
 ## <a name="UpdateCode"></a> Update the code to conform to the new architecture
 
 Typically, errors will appear the first time that you validate code against an updated dependency diagram. These errors can have several causes:
 
--   An artifact is assigned to the wrong layer. In this case, move the artifact.
+- An artifact is assigned to the wrong layer. In this case, move the artifact.
 
--   An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.
+- An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.
 
 To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md).
 

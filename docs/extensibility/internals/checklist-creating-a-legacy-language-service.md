@@ -30,19 +30,19 @@ The following checklist summarizes the basic steps you must take in order to cre
 ### Optional features
  The following features are optional and can be implemented in any order. These features increase the functionality of your language service.
 
--   Syntax coloring
+- Syntax coloring
 
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. Your implementation of this interface should the parser information to return the appropriate color information.
 
      The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. A separate colorizer instance is created for each text buffer, so you should implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface separately. For more information, see [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).
 
--   Code window
+- Code window
 
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface to enable the language service to receive notification of when a new code window is created.
 
      The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager%2A> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface. The language service can then add special UI to the code window in <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A>. The language service can also do any special processing, such as adding a text view filter in <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.OnNewView%2A>.
 
--   Text view filter
+- Text view filter
 
      To provide IntelliSense statement completion in a language service, you must intercept some of the commands that the text view would otherwise handle. To intercept these commands, complete the following steps:
 
@@ -57,19 +57,19 @@ The following checklist summarizes the basic steps you must take in order to cre
     > [!NOTE]
     >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.
 
--   Statement completion
+- Statement completion
 
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface.
 
      Support the statement completion command (that is, <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>) and call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface, passing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface. For more information, see [Statement completion in a legacy language service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md).
 
--   Method tips
+- Method tips
 
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData> interface to provide data for the method tip window.
 
      Install the text view filter to handle commands appropriately, so that you know when to show a method data tip window. For more information, see [Parameter Info in a legacy language service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md).
 
--   Error markers
+- Error markers
 
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.
 
@@ -77,7 +77,7 @@ The following checklist summarizes the basic steps you must take in order to cre
 
      Typically each error marker manages an item in the task list window.
 
--   Task list items
+- Task list items
 
      Implement a task item class providing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem> interface.
 
@@ -91,7 +91,7 @@ The following checklist summarizes the basic steps you must take in order to cre
 
      Create task item objects and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList.RefreshTasks%2A> method in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> interface when there are new or updated tasks.
 
--   Comment task items
+- Comment task items
 
      Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo> interface and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumCommentTaskTokens> interface to obtain the comment task tokens.
 
@@ -101,15 +101,15 @@ The following checklist summarizes the basic steps you must take in order to cre
 
      Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskListEvents> interface to listen for changes in the token list.
 
--   Outlining
+- Outlining
 
      There are several options for supporting outlining. For example, you can support the **Collapse to Definitions** command, provide editor-controlled outline regions, or support client-controlled regions. For more information, see [How to: Provide expanded outlining support in a legacy language service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md).
 
--   Language service registration
+- Language service registration
 
      For more information about how to register a language service, see [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service2.md) and [Manage VSPackages](../../extensibility/managing-vspackages.md).
 
--   Context-sensitive help
+- Context-sensitive help
 
      Provide context to the editor in one of the following ways:
 

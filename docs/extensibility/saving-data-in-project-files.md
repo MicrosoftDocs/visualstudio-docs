@@ -26,7 +26,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To save a build related data in the project file
 
--   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save a full path of the project file.
+- Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save a full path of the project file.
 
     ```
     private SpecializedProject project;
@@ -41,7 +41,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 
 ### To retrieve build related data from the project file
 
--   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> method to retrieve a full path of the project file.
+- Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> method to retrieve a full path of the project file.
 
     ```
     private SpecializedProject project;

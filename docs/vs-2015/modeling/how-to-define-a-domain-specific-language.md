@@ -370,11 +370,11 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
  While the new tool is selected, in the Properties window:  
   
--   Set the **Caption** and **Tooltip**.  
+- Set the **Caption** and **Tooltip**.  
   
--   Click **Connection Builder** and select the appropriate builder for the new relationship.  
+- Click **Connection Builder** and select the appropriate builder for the new relationship.  
   
--   Set **Toolbox Icon** to the icon that you want to appear in the toolbox. You can set it to a new icon or an icon already used for another tool.  
+- Set **Toolbox Icon** to the icon that you want to appear in the toolbox. You can set it to a new icon or an icon already used for another tool.  
   
      To create a new icon, open Dsl\Resources in **Solution Explorer**. Copy and paste one of the existing element tool BMP files. Rename the pasted copy, and then double-click to edit it.  
   

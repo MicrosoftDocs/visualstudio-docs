@@ -29,17 +29,17 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating a workbook that contains VBA code.
+- Creating a workbook that contains VBA code.
 
--   Trusting the location of the workbook by using the Trust Center in Excel.
+- Trusting the location of the workbook by using the Trust Center in Excel.
 
--   Adding a method to the `Sheet1` host item class.
+- Adding a method to the `Sheet1` host item class.
 
--   Extracting an interface for the `Sheet1` host item class.
+- Extracting an interface for the `Sheet1` host item class.
 
--   Exposing the method to VBA code.
+- Exposing the method to VBA code.
 
--   Calling the method from VBA code.
+- Calling the method from VBA code.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -47,9 +47,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Excel
+- Microsoft Excel
 
 ## Create a workbook that contains VBA code
  The first step is to create a macro-enabled workbook that contains a simple VBA macro. Before you can expose code in a customization to VBA, the workbook must already contain VBA code. Otherwise, Visual Studio cannot modify the VBA project to enable VBA code to call into the customization assembly.
@@ -236,9 +236,9 @@ ms.workload:
 ## Next steps
  You can learn more about calling code in Office solutions from VBA in these topics:
 
--   Call code in a host item in a Visual Basic customization from VBA. This process is different from the Visual C# process. For more information, see [Walkthrough: Call code from VBA in a Visual Basic project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md).
+- Call code in a host item in a Visual Basic customization from VBA. This process is different from the Visual C# process. For more information, see [Walkthrough: Call code from VBA in a Visual Basic project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md).
 
--   Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
+- Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
 ## See also
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)

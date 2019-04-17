@@ -30,11 +30,11 @@ ms.workload:
 ## Prerequisites
  You must have the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
--   SharePoint Designer 2010.
+- SharePoint Designer 2010.
 
 ## Create items in SharePoint Designer
  This example shows how to create three items in SharePoint Designer for export: a custom master page, a site page that references the custom master page, and an image file to appear on the site page. The image is added to the /images/ folder in SharePoint.

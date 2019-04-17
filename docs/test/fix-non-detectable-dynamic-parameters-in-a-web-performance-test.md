@@ -15,11 +15,11 @@ manager: jillfra
 
 Some websites use dynamic parameters to process some of their web requests. A dynamic parameter is a parameter whose value is regenerated every time that a user runs the application. An example of a dynamic parameter is a session ID. The session ID usually changes every 5 to 30 minutes. The web performance test recorder and playback engine automatically handles the most common types of dynamic parameters:
 
--   Dynamic parameter values that are set in a cookie value. The web performance test engine automatically handles these during playback.
+- Dynamic parameter values that are set in a cookie value. The web performance test engine automatically handles these during playback.
 
--   Dynamic parameter values that are set in hidden fields on HTML pages, such as ASP.NET view state. These are automatically handled by the recorder, which adds hidden field extraction rules to the test.
+- Dynamic parameter values that are set in hidden fields on HTML pages, such as ASP.NET view state. These are automatically handled by the recorder, which adds hidden field extraction rules to the test.
 
--   Dynamic parameter values that are set as query string or form post parameters. These are handled through dynamic parameter detection after you record a web performance test.
+- Dynamic parameter values that are set as query string or form post parameters. These are handled through dynamic parameter detection after you record a web performance test.
 
 Some types of dynamic parameters are not detected. An undetected dynamic parameter will cause your web performance test to fail when you run it because the dynamic value will be different every time that the test is run. To handle these parameters correctly, you can add extraction rules to dynamic parameters in your web performance tests manually.
 

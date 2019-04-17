@@ -20,15 +20,15 @@ ms.workload:
 
  In this walkthrough, you will create an extension for the **Business Data Connectivity Model** project item. Developers can use the extension to create an external list in their project that displays the data in the BDC model. This walkthrough demonstrates the following tasks:
 
--   Creating a Visual Studio extension that performs two main tasks:
+- Creating a Visual Studio extension that performs two main tasks:
 
     -   It generates an external list that displays the data in a BDC model. The extension uses the object model for the SharePoint project system to generate an *Elements.xml* file that defines the list. It also adds the file to the project so that it is deployed together with the BDC model.
 
     -   It adds a shortcut menu item to the **Business Data Connectivity Model** project items in **Solution Explorer**. Developers can click this menu item to generate an external list for the BDC model.
 
--   Building a Visual Studio Extension (VSIX) package to deploy the extension assembly.
+- Building a Visual Studio Extension (VSIX) package to deploy the extension assembly.
 
--   Testing the extension.
+- Testing the extension.
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:

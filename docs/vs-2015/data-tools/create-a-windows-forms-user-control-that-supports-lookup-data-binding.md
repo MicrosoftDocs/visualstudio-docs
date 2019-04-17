@@ -38,24 +38,24 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+- Create a new **Windows Application**.  
   
--   Add a new **User Control** to your project.  
+- Add a new **User Control** to your project.  
   
--   Visually design the user control.  
+- Visually design the user control.  
   
--   Implement the `LookupBindingProperty` attribute.  
+- Implement the `LookupBindingProperty` attribute.  
   
--   Create a dataset with the **Data Source Configuration** wizard.  
+- Create a dataset with the **Data Source Configuration** wizard.  
   
--   Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.  
+- Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.  
   
--   Create a form to display data in the new control.  
+- Create a form to display data in the new control.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.  
+- Access to the Northwind sample database.  
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
@@ -85,7 +85,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To design the LookupBox control  
   
--   Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
+- Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
   
 ## Add the required data-binding attribute  
  For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.  
@@ -154,13 +154,13 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To create data-bound controls on the Windows Form  
   
--   Drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.  
+- Drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.  
   
 ## Bind the control to look up CompanyName from the Customers table  
   
 #### To setup the lookup bindings  
   
--   Select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.  
+- Select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.  
   
      This sets up the data binding to display the `CompanyName` from the `Customers` table, while maintaining the `CustomerID` value from the `Orders` table.  
   
@@ -168,9 +168,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To run the application  
   
--   Press F5 to run the application.  
+- Press F5 to run the application.  
   
--   Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.  
+- Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

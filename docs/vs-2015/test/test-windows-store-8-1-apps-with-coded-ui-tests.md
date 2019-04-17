@@ -288,15 +288,15 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 ## Q & A  
   
--   **Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
+- **Q: Why don’t I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**  
   
      **A**: The option to record is not supported for Windows Store apps.  
   
--   **Q: Can I create a coded UI test for my Windows Store apps based on WinJS?**  
+- **Q: Can I create a coded UI test for my Windows Store apps based on WinJS?**  
   
      **A**: No, only XAML based apps are supported.  
   
--   **Q: Can I create coded UI tests for my Windows Store apps on a system that is not running Windows 8.1 or Windows 10?**  
+- **Q: Can I create coded UI tests for my Windows Store apps on a system that is not running Windows 8.1 or Windows 10?**  
   
      **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.  
 

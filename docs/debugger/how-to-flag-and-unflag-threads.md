@@ -29,12 +29,12 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 
 ### To unflag all threads
 
--   In the **Threads** window, right-click any thread and then click **Unflag All Threads**.
--   In the **Parallel Watch** window, select all flagged threads, then right-click and select **Unflag**.
+- In the **Threads** window, right-click any thread and then click **Unflag All Threads**.
+- In the **Parallel Watch** window, select all flagged threads, then right-click and select **Unflag**.
 
 ### To display only flagged threads
 
--   Choose the **Show Flagged Threads Only** button in one of the multithreaded debugging windows.
+- Choose the **Show Flagged Threads Only** button in one of the multithreaded debugging windows.
 
 ### To flag Just My Code
 

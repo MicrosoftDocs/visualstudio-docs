@@ -35,11 +35,11 @@ You can explore basic tasks, such as adding tables and defining columns, by usin
   
  During this walkthrough, you'll explore the following tasks:  
   
--   [Create a project and a local database file](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_CreateNewSQLDB)  
+- [Create a project and a local database file](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_CreateNewSQLDB)  
   
--   [Create tables, columns, primary keys, and foreign keys](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_CreateNewTbls)  
+- [Create tables, columns, primary keys, and foreign keys](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_CreateNewTbls)  
   
--   [Populate the tables with data](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_Populating)  
+- [Populate the tables with data](../data-tools/create-a-sql-database-by-using-a-designer.md#BKMK_Populating)  
   
 ## Prerequisites  
  To complete this walkthrough, ensure that you have SQL Server Data Tools installed. On the **View** menu, you should see **SQL Server Object Explorer**. If it's not there, go to **Add or Remove Programs**, click **Visual Studio 2015**, select **Change**, and select the box next to **SQL Server Data Tools**.  
@@ -66,9 +66,9 @@ You can explore basic tasks, such as adding tables and defining columns, by usin
   
    By opening the properties window for the database, you can view its connection string and the location of the primary .mdf file. You will see that the database file is in the project folder.  
   
--   In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for SampleDatabase.mdf, and then selecting **Properties**.  
+- In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for SampleDatabase.mdf, and then selecting **Properties**.  
   
--   Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for SampleDatabase.mdf, and then select **Properties**.  
+- Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for SampleDatabase.mdf, and then select **Properties**.  
   
 ##  <a name="BKMK_CreateNewTbls"></a> Create tables, columns, primary keys, and foreign keys  
  In this section, you'll create a couple of tables, a primary key in each table, and a few rows of sample data. In the next walkthrough, you'll get an idea of how that information might appear in an application. You'll also create a foreign key to specify how records in one table might correspond to records in the other table.  

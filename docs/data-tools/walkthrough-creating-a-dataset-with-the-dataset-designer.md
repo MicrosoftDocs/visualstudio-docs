@@ -82,25 +82,25 @@ This section explains how to add tables to the dataset.
 
 ### To create the Orders table
 
--   Drag the **Orders** table from **Server Explorer** onto the **Dataset Designer**.
+- Drag the **Orders** table from **Server Explorer** onto the **Dataset Designer**.
 
      An **Orders** data table, **OrdersTableAdapter**, and data relation between the **Customers** and **Orders** tables are added to the dataset.
 
 ### To create the OrderDetails table
 
--   Drag the **Order Details** table from **Server Explorer** onto the **Dataset Designer**.
+- Drag the **Order Details** table from **Server Explorer** onto the **Dataset Designer**.
 
      An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.
 
 ## Next Steps
 
--   Save the dataset.
+- Save the dataset.
 
--   Select items in the **Data Sources** window and drag them onto a form. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).
+- Select items in the **Data Sources** window and drag them onto a form. For more information, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md).
 
--   Add more queries to the TableAdapters.
+- Add more queries to the TableAdapters.
 
--   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
+- Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
 ## See also
 

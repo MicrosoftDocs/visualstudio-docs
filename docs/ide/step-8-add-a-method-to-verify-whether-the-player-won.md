@@ -33,6 +33,6 @@ You've created a fun game, but it needs an additional item to finish it. The gam
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 9: Try other features](../ide/step-9-try-other-features.md).
+- To go to the next tutorial step, see [Step 9: Try other features](../ide/step-9-try-other-features.md).
 
--   To return to the previous tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).
+- To return to the previous tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).

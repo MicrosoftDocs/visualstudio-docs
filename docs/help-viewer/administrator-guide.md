@@ -39,13 +39,13 @@ For more information about *HlpCtntMgr.exe* command line syntax, see [Command-li
 
 Requirements:
 
--   Client computers must have access to the internet.
+- Client computers must have access to the internet.
 
--   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
+- Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
 Caveats:
 
--   The default source for Help will still be online.
+- The default source for Help will still be online.
 
 ### Example
 
@@ -67,16 +67,16 @@ You can install a set of content from online to one computer, and then copy that
 
 Requirements:
 
--   The computer you install the set of content to must have access to the internet.
+- The computer you install the set of content to must have access to the internet.
 
--   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
+- Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
     > [!TIP]
     > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../help-viewer/behavior-overrides.md).
 
 Caveats:
 
--   The default source for Help will still be online.
+- The default source for Help will still be online.
 
 ### Create the content set
 

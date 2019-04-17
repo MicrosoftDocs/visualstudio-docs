@@ -29,15 +29,15 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  Refresh doesn't maintain your app state or reflect the following changes to your app:  
   
--   Package manifest file changes, including changes to images specified in the package manifest.  
+- Package manifest file changes, including changes to images specified in the package manifest.  
   
--   Reference changes, such as adding or removing an SDK reference, or changes to Windows Runtime Components (.winmd files).  
+- Reference changes, such as adding or removing an SDK reference, or changes to Windows Runtime Components (.winmd files).  
   
--   Resource changes, such as changes to strings in .resjson files.  
+- Resource changes, such as changes to strings in .resjson files.  
   
--   Project file changes that result in path name changes, new project files, or deleted files.  
+- Project file changes that result in path name changes, new project files, or deleted files.  
   
--   Project and item property changes, such as changes to the selected debugging device, or changes to the package action for a file (in the Properties window).  
+- Project and item property changes, such as changes to the selected debugging device, or changes to the package action for a file (in the Properties window).  
   
 > [!IMPORTANT]
 >  When you change references, change the package manifest, or make other changes specified in the preceding list, you have to stop and restart the debugger to update HTML, CSS, and JavaScript source files.  

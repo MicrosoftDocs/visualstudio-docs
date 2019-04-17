@@ -21,7 +21,7 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
   
  **In this topic:**  
   
--   [Property Function Syntax](#BKMK_Syntax)  
+- [Property Function Syntax](#BKMK_Syntax)  
   
     -   [String Property Functions](#BKMK_String)  
   
@@ -31,28 +31,28 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
   
     -   [MSBuild Property Functions](#BKMK_PropertyFunctions)  
   
--   [Nested Property Functions](#BKMK_Nested)  
+- [Nested Property Functions](#BKMK_Nested)  
   
--   [MSBuild DoesTaskHostExist](#BKMK_DoesTaskHostExist)  
+- [MSBuild DoesTaskHostExist](#BKMK_DoesTaskHostExist)  
   
--   [MSBuild GetDirectoryNameOfFileAbove](#BKMK_GetDirectoryNameOfFileAbove)  
+- [MSBuild GetDirectoryNameOfFileAbove](#BKMK_GetDirectoryNameOfFileAbove)  
   
--   [MSBuild GetRegistryValue](#BKMK_GetRegistryValue)  
+- [MSBuild GetRegistryValue](#BKMK_GetRegistryValue)  
   
--   [MSBuild GetRegistryValueFromView](#BKMK_GetRegistryValueFromView)  
+- [MSBuild GetRegistryValueFromView](#BKMK_GetRegistryValueFromView)  
   
--   [MSBuild MakeRelative](#BKMK_MakeRelative)  
+- [MSBuild MakeRelative](#BKMK_MakeRelative)  
   
--   [MSBuild ValueOrDefault](#BKMK_ValueOrDefault)  
+- [MSBuild ValueOrDefault](#BKMK_ValueOrDefault)  
   
 ##  <a name="BKMK_Syntax"></a> Property Function Syntax  
  These are three kinds of property functions; each function has a different syntax:  
   
--   String (instance) property functions  
+- String (instance) property functions  
   
--   Static property functions  
+- Static property functions  
   
--   MSBuild property functions  
+- MSBuild property functions  
   
 ###  <a name="BKMK_String"></a> String Property Functions  
  All build property values are just string values. You can use string (instance) methods to operate on any property value. For example, you can extract the drive name (the first three characters) from a build property that represents a full path by using this code:  

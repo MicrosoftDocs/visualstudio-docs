@@ -45,13 +45,13 @@ You can customize the appearance and behavior of the properties window in your d
 ### Default Property Forwarding Cases  
  When the user selects a shape or connector, or an element in the Explorer, the following properties are displayed in the Properties window:  
   
--   The domain properties that are defined on the domain class of the model element, including those that are defined in base classes. An exception is domain properties for which you have set **Is Browsable** to `False`.  
+- The domain properties that are defined on the domain class of the model element, including those that are defined in base classes. An exception is domain properties for which you have set **Is Browsable** to `False`.  
   
--   The names of elements that are linked through relationships that have a multiplicity of 0..1. This provides a convenient method of seeing optionally linked elements, even if you have not defined a connector mapping for the relationship.  
+- The names of elements that are linked through relationships that have a multiplicity of 0..1. This provides a convenient method of seeing optionally linked elements, even if you have not defined a connector mapping for the relationship.  
   
--   Domain properties of the embedding relationship that targets the element. Because embedding relationships are usually not displayed explicitly, this lets the user see their properties.  
+- Domain properties of the embedding relationship that targets the element. Because embedding relationships are usually not displayed explicitly, this lets the user see their properties.  
   
--   Domain properties that are defined on the selected shape or connector.  
+- Domain properties that are defined on the selected shape or connector.  
   
 ### Adding Property Forwarding  
  To forward a property, you define a domain type descriptor. If you have a domain relationship between two domain classes, you can use a domain type descriptor to set a domain property in the first class to the value of a domain property in the second domain class. For example, if you have a relationship between a **Book** domain class and an **Author** domain class, you can use a domain type descriptor to make the **Name** property of a Book's **Author** appear in the Properties window when the user selects the Book.  

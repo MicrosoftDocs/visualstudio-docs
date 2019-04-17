@@ -180,9 +180,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  To delay the launch of your app, you can:
 
--   For Visual C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** on the **Debug** property page.
+- For Visual C# and Visual Basic apps, select **Do not launch, but debug my code when it starts** on the **Debug** property page.
 
--   For Visual C++ apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.
+- For Visual C++ apps, choose **Yes** from the **Launch Application** list on the **Debugging** property page.
 
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> (Optional) Disable network loopbacks
  ![Applies to Windows only](../debugger/media/windows-only-content.png "windows_only_content")
@@ -191,9 +191,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  To remove the network loopback exemption:
 
--   For Visual C# and Visual Basic apps, clear the **Allow Network Loopback** check box on the **Debug** property page.
+- For Visual C# and Visual Basic apps, clear the **Allow Network Loopback** check box on the **Debug** property page.
 
--   For Visual C++ apps, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.
+- For Visual C++ apps, choose **No** from the **Allow Network Loopback** list on the **Debugging** property page.
 
 ###  <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> (Optional) Reinstall the app when you start debugging
  To diagnose problems with the installation and initial configuration of your Visual C# or Visual Basic app, choose **Uninstall and then reinstall my package** on the **Debug**  property page to recreate an original install when you start debugging. This option is not available for Visual C++ projects.

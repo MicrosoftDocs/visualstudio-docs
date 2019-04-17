@@ -17,13 +17,13 @@ You can view sample data in your designer as you customize the layout of your pa
   
  **In this topic:**  
   
--   [Generate sample data](#Scratch)  
+- [Generate sample data](#Scratch)  
   
--   [Generate sample data from a class](#Existing)  
+- [Generate sample data from a class](#Existing)  
   
--   [Show live data in a WPF application](#LiveWPF)  
+- [Show live data in a WPF application](#LiveWPF)  
   
--   [Show live data in a Store or Phone app](#LiveStore)  
+- [Show live data in a Store or Phone app](#LiveStore)  
   
 ##  <a name="Scratch"></a> Generate sample data  
  To generate sample data, open a XAML document. In the **Data** panel, choose the **Create sample data**![](../designers/media/30540d76-7256-43ce-b5d9-4b2edf3d339f.png "30540d76-7256-43ce-b5d9-4b2edf3d339f") button, and then choose **New Sample Data**.  

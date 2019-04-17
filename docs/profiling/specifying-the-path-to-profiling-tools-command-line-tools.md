@@ -28,24 +28,24 @@ The path of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling 
 On 64-bit computers, specify the path according to the target platform of the profiled application.
 
 ::: moniker range=">=vs-2019"
--   For 32-bit applications, the default profiler tools directory is:
+- For 32-bit applications, the default profiler tools directory is:
 
      (native) *Microsoft Visual Studio\2019\Team Tools\Performance Tools\PerfSDK*
      (managed) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*
 
--   For 64-bit applications, the default profiler tools directory is:
+- For 64-bit applications, the default profiler tools directory is:
 
      (native) *Microsoft Visual Studio\2019\Team Tools\Performance Tools\x64\PerfSDK*
      (managed) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*
 ::: moniker-end
 
 ::: moniker range="vs-2017"
--   For 32-bit applications, the default profiler tools directory is:
+- For 32-bit applications, the default profiler tools directory is:
 
      (native) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK*
      (managed) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*
 
--   For 64-bit applications, the default profiler tools directory is:
+- For 64-bit applications, the default profiler tools directory is:
 
      (native) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK*
      (managed) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*

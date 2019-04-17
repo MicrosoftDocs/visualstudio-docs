@@ -25,7 +25,7 @@ ms.workload:
 
 #### To open the Package Designer
 
--   In **Solution Explorer**, double-click **Package**, or choose **View Designer** on the shortcut menu for **Package**.
+- In **Solution Explorer**, double-click **Package**, or choose **View Designer** on the shortcut menu for **Package**.
 
 ## View the packaged manifestfFile
  You can use the Package Designer to modify and generate the packaged manifest file. Then, you can view the XML code for this file in Visual Studio.

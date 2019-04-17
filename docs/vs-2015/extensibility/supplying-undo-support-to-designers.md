@@ -35,9 +35,9 @@ Designers, like editors, typically need to support undo operations so that users
 ## Obtaining Undo Support Automatically  
  Any designer created in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] has automatic and full undo support if, the designer:  
   
--   Makes use of a <xref:System.Windows.Forms.Control> based class for its user interface.  
+- Makes use of a <xref:System.Windows.Forms.Control> based class for its user interface.  
   
--   Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
+- Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
   
      For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
   

@@ -16,16 +16,16 @@ ms.workload:
 # Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5
   If your project contains a Ribbon customization that was created by using the **Ribbon (Visual Designer)** project item, you must make the following changes to your project code if the target framework is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
--   Modify the generated Ribbon code.
+- Modify the generated Ribbon code.
 
--   Modify any code that instantiates Ribbon controls at runtime, handles Ribbon events, or sets the position of a Ribbon component programmatically.
+- Modify any code that instantiates Ribbon controls at runtime, handles Ribbon events, or sets the position of a Ribbon component programmatically.
 
 ## Update the generated Ribbon code
  If the target framework of your project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must change the generated code for the Ribbon item by performing the following steps. The code files you need to update depend on the programming language and how you created the project:
 
--   In Visual Basic projects, or in Visual C# projects that you created in either [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] or [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] perform all of the steps in the Ribbon code-behind file (*YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb). To see the code-behind file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
+- In Visual Basic projects, or in Visual C# projects that you created in either [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] or [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] perform all of the steps in the Ribbon code-behind file (*YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb). To see the code-behind file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
 
--   In Visual C# projects that you created in Visual Studio 2008 and then upgraded to [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], perform the first two steps in the Ribbon code file (*YourRibbonItem*.cs or *YourRibbonItem*.vb), and perform the remaining steps in the Ribbon code-behind file.
+- In Visual C# projects that you created in Visual Studio 2008 and then upgraded to [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], perform the first two steps in the Ribbon code file (*YourRibbonItem*.cs or *YourRibbonItem*.vb), and perform the remaining steps in the Ribbon code-behind file.
 
 ### To change the generated Ribbon code
 

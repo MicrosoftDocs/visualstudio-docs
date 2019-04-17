@@ -46,9 +46,9 @@ ms.workload:
 
  When you create a document-level project, Visual Studio creates event handlers for the **Startup** event in the generated code files:
 
--   For Microsoft Office Word projects, the event handler is named `ThisDocument_Startup`.
+- For Microsoft Office Word projects, the event handler is named `ThisDocument_Startup`.
 
--   For Microsoft Office Excel projects, the event handlers have the following names:
+- For Microsoft Office Excel projects, the event handlers have the following names:
 
     -   `Sheet1_Startup`
 
@@ -63,9 +63,9 @@ ms.workload:
 
  When you create a document-level project, Visual Studio creates event handlers for the **Shutdown** event in the generated code files:
 
--   For Microsoft Office Word projects, the event handler is named `ThisDocument_Shutdown`.
+- For Microsoft Office Word projects, the event handler is named `ThisDocument_Shutdown`.
 
--   For Microsoft Office Excel projects, the event handlers have the following names:
+- For Microsoft Office Excel projects, the event handlers have the following names:
 
     -   `Sheet1_Shutdown`
 
@@ -139,9 +139,9 @@ ms.workload:
 #### Shutdown event in Outlook VSTO Add-ins
  The <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event is raised only when the user disables the VSTO Add-in by using the COM Add-ins dialog box in Outlook. It is not raised when Outlook exits. If you have code that must run when Outlook exits, handle either of the following events:
 
--   The <xref:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit> event of the <xref:Microsoft.Office.Interop.Outlook.Application> object.
+- The <xref:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit> event of the <xref:Microsoft.Office.Interop.Outlook.Application> object.
 
--   The <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Explorer> object.
+- The <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Explorer> object.
 
 > [!NOTE]
 >  You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](http://go.microsoft.com/fwlink/?LinkID=184614).

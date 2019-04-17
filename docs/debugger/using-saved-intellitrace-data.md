@@ -22,11 +22,11 @@ Go to specific points in your application's execution when you start debugging f
 
  Make sure that you have:
 
--   Matching source files and symbol (.pdb) files for your application code. Otherwise, Visual Studio can't resolve the source locations and shows the message "Symbols not found." See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
+- Matching source files and symbol (.pdb) files for your application code. Otherwise, Visual Studio can't resolve the source locations and shows the message "Symbols not found." See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
--   Visual Studio Enterprise (but not Professional or Community editions) on your development computer or another computer to open .iTrace files
+- Visual Studio Enterprise (but not Professional or Community editions) on your development computer or another computer to open .iTrace files
 
--   An .iTrace file from one of these sources:
+- An .iTrace file from one of these sources:
 
     |**Source**|**See**|
     |----------------|-------------|
@@ -36,20 +36,20 @@ Go to specific points in your application's execution when you start debugging f
 
 ##  <a name="GetStarted"></a> What do you want to do?
 
--   [Open an IntelliTrace log](#Open)
+- [Open an IntelliTrace log](#Open)
 
--   [Understand the IntelliTrace log](#Understand)
+- [Understand the IntelliTrace log](#Understand)
 
--   [Start debugging from an IntelliTrace log](#StartDebugging)
+- [Start debugging from an IntelliTrace log](#StartDebugging)
 
 ##  <a name="Open"></a> Open an IntelliTrace log
  On a computer with Visual Studio Enterprise, open the .iTrace file.
 
--   Double-click the .iTrace file outside Visual Studio, or open the file from inside Visual Studio.
+- Double-click the .iTrace file outside Visual Studio, or open the file from inside Visual Studio.
 
      \- or -
 
--   If the .iTrace file is attached to a Team Foundation Server work item, follow these steps in the work item:
+- If the .iTrace file is attached to a Team Foundation Server work item, follow these steps in the work item:
 
     -   Under **All Links**, find the .iTrace file. Open it.
 
@@ -76,9 +76,9 @@ Go to specific points in your application's execution when you start debugging f
 
  Here's some tips to help you find information in each section:
 
--   Choose a column header to sort data.
+- Choose a column header to sort data.
 
--   Use the search box to filter data. Plain text search works across all columns except the time columns. You can also filter searches to a specific column with one filter per column. Type the column name with no spaces, a colon (**:**), and the search value. Follow this with a semicolon (**;**) to add another column and search value.
+- Use the search box to filter data. Plain text search works across all columns except the time columns. You can also filter searches to a specific column with one filter per column. Type the column name with no spaces, a colon (**:**), and the search value. Follow this with a semicolon (**;**) to add another column and search value.
 
      For example, to find performance events that have the word "slow" in the **Description** column, type:
 
@@ -146,9 +146,9 @@ Go to specific points in your application's execution when you start debugging f
 ###  <a name="Analysis"></a> Analysis
  Diagnose problems with SharePoint 2010 and SharePoint 2013 applications by using a SharePoint correlation ID or review any unhandled exceptions that Microsoft Monitoring Agent found.
 
--   Use a SharePoint correlation ID to find its matching web request and events. Choose an event and then start debugging at the point where and when the event happened.
+- Use a SharePoint correlation ID to find its matching web request and events. Choose an event and then start debugging at the point where and when the event happened.
 
--   If Microsoft Monitoring Agent found unhandled exceptions, choose an exception and then start debugging at the point where and when the exception happened.
+- If Microsoft Monitoring Agent found unhandled exceptions, choose an exception and then start debugging at the point where and when the exception happened.
 
 ##### Start debugging with a SharePoint correlation ID
 
@@ -172,11 +172,11 @@ Go to specific points in your application's execution when you start debugging f
 
    You can see these kinds of SharePoint events along with IntelliTrace events:
 
--   **User profile events**
+- **User profile events**
 
      These events happen when SharePoint loads a user profile and when user profile properties are read or changed.
 
--   **Unified Logging System (ULS) events**
+- **Unified Logging System (ULS) events**
 
      Microsoft Monitoring Agent records a subset of SharePoint ULS events and these fields:
 

@@ -17,22 +17,22 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
  Programmatic capture is useful in scenarios such as:  
   
--   Begin capture programmatically when your graphics app doesn't use swapchain present, such as when it renders to a texture.  
+- Begin capture programmatically when your graphics app doesn't use swapchain present, such as when it renders to a texture.  
   
--   Begin capture programmatically when your app doesn't render at all, such as when it uses DirectCompute to perform calculations.  
+- Begin capture programmatically when your app doesn't render at all, such as when it uses DirectCompute to perform calculations.  
   
--   Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at runtime.  
+- Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at runtime.  
   
 ##  <a name="CaptureDX11_2"></a> Programmatic capture in Windows 8.1  
  This part of the walkthrough demonstrates programmatic capture in apps that use the DirectX 11.2 API on Windows 8.1, which uses the robust capture method. For information about how to use programmatic capture in apps that use earlier versions of DirectX on Windows 8.0, see [Programmatic capture in Windows 8.0 and earlier](#CaptureDX11_1) later in this walkthrough.  
   
  This section shows how to do these tasks:  
   
--   Preparing your app to use programmatic capture  
+- Preparing your app to use programmatic capture  
   
--   Getting the IDXGraphicsAnalysis interface  
+- Getting the IDXGraphicsAnalysis interface  
   
--   Capturing graphics information  
+- Capturing graphics information  
   
 > [!NOTE]
 >  Previous implementations of programmatic capture relied on Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to provide capture functionality, Windows 8.1 supports capture directly through Direct3D 11.2. As a result, you no longer have to install the Remote Tools for programmatic capture on Windows 8.1.  
@@ -42,7 +42,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ##### To include programmatic capture headers  
   
--   Include these headers in the source file where you will define the IDXGraphicsAnalysis interface:  
+- Include these headers in the source file where you will define the IDXGraphicsAnalysis interface:  
   
     ```  
     #include <DXGItype.h>  
@@ -83,7 +83,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ##### To get the IDXGraphicsAnalysis interface  
   
--   Use the following code to hook up the IDXGraphicsAnalysis interface to the DXGI debug interface.  
+- Use the following code to hook up the IDXGraphicsAnalysis interface to the DXGI debug interface.  
   
     ```  
     IDXGraphicsAnalysis* pGraphicsAnalysis;  
@@ -107,7 +107,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ##### To capture graphics information  
   
--   To start capturing graphics information, use `BeginCapture`:  
+- To start capturing graphics information, use `BeginCapture`:  
   
     ```  
     ...  
@@ -128,13 +128,13 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
  This part shows these tasks:  
   
--   Preparing your computer to use programmatic capture  
+- Preparing your computer to use programmatic capture  
   
--   Preparing your app to use programmatic capture  
+- Preparing your app to use programmatic capture  
   
--   Configuring the name and location of the graphics log file  
+- Configuring the name and location of the graphics log file  
   
--   Using the `CaptureCurrentFrame` API  
+- Using the `CaptureCurrentFrame` API  
   
 ### Preparing your computer to use programmatic capture  
  The programmatic capture API uses Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to provide capture functionality. The computer where the app will run must have the remote tools installed, even when you are using programmatic capture on your local computer. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] doesn't have to be running when you perform programmatic capture on a local computer.  
@@ -190,7 +190,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information programmatically. As a next step, consider this option:  
   
--   Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
+- Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
   
 ## See Also  
  [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)   

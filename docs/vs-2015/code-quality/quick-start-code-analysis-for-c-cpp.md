@@ -20,17 +20,17 @@ You can improve the quality of your application by running code analysis regular
   
 ## In this topic  
   
--   [Configure rule sets for a project](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_ConfigureRuleSets)  
+- [Configure rule sets for a project](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_ConfigureRuleSets)  
   
--   [Run code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Run)  
+- [Run code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Run)  
   
--   [Analyze and resolve code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Analyze)  
+- [Analyze and resolve code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Analyze)  
   
--   [Suppressing code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Suppress)  
+- [Suppressing code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Suppress)  
   
--   [Creating work items for code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Creating_work_items_for_code_analysis_warnings)  
+- [Creating work items for code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Creating_work_items_for_code_analysis_warnings)  
   
--   [Searching and filtering code analysis results](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Search)  
+- [Searching and filtering code analysis results](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Search)  
   
 ##  <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
   

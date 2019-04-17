@@ -24,13 +24,13 @@ This walkthrough demonstrates how to profile an application to identify performa
   
  In this walkthrough, you will follow these steps:  
   
--   Profile an application by using the sampling method.  
+- Profile an application by using the sampling method.  
   
--   Analyze sampled profiling results to locate and fix a performance issue.  
+- Analyze sampled profiling results to locate and fix a performance issue.  
   
--   Profile an application by using the instrumentation method.  
+- Profile an application by using the instrumentation method.  
   
--   Analyze instrumented profiling results to locate and fix a performance issue.  
+- Analyze instrumented profiling results to locate and fix a performance issue.  
   
 ## Prerequisites  
   

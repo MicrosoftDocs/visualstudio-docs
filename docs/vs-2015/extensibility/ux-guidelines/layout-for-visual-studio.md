@@ -16,15 +16,15 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 ##  <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout
 
--   All controls within a utility dialog should start at the top/left and flow downward.
+- All controls within a utility dialog should start at the top/left and flow downward.
 
--   Never center controls on a dialog to fill a large area.
+- Never center controls on a dialog to fill a large area.
 
--   Use the environment font for all dialog text. When writing a visual spec, specify the environment font instead of selecting a particular font and size. See [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont).
+- Use the environment font for all dialog text. When writing a visual spec, specify the environment font instead of selecting a particular font and size. See [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont).
 
--   Use consistent control spacing and placement to support the goal for quality in craftsmanship.
+- Use consistent control spacing and placement to support the goal for quality in craftsmanship.
 
--   Dialogs can become more complex from a larger number of controls, a unique juxtaposition of controls, or both. For those complex situations, allow adequate space between control groupings to give the user a logical flow to parse.
+- Dialogs can become more complex from a larger number of controls, a unique juxtaposition of controls, or both. For those complex situations, allow adequate space between control groupings to give the user a logical flow to parse.
 
 ### Utility dialog layout examples
  All dimensions are expressed as pixels.
@@ -41,11 +41,11 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Margins
 
--   All dialogs should have a 12-pixel border around all edges.
+- All dialogs should have a 12-pixel border around all edges.
 
--   Margins within a group frame should be 9 pixels from the edge of the frame.
+- Margins within a group frame should be 9 pixels from the edge of the frame.
 
--   Margins within a tab control should be 6 pixels from the edge of the tab control.
+- Margins within a tab control should be 6 pixels from the edge of the tab control.
 
 #### Command buttons
 
@@ -65,13 +65,13 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Labels
 
--   Left-align all labels.
+- Left-align all labels.
 
--   For labels that sit above a control, they should left-align precisely with the control below it and the bottom of the label should be 5 pixels above the top of the other control (for example, a combo box).
+- For labels that sit above a control, they should left-align precisely with the control below it and the bottom of the label should be 5 pixels above the top of the other control (for example, a combo box).
 
--   For labels that sit to the left of controls, the minimum width between the label and the input control is 10 pixels. An implied second column should be established for aligning the text boxes, combo boxes, or other controls.
+- For labels that sit to the left of controls, the minimum width between the label and the input control is 10 pixels. An implied second column should be established for aligning the text boxes, combo boxes, or other controls.
 
--   Labels are sentence case and are followed by a colon. See [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
+- Labels are sentence case and are followed by a colon. See [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
 
 #### Distance between controls
  Stack controls reasonably. There is no absolute guideline for the spacing between stacked controls. The tightness between the controls may vary slightly between dialogs. The recommended spacing is 20 pixels for vertical control/label pairs, and 9 pixels for horizontal control/label pairs. The minimum control spacing for horizontal pairs is 6 pixels.
@@ -92,9 +92,9 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
 #### Helper text
 
--   A dialog can display helper text that provides more information about the purpose of the dialog. This typically sits at the top and can be 1-2 sentences.
+- A dialog can display helper text that provides more information about the purpose of the dialog. This typically sits at the top and can be 1-2 sentences.
 
--   The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.
+- The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.
 
 ####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons
  In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog’s commit buttons are located.

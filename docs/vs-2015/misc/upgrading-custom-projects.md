@@ -21,15 +21,15 @@ If you change the information persisted in the project file between different Vi
   
  The following scenarios arise with project upgrades:  
   
--   If the file is of a newer format than the project can support, then it must return an error stating this. This assumes that the older version of your product — for example, Visual Studio .NET 2003 — includes code to check for the version.  
+- If the file is of a newer format than the project can support, then it must return an error stating this. This assumes that the older version of your product — for example, Visual Studio .NET 2003 — includes code to check for the version.  
   
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is going to be implemented as an in-place upgrade prior to the opening of the project.  
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is going to be implemented as an in-place upgrade prior to the opening of the project.  
   
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is implemented as a copy upgrade.  
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method, the upgrade is implemented as a copy upgrade.  
   
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then the user has been prompted by the environment to upgrade the project file as an in-place upgrade, after the project is opened. For example, the environment prompts the user to upgrade when the user opens an older version of the solution.  
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS> flag is specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then the user has been prompted by the environment to upgrade the project file as an in-place upgrade, after the project is opened. For example, the environment prompts the user to upgrade when the user opens an older version of the solution.  
   
--   If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS> flag is not specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then you must prompt the user to upgrade the project file.  
+- If the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS> flag is not specified in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, then you must prompt the user to upgrade the project file.  
   
      The following is an example upgrade prompt message:  
   

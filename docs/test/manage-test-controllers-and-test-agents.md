@@ -178,7 +178,7 @@ If you want to register your test controller with your Team Foundation Server pr
 
 When you add roles for your application to your test settings for Visual Studio, you can add agent properties for each of your roles. This determines which test agents are available for this role. When you run your tests using these test settings, the test controller that is selected for the test settings determines the availability of the required agents. These are the following situations that can occur when the agent availability is determined:
 
--   There is no agent available for the role that must run the tests. Your tests cannot be run. You can perform one of the following actions and then rerun your tests:
+- There is no agent available for the role that must run the tests. Your tests cannot be run. You can perform one of the following actions and then rerun your tests:
 
     -   You can wait for an agent to become available for this role to run the tests.
 
@@ -188,7 +188,7 @@ When you add roles for your application to your test settings for Visual Studio,
 
     -   You can change the agent properties for this role in the test settings to enable other agents that you want to use.
 
--   There is no agent available for one or more roles that run diagnostic data adapters. Your tests can be run, but the diagnostic data adapter cannot be run. You can run your tests without the diagnostic data adapter, or you can perform one of the following actions and rerun your tests:
+- There is no agent available for one or more roles that run diagnostic data adapters. Your tests can be run, but the diagnostic data adapter cannot be run. You can run your tests without the diagnostic data adapter, or you can perform one of the following actions and rerun your tests:
 
     -   You can wait for an agent to become available for these roles.
 

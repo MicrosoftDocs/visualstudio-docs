@@ -40,9 +40,9 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
 
  There are two ways that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deploys COM components:
 
--   Use the bootstrapper to deploy your COM components; this works on all supported platforms.
+- Use the bootstrapper to deploy your COM components; this works on all supported platforms.
 
--   Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.
+- Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.
 
 ### Example of isolating and deploying a simple COM component
  In order to demonstrate registration-free COM component deployment, this example will create a Windows-based application in Visual Basic that references an isolated native COM component created using Visual Basic 6.0, and deploy it using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].

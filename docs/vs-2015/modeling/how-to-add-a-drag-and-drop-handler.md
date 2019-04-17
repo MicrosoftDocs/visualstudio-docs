@@ -19,17 +19,17 @@ You can add handlers for drag-and-drop events to your DSL, so that users can dra
   
 ## In this topic  
   
--   The first two sections describe alternative methods of defining a gesture handler:  
+- The first two sections describe alternative methods of defining a gesture handler:  
   
     -   [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.  
   
     -   [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.  
   
--   [How to Decode the Dragged Item](#extracting). Elements can be dragged from any window or from the desktop, as well as from a DSL.  
+- [How to Decode the Dragged Item](#extracting). Elements can be dragged from any window or from the desktop, as well as from a DSL.  
   
--   [How to Get the Original Dragged Item](#getOriginal). If the dragged item is a DSL element, you can open the source model and access the element.  
+- [How to Get the Original Dragged Item](#getOriginal). If the dragged item is a DSL element, you can open the source model and access the element.  
   
--   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape’s fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
+- [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape’s fields. The example lets the user re-order the items in a compartment by dragging with the mouse.  
   
 ##  <a name="overrideShapeElement"></a> Defining Gesture Handlers by Overriding ShapeElement Methods  
  Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:  
@@ -281,7 +281,7 @@ using System.Linq;
   
 ### To accept an element sourced from a UML model  
   
--   The following code sample accepts an object dropped from a UML diagram.  
+- The following code sample accepts an object dropped from a UML diagram.  
   
     ```csharp  
   

@@ -20,9 +20,9 @@ manager: jillfra
 
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process:
 
--   Overriding specific predefined targets defined in Microsoft.Common.targets.
+- Overriding specific predefined targets defined in Microsoft.Common.targets.
 
--   Overriding the "DependsOn" properties defined in Microsoft.Common.targets.
+- Overriding the "DependsOn" properties defined in Microsoft.Common.targets.
 
 ## Overriding Predefined Targets
  The Microsoft.Common.targets file contains a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in Microsoft.Common.targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports Microsoft.Common.targets. By doing this, you can use [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks to give you more control over the build process.

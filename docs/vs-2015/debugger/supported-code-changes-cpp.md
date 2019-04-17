@@ -65,46 +65,46 @@ If you make one of these changes and then try to apply code changes, an error or
 ##  <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios  
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:  
   
--   Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)  
+- Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)  
   
--   In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging Windows Store apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
+- In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging Windows Store apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in Windows Store C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.  
   
--   Debugging on Windows 98.  
+- Debugging on Windows 98.  
   
--   Mixed-mode (native/managed) debugging.  
+- Mixed-mode (native/managed) debugging.  
   
--   Javascript debugging.  
+- Javascript debugging.  
   
--   SQL debugging.  
+- SQL debugging.  
   
--   Debugging a dump file.  
+- Debugging a dump file.  
   
--   Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.  
+- Editing code after an unhandled exception, when the **Unwind the call stack on unhandled exceptions** option is not selected.  
   
--   Debugging an app by using **Attach to** instead of running the app by choosing **Start** on the **Debug** menu.  
+- Debugging an app by using **Attach to** instead of running the app by choosing **Start** on the **Debug** menu.  
   
--   Debugging optimized code.  
+- Debugging optimized code.  
   
--   Debugging an old version of your code after a new version failed to build because of build errors.  
+- Debugging an old version of your code after a new version failed to build because of build errors.  
   
 ##  <a name="BKMK_Linking_limitations"></a> Linking limitations  
   
 ###  <a name="BKMK_Linker_options_that_disable_Edit_and_Continue"></a> Linker options that disable Edit and Continue  
  The following linker options disable Edit and Continue:  
   
--   Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:  
+- Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:  
   
      LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT  
   
      specification  
   
--   Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:  
+- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:  
   
      LINK : warning LNK4075: ignoring /INCREMENTAL due to /option  
   
      specification  
   
--   Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.  
+- Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.  
   
 ###  <a name="BKMK_Auto_relinking_limitations"></a> Auto relinking limitations  
  By default, Edit and Continue relinks your program at the end of a debugging session to create an up-to-date executable.  

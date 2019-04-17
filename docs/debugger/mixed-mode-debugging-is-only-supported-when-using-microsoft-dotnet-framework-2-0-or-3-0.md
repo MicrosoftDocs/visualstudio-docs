@@ -21,11 +21,11 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
 
  To work around this problem, you can:
 
--   Update your project to use either Microsoft .NET Framework 2.0 or 3.0.
+- Update your project to use either Microsoft .NET Framework 2.0 or 3.0.
 
--   Debug your managed and native code in separate debugging sessions.
+- Debug your managed and native code in separate debugging sessions.
 
--   Debug your mixed code as a 32-bit process, as described in the following procedures.
+- Debug your mixed code as a 32-bit process, as described in the following procedures.
 
 ### To change the operating system to 32-bit (Visual Basic or C#)
 
@@ -45,7 +45,7 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
 
 ### To correct this error
 
--   See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
+- See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
 ## See Also
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

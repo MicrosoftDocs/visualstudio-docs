@@ -47,7 +47,7 @@ If your application does not need to send updates back to a data source, it's po
 
 #### To delete records from a data table
 
--   Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.
+- Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.
 
      This method doesn't physically remove the record. Instead, it marks the record for deletion.
 
@@ -64,15 +64,15 @@ When changes are made to records in a dataset, information about those changes i
 
 Changes are tracked two ways in each data row:
 
--   Each data row contains information related to its <xref:System.Data.DataRow.RowState%2A> (for example, <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, or <xref:System.Data.DataRowState.Unchanged>).
+- Each data row contains information related to its <xref:System.Data.DataRow.RowState%2A> (for example, <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, or <xref:System.Data.DataRowState.Unchanged>).
 
--   Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes) and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well.
+- Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes) and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well.
 
 The <xref:System.Data.DataSet.HasChanges%2A> method of a dataset returns `true` if changes have been made in the dataset. After determining that changed rows exist, you can call the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to return a set of changed rows.
 
 #### To determine if changes have been made to any rows
 
--   Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.
+- Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.
 
 The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges%2A> method to detect whether there are any changed rows in a dataset named `NorthwindDataset1`:
 
@@ -84,7 +84,7 @@ You can also check to see what type of changes were made in a dataset by passing
 
 #### To determine what type of changes have been made to a row
 
--   Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.
+- Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.
 
 The following example shows how to check a dataset named `NorthwindDataset1` to determine if any new rows have been added to it:
 

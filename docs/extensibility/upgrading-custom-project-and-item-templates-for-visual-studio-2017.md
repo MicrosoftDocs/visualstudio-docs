@@ -51,11 +51,11 @@ For other (non-user) locations, you must include a manifest(.vstman) file that s
 
 ## Other Recommendations for Deploying Project and Item Templates
 
--   Avoid using zipped template files. Zipped template files need to be uncompressed in order to retrieve resources and content, so they will be costlier to use. Instead, you should deploy project and item templates as individual files under their own directory to speed up template initialization. For VSIX extensions, SDK build tasks will automatically unzip any zipped template while creating the VSIX file.
+- Avoid using zipped template files. Zipped template files need to be uncompressed in order to retrieve resources and content, so they will be costlier to use. Instead, you should deploy project and item templates as individual files under their own directory to speed up template initialization. For VSIX extensions, SDK build tasks will automatically unzip any zipped template while creating the VSIX file.
 
--   Avoid using package/resource ID entries for the template name, description, icon, or preview in order to avoid unnecessary resource assembly loads during template discovery. Instead, you can use localized manifests to create a template entry for each locale, which uses localized names or properties.
+- Avoid using package/resource ID entries for the template name, description, icon, or preview in order to avoid unnecessary resource assembly loads during template discovery. Instead, you can use localized manifests to create a template entry for each locale, which uses localized names or properties.
 
--   If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually generated manifest to the VSIX project.
+- If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually generated manifest to the VSIX project.
 
 ## File Changes in Project and Item Templates
 We show the points of difference between the Visual Studio 2015 and Visual Studio 2017 versions of the template files, so that you can create the new files correctly.

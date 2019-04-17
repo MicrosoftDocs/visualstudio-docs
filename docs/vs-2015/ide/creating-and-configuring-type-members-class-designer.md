@@ -67,16 +67,16 @@ You can add these members to types on a class diagram and configure those member
   
    – or -  
   
--   Point to **Other Windows** on the View menu and then click **Class Details**.  
+- Point to **Other Windows** on the View menu and then click **Class Details**.  
   
 ##  <a name="CreateMembers"></a> Creating Members  
  You can create a member using any of the following tools:  
   
--   Class Designer  
+- Class Designer  
   
--   Class Details window toolbar  
+- Class Details window toolbar  
   
--   Class Details window  
+- Class Details window  
   
 > [!NOTE]
 >  You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the Class Details window grid.  
@@ -133,37 +133,37 @@ You can add these members to types on a class diagram and configure those member
   
  Each member row displays the following elements:  
   
--   **Member Icon**  
+- **Member Icon**  
   
      Each kind of member is represented by its own icon. Point the mouse at the member icon to display the member’s signature. Click the member icon or the whitespace to the left of the member icon to select the row.  
   
--   **Member Name**  
+- **Member Name**  
   
      The **Name** column in a member row displays the name of the member. This name is also displayed in the **Name** property in the Properties window. Use this cell to change the name of any member that has read-write permissions.  
   
      If the **Name** column is too narrow to show the whole name, pointing the mouse on the member name displays the entire name.  
   
--   **Member Type**  
+- **Member Type**  
   
      The **MemberType** cell uses IntelliSense, which lets you select from a list of all the types available in the current project or referenced projects.  
   
--   **Member Modifier**  
+- **Member Modifier**  
   
      Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.  
   
--   **\<add member>**  
+- **\<add member>**  
   
      The last row in the Class Details window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
   
--   **Member properties in the Properties window**  
+- **Member properties in the Properties window**  
   
      The Class Details window displays a subset of the member properties that are displayed in the Properties window. Changing a property in one location will update the value of the property globally. This includes the display of its value in the other location.  
   
--   **Summary**  
+- **Summary**  
   
      The **Summary** cell exposes a summary of information about the member. Click the ellipsis in the **Summary** cell to view or edit information about the **Summary**, **Return Type**, and **Remarks** for the member.  
   
--   **Hide**  
+- **Hide**  
   
      When the **Hide** check box is selected, the member is not displayed in the type.  
   

@@ -31,7 +31,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 ### To prepare for this walkthrough
 
--   If you already have an open solution open, close it. (On the **File** menu, select **Close Solution**.)
+- If you already have an open solution open, close it. (On the **File** menu, select **Close Solution**.)
 
 ## Create a New Windows Form
  Next, you will create a new Windows Form.

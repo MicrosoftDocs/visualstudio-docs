@@ -17,7 +17,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 ## Prerequisites  
  For this walkthrough you will need:  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ### Create a Simple WPF Application  
   

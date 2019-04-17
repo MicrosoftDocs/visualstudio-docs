@@ -51,11 +51,11 @@ manager: jillfra
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
--   For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1).  
+- For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1).  
   
--   For [!INCLUDE[csprcs](../includes/csprcs-md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
+- For [!INCLUDE[csprcs](../includes/csprcs-md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
+- For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   

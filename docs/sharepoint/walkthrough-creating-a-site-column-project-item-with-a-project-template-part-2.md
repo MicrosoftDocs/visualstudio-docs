@@ -19,17 +19,17 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Creating a wizard for a custom SharePoint project item type that is associated with a project template.
+- Creating a wizard for a custom SharePoint project item type that is associated with a project template.
 
--   Defining a custom wizard UI that resembles the built-in wizards for SharePoint projects in Visual Studio.
+- Defining a custom wizard UI that resembles the built-in wizards for SharePoint projects in Visual Studio.
 
--   Creating two *SharePoint commands* that are used to call into the local SharePoint site while the wizard is running. SharePoint commands are methods that can be used by Visual Studio extensions to call APIs in the SharePoint server object model. For more information, see [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md).
+- Creating two *SharePoint commands* that are used to call into the local SharePoint site while the wizard is running. SharePoint commands are methods that can be used by Visual Studio extensions to call APIs in the SharePoint server object model. For more information, see [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
--   Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
+- Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
 
--   Creating a new .snk file in each new Site Column project instance. This file is used to sign the project output so that the SharePoint solution assembly can be deployed to the global assembly cache.
+- Creating a new .snk file in each new Site Column project instance. This file is used to sign the project output so that the SharePoint solution assembly can be deployed to the global assembly cache.
 
--   Debugging and testing the wizard.
+- Debugging and testing the wizard.
 
 > [!NOTE]
 > For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).

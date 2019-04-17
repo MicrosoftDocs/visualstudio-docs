@@ -62,9 +62,9 @@ You can create a build environment within your organization by installing Visual
   
 ## Prerequisites  
   
--   A licensed copy of Visual Studio Ultimate, Visual Studio Premium, or Visual Studio Professional  
+- A licensed copy of Visual Studio Ultimate, Visual Studio Premium, or Visual Studio Professional  
   
--   A copy of the .NET Framework 4.5.1, which you can download from the [Microsoft](https://www.microsoft.com/download/details.aspx?id=40779) website.  
+- A copy of the .NET Framework 4.5.1, which you can download from the [Microsoft](https://www.microsoft.com/download/details.aspx?id=40779) website.  
   
 ##  <a name="InstallingSoftware"></a> Installing software on the computers  
  First, set up the host computer and then set up the build computer.  
@@ -276,7 +276,7 @@ You can create a build environment within your organization by installing Visual
   
 #### To use vcvarsall.bat to set environment variables  
   
--   Open a Command Prompt window on the build computer and run %Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.  
+- Open a Command Prompt window on the build computer and run %Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.  
   
      This table describes the supported arguments for vcvarsall.bat:  
   

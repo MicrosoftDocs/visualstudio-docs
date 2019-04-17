@@ -54,7 +54,7 @@ A yellow arrow identifies the stack frame where the execution pointer is current
 
 ## Display non-user code in the Call Stack window
 
--   Right-click the **Call Stack** window and select **Show External Code**.
+- Right-click the **Call Stack** window and select **Show External Code**.
 
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:
 
@@ -72,19 +72,19 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## View the source code for a function on the call stack
 
--   In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.
+- In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.
 
 ## Run to a specific function from the Call Stack window
 
--  In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.
+- In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.
 
 ## Set a breakpoint on the exit point of a function call
 
--   See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
 
 ## Display calls to or from another thread
 
--   Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.
+- Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.
 
 ## Visually trace the call stack
 
@@ -98,11 +98,11 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 ## View the disassembly code for a function on the call stack (C#, C++, Visual Basic, F#)
 
--   In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.
+- In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.
 
 ## Change the optional information displayed
 
--   Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
+- Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 

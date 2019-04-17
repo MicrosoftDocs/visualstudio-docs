@@ -33,11 +33,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Designing the UI of the custom task pane.
+- Designing the UI of the custom task pane.
 
--   Adding a toggle button to the Ribbon.
+- Adding a toggle button to the Ribbon.
 
--   Synchronizing the toggle button with the custom task pane.
+- Synchronizing the toggle button with the custom task pane.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -45,9 +45,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   Microsoft Excel or Microsoft [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)].
+- Microsoft Excel or Microsoft [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)].
 
 ## Create the Add-in project
  In this step, you will create a VSTO Add-in project for Excel.
@@ -159,11 +159,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to create custom task panes from these topics:
 
--   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
+- Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).
 
--   Automate an application from a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
+- Automate an application from a custom task pane. For more information, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).
 
--   Create a custom task pane for every e-mail message that is opened in Outlook. For more information, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).
+- Create a custom task pane for every e-mail message that is opened in Outlook. For more information, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).
 
 ## See also
 - [Custom task panes](../vsto/custom-task-panes.md)

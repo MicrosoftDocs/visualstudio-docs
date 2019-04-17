@@ -165,9 +165,9 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 #### Resizing images  
  Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.  
   
--   In the **Properties** window, specify new values for the **Width** and **Height** properties.  
+- In the **Properties** window, specify new values for the **Width** and **Height** properties.  
   
--   Select the entire image and use the border markers to resize the image.  
+- Select the entire image and use the border markers to resize the image.  
   
 ### Working with tools  
   

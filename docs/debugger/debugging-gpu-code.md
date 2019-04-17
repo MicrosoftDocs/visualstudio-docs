@@ -26,9 +26,9 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ## Configuring GPU Debugging
  The debugger cannot break on both CPU code and GPU code in the same app execution. By default, the debugger breaks on CPU code. To debug GPU code, use one of these two steps:
 
--   In the **Debug Type** list on the **Standard** toolbar, choose **GPU Only**.
+- In the **Debug Type** list on the **Standard** toolbar, choose **GPU Only**.
 
--   In **Solution Explorer**, on the shortcut menu for the project, choose **Properties**. In the **Property Pages** dialog box, select **Debugging**, and then select **GPU Only** in the **Debugger Type** list.
+- In **Solution Explorer**, on the shortcut menu for the project, choose **Properties**. In the **Property Pages** dialog box, select **Debugging**, and then select **GPU Only** in the **Debugger Type** list.
 
 ## Launching and Attaching to Applications
  You can use the Visual Studio debugging commands to start and stop GPU debugging. For more information, see [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md). You can also attach the GPU debugger to a running process, but only if that process executes GPU code. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
@@ -43,15 +43,15 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ## Debugging Windows
  By using certain debugging windows, you can examine, flag, and freeze GPU threads. For more information, see:
 
--   [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)
+- [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)
 
--   [Using the Tasks Window](../debugger/using-the-tasks-window.md)
+- [Using the Tasks Window](../debugger/using-the-tasks-window.md)
 
--   [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
+- [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
 
--   [Debug Threads and Processes](../debugger/debug-threads-and-processes.md) (Debug Location toolbar)
+- [Debug Threads and Processes](../debugger/debug-threads-and-processes.md) (Debug Location toolbar)
 
--   [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)
+- [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)
 
 ## Data Synchronization Exceptions
  The debugger can identify several data synchronization conditions during execution. When a condition is detected, the debugger enters the break state. You have two options—**Break** or **Continue**. By using the **Exceptions** dialog box, you can configure whether the debugger detects these conditions and also which conditions it will break for. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md). You can also use the **Options** dialog box to specify that the debugger should ignore exceptions if the data that's written doesn't change the value of the data. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).

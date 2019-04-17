@@ -40,7 +40,7 @@ The **Disassembly** window shows assembly-language instructions that correspond 
 
 ## To turn on Source Annotation
 
--   Right-click the **Disassembly** window, and choose **Show Source Code** from the shortcut menu.
+- Right-click the **Disassembly** window, and choose **Show Source Code** from the shortcut menu.
 
      If you know the location of an attribute in a source window, you can use the shortcut menu to find the injected code in the **Disassembly** window.
 

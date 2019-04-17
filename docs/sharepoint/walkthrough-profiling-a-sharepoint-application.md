@@ -34,9 +34,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
--   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
 
 ## Create a SharePoint project
  First, create a SharePoint project.

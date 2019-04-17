@@ -37,9 +37,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Create a site workflow custom activity project
  First, create a project to hold and test the custom workflow activity.

@@ -135,11 +135,11 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 ## Create the user interface  
  The user interface for this application consists of the following:  
   
--   A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.  
+- A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.  
   
--   A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.  
+- A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.  
   
--   Two <xref:System.Windows.Forms.Button> controls.  
+- Two <xref:System.Windows.Forms.Button> controls.  
   
     -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
   
@@ -235,9 +235,9 @@ You can now test the form to make sure it behaves as expected.
 
 This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:  
   
--   Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.  
+- Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml%2A>.  
   
--   Edit the data in the dataset and write it out to a database.
+- Edit the data in the dataset and write it out to a database.
   
 ## See Also  
  [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   

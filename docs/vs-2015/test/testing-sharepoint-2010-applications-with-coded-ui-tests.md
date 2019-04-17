@@ -16,16 +16,16 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## What else should I know about coded UI tests?  
  To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196).  
   
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
   
 ## Creating a coded UI test for your SharePoint app  
  [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) for your SharePoint 2010 applications is the same as creating tests for other types of applications. Record and Playback is supported for all controls on the Web Editing interface. The interface for selecting categories and web parts are all standard web controls.  

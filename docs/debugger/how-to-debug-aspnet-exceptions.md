@@ -39,7 +39,7 @@ Debugging exceptions is an important part of developing a robust [!INCLUDE[vstec
 
 ### To use best practices for ASP.NET exception handling
 
--   Place `try ... catch` blocks around code that can throw exceptions that you can anticipate and know how to handle. For example, if the application is making calls to an XML Web Service or directly to a SQL Server, that code should be in **try ... catch** blocks because there are numerous exceptions that can occur.
+- Place `try ... catch` blocks around code that can throw exceptions that you can anticipate and know how to handle. For example, if the application is making calls to an XML Web Service or directly to a SQL Server, that code should be in **try ... catch** blocks because there are numerous exceptions that can occur.
 
 ## See Also
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

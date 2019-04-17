@@ -90,13 +90,13 @@ pddh->CreateDebugDocumentContext(ulStartPos + uCharacterOffset, cChars, &pddcNew
 ## The optional IDebugDocumentHost interface  
  The host can provide an implementation of the [IDebugDocumentHost Interface](../winscript/reference/idebugdocumenthost-interface.md) by using [IDebugDocumentHelper::SetDebugDocumentHost](../winscript/reference/idebugdocumenthelper-setdebugdocumenthost.md) to give it additional control over the helper. Here are some of the key things the host interface allows you to do:  
   
--   Add text using [IDebugDocumentHelper::AddDeferredText](../winscript/reference/idebugdocumenthelper-adddeferredtext.md) so that the host does not need to provide the actual characters immediately. When the characters are really needed, the helper will call [IDebugDocumentHost::GetDeferredText](../winscript/reference/idebugdocumenthost-getdeferredtext.md) on the host.  
+- Add text using [IDebugDocumentHelper::AddDeferredText](../winscript/reference/idebugdocumenthelper-adddeferredtext.md) so that the host does not need to provide the actual characters immediately. When the characters are really needed, the helper will call [IDebugDocumentHost::GetDeferredText](../winscript/reference/idebugdocumenthost-getdeferredtext.md) on the host.  
   
--   Override the default syntax coloring provided by the helper. The helper calls [IDebugDocumentHost::GetScriptTextAttributes](../winscript/reference/idebugdocumenthost-getscripttextattributes.md) to determine the coloring for a range of characters, falling back on its default implementation if the host return `E_NOTIMPL`.  
+- Override the default syntax coloring provided by the helper. The helper calls [IDebugDocumentHost::GetScriptTextAttributes](../winscript/reference/idebugdocumenthost-getscripttextattributes.md) to determine the coloring for a range of characters, falling back on its default implementation if the host return `E_NOTIMPL`.  
   
--   Provide a controlling unknown for document contexts created by the helper by implementing [IDebugDocumentHost::OnCreateDocumentContext](../winscript/reference/idebugdocumenthost-oncreatedocumentcontext.md). This allows the host to override the functionality of the default document context implementation.  
+- Provide a controlling unknown for document contexts created by the helper by implementing [IDebugDocumentHost::OnCreateDocumentContext](../winscript/reference/idebugdocumenthost-oncreatedocumentcontext.md). This allows the host to override the functionality of the default document context implementation.  
   
--   Provide a path name in the file system for the document. Some debugging UIs use this to permit the user to edit and save changes to the document. [IDebugDocumentHost::NotifyChanged](../winscript/reference/idebugdocumenthost-notifychanged.md) is called to notify the host after the document has been saved.  
+- Provide a path name in the file system for the document. Some debugging UIs use this to permit the user to edit and save changes to the document. [IDebugDocumentHost::NotifyChanged](../winscript/reference/idebugdocumenthost-notifychanged.md) is called to notify the host after the document has been saved.  
   
 ## See Also  
  [Active Script Debugging Overview](../winscript/active-script-debugging-overview.md)

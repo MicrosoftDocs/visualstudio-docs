@@ -30,9 +30,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
 
--   Visual Studio.
+- Visual Studio.
 
 ## Customize a SharePoint site
  For this example, you will create and customize a SharePoint subsite by adding a new site column to it and by creating another subsite for use later. Later, you will export the first subsite to a .wsp file and then import the custom site column into the second subsite by using the .wsp Import project.

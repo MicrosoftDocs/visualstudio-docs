@@ -25,11 +25,11 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
  **In this topic:**  
   
--   [Pre-requisites](#prereq)  
+- [Pre-requisites](#prereq)  
   
--   [Windows setup (Visual Studio and Xamarin)](#windows)  
+- [Windows setup (Visual Studio and Xamarin)](#windows)  
   
--   [Mac setup (Apple ID, Xcode, and Xamarin)](#mac)  
+- [Mac setup (Apple ID, Xcode, and Xamarin)](#mac)  
   
 ##  <a name="prereq"></a> Pre-requisites  
   

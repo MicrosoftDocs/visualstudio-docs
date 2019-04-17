@@ -25,11 +25,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating an actions pane with Windows Forms controls that are bound to data.
+- Creating an actions pane with Windows Forms controls that are bound to data.
 
--   Using a master/detail relationship to display data in the controls.
+- Using a master/detail relationship to display data in the controls.
 
--   Show the actions pane when the application opens.
+- Show the actions pane when the application opens.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -37,13 +37,13 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
 
--   Access to a server with the Northwind SQL Server sample database.
+- Access to a server with the Northwind SQL Server sample database.
 
--   Permissions to read from and write to the SQL Server database.
+- Permissions to read from and write to the SQL Server database.
 
 ## Create the project
  The first step is to create a Word Document project.
@@ -225,9 +225,9 @@ ms.workload:
 ## Next steps
  This walkthrough shows the basics of binding data to controls on an actions pane in Word. Here are some tasks that might come next:
 
--   Binding data to controls in Excel. For more information, see [Walkthrough: Bind data to controls on an Excel actions pane](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md).
+- Binding data to controls in Excel. For more information, see [Walkthrough: Bind data to controls on an Excel actions pane](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md).
 
--   Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
+- Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
 ## See also
 - [Actions pane overview](../vsto/actions-pane-overview.md)

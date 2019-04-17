@@ -98,6 +98,6 @@ Math quiz in progress
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).
+- To go to the next tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).
 
--   To return to the previous tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).
+- To return to the previous tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).

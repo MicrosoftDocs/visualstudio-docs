@@ -27,11 +27,11 @@ ms.workload:
 
  For information about using the Word object model to perform specific tasks, see the following topics:
 
--   [Work with documents](../vsto/working-with-documents.md)
+- [Work with documents](../vsto/working-with-documents.md)
 
--   [Work with text in documents](../vsto/working-with-text-in-documents.md)
+- [Work with text in documents](../vsto/working-with-text-in-documents.md)
 
--   [Work with tables](../vsto/working-with-tables.md)
+- [Work with tables](../vsto/working-with-tables.md)
 
 ##  <a name="understanding"></a> Understand the Word object model
  Word provides hundreds of objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the <xref:Microsoft.Office.Interop.Word.Application> object. This object represents the current instance of Word. The <xref:Microsoft.Office.Interop.Word.Application> object contains the <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection>, <xref:Microsoft.Office.Interop.Word.Bookmark>, and <xref:Microsoft.Office.Interop.Word.Range> objects. Each of these objects has many methods and properties that you can access to manipulate and interact with the object.

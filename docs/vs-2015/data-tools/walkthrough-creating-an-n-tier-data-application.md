@@ -52,7 +52,7 @@ N-tier* data applications are applications that access data and are separated in
 ## Prerequisites  
  To complete this walkthrough, you need:  
   
--   Access to the Northwind sample database.
+- Access to the Northwind sample database.
   
 ## Creating the N-Tier Solution and Class Library to Hold the Dataset (DataEntityTier)  
  The first step of this walkthrough is to create a solution and two class library projects. The first class library will hold the dataset (the generated typed DataSet class and DataTables that will hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The Dataset Designer is used to create the initial dataset and automatically separate the code into the two class libraries.  
@@ -294,7 +294,7 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To set the new presentation tier project as the Startup project  
   
--   In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.  
+- In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.  
   
 ## Adding References to the Presentation Tier  
  The client application PresentationTier requires a service reference to the data service in order to access the methods in the service. In addition, a reference to the dataset is required to enable type sharing by the WCF service. Until you enable type sharing through the data service, code added to the partial dataset class will not be available to the presentation tier. Because you typically add code such as validation to the row and column changing events of a data table, it is likely that you will want to access this code from the client.  
@@ -375,9 +375,9 @@ N-tier* data applications are applications that access data and are separated in
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
   
--   Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
+- Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
   
--   Add additional methods to the service for updating data back to the database.  
+- Add additional methods to the service for updating data back to the database.  
   
 ## See Also  
  [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)   

@@ -68,6 +68,6 @@ There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you a
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
+- To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
 
--   To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+- To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
