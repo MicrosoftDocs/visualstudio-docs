@@ -64,17 +64,17 @@ This topic describes your options for upgrading your database file (.mdf) after 
   
 2. In the **Add Connection** dialog box, specify the following information:  
   
-   -   **Data Source**: `Microsoft SQL Server (SqlClient)`  
+   - **Data Source**: `Microsoft SQL Server (SqlClient)`  
   
-   -   **Server Name**:  
+   - **Server Name**:  
   
-       -   To use the default version: `(localdb)\MSSQLLocalDB`.  This will specify either ProjectV12 or ProjectV13, depending on which version of Visual Studio  is installed and when the first LocalDB instance was created. The **MSSQLLocalDB** node in **SQL Server Object Explorer** shows which version it is pointing to.  
+       - To use the default version: `(localdb)\MSSQLLocalDB`.  This will specify either ProjectV12 or ProjectV13, depending on which version of Visual Studio  is installed and when the first LocalDB instance was created. The **MSSQLLocalDB** node in **SQL Server Object Explorer** shows which version it is pointing to.  
   
-       -   To use a specific version: `(localdb)\ProjectsV12` or `(localdb)\ProjectsV13`, where V12 is LocalDB 2014 and V13 is LocalDB 2016.  
+       - To use a specific version: `(localdb)\ProjectsV12` or `(localdb)\ProjectsV13`, where V12 is LocalDB 2014 and V13 is LocalDB 2016.  
   
-   -   **Attach a database file**: The physical path of the primary .mdf file.  
+   - **Attach a database file**: The physical path of the primary .mdf file.  
   
-   -   **Logical Name**: The name that you want to use with the file.  
+   - **Logical Name**: The name that you want to use with the file.  
   
 3. Select the **OK** button.  
   
@@ -98,9 +98,9 @@ This topic describes your options for upgrading your database file (.mdf) after 
   
 - In Visual Studio, open the project without upgrading it.  
   
-    -   To run the project, select the F5 key.  
+    - To run the project, select the F5 key.  
   
-    -   To edit the database, open the .mdf file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.  
+    - To edit the database, open the .mdf file in **Solution Explorer**, and expand the node in **Server Explorer** to work with your database.  
   
 ### To make SQL Server Express the default database engine  
   

@@ -23,13 +23,13 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
   
 - [Property Function Syntax](#BKMK_Syntax)  
   
-    -   [String Property Functions](#BKMK_String)  
+    - [String Property Functions](#BKMK_String)  
   
-    -   [Static Property Functions](#BKMK_Static)  
+    - [Static Property Functions](#BKMK_Static)  
   
-    -   [Calling Instance Methods on Static Properties](#BKMK_InstanceMethods)  
+    - [Calling Instance Methods on Static Properties](#BKMK_InstanceMethods)  
   
-    -   [MSBuild Property Functions](#BKMK_PropertyFunctions)  
+    - [MSBuild Property Functions](#BKMK_PropertyFunctions)  
   
 - [Nested Property Functions](#BKMK_Nested)  
   

@@ -40,17 +40,17 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
 
 3. Relay your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> calls into the stored `IOleCommandTarget` interface for the following StandardCommandSet97 commands:
 
-   -   cmdidUndo
+   - cmdidUndo
 
-   -   cmdidMultiLevelUndo
+   - cmdidMultiLevelUndo
 
-   -   cmdidRedo
+   - cmdidRedo
 
-   -   cmdidMultiLevelRedo
+   - cmdidMultiLevelRedo
 
-   -   cmdidMultiLevelUndoList
+   - cmdidMultiLevelUndoList
 
-   -   cmdidMultiLevelRedoList
+   - cmdidMultiLevelRedoList
 
 4. Call `QueryInterface` on `IOleUndoManager` for `IID_IVsChangeTrackingUndoManager`. Store the pointer to <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>.
 

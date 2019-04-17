@@ -136,12 +136,12 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
 - The LogMessage function has the following ErrorLevels:  
   
-    -   0 is for any information that you’d like to trace.  
+    - 0 is for any information that you’d like to trace.  
   
-    -   1 is for a warning.  
+    - 1 is for a warning.  
   
-    -   2 is for an error  
+    - 2 is for an error  
   
-    -   3 is for the Report formatter. When your project is upgraded, log the word “Converted” once, and don’t localize the word.  
+    - 3 is for the Report formatter. When your project is upgraded, log the word “Converted” once, and don’t localize the word.  
   
 - If a project doesn’t require any repair or upgrade, Visual Studio will generate the log file only if the project system had logged a warning or an error during UpgradeProject_CheckOnly or UpgradeProjectFlavor_CheckOnly methods.

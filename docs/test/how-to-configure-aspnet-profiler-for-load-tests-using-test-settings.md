@@ -46,9 +46,9 @@ Before you perform the steps in this procedure, you must open your test settings
 
      Two different sets of timing information are collected:
 
-    -   The timing information (Min, Max, Average, and Total) for servicing each web request.
+    - The timing information (Min, Max, Average, and Total) for servicing each web request.
 
-    -   The timing information (Min, Max, Average and Total) of executing each query.
+    - The timing information (Min, Max, Average and Total) of executing each query.
 
 With the ASP.NET profiler diagnostic data adapter configured in your test setting, you can now collect ASP.NET profiling data on your ASP.NET web application.
 

@@ -84,9 +84,9 @@ End Property
 
 2. Add  references to these assemblies:  
 
-    -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.\*.0**  
 
-    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
 
 3. Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.  
 

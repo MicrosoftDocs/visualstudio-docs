@@ -38,11 +38,11 @@ You can use several techniques to integrate multiple DSLs. For more information,
 
    2.  For each DSL, choose **Add Content** and add:
 
-       -   `Dsl*` project as a **MEF Component**
+       - `Dsl*` project as a **MEF Component**
 
-       -   `DslPackage*` project as a **MEF Component**
+       - `DslPackage*` project as a **MEF Component**
 
-       -   `DslPackage*` project as a **VS Package**
+       - `DslPackage*` project as a **VS Package**
 
 3. Build the solution.
 

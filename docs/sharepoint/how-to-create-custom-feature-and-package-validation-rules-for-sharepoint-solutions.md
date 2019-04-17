@@ -23,15 +23,15 @@ ms.workload:
 
 2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
 3. Create a class that implements one of the following interfaces:
 
-    -   To create a package validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> interface.
+    - To create a package validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> interface.
 
-    -   To create a Feature validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> interface.
+    - To create a Feature validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> interface.
 
 4. Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your validation rule. Pass the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> or <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> type to the attribute constructor.
 

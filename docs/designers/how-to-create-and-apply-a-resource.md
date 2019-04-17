@@ -31,13 +31,13 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
 
 4. Under **Define in**, choose the option that specifies where you want the resource to be defined:
 
-    -   To make the resource available to any document in your application, choose **Application**.
+    - To make the resource available to any document in your application, choose **Application**.
 
-    -   To make the resource available to only the current document, choose **This document**.
+    - To make the resource available to only the current document, choose **This document**.
 
-    -   To make the resource available to only the element from which you created the resource or to its child elements, choose **This document**, and in the drop-down list, select **element**: **name**.
+    - To make the resource available to only the element from which you created the resource or to its child elements, choose **This document**, and in the drop-down list, select **element**: **name**.
 
-    -   To define the resource in a resource dictionary file that can be reused in other projects, click **Resource dictionary**, and then select an existing resource dictionary file, such as **StandardStyles.xaml**, in the drop-down list.
+    - To define the resource in a resource dictionary file that can be reused in other projects, click **Resource dictionary**, and then select an existing resource dictionary file, such as **StandardStyles.xaml**, in the drop-down list.
 
 5. Choose the **OK** button to create the resource and apply it to the element from which you created it.
 

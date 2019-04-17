@@ -636,17 +636,17 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
      This XAML adds the following styles:  
   
-    -   `headerTextStyle`: To format the page title `Label`.  
+    - `headerTextStyle`: To format the page title `Label`.  
   
-    -   `labelStyle`: To format the `Label` controls.  
+    - `labelStyle`: To format the `Label` controls.  
   
-    -   `columnHeaderStyle`: To format the `DataGridColumnHeader`.  
+    - `columnHeaderStyle`: To format the `DataGridColumnHeader`.  
   
-    -   `listHeaderStyle`: To format the list header `Border` controls.  
+    - `listHeaderStyle`: To format the list header `Border` controls.  
   
-    -   `listHeaderTextStyle`: To format the list header **Label**.  
+    - `listHeaderTextStyle`: To format the list header **Label**.  
   
-    -   `buttonStyle`: To format the `Button` on the **ExpenseItHome.xaml** pppage.  
+    - `buttonStyle`: To format the `Button` on the **ExpenseItHome.xaml** pppage.  
   
 3. Open **ExpenseItHome.xaml** and replace everything between the `<Grid>` and `</Grid>` elements with the following XAML  
   

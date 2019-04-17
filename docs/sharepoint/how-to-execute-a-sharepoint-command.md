@@ -22,15 +22,15 @@ ms.workload:
 
 1. In your SharePoint tools extension, get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. The way you get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object depends on the type of extension you are creating:
 
-    -   In an extension of the SharePoint project system, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> property.
+    - In an extension of the SharePoint project system, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> property.
 
          For more information about project system extensions, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
-    -   In an extension of the **SharePoint Connections** node in **Server Explorer**, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> property. To get an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> object, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> property.
+    - In an extension of the **SharePoint Connections** node in **Server Explorer**, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext.SharePointConnection%2A> property. To get an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeContext> object, use the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.Context%2A> property.
 
          For more information about **Server Explorer** extensions, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
-    -   In code that is not part of an extension of the SharePoint tools, such as a project template wizard, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> property.
+    - In code that is not part of an extension of the SharePoint tools, such as a project template wizard, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.SharePointConnection%2A> property.
 
          For more information about retrieving the project service, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 

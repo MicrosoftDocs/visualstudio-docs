@@ -61,9 +61,9 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
 3. Press F5 and verify that:  
   
-   -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
+   - When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
   
-   -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
+   - When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
   
    You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.  
   

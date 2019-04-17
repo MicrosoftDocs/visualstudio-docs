@@ -27,13 +27,13 @@ When you need to investigate performance issues in your app, a good place to sta
   
     ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
   
-   -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
+   - Running the app in **Release** mode gives you a better view of the actual performance of your app.  
   
-   -   Running the app on the local machine best replicates the execution of the installed app.  
+   - Running the app on the local machine best replicates the execution of the installed app.  
   
-   -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
+   - If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
   
-   -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
+   - For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
   
 2. On the **Debug** menu, choose **Performance Profiler...**.  
   

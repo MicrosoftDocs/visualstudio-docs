@@ -119,11 +119,11 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 
 2. In the `TestSearch` class, add the following code, which performs the following actions:
 
-    -   Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> method to create a search task.
+    - Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> method to create a search task.
 
-    -   Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> method to restore the state of the text box. This method is called when a user cancels a search task and when a user sets or unsets options or filters. Both <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> are called on the UI thread. Therefore, you don't need to access the text box by means of the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> method.
+    - Overrides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> method to restore the state of the text box. This method is called when a user cancels a search task and when a user sets or unsets options or filters. Both <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> are called on the UI thread. Therefore, you don't need to access the text box by means of the <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> method.
 
-    -   Creates a class that's named `TestSearchTask` that inherits from <xref:Microsoft.VisualStudio.Shell.VsSearchTask>, which provides a default implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsSearchTask>.
+    - Creates a class that's named `TestSearchTask` that inherits from <xref:Microsoft.VisualStudio.Shell.VsSearchTask>, which provides a default implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsSearchTask>.
 
          In `TestSearchTask`, the constructor sets a private field that references the tool window. To provide the search method, you override the <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch%2A> and <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStopSearch%2A> methods. The <xref:Microsoft.VisualStudio.Shell.VsSearchTask.OnStartSearch%2A> method is where you implement the search process. This process includes performing the search, displaying the search results in the text box, and calling the base class implementation of this method to report that the search is complete.
 

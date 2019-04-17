@@ -24,13 +24,13 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
   
 1. Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
-   -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
+   - `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
   
-   -   ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
+   - ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
   
         It cannot be applied to the role properties that correspond to relationship links. Instead, use `ElementAdded` to monitor the domain relationship.  
   
-   -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
+   - `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
   
 2. Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.  
   

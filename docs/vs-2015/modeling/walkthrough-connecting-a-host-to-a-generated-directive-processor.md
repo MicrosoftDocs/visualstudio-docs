@@ -89,17 +89,17 @@ You can write your own host that processes text templates. A basic custom host i
   
 3. Add the following references:  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.11.0  
+    - Microsoft.VisualStudio.Modeling.Sdk.11.0  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0  
+    - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0  
   
-    -   Microsoft.VisualStudio.TextTemplating.11.0  
+    - Microsoft.VisualStudio.TextTemplating.11.0  
   
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.11.0  
+    - Microsoft.VisualStudio.TextTemplating.Interfaces.11.0  
   
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.11.0  
+    - Microsoft.VisualStudio.TextTemplating.Modeling.11.0  
   
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.11.0  
+    - Microsoft.VisualStudio.TextTemplating.VSHost.11.0  
   
 4. At the top of Program.cs or Module1.vb, add the following line of code:  
   

@@ -122,9 +122,9 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 17. In **Solution Explorer**, on the shortcut menu for the arithmetic.js file, choose **Properties**. Make these property changes:  
   
-    -   Set the **Include in VSIX** property to **True**.  
+    - Set the **Include in VSIX** property to **True**.  
   
-    -   Set the **Copy to Output Directory** property to **Copy Always**.  
+    - Set the **Copy to Output Directory** property to **Copy Always**.  
   
 18. In **Solution Explorer**, on the shortcut menu for the SimpleMathVSIX project, choose **Build**.  
   

@@ -74,19 +74,19 @@ To help keep your code stable through successive changes, we recommend that you 
   
 5. **In the unit test project**, add the following assembly References:  
   
-    -   *Your UML extension project*  
+    - *Your UML extension project*  
   
-    -   **EnvDTE.dll**  
+    - **EnvDTE.dll**  
   
-    -   **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
+    - **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
   
-    -   **Microsoft.VisualStudio.ComponentModelHost.dll**  
+    - **Microsoft.VisualStudio.ComponentModelHost.dll**  
   
-    -   **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
+    - **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
   
-    -   **Microsoft.VisualStudio.Uml.Interfaces.dll**  
+    - **Microsoft.VisualStudio.Uml.Interfaces.dll**  
   
-    -   **Microsoft.VSSDK.TestHostFramework.dll**  
+    - **Microsoft.VSSDK.TestHostFramework.dll**  
   
 6. Prefix the attribute `[HostType("VS IDE")]` to each test method, including initialization methods.  
   

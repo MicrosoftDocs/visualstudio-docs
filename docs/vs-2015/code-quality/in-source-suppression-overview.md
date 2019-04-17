@@ -58,15 +58,15 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:  
   
-    -   Module  
+    - Module  
   
-    -   Namespace  
+    - Namespace  
   
-    -   Resource  
+    - Resource  
   
-    -   Type  
+    - Type  
   
-    -   Member  
+    - Member  
   
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully-qualified item name.  
   

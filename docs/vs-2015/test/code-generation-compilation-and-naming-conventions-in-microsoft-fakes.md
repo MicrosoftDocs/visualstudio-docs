@@ -171,11 +171,11 @@ This topic discusses options and issues in Fakes code generation and compilation
   
 4. From your test project  
   
-    -   Make sure that you have a reference to the Fakes runtime DLL:  
+    - Make sure that you have a reference to the Fakes runtime DLL:  
   
          C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll  
   
-    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.  
+    - For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.  
   
 ###  <a name="BKMK_Avoiding_assembly_name_clashing"></a> Avoiding assembly name clashing  
  In a Team Build environment, all build outputs are merged into a single directory. In the case of multiple projects using Fakes, it might happen that Fakes assemblies from different version override each other. For example, TestProject1 fakes mscorlib.dll from the .NET Framework 2.0 and TestProject2 fakes mscorlib.dll for the .NET Framework 4 would both yield to a mscorlib.Fakes.dll Fakes assembly.  

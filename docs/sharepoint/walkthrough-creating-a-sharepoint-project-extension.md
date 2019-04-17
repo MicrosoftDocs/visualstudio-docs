@@ -24,11 +24,11 @@ ms.workload:
 
 - Creating a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension for SharePoint projects that does the following:
 
-    -   Adds a custom project property to the Properties window. The property applies to any SharePoint project.
+    - Adds a custom project property to the Properties window. The property applies to any SharePoint project.
 
-    -   Uses the SharePoint project object model to add a mapped folder to a project.
+    - Uses the SharePoint project object model to add a mapped folder to a project.
 
-    -   Uses the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] automation object model (DTE) to delete a mapped folder from the project.
+    - Uses the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] automation object model (DTE) to delete a mapped folder from the project.
 
 - Building a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Extension (VSIX) package to deploy the project property's extension assembly.
 

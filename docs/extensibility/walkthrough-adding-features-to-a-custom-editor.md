@@ -75,15 +75,15 @@ After you create a custom editor, you can add more features to it.
 
 10. Decide whether you want any other optional features for your editor.
 
-    -   If you want your editor to support find and replace commands, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.
+    - If you want your editor to support find and replace commands, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.
 
-    -   If you want to use a document outline tool window in your editor, implement `IVsDocOutlineProvider`.
+    - If you want to use a document outline tool window in your editor, implement `IVsDocOutlineProvider`.
 
-    -   If you want to use a status bar in your editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to get a pointer to `IVsStatusBar`.
+    - If you want to use a status bar in your editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to get a pointer to `IVsStatusBar`.
 
          For example, an editor can display line / column information, selection mode (stream / box), and insertion mode (insert / overstrike).
 
-    -   If you want your editor to support the `Undo` command, the recommended method is to use the OLE undo manager model. As an alternative, you can have the editor handle the `Undo` command directly.
+    - If you want your editor to support the `Undo` command, the recommended method is to use the OLE undo manager model. As an alternative, you can have the editor handle the `Undo` command directly.
 
 11. Create registry Information, including the GUIDs for the VSPackage, the menus, the editor, and other features.
 
@@ -142,9 +142,9 @@ After you create a custom editor, you can add more features to it.
 
 - There are two places a custom editor can expose automation objects:
 
-  -   `Document.Object`
+  - `Document.Object`
 
-  -   `Window.Object`
+  - `Window.Object`
 
 ## See also
 - [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)

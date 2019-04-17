@@ -120,31 +120,31 @@ ms.workload:
 
 7. Add four code files to the project, and give them the following names:
 
-    -   SiteColumnProjectWizard
+    - SiteColumnProjectWizard
 
-    -   SiteColumnWizardModel
+    - SiteColumnWizardModel
 
-    -   ProjectSigningManager
+    - ProjectSigningManager
 
-    -   CommandIds
+    - CommandIds
 
 8. Open the shortcut menu for the **ProjectTemplateWizard** project node, and then choose **Add Reference**.
 
 9. Expand the **Assemblies** node, choose the **Extensions** node, and then select the check boxes next to the following assemblies:
 
-    -   EnvDTE
+    - EnvDTE
 
-    -   Microsoft.VisualStudio.OLE.Interop
+    - Microsoft.VisualStudio.OLE.Interop
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   Microsoft.VisualStudio.Shell.11.0
+    - Microsoft.VisualStudio.Shell.11.0
 
-    -   Microsoft.VisualStudio.Shell.Interop.10.0
+    - Microsoft.VisualStudio.Shell.Interop.10.0
 
-    -   Microsoft.VisualStudio.Shell.Interop.11.0
+    - Microsoft.VisualStudio.Shell.Interop.11.0
 
-    -   Microsoft.VisualStudio.TemplateWizardInterface
+    - Microsoft.VisualStudio.TemplateWizardInterface
 
 10. Choose the **OK** button to add the assemblies to the project.
 
@@ -174,9 +174,9 @@ ms.workload:
 
 7. Expand the **Assemblies** node, choose the **Extensions** node, and then select the check boxes next to the following assemblies:
 
-    -   Microsoft.SharePoint
+    - Microsoft.SharePoint
 
-    -   Microsoft.VisualStudio.SharePoint.Commands
+    - Microsoft.VisualStudio.SharePoint.Commands
 
 8. Choose the **OK** button to add the assemblies to the project.
 

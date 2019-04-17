@@ -56,11 +56,11 @@ ms.workload:
 
     You can enter any of the following types of paths.
 
-   -   A local path (for example, *C:\FolderName\FolderName*).
+   - A local path (for example, *C:\FolderName\FolderName*).
 
-   -   A Uniform Naming Convention (UNC) path to a folder on your network (for example, *\\\ServerName\FolderName*).
+   - A Uniform Naming Convention (UNC) path to a folder on your network (for example, *\\\ServerName\FolderName*).
 
-   -   A relative path (for example, *PublishFolder\\*, which is the folder into which the project is published by default).
+   - A relative path (for example, *PublishFolder\\*, which is the folder into which the project is published by default).
 
 5. In the **Installation Folder URL** box, enter the fully qualified path of the location where end users will find your solution.
 
@@ -309,11 +309,11 @@ ms.workload:
 
 2. Perform the steps for one of the following approaches:
 
-    -   Use the Office Configuration Tool to add the server that's running SharePoint to the Trust Center in Word or Excel on all user computers.
+    - Use the Office Configuration Tool to add the server that's running SharePoint to the Trust Center in Word or Excel on all user computers.
 
          See [Security policies and settings in Office 2010](http://go.microsoft.com/fwlink/?LinkId=99227).
 
-    -   Ensure that each user performs the following steps.
+    - Ensure that each user performs the following steps.
 
         1.  On the local computer, open Word or Excel, choose the **File** tab, and then choose the **Options** button.
 

@@ -50,9 +50,9 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 5. On the third page of the wizard, you can choose to add tier interaction profiling (TIP) data, data from the JavaScript running in the Web pages, or both.  
   
-    -   To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
+    - To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
   
-    -   To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
+    - To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
   
 6. Click **Next**.  
   
@@ -84,9 +84,9 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 6. On the third page of the wizard, you can choose to add tier interaction profiling (TIP) data, data from the JavaScript running in the Web pages, or both.  
   
-   -   To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
+   - To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
   
-   -   To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
+   - To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
   
 7. Click **Next**.  
   

@@ -29,13 +29,13 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
 - You want to modify the build system. For example, you might want to enable the following actions:
 
-    -   Preprocess files before they reach the compiler.
+    - Preprocess files before they reach the compiler.
 
-    -   Copy the build outputs to a different place.
+    - Copy the build outputs to a different place.
 
-    -   Create compressed files from build outputs.
+    - Create compressed files from build outputs.
 
-    -   Do a post-processing step. For example, you might want to stamp an assembly with a different version.
+    - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
 
 You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.
 

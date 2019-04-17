@@ -52,15 +52,15 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
     Click each sample for more information.
 
-   -   Select **Task Flow** to create a DSL that has swimlanes. Swimlanes are vertical or horizontal partitions of the diagram.
+   - Select **Task Flow** to create a DSL that has swimlanes. Swimlanes are vertical or horizontal partitions of the diagram.
 
-   -   Select **Component Models** to create a DSL that has ports. Ports are small shapes on the edge of a larger shape.
+   - Select **Component Models** to create a DSL that has ports. Ports are small shapes on the edge of a larger shape.
 
-   -   Select **Class Diagrams** to define a DSL that has compartment shapes. Compartment shapes contain lists of items.
+   - Select **Class Diagrams** to define a DSL that has compartment shapes. Compartment shapes contain lists of items.
 
-   -   Select **Minimal Language** in other cases, or if you are uncertain.
+   - Select **Minimal Language** in other cases, or if you are uncertain.
 
-   -   Select **Minimal WinForm Designer** or **Minimal WPF Designer** to create a DSL that is displayed on a Windows Forms or WPF surface. You will have to write code to define the editor. For more information, see the following topics:
+   - Select **Minimal WinForm Designer** or **Minimal WPF Designer** to create a DSL that is displayed on a Windows Forms or WPF surface. You will have to write code to define the editor. For more information, see the following topics:
 
         [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)
 
@@ -68,9 +68,9 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 3. Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.
 
-   -   Choose a file name extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
+   - Choose a file name extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
 
-   -   The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
+   - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
 
 4. You can either adjust the settings on the other pages, or leave the default values.
 
@@ -231,9 +231,9 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 1. **Define and test a domain class as described in**  [Defining Domain Classes](#classes) **.**
 
-   -   The parent of the class should be the root class. That is, there should be an embedding relationship between the root class and the new domain class.
+   - The parent of the class should be the root class. That is, there should be an embedding relationship between the root class and the new domain class.
 
-   -   If your diagram has swimlanes, the parent can be the domain class that is mapped to a swimlane. Before continuing with this procedure, see [Defining a DSL that has Swimlanes](#swimlanes).
+   - If your diagram has swimlanes, the parent can be the domain class that is mapped to a swimlane. Before continuing with this procedure, see [Defining a DSL that has Swimlanes](#swimlanes).
 
 2. **Add a shape class** to represent the elements on the model diagram. Drag from one of the following tools onto the DSL Definition diagram:
 

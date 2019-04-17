@@ -38,7 +38,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
   
     Otherwise, click the drop-down menu and navigate to the relationship or class where the property is located.  
   
-   -   To avoid an error report, you should not navigate through a relationship marked with "*" in the navigation tool.  
+   - To avoid an error report, you should not navigate through a relationship marked with "*" in the navigation tool.  
   
 6. Set the **Filter Property** to a domain property. For example, Gender.  
   

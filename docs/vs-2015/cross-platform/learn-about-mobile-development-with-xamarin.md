@@ -80,9 +80,9 @@ This topic directs you to overview material that helps you understand developing
   
 1. **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft’s Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
   
-    -   **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
+    - **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
-    -   **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
+    - **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
   
 2. **Apple’s iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   

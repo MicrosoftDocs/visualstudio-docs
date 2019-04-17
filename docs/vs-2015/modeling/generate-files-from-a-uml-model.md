@@ -179,7 +179,7 @@ Type Class2 ::
   
 2. Create a C# or Visual Basic project in the same solution.  
   
-   -   In Solution Explorer, right-click the solution, point to **Add**, and then click **New Project**. Under **Installed Templates**, click **Visual Basic** or **Visual C#,** and then select a project type such as **Console Application**.  
+   - In Solution Explorer, right-click the solution, point to **Add**, and then click **New Project**. Under **Installed Templates**, click **Visual Basic** or **Visual C#,** and then select a project type such as **Console Application**.  
   
 3. Add a plain text file to the C# or Visual Basic project. This file will contain code that is shared if you want to write several text templates.  
   

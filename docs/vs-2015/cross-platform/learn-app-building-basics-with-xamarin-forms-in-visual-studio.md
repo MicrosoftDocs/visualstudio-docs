@@ -40,17 +40,17 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 2. After clicking OK to create the solution, you’ll have a number of individual projects:
 
-    -   **WeatherApp (Portable)**: the PCL where you’ll write code that is shared across platforms, including common business logic and UI code using with Xamarin.Forms.
+    - **WeatherApp (Portable)**: the PCL where you’ll write code that is shared across platforms, including common business logic and UI code using with Xamarin.Forms.
 
-    -   **WeatherApp.Droid**: the project that contains the native Android code. This is set as the default startup project.
+    - **WeatherApp.Droid**: the project that contains the native Android code. This is set as the default startup project.
 
-    -   **WeatherApp.iOS**: the project that contains the native iOS code.
+    - **WeatherApp.iOS**: the project that contains the native iOS code.
 
-    -   **WeatherApp.UWP**: the project that contains Windows 10 UWP code.
+    - **WeatherApp.UWP**: the project that contains Windows 10 UWP code.
 
-    -   **WeatherApp.Windows (Windows 8.1)**: the project that contains native Windows 8.1 code.
+    - **WeatherApp.Windows (Windows 8.1)**: the project that contains native Windows 8.1 code.
 
-    -   **WeatherApp.WinPhone (Windows Phone 8.1)**: the project that contains the native Windows Phone code.
+    - **WeatherApp.WinPhone (Windows Phone 8.1)**: the project that contains the native Windows Phone code.
 
     > [!NOTE]
     >  You're free to delete any of the projects for a platform that you're not targeting. For the purposes of this walkthrough, we'll be referring to the Android, iOS, and Windows Phone 8.1 projects. Working with the UWP and Windows 8.1 projects is very similar to working with the Windows Phone 8.1 project.
@@ -59,29 +59,29 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 3. Upgrade the Xamarin.Forms NuGet package in your solution to the latest stable version as follows. We recommend doing this whenever you create a new Xamarin solution:
 
-    -   Select **Tools > NuGet Package Manager > Manage NuGet Packages for Solution**.
+    - Select **Tools > NuGet Package Manager > Manage NuGet Packages for Solution**.
 
-    -   Under the **Updates** tab, check the **Xamarin.Forms** update and check to update all the projects in your solution. (Note: leave any updates for Xamarin.Android.Support unchecked.)
+    - Under the **Updates** tab, check the **Xamarin.Forms** update and check to update all the projects in your solution. (Note: leave any updates for Xamarin.Android.Support unchecked.)
 
-    -   Update the **Version** field to the **Latest stable** version that is available.
+    - Update the **Version** field to the **Latest stable** version that is available.
 
-    -   Click **Update**.
+    - Click **Update**.
 
          ![Updating the Xamarin.Forms NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-4.png "CrossPlat Xamarin FormsGuide 4")
 
 4. Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you’ll use to process information retrieved from a weather data service:
 
-    -   In the NuGet Package Manager (still open from step 3), select the **Browse** tab and search for **Newtonsoft**.
+    - In the NuGet Package Manager (still open from step 3), select the **Browse** tab and search for **Newtonsoft**.
 
-    -   Select **Newtonsoft.Json**.
+    - Select **Newtonsoft.Json**.
 
-    -   Check the **WeatherApp** project (this is the only project in which you need to install the package).
+    - Check the **WeatherApp** project (this is the only project in which you need to install the package).
 
-    -   Ensure the **Version** field is set to the **Latest stable** version.
+    - Ensure the **Version** field is set to the **Latest stable** version.
 
-    -   Click **Install**.
+    - Click **Install**.
 
-    -   ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")
+    - ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")
 
 5. Repeat step 4 to find and install the **Microsoft.Net.Http** package.
 

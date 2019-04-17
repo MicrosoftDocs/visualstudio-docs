@@ -63,9 +63,9 @@ Upon approval of your request, you'll receive a second email confirming successf
    *I will be in touch to ensure that everything moves smoothly for you. In the meantime, here’s some useful content to get you started:*
 
    - [CAST Highlight - CloudReadiness Demo](https://www.youtube.com/watch?v=wFUpAzn1Iu8&feature=youtu.be)
-    -   [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
-    -   Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
-    -   Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
+    - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
+    - Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
+    - Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
 
    *Best,*
    *Greg*

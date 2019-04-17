@@ -20,19 +20,19 @@ Coded UI tests can automate testing for web applications by recording your tests
   
 - Operating systems:  
   
-  -   Microsoft Windows 7  
+  - Microsoft Windows 7  
   
-  -   Microsoft Windows 8  
+  - Microsoft Windows 8  
   
-  -   Microsoft Windows Server 2008 R2 SP1  
+  - Microsoft Windows Server 2008 R2 SP1  
   
 - Web browser versions:  
   
-  -   Windows Internet Explorer 9  
+  - Windows Internet Explorer 9  
   
-  -   Windows Internet Explorer 10  
+  - Windows Internet Explorer 10  
   
-  -   For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
+  - For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
   
 - Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   

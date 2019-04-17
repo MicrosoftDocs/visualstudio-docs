@@ -42,9 +42,9 @@ ms.workload:
 
 4. Set the **PositionType** property to the appropriate value:
 
-    -   **BeforeOfficeId** positions the group before a specified built-in tab.
+    - **BeforeOfficeId** positions the group before a specified built-in tab.
 
-    -   **AfterOfficeId** positions the group after a specified built-in tab.
+    - **AfterOfficeId** positions the group after a specified built-in tab.
 
 5. Set the **OfficeId** property to the control ID of a built-in tab.
 

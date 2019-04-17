@@ -208,7 +208,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 2. Connect the parts to one another.  
   
-    -   Use the **Dependency** tool to connect the ports of different parts (6).  
+    - Use the **Dependency** tool to connect the ports of different parts (6).  
   
 3. Connect the parts to the parent component's ports:  
   

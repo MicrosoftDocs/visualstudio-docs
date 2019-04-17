@@ -22,33 +22,33 @@ Visual Studio Tools for Unity change log.
 
 - **General:**
 
-    -   Added an option to disable Unity console logs in Visual Studio's error list.
+    - Added an option to disable Unity console logs in Visual Studio's error list.
 
-    -   Added an option to allow generated project properties to be modified.
+    - Added an option to allow generated project properties to be modified.
 
 - **Debugger:**
 
-    -   Added Text, XML, HTML and JSON string visualizers.
+    - Added Text, XML, HTML and JSON string visualizers.
 
 - **Wizards:**
 
-    -   Added missing MonoBehaviors.
+    - Added missing MonoBehaviors.
 
 ### Bug fixes
 
 - **General:**
 
-    -   Fixed a conflict with ReSharper that prevented controls inside Visual Studio settings from being displayed.
+    - Fixed a conflict with ReSharper that prevented controls inside Visual Studio settings from being displayed.
 
-    -   Fixed a conflict with Xamarin that  prevented debugging in some cases.
+    - Fixed a conflict with Xamarin that  prevented debugging in some cases.
 
 - **Debugger:**
 
-    -   Fixed an issue that caused Visual Studio to freeze when debugging.
+    - Fixed an issue that caused Visual Studio to freeze when debugging.
 
-    -   Fixed an issue with function breakpoints in Visual Studio 2015.
+    - Fixed an issue with function breakpoints in Visual Studio 2015.
 
-    -   Fixed several expression evaluation issues.
+    - Fixed several expression evaluation issues.
 
 ## 2.2
  Released 2016-02-04
@@ -57,45 +57,45 @@ Visual Studio Tools for Unity change log.
 
 - **Wizards:**
 
-    -   Added smart search in the **Implement MonoBehavior** wizard.
+    - Added smart search in the **Implement MonoBehavior** wizard.
 
-    -   Made wizards context aware; for example, NetworkBehavior messages are only available when working with a NetworkBehavior.
+    - Made wizards context aware; for example, NetworkBehavior messages are only available when working with a NetworkBehavior.
 
-    -   Added support for NetworkBehavior messages in the wizards.
+    - Added support for NetworkBehavior messages in the wizards.
 
 - **UI:**
 
-    -   Added an option to configure the visibility of MonoBehavior messages.
+    - Added an option to configure the visibility of MonoBehavior messages.
 
-    -   Removed Visual Studio property pages that are not relevent to Unity projects.
+    - Removed Visual Studio property pages that are not relevent to Unity projects.
 
 ### Bug fixes
 
 - **Project generation:**
 
-    -   Fixed references to UnityEngine and UnityEditor on Unity 4.6.
+    - Fixed references to UnityEngine and UnityEditor on Unity 4.6.
 
-    -   Fixed generation of project files when Unity is running on OSX.
+    - Fixed generation of project files when Unity is running on OSX.
 
-    -   Fixed handling of project names containing hashmark (#) characters.
+    - Fixed handling of project names containing hashmark (#) characters.
 
-    -   Restricted generated projects to C# 4.
+    - Restricted generated projects to C# 4.
 
 - **Debugger:**
 
-    -   Fixed an issue with expression evaluation when debugging inside a Unity coroutine.
+    - Fixed an issue with expression evaluation when debugging inside a Unity coroutine.
 
-    -   Fixed an issue that caused Visual Studio to freeze when debugging.
+    - Fixed an issue that caused Visual Studio to freeze when debugging.
 
 - **UI:**
 
-    -   Fixed an incompatibility with the [Tabs Studio](https://tabsstudio.com/) Visual Studio extension.
+    - Fixed an incompatibility with the [Tabs Studio](https://tabsstudio.com/) Visual Studio extension.
 
 - **Installer:**
 
-    -   Support machine-wide installation of VSTU (install for all users)  by creating HKLM registry entries.
+    - Support machine-wide installation of VSTU (install for all users)  by creating HKLM registry entries.
 
-    -   Fixed issues with uninstallation of VSTU when the same version of VSTU is installed for multiple different versions of Visual Studio. For example, when VSTU **2015** 2.1.0.0 and VSTU **2013** 2.1.0.0 were both installed.
+    - Fixed issues with uninstallation of VSTU when the same version of VSTU is installed for multiple different versions of Visual Studio. For example, when VSTU **2015** 2.1.0.0 and VSTU **2013** 2.1.0.0 were both installed.
 
 ## 2.1
  Released 2015-09-08
@@ -125,33 +125,33 @@ Visual Studio Tools for Unity change log.
 
 - **Unity Integration:**
 
-    -   Fixed the conversion of debug symbols created with Visual Studio 2015 when importing a DLL and its debug symbols (PDB).
+    - Fixed the conversion of debug symbols created with Visual Studio 2015 when importing a DLL and its debug symbols (PDB).
 
-    -   Always generate MDB files when importing a DLL and its debug symbols (PDB), except when an MDB file is also provided.
+    - Always generate MDB files when importing a DLL and its debug symbols (PDB), except when an MDB file is also provided.
 
-    -   Fixed pollution of the Unity project directory with an obj directory.
+    - Fixed pollution of the Unity project directory with an obj directory.
 
-    -   Fixed generation of references to System.Xml.Link and System.Runtime.Serialization.
+    - Fixed generation of references to System.Xml.Link and System.Runtime.Serialization.
 
-    -   Added support for multiple subscribers to the project file generation API hooks.
+    - Added support for multiple subscribers to the project file generation API hooks.
 
-    -   Always complete project file generation even when one of the files to be generated is locked.
+    - Always complete project file generation even when one of the files to be generated is locked.
 
-    -   Added support for * wildcards in the extension filter when specifying files to be included in the C# project.
+    - Added support for * wildcards in the extension filter when specifying files to be included in the C# project.
 
 - **Visual Studio integration:**
 
-    -   Fixed a compatibility issue with the Productivity Power Tools.
+    - Fixed a compatibility issue with the Productivity Power Tools.
 
-    -   Fixed generating MonoBehaviors around events and delegates declarations.
+    - Fixed generating MonoBehaviors around events and delegates declarations.
 
 - **Debugger:**
 
-    -   Fixed a potential freeze when debugging.
+    - Fixed a potential freeze when debugging.
 
-    -   Fixed an issue where locals would not be displayed in certain stack frames.
+    - Fixed an issue where locals would not be displayed in certain stack frames.
 
-    -   Fixed inspecting empty arrays.
+    - Fixed inspecting empty arrays.
 
 ## 2.0 Preview 2
  Released 2015-04-02
@@ -160,39 +160,39 @@ Visual Studio Tools for Unity change log.
 
 - **Unity Project Explorer:**
 
-    -   Automatically rename class when renaming a file in the Unity Project Explorer (See **Options** dialog).
+    - Automatically rename class when renaming a file in the Unity Project Explorer (See **Options** dialog).
 
-    -   Automatically select newly created scripts in the Unity Project Explorer.
+    - Automatically select newly created scripts in the Unity Project Explorer.
 
-    -   Track the active script in the Unity Project Explorer (See **Options** dialog).
+    - Track the active script in the Unity Project Explorer (See **Options** dialog).
 
-    -   Dual-synchronize the Visual Studio Solution Explorer (See **Options** dialog).
+    - Dual-synchronize the Visual Studio Solution Explorer (See **Options** dialog).
 
-    -   Adopt Visual Studio icons in Unity Project Explorer.
+    - Adopt Visual Studio icons in Unity Project Explorer.
 
 - **Debugger:**
 
-    -   Select the active debug target from a list of saved or recently-used debug targets (See **Options** dialog).
+    - Select the active debug target from a list of saved or recently-used debug targets (See **Options** dialog).
 
-    -   Create function breakpoints on MonoBehavior methods and apply them to multiple MonoBehavior classes.
+    - Create function breakpoints on MonoBehavior methods and apply them to multiple MonoBehavior classes.
 
-    -   Support Make Object ID in the debugger.
+    - Support Make Object ID in the debugger.
 
-    -   Support breakpoint hit count in the debugger.
+    - Support breakpoint hit count in the debugger.
 
-    -   Support break-on-exception in the debugger (Experimental. See **Options** Dialog).
+    - Support break-on-exception in the debugger (Experimental. See **Options** Dialog).
 
-    -   Support creation of objects and arrays when evaluating expressions in the debugger.
+    - Support creation of objects and arrays when evaluating expressions in the debugger.
 
-    -   Support null comparison when evaluation expressions in the debugger.
+    - Support null comparison when evaluation expressions in the debugger.
 
-    -   Filter out obsolete members in debugger watch windows.
+    - Filter out obsolete members in debugger watch windows.
 
 - **Installer:**
 
-    -   Optimized Visual Studio Tools for Unity extension registration.
+    - Optimized Visual Studio Tools for Unity extension registration.
 
-    -   Install Visual Studio Tools for Unity package for Unity 5.
+    - Install Visual Studio Tools for Unity package for Unity 5.
 
 - **Documentation:** Improve performance of documentation generation.
 
@@ -206,33 +206,33 @@ Visual Studio Tools for Unity change log.
 
 - **Unity Project Explorer:**
 
-    -   Refresh the Unity Project Explorer after files are moved or renamed from the Visual Studio Solution Explorer.
+    - Refresh the Unity Project Explorer after files are moved or renamed from the Visual Studio Solution Explorer.
 
-    -   Preserve selections when renaming files in the Unity Project Explorer.
+    - Preserve selections when renaming files in the Unity Project Explorer.
 
-    -   Prevent automatic expand and collapse when files are double clicked in the Unity Project Explorer.
+    - Prevent automatic expand and collapse when files are double clicked in the Unity Project Explorer.
 
-    -   Ensure that newly selected files are visible in the Unity Project Explorer.
+    - Ensure that newly selected files are visible in the Unity Project Explorer.
 
 - **Debugger:**
 
-    -   Prevent a possible Visual Studio freeze when evaluating expressions in the debugger.
+    - Prevent a possible Visual Studio freeze when evaluating expressions in the debugger.
 
-    -   Ensure that method invocations happen on the proper domain in the debugger.
+    - Ensure that method invocations happen on the proper domain in the debugger.
 
 - **Unity:**
 
-    -   Correct the location of UnityVS.OpenFile with Unity 5.
+    - Correct the location of UnityVS.OpenFile with Unity 5.
 
-    -   Correct the location of pdb2mdb with Unity 5.
+    - Correct the location of pdb2mdb with Unity 5.
 
-    -   Prevent a possible exception during project file generation.
+    - Prevent a possible exception during project file generation.
 
-    -   Prevent a possible freeze when running Unity on OSX.
+    - Prevent a possible freeze when running Unity on OSX.
 
-    -   Handle internal exceptions.
+    - Handle internal exceptions.
 
-    -   Send Unity console logs to the VS error list.
+    - Send Unity console logs to the VS error list.
 
 - **Documentation:** Correct documentation generation for the new unity documentation.
 
@@ -253,15 +253,15 @@ Visual Studio Tools for Unity change log.
 
 - Improved visualization of values when debugging:
 
-    -   Better visualization for ArrayLists, Lists, Hashtables and Dictionaries.
+    - Better visualization for ArrayLists, Lists, Hashtables and Dictionaries.
 
-    -   Show Non-Public members and Static members as categories in watch and local views.
+    - Show Non-Public members and Static members as categories in watch and local views.
 
-    -   Improved display of Unity's SerializedProperty to only evaluate the value field valid for the property.
+    - Improved display of Unity's SerializedProperty to only evaluate the value field valid for the property.
 
-    -   DebuggerDisplayAttribute support for classes and structs.
+    - DebuggerDisplayAttribute support for classes and structs.
 
-    -   DebuggerTypeProxyAttribute support.
+    - DebuggerTypeProxyAttribute support.
 
 - Make the insertion of MonoBehaviour methods using our wizards to respect the user coding conventions.
 

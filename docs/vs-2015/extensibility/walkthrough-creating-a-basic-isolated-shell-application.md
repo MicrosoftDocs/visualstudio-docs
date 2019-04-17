@@ -220,9 +220,9 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 9. Click the **Add Files** button and from the \MyVSShellStub\Release\Extensions\Application\ folder add the following files:  
   
-    -   MyVSShellStub.AboutBoxPackage.pkgdef  
+    - MyVSShellStub.AboutBoxPackage.pkgdef  
   
-    -   MyVSShellStub.Application.pkgdef  
+    - MyVSShellStub.Application.pkgdef  
   
 10. Right-click the **Fabrikam Music Editor [INSTALLDIR]** node in the left pane and add a new folder named **1033**.  
   

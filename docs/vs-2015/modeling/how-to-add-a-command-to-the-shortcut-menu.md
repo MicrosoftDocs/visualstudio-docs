@@ -118,13 +118,13 @@ You can add menu commands to your domain-specific language (DSL) so that your us
   
 6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:  
   
-    -   `grpidMyMenuGroup`  
+    - `grpidMyMenuGroup`  
   
-    -   `cmdidMyContextMenuCommand`  
+    - `cmdidMyContextMenuCommand`  
   
-    -   `guidCustomMenuCmdSet`  
+    - `guidCustomMenuCmdSet`  
   
-    -   `My Context Menu Command`  
+    - `My Context Menu Command`  
   
 ##  <a name="version"></a> Update the Package Version in Package.tt  
  Whenever you add or change a command, update the `version` parameter of the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> that is applied to the package class before you release the new version of your domain-specific language.  
@@ -339,11 +339,11 @@ protected override IList<MenuCommand> GetMenuCommands()
   
    **OnStatus method is not called**:  
   
-  -   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.  
+  - Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.  
   
-  -   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.  
+  - In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.  
   
-  -   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.  
+  - In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.  
   
 - Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.  
   

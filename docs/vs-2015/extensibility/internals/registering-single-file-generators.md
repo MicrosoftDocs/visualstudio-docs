@@ -34,15 +34,15 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
   
 2. Create a registry key in the desired [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:  
   
-    -   (Default)  
+    - (Default)  
   
          Optional. Provides a user-friendly description of the custom tool. This parameter is optional, but recommended.  
   
-    -   CLSID  
+    - CLSID  
   
          Required. Specifies the identifier of the class library of the COM component that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>.  
   
-    -   GeneratesDesignTimeSource  
+    - GeneratesDesignTimeSource  
   
          Required. Indicates whether types from files produced by this custom tool are made available to visual designers. The value of this parameter needs to be (zero) 0 for types not available to visual designers or (one) 1 for types available to visual designers.  
   

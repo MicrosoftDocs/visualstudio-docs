@@ -76,9 +76,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - [Attach the debugger to a running app](#BKMK_Attach_the_debugger_to_a_running_app_)
 
-  -   [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)
+  - [Set the app to run in debug mode](#BKMK_Set_the_app_to_run_in_debug_mode)
 
-  -   [Attach the debugger](#BKMK_Attach_the_debugger)
+  - [Attach the debugger](#BKMK_Attach_the_debugger)
 
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> The easy way to start debugging
 
@@ -96,11 +96,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 2. Do this to open the debug property page for the project :
 
-    -   For Visual C# and Visual Basic apps, choose **Debug**.
+    - For Visual C# and Visual Basic apps, choose **Debug**.
 
          ![C&#35; &#47; VB project debug property page](../debugger/media/dbg-csvb-debugpropertypage.png "DBG_CsVb_DebugPropertyPage")
 
-    -   For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.
+    - For Visual C++ apps, expand the **Configuration Properties**  node and then choose **Debugging**.
 
          ![C&#43;&#43; Windows Store app debugging property page](../debugger/media/dbg-cpp-debugpropertypage.png "DBG_CPP_DebugPropertyPage")
 
@@ -131,9 +131,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - Enter the name or IP address of the remote machine.
 
-  -   For C# and Visual Basic apps, enter the name or IP address in the **Remote machine** box.
+  - For C# and Visual Basic apps, enter the name or IP address in the **Remote machine** box.
 
-  -   For C++ apps, enter the name or IP address in the **Machine Name** box.
+  - For C++ apps, enter the name or IP address in the **Machine Name** box.
 
 - Choose the remote machine from the **Select Remote Debugger Connection** dialog box.
 
@@ -224,9 +224,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 - On the **Debugging** property page of the app (**Debug** in Visual C++)
 
-  -   For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.
+  - For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.
 
-  -   For Visual C++ apps, choose **Yes** from the **Launch Application** list.
+  - For Visual C++ apps, choose **Yes** from the **Launch Application** list.
 
 - Choose **Start Debugging** on the **Debug** menu (Keyboard: F5).
 
@@ -298,19 +298,19 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 2. To attach to an app on a remote device, specify the remote device in the **Qualifier** box. You can:
 
-   -   Enter the name in the **Qualifier** box.
+   - Enter the name in the **Qualifier** box.
 
-   -   Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.
+   - Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.
 
-   -   Choose **Find** to select the device from a list of devices on your local subnet.
+   - Choose **Find** to select the device from a list of devices on your local subnet.
 
 3. Specify the type of code that you want to debug in the **Attach to** box.
 
     Choose **Select** and then do one of the following:
 
-   -   Choose **Automatically determine the type of code to debug**
+   - Choose **Automatically determine the type of code to debug**
 
-   -   Choose **Debug these code types** and then choose one or more types from the list.
+   - Choose **Debug these code types** and then choose one or more types from the list.
 
 4. In the **Available Processes**  list, choose the app process.
 

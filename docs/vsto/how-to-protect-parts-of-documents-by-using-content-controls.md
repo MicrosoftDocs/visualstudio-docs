@@ -39,9 +39,9 @@ ms.workload:
 
 2. In the **Properties** window, set one or both of the following properties:
 
-    -   To prevent users from editing the control, set **LockContents** to **True**.
+    - To prevent users from editing the control, set **LockContents** to **True**.
 
-    -   To prevent users from deleting the control, set **LockContentControl** to **True**.
+    - To prevent users from deleting the control, set **LockContentControl** to **True**.
 
 3. Click **OK**.
 

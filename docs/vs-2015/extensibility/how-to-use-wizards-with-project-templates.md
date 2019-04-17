@@ -53,11 +53,11 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
   
 2. In the **Solution Explorer**, select the VSIX project node. Below the Solution Explorer, you should see the **Properties** window. If you do not, select **View / Properties Window**, or press **F4**. In the Properties window, select the following fields to `true`:  
   
-   -   **IncludeAssemblyInVSIXContainer**  
+   - **IncludeAssemblyInVSIXContainer**  
   
-   -   **IncludeDebugSymbolsInVSIXContainer**  
+   - **IncludeDebugSymbolsInVSIXContainer**  
   
-   -   **IncludeDebugSymbolsInLocalVSIXDeployment**  
+   - **IncludeDebugSymbolsInLocalVSIXDeployment**  
   
 3. Add the assembly as an asset to the VSIX project. Open the source.extension.vsixmanifest file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyTemplateWizard**.  
   

@@ -31,11 +31,11 @@ You can set the properties for a Web application using the IIS administration to
 
 1. Open the **Administrative Tools** window: On the **Start** menu, point to **Programs**, and then click **Administrative Tools**. If **Administrative Tools** does not appear in the **Programs** menu, then look for it in the **Control Panel**.
 
-   -   On Windows 2000, select **Internet Services Manager**.
+   - On Windows 2000, select **Internet Services Manager**.
 
-   -   On Windows XP, select **Internet Information Services**.
+   - On Windows XP, select **Internet Information Services**.
 
-   -   On Windows Server 2003, double-click **Manage Your Server**.
+   - On Windows Server 2003, double-click **Manage Your Server**.
 
         The **Manage Your Server** window opens. Under **Application Server**, click **Manage this application server**.
 

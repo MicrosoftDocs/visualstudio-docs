@@ -25,9 +25,9 @@ This topic describes the software and security requirements for [!INCLUDE[vsteca
   
 - Local debugging, in which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the Web application run on the same computer. There are two versions of this scenario:  
   
-    -   The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code resides on the file system.  
+    - The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code resides on the file system.  
   
-    -   The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code resides in an IIS Web site.  
+    - The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code resides in an IIS Web site.  
   
 - Remote debugging, in which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] runs on a client computer and debugs a Web application that is running on a remote server computer.  
   

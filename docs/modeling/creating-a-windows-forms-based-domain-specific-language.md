@@ -52,9 +52,9 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 - The `UI` project contains a working sample of a form control bound to the DSL. However, it will not work when you have changed the DSL Definition. The `UI` project contains:
 
-    -   A Windows Forms class named `ModelViewControl`.
+    - A Windows Forms class named `ModelViewControl`.
 
-    -   A file named `DataBinding.cs` that contains an additional partial definition of `ModelViewControl`. To see its content, in **Solution Explorer**, open the shortcut menu for the file and choose **View Code**.
+    - A file named `DataBinding.cs` that contains an additional partial definition of `ModelViewControl`. To see its content, in **Solution Explorer**, open the shortcut menu for the file and choose **View Code**.
 
 ### About the UI Project
  When you update the DSL Definition file to define your own DSL, you will have to update the control in the `UI` project to display your DSL. Unlike the `Dsl` and `DslPackage` projects, the sample `UI` project is not generated from `DslDefinitionl.dsl`. You can add .tt files to generate the code if you want, although that is not covered in this walkthrough.
@@ -79,15 +79,15 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 4. Use the **Named Domain Class** tool to create the following domain classes:
 
-    -   `Field` - Give this an additional domain property named `Size`.
+    - `Field` - Give this an additional domain property named `Size`.
 
-    -   `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
+    - `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
 
 5. Use the **Domain Class** tool to create the following classes:
 
-    -   `Sheep`
+    - `Sheep`
 
-    -   `Goat`
+    - `Goat`
 
 6. Use the **Inheritance** tool to make `Goat` and `Sheep` inherit from `Animal`.
 

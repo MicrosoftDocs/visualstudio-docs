@@ -119,95 +119,95 @@ You can create a build environment within your organization by installing Visual
   
 2. Copy the following folders recursively from the host computer to the build computer:  
   
-   -   %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\  
+   - %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\  
   
-   -   %ProgramFiles%\Common Files\Merge Modules\  
+   - %ProgramFiles%\Common Files\Merge Modules\  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\VC\  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\VC\  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\ProjectComponents\  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\ProjectComponents\  
   
-   -   %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\V110\  
+   - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\V110\  
   
-   -   %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETCore\v4.5\  
+   - %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETCore\v4.5\  
   
-   -   %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETFramework\v4.5\  
+   - %ProgramFiles%\Reference Assemblies\Microsoft\Framework\\.NETFramework\v4.5\  
   
 3. Copy these files from the host computer to the build computer:  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msobj110.dll  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msobj110.dll  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdb110.dll  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdb110.dll  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbcore.dll  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbcore.dll  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbsrv.exe  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\mspdbsrv.exe  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msvcdis110.dll  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\msvcdis110.dll  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\makehm.exe  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\makehm.exe  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\VCVarsQueryRegistry.bat  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\VCVarsQueryRegistry.bat  
   
-   -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\vsvars32.bat  
+   - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\vsvars32.bat  
   
 4. The following Visual C++ runtime libraries are required only if you run build outputs on the build computer—for example, as part of automated testing. The files are typically located in subfolders under the %ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x86\ or %ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x64\ folder, depending on the system architecture. On x86 systems, copy the x86 binaries to the \Windows\System32\ folder. On x64 systems, copy the x86 binaries to the Windows\SysWOW64\ folder, and the x64 binaries to the Windows\System32\ folder.  
   
-   -   \Microsoft.VC110.ATL\atl110.dll  
+   - \Microsoft.VC110.ATL\atl110.dll  
   
-   -   \Microsoft.VC110.CRT\msvcp110.dll  
+   - \Microsoft.VC110.CRT\msvcp110.dll  
   
-   -   \Microsoft.VC110.CRT\msvcr110.dll  
+   - \Microsoft.VC110.CRT\msvcr110.dll  
   
-   -   \Microsoft.VC110.CXXAMP\vcamp110.dll  
+   - \Microsoft.VC110.CXXAMP\vcamp110.dll  
   
-   -   \Microsoft.VC110.MFC\mfc110.dll  
+   - \Microsoft.VC110.MFC\mfc110.dll  
   
-   -   \Microsoft.VC110.MFC\mfc110u.dll  
+   - \Microsoft.VC110.MFC\mfc110u.dll  
   
-   -   \Microsoft.VC110.MFC\mfcm110.dll  
+   - \Microsoft.VC110.MFC\mfcm110.dll  
   
-   -   \Microsoft.VC110.MFC\mfcm110u.dll  
+   - \Microsoft.VC110.MFC\mfcm110u.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110chs.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110chs.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110cht.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110cht.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110deu.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110deu.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110enu.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110enu.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110esn.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110esn.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110fra.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110fra.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110ita.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110ita.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110jpn.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110jpn.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110kor.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110kor.dll  
   
-   -   \Microsoft.VC110.MFCLOC\mfc110rus.dll  
+   - \Microsoft.VC110.MFCLOC\mfc110rus.dll  
   
-   -   \Microsoft.VC110.OPENMP\vcomp110.dll  
+   - \Microsoft.VC110.OPENMP\vcomp110.dll  
   
 5. Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Preparing a Test Machine To Run a Debug Executable](http://msdn.microsoft.com/library/f0400989-cc2e-4dce-9788-6bdbe91c6f5a). No other files may be copied.  
   
-   -   \Microsoft.VC110.DebugCRT\msvcp110d.dll  
+   - \Microsoft.VC110.DebugCRT\msvcp110d.dll  
   
-   -   \Microsoft.VC110.DebugCRT\msvcr110d.dll  
+   - \Microsoft.VC110.DebugCRT\msvcr110d.dll  
   
-   -   \Microsoft.VC110.DebugCXXAMP\vcamp110d.dll  
+   - \Microsoft.VC110.DebugCXXAMP\vcamp110d.dll  
   
-   -   \Microsoft.VC110.DebugMFC\mfc110d.dll  
+   - \Microsoft.VC110.DebugMFC\mfc110d.dll  
   
-   -   \Microsoft.VC110.DebugMFC\mfc110ud.dll  
+   - \Microsoft.VC110.DebugMFC\mfc110ud.dll  
   
-   -   \Microsoft.VC110.DebugMFC\mfcm110d.dll  
+   - \Microsoft.VC110.DebugMFC\mfcm110d.dll  
   
-   -   \Microsoft.VC110.DebugMFC\mfcm110ud.dll  
+   - \Microsoft.VC110.DebugMFC\mfcm110ud.dll  
   
-   -   \Microsoft.VC110.DebugOpenMP\vcomp110d.dll  
+   - \Microsoft.VC110.DebugOpenMP\vcomp110d.dll  
   
 ##  <a name="CreatingRegistry"></a> Creating registry settings  
  You must create registry entries to configure settings for MSBuild.  
@@ -292,7 +292,7 @@ You can create a build environment within your organization by installing Visual
   
 1. To manually configure the command-line environment, add this path to the PATH environment variable:  
   
-   -   %Program Files%\Microsoft Visual Studio 11.0\Common7\IDE  
+   - %Program Files%\Microsoft Visual Studio 11.0\Common7\IDE  
   
 2. Optionally, you can also add the following paths to the PATH variable to make it easier to use MSBuild to build your solutions.  
   
@@ -315,11 +315,11 @@ You can create a build environment within your organization by installing Visual
   
 1. Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn’t matter where you put them on the build computer.  
   
-    -   %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll  
+    - %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll  
   
-    -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\CommonExtensions\Microsoft\VC\Project\Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.dll  
+    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\CommonExtensions\Microsoft\VC\Project\Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.dll  
   
-    -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll  
+    - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll  
   
 2. To install the assemblies to the GAC, locate gacutil.exe on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.  
   
@@ -362,7 +362,7 @@ You can create a build environment within your organization by installing Visual
   
 3. When the files are pasted in %Depot%, make these changes:  
   
-    -   In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of  
+    - In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of  
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"  
   
@@ -372,7 +372,7 @@ You can create a build environment within your organization by installing Visual
   
          The former naming relies on the assembly being GAC’ed.  
   
-    -   In %Depot% \MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPPClean.Targets, change every instance of  
+    - In %Depot% \MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPPClean.Targets, change every instance of  
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"  
   
@@ -411,9 +411,9 @@ You can create a build environment within your organization by installing Visual
   
 6. Change the command-line environment as follows:  
   
-    -   Set Depot=*location of the Depot directory that you created in step 1*  
+    - Set Depot=*location of the Depot directory that you created in step 1*  
   
-    -   Set path=%path%;*location of MSBuild on the computer*;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 11.0\Common7\IDE\  
+    - Set path=%path%;*location of MSBuild on the computer*;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 11.0\Common7\IDE\  
   
          For native 64-bit building, point to the 64-bit MSBuild.  
   

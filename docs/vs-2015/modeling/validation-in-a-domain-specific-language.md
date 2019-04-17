@@ -68,7 +68,7 @@ As the author of a domain-specific language (DSL), you can define validation con
    [ValidationState(ValidationState.Enabled)]  
    ```  
   
-   -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
+   - By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
   
 4. Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
   

@@ -20,11 +20,11 @@ ms.workload:
 
 1. Create a project item extension, a project extension, or a definition of a new project item type. For more information, see the following topics:
 
-   -   [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
+   - [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
 
-   -   [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
+   - [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md)
 
-   -   [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
+   - [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
 
 2. In the extension, access the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For more information, see [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md).
 

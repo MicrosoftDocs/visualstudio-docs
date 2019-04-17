@@ -53,11 +53,11 @@ Go to specific points in your application's execution when you start debugging f
   
 - If the .iTrace file is attached to a Team Foundation Server work item, follow these steps in the work item:  
   
-    -   Under **All Links**, find the .iTrace file. Open it.  
+    - Under **All Links**, find the .iTrace file. Open it.  
   
          \- or -  
   
-    -   Under **Repro Steps**, choose the **IntelliTrace** link.  
+    - Under **Repro Steps**, choose the **IntelliTrace** link.  
   
 > [!TIP]
 >  If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.  

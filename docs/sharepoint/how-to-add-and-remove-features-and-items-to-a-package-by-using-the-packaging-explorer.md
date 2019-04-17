@@ -40,9 +40,9 @@ ms.workload:
 
 1. Open the **Packaging Explorer**, and then perform one of the following steps:
 
-    -   Drag a **Feature** from one project to another project.
+    - Drag a **Feature** from one project to another project.
 
-    -   Open the shortcut menu for a Feature, choose **Cut**, open the shortcut menu for the project to which you want to move the Feature, and then choose **Paste**.
+    - Open the shortcut menu for a Feature, choose **Cut**, open the shortcut menu for the project to which you want to move the Feature, and then choose **Paste**.
 
     > [!NOTE]
     >  Use this procedure if you have more than one SharePoint project in your solution.

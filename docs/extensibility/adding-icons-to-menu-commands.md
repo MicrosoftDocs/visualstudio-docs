@@ -49,11 +49,11 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
 
 6. Create a `<Bitmap>` in the `<Bitmaps>` section of the *.vsct* file to represent the bitmap containing the icons.
 
-    -   Set the `guid` value to the name of the `<GuidSymbol>` element you created in the previous step.
+    - Set the `guid` value to the name of the `<GuidSymbol>` element you created in the previous step.
 
-    -   Set the `href` value to the relative path of the bitmap file (in this case **Resources\\<icon file name\>**.
+    - Set the `href` value to the relative path of the bitmap file (in this case **Resources\\<icon file name\>**.
 
-    -   Set the `usedList` value to the IDSymbol you created earlier. This attribute specifies a comma-delimited list of the icons to be used in the VSPackage. Icons not on the list are excluded form compilation.
+    - Set the `usedList` value to the IDSymbol you created earlier. This attribute specifies a comma-delimited list of the icons to be used in the VSPackage. Icons not on the list are excluded form compilation.
 
          The Bitmap block should look like this:
 

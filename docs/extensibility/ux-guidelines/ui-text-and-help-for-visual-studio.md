@@ -189,11 +189,11 @@ ms.workload:
 
 - Some questions to ask yourself when constructing an error message:
 
-    -   Can the user figure out how to solve the issue with this error alone?
+    - Can the user figure out how to solve the issue with this error alone?
 
-    -   Does the user use the same vocabulary as this error?
+    - Does the user use the same vocabulary as this error?
 
-    -   Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?
+    - Is this error ambigious or shared in multiple situations? If so, how do you guide users to the solution they need?
 
 #### Build errors
  Since Visual Studio is a software development tool, many of its components have a compilation, converting, or encoding step to convert the developer's work to binary form. These conversions can cause errors when the compiler cannot process improperly authored files or when compiler options weren't set correctly.

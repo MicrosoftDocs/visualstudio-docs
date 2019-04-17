@@ -214,9 +214,9 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
      **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start:  
 
-    -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
+    - If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
 
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
+    - In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
 
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
 
@@ -226,13 +226,13 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
      **Troubleshooting**: If the command does not appear on the menu, make sure that:  
 
-    -   The menu command project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
+    - The menu command project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
 
-    -   The parameters of the `Import` and `Export` attributes are valid.  
+    - The parameters of the `Import` and `Export` attributes are valid.  
 
-    -   The `QueryStatus` method is not setting the `command`.`Enabled` or `Visible` fields to `false`.  
+    - The `QueryStatus` method is not setting the `command`.`Enabled` or `Visible` fields to `false`.  
 
-    -   The type of model diagram that you are using (UML class, sequence, and so on) is listed as one of the menu command class attributes `[ClassDesignerExtension]`, `[SequenceDesignerExtension]` and so on.  
+    - The type of model diagram that you are using (UML class, sequence, and so on) is listed as one of the menu command class attributes `[ClassDesignerExtension]`, `[SequenceDesignerExtension]` and so on.  
 
 ##  <a name="Installing"></a> Installing and uninstalling an extension  
  You can install a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension both on your own computer and on other computers.  

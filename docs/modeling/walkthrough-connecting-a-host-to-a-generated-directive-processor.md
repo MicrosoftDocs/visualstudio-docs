@@ -51,13 +51,13 @@ In this walkthrough, you use the Domain-Specific Language Designer Wizard to cre
 
 1. Create a domain-specific language solution that has the following characteristics:
 
-   -   Name: DSLMinimalTest
+   - Name: DSLMinimalTest
 
-   -   Solution template: Minimal Language
+   - Solution template: Minimal Language
 
-   -   File extension: min
+   - File extension: min
 
-   -   Company name: Fabrikam
+   - Company name: Fabrikam
 
    For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
 
@@ -90,17 +90,17 @@ After you generate the directive processor, you connect the directive processor 
 
 3. Add the following references:
 
-    -   Microsoft.VisualStudio.Modeling.Sdk.11.0
+    - Microsoft.VisualStudio.Modeling.Sdk.11.0
 
-    -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0
+    - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0
 
-    -   Microsoft.VisualStudio.TextTemplating.11.0
+    - Microsoft.VisualStudio.TextTemplating.11.0
 
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.11.0
+    - Microsoft.VisualStudio.TextTemplating.Interfaces.11.0
 
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.11.0
+    - Microsoft.VisualStudio.TextTemplating.Modeling.11.0
 
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.11.0
+    - Microsoft.VisualStudio.TextTemplating.VSHost.11.0
 
 4. At the top of Program.cs or Module1.vb, add the following line of code:
 

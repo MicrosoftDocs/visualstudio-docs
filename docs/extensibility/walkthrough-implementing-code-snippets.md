@@ -107,11 +107,11 @@ You can create code snippets and include them in an editor extension so that use
 
 2. In the project, add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.TextManager.Interop
+    - Microsoft.VisualStudio.TextManager.Interop
 
-    -   Microsoft.VisualStudio.TextManager.Interop.8.0
+    - Microsoft.VisualStudio.TextManager.Interop.8.0
 
-    -   microsoft.msxml
+    - microsoft.msxml
 
 3. In the project, open the **source.extension.vsixmanifest** file.
 

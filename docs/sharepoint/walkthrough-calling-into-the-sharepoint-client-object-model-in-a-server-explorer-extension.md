@@ -21,9 +21,9 @@ ms.workload:
 
 - Creating a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension that extends the **SharePoint Connections** node of **Server Explorer** in the following ways:
 
-    -   The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
+    - The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
 
-    -   The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that the node represents.
+    - The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that the node represents.
 
 - Building a Visual Studio Extension (VSIX) package to deploy the extension.
 
@@ -104,11 +104,11 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 4. Choose the **Extensions** node, select the check box for each of the following assemblies, and then choose the **OK** button:
 
-    -   Microsoft.SharePoint.Client
+    - Microsoft.SharePoint.Client
 
-    -   Microsoft.SharePoint.Client.Runtime
+    - Microsoft.SharePoint.Client.Runtime
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
 5. Open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Properties**.
 

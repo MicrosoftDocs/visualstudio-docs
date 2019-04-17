@@ -70,13 +70,13 @@ To resolve a ModelBus reference in a text template, the target DSL must have a c
 
 4. In AdapterManager.tt:
 
-    -   Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
+    - Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
 
          `public partial class <#= dslName =>AdapterManagerBase :`
 
          `Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager { ...`
 
-    -   Near the end of the file, replace the HostSpecific attribute before the AdapterManager class. Remove the following line:
+    - Near the end of the file, replace the HostSpecific attribute before the AdapterManager class. Remove the following line:
 
          `[DslIntegration::HostSpecific(DslIntegrationShell::VsModelingAdapterManager.HostName)]`
 

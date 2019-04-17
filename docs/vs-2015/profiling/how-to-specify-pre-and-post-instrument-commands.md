@@ -49,9 +49,9 @@ You can specify commands that run before or after the binaries in a performance 
   
 1. Perform one of the following steps:  
   
-    -   To specify pre-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
+    - To specify pre-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
   
-    -   To specify pre-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
+    - To specify pre-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
   
 2. In the **Property Pages**, click **Instrumentation**.  
   
@@ -68,9 +68,9 @@ You can specify commands that run before or after the binaries in a performance 
   
 1. Perform one of the following steps:  
   
-    -   To specify post-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
+    - To specify post-instrument commands for all binaries in a performance session, select the performance session node in **Performance Explorer**, and then right-click and select **Properties**.  
   
-    -   To specify post-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
+    - To specify post-instrument commands for a specific binary, right-click the name of the binary in the **Targets** list of the performance session, and then select **Properties**.  
   
 2. In the **Property Pages**, click **Instrumentation**.  
   

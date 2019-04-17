@@ -52,26 +52,26 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
      The double target icon indicates the location of two fingers on the device screen.  
   
-    -   Move the mouse to position the icons over the object on the device screen.  
+    - Move the mouse to position the icons over the object on the device screen.  
   
-    -   Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
+    - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
   
 - -   ![Pinch, zoom, and rotate targets](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
   
          Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
   
-    -   Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
+    - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
   
 ## Object rotation  
  The **Touch emulation rotate** button sets the interaction mode to rotation gestures using two fingers.  
   
 - -   Move the mouse to position the icons over the object on the device screen.  
   
-    -   Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
+    - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
   
 - -   Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.  
   
-    -   Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
+    - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
   
 ##  <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> Enable or disable Always on top mode  
  You can set the simulator window to always be on top of other windows. The **Toggle Topmost Window** button enables or disables the **Always on top** mode of the simulator window.  

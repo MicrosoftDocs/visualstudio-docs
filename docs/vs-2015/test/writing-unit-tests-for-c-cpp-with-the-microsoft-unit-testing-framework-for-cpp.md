@@ -24,13 +24,13 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 2. Make the DLL accessible to the test project:  
   
-    -   `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
+    - `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
   
          The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b).  
   
          Your unit tests can access only functions that are exported from the DLL under test.  
   
-    -   Add the DLL project to the References of the test project:  
+    - Add the DLL project to the References of the test project:  
   
          In the **Properties** of the test project, expand **Common Properties**, **Framework and References**, and choose **Add Reference**.  
   
@@ -52,13 +52,13 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     }  
     ```  
   
-    -   `Assert` contains several static functions that you can use to verify the result of a test.  
+    - `Assert` contains several static functions that you can use to verify the result of a test.  
   
-    -   The `LINE_INFO()` parameter is optional. In cases where there is no PDB file, it allows the test runner to identify the location of a failure.  
+    - The `LINE_INFO()` parameter is optional. In cases where there is no PDB file, it allows the test runner to identify the location of a failure.  
   
-    -   You can also write test setup and cleanup methods. For more information, open the definition of the `TEST_METHOD` macro, and read the comments in CppUnitTest.h  
+    - You can also write test setup and cleanup methods. For more information, open the definition of the `TEST_METHOD` macro, and read the comments in CppUnitTest.h  
   
-    -   You cannot nest test classes.  
+    - You cannot nest test classes.  
   
 4. Use Test Explorer to run the tests:  
   
@@ -113,11 +113,11 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
      Notice that:  
   
-    -   Each test is defined by using `TEST_METHOD(YourTestName){...}`.  
+    - Each test is defined by using `TEST_METHOD(YourTestName){...}`.  
   
          You do not have to write a conventional function signature. The signature is created by the macro TEST_METHOD. The macro generates an instance function that returns void. It also generates a static function that returns information about the test method. This information allows the test explorer to find the method.  
   
-    -   Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.  
+    - Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.  
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method.  
   

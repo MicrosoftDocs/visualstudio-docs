@@ -40,19 +40,19 @@ ms.workload:
 
 3. From the **Office Ribbon Controls** tab of the **Toolbox**, drag any of the following controls onto the menu designer:
 
-    -   Button
+    - Button
 
-    -   CheckBox
+    - CheckBox
 
-    -   Gallery
+    - Gallery
 
-    -   Menu
+    - Menu
 
-    -   Separator
+    - Separator
 
-    -   SplitButton
+    - SplitButton
 
-    -   ToggleButton
+    - ToggleButton
 
 4. Drag controls to move them to new positions on the menu.
 

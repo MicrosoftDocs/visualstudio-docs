@@ -27,11 +27,11 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 2. Add the following assembly references to the project:  
   
-    -   EnvDTE  
+    - EnvDTE  
   
-    -   EnvDTE80  
+    - EnvDTE80  
   
-    -   Microsoft.VisualStudio.Shell.Immutable.10.0  
+    - Microsoft.VisualStudio.Shell.Immutable.10.0  
   
 3. Go to the DTETest.cs file, and add the following `using` directives:  
   

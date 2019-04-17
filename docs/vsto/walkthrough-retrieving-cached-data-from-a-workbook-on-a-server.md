@@ -48,9 +48,9 @@ ms.workload:
 
 - Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
 
-    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
+    - To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
-    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
+    - To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](/previous-versions/sql/).
 
 ## Create a class library project that defines a dataset
  To use the same dataset in an Excel workbook project and a console application, you must define the dataset in a separate assembly that is referenced by both of these projects. For this walkthrough, define the dataset in a class library project.
@@ -199,9 +199,9 @@ ms.workload:
 
      The project is built, and the workbook opens in Excel. Verify the following:
 
-    -   The <xref:Microsoft.Office.Tools.Excel.ListObject> fills with data.
+    - The <xref:Microsoft.Office.Tools.Excel.ListObject> fills with data.
 
-    -   The value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is 1431.5. Later in this walkthrough, you will use a console application to modify the values in the **ListPrice** column.
+    - The value in the **ListPrice** column for the first row of the <xref:Microsoft.Office.Tools.Excel.ListObject> is 1431.5. Later in this walkthrough, you will use a console application to modify the values in the **ListPrice** column.
 
 2. Save the workbook. Do not modify the file name or the location of the workbook.
 

@@ -43,19 +43,19 @@ ms.workload:
 
 2. Set the **TypeName** property to the fully qualified name of the type that represents the entity. This type can be a class in your project, a type defined in an assembly that you reference in your solution, or a type defined in the BDC object model.
 
-    -   For a class in your project, choose the down arrow next to the **TypeName** property, choose the **Current Project** tab in the dialog box that appears, and then choose the class in your project.
+    - For a class in your project, choose the down arrow next to the **TypeName** property, choose the **Current Project** tab in the dialog box that appears, and then choose the class in your project.
 
          The fully qualified name includes the namespace and name of the class followed by the name of the LOB system. The following example sets the value of the **TypeName** property to a class in your project.
 
          `MyBDCNamespace.BdcModel1.Contact, BdcModel1`
 
-    -   For a type located in an assembly in your solution, the fully qualified name includes the name of the type, the name of the assembly, the version number, the culture, and the public key token.
+    - For a type located in an assembly in your solution, the fully qualified name includes the name of the type, the name of the assembly, the version number, the culture, and the public key token.
 
          The following example sets the value of the **TypeName** property to a type defined in an assembly that you reference in your solution.
 
          `MyNamespace.Contact, myAssemblyName, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 
-    -   For a type defined in the BDC object model, the fully qualified name includes the namespace and name of the type.
+    - For a type defined in the BDC object model, the fully qualified name includes the namespace and name of the type.
 
          The following example sets the value of the **TypeName** property to a type in the BDC object model.
 

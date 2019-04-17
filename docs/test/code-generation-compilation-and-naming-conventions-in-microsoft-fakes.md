@@ -163,11 +163,11 @@ From your unit test projects, add a reference to the compiled Fakes assemblies t
 
 4. From your test project
 
-    -   Make sure that you have a reference to the Fakes runtime DLL:
+    - Make sure that you have a reference to the Fakes runtime DLL:
 
          *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll*
 
-    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the *Fakes.Prebuild\FakesAssemblies* folder of your project.
+    - For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the *Fakes.Prebuild\FakesAssemblies* folder of your project.
 
 ### Avoid assembly name clashing
 

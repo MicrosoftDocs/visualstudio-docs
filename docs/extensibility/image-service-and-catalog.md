@@ -212,74 +212,74 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
 - *Microsoft.VisualStudio.ImageCatalog.dll*
 
-    -   Required if you use the built-in image catalog **KnownMonikers**.
+    - Required if you use the built-in image catalog **KnownMonikers**.
 
 - *Microsoft.VisualStudio.Imaging.dll*
 
-    -   Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI.
+    - Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI.
 
 - *Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll*
 
-    -   Required if you use the **ImageMoniker** and **ImageAttributes** types.
+    - Required if you use the **ImageMoniker** and **ImageAttributes** types.
 
-    -   **EmbedInteropTypes** should be set to true.
+    - **EmbedInteropTypes** should be set to true.
 
 - *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime*
 
-    -   Required if you use the **IVsImageService2** type.
+    - Required if you use the **IVsImageService2** type.
 
-    -   **EmbedInteropTypes** should be set to true.
+    - **EmbedInteropTypes** should be set to true.
 
 - *Microsoft.VisualStudio.Utilities.dll*
 
-    -   Required if you use the **BrushToColorConverter** for the **ImageThemingUtilities.ImageBackgroundColor** in your WPF UI.
+    - Required if you use the **BrushToColorConverter** for the **ImageThemingUtilities.ImageBackgroundColor** in your WPF UI.
 
 - *Microsoft.VisualStudio.Shell.\<VSVersion>.0*
 
-    -   Required if you use the **IVsUIObject** type.
+    - Required if you use the **IVsUIObject** type.
 
 - *Microsoft.VisualStudio.Shell.Interop.10.0.dll*
 
-    -   Required if you use the WinForms-related UI helpers.
+    - Required if you use the WinForms-related UI helpers.
 
-    -   **EmbedInteropTypes** should be set to true
+    - **EmbedInteropTypes** should be set to true
 
 ### First steps (native)
  To use the image service, you need to include some or all of the following headers to your project:
 
 - **KnownImageIds.h**
 
-    -   Required if you use the built-in image catalog **KnownMonikers**, but cannot use the **ImageMoniker** type, such as when returning values from **IVsHierarchy GetGuidProperty** or **GetProperty** calls.
+    - Required if you use the built-in image catalog **KnownMonikers**, but cannot use the **ImageMoniker** type, such as when returning values from **IVsHierarchy GetGuidProperty** or **GetProperty** calls.
 
 - **KnownMonikers.h**
 
-    -   Required if you use the built-in image catalog **KnownMonikers**.
+    - Required if you use the built-in image catalog **KnownMonikers**.
 
 - **ImageParameters140.h**
 
-    -   Required if you use the **ImageMoniker** and **ImageAttributes** types.
+    - Required if you use the **ImageMoniker** and **ImageAttributes** types.
 
 - **VSShell140.h**
 
-    -   Required if you use the **IVsImageService2** type.
+    - Required if you use the **IVsImageService2** type.
 
 - **ImageThemingUtilities.h**
 
-    -   Required if you are unable to let the image service handle theming for you.
+    - Required if you are unable to let the image service handle theming for you.
 
-    -   Do not use this header if the image service can handle your image theming.
+    - Do not use this header if the image service can handle your image theming.
 
 ::: moniker range="vs-2017"
 - **VSUIDPIHelper.h**
 
-    -   Required if you use the DPI helpers to get the current DPI.
+    - Required if you use the DPI helpers to get the current DPI.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 - **VsDpiAwareness.h**  
 
-    -   Required if you use the DPI awareness helpers to get the current DPI.  
+    - Required if you use the DPI awareness helpers to get the current DPI.  
 
 ::: moniker-end
 
@@ -321,15 +321,15 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
 2. Change all the Source attributes to Moniker attributes.
 
-    -   If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)
+    - If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)
 
-    -   If the image never changes and you are using your own custom image, then statically bind to your own moniker.
+    - If the image never changes and you are using your own custom image, then statically bind to your own moniker.
 
-    -   If the image can change, bind the Moniker attribute to a code property that notifies on property changes.
+    - If the image can change, bind the Moniker attribute to a code property that notifies on property changes.
 
 3. Somewhere in the UI hierarchy, set **ImageThemingUtilities.ImageBackgroundColor** to make sure color inversion works correctly.
 
-    -   This might require the use of the **BrushToColorConverter** class. (See the above example.)
+    - This might require the use of the **BrushToColorConverter** class. (See the above example.)
 
 ## How do I update Win32 UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning HBITMAPs versus HICONs versus HIMAGELIST as needed.
@@ -506,7 +506,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 4. The command to open the tool window.
 
-   -   See step #2 of the "How do I use image monikers in a new tool window?" section above.
+   - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 
 ## How do I use image monikers in a .vsct file?
  Update your *.vsct* file as indicated by the commented lines below:
@@ -624,27 +624,27 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 1. Run the **ManifestFromResources** tool, passing it the image strip. This will generate a manifest for the strip.
 
-   -   Recommended: provide a non default name for the manifest to suit its usage.
+   - Recommended: provide a non default name for the manifest to suit its usage.
 
 2. If you are using only **KnownMonikers**, then do the following:
 
-   -   Replace the \<Images> section of the manifest with \<Images/>.
+   - Replace the \<Images> section of the manifest with \<Images/>.
 
-   -   Remove all the subimage IDs (anything with \<imagestrip name>_##).
+   - Remove all the subimage IDs (anything with \<imagestrip name>_##).
 
-   -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.
+   - Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.
 
-   -   Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**
+   - Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**
 
-       -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.
+       - \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.
 
-   -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.
+   - Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.
 
-       -   The relative path is determined by the deployment location defined in the setup authoring for the manifest.
+       - The relative path is determined by the deployment location defined in the setup authoring for the manifest.
 
 3. Run the **ManifestToCode** tool to generate wrappers so that the existing code has a moniker it can use to query the image service for the image strip.
 
-   -   Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.
+   - Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.
 
 4. Do all the adds, setup authoring/deployment, and other code changes to work with the image service and the new files.
 
@@ -736,17 +736,17 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 - Are there any dependencies that you must include when loading \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" />?
 
-    -   Set EmbedInteropTypes="true" on all interop DLLs.
+    - Set EmbedInteropTypes="true" on all interop DLLs.
 
 - How do I deploy an image manifest with my extension?
 
-    -   Add the *.imagemanifest* file to your project.
+    - Add the *.imagemanifest* file to your project.
 
-    -   Set "Include in VSIX" to True.
+    - Set "Include in VSIX" to True.
 
 - I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?
 
-    -   These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
+    - These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
 
         |||
         |-|-|
@@ -814,7 +814,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |ImageName.CSharpCodeFile|KnownImageIds.CSFileNode|
         |ImageName.VisualBasicCodeFile|KnownImageIds.VBFileNode|
 
-    -   I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
+    - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
 
         ||||
         |-|-|-|

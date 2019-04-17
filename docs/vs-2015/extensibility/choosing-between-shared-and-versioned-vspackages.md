@@ -27,9 +27,9 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
 - Make your VSPackage compatible with multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Two ways of doing so are available:  
   
-    -   Limit your VSPackage to using only the features of the earliest version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that you support.  
+    - Limit your VSPackage to using only the features of the earliest version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that you support.  
   
-    -   Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+    - Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 - Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
   

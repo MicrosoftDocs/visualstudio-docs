@@ -51,17 +51,17 @@ Edit and Continue handles most types of code changes within method bodies. Most 
   
 - Debugging LINQ code in certain circumstances. For more information, see [Debugging LINQ](../debugger/debugging-linq.md).  
   
-    -   Capturing a variable that hasn’t been captured before.  
+    - Capturing a variable that hasn’t been captured before.  
   
-    -   Changing the type of query expression (e.g., select a => select new { A = a };)  
+    - Changing the type of query expression (e.g., select a => select new { A = a };)  
   
-    -   Removing a `where` that contains an active statement.  
+    - Removing a `where` that contains an active statement.  
   
-    -   Removing a `let` that contains an active statement.  
+    - Removing a `let` that contains an active statement.  
   
-    -   Removing a `join` that contains an active statement.  
+    - Removing a `join` that contains an active statement.  
   
-    -   Removing an `orderby` that contains an active statement.  
+    - Removing an `orderby` that contains an active statement.  
   
 - Mixed-mode (native/managed) debugging.  
   

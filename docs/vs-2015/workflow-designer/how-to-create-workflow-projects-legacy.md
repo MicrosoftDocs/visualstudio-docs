@@ -33,17 +33,17 @@ Follow these steps to create a [!INCLUDE[wf](../includes/wf-md.md)] project that
   
 5. In the **Templates** pane, select one of the installed project templates:  
   
-    -   Sequential Workflow Console Application  
+    - Sequential Workflow Console Application  
   
-    -   Sequential Workflow Library  
+    - Sequential Workflow Library  
   
-    -   Workflow Activity Library  
+    - Workflow Activity Library  
   
-    -   State Machine Workflow Console Application  
+    - State Machine Workflow Console Application  
   
-    -   State Machine Workflow Library  
+    - State Machine Workflow Library  
   
-    -   Empty Workflow Project  
+    - Empty Workflow Project  
   
 6. In the **Name** box, enter a descriptive name for your project to make it easy to identify.  
   

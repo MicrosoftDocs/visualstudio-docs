@@ -50,9 +50,9 @@ ms.workload:
 
 3. Add the property, method, or event that you want to expose to VBA to one of the host item classes in your project, and declare the new member as **Public**. The name of the class depends on the application:
 
-    -   In a Word project, the host item class is named `ThisDocument` by default.
+    - In a Word project, the host item class is named `ThisDocument` by default.
 
-    -   In an Excel project, the host item classes are named `ThisWorkbook`, `Sheet1`, `Sheet2`, and `Sheet3` by default.
+    - In an Excel project, the host item classes are named `ThisWorkbook`, `Sheet1`, `Sheet2`, and `Sheet3` by default.
 
 4. Set the **EnableVbaCallers** property for the host item to **True**. This property is available in the **Properties** window when the host item is open in the designer.
 

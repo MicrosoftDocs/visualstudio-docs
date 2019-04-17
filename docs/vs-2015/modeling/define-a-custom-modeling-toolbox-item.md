@@ -34,7 +34,7 @@ To make it easy to create an element or group of elements according to a pattern
   
 1. Create a UML diagram that contains an element or group of elements.  
   
-    -   These elements can have relationships between them, and can have subsidiary elements such as ports, attributes, operations or pins.  
+    - These elements can have relationships between them, and can have subsidiary elements such as ports, attributes, operations or pins.  
   
 2. Save the diagram using the name that you want to give the new tool. On the **File** menu, use **Save…As**.  
   
@@ -42,15 +42,15 @@ To make it easy to create an element or group of elements according to a pattern
   
      *YourDocuments* **\Visual Studio\Architecture Tools\Custom Toolbox Items**  
   
-    -   Create this folder if it does not already exist. You might have to create both **Architecture Tools** and **Custom Toolbox Items**.  
+    - Create this folder if it does not already exist. You might have to create both **Architecture Tools** and **Custom Toolbox Items**.  
   
-    -   Copy both diagram files, one with a name that ends "…**diagram**" and the other with a name that ends "…**diagram.layout**"  
+    - Copy both diagram files, one with a name that ends "…**diagram**" and the other with a name that ends "…**diagram.layout**"  
   
-    -   You can make as many custom tools as you like. Use one diagram for each tool.  
+    - You can make as many custom tools as you like. Use one diagram for each tool.  
   
 4. (Optional) Create a **.tbxinfo** file as described in [How to Define the Properties of Custom Tools](#tbxinfo), and add it to the same directory. This allows you to define a toolbox icon, tooltip, and so on.  
   
-    -   A single **.tbxinfo** file can be used to define several tools. It can refer to diagram files that are in subfolders.  
+    - A single **.tbxinfo** file can be used to define several tools. It can refer to diagram files that are in subfolders.  
   
 5. Restart Visual Studio. The additional tool will appear in the toolbox for the appropriate type of diagram.  
   
@@ -155,7 +155,7 @@ To make it easy to create an element or group of elements according to a pattern
   
 4. Add your toolbox definitions to the project. Include the **.tbxinfo** file, the diagram files, bitmap files, and any resource files, and make sure that they are included in the VSIX.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project, choose **Add**, **Existing Item**. In the dialog box, set **Objects of Type: All Files**. Locate the files, select them all, and then choose **Add**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project, choose **Add**, **Existing Item**. In the dialog box, set **Objects of Type: All Files**. Locate the files, select them all, and then choose **Add**.  
   
         > [!NOTE]
         >  In this project, you cannot open the diagram files in the model editor.  
@@ -174,16 +174,16 @@ To make it easy to create an element or group of elements according to a pattern
   
      Under **Assets**, choose **New** and then set the fields in the dialog as follows:  
   
-    -   **Type** = **Custom Extension Type**  
+    - **Type** = **Custom Extension Type**  
   
-    -   Type = `Microsoft.VisualStudio.ArchitectureTools.CustomToolboxItems`  
+    - Type = `Microsoft.VisualStudio.ArchitectureTools.CustomToolboxItems`  
   
         > [!NOTE]
         >  This is not one of the options in the drop-down list. You have to enter it by using the keyboard.  
   
-    -   **Source** = **File on filesystem**.  
+    - **Source** = **File on filesystem**.  
   
-    -   **Path** = your **.tbxinfo** file, for example **MyTools.tbxinfo**  
+    - **Path** = your **.tbxinfo** file, for example **MyTools.tbxinfo**  
   
 8. Build the project.  
   

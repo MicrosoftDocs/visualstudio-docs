@@ -19,9 +19,9 @@ The following checklist summarizes the basic steps you must take in order to cre
 
 1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.
 
-    -   In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.
+    - In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.
 
-    -   Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.
+    - Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.
 
 2. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.
 
@@ -46,11 +46,11 @@ The following checklist summarizes the basic steps you must take in order to cre
 
      To provide IntelliSense statement completion in a language service, you must intercept some of the commands that the text view would otherwise handle. To intercept these commands, complete the following steps:
 
-    -   Implement <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> to participate in the command chain and handle editor commands.
+    - Implement <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> to participate in the command chain and handle editor commands.
 
-    -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method and pass in your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.
+    - Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method and pass in your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.
 
-    -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter%2A> method when you detach from the view so that these commands are no longer passed to you.
+    - Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter%2A> method when you detach from the view so that these commands are no longer passed to you.
 
     Commands that must be handled depend on the services that are provided. For more information, see [Important commands for language service filters](../../extensibility/internals/important-commands-for-language-service-filters.md).
 
@@ -113,9 +113,9 @@ The following checklist summarizes the basic steps you must take in order to cre
 
      Provide context to the editor in one of the following ways:
 
-    -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.
+    - Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.
 
-    -   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.
+    - Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.
 
 ## See also
 - [Develop a legacy language service](../../extensibility/internals/developing-a-legacy-language-service.md)

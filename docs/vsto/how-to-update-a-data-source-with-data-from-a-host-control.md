@@ -74,9 +74,9 @@ ms.workload:
 
 5. In the **Formatting and Advanced Binding** dialog box, click the **Data Source Update Mode** drop-down list and select one of the following values:
 
-    -   To update the data source when the control is validated, select **OnValidation**.
+    - To update the data source when the control is validated, select **OnValidation**.
 
-    -   To update the data source when the value of the data-bound property of the control changes, select **OnPropertyChanged**.
+    - To update the data source when the value of the data-bound property of the control changes, select **OnPropertyChanged**.
 
         > [!NOTE]
         >  The **OnPropertyChanged** option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.

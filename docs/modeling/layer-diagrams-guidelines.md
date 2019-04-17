@@ -135,7 +135,7 @@ To help you identify layers and dependencies or discuss them with team members, 
 
 - Change the colors of layers and dependencies.
 
-    -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.
+    - Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.
 
 ## <a name="Validate"></a> Validate the code against the diagram
 

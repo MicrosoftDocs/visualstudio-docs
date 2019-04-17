@@ -45,17 +45,17 @@ When you drag an item from the **Data Sources** window to a design surface to cr
   
 3. In the drop-down menu, click **Customize**. One of the following dialog boxes opens:  
   
-    -   If the Windows Forms Designer is open, the **Data UI Customization** page of the **Options** dialog box opens.  
+    - If the Windows Forms Designer is open, the **Data UI Customization** page of the **Options** dialog box opens.  
   
-    -   If the WPF Designer is open, the **Customize Control Binding** dialog box opens.  
+    - If the WPF Designer is open, the **Customize Control Binding** dialog box opens.  
   
 4. In the dialog box, select a data type from the **Data type** drop-down list.  
   
-    -   To customize the list of controls for a table or object, select **[List]**.  
+    - To customize the list of controls for a table or object, select **[List]**.  
   
-    -   To customize the list of controls for a column of a table or a property of an object, select the data type of the column or property in the underlying data store.  
+    - To customize the list of controls for a column of a table or a property of an object, select the data type of the column or property in the underlying data store.  
   
-    -   To customize the list of controls to display data objects that have user-defined shapes, select **[Other]**. For example, select **[Other]** if your application has a custom control that displays data from more than one property of a particular object.  
+    - To customize the list of controls to display data objects that have user-defined shapes, select **[Other]**. For example, select **[Other]** if your application has a custom control that displays data from more than one property of a particular object.  
   
 5. In the **Associated controls** box, select each control that you want to be available for the selected data type, or clear the selection of any controls that you want to remove from the list.  
   

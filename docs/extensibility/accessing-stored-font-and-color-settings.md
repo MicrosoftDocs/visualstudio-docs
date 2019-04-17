@@ -31,13 +31,13 @@ Therefore, to initiate persistence, a VSPackage must:
 
      The mode, specified by the `fFlags` argument, is constructed from values in the <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> enumeration. This mode controls:
 
-    -   The settings that can be accessed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
+    - The settings that can be accessed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-    -   Either all settings or only those settings that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
+    - Either all settings or only those settings that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-    -   The manner of propagating the changes to user settings.
+    - The manner of propagating the changes to user settings.
 
-    -   The format of color values that are used.
+    - The format of color values that are used.
 
 ## To use state persistence of fonts and colors
 

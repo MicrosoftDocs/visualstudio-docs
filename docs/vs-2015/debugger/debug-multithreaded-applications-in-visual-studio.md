@@ -86,7 +86,7 @@ A thread is a sequence of instructions to which the operating system allocates p
 
 ## Related Sections
  [Using Breakpoints](../debugger/using-breakpoints.md)
- -   Use breakpoint filters when you want to place a breakpoint on an individual thread.
+ - Use breakpoint filters when you want to place a breakpoint on an individual thread.
 
 - Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.
 

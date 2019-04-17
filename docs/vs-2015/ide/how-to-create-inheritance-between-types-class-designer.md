@@ -30,11 +30,11 @@ To create an inheritance relationship between two types on a class diagram using
   
 3. On the class diagram, draw an inheritance line between the types that you want, starting from:  
   
-    -   A derived class to the base class  
+    - A derived class to the base class  
   
-    -   An implementing class to the implemented interface  
+    - An implementing class to the implemented interface  
   
-    -   An extending interface to the extended interface  
+    - An extending interface to the extended interface  
   
 4. Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.  
   

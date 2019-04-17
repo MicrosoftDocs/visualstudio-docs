@@ -89,7 +89,7 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 - [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.  
   
-  -   Add the code `using``System;` to the AssemblyInfo.cs file.  
+  - Add the code `using``System;` to the AssemblyInfo.cs file.  
   
        Next, add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.  
   
@@ -97,15 +97,15 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 - [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String)  
   
-  -   Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.  
+  - Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.  
   
 - [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String, Exception)  
   
-  -   Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.  
+  - Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.  
   
 - [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: protected demo(SerializationInfo, StreamingContext)  
   
-  -   Add the code `using System.Runtime.Serialization;` to the beginning of the Class1.cs file.  
+  - Add the code `using System.Runtime.Serialization;` to the beginning of the Class1.cs file.  
   
        Next, add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { } to the class demo.`  
   
@@ -113,29 +113,29 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 - [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo()  
   
-  -   Add the constructor `public demo () : base() { }` to the class `demo`**.**  
+  - Add the constructor `public demo () : base() { }` to the class `demo`**.**  
   
        Rebuild the project.  
   
 - [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of namespace name 'testCode' by changing it to 'TestCode'.  
   
-  -   Change the casing of the namespace `testCode` to `TestCode`.  
+  - Change the casing of the namespace `testCode` to `TestCode`.  
   
 - [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of type name 'demo' by changing it to 'Demo'.  
   
-  -   Change the name of the member to `Demo`.  
+  - Change the name of the member to `Demo`.  
   
 - [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of member name 'item' by changing it to 'Item'.  
   
-  -   Change the name of the member to `Item`.  
+  - Change the name of the member to `Item`.  
   
 - [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Microsoft.Naming: Rename 'testCode.demo' to end in 'Exception'.  
   
-  -   Change the name of the class and its constructors to `DemoException`.  
+  - Change the name of the class and its constructors to `DemoException`.  
   
 - [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'ManagedDemo' with a strong name key.  
   
-  -   On the **Project** menu, click **ManagedDemo Properties**.  
+  - On the **Project** menu, click **ManagedDemo Properties**.  
   
        The project properties appear.  
   
@@ -157,7 +157,7 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 - [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Microsoft.Usage: Add a [Serializable] attribute to type 'demo' as this type implements ISerializable.  
   
-  -   Add the `[Serializable ()]` attribute to the class `demo`.  
+  - Add the `[Serializable ()]` attribute to the class `demo`.  
   
        Rebuild the project.  
   

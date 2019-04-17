@@ -49,19 +49,19 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
 6. Update the project properties. Open the **Project Properties** window by selecting the project node in the **Solution Explorer**, right-clicking, and selecting **Properties**.
 
-    -   On the **Application** tab, change **Target framework** to **4.6.1**.
+    - On the **Application** tab, change **Target framework** to **4.6.1**.
 
-    -   On the **Debug** tab, in the **Start external program** box, type **\<Visual Studio installation path>\Common7\IDE\devenv.exe.**.
+    - On the **Debug** tab, in the **Start external program** box, type **\<Visual Studio installation path>\Common7\IDE\devenv.exe.**.
 
          In the **Command line arguments** box, type /**rootsuffix Exp**.
 
 7. Update the following references:
 
-    -   Remove the reference to Microsoft.VisualStudio.Shell.9.0.dll, then add references to Microsoft.VisualStudio.Shell.14.0.dll and Microsoft.VisualStudio.Shell.Immutable.11.0.dll.
+    - Remove the reference to Microsoft.VisualStudio.Shell.9.0.dll, then add references to Microsoft.VisualStudio.Shell.14.0.dll and Microsoft.VisualStudio.Shell.Immutable.11.0.dll.
 
-    -   Remove the reference to Microsoft.VisualStudio.Package.LanguageService.9.0.dll, then add a reference to Microsoft.VisualStudio.Package.LanguageService.14.0.dll.
+    - Remove the reference to Microsoft.VisualStudio.Package.LanguageService.9.0.dll, then add a reference to Microsoft.VisualStudio.Package.LanguageService.14.0.dll.
 
-    -   Add a reference to Microsoft.VisualStudio.Shell.Interop.10.0.dll.
+    - Add a reference to Microsoft.VisualStudio.Shell.Interop.10.0.dll.
 
 8. Open the VsPkg.cs file and change the value of the `DefaultRegistryRoot` attribute to
 
@@ -77,25 +77,25 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
 10. You must add a source.extension.vsixmanifest file.
 
-    -   Copy this file from an existing extension to your project directory. (One way to get this file is to create a VSIX project (under **File**, click **New**, then click **Project**. Under Visual Basic or C# click **Extensibility**, then select **VSIX Project**.)
+    - Copy this file from an existing extension to your project directory. (One way to get this file is to create a VSIX project (under **File**, click **New**, then click **Project**. Under Visual Basic or C# click **Extensibility**, then select **VSIX Project**.)
 
-    -   Add the file to your project.
+    - Add the file to your project.
 
-    -   In the file's **Properties**, set **Build Action** to **None**.
+    - In the file's **Properties**, set **Build Action** to **None**.
 
-    -   Open the file with the **VSIX Manifest Editor**.
+    - Open the file with the **VSIX Manifest Editor**.
 
-    -   Change the following fields:
+    - Change the following fields:
 
-    -   **ID**: RegExLangServ
+    - **ID**: RegExLangServ
 
-    -   **Product Name**: RegExLangServ
+    - **Product Name**: RegExLangServ
 
-    -   **Description**: A regular expression language service.
+    - **Description**: A regular expression language service.
 
-    -   Under **Assets**, click **New**, select the **Type** to **Microsoft.VisualStudio.VsPackage**, set the **Source** to **A project in current solution**, and then set the **Project** to **RegExLangServ**.
+    - Under **Assets**, click **New**, select the **Type** to **Microsoft.VisualStudio.VsPackage**, set the **Source** to **A project in current solution**, and then set the **Project** to **RegExLangServ**.
 
-    -   Save and close the file.
+    - Save and close the file.
 
 11. Build the solution. The built files are deployed to **%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\ RegExLangServ\\**.
 

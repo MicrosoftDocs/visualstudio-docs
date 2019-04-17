@@ -33,7 +33,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/tracegc** &#124; **/tracegclife**}
 
-   -   The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
+   - The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
 
        |Option|Description|
        |------------|-----------------|

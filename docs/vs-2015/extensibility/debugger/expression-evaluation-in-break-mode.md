@@ -31,9 +31,9 @@ The following describes the process that occurs when the debugger is in break mo
   
      If ParseText does return S_OK, the SDM can then call either [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) or [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) to obtain a final value from the parsed expression.  
   
-    -   In the case of using `IDebugExpression2::EvaluateSync`, the given callback interface is used to communicate the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.  
+    - In the case of using `IDebugExpression2::EvaluateSync`, the given callback interface is used to communicate the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.  
   
-    -   In the case of using `IDebugExpression2::EvaluateAsync`, the given callback interface is used to communicate the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value can be obtained with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).  
+    - In the case of using `IDebugExpression2::EvaluateAsync`, the given callback interface is used to communicate the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value can be obtained with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).  
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)

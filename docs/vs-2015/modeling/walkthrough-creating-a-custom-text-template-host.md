@@ -45,9 +45,9 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
 2. Add references to the following assemblies:  
   
-    -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
+    - **Microsoft.VisualStudio.TextTemplating.\*.0**  
   
-    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**  
+    - **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**  
   
 3. Replace the code in the Program.cs or Module1.vb file with the following code:  
   

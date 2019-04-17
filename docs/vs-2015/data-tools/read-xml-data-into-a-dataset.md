@@ -141,9 +141,9 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 - Two <xref:System.Windows.Forms.Button> controls.  
   
-    -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
+    - One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
   
-    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.  
+    - A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.  
   
 #### To add controls to the form  
   
@@ -151,11 +151,11 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2. From the **Toolbox**, drag the following controls onto the form:  
   
-    -   One <xref:System.Windows.Forms.DataGridView> control  
+    - One <xref:System.Windows.Forms.DataGridView> control  
   
-    -   One <xref:System.Windows.Forms.TextBox> control  
+    - One <xref:System.Windows.Forms.TextBox> control  
   
-    -   Two <xref:System.Windows.Forms.Button> controls  
+    - Two <xref:System.Windows.Forms.Button> controls  
   
 3. Set the following properties:  
   

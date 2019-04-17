@@ -95,17 +95,17 @@ ms.workload:
 
 7. If you created a Visual Basic project, also delete the following files from the project:
 
-    -   *MyApplication.Designer.vb*
+    - *MyApplication.Designer.vb*
 
-    -   MyApplication.myapp
+    - MyApplication.myapp
 
-    -   *Resources.Designer.vb*
+    - *Resources.Designer.vb*
 
-    -   *Resources.resx*
+    - *Resources.resx*
 
-    -   *Settings.Designer.vb*
+    - *Settings.Designer.vb*
 
-    -   Settings.settings
+    - Settings.settings
 
 #### To create the extension project
 
@@ -347,7 +347,7 @@ ms.workload:
 
 1. In the SiteColumnProjectTemplate project, replace the contents of the SiteColumnProjectTemplate.vstemplate file with one of the following sections of XML.
 
-   -   If you're creating a Visual C# project template, use the following XML.
+   - If you're creating a Visual C# project template, use the following XML.
 
    ```xml
    <?xml version="1.0" encoding="utf-8"?>
@@ -383,7 +383,7 @@ ms.workload:
    </VSTemplate>
    ```
 
-   -   If you're creating a Visual Basic project template, use the following XML.
+   - If you're creating a Visual Basic project template, use the following XML.
 
    ```xml
    <?xml version="1.0" encoding="utf-8"?>
@@ -435,7 +435,7 @@ ms.workload:
 
 1. In the SiteColumnProjectTemplate project, replace the contents of the *ProjectTemplate.csproj* file or *ProjectTemplate.vbproj* file with one of the following sections of XML.
 
-    -   If you're creating a Visual C# project template, use the following XML.
+    - If you're creating a Visual C# project template, use the following XML.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -616,13 +616,13 @@ ms.workload:
 
      The new XML makes the following changes to the file:
 
-    -   Uses the `TargetFrameworkVersion` element to specify the .NET Framework 3.5, not 4.5.
+    - Uses the `TargetFrameworkVersion` element to specify the .NET Framework 3.5, not 4.5.
 
-    -   Adds `SignAssembly` and `AssemblyOriginatorKeyFile` elements to sign the project output.
+    - Adds `SignAssembly` and `AssemblyOriginatorKeyFile` elements to sign the project output.
 
-    -   Adds `Reference` elements for assembly references that SharePoint projects use.
+    - Adds `Reference` elements for assembly references that SharePoint projects use.
 
-    -   Adds elements for each default file in the project, such as *Elements.xml* and *SharePointProjectItem.spdata*.
+    - Adds elements for each default file in the project, such as *Elements.xml* and *SharePointProjectItem.spdata*.
 
 2. Save and close the file.
 

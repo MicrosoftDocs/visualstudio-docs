@@ -80,11 +80,11 @@ TableAdapters provide communication between your application and a database. The
   
 4. On the **Choose a Command Type** screen, select from the following methods of fetching data from the database:  
   
-    -   **Use SQL statements** enables you to type a SQL statement to select the data from your database.  
+    - **Use SQL statements** enables you to type a SQL statement to select the data from your database.  
   
-    -   **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified SELECT statement.  
+    - **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified SELECT statement.  
   
-    -   **Use existing stored procedures** enables you to run an existing stored procedure when running the query.  
+    - **Use existing stored procedures** enables you to run an existing stored procedure when running the query.  
   
 #### To start the TableAdapter Query Configuration wizard on an existing query  
   

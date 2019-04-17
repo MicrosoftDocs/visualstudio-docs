@@ -55,19 +55,19 @@ You can add a stereotype to a UML model element to annotate it and provide it wi
   
 2. Add model elements to the package in one of the following ways:  
   
-    -   In a UML Class Diagram, click the tool for an element, and then click inside the package on the diagram.  
+    - In a UML Class Diagram, click the tool for an element, and then click inside the package on the diagram.  
   
          \- or -  
   
-    -   In UML Model Explorer, right-click the package, point to **Add**, and then click an element type.  
+    - In UML Model Explorer, right-click the package, point to **Add**, and then click an element type.  
   
          \- or -  
   
-    -   In UML Model Explorer, drag an existing element into the package.  
+    - In UML Model Explorer, drag an existing element into the package.  
   
          \- or -  
   
-    -   Link a diagram to the package, and then create elements within the diagram.  
+    - Link a diagram to the package, and then create elements within the diagram.  
   
          To do this, right-click a blank part of the diagram and then click **Properties**. In the **Properties** window, set **Linked Package** to the package you want.  
   

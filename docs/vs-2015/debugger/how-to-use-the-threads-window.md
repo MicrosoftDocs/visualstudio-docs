@@ -66,9 +66,9 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 - Perform either of the following steps:  
   
-    -   Double-click any thread.  
+    - Double-click any thread.  
   
-    -   Right-click a thread and click **Switch to Thread**.  
+    - Right-click a thread and click **Switch to Thread**.  
   
          The yellow arrow appears next to the new active thread. The gray outline of an arrow identifies the thread where execution broke into the debugger.  
   
@@ -110,11 +110,11 @@ In the **Threads** window, you can examine and work with threads in the applicat
   
 - In the toolbar at the top of the **Threads** window, go to the **Search** box and either:  
   
-    -   Type a search string and then press ENTER.  
+    - Type a search string and then press ENTER.  
   
          \- or -  
   
-    -   Click the drop-down list next to the **Search** box and select a search string from a previous search.  
+    - Click the drop-down list next to the **Search** box and select a search string from a previous search.  
   
 - (Optional) To include the full call stack in your search, select **Search Call Stack**.  
   

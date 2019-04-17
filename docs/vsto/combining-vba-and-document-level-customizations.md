@@ -82,9 +82,9 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
 - The document must have one of the following file name extensions:
 
-    -   For Word: *.docm* or *.doc*
+    - For Word: *.docm* or *.doc*
 
-    -   For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
+    - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
 
 - The document must already contain a VBA project that has VBA code in it.
 
@@ -223,9 +223,9 @@ GetManagedClass(pdispInteropObject Object) As Object
 
 2. It adds a reference to the following type libraries in the VBA project in the document:
 
-   -   The type library for your customization assembly.
+   - The type library for your customization assembly.
 
-   -   The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
    When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:
 

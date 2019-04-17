@@ -77,9 +77,9 @@ You can customize a text view by modifying any of the following properties in it
   
 2. Create a text file and type some text.  
   
-    -   The insertion caret should be magenta and the overwrite caret should be turquoise.  
+    - The insertion caret should be magenta and the overwrite caret should be turquoise.  
   
-    -   The indicator margin (to the left of the text view) should be light green.  
+    - The indicator margin (to the left of the text view) should be light green.  
   
 3. Select the text you just typed. The color of the selected text should be light pink.  
   

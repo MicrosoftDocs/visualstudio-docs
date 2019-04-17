@@ -198,9 +198,9 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
      A variety of facts may be gleaned from the data. For example:  
   
-    -   Each `Timer` event, color-coded to identify it as a scripting event, includes a call to `document.createElement`, followed by a style calculation and a call to `style.backgroundColor` and `appendChild()`.  
+    - Each `Timer` event, color-coded to identify it as a scripting event, includes a call to `document.createElement`, followed by a style calculation and a call to `style.backgroundColor` and `appendChild()`.  
   
-    -   In the short time span selected (approximately one to two seconds), there are a great number of `Timer`, `Layout`, and `Paint` events taking place. The `Timer` events occur far more frequently than the one update per second that is visibly apparent after you run the app and choose the **Waiting for values** button.  
+    - In the short time span selected (approximately one to two seconds), there are a great number of `Timer`, `Layout`, and `Paint` events taking place. The `Timer` events occur far more frequently than the one update per second that is visibly apparent after you run the app and choose the **Waiting for values** button.  
   
 10. To investigate, choose the link to the anonymous function for one of the `Timer` events in the lower left pane. The following function opens in default.js:  
   

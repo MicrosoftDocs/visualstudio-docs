@@ -54,11 +54,11 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
   
      Note that:  
   
-    -   Each test is defined by using `TEST_METHOD(YourTestName){...}`.  
+    - Each test is defined by using `TEST_METHOD(YourTestName){...}`.  
   
          You do not have to write a conventional function signature. The signature is created by the macro TEST_METHOD. The macro generates an instance function that returns void. It also generates a static function that returns information about the test method. This information allows the test explorer to find the method.  
   
-    -   Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.  
+    - Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.  
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md) in the MSDN Library.  
   

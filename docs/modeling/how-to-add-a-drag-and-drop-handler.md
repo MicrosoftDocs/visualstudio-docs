@@ -120,9 +120,9 @@ To discover the formats in which your drag source information is available, run 
 
 - <xref:System.Windows.Forms.IDataObject>  `Data` - This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:
 
-    -   diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
+    - diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
 
-    -   `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
+    - `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
 
          `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
@@ -204,9 +204,9 @@ Make the source DSL accessible by Visual Studio Model Bus:
 
 1. In the target DSL project, add project references to:
 
-    -   The source Dsl project.
+    - The source Dsl project.
 
-    -   The source ModelBus project.
+    - The source ModelBus project.
 
 2. In the gesture handler code file, add the following namespace references:
 

@@ -69,19 +69,19 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 3. Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you’ll use to process information retrieved from a weather data service:
 
-   -   Right-click **Solution 'WeatherApp'** in Solution explorer and select **Manage NuGet Packages for Solution...**.
+   - Right-click **Solution 'WeatherApp'** in Solution explorer and select **Manage NuGet Packages for Solution...**.
 
         In the NuGet window, select the **Browse** tab and search for **Newtonsoft**.
 
-   -   Select **Newtonsoft.Json**.
+   - Select **Newtonsoft.Json**.
 
-   -   On the right side of the window, check the **WeatherApp** project (this is the only project in which you need to install the package).
+   - On the right side of the window, check the **WeatherApp** project (this is the only project in which you need to install the package).
 
-   -   Ensure the **Version** field is set to the **Latest stable** version.
+   - Ensure the **Version** field is set to the **Latest stable** version.
 
-   -   Click **Install**.
+   - Click **Install**.
 
-   -   ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")
+   - ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")
 
 4. Repeat step 3 to find and install the **Microsoft.Net.Http** package.
 

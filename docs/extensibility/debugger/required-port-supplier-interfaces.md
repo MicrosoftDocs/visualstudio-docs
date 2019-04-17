@@ -44,17 +44,17 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
 
      Describes the physical process. At least the following methods must be implemented:
 
-    -   [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)
+    - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)
 
-    -   [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)
+    - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)
 
-    -   [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)
+    - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)
 
-    -   [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
+    - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
 
-    -   [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)
+    - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)
 
-    -   [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
+    - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
 
 - [IDebugProcessEx2](../../extensibility/debugger/reference/idebugprocessex2.md)
 
@@ -64,11 +64,11 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
 
      Describes the logical program. At least the following methods must be implemented:
 
-    -   [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)
+    - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)
 
-    -   [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)
+    - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)
 
-    -   [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)
+    - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)
 
 - [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)
 

@@ -55,11 +55,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 4. On the **Choose your Data Connection**screen do one of the following:  
   
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
          -or-  
   
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
   
 5. If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   

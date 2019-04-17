@@ -32,7 +32,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 1. Start the DSL Migration Tool.
 
-   -   You can double-click the tool in Windows Explorer (or File Explorer), or start the tool from a command prompt. The tool is in this location:
+   - You can double-click the tool in Windows Explorer (or File Explorer), or start the tool from a command prompt. The tool is in this location:
 
         **%ProgramFiles%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Tools\DSLTools\DslProjectsMigrationTool.exe**
 
@@ -44,7 +44,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 3. Review the tree of projects, and uncheck projects that you do not want to convert.
 
-   -   Select a project or solution to see a list of changes that the tool will make.
+   - Select a project or solution to see a list of changes that the tool will make.
 
        > [!NOTE]
        >  The checkboxes that appear next to folder names have no effect. You must expand the folders to inspect the projects and solutions.
@@ -72,9 +72,9 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 6. Update your custom code in the converted projects.
 
-   -   Attempt to build the projects, and investigate any failures.
+   - Attempt to build the projects, and investigate any failures.
 
-   -   Test your designer.
+   - Test your designer.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

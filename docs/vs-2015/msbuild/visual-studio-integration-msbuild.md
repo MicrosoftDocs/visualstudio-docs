@@ -156,11 +156,11 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
      The project system calls a target with the well-known name `ResolveAssemblyReferences`. This target should produce items with the item type name `ReferencePath`. Each of these items should have an item specification (the value of the `Include` attribute of an item) containing the full path to the reference. The items should have all the metadata from the input items passed through in addition to the following new metadata:  
   
-    -   `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
+    - `CopyLocal`, indicating whether the assembly should be copied into the output folder, set to true or false.  
   
-    -   `OriginalItemSpec`, containing the original item specification of the reference.  
+    - `OriginalItemSpec`, containing the original item specification of the reference.  
   
-    -   `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] directory.  
+    - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] directory.  
   
 - COM references:  
   

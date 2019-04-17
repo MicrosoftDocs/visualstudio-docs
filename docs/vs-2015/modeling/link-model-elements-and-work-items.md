@@ -104,11 +104,11 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 3. Choose one or more work items to link to the model element by following one of these steps:  
   
-    -   Choose a query in **Saved Query**.  
+    - Choose a query in **Saved Query**.  
   
-    -   Type the IDs of one or more work items, separated by spaces, in **IDs**.  
+    - Type the IDs of one or more work items, separated by spaces, in **IDs**.  
   
-    -   Type a word or phrase in **Title Contains**.  
+    - Type a word or phrase in **Title Contains**.  
   
 4. Choose **Find**.  
   

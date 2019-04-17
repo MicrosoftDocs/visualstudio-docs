@@ -90,11 +90,11 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 1. Do one of the following to detach the profiler from the target application:  
 
-    -   Stop the service.  
+    - Stop the service.  
 
          -or-  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
 2. Shut down the profiler. Type:  
 

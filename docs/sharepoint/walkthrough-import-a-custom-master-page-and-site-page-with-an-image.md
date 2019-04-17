@@ -160,9 +160,9 @@ ms.workload:
 
     If an existing master page is marked as either Default Master Page or Custom Master Page, you will get a deployment error that states that the master page cannot be deleted. To avoid this problem, do this:
 
-   -   If the existing master page is set as Default Master Page, temporarily set another master page as Default Master Page. After you deploy the files to SharePoint, set your new master page as Default Master Page.
+   - If the existing master page is set as Default Master Page, temporarily set another master page as Default Master Page. After you deploy the files to SharePoint, set your new master page as Default Master Page.
 
-   -   If the existing master page is set as Custom Master Page, temporarily set another master page as Custom Master Page. After you deploy the files to SharePoint, set your new master page as Custom Master Page.
+   - If the existing master page is set as Custom Master Page, temporarily set another master page as Custom Master Page. After you deploy the files to SharePoint, set your new master page as Custom Master Page.
 
 6. On the menu bar, choose **Build** > **Deploy Solution**.
 

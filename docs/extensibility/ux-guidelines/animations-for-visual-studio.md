@@ -19,13 +19,13 @@ Follow these rules to ensure consistent and user-friendly animation styles acros
 
 - **Timing and speed are important** to ensure that transitions feel quick and natural:
 
-    -   Complete animated transitions within one half-second (500 milliseconds).
+    - Complete animated transitions within one half-second (500 milliseconds).
 
-    -   Animations that would occur frequently need to be quick enough that they don't interrupt the user's workflow. Watch the animation in a loop and adjust the timing until it feels right.
+    - Animations that would occur frequently need to be quick enough that they don't interrupt the user's workflow. Watch the animation in a loop and adjust the timing until it feels right.
 
-    -   Animations shouldn't be so fast or jarring that it's difficult to understand, but not so slow that it makes one impatient for the transition to finish.
+    - Animations shouldn't be so fast or jarring that it's difficult to understand, but not so slow that it makes one impatient for the transition to finish.
 
-    -   Use variable timing to emphasize importance. For example, when navigating through a sequence of items on a class diagram, speed through transitions between items then slow down to focus on important items.
+    - Use variable timing to emphasize importance. For example, when navigating through a sequence of items on a class diagram, speed through transitions between items then slow down to focus on important items.
 
 - **Use gradual non-linear easing** from one state to another, giving a sense of calm and natural movement.
 
@@ -41,13 +41,13 @@ Follow these rules to ensure consistent and user-friendly animation styles acros
 
 - **When showing progress or status** through animation:
 
-    -   Stop showing progress movement when the underlying process isn't advancing.
+    - Stop showing progress movement when the underlying process isn't advancing.
 
-    -   Distinguish indeterminate processes from determinate processes.
+    - Distinguish indeterminate processes from determinate processes.
 
-    -   Ensure that an animation has identifiable completion and failure states.
+    - Ensure that an animation has identifiable completion and failure states.
 
-    -   Minimize use of effect animations that show status and make sure that they have real value by providing additional information of actual use. Examples include transient status changes and emergencies
+    - Minimize use of effect animations that show status and make sure that they have real value by providing additional information of actual use. Examples include transient status changes and emergencies
 
 #### Animation don'ts:
 

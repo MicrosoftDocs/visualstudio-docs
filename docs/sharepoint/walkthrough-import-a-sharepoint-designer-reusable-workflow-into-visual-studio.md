@@ -200,9 +200,9 @@ ms.workload:
 
 14. Perform one of the following sets of steps:
 
-    -   Double-click **CodeActivity1** to generate an event handler and view the code.
+    - Double-click **CodeActivity1** to generate an event handler and view the code.
 
-    -   In the **Properties** window for **CodeActivity1**, set the value of the **ExecuteCode** property to **codeActivity_ExecuteCode**.
+    - In the **Properties** window for **CodeActivity1**, set the value of the **ExecuteCode** property to **codeActivity_ExecuteCode**.
 
 15. Add the following under the existing **using** or **Imports** statements:
 

@@ -79,11 +79,11 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
 2. Click the function name to display the **Function Details** view of the profiling data. The **Function Details** view presents a graphical view of the profiling data for the selected function, showing all the functions that called that function and all the functions that were called by the selected function.  
   
-    -   The size of the blocks of the calling and called functions represent the relative frequency that the functions called or were called.  
+    - The size of the blocks of the calling and called functions represent the relative frequency that the functions called or were called.  
   
-    -   You can click the name of a calling or called function to make it the selected function of the Function Details view.  
+    - You can click the name of a calling or called function to make it the selected function of the Function Details view.  
   
-    -   The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.  
+    - The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.  
   
 3. To continue your analysis, return to the **Summary** view by selecting **Summary** from the View drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, , click the function name to display it in the **Function Details** view.  
   
@@ -97,9 +97,9 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
 4. The profiler also uses a set of rules to suggest ways of improving the profiling run and to identify possible performance problems. If an issue is found, a warning is displayed in the **Error List** window. To open the **Error List** window, on the **View** menu click **Error List**.  
   
-    -   To see the function that raised a warning the **Function Details** view, double-click the warning.  
+    - To see the function that raised a warning the **Function Details** view, double-click the warning.  
   
-    -   To view detailed information about the warning, right-click the error and then click **Show Error Help**  
+    - To view detailed information about the warning, right-click the error and then click **Show Error Help**  
   
 ##  <a name="Step3"></a> Step 3: Revise code and rerun a session  
  After you find and optimize one or more functions, you can repeat the profiling run and compare the data to see the difference that your changes have made to the performance of your application.  

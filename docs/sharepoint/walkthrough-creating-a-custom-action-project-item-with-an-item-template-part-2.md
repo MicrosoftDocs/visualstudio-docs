@@ -85,11 +85,11 @@ ms.workload:
 
 7. Select the check boxes next to the following assemblies, and then choose the **OK** button:
 
-    -   EnvDTE
+    - EnvDTE
 
-    -   Microsoft.VisualStudio.Shell.11.0
+    - Microsoft.VisualStudio.Shell.11.0
 
-    -   Microsoft.VisualStudio.TemplateWizardInterface
+    - Microsoft.VisualStudio.TemplateWizardInterface
 
 8. In **Solution Explorer**, in the **References** folder for the ItemTemplateWizard project, choose the **EnvDTE** reference.
 

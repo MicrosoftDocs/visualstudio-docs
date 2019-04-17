@@ -216,7 +216,7 @@ You can create and edit a UML model through the views provided by several differ
   
 1. Right-click an existing element, and then click **Copy**.  
   
-    -   You can copy several elements at the same time. Hold down the CTRL key while you click each element, right-click one of them, and then click **Copy**.  
+    - You can copy several elements at the same time. Hold down the CTRL key while you click each element, right-click one of them, and then click **Copy**.  
   
 2. Right-click an empty part of a compatible diagram, and then click **Paste Reference**.  
   
@@ -247,9 +247,9 @@ You can create and edit a UML model through the views provided by several differ
   
 4. On the **Edit** menu, click **Paste**.  
   
-    -   Copies of the elements appear, together with copies of any relationships that link between them.  
+    - Copies of the elements appear, together with copies of any relationships that link between them.  
   
-    -   Each new element will have a new automatically generated name.  
+    - Each new element will have a new automatically generated name.  
   
 5. Adjust the positions, names, and other properties of the new elements and relationships.  
   
@@ -280,17 +280,17 @@ You can create and edit a UML model through the views provided by several differ
   
 - Click the element on the diagram and then press the **DELETE** key.  
   
-  -   This view of the element vanishes. However, the element remains in the model, and you can still find it in **UML Model Explorer**. Any other views of the same element also remain.  
+  - This view of the element vanishes. However, the element remains in the model, and you can still find it in **UML Model Explorer**. Any other views of the same element also remain.  
   
-  -   Every connector that terminates at this shape is removed from the diagram, but the relationship it represents remains in the model. You can see the relationship in **UML Model Explorer** under **Relationships**, under each element that it connects.  
+  - Every connector that terminates at this shape is removed from the diagram, but the relationship it represents remains in the model. You can see the relationship in **UML Model Explorer** under **Relationships**, under each element that it connects.  
   
 #### To delete an element from the model  
   
 - Right-click the element either in **UML Model Explorer** or on a diagram, and then click **Delete from Model**.  
   
-    -   The element is deleted from every diagram on which it appears.  
+    - The element is deleted from every diagram on which it appears.  
   
-    -   Every relationship that terminates at this element is also deleted from the model.  
+    - Every relationship that terminates at this element is also deleted from the model.  
   
 #### To delete a relationship from the model  
   

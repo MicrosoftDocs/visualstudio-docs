@@ -37,9 +37,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
      **VSPerfClrEnv /globaltracegclife**
 
-    -   **/globaltracegc** enables the collection of memory allocation data.
+    - **/globaltracegc** enables the collection of memory allocation data.
 
-    -   **/globaltracegclife** enables the collection of memory allocation data and object lifetime data.
+    - **/globaltracegclife** enables the collection of memory allocation data and object lifetime data.
 
 4. Restart the computer.
 

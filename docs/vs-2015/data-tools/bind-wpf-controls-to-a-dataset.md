@@ -87,9 +87,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 5. On the **Choose Your Data Connection** page, select one of the following options:  
   
-    -   If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it and then click **Next**.  
+    - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it and then click **Next**.  
   
-    -   Click **New Connection**, and create a connection to the AdventureWorksLT database.  
+    - Click **New Connection**, and create a connection to the AdventureWorksLT database.  
   
 6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** check box, and then click **Next**.  
   
@@ -156,15 +156,15 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3. For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:  
   
-    -   ProductCategoryID  
+    - ProductCategoryID  
   
-    -   ProductModelID  
+    - ProductModelID  
   
-    -   ThumbnailPhotoFileName  
+    - ThumbnailPhotoFileName  
   
-    -   rowguid  
+    - rowguid  
   
-    -   ModifiedDate  
+    - ModifiedDate  
   
 4. Click the drop-down menu next to the **ThumbNailPhoto** node and select **Image**.  
   
@@ -231,9 +231,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
      The application builds and runs. Verify the following:  
   
-    -   The text boxes display data from the first product record that has a photo. This product has the product ID 713, and the name **Long-Sleeve Logo Jersey, S**.  
+    - The text boxes display data from the first product record that has a photo. This product has the product ID 713, and the name **Long-Sleeve Logo Jersey, S**.  
   
-    -   You can click the **>** or **<** buttons to navigate through other product records.  
+    - You can click the **>** or **<** buttons to navigate through other product records.  
   
 2. In one of the product records, change the **Size** value, and then click **Save changes**.  
   

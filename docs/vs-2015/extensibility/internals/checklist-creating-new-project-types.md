@@ -27,25 +27,25 @@ You must complete several tasks to create a new project type. The following chec
   
 5. Write the code for the following project type components:  
   
-    -   Project factory, to manage creating new projects and opening existing projects. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
+    - Project factory, to manage creating new projects and opening existing projects. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
   
-    -   Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
+    - Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
   
-    -   Project items management, including adding your project to the **New Project** dialog box. For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
+    - Project items management, including adding your project to the **New Project** dialog box. For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   
-    -   Persistence of project state and individual items. For more information, see [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions-overview.md).  
+    - Persistence of project state and individual items. For more information, see [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md). For persistence of solution information, see [Solutions](../../extensibility/internals/solutions-overview.md).  
   
-    -   Configuration independent properties to display in the Properties window. For more information, see [Extending Properties](../../extensibility/internals/extending-properties.md).  
+    - Configuration independent properties to display in the Properties window. For more information, see [Extending Properties](../../extensibility/internals/extending-properties.md).  
   
-    -   Project configuration properties as implemented in property pages to show configuration-dependent properties. For more information, see [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md).  
+    - Project configuration properties as implemented in property pages to show configuration-dependent properties. For more information, see [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md).  
   
-    -   Enumerating outputs for deployment. For more information, see [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md).  
+    - Enumerating outputs for deployment. For more information, see [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md).  
   
-    -   Project startup services. For more information, see [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md) and [Project Model Core Components](../../extensibility/internals/project-model-core-components.md).  
+    - Project startup services. For more information, see [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md) and [Project Model Core Components](../../extensibility/internals/project-model-core-components.md).  
   
-    -   Objects, or classes derived from `IDispatch`, available for Automation.  
+    - Objects, or classes derived from `IDispatch`, available for Automation.  
   
-    -   XML Command Table (.vsct) files. For more information, see [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
+    - XML Command Table (.vsct) files. For more information, see [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
   
 6. Test, debug, and start your project type.  
   

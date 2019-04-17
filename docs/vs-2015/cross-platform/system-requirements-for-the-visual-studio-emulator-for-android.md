@@ -56,11 +56,11 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
 
 - In the BIOS, the following features must be supported:
 
-  -   Hardware-assisted virtualization
+  - Hardware-assisted virtualization
 
-  -   Second Level Address Translation (SLAT)
+  - Second Level Address Translation (SLAT)
 
-  -   Hardware-based Data Execution Prevention (DEP)
+  - Hardware-based Data Execution Prevention (DEP)
 
 - In Windows, Hyper-V must be enabled and running.
 

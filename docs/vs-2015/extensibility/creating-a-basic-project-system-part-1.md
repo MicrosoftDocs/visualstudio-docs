@@ -269,11 +269,11 @@ In Visual Studio, projects are the containers that developers use to organize so
   
     4.  Add references to the following assemblies:  
   
-        -   Microsoft.VisualStudio.Designer.Interfaces (in \<VSSDK install>\VisualStudioIntegration\Common\Assemblies\v2.0)  
+        - Microsoft.VisualStudio.Designer.Interfaces (in \<VSSDK install>\VisualStudioIntegration\Common\Assemblies\v2.0)  
   
-        -   WindowsBase  
+        - WindowsBase  
   
-        -   Microsoft.Build.Tasks.v4.0  
+        - Microsoft.Build.Tasks.v4.0  
   
 #### To initialize the project factory  
   
@@ -611,9 +611,9 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 3. Examine the values for the `nameSpace` and `className` parameters.  
   
-   -   `nameSpace` is given the value of the \<RootNamespace> element in the \Templates\Projects\SimpleProject\SimpleProject.myproj project template file. In this case, the value is "MyRootNamespace".  
+   - `nameSpace` is given the value of the \<RootNamespace> element in the \Templates\Projects\SimpleProject\SimpleProject.myproj project template file. In this case, the value is "MyRootNamespace".  
   
-   -   `className` is given the value of the class source file name, without the file name extension. In this case, the first file to be copied to the destination folder is AssemblyInfo.cs; therefore, the value of className is "AssemblyInfo".  
+   - `className` is given the value of the class source file name, without the file name extension. In this case, the first file to be copied to the destination folder is AssemblyInfo.cs; therefore, the value of className is "AssemblyInfo".  
   
 4. Remove the breakpoint and press F5 to continue execution.  
   

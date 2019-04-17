@@ -21,9 +21,9 @@ You can add handlers for drag-and-drop events to your DSL, so that users can dra
   
 - The first two sections describe alternative methods of defining a gesture handler:  
   
-    -   [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.  
+    - [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.  
   
-    -   [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.  
+    - [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.  
   
 - [How to Decode the Dragged Item](#extracting). Elements can be dragged from any window or from the desktop, as well as from a DSL.  
   
@@ -132,9 +132,9 @@ using System.Linq;
   
 - <xref:System.Windows.Forms.IDataObject>  `Data` – This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:  
   
-  -   diagramEventArgs.Data.GetDataFormats() – Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").  
+  - diagramEventArgs.Data.GetDataFormats() – Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").  
   
-  -   `diagramEventArgs.Data.GetData(format)` – Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:  
+  - `diagramEventArgs.Data.GetData(format)` – Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:  
   
        `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`  
   
@@ -216,9 +216,9 @@ using System.Linq;
   
 1. In the target DSL project, add project references to:  
   
-    -   The source Dsl project.  
+    - The source Dsl project.  
   
-    -   The source ModelBus project.  
+    - The source ModelBus project.  
   
 2. In the gesture handler code file, add the following namespace references:  
   

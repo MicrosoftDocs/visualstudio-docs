@@ -22,9 +22,9 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 - An active Microsoft Azure account.  
   
-    -   You can sign up for a free trial account [here](http://azure.microsoft.com/pricing/free-trial/).  
+    - You can sign up for a free trial account [here](http://azure.microsoft.com/pricing/free-trial/).  
   
-    -   You can activate [MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F). Your MSDN subscription gives you credits every month that you can use for paid Azure services.  
+    - You can activate [MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F). Your MSDN subscription gives you credits every month that you can use for paid Azure services.  
   
 ## Create a project and add references  
  The first step is to create a WPF project and add a NuGet package that lets you connect to Azure Mobile Services.  

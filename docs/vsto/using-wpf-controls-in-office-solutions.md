@@ -47,11 +47,11 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
 5. Add an actions pane, form region, or custom task pane to your project:
 
-    -   For form regions, add an **Outlook Form Region** item to the project. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).
+    - For form regions, add an **Outlook Form Region** item to the project. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).
 
-    -   For actions panes, add an **Actions Pane Control** or **User Control** item to the project. For more information, see [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md) and [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).
+    - For actions panes, add an **Actions Pane Control** or **User Control** item to the project. For more information, see [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md) and [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).
 
-    -   For custom task panes, add a **User Control** item to the project. For more information, see [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).
+    - For custom task panes, add a **User Control** item to the project. For more information, see [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).
 
 6. From the *ProjectName* **WPF User Controls** tab of the **Toolbox**, drag the WPF user control to the designer for the actions pane, form region, or custom task pane.
 

@@ -28,13 +28,13 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 3. There are three code files, as follows:  
   
-    -   EditorClassifier1.cs contains the `EditorClassifier1` class.  
+    - EditorClassifier1.cs contains the `EditorClassifier1` class.  
   
-    -   EditorClassifier1ClassificationDefinition.cs contains the `OEditorClassifier1ClassificationDefinition` class.  
+    - EditorClassifier1ClassificationDefinition.cs contains the `OEditorClassifier1ClassificationDefinition` class.  
   
-    -   EditorClassifier1Format.cs contains the `EditorClassifier1Format`  class.  
+    - EditorClassifier1Format.cs contains the `EditorClassifier1Format`  class.  
   
-    -   EditorClassifier1Provider.cs contains the `EditorClassifier1Provider` class.  
+    - EditorClassifier1Provider.cs contains the `EditorClassifier1Provider` class.  
   
 4. Build the project and start debugging. The experimental instance of Visual Studio appears.  
   
@@ -49,9 +49,9 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 3. There are two code files, as follows:  
   
-    -   TextAdornment1.cs contains the `TextAdornment1` class.  
+    - TextAdornment1.cs contains the `TextAdornment1` class.  
   
-    -   extAdornment1TextViewCreationListener.cs contains the `TextAdornment1TextViewCreationListener` class.  
+    - extAdornment1TextViewCreationListener.cs contains the `TextAdornment1TextViewCreationListener` class.  
   
 4. Build the project and start debugging. The experimental instance appears. If you open a text file, all the 'a' characters in the text are outlined in red against a blue background.  
   
@@ -69,9 +69,9 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 3. There are two code files, as follows:  
   
-    -   ViewportAdornment1.cs contains the `ViewportAdornment1` class.  
+    - ViewportAdornment1.cs contains the `ViewportAdornment1` class.  
   
-    -   ViewportAdornment1TextViewCreationListener.cs contains the `ViewportAdornment1TextViewCreationListener` class  
+    - ViewportAdornment1TextViewCreationListener.cs contains the `ViewportAdornment1TextViewCreationListener` class  
   
 4. Build the project and start debugging. The experimental instance appears. If you create a new text file, a violet box that has a red outline is displayed in the top-right corner of the viewport.  
   
@@ -86,9 +86,9 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 3. There are two code files, as follows:  
   
-    -   EditorMargin1.cs contains the `EditorMargin1` class.  
+    - EditorMargin1.cs contains the `EditorMargin1` class.  
   
-    -   EditorMargin1Factory.cs contains the `EditorMargin1Factory` class.  
+    - EditorMargin1Factory.cs contains the `EditorMargin1Factory` class.  
   
 4. Build this project and start debugging. The experimental instance appears. If you open a text file, a green margin that has the words "Hello EditorMargin1" is displayed below the horizontal scrollbar.  
   

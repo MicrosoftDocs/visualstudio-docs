@@ -35,9 +35,9 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
 4. Perform one of the following steps:  
   
-    -   In the **Disable Specific Warnings** box, specify the error codes of the warnings that you want to suppress, separated by a semicolon.  
+    - In the **Disable Specific Warnings** box, specify the error codes of the warnings that you want to suppress, separated by a semicolon.  
   
-    -   In the **Disable Specific Warnings** box, choose **Edit** to display more options.  
+    - In the **Disable Specific Warnings** box, choose **Edit** to display more options.  
   
 5. Choose the **OK** button, and then rebuild the solution.  
   

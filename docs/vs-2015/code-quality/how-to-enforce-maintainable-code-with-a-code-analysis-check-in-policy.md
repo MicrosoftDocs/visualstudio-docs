@@ -41,15 +41,15 @@ Developers can use the Code Metrics tool to measure the complexity and maintaina
   
 2. Select the check boxes for the following rules:  
   
-    -   Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep  
+    - Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep  
   
-    -   Complexity: **CA1502 AvoidExcessiveComplexity** - Threshold: Warning at more than 25  
+    - Complexity: **CA1502 AvoidExcessiveComplexity** - Threshold: Warning at more than 25  
   
-    -   Maintainability Index: **CA1505 AvoidUnmaintainableCode** - Threshold: Warning at fewer than 20  
+    - Maintainability Index: **CA1505 AvoidUnmaintainableCode** - Threshold: Warning at fewer than 20  
   
-    -   Class Coupling: **CA1506 AvoidExcessiveClassCoupling** - Threshold: Warning at more than 80 for a class and more than 30 for a method  
+    - Class Coupling: **CA1506 AvoidExcessiveClassCoupling** - Threshold: Warning at more than 80 for a class and more than 30 for a method  
   
-    -   In addition, if you want a rule violation to prevent a build, select the **Treat Warning As An Error** check box next to the rule description.  
+    - In addition, if you want a rule violation to prevent a build, select the **Treat Warning As An Error** check box next to the rule description.  
   
 3. Click **OK**. The new check-in policy now applies to future check-ins.  
   

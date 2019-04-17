@@ -41,7 +41,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/globaltracegc** &#124; **/globaltracegclife**}
 
-   -   **/globaltracegc** and **/globaltracegclife** enable the collection of memory allocation and object lifetime data.
+   - **/globaltracegc** and **/globaltracegclife** enable the collection of memory allocation and object lifetime data.
 
        |Option|Description|
        |------------|-----------------|
@@ -82,7 +82,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
      **VSPerfCmd /attach:** `PID`&#124;`ProcessName`
 
-    -   Specify the process ID or process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.
+    - Specify the process ID or process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.
 
 ## Control data collection
  While the service is running, you can control data collection by starting and stopping the writing of data to the file with *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.

@@ -87,9 +87,9 @@ A code analysis check-in policy specifies a set of rules that members of a team 
     > [!NOTE]
     >  You can copy the path by using one of the following procedures in **Source Control Explorer**:  
   
-    -   In the **Folders** pane, click the folder that contains the rule set file. Copy the version control path of the folder that appears in the **Source** box, and type the name of the rule set file manually.  
+    - In the **Folders** pane, click the folder that contains the rule set file. Copy the version control path of the folder that appears in the **Source** box, and type the name of the rule set file manually.  
   
-    -   In the details window, right-click the rule set file, and then click **Properties**. On the **General** tab, copy the value in **Server Name**.  
+    - In the details window, right-click the rule set file, and then click **Properties**. On the **General** tab, copy the value in **Server Name**.  
   
 ## Synchronizing Code Projects to the Check-in Policy Rule Set  
  You specify a team project check-in policy rule set as the code analysis rule set of a code project configuration in the properties dialog box of the code project. If the rule set is located on the same drive as the code project, a relative path is used to specify rule set when the path is selected from the file dialog box. The relative path enables the project properties settings to be portable to other computers that use similar local version control structures.  

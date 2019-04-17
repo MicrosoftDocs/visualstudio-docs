@@ -63,31 +63,31 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 3. On the second page of the wizard, select the application that you want to profile.  
   
-    -   To profile a project that is currently open in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], select the **One or more available projects** option and then select the project name from the list.  
+    - To profile a project that is currently open in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], select the **One or more available projects** option and then select the project name from the list.  
   
-    -   To profile a binary that is not in an open project select **An executable (.EXE file)** option.  
+    - To profile a binary that is not in an open project select **An executable (.EXE file)** option.  
   
 4. Click **Next**.  
   
 5. On the third page of the wizard:  
   
-    -   If you are profiling an executable that is not in an open project, specify the path to the binary file in **What is the full path to the executable**.  
+    - If you are profiling an executable that is not in an open project, specify the path to the binary file in **What is the full path to the executable**.  
   
-    -   If you are profiling an executable that is not in an open project, you can specify any command-line arguments to pass to the process in **Command-line arguments**.  
+    - If you are profiling an executable that is not in an open project, you can specify any command-line arguments to pass to the process in **Command-line arguments**.  
   
-    -   In **Remote working directory**, specify the path to the folder that is used by the process instances on the individual compute nodes.  
+    - In **Remote working directory**, specify the path to the folder that is used by the process instances on the individual compute nodes.  
   
-    -   In **Deployment location**, specify the path to the directory that the HPC server uses to stage images for deployment.  
+    - In **Deployment location**, specify the path to the directory that the HPC server uses to stage images for deployment.  
   
 6. Click **Next**.  
   
 7. On the fourth page of the wizard:  
   
-    -   In the **Head Node** list, click the computer that acts as the HPC head node in the profiling run. The Head Node can be "localhost", which enables you to profile on the local machine without the need for a cluster.  
+    - In the **Head Node** list, click the computer that acts as the HPC head node in the profiling run. The Head Node can be "localhost", which enables you to profile on the local machine without the need for a cluster.  
   
-    -   In the **Number of processes** list, click the number of instances of the application to run.  
+    - In the **Number of processes** list, click the number of instances of the application to run.  
   
-    -   From the **Profiling options** list, select the profiling target.  
+    - From the **Profiling options** list, select the profiling target.  
   
          To profile a specific process in the cluster, select the **Profile on rank** option and then select the rank of the process from the drop-down list.  
   
@@ -97,7 +97,7 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 9. On the fifth page of the wizard, you can choose to immediately start the profiler and the profiling process or to start profiling later by using Performance Explorer.  
   
-    -   Select **Launch profiling after the wizard finishes** to start profiling immediately, or clear the check box to start profiling manually.  
+    - Select **Launch profiling after the wizard finishes** to start profiling immediately, or clear the check box to start profiling manually.  
   
 10. Click **Finish**.  
   
@@ -112,11 +112,11 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 3. In the Property Pages dialog box, use one of the following methods:  
   
-    -   Click **General** and then select **Collect on HPC Cluster** to turn HPC profiling on or clear the check box to disable HPC profiling.  
+    - Click **General** and then select **Collect on HPC Cluster** to turn HPC profiling on or clear the check box to disable HPC profiling.  
   
-    -   Click **HPC Launch Properties** to change the properties that start the HPC application.  
+    - Click **HPC Launch Properties** to change the properties that start the HPC application.  
   
-    -   Click **HPC Advanced Properties** to set additional options  
+    - Click **HPC Advanced Properties** to set additional options  
   
 ### HPC Launch Properties  
   

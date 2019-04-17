@@ -80,11 +80,11 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
 
 1. Perform one of the following steps to detach the profiler from the target application.
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
          -or-
 
-    -   Close the target application.
+    - Close the target application.
 
 2. Shut down the profiler. Type:
 

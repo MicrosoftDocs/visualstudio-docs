@@ -216,9 +216,9 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
 - If the `debugger` keyword is encountered in:  
   
-    -   **LibraryCode** code, the debugger always breaks.  
+    - **LibraryCode** code, the debugger always breaks.  
   
-    -   **UnrelatedCode** code, the debugger doesn’t stop.  
+    - **UnrelatedCode** code, the debugger doesn’t stop.  
   
 ###  <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  

@@ -83,9 +83,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 5. On the **Choose your Data Connection** page, do one of the following:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
 6. If your database requires a password and if the option to include sensitive data is enabled, select the option and then click **Next**.
 

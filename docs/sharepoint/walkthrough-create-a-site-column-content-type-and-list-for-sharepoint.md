@@ -141,17 +141,17 @@ ms.workload:
 
 8. Delete all of the site columns in the list except for the following:
 
-    -   Patient ID
+    - Patient ID
 
-    -   Patient Name
+    - Patient Name
 
-    -   Home Phone
+    - Home Phone
 
-    -   E-Mail
+    - E-Mail
 
-    -   Doctor Name
+    - Doctor Name
 
-    -   Comments
+    - Comments
 
 9. Under **Column Display Name**, choose an empty row, add a custom list column, and name it **Hospital**. Leave its data type as **Single Line of Text**.
 
@@ -174,19 +174,19 @@ ms.workload:
 
 13. Add the following columns to the **Selected Columns** list in the following order:
 
-    -   Patient ID
+    - Patient ID
 
-    -   Patient Name
+    - Patient Name
 
-    -   Home Phone
+    - Home Phone
 
-    -   E-Mail
+    - E-Mail
 
-    -   Doctor Name
+    - Doctor Name
 
-    -   Hospital
+    - Hospital
 
-    -   Comments
+    - Comments
 
 14. In the **Properties** list, choose the **Sorting and Grouping** property, and then choose the ellipsis button ![Ellipsis Icon](../sharepoint/media/ellipsisicon.gif "Ellipsis Icon") to display the **Sorting and Grouping** dialog box.
 

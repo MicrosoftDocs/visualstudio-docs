@@ -32,11 +32,11 @@ ms.workload:
 
 1. Install the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
-    -   To download the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], see [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178957).
+    - To download the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], see [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178957).
 
-    -   To download the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)], see [Microsoft .NET Framework 4 Client Profile (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178958).
+    - To download the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)], see [Microsoft .NET Framework 4 Client Profile (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178958).
 
-    -   To download the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], see [Microsoft .NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653).
+    - To download the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], see [Microsoft .NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653).
 
 2. Run *vstor_redist.exe* to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 

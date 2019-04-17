@@ -99,11 +99,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      This view provides some useful information about the element:  
   
-    -   Colors correspond to the box highlighting that appears in the Simulator when hovering over elements. The blue color represents the \<img> element dimensions. The tan color represents margin values.  
+    - Colors correspond to the box highlighting that appears in the Simulator when hovering over elements. The blue color represents the \<img> element dimensions. The tan color represents margin values.  
   
-    -   The left margin (margin-left) is set, which hints at the cause of the problem because it matches the symptom (black on the left side of images).  
+    - The left margin (margin-left) is set, which hints at the cause of the problem because it matches the symptom (black on the left side of images).  
   
-    -   The boxes that show values of 0 pixels (for example, Border and Padding) suggest that the corresponding CSS properties are probably not set.  
+    - The boxes that show values of 0 pixels (for example, Border and Padding) suggest that the corresponding CSS properties are probably not set.  
   
 11. To see how the margin-left rule is applied, choose the **Computed** tab and look under the margin-left rule. You can see that this rule is set with a 5em value, but the computed value is either 66.66px or 146.66px, depending on your target device.  
   

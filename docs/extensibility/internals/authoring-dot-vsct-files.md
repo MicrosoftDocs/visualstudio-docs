@@ -45,9 +45,9 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 1. At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:
 
-   -   *Stdidcmd.h*: Defines IDs for all commands exposed by Visual Studio.
+   - *Stdidcmd.h*: Defines IDs for all commands exposed by Visual Studio.
 
-   -   *Vsshlids.h*: Contains command IDs for Visual Studio menus.
+   - *Vsshlids.h*: Contains command IDs for Visual Studio menus.
 
 2. If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call.
 
@@ -147,71 +147,71 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 2. To set the visibility or availability of a UI item in code, use one or more of the following command flags:
 
-   -   `DefaultDisabled`
+   - `DefaultDisabled`
 
-   -   `DefaultInvisible`
+   - `DefaultInvisible`
 
-   -   `DynamicItemStart`
+   - `DynamicItemStart`
 
-   -   `DynamicVisibility`
+   - `DynamicVisibility`
 
-   -   `NoShowOnMenuController`
+   - `NoShowOnMenuController`
 
-   -   `NotInTBList`
+   - `NotInTBList`
 
    For more information, see the [CommandFlag](../../extensibility/command-flag-element.md) element.
 
 3. To change how an element appears, or change its appearance dynamically, use one or more of the following command flags:
 
-   -   `AlwaysCreate`
+   - `AlwaysCreate`
 
-   -   `CommandWellOnly`
+   - `CommandWellOnly`
 
-   -   `DefaultDocked`
+   - `DefaultDocked`
 
-   -   `DontCache`
+   - `DontCache`
 
-   -   `DynamicItemStart`
+   - `DynamicItemStart`
 
-   -   `FixMenuController`
+   - `FixMenuController`
 
-   -   `IconAndText`
+   - `IconAndText`
 
-   -   `Pict`
+   - `Pict`
 
-   -   `StretchHorizontally`
+   - `StretchHorizontally`
 
-   -   `TextMenuUseButton`
+   - `TextMenuUseButton`
 
-   -   `TextChanges`
+   - `TextChanges`
 
-   -   `TextOnly`
+   - `TextOnly`
 
    For more information, see the [CommandFlag](../../extensibility/command-flag-element.md) element.
 
 4. To change how an element reacts when it receives commands, use one or more of the following command flags:
 
-   -   `AllowParams`
+   - `AllowParams`
 
-   -   `CaseSensitive`
+   - `CaseSensitive`
 
-   -   `CommandWellOnly`
+   - `CommandWellOnly`
 
-   -   `FilterKeys`
+   - `FilterKeys`
 
-   -   `NoAutoComplete`
+   - `NoAutoComplete`
 
-   -   `NoButtonCustomize`
+   - `NoButtonCustomize`
 
-   -   `NoKeyCustomize`
+   - `NoKeyCustomize`
 
-   -   `NoToolbarClose`
+   - `NoToolbarClose`
 
-   -   `PostExec`
+   - `PostExec`
 
-   -   `RouteToDocs`
+   - `RouteToDocs`
 
-   -   `TextIsAnchorCommand`
+   - `TextIsAnchorCommand`
 
    For more information, see the [CommandFlag](../../extensibility/command-flag-element.md) element.
 

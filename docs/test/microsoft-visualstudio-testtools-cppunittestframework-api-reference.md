@@ -25,11 +25,11 @@ Header and lib paths are automatically configured in a Native Test project.
 
 - [Initialize and cleanup](#Initialize_and_cleanup)
 
-  -   [Test methods](#test_methods)
+  - [Test methods](#test_methods)
 
-  -   [Test classes](#test_classes)
+  - [Test classes](#test_classes)
 
-  -   [Test modules](#test_modules)
+  - [Test modules](#test_modules)
 
 - [Create test attributes](#create_test_attributes)
 
@@ -45,37 +45,37 @@ Header and lib paths are automatically configured in a Native Test project.
 
   - [General Asserts](#general_asserts)
 
-    -   [Are Equal](#general_are_equal)
+    - [Are Equal](#general_are_equal)
 
-    -   [Are Not Equal](#general_are_not_equal)
+    - [Are Not Equal](#general_are_not_equal)
 
-    -   [Are Same](#general_are_same)
+    - [Are Same](#general_are_same)
 
-    -   [Are Not Same](#general_are_not_same)
+    - [Are Not Same](#general_are_not_same)
 
-    -   [Is Null](#general_is_null)
+    - [Is Null](#general_is_null)
 
-    -   [Is Not Null](#general_is_not_null)
+    - [Is Not Null](#general_is_not_null)
 
-    -   [Is True](#general_is_True)
+    - [Is True](#general_is_True)
 
-    -   [Is False](#general_is_false)
+    - [Is False](#general_is_false)
 
-    -   [Fail](#general_Fail)
+    - [Fail](#general_Fail)
 
   - [Windows Runtime Asserts](#winrt_asserts)
 
-    -   [Are Equal](#winrt_are_equal)
+    - [Are Equal](#winrt_are_equal)
 
-    -   [Are Same](#winrt_are_same)
+    - [Are Same](#winrt_are_same)
 
-    -   [Are Not Equal](#winrt_are_not_equal)
+    - [Are Not Equal](#winrt_are_not_equal)
 
-    -   [Are Not Same](#winrt_are_not_same)
+    - [Are Not Same](#winrt_are_not_same)
 
-    -   [Is Null](#winrt_is_null)
+    - [Is Null](#winrt_is_null)
 
-    -   [Is Not Null](#winrt_is_not_null)
+    - [Is Not Null](#winrt_is_not_null)
 
   - [Exception Asserts](#exception_asserts)
 

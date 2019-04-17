@@ -52,7 +52,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
 4. Open **source.extension.vsixmanifest**. The file opens in the manifest editor.  
   
@@ -95,7 +95,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
      The project builds, and a new instance of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] starts in Experimental mode.  
   
-    -   Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
+    - Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
   
 2. Create or open a modeling project in the experimental instance of Visual Studio, and create or open a diagram.  
   
@@ -114,7 +114,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of Visual Studio that you specified on the **Installation Targets** tab of **source.extension.vsixmanifest**.  
+    - The target computer must have one of the editions of Visual Studio that you specified on the **Installation Targets** tab of **source.extension.vsixmanifest**.  
   
 3. On the target computer, open the **.vsix** file, for example by double-clicking it.  
   

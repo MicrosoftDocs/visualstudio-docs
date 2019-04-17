@@ -58,7 +58,7 @@ This walkthrough explains how to create a tool window that responds to events in
   
 4. Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>.  
   
-    -   Implement the interface. Place the cursor on the IVsRunningDocTableEvents name. You should see a light bulb in the left margin. Click the Down arrow to the right of the light bulb and select **Implement interface**.  
+    - Implement the interface. Place the cursor on the IVsRunningDocTableEvents name. You should see a light bulb in the left margin. Click the Down arrow to the right of the light bulb and select **Implement interface**.  
   
 5. In each method in the interface, replace the line `throw new NotImplementedException();` with this:  
   

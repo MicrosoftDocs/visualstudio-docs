@@ -288,13 +288,13 @@ Set the following registry values to enable F1 Fallback for vendor Help content.
 
 1. Set the **VendorContent** value under the Help 2.3 registry key:
 
-   -   For 32-bit operating systems:
+   - For 32-bit operating systems:
 
         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Catalogs\VisualStudio15
 
         "VendorContent"=dword:00000001
 
-   -   For 64-bit operating systems:
+   - For 64-bit operating systems:
 
         HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15
 

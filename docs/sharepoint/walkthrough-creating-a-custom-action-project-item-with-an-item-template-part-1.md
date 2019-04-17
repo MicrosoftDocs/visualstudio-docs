@@ -23,11 +23,11 @@ ms.workload:
 
 - Creating a Visual Studio extension that defines a new type of SharePoint project item for a custom action. The new project item type implements several custom features:
 
-  -   A shortcut menu that serves as a starting point for additional tasks related to the project item, such as displaying a designer for the custom action in Visual Studio.
+  - A shortcut menu that serves as a starting point for additional tasks related to the project item, such as displaying a designer for the custom action in Visual Studio.
 
-  -   Code that runs when a developer changes certain properties of the project item and the project that contains it.
+  - Code that runs when a developer changes certain properties of the project item and the project that contains it.
 
-  -   A custom icon that appears next to the project item in **Solution Explorer**.
+  - A custom icon that appears next to the project item in **Solution Explorer**.
 
 - Creating a Visual Studio item template for the project item.
 
@@ -128,9 +128,9 @@ ms.workload:
 
 6. Select the check box next to each of the following assemblies:
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
-    -   System.Windows.Forms
+    - System.Windows.Forms
 
 7. Choose the **Extensions** node, select the check box next to the Microsoft.VisualStudio.Sharepoint assembly, and then choose the **OK** button.
 
@@ -390,25 +390,25 @@ ms.workload:
 
 2. In the *Elements.xml* file, make the following changes, and then save the file:
 
-    -   In the `CustomAction` element, set the `Id` attribute to a GUID or some other unique string as the following example shows:
+    - In the `CustomAction` element, set the `Id` attribute to a GUID or some other unique string as the following example shows:
 
         ```xml
         Id="cd85f6a7-af2e-44ab-885a-0c795b52121a"
         ```
 
-    -   In the `CustomAction` element, set the `Title` attribute as the following example shows:
+    - In the `CustomAction` element, set the `Title` attribute as the following example shows:
 
         ```xml
         Title="SharePoint Developer Center"
         ```
 
-    -   In the `CustomAction` element, set the `Description` attribute as the following example shows:
+    - In the `CustomAction` element, set the `Description` attribute as the following example shows:
 
         ```xml
         Description="Opens the SharePoint Developer Center Web site."
         ```
 
-    -   In the `UrlAction` element, set the `Url` attribute as the following example shows:
+    - In the `UrlAction` element, set the `Url` attribute as the following example shows:
 
         ```xml
         Url="https://docs.microsoft.com/sharepoint/dev/"

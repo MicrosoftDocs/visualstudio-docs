@@ -29,9 +29,9 @@ The following section describes the process that occurs when the debugger is in 
 
      If ParseText does return S_OK, the SDM can then call either [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) or [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) to get a final value from the parsed expression.
 
-    -   When using `IDebugExpression2::EvaluateSync`, the given callback interface communicates the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.
+    - When using `IDebugExpression2::EvaluateSync`, the given callback interface communicates the ongoing process of the evaluation. The final value is returned in an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface.
 
-    -   When using `IDebugExpression2::EvaluateAsync`, the given callback interface communicates the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value results with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).
+    - When using `IDebugExpression2::EvaluateAsync`, the given callback interface communicates the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value results with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).
 
 ## See also
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

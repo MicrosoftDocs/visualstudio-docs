@@ -41,9 +41,9 @@ When you write a command or gesture handler for your domain-specific language, y
   
 3. In addition, the generated code defines an explorer tool window property and an explorer selection property in the command set class for the domain-specific language.  
   
-    -   The explorer tool window property returns an instance of the explorer tool window class for the domain-specific language. The explorer tool window class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelExplorerToolWindow> class and represents the model explorer for the domain-specific language.  
+    - The explorer tool window property returns an instance of the explorer tool window class for the domain-specific language. The explorer tool window class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelExplorerToolWindow> class and represents the model explorer for the domain-specific language.  
   
-    -   The `ExplorerSelection` property returns the selected element in the model explorer window for the domain-specific language.  
+    - The `ExplorerSelection` property returns the selected element in the model explorer window for the domain-specific language.  
   
 ## Determining which window is active  
  The <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> interface contains defines members that provide access to the current selection state in the shell. You can get an <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> object from either the package class or the command set class for the domain-specific language through the `MonitorSelection` property defined in the base class of each. The package class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelingPackage> class, and the command set class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class.  

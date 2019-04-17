@@ -46,9 +46,9 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 
 4. If you select **Performance counter**, select a specific CPU counter from the **Available performance counters** tree view control.
 
-    -   Counters in the **Portable Events** node are available on all types of processors.
+    - Counters in the **Portable Events** node are available on all types of processors.
 
-    -   Counters in the **Platform Events** node are specific to the processor on the current computer and might not be available on other types of processors.
+    - Counters in the **Platform Events** node are specific to the processor on the current computer and might not be available on other types of processors.
 
 5. When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.
 

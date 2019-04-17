@@ -259,21 +259,21 @@ To create a customer follow-up email message, select a customer, and then select
 
      The following actions occur:
 
-    -   A new mail message Inspector window appears.
+    - A new mail message Inspector window appears.
 
-    -   On the **Message** tab of the ribbon, the **Customer Purchases** group appears before the **Clipboard** group.
+    - On the **Message** tab of the ribbon, the **Customer Purchases** group appears before the **Clipboard** group.
 
-    -   The **Customers** combo box in the group is updated with the names of customers in the Northwind database.
+    - The **Customers** combo box in the group is updated with the names of customers in the Northwind database.
 
 3. On the **Message** tab of the ribbon, in the **Customer Purchases** group, select a customer from the **Customers** combo box.
 
      The following actions occur:
 
-    -   The **Products Purchased** menu is updated to show each sales order for the selected customer.
+    - The **Products Purchased** menu is updated to show each sales order for the selected customer.
 
-    -   Each sales order submenu is updated to show the products purchased in that order.
+    - Each sales order submenu is updated to show the products purchased in that order.
 
-    -   The selected customer's email address is added to the **To** line of the mail message, and the subject and body of the mail message are populated with text.
+    - The selected customer's email address is added to the **To** line of the mail message, and the subject and body of the mail message are populated with text.
 
 4. Click the **Products Purchases** menu, point to any sales order, and then click a product from the sales order.
 

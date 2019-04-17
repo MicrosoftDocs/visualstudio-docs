@@ -28,11 +28,11 @@ If you want to obtain a service without blocking the UI thread, you should creat
 
 4. To implement a service, you need to create three types:
 
-    -   An interface that identifies the service. Many of these interfaces are empty, that is, they have no methods as they are only used for querying the service.
+    - An interface that identifies the service. Many of these interfaces are empty, that is, they have no methods as they are only used for querying the service.
 
-    -   An interface that describes the service interface. This interface includes the methods to be implemented.
+    - An interface that describes the service interface. This interface includes the methods to be implemented.
 
-    -   A class that implements both the service and the service interface.
+    - A class that implements both the service and the service interface.
 
 5. The following example shows a very basic implementation of the three types. The constructor of the service class must set the service provider. In this example we'll just add the service to the package code file.
 

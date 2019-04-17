@@ -47,13 +47,13 @@ By using the instrumentation profiling method, you can limit the collection of p
   
 4. On the second page of the wizard, perform the following steps:  
   
-    -   Type the path and file name of the .dll file that you want to profile in **Dll path**. You can also click the ellipsis button (...) to locate the file in the **Dynamic link library to profile** dialog box. Note that you must specify the copy of the .dll file that will be launched by the executable (.exe) file that you select next.  
+    - Type the path and file name of the .dll file that you want to profile in **Dll path**. You can also click the ellipsis button (...) to locate the file in the **Dynamic link library to profile** dialog box. Note that you must specify the copy of the .dll file that will be launched by the executable (.exe) file that you select next.  
   
-    -   Type the path and file name of the executable (.exe) file that will exercise the .dll in **Executable path**. You can also click the ellipsis button (...) to locate the file in the **Executable to launch** dialog box.  
+    - Type the path and file name of the executable (.exe) file that will exercise the .dll in **Executable path**. You can also click the ellipsis button (...) to locate the file in the **Executable to launch** dialog box.  
   
-    -   Optional. Type any command line arguments that you want to pass to the executable file in **Command line arguments**. If necessary, specify the working directory for the application in **Working directory**.  
+    - Optional. Type any command line arguments that you want to pass to the executable file in **Command line arguments**. If necessary, specify the working directory for the application in **Working directory**.  
   
-    -   Click **Next**.  
+    - Click **Next**.  
   
 5. Choose **Instrumentation** as the profiling method and then click **Next**.  
   

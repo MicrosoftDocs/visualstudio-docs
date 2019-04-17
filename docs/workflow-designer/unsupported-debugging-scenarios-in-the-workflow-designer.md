@@ -37,16 +37,16 @@ The following are the unsupported Workflow Designer debugging scenarios:
 
 - The Breakpoint window or shortcut menu does not support the following columns or options for workflow debugging:
 
-    -   Condition
+    - Condition
 
-    -   Hit Count
+    - Hit Count
 
-    -   When Hit
+    - When Hit
 
-    -   Function
+    - Function
 
-    -   Data
+    - Data
 
-    -   Process
+    - Process
 
-    -   Go to Disassembly
+    - Go to Disassembly

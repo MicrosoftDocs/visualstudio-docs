@@ -30,10 +30,10 @@ By default, all the managed projects of a solution are assigned the Microsoft Mi
   
 4. You can specify a rule set for one or more projects.  
   
-    -   To specify a rule set for an individual project, click the project name.  
+    - To specify a rule set for an individual project, click the project name.  
   
-    -   To specify a rule set for multiple projects, hold down CTRL and click the project names.  
+    - To specify a rule set for multiple projects, hold down CTRL and click the project names.  
   
-    -   To specify all the projects in the solution, hold down SHIFT and click in the project list.  
+    - To specify all the projects in the solution, hold down SHIFT and click in the project list.  
   
 5. Click the **Rule Set** field of a project and then click the name of the rule set that you want to apply.

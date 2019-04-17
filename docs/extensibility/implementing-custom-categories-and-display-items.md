@@ -75,11 +75,11 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
 - The methods implemented through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> must provide the IDE with:
 
-  -   Lists of **Display items** in the **Category.**
+  - Lists of **Display items** in the **Category.**
 
-  -   Localizable names for **Display items**.
+  - Localizable names for **Display items**.
 
-  -   Display information for each member of **Category**.
+  - Display information for each member of **Category**.
 
   > [!NOTE]
   >  Every **Category** must contain at least one **Display item**.
@@ -88,11 +88,11 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
    Its implementation provides the IDE with:
 
-  -   A list of the **Categories** that comprise a given group.
+  - A list of the **Categories** that comprise a given group.
 
-  -   Access to instances of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> supporting each **Category** within the group.
+  - Access to instances of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> supporting each **Category** within the group.
 
-  -   Localizable group names.
+  - Localizable group names.
 
 - Updating the IDE:
 

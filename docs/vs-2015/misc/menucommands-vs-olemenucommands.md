@@ -84,7 +84,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
     You can do this in one of two ways, depending on your design:  
   
-   -   In the `Button` element, create a [Parent](../extensibility/parent-element.md) element and set its `guid` and `id` fields to the Guid and ID of the group that will host the command, also known as the *primary parent group*.  
+   - In the `Button` element, create a [Parent](../extensibility/parent-element.md) element and set its `guid` and `id` fields to the Guid and ID of the group that will host the command, also known as the *primary parent group*.  
   
         The following example defines a command that will appear on a user-defined menu.  
   
@@ -99,7 +99,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
        </Button>
        ```
       
-   -   You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
+   - You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
   
    ```xml
    <CommandPlacements>

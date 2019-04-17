@@ -80,15 +80,15 @@ When your DSL is installed by this method, the user can open a DSL file from wit
 
 3. Make sure that the following attributes of your DSL are correct:
 
-   -   In DSL Explorer click the root node, and in Properties window, review:
+   - In DSL Explorer click the root node, and in Properties window, review:
 
-       -   Description
+       - Description
 
-       -   Version
+       - Version
 
-   -   Click the **Editor** node and in the Properties window, click **Icon**. Set the value to reference an icon file in **DslPackage\Resources**, such as **File.ico**
+   - Click the **Editor** node and in the Properties window, click **Icon**. Set the value to reference an icon file in **DslPackage\Resources**, such as **File.ico**
 
-   -   On the **Build** menu, open **Configuration Manager**, and select the configuration that you want to build, such as **Release** or **Debug**.
+   - On the **Build** menu, open **Configuration Manager**, and select the configuration that you want to build, such as **Release** or **Debug**.
 
 4. Go to [Visualization and Modeling SDK home page](http://go.microsoft.com/fwlink/?LinkID=186128), and from the **Downloads** tab, download **CreateMsiSetupProject.tt**.
 
@@ -116,9 +116,9 @@ When your DSL is installed by this method, the user can open a DSL file from wit
 
 11. In the target computer, create a new file that has the file extension of your DSL. Verify that:
 
-    -   In Windows Explorer list view, the file appears with the icon and description that you defined.
+    - In Windows Explorer list view, the file appears with the icon and description that you defined.
 
-    -   When you double-click the file, Visual Studio starts, and opens the DSL file in your DSL editor.
+    - When you double-click the file, Visual Studio starts, and opens the DSL file in your DSL editor.
 
     If you prefer, you can create the Setup project manually, instead of using the text template. For a walkthrough that includes this procedure see Chapter 5 of the [Visualization and Modeling SDK Lab](http://go.microsoft.com/fwlink/?LinkId=208878).
 

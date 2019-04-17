@@ -43,11 +43,11 @@ By default, Help Viewer installs content by using a Microsoft online service as 
 
 2. Perform one of the following steps:
 
-    -   Enter the path of an *.msha* file or the URL of a service endpoint.
+    - Enter the path of an *.msha* file or the URL of a service endpoint.
 
-    -   Choose the Browse (**...**) button to navigate to an *.msha* file.
+    - Choose the Browse (**...**) button to navigate to an *.msha* file.
 
-    -   In the list, choose the entry that was used most recently.
+    - In the list, choose the entry that was used most recently.
 
 ## Download and install content locally
 

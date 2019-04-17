@@ -31,9 +31,9 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
 - [Writing the test method](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Writing_the_test_method)  
   
-  -   [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
+  - [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
   
-  -   [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
+  - [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
   
 - [Running the test and viewing results](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Running_the_test_and_viewing_results)  
   

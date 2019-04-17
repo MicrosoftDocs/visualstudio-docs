@@ -33,15 +33,15 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
 
 1. Enter Break mode by doing one of the following:
 
-    -   Set a breakpoint in your code, then choose **Start Debugging** from the **Debug** menu and wait for the application to hit the breakpoint.
+    - Set a breakpoint in your code, then choose **Start Debugging** from the **Debug** menu and wait for the application to hit the breakpoint.
 
          -or-
 
-    -   Start debugging, and then select **Break All** from the **Debug** menu.
+    - Start debugging, and then select **Break All** from the **Debug** menu.
 
          -or-
 
-    -   When an exception occurs, choose **Enable Editing** on the **Exception Assistant**.
+    - When an exception occurs, choose **Enable Editing** on the **Exception Assistant**.
 
 2. Make any desired and supported code changes.
 

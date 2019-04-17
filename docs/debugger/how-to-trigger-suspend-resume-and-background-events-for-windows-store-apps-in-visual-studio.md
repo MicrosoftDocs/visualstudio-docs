@@ -70,11 +70,11 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
 3. Do one of the following:
 
-    -   For Visual C# and Visual Basic projects, choose **Do not launch, but debug my code when it starts**
+    - For Visual C# and Visual Basic projects, choose **Do not launch, but debug my code when it starts**
 
          ![C&#35;&#47;VB debug launch application property](../debugger/media/dbg_csvb_dontlaunchapp.png "DBG_CsVb_DontLaunchApp")
 
-    -   For Visual C++ projects, choose **No** from the **Launch application** list.
+    - For Visual C++ projects, choose **No** from the **Launch application** list.
 
          ![C&#43;&#43;&#47;VB Launch application debug property](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 

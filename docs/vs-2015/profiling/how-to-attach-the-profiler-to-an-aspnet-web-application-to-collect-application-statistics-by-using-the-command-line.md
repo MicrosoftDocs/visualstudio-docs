@@ -38,9 +38,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv /globalsampleon** [**/samplelineoff**]  
 
-   -   **/globalsampleon** enables sampling.  
+   - **/globalsampleon** enables sampling.  
 
-   -   **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
+   - **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
 
 3. Restart the computer.  
 
@@ -67,9 +67,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 6. Attach the profiler to the ASP.NET worker process. Type:**VSPerfCmd** [/attach](../profiling/attach.md)**:**{`PID`&#124;`ProcName`} [`Sample Event`] [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   `PID` specifies the process ID of the ASP.NET worker process; `ProcName` specifies the name of the worker process. You can view the process IDs and names of all running processes in Windows Task Manager.  
+   - `PID` specifies the process ID of the ASP.NET worker process; `ProcName` specifies the name of the worker process. You can view the process IDs and names of all running processes in Windows Task Manager.  
 
-   -   By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately 100 times per second on a 1GH processor. You can specify one of the following **VSPerfCmd** options to change the clock cycle interval or to specify a different sampling event.  
+   - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately 100 times per second on a 1GH processor. You can specify one of the following **VSPerfCmd** options to change the clock cycle interval or to specify a different sampling event.  
 
    |Sample event|Description|  
    |------------------|-----------------|  
@@ -79,7 +79,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |[/counter](../profiling/counter.md) **:** `Config`|Changes the sampling event and interval to the processor performance counter and interval that are specified in `Config`.|  
    |[/targetclr](../profiling/targetclr.md) **:** `Version`|Specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.|  
 
-   -   **targetclr:** `Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.  
+   - **targetclr:** `Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.  
 
 ## Controlling Data Collection  
  When the application is running, you can control data collection by starting and stopping the writing of data to the file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
@@ -105,11 +105,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 1. Do one of the following to detach the profiler from the target application:  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
          -or-  
 
-    -   Close the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
+    - Close the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
 
 2. Shut down the profiler. Type:**VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
 

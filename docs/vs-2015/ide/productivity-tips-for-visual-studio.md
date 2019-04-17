@@ -36,21 +36,21 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
 2. In **File Explorer**, open the shortcut menu for the item that you want:
 
-    -   Build Notifications
+    - Build Notifications
 
-    -   Debuggable Package Manager
+    - Debuggable Package Manager
 
-    -   Developer Command Prompt for VS2013
+    - Developer Command Prompt for VS2013
 
-    -   Microsoft Feedback Client 2013
+    - Microsoft Feedback Client 2013
 
-    -   VS2013 ARM Cross Tools Command Prompt
+    - VS2013 ARM Cross Tools Command Prompt
 
-    -   VS2013 x64 Cross Tools Command Prompt
+    - VS2013 x64 Cross Tools Command Prompt
 
-    -   VS2013 x64 Native Tools Command Prompt
+    - VS2013 x64 Native Tools Command Prompt
 
-    -   VS2013 x86 Native Tools Command Prompt
+    - VS2013 x86 Native Tools Command Prompt
 
 3. Choose **Pin to Start** or **Pin to Taskbar**.
 

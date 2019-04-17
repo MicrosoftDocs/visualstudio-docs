@@ -39,11 +39,11 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
      The WPF Tree visualizer immediately finds the first object in the visual tree that matches the string you have typed. Type more characters to find a more accurate match.  
   
-    -   To go to the next match within the visual tree, click **Next**.  
+    - To go to the next match within the visual tree, click **Next**.  
   
-    -   To go back to the previous match, click **Prev**.  
+    - To go back to the previous match, click **Prev**.  
   
-    -   To clear the search criteria, click **Clear**.  
+    - To clear the search criteria, click **Clear**.  
   
 ### To search the properties list  
   
@@ -51,7 +51,7 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
      The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.  
   
-    -   To clear the search criteria, click **Clear**.  
+    - To clear the search criteria, click **Clear**.  
   
 ### To close the visualizer  
   

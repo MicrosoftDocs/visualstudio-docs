@@ -39,13 +39,13 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
 3. Perform one of the following tasks to create data-bound controls:
 
-    -   [Creating a control that is bound to a single field of data](#simple).
+    - [Creating a control that is bound to a single field of data](#simple).
 
-    -   [Creating a control that is bound to multiple fields of data](#complex).
+    - [Creating a control that is bound to multiple fields of data](#complex).
 
-    -   [Creating a set of controls that are bound to multiple fields of data](#details).
+    - [Creating a set of controls that are bound to multiple fields of data](#details).
 
-    -   [Binding data to existing controls in the designer](#existing).
+    - [Binding data to existing controls in the designer](#existing).
 
 ##  <a name="simple"></a> Create a control that is bound to a single field of data
  After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>.
@@ -103,9 +103,9 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 
 1. In the **Data Sources** window, use one of the following procedures:
 
-    -   To add a data binding to an existing control that displays multiple fields of data, such as a <xref:System.Windows.Controls.DataGrid> or <xref:System.Windows.Controls.ListView>, select the item that represents the table or object that you want to bind to the control.
+    - To add a data binding to an existing control that displays multiple fields of data, such as a <xref:System.Windows.Controls.DataGrid> or <xref:System.Windows.Controls.ListView>, select the item that represents the table or object that you want to bind to the control.
 
-    -   To add a data binding to an existing control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>, expand the item that represents the table or object that contains the data, and then select the item that represents the data that you want to bind to the control.
+    - To add a data binding to an existing control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>, expand the item that represents the table or object that contains the data, and then select the item that represents the data that you want to bind to the control.
 
 2. Drag the selected item from the **Data Sources** window onto an existing control in the designer. The control must be a valid drop target. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 

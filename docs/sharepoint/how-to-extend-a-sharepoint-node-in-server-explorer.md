@@ -23,11 +23,11 @@ ms.workload:
 
 2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   Microsoft.VisualStudio.SharePoint.Explorer.Extensions
+    - Microsoft.VisualStudio.SharePoint.Explorer.Extensions
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
 3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> interface.
 
@@ -37,17 +37,17 @@ ms.workload:
 
      To specify built-in node types provided by Visual Studio, pass one of the following enumeration values to the attribute constructor:
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeTypes>: Use these values to specify site connection nodes (the nodes that display site URLs), site nodes, or all other parent nodes in **Server Explorer**.
+    - <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeTypes>: Use these values to specify site connection nodes (the nodes that display site URLs), site nodes, or all other parent nodes in **Server Explorer**.
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.ExtensionNodeTypes>: Use these values to specify one of the built-in nodes that represent an individual component on a SharePoint site, such as a node that represents a list, field, or content type.
+    - <xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.ExtensionNodeTypes>: Use these values to specify one of the built-in nodes that represent an individual component on a SharePoint site, such as a node that represents a list, field, or content type.
 
 6. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension.Initialize%2A> method, use members of the *nodeType* parameter to add features to the node. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents> interface. For example, you can handle the following events:
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested>: Handle this event to add new child nodes to the node. For more information, see [How to: Add a custom SharePoint node to Server Explorer](../sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md).
+    - <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested>: Handle this event to add new child nodes to the node. For more information, see [How to: Add a custom SharePoint node to Server Explorer](../sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md).
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeMenuItemsRequested>: Handle this event to add a custom shortcut menu item to the node.
+    - <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeMenuItemsRequested>: Handle this event to add a custom shortcut menu item to the node.
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodePropertiesRequested>: Handle this event to add custom properties to the node. The properties appear in the **Properties** window when the node is selected.
+    - <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodePropertiesRequested>: Handle this event to add custom properties to the node. The properties appear in the **Properties** window when the node is selected.
 
 ## Example
  The following code example demonstrates how to create two different types of node extensions:

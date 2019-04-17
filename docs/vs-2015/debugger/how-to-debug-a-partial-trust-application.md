@@ -61,9 +61,9 @@ Applies to Windows and console applications.
   
 3. The **Restart Debug** dialog box appears.  
   
-    -   If you want to restart the debugging session with the new permission, click **Yes**.  
+    - If you want to restart the debugging session with the new permission, click **Yes**.  
   
-    -   If you don't want to restart yet, click **No**.  
+    - If you don't want to restart yet, click **No**.  
   
 ### To view extra permissions added while debugging  
   

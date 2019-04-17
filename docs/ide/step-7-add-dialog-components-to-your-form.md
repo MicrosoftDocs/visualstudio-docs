@@ -30,13 +30,13 @@ To enable your program to open picture files and choose a background color, in t
 
 3. Choose the **openFileDialog1** icon in the area at the bottom of the **Windows Forms Designer**. Set two properties:
 
-    -   Set the **Filter** property to the following (you can copy and paste it):
+    - Set the **Filter** property to the following (you can copy and paste it):
 
         ```
         JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All files (*.*)|*.*
         ```
 
-    -   Set the **Title** property to the following: **Select a picture file**
+    - Set the **Title** property to the following: **Select a picture file**
 
          The **Filter** property settings specify the kinds of file types that will display in the **Select a picture** file dialog box.
 

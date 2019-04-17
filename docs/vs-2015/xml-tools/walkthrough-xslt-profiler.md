@@ -38,27 +38,27 @@ The XSLT Profiler creates detailed XSLT performance reports that help measure, e
   
 2. Select the **Summary View** option in the **Current View** drop-down list. By default, a performance report is displayed in the **Summary View**. This view is a starting point to determine performance issues with XSLT documents. The **Summary View** lists the following data points:  
   
-    -   Most called functions  
+    - Most called functions  
   
-    -   Functions with the most individual work  
+    - Functions with the most individual work  
   
-    -   Functions taking the longest time to execute  
+    - Functions taking the longest time to execute  
   
 3. By default, there are three columns for each data point: the name of the function, the number of calls in absolute value, and a percentage value of the named function to total function calls. From each data point in the **Summary View**, you can navigate to more detailed views by right-clicking on the function data points.  
   
 4. Select the **Function View** option in the **Current View** drop-down list. The **Function View** lists functions called during profiling. You can sort the data by clicking a column name. The columns displayed by default are:  
   
-    -   **Function Name**  
+    - **Function Name**  
   
-    -   **Elapsed Inclusive Time**  
+    - **Elapsed Inclusive Time**  
   
-    -   **Elapsed Exclusive Time**  
+    - **Elapsed Exclusive Time**  
   
-    -   **Application Inclusive Time**  
+    - **Application Inclusive Time**  
   
-    -   **Application Exclusive Time**  
+    - **Application Exclusive Time**  
   
-    -   **Number of Calls**  
+    - **Number of Calls**  
   
 5. All time columns are displayed in both absolute values and percentages. The term **Exclusive** refers to the total time a function spent executing exclusive of time spent by other functions called during the execution of this function.  
   
@@ -70,11 +70,11 @@ The XSLT Profiler creates detailed XSLT performance reports that help measure, e
   
 2. The **Caller/Callee** view has the following three distinct parts:  
   
-    -   **Functions that called**: All the functions that called a particular function are listed at the top part of the view.  
+    - **Functions that called**: All the functions that called a particular function are listed at the top part of the view.  
   
-    -   **Current Function**: The particular function that was called is listed in the middle part of the view.  
+    - **Current Function**: The particular function that was called is listed in the middle part of the view.  
   
-    -   **Functions that were called by** : All the functions that were called by the particular function are listed at the bottom part of the view.  
+    - **Functions that were called by** : All the functions that were called by the particular function are listed at the bottom part of the view.  
   
 3. If a function named `SyncToNavigator` appears in the middle part of the view, all the functions that called the `SyncToNavigator` function appear in the top part of the view, and all the functions that were called by the `SyncToNavigator` appear in the bottom part of the view.  
   

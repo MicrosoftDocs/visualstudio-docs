@@ -93,9 +93,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 5. On the **Choose Your Data Connection** page, select one of the following options:  
   
-    -   If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it.  
+    - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it.  
   
-    -   Click **New Connection**, and create a connection to the AdventureWorksLT database.  
+    - Click **New Connection**, and create a connection to the AdventureWorksLT database.  
   
 6. On the **Choose Your Data Connection** page, make sure that the **Save entity connection settings in App.Config as** option is selected, and then click **Next**.  
   
@@ -225,11 +225,11 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 7. Set the **IsReadOnly** property for each of the following text boxes:  
   
-   -   **Purchase Order Number**  
+   - **Purchase Order Number**  
   
-   -   **Sales Order ID**  
+   - **Sales Order ID**  
   
-   -   **Sales Order Number**  
+   - **Sales Order Number**  
   
 ## Load the data from the service  
  Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the <xref:System.Windows.Data.CollectionViewSource> in the WPF window.  
@@ -297,9 +297,9 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
      The application runs. Verify the following:  
   
-    -   The text boxes display different fields of data from the first sales record, which has the sales order ID **71774**.  
+    - The text boxes display different fields of data from the first sales record, which has the sales order ID **71774**.  
   
-    -   You can click the **>** or **<** buttons to navigate through other sales records.  
+    - You can click the **>** or **<** buttons to navigate through other sales records.  
   
 5. In one of the sales records, type some text in the **Comment** box, and then click **Save changes**.  
   

@@ -118,11 +118,11 @@ You can add more menu command definitions to an existing gesture or command proj
 
 - The methods that implement `ICommandExtension` are as follows:
 
-  -   `string Text {get;}` - The label that appears in the menu.
+  - `string Text {get;}` - The label that appears in the menu.
 
-  -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.
+  - `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.
 
-  -   `void Execute(IMenuCommand command)` - called when the user selects the command.
+  - `void Execute(IMenuCommand command)` - called when the user selects the command.
 
 - To determine the current selection, you can import `IDiagramContext`:
 

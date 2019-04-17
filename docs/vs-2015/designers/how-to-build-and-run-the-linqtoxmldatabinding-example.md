@@ -25,13 +25,13 @@ This topic shows how to create and build the LinqToXmlDataBinding Visual Studio 
   
 2. If not already present, add project references for the following .NET assemblies:  
   
-    -   System.Data  
+    - System.Data  
   
-    -   System.Data.DataSetExtensions  
+    - System.Data.DataSetExtensions  
   
-    -   System.Xml  
+    - System.Xml  
   
-    -   System.Xml.Linq  
+    - System.Xml.Linq  
   
 3. Build the solution by pressing **Ctnrl+Shift+B**, then run it by pressing **F5**. The project should compile without errors and run as a generic WPF application.  
   

@@ -61,15 +61,15 @@ ms.workload:
 
 3. Add the control one of the following ways:
 
-    -   Double-click a content control in the **Toolbox**.
+    - Double-click a content control in the **Toolbox**.
 
          or
 
-    -   Click a content control in the **Toolbox** and then press the **Enter** key.
+    - Click a content control in the **Toolbox** and then press the **Enter** key.
 
          or
 
-    -   Drag a content control from the **Toolbox** to the document. The content control is added at the current selection in the document, not at the location of the mouse pointer.
+    - Drag a content control from the **Toolbox** to the document. The content control is added at the current selection in the document, not at the location of the mouse pointer.
 
 > [!NOTE]
 >  You cannot add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> by using the **Toolbox**. You can only add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> in Word, or at runtime.

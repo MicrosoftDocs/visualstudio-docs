@@ -24,10 +24,10 @@ The performance warnings of th Visual Studio Profiling Tools indicate issues in 
 
 4. To specify the warring level of a rule, click the **Action** cell next to the rule and then click the warning level.
 
-    -   **Disabled** - disables the rule (this is the same as clearing the check box next to the rule ID).
+    - **Disabled** - disables the rule (this is the same as clearing the check box next to the rule ID).
 
-    -   **Warning** - displays rule as a warning.
+    - **Warning** - displays rule as a warning.
 
-    -   **Error** - halts profiling execution and displays rule as a error.
+    - **Error** - halts profiling execution and displays rule as a error.
 
-    -   **Information** - displays rule as information only.
+    - **Information** - displays rule as information only.

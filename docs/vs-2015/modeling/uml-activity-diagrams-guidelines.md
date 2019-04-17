@@ -203,13 +203,13 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - Set the **Ordering** property:  
   
-    -   **Unordered** to specify a random or unspecified order. (Default.)  
+    - **Unordered** to specify a random or unspecified order. (Default.)  
   
-    -   **Ordered** to specify an order according to a specific key.  
+    - **Ordered** to specify an order according to a specific key.  
   
-    -   **Fifo** to specify an order of first-in, first-out.  
+    - **Fifo** to specify an order of first-in, first-out.  
   
-    -   **Lifo** to specify an order of last-in, first-out.  
+    - **Lifo** to specify an order of last-in, first-out.  
   
 - Set the **Upper Bound** property to specify the maximum number of objects that can be contained in the buffer. The default is *. This means that there is no limit.  
   
@@ -254,7 +254,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 3. Draw the detailed work flow for the sub-activity. This is the called behavior.  
   
-    -   In the called sub-activity diagram, the **Initial Node** indicates where control starts when the called behavior is invoked. The **Activity Final Node** shows where control should return to the parent activity.  
+    - In the called sub-activity diagram, the **Initial Node** indicates where control starts when the called behavior is invoked. The **Activity Final Node** shows where control should return to the parent activity.  
   
 4. Set the **Behavior** property of the **Call Behavior Action** to refer to the called behavior diagram.  
   
@@ -263,7 +263,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 5. Set the **Is Synchronous** property of the action to indicate whether your activity waits for the called activity to complete.  
   
-    -   If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called activity finishes. You should not define output pins or outgoing data flows from the action.  
+    - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called activity finishes. You should not define output pins or outgoing data flows from the action.  
   
 ### Describing data flow in and out of sub-activities  
  You can describe the data flowing in and out of sub-activities, in the same way that you use parameters in software.  
@@ -311,7 +311,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - You can set the **Is Synchronous** property of the action to indicate whether your activity waits for the operation to complete.  
   
-    -   If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
+    - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
   
 ##  <a name="Concurrent"></a> Concurrent Flows  
  You can use the **Fork Node** and the **Join Node** to describe two or more threads of activities that can execute at the same time.  
@@ -392,17 +392,17 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - Attach a comment to the input or output pin.  
   
-  -   To distinguish this description from a general comment, you can begin the comment with <\<**transformation**>> or <\<**selection**>>.  
+  - To distinguish this description from a general comment, you can begin the comment with <\<**transformation**>> or <\<**selection**>>.  
   
 - Specify the transformation or selection in detail in a separate activity diagram.  
   
-  -   If you use this method, attach a comment also, to make it clear to readers that the transformation has been defined.  
+  - If you use this method, attach a comment also, to make it clear to readers that the transformation has been defined.  
   
 ##### To specify a transformation or selection in a separate activity diagram  
   
 1. Create a new Activity Diagram in which to describe the transformation or selection flow.  
   
-   -   In **Solution Explorer**, right-click your project, point to **Add**, click **New Item**, and then click **Activity Diagram**. Give the diagram an appropriate name for the transformation or selection flow. Click **Add**.  
+   - In **Solution Explorer**, right-click your project, point to **Add**, click **New Item**, and then click **Activity Diagram**. Give the diagram an appropriate name for the transformation or selection flow. Click **Add**.  
   
 2. In the new diagram:  
   

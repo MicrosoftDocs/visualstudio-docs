@@ -118,12 +118,12 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      This view provides useful information about the rules that are associated with the `color` style, such as the following:  
   
-    -   The CSS selector we modified in items.css, `.itemspage .itemslist .item`, is not being used in the final style calculation (it appears in strikethrough text). Several other occurrences of the `color` style also aren't being used.  
+    - The CSS selector we modified in items.css, `.itemspage .itemslist .item`, is not being used in the final style calculation (it appears in strikethrough text). Several other occurrences of the `color` style also aren't being used.  
   
         > [!TIP]
         >  For longer selector names, the full name appears in a tooltip.  
   
-    -   The final computed CSS value, `rgba(255, 255, 255, 0.87)`, is set specifically for the following CSS selector: `.itemspage .itemslist .item .item-overlay .item-title`, which is also defined in items.css.  
+    - The final computed CSS value, `rgba(255, 255, 255, 0.87)`, is set specifically for the following CSS selector: `.itemspage .itemslist .item .item-overlay .item-title`, which is also defined in items.css.  
   
         > [!TIP]
         >  Now that we know where the title color is set, we also know where we might change it. However, we can also test changes in DOM Explorer without refreshing the app, as shown in the remaining steps.  

@@ -45,9 +45,9 @@ In this walkthrough, you create a custom host in an executable application that 
 
 2. Add references to the following assemblies:
 
-   -   **Microsoft.VisualStudio.TextTemplating.\*.0**
+   - **Microsoft.VisualStudio.TextTemplating.\*.0**
 
-   -   **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**
+   - **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**
 
 3. Replace the code in the Program.cs or Module1.vb file with the following code:
 

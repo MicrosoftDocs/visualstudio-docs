@@ -35,14 +35,14 @@ You can customize the start page for Visual Studio in several default ways, such
 
 1. Install a custom start page in one of the following ways:
 
-    -   Install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), another website, or a page on your local intranet.
+    - Install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), another website, or a page on your local intranet.
 
         > [!NOTE]
         >  If you like a page that's targeted for an earlier version of Visual Studio, you can upgrade the page by using the Visual Studio SDK. See [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).
 
          Open a .vsix file that contains a custom start page, or copy and paste the start-page files into the **%USERPROFILE% \My Documents\Visual Studio 2015\StartPages** folder on your computer.
 
-    -   Create your own start page if you've installed the Visual Studio SDK.
+    - Create your own start page if you've installed the Visual Studio SDK.
 
          See [Creating Your Own Start Page](../misc/creating-your-own-start-page.md).
 

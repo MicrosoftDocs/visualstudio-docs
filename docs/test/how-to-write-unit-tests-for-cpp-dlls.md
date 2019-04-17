@@ -113,7 +113,7 @@ author: mikeblome
 
 2. Add a C++ Unit Test file:
 
-   -   In **Solution Explorer**, in the shortcut menu of the project, choose **Add** > **New Item** > **C++ Unit Test**.
+   - In **Solution Explorer**, in the shortcut menu of the project, choose **Add** > **New Item** > **C++ Unit Test**.
 
    Go to [Write the unit tests](#addTests).
 

@@ -35,8 +35,8 @@ In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort
   
 6. In the **Run this rule set** drop-down list, follow these steps:  
   
-    -   Select the rule set that you want to use.  
+    - Select the rule set that you want to use.  
   
-    -   Select **\<Browse>** to specify an existing custom rule set that is not in the list.  
+    - Select **\<Browse>** to specify an existing custom rule set that is not in the list.  
   
-    -   Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).
+    - Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).

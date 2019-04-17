@@ -88,9 +88,9 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - On-object UI in Visual Studio is either inline or floating and either durable or transient.
 
-  -   Code peek view, a type of on-object UI in Visual Studio, is inline and durable.
+  - Code peek view, a type of on-object UI in Visual Studio, is inline and durable.
 
-  -   CodeLens, a type of on-object UI in Visual Studio, is floating and transient
+  - CodeLens, a type of on-object UI in Visual Studio, is floating and transient
 
   Understanding how a piece of code works, or finding details about that code, often requires a developer to switch context and go to other content or another window. These context shifts can be disruptive, because users can lose focus on their original task if they leave their main window. Furthermore, getting that original context back can be difficult, especially if switching windows caused their original code to be obscured by other UI.
 
@@ -129,89 +129,89 @@ Composite patterns combine interaction and design elements in distinct configura
 
 1. Container (content presenter) type
 
-    -   Floating
+    - Floating
 
-    -   Inline
+    - Inline
 
 2. Content type
 
-    -   Informational: data that might be static or dynamic
+    - Informational: data that might be static or dynamic
 
-    -   Actionable: commands that change the master content
+    - Actionable: commands that change the master content
 
-    -   Navigational: links that take the user to another window or application, such as MSDN
+    - Navigational: links that take the user to another window or application, such as MSDN
 
 3. Gestures
 
-    -   Invocation
+    - Invocation
 
-    -   Dismissal
+    - Dismissal
 
-    -   Pinning
+    - Pinning
 
-    -   Other interactions
+    - Other interactions
 
 4. Persistence and commit model
 
-    -   Transient
+    - Transient
 
-    -   Durable
+    - Durable
 
-    -   Automatic
+    - Automatic
 
-    -   On-demand
+    - On-demand
 
 5. Ambient indicators (optional)
 
-    -   Squiggle underline
+    - Squiggle underline
 
-    -   Smart tag icon
+    - Smart tag icon
 
-    -   Other ambient indicators
+    - Other ambient indicators
 
 #### Container (content presenter) type
  There are two major options available to present content at the point of attention:
 
 1. **Inline:** an inline presenter, such as the peek view that was introduced in the Visual Studio 2013 Code Editor, makes space for new content by shifting existing content.
 
-    -   **Prefer** inline presenters if you expect users will want to spend a significant amount of time referring to or interacting with the content you present.
+    - **Prefer** inline presenters if you expect users will want to spend a significant amount of time referring to or interacting with the content you present.
 
-    -   **Avoid** inline presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
+    - **Avoid** inline presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
 
 2. **Floating:** a floating presenter is positioned as close to the selected content as possible but does not alter the layout of the existing content. Various strategies can be employed, such as displaying a floating content panel over the nearest available white space to the selected symbol.
 
-    -   **Prefer** floating presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
+    - **Prefer** floating presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
 
-    -   **Avoid** floating presenters if you expect users will want to spend a significant amount of time referring to or interacting with the content you present.
+    - **Avoid** floating presenters if you expect users will want to spend a significant amount of time referring to or interacting with the content you present.
 
 #### Content type
  There are three main types of content that can be displayed inside any on-object UI container. Any combination of these types of information can be shown. The three types are:
 
 1. **Informational:** most on-object UI containers will display some kind of informational content. The content can represent information about the present state of the environment or it may represent information about a potential future state of the environment. For example, it could be used to show the effect of a particular command, such as a refactoring, on the existing code.
 
-    -   **Always** use the canonical representation of the information that you display. For example, code should look like code, complete with syntax highlighting, and should respect whatever font and other environment settings the user has set.
+    - **Always** use the canonical representation of the information that you display. For example, code should look like code, complete with syntax highlighting, and should respect whatever font and other environment settings the user has set.
 
-    -   **Always** consider supporting any actions over the informational content that would be possible if that same information is presented as master content. For example, if presenting existing code inside an on-object UI container, strongly consider supporting the ability to browse and modify that code.
+    - **Always** consider supporting any actions over the informational content that would be possible if that same information is presented as master content. For example, if presenting existing code inside an on-object UI container, strongly consider supporting the ability to browse and modify that code.
 
-    -   **Always** consider using a different background color if presenting informational content that represents a potential future state.
+    - **Always** consider using a different background color if presenting informational content that represents a potential future state.
 
 2. Actionable: some on-object UI containers will provide the ability to perform some action over the master content, such as performing a refactoring operation.
 
-    -   **Always** position actionable commands separately from the informational content.
+    - **Always** position actionable commands separately from the informational content.
 
-    -   **Always** enable and disable actions when appropriate.
+    - **Always** enable and disable actions when appropriate.
 
-    -   **Always** refer to the standard guidelines for representing commands inside dialog boxes.
+    - **Always** refer to the standard guidelines for representing commands inside dialog boxes.
 
-    -   **Always** keep the number of actions that are exposed in an on-object UI container to an absolute minimum. Interacting with on-object UI should be a lightweight, fast experience. The user should not have to expend energy on managing the on-object UI container itself.
+    - **Always** keep the number of actions that are exposed in an on-object UI container to an absolute minimum. Interacting with on-object UI should be a lightweight, fast experience. The user should not have to expend energy on managing the on-object UI container itself.
 
-    -   **Always** consider how and when an on-object UI container will be closed or dismissed. As a best practice, any action that concludes the dialog between the master and detail content should also close the on-object UI container when that action is invoked.
+    - **Always** consider how and when an on-object UI container will be closed or dismissed. As a best practice, any action that concludes the dialog between the master and detail content should also close the on-object UI container when that action is invoked.
 
 3. **Navigational:** some on-object UI containers include links that take the user to another window or application, such as opening an MSDN article in the user's web browser.
 
-    -   **Always** prepend any navigational link with "Open" so that users will not be surprised by being navigated to some other content.
+    - **Always** prepend any navigational link with "Open" so that users will not be surprised by being navigated to some other content.
 
-    -   **Always** separate navigational links from actionable links.
+    - **Always** separate navigational links from actionable links.
 
 #### Ambient indicators (optional)
  Ambient indicators can be subtle, including text presented in a contrasting color from the rest of the code, or obvious, including tickler symbols such as squiggle underlines and smart tag icons. Ambient indicators communicate the availability of additional, relevant information. Ideally, they provide useful information even without requiring the user to interact with them.
@@ -222,7 +222,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, “3 references” instead of simply “References”) or think of some other way to summarize the data.
 
-    -   In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
+    - In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
 
 - **Never** add more indicators than a user can reasonably take in for a given piece of content. Ambient indicators should be useful without requiring any interaction from the user. Indicators lose their ambience if they require overflow and other management controls to bring them into view.
 
@@ -231,11 +231,11 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** require the user to perform some explicit gesture to open the additional content. Common open gestures include:
 
-    -   **Hover:** tooltips or non-interactive informational content
+    - **Hover:** tooltips or non-interactive informational content
 
-    -   **Explicit command:** inline presenter
+    - **Explicit command:** inline presenter
 
-    -   **Double-click the ambient indicator:** CodeLens pop-up window
+    - **Double-click the ambient indicator:** CodeLens pop-up window
 
 - **Always** dismiss the detail content whenever the user presses the Esc key.
 

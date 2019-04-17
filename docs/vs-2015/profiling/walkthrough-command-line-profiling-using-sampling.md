@@ -89,11 +89,11 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
 11. Profiling data is stored in the.vsp file Analyze the results by using one of the following methods:  
   
-    -   Open the.vsp file in the Visual Studio IDE.  
+    - Open the.vsp file in the Visual Studio IDE.  
   
          — or —  
   
-    -   Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE use the following command:  
+    - Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE use the following command:  
   
         ```  
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all  

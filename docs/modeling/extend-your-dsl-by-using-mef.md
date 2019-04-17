@@ -129,15 +129,15 @@ If you have access to a MEF-enabled DSL created by yourself or someone else, you
 
 3. Add references to the following .NET assemblies:
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
 
-   -   System.ComponentModel.Composition.dll
+   - System.ComponentModel.Composition.dll
 
-   -   System.Windows.Forms.dll
+   - System.Windows.Forms.dll
 
 4. Create a new **VSIX project** project.
 

@@ -32,7 +32,7 @@ You can open DSL models in any application.
 
 - `Microsoft.VisualStudio.Modeling.Sdk.11.0`
 
-    -   If you do not see this under the **.NET** tab in the **Add References** dialog box, click the **Browse** tab and navigate to `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`.
+    - If you do not see this under the **.NET** tab in the **Add References** dialog box, click the **Browse** tab and navigate to `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`.
 
 - Your DSL assembly, which you will find under the bin folder your DSL project. Its name is typically of the form: *YourCompany*.*YourProject*`.Dsl.dll`.
 

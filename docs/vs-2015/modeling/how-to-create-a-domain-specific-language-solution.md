@@ -61,9 +61,9 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 3. Enter a filename extension on the **File Extension** page. It should be unique in your computer, and in any computers on which you want to install the DSL. You should see the message **No applications or Visual Studio editors use this extension**.  
   
-   -   If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
+   - If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
   
-   -   If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
+   - If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
   
 4. Inspect, and if necessary adjust, the fields in the remaining pages of the wizard. When you are satisfied with the settings, click **Finish**. For more information about the settings, see [DSL Designer Wizard Pages](#settings).  
   

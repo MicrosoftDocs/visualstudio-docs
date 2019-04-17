@@ -43,11 +43,11 @@ The *middle tier* is the layer that the presentation tier and the data tier use 
 
 - Data access components and logic, such as the following:
 
-    -   [TableAdapters](create-and-configure-tableadapters.md) and [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
+    - [TableAdapters](create-and-configure-tableadapters.md) and [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
 
-    -   Object representations of data, such as [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index) entity classes.
+    - Object representations of data, such as [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index) entity classes.
 
-    -   Common application services, such as authentication, authorization, and personalization.
+    - Common application services, such as authentication, authorization, and personalization.
 
 The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the middle tier of an n-tier application.
 

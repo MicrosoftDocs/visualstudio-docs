@@ -96,15 +96,15 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 1. Using *MageUI.exe*, create an application manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the application manifest:
 
-    -   Name the application manifest `ClickOnceOnDemand`.
+    - Name the application manifest `ClickOnceOnDemand`.
 
-    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, set the **File Type** column to **None**.
+    - On the **Files** page, in the *ClickOnceLibrary.dll* row, set the **File Type** column to **None**.
 
-    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, type `ClickOnceLibrary.dll` in the **Group** column.
+    - On the **Files** page, in the *ClickOnceLibrary.dll* row, type `ClickOnceLibrary.dll` in the **Group** column.
 
 2. Using *MageUI.exe*, create a deployment manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the deployment manifest:
 
-    -   Name the deployment manifest `ClickOnceOnDemand`.
+    - Name the deployment manifest `ClickOnceOnDemand`.
 
 ## Testing the new assembly
 

@@ -251,17 +251,17 @@ ms.workload:
 
 3. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **IfElse** activity, choose **Copy**, open the shortcut menu for the line under the **onWorkflowActivated1** activity in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **IfElse** activity, choose **Copy**, open the shortcut menu for the line under the **onWorkflowActivated1** activity in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **IfElse** activity from the **Toolbox**, and connect it to the line under the **onWorkflowActiviated1** activity in the workflow designer.
+    - Drag the **IfElse** activity from the **Toolbox**, and connect it to the line under the **onWorkflowActiviated1** activity in the workflow designer.
 
 4. In the Toolbox, expand the **SharePoint Workflow** node and locate the **CreateTask** activity.
 
 5. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **CreateTask** activity, choose **Copy**, open the shortcut menu for one of the two **Drop Activities Here** areas within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **CreateTask** activity, choose **Copy**, open the shortcut menu for one of the two **Drop Activities Here** areas within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **CreateTask** activity from the **Toolbox** onto one of the two **Drop Activities Here** areas within **IfElseActivity1**.
+    - Drag the **CreateTask** activity from the **Toolbox** onto one of the two **Drop Activities Here** areas within **IfElseActivity1**.
 
 6. In the **Properties** window, enter a property value of *taskToken* for the **CorrelationToken** property.
 
@@ -281,9 +281,9 @@ ms.workload:
 
 14. Add this activity to the workflow by performing one of the following steps:
 
-    -   Open the shortcut menu for the **LogToHistoryListActivity** activity, choose **Copy**, open the shortcut menu for the other **Drop Activities Here** area within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
+    - Open the shortcut menu for the **LogToHistoryListActivity** activity, choose **Copy**, open the shortcut menu for the other **Drop Activities Here** area within **IfElseActivity1** in the workflow designer, and then choose **Paste**.
 
-    -   Drag the **LogToHistoryListActivity** activity from the **Toolbox**, and drop it onto the other **Drop Activities Here** area within **IfElseActivity1**.
+    - Drag the **LogToHistoryListActivity** activity from the **Toolbox**, and drop it onto the other **Drop Activities Here** area within **IfElseActivity1**.
 
 ## Add code to the workflow
  Next, add code to the workflow to give it functionality.

@@ -26,13 +26,13 @@ When you create a modal dialog box inside Visual Studio, you must make sure that
   
 2. To use the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> class, you must add references to the following assemblies (in the Framework tab of the **Add Reference** dialog box):  
   
-    -   PresentationCore  
+    - PresentationCore  
   
-    -   PresentationFramework  
+    - PresentationFramework  
   
-    -   WindowsBase  
+    - WindowsBase  
   
-    -   System.Xaml  
+    - System.Xaml  
   
 3. In OpenDialog.cs, add the following `using` statement:  
   

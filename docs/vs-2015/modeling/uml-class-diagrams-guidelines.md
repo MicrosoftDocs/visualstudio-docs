@@ -119,9 +119,9 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
 - Use an **Enumeration** (3) to represent a type that has a limited number of literal values, for example `Stop` and `Go`.  
   
-  -   Add the literal values to the enumeration. Give each one a separate name.  
+  - Add the literal values to the enumeration. Give each one a separate name.  
   
-  -   You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
+  - You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
   
   Give each type a unique name.  
   

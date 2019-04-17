@@ -39,9 +39,9 @@ Depending on the command, the command handler might need the selection in the mo
 
 3. In addition, the generated code defines an explorer tool window property and an explorer selection property in the command set class for the domain-specific language.
 
-    -   The explorer tool window property returns an instance of the explorer tool window class for the domain-specific language. The explorer tool window class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelExplorerToolWindow> class and represents the model explorer for the domain-specific language.
+    - The explorer tool window property returns an instance of the explorer tool window class for the domain-specific language. The explorer tool window class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelExplorerToolWindow> class and represents the model explorer for the domain-specific language.
 
-    -   The `ExplorerSelection` property returns the selected element in the model explorer window for the domain-specific language.
+    - The `ExplorerSelection` property returns the selected element in the model explorer window for the domain-specific language.
 
 ## Determine which window is active
 

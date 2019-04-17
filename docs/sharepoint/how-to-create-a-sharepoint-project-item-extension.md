@@ -24,17 +24,17 @@ ms.workload:
 
 2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
 3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> interface.
 
 4. Add the following attributes to the class:
 
-    -   <xref:System.ComponentModel.Composition.ExportAttribute>. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> type to the attribute constructor.
+    - <xref:System.ComponentModel.Composition.ExportAttribute>. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> type to the attribute constructor.
 
-    -   <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemTypeAttribute>. In a project item extension, this attribute identifies the project item you want to extend. Pass the ID of the project item to the attribute constructor. For a list of the IDs of the project items that are included with Visual Studio, see [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md).
+    - <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemTypeAttribute>. In a project item extension, this attribute identifies the project item you want to extend. Pass the ID of the project item to the attribute constructor. For a list of the IDs of the project items that are included with Visual Studio, see [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md).
 
 5. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> method, use members of the *projectItemType* parameter to define the behavior of your extension. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFileEvents> interfaces. To access a specific instance of the project item type you are extending, handle <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> events such as <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemAdded> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemInitialized>.
 

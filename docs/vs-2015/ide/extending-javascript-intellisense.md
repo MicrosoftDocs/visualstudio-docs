@@ -141,9 +141,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 - `paramComments`. Returns an array representing comments for each parameter in the function. The members of the array include:  
   
-    -   `name`. Returns a string representing the parameter name.  
+    - `name`. Returns a string representing the parameter name.  
   
-    -   `comment`. Returns a string that contains the parameter comment.  
+    - `comment`. Returns a string that contains the parameter comment.  
   
 ###  <a name="FunctionHelp"></a> functionHelp Property  
  Returns the Help for the function. This property is available for the `signaturehelp` event object.  
@@ -158,45 +158,45 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
      The members of the `signature` object include:  
   
-    -   `description`. Read/write. Returns a string that describes the function.  
+    - `description`. Read/write. Returns a string that describes the function.  
   
-    -   `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
+    - `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
   
-    -   `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
+    - `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
   
-    -   `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
+    - `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
   
-    -   `externalid`. Read/write. Returns a string that represents the member ID of the function.  
+    - `externalid`. Read/write. Returns a string that represents the member ID of the function.  
   
-    -   `params`. Read/write. Gets or sets the array of parameters for the function. Each element in the parameters array is a `parameter` object that has properties that correspond to the following attributes of the [\<param>](../ide/param-javascript.md) element:  
+    - `params`. Read/write. Gets or sets the array of parameters for the function. Each element in the parameters array is a `parameter` object that has properties that correspond to the following attributes of the [\<param>](../ide/param-javascript.md) element:  
   
-        -   `name`. Read/write. Returns a string that represents the parameter name.  
+        - `name`. Read/write. Returns a string that represents the parameter name.  
   
-        -   `type`. Read/write. Returns a string that represents the parameter type.  
+        - `type`. Read/write. Returns a string that represents the parameter type.  
   
-        -   `elementType`. Read/write. If the type is `Array`, returns a string that represents the type of the elements in the array.  
+        - `elementType`. Read/write. If the type is `Array`, returns a string that represents the type of the elements in the array.  
   
-        -   `description`. Read/write. Returns a string that describes the parameter.  
+        - `description`. Read/write. Returns a string that describes the parameter.  
   
-        -   `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
+        - `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
   
-        -   `optional`. Read/write. Returns a string that indicates whether the parameter is optional. `true` indicates that the parameter is optional; `false` indicates that it isn't.  
+        - `optional`. Read/write. Returns a string that indicates whether the parameter is optional. `true` indicates that the parameter is optional; `false` indicates that it isn't.  
   
-    -   `returnValue`. Read/write. Gets or sets a return value object with properties that correspond to the following attributes of the [\<returns>](../ide/returns-javascript.md) element:  
+    - `returnValue`. Read/write. Gets or sets a return value object with properties that correspond to the following attributes of the [\<returns>](../ide/returns-javascript.md) element:  
   
-        -   `type`. Read/write. Returns a string that represents the return type.  
+        - `type`. Read/write. Returns a string that represents the return type.  
   
-        -   `elementType`. Read/write. If the type is `Array`, returns a string that represents the type of the elements in the array.  
+        - `elementType`. Read/write. If the type is `Array`, returns a string that represents the type of the elements in the array.  
   
-        -   `description`. Read/write. Returns a string that describes the return value.  
+        - `description`. Read/write. Returns a string that describes the return value.  
   
-        -   `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
+        - `locid`. Read/write. Returns a string identifier that contains localization information about the function.  
   
-        -   `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
+        - `helpKeyword`. Read/write. Returns a string that contains the Help keyword.  
   
-        -   `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
+        - `externalFile`. Read/write. Returns a string that represents the file that contains the member ID.  
   
-        -   `externalid`. Read/write. Returns a string that represents the member ID of the function.  
+        - `externalid`. Read/write. Returns a string that represents the member ID of the function.  
   
 ###  <a name="ParentObject"></a> parentObject Property  
  Returns the parent object of a member function. For example, for `document.getElementByID`, `parentObject` returns the `document` object. This property is available for the `signaturehelp` event object.  

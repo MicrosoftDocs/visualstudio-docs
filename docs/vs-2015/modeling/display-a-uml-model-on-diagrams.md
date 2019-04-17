@@ -18,7 +18,7 @@ manager: jillfra
 In the program code for an extension to Visual Studio, you can control how model elements are displayed on diagrams. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  In this topic:  
- -   [To display an element on a diagram](#Display)  
+ - [To display an element on a diagram](#Display)  
   
 - [Accessing the shapes that represent an element](#GetShapes)  
   

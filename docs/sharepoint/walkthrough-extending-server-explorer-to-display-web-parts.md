@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that extends **Server Explorer** in the following ways:
 
-    -   The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
+    - The extension adds a **Web Part Gallery** node under each SharePoint site node in **Server Explorer**. This new node contains child nodes that represent each Web Part in the Web Part gallery on the site.
 
-    -   The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that it represents. The node type also includes a custom shortcut menu item that you can use as a starting point for performing other tasks that relate to the Web Part.
+    - The extension defines a new type of node that represents a Web Part instance. This new node type is the basis for the child nodes under the new **Web Part Gallery** node. The new Web Part node type displays information in the **Properties** window about the Web Part that it represents. The node type also includes a custom shortcut menu item that you can use as a starting point for performing other tasks that relate to the Web Part.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. In this walkthrough, you create commands that retrieve Web Part information from the local SharePoint site on the development computer. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -112,21 +112,21 @@ ms.workload:
 
 1. In the WebPartNodeExtension project, add four code files that have the following names:
 
-    -   SiteNodeExtension
+    - SiteNodeExtension
 
-    -   WebPartNodeTypeProvider
+    - WebPartNodeTypeProvider
 
-    -   WebPartNodeInfo
+    - WebPartNodeInfo
 
-    -   WebPartCommandIds
+    - WebPartCommandIds
 
 2. Open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Add Reference**.
 
 3. In the **Reference Manager - WebPartNodeExtension** dialog box, choose the **Framework** tab, and then select the check box for each of the following assemblies:
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
-    -   System.Windows.Forms
+    - System.Windows.Forms
 
 4. Choose the **Extensions** tab, select the check box for the Microsoft.VisualStudio.SharePoint assembly, and then choose the **OK** button.
 
@@ -154,9 +154,9 @@ ms.workload:
 
 6. In the **Reference Manager - WebPartCommands** dialog box, choose the **Extensions** tab, select the check box for each of the following assemblies, and then choose the **OK** button:
 
-    -   Microsoft.SharePoint
+    - Microsoft.SharePoint
 
-    -   Microsoft.VisualStudio.SharePoint.Commands
+    - Microsoft.VisualStudio.SharePoint.Commands
 
 7. In **Solution Explorer**, open the shortcut menu for the **WebPartCommands** project again, and then choose **Properties**.
 

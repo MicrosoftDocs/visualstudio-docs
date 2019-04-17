@@ -24,9 +24,9 @@ ms.workload:
 
 2. Add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
 3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> interface.
 

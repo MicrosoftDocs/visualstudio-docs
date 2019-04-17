@@ -104,11 +104,11 @@ ms.workload:
 
 2. Use the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method of the <xref:Microsoft.Office.Interop.Word.Find> object to replace each found item. To specify which items to replace, use the *Replace* parameter. This parameter can be one of the following <xref:Microsoft.Office.Interop.Word.WdReplace> values:
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll> replaces all found items.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll> replaces all found items.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone> replaces none of the found items.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone> replaces none of the found items.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne> replaces the first found item.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne> replaces the first found item.
 
 ## See also
 - [How to: Programmatically set search options in Word](../vsto/how-to-programmatically-set-search-options-in-word.md)

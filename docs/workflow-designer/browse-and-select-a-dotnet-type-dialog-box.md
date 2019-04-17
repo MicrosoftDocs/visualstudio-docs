@@ -35,9 +35,9 @@ This dialog box is employed in a number of user scenarios, including the followi
 
 2. Do one of the following:
 
-    -   Once the name of the type that you want to use appears in the tree in the **Type Name** box, double-click the type to select it.
+    - Once the name of the type that you want to use appears in the tree in the **Type Name** box, double-click the type to select it.
 
-    -   Type enough characters in the **Type Name** box to uniquely identify the type that you want to use and then press enter to select the type
+    - Type enough characters in the **Type Name** box to uniquely identify the type that you want to use and then press enter to select the type
 
 ### To select a generic type from the type browser
 

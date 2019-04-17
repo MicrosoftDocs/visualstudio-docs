@@ -173,15 +173,15 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
      To figure out which search properties to code the data to, use the Coded UI Test Editor.
 
-    -   Open the *UIMap.uitest* file.
+    - Open the *UIMap.uitest* file.
 
          ![Open the Coded UI Test Editor](../test/media/cuit_datadriven_opentesteditor.png)
 
-    -   Choose the UI action and observe the corresponding UI control mapping. Notice how the mapping corresponds to the code, for example, `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button`.
+    - Choose the UI action and observe the corresponding UI control mapping. Notice how the mapping corresponds to the code, for example, `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button`.
 
          ![Use the Coded UI Test Editor to assist with code](../test/media/cuit_datadriven_testeditor.png)
 
-    -   In the **Properties** Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
+    - In the **Properties** Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
 
          ![Use the search properties to assist in coding](../test/media/cuit_datadriven_searchproperties.png)
 

@@ -36,9 +36,9 @@ After you have created a visualizer, you must install the visualizer so that it 
   
 2. Copy the DLL to either of the following locations:  
   
-    -   *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`  
+    - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`  
   
-    -   `My Documents\` *VisualStudioVersion* `\Visualizers`  
+    - `My Documents\` *VisualStudioVersion* `\Visualizers`  
   
 3. If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.  
   

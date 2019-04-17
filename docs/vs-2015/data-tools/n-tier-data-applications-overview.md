@@ -51,11 +51,11 @@ N-tier* data applications are data applications that are separated into multiple
   
 - Data access components and logic, such as the following:  
   
-  -   [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and [DataAdapters and DataReaders](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
+  - [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and [DataAdapters and DataReaders](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
-  -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
+  - Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
-  -   Common application services, such as authentication, authorization, and personalization.  
+  - Common application services, such as authentication, authorization, and personalization.  
   
   The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the middle tier of an n-tier application.  
   

@@ -53,11 +53,11 @@ ms.workload:
 
 4. Name the column **Document Status**, set its type to **Choice (menu to choose from)**, specify the following three choices, and then choose the **OK** button:
 
-    -   **Review Needed**
+    - **Review Needed**
 
-    -   **Review Complete**
+    - **Review Complete**
 
-    -   **Changes Requested**
+    - **Changes Requested**
 
 5. Create two more columns and name them **Assignee** and **Review Comments**. Set the Assignee column type as a single line of text, and the Review Comments column type as multiple lines of text.
 
@@ -148,9 +148,9 @@ ms.workload:
 
 10. In the **SharePoint Workflow** node of the **Toolbox**, perform one of the following sets of steps:
 
-    -   Open the shortcut menu for the **OnWorkflowItemChanged** activity, and then choose **Copy**. In the workflow designer, open the shortcut menu for the line inside the **whileActivity1** activity, and then choose **Paste**.
+    - Open the shortcut menu for the **OnWorkflowItemChanged** activity, and then choose **Copy**. In the workflow designer, open the shortcut menu for the line inside the **whileActivity1** activity, and then choose **Paste**.
 
-    -   Drag the **OnWorkflowItemChanged** activity from the **Toolbox** to the workflow designer, and connect the activity to the line inside the **whileActivity1** activity.
+    - Drag the **OnWorkflowItemChanged** activity from the **Toolbox** to the workflow designer, and connect the activity to the line inside the **whileActivity1** activity.
 
 11. Choose the **onWorkflowItemChanged1** activity.
 

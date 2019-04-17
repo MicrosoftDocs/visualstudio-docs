@@ -43,19 +43,19 @@ Automated tests that drive your application through its user interface (UI) are 
 
 - [Creating Coded UI Tests](#VerifyingCodeUsingCUITCreate)
 
-  -   [Main procedure](#VerifyingCodeUsingCUITCreate)
+  - [Main procedure](#VerifyingCodeUsingCUITCreate)
 
-  -   [Starting and stopping the application](#starting)
+  - [Starting and stopping the application](#starting)
 
-  -   [Validating the properties of UI Controls](#VerifyingCodeUsingCUITGenerateAssertions)
+  - [Validating the properties of UI Controls](#VerifyingCodeUsingCUITGenerateAssertions)
 
 - [Customizing your coded UI test](#VerifyingCodeCUITModify)
 
-  -   [The Generated Code](#generatedCode)
+  - [The Generated Code](#generatedCode)
 
-  -   [Coding UI control actions and properties](#actions)
+  - [Coding UI control actions and properties](#actions)
 
-  -   [Debugging](#debugging)
+  - [Debugging](#debugging)
 
 - [What’s Next](#VerifyCodeUsingCUITWhatsNext)
 
@@ -291,23 +291,23 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 - **Code Editor:**
 
-    -   Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#actions) section in this topic.
+    - Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#actions) section in this topic.
 
-    -   After you create a coded UI test, you can modify it to be data-driven. For more information, see [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md).
+    - After you create a coded UI test, you can modify it to be data-driven. For more information, see [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md).
 
-    -   In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
+    - In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
 
-    -   Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 Controls in Coded UI Tests](../test/using-html5-controls-in-coded-ui-tests.md).
+    - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 Controls in Coded UI Tests](../test/using-html5-controls-in-coded-ui-tests.md).
 
-    -   **Coded UI test coding guidance:**
+    - **Coded UI test coding guidance:**
 
-        -   [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
+        - [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
 
-        -   [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
+        - [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
 
-        -   [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+        - [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
 
-        -   [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+        - [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
 ###  <a name="generatedCode"></a> The Generated Code
  When you choose **Generate Code**, several pieces of code are created:

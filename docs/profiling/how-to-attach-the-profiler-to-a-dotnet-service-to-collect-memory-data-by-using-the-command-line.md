@@ -80,9 +80,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfCmd**  [/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [[/targetclr](../profiling/targetclr.md)**:**`Version`]
 
-   -   Specify either the process ID or the process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.
+   - Specify either the process ID or the process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.
 
-   -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
+   - **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
 ## Control data collection
  While the service is running, you can use *VSPerfCmd.exe* options to stop and start the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of the program execution, such as starting or shutting down the application.
@@ -104,11 +104,11 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 1. Do one of the following to detach the profiler from the target application:
 
-    -   Stop the service.
+    - Stop the service.
 
          -or-
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
 2. Shut down the profiler. Type:
 

@@ -91,9 +91,9 @@ manager: jillfra
 
 3. In the Dsl project of the consuming DSL, add the following assemblies to the project references. You will find these assemblies (.dll files) in the ModelBusAdapter\bin\\* directory of the exposed DSL.
 
-    -   The exposed DSL assembly, for example **Fabrikam.FamilyTree.Dsl.dll**
+    - The exposed DSL assembly, for example **Fabrikam.FamilyTree.Dsl.dll**
 
-    -   The exposed model bus adapter assembly, for example **Fabrikam.FamilyTree.ModelBusAdapter.dll**
+    - The exposed model bus adapter assembly, for example **Fabrikam.FamilyTree.ModelBusAdapter.dll**
 
 4. Add the following .NET assemblies to the project references of the consuming DSL project.
 

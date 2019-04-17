@@ -80,9 +80,9 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 5. Create a second class that inherits from <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, and name it HighlightWordFormatDefinition. In order to use this format definition for your tag, you must export it with the following attributes:  
   
-    -   <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: tags use this to reference this format  
+    - <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: tags use this to reference this format  
   
-    -   <xref:Microsoft.VisualStudio.Text.Classification.UserVisibleAttribute>: this causes the format to appear in the UI  
+    - <xref:Microsoft.VisualStudio.Text.Classification.UserVisibleAttribute>: this causes the format to appear in the UI  
   
     ```csharp  
   
@@ -129,21 +129,21 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 2. Add the following private fields and properties to the class:  
   
-    -   An <xref:Microsoft.VisualStudio.Text.Editor.ITextView>, which corresponds to the current text view.  
+    - An <xref:Microsoft.VisualStudio.Text.Editor.ITextView>, which corresponds to the current text view.  
   
-    -   An <xref:Microsoft.VisualStudio.Text.ITextBuffer>, which corresponds to the text buffer that underlies the text view.  
+    - An <xref:Microsoft.VisualStudio.Text.ITextBuffer>, which corresponds to the text buffer that underlies the text view.  
   
-    -   An <xref:Microsoft.VisualStudio.Text.Operations.ITextSearchService>, which is used to find text.  
+    - An <xref:Microsoft.VisualStudio.Text.Operations.ITextSearchService>, which is used to find text.  
   
-    -   An <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator>, which has methods for navigating within text spans.  
+    - An <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator>, which has methods for navigating within text spans.  
   
-    -   A <xref:Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection>, which contains the set of words to highlight.  
+    - A <xref:Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection>, which contains the set of words to highlight.  
   
-    -   A <xref:Microsoft.VisualStudio.Text.SnapshotSpan>, which corresponds to the current word.  
+    - A <xref:Microsoft.VisualStudio.Text.SnapshotSpan>, which corresponds to the current word.  
   
-    -   A <xref:Microsoft.VisualStudio.Text.SnapshotPoint>, which corresponds to the current position of the caret.  
+    - A <xref:Microsoft.VisualStudio.Text.SnapshotPoint>, which corresponds to the current position of the caret.  
   
-    -   A lock object.  
+    - A lock object.  
   
     ```csharp  
     ITextView View { get; set; }  

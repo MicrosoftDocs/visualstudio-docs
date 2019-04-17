@@ -44,7 +44,7 @@ You can create a Visual Studio Integration Extension that responds when the user
   
 3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
 4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
   
@@ -162,9 +162,9 @@ namespace WorkItems
   
 4. Right-click the element and then click **Create Work Item**.  
   
-    -   If the submenu shows **Open Team Foundation Server Connection**, you will need to close the project, connect to the appropriate TFS, and restart this procedure.  
+    - If the submenu shows **Open Team Foundation Server Connection**, you will need to close the project, connect to the appropriate TFS, and restart this procedure.  
   
-    -   If the submenu shows a list of work item types, click one.  
+    - If the submenu shows a list of work item types, click one.  
   
          A new work item form opens.  
   
@@ -176,11 +176,11 @@ namespace WorkItems
   
      **Troubleshooting**: If the handler methods have not run, verify that:  
   
-    -   The class library project is listed as a MEF component in the **Content** list in **source.extensions.manifest** in the VSIX project.  
+    - The class library project is listed as a MEF component in the **Content** list in **source.extensions.manifest** in the VSIX project.  
   
-    -   The correct `Export` attribute is attached to the handler class, and the class implements `ILinkedWorkItemExtension`.  
+    - The correct `Export` attribute is attached to the handler class, and the class implements `ILinkedWorkItemExtension`.  
   
-    -   The parameters of all `Import` and `Export` attributes are valid.  
+    - The parameters of all `Import` and `Export` attributes are valid.  
   
 ## About the Work Item Handler Code  
   

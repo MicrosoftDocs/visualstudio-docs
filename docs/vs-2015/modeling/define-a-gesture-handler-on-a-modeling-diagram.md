@@ -208,7 +208,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, in the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
+    - In Solution Explorer, in the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
   
 4. In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
   
@@ -235,9 +235,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start:  
   
-   -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
+   - If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-   -   In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
+   - In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
   
         `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
@@ -278,13 +278,13 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
      `ShapeElement` is a class in the implementation that underlies the UML modeling tools. To reduce the risk of putting the UML model and diagrams into an inconsistent state, we recommend that you do not use the methods of this class directly. Instead, wrap the element in an `IShape`, and then use the methods described in [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
-    -   To obtain an `IShape`:  
+    - To obtain an `IShape`:  
   
         ```  
         IShape targetIShape = target.CreateIShape(target);  
         ```  
   
-    -   To obtain the model element that is targeted by the drag or double-click operation:  
+    - To obtain the model element that is targeted by the drag or double-click operation:  
   
         ```  
         IElement target = targetIShape.Element;  
@@ -292,14 +292,14 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
          You can cast this to a more specific type of element.  
   
-    -   To obtain the UML model store that contains the UML model:  
+    - To obtain the UML model store that contains the UML model:  
   
         ```  
         IModelStore modelStore =   
           targetIShape.Element.GetModelStore();   
         ```  
   
-    -   To obtain access to the host and service provider:  
+    - To obtain access to the host and service provider:  
   
         ```  
         target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  

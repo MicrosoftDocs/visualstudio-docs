@@ -70,7 +70,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 2. Create a Test project.  
   
-   -   In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.  
+   - In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.  
   
         ![New code and test projects](../test/media/unittestexplorerwalk1.png "UnitTestExplorerWalk1")  
   

@@ -39,15 +39,15 @@ You can use the VSIX Project template to create an extension or to package an ex
   
 4. In the **Solution Explorer**, double-click the `source.extension.vsixmanifest` file to open it in the **VSIX Manifest Designer**, and then make the following changes:  
   
-    -   Set the **Product Name** field to **My Project Template**.  
+    - Set the **Product Name** field to **My Project Template**.  
   
-    -   Set the **Product ID** field to **MyProjectTemplate - 1**.  
+    - Set the **Product ID** field to **MyProjectTemplate - 1**.  
   
-    -   Set the **Author** field to **Fabrikam**.  
+    - Set the **Author** field to **Fabrikam**.  
   
-    -   Set the **Description** field to **My project template**.  
+    - Set the **Description** field to **My project template**.  
   
-    -   In the **Assets** section, add a **Microsoft.VisualStudio.ProjectTemplate** type and set its path to the name of the .zip file.  
+    - In the **Assets** section, add a **Microsoft.VisualStudio.ProjectTemplate** type and set its path to the name of the .zip file.  
   
 5. Save and close the source.extension.vsixmanifest file.  
   

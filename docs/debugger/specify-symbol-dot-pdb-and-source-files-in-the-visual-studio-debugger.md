@@ -122,9 +122,9 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
 
-   -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
+   - Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
 
-   -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
+   - To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
 
 5. Select **OK**.
 

@@ -186,7 +186,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
 2. Override the `InitializeShapeFields` method of your shape class.  
   
-    -   Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
+    - Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
   
 3. Inspect the code of `InitializeShapeFields` in DSL\GeneratedCode\Shapes.cs.  
   

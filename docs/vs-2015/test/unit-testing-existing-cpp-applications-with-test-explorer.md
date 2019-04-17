@@ -124,7 +124,7 @@ We recommend that, before you change an existing application, you make sure that
   
 2. Add a C++ Unit Test file:  
   
-   -   In Solution Explorer, in the shortcut menu of the project, choose **Add**, **New Item**, and then choose **C++ Unit Test**.  
+   - In Solution Explorer, in the shortcut menu of the project, choose **Add**, **New Item**, and then choose **C++ Unit Test**.  
   
    Go to [Writing the unit tests](#addTests).  
   

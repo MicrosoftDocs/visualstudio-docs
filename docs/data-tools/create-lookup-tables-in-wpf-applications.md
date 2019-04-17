@@ -27,11 +27,11 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
 1. Add one of the following types of data sources with related data to your project:
 
-    -   Dataset or Entity Data Model.
+    - Dataset or Entity Data Model.
 
-    -   WCF Data Service, WCF service or web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
+    - WCF Data Service, WCF service or web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
 
-    -   Objects. For more information, see [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md).
+    - Objects. For more information, see [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md).
 
     > [!NOTE]
     > Before you can create a lookup table, two related tables or objects must exist as a data source for the project.
@@ -53,16 +53,16 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
 7. Under the child node, click the drop-down menu for the item that relates the child and parent data. (In the preceding example, this is the **CustomerID** node.) Select one of the following types of controls that support lookup binding:
 
-    -   **ComboBox**
+    - **ComboBox**
 
-    -   **ListBox**
+    - **ListBox**
 
-    -   **ListView**
+    - **ListView**
 
         > [!NOTE]
         > If the **ListBox** or **ListView** control does not appear in the list, you can add these controls to the list. For information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
-    -   Any custom control that derives from <xref:System.Windows.Controls.Primitives.Selector>.
+    - Any custom control that derives from <xref:System.Windows.Controls.Primitives.Selector>.
 
         > [!NOTE]
         > For information about how to add custom controls to the list of controls you can select for items in the **Data Sources** window, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).

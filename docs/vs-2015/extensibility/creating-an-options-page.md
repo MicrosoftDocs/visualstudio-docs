@@ -63,11 +63,11 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 5. Add an `OptionInteger` property to the `OptionPageGrid` class.  
   
-    -   Apply a <xref:System.ComponentModel.CategoryAttribute?displayProperty=fullName> to assign to the property a property grid category.  
+    - Apply a <xref:System.ComponentModel.CategoryAttribute?displayProperty=fullName> to assign to the property a property grid category.  
   
-    -   Apply a <xref:System.ComponentModel.DisplayNameAttribute?displayProperty=fullName> to assign to the property a name.  
+    - Apply a <xref:System.ComponentModel.DisplayNameAttribute?displayProperty=fullName> to assign to the property a name.  
   
-    -   Apply a <xref:System.ComponentModel.DescriptionAttribute?displayProperty=fullName> to assign to the property a description.  
+    - Apply a <xref:System.ComponentModel.DescriptionAttribute?displayProperty=fullName> to assign to the property a description.  
   
     ```csharp  
     public class OptionPageGrid : DialogPage  

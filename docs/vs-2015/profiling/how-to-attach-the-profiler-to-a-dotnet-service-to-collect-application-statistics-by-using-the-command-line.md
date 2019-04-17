@@ -38,9 +38,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv /globalsampleon** [**/samplelineoff**]  
 
-   -   **/globalsampleon** enables sampling.  
+   - **/globalsampleon** enables sampling.  
 
-   -   **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
+   - **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
 
 4. Restart the computer.  
 
@@ -84,7 +84,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |[/sys](../profiling/sys-vsperfcmd.md)[`:``Interval`]|Changes the sampling event to system calls from the process to the operating system kernel (syscalls). If `Interval` is specified, sets the number of calls between samples. Default is 10.|  
    |[/counter](../profiling/counter.md) **:** `Config`|Changes the sampling event and interval to the processor performance counter and interval specified in `Config`.|  
 
-   -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
+   - **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
 
 ## Controlling Data Collection  
  When the service is running, you can use **VSPerfCmd.exe** options to start and stop the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
@@ -108,11 +108,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 1. Do one of the following to detach the profiler from the target application:  
 
-    -   Stop the service.  
+    - Stop the service.  
 
          -or-  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
 2. Shut down the profiler. Type:  
 

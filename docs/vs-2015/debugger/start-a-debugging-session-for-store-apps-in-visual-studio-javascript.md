@@ -232,19 +232,19 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 2. To attach to an app on a remote device, specify the remote device in the **Qualifier** box. You can:
 
-   -   Enter the name in the **Qualifier** box.
+   - Enter the name in the **Qualifier** box.
 
-   -   Choose the down-arrow in the **Qualifier** box and choose the device from a list of devices that you have attached to before.
+   - Choose the down-arrow in the **Qualifier** box and choose the device from a list of devices that you have attached to before.
 
-   -   Choose **Find** to choose the device from a list of devices on your local subnet.
+   - Choose **Find** to choose the device from a list of devices on your local subnet.
 
 3. Specify the type of code that you want to debug in the **Attach to** box.
 
     Choose **Select** and then do one of the following:
 
-   -   Choose **Automatically determine the type of code to debug**
+   - Choose **Automatically determine the type of code to debug**
 
-   -   Choose **Debug these code types** and then choose one or more types from the list.
+   - Choose **Debug these code types** and then choose one or more types from the list.
 
 4. In the **Available Processes**  list, choose the appropriate **wwahost.exe** process. Use the **Title** column to identify your app.
 

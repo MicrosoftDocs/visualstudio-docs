@@ -37,15 +37,15 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
 1. Make sure that:  
   
-    -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/library/dn465154.aspx).  
+    - Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/library/dn465154.aspx).  
   
-    -   Your web server has .NET Framework 3.5, 4, or 4.5.  
+    - Your web server has .NET Framework 3.5, 4, or 4.5.  
   
-    -   Your web server is running Windows PowerShell 3.0 or later. [Q: What if I have Windows PowerShell 2.0?](#PowerShell2)  
+    - Your web server is running Windows PowerShell 3.0 or later. [Q: What if I have Windows PowerShell 2.0?](#PowerShell2)  
   
-    -   You have administrator permissions on your web server to run PowerShell commands and to recycle the application pool when you start monitoring.  
+    - You have administrator permissions on your web server to run PowerShell commands and to recycle the application pool when you start monitoring.  
   
-    -   You've uninstalled any earlier versions of Microsoft Monitoring Agent.  
+    - You've uninstalled any earlier versions of Microsoft Monitoring Agent.  
   
 2. [Download the free Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.  
   
@@ -158,9 +158,9 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
    For example:  
   
-  -   Disable Windows Workflow events for apps that don't use Windows Workflow.  
+  - Disable Windows Workflow events for apps that don't use Windows Workflow.  
   
-  -   Disable registry events for apps that access the registry but don't show problems with registry settings.  
+  - Disable registry events for apps that access the registry but don't show problems with registry settings.  
   
 - Review the modules for which the agent collects data in the collection plan. Edit the collection plan to include only the modules that interest you.  
   

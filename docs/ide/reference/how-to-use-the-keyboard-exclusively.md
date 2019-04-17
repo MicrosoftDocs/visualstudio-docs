@@ -53,15 +53,15 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 2. To change option settings:
 
-    -   For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
+    - For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
 
-    -   For check boxes, use **SPACEBAR** to select or unselect.
+    - For check boxes, use **SPACEBAR** to select or unselect.
 
-    -   For drop-down lists, use **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For drop-down lists, use **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
 
-    -   For buttons, press **Enter** to invoke.
+    - For buttons, press **Enter** to invoke.
 
-    -   For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
 
 ## Window and file navigation
 

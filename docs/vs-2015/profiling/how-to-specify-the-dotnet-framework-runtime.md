@@ -30,9 +30,9 @@ With the release of [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)], ap
   
 2. Perform one of the following steps:  
   
-    -   Click the version of the CLR that you want to profile.  
+    - Click the version of the CLR that you want to profile.  
   
-    -   Click **Automatic** to profile the first version that is loaded by the application.  
+    - Click **Automatic** to profile the first version that is loaded by the application.  
   
 ### To specify the .NET Framework run-time to profile when attaching the profiler to an application  
   
@@ -44,6 +44,6 @@ With the release of [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)], ap
   
 3. Perform one of the following steps:  
   
-    -   Click the version of the CLR that you want to profile.  
+    - Click the version of the CLR that you want to profile.  
   
-    -   Click **Automatic** to profile the version that is loaded when the profiler attaches to the application.
+    - Click **Automatic** to profile the version that is loaded when the profiler attaches to the application.

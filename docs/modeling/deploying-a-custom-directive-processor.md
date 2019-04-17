@@ -83,11 +83,11 @@ There are several ways of creating a .vsix file. The following procedure describ
 
 5. Add the following references to the project:
 
-    -   **Microsoft.VisualStudio.TextTemplating.\*.0**
+    - **Microsoft.VisualStudio.TextTemplating.\*.0**
 
-    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**
+    - **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**
 
-    -   **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**
+    - **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**
 
 6. Add your custom directive processor class to the project.
 
@@ -164,7 +164,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
 3. Add a registry key that has the same name as the directive processor class.
 
-   -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.
+   - In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.
 
 4. In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.
 

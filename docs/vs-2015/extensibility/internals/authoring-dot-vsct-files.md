@@ -47,9 +47,9 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
 1. At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:  
   
-    -   Stdidcmd.h, defines IDs for all commands exposed by Visual Studio.  
+    - Stdidcmd.h, defines IDs for all commands exposed by Visual Studio.  
   
-    -   Vsshlids.h, contains command IDs for Visual Studio menus.  
+    - Vsshlids.h, contains command IDs for Visual Studio menus.  
   
 2. If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. For more information about how to find the GUIDs and IDs of Visual Studio commands, see [GUIDs and IDs of Visual Studio Commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md). To call commands from other packages, use the GUID and the ID of the command as defined in the .vsct file for those packages.  
   

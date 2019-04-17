@@ -32,7 +32,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/globalsamplegc** &#124; **/globalsamplegclife**} [**/samplelineoff**]
 
-   -   The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.
+   - The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.
 
         Specify one and only one of the following options.
 
@@ -41,7 +41,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
        |**/globalsamplegc**|Enables the collection of memory allocation data.|
        |**/globalsamplegclife**|Enables the collection of both memory allocation data and object lifetime data.|
 
-   -   The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.
+   - The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.
 
 3. Restart the computer to set the new environment configuration.
 

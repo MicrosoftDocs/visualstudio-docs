@@ -28,11 +28,11 @@ ms.workload:
 
 2. All other elements of the interface should be tied to the environment font setting and respond to any global changes in the environment. This includes (but is not limited to):
 
-    -   Text in context menus
+    - Text in context menus
 
-    -   Text in an editor adornment, like light bulb menu text, quick find editor pane, and navigate to pane
+    - Text in an editor adornment, like light bulb menu text, quick find editor pane, and navigate to pane
 
-    -   Label text in dialog boxes, like **Find in Files** or **Refactor**
+    - Label text in dialog boxes, like **Find in Files** or **Refactor**
 
 ### Accessing the environment font
  In Native or WinForms code, the environment font can be accessed by calling the method `IUIHostLocale::GetDialogFont` after querying the interface from the `SID_SUIHostLocale` service.
@@ -394,11 +394,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 - Larger headings (environment font x 155% or greater) can be colored for these purposes:
 
-    -   To provide visual appeal to signature Visual Studio UI
+    - To provide visual appeal to signature Visual Studio UI
 
-    -   To call attention to a specific area
+    - To call attention to a specific area
 
-    -   To offer relief from the standard dark gray/black environment text color
+    - To offer relief from the standard dark gray/black environment text color
 
 - Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.
 

@@ -96,9 +96,9 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 6. On the **Choose Your Database Objects** page, expand **Tables**, and then select the following tables:  
   
-   -   **SalesOrderDetail**  
+   - **SalesOrderDetail**  
   
-   -   **SalesOrderHeader**  
+   - **SalesOrderHeader**  
   
 7. Click **Finish**.  
   
@@ -190,9 +190,9 @@ In this walkthrough, you will create a WPF application that displays data from d
   
      The application builds and runs. Verify the following:  
   
-    -   The **Sales Order ID** combo box displays **71774**. This is the first order ID in the entity.  
+    - The **Sales Order ID** combo box displays **71774**. This is the first order ID in the entity.  
   
-    -   For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
+    - For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
   
 2. Close the application.  
   

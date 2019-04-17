@@ -623,11 +623,11 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 1. Add the following references to the MenuCommandTest project:  
   
-    -   Microsoft.VisualStudio.TextManager.Interop  
+    - Microsoft.VisualStudio.TextManager.Interop  
   
-    -   Microsoft.VisualStudio.Editor  
+    - Microsoft.VisualStudio.Editor  
   
-    -   Microsoft.VisualStudio.Text.UI.Wpf  
+    - Microsoft.VisualStudio.Text.UI.Wpf  
   
 2. Open the AddAdornment.cs file and add the following `using` statements.  
   

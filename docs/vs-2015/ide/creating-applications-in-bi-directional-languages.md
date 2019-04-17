@@ -46,9 +46,9 @@ You can use Visual Studio to create applications that correctly display text in 
   
      However, right-to-left reading order is not supported everywhere in Visual Studio. Exceptions include:  
   
-    -   Check boxes, drop-down lists, and other controls in Visual Studio dialog boxes always use left-to-right reading order.  
+    - Check boxes, drop-down lists, and other controls in Visual Studio dialog boxes always use left-to-right reading order.  
   
-    -   The code editor (and text editor) does not support right-to-left reading order. You can enter text in a bi-directional language, but the reading order is always left-to-right.  
+    - The code editor (and text editor) does not support right-to-left reading order. You can enter text in a bi-directional language, but the reading order is always left-to-right.  
   
 ## Naming Things Using Arabic or Hebrew Text  
  You can use Arabic or Hebrew text to assign names to folders, variables, or other objects. When working with Arabic, you can use any Arabic characters including Kashida and Diacritics.  

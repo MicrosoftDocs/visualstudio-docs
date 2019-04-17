@@ -40,14 +40,14 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
-    -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
+    - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
         > The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
-    -   Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
+    - Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 
-    -   Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
+    - Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
@@ -55,9 +55,9 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 2. On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
 
-    -   Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
+    - Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
 
-    -   Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
+    - Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
 
 ## To build only the startup project and its dependencies
 
@@ -71,9 +71,9 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
 
-    -   On the menu bar, choose **Debug** > **Start** (**F5**).
+    - On the menu bar, choose **Debug** > **Start** (**F5**).
 
-    -   On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
+    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.
 

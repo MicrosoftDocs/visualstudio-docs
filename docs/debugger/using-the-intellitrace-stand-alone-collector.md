@@ -127,11 +127,11 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
          For example:
 
-        -   For a Web app in the **DefaultAppPool** application pool:
+        - For a Web app in the **DefaultAppPool** application pool:
 
              `icacls "C:\IntelliTraceCollector" /grant "IIS APPPOOL\DefaultAppPool":RX`
 
-        -   For a SharePoint application in the **SharePoint - 80** application pool:
+        - For a SharePoint application in the **SharePoint - 80** application pool:
 
              `icacls "C:\IntelliTraceCollector" /grant "IIS APPPOOL\SharePoint - 80":RX`
 
@@ -149,9 +149,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
         2.  Choose one of the following steps:
 
-            -   On 64-bit operating systems, open the shortcut menu for **Windows PowerShell**. Choose **Run as administrator**.
+            - On 64-bit operating systems, open the shortcut menu for **Windows PowerShell**. Choose **Run as administrator**.
 
-            -   On 32-bit operating systems, open the shortcut menu for **Windows PowerShell (x86)**. Choose **Run as administrator**.
+            - On 32-bit operating systems, open the shortcut menu for **Windows PowerShell (x86)**. Choose **Run as administrator**.
 
     2.  In the PowerShell command window, use the **Import-Module** command to import **Microsoft.VisualStudio.IntelliTrace.PowerShell.dll**.
 
@@ -303,9 +303,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
    *How does this improve performance?*
 
-  -   You can reduce startup time by disabling events that aren't relevant to the app. For example, disable Windows Workflow events for apps that don't use Windows Workflow.
+  - You can reduce startup time by disabling events that aren't relevant to the app. For example, disable Windows Workflow events for apps that don't use Windows Workflow.
 
-  -   You can improve both startup and runtime performance by disabling registry events for apps that access the registry but don't show problems with registry settings.
+  - You can improve both startup and runtime performance by disabling registry events for apps that access the registry but don't show problems with registry settings.
 
 - Review the modules in the collection plan for which IntelliTrace collects data. Edit the collection plan to include only the modules that interest you:
 

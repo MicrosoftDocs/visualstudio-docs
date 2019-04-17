@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    -   The extension defines a custom deployment step to upgrade SharePoint solutions.
+    - The extension defines a custom deployment step to upgrade SharePoint solutions.
 
-    -   The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
+    - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -111,9 +111,9 @@ ms.workload:
 
 1. In the **DeploymentStepExtension** project, add two code files that have the following names:
 
-    -   UpgradeStep
+    - UpgradeStep
 
-    -   DeploymentConfigurationExtension
+    - DeploymentConfigurationExtension
 
 2. Open the shortcut menu on the DeploymentStepExtension project, and then choose **Add Reference**.
 
@@ -129,9 +129,9 @@ ms.workload:
 
 3. On the **Extensions** tab, select the check boxes for the following assemblies, and then click choose the **OK** button
 
-    -   Microsoft.SharePoint
+    - Microsoft.SharePoint
 
-    -   Microsoft.VisualStudio.SharePoint.Commands
+    - Microsoft.VisualStudio.SharePoint.Commands
 
 ## Define the custom deployment step
  Create a class that defines the upgrade deployment step. To define the deployment step, the class implements the <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentStep> interface. Implement this interface whenever you want to define a custom deployment step.
@@ -383,9 +383,9 @@ ms.workload:
 
 11. In the **Lists** section of the Quick Launch bar, choose the **Employees** list, and then verify the following details:
 
-    -   The **Attachments** and **Home Phone** columns don't appear in this view of the list.
+    - The **Attachments** and **Home Phone** columns don't appear in this view of the list.
 
-    -   The list is empty. When you used the **Default** deployment configuration to redeploy the solution, the **Employees** list was replaced with the new empty list in your project.
+    - The list is empty. When you used the **Default** deployment configuration to redeploy the solution, the **Employees** list was replaced with the new empty list in your project.
 
 ## Test the deployment step
  You are now ready to test the upgrade deployment step. First, add an item to the list instance in SharePoint. Then change the list definition and list instance, upgrade them on the SharePoint site, and confirm that the upgrade deployment step doesn't overwrite the new item.

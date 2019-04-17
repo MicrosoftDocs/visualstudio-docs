@@ -72,29 +72,29 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 1. Drag **Subsystem** boundaries from the toolbox onto the diagram, to represent either your whole system or its major components.  
   
-    -   You can draw a use case diagram without system boundaries if you do not want to describe which use cases are supported by your system or its components.  
+    - You can draw a use case diagram without system boundaries if you do not want to describe which use cases are supported by your system or its components.  
   
-    -   Drag the corner of a system to make it bigger, if it is necessary.  
+    - Drag the corner of a system to make it bigger, if it is necessary.  
   
-    -   Rename it appropriately.  
+    - Rename it appropriately.  
   
 2. Drag **Actors** from the toolbox onto the diagram (placing them outside any system boundary).  
   
-    -   Actors represent classes of users, organizations, and external systems that interact with your system.  
+    - Actors represent classes of users, organizations, and external systems that interact with your system.  
   
-    -   Rename them. For example: **Customer, Restaurant, Credit card agency.**  
+    - Rename them. For example: **Customer, Restaurant, Credit card agency.**  
   
 3. Drag **Use Cases** from the toolbox onto the appropriate systems.  
   
-    -   Use cases represent the activities that actors perform with the help of your system.  
+    - Use cases represent the activities that actors perform with the help of your system.  
   
-    -   Rename them by using titles the actors themselves would understand. Do not use titles that are related to your code. For example: **Order Meal, Pay for Meal, Deliver Meal**.  
+    - Rename them by using titles the actors themselves would understand. Do not use titles that are related to your code. For example: **Order Meal, Pay for Meal, Deliver Meal**.  
   
-    -   Begin with major transactions such as **Order Meal**, leaving until later smaller interactions such as **Select Menu Item**.  
+    - Begin with major transactions such as **Order Meal**, leaving until later smaller interactions such as **Select Menu Item**.  
   
-    -   Place each use case in the system or major subsystem that supports it (ignoring any façade or component involved only in connecting to the user).  
+    - Place each use case in the system or major subsystem that supports it (ignoring any façade or component involved only in connecting to the user).  
   
-    -   You can draw a use case outside the system boundary to show that it is not supported by your system, perhaps in a particular version or release.  
+    - You can draw a use case outside the system boundary to show that it is not supported by your system, perhaps in a particular version or release.  
   
 4. Click **Association** on the toolbox, then a use case, and then an actor that participates in the use case. Link each actor to its use cases in this manner.  
   
@@ -109,13 +109,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
   
-    -   To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+    - To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
-    -   For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
+    - For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
   
 - Create **Use Cases** for each of the goals that each actor seeks to achieve with the system.  
   
-    -   Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
+    - Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
   
 - Use **Associations** to link actors to use cases.  
   
@@ -140,13 +140,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 2. Set the **Image Path** property to the location of an image file.  
   
-    -   You can use any of several image formats, including .gif, .jpg, and .bmp.  
+    - You can use any of several image formats, including .gif, .jpg, and .bmp.  
   
-    -   Use a file that is included in the solution or project source control so that it is still available when the solution is moved or copied.  
+    - Use a file that is included in the solution or project source control so that it is still available when the solution is moved or copied.  
   
 3. To replicate this appearance in other use case diagrams, copy the actor and paste it into another diagram.  
   
-    -   The change of image applies only to the view in a particular diagram. It does not apply to the underlying model element. If you drag the actor from UML Model Explorer onto another diagram, it will appear as the standard stick figure.  
+    - The change of image applies only to the view in a particular diagram. It does not apply to the underlying model element. If you drag the actor from UML Model Explorer onto another diagram, it will appear as the standard stick figure.  
   
 ### Multiplicities between Actors and Use Cases  
  The association between an actor and a use case can show a *multiplicity* at each end.  
@@ -224,9 +224,9 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Link the use case to another diagram or diagrams in the project.  
   
-  -   An activity diagram helps you explain a more complex process where there are loops, branches and parallel threads. It can also show the flow of data between parts of the process. For more information, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
+  - An activity diagram helps you explain a more complex process where there are loops, branches and parallel threads. It can also show the flow of data between parts of the process. For more information, see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
   
-  -   A sequence diagram helps you explain a complex series of interactions between different actors. You can also use it to show what happens inside the system in response to each use case. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
+  - A sequence diagram helps you explain a complex series of interactions between different actors. You can also use it to show what happens inside the system in response to each use case. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
 - Link the use case to a OneNote page, section, or paragraph that describes the use case in detail.  
   

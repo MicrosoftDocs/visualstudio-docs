@@ -21,9 +21,9 @@ The following checklist summarizes the basic steps you must take in order to cre
   
 1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
-    -   In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
+    - In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
   
-    -   Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.  
+    - Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.  
   
 2. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
   
@@ -115,7 +115,7 @@ The following checklist summarizes the basic steps you must take in order to cre
   
    Provide context to the editor in one of the following ways:  
   
-  -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
+  - Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
   
   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
   

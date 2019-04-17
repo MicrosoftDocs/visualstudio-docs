@@ -131,13 +131,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a linker option.
 
-    -   **Default** - *\<none>*
+    - **Default** - *\<none>*
 
-    -   **ForceIJWImage** - **/CLRIMAGETYPE:IJW**
+    - **ForceIJWImage** - **/CLRIMAGETYPE:IJW**
 
-    -   **ForcePureILImage** - **/CLRIMAGETYPE:PURE**
+    - **ForcePureILImage** - **/CLRIMAGETYPE:PURE**
 
-    -   **ForceSafeILImage** - **/CLRIMAGETYPE:SAFE**
+    - **ForceSafeILImage** - **/CLRIMAGETYPE:SAFE**
 
     For more information, see [/CLRIMAGETYPE (Specify type of CLR image)](/cpp/build/reference/clrimagetype-specify-type-of-clr-image).
 
@@ -149,11 +149,11 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a linker option.
 
-    -   **Enabled** - **/CLRSupportLastError**
+    - **Enabled** - **/CLRSupportLastError**
 
-    -   **Disabled** - **/CLRSupportLastError:NO**
+    - **Disabled** - **/CLRSupportLastError:NO**
 
-    -   **SystemDlls** - **/CLRSupportLastError:SYSTEMDLL**
+    - **SystemDlls** - **/CLRSupportLastError:SYSTEMDLL**
 
     For more information, see [/CLRSUPPORTLASTERROR (Preserve last error code for PInvoke calls)](/cpp/build/reference/clrsupportlasterror-preserve-last-error-code-for-pinvoke-calls).
 
@@ -165,11 +165,11 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a linker option.
 
-    -   **DefaultThreadingAttribute** - **/CLRTHREADATTRIBUTE:NONE**
+    - **DefaultThreadingAttribute** - **/CLRTHREADATTRIBUTE:NONE**
 
-    -   **MTAThreadingAttribute** - **/CLRTHREADATTRIBUTE:MTA**
+    - **MTAThreadingAttribute** - **/CLRTHREADATTRIBUTE:MTA**
 
-    -   **STAThreadingAttribute** - **/CLRTHREADATTRIBUTE:STA**
+    - **STAThreadingAttribute** - **/CLRTHREADATTRIBUTE:STA**
 
     For more information, see [/CLRTHREADATTRIBUTE (Set CLR thread attribute)](/cpp/build/reference/clrthreadattribute-set-clr-thread-attribute).
 
@@ -189,13 +189,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, which corresponds to a linker option.
 
-    -   **Enabled** - **/FUNCTIONPADMIN**
+    - **Enabled** - **/FUNCTIONPADMIN**
 
-    -   **X86Image** - **/FUNCTIONPADMIN:5**
+    - **X86Image** - **/FUNCTIONPADMIN:5**
 
-    -   **X64Image** - **/FUNCTIONPADMIN:6**
+    - **X64Image** - **/FUNCTIONPADMIN:6**
 
-    -   **ItaniumImage** - **/FUNCTIONPADMIN:16**
+    - **ItaniumImage** - **/FUNCTIONPADMIN:16**
 
     For more information, see [/FUNCTIONPADMIN (Create hotpatchable image)](/cpp/build/reference/functionpadmin-create-hotpatchable-image).
 
@@ -231,13 +231,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a linker option.
 
-    -   **NotSet** - *\<none>*
+    - **NotSet** - *\<none>*
 
-    -   **Driver** - **/Driver**
+    - **Driver** - **/Driver**
 
-    -   **UpOnly** - **/DRIVER:UPONLY**
+    - **UpOnly** - **/DRIVER:UPONLY**
 
-    -   **WDM** - **/DRIVER:WDM**
+    - **WDM** - **/DRIVER:WDM**
 
     For more information, see [/DRIVER (Windows NT kernel mode driver)](/cpp/build/reference/driver-windows-nt-kernel-mode-driver).
 
@@ -289,11 +289,11 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **Enabled** - **/FORCE**
+    - **Enabled** - **/FORCE**
 
-    -   **MultiplyDefinedSymbolOnly** - **/FORCE:MULTIPLE**
+    - **MultiplyDefinedSymbolOnly** - **/FORCE:MULTIPLE**
 
-    -   **UndefinedSymbolOnly** - **/FORCE:UNRESOLVED**
+    - **UndefinedSymbolOnly** - **/FORCE:UNRESOLVED**
 
     For more information, see [/FORCE (Force file output)](/cpp/build/reference/force-force-file-output).
 
@@ -439,13 +439,13 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **NoErrorReport** - **/ERRORREPORT:NONE**
+    - **NoErrorReport** - **/ERRORREPORT:NONE**
 
-    -   **PromptImmediately** - **/ERRORREPORT:PROMPT**
+    - **PromptImmediately** - **/ERRORREPORT:PROMPT**
 
-    -   **QueueForNextLogin** - **/ERRORREPORT:QUEUE**
+    - **QueueForNextLogin** - **/ERRORREPORT:QUEUE**
 
-    -   **SendErrorReport** - **/ERRORREPORT:SEND**
+    - **SendErrorReport** - **/ERRORREPORT:SEND**
 
     For more information, see [/ERRORREPORT (Report internal linker errors)](/cpp/build/reference/errorreport-report-internal-linker-errors).
 
@@ -481,15 +481,15 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **Default** - *\<none>*
+    - **Default** - *\<none>*
 
-    -   **UseLinkTimeCodeGeneration** - **/LTCG**
+    - **UseLinkTimeCodeGeneration** - **/LTCG**
 
-    -   **PGInstrument** - **/LTCG:PGInstrument**
+    - **PGInstrument** - **/LTCG:PGInstrument**
 
-    -   **PGOptimization** - **/LTCG:PGOptimize**
+    - **PGOptimization** - **/LTCG:PGOptimize**
 
-    -   **PGUpdate**
+    - **PGUpdate**
 
          \- **/LTCG:PGUpdate**
 
@@ -675,19 +675,19 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **NotSet** - *\<none>*
+    - **NotSet** - *\<none>*
 
-    -   **LinkVerbose** - **/VERBOSE**
+    - **LinkVerbose** - **/VERBOSE**
 
-    -   **LinkVerboseLib** - **/VERBOSE:Lib**
+    - **LinkVerboseLib** - **/VERBOSE:Lib**
 
-    -   **LinkVerboseICF** - **/VERBOSE:ICF**
+    - **LinkVerboseICF** - **/VERBOSE:ICF**
 
-    -   **LinkVerboseREF** - **/VERBOSE:REF**
+    - **LinkVerboseREF** - **/VERBOSE:REF**
 
-    -   **LinkVerboseSAFESEH** - **/VERBOSE:SAFESEH**
+    - **LinkVerboseSAFESEH** - **/VERBOSE:SAFESEH**
 
-    -   **LinkVerboseCLR** - **/VERBOSE:CLR**
+    - **LinkVerboseCLR** - **/VERBOSE:CLR**
 
     For more information, see [/VERBOSE (Print progress messages)](/cpp/build/reference/verbose-print-progress-messages).
 
@@ -737,25 +737,25 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **NotSet** - *\<none>*
+    - **NotSet** - *\<none>*
 
-    -   **Console** - **/SUBSYSTEM:CONSOLE**
+    - **Console** - **/SUBSYSTEM:CONSOLE**
 
-    -   **Windows** - **/SUBSYSTEM:WINDOWS**
+    - **Windows** - **/SUBSYSTEM:WINDOWS**
 
-    -   **Native** - **/SUBSYSTEM:NATIVE**
+    - **Native** - **/SUBSYSTEM:NATIVE**
 
-    -   **EFI Application** - **/SUBSYSTEM:EFI_APPLICATION**
+    - **EFI Application** - **/SUBSYSTEM:EFI_APPLICATION**
 
-    -   **EFI Boot Service Driver** - **/SUBSYSTEM:EFI_BOOT_SERVICE_DRIVER**
+    - **EFI Boot Service Driver** - **/SUBSYSTEM:EFI_BOOT_SERVICE_DRIVER**
 
-    -   **EFI ROM** - **/SUBSYSTEM:EFI_ROM**
+    - **EFI ROM** - **/SUBSYSTEM:EFI_ROM**
 
-    -   **EFI Runtime** - **/SUBSYSTEM:EFI_RUNTIME_DRIVER**
+    - **EFI Runtime** - **/SUBSYSTEM:EFI_RUNTIME_DRIVER**
 
-    -   **WindowsCE** - **/SUBSYSTEM:WINDOWSCE**
+    - **WindowsCE** - **/SUBSYSTEM:WINDOWSCE**
 
-    -   **POSIX** - **/SUBSYSTEM:POSIX**
+    - **POSIX** - **/SUBSYSTEM:POSIX**
 
     For more information, see [/SUBSYSTEM (Specify subsystem)](/cpp/build/reference/subsystem-specify-subsystem).
 
@@ -807,29 +807,29 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **NotSet** - *\<none>*
+    - **NotSet** - *\<none>*
 
-    -   **MachineARM** - **/MACHINE:ARM**
+    - **MachineARM** - **/MACHINE:ARM**
 
-    -   **MachineEBC** - **/MACHINE:EBC**
+    - **MachineEBC** - **/MACHINE:EBC**
 
-    -   **MachineIA64** - **/MACHINE:IA64**
+    - **MachineIA64** - **/MACHINE:IA64**
 
-    -   **MachineMIPS** - **/MACHINE:MIPS**
+    - **MachineMIPS** - **/MACHINE:MIPS**
 
-    -   **MachineMIPS16** - **/MACHINE:MIPS16**
+    - **MachineMIPS16** - **/MACHINE:MIPS16**
 
-    -   **MachineMIPSFPU** - **/MACHINE:MIPSFPU**
+    - **MachineMIPSFPU** - **/MACHINE:MIPSFPU**
 
-    -   **MachineMIPSFPU16** - **/MACHINE:MIPSFPU16**
+    - **MachineMIPSFPU16** - **/MACHINE:MIPSFPU16**
 
-    -   **MachineSH4** - **/MACHINE:SH4**
+    - **MachineSH4** - **/MACHINE:SH4**
 
-    -   **MachineTHUMB** - **/MACHINE:THUMB**
+    - **MachineTHUMB** - **/MACHINE:THUMB**
 
-    -   **MachineX64** - **/MACHINE:X64**
+    - **MachineX64** - **/MACHINE:X64**
 
-    -   **MachineX86** - **/MACHINE:X86**
+    - **MachineX86** - **/MACHINE:X86**
 
     For more information, see [/MACHINE (Specify target platform)](/cpp/build/reference/machine-specify-target-platform).
 
@@ -887,11 +887,11 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
      Specify one of the following values, each of which corresponds to a command-line option.
 
-    -   **AsInvoker** - `level='asInvoker'`
+    - **AsInvoker** - `level='asInvoker'`
 
-    -   **HighestAvailable** - `level='highestAvailable'`
+    - **HighestAvailable** - `level='highestAvailable'`
 
-    -   **RequireAdministrator** - `level='requireAdministrator'`
+    - **RequireAdministrator** - `level='requireAdministrator'`
 
     For more information, see the `level` argument of [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 

@@ -95,7 +95,7 @@ Hierarchical update* refers to the process of saving updated data (from a datase
   
 1. Create an event handler for the `OrdersBindingSource.AddingNew` event.  
   
-    -   Open **Form1** in design view, select **OrdersBindingSource** in the component tray, select **Events** in the **Properties** window, and then double-click the **AddingNew** event.  
+    - Open **Form1** in design view, select **OrdersBindingSource** in the component tray, select **Events** in the **Properties** window, and then double-click the **AddingNew** event.  
   
 2. Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:  
   

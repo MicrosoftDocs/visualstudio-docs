@@ -123,9 +123,9 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 1. Open a class diagram on which the package appears.  
   
-    -   Create a new package, if you have not already done this.  
+    - Create a new package, if you have not already done this.  
   
-    -   To make an existing package appear on a class diagram, you can drag the package from **UML Model Explorer** onto the class diagram.  
+    - To make an existing package appear on a class diagram, you can drag the package from **UML Model Explorer** onto the class diagram.  
   
 2. Click the tool for a class, interface, or enumeration, or package.  
   
@@ -145,9 +145,9 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 5. Create new elements in the diagram. These will be placed into the package.  
   
-    -   The **Qualified Name** of each element will begin with the package's qualified name.  
+    - The **Qualified Name** of each element will begin with the package's qualified name.  
   
-    -   In **UML Model Explorer**, each element will appear under the package.  
+    - In **UML Model Explorer**, each element will appear under the package.  
   
 ##  <a name="Moving"></a> Moving Elements into and out of Packages  
  You can move one or more elements in or out of a package.  

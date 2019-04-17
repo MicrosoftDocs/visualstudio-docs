@@ -47,13 +47,13 @@ This topic describes how to isolate performance problems in your apps using the 
   
      The following options are available for the analysis target:  
   
-    -   **Startup Project**. Choose this option to analyze the current startup project. If you're running the app on a remote machine or device, you must use this setting, which is the default value.  
+    - **Startup Project**. Choose this option to analyze the current startup project. If you're running the app on a remote machine or device, you must use this setting, which is the default value.  
   
-    -   **Running App**. Choose this option to select a Windows Store app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.  
+    - **Running App**. Choose this option to select a Windows Store app from a list of running apps. You can't use this option when you're running the app on a remote machine or device.  
   
          You can use this option to analyze performance of apps that are running on your computer when you don't have access to source code.  
   
-    -   **Installed App**. Choose this option to select an installed app that you want to analyze. You can't use this option when you're running the app on a remote machine or device.  
+    - **Installed App**. Choose this option to select an installed app that you want to analyze. You can't use this option when you're running the app on a remote machine or device.  
   
          You can use this option to analyze the performance of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the performance of any app outside your own app development.  
   
@@ -98,11 +98,11 @@ This topic describes how to isolate performance problems in your apps using the 
   
 9. Identify an area of interest in the timeline and the profiler graphs by using user marks, app lifecycle events, or data visible in the graphs. Here are some guidelines to help you analyze and use the data in the graphs:  
   
-    -   Use the [View the diagnostic session timeline](#Ruler) to view [Mark code for analysis](#ProfileMark), app lifecycle events, and the associated timeline for these events and the timeline for data in the other graphs.  
+    - Use the [View the diagnostic session timeline](#Ruler) to view [Mark code for analysis](#ProfileMark), app lifecycle events, and the associated timeline for these events and the timeline for data in the other graphs.  
   
-    -   Use the [CPU utilization graph](#CPUUtilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.  
+    - Use the [CPU utilization graph](#CPUUtilization) to view general information about CPU activity and the type of work it is handling during a specific period of time. Periods of excessive CPU activity are more likely to result in responsiveness issues and dropped frames.  
   
-    -   If you're developing a game or rich media app, use the [View visual throughput (FPS)](#VisualThroughput) to identify periods of time in which the frame rate dropped.  
+    - If you're developing a game or rich media app, use the [View visual throughput (FPS)](#VisualThroughput) to identify periods of time in which the frame rate dropped.  
   
 10. Select the area of interest in one of the graphs by clicking a part of the graph and dragging the pointer to make a selection (or by using the Tab key and arrow keys). When you select a time period by making a selection, the timeline details graph in the profiler's lower pane changes to show only the selected time period.  
   
@@ -112,13 +112,13 @@ This topic describes how to isolate performance problems in your apps using the 
   
 11. Use the [View timeline details](#TimelineDetails) to get detailed information about events that are either running too frequently or taking too much time to complete. For example, look for the following:  
   
-    -   Event listeners, timers, and animation frame callbacks. Depending on the specific event, data provided may include the ID of modified DOM elements, the name of modified CSS properties, a link to the source location, and the name of the associated event or callback function.  
+    - Event listeners, timers, and animation frame callbacks. Depending on the specific event, data provided may include the ID of modified DOM elements, the name of modified CSS properties, a link to the source location, and the name of the associated event or callback function.  
   
-    -   Layout or scripting events that resulted in rendering elements, such as calls to `window.getComputedStyles`. The associated DOM element for the event is provided.  
+    - Layout or scripting events that resulted in rendering elements, such as calls to `window.getComputedStyles`. The associated DOM element for the event is provided.  
   
-    -   Pages or URL resources that are loaded by the app, such as script evaluations for HTML parsing events. The file name or resource is provided.  
+    - Pages or URL resources that are loaded by the app, such as script evaluations for HTML parsing events. The file name or resource is provided.  
   
-    -   Other events specified in [Profiler event reference](#ProfilerEvents).  
+    - Other events specified in [Profiler event reference](#ProfilerEvents).  
   
     > [!TIP]
     >  Most of the usable information in the profiler appears in the timeline details graph.  
@@ -253,9 +253,9 @@ if (performance.mark && performance.measure) {
   
 - View approximate start times, duration, and end times for an event in a timeline and grid view. The timeline details graph can show periods ranging from 30 milliseconds to 30 seconds in the grid view, depending on the zoom state. For duration values:  
   
-    -   Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.  
+    - Inclusive times represent the duration of the event, including the event children. In the grid view, this value appears first.  
   
-    -   Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.  
+    - Exclusive times represent the duration of the event, not including the event children. In the grid view, this value appears in parentheses.  
   
 - Expand an event in the hierarchy to view children of the event. The event children are other events that are raised by the parent event. For example, a DOM event might have event listeners that appear as children. An event listener might have other events that result from it, like a layout event.  
   
@@ -263,9 +263,9 @@ if (performance.mark && performance.measure) {
   
 - View details for each event in the details pane (right pane). The properties vary depending on the particular event, as these examples show:  
   
-    -   For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.  
+    - For timers, event listeners (DOM events), and animation frame callbacks,  the **Callback function** property provides a link to the source code location along with the name of the event handler or callback function.  
   
-    -   For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.  
+    - For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.  
   
     > [!TIP]
     >  The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.  

@@ -75,13 +75,13 @@ NOTE]
 
 - Use the **TableAdapter Configuration Wizard** to specify the query or stored procedure that will populate the dataset, and what database operations (update, delete, and so on) to implement. For more information, see these topics:
 
-    -   [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
+    - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 
-    -   [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
+    - [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
 
-    -   [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
+    - [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
 
-    -   [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+    - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 
 - Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../includes/linq-dataset-md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17).
 

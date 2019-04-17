@@ -33,9 +33,9 @@ You can play back graphics information by using your local machine, or by using 
 
 3. Specify the kind of authorization that you want to use to secure the connection to the playback machine.
 
-    -   For Windows Authentication, set the **Authentication Mode** property to **Windows**.
+    - For Windows Authentication, set the **Authentication Mode** property to **Windows**.
 
-    -   For no authentication, set the **Authentication Mode** property to **None**.
+    - For no authentication, set the **Authentication Mode** property to **None**.
 
 4. Choose the **Select** button.
 

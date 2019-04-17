@@ -195,25 +195,25 @@ using (Transaction t =
 
 - Set the property of the source role player. For example:
 
-  -   `familyTree.People.Add(edward);`
+  - `familyTree.People.Add(edward);`
 
-  -   `edward.Parents.Add(henry);`
+  - `edward.Parents.Add(henry);`
 
 - Set the property of the target role player. For example:
 
-  -   `edward.familyTreeModel = familyTree;`
+  - `edward.familyTreeModel = familyTree;`
 
        The multiplicity of this role is `1..1`, so we assign the value.
 
-  -   `henry.Children.Add(edward);`
+  - `henry.Children.Add(edward);`
 
        The multiplicity of this role is `0..*`, so we add to the collection.
 
 - Construct an instance of the relationship explicitly. For example:
 
-  -   `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`
+  - `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`
 
-  -   `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`
+  - `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`
 
   The last method is useful if you want to set properties on the relationship itself.
 

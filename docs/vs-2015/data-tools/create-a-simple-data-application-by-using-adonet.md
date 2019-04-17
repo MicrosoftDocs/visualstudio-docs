@@ -63,11 +63,11 @@ When you create an application that manipulates data in a database, you perform 
   
 2. Add two Windows forms to your project so that it has three forms, and then give them the following names:  
   
-   -   Navigation  
+   - Navigation  
   
-   -   NewCustomer  
+   - NewCustomer  
   
-   -   FillOrCancel  
+   - FillOrCancel  
   
 3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.  
   

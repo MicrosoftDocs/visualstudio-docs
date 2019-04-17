@@ -85,7 +85,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 2. Add your profile to the project.  
   
-   -   In Solution Explorer, right-click the project, point to **Add**, and then click **Existing Item**. In the dialog box, locate your profile file.  
+   - In Solution Explorer, right-click the project, point to **Add**, and then click **Existing Item**. In the dialog box, locate your profile file.  
   
 3. Set the profile file's **Copy to Output** property.  
   
@@ -99,13 +99,13 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 5. On the **Assets** page, add a row describing the profile:  
   
-   -   Click **New**. Set the fields in the **Add New Asset** dialog as follows.  
+   - Click **New**. Set the fields in the **Add New Asset** dialog as follows.  
   
-   -   Set **Type** to `Microsoft.VisualStudio.UmlProfile`  
+   - Set **Type** to `Microsoft.VisualStudio.UmlProfile`  
   
         This is not one of the drop-down choices. Enter this name from the keyboard.  
   
-   -   Click **File on filesystem** and select the name of your profile file, for example `MyProfile.profile`  
+   - Click **File on filesystem** and select the name of your profile file, for example `MyProfile.profile`  
   
 6. Build the project.  
   
@@ -129,11 +129,11 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 1. Create a Windows directory that contains the following three files:  
   
-    -   *YourProfile* `.profile`  
+    - *YourProfile* `.profile`  
   
-    -   `extension.vsixmanifest`  
+    - `extension.vsixmanifest`  
   
-    -   `[Content_Types].xml` - type this name as shown here, with the square brackets  
+    - `[Content_Types].xml` - type this name as shown here, with the square brackets  
   
 2. Edit `[Content_Types].xml` to contain the following text. Notice that it contains an entry for each file name extension.  
   
@@ -147,11 +147,11 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 3. Copy an existing `extension.vsixmanifest` and edit it with an XML editor. Alter the ID, Name, and Content nodes.  
   
-    -   You can find an example of `extension.vsixmanifest` in this directory:  
+    - You can find an example of `extension.vsixmanifest` in this directory:  
   
          *drive* **:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles**  
   
-    -   The Content node should be like this:  
+    - The Content node should be like this:  
   
         ```  
         <Content>  
@@ -345,16 +345,16 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 4. Uninstall the faulty extension. On the **Tools** menu, click **Extensions and Updates**.  
   
-   -   If the extension does not appear, see the next item.  
+   - If the extension does not appear, see the next item.  
   
 5. Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
    The extension does not appear in Extension Manager, but when you try to re-install it, the following message appears: **The extension is already installed to all applicable products.**  
    1.  Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
   
-   -   To see *LocalAppData*, you must set Show Hidden Files and Folders in the View tab of the Windows Explorer Folder Options.  
+   - To see *LocalAppData*, you must set Show Hidden Files and Folders in the View tab of the Windows Explorer Folder Options.  
   
-   -   *LocalAppData* is typically in C:\Users\\*userName*\AppData\Local\  
+   - *LocalAppData* is typically in C:\Users\\*userName*\AppData\Local\  
   
 6. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   

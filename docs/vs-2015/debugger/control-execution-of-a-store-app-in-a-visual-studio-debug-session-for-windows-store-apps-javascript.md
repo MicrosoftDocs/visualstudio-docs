@@ -57,9 +57,9 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
     Note the script files that are loaded into the page.
 
-   -   The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create Windows Store apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.
+   - The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create Windows Store apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.
 
-   -   Your code starts in the `default.js`  file.
+   - Your code starts in the `default.js`  file.
 
 2. **Open the default.js source file.** In Solution Explorer, open the **js** node and choose `default.js`.
 
@@ -221,9 +221,9 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
      ![Prototype chain in the Locals Window](../debugger/media/dbg-jsnav-locals-proto-chain.png "DBG_JSNAV_Locals_proto_chain")
 
-    -   The **Methods** node lists all the methods of the `Array` object.
+    - The **Methods** node lists all the methods of the `Array` object.
 
-    -   The **[prototype]** node contains the prototype of the `Object` object from which `Array` is derived. **[prototype]** nodes can be recursive. Each parent object in an object hierarchy is described in the **[prototype]** node of its child.
+    - The **[prototype]** node contains the prototype of the `Object` object from which `Array` is derived. **[prototype]** nodes can be recursive. Each parent object in an object hierarchy is described in the **[prototype]** node of its child.
 
 7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: Shift+F5). This ends your debug session.
 
@@ -282,9 +282,9 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 
 3. **Open the Call Stack window.** On the **Debug** menu, choose **Windows**, and then choose **Call Stack** (Keyboard: Alt+7). Note that the Call Stack window shows two functions:
 
-    -   **Global code** is the entry point of the `module` function at the bottom of the call stack.
+    - **Global code** is the entry point of the `module` function at the bottom of the call stack.
 
-    -   **Anonymous function** shows the line in the `module` function where execution is suspended. This is the top of the call stack.
+    - **Anonymous function** shows the line in the `module` function where execution is suspended. This is the top of the call stack.
 
 4. **Step into functions to reach the example5_d function.** Choose **Step Into** on the **Debug** menu (Keyboard: **F11**) to execute the calls in the call path until you reach the entry point of the example5_d function. Note that each time that a function calls a function, the line number of the calling function is saved and the called function is placed at the top of the stack. The line number of the calling function is the point at which the calling function has suspended execution. A yellow arrow points to the currently executing function.
 

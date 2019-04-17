@@ -44,9 +44,9 @@ Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or clas
 
      Specify one of the following values, each of which corresponds to an XSD option.
 
-    -   **classes** - **/classes**
+    - **classes** - **/classes**
 
-    -   **dataset** - **/dataset**
+    - **dataset** - **/dataset**
 
 - **Language**
 

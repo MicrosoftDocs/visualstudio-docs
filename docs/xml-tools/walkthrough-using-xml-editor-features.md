@@ -44,13 +44,13 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
      The members list displays the possible items:
 
-    -   **!--** to add a comment.
+    - **!--** to add a comment.
 
-    -   **!DOCTYPE** to add a document type.
+    - **!DOCTYPE** to add a document type.
 
-    -   **?** to add a processing instruction.
+    - **?** to add a processing instruction.
 
-    -   **employee** to add the root element.
+    - **employee** to add the root element.
 
 2. Select **<!--** to add a comment node and press **Enter**.
 

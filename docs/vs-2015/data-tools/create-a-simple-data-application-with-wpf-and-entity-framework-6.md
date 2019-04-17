@@ -64,11 +64,11 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 6. The .tt files are general-purpose and we need to tweak one of them to work with WPF databinding, which requires ObservableCollections.  In Solution Explorer, expand the Northwind_model node until you find Northwind_model.tt. (Make sure you are **not** in the *.Context .tt file which is directly below the .edmx file).  
   
-   -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
+   - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
   
-   -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
+   - Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
   
-   -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
+   - Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
   
 7. Press **Ctrl + Shift + B** to build the project. When the build finishes,  the model classes are visible to the data sources wizard.  
   

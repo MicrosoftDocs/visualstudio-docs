@@ -60,9 +60,9 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
 4. Click the collection method that you prefer.  
   
-    -   For information about the other options that are available when you are collecting sampling data, see [Collecting Performance Statistics by Using Sampling](../profiling/collecting-performance-statistics-by-using-sampling.md)  
+    - For information about the other options that are available when you are collecting sampling data, see [Collecting Performance Statistics by Using Sampling](../profiling/collecting-performance-statistics-by-using-sampling.md)  
   
-    -   For information about the other options that are available when you are collecting sampling data, see [Collecting Detailed Timing Data by Using Instrumentation](../profiling/collecting-detailed-timing-data-by-using-instrumentation.md).  
+    - For information about the other options that are available when you are collecting sampling data, see [Collecting Detailed Timing Data by Using Instrumentation](../profiling/collecting-detailed-timing-data-by-using-instrumentation.md).  
   
 #### To select .NET memory data collection by using performance session properties  
   

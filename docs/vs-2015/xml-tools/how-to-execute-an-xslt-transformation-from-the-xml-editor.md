@@ -25,11 +25,11 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
   
 2. Associate an XSLT style sheet with the XML document.  
   
-    -   Add an `xml-stylesheet` processing instruction to the XML document. For example, add the following line `<?xml-stylesheet type='text/xsl' href='filename.xsl'?>` to the document prolog.  
+    - Add an `xml-stylesheet` processing instruction to the XML document. For example, add the following line `<?xml-stylesheet type='text/xsl' href='filename.xsl'?>` to the document prolog.  
   
          -or-  
   
-    -   Add the XSLT style sheet using the **Properties** window. In the document **Properties Window**, click the **Browse** button for the **Stylesheet** field, select the XSLT style sheet, and click **Open**.  
+    - Add the XSLT style sheet using the **Properties** window. In the document **Properties Window**, click the **Browse** button for the **Stylesheet** field, select the XSLT style sheet, and click **Open**.  
   
 3. Click the **ShowXSL Output** button on the **XML Editor** toolbar.  
   

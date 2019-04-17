@@ -116,13 +116,13 @@ Use the method in this topic if:
 
 6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:
 
-    -   `grpidMyMenuGroup`
+    - `grpidMyMenuGroup`
 
-    -   `cmdidMyContextMenuCommand`
+    - `cmdidMyContextMenuCommand`
 
-    -   `guidCustomMenuCmdSet`
+    - `guidCustomMenuCmdSet`
 
-    -   `My Context Menu Command`
+    - `My Context Menu Command`
 
 ##  <a name="version"></a> Update the Package Version in Package.tt
  Whenever you add or change a command, update the `version` parameter of the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> that is applied to the package class before you release the new version of your domain-specific language.

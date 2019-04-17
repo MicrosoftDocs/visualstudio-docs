@@ -46,15 +46,15 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
      Place the VSIX file in one of the following locations:  
   
-    -   To install for all users and services:  
+    - To install for all users and services:  
   
          %ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft  
   
-    -   To install only for the network service that runs [!INCLUDE[esprbuild](../includes/esprbuild-md.md)]:  
+    - To install only for the network service that runs [!INCLUDE[esprbuild](../includes/esprbuild-md.md)]:  
   
          %WinDir%\ServiceProfiles\NetworkService\AppData\Local\Microsoft\VisualStudio\\[version]\Extensions\Microsoft  
   
-    -   If you have configured [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] to run in interactive mode as a particular user, you can install just for that user:  
+    - If you have configured [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] to run in interactive mode as a particular user, you can install just for that user:  
   
          %LocalAppData%\Microsoft\VisualStudio\\[version]\Extensions\Microsoft  
   

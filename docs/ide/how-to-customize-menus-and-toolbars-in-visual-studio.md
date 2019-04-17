@@ -43,13 +43,13 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 2. On the **Commands** tab, leave the **Menu bar** option button selected, leave **Menu Bar** selected in the list next to that option, and then perform one of the following sets of steps:
 
-    -   To add a menu, choose the **Add New Menu** button, choose the **Modify Selection** button, and then name the menu that you want to add.
+    - To add a menu, choose the **Add New Menu** button, choose the **Modify Selection** button, and then name the menu that you want to add.
 
         ![Customize dialog box showing how to add a menu](../ide/media/addmenu.png)
 
-    -   To remove a menu, choose it in the **Controls** list, and then choose the **Delete** button.
+    - To remove a menu, choose it in the **Controls** list, and then choose the **Delete** button.
 
-    -   To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
+    - To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
 
 ## Add, remove, or move a toolbar
 
@@ -59,16 +59,16 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 2. On the **Toolbar** tab, perform one of the following sets of steps:
 
-    -   To add a toolbar, choose the **New** button, specify a name for the toolbar that you want to add, and then choose the **OK** button.
+    - To add a toolbar, choose the **New** button, specify a name for the toolbar that you want to add, and then choose the **OK** button.
 
         ![Customize dialog box showing how to add a toolbar](../ide/media/addtoolbar.png)
 
-    -   To remove a custom toolbar, choose it in the **Toolbars** list, and then choose the **Delete** button.
+    - To remove a custom toolbar, choose it in the **Toolbars** list, and then choose the **Delete** button.
 
         > [!IMPORTANT]
         > You can delete toolbars that you create but not default toolbars.
 
-    -   To move a toolbar to a different docking location, choose it in the **Toolbars** list, choose the **Modify Selection** button, and then choose a location in the list that appears.
+    - To move a toolbar to a different docking location, choose it in the **Toolbars** list, choose the **Modify Selection** button, and then choose a location in the list that appears.
 
         You can also drag a toolbar by its left edge to move it anywhere in the main docking area.
 
@@ -85,17 +85,17 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 3. In the list for that type of element, choose the menu or toolbar that you want to customize, and then perform one of the following sets of steps:
 
-    -   To add a command, choose the **Add Command** button.
+    - To add a command, choose the **Add Command** button.
 
         In the **Add Command** dialog box, choose an item in the **Categories** list, choose an item in the **Commands** list, and then choose the **OK** button.
 
         ![Add Command dialog box in Visual Studio](../ide/media/addcommand.png)
 
-    -   To delete a command, choose it in the **Controls** list, and then choose the **Delete** button.
+    - To delete a command, choose it in the **Controls** list, and then choose the **Delete** button.
 
-    -   To reorder commands, choose a command in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
+    - To reorder commands, choose a command in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
 
-    -   To group commands under a horizontal line, choose the first command in the **Controls** list, choose the **Modify Selection** button, and then choose **Begin a Group** in the menu that appears.
+    - To group commands under a horizontal line, choose the first command in the **Controls** list, choose the **Modify Selection** button, and then choose **Begin a Group** in the menu that appears.
 
 ## Reset a menu or a toolbar
 

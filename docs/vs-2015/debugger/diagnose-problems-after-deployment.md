@@ -87,15 +87,15 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 3. Add these MSBuild arguments to your build definition:  
   
-   -   **/p:VisualStudioVersion=12.0**  
+   - **/p:VisualStudioVersion=12.0**  
   
-   -   **/p:MSBuildAssemblyVersion=12.0**  
+   - **/p:MSBuildAssemblyVersion=12.0**  
   
-   -   **/tv:12.0**  
+   - **/tv:12.0**  
   
-   -   **/p:IncludeServerNameInBuildInfo=True**  
+   - **/p:IncludeServerNameInBuildInfo=True**  
   
-   -   **/p:BuildSymbolStorePath=**\<*path to symbols*>  
+   - **/p:BuildSymbolStorePath=**\<*path to symbols*>  
   
 4. Run a new build.  
   

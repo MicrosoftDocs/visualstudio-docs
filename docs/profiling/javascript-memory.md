@@ -53,13 +53,13 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
      The following options are available for the analysis target:
 
-    -   **Startup Project**. Analyzes the current startup project. If you're running the app on a remote machine, you must choose this option, which is the default.
+    - **Startup Project**. Analyzes the current startup project. If you're running the app on a remote machine, you must choose this option, which is the default.
 
-    -   **Running App**. Lets you select a UWP app from a list of running apps. You can't use this option when you're running your app on a remote machine.
+    - **Running App**. Lets you select a UWP app from a list of running apps. You can't use this option when you're running your app on a remote machine.
 
          Use this option to analyze memory usage of apps that are running on your computer when you don't have access to source code.
 
-    -   **Installed App**. Lets you select an installed UWP app that you want to analyze. You can't use this option when you're running your app on a remote machine.
+    - **Installed App**. Lets you select an installed UWP app that you want to analyze. You can't use this option when you're running your app on a remote machine.
 
          Use this option to analyze the memory usage of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the memory usage of any app outside your own app development.
 
@@ -141,9 +141,9 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
 12. Choose one of the following **Scope** filter options to help identify memory usage issues:
 
-    -   **Objects left over from Snapshot #2**.
+    - **Objects left over from Snapshot #2**.
 
-    -   **Objects added between Snapshot #2 and #3**
+    - **Objects added between Snapshot #2 and #3**
 
     > [!TIP]
     >  Use the filtered view of objects left over from the previous snapshot to investigate memory leaks. For example, if the differential object count is +205 / -195, this view will show the 10 objects left over, and these are likely candidates for memory leaks.
@@ -349,11 +349,11 @@ if (performance && performance.mark) {
 
 - Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:
 
-    -   The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.
+    - The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.
 
-    -   Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.
+    - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.
 
-    -   You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
+    - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
 
 - Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
 
@@ -361,8 +361,8 @@ if (performance && performance.mark) {
 
 - Consider temporarily modifying code to isolate problems. For example, you might want to:
 
-    -   Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)
+    - Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)
 
          You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.
 
-    -   Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.
+    - Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.

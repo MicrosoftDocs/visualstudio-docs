@@ -171,13 +171,13 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      The shortcut menu of the **Parallel Stacks** window also has the following other items.
 
-    -   **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.
+    - **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.
 
-    -   **Symbol Settings** open the respective dialog boxes.
+    - **Symbol Settings** open the respective dialog boxes.
 
-    -   **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
+    - **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
 
-    -   **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).
+    - **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).
 
 2. In the **Parallel Stacks** window, make sure that the **Auto Scroll to Current Stack Frame** button on the toolbar is on.
 

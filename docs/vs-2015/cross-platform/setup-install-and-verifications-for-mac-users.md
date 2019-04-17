@@ -20,9 +20,9 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 - One of the following configurations:  
   
-  -   **For running Xamarin Studio directly on the Mac:** Xamarin Studio is Xamarin’s development environment that supports building Android, iOS, and Windows apps using C#.  To get a quick overview of Xamarin Studio, refer to the [Xamarin Studio overview](https://xamarin.com/studio) (xamarin.com).  
+  - **For running Xamarin Studio directly on the Mac:** Xamarin Studio is Xamarin’s development environment that supports building Android, iOS, and Windows apps using C#.  To get a quick overview of Xamarin Studio, refer to the [Xamarin Studio overview](https://xamarin.com/studio) (xamarin.com).  
   
-  -   **If you already have Parallels or VMWare configured on your Mac:** run Windows with Visual Studio 2015 and Xamarin 4 inside Parallels or VMWare.  With this configuration, Xamarin is an extension that's installed with Visual Studio that provides the ability to use Visual Studio as your development environment for building Android, iOS, and WinPhone apps using C#.  Note that you can obtain a free 3-month Parallels subscription as part of the Visual Studio Developer Essentials Program. See [Microsoft Visual Studio Dev Essentials Will Include Parallels Desktop Pro and Parallels Access](http://blog.parallels.com/blog/2015/11/18/visual-studio-dev-essentials/) (Parallels blog).  
+  - **If you already have Parallels or VMWare configured on your Mac:** run Windows with Visual Studio 2015 and Xamarin 4 inside Parallels or VMWare.  With this configuration, Xamarin is an extension that's installed with Visual Studio that provides the ability to use Visual Studio as your development environment for building Android, iOS, and WinPhone apps using C#.  Note that you can obtain a free 3-month Parallels subscription as part of the Visual Studio Developer Essentials Program. See [Microsoft Visual Studio Dev Essentials Will Include Parallels Desktop Pro and Parallels Access](http://blog.parallels.com/blog/2015/11/18/visual-studio-dev-essentials/) (Parallels blog).  
   
   This topic provides instructions for these requirements.  While the installation process is running, you can review the topic [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) to read and watch the necessary background material.  
   
@@ -104,7 +104,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 2. Validate the Android designer: in the Android project in Solution Explorer, open the **Resources > Layout > Main.axml** file.  
   
-   -   If you receive an error saying "The installed Android SDK is too old," click **Open Android SDK** in that message and select the newest SDK version available. Note that you must be running Visual Studio as an administrator to update the SDK.  
+   - If you receive an error saying "The installed Android SDK is too old," click **Open Android SDK** in that message and select the newest SDK version available. Note that you must be running Visual Studio as an administrator to update the SDK.  
   
 3. Validate that you can connect from Visual Studio to the emulator that is installed on your Mac.  The result of this is that you will see the Xamarin Player in the list of emulators that you can select from within Visual Studio for debugging.  To do this, follow the instructions on [Connecting Visual Studio to the Xamarin Android Player](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/android-player-with-visual-studio-in-vm/) (xamarin.com).  
   

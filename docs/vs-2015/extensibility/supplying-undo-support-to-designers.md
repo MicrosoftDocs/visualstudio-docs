@@ -74,15 +74,15 @@ Designers, like editors, typically need to support undo operations so that users
   
 - This <xref:System.IServiceProvider> class must provide the following services:  
   
-  -   <xref:System.ComponentModel.Design.IDesignerHost>.  
+  - <xref:System.ComponentModel.Design.IDesignerHost>.  
   
-  -   <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
+  - <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
   
        Designers using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.  
   
        In this case, the <xref:System.IServiceProvider> class provided to the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> constructor should return this object as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> class.  
   
-  -   <xref:System.ComponentModel.Design.IComponentChangeService>  
+  - <xref:System.ComponentModel.Design.IComponentChangeService>  
   
        Designers using the default <xref:System.ComponentModel.Design.DesignSurface> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design host are guaranteed to have a default implementation of the <xref:System.ComponentModel.Design.IComponentChangeService> class.  
   

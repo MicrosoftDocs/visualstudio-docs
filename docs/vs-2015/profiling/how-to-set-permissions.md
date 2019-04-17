@@ -106,11 +106,11 @@ This topic describes how an Administrator of a computer grants the security perm
   
     This command grants the \<user name> or \<group name> account access to the Profiling tools. The \<right> option determines the profiling functionality the user can access. The \<right> option can be one or more of the following values:  
   
-   -   FullAccess - allows access to all profiling methods including collecting performance data from services, sampling, and cross session profiling.  
+   - FullAccess - allows access to all profiling methods including collecting performance data from services, sampling, and cross session profiling.  
   
-   -   SampleProfiling - allows access to sample profiling methods  
+   - SampleProfiling - allows access to sample profiling methods  
   
-   -   CrossSession - allows access to cross session profiling which is required for profiling services.  
+   - CrossSession - allows access to cross session profiling which is required for profiling services.  
   
 5. (Optional) To preserve the results of any of the previous steps after computer restarts, run the following command:  
   

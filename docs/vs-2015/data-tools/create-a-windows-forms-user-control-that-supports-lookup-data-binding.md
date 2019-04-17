@@ -114,9 +114,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 4. On the **Choose your Data Connection** page do one of the following:  
   
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
   
 5. If your database requires a password, select the option to include sensitive data, and then click **Next**.  
   

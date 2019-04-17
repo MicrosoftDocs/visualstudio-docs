@@ -49,15 +49,15 @@ manager: jillfra
   
 2. To change option settings:  
   
-    -   For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.  
+    - For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.  
   
-    -   For check boxes, use **SPACEBAR** to select or unselect.  
+    - For check boxes, use **SPACEBAR** to select or unselect.  
   
-    -   For drop-down lists, use **ALT** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.  
+    - For drop-down lists, use **ALT** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.  
   
-    -   For buttons, press **ENTER** to invoke.  
+    - For buttons, press **ENTER** to invoke.  
   
-    -   For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **SHIFT** + **ALT** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.  
+    - For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **SHIFT** + **ALT** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.  
   
 ## Window and File Navigation  
  The IDE provides several ways for you to move among open tool and document windows using the keyboard. You can also move and dock tool windows in different locations using the keyboard.  

@@ -64,9 +64,9 @@ ms.workload:
 
 5. If you want to expose this class to out-of-process clients, you might also need to do the following:
 
-   -   Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).
+   - Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).
 
-   -   Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.
+   - Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.
 
    The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 

@@ -69,19 +69,19 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 
 3. In the new adapter project, add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.TextTemplating.11.0
+    - Microsoft.VisualStudio.TextTemplating.11.0
 
          Microsoft.VisualStudio.TextTemplating.Modeling.11.0
 
 4. In AdapterManager.tt:
 
-    -   Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
+    - Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
 
          `public partial class <#= dslName =>AdapterManagerBase :`
 
          `Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager { ...`
 
-    -   Near the end of the file, replace the HostSpecific attribute before the AdapterManager class. Remove the following line:
+    - Near the end of the file, replace the HostSpecific attribute before the AdapterManager class. Remove the following line:
 
          `[DslIntegration::HostSpecific(DslIntegrationShell::VsModelingAdapterManager.HostName)]`
 
@@ -178,7 +178,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 2. In the DSL Definition diagram, right-click a blank part of the diagram that is not near the top, and then click **Enable Modelbus**.
 
-   -   If you do not see **Enable Modelbus**, you must download and install the VMSDK ModelBus extension. Find it on the VMSDK site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+   - If you do not see **Enable Modelbus**, you must download and install the VMSDK ModelBus extension. Find it on the VMSDK site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
 3. In the **Enable Modelbus** dialog box, select **Expose this DSL to the ModelBus**, and then click **OK**.
 

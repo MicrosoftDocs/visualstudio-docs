@@ -81,9 +81,9 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 4. In the **Source** list, perform one of the following steps:
 
-    -   If the extension assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
+    - If the extension assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
-    -   If the extension assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
+    - If the extension assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
 
 5. Choose the **OK** button.
 
@@ -101,9 +101,9 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 4. In the **Source** list, perform one of the following steps:
 
-    -   If the command assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
+    - If the command assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
-    -   If the command assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
+    - If the command assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
 
 5. Choose the **OK** button.
 
@@ -197,9 +197,9 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 4. In the **Source** list, perform one of the following steps:
 
-    -   If the wizard assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
+    - If the wizard assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
-    -   If the wizard assembly is included as a file in your project, choose **File on filesystem**. In the **Path** field, enter the complete path to the assembly file, or use the **Browse** button to locate and choose the assembly.
+    - If the wizard assembly is included as a file in your project, choose **File on filesystem**. In the **Path** field, enter the complete path to the assembly file, or use the **Browse** button to locate and choose the assembly.
 
 5. Choose the **OK** button.
 
@@ -226,13 +226,13 @@ If you want to manually create the VSIX package for your SharePoint tools extens
 
 4. Modify the extension.vsixmanifest file:
 
-    -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    - Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
-    -   If your extension includes a SharePoint command that calls into the server object model for SharePoint, add a `Microsoft.VisualStudio.Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly that implements the SharePoint command in the VSIX package. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    - If your extension includes a SharePoint command that calls into the server object model for SharePoint, add a `Microsoft.VisualStudio.Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly that implements the SharePoint command in the VSIX package. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
 
-    -   If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [ProjectTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\)) and [ItemTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\)).
+    - If your extension includes a project template or item template, add a `ProjectTemplate` or `ItemTemplate` element under the `Assets` element. Set the value of the new element to the relative path of the folder that contains the template in the VSIX package. For more information, see [ProjectTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\)) and [ItemTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\)).
 
-    -   If your extension includes a custom wizard for a project template or item template, add an `Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly in the VSIX package, and then set the `AssemblyName` attribute to the full assembly name (including version, culture, and public key token). For more information, see [Dependency Element (VSX Schema)](https://msdn.microsoft.com/1f63f60a-98ad-48ec-8e44-4eba383d3e37).
+    - If your extension includes a custom wizard for a project template or item template, add an `Assembly` element under the `Assets` element. Set the value of the new element to the relative path of the assembly in the VSIX package, and then set the `AssemblyName` attribute to the full assembly name (including version, culture, and public key token). For more information, see [Dependency Element (VSX Schema)](https://msdn.microsoft.com/1f63f60a-98ad-48ec-8e44-4eba383d3e37).
 
 ### Example
 

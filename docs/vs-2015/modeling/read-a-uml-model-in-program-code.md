@@ -76,9 +76,9 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
 2. Add the [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] references you need for accessing UML models, typically:  
   
-   -   Microsoft.VisualStudio.Uml.Interfaces.dll  
+   - Microsoft.VisualStudio.Uml.Interfaces.dll  
   
-   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
+   - Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
   
 3. In addition to the references listed in the previous sections, add the following project references from **\Program Files\Microsoft Visual Studio [version]\Common7\IDE\PrivateAssemblies**:  
   

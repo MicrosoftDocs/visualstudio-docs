@@ -89,7 +89,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
 4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
   
@@ -121,9 +121,9 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 3. Add a file to the class library project containing code that is similar to the following example.  
   
-    -   Each validation constraint is contained within a method that is marked with a specific attribute. The method accepts a parameter of a model element type. When validation is invoked, the validation framework will apply every validation method to every model element that conforms to its parameter type.  
+    - Each validation constraint is contained within a method that is marked with a specific attribute. The method accepts a parameter of a model element type. When validation is invoked, the validation framework will apply every validation method to every model element that conforms to its parameter type.  
   
-    -   You can place these methods in any classes and namespaces. Change them to your preference.  
+    - You can place these methods in any classes and namespaces. Change them to your preference.  
   
     ```  
     using System.Collections.Generic;  
@@ -183,9 +183,9 @@ using Microsoft.VisualStudio.Uml.Classes;
   
      **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start:  
   
-    -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
+    - If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
+    - In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
@@ -205,13 +205,13 @@ using Microsoft.VisualStudio.Uml.Classes;
   
      **Troubleshooting**: If the **Validate** command does not appear on the menu, make sure that:  
   
-    -   The validation project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
+    - The validation project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
   
-    -   The correct `Export` and `ValidationMethod` attributes are attached to the validation methods.  
+    - The correct `Export` and `ValidationMethod` attributes are attached to the validation methods.  
   
-    -   `ValidationCategories.Menu` is included in the argument for the `ValidationMethod` attribute, and it is composed with other values using Logical OR (&#124;).  
+    - `ValidationCategories.Menu` is included in the argument for the `ValidationMethod` attribute, and it is composed with other values using Logical OR (&#124;).  
   
-    -   The parameters of all the `Import` and `Export` attributes are valid.  
+    - The parameters of all the `Import` and `Export` attributes are valid.  
   
 ##  <a name="Implementing"></a> Evaluating the Constraint  
  The validation method should determine whether the validation constraint that you want to apply is true or false. If true, it should do nothing. If false, it should report an error using the methods provided by the `ValidationContext` parameter.  
@@ -370,7 +370,7 @@ context.LogError(... , usecase);
   
 2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
+    - The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
   
 3. On the target computer, open the **.vsix** file.  
   

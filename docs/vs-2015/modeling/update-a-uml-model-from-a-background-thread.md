@@ -30,17 +30,17 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 2. Make sure that the project includes references to these assemblies:  
   
-   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
+   - Microsoft.VisualStudio.ArchitectureTools.Extensibility  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
+   - Microsoft.VisualStudio.Modeling.Sdk.[version]  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
   
-   -   Microsoft.VisualStudio.Uml.Interfaces  
+   - Microsoft.VisualStudio.Uml.Interfaces  
   
-   -   System.ComponentModel.Composition  
+   - System.ComponentModel.Composition  
   
-   -   System.Windows.Forms  
+   - System.Windows.Forms  
   
 3. Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
   

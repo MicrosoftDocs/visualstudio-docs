@@ -21,11 +21,11 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
   
 - The current element in the editor must be empty with no attributes. For example,  the following are all valid  
   
-  -   `<Account`  
+  - `<Account`  
   
-  -   `<Account>`  
+  - `<Account>`  
   
-  -   `<Account></Account>`  
+  - `<Account></Account>`  
   
 - The cursor must be located immediately to the right of the element name.  
   

@@ -44,11 +44,11 @@ IDE window
   
 5. The illustration shows the following windows (going clockwise from the upper-left corner):  
   
-    -   **Main window** In this window, you'll do most of your work, such as working with forms and editing code. In the illustration, the window shows a form in the Form Editor. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with .vb instead of .cs.)  
+    - **Main window** In this window, you'll do most of your work, such as working with forms and editing code. In the illustration, the window shows a form in the Form Editor. At the top of the window, the **Start Page** tab and the **Form1.cs [Design]** tab appear. (In Visual Basic, the tab name ends with .vb instead of .cs.)  
   
-    -   **Solution Explorer  window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in .cs in Visual C# and .vb in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the Windows Forms Designer.  
+    - **Solution Explorer  window** In this window, you can view and navigate to all items in your solution. If you choose a file, the contents of the **Properties** window changes. If you open a code file (which ends in .cs in Visual C# and .vb in Visual Basic), the code file or a designer for the code file appears. A designer is a visual surface onto which you can add controls such as buttons and lists. For Visual Studio forms, the designer is called the Windows Forms Designer.  
   
-    -   **Properties  window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.  
+    - **Properties  window** In this window, you can change the properties of items that you choose in the other windows. For example, if you choose Form1, you can change its title by setting the **Text** property, and you can change the background color by setting the **Backcolor** property.  
   
     > [!NOTE]
     >  The top line in **Solution Explorer** shows **Solution 'PictureViewer' (1 project)**, which means that Visual Studio created a solution for you. A solution can contain more than one project, but for now, you'll work with solutions that contain only one project.  

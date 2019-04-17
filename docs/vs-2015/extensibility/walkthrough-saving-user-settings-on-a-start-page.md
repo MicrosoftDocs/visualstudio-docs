@@ -35,13 +35,13 @@ You can persist user settings for your start page. By following this walkthrough
   
 2. In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
   
-    -   EnvDTE  
+    - EnvDTE  
   
-    -   EnvDTE80  
+    - EnvDTE80  
   
-    -   Microsoft.VisualStudio.OLE.Interop  
+    - Microsoft.VisualStudio.OLE.Interop  
   
-    -   Microsoft.VisualStudio.Shell.Interop.11.0  
+    - Microsoft.VisualStudio.Shell.Interop.11.0  
   
 3. Open MyControl.xaml.  
   

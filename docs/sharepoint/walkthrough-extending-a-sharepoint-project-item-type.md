@@ -22,9 +22,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    -   It generates an external list that displays the data in a BDC model. The extension uses the object model for the SharePoint project system to generate an *Elements.xml* file that defines the list. It also adds the file to the project so that it is deployed together with the BDC model.
+    - It generates an external list that displays the data in a BDC model. The extension uses the object model for the SharePoint project system to generate an *Elements.xml* file that defines the list. It also adds the file to the project so that it is deployed together with the BDC model.
 
-    -   It adds a shortcut menu item to the **Business Data Connectivity Model** project items in **Solution Explorer**. Developers can click this menu item to generate an external list for the BDC model.
+    - It adds a shortcut menu item to the **Business Data Connectivity Model** project items in **Solution Explorer**. Developers can click this menu item to generate an external list for the BDC model.
 
 - Building a Visual Studio Extension (VSIX) package to deploy the extension assembly.
 
@@ -100,21 +100,21 @@ ms.workload:
 
 1. In the BdcProjectItemExtension project, add two code files that have the following names:
 
-    -   ProjectItemExtension
+    - ProjectItemExtension
 
-    -   GenerateExternalDataLists
+    - GenerateExternalDataLists
 
 2. Choose the BdcProjectItemExtension project, and then, on the menu bar, choose **Project** > **Add Reference**.
 
 3. Under the **Assemblies** node, choose the **Framework** node, and the select the check box for each of the following assemblies:
 
-    -   System.ComponentModel.Composition
+    - System.ComponentModel.Composition
 
-    -   WindowsBase
+    - WindowsBase
 
 4. Under the **Assemblies** node, choose the **Extensions** node, and then select the check box for the following assembly:
 
-    -   Microsoft.VisualStudio.SharePoint
+    - Microsoft.VisualStudio.SharePoint
 
 5. Choose the **OK** button.
 

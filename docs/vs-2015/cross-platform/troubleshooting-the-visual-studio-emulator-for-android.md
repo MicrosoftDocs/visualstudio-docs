@@ -145,21 +145,21 @@ This topic contains information to help you resolve issues that you may experien
 
   3. Within the BIOS settings of your computer, make sure that all virtualization technology is enabled. The exact BIOS descriptions may vary for each hardware manufacturer. In general, enable features related to:
 
-     -   SLAT (Second Level Address Translation)
+     - SLAT (Second Level Address Translation)
 
-     -   EPT (Extended Page Tables) (Intel)
+     - EPT (Extended Page Tables) (Intel)
 
-     -   NPT (Nested Page Tables) (AMD)
+     - NPT (Nested Page Tables) (AMD)
 
-     -   RVI (Rapid Virtualization Indexing) (AMD)
+     - RVI (Rapid Virtualization Indexing) (AMD)
 
-     -   VMX (an Intel acronym indicating hardware assisted virtualization support)
+     - VMX (an Intel acronym indicating hardware assisted virtualization support)
 
-     -   SVM (an AMD acronym indicating hardware assisted virtualization support)
+     - SVM (an AMD acronym indicating hardware assisted virtualization support)
 
-     -   XD (Execute Disable) (Intel); this must be enabled
+     - XD (Execute Disable) (Intel); this must be enabled
 
-     -   NX (No Execute)(AMD); this must be enabled.
+     - NX (No Execute)(AMD); this must be enabled.
 
   4. If the following options are present in the BIOS, disable them.
 
@@ -211,21 +211,21 @@ This topic contains information to help you resolve issues that you may experien
 
   3. For this adapter, the only items that should be selected under **This connection uses the following items** should be the following:
 
-     -   Client for Microsoft Networks
+     - Client for Microsoft Networks
 
-     -   QoS Packet Scheduler
+     - QoS Packet Scheduler
 
-     -   File and Printer Sharing for Microsoft Networks
+     - File and Printer Sharing for Microsoft Networks
 
-     -   Microsoft LLDP Protocol Driver
+     - Microsoft LLDP Protocol Driver
 
-     -   Link-Layer Topology Discovery Mapper I/O Driver
+     - Link-Layer Topology Discovery Mapper I/O Driver
 
-     -   Link-Layer Topology Discovery Responder
+     - Link-Layer Topology Discovery Responder
 
-     -   Internet Protocol Version 6 (TCP/IPv6)
+     - Internet Protocol Version 6 (TCP/IPv6)
 
-     -   Internet Protocol Version 4 (TCP/IPv4)
+     - Internet Protocol Version 4 (TCP/IPv4)
 
   4. Deselect any other items.
 

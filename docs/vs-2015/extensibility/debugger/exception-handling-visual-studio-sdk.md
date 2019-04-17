@@ -28,7 +28,7 @@ The following describes the process that occurs when exceptions are thrown.
   
 5. If user chooses to continue, the SDM calls [IDebugExceptionEvent2::CanPassToDebuggee](../../extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee.md).  
   
-    -   If the method returns S_OK, calls [IDebugExceptionEvent2::PassToDebuggee](../../extensibility/debugger/reference/idebugexceptionevent2-passtodebuggee.md).  
+    - If the method returns S_OK, calls [IDebugExceptionEvent2::PassToDebuggee](../../extensibility/debugger/reference/idebugexceptionevent2-passtodebuggee.md).  
   
          -or-  
   

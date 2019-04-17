@@ -49,11 +49,11 @@ You can improve the quality of your application by running code analysis regular
   
 4. In the **Run this rule set** list, do one of the following:  
   
-    -   Choose the rule set that you want to use.  
+    - Choose the rule set that you want to use.  
   
-    -   Choose **\<Browse...>** to specify an existing custom rule set that is not in the list.  
+    - Choose **\<Browse...>** to specify an existing custom rule set that is not in the list.  
   
-    -   Define a custom rule set.  
+    - Define a custom rule set.  
   
          For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).  
   

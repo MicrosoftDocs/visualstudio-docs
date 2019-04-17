@@ -40,11 +40,11 @@ In [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../i
   
 6. In the **Run this rule set** list, do one of the following:  
   
-    -   Click the rule set that you want to use.  
+    - Click the rule set that you want to use.  
   
-    -   Click **\<Browse...>** to specify an existing custom rule set that is not in the list.  
+    - Click **\<Browse...>** to specify an existing custom rule set that is not in the list.  
   
-    -   Define a custom rule set.  
+    - Define a custom rule set.  
   
          For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).  
   

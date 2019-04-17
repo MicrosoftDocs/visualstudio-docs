@@ -43,9 +43,9 @@ To get the path to the profiling tools, see [Specify the path to command line to
 
 3. Attach the profiler to the ASP.NET worker process by typing the following command:**VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]
 
-   -   `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.
+   - `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.
+   - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.
 
 ## Control data collection
  While the application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.

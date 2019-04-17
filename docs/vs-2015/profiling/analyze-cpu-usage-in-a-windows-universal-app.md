@@ -46,9 +46,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 1. In Visual Studio, set the deployment target to **Simulator** and the solution configuration to **Release**.  
   
-   -   Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
+   - Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
   
-   -   Running this app in **Release** mode gives you a better view of the actual performance of your app.  
+   - Running this app in **Release** mode gives you a better view of the actual performance of your app.  
   
 2. On the **Debug** menu, choose **Performance Profiler...**.  
   

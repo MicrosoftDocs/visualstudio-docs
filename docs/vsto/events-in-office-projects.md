@@ -50,13 +50,13 @@ ms.workload:
 
 - For Microsoft Office Excel projects, the event handlers have the following names:
 
-    -   `Sheet1_Startup`
+    - `Sheet1_Startup`
 
-    -   `Sheet2_Startup`
+    - `Sheet2_Startup`
 
-    -   `Sheet3_Startup`
+    - `Sheet3_Startup`
 
-    -   `ThisWorkbook_Startup`
+    - `ThisWorkbook_Startup`
 
 ### Shutdown event
  The **Shutdown** event is raised for each of the host items (document or worksheet) when the application domain that your code is loaded in is about to unload. It is the last thing to be called in the class as it unloads.
@@ -67,13 +67,13 @@ ms.workload:
 
 - For Microsoft Office Excel projects, the event handlers have the following names:
 
-    -   `Sheet1_Shutdown`
+    - `Sheet1_Shutdown`
 
-    -   `Sheet2_Shutdown`
+    - `Sheet2_Shutdown`
 
-    -   `Sheet3_Shutdown`
+    - `Sheet3_Shutdown`
 
-    -   `ThisWorkbook_Shutdown`
+    - `ThisWorkbook_Shutdown`
 
 > [!NOTE]
 >  Do not programmatically remove controls during the **Shutdown** event handler of the document. The UI elements of the document are no longer available when the **Shutdown** event occurs. If you want to remove controls before the application closes, add your code to another event handler, such as **BeforeClose** or **BeforeSave**.

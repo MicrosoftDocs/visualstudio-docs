@@ -37,9 +37,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv /globaltracegclife**
 
-   -   **/globaltracegc** collects .NET memory allocation and timing data.
+   - **/globaltracegc** collects .NET memory allocation and timing data.
 
-   -   **/globaltracegclife** collects .NET memory allocation, object lifetime, and detailed timing data.
+   - **/globaltracegclife** collects .NET memory allocation, object lifetime, and detailed timing data.
 
 4. Restart the computer.
 
