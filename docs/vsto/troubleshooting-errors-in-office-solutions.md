@@ -102,7 +102,7 @@ ms.workload:
 ## <a name="code"></a> Write code
  You might encounter the following errors when you write code in Office projects.
 
-### Some events of Office objects are not accessible when using C#
+### Some events of Office objects are not accessible when using C\#
  In some cases, you might see a compiler error like the following when you try to access a particular event of an instance of an Office primary interop assembly (PIA) type in a Visual C# project.
 
  "Ambiguity between 'Microsoft.Office.Interop.Excel._Application.NewWorkbook' and 'Microsoft.Office.Interop.Excel.AppEvents_Event.NewWorkbook'"

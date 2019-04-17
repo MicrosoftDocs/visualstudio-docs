@@ -93,8 +93,11 @@ ms.workload:
 ## Program with Visual Basic vs. Visual C# in Office solutions
  You can create Office solutions by using either Visual Basic or Visual C#. Because the Microsoft Office object models were designed to be used with Microsoft Visual Basic for Applications (VBA), Visual Basic developers can work comfortably with the objects exposed by the Microsoft Office applications. Visual C# developers can use most of the same features as Visual Basic developers, but there are some cases where they must write additional code to use the Office object models. There are also some differences between basic programming features in Office development and managed code written in Visual Basic and C#.
 
+<!-- markdownlint-disable MD003 MD020 -->
 ## Key differences between Visual Basic and Visual C#
- The following table shows key differences between Visual Basic and Visual C# in Office development.
+<!-- markdownlint-enable MD003 MD020 -->
+
+The following table shows key differences between Visual Basic and Visual C# in Office development.
 
 |Feature|Description|Visual Basic support|Visual C# support|
 |-------------|-----------------|--------------------------|------------------------|
