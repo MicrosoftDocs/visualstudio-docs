@@ -37,7 +37,7 @@ One of the more useful methods of locating information in Help is by performing 
   
 > [!IMPORTANT]
 > 1. Phrase searches are not supported. If you specify more than one word in a search string, returned topics will contain all of the words that you specified but not necessarily the exact phrase that you specified.  
->    2.  Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md).  
+>    2. Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md).  
   
 ### Filters  
  You can further restrict search results by using advanced search operators. Help includes three categories that you can use to filter results of a full-text search: Title, Code, and Keyword. For more information, see [Advanced Search Operators in Search Expressions](../ide/advanced-search-operators-in-search-expressions.md).  

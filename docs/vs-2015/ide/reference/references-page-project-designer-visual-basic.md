@@ -40,9 +40,9 @@ Use the **References** page of the **Project Designer** to manage references, We
 >  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
 > 
 > 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
->    2.  Folders that are specified in the **Reference Paths** dialog box.  
->    3.  Folders that display files in the **Add Reference** dialog box.  
->    4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
+>    2. Folders that are specified in the **Reference Paths** dialog box.  
+>    3. Folders that display files in the **Add Reference** dialog box.  
+>    4. The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
   
  **References**  
  This list shows all references in the project, used or unused.  
