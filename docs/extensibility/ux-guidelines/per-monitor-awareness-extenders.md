@@ -34,9 +34,9 @@ Refer to the [High DPI Desktop Application Development on Windows](https://docs.
 
 ## Enabling PMA
 To enable PMA in Visual Studio, the following requirements need to be met:
-1)  Windows 10 April 2018 Update (v1803, RS4) or later
-2)  .NET Framework 4.8 RTM or greater
-3)  Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) option enabled
+1) Windows 10 April 2018 Update (v1803, RS4) or later
+2) .NET Framework 4.8 RTM or greater (currently ships as standalone preview or bundle with recent Windows Insider builds)
+3) Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) option enabled
 
 Once these requirements are met, Visual Studio will automatically enable PMA mode across the process.
 

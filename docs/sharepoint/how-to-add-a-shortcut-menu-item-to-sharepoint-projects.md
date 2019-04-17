@@ -38,7 +38,7 @@ ms.workload:
  This example requires a class library project with references to the following assemblies:
 
 - Microsoft.VisualStudio.SharePoint
--
+
 - System.ComponentModel.Composition
 
 ## Deploy the extension
