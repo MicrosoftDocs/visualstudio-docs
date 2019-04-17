@@ -48,21 +48,21 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 2. In **source.extension.vsixmanifest**, set the content type and supported editions.  
   
-    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item’s properties:  
+    1. In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item’s properties:  
   
          **Content Type** = **VSPackage**  
   
          **Source Project** = \<*the current project*>  
   
-    2.  Click **Selected Editions** and check the types of installation on which you want the directive processor to be usable.  
+    2. Click **Selected Editions** and check the types of installation on which you want the directive processor to be usable.  
   
 3. Add a .pkgdef file and set its properties to be included in the VSIX.  
   
-    1.  Create a text file and name it \<*assemblyName*>.pkgdef.  
+    1. Create a text file and name it \<*assemblyName*>.pkgdef.  
   
          \<*assemblyName*> is usually the same as the name of the project.  
   
-    2.  Select it in Solution Explorer and set its properties as follows:  
+    2. Select it in Solution Explorer and set its properties as follows:  
   
          **Build Action** = **Content**  
   
@@ -70,7 +70,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
          **Include in VSIX** = **True**  
   
-    3.  Set the name of the VSIX and make sure that the ID is unique.  
+    3. Set the name of the VSIX and make sure that the ID is unique.  
   
 4. Add the following text to the .pkgdef file.  
   
@@ -172,11 +172,11 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 4. In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.  
   
-   1.  Right-click the node that you created, point to **New**, and then click **String Value**.  
+   1. Right-click the node that you created, point to **New**, and then click **String Value**.  
   
-   2.  Edit the name of the value.  
+   2. Edit the name of the value.  
   
-   3.  Double-click the name and edit the data.  
+   3. Double-click the name and edit the data.  
   
    If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:  
   

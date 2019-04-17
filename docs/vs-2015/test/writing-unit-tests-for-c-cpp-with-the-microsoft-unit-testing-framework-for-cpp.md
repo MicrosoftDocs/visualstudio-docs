@@ -62,19 +62,19 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 4. Use Test Explorer to run the tests:  
   
-    1.  On the **View** menu, choose **Other Windows**, **Test Explorer**.  
+    1. On the **View** menu, choose **Other Windows**, **Test Explorer**.  
   
-    2.  Build the Visual Studio solution.  
+    2. Build the Visual Studio solution.  
   
-    3.  In Test Explorer, choose **Run All**.  
+    3. In Test Explorer, choose **Run All**.  
   
-    4.  To investigate any test in more detail in Test Explorer:  
+    4. To investigate any test in more detail in Test Explorer:  
   
-        1.  Select the test name to see more details such as a failure message and stack trace.  
+        1. Select the test name to see more details such as a failure message and stack trace.  
   
-        2.  Open the test name (for example by double-clicking) to go to the failure location or to the test code.  
+        2. Open the test name (for example by double-clicking) to go to the failure location or to the test code.  
   
-        3.  On the shortcut menu for a test, choose **Debug Selected Test** to run the test in the debugger.  
+        3. On the shortcut menu for a test, choose **Debug Selected Test** to run the test in the debugger.  
   
 ##  <a name="walkthrough"></a> Walkthrough: Developing an unmanaged DLL with Test Explorer  
  You can adapt this walkthrough to develop your own DLL. The principal steps are as follows:  
@@ -123,7 +123,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 3. Verify that the tests run in Test Explorer:  
   
-    1.  Insert some test code:  
+    1. Insert some test code:  
   
         ```cpp  
         TEST_METHOD(TestMethod1)  
@@ -134,7 +134,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
          Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.  
   
-    2.  On the **Test** menu, choose **Run** , **All Tests**.  
+    2. On the **Test** menu, choose **Run** , **All Tests**.  
   
          The test builds and runs.  
   
@@ -178,11 +178,11 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 1. Add the DLL project to the project references of the test project:  
   
-   1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.  
+   1. Open the properties of the test project and choose **Common Properties**, **Framework and References**.  
   
         ![C&#43;&#43; project properties &#45; Framework and References](../test/media/utecpp08.png "UteCpp08")  
   
-   2.  Choose **Add New Reference**.  
+   2. Choose **Add New Reference**.  
   
         In the **Add Reference** dialog box, select the DLL project and choose **Add**.  
   
@@ -328,9 +328,9 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 4. To see why the test fails, step through the function:  
   
-    1.  Set a breakpoint at the start of the SquareRoot function.  
+    1. Set a breakpoint at the start of the SquareRoot function.  
   
-    2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
+    2. On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
   
          When the run stops at the breakpoint, step through the code.  
   

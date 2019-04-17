@@ -36,9 +36,9 @@ You can share the controls, templates, and tools that you develop by posting the
 
 5. In the **URL** field, enter the URL of the Atom feed or SharePoint site that is hosting the private gallery.
 
-    1.  If the host is an Atom feed that connects to the private gallery, the URL would resemble this one: http://www.mywebsite/mygallery/atom.xml.  This URL can refer to a file or a network path.
+    1. If the host is an Atom feed that connects to the private gallery, the URL would resemble this one: http://www.mywebsite/mygallery/atom.xml.  This URL can refer to a file or a network path.
 
-    2.  If the host is a SharePoint site, the URL would resemble this one: http://mysharepoint/sites/mygallery/forms/AllItems.aspx.
+    2. If the host is a SharePoint site, the URL would resemble this one: http://mysharepoint/sites/mygallery/forms/AllItems.aspx.
 
 ### Manage private galleries
  An administrator can make a private gallery available to several computers at the same time by modifying the system registry on each computer. To accomplish this, create a *.pkgdef* file that describes the new registry keys and their values.  The format of this file is as follows.

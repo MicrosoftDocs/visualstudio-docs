@@ -38,11 +38,11 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2. Because this project will interact with the strongly-named VSPackage assembly, you must sign the assembly. You can reuse the key file already created for the VSPackage assembly.  
   
-    1.  Open the project properties and select the **Signing** tab.  
+    1. Open the project properties and select the **Signing** tab.  
   
-    2.  Select **Sign the assembly**.  
+    2. Select **Sign the assembly**.  
   
-    3.  Under **Choose a strong name key file**, select the Key.snk file that was generated for the MenuCommandTest assembly.  
+    3. Under **Choose a strong name key file**, select the Key.snk file that was generated for the MenuCommandTest assembly.  
   
 ## Referring to the MEF Extension in the VSPackage Project  
  Because you are adding a MEF component to the VSPackage, you must specify both kinds of assets in the manifest.  
@@ -77,21 +77,21 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 2. Add the following references:  
   
-    1.  Microsoft.VisualStudio.CoreUtility  
+    1. Microsoft.VisualStudio.CoreUtility  
   
-    2.  Microsoft.VisualStudio.Text.Data  
+    2. Microsoft.VisualStudio.Text.Data  
   
-    3.  Microsoft.VisualStudio.Text.Logic  
+    3. Microsoft.VisualStudio.Text.Logic  
   
-    4.  Microsoft.VisualStudio.Text.UI  
+    4. Microsoft.VisualStudio.Text.UI  
   
-    5.  Microsoft.VisualStudio.Text.UI.Wpf  
+    5. Microsoft.VisualStudio.Text.UI.Wpf  
   
-    6.  System.ComponentModel.Composition  
+    6. System.ComponentModel.Composition  
   
-    7.  PresentationCore  
+    7. PresentationCore  
   
-    8.  PresentationFramework  
+    8. PresentationFramework  
   
     9. WindowsBase  
   

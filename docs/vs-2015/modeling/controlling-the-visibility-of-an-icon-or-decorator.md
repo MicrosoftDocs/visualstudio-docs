@@ -22,11 +22,11 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
   
 1. In the DSL Definition diagram, add to the shape class the icons or text decorators that you want to appear.  
   
-   1.  Right-click the shape class, point to **Add**, and then click the required type of decorator.  
+   1. Right-click the shape class, point to **Add**, and then click the required type of decorator.  
   
-   2.  Set the decorator's **Position** property. More than one decorator can have the same position. For example, you could have icons for male and female sharing the same position.  
+   2. Set the decorator's **Position** property. More than one decorator can have the same position. For example, you could have icons for male and female sharing the same position.  
   
-   3.  Set the **Default Icon** property of an icon decorator.  
+   3. Set the **Default Icon** property of an icon decorator.  
   
 2. Select the diagram element map, which is the gray line between the shape class and the domain class on the DSL Definition diagram.  
   
@@ -68,13 +68,13 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
   
 2. Make the new property control the decorator visibility.  
   
-    1.  Select the diagram element map, which is the gray line from the domain class to the shape. In the **DSL Details** window, open the **DecoratorMap** tab.  
+    1. Select the diagram element map, which is the gray line from the domain class to the shape. In the **DSL Details** window, open the **DecoratorMap** tab.  
   
-    2.  Check the **Visibility Filter** box.  
+    2. Check the **Visibility Filter** box.  
   
-    3.  In **Filter Property**, select the control property **DecoratorControl**.  
+    3. In **Filter Property**, select the control property **DecoratorControl**.  
   
-    4.  Under **Visibility Entries**, enter `True`.  
+    4. Under **Visibility Entries**, enter `True`.  
   
 3. Click **Transform All Templates** in the Solution Explorer toolbar.  
   

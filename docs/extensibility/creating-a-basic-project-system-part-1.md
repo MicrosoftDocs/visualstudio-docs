@@ -236,9 +236,9 @@ Templates
 
 - Import the source-code files for the Managed Package Framework.
 
-    1.  Unload the SimpleProject project (in **Solution Explorer**, select the project node and on the context menu click **Unload Project**.) and open the project file in the XML editor.
+    1. Unload the SimpleProject project (in **Solution Explorer**, select the project node and on the context menu click **Unload Project**.) and open the project file in the XML editor.
 
-    2.  Add the following blocks to the project file (just above the \<Import> blocks). Set `ProjectBasePath` to the location of the *ProjectBase.files* file in the Managed Package Framework code you just downloaded. You might have to add a backslash to the pathname. If you do not, the project might fail to find the Managed Package Framework source code.
+    2. Add the following blocks to the project file (just above the \<Import> blocks). Set `ProjectBasePath` to the location of the *ProjectBase.files* file in the Managed Package Framework code you just downloaded. You might have to add a backslash to the pathname. If you do not, the project might fail to find the Managed Package Framework source code.
 
         ```
         <PropertyGroup>
@@ -251,9 +251,9 @@ Templates
         > [!IMPORTANT]
         >  Don't forget the backslash at the end of the path.
 
-    3.  Reload the project.
+    3. Reload the project.
 
-    4.  Add references to the following assemblies:
+    4. Add references to the following assemblies:
 
         - `Microsoft.VisualStudio.Designer.Interfaces` (in *\<VSSDK install>\VisualStudioIntegration\Common\Assemblies\v2.0*)
 

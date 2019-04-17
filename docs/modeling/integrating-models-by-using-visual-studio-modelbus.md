@@ -98,9 +98,9 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 4. Add the following .NET assemblies to the project references of the consuming DSL project.
 
-    1.  **Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0.dll**
+    1. **Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0.dll**
 
-    2.  **Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.11.0.dll**
+    2. **Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.11.0.dll**
 
 ### To store a Model Bus Reference in a domain property
 

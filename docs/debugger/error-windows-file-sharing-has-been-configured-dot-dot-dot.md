@@ -32,10 +32,10 @@ Windows file sharing has been configured so that you will connect to the remote 
 
      . Disconnect from the remote computer, and then reconfigure file sharing to connect to the other machine using your account name:
 
-    1.  On the **Start** menu, point to **Accessories**, and then click **Command Prompt**.
+    1. On the **Start** menu, point to **Accessories**, and then click **Command Prompt**.
 
-    2.  At the Windows command prompt, type:
+    2. At the Windows command prompt, type:
 
          `net use /delete computer_name`
 
-    3.  Change your file-sharing settings using any of the methods documented in Windows help.
+    3. Change your file-sharing settings using any of the methods documented in Windows help.

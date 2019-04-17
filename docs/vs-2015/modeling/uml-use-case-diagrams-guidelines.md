@@ -248,11 +248,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 2. Add the document to the solution.  
   
-    1.  Move the Word document into the same Windows folder as the solution.  
+    1. Move the Word document into the same Windows folder as the solution.  
   
-    2.  In Solution Explorer, right-click the solution, point to **Add**, and then click **Existing Item**.  
+    2. In Solution Explorer, right-click the solution, point to **Add**, and then click **Existing Item**.  
   
-    3.  Navigate to the Word document and click **Add**.  
+    3. Navigate to the Word document and click **Add**.  
   
          The Word document appears in a solution folder in Solution Explorer.  
   
@@ -352,11 +352,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 2. Create a **Generalization** relation with the large arrow pointing at the new general use case.  
   
-    1.  Click **Generalization** in the toolbox.  
+    1. Click **Generalization** in the toolbox.  
   
-    2.  Click a specialized use case (**Pay by Credit Card** in the example).  
+    2. Click a specialized use case (**Pay by Credit Card** in the example).  
   
-    3.  Click the general use case (**Pay** in the example).  
+    3. Click the general use case (**Pay** in the example).  
   
 3. If you have described the goals for the specialized use cases, move the common parts into the description of the general use case.  
   
@@ -378,11 +378,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 2. Create an **Extend** relation with the arrow pointing at the extended use case.  
   
-   1.  Click **Extend** in the toolbox.  
+   1. Click **Extend** in the toolbox.  
   
-   2.  Click the extending use case (**Register New User** in the example).  
+   2. Click the extending use case (**Register New User** in the example).  
   
-   3.  Click the extended use case (**Login** in the example).  
+   3. Click the extended use case (**Login** in the example).  
   
        > [!NOTE]
        >  Avoid creating a loop of Extend relations in the diagram. It is incorrect for a use case to be an extension of itself.  

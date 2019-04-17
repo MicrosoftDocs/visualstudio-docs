@@ -30,11 +30,11 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 2. Experiment with the initial example that the template provides:
 
-   1.  Transform All Templates.
+   1. Transform All Templates.
 
-   2.  Build and run the sample (**CTRL+F5**).
+   2. Build and run the sample (**CTRL+F5**).
 
-   3.  In the experimental instance of Visual Studio, open the `Sample` file in the debugging project.
+   3. In the experimental instance of Visual Studio, open the `Sample` file in the debugging project.
 
         Notice that it is displayed in a Windows Forms control.
 

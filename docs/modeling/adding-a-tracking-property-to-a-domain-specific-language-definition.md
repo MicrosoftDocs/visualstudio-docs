@@ -52,21 +52,21 @@ Before you can start this walkthrough, you must first install these components:
 
 2. In the **Domain-Specific Language Designer Wizard**, set the following options:
 
-    1.  Select the **MinimalLanguage** template.
+    1. Select the **MinimalLanguage** template.
 
-    2.  Use the default name for the domain-specific language, `TrackingPropertyDSL`.
+    2. Use the default name for the domain-specific language, `TrackingPropertyDSL`.
 
-    3.  Set the extension for model files to `trackingPropertyDsl`.
+    3. Set the extension for model files to `trackingPropertyDsl`.
 
-    4.  Use the default template icon for the model files.
+    4. Use the default template icon for the model files.
 
-    5.  Set the name of the product to `Product Name`.
+    5. Set the name of the product to `Product Name`.
 
-    6.  Set the name of the company to `Company Name`.
+    6. Set the name of the company to `Company Name`.
 
-    7.  Use the default value for the root namespace for projects in the solution, `CompanyName.ProductName.TrackingPropertyDSL`.
+    7. Use the default value for the root namespace for projects in the solution, `CompanyName.ProductName.TrackingPropertyDSL`.
 
-    8.  Allow the wizard to create a strong name key file for your assemblies.
+    8. Allow the wizard to create a strong name key file for your assemblies.
 
     9. Review the details of the solution, and then click **Finish** to create the DSL definition project.
 
@@ -85,9 +85,9 @@ Before you can start this walkthrough, you must first install these components:
 
 1. In the DSL designer, right-click the **ExampleModel** domain class, point to **Add**, and then click **DomainProperty**.
 
-    1.  Name the new property `DefaultNamespace`.
+    1. Name the new property `DefaultNamespace`.
 
-    2.  In the **Properties** window for the new property, set **Default Value** to `DefaultNamespace`, and set **Type** to **String**.
+    2. In the **Properties** window for the new property, set **Default Value** to `DefaultNamespace`, and set **Type** to **String**.
 
 2. To the **ExampleModel** domain class, add a domain property named `CustomElements`.
 
@@ -105,25 +105,25 @@ Before you can start this walkthrough, you must first install these components:
 
 1. In the DSL designer, right-click the **ExampleShape** geometry shape, point to **Add**, and then click **Text Decorator**.
 
-    1.  Name the new text decorator `NamespaceDecorator`.
+    1. Name the new text decorator `NamespaceDecorator`.
 
-    2.  In the **Properties** window for the text decorator, set **Position** to **InnerBottomLeft**.
+    2. In the **Properties** window for the text decorator, set **Position** to **InnerBottomLeft**.
 
 2. In the DSL designer, select the line that connects the **ExampleElement** class to the **ExampleShape** shape.
 
-    1.  In the **DSL Details** window, select the **Decorator Maps** tab.
+    1. In the **DSL Details** window, select the **Decorator Maps** tab.
 
-    2.  In the **Decorators** list, select **NamespaceDecorator**, select its check box and then on the **Display property** list, select **Namespace**.
+    2. In the **Decorators** list, select **NamespaceDecorator**, select its check box and then on the **Display property** list, select **Namespace**.
 
 3. In **DSL Explorer**, expand the **Domain Classes** folder, right-click the **ExampleElement** node, and then click **Add New Domain Type Descriptor**.
 
-    1.  Expand the **ExampleElement** node, and select the **Custom Type Descriptor (Domain Type Descriptor)** node.
+    1. Expand the **ExampleElement** node, and select the **Custom Type Descriptor (Domain Type Descriptor)** node.
 
-    2.  In the **Properties** window for the domain type descriptor, set **Custom Coded** to **True**.
+    2. In the **Properties** window for the domain type descriptor, set **Custom Coded** to **True**.
 
 4. In **DSL Explorer**, select the **Xml Serialization Behavior** node.
 
-    1.  In the **Properties** window, set **Custom Post Load** to **True**.
+    1. In the **Properties** window, set **Custom Post Load** to **True**.
 
 ## Transform Templates
 

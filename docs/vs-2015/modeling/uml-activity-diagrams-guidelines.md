@@ -74,11 +74,11 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 2. To connect the elements, follow these steps:  
   
-    1.  In the **Activity Diagram** toolbox, click **Connector**.  
+    1. In the **Activity Diagram** toolbox, click **Connector**.  
   
-    2.  On the diagram, click the source element.  
+    2. On the diagram, click the source element.  
   
-    3.  Click the target element.  
+    3. Click the target element.  
   
         > [!NOTE]
         >  To use a tool multiple times, double-click the tool in the toolbox.  
@@ -406,17 +406,17 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 2. In the new diagram:  
   
-   1.  Create two Activity Parameter Nodes, one for the input flow and one for the output.  
+   1. Create two Activity Parameter Nodes, one for the input flow and one for the output.  
   
-   2.  Create actions interconnected with object flows. This shows how the transformation or selection works.  
+   2. Create actions interconnected with object flows. This shows how the transformation or selection works.  
   
 3. In any diagram where you want to use the transformation or selection:  
   
-   1.  Create an object flow, that is, a connector to or from an input or output pin, an object node, or an activity parameter node.  
+   1. Create an object flow, that is, a connector to or from an input or output pin, an object node, or an activity parameter node.  
   
-   2.  Right-click the object flow and then click **Properties**.  
+   2. Right-click the object flow and then click **Properties**.  
   
-   3.  In the **Transformation** or **Selection** property, select the diagram where you specified the transformation or selection flow.  
+   3. In the **Transformation** or **Selection** property, select the diagram where you specified the transformation or selection flow.  
   
    You can also define a selection for an object node, and on individual input and output pins. Define a selection activity as in the previous procedure, and then set the **Selection** property of the object node, or input or output pin.  
   

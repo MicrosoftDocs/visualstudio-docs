@@ -495,14 +495,14 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
 
-   1.  Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
+   1. Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
 
        ```csharp
        this.BitmapResourceID = <Value>;
        this.BitmapIndex = <Value>;
        ```
 
-   2.  See step #1 of the "How do I use image monikers in a new tool window?" section above.
+   2. See step #1 of the "How do I use image monikers in a new tool window?" section above.
 
 4. The command to open the tool window.
 

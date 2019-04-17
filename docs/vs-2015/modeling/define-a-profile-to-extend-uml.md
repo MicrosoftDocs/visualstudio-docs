@@ -53,19 +53,19 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 4. Install the extension on your computer.  
   
-    1.  Double-click the extension file, which has a file name extension `.vsix`.  
+    1. Double-click the extension file, which has a file name extension `.vsix`.  
   
-    2.  Restart Visual Studio.  
+    2. Restart Visual Studio.  
   
 5. Verify that the profile has been installed.  
   
-    1.  Select the model in UML Explorer.  
+    1. Select the model in UML Explorer.  
   
-    2.  In the Properties window, click the **Profiles** property. Your profile will appear in the menu. Set the check mark next to the profile.  
+    2. In the Properties window, click the **Profiles** property. Your profile will appear in the menu. Set the check mark next to the profile.  
   
-    3.  Select an element for which your profile defines stereotypes. In the Properties window, click the **Stereotypes** property. Your stereotypes will appear in the list. Set the check mark against one of the stereotypes.  
+    3. Select an element for which your profile defines stereotypes. In the Properties window, click the **Stereotypes** property. Your stereotypes will appear in the list. Set the check mark against one of the stereotypes.  
   
-    4.  If your profile defines additional properties for this stereotype, expand the stereotype property to see them.  
+    4. If your profile defines additional properties for this stereotype, expand the stereotype property to see them.  
   
 6. Send the extension file to other users of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to install on their computers.  
   
@@ -79,9 +79,9 @@ You can define a *UML profile* to customize the standard model elements for spec
    > [!NOTE]
    >  You must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to use this procedure.  
   
-   1.  On the **File** menu, point to **New**, and then click **Project**.  
+   1. On the **File** menu, point to **New**, and then click **Project**.  
   
-   2.  In the **New Project** dialog box, under **Installed Templates**, expand **Visual C#**, click **Extensibility**, and then click **VSIX project**. Set the project name and click **OK**.  
+   2. In the **New Project** dialog box, under **Installed Templates**, expand **Visual C#**, click **Extensibility**, and then click **VSIX project**. Set the project name and click **OK**.  
   
 2. Add your profile to the project.  
   
@@ -89,9 +89,9 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 3. Set the profile file's **Copy to Output** property.  
   
-   1.  In Solution Explorer, right-click the profile file, and then click **Properties**.  
+   1. In Solution Explorer, right-click the profile file, and then click **Properties**.  
   
-   2.  In the Properties window, set the **Copy to Output Directory** property to **Copy Always**.  
+   2. In the Properties window, set the **Copy to Output Directory** property to **Copy Always**.  
   
 4. In Solution Explorer, open `source.extension.vsixmanifest`.  
   
@@ -115,13 +115,13 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 8. **To extract the VSIX for deployment**  
   
-   1.  In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
+   1. In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
   
-   2.  To install the extension:  
+   2. To install the extension:  
   
-       1.  Double-click the `.vsix` file. The Visual Studio Extension Installer will start.  
+       1. Double-click the `.vsix` file. The Visual Studio Extension Installer will start.  
   
-       2.  Restart any instances of Visual Studio that are running.  
+       2. Restart any instances of Visual Studio that are running.  
   
    The following alternative procedure can be used for small extensions if you have not installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].  
   
@@ -337,7 +337,7 @@ You can define a *UML profile* to customize the standard model elements for spec
  You have to select your profile in a package or model. The stereotypes will then appear on elements inside the package or model. For more information, see [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md).  
   
  The following error appears when I open a UML model: **VS1707: The following profiles cannot be loaded because a serialization error occurred: MyProfile.profile**  
- 1.  Verify that the basic XML syntax of the .profile is correct.  
+ 1. Verify that the basic XML syntax of the .profile is correct.  
   
 2. Ensure that each Moniker name is in the form /profileName/nodeName. The profileName is the value of the name attribute in the root profile node. The nodeName is the value of the name attribute of a metaclass, externalType, or enumerationType.  
   
@@ -350,7 +350,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 5. Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
    The extension does not appear in Extension Manager, but when you try to re-install it, the following message appears: **The extension is already installed to all applicable products.**  
-   1.  Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
+   1. Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
   
    - To see *LocalAppData*, you must set Show Hidden Files and Folders in the View tab of the Windows Explorer Folder Options.  
   

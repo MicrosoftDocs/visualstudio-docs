@@ -113,11 +113,11 @@ This walkthrough shows how to create an extension with a menu command that launc
   
 1. You can do many more things with a simple menu command:  
   
-   1.  Add your own icon: [Adding Icons to Menu Commands](../extensibility/adding-icons-to-menu-commands.md)  
+   1. Add your own icon: [Adding Icons to Menu Commands](../extensibility/adding-icons-to-menu-commands.md)  
   
-   2.  Change the text of the menu command: [Changing the Text of a Menu Command](../extensibility/changing-the-text-of-a-menu-command.md)  
+   2. Change the text of the menu command: [Changing the Text of a Menu Command](../extensibility/changing-the-text-of-a-menu-command.md)  
   
-   3.  Add a menu shortcut to a command: [Binding Keyboard Shortcuts to Menu Items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
+   3. Add a menu shortcut to a command: [Binding Keyboard Shortcuts to Menu Items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
   
 2. Add different kinds of commands, menus, and toolbars: [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)  
   

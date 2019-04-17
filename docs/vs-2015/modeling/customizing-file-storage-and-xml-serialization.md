@@ -121,11 +121,11 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 1. Make sure that **Is Moniker Key** is `false` for every domain property in the class and its base classes.  
   
-    1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**.  
+    1. In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**.  
   
-    2.  Verify that **Is Moniker Key** is `false` for every domain property.  
+    2. Verify that **Is Moniker Key** is `false` for every domain property.  
   
-    3.  If the domain class has a base class, repeat the procedure in that class.  
+    3. If the domain class has a base class, repeat the procedure in that class.  
   
 2. Set **Serialize Id** = `true` for the domain class.  
   
@@ -135,9 +135,9 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 - Set **Is Moniker Key** for a domain property of an existing domain class. The type of the property must be `string`.  
   
-    1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**, and then select the domain property.  
+    1. In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**, and then select the domain property.  
   
-    2.  In the Properties window, set **Is Moniker Key** to `true`.  
+    2. In the Properties window, set **Is Moniker Key** to `true`.  
   
 - \- or -  
   

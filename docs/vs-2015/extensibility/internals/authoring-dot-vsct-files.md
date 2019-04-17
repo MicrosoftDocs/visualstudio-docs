@@ -114,9 +114,9 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
     The target of the `Parent` element is the menu or group that will contain the menu, group, or command.  
   
-   1.  Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding .vsct file.  
+   1. Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding .vsct file.  
   
-   2.  Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).  
+   2. Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).  
   
    If you have a large number of UI elements to place in the IDE, or if you have elements that should appear in multiple places, define their placements in the [CommandPlacements](../../extensibility/commandplacements-element.md) element, as shown in the following steps.  
   
@@ -139,11 +139,11 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
 1. To make a UI element visible only in certain UI contexts, for example, when a solution is loaded, use visibility constraints.  
   
-   1.  After the `Commands` element, add a `VisibilityConstraints` element.  
+   1. After the `Commands` element, add a `VisibilityConstraints` element.  
   
-   2.  For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.  
+   2. For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.  
   
-   3.  For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class. For more information, see [VisibilityItem Element](../../extensibility/visibilityitem-element.md).  
+   3. For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class. For more information, see [VisibilityItem Element](../../extensibility/visibilityitem-element.md).  
   
 2. To set the visibility or availability of a UI item in code, use one or more of the following command flags:  
   

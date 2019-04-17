@@ -40,11 +40,11 @@ You can also create plug-ins for web performance tests. For more information, se
 
 8. Add the new load test plug-in using the Load Test Editor:
 
-    1.  Right-click the root node of the load test and then choose **Add Load Test Plug-in**.
+    1. Right-click the root node of the load test and then choose **Add Load Test Plug-in**.
 
-    2.  The **Add Load Test Plug-in** dialog box is displayed.
+    2. The **Add Load Test Plug-in** dialog box is displayed.
 
-    3.  In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
+    3. In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
 
         > [!NOTE]
         > You can expose as many properties as you want from your plug-ins. Just make them public, settable, and of a base type such as Integer, Boolean, or String. You can also edit the load test plug-in properties later using the **Properties** window.

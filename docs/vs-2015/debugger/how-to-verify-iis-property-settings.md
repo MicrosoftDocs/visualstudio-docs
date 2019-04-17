@@ -49,23 +49,23 @@ You can set the properties for a Web application using the IIS administration to
   
 4. Verify the security settings for the Web application:  
   
-    1.  In the Web application **Properties** window, click the **Directory Security** tab, and click **Edit**.  
+    1. In the Web application **Properties** window, click the **Directory Security** tab, and click **Edit**.  
   
-    2.  In the **Authentication Methods** dialog box, select **Enable Anonymous Access** and **Integrated Windows authentication** if they are not already selected.  
+    2. In the **Authentication Methods** dialog box, select **Enable Anonymous Access** and **Integrated Windows authentication** if they are not already selected.  
   
-    3.  Click **OK** to close the **Authentication Methods** dialog box.  
+    3. Click **OK** to close the **Authentication Methods** dialog box.  
   
 5. For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](http://msdn.microsoft.com/50d261d3-4bd4-41c0-b44e-3591086f121e).  
   
 6. For an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.  
   
-    1.  In the Web application **Properties** window, select the **Directory** tab, if the application is in a virtual directory, or the **Home Directory** tab, if the application is in a Web site.  
+    1. In the Web application **Properties** window, select the **Directory** tab, if the application is in a virtual directory, or the **Home Directory** tab, if the application is in a Web site.  
   
-    2.  Verify that the name in the **Local path** matches the name of the directory where the application was actually deployed.  
+    2. Verify that the name in the **Local path** matches the name of the directory where the application was actually deployed.  
   
-    3.  Under **Application Settings**, type the name of the root directory that contains the application.  
+    3. Under **Application Settings**, type the name of the root directory that contains the application.  
   
-    4.  Click **OK** to close the **Properties** dialog box.  
+    4. Click **OK** to close the **Properties** dialog box.  
   
 7. For an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, click the **ASP.NET** tab and verify that the correct version of [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is specified.  
   

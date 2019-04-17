@@ -32,19 +32,19 @@ The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides
   
 3. In the **General** box, set **Enable .NET Framework** source stepping.  
   
-    1.  If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Click **OK**.  
+    1. If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Click **OK**.  
   
-    2.  If you did not have a symbol cache location set, another warning dialog box tells you that a default symbol cache location is now set. Click **OK**.  
+    2. If you did not have a symbol cache location set, another warning dialog box tells you that a default symbol cache location is now set. Click **OK**.  
   
 4. Under the **Debugging** category, click **Symbols**.  
   
 5. If you want to change the symbols cache location:  
   
-    1.  Open the **Debugging** node in the box on the left.  
+    1. Open the **Debugging** node in the box on the left.  
   
-    2.  Under the **Debugging** node, click **Symbols**.  
+    2. Under the **Debugging** node, click **Symbols**.  
   
-    3.  Edit the location in **Cache symbols from symbol servers to this directory** or click **Browse** to choose a location.  
+    3. Edit the location in **Cache symbols from symbol servers to this directory** or click **Browse** to choose a location.  
   
 6. If you want to download symbols immediately, click **Load Symbols using above locations**.  
   

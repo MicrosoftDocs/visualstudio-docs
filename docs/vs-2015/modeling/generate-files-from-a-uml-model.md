@@ -167,15 +167,15 @@ Type Class2 ::
   
 1. Create a UML class diagram in a modeling project in a new solution.  
   
-   1.  In the **Architecture** menu, click **New Diagram**.  
+   1. In the **Architecture** menu, click **New Diagram**.  
   
-   2.  Select **UML Class Diagram**.  
+   2. Select **UML Class Diagram**.  
   
-   3.  Follow the prompts to create a new solution and modeling project.  
+   3. Follow the prompts to create a new solution and modeling project.  
   
-   4.  Add some classes to the diagram by dragging the UML Class tool from the toolbox.  
+   4. Add some classes to the diagram by dragging the UML Class tool from the toolbox.  
   
-   5.  Save the file.  
+   5. Save the file.  
   
 2. Create a C# or Visual Basic project in the same solution.  
   
@@ -197,9 +197,9 @@ Type Class2 ::
   
 6. Inspect the code in the subsidiary file. It should contain a class for each UML class in the model.  
   
-   1.  In a Visual Basic project, click **Show All Files** in the Solution Explorer toolbar.  
+   1. In a Visual Basic project, click **Show All Files** in the Solution Explorer toolbar.  
   
-   2.  Expand the template file node in Solution Explorer.  
+   2. Expand the template file node in Solution Explorer.  
   
 #### Content of the shared text file  
  In this example, the file is called SharedTemplateCode.txt, and it is in the same folder as the text templates.  

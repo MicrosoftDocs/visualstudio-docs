@@ -77,15 +77,15 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
-    1.  On the **File** menu, choose **New**, **Project**.  
+    1. On the **File** menu, choose **New**, **Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, and then in the middle column choose **Class Library**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, and then in the middle column choose **Class Library**.  
   
 2. Unless your solution already contains one, create a VSIX project:  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose  **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose  **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, click **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, click **VSIX Project**.  
   
 3. Set the VSIX project as the startup project of the solution.  
   
@@ -93,11 +93,11 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   
@@ -193,9 +193,9 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 3. To set up a test for the sample constraint given in the previous section:  
   
-    1.  Open a class diagram.  
+    1. Open a class diagram.  
   
-    2.  Create a class, and add two attributes that have the same name.  
+    2. Create a class, and add two attributes that have the same name.  
   
 4. On the shortcut menu anywhere on the diagram, choose **Validate**.  
   
@@ -364,9 +364,9 @@ context.LogError(... , usecase);
   
 1. On your computer, find the **.vsix** file that was built by your VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

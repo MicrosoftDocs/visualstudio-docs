@@ -44,9 +44,9 @@ ms.workload:
 
 2. Add your user account as a Farm Administrator for the SharePoint server.
 
-    1.  In SharePoint 2010 Central Administration, choose the **Manage the farm administrators group** link.
+    1. In SharePoint 2010 Central Administration, choose the **Manage the farm administrators group** link.
 
-    2.  On the **Farm Administrators** page, choose the **New** menu option
+    2. On the **Farm Administrators** page, choose the **New** menu option
 
 3. Add your user account to the to the WSS_ADMIN_WPG group.
 

@@ -58,11 +58,11 @@ Following are common problems that you might have with your VSPackage and tips t
 
 2. Make sure that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can find UI.dll for your VSPackage.
 
-   1.  Find the CLSID of the VSPackage in the Packages section of the registry:
+   1. Find the CLSID of the VSPackage in the Packages section of the registry:
 
         HKLM\Software\Microsoft\Visual Studio\\*\<version>*\Packages
 
-   2.  Verify that the path given by the SatelliteDll subkey is correct.
+   2. Verify that the path given by the SatelliteDll subkey is correct.
 
 ### To troubleshoot a VSPackage that behaves unexpectedly
 
@@ -70,13 +70,13 @@ Following are common problems that you might have with your VSPackage and tips t
 
      Good starting points for debugging are the constructor and the initialization method. You can also set breakpoints in the area you want to evaluate, such as a menu command. To enable breakpoints, you must run under the debugger.
 
-    1.  On the **Project** menu, click **Properties**.
+    1. On the **Project** menu, click **Properties**.
 
-    2.  On the **Property Pages** dialog box, select the **Debug** tab.
+    2. On the **Property Pages** dialog box, select the **Debug** tab.
 
-    3.  In the **Command line arguments** box, type the root suffix of the development environment that your VSPackage targets. For example, to select the experimental build, type: **/RootSuffix Exp**.
+    3. In the **Command line arguments** box, type the root suffix of the development environment that your VSPackage targets. For example, to select the experimental build, type: **/RootSuffix Exp**.
 
-    4.  On the **Debug** menu, click **Start Debugging** or press F5.
+    4. On the **Debug** menu, click **Start Debugging** or press F5.
 
         > [!NOTE]
         >  If you are debugging a project, create or load an existing instance of your project now.
@@ -89,13 +89,13 @@ Following are common problems that you might have with your VSPackage and tips t
 
      To improve readability while debugging, you can attach symbols to the debugger.
 
-    1.  From the **Tools/Options** menu, navigate to the **Debugging/Symbols** dialog box.
+    1. From the **Tools/Options** menu, navigate to the **Debugging/Symbols** dialog box.
 
-    2.  Add this **Symbol file (.pdb) location**:
+    2. Add this **Symbol file (.pdb) location**:
 
          [http://msdl.microsoft.com/download/symbols](http://msdl.microsoft.com/download/symbols)
 
-    3.  To improve performance, specify a symbol cache folder, for example:
+    3. To improve performance, specify a symbol cache folder, for example:
 
         ```
         C:\symbols
@@ -105,9 +105,9 @@ Following are common problems that you might have with your VSPackage and tips t
 
 1. For managed code, make sure that the reference paths are correct.
 
-   1.  On the **Project** menu, click **Properties**.
+   1. On the **Project** menu, click **Properties**.
 
-   2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.
+   2. Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.
 
         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer) to display the details of failed assembly loads.
 

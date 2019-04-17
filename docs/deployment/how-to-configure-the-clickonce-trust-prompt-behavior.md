@@ -49,9 +49,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type `regedit`, and then click **OK**.
+    2. In the **Open** box, type `regedit`, and then click **OK**.
 
 2. Find the following registry key:
 
@@ -108,9 +108,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type `regedit`, and then click **OK**.
+    2. In the **Open** box, type `regedit`, and then click **OK**.
 
 2. Find the following registry key:
 
@@ -165,9 +165,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type `regedit`, and then click **OK**.
+    2. In the **Open** box, type `regedit`, and then click **OK**.
 
 2. Find the following registry key:
 

@@ -37,9 +37,9 @@ This error generally occurs when users are connected to Visual Studio Online thr
   
 - If you want to use your default credentials with your proxy, you can do the following:  
   
-    1.  Find devenv.exe.config (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (or **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**).  
+    1. Find devenv.exe.config (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (or **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**).  
   
-    2.  In the configuration file, find the `<system.net>` block, and add this code:  
+    2. In the configuration file, find the `<system.net>` block, and add this code:  
   
         ```xml  
         <defaultProxy enabled="true" useDefaultCredentials="true">  

@@ -84,13 +84,13 @@ namespace MyNamespace
   
 4. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method calls the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token at the position just before the current cursor position. This token corresponds to the typed closing brace).  
   
-    1.  The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method on the <xref:Microsoft.VisualStudio.Package.Colorizer> object to obtain all tokens on the current line.  
+    1. The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method on the <xref:Microsoft.VisualStudio.Package.Colorizer> object to obtain all tokens on the current line.  
   
-    2.  The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object with the text of the current line.  
+    2. The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object with the text of the current line.  
   
-    3.  The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method repeatedly calls the <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object to gather all tokens from the current line.  
+    3. The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method repeatedly calls the <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object to gather all tokens from the current line.  
   
-    4.  The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls a private method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token that contains the desired position, and passes in the list of tokens obtained from the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method.  
+    4. The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls a private method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token that contains the desired position, and passes in the list of tokens obtained from the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method.  
   
 5. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method looks for a token trigger flag of <xref:Microsoft.VisualStudio.Package.TokenTriggers> on the token that is returned from the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method; that is, the token that represents the closing brace).  
   

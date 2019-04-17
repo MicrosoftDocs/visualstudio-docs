@@ -51,9 +51,9 @@ To help keep your code stable through successive changes, we recommend that you 
   
 1. Create the UML extension project and the unit test project.  
   
-    1.  **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+    1. **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-    2.  **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
+    2. **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
 2. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   

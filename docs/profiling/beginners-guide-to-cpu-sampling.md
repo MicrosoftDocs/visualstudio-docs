@@ -74,9 +74,9 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
      ![Profiler Hot Path](../profiling/media/profiler_hotpath.png "Profiler_HotPath")
 
-    1.  **Inclusive Samples** indicate how much work was done by the function and any functions called by it. High inclusive counts point to the functions that are most expensive overall.
+    1. **Inclusive Samples** indicate how much work was done by the function and any functions called by it. High inclusive counts point to the functions that are most expensive overall.
 
-    2.  **Exclusive Samples** indicate how much work was done by the code in the function body, excluding the work done by functions that were called by it. High exclusive counts may indicate a performance bottleneck within the function itself.
+    2. **Exclusive Samples** indicate how much work was done by the code in the function body, excluding the work done by functions that were called by it. High exclusive counts may indicate a performance bottleneck within the function itself.
 
 2. Click the function name to display the **Function Details** view of the profiling data. The **Function Details** view presents a graphical view of the profiling data for the selected function, showing all the functions that called that function and all the functions that were called by the selected function.
 

@@ -18,9 +18,9 @@ A project subtype may need to persist subtype-specific data into the project fil
   
 1. Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
   
-    1.  Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.  
+    1. Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.  
   
-    2.  Configuration-dependent data. That is, data stored in MSBuild elements that are conditioned for a particular project configuration. For example:  
+    2. Configuration-dependent data. That is, data stored in MSBuild elements that are conditioned for a particular project configuration. For example:  
   
         ```  
         <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">  
@@ -28,9 +28,9 @@ A project subtype may need to persist subtype-specific data into the project fil
   
 2. Persist data that is not relevant to build. This data can be expressed in free-form XML that is not validated against an XML schema.  
   
-    1.  Configuration-independent data.  
+    1. Configuration-independent data.  
   
-    2.  Configuration-dependent data.  
+    2. Configuration-dependent data.  
   
 ## Persisting Build-Related Information  
  Persistence of data useful for building a project is handled through MSBuild. The MSBuild system maintains a master table of build-related information. Project subtypes are responsible for accessing this data to get and set property values. Project subtypes can also augment the build-related data table by adding additional properties to be persisted and by removing properties so they are not persisted.  

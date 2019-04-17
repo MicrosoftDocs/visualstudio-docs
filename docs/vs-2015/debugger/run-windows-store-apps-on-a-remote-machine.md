@@ -114,9 +114,9 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
   
 1. On the **Tools** menu of the **Visual Studio Remote Debugging Monitor**:  
   
-   1.  Choose **Options** to change the port number, authentication mode, or timeout interval of the remote debugger.  
+   1. Choose **Options** to change the port number, authentication mode, or timeout interval of the remote debugger.  
   
-   2.  Choose **Permissions** to add or remove users that have permission for remote debugging.  
+   2. Choose **Permissions** to add or remove users that have permission for remote debugging.  
   
        > [!NOTE]
        >  Permissions must be granted to every user account that debugs remotely.  

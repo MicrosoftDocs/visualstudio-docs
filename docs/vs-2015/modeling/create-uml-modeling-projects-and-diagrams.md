@@ -55,9 +55,9 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
      \- or -  
   
-   1.  Select **Create a new modeling project**, and then click **OK**.  
+   1. Select **Create a new modeling project**, and then click **OK**.  
   
-   2.  In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
+   2. In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
   
         ![Create New Modeling Project dialog](../modeling/media/uml-createmodel.png "UML_CreateModel")  
   

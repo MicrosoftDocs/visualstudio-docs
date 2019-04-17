@@ -27,11 +27,11 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
 4. In your unit test project, add a reference to the code under test.  Here’s how to create the reference to a code project in the same solution:  
   
-    1.  Select the project in Solution Explorer.  
+    1. Select the project in Solution Explorer.  
   
-    2.  On the **Project** menu, choose **Add Reference...**.  
+    2. On the **Project** menu, choose **Add Reference...**.  
   
-    3.  In the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Check the code project name and close the dialog box.  
+    3. In the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Check the code project name and close the dialog box.  
   
 5. If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding references.  
   

@@ -21,9 +21,9 @@ If you want to work with the **Properties** window or the **Property** pages, fo
   
 1. Call `QueryInterface` for <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>.  
   
-    1.  To do this, use the site pointer passed to the view when it was created.  
+    1. To do this, use the site pointer passed to the view when it was created.  
   
-    2.  Call `QueryService` from the view for the `SID_STrackSelection` service.  
+    2. Call `QueryService` from the view for the `SID_STrackSelection` service.  
   
          This returns a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
   

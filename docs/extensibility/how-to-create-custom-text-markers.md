@@ -63,9 +63,9 @@ If you want to create a custom text marker to emphasize or organize code, you mu
 
      This interface is called when
 
-    1.  A user starts the IDE for the first time.
+    1. A user starts the IDE for the first time.
 
-    2.  A user selects the **Reset Defaults** button under the **Fonts and Colors** property page in the **Environment** folder, located on the left pane of the **Options** dialog box obtained from the **Tools** menu of the IDE.
+    2. A user selects the **Reset Defaults** button under the **Fonts and Colors** property page in the **Environment** folder, located on the left pane of the **Options** dialog box obtained from the **Tools** menu of the IDE.
 
 2. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider.GetTextMarkerType%2A> method, specifying which `IVsPackageDefinedTextMarkerType` implementation should be returned based on the marker type GUID specified in the method call.
 

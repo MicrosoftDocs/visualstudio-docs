@@ -38,13 +38,13 @@ For other (non-user) locations, you must include a manifest(.vstman) file that s
 
 6. You can test the update by doing the following:
 
-    1.  The file scanning change is activated by the following registry key:
+    1. The file scanning change is activated by the following registry key:
 
          **reg add hklm\software\microsoft\visualstudio\15.0\VSTemplate /v DisableTemplateScanning /t REG_DWORD /d 1 /reg:32**
 
-    2.  After you have added the key, run **devenv /installvstemplates**.
+    2. After you have added the key, run **devenv /installvstemplates**.
 
-    3.  Reopen Visual Studio. You should find your template in the expected location.
+    3. Reopen Visual Studio. You should find your template in the expected location.
 
     > [!NOTE]
     >  The Visual Studio Extensibility project templates are not available when the registry key is present. You must delete the registry key (and rerun **devenv /installvstemplates**) to use them.

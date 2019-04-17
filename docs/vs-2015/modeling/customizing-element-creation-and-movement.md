@@ -83,9 +83,9 @@ You can allow an element to be dragged onto another, either from the toolbox or 
   
 2. To let users merge elements onto `ExampleElement` shapes, create a new EMD in the `ExampleElement` domain class:  
   
-   1.  In **DSL Explorer**, expand **Domain Classes**. Right-click `ExampleElement` and then click **Add New Element Merge Directive**.  
+   1. In **DSL Explorer**, expand **Domain Classes**. Right-click `ExampleElement` and then click **Add New Element Merge Directive**.  
   
-   2.  Make sure that the **DSL Details** window is open, so that you can see the details of the new EMD. (Menu: **View**, **Other Windows**, **DSL Details**.)  
+   2. Make sure that the **DSL Details** window is open, so that you can see the details of the new EMD. (Menu: **View**, **Other Windows**, **DSL Details**.)  
   
 3. Set the **Indexing class** in the DSL Details window, to define what class of elements can be merged onto `ExampleElement` objects.  
   
@@ -113,17 +113,17 @@ You can allow an element to be dragged onto another, either from the toolbox or 
   
 5. Test the DSL:  
   
-   1.  Press F5 to rebuild and run the solution.  
+   1. Press F5 to rebuild and run the solution.  
   
         Rebuilding will take longer than usual because the generated code will be updated from text templates to conform to the new DSL Definition.  
   
-   2.  When the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] has started, open a model file of your DSL. Create some example elements.  
+   2. When the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] has started, open a model file of your DSL. Create some example elements.  
   
-   3.  Drag from the **Example Element** tool onto an existing shape.  
+   3. Drag from the **Example Element** tool onto an existing shape.  
   
         A new shape appears, and it is linked to the existing shape with a connector.  
   
-   4.  Copy an existing shape. Select another shape and paste.  
+   4. Copy an existing shape. Select another shape and paste.  
   
         A copy of the first shape is created.  It has a new name and it is linked to the second shape with a connector.  
   
@@ -190,17 +190,17 @@ You can allow an element to be dragged onto another, either from the toolbox or 
   
 6. Test the DSL:  
   
-    1.  Press F5 to rebuild the solution. When the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens, open an instance of your DSL.  
+    1. Press F5 to rebuild the solution. When the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens, open an instance of your DSL.  
   
-    2.  Create new elements in several ways:  
+    2. Create new elements in several ways:  
   
-        1.  Drag from the **Example Element** tool onto the diagram.  
+        1. Drag from the **Example Element** tool onto the diagram.  
   
-        2.  In the **Example Model Explorer**, right-click the root node and then click **Add New Example Element**.  
+        2. In the **Example Model Explorer**, right-click the root node and then click **Add New Example Element**.  
   
-        3.  Copy and paste an element on the diagram.  
+        3. Copy and paste an element on the diagram.  
   
-    3.  Verify that you cannot use any of these ways to add more than four elements to the model. This is because they all use the Element Merge Directive.  
+    3. Verify that you cannot use any of these ways to add more than four elements to the model. This is because they all use the Element Merge Directive.  
   
 ## Example: Adding Custom Merge code to an EMD  
  In custom merge code, you can define what happens when the user drags a tool or pastes onto an element. There are two ways to define a custom merge:  

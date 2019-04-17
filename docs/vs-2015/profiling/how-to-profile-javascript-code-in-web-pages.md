@@ -70,9 +70,9 @@ manager: jillfra
   
 5. On the third page of the wizard:  
   
-    1.  Type the URL of the page in the **What URL or path will run your application** box.  
+    1. Type the URL of the page in the **What URL or path will run your application** box.  
   
-    2.  Select the **Profile JavaScript** check box, and then click **Next**.  
+    2. Select the **Profile JavaScript** check box, and then click **Next**.  
   
 6. On the fourth page of the wizard, click **Finish** to start the Web page in the browser.  
   

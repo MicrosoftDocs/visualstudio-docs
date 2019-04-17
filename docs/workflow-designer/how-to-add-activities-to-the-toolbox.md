@@ -46,7 +46,7 @@ Activities can be added to the **Toolbox** in your solution in several different
 
 4. Select the assembly and click **OK**. The custom activity component is added to the list of components and is automatically selected.
 
-    1.  Click **OK** to close the dialog.
+    1. Click **OK** to close the dialog.
 
 5. To display the toolbox, select **Toolbox** from the **View** menu.
 

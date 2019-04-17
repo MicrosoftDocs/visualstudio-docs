@@ -80,15 +80,15 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 6. Find the \<PropertyGroup> element that contains the \<TargetPlatformVersion> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
   
-    1.  Set the value of the \<Platform> element to: **x86**.  
+    1. Set the value of the \<Platform> element to: **x86**.  
   
-    2.  Add a \<TargetPlatformIdentifier> element and set its value to: **UAP**.  
+    2. Add a \<TargetPlatformIdentifier> element and set its value to: **UAP**.  
   
-    3.  Change the existing value of the \<TargetPlatformVersion> element to be the value of the Universal Windows Platform version that you installed. Also add a \<TargetPlatformMinVersion> element and give it the same value.  
+    3. Change the existing value of the \<TargetPlatformVersion> element to be the value of the Universal Windows Platform version that you installed. Also add a \<TargetPlatformMinVersion> element and give it the same value.  
   
-    4.  Change the value of the \<MinimumVisualStudioVersion> element to: **14**.  
+    4. Change the value of the \<MinimumVisualStudioVersion> element to: **14**.  
   
-    5.  Replace the \<ProjectTypeGuids> element as shown below:  
+    5. Replace the \<ProjectTypeGuids> element as shown below:  
   
          For C#:  
   
@@ -102,9 +102,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
         <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>  
         ```  
   
-    6.  Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: **true**.  
+    6. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: **true**.  
   
-    7.  The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    7. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
   
          Now your \<PropertyGroup> element should look similar to this example:  
   
@@ -258,17 +258,17 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 3. Find the \<PropertyGroup> element that contains the \<ApplicationTypeRevision> element with a value of 8.1. Do the following steps for this \<PropertyGroup> element:  
   
-    1.  Add a \<WindowsTargetPlatformVersion> element and a \<WindowsTargetPlatformMinVersion> element and give them the value of the Universal Windows Platform version that you installed.  
+    1. Add a \<WindowsTargetPlatformVersion> element and a \<WindowsTargetPlatformMinVersion> element and give them the value of the Universal Windows Platform version that you installed.  
   
-    2.  Update the value of ApplicationTypeRevision element from 8.1 to 10.0.  
+    2. Update the value of ApplicationTypeRevision element from 8.1 to 10.0.  
   
-    3.  Change the value of the \<MinimumVisualStudioVersion> element to: 14.  
+    3. Change the value of the \<MinimumVisualStudioVersion> element to: 14.  
   
-    4.  Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: true.  
+    4. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: true.  
   
-    5.  The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    5. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
   
-    6.  For Windows Phone projects only, change the value of \<ApplicationType> from Windows Phone to Windows Store.  
+    6. For Windows Phone projects only, change the value of \<ApplicationType> from Windows Phone to Windows Store.  
   
          Now your \<PropertyGroup> element should look similar to this example:  
   
@@ -579,9 +579,9 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 17. You need to remove some hidden files before you can reopen your solution.  
   
-    1.  Open File Explorer, click **View** in the toolbar and select **Hidden items** and **File name extensions**. Open this folder on your machine: \<path for the location of your solution>\\.vs\\{Project Name}\v14. If there is a file with a .suo file extension, then delete it.  
+    1. Open File Explorer, click **View** in the toolbar and select **Hidden items** and **File name extensions**. Open this folder on your machine: \<path for the location of your solution>\\.vs\\{Project Name}\v14. If there is a file with a .suo file extension, then delete it.  
   
-    2.  Now go back to the folder where your solution is located. Open any folders for projects that exist in your solution. If a file inside any of these project folders has a .csproj.user or .vbproj.user extension, then delete it.  
+    2. Now go back to the folder where your solution is located. Open any folders for projects that exist in your solution. If a file inside any of these project folders has a .csproj.user or .vbproj.user extension, then delete it.  
   
          You can now reopen your solution in Visual Studio. You are ready to code, build, and debug your app using the Universal Windows Platform.  
   
@@ -725,13 +725,13 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 13. Open the Package.appxmanifest file in your project.  
   
-    1.  Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
+    1. Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
   
         ```xml  
         <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />  
         ```  
   
-    2.  Save your changes.  
+    2. Save your changes.  
   
 14. Use the NuGet manager to add the packages that you deleted in the earlier step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](http://docs.nuget.org/) version 3.  
   
@@ -794,13 +794,13 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 7. Open the Package.appxmanifest file in your project.  
   
-    1.  Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
+    1. Find the \<TargetDeviceFamily> element. Change its MinVersion and MaxVersionTested attributes to correspond to the Universal Windows Platform version that you have installed. Like this:  
   
         ```xml  
         <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />  
         ```  
   
-    2.  Save your changes.  
+    2. Save your changes.  
   
          You can now code, build, and debug your app.  
   

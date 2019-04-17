@@ -32,16 +32,16 @@ Performance reports can be configured for noise reduction by limiting the amount
 
 2. To enable trimming, follow these steps:
 
-    1.  Select **Enable Trimming**. This is the default setting.
+    1. Select **Enable Trimming**. This is the default setting.
 
         > [!NOTE]
         >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
 
-    2.  Configure the value setting by using the **Value** drop-down list and choosing the applicable setting.
+    2. Configure the value setting by using the **Value** drop-down list and choosing the applicable setting.
 
-    3.  Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.
+    3. Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.
 
-    4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
+    4. To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
 
 3. To disable trimming, clear **Enable Trimming**.
 
@@ -55,16 +55,16 @@ Performance reports can be configured for noise reduction by limiting the amount
 
 2. To enable folding, follow these steps:
 
-    1.  Select **Enable Folding**. This is the default setting.
+    1. Select **Enable Folding**. This is the default setting.
 
         > [!NOTE]
         >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
 
-    2.  Configure the value setting by using the **Value** drop-down list and selecting the applicable setting.
+    2. Configure the value setting by using the **Value** drop-down list and selecting the applicable setting.
 
-    3.  Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.
+    3. Configure the desired threshold setting by typing a percentage value in the **Threshold** text box.
 
-    4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
+    4. To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
 
 3. To disable folding, clear **Enable Folding**.
 

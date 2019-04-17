@@ -41,9 +41,9 @@ You can package several DSLs as part of a single solution so that they are insta
   
 2. Combine the VSIX manifests of the DSLs:  
   
-   1.  Open _YourVsixProject_**\source.extension.manifest**.  
+   1. Open _YourVsixProject_**\source.extension.manifest**.  
   
-   2.  For each DSL, choose **Add Content** and add:  
+   2. For each DSL, choose **Add Content** and add:  
   
        - `Dsl*` project as a **MEF Component**  
   

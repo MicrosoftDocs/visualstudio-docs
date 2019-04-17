@@ -196,19 +196,19 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 4. Choose the **Add Files** button. In the **Add Files** dialog box, add the following files from the **MyVSShellStub\Release** folder:  
   
-    1.  MyVSShellStub.exe.config  
+    1. MyVSShellStub.exe.config  
   
-    2.  DebuggerProxy.dll  
+    2. DebuggerProxy.dll  
   
-    3.  DebuggerProxy.dll.manifest  
+    3. DebuggerProxy.dll.manifest  
   
-    4.  MyVSShellStub.pkgdef  
+    4. MyVSShellStub.pkgdef  
   
-    5.  MyVSShellStub.pkgundef  
+    5. MyVSShellStub.pkgundef  
   
-    6.  MyVSShellStub.winprf  
+    6. MyVSShellStub.winprf  
   
-    7.  Splash.bmp  
+    7. Splash.bmp  
   
 5. Click the **Add Project Outputs** button and add **MyVSShellStub/Primary Output**. Click **OK**.  
   

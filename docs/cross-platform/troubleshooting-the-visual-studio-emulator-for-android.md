@@ -114,13 +114,13 @@ This topic contains information to help you resolve issues that you may experien
 
 - Remove any other Hyper-V instances of the emulator.
 
-    1.  Close Visual Studio.
+    1. Close Visual Studio.
 
-    2.  Open Hyper-V Manager and stop any Hyper-V instances of the Emulator (Virtual Machines) that are already running and possibly in a corrupt state.
+    2. Open Hyper-V Manager and stop any Hyper-V instances of the Emulator (Virtual Machines) that are already running and possibly in a corrupt state.
 
-    3.  In Hyper-V Manager, delete any other emulator VMs.
+    3. In Hyper-V Manager, delete any other emulator VMs.
 
-    4.  Reboot your machine.
+    4. Reboot your machine.
 
 - Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes (for example, try closing any browser windows).
 

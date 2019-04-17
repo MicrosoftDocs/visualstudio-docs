@@ -296,9 +296,9 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 2. Create operations in the class or interface for each message that the lifeline receives:  
   
-    1.  Select all the messages that you want to include.  
+    1. Select all the messages that you want to include.  
   
-    2.  Right-click one of the messages, and then click **Create Method**.  
+    2. Right-click one of the messages, and then click **Create Method**.  
   
          The new class or interface has operations for each selected message.  
   
@@ -311,15 +311,15 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 3. To view the new class or interface in detail, add it to a class or component diagram.  
   
-    1.  Open or create a class or component diagram.  
+    1. Open or create a class or component diagram.  
   
-    2.  Drag the new class or interface from **UML Model Explorer** to a class diagram.  
+    2. Drag the new class or interface from **UML Model Explorer** to a class diagram.  
   
          The class or interface appears in the class diagram.  
   
          \- or -  
   
-    3.  Drag the new interface from **UML Model Explorer** onto a component or port in a component diagram.  
+    3. Drag the new interface from **UML Model Explorer** onto a component or port in a component diagram.  
   
          The interface appears on the component as a lollipop.  
   

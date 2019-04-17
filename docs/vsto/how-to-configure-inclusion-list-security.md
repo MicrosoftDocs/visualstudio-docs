@@ -34,9 +34,9 @@ ms.workload:
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
 2. Find the following registry key:
 
@@ -93,9 +93,9 @@ ms.workload:
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
 2. Find the following registry key:
 
@@ -152,9 +152,9 @@ ms.workload:
 
 1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
 2. Create the following registry key if this does not already exist:
 

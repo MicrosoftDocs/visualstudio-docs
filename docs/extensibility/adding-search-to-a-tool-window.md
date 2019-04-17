@@ -224,9 +224,9 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 
 3. Test your search implementation by performing the following steps:
 
-    1.  Rebuild the project and start debugging.
+    1. Rebuild the project and start debugging.
 
-    2.  In the experimental instance of Visual Studio, open the tool window again, enter some search text in the search window, and click **ENTER**.
+    2. In the experimental instance of Visual Studio, open the tool window again, enter some search text in the search window, and click **ENTER**.
 
          The correct results should appear.
 
@@ -322,13 +322,13 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 
 3. Test the option:
 
-    1.  Build the project and start debugging. The experimental instance appears.
+    1. Build the project and start debugging. The experimental instance appears.
 
-    2.  In the tool window, choose the Down arrow on the right side of the text box.
+    2. In the tool window, choose the Down arrow on the right side of the text box.
 
          The **Match case** check box appears.
 
-    3.  Select the **Match case** check box, and then perform some searches.
+    3. Select the **Match case** check box, and then perform some searches.
 
 ## To add a search filter
  You can add search filters that allow users to refine the set of search targets. For example, you can filter files in File Explorer by the dates on which they were modified most recently and their file name extensions. In this walkthrough, you'll add a filter for even lines only. When the user chooses that filter, the search host adds the strings that you specify to the search query. You can then identify these strings inside your search method and filter the search targets accordingly.

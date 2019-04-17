@@ -249,15 +249,15 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 3. **Define an image, if you created an image shape**.  
   
-   1.  Create an image file of any size. BMP, JPEG, GIF and EMF formats are supported.  
+   1. Create an image file of any size. BMP, JPEG, GIF and EMF formats are supported.  
   
-   2.  In Solution Explorer, add the file to the solution under Dsl\Resources.  
+   2. In Solution Explorer, add the file to the solution under Dsl\Resources.  
   
-   3.  Return to the DSL Definition diagram and select the new image shape class.  
+   3. Return to the DSL Definition diagram and select the new image shape class.  
   
-   4.  In the Properties window, click the **Image** property.  
+   4. In the Properties window, click the **Image** property.  
   
-   5.  In the **Select Image** dialog box, click the drop-down menu under **File name**, and select the image.  
+   5. In the **Select Image** dialog box, click the drop-down menu under **File name**, and select the image.  
   
 4. **Add text decorators to the shape, to display the domain properties.**  
   
@@ -285,18 +285,18 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 7. **Make a toolbox item for creating elements of the domain class.**  
   
-   1.  In **DSL Explorer**, expand the **Editor** node and all its sub-nodes.  
+   1. In **DSL Explorer**, expand the **Editor** node and all its sub-nodes.  
   
-   2.  Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.  
+   2. Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.  
   
        > [!NOTE]
        >  If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.  
   
-   3.  In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.  
+   3. In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.  
   
-   4.  Set **Caption** and **Tooltip**.  
+   4. Set **Caption** and **Tooltip**.  
   
-   5.  Set **Toolbox Icon** to an icon that will appear in the toolbox. You can set it to a new icon or an icon already used for another tool.  
+   5. Set **Toolbox Icon** to an icon that will appear in the toolbox. You can set it to a new icon or an icon already used for another tool.  
   
         To create a new icon, open Dsl\Resources in **Solution Explorer**. Copy and paste one of the existing element tool BMP files. Rename the pasted copy, and then double-click to edit it.  
   
@@ -316,9 +316,9 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 5. **Verify that each text decorator appears,** and that:  
   
-   1.  You can edit it, unless you have set the **Is UI Read Only** flag on the domain property.  
+   1. You can edit it, unless you have set the **Is UI Read Only** flag on the domain property.  
   
-   2.  When you edit the property either in the Properties window or in the decorator, the other view is updated.  
+   2. When you edit the property either in the Properties window or in the decorator, the other view is updated.  
   
    After you first test a shape, you might want to adjust some its properties and add some more advanced features. For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
@@ -398,9 +398,9 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 8. **Verify that each text decorator appears,** and that:  
   
-   1.  You can edit it, unless you have set the **Is UI Read Only** flag on the domain property.  
+   1. You can edit it, unless you have set the **Is UI Read Only** flag on the domain property.  
   
-   2.  When you edit the property either in the Properties window or in the decorator, the other view is updated.  
+   2. When you edit the property either in the Properties window or in the decorator, the other view is updated.  
   
    After you first test a connector, you might want to adjust some its properties and add some more advanced features. For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
@@ -447,9 +447,9 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 7. Select the diagram element map link between the domain class and the shape. In the **DSL Details** window:  
   
-    1.  Click the **Decorators** tab. Click the name of the decorator and then select the appropriate item under **Display Property**. Make sure that a check mark appears next to the name of the decorator.  
+    1. Click the **Decorators** tab. Click the name of the decorator and then select the appropriate item under **Display Property**. Make sure that a check mark appears next to the name of the decorator.  
   
-    2.  Click the **Compartment Maps** tab.  
+    2. Click the **Compartment Maps** tab.  
   
          Click the name of the compartment.  
   

@@ -515,7 +515,7 @@ ms.workload:
     </Project>
     ```
 
-    1.  If you're creating a Visual Basic project template, use the following XML.
+    1. If you're creating a Visual Basic project template, use the following XML.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>

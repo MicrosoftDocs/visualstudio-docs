@@ -63,10 +63,10 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
 2. Expand each VSIX file into a folder in the same location:  
   
-    1.  Change the file name extension from **.vsix** to **.zip**.  
+    1. Change the file name extension from **.vsix** to **.zip**.  
   
-    2.  Extract the content of the .zip file to a folder.  
+    2. Extract the content of the .zip file to a folder.  
   
-    3.  Delete the .zip file  
+    3. Delete the .zip file  
   
 3. Restart [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].

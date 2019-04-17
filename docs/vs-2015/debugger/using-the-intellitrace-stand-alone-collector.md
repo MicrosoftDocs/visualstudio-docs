@@ -89,19 +89,19 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
    - **Visual Studio installation folder**:
 
-     1.  Copy IntelliTraceCollection.cab from the following folder:
+     1. Copy IntelliTraceCollection.cab from the following folder:
 
           **..\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\12.0.0**
 
-     2.  Put IntelliTraceCollection.cab in the collector directory, for example: **C:\IntelliTraceCollector**
+     2. Put IntelliTraceCollection.cab in the collector directory, for example: **C:\IntelliTraceCollector**
 
 3. Expand IntelliTraceCollection.cab:
 
-   1.  On your app’s server, open a command prompt window as an administrator.
+   1. On your app’s server, open a command prompt window as an administrator.
 
-   2.  Browse to the collector directory, for example: **C:\IntelliTraceCollector**
+   2. Browse to the collector directory, for example: **C:\IntelliTraceCollector**
 
-   3.  Use the **expand** command, including the period (**.**) at the end, to expand IntelliTraceCollection.cab:
+   3. Use the **expand** command, including the period (**.**) at the end, to expand IntelliTraceCollection.cab:
 
         `expand  /f:* IntelliTraceCollection.cab .`
 
@@ -118,13 +118,13 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 3. To collect data for a Web app or SharePoint application:
 
-    1.  Give the person who will run the IntelliTrace PowerShell cmdlets full permissions to the collector directory.
+    1. Give the person who will run the IntelliTrace PowerShell cmdlets full permissions to the collector directory.
 
          For example:
 
          `icacls "C:\IntelliTraceCollector" /grant "` *\<Domain\UserID>* `":F`
 
-    2.  Give the application pool for the Web app or SharePoint application read and execute permissions to the collector directory.
+    2. Give the application pool for the Web app or SharePoint application read and execute permissions to the collector directory.
 
          For example:
 
@@ -144,17 +144,17 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 2. Install the IntelliTrace PowerShell cmdlets.
 
-    1.  Open a PowerShell command window as an administrator.
+    1. Open a PowerShell command window as an administrator.
 
-        1.  Choose **Start**, **All Programs**, **Accessories**, **Windows PowerShell**.
+        1. Choose **Start**, **All Programs**, **Accessories**, **Windows PowerShell**.
 
-        2.  Choose one of the following steps:
+        2. Choose one of the following steps:
 
             - On 64-bit operating systems, open the shortcut menu for **Windows PowerShell**. Choose **Run as administrator**.
 
             - On 32-bit operating systems, open the shortcut menu for **Windows PowerShell (x86)**. Choose **Run as administrator**.
 
-    2.  In the PowerShell command window, use the **Import-Module** command to import **Microsoft.VisualStudio.IntelliTrace.PowerShell.dll**.
+    2. In the PowerShell command window, use the **Import-Module** command to import **Microsoft.VisualStudio.IntelliTrace.PowerShell.dll**.
 
          For example:
 
@@ -190,19 +190,19 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
    - To set up permissions with Windows Explorer (or File Explorer):
 
-     1.  Open **Properties** for the .iTrace file directory.
+     1. Open **Properties** for the .iTrace file directory.
 
-     2.  On the **Security** tab, choose **Edit**, **Add**.
+     2. On the **Security** tab, choose **Edit**, **Add**.
 
-     3.  Make sure **Built-in security principals** appears in the **Select this object type** box. If it’s not there, choose **Object Types** to add it.
+     3. Make sure **Built-in security principals** appears in the **Select this object type** box. If it’s not there, choose **Object Types** to add it.
 
-     4.  Make sure your local computer appears in the **From this location** box. If it’s not there, choose **Locations** to change it.
+     4. Make sure your local computer appears in the **From this location** box. If it’s not there, choose **Locations** to change it.
 
-     5.  In the **Enter the object names to select** box, add the application pool for the Web app or SharePoint application.
+     5. In the **Enter the object names to select** box, add the application pool for the Web app or SharePoint application.
 
-     6.  Choose **Check Names** to resolve the name. Choose **OK**.
+     6. Choose **Check Names** to resolve the name. Choose **OK**.
 
-     7.  Make sure the application pool has **Full control**.
+     7. Make sure the application pool has **Full control**.
 
 ##  <a name="BKMK_Collect_Data_from_IIS_Application_Pools"></a> Collect data from a Web app or SharePoint application
 

@@ -80,13 +80,13 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
      Copy and paste an existing component.  
   
-    1.  Find an existing component in a diagram or in **UML Model Explorer**.  
+    1. Find an existing component in a diagram or in **UML Model Explorer**.  
   
-    2.  Right-click the component and then click **Copy**.  
+    2. Right-click the component and then click **Copy**.  
   
-    3.  Open the diagram where you want the copied component to appear.  
+    3. Open the diagram where you want the copied component to appear.  
   
-    4.  Right-click a blank part of the diagram and then click **Paste**.  
+    4. Right-click a blank part of the diagram and then click **Paste**.  
   
          A copy of the component appears with a new name.  
   
@@ -144,16 +144,16 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 - Copy and paste a reference to an interface from a diagram.  
   
-    1.  On a class diagram or a component diagram, right-click the interface and then click **Copy**.  
+    1. On a class diagram or a component diagram, right-click the interface and then click **Copy**.  
   
-    2.  On the component diagram, right-click the component, and then click **Paste Reference**.  
+    2. On the component diagram, right-click the component, and then click **Paste Reference**.  
   
          A provided interface appears on the component. An Action tag appears nearby.  
   
         > [!NOTE]
         >  If you use **Paste** instead of **Paste Reference**, a new interface that has a new name will be created.  
   
-    3.  If you wanted to create a required interface, click the Action tag and then click **Convert to Required Interface**.  
+    3. If you wanted to create a required interface, click the Action tag and then click **Convert to Required Interface**.  
   
 ##  <a name="Parts"></a> Showing the Internal Parts of a Component  
  ![Component diagram showing internal parts](../modeling/media/uml-compshowing.png "UML_CompShowing")  
@@ -176,7 +176,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 1. Create a part for each major functional unit that you consider to be a part of the parent component.  
   
-    1.  Click **Component** in the toolbox, and then click inside the parent component (1).  
+    1. Click **Component** in the toolbox, and then click inside the parent component (1).  
   
          A new part (3) appears inside the parent component.  
   
@@ -196,9 +196,9 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
          A new part (3) appears inside the parent component. Its type is the component you copied.  
   
-    2.  Click the new part's name to change it. You cannot change its type.  
+    2. Click the new part's name to change it. You cannot change its type.  
   
-    3.  You can add provided and required interfaces (4, 5) to the new part. Click the **Provided Interface** or **Required Interface** tool, and then click in the part.  
+    3. You can add provided and required interfaces (4, 5) to the new part. Click the **Provided Interface** or **Required Interface** tool, and then click in the part.  
   
          \- or -  
   
@@ -212,9 +212,9 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 3. Connect the parts to the parent component's ports:  
   
-    1.  Create one or more ports (7) on the parent component. Click **Required Interface** or **Provided Interface** on the toolbox, and then click the parent component.  
+    1. Create one or more ports (7) on the parent component. Click **Required Interface** or **Provided Interface** on the toolbox, and then click the parent component.  
   
-    2.  Delegate (9) the port to one or more parts. Click the **Delegation** tool, then a port on the parent component, and then a port on a part. You can connect ports that either provide or require interfaces in the same way.  
+    2. Delegate (9) the port to one or more parts. Click the **Delegation** tool, then a port on the parent component, and then a port on a part. You can connect ports that either provide or require interfaces in the same way.  
   
 ### Showing the Parts of a Part  
  After you have decomposed a component into parts, you can decompose each of the part types into its own internal parts.  

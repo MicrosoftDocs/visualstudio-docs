@@ -111,9 +111,9 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
   
 4. For each managed project in your solution, do the following  
   
-   1.  In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.  
+   1. In Solution Explorer, open the shortcut menu for the project and then choose **Properties**.  
   
-   2.  Select **Debug** and then choose **Enable unmanged code debugging**.  
+   2. Select **Debug** and then choose **Enable unmanged code debugging**.  
   
 ### To debug your solution with Code Center Premium source  
   

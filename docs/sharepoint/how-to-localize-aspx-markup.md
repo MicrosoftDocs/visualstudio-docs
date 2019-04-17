@@ -25,9 +25,9 @@ ms.workload:
 
      If you are localizing only markup and not code, add a Global Resources File project item. If you are localizing code and markup, add a Resources File project item.
 
-    1.  To add a Global Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under the SharePoint **2010** node, choose the **Global Resources File** template.
+    1. To add a Global Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under the SharePoint **2010** node, choose the **Global Resources File** template.
 
-    2.  To add a Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under either the **Visual Basic** or **Visual C#** node, choose the **Resources File** template.
+    2. To add a Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under either the **Visual Basic** or **Visual C#** node, choose the **Resources File** template.
 
     > [!NOTE]
     >  Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.

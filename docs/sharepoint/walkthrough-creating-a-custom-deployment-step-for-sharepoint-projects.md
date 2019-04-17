@@ -282,13 +282,13 @@ ms.workload:
 
 12. In the List Designer, on the **Columns** tab, choose the **Type a new or existing column name** row, and then add the following columns in the **Column Display Name** list:
 
-    1.  First Name
+    1. First Name
 
-    2.  Company
+    2. Company
 
-    3.  Business Phone
+    3. Business Phone
 
-    4.  E-Mail
+    4. E-Mail
 
 13. Save all files, and then close the List Designer.
 

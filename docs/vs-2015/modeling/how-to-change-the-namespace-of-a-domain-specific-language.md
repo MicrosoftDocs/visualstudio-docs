@@ -43,9 +43,9 @@ You can change the namespace of a domain-specific language. You must make the ch
   
 10. Reset the Visual Studio Experimental instance.  
   
-    1.  Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
+    1. Delete **\Users\\**_{your name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
   
-    2.  On the Windows **Start** menu, choose **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, **Reset the Experimental Instance**.  
+    2. On the Windows **Start** menu, choose **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, **Reset the Experimental Instance**.  
   
 11. On the **Build** menu, choose **Rebuild Solution**.  
   

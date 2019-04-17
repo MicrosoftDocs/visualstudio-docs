@@ -26,6 +26,6 @@ Sometimes it is necessary to know when an editor loses focus on the window frame
   
 4. Test the `varValueNew` parameter for two things:  
   
-    1.  The window frame you are looking for.  
+    1. The window frame you are looking for.  
   
-    2.  The point at which your program loses the selection to that window frame.
+    2. The point at which your program loses the selection to that window frame.

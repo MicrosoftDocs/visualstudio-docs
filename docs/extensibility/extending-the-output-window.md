@@ -23,9 +23,9 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
 
 2. Add the following references:
 
-    1.  EnvDTE
+    1. EnvDTE
 
-    2.  EnvDTE80
+    2. EnvDTE80
 
 3. In *TestOutput.cs*, add the following using statement:
 

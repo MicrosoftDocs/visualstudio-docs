@@ -103,11 +103,11 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
    To do this, you must perform the following main steps:
 
-  1.  Expose the class to COM.
+  1. Expose the class to COM.
 
-  2.  Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.
+  2. Override the **GetAutomationObject** method of a host item class in your project to return an instance of the class that you are exposing to VBA.
 
-  3.  Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.
+  3. Set the **ReferenceAssemblyFromVbaProject** property of any host item class in the project to **True**. This embeds the customization assembly's type library into the assembly and adds a reference to the type library to the VBA project in the document.
 
   For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).
 

@@ -148,27 +148,27 @@ Follow these steps to create and remove test settings in your solution for load 
 
      The **Setup and Cleanup Scripts** page is displayed.
 
-    1.  Type the location of the script file in **Setup script** or choose the ellipsis (**…**) to locate the setup script.
+    1. Type the location of the script file in **Setup script** or choose the ellipsis (**…**) to locate the setup script.
 
-    2.  Type the location of the script file in **Cleanup script** or choose the ellipsis (**…**) to locate the cleanup script.
+    2. Type the location of the script file in **Cleanup script** or choose the ellipsis (**…**) to locate the cleanup script.
 
 24. To run your tests by using a different host, choose **Hosts**.
 
-    1.  In **Host Type**, verify that the **Default** is selected.
+    1. In **Host Type**, verify that the **Default** is selected.
 
         > [!NOTE]
         > The **ASP.NET** in **Host type** is not supported in load tests.
 
-    2.  Use the **Run test in 32-bit or 64-bit** process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
+    2. Use the **Run test in 32-bit or 64-bit** process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
 
         > [!NOTE]
         > For maximum flexibility, you should compile your web performance and load test projects by using the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. Compiling web performance and load test projects by using the **64-bit** configuration offers no advantage.
 
 25. (Optional) To limit the time for each test run and individual tests, choose **Test Timeouts.**
 
-    1.  To abort a test run when a time limit is exceeded, select **Abort a test run if the total time exceeds** and then type a value for this limit.
+    1. To abort a test run when a time limit is exceeded, select **Abort a test run if the total time exceeds** and then type a value for this limit.
 
-    2.  To fail an individual test when a time limit is exceeded, select **Mark an individual test as failed if its execution time exceeds**, and type a value for this limit.
+    2. To fail an individual test when a time limit is exceeded, select **Mark an individual test as failed if its execution time exceeds**, and type a value for this limit.
 
 26. Skip **Unit Test**. Load tests do not use these settings.
 

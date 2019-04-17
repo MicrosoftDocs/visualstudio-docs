@@ -395,21 +395,21 @@ internal sealed class TestMouseProcessorProvider : IMouseProcessorProvider
 
 - <xref:Microsoft.VisualStudio.Text.Editor.DragDrop.DropFormatAttribute>: the text format for which this drop handler is valid. The following formats are handled in priority order from highest to lowest:
 
-  1.  Any custom format
+  1. Any custom format
 
-  2.  FileDrop
+  2. FileDrop
 
-  3.  EnhancedMetafile
+  3. EnhancedMetafile
 
-  4.  WaveAudio
+  4. WaveAudio
 
-  5.  Riff
+  5. Riff
 
-  6.  Dif
+  6. Dif
 
-  7.  Locale
+  7. Locale
 
-  8.  Palette
+  8. Palette
 
   9. PenData
 

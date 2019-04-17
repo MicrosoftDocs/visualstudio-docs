@@ -90,14 +90,14 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 3. If you are adding new commands to the IDE, add a `Buttons` element to the `Commands` element. Then, for each command, add a [Button](../../extensibility/button-element.md) element to the `Buttons` element.
 
-   1.  Set the `guid` and `id` attributes of each `Button` element, and then set the `type` attribute to the kind of button you want. You may also set the `priority` attribute to establish the relative position of the command in the parent group.
+   1. Set the `guid` and `id` attributes of each `Button` element, and then set the `type` attribute to the kind of button you want. You may also set the `priority` attribute to establish the relative position of the command in the parent group.
 
        > [!NOTE]
        >  Use `type="button"` for standard menu commands and buttons on toolbars.
 
-   2.  In the `Button` element, add a [Strings](../../extensibility/strings-element.md) element that contains a [ButtonText](../../extensibility/buttontext-element.md) element and a [CommandName](../../extensibility/commandname-element.md) element. The `ButtonText` element provides the text label for a menu item, or the tooltip for a toolbar button. The `CommandName` element provides the name of the command to use in the command well.
+   2. In the `Button` element, add a [Strings](../../extensibility/strings-element.md) element that contains a [ButtonText](../../extensibility/buttontext-element.md) element and a [CommandName](../../extensibility/commandname-element.md) element. The `ButtonText` element provides the text label for a menu item, or the tooltip for a toolbar button. The `CommandName` element provides the name of the command to use in the command well.
 
-   3.  If your command will have an icon, create an [Icon](../../extensibility/icon-element.md) element in the `Button` element, and set its `guid` and `id` attributes to the `Bitmap` element for the icon.
+   3. If your command will have an icon, create an [Icon](../../extensibility/icon-element.md) element in the `Button` element, and set its `guid` and `id` attributes to the `Bitmap` element for the icon.
 
        > [!NOTE]
        >  Toolbar buttons must have icons.
@@ -114,9 +114,9 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
     The target of the `Parent` element is the menu or group that will contain the menu, group, or command.
 
-   1.  Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding *.vsct* file.
+   1. Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding *.vsct* file.
 
-   2.  Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).
+   2. Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).
 
    If you have a large number of UI elements to place in the IDE, or if you have elements that should appear in multiple places, define their placements in the [CommandPlacements](../../extensibility/commandplacements-element.md) element, as shown in the following steps.
 
@@ -139,11 +139,11 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 1. To make a UI element visible only in certain UI contexts, for example, when a solution is loaded, use visibility constraints.
 
-   1.  After the `Commands` element, add a `VisibilityConstraints` element.
+   1. After the `Commands` element, add a `VisibilityConstraints` element.
 
-   2.  For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.
+   2. For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.
 
-   3.  For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class.
+   3. For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class.
 
 2. To set the visibility or availability of a UI item in code, use one or more of the following command flags:
 

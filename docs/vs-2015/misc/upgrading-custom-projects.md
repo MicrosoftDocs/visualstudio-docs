@@ -94,20 +94,20 @@ If you change the information persisted in the project file between different Vi
   
 - If you do not handle your own project reload, then you return `false` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>). In this case, before <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>([QEF_ForceEdit_NoPrompting](assetId:///T:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags?qualifyHint=False&autoUpgrade=True), [QEF_DisallowInMemoryEdits](assetId:///T:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags?qualifyHint=False&autoUpgrade=True),) returns, the environment creates another new, instance of your project, for example, Project2, as follows:  
   
-  1.  The environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.Close%2A> on your first project object, Project1, thus placing this object in the inactive state.  
+  1. The environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.Close%2A> on your first project object, Project1, thus placing this object in the inactive state.  
   
-  2.  The environment calls your `IVsProjectFactory::CreateProject` implementation to create a second instance of your project, Project2.  
+  2. The environment calls your `IVsProjectFactory::CreateProject` implementation to create a second instance of your project, Project2.  
   
-  3.  The environment calls your `IPersistFileFormat::Load` implementation to open the file and initialize the second project object, Project2.  
+  3. The environment calls your `IPersistFileFormat::Load` implementation to open the file and initialize the second project object, Project2.  
   
-  4.  The environment calls `IVsProjectUpgrade::UpgradeProject` for a second time to determine whether the project object should be upgraded. However, this call is made on a new, second, instance of the project, Project2. This is the project that is opened in the solution.  
+  4. The environment calls `IVsProjectUpgrade::UpgradeProject` for a second time to determine whether the project object should be upgraded. However, this call is made on a new, second, instance of the project, Project2. This is the project that is opened in the solution.  
   
       > [!NOTE]
       >  In the instance that your first project, Project1, is placed in the inactive state, then you must return <xref:Microsoft.VisualStudio.VSConstants.S_OK> from the first call to your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> implementation. See [Basic Project](http://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) for an implementation of `IVsProjectUpgrade::UpgradeProject`.  
   
-  5.  You call <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and pass in a value of <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags> for the `rgfQueryEdit` parameter.  
+  5. You call <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and pass in a value of <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags> for the `rgfQueryEdit` parameter.  
   
-  6.  The environment returns <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResult> and the upgrade can proceed because the project file can be written.  
+  6. The environment returns <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResult> and the upgrade can proceed because the project file can be written.  
   
   If you fail to upgrade, return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes> from `IVsProjectUpgrade::UpgradeProject`. If no upgrade is necessary or you choose not to upgrade, treat the `IVsProjectUpgrade::UpgradeProject` call as a no-op. If you return <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes>, a placeholder node is added to the solution for your project.  
   

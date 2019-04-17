@@ -71,11 +71,11 @@ Microsoft Fakes help you isolate the code you are testing by replacing other par
   
 2. **Add Fakes Assembly**  
   
-    1.  In Solution Explorer, expand the test project’s reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
+    1. In Solution Explorer, expand the test project’s reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.  
   
-    2.  Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.  
+    2. Select the reference to the assembly in which the interface (for example IStockFeed) is defined. On the shortcut menu of this reference, choose **Add Fakes Assembly**.  
   
-    3.  Rebuild the solution.  
+    3. Rebuild the solution.  
   
 3. In your tests, construct instances of the stub and provide code for its methods:  
   

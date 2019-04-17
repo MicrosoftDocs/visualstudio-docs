@@ -64,7 +64,7 @@ manager: jillfra
   
      If the **Preview reference changes** option is selected in the **Reorder Parameters** dialog box, the **Preview Changes - Reorder Parameters** dialog box will appear. It provides a preview of the changes in the parameter list for `MethodB` in both the signature and the method call.  
   
-    1.  If the **Preview Changes - Reorder Parameters** dialog box appears, click **Apply**.  
+    1. If the **Preview Changes - Reorder Parameters** dialog box appears, click **Apply**.  
   
          In this example, the method declaration and all the method call sites for `MethodB` are updated.  
   

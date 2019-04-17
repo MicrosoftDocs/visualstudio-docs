@@ -143,13 +143,13 @@ Use the **Data Sources** window to add a typed dataset to your project.
 
 8. Select the check box next to each of the following tables:
 
-    1.  **Customers**
+    1. **Customers**
 
-    2.  **Order Details**
+    2. **Order Details**
 
-    3.  **Orders**
+    3. **Orders**
 
-    4.  **Products**
+    4. **Products**
 
 9. Click **Finish**.
 

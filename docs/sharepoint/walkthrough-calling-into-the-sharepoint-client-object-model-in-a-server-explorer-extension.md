@@ -230,9 +230,9 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 2. Verify that the SharePoint site that you want to use for testing appears under the **SharePoint Connections** node in **Server Explorer**. If it's not listed, follow these steps:
 
-    1.  Open the shortcut menu for **SharePoint Connections**, and then choose **Add Connection**.
+    1. Open the shortcut menu for **SharePoint Connections**, and then choose **Add Connection**.
 
-    2.  In the **Add SharePoint Connection** dialog box, enter the URL for the SharePoint site to which you want to connect, and then choose the **OK** button.
+    2. In the **Add SharePoint Connection** dialog box, enter the URL for the SharePoint site to which you want to connect, and then choose the **OK** button.
 
          To specify the SharePoint site on your development computer, type **http://localhost**.
 

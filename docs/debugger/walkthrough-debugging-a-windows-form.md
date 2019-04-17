@@ -44,9 +44,9 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 2. In the Project Types pane, open the **Visual Basic**, **Visual C#**, or **Visual C++** node, then
 
-    1.  For Visual Basic or Visual C#, select **Windows Desktop** > **Windows Form App**.
+    1. For Visual Basic or Visual C#, select **Windows Desktop** > **Windows Form App**.
 
-    2.  For Visual C++, select **Windows Desktop Application**.
+    2. For Visual C++, select **Windows Desktop Application**.
 
 3. In the **Name** box, give the project a unique name (for example, Walkthrough_SimpleDebug).
 

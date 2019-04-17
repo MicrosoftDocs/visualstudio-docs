@@ -124,11 +124,11 @@ public void Withdraw(double amount)
   
     To create the reference to the code project:  
   
-   1.  Select the project in Solution Explorer.  
+   1. Select the project in Solution Explorer.  
   
-   2.  On the **Project** menu, choose **Add Reference**.  
+   2. On the **Project** menu, choose **Add Reference**.  
   
-   3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
+   3. On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
   
    Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:  
   

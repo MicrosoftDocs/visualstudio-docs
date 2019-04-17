@@ -51,21 +51,21 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 4. Convert the projects.
 
-   1.  Click **Convert**.
+   1. Click **Convert**.
 
         Before each project file is converted, a copy of _project_**.csproj** is saved as _project_**.vs2008.csproj**
 
         A copy of each _solution_**.sln** is saved as _solution_**.vs2008.sln**
 
-   2.  Investigate any failed conversions that are reported.
+   2. Investigate any failed conversions that are reported.
 
         Failures are reported in the text window. In addition, the tree view shows a red flag on each node that has failed to convert. You can click the node to get more information about that failure.
 
 5. **Transform All Templates** in solutions containing successfully converted projects.
 
-   1.  Open the solution.
+   1. Open the solution.
 
-   2.  Click the **Transform All Templates** button in the header of Solution Explorer.
+   2. Click the **Transform All Templates** button in the header of Solution Explorer.
 
        > [!NOTE]
        >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).

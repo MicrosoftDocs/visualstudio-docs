@@ -48,9 +48,9 @@ if (log == null) return;
   
 2. Use the service type and not the interface type when you call GetService. When requesting a service from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], <xref:Microsoft.VisualStudio.Shell.Package> extracts the GUID from the type. A service will not be found if the following conditions exist:  
   
-    1.  An interface type is passed to GetService instead of the service type.  
+    1. An interface type is passed to GetService instead of the service type.  
   
-    2.  No GUID is explicitly assigned to the interface. Therefore, the system creates a default GUID for an object as needed.  
+    2. No GUID is explicitly assigned to the interface. Therefore, the system creates a default GUID for an object as needed.  
   
 3. Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sites a VSPackage after constructing it and before calling <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>.  
   

@@ -56,19 +56,19 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
 5. To add an extension or content element that's included in the current solution (for example, an item template or a compiled assembly), perform the following steps:  
   
-    1.  In the **Source** list, choose **A project in current solution**.  
+    1. In the **Source** list, choose **A project in current solution**.  
   
-    2.  In the **Project** list, choose the name of the extension.  
+    2. In the **Project** list, choose the name of the extension.  
   
-    3.  In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
+    3. In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
   
 6. To add an extension or content element that isn't included in the current solution, perform the following steps:  
   
-    1.  In the **Source** list box, choose **File on filesystem**.  
+    1. In the **Source** list box, choose **File on filesystem**.  
   
-    2.  In the **Path** field, enter the full path to the compiled or compressed extension file, or use the **Browse** button to browse to the file.  
+    2. In the **Path** field, enter the full path to the compiled or compressed extension file, or use the **Browse** button to browse to the file.  
   
-    3.  In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
+    3. In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
   
 7. If you want your package to include additional extensions, add them in the same manner.  
   

@@ -50,9 +50,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 1. Create a Class Library project, either in a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, or in an existing solution.  
   
-   1.  On the **File** menu, choose **New**, **Project**.  
+   1. On the **File** menu, choose **New**, **Project**.  
   
-   2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column choose **Class Library**.  
+   2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column choose **Class Library**.  
   
 2. Add the following references to your project.  
   
@@ -202,9 +202,9 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 2. Create a VSIX project, unless your solution already has one.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
 3. Set the VSIX project as the startup project of the solution.  
   
@@ -212,11 +212,11 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 4. In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   
@@ -349,9 +349,9 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
 1. In your computer, find the **.vsix** file that was built by your VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

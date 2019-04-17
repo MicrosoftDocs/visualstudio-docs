@@ -78,19 +78,19 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 3. Validate building and debugging:  
   
-    1.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
+    1. Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
   
-    2.  Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below, or the **iPhone** target if you have a tethered device. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
+    2. Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below, or the **iPhone** target if you have a tethered device. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
   
          ![Selecting the iPhoneSimulator build target](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin Verify 5")  
   
-    3.  Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio. If you have a physical iPhone or iPad connected to the Mac, it will appear here and you can select it instead. If you do not see any devices or simulators listed, check the connection to the Mac by reviewing the topic linked in step 1 above, or by going to **Tools** >**iOS** >**Xamarin Mac Agent**  
+    3. Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio. If you have a physical iPhone or iPad connected to the Mac, it will appear here and you can select it instead. If you do not see any devices or simulators listed, check the connection to the Mac by reviewing the topic linked in step 1 above, or by going to **Tools** >**iOS** >**Xamarin Mac Agent**  
   
          ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")  
   
-    4.  If you encounter problems connecting to the Mac, read [Connection Troubleshooting](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/xma-troubleshooting/) (xamarin.com).  
+    4. If you encounter problems connecting to the Mac, read [Connection Troubleshooting](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/xma-troubleshooting/) (xamarin.com).  
   
-    5.  If you see an error saying "No installed provisioning profiles match the installed iOS signing keys, do the following:  
+    5. If you see an error saying "No installed provisioning profiles match the installed iOS signing keys, do the following:  
   
         - Check that your Apple Id account is added in Xcode on your Mac as described on [Adding Your Account to Xcode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).  After adding your account, be sure to restart both Visual Studio and Xcode.  
   

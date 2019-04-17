@@ -37,13 +37,13 @@ ms.workload:
 
 4. For Visual Basic projects:
 
-    1.  Expand the **Method Name** list.
+    1. Expand the **Method Name** list.
 
-    2.  Locate the **OnCOLUMNNAMEChanging** method for the column you want to add validation to.
+    2. Locate the **OnCOLUMNNAMEChanging** method for the column you want to add validation to.
 
-    3.  An `OnCOLUMNNAMEChanging` method is added to the partial class.
+    3. An `OnCOLUMNNAMEChanging` method is added to the partial class.
 
-    4.  Add the following code to first verify that a value has been entered and then to ensure that the value entered for the column is acceptable for your application. The `value` argument contains the proposed value, so add logic to confirm that it is a valid value:
+    4. Add the following code to first verify that a value has been entered and then to ensure that the value entered for the column is acceptable for your application. The `value` argument contains the proposed value, so add logic to confirm that it is a valid value:
 
         ```vb
         If value.HasValue Then
@@ -83,13 +83,13 @@ ms.workload:
 
 4. For Visual Basic projects:
 
-    1.  Expand the **Method Name** list.
+    1. Expand the **Method Name** list.
 
-    2.  Click **UpdateENTITYCLASSNAME**.
+    2. Click **UpdateENTITYCLASSNAME**.
 
-    3.  An `UpdateENTITYCLASSNAME` method is added to the partial class.
+    3. An `UpdateENTITYCLASSNAME` method is added to the partial class.
 
-    4.  Access individual column values by using the `instance` argument, as shown in the following code:
+    4. Access individual column values by using the `instance` argument, as shown in the following code:
 
         ```vb
         If (instance.COLUMNNAME = x) And (instance.COLUMNNAME = y) Then

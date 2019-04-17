@@ -61,25 +61,25 @@ Authentication of the user who requested debugging was prevented by an authentic
 
 2. Turn on Windows Authentication and II6 Management Compatibility, if you have not previously done this, by following these steps:
 
-    1.  Click **Start**, click **Control Panel** and then click **Programs**.
+    1. Click **Start**, click **Control Panel** and then click **Programs**.
 
-    2.  Under **Programs and Features**, click **Turn Windows features on or off**.
+    2. Under **Programs and Features**, click **Turn Windows features on or off**.
 
          The User Access Control dialog box appears and prompts you for permission to continue.
 
-    3.  Click **Continue**.
+    3. Click **Continue**.
 
          The Windows Features dialog box appears.
 
-    4.  In the feature list, expand the **Internet Information Services** node.
+    4. In the feature list, expand the **Internet Information Services** node.
 
-    5.  Under **Internet Information Services**, expand the **World Wide Web Services** node.
+    5. Under **Internet Information Services**, expand the **World Wide Web Services** node.
 
-    6.  Under **World Wide Web Services**, click **Security**.
+    6. Under **World Wide Web Services**, click **Security**.
 
-    7.  Click **Windows Authentication**.
+    7. Click **Windows Authentication**.
 
-    8.  Under **Internet Information Services**, expand the **Web Management Tools** node.
+    8. Under **Internet Information Services**, expand the **Web Management Tools** node.
 
     9. Under **Web Management Tools**, expand the **IIS 6 Management Compatibility** node, and select the **IIS 6 Metabase and IIS 6 Configuration Compatibility** check box.
 

@@ -31,13 +31,13 @@ We recommend that you create unit tests to help keep your code working correctly
   
     For example, to create a test that uses the MSTest Framework:  
   
-   1.  Create a test project.  
+   1. Create a test project.  
   
         In the **New Project** dialog box, expand **Visual Basic**, **Visual C#**, or **Visual C++**, and then choose **Test**.  
   
         Select **Unit Test Project**.  
   
-   2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.  
+   2. Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.  
   
 2. If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
   
@@ -96,15 +96,15 @@ We recommend that you create unit tests to help keep your code working correctly
   
 4. Generate the method from the test.  
   
-   1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate**, **New Type**.  
+   1. Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate**, **New Type**.  
   
-   2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.  
+   2. In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.  
   
-   3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate**, **Method Stub**.  
+   3. Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate**, **Method Stub**.  
   
 5. Run the unit test.  
   
-   1.  On the **Test** menu, choose **Run Unit Tests**, **All Tests**.  
+   1. On the **Test** menu, choose **Run Unit Tests**, **All Tests**.  
   
         The solution builds and runs.  
   

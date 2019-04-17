@@ -74,15 +74,15 @@ To enable debugging your web application, you must complete the following config
 
 1. Enable Just My Code:
 
-    1.  On the **Tools** menu, choose **Options** and then choose **Debugging**.
+    1. On the **Tools** menu, choose **Options** and then choose **Debugging**.
 
-    2.  Select **Enable Just My Code**.
+    2. Select **Enable Just My Code**.
 
 2. Disable CLR exceptions:
 
-    1.  On the **Debug** menu, choose **Exceptions**.
+    1. On the **Debug** menu, choose **Exceptions**.
 
-    2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
+    2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
 If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 

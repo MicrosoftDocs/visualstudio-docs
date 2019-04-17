@@ -101,21 +101,21 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 
 5. If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:
 
-    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn't exist, it is assumed to be the current version.
+    1. The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn't exist, it is assumed to be the current version.
 
-    2.  The default tools version in the *MSBuild.exe.config* file.
+    2. The default tools version in the *MSBuild.exe.config* file.
 
-    3.  The default tools version in the registry. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
+    3. The default tools version in the registry. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
 
 6. If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is not set, then the following steps are used:
 
-    1.  If the environment variable `MSBUILDDEFAULTTOOLSVERSION` is set to a `ToolsVersion` that exists, use it.
+    1. If the environment variable `MSBUILDDEFAULTTOOLSVERSION` is set to a `ToolsVersion` that exists, use it.
 
-    2.  If `DefaultOverrideToolsVersion` is set in *MSBuild.exe.config*, use it.
+    2. If `DefaultOverrideToolsVersion` is set in *MSBuild.exe.config*, use it.
 
-    3.  If `DefaultOverrideToolsVersion` is set in the registry, use it.
+    3. If `DefaultOverrideToolsVersion` is set in the registry, use it.
 
-    4.  Otherwise, use the current `ToolsVersion`.
+    4. Otherwise, use the current `ToolsVersion`.
 
 ## See also
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

@@ -106,11 +106,11 @@ You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed
   
 7. If this project includes compiled code, you must edit the project so that the assembly is included in the output.  
   
-    1.  Unload the VSIX project and open the project file.  
+    1. Unload the VSIX project and open the project file.  
   
-    2.  In the first `<PropertyGroup>` block, change the value of `<CopyBuildOutputToOutputDirectory>` to `true`.  
+    2. In the first `<PropertyGroup>` block, change the value of `<CopyBuildOutputToOutputDirectory>` to `true`.  
   
-    3.  Save and reload the project.  
+    3. Save and reload the project.  
   
 8. Build and run the solution.  
   

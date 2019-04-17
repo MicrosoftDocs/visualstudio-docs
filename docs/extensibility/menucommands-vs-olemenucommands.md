@@ -57,9 +57,9 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
    </Button>
    ```
 
-   1.  Set the `guid` and `id` fields to match the GUID:ID of the new command.
+   1. Set the `guid` and `id` fields to match the GUID:ID of the new command.
 
-   2.  Set the `priority` attribute.
+   2. Set the `priority` attribute.
 
         The `priority` attribute is used by the .vsct to determine the location of the button among the other objects in its parent group.
 
@@ -67,7 +67,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
 
         Omitting the `priority` attribute sets its value to 0.
 
-   3.  Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button element](../extensibility/button-element.md).
+   3. Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button element](../extensibility/button-element.md).
 
 5. In the button definition, create a [Strings](../extensibility/strings-element.md) element that contains a [ButtonText](../extensibility/buttontext-element.md) element to contain the name of the menu as it appears in the IDE, and a [CommandName](../extensibility/commandname-element.md) element to contain the name of the command that is used to access the menu in the **Command** window.
 

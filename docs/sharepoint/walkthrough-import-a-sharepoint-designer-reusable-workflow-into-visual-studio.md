@@ -182,11 +182,11 @@ ms.workload:
 
 11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn't import the association property values for the imported workflow, you must enter them. To do this:
 
-    1.  In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.
+    1. In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.
 
-    2.  Choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to one of the list properties, such as the **Target List** property.
+    2. Choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to one of the list properties, such as the **Target List** property.
 
-    3.  Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.
+    3. Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.
 
 12. Choose the .xoml file, and then, on the menu bar, choose **View** > **Designer** to view the imported workflow in the workflow designer.
 

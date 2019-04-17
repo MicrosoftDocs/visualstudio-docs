@@ -149,9 +149,9 @@ To make it easy to create an element or group of elements according to a pattern
   
      Define a new Visual Studio extension project.  
   
-    1.  On the **File** menu, choose **New**, **Project**.  
+    1. On the **File** menu, choose **New**, **Project**.  
   
-    2.  In the **New Project** dialog box, under **Installed Templates**, choose **Visual C#**, **Extensibility**, **VSIX project**.  
+    2. In the **New Project** dialog box, under **Installed Templates**, choose **Visual C#**, **Extensibility**, **VSIX project**.  
   
 4. Add your toolbox definitions to the project. Include the **.tbxinfo** file, the diagram files, bitmap files, and any resource files, and make sure that they are included in the VSIX.  
   

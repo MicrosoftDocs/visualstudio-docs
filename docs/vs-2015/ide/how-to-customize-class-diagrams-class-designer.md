@@ -68,11 +68,11 @@ You can change the way that class diagrams display information. You can customiz
   
 3. Select one of the available options:  
   
-    1.  **Group by Kind** separates individual type members into a grouped list of Properties, Methods, Events, and Fields. The individual groups depend on the entities definition: for example, a class will not display any events group if there are no events yet defined for that class.  
+    1. **Group by Kind** separates individual type members into a grouped list of Properties, Methods, Events, and Fields. The individual groups depend on the entities definition: for example, a class will not display any events group if there are no events yet defined for that class.  
   
-    2.  **Group by Access** separates individual type members into a grouped list based on the member's access modifiers. For example, Public and Private.  
+    2. **Group by Access** separates individual type members into a grouped list based on the member's access modifiers. For example, Public and Private.  
   
-    3.  **Sort Alphabetically** displays the items that make up an entity as a single alphabetized list. The list is sorted in ascending order.  
+    3. **Sort Alphabetically** displays the items that make up an entity as a single alphabetized list. The list is sorted in ascending order.  
   
 ##  <a name="HideCompartments"></a> Hide compartments on a type  
   

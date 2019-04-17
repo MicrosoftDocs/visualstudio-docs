@@ -55,11 +55,11 @@ You can use this capability to debug apps that are running on a local or remote 
 
 3. In the **Attach to** box, make sure that the type of code you will debug is listed. The default **Automatic** setting tries to determine what type of code you want to debug. To set the type of code manually, do the following
 
-    1.  In the **Attach to** box, click **Select**.
+    1. In the **Attach to** box, click **Select**.
 
-    2.  In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.
+    2. In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.
 
-    3.  Click **OK**.
+    3. Click **OK**.
 
 4. Click **Attach**.
 

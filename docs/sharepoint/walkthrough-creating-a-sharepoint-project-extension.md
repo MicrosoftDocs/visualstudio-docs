@@ -170,15 +170,15 @@ ms.workload:
 
 3. In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create a SharePoint project for a farm solution, and use the default values for the other values in the wizard.
 
-    1.  On the menu bar, choose **File** > **New** > **Project**.
+    1. On the menu bar, choose **File** > **New** > **Project**.
 
-    2.  At the top of the **New Project** dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.
+    2. At the top of the **New Project** dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.
 
          SharePoint tool extensions require features in this version of the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].
 
-    3.  Under the **Templates** node, expand the **Visual C#** or **Visual Basic** node, choose the **SharePoint** node, and then choose the **2010** node.
+    3. Under the **Templates** node, expand the **Visual C#** or **Visual Basic** node, choose the **SharePoint** node, and then choose the **2010** node.
 
-    4.  Choose the **SharePoint 2010 Project** template, and then enter **ModuleTest** as the name of your project.
+    4. Choose the **SharePoint 2010 Project** template, and then enter **ModuleTest** as the name of your project.
 
 4. In **Solution Explorer**, choose the **ModuleTest** project node.
 

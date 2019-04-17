@@ -56,7 +56,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 3. Verify that the tests run in Test Explorer:
 
-    1.  Insert some test code:
+    1. Insert some test code:
 
         ```cpp
         TEST_METHOD(TestMethod1)
@@ -67,7 +67,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.
 
-    2.  On the **Test** menu, choose **Run** > **All Tests**.
+    2. On the **Test** menu, choose **Run** > **All Tests**.
 
          The test builds and runs.
 
@@ -111,11 +111,11 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 1. Add the DLL project to the project references of the test project:
 
-   1.  Open the properties of the test project and choose **Common Properties** > **Framework and References**.
+   1. Open the properties of the test project and choose **Common Properties** > **Framework and References**.
 
         ![C++ project properties | Framework and References](../test/media/utecpp08.png)
 
-   2.  Choose **Add New Reference**.
+   2. Choose **Add New Reference**.
 
         In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
@@ -260,9 +260,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 4. To see why the test fails, step through the function:
 
-    1.  Set a breakpoint at the start of the SquareRoot function.
+    1. Set a breakpoint at the start of the SquareRoot function.
 
-    2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.
+    2. On the shortcut menu of the failed test, choose **Debug Selected Tests**.
 
          When the run stops at the breakpoint, step through the code.
 

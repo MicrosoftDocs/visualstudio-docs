@@ -31,11 +31,11 @@ Launching the debugger requires sending the correct sequence of methods and even
   
      If `S_OK` is returned, the DE is to be loaded in-process of the SDM. The SDM then performs the following tasks:  
   
-    1.  Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.  
+    1. Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.  
   
-    2.  Co-creates the DE.  
+    2. Co-creates the DE.  
   
-    3.  Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).  
+    3. Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).  
   
 4. The DE sends an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
   

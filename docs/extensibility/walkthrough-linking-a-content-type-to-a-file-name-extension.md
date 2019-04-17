@@ -29,11 +29,11 @@ You can define your own content type and link a file name extension to it by usi
 
 2. Add references to the following assemblies:
 
-    1.  System.ComponentModel.Composition
+    1. System.ComponentModel.Composition
 
-    2.  Microsoft.VisualStudio.Text.Logic
+    2. Microsoft.VisualStudio.Text.Logic
 
-    3.  Microsoft.VisualStudio.CoreUtility
+    3. Microsoft.VisualStudio.CoreUtility
 
 3. Add the following `using` directives.
 

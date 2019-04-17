@@ -37,7 +37,7 @@ ms.workload:
 
 3. If you want to create a foreign key-based association, select the **Is Foreign Key Association** check box.
 
-    1.  In the **Source ID** column of the **Identifier Mapping** table, choose the identifier next to each matching type descriptor that appears in the **Field** column.
+    1. In the **Source ID** column of the **Identifier Mapping** table, choose the identifier next to each matching type descriptor that appears in the **Field** column.
 
          For example, In the **Source ID** column, select `ContactID` next to the `ReadList.salesOrderList.SalesOrderList.SalesOrder.ContactID` type descriptor and the `ReadItem.salesOrder.SalesOrder.ContactID` type descriptor.
 

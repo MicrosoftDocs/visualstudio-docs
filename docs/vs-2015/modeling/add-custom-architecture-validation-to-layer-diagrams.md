@@ -65,15 +65,15 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. If you have to add a VSIX project, follow these steps:  
   
-    1.  In the **New Project** dialog box, choose **Visual C#**, **Extensibility**, **VSIX Project**.  
+    1. In the **New Project** dialog box, choose **Visual C#**, **Extensibility**, **VSIX Project**.  
   
-    2.  In **Solution Explorer**, on the shortcut menu of the VSIX project, **Set as Startup Project**.  
+    2. In **Solution Explorer**, on the shortcut menu of the VSIX project, **Set as Startup Project**.  
   
 3. In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:  
   
-    1.  Choose **New**.  
+    1. Choose **New**.  
   
-    2.  In the **Add New Asset** dialog box, set:  
+    2. In the **Add New Asset** dialog box, set:  
   
          **Type** = **Microsoft.VisualStudio.MefComponent**  
   
@@ -83,9 +83,9 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 4. You must also add it as a layer validation:  
   
-    1.  Choose **New**.  
+    1. Choose **New**.  
   
-    2.  In the **Add New Asset** dialog box, set:  
+    2. In the **Add New Asset** dialog box, set:  
   
          **Type** = **Microsoft.VisualStudio.ArchitectureTools.Layer.Validator**. This is not one of the options in the drop-down list. You must enter it from the keyboard.  
   

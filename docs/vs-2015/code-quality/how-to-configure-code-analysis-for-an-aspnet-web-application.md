@@ -29,9 +29,9 @@ In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort
   
 5. By default, code analysis is run on all projects in the solution. To disable or enable code analysis for a particular project, follow these steps:  
   
-    1.  Right-click the project name and then click Properties.  
+    1. Right-click the project name and then click Properties.  
   
-    2.  Check or clear the **Enable Code Analysis** check box. You can also run code analysis manually by selecting **Run Code Analysis on Web Site** from the **Analyze** menu.  
+    2. Check or clear the **Enable Code Analysis** check box. You can also run code analysis manually by selecting **Run Code Analysis on Web Site** from the **Analyze** menu.  
   
 6. In the **Run this rule set** drop-down list, follow these steps:  
   

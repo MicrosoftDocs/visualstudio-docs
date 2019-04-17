@@ -28,19 +28,19 @@ You can create a Visual Studio Integration Extension that responds when the user
   
 1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
-    1.  On the **File** menu, choose **New**, **Project**.  
+    1. On the **File** menu, choose **New**, **Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column click **Class Library**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column click **Class Library**.  
   
-    3.  Set **Solution** to indicate whether you want to create a new solution or to add a component to a VSIX solution that you have already opened.  
+    3. Set **Solution** to indicate whether you want to create a new solution or to add a component to a VSIX solution that you have already opened.  
   
-    4.  Set the project Name and Location and click OK.  
+    4. Set the project Name and Location and click OK.  
   
 2. Unless your solution already contains one, create a VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
 3. Set the VSIX project as the startup project of the solution.  
   
@@ -48,11 +48,11 @@ You can create a Visual Studio Integration Extension that responds when the user
   
 4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   

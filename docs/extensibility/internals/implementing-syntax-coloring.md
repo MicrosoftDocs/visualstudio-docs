@@ -33,25 +33,25 @@ When the language service provides syntax colorization, the parser converts a li
 
 4. For each line in the buffer, the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method, which performs the following steps:
 
-    1.  The line of text is passed to a scanner to convert the text into tokens. Each token specifies the token text and the token type.
+    1. The line of text is passed to a scanner to convert the text into tokens. Each token specifies the token text and the token type.
 
-    2.  The token type is converted into an index into a colorable items list.
+    2. The token type is converted into an index into a colorable items list.
 
-    3.  The token information is used to fill in an array such that each element of the array corresponds to a character in the line. The values stored in the array are the indexes into the colorable items list.
+    3. The token information is used to fill in an array such that each element of the array corresponds to a character in the line. The values stored in the array are the indexes into the colorable items list.
 
-    4.  The state at the end of the line is returned for each line.
+    4. The state at the end of the line is returned for each line.
 
 5. If the colorizer requires the state to be maintained, the editor caches the state for that line.
 
 6. The editor renders the line of text using the information returned from the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method. This requires the following steps:
 
-    1.  For each character in the line, get the colorable item index.
+    1. For each character in the line, get the colorable item index.
 
-    2.  If using the default colorable items, access the editor's colorable items list.
+    2. If using the default colorable items, access the editor's colorable items list.
 
-    3.  Otherwise, call the language service's <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A> method to obtain a colorable item.
+    3. Otherwise, call the language service's <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A> method to obtain a colorable item.
 
-    4.  Use the information in the colorable item to render the text into the display.
+    4. Use the information in the colorable item to render the text into the display.
 
 ## Managed Package Framework Colorizer
  The managed package framework (MPF) provides all the classes that are required to implement a colorizer. Your language service class should inherit the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the required methods. You must supply a scanner and parser by implementing the <xref:Microsoft.VisualStudio.Package.IScanner> interface, and return an instance of that interface from the <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method (one of the methods that must be implemented in the <xref:Microsoft.VisualStudio.Package.LanguageService> class). For more information, see [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md).

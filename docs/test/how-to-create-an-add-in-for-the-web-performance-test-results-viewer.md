@@ -111,21 +111,21 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 4. Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
 
-    1.  Choose **Dock in Parent Container**.
+    1. Choose **Dock in Parent Container**.
 
-    2.  Clear the check boxes for **Enable Adding**, **Enable Editing**, **Enable Deleting** and **Enable Column Reordering**.
+    2. Clear the check boxes for **Enable Adding**, **Enable Editing**, **Enable Deleting** and **Enable Column Reordering**.
 
-    3.  Choose **Add Column**.
+    3. Choose **Add Column**.
 
          The **Add Column** dialog box is displayed.
 
-    4.  In the **Type** drop-down list, select **DataGridViewTextBoxColumn**.
+    4. In the **Type** drop-down list, select **DataGridViewTextBoxColumn**.
 
-    5.  Clear the text "Column1" in **Header text**.
+    5. Clear the text "Column1" in **Header text**.
 
-    6.  Choose **Add**.
+    6. Choose **Add**.
 
-    7.  Choose **Close**.
+    7. Choose **Close**.
 
 5. In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
 

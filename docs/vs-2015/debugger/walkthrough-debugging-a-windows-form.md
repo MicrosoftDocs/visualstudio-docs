@@ -49,9 +49,9 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 2. In the Project Types pane, open the **Visual Basic**, **Visual C#**, or **Visual C++** node, then  
   
-    1.  For Visual Basic or Visual C#, select the **Windows** node, then select **Windows Form Application** in the **Templates** pane.  
+    1. For Visual Basic or Visual C#, select the **Windows** node, then select **Windows Form Application** in the **Templates** pane.  
   
-    2.  For Visual C++, select the **CLR** node, then select **Windows Form Application** in the **Templates** pane..  
+    2. For Visual C++, select the **CLR** node, then select **Windows Form Application** in the **Templates** pane..  
   
 3. In the **Templates** pane, select **Windows Application**.  
   

@@ -30,9 +30,9 @@ You can install a domain-specific language on your own computer or on other comp
   
 1. In your computer, find the **.vsix** file that was built by your DSL Package project.  
   
-    1.  In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**  
   
 2. Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.  
   
@@ -71,9 +71,9 @@ You can install a domain-specific language on your own computer or on other comp
   
 1. Set `InstalledByMsi` in the extension manifest. This prevents the VSX from being installed and uninstalled except by the MSI. This is important if you will include other components in the MSI.  
   
-   1.  Open DslPackage\source.extension.tt  
+   1. Open DslPackage\source.extension.tt  
   
-   2.  Insert the following line before `<SupportedProducts>`:  
+   2. Insert the following line before `<SupportedProducts>`:  
   
        ```  
        <InstalledByMsi>true</InstalledByMsi>  

@@ -83,13 +83,13 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
      Note that:  
   
-    1.  Each test is defined by using the `[TestMethod]`. A test method must return void and can't have any parameters.  
+    1. Each test is defined by using the `[TestMethod]`. A test method must return void and can't have any parameters.  
   
-    2.  Test methods must be in a class decorated with the `[TestClass]` attribute.  
+    2. Test methods must be in a class decorated with the `[TestClass]` attribute.  
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order.  
   
-    3.  You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) in the MSDN Library.  
+    3. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) in the MSDN Library.  
   
 ##  <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer  
   
@@ -143,17 +143,17 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 1. Add a reference to the Maths app to the RooterTests project.  
   
-   1.  In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
+   1. In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
   
-   2.  On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
+   2. On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
   
         ![Add a reference to the Maths project](../test/media/ute-cs-windows-addreference.png "UTE_Cs_windows_AddReference")  
   
 2. Add a using statement to the UnitTest1.cs file:  
   
-   1.  Open **UnitTest1.cs**.  
+   1. Open **UnitTest1.cs**.  
   
-   2.  Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
+   2. Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
   
        ```csharp  
        using Maths;  
@@ -286,13 +286,13 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 3. To see why the test fails, step through the function:  
   
-   1.  Set a breakpoint at the start of the `SquareRoot` function.  
+   1. Set a breakpoint at the start of the `SquareRoot` function.  
   
-   2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
+   2. On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
   
         When the run stops at the breakpoint, step through the code.  
   
-   3.  Add code to the Rooter method to catch the exception:  
+   3. Add code to the Rooter method to catch the exception:  
   
        ```csharp  
        public double SquareRoot(double x)  
@@ -304,7 +304,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
        ```  
   
-   1.  In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
+   1. In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
   
    All tests now pass.  
   

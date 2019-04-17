@@ -63,21 +63,21 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
   
-    1.  In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.  
+    1. In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.  
   
-    2.  In Solution Explorer, right-click the VSIX project and then click **Set as Startup Project**.  
+    2. In Solution Explorer, right-click the VSIX project and then click **Set as Startup Project**.  
   
-    3.  Click **Select Editions** and make sure that **Visual Studio** is checked.  
+    3. Click **Select Editions** and make sure that **Visual Studio** is checked.  
   
 3. In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.  
   
-    1.  In the **Assets**.tab, choose **New**.  
+    1. In the **Assets**.tab, choose **New**.  
   
-    2.  At **Type**, select **Microsoft.VisualStudio.MefComponent**.  
+    2. At **Type**, select **Microsoft.VisualStudio.MefComponent**.  
   
-    3.  At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.  
+    3. At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.  
   
-    4.  Save the file.  
+    4. Save the file.  
   
 4. Return to the command or gesture handler project, and add the following project references.  
   

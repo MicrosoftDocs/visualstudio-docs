@@ -88,15 +88,15 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
 
 4. Generate the method from the test.
 
-   1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
+   1. Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
 
-   2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
+   2. In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
 
-   3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
+   3. Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
 
 5. Run the unit test.
 
-   1.  On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
+   1. On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
 
         The solution builds and runs.
 

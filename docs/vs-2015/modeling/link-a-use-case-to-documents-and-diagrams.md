@@ -52,11 +52,11 @@ You can link a use case in a use case diagram to another diagram or document. Fo
   
 1. Add the document to the solution.  
   
-    1.  Move the Word document into the same Windows folder as the solution.  
+    1. Move the Word document into the same Windows folder as the solution.  
   
-    2.  In Solution Explorer, right-click the solution, point to **Add**, and then click **Existing Item**.  
+    2. In Solution Explorer, right-click the solution, point to **Add**, and then click **Existing Item**.  
   
-    3.  Navigate to the Word document and click **Add**.  
+    3. Navigate to the Word document and click **Add**.  
   
          The Word document appears in a solution folder in Solution Explorer.  
   

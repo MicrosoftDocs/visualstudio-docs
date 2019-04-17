@@ -596,13 +596,13 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
    2. In the `<Properties>` section:  
   
-      1.  Add a `<Property/>` element for each new type of reference.  
+      1. Add a `<Property/>` element for each new type of reference.  
   
-      2.  Set the `Id` attribute to the name of the new reference attribute.  
+      2. Set the `Id` attribute to the name of the new reference attribute.  
   
-      3.  Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.  
+      3. Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.  
   
-      4.  Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.  
+      4. Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.  
   
       For example:  
   

@@ -28,7 +28,7 @@ You can upgrade a Visual Studio 2010 or Visual Studio 2012 custom start page to 
 
 6. Open StartPage.xaml with the XML editor and make the following changes:
 
-    1.  Update the namespaces. Change the following lines:
+    1. Update the namespaces. Change the following lines:
 
         ```
 

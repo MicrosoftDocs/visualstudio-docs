@@ -38,38 +38,38 @@ After you create a custom editor, you can add more features to it.
 
 6. Provide document persistence and response to external file changes:
 
-    1.  To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.
+    1. To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.
 
-    2.  To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.
+    2. To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.
 
         > [!NOTE]
         >  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to get a pointer to `IVsFileChangeEx`.
 
 7. Coordinate document edit events with source code control. Follow these steps:
 
-    1.  Get a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.
+    1. Get a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.
 
-    2.  When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method.
+    2. When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method.
 
          This method prompts the user to check out the file if it's not already checked out. Be sure to handle a "file not checked out" condition to avert errors.
 
-    3.  Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> method.
+    3. Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> method.
 
          This method prompts the user to save the file if it hasn't been saved or if it changed since the last save.
 
 8. Enable the **Properties** window to display properties for text selected in the editor. Follow these steps:
 
-    1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.
+    1. Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.
 
-    2.  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.
+    2. Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.
 
 9. Enable users to drag and drop items between the editor and the **Toolbox**, or between external editors (like Microsoft Word) and the **Toolbox**. Follow these steps:
 
-    1.  Implement `IDropTarget` on your editor to alert the IDE that your editor is a drop target.
+    1. Implement `IDropTarget` on your editor to alert the IDE that your editor is a drop target.
 
-    2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.
+    2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.
 
-    3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.
+    3. Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults%2A> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.
 
          These steps enable your VSPackage to add new items to the **Toolbox**.
 

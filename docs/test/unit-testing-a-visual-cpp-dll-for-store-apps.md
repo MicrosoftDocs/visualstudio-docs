@@ -95,13 +95,13 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 4. Add the ROOTERLIB_EXPORTS symbol to the command line.
 
-    1.  In **Solution Explorer**, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
+    1. In **Solution Explorer**, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
 
          ![Add a preprocessor symbol definition](../test/media/ute_cpp_windows_addpreprocessorsymbol.png)
 
-    2.  In the **RooterLib Property Page** dialog box, expand **Configuration Properties**, expand **C++** and choose **Preprocessor**.
+    2. In the **RooterLib Property Page** dialog box, expand **Configuration Properties**, expand **C++** and choose **Preprocessor**.
 
-    3.  Choose **\<Edit...>** from the **Preprocessor Definitions** list, and then add `ROOTERLIB_EXPORTS` in the **Preprocessor Definitions** dialog box.
+    3. Choose **\<Edit...>** from the **Preprocessor Definitions** list, and then add `ROOTERLIB_EXPORTS` in the **Preprocessor Definitions** dialog box.
 
 5. Add minimal implementations of the declared functions. Open *RooterLib.cpp* and add the following code:
 
@@ -123,19 +123,19 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1. Add RooterLib to the RooterLibTests project.
 
-   1.  In **Solution Explorer**, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
+   1. In **Solution Explorer**, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
 
-   2.  On the **RooterLib Project Properties** dialog box, expand **Common Properties** and choose **Framework and References**.
+   2. On the **RooterLib Project Properties** dialog box, expand **Common Properties** and choose **Framework and References**.
 
-   3.  Choose **Add New Reference**
+   3. Choose **Add New Reference**
 
-   4.  In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
+   4. In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
 
 2. Include the RooterLib header file in *unittest1.cpp*.
 
-   1.  Open *unittest1.cpp*.
+   1. Open *unittest1.cpp*.
 
-   2.  Add this code to below the `#include "CppUnitTest.h"` line:
+   2. Add this code to below the `#include "CppUnitTest.h"` line:
 
        ```cpp
        #include "..\RooterLib\RooterLib.h"
@@ -272,13 +272,13 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 3. To see why the test fails, step through the function:
 
-   1.  Set a breakpoint at the start of the `SquareRoot` function.
+   1. Set a breakpoint at the start of the `SquareRoot` function.
 
-   2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.
+   2. On the shortcut menu of the failed test, choose **Debug Selected Tests**.
 
         When the run stops at the breakpoint, step through the code.
 
-   3.  Add code to *RooterLib.cpp* to catch the exception:
+   3. Add code to *RooterLib.cpp* to catch the exception:
 
        ```cpp
        #include <stdexcept>
@@ -294,7 +294,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
        ```
 
-   1.  In **Test Explorer**, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
+   1. In **Test Explorer**, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
 
    All tests now pass.
 

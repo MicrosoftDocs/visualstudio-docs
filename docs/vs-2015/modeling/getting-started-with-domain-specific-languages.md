@@ -118,9 +118,9 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 4. Use the tools to create shapes and connectors on the diagram.  
   
-   1.  To create shapes, drag from the Example Shape tool onto the diagram.  
+   1. To create shapes, drag from the Example Shape tool onto the diagram.  
   
-   2.  To connect two shapes, click the Example Connector tool, click the first shape, and then click the second shape.  
+   2. To connect two shapes, click the Example Connector tool, click the first shape, and then click the second shape.  
   
 5. Click the labels of the shapes to change them.  
   
@@ -190,27 +190,27 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 2. Rename the element and connector tools.  
   
-    1.  Open the DSL Explorer window by clicking the tab under Solution Explorer. If you cannot see it, on the **View** menu point to **Other Windows** and then click **DSL Explorer**. DSL Explorer is visible only when the DSL Definition diagram is the active window.  
+    1. Open the DSL Explorer window by clicking the tab under Solution Explorer. If you cannot see it, on the **View** menu point to **Other Windows** and then click **DSL Explorer**. DSL Explorer is visible only when the DSL Definition diagram is the active window.  
   
-    2.  Open the Properties window and position it so that you can see DSL Explorer and Properties at the same time.  
+    2. Open the Properties window and position it so that you can see DSL Explorer and Properties at the same time.  
   
-    3.  In DSL Explorer, expand **Editor**, **Toolbox Tabs**, *\<your DSL>*, and then **Tools**.  
+    3. In DSL Explorer, expand **Editor**, **Toolbox Tabs**, *\<your DSL>*, and then **Tools**.  
   
-    4.  Click **ExampleElement**. This is the toolbox item that is used to create elements.  
+    4. Click **ExampleElement**. This is the toolbox item that is used to create elements.  
   
-    5.  In the Properties window, change the **Name** property to **Person**.  
+    5. In the Properties window, change the **Name** property to **Person**.  
   
          Notice that the **Caption** property also changes.  
   
-    6.  In the same manner, change the name of the **ExampleConnector** tool to **ParentLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Parent Link**.  
+    6. In the same manner, change the name of the **ExampleConnector** tool to **ParentLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Parent Link**.  
   
 3. Rebuild the DSL.  
   
-    1.  Save the DSL Definition file.  
+    1. Save the DSL Definition file.  
   
-    2.  Click **Transform All Templates** in the toolbar of Solution Explorer  
+    2. Click **Transform All Templates** in the toolbar of Solution Explorer  
   
-    3.  Press F5. Wait until the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] appears.  
+    3. Press F5. Wait until the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] appears.  
   
 4. In the Debugging solution in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.  
   
@@ -231,29 +231,29 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 1. Add the properties.  
   
-   1.  In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.  
+   1. In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.  
   
-   2.  Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.  
+   2. Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.  
   
 2. Add decorators that will display the properties in the shape.  
   
-   1.  Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.  
+   1. Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.  
   
-   2.  Right-click this shape class, point to **Add**, and then click **Text Decorator**.  
+   2. Right-click this shape class, point to **Add**, and then click **Text Decorator**.  
   
-   3.  Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.  
+   3. Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.  
   
-   4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.  
+   4. Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.  
   
         ![Compartment shape definition](../modeling/media/familyt-compartment.png "FamilyT_Compartment")  
   
 3. Map the decorators to the properties.  
   
-   1.  Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.  
+   1. Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.  
   
-   2.  On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.  
+   2. On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.  
   
-   3.  In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.  
+   3. In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.  
   
 4. Save the DSL, click Transform All Templates, and press F5.  
   
@@ -272,7 +272,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 1. Add a domain class and make it a child of the model root.  
   
-    1.  In the DSL Definition diagram, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel**, and then click in an empty part of the diagram.  
+    1. In the DSL Definition diagram, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel**, and then click in an empty part of the diagram.  
   
          A new domain class appears, that is connected to the FamilyTreeModel with an embedding relationship.  
   
@@ -281,11 +281,11 @@ This topic explains the basic concepts in defining and using a domain-specific l
         > [!NOTE]
         >  Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.  
   
-    2.  Add a domain property to the new class, for example **Name**.  
+    2. Add a domain property to the new class, for example **Name**.  
   
 2. Add a reference relationship between Person and Town.  
   
-    1.  Click the **Reference Relationship** tool, click Person and then click Town.  
+    1. Click the **Reference Relationship** tool, click Person and then click Town.  
   
          ![DSL definition fragment: family tree root](../modeling/media/familyt-root.png "FamilyT_Root")  
   
@@ -294,45 +294,45 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 3. Add a shape to represent towns on the model diagrams.  
   
-    1.  Drag a **Geometry Shape** from the toolbox to the diagram and rename it, for example **TownShape**.  
+    1. Drag a **Geometry Shape** from the toolbox to the diagram and rename it, for example **TownShape**.  
   
-    2.  In the Properties window, set the Appearance fields of the new shape, such as Fill Color and Geometry.  
+    2. In the Properties window, set the Appearance fields of the new shape, such as Fill Color and Geometry.  
   
-    3.  Add a Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.  
+    3. Add a Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.  
   
 4. Map the Town domain class to the TownShape.  
   
-    1.  Click the **Diagram Element Map** tool, then click the Town domain class, and then the TownShape shape class.  
+    1. Click the **Diagram Element Map** tool, then click the Town domain class, and then the TownShape shape class.  
   
-    2.  In the **Decorator Maps** tab of the **DSL Details** window with the map connector selected, check NameDecorator and set **Display Property** to Name.  
+    2. In the **Decorator Maps** tab of the **DSL Details** window with the map connector selected, check NameDecorator and set **Display Property** to Name.  
   
 5. Create a connector to display the relationship between Person and Towns.  
   
-    1.  Drag a Connector from the toolbox to the diagram. Rename it and set its appearance properties.  
+    1. Drag a Connector from the toolbox to the diagram. Rename it and set its appearance properties.  
   
-    2.  Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.  
+    2. Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.  
   
          ![Family Tree definition with added shape map](../modeling/media/familyt-shapemap.png "FamilyT_ShapeMap")  
   
 6. Create an element tool for making a new Town.  
   
-    1.  In **DSL Explorer**, expand **Editor** then **Toolbox Tabs**.  
+    1. In **DSL Explorer**, expand **Editor** then **Toolbox Tabs**.  
   
-    2.  Right-click *\<your DSL>* and then click **Add New Element Tool**.  
+    2. Right-click *\<your DSL>* and then click **Add New Element Tool**.  
   
-    3.  Set the **Name** property of the new tool, and set its **Class** property to Town.  
+    3. Set the **Name** property of the new tool, and set its **Class** property to Town.  
   
-    4.  Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file.  
+    4. Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file.  
   
 7. Create a connector tool for making a link between towns and people.  
   
-    1.  Right-click *\<your DSL>* and then click **Add New Connector Tool**.  
+    1. Right-click *\<your DSL>* and then click **Add New Connector Tool**.  
   
-    2.  Set the Name property of the new tool.  
+    2. Set the Name property of the new tool.  
   
-    3.  In the **ConnectionBuilder** property, select the builder that contains the name of the Person-Town relationship.  
+    3. In the **ConnectionBuilder** property, select the builder that contains the name of the Person-Town relationship.  
   
-    4.  Set the **Toolbox Icon**.  
+    4. Set the **Toolbox Icon**.  
   
 8. Save the DSL Definition, click **Transform All Templates**, and then press **F5**.  
   

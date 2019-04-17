@@ -127,23 +127,23 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
 3. Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the .csproj file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.  
   
-    1.  Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.  
+    1. Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.  
   
-    2.  In the .csproj file, locate the SimpleProject.vsct item.  
+    2. In the .csproj file, locate the SimpleProject.vsct item.  
   
         ```  
         <None Include="SimpleProject.vsct" />  
         ```  
   
-    3.  Change the build action to **VSCTCompile**.  
+    3. Change the build action to **VSCTCompile**.  
   
         ```  
         <VSCTCompile Include="SimpleProject.vsct" />  
         ```  
   
-    4.  the project file and close the editor.  
+    4. the project file and close the editor.  
   
-    5.  Save the SimpleProject node, and then in the **Solution Explorer** click **Reload Project**.  
+    5. Save the SimpleProject node, and then in the **Solution Explorer** click **Reload Project**.  
   
 ## Examining the Visual Studio Template Build Steps  
  The VSPackage project build system typically runs Visual Studio in setup mode when the .vstemplate file is changed or the project that contains the .vstemplate file is rebuilt. You can follow along by setting the verbosity level of MSBuild to Normal or higher.  

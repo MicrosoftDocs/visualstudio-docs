@@ -149,9 +149,9 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
      \- or -  
   
-    1.  Choose **Properties**, then **Work Items** where the number of linked work items appears.  
+    1. Choose **Properties**, then **Work Items** where the number of linked work items appears.  
   
-    2.  In the **Work Items** property, choose the ellipsis button **[…]**.  
+    2. In the **Work Items** property, choose the ellipsis button **[…]**.  
   
         > [!NOTE]
         >  Only work items on the current server appear. If the list is empty, but the number of work items is not zero, make sure you are connected to the correct server in **Team Explorer**.  

@@ -328,9 +328,9 @@ ms.workload:
 
 2. Perform the following steps if the SharePoint site that you want to use for testing doesn't appear under the **SharePoint Connections** node in **Server Explorer**:
 
-    1.  In **Server Explorer**, open the shortcut menu for **SharePoint Connections**, and then choose **Add Connection**.
+    1. In **Server Explorer**, open the shortcut menu for **SharePoint Connections**, and then choose **Add Connection**.
 
-    2.  In the **Add SharePoint Connection** dialog box, enter the URL for the SharePoint site to which you want to connect, and then choose the **OK** button.
+    2. In the **Add SharePoint Connection** dialog box, enter the URL for the SharePoint site to which you want to connect, and then choose the **OK** button.
 
          To specify the SharePoint site on your development computer, enter **http://localhost**.
 

@@ -315,17 +315,17 @@ ms.workload:
 
     - Ensure that each user performs the following steps.
 
-        1.  On the local computer, open Word or Excel, choose the **File** tab, and then choose the **Options** button.
+        1. On the local computer, open Word or Excel, choose the **File** tab, and then choose the **Options** button.
 
-        2.  In the **Trust Center** dialog box, choose the **Trusted Locations** button.
+        2. In the **Trust Center** dialog box, choose the **Trusted Locations** button.
 
-        3.  Select the **Allow Trusted Locations on my network (not recommended)** check box, and then choose the **Add new location** button.
+        3. Select the **Allow Trusted Locations on my network (not recommended)** check box, and then choose the **Add new location** button.
 
-        4.  In the **Path** box, enter the URL of the SharePoint document library that contains the document that you uploaded (for example, *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName*).
+        4. In the **Path** box, enter the URL of the SharePoint document library that contains the document that you uploaded (for example, *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName*).
 
              Don't add the name of the default Web page, such as *default.aspx* or *AllItems.aspx*.
 
-        5.  Select the **Subfolders of this location are also trusted** check box, and then choose the **OK** button.
+        5. Select the **Subfolders of this location are also trusted** check box, and then choose the **OK** button.
 
              When users open the document from the SharePoint site, the document opens, and the customization is installed. Users can copy the document to their desktop. The customization will still run because properties in the document point to the network location of the document.
 

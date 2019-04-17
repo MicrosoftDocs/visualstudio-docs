@@ -54,11 +54,11 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 3. Check/clear the following boxes:  
   
-    1.  Check **Cross-Platform Mobile Development > C#/.NET (Xamarin)**. This will also automatically select various Android tools under Common Tools and Software Development Kits.  
+    1. Check **Cross-Platform Mobile Development > C#/.NET (Xamarin)**. This will also automatically select various Android tools under Common Tools and Software Development Kits.  
   
          ![Select the Xamarin option under Cross&#45;Platform Mobile Development](../cross-platform/media/cross-plat-xamarin-setup-2.png "Cross-Plat Xamarin Setup 2")  
   
-    2.  Clear **Cross-Platform Mobile Development > Microsoft Visual Studio Emulator for Android**.  
+    2. Clear **Cross-Platform Mobile Development > Microsoft Visual Studio Emulator for Android**.  
   
 4. Click the Install button and let the process run. Again, this will take some time to complete, during which time you can continue with this topic and go through [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md).  
   
@@ -118,12 +118,12 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 7. Validate building and debugging:  
   
-   1.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
+   1. Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
   
-   2.  Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
+   2. Select the **iPhoneSimulator** target from Visual Studio’s build drop-down as shown below. If no simulators are listed, launch Xcode on your Mac, select **Xcode->Preferences**, and click **Download**. Under **Components** you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the Xamarin’s [Debugging](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) page (xamarin.com).  
   
         ![Selecting the iPhoneSimulator build target](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin Verify 5")  
   
-   3.  Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio.  
+   3. Select an iPhone target from Visual Studio’s debug drop-down as shown below and start the debugger by pressing F5. This launches the simulator on the Mac where you’ll interact with the app, while debugging happens in Visual Studio.  
   
         ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")

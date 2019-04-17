@@ -88,17 +88,17 @@ SCCRTN SccGet(
 
 2. Do the equivalent of "delete old" followed by "add new". The following algorithm is one way to accomplish this.
 
-    1.  Call the [SccQueryChanges](../extensibility/sccquerychanges-function.md) function to learn about the renaming of *a.txt* to *b.txt* in the source control database.
+    1. Call the [SccQueryChanges](../extensibility/sccquerychanges-function.md) function to learn about the renaming of *a.txt* to *b.txt* in the source control database.
 
-    2.  Rename the local *a.txt* to *b.txt*.
+    2. Rename the local *a.txt* to *b.txt*.
 
-    3.  Call the `SccGet` function for both *a.txt* and *b.txt*.
+    3. Call the `SccGet` function for both *a.txt* and *b.txt*.
 
-    4.  Because *a.txt* does not exist in the source control database, the local version cache is purged of the missing *a.txt* version information.
+    4. Because *a.txt* does not exist in the source control database, the local version cache is purged of the missing *a.txt* version information.
 
-    5.  The *b.txt* file being checked out is merged with the contents of the local *b.txt* file.
+    5. The *b.txt* file being checked out is merged with the contents of the local *b.txt* file.
 
-    6.  The updated *b.txt* file can now be checked in.
+    6. The updated *b.txt* file can now be checked in.
 
 ## See also
 - [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

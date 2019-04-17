@@ -33,9 +33,9 @@ If an item file being opened by a project is intrinsically bound to the particul
   
 3. If your text buffer (document data object) is already open and you want to attach another view to it, you are responsible for hooking up that view. The recommended approach to instantiating a view (document view object) from the project, is as follows:  
   
-    1.  Call `QueryService` on the <xref:Microsoft.VisualStudio.Shell.Interop.SLocalRegistry> service to get a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2> interface.  
+    1. Call `QueryService` on the <xref:Microsoft.VisualStudio.Shell.Interop.SLocalRegistry> service to get a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2> interface.  
   
-    2.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A> method to create an instance of the document view class.  
+    2. Call the <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A> method to create an instance of the document view class.  
   
 4. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.CreateDocumentWindow%2A> method, specifying your document view object.  
   

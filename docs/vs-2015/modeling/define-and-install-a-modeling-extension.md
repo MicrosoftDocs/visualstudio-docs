@@ -46,9 +46,9 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 2. Create a VSIX project.  
   
-    1.  In **Solution Explorer**, in the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, in the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
 3. Set the VSIX project as the startup project of the solution.  
   
@@ -62,9 +62,9 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 7. On the **Assets** tab, add your components to the Visual Studio extension.  
   
-    1.  Choose **New**.  
+    1. Choose **New**.  
   
-    2.  For a component with code, set these fields in the **Add New Asset** dialog box:  
+    2. For a component with code, set these fields in the **Add New Asset** dialog box:  
   
         |||  
         |-|-|  
@@ -108,9 +108,9 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 1. In your computer, find the **.vsix** file that was built by your extension project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of your project, and then choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of your project, and then choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

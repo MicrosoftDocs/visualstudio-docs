@@ -593,13 +593,13 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
    2. In the `<Properties>` section:
 
-      1.  Add a `<Property/>` element for each new type of reference.
+      1. Add a `<Property/>` element for each new type of reference.
 
-      2.  Set the `Id` attribute to the name of the new reference attribute.
+      2. Set the `Id` attribute to the name of the new reference attribute.
 
-      3.  Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.
+      3. Add the `IsReference` attribute and set it to `True` to make the reference appear on the code element's **Go To Reference** shortcut menu.
 
-      4.  Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.
+      4. Use the `Label` attribute to specify the display text on the code element's **Go To Reference** shortcut menu.
 
       For example:
 

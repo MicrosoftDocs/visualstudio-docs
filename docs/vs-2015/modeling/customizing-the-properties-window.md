@@ -110,14 +110,14 @@ You can customize the appearance and behavior of the properties window in your d
   
 2. Add the type to the **Domain Types** list, unless you have already done so.  
   
-   1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
+   1. Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
   
         A new entry appears under the **Domain Types** node.  
   
        > [!WARNING]
        >  The menu item is on the DSL root node, not the **Domain Types** node.  
   
-   2.  Set the name and the namespace of the new type in the Properties window.  
+   2. Set the name and the namespace of the new type in the Properties window.  
   
 3. Add a domain property to a domain class in the usual manner.  
   
@@ -158,11 +158,11 @@ You can customize the appearance and behavior of the properties window in your d
   
 4. To test the editor, verify that users can open the file name editor to edit your domain property.  
   
-    1.  Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.  
+    1. Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.  
   
-    2.  In the Properties window, select the domain property. The value field shows an ellipsis **[...]**.  
+    2. In the Properties window, select the domain property. The value field shows an ellipsis **[...]**.  
   
-    3.  Click the ellipsis. A file dialog box appears. Select a file and close the dialog box. The file path is now the value of the domain property.  
+    3. Click the ellipsis. A file dialog box appears. Select a file and close the dialog box. The file path is now the value of the domain property.  
   
 ### Defining your own property editor  
  You can define your own editor. You would do this to  allow the user either to edit a type that you have defined, or to edit a standard type in a special way. For example, you could allow the user to input a string that represents a formula.  

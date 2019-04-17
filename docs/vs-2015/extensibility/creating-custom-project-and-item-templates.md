@@ -65,9 +65,9 @@ Starting in Visual Studio 2017, scanning for custom project and item templates i
 
 3. Set the project template project as an asset of the VSIX project. Open the .vsixmanifest file. Go to the **Assets** tab and click **New**.
 
-    1.  Set the **Type** field to **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
+    1. Set the **Type** field to **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
 
-    2.  For source, select the **A project in current solution** option, and then select the project that contains your template.
+    2. For source, select the **A project in current solution** option, and then select the project that contains your template.
 
 4. Build the solution, and press F5. The experimental instance appears.
 

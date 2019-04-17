@@ -130,33 +130,33 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 3. ###### If the product version is 14.0.24720.0 or 14.0.24720.1, follow these steps:
 4. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run: `vs_enterprise.exe /Layout d:\IDEinstall`.)
 
-   2.  After the /Layout is complete, copy the new image to a new location.
+   2. After the /Layout is complete, copy the new image to a new location.
 
-   3.  Create and modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
+   3. Create and modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
 
-   4.  On the client machine, run the following  command to update the copy of Visual Studio that you previously installed: "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
+   4. On the client machine, run the following  command to update the copy of Visual Studio that you previously installed: "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
 
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 5. ###### For other product version values, follow these steps:
 6. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run `vs-enterprise.exe /Layout d:\IDEinstall`.)
 
-   2.  After the /Layout is complete, copy the new image to a new location. (Or, you can override the existing network image instead.)
+   2. After the /Layout is complete, copy the new image to a new location. (Or, you can override the existing network image instead.)
 
-   3.  Create and then modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
+   3. Create and then modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
 
-   4.  If you copy the image to a new location, you must run the following command on the client machine to update the copy of Visual Studio that you previously installed:  "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
+   4. If you copy the image to a new location, you must run the following command on the client machine to update the copy of Visual Studio that you previously installed:  "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
 
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 
-   5.  If you override the existing network image, you can run the command as listed in the previous step, or you can do the following:
+   5. If you override the existing network image, you can run the command as listed in the previous step, or you can do the following:
 
-   6.  1.  Open **Control Panel**, and then choose **Programs and Features**.
+   6. 1.  Open **Control Panel**, and then choose **Programs and Features**.
 
-       2.  Choose **Visual Studio**, and then choose **Change**.
+       2. Choose **Visual Studio**, and then choose **Change**.
 
-       3.  After Visual Studio starts in maintenance mode, click **Modify**.
+       3. After Visual Studio starts in maintenance mode, click **Modify**.
 
-       4.  The latest Update should appear on the Features page. Select the other features that you want to install, click **Next**, and then click **Update** to install both the update and the new features.
+       4. The latest Update should appear on the Features page. Select the other features that you want to install, click **Next**, and then click **Update** to install both the update and the new features.
 
 ## Registering the product
  After installation is complete, you can register your copy of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] from within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].

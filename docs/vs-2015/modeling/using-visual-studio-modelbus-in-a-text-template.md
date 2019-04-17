@@ -33,39 +33,39 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 
 1. If the target DSL solution does not have a **ModelBusAdapter** project, create one by using the Modelbus Extension wizard:
 
-    1.  Download and install the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+    1. Download and install the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
-    2.  Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
+    2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 
-    3.  In the dialog box, select **I want to expose this DSL to the ModelBus**. You can select both options if you want this DSL both to expose its models and to consume references to other DSLs.
+    3. In the dialog box, select **I want to expose this DSL to the ModelBus**. You can select both options if you want this DSL both to expose its models and to consume references to other DSLs.
 
-    4.  Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
+    4. Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
 
-    5.  Click **Transform All Templates**.
+    5. Click **Transform All Templates**.
 
-    6.  Rebuild the solution.
+    6. Rebuild the solution.
 
 2. If you want to access the DSL both from a text template and from other code, such as command, duplicate the **ModelBusAdapter** project:
 
-    1.  In Windows Explorer, copy and paste the folder that contains **ModelBusAdapter.csproj**.
+    1. In Windows Explorer, copy and paste the folder that contains **ModelBusAdapter.csproj**.
 
-    2.  Rename the project file (for example, to **T4ModelBusAdapter.csproj**).
+    2. Rename the project file (for example, to **T4ModelBusAdapter.csproj**).
 
-    3.  In **Solution Explorer**, right-click the solution node, point to **Add**, and then click **Existing Project**. Locate the new adapter project, **T4ModelBusAdapter.csproj**.
+    3. In **Solution Explorer**, right-click the solution node, point to **Add**, and then click **Existing Project**. Locate the new adapter project, **T4ModelBusAdapter.csproj**.
 
-    4.  In each `*.tt` file of the new project, change the namespace.
+    4. In each `*.tt` file of the new project, change the namespace.
 
-    5.  Right-click the new project in Solution Explorer and then click Properties. In the properties editor, change the names of the generated assembly and the default namespace.
+    5. Right-click the new project in Solution Explorer and then click Properties. In the properties editor, change the names of the generated assembly and the default namespace.
 
-    6.  In the DslPackage project, add a reference to the new adapter project so that it has references to both adapters.
+    6. In the DslPackage project, add a reference to the new adapter project so that it has references to both adapters.
 
-    7.  In DslPackage\source.extension.tt, add a line that references your new adapter project.
+    7. In DslPackage\source.extension.tt, add a line that references your new adapter project.
 
         ```
         <MefComponent>|T4ModelBusAdapter|</MefComponent>
         ```
 
-    8.  **Transform All Templates** and rebuild the solution. No build errors should occur.
+    8. **Transform All Templates** and rebuild the solution. No build errors should occur.
 
 3. In the new adapter project, add references to the following assemblies:
 
@@ -212,7 +212,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 8. Open T4ModelBusAdapter\AdapterManager.tt:
 
-   1.  Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>. This part of the file now resembles the following.
+   1. Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>. This part of the file now resembles the following.
 
        ```
        namespace <#= CodeGenerationUtilities.GetPackageNamespace(this.Dsl) #>.T4ModelBusAdapters
@@ -226,7 +226,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
        ```
 
-   2.  Near the end of the file, insert the following additional attribute in front of class AdapterManager.
+   2. Near the end of the file, insert the following additional attribute in front of class AdapterManager.
 
         `[Microsoft.VisualStudio.Modeling.Integration.HostSpecific(HostName)]`
 
@@ -286,11 +286,11 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 2. Add a copy of Sample.provide to the **MBConsumer\Debugging** project. This is necessary because a ModelBus reference must refer to a file in the same solution.
 
-   1.  Right-click the Debugging project, point to **Add**, and then click **Existing Item**.
+   1. Right-click the Debugging project, point to **Add**, and then click **Existing Item**.
 
-   2.  In the **Add Item** dialog, set the filter to **All Files (\*.\*)**.
+   2. In the **Add Item** dialog, set the filter to **All Files (\*.\*)**.
 
-   3.  Navigate to `MBProvider\Debugging\Sample.provide` and then click **Add**.
+   3. Navigate to `MBProvider\Debugging\Sample.provide` and then click **Add**.
 
 3. Open `Sample.consume`.
 
@@ -340,13 +340,13 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
      Notice the following points:
 
-    1.  The `hostSpecific` and `inherits` attributes of the `template` directive must be set.
+    1. The `hostSpecific` and `inherits` attributes of the `template` directive must be set.
 
-    2.  The consumer model is accessed in the usual manner through the directive processor that was generated in that DSL.
+    2. The consumer model is accessed in the usual manner through the directive processor that was generated in that DSL.
 
-    3.  The assembly and import directives must be able to access ModelBus and the types of the provider DSL.
+    3. The assembly and import directives must be able to access ModelBus and the types of the provider DSL.
 
-    4.  If you know that many MBRs are linked to the same model, it is better to call CreateAdapter only one time.
+    4. If you know that many MBRs are linked to the same model, it is better to call CreateAdapter only one time.
 
 2. Save the template. Verify that the resulting text file resembles the following.
 

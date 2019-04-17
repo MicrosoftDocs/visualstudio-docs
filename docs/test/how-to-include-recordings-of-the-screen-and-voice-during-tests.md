@@ -44,11 +44,11 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 6. Under **Screen Recording Quality**, configure the following drop-down list options:
 
-    1.  **Frame rate:** Specify how many frames per second you want to use in the screen and voice recording. The default value is 4 frames per second. Values between 2 and 20 can be specified.
+    1. **Frame rate:** Specify how many frames per second you want to use in the screen and voice recording. The default value is 4 frames per second. Values between 2 and 20 can be specified.
 
-    2.  **Bit rate:** Specify how many kilobytes per second to use in the screen and voice recording. The default value is 512. Values between 512 and 10,000 can be specified.
+    2. **Bit rate:** Specify how many kilobytes per second to use in the screen and voice recording. The default value is 512. Values between 512 and 10,000 can be specified.
 
-    3.  **Quality(1-100):** You can specify the quality of the screen and voice recording by selecting a range between 1 and 100. The default is 50 (mid-range).
+    3. **Quality(1-100):** You can specify the quality of the screen and voice recording by selecting a range between 1 and 100. The default is 50 (mid-range).
 
 7. Choose **OK**. The diagnostic trace collector settings are now configured and saved for your test settings.
 
