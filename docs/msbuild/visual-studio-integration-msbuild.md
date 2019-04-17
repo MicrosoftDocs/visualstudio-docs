@@ -120,7 +120,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Design-time target execution
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] attempts to execute targets with certain names when it loads a project. These targets include `Compile`, `ResolveAssemblyReferences`, `ResolveCOMReferences`, `GetFrameworkPaths`, and `CopyRunEnvironmentFiles`. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs these targets so that the compiler can be initialized to provide IntelliSense, the debugger can be initialized, and references displayed in Solution Explorer can be resolved. If these targets are not present, the project will load and build correctly but the design-time experience in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will not be fully functional.
 
-##  Edit project files in Visual Studio
+## Edit project files in Visual Studio
  To edit an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project directly, you can open the project file in the Visual Studio XML editor.
 
 #### To unload and edit a project file in Visual Studio

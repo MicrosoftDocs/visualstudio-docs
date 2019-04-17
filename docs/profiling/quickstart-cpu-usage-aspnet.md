@@ -147,7 +147,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     }
     ```
 
-##  Step 1: Collect profiling data
+## Step 1: Collect profiling data
 
 1. First, set a breakpoint in your app on this line of code in the `Simple` constructor:
 

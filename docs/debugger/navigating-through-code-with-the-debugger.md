@@ -38,7 +38,7 @@ If you break in code that doesn't have source or symbol (*.pdb*) files loaded, t
 
 You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or [run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All).
 
-##  Step through code
+## Step through code
 
 The debugger step commands help you inspect your app state or find out more about its execution flow.
 

@@ -17,7 +17,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 
  Because items are named by the item type to which they belong, the terms "item" and "item value" can be used interchangeably.
 
-##  Create items in a project file
+## Create items in a project file
  You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
 
 ```xml
@@ -37,7 +37,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>
 ```
 
-##  Create items during execution
+## Create items during execution
  Items that are outside [Target](../msbuild/target-element-msbuild.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:
 
 - Any task can emit an item. To emit an item, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has an `ItemName` attribute.
@@ -46,12 +46,12 @@ MSBuild items are inputs into the build system, and they typically represent fil
 
 - Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.
 
-##  Reference items in a project file
+## Reference items in a project file
  To reference item types throughout the project file, you use the syntax @(\<ItemType>). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
 
  By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax @(\<ItemType>, '\<separator>') to specify a separator other than the default. For more information, see [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).
 
-##  Use wildcards to specify items
+## Use wildcards to specify items
 
 You can use the `**`, `*`, and `?` wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.
 
@@ -75,7 +75,7 @@ If you would like to include literal `*` or `?` characters in an item without wi
 
 For more information about wildcard characters, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
 
-##  Use the Exclude attribute
+## Use the Exclude attribute
  Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every *.cs* file in the directory to the CSFile item type, except the *DoNotBuild.cs* file.
 
 ```xml
@@ -93,7 +93,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
  For more information, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
 
-##  Item metadata
+## Item metadata
  Items may contain metadata in addition to the information in the `Include` and `Exclude` attributes. This metadata can be used by tasks that require more information about the items or to batch tasks and targets. For more information, see [Batching](../msbuild/msbuild-batching.md).
 
  Metadata is a collection of key-value pairs that are declared in the project file as child elements of an item element. The name of the child element is the name of the metadata, and the value of the child element is the value of the metadata.
@@ -150,7 +150,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
  For more information, see [Transforms](../msbuild/msbuild-transforms.md).
 
-##  Item definitions
+## Item definitions
  Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items *one.cs* and *three.cs* the metadata `BuildDay` with the value "Monday". The code gives the item *two.cs* the metadata `BuildDay` with the value "Tuesday".
 
 ```xml
@@ -169,7 +169,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
  For more information, see [Item definitions](../msbuild/item-definitions.md).
 
-##  Attributes for items in an ItemGroup of a Target
+## Attributes for items in an ItemGroup of a Target
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
 
 ### <a name="BKMK_RemoveAttribute"></a> Remove attribute

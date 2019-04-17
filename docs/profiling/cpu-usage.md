@@ -25,7 +25,7 @@ Usually, the local machine best replicates installed app execution. For Windows 
 >[!NOTE]
 >Windows 7 or later is required to use the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
-##  Collect CPU usage data
+## Collect CPU usage data
 
 1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Machine** as the deployment target.
 

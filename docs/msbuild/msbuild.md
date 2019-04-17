@@ -44,7 +44,7 @@ You can write code in the Visual Studio IDE but run builds by using MSBuild. As 
 
  This topic provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-##  Use MSBuild at a command prompt
+## Use MSBuild at a command prompt
  To run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] at a command prompt, pass a project file to *MSBuild.exe*, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file *MyProj.proj* with the `Configuration` property set to `Debug`.
 
 ```cmd
@@ -56,7 +56,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 > [!IMPORTANT]
 >  Before you download a project, determine the trustworthiness of the code.
 
-##  Project file
+## Project file
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses an XML-based project file format that's straightforward and extensible. The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.
 
  The following sections describe some of the basic elements of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format. For a tutorial about how to create a basic project file, see [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
@@ -135,7 +135,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 
  In more advanced scenarios, targets can be used to describe relationships among one another and perform dependency analysis so that whole sections of the build process can be skipped if that target is up-to-date. For more information about targets, see [Targets](../msbuild/msbuild-targets.md).
 
-##  Build logs
+## Build logs
  You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).
 
 ## Use MSBuild in Visual Studio

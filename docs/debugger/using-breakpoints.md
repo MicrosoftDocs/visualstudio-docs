@@ -214,7 +214,7 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 - To export all breakpoints, deselect all boxes and leave the **Search** field blank. Select the **Export all breakpoints matching the current search criteria** icon, and save the file.
 - To import breakpoints, in the **Breakpoints** window, select the **Import breakpoints from a file** icon, navigate to the XML file location, and select **Open**.
 
-##  Breakpoint conditions
+## Breakpoint conditions
  You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).
 
 **To set a breakpoint condition:**

@@ -55,7 +55,7 @@ using (ShimsContext.Create()) {
 }
 ```
 
-##  How to use shims
+## How to use shims
 
 ### <a name="AddFakes"></a> Add Fakes Assemblies
 
@@ -414,7 +414,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 }
 ```
 
-##  Change the default behavior
+## Change the default behavior
 
 Each generated shim type holds an instance of the `IShimBehavior` interface, through the `ShimBase<T>.InstanceBehavior` property. The behavior is used whenever a client calls an instance member that was not explicitly shimmed.
 
@@ -439,7 +439,7 @@ ShimsBehaviors.Current =
     ShimsBehaviors.DefaultValue;
 ```
 
-##  Detect environment accesses
+## Detect environment accesses
 
 It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimsBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
 
@@ -455,7 +455,7 @@ ShimMyClass.BehaveAsNotImplemented();
 
 Shim types apply to all threads in the AppDomain and don't have thread affinity. This is an important fact if you plan to use a test runner that support concurrency: tests involving shim types cannot run concurrently. This property is not enforced by the Fakes runtime.
 
-##  Call the original method from the shim method
+## Call the original method from the shim method
 
 Imagine that we wanted to actually write the text to the file system after validating the file name passed to the method. In that case, we would want to call the original method in the middle of the shim method.
 

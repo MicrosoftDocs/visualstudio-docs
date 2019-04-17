@@ -49,7 +49,7 @@ You can add more web performance and unit tests to the text mix of the scenario 
 
 5. (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
-##  Remove tests from a scenario
+## Remove tests from a scenario
  ![Removing a test from an existing load test](../test/media/ltest_removetest.png)
 
 ### To remove tests from a scenario
