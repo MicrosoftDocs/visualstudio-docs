@@ -1,0 +1,159 @@
+---
+title: XAML Designer extensibility migration
+ms.date: 04/16/2019
+ms.topic: conceptual
+author: 
+ms.author: 
+manager: 
+ms.workload:
+  - "???"
+---
+
+# XAML Designer extensibility migration
+
+The XAML designer in Visual Studio 2019 supports two different architectures, designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to this new surface isolation architecture introduces breaking changes to the third-party extensibility model, which are outlined in this document.
+
+The **designer isolation** architecture is currently used by the WPF designer for .NET Framework applications and supports `.design.dll` extensions. User code, control libraries, and third-party extensions are loaded in an external process (`XDesProc.exe`) along with the actual designer code and designer panels.
+
+The **surface isolation** architecture is used by the UWP designer and will be used by the WPF designer for .NET Core applications. In surface isolation, only user code and control libraries are loaded in a separate process while the designer and its panels are loaded in the Visual Studio process (`DevEnv.exe`). The runtime used for executing user code and control libraries is different from the .NET Framework running the actual designer and third-party extensibility code
+
+![extensibility-migration-architecture](media/xaml-designer-extensibility-migration-architecture.png)
+
+Resulting from this architecture transition, third-party extensions will no longer be loaded into the same process as the user runtime controls and therefore can no longer have direct dependencies on runtime control libraries or directly access runtime objects. Extensions that were previously written for the designer isolation architecture using the `Microsoft.Windows.Extensibility.dll` API will have to be migrated to a new approach to work with the new surface isolation architecture. In practice, an existing extension will need to be compiled against new extensibility API assemblies. Access to runtime control types via `typeof()` or runtime instances must be replaced or removed as control libraries are now loaded in a different process.
+
+## New Extensibility API Assemblies
+
+The new extensibility API assemblies are similar to the existing extensibility API assemblies but follow a different naming scheme in order to differentiate them. Similarly, the namespaces have changed in to reflect the new assembly names.
+
+| Designer Isolation API assembly            | New Surface Isolation API assembly                   |
+|:------------------------------------------ |:---------------------------------------------------- |
+| Microsoft.Windows.Design.Extensibility.dll | Microsoft.VisualStudio.DesignTools.Extensibility.dll |
+| Microsoft.Windows.Design.Interaction.dll   | Microsoft.VisualStudio.DesignTools.Interaction.dll   |
+
+## New file extension and discovery
+
+Instead of using the `.design.dll` file extension, new surface extensions will be discovered by using the `.designtools.dll` file extension. `.design.dll` and `.designtools.dll` extensions can exist in the same `Design` subfolder.
+
+While third-party control libraries are compiled for the actual target runtime (.NET Core or UWP), the `.designtools.dll` extension should always be complied as a .NET Framework assembly.
+
+## Decoupling attribute tables from runtime types
+
+The surface isolation extensibility model does not allow for the extensions to depend on actual control libraries and hence cannot reference types from the control library. For example, `MyLibrary.designtools.dll` should not have a dependency on `MyLibrary.dll`.
+
+Such dependencies were most common when registering metadata for types via attribute tables. Extension code referencing control library types directly via `typeof()` is substituted in the new APIs by using string-based type names:
+
+```csharp
+using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
+using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
+using Microsoft.VisualStudio.DesignTools.Extensibility.Model;
+
+[assembly: ProvideMetadata(typeof(ExtensibilityTestUwp.DesignTools.AttributeTableProvider))]
+
+public class AttributeTableProvider : IProvideAttributeTable
+{
+  public AttributeTable AttributeTable
+  {
+    get
+    {
+      AttributeTableBuilder builder = new AttributeTableBuilder();
+      builder.AddCustomAttributes("MyLibrary.MyControl", new DescriptionAttribute(Strings.Description);
+      builder.AddCustomAttributes("MyLibrary.MyControl", new FeatureAttribute(typeof(MyControlDefaultInitializer));
+      return builder.CreateTable();
+    }
+  }
+}
+```
+
+## Feature Providers and Model API
+
+Feature providers are implemented in extension assemblies and loaded in the Visual Studio process. `FeatureAttribute` will continue to reference feature provider types directly using `typeof()`.
+
+Since feature providers are now loaded in a process different from the actual runtime code and control libraries, they will no longer be able to access runtime objects directly. Instead, all such interactions will have to be converted to using the corresponding Model-based APIs. The Model API has been updated and access to `System.Type` or `object` is either no longer available or has been replaced with `TypeIdentifier` and `TypeDefinition`. 
+
+`TypeIdentifier` represents a string without an assembly name identifying a type. A `TypeIdenfifier` can be resolved to a `TypeDefinition` to query additional information about the type. `TypeDefinition` instances can't be cached in extension code.
+
+```csharp
+TypeDefinition type = ModelFactory.ResolveType(
+    item.Context, new TypeIdentifier("MyLibrary.MyControl"));
+TypeDefinition buttonType = ModelFactory.ResolveType(
+    item.Context, new TypeIdentifier("System.Windows.Controls.Button"));
+if (type != null && buttonType != type.IsSubclassOf(buttonType))
+{
+}
+```
+
+APIs removed from the surface isolation extensibility API set:
+
+* `ModelFactory.CreateItem(EditingContext context, object item)`
+* `ViewItem.PlatformObject`
+* `ModelProperty.DefaultValue`
+
+APIs that use `TypeIdentifier` instead of `System.Type`:
+
+* `ModelFactory.CreateItem(EditingContext context, Type itemType, params object[] arguments)`
+* `ModelFactory.CreateItem(EditingContext context, Type itemType, CreateOptions options, params object[] arguments)`
+* `ModelFactory.CreateStaticMemberItem(EditingContext context, Type type, string memberName)`
+* `ViewItem.ItemType`
+* `ModelEvent.EventType`
+* `ModelEvent.IsEventOfType(Type type)`
+* `ModeItem.IsItemOfType(Type type)`
+* `ModelParent.CanParent(EditingContext context, ModelItem parent, Type childType)`
+* `ModelParent.FindParent(EditingContext context, Type childType, ModelItem startingItem)`
+* `ModelParent.FindParent(Type childType, GestureData gestureData)`
+* `ModelProperty.IsPropertyOfType(Type type)`
+* `ParentAdpater.CanParent(ModelItem parent, Type childType)`
+* `ParentAdapter.RedirectParent(ModelItem parent, Type childType)`
+
+APIs that use `TypeIdentifier` instead of `System.Type` and no longer support constructor arguments:
+
+* `ModelFactory.CreateItem(EditingContext context, TypeIdentifier typeIdentifier, params object[] arguments)`
+* `ModelFactory.CreateItem(EditingContext context, TypeIdentifier typeIdentifier, CreateOptions options, params object[] arguments)`
+
+APIs that use `TypeDefinition` instead of `System.Type`:
+
+* `ModelFactory.ResolveType(EditingContext context, TypeIdentifier typeIdentifier)`
+* `ValueTranslationService.GetProperties(Type itemType)`
+* `ValueTranslationService.HasValueTranslation(Type itemType, PropertyIdentifier identifier)`
+* `ValueTranslationService.TranslatePropertyValue(Type itemType, ModelItem item, PropertyIdentifier identifier, object value)`
+* `ModelService.Find(ModelItem startingItem, Type type)`
+* `ModelService.Find(ModelItem startingItem, Predicate<Type> match)`
+* `ModelItem.ItemType`
+* `ModelProperty.AttachedOwnerType`
+* `ModelProperty.PropertyType
+* `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type)`
+* `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type, Predicate<Type> match)`
+* `FeatureManager.InitializeFeatures(Type type)`
+* `FeatureManager.GetCustomAttributes(Type type, Type attributeType)`
+* `AdapterService.GetAdapter<TAdapterType>(Type itemType)`
+* `AdapterService.GetAdapter(Type adapterType, Type itemType)`
+
+APIs that use `ModelItem` instead of `object`:
+
+* `ModelItemCollection.Insert(int index, object value)`
+* `ModelItemCollection.Remove(object value)`
+* `ModelItemDictionary.Add(object key, object value)`
+* `ModelItemDictionary.ContainsKey(object key)`
+* `ModelItemDictionary.Remove(object key)`
+* `ModelItemDictionary.TryGetValue(object key, out ModelItem value)`
+
+Known primitive types like `int`, `string` or `Thickness` can be passed to the Model API as .NET Framework instances and will be converted to the corresponding object in the target runtime. For example:
+
+```csharp
+using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
+using Microsoft.VisualStudio.DesignTools.Extensibility.Model;
+
+public class MyControlDefaultInitializer : DefaultInitializer
+{
+  public override void InitializeDefaults(ModelItem item)
+  { 
+    item.Properties["Width"].SetValue(800d);
+    base.InitializeDefaults(item);
+  }
+}
+```
+
+## Limited support for .design.dll extensions
+
+If any `.designtools.dll` extension is discovered for a control library, it will get loaded first and discovery for `.design.dll` extensions is skipped.
+
+If no `.designtools.dll` extensions are present but a `.design.dll` extension is found, the XAML Language Service will attempt to load this assembly to extract the attribute table information to support basic editor and property inspector scenarios. This mechanism is limited in scope. It doesn't allow loading of designer isolation extensions to execute feature providers but might provide basic support for existing WPF control libraries.
