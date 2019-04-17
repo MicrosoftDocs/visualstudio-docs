@@ -76,9 +76,12 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 ### Generate unit test project and unit test stubs
 
-1. From the code editor window, right-click and choose **Create Unit Tests** from the right-click menu.
+1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
 
-    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+   ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
